@@ -1,0 +1,1877 @@
+canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],type-int,useLv-int,userType-int
+0,"Moneda de Lumiterra
+",0,item-icon-10,10,LNCO,1,4,0,0
+0,"El término EXP se refiere a los puntos de experiencia, que son recompensas obtenidas por personajes o jugadores en juegos al completar misiones, derrotar monstruos y subir de nivel. EXP se puede utilizar para aumentar los niveles de los personajes, los niveles de habilidad, mejorar los atributos del personaje y mejorar la experiencia general del juego. En muchos juegos, EXP es un recurso esencial y crucial para los jugadores.
+",0,item-icon-11,11,EXP,1,4,0,0
+1,"La lotería es una forma de juego que implica el sorteo de boletos para determinar premios. Los participantes compran boletos de lotería con combinaciones de números o símbolos, con la esperanza de ganar recompensas como dinero. Los boletos ganadores de la lotería se determinan mediante un sorteo aleatorio. A pesar de esto, muchas personas disfrutan participando en actividades de lotería porque pueden brindar emoción y fortunas inesperadas que podrían cambiar la vida de alguien.
+",0,item-icon-12,12,Boleto de lotería,1,4,0,1
+0,"USDC, abreviatura de USD Coin, es una stablecoin vinculada al dólar estadounidense (USD) y se mantiene en una proporción de 1:1, lo que significa que por cada token USDC emitido, hay un equivalente de un dólar estadounidense en reserva en una institución financiera regulada. USDC tiene como objetivo proporcionar un activo digital estable, seguro y transparente para diversos casos de uso como el comercio, las remesas o los pagos.
+",0,item-icon-13,13,USDC,1,4,0,0
+1,"La batería es un dispositivo que puede almacenar energía eléctrica y convertirla en electricidad, generalmente compuesto por electrodos positivos y negativos, electrolitos y una carcasa.
+",0,item-icon-21,21,Batería,1,4,0,1
+1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta baba verde es un material crudo raro que se puede utilizar para fabricar varios equipos de combate. Tiene una adhesión extremadamente fuerte y puede unirse a una variedad de materiales.
+",0,item-icon-30,30,Slime verde de nivel 1,1,4,1,1
+1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Las enredaderas de calabaza son un material crudo que se puede utilizar para fabricar armas y armaduras. Tienen una textura resistente y una excelente resistencia, proporcionando una protección confiable y poder de ataque en el combate.
+",0,item-icon-31,31,Vides de calabaza de nivel 1,1,4,1,1
+1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este tipo de alambre de espino es un material crudo utilizado para el combate, que se puede utilizar para fabricar estructuras defensivas o equipos con alta resistencia y durabilidad.
+",0,item-icon-32,32,Malla de alambre de nivel 1,1,4,1,1
+1,"Alguien vio una vez este material en el desierto.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Los colmillos de gato de las minas son un material crudo afilado que se puede utilizar para fabricar armas y armaduras. Provienen de animales felinos que viven en las minas y poseen fuertes habilidades de combate y agilidad.
+",0,item-icon-33,33,Colmillo afilado de gato minero de nivel 2,1,4,2,1
+1,"Alguien vio una vez este material en las praderas.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta película ligera es un material crudo utilizado para el combate y se puede utilizar para fabricar varios equipos defensivos y armas.
+",0,item-icon-34,34,Película delgada y ligera de nivel 2,1,4,2,1
+1,"Alguien vio una vez este material en el cañón.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+La Corona de Demonio de Hierba es un material de combate de segundo nivel hecho de la cabeza de los Demonios de Hierba y posee poderosas habilidades de combate.
+",0,item-icon-35,35,Corona de demonio de hierba de nivel 2,1,4,2,1
+1,"Alguien vio una vez este material en el Bosque Negro.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta garra de gancho está hecha de metal duro, muy afilada y adecuada para su uso en batalla. Su forma es delgada y puede penetrar fácilmente la defensa del enemigo.
+",0,item-icon-36,36,Garra delgada de gancho de nivel 3,1,4,3,1
+1,"Alguien vio una vez este material en el Bosque Rojo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+El pelaje rojo es una piel de alta calidad con un excelente rendimiento defensivo, adecuada para fabricar equipos de combate. Es un material crudo raro con una alta dificultad de recolección.
+",0,item-icon-37,37,Piel carmesí de nivel 3,1,4,3,1
+1,"Alguien vio una vez este material en la Montaña de Nieve.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este es un material crudo raro que se puede obtener en batallas. Tiene una apariencia como de hielo y nieve, con una textura peluda que hace que la gente quiera tocarlo.
+",0,item-icon-38,38,Pelusa de nieve de hielo de nivel 3,1,4,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una arma afilada y resistente fabricada con piedra sólida, perfecta para el combate cercano. Su peso y equilibrio facilitan su manejo, entregando golpes poderosos con precisión.
+",0,item-icon-40,40,Espada de piedra de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Un arma afilada y resistente forjada en hierro, capaz de cortar a través de los enemigos con facilidad. Su peso proporciona una sensación satisfactoria, permitiendo golpes poderosos que dejan a los oponentes tambaleándose.
+",0,item-icon-41,41,Espada de hierro de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Un arma poderosa forjada en cristal puro, capaz de cortar a través de los enemigos con facilidad. Su hoja brillante refleja la luz, deslumbrando a los oponentes e infundiendo miedo en sus corazones. Con cada golpe, la Espada de Cristal desata una combinación mortal de velocidad y precisión.",0,item-icon-42,42,Espada de cristal de nivel 3,"1,2,3",1,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una espada de madera resistente fabricada para golpes rápidos y precisos, perfecta para principiantes que perfeccionan sus habilidades de combate. Su diseño ligero permite movimientos ágiles, lo que la convierte en una opción ideal para aquellos que buscan un arma versátil y confiable.
+",0,item-icon-39,39,Espada de madera de nivel 0,1,1,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Un elegante accesorio que añade un toque de elegancia a cualquier conjunto. Elaborado con detalles intrincados, este anillo irradia sofisticación y encanto. Su diseño único seguramente llamará la atención de otros entusiastas de la moda.
+",0,item-icon-43,43,Anillo de cabeza astillado de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Este sombrero está hecho de un material único que se siente increíblemente suave contra la piel. Proporciona un ajuste lujoso y cómodo, lo que lo hace perfecto para largas sesiones de juego.
+",0,item-icon-44,44,Sombrero suave de piel de cristal de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Un resistente casco elaborado con cristales brillantes, que proporciona una protección excepcional sin comprometer la agilidad. Su resplandor encantador otorga al portador una visión mejorada en mazmorras oscuras.
+",0,item-icon-45,45,Casco de piedra de cristal de nivel 3,"1,2,3",1,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta armadura, con su diseño de cristal agrietado, emana un aura de resistencia y poder. Su superficie brillante refleja la luz, cautivando a todos los que la ven. Un símbolo de fuerza y resistencia, es imprescindible para cualquier guerrero experimentado.
+",0,item-icon-46,46,Armadura de cristal agrietada de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta armadura está elaborada con un material similar al cristal, que proporciona una protección excepcional sin sacrificar la movilidad. Su diseño elegante y su superficie brillante la convierten en una verdadera obra maestra de la artesanía. Con la Armadura de Piel de Cristal, te sentirás invencible en el campo de batalla.
+",0,item-icon-47,47,Armadura de piel de cristal de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una armadura formidable forjada con cristales encantados, que proporciona una protección incomparable contra ataques físicos y mágicos. Su superficie brillante refleja la luz, deslumbrando a los enemigos e infundiendo miedo en sus corazones. Al usar esta armadura, el portador adquiere un aura de invencibilidad, convirtiéndose en una fuerza imparable en el campo de batalla.
+",0,item-icon-48,48,Armadura de piedra de cristal de nivel 3,"1,2,3",1,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una pieza de ropa única hecha de cristales delicados, esta falda de hierba añade un toque de elegancia a cualquier conjunto. Su textura agrietada le da un aire misterioso y encantador, lo que la convierte en un imprescindible para los aventureros amantes de la moda.
+",0,item-icon-49,49,Falda de hierba de cristal agrietada de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones tienen una textura única similar al cristal, lo que les da una apariencia elegante y futurista. La tela suave se siente fresca contra la piel, proporcionando máximo confort durante las batallas intensas. Con su diseño llamativo, estos pantalones seguramente te harán destacar en el campo de batalla.
+",0,item-icon-50,50,Pantalón de piel de cristal de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estas mallas están elaboradas con una rara piedra de cristal, que proporciona una protección y durabilidad incomparables. Su superficie brillante refleja la luz, haciendo que el portador parezca etéreo y misterioso.
+",0,item-icon-51,51,Armadura de pierna de cristal de nivel 3,"1,2,3",1,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Un accesorio brillante con delicadas grietas, que emana un aire de misterio y resistencia. Su superficie fracturada refleja la fuerza y determinación del portador, convirtiéndolo en un símbolo de resistencia y perseverancia.
+",0,item-icon-52,52,Pulsera de cristal agrietada de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Este guante está elaborado con un material único similar al cristal, que proporciona una textura suave y lisa que mejora el agarre y la destreza. Su diseño ligero permite un movimiento sin esfuerzo, lo que lo convierte en un favorito entre los jugadores que buscan precisión y comodidad.
+",0,item-icon-53,53,Guante de piel de cristal de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Un poderoso guantelete impregnado de la energía de los cristales, que otorga al portador una fuerza mejorada y la capacidad de manipular fuerzas elementales. Domina el poder crudo de la naturaleza y desata ataques devastadores contra tus enemigos. ¡Domina el campo de batalla con el Guantelete de Piedra de Cristal!
+",0,item-icon-54,54,Guantelete de piedra de cristal de nivel 3,"1,2,3",1,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos están hechos de un material único que proporciona un excelente agarre y tracción, lo que los hace perfectos para caminar sobre superficies resbaladizas. El diseño de cristal agrietado añade un toque de elegancia y misticismo a tu conjunto. Póntelos y siéntete seguro al pisar cualquier terreno.
+",0,item-icon-55,55,Zapatos de hierba de cristal agrietados de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estas botas están elaboradas con un material único que mejora la agilidad y proporciona una excelente protección. Su diseño elegante permite un movimiento rápido, lo que las convierte en las favoritas de los aventureros. Las Botas de Piel de Cristal son imprescindibles para cualquier jugador que busque estilo y funcionalidad.
+",0,item-icon-56,56,Botas de piel de cristal de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos están elaborados con un diseño único de piedra de cristal, añadiendo un toque de elegancia a cada paso. Las piedras brillantes incrustadas en los zapatos crean un efecto hipnotizante, haciendo que seas el centro de atención dondequiera que vayas. Deslízate en estos zapatos exquisitos y siente el encanto que aportan a tu conjunto.
+",0,item-icon-57,57,Zapatos de piedra de cristal de nivel 3,"1,2,3",1,3,1
+1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta piedra es de primera calidad y se puede utilizar para recolectar materiales en bruto como árboles.
+",0,item-icon-58,58,Mineral de nivel 1,1,4,1,1
+1,"Alguien vio una vez este material en el cañón.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+El mineral de hierro negro es un material en bruto secundario que se puede obtener mediante la minería. Tiene un color negro, una textura dura y contiene abundantes elementos de hierro.
+",0,item-icon-59,59,Hierro oscuro de nivel 2,1,4,2,1
+1,"Alguien vio una vez este material en la montaña nevada.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este es un mineral de cristal rojo de tercer nivel que se puede recolectar en el bosque. Es un material en bruto importante que se puede utilizar para fabricar diversos equipos y objetos.
+",0,item-icon-60,60,Mineral de cristal rojo de nivel 3,1,4,3,1
+1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este tipo de madera se utiliza generalmente para hacer muebles simples o materiales de construcción. Su textura es relativamente suave, lo que facilita su procesamiento y tallado.",0,item-icon-62,62,Madera ordinaria de nivel 1,1,4,1,1
+1,"Alguien una vez vio este material en el desierto.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Los árboles del desierto son un tipo de árbol que crece en el desierto. Por lo general, son de baja altura, con troncos gruesos y hojas verdes claras. Se pueden utilizar para recolectar materiales en bruto y son adecuados para fabricar algunos objetos especiales.
+",0,item-icon-63,63,Madera de árbol del desierto de nivel 2,1,4,2,1
+1,"Alguien una vez vio este material en el Bosque Rojo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+La madera oscura es un tipo premium de madera con texturas negras y una textura dura, adecuada para fabricar muebles y artesanías de alta gama. Solo se puede cosechar en puntos de recolección específicos, lo cual es difícil pero también muy rentable.
+",0,item-icon-64,64,Madera oscura de nivel 3,1,4,3,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este tipo de bambú es un producto agrícola y una planta utilizada para fabricar diversos materiales agrícolas. Es muy común en la agricultura y puede crecer muy rápido.
+",0,item-icon-70,70,Bambú de nivel 1,1,4,1,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este artículo es un material en bruto producido en la agricultura, generalmente se puede cosechar en el nivel 1. Su forma se asemeja a tres hojas, por lo que se le llama trébol. Se puede utilizar para fabricar muchos objetos diferentes y es un recurso muy útil.
+",0,item-icon-71,71,Trébol de nivel 1,1,4,1,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta zanahoria es un producto agrícola de nivel 1 que se puede obtener en el campo agrícola. Es una materia prima importante.
+",0,item-icon-72,72,Zanahoria de nivel 1,1,4,1,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Las plantas carnívoras son un tipo único de planta que puede atraer y capturar insectos como fuente de alimento. Se consideran uno de los productos agrícolas y se pueden utilizar como materia prima en el campo agrícola.
+",0,item-icon-73,73,Planta carnívora de nivel 2,1,4,2,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este algodón es de segunda calidad y es adecuado para fabricar textiles.
+",0,item-icon-74,74,Algodón de nivel 2,1,4,2,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este fruto de la paciencia es un material en bruto producido en la agricultura, que se puede plantar en una granja de nivel 2 y produce de 2 a 3 frutas cada vez. Tiene las características de una gran durabilidad y un largo tiempo de conservación, y es un material importante para fabricar diversos alimentos y medicinas.
+",0,item-icon-75,75,Fruta de resistencia de nivel 2,1,4,2,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este chile picante es de nivel 3 y extremadamente picante, adecuado para aquellos a quienes les gusta la comida picante. Se produce mediante la agricultura y se puede cultivar en campos. Como materia prima agrícola, se puede utilizar para fabricar diversos productos de chile, como salsa de chile y aceite de chile.
+",0,item-icon-76,76,Pimiento picante de nivel 3,1,4,3,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este fruto duro es un material agrícola de alto rendimiento que se puede utilizar para fabricar diversos alimentos y medicinas. Tiene una textura dura y componentes nutricionales ricos, lo que lo convierte en una parte indispensable de la producción agrícola.
+",0,item-icon-77,77,Fruta dura de nivel 3,1,4,3,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este hongo azul es una especie de hongo premium que generalmente se produce en el sector agrícola. Es un material en bruto de gran valor que se puede utilizar para fabricar medicamentos y alimentos gourmet.
+",0,item-icon-78,78,Seta azul de nivel 3,1,4,3,1
+1,"Puedes obtener este artículo mediante la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta es una herramienta para la agricultura que puede ayudarte a labrar el suelo y eliminar las malas hierbas fácilmente. Es adecuada para principiantes.
+",0,item-icon-79,79,Azada de madera de nivel 0,1,1,0,1
+1,"Puedes obtener este artículo mediante la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+La azada de hierro es una herramienta agrícola duradera hecha de hierro resistente. Es esencial para labrar el suelo y cultivar cultivos de manera eficiente en el juego.
+",0,item-icon-80,80,Azada de hierro de nivel 1,1,1,1,1
+1,"Puedes obtener este artículo mediante la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta azada puede ayudar a los agricultores a cultivar la tierra más fácilmente, pero al mismo tiempo también trae algunas maldiciones misteriosas.
+",0,item-icon-81,81,Azada maldita de nivel 2,"1,2",1,2,1
+1,"Puedes obtener este artículo mediante la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+La azada bendita es una herramienta poderosa que mejora la eficiencia agrícola y aumenta el rendimiento de los cultivos. Irradia un aura divina, impregnando cada golpe con bendiciones que promueven un crecimiento saludable y cosechas abundantes. Con esta azada encantada en mano, los jugadores pueden cultivar su tierra con facilidad y experimentar la alegría de cosechar las recompensas de su arduo trabajo.",0,item-icon-82,82,Azada bendita de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Esta maceta de agua de madera es un equipo adecuado para uso agrícola, que se puede utilizar para contener agua limpia o agua de riego.
+",0,item-icon-83,83,Caldera de madera de nivel 0,1,1,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Un utensilio de cocina resistente y confiable hecho de hierro duradero. Se calienta rápidamente y de manera uniforme, lo que permite una cocción eficiente. Su mango ergonómico garantiza un agarre cómodo al verter.
+",0,item-icon-84,84,Caldera de hierro de nivel 1,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Una tetera misteriosa que trae desgracia a aquellos que la poseen, causando caos y desesperación. Su aura oscura emana una presencia espeluznante, tentando al destino con cada infusión. Ten cuidado, ya que su poder maldito puede convertir incluso a los más afortunados en víctimas de su propia perdición.
+",0,item-icon-85,85,Caldera maldita de nivel 2,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Un artefacto sagrado que trae bendiciones y buena fortuna a su dueño, mejorando su suerte y otorgándole oportunidades inesperadas. Se dice que esta tetera mística irradia energía positiva, atrayendo prosperidad y felicidad dondequiera que vaya. Una posesión apreciada para aquellos que buscan un toque de intervención divina en sus vidas.
+",0,item-icon-86,86,Caldera bendita de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Una herramienta resistente hecha de madera, perfecta para la minería y la recolección de recursos de manera eficiente. Su durabilidad garantiza que no se rompa fácilmente, lo que la convierte en una opción confiable para cualquier aventurero.
+",0,item-icon-87,87,Pico de madera de nivel 0,1,1,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Una herramienta resistente hecha de hierro, perfecta para la minería y la excavación de recursos valiosos. Su filo afilado y su construcción duradera la convierten en un elemento esencial para cualquier aventurero. Con este pico en la mano, podrás excavar más profundamente y descubrir tesoros ocultos.
+",0,item-icon-88,88,Pico de hierro de nivel 1,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este pico maldito puede ayudarte a recolectar árboles y minerales más rápido. Es un equipo de nivel 2 con poderosas habilidades de recolección.
+",0,item-icon-89,89,Pico maldito de nivel 2,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+El Pico Bendito, una herramienta sagrada dotada de poder divino, corta sin esfuerzo las rocas más duras, dejando a su paso un rastro de fragmentos brillantes. Su hoja encantada brilla con una luz radiante, guiando a los mineros hacia tesoros ocultos en lo profundo de la tierra. Con cada golpe, otorga bendiciones de fortuna y prosperidad, convirtiéndose en un compañero esencial para cualquier aventurero.
+",0,item-icon-90,90,Pico bendito de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este hacha es una herramienta de madera, adecuada para trabajos de recolección al aire libre. Es un tipo de equipo que puede ayudarte a completar tareas de recolección de manera más eficiente.
+",0,item-icon-91,91,Hacha de madera de nivel 0,1,1,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este hacha de hierro se puede usar para talar árboles y es una herramienta esencial para recolectar madera. También se puede utilizar como equipo para aumentar la efectividad en combate.
+",0,item-icon-92,92,Hacha de hierro de nivel 1,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+La nitidez de esta hacha ha alcanzado el nivel 2, lo que facilita la recolección de árboles. Sin embargo, también ha sido maldecida, por lo que se requiere precaución al usarla.
+",0,item-icon-93,93,Hacha maldita de nivel 2,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Un arma poderosa otorgada con bendiciones divinas, capaz de cortar cualquier obstáculo con facilidad. Su hoja afilada brilla con una luz sagrada, infundiendo miedo en los corazones de los enemigos. El Hacha Bendita es un verdadero símbolo de fuerza y rectitud en el campo de batalla.
+",0,item-icon-94,94,Hacha bendita de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este sombrero elegante trae buena suerte a quien lo lleva, agregando un toque de encanto a cualquier atuendo. Sus colores vibrantes y su diseño intrincado lo convierten en un accesorio imprescindible para los jugadores a la moda. ¡Póntelo y deja que la suerte esté de tu lado!
+",0,item-icon-98,98,Sombrero de trébol de la suerte de nivel 1,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este sombrero elegante está hecho de algodón suave y cómodo, trayendo suerte a quien lo lleva. Sus colores vibrantes y su diseño intrincado lo convierten en un accesorio de moda para cualquier atuendo. Con este sombrero, te sentirás seguro y listo para enfrentar cualquier aventura.
+",0,item-icon-99,99,Sombrero de algodón de la suerte de nivel 2,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este resistente casco trae buena suerte a quien lo lleva, proporcionando protección adicional y aumentando sus posibilidades de encontrar tesoros valiosos. Sus colores vibrantes y su construcción duradera lo convierten en un favorito entre los jugadores aventureros.
+",0,item-icon-100,100,Casco duro de la suerte de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Una chaqueta elegante perfecta para aventuras al aire libre, que brinda calidez y protección contra los elementos. Su material duradero y su diseño práctico la convierten en un elemento imprescindible para cualquier aventurero. Mantente cómodo y elegante con esta Chaqueta de Cosecha.
+",0,item-icon-101,101,Chaqueta de agricultura de nivel 1,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Una chaqueta resistente diseñada para agricultores, que brinda protección contra los elementos y terrenos difíciles. Sus costuras reforzadas y su resistente tela la hacen ideal para el trabajo al aire libre. Mantente cómodo y enfocado en tus tareas con esta confiable prenda de vestir.",0,item-icon-102,102,Chaqueta de agricultura de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Esta chaqueta está especialmente diseñada para personas que trabajan en agricultura. Cuenta con protección, transpirabilidad y durabilidad, lo que hace que tu trabajo en los campos sea más cómodo y seguro.
+",0,item-icon-103,103,Chaqueta de agricultura de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones están diseñados para agricultores, brindando comodidad y durabilidad para largas horas de trabajo en los campos. Hechos con materiales de alta calidad, ofrecen una excelente protección contra la suciedad y las manchas. Con su diseño práctico y ajuste adaptable, estos pantalones son imprescindibles para cualquier agricultor dedicado.
+",0,item-icon-104,104,Pantalones de agricultura de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones agrícolas están diseñados específicamente para el trabajo agrícola, con características como resistencia al agua y a la abrasión, lo que hace que tu trabajo en el campo sea más cómodo y seguro.
+",0,item-icon-105,105,Pantalones de agricultura de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Este par de pantalones está diseñado específicamente para trabajadores agrícolas, hecho con materiales de alta calidad que son cómodos y duraderos. Cuenta con funciones como resistencia al agua, resistencia a las manchas y resistencia a los pinchazos, protegiendo eficazmente el cuerpo y la ropa del trabajador. Además, tiene múltiples bolsillos y diseños detallados para facilitar el transporte de herramientas y mejorar la eficiencia del trabajo.
+",0,item-icon-106,106,Pantalones de agricultura de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Este guante es adecuado para su uso en los campos y puede proteger las manos de espinas, suciedad y otros objetos afilados. También tiene una función antideslizante, lo que te hace más estable en suelos mojados.
+",0,item-icon-107,107,Guantes de agricultura de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes están diseñados específicamente para tareas agrícolas, brindando un excelente agarre y protección contra espinas y superficies rugosas. Están hechos con materiales duraderos para resistir largas horas de trabajo en los campos. Con estos guantes, puedes manejar cualquier trabajo agrícola con facilidad y comodidad.
+",0,item-icon-108,108,Guantes de agricultura de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Este guante es adecuado para el trabajo agrícola, brindando un agarre cómodo y protección para ayudar a los agricultores a completar diversas actividades agrícolas.
+",0,item-icon-109,109,Guantes de agricultura de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos de colección están especialmente diseñados para la recolección. Al usarlos, te vuelves más ágil al caminar en el bosque y puedes recolectar fácilmente los recursos que necesitas.
+",0,item-icon-113,113,Zapatos de recolección de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos de colección están especialmente diseñados para la recolección. Pueden ayudarte a recolectar recursos de manera más rápida y eficiente, haciendo que tu viaje de recolección sea más fluido.
+",0,item-icon-114,114,Zapatos de recolección de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos están diseñados para recolectores ávidos, brindando agilidad y comodidad durante largas expediciones. Con su construcción duradera pero liviana, permiten a los jugadores atravesar sin esfuerzo diversos terrenos y recolectar recursos con facilidad. Los zapatos también cuentan con un agarre especializado que garantiza estabilidad, evitando resbalones y caídas incluso en entornos peligrosos.
+",0,item-icon-115,115,Zapatos de recolección de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Aumenta el crecimiento de tus cultivos con esta fórmula potente, asegurando una cosecha abundante en poco tiempo. Mejora tu eficiencia agrícola y observa cómo tus plantas prosperan con este poderoso fertilizante.
+",98,item-icon-128,128,Fertilizante acelerado de nivel 0,1,3,0,1
+1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+El fertilizante para aumentar los rendimientos de los cultivos es un consumible diseñado específicamente para la producción agrícola en el nivel LV0 y superior. Puede proporcionar nutrientes suficientes para los cultivos, promover su crecimiento y desarrollo, y mejorar su rendimiento y calidad.
+",98,item-icon-129,129,Fertilizante potenciador de rendimiento de nivel 0,1,3,0,1
+1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Esta fórmula rica en nutrientes nutre profundamente las plantas, promoviendo un crecimiento saludable y flores vibrantes. Mejora la retención de humedad del suelo, asegurando que las plantas se mantengan hidratadas durante períodos más largos. Impulsa la vitalidad de tu jardín con este fertilizante esencial.
+",98,item-icon-130,130,Fertilizante hidratante de nivel 0,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción se puede usar durante las batallas y proporciona un efecto de curación menor.
+",0,item-icon-134,134,Poción de curación secundaria de nivel 0,1,3,1,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción puede mejorar tu poder de ataque.
+",0,item-icon-135,135,Poción de ataque secundaria de nivel 0,1,3,1,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tu agilidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Te brinda un impulso temporal de velocidad, convirtiéndote en una fuerza formidable en el campo de batalla. Úsala estratégicamente para superar a tus oponentes y obtener ventaja en el combate.
+",0,item-icon-136,136,Poción de velocidad de movimiento secundaria de nivel 0,1,3,1,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tu probabilidad de golpe crítico, permitiéndote infligir golpes devastadores a tus enemigos. Es imprescindible para cualquier jugador que busque maximizar su producción de daño. Úsala sabiamente y observa cómo tus enemigos se desmoronan ante ti.
+",0,item-icon-137,137,Poción de golpe crítico secundaria de nivel 0,1,3,1,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción es un salvavidas en el juego, proporcionando un impulso muy necesario a la salud de tu personaje. Restaura instantáneamente una cantidad significativa de HP, permitiéndote continuar tu aventura sin interrupciones. Con su color vibrante y sabor refrescante, es el remedio perfecto para cualquier situación desesperada.
+",0,item-icon-138,138,Poción de vida secundaria de nivel 0,1,3,1,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción puede proporcionar un efecto defensivo temporal, adecuado para situaciones de emergencia en batalla.
+",0,item-icon-139,139,Poción de defensa secundaria de nivel 0,1,3,1,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
+",97,item-icon-146,146,Semilla de bambú de nivel 1,1,3,1,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Las semillas de trébol son consumibles agrícolas utilizados para plantar trébol y son adecuados para su uso en tierras de baja calidad. Pueden crecer rápidamente y producir un alto valor nutricional en entornos adecuados.
+",97,item-icon-147,147,Semilla de trébol de nivel 1,1,3,1,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Este tipo de semillas de zanahoria se pueden usar para cultivar zanahorias frescas y deliciosas. Son adecuadas para su uso en jardines caseros o pequeñas granjas y se pueden plantar en primavera y otoño. Las zanahorias cultivadas a partir de estas semillas son sabrosas y nutritivas.
+",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,3,1,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Las semillas de planta de jarra son un consumible agrícola que se puede usar para cultivar plantas de jarra. Esta planta es una planta carnívora que puede absorber nutrientes de los insectos. Después de plantar, se necesita suficiente luz solar y agua para un crecimiento suave.
+",97,item-icon-149,149,Semilla de Drosera pigmea de nivel 2,1,3,2,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Este tipo de semilla de algodón se puede plantar en campos y cosechar para obtener algodón que se utilizará en la producción textil.
+",97,item-icon-150,150,Semilla de algodón de nivel 2,1,3,2,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Esta semilla tiene el potencial de hacer crecer una planta espinosa y resistente. Promete un toque de belleza desértica en tu jardín. Plántala y observa cómo se despliegan las maravillas de la naturaleza.
+",97,item-icon-151,151,Semilla de cactus de nivel 2,1,3,2,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Esta semilla es adecuada para plantar en ambientes cálidos, crece rápidamente y tiene una excelente calidad. Su sabor es extremadamente picante, lo que puede agregar un sabor único a los alimentos, convirtiéndola en la mejor opción para los amantes del chile.
+",97,item-icon-152,152,Semilla de pimiento picante explosivo de nivel 3,1,3,3,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Una semilla resistente y duradera que cuenta con una fuerte cáscara externa, perfecta para la protección y longevidad. Su naturaleza robusta garantiza que pueda resistir condiciones adversas y prosperar en cualquier entorno. Esta semilla es un símbolo de resistencia y fortaleza.
+",97,item-icon-153,153,Semilla de fruta de cáscara dura de nivel 3,1,3,3,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
+-------
+Esta semilla promete un vibrante hongo azul, listo para dar un toque de color a tu jardín. Plántala y observa cómo crece en un hongo fascinante que cautivará tus sentidos.
+",97,item-icon-154,154,Semilla de seta azul de nivel 3,1,3,3,1
+1," Un poderoso amuleto que mejora tus habilidades mágicas, permitiéndote lanzar hechizos con mayor precisión y potencia. Irradia un aura de energía mística, empoderándote en tu búsqueda de la victoria.
+",0,item-icon-161,161,Talismán de nivel 0,"1,2,3,4,5",4,0,1
+1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Este poderoso fertilizante mejora el crecimiento de las plantas y aumenta los rendimientos, permitiendo que los cultivos florezcan en poco tiempo. Proporciona nutrientes esenciales y promueve un desarrollo de raíces fuertes, lo que resulta en cosechas más saludables y abundantes. Experimenta un crecimiento acelerado como nunca antes con esta fórmula avanzada.
+",98,item-icon-131,131,Fertilizante acelerado avanzado de nivel 0,1,3,0,1
+1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Este poderoso fertilizante aumenta significativamente los rendimientos de los cultivos, resultando en cosechas abundantes. Mejora el crecimiento de las plantas y maximiza la absorción de nutrientes, asegurando cultivos más saludables y robustos. Con este fertilizante avanzado, los agricultores pueden esperar mejoras impresionantes en su productividad agrícola.",98,item-icon-132,132,Fertilizante potenciador de rendimiento avanzado de nivel 0,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Este fertilizante está especialmente formulado para proporcionar una hidratación profunda y nutrición a las plantas, lo que resulta en un crecimiento más saludable y vibrante. Su fórmula avanzada garantiza una retención óptima de la humedad en el suelo, promoviendo raíces fuertes y follaje exuberante. Dale a tus plantas el impulso definitivo de hidratación con este fertilizante avanzado de hidratación.
+",98,item-icon-133,133,Fertilizante hidratante avanzado de nivel 0,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción se puede usar en batalla y puede curar tus heridas.
+",0,item-icon-140,140,Poción de tratamiento de nivel 1,1,3,2,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tus habilidades de combate, aumentando tu poder de ataque durante un tiempo limitado. Es imprescindible para cualquier aventurero que busque infligir golpes devastadores a sus enemigos. Úsala sabiamente y observa cómo tus enemigos tiemblan ante ti.
+",0,item-icon-141,141,Poción de ataque de nivel 1,1,3,2,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tu velocidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Es imprescindible para cualquier aventurero que busque obtener una ventaja en las batallas.
+",0,item-icon-142,142,Poción de rapidez de nivel 1,1,3,2,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tus habilidades de combate, aumentando tus posibilidades de infligir golpes devastadores a tus enemigos. Aumenta tu tasa de golpes críticos, permitiéndote infligir un daño masivo en las batallas. Con esta poción, la victoria está a tu alcance.
+",0,item-icon-143,143,Poción de golpe crítico de nivel 1,1,3,2,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción puede restaurar tus puntos de salud. Funciona mejor cuando se usa durante las batallas.
+",0,item-icon-144,144,Poción de vida de nivel 1,1,3,2,1
+1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Un poderoso elixir que mejora tus capacidades defensivas, proporcionando un escudo temporal contra los ataques enemigos. Esta poción aumenta tu armadura y resistencia, permitiéndote resistir incluso las batallas más difíciles. Úsala sabiamente para cambiar el rumbo a tu favor y salir victorioso.
+",0,item-icon-145,145,Poción de defensa de nivel 1,1,3,2,1
+1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+La arcilla es un suelo altamente maleable que se utiliza comúnmente para hacer cerámica, ladrillos y otros materiales de construcción. Por lo general, tiene tonos de gris-marrón o rojo-marrón y tiene una textura fina con una alta concentración de materia orgánica y minerales. Al recolectar arcilla, es importante mantener el suelo húmedo para un mejor modelado y procesamiento.
+",0,item-icon-61,61,Arcilla de nivel 1,1,4,1,1
+1,"Alguien una vez vio este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta resina es un líquido altamente viscoso que se puede utilizar para fabricar adhesivos, recubrimientos y selladores, entre otras cosas. Por lo general, se recolecta de los árboles y requiere herramientas especiales para su recolección.
+",0,item-icon-65,65,Resina de nivel 1,1,4,1,1
+1,"Alguien una vez vio este material en el cañón.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una planta herbácea perenne que crece en la naturaleza, con una fuerte resistencia a la sequía. Sus hojas gruesas contienen agua y nutrientes abundantes, lo que la convierte en una materia prima importante para fabricar bebidas alcohólicas y medicinas.
+",0,item-icon-68,68,Maguey de nivel 3,1,4,3,1
+1,"Alguien una vez vio este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta fibra vegetal es un material en bruto recolectado que generalmente se obtiene de los árboles. Se puede utilizar para fabricar una variedad de objetos diferentes, como cuerdas, telas y papel.
+",0,item-icon-66,66,Fibra vegetal de nivel 1,1,4,1,1
+1,"Alguien una vez vio este material en la Montaña de Nieve.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Estos hongos crecen en las regiones polares frías y tienen un color azul claro. Tienen un sabor delicioso y son adecuados para cocinar.
+",0,item-icon-67,67,Hongo congelado de nivel 2,1,4,2,1
+1,"Alguien una vez vio este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material en bruto que se puede utilizar para fabricar diversos objetos.
+",0,item-icon-69,69,Telaraña de nivel 1,1,4,1,1
+1," Este único Talismán NFT es un poderoso artefacto que mejora tus habilidades y aumenta tu suerte en el juego. Irradia un aura de energía mística, empoderándote para superar desafíos y alcanzar la grandeza. Equípalo para desbloquear un potencial oculto y embarcarte en un viaje extraordinario.
+",0,item-icon-162,162,Talismán NFT #1 de nivel 0,1,4,0,1
+1," Este Talismán NFT #2 es un poderoso artefacto que mejora las habilidades de tu personaje, proporcionando un impulso a su fuerza y agilidad. Irradia un aura mística, atrayendo la suerte y la fortuna a tus aventuras. Con este talismán a tu lado, te convertirás en una fuerza imparable en el juego.
+",0,item-icon-163,163,Talismán NFT #2 de nivel 0,1,4,0,1
+1," Este Talismán NFT #4 es un poderoso artefacto que mejora tus habilidades y aumenta tu rendimiento en las batallas. Irradia un aura de protección, otorgándote una mayor defensa y resistencia contra los ataques enemigos. Con este talismán a tu lado, te convertirás en una fuerza imparable en el campo de batalla.
+",0,item-icon-164,164,Talismán NFT #4 de nivel 0,"2,1",4,0,1
+1," Este Talismán NFT #8 es un poderoso artefacto que mejora las habilidades de tu personaje, otorgándole una mayor fuerza y agilidad. Es un artículo imprescindible para cualquier jugador serio que busque dominar el juego. Equipa este talismán y observa cómo tu personaje se vuelve imparable en el campo de batalla.
+",0,item-icon-165,165,Talismán NFT #8 de nivel 0,"2,1",4,0,1
+1," Este único Talismán NFT posee poderes extraordinarios, mejorando tus habilidades y proporcionando un impulso a tu juego. Es un activo valioso que puede mejorar en gran medida tu experiencia de juego, haciéndote imparable en tus aventuras virtuales. Desbloquea su potencial y conviértete en una fuerza a tener en cuenta en el mundo de los videojuegos.
+",0,item-icon-166,166,Talismán NFT #16 de nivel 0,"3,1",4,0,1
+1,"Este Talismán NFT #32 es un artefacto poderoso que mejora tus habilidades y aumenta tu suerte en el juego. Irradia un aura mística, atrayendo tesoros raros y otorgándote una ventaja en las batallas. Con este talismán a tu lado, la victoria está al alcance de tu mano.
+",0,item-icon-167,167,Talismán NFT #32 de nivel 0,"3,1",4,0,1
+1,"Este único Talismán NFT posee poderes increíbles, mejorando tus habilidades y otorgándote una ventaja en las batallas. Su diseño intrincado y aura mística lo convierten en un objeto codiciado entre los aventureros. Desbloquea su potencial oculto y libera su magia para conquistar nuevos reinos.
+",0,item-icon-168,168,Talismán NFT #64 de nivel 0,"4,1",4,0,1
+1,"Este único Talismán NFT posee poderes extraordinarios, mejorando tus habilidades y otorgándote una ventaja en las batallas. Su diseño intrincado y aura mística lo convierten en un objeto codiciado entre los aventureros. Desbloquea su potencial oculto y emprende un emocionante viaje con este notable artefacto.
+",0,item-icon-169,169,Talismán NFT #128 de nivel 0,"4,1",4,0,1
+1,"Este único Talismán NFT posee poderes extraordinarios que pueden mejorar tu experiencia de juego. Desbloquea habilidades ocultas y obtén una ventaja sobre tus oponentes con este objeto raro y codiciado. Eleva tu viaje de juego con el Talismán NFT #256.
+",0,item-icon-170,170,Talismán NFT #256 de nivel 0,"5,1",4,0,1
+1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
+",0,item-icon-171,171,Boleto #1 de nivel 0,1,4,0,1
+1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
+",0,item-icon-172,172,Boleto #2 de nivel 0,1,4,0,1
+1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
+",0,item-icon-173,173,Boleto #3 de nivel 0,1,4,0,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Esta planta marchita puede ser causada por falta de agua o nutrientes. Se puede utilizar para hacer fertilizantes o hierbas medicinales, y también se puede utilizar como alimento para animales.
+",0,item-icon-174,174,Planta marchita de nivel 0,1,4,0,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este artículo es una sustancia orgánica que actúa como fertilizante y se puede utilizar en la producción agrícola. Se obtiene mediante la fermentación y descomposición de excrementos animales y contiene nutrientes ricos como nitrógeno, fósforo, potasio, etc.
+",0,item-icon-176,176,Heces de nivel 0,1,4,0,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este brote tierno se cosecha de los cactus y tiene un color verde claro y una textura suave. Es una materia prima agrícola importante que se puede utilizar para hacer medicinas, alimentos y productos de belleza, entre otros.
+",0,item-icon-177,177,Brote de cactus de nivel 1,1,4,1,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este tornillo se obtuvo de la cría de monstruos y se puede utilizar como materia prima para la agricultura.
+",0,item-icon-178,178,Tornillo de nivel 1,1,4,1,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Los brotes de calabaza son materia prima agrícola producida a partir de la cría de monstruos, presentando una apariencia verde tierna y siendo ricos en nutrientes. Se pueden utilizar para hacer una variedad de alimentos y medicinas.
+",0,item-icon-179,179,Brote de calabaza de nivel 1,1,4,1,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+La piedra de cristal azul es una materia prima agrícola rara que proviene de la cría de monstruos. Puede ayudar a los agricultores a mejorar la tasa de crecimiento y el rendimiento de los cultivos y es una parte indispensable de la producción agrícola.
+",0,item-icon-180,180,Piedra de cristal azul de nivel 2,1,4,2,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este monstruo de tipo hierba, Broadleaf, es una criatura linda que es una producción ganadera en la producción agrícola, proporcionando abundantes materias primas.
+",0,item-icon-181,181,Hoja de monstruo de hierba de nivel 2,1,4,2,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Esta miel se produce en las granjas de monstruos y se puede utilizar como materia prima agrícola.
+",0,item-icon-182,182,Miel de nivel 2,1,4,2,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este artículo se produce a partir del rancho de monstruos y es una materia prima utilizada en la agricultura. Es una pluma oscura de nivel 3.
+",0,item-icon-183,183,Pluma de sombra de nivel 3,1,4,3,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este magma solidificado se produce mediante la cría de monstruos y se puede utilizar para la producción de materias primas agrícolas. Tiene alta viscosidad y resistencia a altas temperaturas, lo que lo hace adecuado para su uso en condiciones extremas.
+",0,item-icon-184,184,Lava solidificada de nivel 3,1,4,3,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este fragmento de escarcha se obtiene de la cría de monstruos y es un material utilizado en la agricultura. Tiene tres niveles de calidad y se puede utilizar para hacer varios objetos a base de hielo.
+",0,item-icon-185,185,Fragmento de escarcha de nivel 3,1,4,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este cepillo es una herramienta diseñada específicamente para la agricultura, que puede limpiar fácilmente cultivos y tierras.
+",0,item-icon-95,95,Cepillo de nivel 0,1,1,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Esta recortadora puede ayudar a los agricultores a esquilar lana de manera rápida y fácil, mejorando la eficiencia de esquila. Es adecuada para diferentes tipos de ovejas.
+",0,item-icon-96,96,Cortadora de pelo de nivel 0,1,1,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Un dispositivo portátil utilizado por los agricultores para extraer leche de las vacas de manera eficiente. Cuenta con un agarre cómodo y un mecanismo de succión que garantiza un proceso de ordeño suave y sin problemas.
+",0,item-icon-97,97,Ordeñadora de nivel 0,1,1,0,1
+1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este cultivo parece haberse podrido y ya no es comestible. Puede haber sido causado por un riego excesivo o una infestación de plagas. Estos cultivos se pueden utilizar como fertilizantes o enterrarlos.
+",0,item-icon-175,175,Cultivo en descomposición de nivel 0,1,4,0,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Este sombrero elegante es perfecto para cualquier aventurero, brindando protección adicional contra los elementos sin sacrificar el estilo. Su ala ancha y correa ajustable garantizan un ajuste cómodo, convirtiéndolo en un accesorio imprescindible para cualquier excursión al aire libre. Fabricado con materiales duraderos, este sombrero está diseñado para resistir las condiciones más difíciles. Su construcción liviana y tejido transpirable te mantienen fresco y protegido durante largas horas de exploración. Con su diseño práctico y aspecto elegante, el sombrero de recolección es imprescindible para cualquier aventurero experimentado.
+",0,item-icon-116,116,Sombrero de recolección de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes están diseñados para recolectores ávidos, permitiéndoles recolectar diversos recursos fácilmente sin ensuciarse las manos. Con un ajuste cómodo y un material duradero, brindan un agarre confiable y protección contra bordes afilados. Ya sea recolectando hierbas o minando minerales, estos guantes son imprescindibles para cualquier recolector dedicado.
+",0,item-icon-126,126,Guantes de recolección de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes están diseñados para recolectores ávidos, brindando un mejor agarre y destreza. Están hechos de materiales duraderos que protegen tus manos de espinas y bordes afilados, permitiéndote recolectar recursos con facilidad y eficiencia. Con estos guantes, nunca más tendrás que preocuparte por ampollas o cortes.
+",0,item-icon-125,125,Guantes de recolección de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones están diseñados para aventureros ávidos, brindando comodidad y flexibilidad durante largos viajes. Con costuras reforzadas y tejido duradero, son perfectos para recolectar recursos en la naturaleza. Mantente ágil y concentrado con estos pantalones esenciales para cualquier explorador dedicado.
+",0,item-icon-122,122,Pantalones de recolección de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones están diseñados para aventureros ávidos, brindando comodidad y flexibilidad durante largos viajes. Fabricados con materiales duraderos, ofrecen una excelente protección contra los elementos sin sacrificar la movilidad. Perfectos para aquellos que buscan recolectar recursos de manera eficiente mientras exploran los vastos paisajes del juego.
+",0,item-icon-124,124,Pantalones de recolección de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones son perfectos para recolectar recursos en el juego, brindando espacio de almacenamiento adicional y durabilidad. Están diseñados con costuras reforzadas y múltiples bolsillos, lo que permite a los jugadores llevar y recolectar diversos materiales sin preocuparse por el desgaste.
+",0,item-icon-123,123,Pantalones de recolección de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes están diseñados para recolectores ávidos, brindando mayor destreza y agarre. Están hechos de un material duradero que ofrece protección contra espinas y objetos afilados. Con estos guantes, puedes recolectar recursos con facilidad y eficiencia.
+",0,item-icon-127,127,Guantes de recolección de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una chaqueta práctica diseñada para aventureros, brindando una excelente protección contra los elementos. Su tejido duradero y costuras reforzadas la hacen ideal para largos viajes y actividades al aire libre. Mantente abrigado y cómodo sin sacrificar la movilidad con esta pieza esencial de equipo.
+",0,item-icon-121,121,Chaqueta de recolección de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una chaqueta práctica diseñada para aventureros, brindando una excelente protección contra los elementos. Su tejido duradero y costuras reforzadas la hacen ideal para largos viajes y actividades al aire libre. Con múltiples bolsillos y correas ajustables, ofrece comodidad y funcionalidad para cualquier entusiasta del aire libre.
+",0,item-icon-120,120,Chaqueta de recolección de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una chaqueta duradera diseñada para aventuras al aire libre, brindando una excelente protección contra los elementos. Su tejido liviano y transpirable garantiza comodidad durante largas horas de exploración. Con múltiples bolsillos y costuras reforzadas, es el compañero perfecto para cualquier aventurero ávido.
+",0,item-icon-119,119,Chaqueta de recolección de nivel 1,1,1,1,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un sombrero elegante que mejora tus habilidades de recolección, facilitando la recolección de recursos en el juego. Un accesorio práctico que aumenta tu eficiencia de recolección, permitiéndote recolectar materiales más rápido y de manera más eficiente.
+",0,item-icon-118,118,Sombrero de recolección de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un sombrero elegante que mejora tus habilidades de recolección, permitiéndote recolectar recursos de manera más eficiente. Su diseño único brinda comodidad y protección, convirtiéndolo en un accesorio imprescindible para cualquier recolector dedicado. Un sombrero práctico diseñado específicamente para tareas de recolección. Su material liviano y transpirable te mantiene fresco y concentrado durante largas horas de recolección.
+",0,item-icon-117,117,Sombrero de recolección de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos agrícolas están diseñados específicamente para trabajadores agrícolas. Cuentan con características antideslizantes, resistentes al desgaste y transpirables, que pueden proteger los pies y mejorar la eficiencia del trabajo.
+",0,item-icon-112,112,Zapatos de agricultura de nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Este zapato agrícola está diseñado específicamente para actividades agrícolas como arar y plantar. Está hecho de materiales de alta calidad que son duraderos, transpirables y cómodos, brindando protección para los pies de los agricultores.
+",0,item-icon-111,111,Zapatos de agricultura de nivel 2,"1,2",1,2,1
+1," Puedes obtener este artículo a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Este zapato agrícola está hecho de materiales de alta calidad, ligero y cómodo, adecuado para usar durante mucho tiempo. La suela es antideslizante y adecuada para diversos campos agrícolas, facilitando tu trabajo.
+",0,item-icon-110,110,Zapatos de agricultura de nivel 1,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un artículo consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, lo que lo convierte en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,3,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para animales es un producto consumible que proporciona los nutrientes necesarios para que los animales mantengan un crecimiento saludable. Es adecuado para diversos animales de granja y mascotas, y puede aumentar su productividad y esperanza de vida.
+",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,3,0,1
+0,"La EXP de agricultura es un valor de experiencia en el juego que se puede obtener a través de actividades agrícolas como el cultivo de cultivos y la cría de animales. Es un factor clave para mejorar las habilidades y niveles agrícolas, y también es una condición necesaria para desbloquear herramientas y equipos agrícolas de nivel superior.
+",0,item-icon-188,188,EXP de agricultura,1,4,0,0
+0,"La EXP de combate se refiere a la experiencia obtenida en las batallas. Puede ayudar a los jugadores a subir de nivel y mejorar sus habilidades, mejorando las habilidades de su personaje. En muchos juegos, la EXP de combate es una de las formas importantes en las que los jugadores pueden mejorar su fuerza.
+",0,item-icon-189,189,EXP de combate,1,4,0,0
+0,"La EXP de recolección es un recurso clave en el juego, desempeñando un papel vital en el aumento de la eficiencia de recolección de recursos y las capacidades del personaje. Los jugadores acumulan experiencia a través de actividades como talar y minar para aumentar los niveles de habilidad de recolección. Los niveles de habilidad determinan la velocidad de recolección, la probabilidad de adquisición de recursos raros y el desbloqueo de habilidades de nivel superior. A medida que avanza el juego, las necesidades del personaje se vuelven más complejas, lo que hace que las habilidades de recolección altas sean esenciales para el apoyo. Además, una experiencia de recolección elevada también contribuye a mejorar las habilidades de ataque. Los jugadores deben aprender continuamente habilidades y mejorar la experiencia de recolección para enfrentar valientemente los desafíos y destacar entre los más fuertes.
+",0,item-icon-190,190,EXP de recolección,1,4,0,0
+1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+",0,item-icon-191,191,Poción de curación cristalizada de nivel 2,1,3,3,1
+1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+",0,item-icon-192,192,Poción de ataque cristalizada de nivel 2,1,3,3,1
+1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+",0,item-icon-194,194,Poción de velocidad cristalizada de nivel 2,1,3,3,1
+1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+",0,item-icon-195,195,Poción de golpe crítico cristalizada de nivel 2,1,3,3,1
+1,"Un elixir potente que restaura la vitalidad y rejuvenece al aventurero cansado, proporcionando una oleada de energía y propiedades curativas. Esta preciosa poción es una línea de vida en situaciones desesperadas, ofreciendo un impulso rápido y refrescante para seguir adelante frente al peligro.
+",0,item-icon-196,196,Poción de vida cristalizada de nivel 2,1,3,3,1
+1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+",0,item-icon-197,197,Poción de defensa cristalizada de nivel 2,1,3,3,1
+1,"Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.
+",0,item-icon-207,207,Esencia de recolección de nivel 1,1,4,1,1
+1,Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.,0,item-icon-208,208,Esencia de recolección de nivel 2,1,4,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este objeto es una esencia utilizada para recolectar materias primas para la síntesis y requiere un nivel 3 para su uso. Se puede obtener recolectando de los árboles y es un recurso muy importante.
+",0,item-icon-209,209,Esencia de recolección de nivel 3,1,4,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia de plantación agrícola se sintetiza cuidadosamente a partir de materias primas agrícolas de alta calidad y es adecuada para la plantación agrícola desde el primer grado. Puede mejorar la tasa de crecimiento y rendimiento de los cultivos, así como aumentar la calidad y el sabor de los mismos. Su uso puede hacer que tus cultivos sean más saludables y prósperos, y hacer que tu producción agrícola sea más eficiente y estable.
+",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,4,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia de plantación agrícola es una mezcla de varias esencias vegetales preciosas, que tiene un efecto milagroso en la promoción del crecimiento de los cultivos y el aumento del rendimiento. Es uno de los materiales básicos indispensables en el campo agrícola y es adecuado para varios tipos de cultivos.
+",0,item-icon-211,211,Esencia de siembra agrícola de nivel 2,1,4,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia de agricultura y ganadería es una mezcla de varias esencias naturales de plantas y animales, que puede mejorar la eficiencia de producción y el rendimiento de la agricultura y la ganadería. Es rica en componentes nutricionales y sustancias bioactivas, que pueden promover el crecimiento saludable de los cultivos y el ganado.
+",0,item-icon-212,212,Esencia de siembra agrícola de nivel 3,1,4,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia se extrae de la agricultura y la ganadería y se puede utilizar para sintetizar otras materias primas agrícolas.
+",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,4,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia se extrae de productos agrícolas y ganaderos de alta calidad, con un valor nutricional y medicinal extremadamente alto. Se puede utilizar para fabricar diversos medicamentos y condimentos relacionados con la agricultura y la ganadería.
+",0,item-icon-214,214,Esencia de ganado agrícola de nivel 2,1,4,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia de combate es una materia prima utilizada para sintetizar equipos de nivel superior, posee poderosas habilidades de combate y es adecuada para batallas de nivel 1.
+",0,item-icon-215,215,Esencia de ganado agrícola de nivel 3,1,4,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta esencia de combate se utiliza para sintetizar equipos de nivel 2, lo que puede mejorar los atributos de combate del equipo. Se sintetiza a partir de materias primas obtenidas durante el combate y es un elemento indispensable en la batalla.
+",0,item-icon-216,216,Esencia de combate de nivel 1,1,4,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Este es un material básico utilizado para sintetizar equipos de combate, que tiene una alta capacidad de combate y puede mejorar el nivel y los atributos del equipo.
+",0,item-icon-217,217,Esencia de combate de nivel 2,1,4,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Este fertilizante puede promover la tasa de crecimiento de los cultivos y es adecuado para cultivos intermedios.
+",0,item-icon-218,218,Esencia de combate de nivel 3,1,4,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Estos fertilizantes están especialmente formulados para mejorar el rendimiento de los cultivos, lo que resulta en cosechas abundantes. Proporcionan nutrientes esenciales y promueven un crecimiento saludable de las plantas, asegurando una productividad óptima para los agricultores. Aumenta tus rendimientos con estos fertilizantes de alta calidad.
+",98,item-icon-219,219,Fertilizante acelerado mejorado de nivel 0,1,3,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Este fertilizante proporciona una mayor retención de humedad para las plantas, asegurando que se mantengan hidratadas y saludables. Promueve un crecimiento y nutrición óptimos sin necesidad de riego constante. Brinda el mejor cuidado a tus plantas con este fertilizante avanzado de hidratación.
+",98,item-icon-220,220,Fertilizante potenciador de rendimiento mejorado de nivel 0,1,3,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Esta esencia de combate es un material utilizado para sintetizar equipos de nivel superior, posee poderosas habilidades de combate y es adecuada para batallas de nivel 1.
+",98,item-icon-221,221,Fertilizante hidratante mejorado de nivel 0,1,3,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Esta es una poción aturdidora.
+",0,item-icon-222,222,Martillo de piedra de nivel 0,1,1,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Esta es una poción viscosa.
+",0,item-icon-223,223,Arco de madera de nivel 0,1,1,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Esta es una poción ardiente.
+",0,item-icon-225,225,Hoz de piedra de nivel 1,1,1,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Este es un destello amarillo.
+",0,item-icon-226,226,Hoz de cobre de nivel 2,1,1,1,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Este es un combo fallido.
+",0,item-icon-227,227,Hoz de hierro de nivel 3,1,1,2,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede desencadenar efectos especiales.
+-------
+Este es un borrado de buff.
+",0,item-icon-228,228,Hoz de cristal de nivel 4,1,1,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Apariencia de moda sin atributos.
+-------",0,item-icon-229,229,Hoz de oro de nivel 5,1,1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+La Guadaña de Diamante es un arma exquisita y magnífica, con su hoja hecha de diamante puro, brillando con una luz cautivadora. La hoja de la guadaña es increíblemente afilada, capaz de cortar sin esfuerzo cualquier obstáculo. Su mango está diseñado de manera intrincada, proporcionando un agarre cómodo, lo que permite una mayor agilidad y facilidad en la batalla. La Guadaña de Diamante no solo posee un poder de ataque formidable, sino que también tiene propiedades mágicas únicas, capaz de desatar ondas de energía mortales, dejando a los enemigos sin escapatoria. Ya sea en batalla o en exhibición, la Guadaña de Diamante es un tesoro notable que captura la atención.
+",0,item-icon-230,230,Hoz de diamante de nivel 6,1,1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+La Guadaña Estrellada, una guadaña que brilla con la luz de las estrellas, con innumerables estrellas brillantes incrustadas en su hoja, emitiendo un resplandor misterioso. Su hoja es increíblemente afilada, capaz de cortar sin esfuerzo cualquier obstáculo. El mango de la guadaña está tallado con exquisitos patrones de constelaciones, dando una sensación de divinidad y solemnidad. Empuñar la Guadaña Estrellada se siente como aprovechar el poder de las estrellas, permitiendo sentir una fuerza y gloria interminables. Ya sea en batalla o en ceremonia, es una excelente elección.
+",0,item-icon-231,231,Guadaña de luz estelar de nivel 7,1,1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Una Bomba
+",347,item-icon-232,232,Bomba,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Poción Aturdir
+",348,item-icon-233,233,Poción de aturdimiento,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Poción Viscosa
+",351,item-icon-234,234,Poción viscosa,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Poción Ardiente
+",352,item-icon-235,235,Poción ardiente,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Destello Amarillo
+",356,item-icon-236,236,Destello amarillo,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Combo Fallido
+",357,item-icon-237,237,Combo fallido,1,3,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Limpiar Buffs
+",358,item-icon-238,238,Borrar mejora,1,3,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-241,241,Cabello de jugador de béisbol profesional,5,1,4,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-242,242,Camiseta de jugador de béisbol profesional,5,1,4,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-243,243,Guantes de jugador de béisbol profesional,5,1,4,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-244,244,Pantalones de jugador de béisbol profesional,5,1,4,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-245,245,Zapatos de jugador de béisbol profesional,5,1,4,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-246,246,Cabello Ya-shiro,5,1,7,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-247,247,Camiseta Ya-shiro,5,1,7,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-248,248,Guantes Ya-shiro,5,1,7,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-249,249,Pantalones Ya-shiro,5,1,7,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-250,250,Zapatos Ya-shiro,5,1,7,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-251,251,Cabello del Barón del Infierno,5,1,8,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-252,252,Camiseta del Barón del Infierno,5,1,8,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-253,253,Guantes del Barón del Infierno,5,1,8,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-254,254,Pantalones del Barón del Infierno,5,1,8,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-255,255,Zapatos del Barón del Infierno,5,1,8,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-257,257,Cabello de Chico Elegante,5,1,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-258,258,Camiseta de Chico Elegante,5,1,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-259,259,Guantes de Chico Elegante,5,1,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-260,260,Pantalones de Chico Elegante,5,1,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-261,261,Zapatos de Chico Elegante,5,1,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-262,262,Cabello de Velocista,5,1,2,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-263,263,Camiseta de Velocista,5,1,2,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-264,264,Guantes de Velocista,5,1,2,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-265,265,Pantalones de Velocista,5,1,2,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-266,266,Zapatos de Velocista,5,1,2,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-267,267,Cabello de Soldado Romano,5,1,1,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-268,268,Camiseta de Soldado Romano,5,1,1,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-269,269,Guantes de Soldado Romano,5,1,1,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-270,270,Pantalones de Soldado Romano,5,1,1,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-271,271,Zapatos de Soldado Romano,5,1,1,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-272,272,Cabello de Niño de la Calle,5,1,3,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-273,273,Camiseta de Niño de la Calle,5,1,3,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-274,274,Guantes de Niño de la Calle,5,1,3,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-275,275,Pantalones de Niño de la Calle,5,1,3,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-276,276,Zapatos de Niño de la Calle,5,1,3,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-277,277,Cabello del Conjunto Woof Woof,5,1,5,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-278,278,Camiseta del Conjunto Woof Woof,5,1,5,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-279,279,Guantes del Conjunto Woof Woof,5,1,5,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-280,280,Pantalones del Conjunto Woof Woof,5,1,5,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-281,281,Zapatos del Conjunto Woof Woof,5,1,5,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-282,282,Cabello de Llama Apasionada,5,1,9,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-283,283,Camiseta de Llama Apasionada,5,1,9,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-284,284,Guantes de Llama Apasionada,5,1,9,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-285,285, Pantalones de Llama Apasionada,5,1,9,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-286,286, Zapatos de Llama Apasionada,5,1,9,1
+1," Puedes obtener este objeto a través de la síntesis.Cuando está equipado, puede mejorar los atributos.",0,item-icon-287,287,Arco de piedra,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.Cuando está equipado, puede mejorar los atributos.",0,item-icon-288,288,Arco de metal,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.Cuando está equipado, puede mejorar los atributos",0,item-icon-289,289,Arco de cristal,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Restaura un poco de energía
+",0,item-icon-295,295,Poción de Restauración de Energía - Pequeña,1,3,1,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Restaura más energía
+",0,item-icon-296,296,Poción de Restauración de Energía - Mediana,1,3,2,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Restaura mucha energía
+",0,item-icon-297,297,Poción de Restauración de Energía - Grande,1,3,3,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una azada dorada brillante, extraordinariamente afilada y duradera. Utilizada para la agricultura, te permite aprovechar fácilmente el poder de la tierra, cultivando cultivos fuertes. También es el orgullo de los agricultores, simbolizando su arduo trabajo y esperanzas de una cosecha abundante.
+",0,item-icon-299,299,Azada Dorada Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un hacha dorada reluciente, con una hoja increíblemente afilada, capaz de derribar sin esfuerzo los árboles más difíciles. Con su peso moderado, es una herramienta estable y flexible, preferida por los recolectores.
+",0,item-icon-300,300,Hacha Dorada Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una herramienta dorada radiante diseñada para la recolección. Su material resistente y diseño intrincado facilitan la extracción de minerales y tesoros. Ya sea explorando profundamente bajo tierra o explorando regiones montañosas en busca de recursos preciosos, el pico dorado es tu compañero más confiable.
+",0,item-icon-301,301,Pico Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un par de tijeras espléndidas y afiladas hechas completamente de oro puro. Sus hojas son excepcionalmente afiladas, cortando sin esfuerzo diversos materiales, ya sea tela, papel o plantas delicadas. Es una herramienta imprescindible para cada agricultor y artesano, utilizada para podar plantas, cortar tela o realizar trabajos manuales intrincados. Ya sea en los campos o talleres, las Tijeras Doradas son un símbolo de artesanía exquisita y buen gusto refinado.
+",0,item-icon-302,302,Tijeras Doradas Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una guadaña que brilla con un resplandor dorado, presumiendo de una hoja increíblemente afilada. Es una de las herramientas favoritas entre los agricultores, utilizada para cosechar cultivos maduros. La luz dorada brillante bajo el sol trae una sensación de cosecha alegre y prosperidad a los campos.
+",0,item-icon-303,303,Hoz Dorada Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una tetera dorada magnífica hecha completamente de oro puro. No solo tiene una apariencia deslumbrante, sino que también posee propiedades mágicas. Cuando usas la Tetera Dorada, repone rápidamente tu salud y maná, manteniéndote lleno de energía en las batallas. Ya sea en peleas intensas o en campos ocupados, la Tetera Dorada es tu compañera más fiel.
+",0,item-icon-304,304,Tetera Dorada Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una azada brillante como una joya, extraordinaria tanto en afilado como en durabilidad. Usarla para la agricultura te permite cultivar fácilmente tierras fértiles, obteniendo una cosecha abundante de cultivos.
+",0,item-icon-305,305,Azada de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un hacha reluciente como una joya, con una hoja extremadamente dura que corta sin esfuerzo los minerales y la madera más dura. Su afilado y durabilidad lo convierten en la herramienta principal para los recolectores, duplicando su eficiencia en la recolección de recursos.
+",0,item-icon-306,306,Hacha de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una herramienta radiante como una joya diseñada para recolectar minerales preciosos. Su afilada cabeza de diamante atraviesa sin esfuerzo las rocas duras, ayudando a localizar y recolectar recursos valiosos en vetas. Ya sea en expediciones o en ciudades prósperas, el pico de diamante es una herramienta esencial para cada minero, abriendo la puerta a la riqueza.
+",0,item-icon-307,307,Pico de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Brillando con el resplandor de las gemas, este par de tijeras increíblemente afiladas corta sin esfuerzo cualquier material, ya sea metal duro o tela gruesa, realizando tareas de manera rápida y precisa. En los campos, es un eficiente ayudante de los agricultores para recortar cultivos y podar árboles. En el ámbito de la exploración, es una herramienta esencial para valientes aventureros, recolectando rápidamente recursos valiosos. Ya sea un agricultor o un explorador, las Tijeras de Diamante son su compañero más confiable.
+",0,item-icon-308,308,Tijeras de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Brillando con el resplandor de las gemas, esta guadaña posee una hoja increíblemente afilada, cosechando cultivos en los campos sin esfuerzo. Sus incrustaciones de diamantes hacen que cada cosecha sea eficiente y rápida, convirtiéndote en un maestro de la cosecha en los campos.
+",0,item-icon-309,309,Hoz de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un objeto espléndido y práctico, que brilla con el resplandor de las gemas. Repone rápidamente tu salud y maná, permitiéndote mantener una vitalidad duradera en las batallas. Ya sea en batallas intensas o en largos viajes de aventura, la Tetera de Diamante es tu compañera más confiable.
+",0,item-icon-310,310,Tetera de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Una azada que brilla con la luz de las estrellas, su afilado labra la tierra sin esfuerzo, dándole vida a los campos.
+",0,item-icon-311,311,Azada Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un hacha que brilla con la luz de las estrellas, emana una energía potente. Su hoja afilada corta sin esfuerzo la madera dura, convirtiéndola en la herramienta preferida de los recolectores.
+",0,item-icon-312,312,Hacha Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Un pico que brilla con la luz de las estrellas, su afilada hoja de hoz excava sin esfuerzo minerales y gemas preciosas. Ya sea explorando montañas profundas o minando diligentemente en cuevas, el Pico de Luz Estelar es el compañero más confiable para los recolectores. Su apariencia permite una recolección de recursos más eficiente, brindando riqueza y gloria sustanciales al usuario y su equipo.
+",0,item-icon-313,313,Pico Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Brillando con la luz de las estrellas, este par de tijeras livianas y afiladas son utilizadas por los agricultores para recortar con precisión hojas y ramas, rejuveneciendo las plantas con vitalidad. Ya sea recortando flores en jardines o organizando cultivos en los campos, las Tijeras de Luz Estelar son la herramienta más efectiva para los agricultores.
+",0,item-icon-314,314,Tijeras Estelares Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos.
+-------
+Brillando con la luz de las estrellas, su hoja es como una estrella fugaz en el cielo nocturno, emanando energía misteriosa y poderosa. Es la herramienta de elección para los recolectores, cosechando sin esfuerzo diversas plantas y hierbas, permitiéndoles buscar recursos valiosos en vastas tierras.",0,item-icon-315,315,Hoz Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una tetera bellamente elaborada, brillando con un resplandor similar a las estrellas. Es una de las herramientas favoritas de los agricultores, utilizada para regar los cultivos en los campos y nutrir su crecimiento. Cada gota que fluye de la Tetera Estelar está llena de vitalidad, brindando esperanza de una cosecha abundante a los cultivos. Ya sea trigo, verduras o frutas, una vez nutridos por la Tetera Estelar, florecen en colores vibrantes bajo el sol, brindando alegría y satisfacción infinitas a los agricultores.
+",0,item-icon-316,316,Tetera Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una espada dorada que brilla con resplandor, su hoja increíblemente afilada. Su material precioso le otorga un formidable poder de ataque y durabilidad, convirtiéndose en el símbolo buscado por los guerreros. En la batalla, la espada dorada atraviesa fácilmente las defensas de los enemigos, derrotándolos. Ya sea enfrentando adversarios individuales o participando en combates a gran escala, la espada dorada es el compañero más confiable para los guerreros.
+",0,item-icon-317,317,Espada Dorada Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una espada brillante como una gema, su filo afilado atraviesa sin esfuerzo las defensas enemigas. Es el arma principal de los guerreros, convirtiéndote en un gobernante invencible en el campo de batalla.
+",0,item-icon-318,318,Espada de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una espada brillante como la luz de las estrellas, su filo rápido como una estrella fugaz. Su nitidez atraviesa sin esfuerzo las defensas enemigas, liberando un poder ilimitado. El portador puede sentir el poder cósmico corriendo por su cuerpo, convirtiéndose en una fuerza indiscutible en el combate.
+",0,item-icon-319,319,Espada Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una herramienta de colección rara hecha de oro puro. Con su diseño de dientes finos, recoge sin esfuerzo varios recursos preciosos como hierbas, gemas y minerales. Al usar la Herramienta de Colección Dorada, podrás recolectar con una eficiencia extremadamente alta, obteniendo más recursos valiosos.
+",0,item-icon-320,320,Sombrero de Recolector Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta prenda superior está diseñada exclusivamente para los coleccionistas, hecha de seda dorada cuidadosamente seleccionada. Ligera y cómoda, ofrece una excelente protección y flexibilidad, permitiendo a los coleccionistas moverse libremente durante las actividades de recolección desafiantes. Su apariencia dorada irradia lujo y encanto único, haciendo que el portador sea el centro de atención durante las aventuras.
+",0,item-icon-321,321,Abrigo de Recolector Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes están especialmente diseñados para los coleccionistas, tejidos con finos hilos de seda dorada. No solo brindan una protección sobresaliente, sino que también otorgan a los coleccionistas una agilidad y destreza excepcionales. Al usar los Guantes de Colección Dorados, tus dedos se mueven como espíritus danzantes, recolectando sin esfuerzo varios recursos preciosos, convirtiéndote en el rey invencible de los coleccionistas.
+",0,item-icon-322,322,Guantes de Recolector Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones están hechos a medida para los coleccionistas, fabricados con hilos dorados de alta calidad. Son extremadamente duraderos y cómodos, lo que permite a los coleccionistas mantener un estado relajado y agradable durante el trabajo exigente. Equipados con múltiples bolsillos prácticos y sujetadores de herramientas, los Pantalones de Colección Dorados facilitan el transporte y uso de varias herramientas de colección. Ya sea recolectando minerales preciosos, hierbas raras u otros recursos valiosos, estos pantalones brindan una excelente eficiencia y comodidad para el coleccionista.
+",0,item-icon-323,323,Pantalones de Recolector Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos están exclusivamente diseñados para los coleccionistas utilizando material dorado. Ligeros y cómodos, proporcionan una excelente tracción y durabilidad, permitiendo a los coleccionistas moverse libremente en diversos terrenos. Estos zapatos también cuentan con mejoras especiales en habilidades de recolección, mejorando la eficiencia y calidad de la cosecha del coleccionista. Ya sea en bosques densos, montañas escarpadas o vastas llanuras, los Zapatos de Colección Dorados son compañeros indispensables para los coleccionistas.
+",0,item-icon-324,324,Zapatos de Recolector Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una herramienta diseñada específicamente para los coleccionistas, con una hoja afilada capaz de cortar fácilmente minerales duros y gemas. Ya sea excavando vetas de diamantes preciosos o recolectando gemas raras, esta herramienta te ayuda a completar tareas de manera rápida y efectiva. Su precisión y durabilidad la convierten en una de las herramientas preferidas entre los coleccionistas.
+",0,item-icon-325,325,Sombrero de Recolector de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta prenda superior está exclusivamente diseñada para los coleccionistas para ofrecer la mejor experiencia de recolección. Fabricada con materiales de alta calidad, es ligera y duradera, permitiendo comodidad y flexibilidad durante la recolección de diamantes. Posee capacidades de protección robustas, alejando varios desafíos y peligros en la naturaleza. Ya sea en montañas, cuevas o ríos, esta prenda superior se erige como tu compañera más confiable, permitiéndote convertirte en un verdadero experto en recolección de diamantes.
+",0,item-icon-326,326,Abrigo de Recolector de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes están diseñados específicamente para mejorar la eficiencia de la recolección de diamantes. Su superficie está cubierta con una armadura resistente, protegiendo las manos de cualquier daño. Internamente, están incrustados con intrincados dispositivos mecánicos que atraen y adhieren a los diamantes circundantes, haciendo que el proceso de recolección sea más rápido y eficiente. Con estos guantes, te conviertes en un captor de diamantes, cosechando sin esfuerzo numerosas gemas brillantes.
+",0,item-icon-327,327,Guantes de Recolector de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones son conocidos por mejorar la eficiencia de la recolección de diamantes, diseñados exclusivamente para los coleccionistas. Fabricados con materiales avanzados, son ligeros, cómodos, duraderos y flexibles. Equipados con herramientas especiales de recolección de diamantes, permiten a los coleccionistas obtener de manera rápida y precisa recursos preciosos de diamantes. Ya sea en montañas, cuevas o vetas de minerales, estos pantalones son una herramienta indispensable para los coleccionistas. Al usarlos, te convertirás verdaderamente en un recolector de diamantes.
+",0,item-icon-328,328,Pantalones de Recolector de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos están diseñados exclusivamente para los coleccionistas para brindar la mejor experiencia de recolección de diamantes. Fabricados con materiales ligeros y duraderos, ofrecen una excelente tracción y comodidad, permitiendo estabilidad en terrenos desafiantes. Equipados con un detector especial de diamantes, estos zapatos localizan con precisión las vetas de diamantes cercanas, permitiéndote descubrir y recolectar fácilmente valiosos recursos de diamantes. Ya sea en montañas, cuevas o ríos, estos zapatos son el equipo esencial para convertirte en un coleccionista de diamantes de primer nivel.
+",0,item-icon-329,329,Zapatos de Recolector de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una hoz delicada, brillando con un resplandor similar a las estrellas. Está diseñada exclusivamente para los coleccionistas para cosechar diversos productos vegetales. La hoja afilada corta sin esfuerzo el material vegetal mientras los adornos celestiales en la cabeza le dan una apariencia misteriosa y cautivadora. Ya sea recolectando hierbas, cosechando frutas o recolectando fibras vegetales, la Hoz de Cosecha Estelar es tu compañera más confiable.
+",0,item-icon-330,330,Sombrero de Recolector Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Una prenda superior ligera y duradera impregnada con el poder de la luz de las estrellas. Proporciona protección adicional y comodidad a los coleccionistas, haciéndolos más seguros y eficientes al recolectar recursos preciosos. Ya sea arrancando flores, recolectando hierbas o excavando minerales, la parte superior de Cosecha Estelar proporciona un entorno de trabajo cómodo, haciendo que tu viaje aventurero sea más agradable y exitoso.
+",0,item-icon-331,331,Abrigo de Recolector Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos guantes brillan con la luz de las estrellas, brindando habilidades incomparables a los coleccionistas. Al usarlos, tus dedos se vuelven ágiles y agudos, permitiendo la fácil recolección de varios recursos preciosos. Ya sea recogiendo hierbas, excavando minerales o recolectando plantas raras, los Guantes de Cosecha Estelar serán tu compañero más fiel, ayudándote a acumular riquezas en el vasto mundo.
+",0,item-icon-332,332,Guantes de Recolector Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos pantalones están diseñados exclusivamente para los coleccionistas, utilizando tecnología avanzada de fibras para crear una prenda ligera, cómoda, altamente transpirable y duradera. El intrincado patrón estrellado en los pantalones brilla suavemente, brindando buena suerte e inspiración a los coleccionistas. Está diseñado para satisfacer las necesidades de los coleccionistas, ofreciendo amplio espacio de almacenamiento y un sistema conveniente para transportar herramientas, haciendo que la recolección de varios recursos preciosos, ya sea recolectando plantas, excavando minerales o capturando pequeños animales, sea sin esfuerzo. Al usar los Pantalones de Cosecha Estelar, te conviertes en un maestro eficiente de la recolección, explorando cada rincón del mundo y cosechando tesoros interminables.
+",0,item-icon-333,333,Pantalones de Recolector Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Estos zapatos están impregnados con el poder de la luz de las estrellas, diseñados exclusivamente para los coleccionistas. Son ligeros, cómodos, poseen una excelente tracción y sensibilidad, lo que permite a los coleccionistas moverse rápidamente en diversos terrenos. Las runas especiales en los zapatos mejoran la percepción de los coleccionistas, facilitando la localización de puntos de recursos valiosos. Ya sea en bosques densos, montañas escarpadas o vastas llanuras, los Zapatos de Cosecha Estelar son los mejores compañeros para los coleccionistas.
+",0,item-icon-334,334,Zapatos de Recolector Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Esta es una melena radiante, brillando como el oro, emanando un aura de coraje y fuerza. Es un símbolo orgulloso para los guerreros, que representa un espíritu indomable y una determinación interminable. Al lucir esto, los guerreros irradian majestuosidad y poder sin igual en el campo de batalla, convirtiéndose en una fuente de temor para sus enemigos. Ya sea enfrentando feroces ataques de monstruos o participando en intensas batallas contra otros jugadores, la Melena Dorada del Guerrero será tu emblema de gloria, destacándote en el combate.",0,item-icon-335,335,Sombrero de Luchador Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Esta prenda está diseñada exclusivamente para guerreros valientes y sin miedo. Tejida con selectos hilos dorados, emite un resplandor notable. Ofreciendo una excelente defensa y resistencia, la Armadura del Guerrero Dorado permite a los guerreros mantener una postura indomable en batallas feroces. Ya sea enfrentando adversarios poderosos o mostrando autoridad entre los aliados, la Armadura del Guerrero Dorado es la mejor elección para los guerreros.
+",0,item-icon-336,336,Abrigo de Luchador Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Elaborados con oro puro, estos guantes brillan con un resplandor deslumbrante. No solo brindan una protección sobresaliente, sino que también otorgan una fuerza y agilidad incomparables al guerrero. Al usar los Guantes del Guerrero Dorado, te conviertes en el rey invencible del campo de batalla, abrazando sin miedo todos los desafíos.
+",0,item-icon-337,337,Guantes de Luchador Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para guerreros valientes, estos pantalones están tejidos con hilos dorados raros. Ofrecen una excelente defensa y flexibilidad, permitiendo a los guerreros mantener una ventaja en batallas intensas. Ya sea enfrentando los feroces ataques de los enemigos o esquivando rápidamente los asaltos, los Pantalones del Guerrero Dorado ofrecen una protección confiable y libertad de movimiento. Póntelos y los guerreros mostrarán una autoridad y fuerza inigualables.
+",0,item-icon-338,338,Pantalones de Luchador Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñados específicamente para guerreros valientes, estos zapatos están hechos de oro puro, incrustados con gemas brillantes que emiten un resplandor llamativo. No solo brindan una excelente protección y comodidad, sino que también otorgan una velocidad y agilidad sin igual al guerrero. Al usar las Botas del Guerrero Dorado, serás tan rápido como el viento en el campo de batalla, sin miedo a nada.
+",0,item-icon-339,339,Zapatos de Luchador Dorado Nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Esta es una melena radiante, brillando como diamantes, emitiendo una poderosa energía de combate. Esta melena es un emblema orgulloso para los guerreros, simbolizando su valentía y fuerza. Cada hebra está llena de la pasión de la batalla, brindando fuerza y protección adicional para los guerreros. Los guerreros que llevan esta melena se vuelven invencibles en el campo de batalla, infundiendo miedo en los corazones de sus enemigos.
+",0,item-icon-340,340,Sombrero de Luchador de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñada exclusivamente para guerreros valientes, esta armadura está tejida con resistentes fibras de diamante. Ofrece una excelente capacidad defensiva y resistencia contra ataques fatales de los enemigos. Ya sea enfrentando el aliento de fuego de un dragón o las maldiciones malvadas de los demonios, la Armadura del Guerrero de Diamante protege al guerrero de cualquier daño. Al usarla, te conviertes en una fuerza invencible en el campo de batalla.
+",0,item-icon-341,341,Abrigo de Luchador de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Elaborados con raros materiales de diamante, estos guantes brillan con un resplandor incomparable. Brindan una protección excepcional y un poderoso poder de ataque para los guerreros, permitiéndoles ser invencibles en el campo de batalla. Los guantes están grabados con runas antiguas, otorgando al portador poderes misteriosos, haciéndolos una presencia inconfundible en la batalla. Ya sea defendiéndose de ataques enemigos o lanzando ataques devastadores, los Guantes del Guerrero de Diamante son la mejor elección para los guerreros.
+",0,item-icon-342,342,Guantes de Luchador de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para guerreros valientes, estos pantalones están hechos de fibras de diamante de alta calidad. Ofrecen una excelente defensa y flexibilidad, permitiendo a los guerreros mantener una superior maniobrabilidad en batallas feroces. Ya sea enfrentando fuertes ataques enemigos o maniobras rápidas, los Pantalones del Guerrero de Diamante brindan una protección confiable para los guerreros, haciéndolos intrépidos en el campo de batalla.
+",0,item-icon-343,343,Pantalones de Luchador de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñadas específicamente para guerreros valientes, estas botas están hechas de un resistente material de diamante, brindando una excelente protección y flexibilidad. Los patrones especiales en los zapatos mejoran la velocidad de movimiento del guerrero, haciéndolos más ágiles en la batalla. Ya sea persiguiendo enemigos o esquivando ataques, las Botas del Guerrero de Diamante son un equipo indispensable. Al usarlas, los guerreros mostrarán una fuerza y velocidad inigualables en el campo de batalla.
+",0,item-icon-344,344,Zapatos de Luchador de Diamante Nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Esta es una deslumbrante melena, diseñada exclusivamente para los Guerreros de la Luz Estelar. Brilla con colores estrellados, permitiendo a los guerreros irradiar una majestuosidad y poder sin igual en la batalla. La textura del cabello es suave y cómoda, capaz de proteger la cabeza del guerrero de cualquier daño. Ya sea en combates intensos o en pacíficos campos de cultivo, el Cabello del Guerrero de la Luz Estelar es motivo de orgullo para los guerreros.
+",0,item-icon-345,345,Sombrero de Luchador Estelar Nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hecha a medida para guerreros valientes, esta prenda está impregnada con el poder de la luz estelar. Ofrece una excelente defensa y protección, permitiendo a los guerreros mantenerse firmes en batallas feroces. Ya sea enfrentando fuertes golpes de espada o ataques de flechas a larga distancia, la Camisa del Guerrero de la Luz Estelar ofrece una armadura confiable, haciendo que los guerreros brillen en el campo de batalla.
+",0,item-icon-346,346, Abrigo de luchador estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Emitiendo un resplandor brillante, estos guantes ofrecen una poderosa protección para las manos de los guerreros. Elaborados con materiales resistentes, pueden resistir los ataques enemigos al tiempo que otorgan una mayor fuerza y agilidad a los guerreros. Ya sea empuñando una espada, un martillo o un arco y flechas, los Guantes del Guerrero de la Luz Estelar ayudan a los guerreros a mantener agarres estables y ataques precisos. Ponte estos guantes y los guerreros se convertirán en verdaderas estrellas en el campo de batalla, sin igual por nadie.
+",0,item-icon-347,347, Guantes de luchador estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Impregnados con el poder de la luz estelar, estos pantalones brindan una excelente defensa y flexibilidad, permitiendo a los guerreros mantener una ventaja en batallas intensas. Ya sea esquivando rápidamente o lanzando poderosos ataques, estos pantalones ofrecen una protección confiable y libertad de movimiento para los guerreros. Al usarlos, los guerreros se convierten en la presencia más deslumbrante dentro de la luz estelar.
+",0,item-icon-348,348, Pantalones de luchador estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñadas específicamente para guerreros valientes, estas botas están impregnadas con el poder de la luz estelar. Son ligeras y duraderas, brindando una excelente flexibilidad y estabilidad en los pies, permitiendo a los guerreros moverse rápidamente y mantener el equilibrio en la batalla. Incrustadas con pequeñas gemas de luz estelar, estas botas no solo realzan la majestuosidad del guerrero, sino que también brindan fuerza y protección extra. Ya sea persiguiendo enemigos o evitando ataques, las Botas del Guerrero de la Luz Estelar son los compañeros más confiables para los guerreros.
+",0,item-icon-349,349, Zapatos de luchador estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Este es un manojo de radiante cabello dorado, que simboliza el honor y la riqueza de los agricultores. Los agricultores que lo usan obtendrán rendimientos agrícolas adicionales, permitiendo que sus cultivos crezcan fuertes y tengan cosechas ilimitadas. Esto es un símbolo de orgullo para los agricultores, que representa su arduo trabajo.
+",0,item-icon-350,350, Sombrero de granjero dorado de nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñada específicamente para los dueños de granjas que aman los campos, está hecha de seda dorada de alta calidad, ligera y duradera, permitiendo un movimiento libre por los campos de cultivo. Ofrece una excelente protección y también otorga un sentido de dignidad y nobleza a los agricultores. Ya sea arando, sembrando o cosechando, la Camisa del Granjero Dorado es tu compañera más confiable.
+",0,item-icon-351,351, Abrigo de granjero dorado de nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para los dueños de granjas, hechos de oro, estos guantes brindan una durabilidad y comodidad excepcionales, permitiendo a los agricultores experimentar una destreza y precisión incomparables durante la siembra y la cosecha. Ya sea en temporadas de siembra o tiempos de cosecha, los Guantes del Granjero Dorado son los compañeros más confiables para los dueños de granjas.
+",0,item-icon-352,352, Guantes de granjero dorado de nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñados específicamente para los dueños de granjas, hechos de seda dorada premium, estos pantalones son ligeros y cómodos. Ofrecen una durabilidad y protección robustas, permitiendo a los dueños de granjas trabajar con alegría en los campos. Ya sea arando, sembrando o cosechando, estos pantalones brindan la mejor flexibilidad y protección, haciéndote el verdadero maestro de la granja.
+",0,item-icon-353,353, Pantalones de granjero dorado de nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para los dueños de granjas y hechos de material dorado de alta calidad, estos zapatos son ligeros, cómodos, duraderos y antideslizantes, permitiendo a los dueños de granjas caminar de manera más estable y segura en los campos. Estos zapatos no solo significan el estatus y la riqueza de los dueños de granjas, sino que también les otorgan una mayor eficiencia agrícola y una experiencia de cultivo alegre.
+",0,item-icon-354,354, Zapatos de granjero dorado de nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Una cabeza brillante de cabello similar a un diamante irradia un aura lujosa de riqueza. Este peinado exclusivo para los agricultores simboliza su arduo trabajo y cosechas exitosas en los campos. Ya sea en la siembra, la cosecha o las ocupadas tareas agrícolas, este cabello de diamante llena a los agricultores de confianza y encanto.",0,item-icon-355,355, Sombrero de granjero de diamante de nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñada especialmente para los agricultores que aman la vida en el campo, está hecha de un material de fibra de diamante de alta calidad, ligero, cómodo y extremadamente duradero. Esta camisa proporciona un rendimiento de protección excepcional y tiene propiedades que absorben la humedad, asegurando que te mantengas seco y cómodo mientras trabajas en los campos. Ya sea arando, sembrando o cosechando, la Camisa de Agricultor de Diamante es tu compañera más confiable.
+",0,item-icon-356,356, Abrigo de granjero de diamante de nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñados específicamente para los agricultores, adornados con diamantes, mostrando una combinación perfecta de lujo y practicidad. Fabricados con materiales de primera calidad, estos guantes ofrecen una excelente protección y comodidad. Mejoran la agilidad y eficiencia del agricultor durante el proceso de cultivo, permitiendo una cultivación más rápida y cosechas abundantes. Ya sea sembrando semillas o cosechando las recompensas, estos guantes son el fiel ayudante de un agricultor, convirtiéndolo en un verdadero magnate agrícola.
+",0,item-icon-357,357, Guantes de granjero de diamante de nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para los entusiastas de la agricultura, fabricados con materiales de alta calidad, cómodos y duraderos. Adornados con brillantes diamantes, mostrando el estatus y la riqueza del agricultor. Cuando los usas, experimentarás una alegría agrícola incomparable, haciéndote más eficiente y seguro en el trabajo de la granja. Ya sea en la siembra, la siembra o la cosecha, estos pantalones serán tu compañero más confiable.
+",0,item-icon-358,358, Pantalones de granjero de diamante de nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para los agricultores y fabricados con materiales de primera calidad, estos zapatos son duraderos, cómodos, antideslizantes y brindan a los agricultores comodidad durante largas horas en los campos. Las suelas de los zapatos están reforzadas para evitar que objetos afilados los atraviesen, al mismo tiempo que ofrecen una excelente tracción, asegurando estabilidad en terrenos húmedos y resbaladizos. Estos zapatos también vienen con algunos adornos de diamantes ocultos, reflejando el gusto único y el estatus exitoso del agricultor. Ya sea arando, cosechando o cuidando los cultivos, los Zapatos de Agricultor de Diamante son una herramienta indispensable.
+",0,item-icon-359,359, Zapatos de granjero de diamante de nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Un elegante accesorio para el cabello perfecto para los agricultores trabajadores. Emitiendo un resplandor estelar, te permite brillar intensamente en los campos. Ya sea sembrando, cosechando o cuidando los cultivos, este cabello te trae suerte y el orgullo de un agricultor, ¡haciéndote una estrella en la comunidad agrícola!
+",0,item-icon-360,360, Sombrero de granjero estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hecha a medida para los agricultores e inspirada en la luz de las estrellas, emana un ambiente alegre. Fabricada con materiales ligeros, es cómoda y duradera, permitiendo a los agricultores mantenerse cómodos y ágiles durante las ocupadas actividades agrícolas. Ya sea arando, cosechando o alimentando animales, esta camisa proporciona a los agricultores una protección y comodidad amplias, ¡haciendo que cada día en la granja sea animado y alegre!
+",0,item-icon-361,361, Abrigo de granjero estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Impregnados con el poder de la luz de las estrellas y diseñados específicamente para los agricultores, ofrecen una excelente protección y destreza, permitiendo a los agricultores cultivar fácilmente cultivos en los campos. Los delicados patrones en los guantes mejoran las sensaciones táctiles del agricultor, permitiéndole manejar azadas y cepillos con mayor precisión, creando hermosos paisajes agrícolas. Ya sea arando, sembrando o cosechando, los Guantes de Agricultor de Luz de Estrellas son el compañero más confiable para los agricultores.
+",0,item-icon-362,362, Guantes de granjero estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Hechos a medida para los agricultores y fabricados con materiales suaves y cómodos, estos pantalones ofrecen una excelente durabilidad y transpirabilidad, manteniendo a los agricultores cómodos y flexibles durante el trabajo de campo ocupado. El intrincado patrón de luz de estrellas en los pantalones simboliza el trabajo arduo y las esperanzas del agricultor, brindándole suerte y cosechas abundantes. Ya sea sembrando, sembrando o cosechando, estos pantalones son el compañero más confiable del agricultor.
+",0,item-icon-363,363, Pantalones de granjero estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos.
+-------
+Diseñados específicamente para los agricultores y fabricados con materiales ligeros y duraderos. Ofrecen una excelente resistencia al deslizamiento, asegurando estabilidad para los agricultores mientras caminan en los campos. El intrincado patrón de luz de estrellas en los zapatos simboliza la sabiduría y la diligencia del agricultor. Ya sea cultivando, sembrando o cosechando, estos zapatos brindan comodidad y protección, dejando las huellas del agricultor en los campos.
+",0,item-icon-364,364, Zapatos de granjero estelar de nivel 6,"1,2,3,4,5",1,6,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+¡Hueso duro! Debe provenir de algún tipo de organismo.
+",0,item-icon-365,365, Hueso resistente,1,4,4,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+¿Planta? ¿Animal? ¿O algo intermedio?
+",0,item-icon-366,366, Cabeza de huevo,1,4,4,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+No parece que haya sido cortado directamente de un árbol, más bien como la nariz de un muñeco de nieve.
+",0,item-icon-367,367, Madera exquisita,1,4,4,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+¡Esqueleto duro! ¡También brilla!
+",0,item-icon-368,368, Esqueleto brillante,1,4,5,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+Parece un poco espeluznante...
+",0,item-icon-369,369, Globo ocular gigante,1,4,5,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+Un par de alas delicadas, irresistible.
+",0,item-icon-370,370, Alas élficas,1,4,5,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+Parece una bola, completamente redonda.
+",0,item-icon-371,371, Caparazón de tortuga de cristal,1,4,6,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+No se necesita velas por la noche.
+",0,item-icon-372,372, Luz misteriosa,1,4,6,1
+1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede usar para fabricar equipos o objetos.
+-------
+Bastante pequeño, no se puede usar directamente, pero debería servir como material de fabricación.
+",0,item-icon-373,373, Varita pequeña,1,4,6,1
+1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede usar para fabricar equipos o objetos.
+-------
+Un diente de león dorado, realmente raro.
+",0,item-icon-374,374, Diente de león dorado,1,4,4,1
+1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede usar para fabricar equipos o objetos.
+-------
+Una flor de cactus.",0,item-icon-375,375, Flor de cactus,1,4,4,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta piedra debe ser un buen actor 
+",0,item-icon-376,376, Racso,1,4,4,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Ten cuidado, parece afilado, no te cortes 
+",0,item-icon-377,377, Diamante de fibra,1,4,5,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Al golpearlo suavemente puede producir un sonido agradable 
+",0,item-icon-378,378, Diamante en forma de nota,1,4,5,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una piedra muy linda 
+",0,item-icon-379,379, Diamante en forma de oso,1,4,5,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Mira, esta pequeña flor se parece tanto a un hada 
+",0,item-icon-380,380, Flor élfica,1,4,6,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Cuando era niño, solía desear atrapar estrellas en un frasco, ¿esto cumple mi deseo? 
+",0,item-icon-381,381, Estrella enlatada,1,4,6,1
+1,"La recolección de materiales del mismo nivel puede resultar en semillas adicionales.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una piedra tan hermosa, como un cometa del espacio exterior 
+",0,item-icon-382,382, Meteorito,1,4,6,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Uno de los alimentos básicos más comunes en el mundo 
+",0,item-icon-383,383, Trigo,1,4,4,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Recuerdo un juego en el que esta cosa disparaba balas 
+",0,item-icon-384,384, Guisantes,1,4,4,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Incluso a través de la pantalla, puedo oler el aroma 
+",0,item-icon-385,385, Ajo,1,4,4,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Algunas personas fríen el núcleo de esta flor como un bocadillo, sabe bien 
+",0,item-icon-386,386, Girasol,1,4,5,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta cosa es más adecuada para un viñedo 
+",0,item-icon-387,387, Uva,1,4,5,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Otro de los alimentos básicos más comunes en el mundo 
+",0,item-icon-388,388, Patata,1,4,5,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Me asusté 
+",0,item-icon-389,389, Chomper,1,4,6,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Parece una trompeta 
+",0,item-icon-390,390, Flor de gloria de la mañana,1,4,6,1
+1,"Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una raíz de yuca 
+",0,item-icon-391,391, Yuca,1,4,6,1
+1,"Puedes obtener este tipo de material mediante la reproducción.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+En cierto juego, esta cosa puede promover el crecimiento de las plantas, pero parece que no aquí 
+",0,item-icon-392,392, Harina de hueso,1,4,4,1
+1,"Puedes obtener este tipo de material mediante la reproducción.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Muy flexible, se puede amasar en una cuerda o hilo 
+",0,item-icon-393,393, Vid resistente,1,4,4,1
+1,"Puedes obtener este tipo de material mediante la reproducción.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una hoja enorme 
+",0,item-icon-394,394, Hoja de naranja,1,4,4,1
+1,"Puedes obtener este tipo de material mediante la reproducción.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+No te asustes por su apariencia, esta cosa es tan buena como cualquier especia en el mundo",0,item-icon-395,395, Especia oscura,1,4,5,1
+1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
+-------
+Emite una luz tenue.
+",0,item-icon-396,396,Polvo de hueso luminiscente,1,4,5,1
+1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
+-------
+Oye, ¿te gustan las peleas de bolas de nieve?
+",0,item-icon-397,397,Bola de nieve elfa,1,4,5,1
+1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
+-------
+Escamas caídas del caparazón de la tortuga, realmente hermosas.
+",0,item-icon-398,398,Escama de concha,1,4,6,1
+1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
+-------
+Una flecha delicada.
+",0,item-icon-399,399,Flecha refinada,1,4,6,1
+1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
+-------
+Agradable y cálido, seguramente haría buena ropa.
+",0,item-icon-400,400,Pelusa de conejo de nieve,1,4,6,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Combate, útil para sintetizar varios equipos.
+",0,item-icon-401,401,Esencia de combate nivel 4,1,4,4,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Combate, útil para sintetizar varios equipos.
+",0,item-icon-402,402,Esencia de combate nivel 5,1,4,5,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Combate, útil para sintetizar varios equipos.
+",0,item-icon-403,403,Esencia de combate nivel 6,1,4,6,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Recolecta, útil para sintetizar varios equipos.
+",0,item-icon-404,404,Esencia de recolección nivel 4,1,4,4,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Recolecta, útil para sintetizar varios equipos.
+",0,item-icon-405,405,Esencia de recolección nivel 5,1,4,5,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Recolecta, útil para sintetizar varios equipos.
+",0,item-icon-406,406,Esencia de recolección nivel 6,1,4,6,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
+",0,item-icon-407,407,Esencia de plantación agrícola nivel 4,1,4,4,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
+",0,item-icon-408,408,Esencia de plantación agrícola nivel 5,1,4,5,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
+",0,item-icon-409,409,Esencia de plantación agrícola nivel 6,1,4,6,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
+",0,item-icon-410,410,Esencia de ganadería agrícola nivel 4,1,4,4,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
+",0,item-icon-411,411,Esencia de ganadería agrícola nivel 5,1,4,5,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
+",0,item-icon-412,412,Esencia de ganadería agrícola nivel 6,1,4,6,1
+1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar trigo.
+",23,item-icon-413,413,Semilla de trigo,1,3,4,1
+1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar guisantes.
+",23,item-icon-414,414,Semilla de guisante,1,3,4,1
+1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar ajo.",23,item-icon-415,415,Semilla de ajo,1,3,4,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar girasoles
+",23,item-icon-416,416,Semilla de girasol,1,3,5,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar uvas
+",23,item-icon-417,417,Semilla de uva,1,3,5,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar papas
+",23,item-icon-418,418,Semilla de patata,1,3,5,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar flores cadáver
+",23,item-icon-419,419,Semilla de Chomper,1,3,6,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar gloria de la mañana
+",23,item-icon-420,420,Semilla de gloria de la mañana,1,3,6,1
+1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar yuca
+",23,item-icon-421,421,Semilla de yuca,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+HP actual +320
+",0,item-icon-422,422,Poción de curación dorada nivel 3,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Ataque de combate +50
+",0,item-icon-423,423,Poción de ataque dorada nivel 3,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Velocidad de movimiento +200
+",0,item-icon-424,424,Poción de velocidad dorada nivel 3,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Daño crítico contra monstruos +120
+",0,item-icon-425,425,Poción de golpe crítico dorada nivel 3,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+HP máximo +200
+",0,item-icon-426,426,Poción de vida dorada nivel 3,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Defensa de combate +20
+",0,item-icon-427,427,Poción de defensa dorada nivel 3,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+HP actual +400
+",0,item-icon-429,429,Poción de curación de diamante nivel 3,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Ataque de combate +60
+",0,item-icon-430,430,Poción de ataque de diamante nivel 3,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Velocidad de movimiento +240
+",0,item-icon-431,431,Poción de velocidad de diamante nivel 3,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Daño crítico contra monstruos +150
+",0,item-icon-432,432,Poción de golpe crítico de diamante nivel 3,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+HP máximo +240
+",0,item-icon-433,433,Poción de vida de diamante nivel 3,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Defensa de combate +25
+",0,item-icon-434,434,Poción de defensa de diamante nivel 3,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+HP actual +480
+",0,item-icon-435,435,Poción de curación estelar nivel 3,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-------
+Ataque de combate +70",0,item-icon-436,436,Poción de ataque estelar nivel 3,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+Velocidad de movimiento +280
+",0,item-icon-437,437,Poción de velocidad estelar nivel 3,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+Daño crítico contra monstruos +180
+",0,item-icon-438,438,Poción de golpe crítico estelar nivel 3,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+HP máximo +280
+",0,item-icon-439,439,Poción de vida estelar nivel 3,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+Defensa de combate +30
+",0,item-icon-440,440,Poción de defensa estelar nivel 3,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos
+",0,item-icon-441,441,Martillo de cobre nivel 1,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos
+",0,item-icon-442,442,Martillo de hierro nivel 2,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos
+",0,item-icon-443,443,Martillo de cristal nivel 3,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos
+",0,item-icon-444,444,Martillo dorado nivel 4,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos
+",0,item-icon-445,445,Martillo de diamante nivel 5,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos
+",0,item-icon-446,446,Martillo de estrella nivel 6,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, puedes matar monstruos desde una distancia segura
+",0,item-icon-450,450,Nivel 4 Arco Dorado,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, puedes matar monstruos desde una distancia segura
+",0,item-icon-451,451,Nivel 5 Arco de Diamante,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, puedes matar monstruos desde una distancia segura
+",0,item-icon-452,452,Nivel 6 Arco de Luz Estelar,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Se utiliza para calmar a tu mascota, permitiéndole producir en paz
+",0,item-icon-453,453,Nivel 1 Cepillo de Cobre,1,1,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Se utiliza para calmar a tu mascota, permitiéndole producir en paz
+",0,item-icon-454,454,Nivel 2 Cepillo de Hierro,"1,2",1,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Se utiliza para calmar a tu mascota, permitiéndole producir en paz
+",0,item-icon-455,455,Nivel 3 Cepillo de Cristal,"1,2,3",1,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Se utiliza para calmar a tu mascota, permitiéndole producir en paz",0,item-icon-456,456,Nivel 4 Cepillo Dorado,"1,2,3,4",1,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Se utiliza para calmar a tu mascota, permitiéndole producir en paz.
+",0,item-icon-457,457,Nivel 5 Cepillo de Diamante,"1,2,3,4,5",1,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos.
+-------
+Se utiliza para calmar a tu mascota, permitiéndole producir en paz.
+",0,item-icon-458,458,Nivel 6 Cepillo de Luz Estelar,"1,2,3,4,5",1,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaura Energía +30.
+",0,item-icon-459,459,Nivel 4 Poción de Restauración de Energía,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaura Energía +37.
+",0,item-icon-460,460,Nivel 5 Poción de Restauración de Energía,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaura Energía +45.",0,item-icon-461,461,Nivel 6 Poción de Restauración de Energía,1,3,6,1
+1,"Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede utilizar para fabricar equipo o objetos.
+-------
+Solo se obtiene en Flower Peak
+",0,item-icon-462,462, Fragmentos de bronce,1,4,2,1
+1,"Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
+Se puede utilizar para fabricar equipo o objetos.
+-------
+Solo se obtiene en Flower Peak
+",0,item-icon-463,463, Señor Colmillo,1,4,3,1
+1,"Puedes obtener este objeto a través de la síntesis.
+-------
+#01 Boletos de lotería del Reino Flotante
+",0,item-icon-464,464,#01 Boletos de lotería del Reino Flotante,1,4,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+-------
+#01 Boletos de lotería de Flower Peak
+",0,item-icon-465,465,#01 Boletos de lotería de Flower Peak,1,4,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+-------
+#01 Boletos de lotería de Mundo Abierto
+",0,item-icon-466,466,#01 Boletos de lotería de Mundo Abierto,1,4,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+-------
+Boleto de admisión al Reino Flotante
+",0,item-icon-467,467,Boleto de admisión al Reino Flotante,1,4,0,1
+1,"Puedes obtener este objeto a través de la síntesis.
+-------
+Boleto de admisión a Flower Peak
+",0,item-icon-468,468,Boleto de admisión a Flower Peak,1,4,0,1
+1,"El boleto de admisión roto del Reino Flotante se puede usar para intercambiar por un boleto de admisión completo del Reino Flotante.
+",0,item-icon-469,469,Boleto de admisión roto al Reino Flotante,1,4,0,1
+1,El boleto de admisión roto de Flower Peak se puede usar para intercambiar por un boleto de admisión completo de Flower Peak.,0,item-icon-470,470,Boleto de admisión roto a Flower Peak,1,4,0,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-471,471, Cabello del Núcleo de la Pandilla,5,1,6,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-472,472, Parte Superior del Núcleo de la Pandilla,5,1,6,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-473,473, Guantes del Núcleo de la Pandilla,5,1,6,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda
+",0,item-icon-474,474, Pantalones del Núcleo de la Pandilla,5,1,6,1
+1," Hay una oportunidad de obtener al sintetizar equipo.
+Apariencia de moda sin atributos
+-------
+Se sugiere usar como moda",0,item-icon-475,475, Zapatos del Núcleo de la Pandilla,5,1,6,1

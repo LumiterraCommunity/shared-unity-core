@@ -1,0 +1,21 @@
+{
+    "name": "SharedCore.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5ee44b2e0cf0b427789d287c25ffb1bb",
+        "GUID:2a5f3032e5a3b416abb94d22b3c4a942",
+        "GUID:c1e1189e306e94dcda37d81eb929962f",
+        "GUID:122df4e7707ce4461af1a1456e030f66",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:4023703a101d04d31a38d9e04d338436"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

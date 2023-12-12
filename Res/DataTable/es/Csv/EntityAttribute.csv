@@ -1,0 +1,63 @@
+defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,type-int,valueType-int,icon-string
+0,Nivel de recolección,1,0,CollectionLv,3,1,1,
+0,Nivel de combate,2,0,CombatLv,2,1,1,
+0,Nivel de agricultura,3,0,FarmingLv,1,1,1,
+0,Experiencia de recolección,4,0,CollectionExp,3,1,1,
+0,Experiencia de combate,5,0,CombatExp,2,1,1,
+0,Experiencia de agricultura,6,0,FarmingExp,1,1,1,
+500,Velocidad de movimiento,7,0,MoveSpd,2,1,1,
+0,Velocidad de movimiento extra en casa,8,0,HomeExtraMoveSpd,1,1,1,
+0,Nivel de equipo disponible,9,0,GearAvailableLv,0,1,1,
+750,Puntos de vida,10,1,HP,2,2,1,attribute-icon-10
+750,Puntos de vida máximos,11,1,MaxHP,2,2,1,attribute-icon-11
+10,Recuperación de puntos de vida,12,0,HpRecovery,2,2,1,
+200,Ataque de combate,13,1,CombatAtt,2,2,1,attribute-icon-13
+0,Velocidad de ataque de combate,14,0,CombatAttSpd,2,2,2,
+150,Defensa de combate,15,1,CombatDef,2,2,1,attribute-icon-15
+100,Precisión de combate,16,0,CombatHit,2,2,1,
+100,Esquiva de combate,17,0,CombatDodge,2,2,1,
+0,Vulnerabilidad de combate,18,0,CombatVulnerable,2,2,2,
+30,Tasa de golpe crítico de combate,19,0,CombatCritRate,2,2,2,
+500,Daño crítico de combate,20,0,CombatCritDmg,2,2,2,
+0,Bonificación de daño de combate,21,0,CombatDmgBonus,2,2,2,
+0,Ataque a los árboles,22,1,TreeAtt,3,3,1,attribute-icon-22
+0,Velocidad de hacha,23,0,AxeSpd,3,3,2,
+50,Tasa de golpe crítico a los árboles,24,0,TreeCritRate,3,3,2,
+500,Daño crítico a los árboles,25,0,TreeCritDmg,3,3,2,
+0,Bonificación de daño a los árboles,26,0,TreeDmgBonus,3,3,2,
+0,Tasa extra de madera,27,0,ExtraWoodRate,3,3,2,
+1,Nivel de árboles disponible,28,0,TreeAvailableLv,3,3,1,
+0,Ataque a los minerales,29,1,OreAtt,3,4,1,attribute-icon-29
+0,Velocidad de pico,30,0,PickaxeSpd,3,4,2,
+50,Tasa de golpe crítico a los minerales,31,0,OreCritRate,3,4,2,
+500,Daño crítico a los minerales,32,0,OreCritDmg,3,4,2,
+0,Bonificación de daño a los minerales,33,0,OreDmgBonus,3,4,2,
+0,Tasa extra de minerales,34,0,ExtraOreRate,3,4,2,
+1,Nivel de minerales disponible,35,0,OreAvailableLv,3,4,1,
+0,Efecto de azadón,36,0,HoeingEffect,1,5,1,
+0,Velocidad de azadón,37,0,HoeSpd,1,5,2,
+0,Efecto de riego,38,0,WateringEffect,1,6,1,
+0,Tasa extra de riego,39,0,ExtraWateringRate,1,6,2,
+0,Tasa extra de cosecha,40,0,ExtraHarvestRate,1,7,2,
+0,Tasa de semillas de cosecha,41,0,HarvestSeedRate,1,7,2,
+1,Nivel de cultivos disponible,42,0,CropAvailableLv,1,7,1,
+125,Capacidad de fertilidad,43,1,FertilityCapacity,1,1,1,attribute-icon-43
+6000,Fertilidad máxima,44,1,MaxFertility,1,1,1,attribute-icon-44
+125,Capacidad de felicidad de mascotas,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
+2000,Felicidad máxima de mascotas,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
+270,Proficiencia en plantación,49,1,PlantingProficiency,1,1,1,attribute-icon-49
+270,Proficiencia en cría,50,1,BreedingProficiency,1,1,1,attribute-icon-50
+400,Ataque a la hierba,51,1,GrassAtt,3,1,1,attribute-icon-51
+0,Velocidad de hoz,52,0,SickleSpd,3,1,2,
+50,Tasa de golpe crítico a la hierba,53,0,GrassCritRate,3,1,2,
+270,Proficiencia en hierba,54,1,GrassProficiency,3,1,1,attribute-icon-54
+270,Proficiencia en árboles,55,1,TreeProficiency,3,1,1,attribute-icon-55
+270,Proficiencia en minerales,56,1,OreProficiency,3,1,1,attribute-icon-56
+500,Daño crítico a la hierba,58,0,GrassCritDmg,3,1,2,
+0,Bonificación de daño a la hierba,59,0,GrassDmgBonus,3,1,2,
+300,Defensa de la hierba,60,0,GrassDef,3,1,1,
+300,Defensa de los árboles,61,0,TreeDef,3,1,1,
+300,Defensa de los minerales,62,0,OreDef,3,1,1,
+300,Proficiencia requerida,63,0,RequiredProficiency,3,1,1,
+100000,Energía,64,1,Energy,2,1,3,attribute-icon-64
+100000,Energía Máxima,65,1,MaxEnergy,2,1,3,attribute-icon-65

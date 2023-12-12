@@ -1,0 +1,71 @@
+assetRes-string,dropId-int,exp-int,grassDef-int,homeAction-int,icon-string,id-int,lv-int,maxActionValue-int,name-string,oreDef-int,requiredProficiency-int,treeDef-int
+2D_caijiziyuan_shumu01_1,27,20,0,6,2D_caijiziyuan_shumu01_1,4,1,403,Lv 1 Ordinary Wood,0,200,150
+Slice_12,27,20,0,6,Slice_12,5,1,403,Lv 1 Ordinary Wood,0,200,150
+2D_caijiziyuan_xianrenzhang,28,40.33081697,0,6,2D_caijiziyuan_xianrenzhang,6,2,605,Lv 2 Desert Tree Wood,0,300,225
+2D_caijiziyuan_hongguoshi,34,15,300,5,2D_caijiziyuan_hongguoshi,7,3,807,Lv 3 Maguey,0,400,0
+2D_caijiziyuan_shikuai_3,26,20,0,7,2D_caijiziyuan_shikuai_3,8,1,403,Lv 1 Mineral,150,200,0
+2D_caijiziyuan_heitikuang,30,40.33081697,0,7,2D_caijiziyuan_heitikuang,9,2,605,Lv 2 Dark Iron,225,300,0
+2D_caijiziyuan_hongbaoshi,31,59.72663478,0,7,2D_caijiziyuan_hongbaoshi,11,3,807,Lv 3 Red Crystal Ore,300,400,0
+Slice_11,32,5,150,5,Slice_11,14,1,403,Lv 1 Plant Fibre,0,200,0
+2D_caijiziyuan_bingyuanzhiwu,33,10,225,5,2D_caijiziyuan_bingyuanzhiwu,15,2,605,Lv 2 Frozen Fungus,0,300,0
+2D_caijiziyuan_anheimucai,29,59.72663478,0,6,2D_caijiziyuan_anheimucai,16,3,807,Lv 3 Dark Wood,0,400,300
+homeresource-19,32,5,150,5,2D_caijiziyuan_cao2 ,19,1,403,Lv 1 Plant Fibre,0,200,0
+homeresource-20,32,5,150,5,2D_caijiziyuan_cao1,20,1,403,Lv 1 Plant Fibre,0,200,0
+2D_caijiziyuan_cao3,32,5,150,5,2D_caijiziyuan_cao3,21,1,403,Lv 1 Plant Fibre,0,200,0
+homeresource-22,0,5,150,5,2D_caijiziyuan_zhuangshicaoye_4,22,1,403,,0,200,0
+homeresource-24,0,5,150,5,2D_caijiziyuan_zhuangshicaoye_3,24,1,403,,0,200,0
+homeresource-25,0,5,150,5,2D_caijiziyuan_zhuangshicaoye_2,25,1,403,,0,200,0
+homeresource-26,0,5,150,5,2D_caijiziyuan_zhuangshicaoye_1,26,1,403,,0,200,0
+homeresource-27,0,5,150,5,2D_caijiziyuan_zhuangshikucaoye_4,27,1,403,,0,200,0
+homeresource-28,0,5,150,5,2D_caijiziyuan_zhuangshikucaoye_3,28,1,403,,0,200,0
+homeresource-29,0,20,0,6,2D_caijiziyuan_kushu_1,29,1,403,Lv 1 Ordinary Wood,0,200,150
+homeresource-30,32,5,150,5,2D_caijiziyuan_kucao1,30,1,403,Lv 1 Plant Fibre,0,200,0
+homeresource-31,32,5,150,5,2D_caijiziyuan_kucao2,31,1,403,Lv 1 Plant Fibre,0,200,0
+homeresource-32,32,5,150,5,2D_caijiziyuan_kucao3,32,1,403,Lv 1 Plant Fibre,0,200,0
+homeresource-33,32,5,150,5,2D_caijiziyuan_kucao4,33,1,403,Lv 1 Plant Fibre,0,200,0
+2D_caijiziyuan_shikuai_4,26,20,0,7,2D_caijiziyuan_shikuai_4,34,1,403,Lv 1 Mineral,150,200,0
+homeresource-35,27,20,0,6,2d_shu_06,35,1,403,Lv 1 Ordinary Wood,0,200,150
+homeresource-36,28,40.33081697,0,6,2d_shu_07,36,2,605,Lv 2 Desert Tree Wood,0,300,225
+homeresource-37,29,59.72663478,0,6,2d_shu_08,37,3,807,Lv 3 Dark Wood,0,400,300
+homeresource-38,31,59.72663478,0,7,2d_shitou_06,38,3,807,Lv 3 Red Crystal Ore,300,400,0
+homeresource-41,30,40.33081697,0,7,2d_shitou_05,41,2,605,Lv 2 Dark Iron,225,300,0
+homeresource-42,26,20,0,7,2d_shitou_04,42,1,403,Lv 1 Mineral,150,200,0
+homeresource-43,33,10,225,5,2d_cao_10,43,2,605,Lv 2 Frozen Fungus,0,300,0
+homeresource-44,34,15,300,5,2d_cao_11,44,3,807,Lv 3 Maguey,0,400,0
+homeresource-45,0,5,150,5,2d_cao_09,45,1,403,Lv 1 Plant Fibre,0,200,0
+homeresource-47,9,0,0,16,2D_zhandouziyuan_xianrenzhangnianye_icon,47,1,0,Lv 1 Green Slime,0,99999,0
+homeresource-48,8,0,0,16,2D_zhandouziyuan_nanguatengman_icon,48,1,0,Lv 1 Pumpkin Vines,0,99999,0
+homeresource-49,7,0,0,16,2D_zhandouziyuan_tiesiwang_icon,49,1,0,Lv 1 Wire Mesh ,0,99999,0
+homeresource-50,26,0,0,16,2D_caijiziyuan_tukuangshi_icon,50,1,0,Lv 1 Mineral,0,99999,0
+homeresource-51,32,0,0,16,lv2_herb,51,1,0,Lv 1 Plant Fibre,0,99999,0
+homeresource-52,27,0,0,16,2D_caijiziyuan_xianrenzhang_icon,52,1,0,Lv 1 Ordinary Wood,0,99999,0
+homeresource-53,30,0,0,16,2D_caijiziyuan_tiekuangshi_icon,53,2,0,Lv 2 Dark Iron,0,99999,0
+homeresource-54,28,0,0,16,2D_caijiziyuan_shumu_shamoshu_icon,54,2,0,Lv 2 Desert Tree Wood,0,99999,0
+homeresource-55,33,0,0,16,2D_caijiziyuan_bingyuangu_icon,55,2,0,Lv 2 Frozen Fungus,0,99999,0
+homeresource-56,10,0,0,16,2D_zhandouziyuan_kuangshangmaojianya_icon,56,2,0,Lv 2 Mining Cat Sharp Fang,0,99999,0
+homeresource-57,12,0,0,16,2D_zhandouziyuan_qingzhibomo_icon,57,2,0,Lv 2 Light Thin Film,0,99999,0
+homeresource-58,11,0,0,16,2D_zhandouziyuan_caoyaotouguan_icon,58,2,0,Lv 2 Grass Demon Crown,0,99999,0
+homeresource-59,13,0,0,16,2D_zhandouziyuan_xichanggouzhua_icon,59,3,0,Lv 3 Slender Hook Claw,0,99999,0
+homeresource-60,14,0,0,16,2D_zhandouziyuan_chihongpimao_icon,60,3,0,Lv 3 Crimson Fur,0,99999,0
+homeresource-61,15,0,0,16,2D_zhandouziyuan_binxuerongmaok=_icon,61,3,0,Lv 3 Ice Snow Fluff,0,99999,0
+homeresource-62,31,0,0,16,2D_caijiziyuan_hongbaoshi_icon,62,3,0,Lv 3 Red Crystal Ore,0,99999,0
+homeresource-63,34,0,0,16,2D_caijiziyuan_hongcaoguo_icon,63,3,0,Lv 3 Maguey,0,99999,0
+homeresource-64,29,0,0,16,2D_caijiziyuan_anheimucai_icon,64,3,0,Lv 3 Dark Wood,0,99999,0
+homeresource-65,56,20,375,5,黄金蒲公英修改,65,4,1008,Golden Dandelion,0,500,0
+homeresource-66,57,80,0,6,黄金吉他树,66,4,1008,Cactus Flower,0,500,375
+homeresource-67,58,80,0,7,小金人矿石,67,4,1008,Racso,375,500,0
+homeresource-68,59,25,450,5,水晶草变异种,68,5,1210,Fiber Diamond,0,600,0
+homeresource-69,60,100,0,6,音符树变异,69,5,1210,Note Shape Diamond,0,600,450
+homeresource-70,61,100,0,7,熊猫矿石,70,5,1210,Bear Shaped Diamond,450,600,0
+homeresource-71,62,30,525,5,仙女草,71,6,1412,Elf Flower,0,700,0
+homeresource-72,63,120,0,6,星瓶树变异,72,6,1412,Canned Star,0,700,525
+homeresource-73,64,120,0,7,星星矿石变异,73,6,1412,Meteorite,525,700,0
+homeresource-74,56,20,375,5,变异修改,74,4,1008,Golden Dandelion,0,500,0
+homeresource-75,57,80,0,6,仙人掌吉他变异,75,4,1008,Cactus Flower,0,500,375
+homeresource-76,58,80,0,7,小金人矿石变异,76,4,1008,Racso,375,500,0
+homeresource-77,59,25,450,5,水晶草,77,5,1210,Fiber Diamond,0,600,0
+homeresource-78,60,100,0,6,音符树,78,5,1210,Note Shape Diamond,0,600,450
+homeresource-79,61,100,0,7,熊猫矿石变异,79,5,1210,Bear Shaped Diamond,450,600,0
+homeresource-80,62,30,525,5,仙女草变异,80,6,1412,Elf Flower,0,700,0
+homeresource-81,63,120,0,6,星瓶树,81,6,1412,Canned Star,0,700,525
+homeresource-82,64,120,0,7,星星矿石,82,6,1412,Meteorite,525,700,0

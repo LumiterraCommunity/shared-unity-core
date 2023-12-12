@@ -1,0 +1,7 @@
+id-int,level-int,loadingBg-string,rewardFrequency-int,sceneName-string,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterLuckyReward-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,tickets-int[][]
+10001,0,WorldSceneLoading.jpg,0,WorldScene,1,,,,,,,,,,,,
+10002,0,HomeSceneLoading.jpg,0,HomeScene,2,,,,,,,,,,,,
+20000,0,DungeonSceneLoading_0.jpg,5,DungeonSceneLv1-3,3,"10000,20000,30000","55,0,54","1, 2","58,59,60","61,62,63","1500,11500;1500,11500;1500,11500","450,450,450","Chapter 1,Chapter 2,Chapter 3","Terletak di dalam dedaunan lebat hutan, ia seperti satu keajaiban di bumi. Puncak batuannya menyerupai barisan bilah pedang yang tajam, namun juga menyerupai kelopak bunga.
+",Puncak Bunga,"Terdapat peluang untuk kehilangan 1 keping peralatan sebagai hukuman jika gagal.
+","207,1;216,1;210,1;213,1"
+20001,4,DungeonSceneLoading_1.jpg,5,DungeonSceneLv4-6,3,"10000,20000,30000,40000,50000","38,39,37","1, 2","52,53,54,55,56","47,48,49,50,51","1500,11500;1500,11500;1500,11500;1500,11500;1500,11500","450,450,450,450,450","Chapter 1,Chapter 2,Chapter 3,Chapter 4,Chapter 5","Di dalam wilayah yang hancur itu, sebuah benteng gelap berdiri dengan bangga, tepi-tepinya tergantung di tengah hampa, tanpa ada sokongan fizikal.",Alam Terapung,Terdapat peluang untuk kehilangan 1-2 keping peralatan sebagai hukuman jika gagal.,"212,1;209,1;218,1;215,1"

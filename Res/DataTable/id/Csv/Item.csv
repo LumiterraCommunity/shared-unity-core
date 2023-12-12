@@ -1,0 +1,2243 @@
+canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],type-int,useLv-int,userType-int
+0," Mata uang Lumiterra
+",0,item-icon-10,10,LNCO,1,4,0,0
+0," Istilah EXP mengacu pada poin pengalaman, yang merupakan hadiah yang diperoleh oleh karakter atau pemain dalam permainan setelah menyelesaikan misi, mengalahkan monster, dan naik level. EXP dapat digunakan untuk meningkatkan level karakter, level keterampilan, meningkatkan atribut karakter, dan meningkatkan pengalaman bermain secara keseluruhan. Dalam banyak permainan, EXP adalah sumber daya yang penting dan krusial bagi para pemain.
+",0,item-icon-11,11,EXP,1,4,0,0
+1," Lotere adalah bentuk perjudian yang melibatkan pengundian untuk menentukan hadiah. Peserta membeli tiket lotere dengan kombinasi angka atau simbol, dengan harapan memenangkan hadiah seperti uang. Tiket lotere yang menang ditentukan melalui undian acak. Meskipun demikian, banyak orang masih menikmati berpartisipasi dalam kegiatan lotere karena dapat memberikan kegembiraan dan keberuntungan tak terduga yang dapat mengubah hidup seseorang.
+",0,item-icon-12,12,Lottery Ticket,1,4,0,1
+0," USDC, singkatan dari USD Coin, adalah stablecoin yang diikat dengan Dolar Amerika Serikat (USD) dan dipertahankan dengan rasio 1:1, artinya untuk setiap token USDC yang diterbitkan, ada setara satu Dolar Amerika Serikat yang disimpan oleh lembaga keuangan yang diatur. USDC bertujuan untuk menyediakan aset digital yang stabil, aman, dan transparan untuk berbagai kasus penggunaan seperti perdagangan, pengiriman uang, atau pembayaran.
+",0,item-icon-13,13,USDC,1,4,0,0
+1," Baterai adalah perangkat yang dapat menyimpan energi listrik dan mengubahnya menjadi listrik, biasanya terdiri dari elektroda positif dan negatif, elektrolit, dan penutup.
+",0,item-icon-21,21,baterai,1,4,0,1
+1," Seseorang pernah melihat bahan ini di tepi pantai.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Lendir hijau ini adalah bahan mentah langka yang dapat digunakan untuk membuat berbagai peralatan tempur. Ia memiliki daya rekat yang sangat kuat dan dapat melekat pada berbagai bahan.
+",0,item-icon-30,30,lendir hijau,1,4,1,1
+1," Seseorang pernah melihat bahan ini di tepi pantai.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Tanaman merambat labu adalah bahan mentah yang dapat digunakan untuk membuat senjata dan baju besi. Mereka memiliki tekstur yang kuat dan keuletan yang baik, memberikan perlindungan dan kekuatan serangan yang handal dalam pertempuran.
+",0,item-icon-31,31,tanaman merambat labu,1,4,1,1
+1," Seseorang pernah melihat bahan ini di tepi pantai.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Jaring kawat ini adalah bahan mentah yang digunakan untuk pertempuran, yang dapat digunakan untuk memproduksi struktur pertahanan atau peralatan dengan kekuatan dan daya tahan tinggi.
+",0,item-icon-32,32,kawat berduri,1,4,1,1
+1," Seseorang pernah melihat bahan ini di gurun.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Taring Kucing Penambang adalah bahan mentah yang tajam yang dapat digunakan untuk membuat senjata dan baju besi. Mereka berasal dari hewan kucing yang hidup di tambang dan memiliki kemampuan tempur yang kuat dan lincah.
+",0,item-icon-33,33,Fang Kucing Miner,1,4,2,1
+1," Seseorang pernah melihat bahan ini di padang rumput.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Film ringan ini adalah bahan mentah yang digunakan untuk pertempuran dan dapat digunakan untuk memproduksi berbagai peralatan pertahanan dan senjata.
+",0,item-icon-34,34,film ringan,1,4,2,1
+1," Seseorang pernah melihat bahan ini di kanyon.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Mahkota Kepala Demon Rumput adalah bahan tempur tingkat kedua yang terbuat dari kepala Demon Rumput dan memiliki kemampuan tempur yang kuat.
+",0,item-icon-35,35,Mahkota Kepala Rumput,1,4,2,1
+1," Seseorang pernah melihat bahan ini di Hutan Hitam.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Cakar kait ramping ini terbuat dari logam keras, sangat tajam, cocok untuk digunakan dalam pertempuran. Bentuknya ramping, dan dapat dengan mudah menembus pertahanan musuh.
+",0,item-icon-36,36,Kait Ramping,1,4,3,1
+1," Seseorang pernah melihat bahan ini di Hutan Merah.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Bulu merah adalah bulu berkualitas tinggi dengan performa pertahanan yang baik, cocok untuk membuat peralatan tempur. Ini adalah bahan mentah langka dengan tingkat kesulitan pengumpulan yang tinggi.
+",0,item-icon-37,37,bulu merah,1,4,3,1
+1," Seseorang pernah melihat bahan ini di Gunung Salju.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Ini adalah bahan mentah langka yang dapat diperoleh dalam pertempuran. Ia memiliki penampilan seperti es dan salju, dengan tekstur berbulu yang membuat orang ingin menyentuhnya.
+",0,item-icon-38,38,es dan salju,1,4,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Senjata tajam dan kokoh yang terbuat dari batu padat, sempurna untuk pertempuran jarak dekat. Berat dan keseimbangannya membuatnya mudah digunakan, memberikan serangan yang kuat dengan presisi.
+",0,item-icon-40,40,pedang batu,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Senjata tajam dan kokoh yang terbuat dari besi murni, mampu memotong musuh dengan mudah. Beratnya memberikan kepuasan tersendiri, memungkinkan serangan yang kuat yang membuat lawan terhuyung-huyung.
+",0,item-icon-41,41,pedang besi,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Senjata kuat yang terbuat dari kristal murni, mampu memotong musuh dengan mudah. Bilahnya yang berkilauan memantulkan cahaya, mempesona lawan dan menimbulkan ketakutan dalam hati mereka. Setiap ayunan Pedang Kristal melepaskan kombinasi mematikan antara kecepatan dan presisi.",0,item-icon-42,42,pedang kristal,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Senjata kayu yang kokoh dan ringan yang dibuat untuk serangan cepat dan akurat, sempurna untuk pemula yang mengasah keterampilan tempur mereka. Desainnya yang ringan memungkinkan gerakan yang lincah, menjadikannya pilihan yang ideal bagi mereka yang mencari senjata yang serbaguna dan dapat diandalkan.
+",0,item-icon-39,39,pedang kayu,1,1,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Aksesoris yang bergaya yang menambah sentuhan elegan pada setiap pakaian. Dibuat dengan detail yang rumit, cincin ini memancarkan kesan keanggunan dan pesona. Desain uniknya pasti akan menarik perhatian para penggemar mode.
+",0,item-icon-43,43,Lingkaran Pecahan Kristal,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi ini terbuat dari bahan unik yang terasa sangat lembut di kulit Anda. Ini memberikan kenyamanan dan kecocokan yang mewah, menjadikannya sempurna untuk sesi bermain game yang lama.
+",0,item-icon-44,44,Topi Kristal Helm Prajurit,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Helm yang kokoh yang terbuat dari kristal berkilau, memberikan perlindungan luar biasa tanpa mengorbankan kecepatan. Cahaya mempesona dari helm ini memberikan penglihatan yang lebih baik di dalam gua yang gelap.
+",0,item-icon-45,45,Helm Prajurit Helm Hedron,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Armor ini, dengan desain kristal yang retak, memancarkan aura ketangguhan dan kekuatan. Permukaannya yang berkilauan memantulkan cahaya, memikat semua yang melihatnya. Simbol kekuatan dan ketahanan, ini adalah barang wajib bagi prajurit berpengalaman.
+",0,item-icon-46,46,Armor Anggur Pecahan Kristal Tunik Prajurit,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Armor ini dibuat dengan bahan mirip kristal yang unik, memberikan perlindungan luar biasa tanpa mengorbankan mobilitas. Desainnya yang ramping dan permukaannya yang berkilauan membuatnya menjadi karya seni sejati. Dengan Armor Kulit Kristal, Anda akan merasa tak terkalahkan di medan perang.
+",0,item-icon-47,47,Atasan Prajurit Atasan Kulit Kristal,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Armor yang tangguh yang ditempa dari kristal yang terkutuk, memberikan perlindungan tak tertandingi terhadap serangan fisik maupun sihir. Permukaannya yang berkilauan memantulkan cahaya, mempesona musuh dan menanamkan ketakutan dalam hati mereka. Mengenakan armor ini memberikan aura ketaklukan pada pemakainya, menjadikannya kekuatan yang tak terhentikan di medan perang.
+",0,item-icon-48,48,Armor Tunik Hedron Prajurit,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Potongan pakaian yang unik terbuat dari kristal yang lembut, rok rumput ini menambah sentuhan elegan pada setiap pakaian. Teksturnya yang retak memberikan daya tarik misterius dan memikat, menjadikannya barang wajib bagi petualang yang mengikuti mode terkini.
+",0,item-icon-49,49,Celana Prajurit Rok Hula Pecahan Kristal,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini memiliki tekstur kristal yang unik, memberikan tampilan yang ramping dan futuristik. Kain yang halus terasa sejuk di kulit, memberikan kenyamanan maksimal selama pertempuran intens. Dengan desain yang mencolok, celana ini pasti membuat Anda menonjol di medan perang.
+",0,item-icon-50,50,Celana Prajurit Celana Kulit Kristal,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Legging ini dibuat dari batu kristal langka, memberikan perlindungan dan daya tahan yang tak tertandingi. Permukaannya yang berkilauan memantulkan cahaya, membuat pemakainya terlihat gaib dan misterius.
+",0,item-icon-51,51,Pelindung Kaki Hedron Celana Prajurit,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Aksesoris berkilau dengan retakan halus, memancarkan aura misteri dan ketangguhan. Permukaannya yang retak mencerminkan kekuatan dan tekad pemakainya, menjadikannya simbol ketangguhan dan ketekunan.
+",0,item-icon-52,52,Gelang Pecahan Kristal Sarung Tangan Prajurit,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dibuat dengan bahan mirip kristal yang unik, memberikan tekstur yang ramping dan halus yang meningkatkan cengkeraman dan kelincahan. Desainnya yang ringan memungkinkan gerakan yang mudah, menjadikannya favorit di kalangan pemain game yang mencari presisi dan kenyamanan.
+",0,item-icon-53,53,Sarung Tangan Prajurit Sarung Tangan Kulit Kristal,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah gauntlet yang kuat yang diisi dengan energi kristal, memberikan kekuatan tambahan pada pemakainya dan kemampuan untuk memanipulasi kekuatan elemen. Manfaatkan kekuatan alam dan lepaskan serangan dahsyat pada musuh-musuh Anda. Kuasai medan perang dengan Crystal Stone Gauntlet!
+",0,item-icon-54,54,Sarung Tangan Prajurit Sarung Tangan Hedron,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini terbuat dari bahan unik yang memberikan cengkeraman dan daya tarik yang sangat baik, menjadikannya sempurna untuk melintasi permukaan yang licin. Desain kristal yang retak menambah sentuhan elegan dan misterius pada penampilan Anda. Kenakan dan rasakan kepercayaan diri saat Anda melangkah di segala medan.
+",0,item-icon-55,55,Sandal Pecah Sepatu Prajurit,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini dibuat dengan bahan unik yang meningkatkan kecepatan dan memberikan perlindungan yang sangat baik. Desainnya yang ramping memungkinkan gerakan yang cepat, menjadikannya favorit di kalangan petualang. Crystal Skin Boots adalah barang wajib bagi pemain yang mencari gaya dan fungsionalitas.
+",0,item-icon-56,56,Sepatu Prajurit Sepatu Bot Kulit Kristal,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini dibuat dengan desain batu kristal yang unik, menambah sentuhan elegan pada setiap langkah Anda. Batu-batu berkilau yang tertanam di sepatu menciptakan efek yang mempesona, membuat Anda menjadi pusat perhatian di mana pun Anda pergi. Kenakan sepatu yang indah ini dan rasakan pesona yang mereka bawa pada penampilan Anda.
+",0,item-icon-57,57,sepatu prajurit sepatu spar,"1,2,3",1,3,1
+1,"Seseorang pernah melihat bahan ini di tepi pantai.
+Bahan ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Batu ini adalah batu kelas satu dan dapat digunakan untuk mengumpulkan bahan mentah seperti pohon.
+",0,item-icon-58,58,Batu,1,4,1,1
+1,"Seseorang pernah melihat bahan ini di kanyon.
+Bahan ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Bijih besi hitam adalah bahan mentah sekunder yang dapat diperoleh melalui penambangan. Ia memiliki warna hitam, tekstur keras, dan mengandung banyak unsur besi.
+",0,item-icon-59,59,bijih besi hitam,1,4,2,1
+1,"Seseorang pernah melihat bahan ini di Gunung Salju.
+Bahan ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Ini adalah bijih kristal merah tingkat tiga yang dapat dikumpulkan di hutan. Ini adalah bahan mentah penting yang dapat digunakan untuk membuat berbagai peralatan dan item.
+",0,item-icon-60,60,tambang kristal merah,1,4,3,1
+1,"Seseorang pernah melihat bahan ini di tepi pantai.
+Bahan ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Jenis kayu ini biasanya digunakan untuk membuat perabotan sederhana atau bahan bangunan. Teksturnya relatif lunak, sehingga mudah untuk diproses dan diukir.",0,item-icon-62,62,kayu biasa,1,4,1,1
+1," Seseorang pernah melihat bahan ini di gurun.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Pohon gurun adalah jenis pohon yang tumbuh di gurun. Mereka biasanya memiliki tinggi rendah, batang yang tebal, dan daun hijau terang. Mereka dapat digunakan untuk mengumpulkan bahan mentah dan cocok untuk membuat beberapa barang khusus.
+",0,item-icon-63,63,kayu pohon gurun,1,4,2,1
+1," Seseorang pernah melihat bahan ini di Hutan Merah.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Kayu gelap adalah jenis kayu premium dengan tekstur hitam dan tekstur yang keras, cocok untuk membuat perabotan dan kerajinan kelas atas. Ini hanya dapat dipanen di titik pengumpulan tertentu, yang sulit tetapi juga sangat menguntungkan.
+",0,item-icon-64,64,kayu gelap,1,4,3,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bambu ini adalah hasil pertanian dan tanaman yang digunakan untuk membuat berbagai bahan mentah pertanian. Ini sangat umum dalam pertanian dan dapat tumbuh dengan sangat cepat.
+",0,item-icon-70,70,bambu,1,4,1,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Ini adalah bahan mentah yang diproduksi dalam pertanian, biasanya dapat dipanen pada Lv 1. Bentuknya menyerupai tiga daun, oleh karena itu disebut semanggi. Ini dapat digunakan untuk membuat banyak barang yang berbeda dan merupakan sumber daya yang sangat berguna.
+",0,item-icon-71,71,semanggi,1,4,1,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Wortel ini adalah hasil pertanian level 1 yang dapat diperoleh di lapangan pertanian. Ini adalah bahan baku penting.
+",0,item-icon-72,72,wortel,1,4,1,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Pitcher plant adalah jenis tanaman yang unik yang dapat menarik dan menangkap serangga sebagai sumber makanan. Mereka dianggap sebagai salah satu hasil pertanian dan dapat digunakan sebagai bahan baku dalam bidang pertanian.
+",0,item-icon-73,73,Sesuatu yg memberi ketenangan,1,4,2,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Kapas ini adalah kualitas tingkat kedua dan cocok untuk pembuatan tekstil.
+",0,item-icon-74,74,kapas,1,4,2,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Buah kesabaran ini adalah bahan mentah yang diproduksi dalam pertanian, yang dapat ditanam di peternakan level 2 dan menghasilkan 2-3 buah setiap kali. Ini memiliki karakteristik daya tahan yang kuat dan waktu penyimpanan yang lama, dan merupakan bahan penting untuk membuat berbagai makanan dan obat-obatan.
+",0,item-icon-75,75,buah dari kesabaran,1,4,2,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Cabai pedas ini level 3 dan sangat pedas, cocok untuk mereka yang menyukai makanan pedas. Diproduksi oleh pertanian dan dapat ditanam di lapangan. Sebagai bahan mentah pertanian, dapat digunakan untuk membuat berbagai produk cabai, seperti saus cabai dan minyak cabai.
+",0,item-icon-76,76,cabai pedas,1,4,3,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Buah keras ini adalah bahan mentah pertanian yang menghasilkan hasil tinggi yang dapat digunakan untuk membuat berbagai makanan dan obat-obatan. Ini memiliki tekstur yang keras dan komponen nutrisi yang kaya, menjadikannya bagian yang tak terpisahkan dari produksi pertanian.
+",0,item-icon-77,77,buah keras,1,4,3,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Jamur biru ini adalah spesies jamur premium yang biasanya diproduksi dalam sektor pertanian. Ini adalah bahan mentah yang sangat berharga yang dapat digunakan untuk membuat obat-obatan dan makanan mewah.
+",0,item-icon-78,78,Jamur Phantom Biru,1,4,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+",0,item-icon-79,79,cangkul kayu,1,1,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+",0,item-icon-80,80,cangkul besi,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+",0,item-icon-81,81,cangkul terkutuk,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.",0,item-icon-82,82,cangkul yang diberkati,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Pot air kayu ini adalah peralatan yang cocok untuk digunakan dalam pertanian, yang dapat digunakan untuk menyimpan air bersih atau air irigasi.
+",0,item-icon-83,83,ketel kayu,1,1,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Alat masak yang kokoh dan dapat diandalkan yang terbuat dari besi tahan lama. Alat ini cepat panas dan merata, memungkinkan memasak yang efisien. Pegangan ergonomisnya memastikan pegangan yang nyaman saat menuangkan.
+",0,item-icon-84,84,ketel besi,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah ketel misterius yang membawa malapetaka bagi mereka yang memilikinya, menyebabkan kekacauan dan keputusasaan. Aura gelapnya memancarkan kehadiran yang menyeramkan, menggoda nasib dengan setiap seduhan. Berhati-hatilah, karena kekuatan terkutuknya dapat mengubah bahkan yang paling beruntung menjadi korban kehancuran mereka sendiri.
+",0,item-icon-85,85,Ketel Terkutuklah,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Artefak suci yang membawa berkah dan keberuntungan bagi pemiliknya, meningkatkan keberuntungan mereka dan memberikan kesempatan tak terduga. Ketel mistis ini dikatakan memancarkan energi positif, menarik kemakmuran dan kebahagiaan di mana pun ia pergi. Milikilah benda berharga ini bagi mereka yang mencari sentuhan intervensi ilahi dalam hidup mereka.
+",0,item-icon-86,86,ketel berkah,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Alat yang kokoh terbuat dari kayu, sempurna untuk penambangan dan pengumpulan sumber daya dengan efisien. Ketahanannya memastikan tidak mudah patah, menjadikannya pilihan yang dapat diandalkan bagi petualang manapun.
+",0,item-icon-87,87,beliung kayu,1,1,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Alat yang kokoh terbuat dari besi, sempurna untuk penambangan dan penggalian sumber daya berharga. Ujungnya yang tajam dan konstruksi yang tahan lama menjadikannya item penting bagi petualang manapun. Dengan beliung ini di tangan, Anda akan dapat menggali lebih dalam dan mengungkapkan harta tersembunyi.
+",0,item-icon-88,88,beliung besi,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Beliung terkutuk ini dapat membantu Anda mengumpulkan pohon dan bijih dengan lebih cepat. Ini adalah peralatan level 2 dengan kemampuan pengumpulan yang kuat.
+",0,item-icon-89,89,Beliung Terkutuklah,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Beliung Berkat, alat suci yang dianugerahi kekuatan ilahi, dengan mudah membelah batu terkeras, meninggalkan jejak fragmen berkilauan. Bilah ajaibnya berpendar dengan cahaya yang bersinar, membimbing para penambang menuju harta tersembunyi di dalam bumi. Dengan setiap ayunan, ia memberikan berkah keberuntungan dan kemakmuran, menjadikannya teman yang penting bagi petualang manapun.
+",0,item-icon-90,90,Beliung yang Terberkati,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Kapak ini adalah alat kayu, cocok untuk pekerjaan pengumpulan di luar ruangan. Ini adalah jenis peralatan yang dapat membantu Anda menyelesaikan tugas pengumpulan dengan lebih efisien.
+",0,item-icon-91,91,kapak kayu,1,1,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Kapak besi ini dapat digunakan untuk menebang pohon dan merupakan alat penting untuk mengumpulkan kayu. Ini juga dapat digunakan sebagai peralatan untuk meningkatkan efektivitas pertempuran.
+",0,item-icon-92,92,Kapak Besi,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Ketajaman kapak ini telah mencapai level 2, sehingga mudah untuk mengumpulkan pohon. Namun, kapak ini juga terkutuk, jadi hati-hati saat menggunakannya.
+",0,item-icon-93,93,kapak terkutuk,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Senjata kuat yang dianugerahi berkah ilahi, mampu membelah setiap rintangan dengan mudah. Bilahnya yang tajam berkilau dengan cahaya suci, menimbulkan ketakutan di hati musuh. Kapak yang Diberkati adalah simbol kekuatan dan kebenaran sejati di medan perang.
+",0,item-icon-94,94,kapak yang diberkati,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi modis ini membawa keberuntungan bagi pemakainya, menambah sentuhan pesona pada setiap pakaian. Warna-warni yang cerah dan desain yang rumit membuatnya menjadi aksesori yang wajib dimiliki bagi pemain yang modis. Kenakan dan biarkan keberuntungan berada di pihak Anda!
+",0,item-icon-98,98,Topi Pertanian Topi Semanggi Keberuntungan,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi modis ini terbuat dari kapas yang lembut dan nyaman, membawa keberuntungan bagi pemakainya. Warna-warni yang cerah dan desain yang rumit membuatnya menjadi aksesori yang modis untuk setiap pakaian. Dengan topi ini, Anda akan merasa percaya diri dan siap menghadapi petualangan apa pun.
+",0,item-icon-99,99,Topi Pertanian Topi Katun Keberuntungan,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi keras yang kokoh ini membawa keberuntungan bagi pemakainya, memberikan perlindungan ekstra dan meningkatkan peluang mereka untuk menemukan harta berharga. Warna-warni yang cerah dan konstruksi yang tahan lama membuatnya menjadi favorit di kalangan pemain petualang.
+",0,item-icon-100,100,Topi Pertanian Topi Keras Keberuntungan,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Jaket modis yang sempurna untuk petualangan di luar ruangan, memberikan kehangatan dan perlindungan dari elemen. Bahan yang tahan lama dan desain praktis membuatnya menjadi barang yang wajib dimiliki bagi setiap petualang. Tetap nyaman dan modis dengan Harvest Jacket ini.
+",0,item-icon-101,101,puncak pertanian,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Jaket yang tahan lama yang dirancang untuk petani, memberikan perlindungan dari elemen dan medan yang sulit. Jahitan yang diperkuat dan kain yang kokoh membuatnya ideal untuk pekerjaan di luar ruangan. Tetap nyaman dan fokus pada tugas Anda dengan pakaian yang dapat diandalkan ini.",0,item-icon-102,102,puncak pertanian,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Jaket ini dirancang khusus untuk orang yang bekerja di bidang pertanian. Jaket ini memiliki perlindungan, sirkulasi udara, dan daya tahan yang baik, membuat pekerjaan di ladang menjadi lebih nyaman dan aman.
+",0,item-icon-103,103,puncak pertanian,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang untuk petani, memberikan kenyamanan dan daya tahan untuk bekerja berjam-jam di ladang. Terbuat dari bahan berkualitas tinggi, celana ini menawarkan perlindungan yang baik terhadap kotoran dan noda. Dengan desain praktis dan ukuran yang dapat disesuaikan, celana ini menjadi barang wajib bagi petani yang berdedikasi.
+",0,item-icon-104,104,celana pertanian,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana pertanian ini dirancang khusus untuk pekerjaan pertanian, dengan fitur tahan air dan tahan aus, membuat pekerjaan di ladang menjadi lebih nyaman dan aman.
+",0,item-icon-105,105,celana pertanian,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang khusus untuk pekerja pertanian, terbuat dari bahan berkualitas tinggi yang nyaman dan tahan lama. Celana ini memiliki fungsi tahan air, tahan noda, dan tahan tusukan, efektif melindungi tubuh dan pakaian pekerja. Selain itu, celana ini dilengkapi dengan banyak kantong dan desain detail untuk memudahkan membawa alat dan meningkatkan efisiensi kerja.
+",0,item-icon-106,106,celana pertanian,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini cocok digunakan di ladang, dan dapat melindungi tangan dari duri, kotoran, dan benda tajam lainnya. Sarung tangan ini juga memiliki fungsi anti-selip, membuat Anda lebih stabil di tanah basah.
+",0,item-icon-107,107,sarung tangan pertanian,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dirancang khusus untuk tugas pertanian, memberikan cengkaman yang baik dan perlindungan terhadap duri dan permukaan kasar. Terbuat dari bahan yang tahan lama, sarung tangan ini dapat bertahan dalam waktu lama saat bekerja di ladang. Dengan sarung tangan ini, Anda dapat menangani pekerjaan pertanian dengan mudah dan nyaman.
+",0,item-icon-108,108,sarung tangan pertanian,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini cocok untuk pekerjaan pertanian, memberikan cengkaman yang nyaman dan perlindungan untuk membantu petani menyelesaikan berbagai kegiatan pertanian.
+",0,item-icon-109,109,sarung tangan pertanian,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu koleksi ini dirancang khusus untuk kegiatan koleksi. Mengenakannya dapat membuat Anda lebih lincah saat berjalan di hutan dan dengan mudah mengumpulkan sumber daya yang Anda butuhkan.
+",0,item-icon-113,113,mengumpulkan sepatu,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu koleksi ini dirancang khusus untuk kegiatan koleksi. Mereka dapat membantu Anda mengumpulkan sumber daya dengan lebih cepat dan efisien, membuat perjalanan koleksi Anda lebih lancar.
+",0,item-icon-114,114,mengumpulkan sepatu,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini dirancang untuk para petualang, memberikan perlindungan tambahan dari elemen tanpa mengorbankan gaya. Tepi lebarnya dan tali yang dapat disesuaikan memastikan kenyamanan saat dipakai, menjadikannya aksesori yang wajib dimiliki untuk setiap petualang di luar ruangan. Dibuat dengan bahan yang tahan lama, topi ini dirancang untuk tahan dalam kondisi yang paling sulit. Konstruksi ringan dan kain yang bernapas membuat Anda tetap sejuk dan terlindungi selama berjam-jam menjelajah. Dengan desain praktis dan tampilan modisnya, Topi Koleksi adalah aksesori yang wajib dimiliki untuk petualang berpengalaman.
+",0,item-icon-115,115,mengumpulkan sepatu,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Pupuk ini akan meningkatkan pertumbuhan tanaman Anda, memastikan panen yang melimpah dalam waktu singkat. Tingkatkan efisiensi pertanian Anda dan saksikan tanaman Anda berkembang dengan subur dengan pupuk yang kuat ini.
+",98,item-icon-128,128,pemupukan dipercepat,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+
+-------
+Pupuk untuk meningkatkan hasil panen adalah barang habis pakai yang dirancang khusus untuk produksi pertanian pada level LV0 dan di atasnya. Pupuk ini dapat memberikan nutrisi yang cukup untuk tanaman, mempromosikan pertumbuhan dan perkembangan mereka, serta meningkatkan hasil dan kualitas panen.
+",98,item-icon-129,129,Pupuk yang meningkatkan hasil,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+
+-------
+Formula kaya nutrisi ini memberi makan tanaman secara mendalam, mempromosikan pertumbuhan yang sehat dan mekar yang indah. Ini meningkatkan retensi kelembaban tanah, memastikan tanaman tetap terhidrasi dalam waktu yang lebih lama. Tingkatkan vitalitas taman Anda dengan pupuk penting ini.
+",98,item-icon-130,130,pupuk lembab,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini dapat digunakan selama pertempuran dan memberikan efek penyembuhan yang kecil.
+",0,item-icon-134,134,Ramuan Penyembuhan Kecil,1,3,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini dapat meningkatkan kekuatan serangan Anda.
+",0,item-icon-135,135,Ramuan Serangan Kedua,1,3,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini meningkatkan kecepatan dan ketangkasan Anda, memungkinkan Anda bergerak dengan cepat dan menghindari serangan dengan mudah. Ini memberikan lonjakan kecepatan sementara, membuat Anda menjadi kekuatan yang tangguh di medan perang. Gunakan dengan strategi untuk mengalahkan lawan dan mendapatkan keunggulan dalam pertempuran.
+",0,item-icon-136,136,Ramuan Kecepatan,1,3,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini meningkatkan peluang serangan kritis Anda, memungkinkan Anda memberikan serangan yang menghancurkan kepada musuh. Ini adalah keharusan bagi setiap pemain yang ingin memaksimalkan output kerusakan mereka. Gunakan dengan bijak dan saksikan musuh Anda hancur di hadapan Anda.
+",0,item-icon-137,137,Ramuan serangan kritis kedua,1,3,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini adalah penyelamat dalam permainan, memberikan dorongan yang sangat dibutuhkan pada kesehatan karakter Anda. Ini dengan cepat mengembalikan sejumlah besar HP, memungkinkan Anda melanjutkan petualangan tanpa gangguan. Dengan warna yang cerah dan rasa yang menyegarkan, ini adalah obat yang sempurna untuk situasi yang genting.
+",0,item-icon-138,138,Ramuan Kehidupan Kedua,1,3,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini dapat memberikan efek pertahanan sementara, cocok untuk situasi darurat dalam pertempuran.
+",0,item-icon-139,139,Ramuan Pertahanan Kecil,1,3,1,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ini adalah jenis benih yang dapat ditanam untuk tumbuh menjadi bambu, yang cocok untuk digunakan di bidang pertanian.
+",97,item-icon-146,146,benih bambu,1,3,1,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih trifolium adalah bahan pertanian yang digunakan untuk menanam trifolium dan cocok untuk digunakan di lahan kelas rendah. Mereka dapat tumbuh dengan cepat dan menghasilkan nilai gizi yang kaya dalam lingkungan yang sesuai.
+",97,item-icon-147,147,biji semanggi,1,3,1,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih wortel ini dapat digunakan untuk menanam wortel segar dan lezat. Cocok untuk digunakan di kebun rumah atau peternakan kecil dan dapat ditanam pada musim semi dan musim gugur. Wortel yang tumbuh dari benih ini enak dan bergizi.
+",97,item-icon-148,148,biji wortel,1,3,1,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih pitcher plant adalah bahan pertanian yang dapat digunakan untuk menanam pitcher plant. Tanaman ini adalah tanaman karnivora yang dapat menyerap nutrisi dari serangga. Setelah ditanam, sinar matahari dan air yang cukup diperlukan untuk pertumbuhan yang lancar.
+",97,item-icon-149,149,Biji Nepenthes,1,3,2,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih kapas ini dapat ditanam di ladang dan dipanen untuk dijadikan kapas yang digunakan dalam produksi tekstil.
+",97,item-icon-150,150,biji kapas,1,3,2,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih ini memiliki potensi untuk tumbuh menjadi tanaman yang berduri dan tahan lama. Ini menjanjikan keindahan gurun di kebun Anda. Tanam dan saksikan keajaiban alam terungkap.
+",97,item-icon-151,151,bibit kaktus,1,3,2,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih ini cocok untuk ditanam di lingkungan hangat, tumbuh dengan cepat, dan memiliki kualitas yang baik. Rasanya sangat pedas, yang dapat menambahkan cita rasa unik pada makanan, menjadikannya pilihan terbaik bagi pecinta cabai.
+",97,item-icon-152,152,Benih Cabai,1,3,3,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih yang kuat dan tahan lama yang memiliki cangkang luar yang kuat, sempurna untuk perlindungan dan umur panjang. Sifatnya yang tangguh memastikan dapat bertahan dalam kondisi yang keras dan berkembang subur di lingkungan apa pun. Benih ini adalah simbol ketahanan dan kekuatan.
+",97,item-icon-153,153,biji buah yang keras,1,3,3,1
+1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Benih ini menjanjikan pertumbuhan jamur biru yang berwarna-warni, siap untuk memberikan sentuhan warna di kebun Anda. Tanam dan saksikan saat ia tumbuh menjadi jamur yang mempesona yang akan memikat indera Anda.
+",97,item-icon-154,154,Bibit Jamur Phantom Biru,1,3,3,1
+1,"Sebuah jimat yang kuat yang meningkatkan kemampuan sihir Anda, memungkinkan Anda melemparkan mantra dengan lebih presisi dan kekuatan. Ia memancarkan aura energi mistik, memberdayakan Anda dalam pencarian kemenangan.
+",0,item-icon-161,161,jimat,"1,2,3,4,5",4,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+
+-------
+Pupuk yang kuat ini meningkatkan pertumbuhan tanaman dan hasil panen, memungkinkan tanaman berkembang dengan cepat. Ini memberikan nutrisi penting dan mempromosikan perkembangan akar yang kuat, menghasilkan panen yang lebih sehat dan melimpah. Rasakan pertumbuhan yang cepat seperti belum pernah terjadi sebelumnya dengan formula canggih ini.
+",98,item-icon-131,131,Pupuk Berakselerasi Tinggi,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+
+-------
+Pupuk yang kuat ini secara signifikan meningkatkan hasil panen, menghasilkan panen yang melimpah. Ini meningkatkan pertumbuhan tanaman dan memaksimalkan penyerapan nutrisi, memastikan tanaman yang lebih sehat dan lebih kuat. Dengan pupuk canggih ini, para petani dapat mengharapkan peningkatan yang mengesankan dalam produktivitas pertanian mereka.",98,item-icon-132,132,Pupuk Hasil Tinggi,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pupuk ini dirumus khusus untuk memberikan hidrasi dan nutrisi yang dalam kepada tanaman, sehingga pertumbuhan mereka lebih sehat dan berwarna-warni. Formula canggihnya memastikan retensi kelembaban optimal di tanah, mempromosikan akar yang kuat dan dedaunan yang lebat. Berikan tanaman Anda dorongan hidrasi terbaik dengan pupuk pelembab canggih ini.
+",98,item-icon-133,133,pupuk dengan kelembaban tinggi,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini dapat digunakan dalam pertempuran, dan dapat menyembuhkan luka Anda.
+",0,item-icon-140,140,Ramuan Penyembuhan,1,3,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini meningkatkan kemampuan tempur Anda, meningkatkan kekuatan serangan Anda untuk waktu yang terbatas. Ini adalah keharusan bagi setiap petualang yang ingin memberikan serangan yang menghancurkan kepada musuh mereka. Gunakan dengan bijak dan saksikan musuh Anda gemetar di hadapan Anda.
+",0,item-icon-141,141,ramuan serangan,1,3,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini meningkatkan kecepatan Anda, memungkinkan Anda bergerak dengan cepat dan menghindari serangan dengan mudah. Ini adalah keharusan bagi setiap petualang yang ingin mendapatkan keunggulan dalam pertempuran.
+",0,item-icon-142,142,Ramuan Kecepatan,1,3,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini meningkatkan kemampuan tempur Anda, meningkatkan peluang serangan kritis Anda, memungkinkan Anda memberikan kerusakan besar dalam pertempuran. Dengan ramuan ini, kemenangan ada di genggaman Anda.
+",0,item-icon-143,143,Ramuan Serangan Kritis,1,3,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ramuan ini dapat mengembalikan poin kesehatan Anda. Ini bekerja lebih baik saat digunakan selama pertempuran.
+",0,item-icon-144,144,ramuan kehidupan,1,3,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Eliksir yang kuat yang meningkatkan kemampuan pertahanan Anda, memberikan perisai sementara terhadap serangan musuh. Ramuan ini meningkatkan perlindungan dan ketahanan Anda, memungkinkan Anda bertahan bahkan dalam pertempuran yang paling sulit. Gunakan dengan bijak untuk membalikkan keadaan dan keluar sebagai pemenang.
+",0,item-icon-145,145,ramuan pertahanan,1,3,2,1
+1,"Seseorang pernah melihat bahan ini di tepi pantai.
+Bahan ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Tanah liat adalah tanah yang sangat mudah dibentuk yang biasa digunakan untuk membuat keramik, bata, dan bahan bangunan lainnya. Biasanya memiliki warna abu-abu-cokelat atau merah-cokelat dan memiliki tekstur halus dengan konsentrasi bahan organik dan mineral yang tinggi. Saat mengumpulkan tanah liat, penting untuk menjaga kelembaban tanah agar dapat membentuk dan diproses dengan lebih baik.
+",0,item-icon-61,61,tanah liat,1,4,1,1
+1," Seseorang pernah melihat bahan ini di tepi pantai.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Resin ini adalah cairan kental yang sangat viskos yang dapat digunakan untuk membuat perekat, lapisan, dan sealant, antara lain. Biasanya dikumpulkan dari pohon dan membutuhkan alat khusus untuk pengumpulan.
+",0,item-icon-65,65,Damar,1,4,1,1
+1," Seseorang pernah melihat bahan ini di kanyon.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Tanaman tahunan yang tumbuh di alam liar, dengan ketahanan kekeringan yang kuat. Daunnya yang tebal mengandung air dan nutrisi yang melimpah, menjadikannya bahan baku penting untuk membuat minuman beralkohol dan obat-obatan.
+",0,item-icon-68,68,Tequila,1,4,3,1
+1," Seseorang pernah melihat bahan ini di tepi pantai.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Serat tanaman ini adalah bahan mentah yang dikumpulkan yang biasanya diperoleh dari pohon. Ini dapat digunakan untuk membuat berbagai macam barang, seperti tali, kain, dan kertas.
+",0,item-icon-66,66,serat tumbuhan,1,4,1,1
+1," Seseorang pernah melihat bahan ini di Gunung Salju.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Jamur ini tumbuh di daerah kutub yang dingin dan memiliki warna biru terang. Mereka memiliki rasa yang lezat dan cocok untuk dimasak.
+",0,item-icon-67,67,jamur es,1,4,2,1
+1," Seseorang pernah melihat bahan ini di tepi pantai.
+Bahan ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Jaring laba-laba ini level 1 dan dapat dikumpulkan di hutan. Ini adalah bahan mentah yang dapat digunakan untuk membuat berbagai macam barang.
+",0,item-icon-69,69,jaring laba-laba,1,4,1,1
+1,"Talisman NFT unik ini adalah artefak yang kuat yang meningkatkan kemampuan Anda dan meningkatkan keberuntungan Anda dalam permainan. Ia memancarkan aura energi mistik, memberdayakan Anda untuk mengatasi tantangan dan mencapai kebesaran. Pasanglah untuk membuka potensi tersembunyi dan memulai perjalanan luar biasa.
+",0,item-icon-162,162,Jimat NFT #,1,4,0,1
+1,"Talisman NFT #2 ini adalah artefak yang kuat yang meningkatkan kemampuan karakter Anda, memberikan dorongan pada kekuatan dan ketangkasan mereka. Ia memancarkan aura mistik, menarik keberuntungan dan keberuntungan pada petualangan Anda. Dengan talisman ini di samping Anda, Anda akan menjadi kekuatan yang tak terhentikan dalam permainan.
+",0,item-icon-163,163,Jimat NFT #,1,4,0,1
+1,"Talisman NFT #4 ini adalah artefak yang kuat yang meningkatkan kemampuan Anda dan meningkatkan performa Anda dalam pertempuran. Ia memancarkan aura perlindungan, memberi Anda pertahanan dan ketahanan yang lebih tinggi terhadap serangan musuh. Dengan talisman ini di samping Anda, Anda akan menjadi kekuatan yang tak terhentikan di medan perang.
+",0,item-icon-164,164,Pesona NFT #4,"2,1",4,0,1
+1,"Talisman NFT #8 ini adalah artefak yang kuat yang meningkatkan kemampuan karakter Anda, memberi mereka kekuatan dan ketangkasan yang lebih tinggi. Ini adalah item yang wajib dimiliki bagi setiap pemain serius yang ingin mendominasi permainan. Pasang talisman ini dan saksikan karakter Anda menjadi tak terhentikan di medan perang.
+",0,item-icon-165,165,Pesona NFT #8,"2,1",4,0,1
+1,"Talisman NFT unik ini memiliki kekuatan luar biasa, meningkatkan kemampuan Anda dan memberikan dorongan pada permainan Anda. Ini adalah aset berharga yang dapat sangat meningkatkan pengalaman bermain game Anda, membuat Anda tak terhentikan dalam petualangan virtual Anda. Buka potensinya dan menjadi kekuatan yang harus diperhitungkan dalam dunia game.
+",0,item-icon-166,166,Pesona NFT #6,"3,1",4,0,1
+1," NFT Talisman #32 ini adalah artefak yang kuat yang meningkatkan kemampuan Anda dan meningkatkan keberuntungan Anda dalam permainan. Ia memancarkan aura mistis, menarik harta karun langka dan memberi Anda keunggulan dalam pertempuran. Dengan talisman ini di samping Anda, kemenangan ada di genggaman Anda.
+",0,item-icon-167,167,Jimat NFT #,"3,1",4,0,1
+1," NFT Talisman unik ini memiliki kekuatan luar biasa, meningkatkan kemampuan Anda dan memberi Anda keunggulan dalam pertempuran. Desainnya yang rumit dan aura mistis membuatnya menjadi barang yang sangat diinginkan di kalangan petualang. Buka potensi tersembunyi dan bebaskan sihirnya untuk menaklukkan dunia baru.
+",0,item-icon-168,168,Pesona NFT #64,"4,1",4,0,1
+1," NFT Talisman unik ini memiliki kekuatan luar biasa, meningkatkan kemampuan Anda dan memberi Anda keunggulan dalam pertempuran. Desainnya yang rumit dan aura mistis membuatnya menjadi barang yang sangat diinginkan di kalangan petualang. Buka potensi tersembunyi dan mulailah petualangan seru dengan artefak yang luar biasa ini.
+",0,item-icon-169,169,Pesona NFT #8,"4,1",4,0,1
+1," NFT Talisman unik ini memiliki kekuatan luar biasa yang dapat meningkatkan pengalaman bermain Anda. Buka kemampuan tersembunyi dan dapatkan keunggulan atas lawan Anda dengan barang langka dan diinginkan ini. Tingkatkan perjalanan bermain Anda dengan NFT Talisman #256.
+",0,item-icon-170,170,Pesona NFT #56,"5,1",4,0,1
+1," Tiket ini memberi Anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
+",0,item-icon-171,171,Tiket #1,1,4,0,1
+1," Tiket ini memberi Anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
+",0,item-icon-172,172,Tiket #2,1,4,0,1
+1," Tiket ini memberi Anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
+",0,item-icon-173,173,Tiket #3,1,4,0,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Tanaman yang layu ini mungkin disebabkan oleh kekurangan air atau nutrisi. Ini dapat digunakan untuk membuat pupuk atau ramuan obat, dan juga dapat digunakan sebagai pakan hewan.
+",0,item-icon-174,174,tanaman layu,1,4,0,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Item ini adalah zat organik yang berfungsi sebagai pupuk dan dapat digunakan dalam produksi pertanian. Ini diperoleh melalui fermentasi dan pembusukan kotoran hewan dan mengandung nutrisi yang kaya seperti nitrogen, fosfor, kalium, dll.
+",0,item-icon-176,176,bangku,1,4,0,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Tunas yang lembut ini dipanen dari kaktus dan memiliki warna hijau muda dan tekstur lembut. Ini adalah bahan baku pertanian penting yang dapat digunakan untuk membuat obat-obatan, makanan, dan produk kecantikan, antara lain.
+",0,item-icon-177,177,kecambah kaktus,1,4,1,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Baut ini diperoleh dari pemeliharaan monster dan dapat digunakan sebagai bahan baku untuk pertanian.
+",0,item-icon-178,178,baut,1,4,1,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Kecambah labu adalah bahan baku pertanian yang dihasilkan dari perkawinan monster, memiliki penampilan hijau lembut dan kaya akan nutrisi. Mereka dapat digunakan untuk membuat berbagai makanan dan obat-obatan.
+",0,item-icon-179,179,kecambah labu,1,4,1,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Kristal biru adalah bahan baku pertanian langka yang berasal dari pertanian monster. Ini dapat membantu petani meningkatkan tingkat pertumbuhan dan hasil panen tanaman dan merupakan bagian yang tak terpisahkan dari produksi pertanian.
+",0,item-icon-180,180,tiang biru,1,4,2,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Monster tipe rumput ini, Broadleaf, adalah makhluk lucu yang merupakan hasil peternakan hewan peliharaan dalam produksi pertanian, memberikan bahan baku yang melimpah.
+",0,item-icon-181,181,Monster Rumput Berdaun Lebar,1,4,2,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Ini adalah madu yang dihasilkan dari peternakan monster dan dapat digunakan sebagai bahan baku pertanian.
+",0,item-icon-182,182,Sayang,1,4,2,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Item ini dihasilkan dari peternakan monster dan merupakan bahan baku yang digunakan dalam pertanian. Ini adalah Bulu Gelap level 3.
+",0,item-icon-183,183,bulu gelap,1,4,3,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Magma yang membeku ini dihasilkan dari perkawinan monster dan dapat digunakan untuk produksi bahan baku pertanian. Ini memiliki viskositas tinggi dan tahan suhu tinggi, sehingga cocok digunakan dalam kondisi ekstrem.
+",0,item-icon-184,184,magma yang memadat,1,4,3,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Serpihan es ini diperoleh dari pemeliharaan monster dan merupakan bahan yang digunakan dalam pertanian. Ini memiliki tiga tingkat kualitas dan dapat digunakan untuk membuat berbagai item berbasis es.
+",0,item-icon-185,185,kristal es,1,4,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sikat ini adalah alat yang dirancang khusus untuk pertanian, yang dapat dengan mudah membersihkan tanaman dan lahan.
+",0,item-icon-95,95,sikat,1,1,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Alat pemangkas ini dapat membantu petani mencukur bulu domba dengan cepat dan mudah, meningkatkan efisiensi pencukuran. Cocok untuk berbagai jenis domba.
+",0,item-icon-96,96,alat pemotong,1,1,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Alat genggam yang digunakan oleh petani untuk mengekstraksi susu dari sapi dengan efisien. Alat ini memiliki pegangan yang nyaman dan mekanisme hisap yang memastikan proses pemerasan yang lancar dan lembut.
+",0,item-icon-97,97,mesin pemerah susu,1,1,0,1
+1," Anda dapat memperoleh jenis material ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau item.
+
+-------
+Tanaman ini tampaknya telah membusuk dan tidak lagi dapat dimakan. Ini mungkin disebabkan oleh terlalu banyak air atau serangan hama. Tanaman ini dapat digunakan sebagai pupuk atau dibuang dengan cara dikubur.
+",0,item-icon-175,175,tanaman yang membusuk,1,4,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi modis ini sempurna untuk petualang, memberikan perlindungan tambahan dari elemen tanpa mengorbankan gaya. Tepi lebarnya dan tali yang dapat disesuaikan memastikan kenyamanan saat dipakai, menjadikannya aksesori yang wajib dimiliki untuk setiap petualang di luar ruangan. Dibuat dengan bahan yang tahan lama, topi ini dirancang untuk tahan dalam kondisi yang paling sulit. Konstruksi ringan dan kain yang bernapas membuat Anda tetap sejuk dan terlindungi selama berjam-jam menjelajah. Dengan desain praktis dan tampilan modisnya, Topi Koleksi adalah aksesori yang wajib dimiliki untuk petualang berpengalaman.
+",0,item-icon-116,116,topi koleksi,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dirancang untuk para kolektor yang berdedikasi, memungkinkan mereka mengumpulkan berbagai sumber daya tanpa harus kotor. Dengan ukuran yang pas dan bahan yang tahan lama, sarung tangan ini memberikan cengkaman yang handal dan melindungi dari benda tajam. Baik itu memetik tanaman obat atau menambang bijih, sarung tangan ini adalah barang wajib bagi para pengumpul yang berdedikasi.
+",0,item-icon-126,126,Mengumpulkan Sarung Tangan,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dirancang untuk para pengumpul yang berdedikasi, memberikan cengkaman dan kelincahan yang lebih baik. Terbuat dari bahan tahan lama yang melindungi tangan Anda dari duri dan benda tajam, memungkinkan Anda mengumpulkan sumber daya dengan mudah dan efisien. Dengan sarung tangan ini, Anda tidak perlu khawatir tentang lecet atau luka lagi.
+",0,item-icon-125,125,Mengumpulkan Sarung Tangan,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang untuk petualang yang berdedikasi, memberikan kenyamanan dan fleksibilitas selama perjalanan jauh. Dengan jahitan yang diperkuat dan bahan yang tahan lama, celana ini sempurna untuk mengumpulkan sumber daya di alam liar. Tetap lincah dan fokus dengan celana penting ini bagi para penjelajah yang berdedikasi.
+",0,item-icon-122,122,celana koleksi,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang untuk petualang yang berdedikasi, memberikan kenyamanan dan fleksibilitas selama perjalanan jauh. Dibuat dengan bahan yang tahan lama, celana ini menawarkan perlindungan yang baik terhadap elemen tanpa mengorbankan mobilitas. Sempurna untuk mereka yang ingin mengumpulkan sumber daya dengan efisien saat menjelajahi lanskap luas dalam permainan.
+",0,item-icon-124,124,celana koleksi,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini sempurna untuk mengumpulkan sumber daya dalam permainan, memberikan ruang penyimpanan ekstra dan daya tahan. Celana ini dirancang dengan jahitan yang diperkuat dan banyak kantong, memungkinkan pemain dengan mudah membawa dan mengumpulkan berbagai material tanpa khawatir tentang kerusakan.
+",0,item-icon-123,123,celana koleksi,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dirancang untuk para pengumpul yang berdedikasi, memberikan kelincahan dan cengkaman yang lebih baik. Terbuat dari bahan tahan lama yang melindungi tangan dari duri dan benda tajam. Dengan sarung tangan ini, Anda dapat mengumpulkan sumber daya dengan mudah dan efisien.
+",0,item-icon-127,127,Mengumpulkan Sarung Tangan,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Jaket praktis ini dirancang untuk para petualang, memberikan perlindungan yang baik terhadap elemen. Bahan yang tahan lama dan jahitan yang diperkuat membuatnya ideal untuk perjalanan jauh dan kegiatan di luar ruangan. Tetap hangat dan nyaman tanpa mengorbankan mobilitas dengan bagian penting ini.
+",0,item-icon-121,121,koleksi atasan,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Jaket praktis ini dirancang untuk para petualang, memberikan perlindungan yang baik terhadap elemen. Bahan yang tahan lama dan jahitan yang diperkuat membuatnya ideal untuk perjalanan jauh dan kegiatan di luar ruangan. Dengan banyak kantong dan tali yang dapat disesuaikan, jaket ini menawarkan kenyamanan dan fungsionalitas bagi para penggemar kegiatan di luar ruangan.
+",0,item-icon-120,120,koleksi atasan,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Jaket tahan lama ini dirancang untuk petualangan di luar ruangan, memberikan perlindungan yang baik terhadap elemen. Bahan ringan dan bernapas memastikan kenyamanan selama berjam-jam menjelajah. Dengan banyak kantong dan jahitan yang diperkuat, jaket ini menjadi teman yang sempurna bagi setiap petualang yang berdedikasi.
+",0,item-icon-119,119,koleksi atasan,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi modis ini meningkatkan kemampuan Anda dalam mengumpulkan sumber daya, memudahkan Anda mengumpulkan sumber daya dalam permainan. Aksesori praktis yang meningkatkan efisiensi pengumpulan Anda, memungkinkan Anda mengumpulkan material dengan lebih cepat dan efisien.
+",0,item-icon-118,118,topi koleksi,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Topi modis ini meningkatkan kemampuan Anda dalam mengumpulkan sumber daya, memungkinkan Anda mengumpulkan sumber daya dengan lebih efisien. Desain uniknya memberikan kenyamanan dan perlindungan, menjadikannya aksesori yang wajib dimiliki bagi setiap kolektor yang berdedikasi. Topi praktis yang dirancang khusus untuk tugas pengumpulan. Bahan ringan dan bernapas menjaga Anda tetap sejuk dan fokus selama berjam-jam mengumpulkan.
+",0,item-icon-117,117,topi koleksi,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu pertanian ini dirancang khusus untuk pekerja pertanian. Sepatu ini memiliki karakteristik anti-selip, tahan aus, dan bernapas, yang dapat melindungi kaki dan meningkatkan efisiensi kerja.
+",0,item-icon-112,112,sepatu pertanian,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu pertanian ini dirancang khusus untuk kegiatan pertanian seperti membajak dan menanam. Terbuat dari bahan berkualitas tinggi yang tahan lama, bernapas, dan nyaman, memberikan perlindungan untuk kaki petani.
+",0,item-icon-111,111,sepatu pertanian,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu pertanian ini terbuat dari bahan berkualitas tinggi, ringan, dan nyaman, cocok untuk dipakai dalam jangka waktu lama. Solnya anti-selip dan cocok untuk berbagai bidang pertanian, membuat pekerjaan Anda menjadi lebih mudah.
+",0,item-icon-110,110,sepatu pertanian,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pakan hewan peliharaan adalah item habis pakai yang cocok untuk hewan peliharaan level 0, dan dapat meningkatkan kenyang dan nilai pertumbuhan hewan peliharaan. Terbuat dari tanaman alami dan nutrisi, dengan rasa yang segar dan mudah dicerna dan diserap. Setiap bungkus pakan hewan peliharaan ringan dan mudah dibawa, menjadikannya item yang wajib dimiliki oleh pemilik hewan peliharaan.
+",27,item-icon-28,28,pakan kecil,1,3,0,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pakan hewan adalah produk habis pakai yang menyediakan nutrisi yang diperlukan bagi hewan untuk menjaga pertumbuhan yang sehat. Cocok untuk berbagai ternak dan hewan peliharaan, dan dapat meningkatkan produktivitas dan umur panjang mereka.
+",27,item-icon-29,29,pakan besar,1,3,0,1
+0," Farming EXP adalah nilai pengalaman dalam permainan yang dapat diperoleh melalui kegiatan pertanian seperti menanam tanaman dan memelihara hewan. Ini adalah faktor kunci dalam meningkatkan keterampilan dan tingkat pertanian, dan juga merupakan syarat yang diperlukan untuk membuka alat dan peralatan pertanian tingkat lebih tinggi.
+",0,item-icon-188,188,EXP Pertanian,1,4,0,0
+0," Combat EXP mengacu pada pengalaman yang diperoleh dalam pertempuran. Ini dapat membantu pemain naik level dan meningkatkan keterampilan mereka, meningkatkan kemampuan karakter mereka. Dalam banyak permainan, Combat EXP adalah salah satu cara penting bagi pemain untuk meningkatkan kekuatan mereka.
+",0,item-icon-189,189,Memerangi EXP,1,4,0,0
+0," Gathering EXP adalah sumber daya kunci dalam permainan, memainkan peran penting dalam meningkatkan efisiensi pengumpulan sumber daya dan kemampuan karakter. Pemain mengumpulkan pengalaman melalui kegiatan seperti menebang pohon dan menambang untuk meningkatkan tingkat keterampilan pengumpulan. Tingkat keterampilan menentukan kecepatan pengumpulan, kemungkinan perolehan sumber daya langka, dan membuka keterampilan tingkat lebih tinggi. Seiring berjalannya permainan, kebutuhan karakter menjadi lebih kompleks, membuat keterampilan pengumpulan yang tinggi menjadi penting untuk mendukung. Selain itu, pengalaman pengumpulan yang tinggi juga berkontribusi pada peningkatan kemampuan serangan. Pemain harus terus belajar keterampilan dan meningkatkan pengalaman pengumpulan untuk dengan berani menghadapi tantangan dan naik di antara yang terkuat.
+",0,item-icon-190,190,Mengumpulkan EXP,1,4,0,0
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+",0,item-icon-191,191,Ramuan Penyembuhan Kristal,1,3,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+",0,item-icon-192,192,Ramuan Serangan Kristal,1,3,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+",0,item-icon-194,194,Ramuan Kecepatan Kristal,1,3,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+",0,item-icon-195,195,Ramuan Serangan Kritis Kristal,1,3,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+",0,item-icon-196,196,Ramuan Kesehatan Kristal,1,3,3,1
+1," Elixir yang kuat ini mengembalikan vitalitas dan menyegarkan petualang yang lelah, memberikan lonjakan energi dan sifat penyembuhan. Ramuan berharga ini adalah tali pengaman dalam situasi yang sulit, menawarkan dorongan cepat dan menyegarkan untuk terus maju di tengah bahaya.
+",0,item-icon-197,197,Ramuan Pertahanan Kristal,1,3,3,1
+1," Potion ini dapat menambahkan lapisan perlindungan kristal pada pertahanan Anda, membuat Anda lebih tak terkalahkan dalam pertempuran.
+",0,item-icon-207,207,Kumpulkan Esensi,1,4,1,1
+1," Esensi ini dikumpulkan dari pohon dan dapat digunakan untuk menghasilkan berbagai bahan baku dan zat sintetis.
+
+",0,item-icon-208,208,Kumpulkan Esensi,1,4,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Item ini adalah esensi yang digunakan untuk mengumpulkan bahan baku untuk sintesis, dan membutuhkan level 3 untuk digunakan. Ini dapat diperoleh dengan mengumpulkan dari pohon-pohon dan merupakan sumber daya yang sangat penting.
+",0,item-icon-209,209,Kumpulkan Esensi,1,4,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Esensi penanaman pertanian ini disintesis dengan hati-hati dari bahan baku pertanian berkualitas tinggi dan cocok untuk penanaman pertanian dari tingkat satu. Ini dapat meningkatkan tingkat pertumbuhan dan hasil panen tanaman, serta meningkatkan kualitas dan rasa tanaman. Menggunakannya dapat membuat tanaman Anda lebih sehat dan makmur, dan membuat produksi pertanian Anda lebih efisien dan stabil.
+",0,item-icon-210,210,Esensi Penanaman Pertanian,1,4,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Ini adalah esensi khusus yang dirancang untuk penanaman pertanian, yang dapat meningkatkan tingkat pertumbuhan dan hasil panen tanaman serta membantu meningkatkan efisiensi produksi pertanian. Ini disintesis dari berbagai bahan baku pertanian dan merupakan item penting yang tak tergantikan dalam produksi pertanian.
+",0,item-icon-211,211,Esensi Penanaman Pertanian,1,4,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Esensi penanaman pertanian ini adalah campuran dari berbagai esensi tanaman berharga, yang memiliki efek ajaib dalam mempromosikan pertumbuhan tanaman dan meningkatkan hasil panen. Ini adalah salah satu bahan baku yang tak tergantikan di bidang pertanian dan cocok untuk berbagai jenis tanaman.
+",0,item-icon-212,212,Esensi Penanaman Pertanian,1,4,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Esensi pertanian dan peternakan ini adalah campuran dari berbagai esensi tanaman dan hewan alami, yang dapat meningkatkan efisiensi produksi dan hasil pertanian dan peternakan. Kaya akan komponen nutrisi dan zat bioaktif, yang dapat mempromosikan pertumbuhan yang sehat pada tanaman dan hewan ternak.
+",0,item-icon-213,213,Esensi Peternakan Pertanian,1,4,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Ini adalah esensi yang diekstraksi dari pertanian dan peternakan, yang dapat digunakan untuk mensintesis bahan baku pertanian lainnya.
+",0,item-icon-214,214,Esensi Peternakan Pertanian,1,4,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau item.
+-------
+Esensi ini diekstraksi dari produk pertanian dan peternakan berkualitas tinggi, dengan nilai gizi dan medis yang sangat tinggi. Ini dapat digunakan untuk membuat berbagai macam obat dan bumbu yang berkaitan dengan pertanian dan peternakan.
+",0,item-icon-215,215,Esensi Peternakan Pertanian,1,4,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Esensi pertempuran ini adalah bahan baku yang digunakan untuk mensintesis peralatan level yang lebih tinggi, memiliki kemampuan pertempuran yang kuat dan cocok untuk pertempuran level 1.
+",0,item-icon-216,216,esensi pejuang,1,4,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ini adalah esensi pertempuran yang digunakan untuk mensintesis peralatan level 2, yang dapat meningkatkan atribut pertempuran peralatan. Ini disintesis dari bahan baku yang diperoleh selama pertempuran dan merupakan item yang tak tergantikan dalam pertempuran.
+",0,item-icon-217,217,esensi pejuang,1,4,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Ini adalah bahan baku yang digunakan untuk mensintesis peralatan pertempuran, yang memiliki kemampuan pertempuran yang tinggi dan dapat meningkatkan level dan atribut peralatan.
+",0,item-icon-218,218,esensi pejuang,1,4,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pupuk ini dapat meningkatkan tingkat pertumbuhan tanaman dan cocok untuk tanaman tingkat menengah.
+",98,item-icon-219,219,pupuk dengan percepatan sedang,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pupuk ini dirancang khusus untuk meningkatkan hasil panen tanaman, menghasilkan panen yang melimpah. Mereka menyediakan nutrisi penting dan mempromosikan pertumbuhan tanaman yang sehat, memastikan produktivitas optimal bagi petani. Tingkatkan hasil panen Anda dengan pupuk berkualitas tinggi ini.
+",98,item-icon-220,220,Pupuk Hasil Sedang,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pupuk ini memberikan retensi kelembaban yang ditingkatkan untuk tanaman, memastikan tetap terhidrasi dan sehat. Ini mempromosikan pertumbuhan dan nutrisi optimal tanpa perlu penyiraman yang konstan. Berikan perawatan terbaik untuk tanaman Anda dengan pupuk pelembab canggih ini.
+",98,item-icon-221,221,Pupuk lembab sedang,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Alat yang kuat ini dibuat dari batu padat, membuatnya sangat tahan lama dan sempurna untuk menghancurkan hambatan yang sulit. Kepala yang berat memberikan dampak yang memuaskan, menjadikannya favorit di kalangan petualang dan pembangun.
+",0,item-icon-222,222,palu 0 palu batu,1,1,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Busur kayu yang kokoh dibuat dengan presisi, sempurna untuk serangan jarak jauh. Permukaannya yang halus dan desain yang terukir dengan baik memastikan pegangan yang nyaman dan tembakan yang akurat.
+",0,item-icon-223,223,Busur dan Anak Panah0 Busur Kayu,1,1,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Sabit batu adalah sabit yang terbuat dari batu keras. Pisau sabitnya tajam dan dapat dengan mudah memotong berbagai tanaman. Pegangan sabit batu ini dirancang dengan hati-hati, memberikan pegangan yang nyaman dan penggunaan yang stabil dan fleksibel. Bahan batunya membuatnya tahan lama dan tahan karat, sehingga cocok untuk digunakan di luar ruangan. Baik itu merapikan halaman atau memanen tanaman, sabit batu adalah alat yang praktis.
+",0,item-icon-225,225,sabit batu,1,1,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Sabit tembaga adalah alat pertanian yang terbuat dari tembaga murni, dengan pisau melengkung dan pegangan yang kokoh. Pisau yang tajam dan tahan lama cocok untuk memotong tanaman dan rumput. Bahan tembaga membuat sabit lebih kuat dan tahan karat. Desainnya yang indah, nyaman digenggam, dan mudah digunakan. Sabit tembaga adalah salah satu alat kerja penting bagi petani, membantu mereka menyelesaikan panen di ladang. Baik di ladang atau di peternakan, sabit tembaga menunjukkan kepraktisan dan ketahanannya.
+",0,item-icon-226,226,Sabit Tembaga,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Sabit besi adalah alat yang kuat dan tahan lama yang terbuat dari besi berkualitas tinggi. Pisau sabitnya tajam dan cocok untuk memotong rumput, memanen tanaman, dan pekerjaan pertanian lainnya. Desain melengkung sabit memungkinkan pengguna dengan mudah memotong tanaman dan meningkatkan efisiensi kerja. Pegangannya dirancang dengan hati-hati untuk pegangan yang nyaman dan penggunaan yang stabil. Baik itu pekerjaan pertanian atau pemangkasan taman, sabit besi adalah alat yang tak tergantikan.
+",0,item-icon-227,227,sabit besi,1,1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Crystal Scythe, senjata yang bersinar dengan kejernihan kristal, pisau terbuat dari kristal murni, transparan seperti air, memancarkan sihir yang misterius. Pisau sabit ini sangat tajam, mampu dengan mudah memotong hambatan apa pun. Pegangannya dihiasi dengan pola perak yang indah, memberikan nuansa kemuliaan dan misteri. Menggenggam Crystal Scythe, terasa seolah-olah seseorang dapat mengendalikan kekuatan alam, melepaskan energi yang tak terbatas, menjadi kehadiran yang tak terkalahkan dalam pertempuran. Baik itu seorang pejuang atau penyihir, mereka semua ingin memiliki senjata unik ini untuk menunjukkan kekuatan mereka yang besar.
+",0,item-icon-228,228,Sabit Kristal,1,1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Golden sickle, bersinar dengan cahaya emas, sangat tajam, pisau sabit ini tertanam dengan emas berharga, memancarkan nuansa kemewahan. Pisau sabit melengkung ini sempurna untuk memanen tanaman. Dengan satu ayunan, ia membawa panen yang melimpah, seperti emas. Pegangannya diukir dengan cermat, megah namun nyaman, menggenggamnya di tangan terasa seperti memiliki kekuatan tak terbatas. Baik sebagai dekorasi atau alat praktis, golden sickle adalah pilihan yang unik dan mewah.
+",0,item-icon-229,229,sabit emas,1,1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Diamond Scythe adalah senjata yang indah dan megah, dengan pisau terbuat dari berlian murni, bersinar dengan cahaya yang memikat. Pisau sabit ini sangat tajam, mampu dengan mudah memotong hambatan apa pun. Pegangannya dirancang dengan detail, memberikan pegangan yang nyaman, memungkinkan kecepatan dan kemudahan yang lebih besar dalam pertempuran. Diamond Scythe tidak hanya memiliki kekuatan serangan yang tangguh, tetapi juga memiliki sifat magis yang unik, mampu melepaskan gelombang energi mematikan, membuat musuh tidak memiliki tempat untuk melarikan diri. Baik dalam pertempuran atau pameran, Diamond Scythe adalah harta yang luar biasa yang menarik perhatian.
+",0,item-icon-230,230,sabit berlian,1,1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Starry Scythe, sabit yang bersinar dengan cahaya bintang, dengan berbagai bintang terang tertanam di pisau sabitnya, memancarkan cahaya misterius. Pisau sabit ini sangat tajam, mampu dengan mudah memotong hambatan apa pun. Pegangan sabit diukir dengan pola rasi bintang yang indah, memberikan nuansa ketuhanan dan kesolemnitas. Mengayunkan Starry Scythe terasa seperti menguasai kekuatan bintang, memungkinkan seseorang merasakan kekuatan dan kemuliaan yang tak terbatas. Baik dalam pertempuran atau upacara, ini adalah pilihan yang sangat baik.
+",0,item-icon-231,231,Sabit Astral,1,1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Sebuah Bom
+",347,item-icon-232,232,Botol yang mudah meledak,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Stun Potion
+",348,item-icon-233,233,botol setrum,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Viscous Potion
+",351,item-icon-234,234,Pelankan botol,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Burning Potion
+",352,item-icon-235,235,botol obat terbakar,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Yellow Flash
+",356,item-icon-236,236,Botol Pil Guntur Terbang,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Combo Miss
+",357,item-icon-237,237,menghindari botol,1,3,0,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Buff Clear
+",358,item-icon-238,238,Botol pemurnian,1,3,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-241,241,Rambut Baseball Pro,5,1,4,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-242,242,Atasan Baseball Pro,5,1,4,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-243,243,Sarung Tangan Baseball Pro,5,1,4,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-244,244,Celana Baseball Pro,5,1,4,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-245,245,Sepatu Baseball Pro,5,1,4,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-246,246,Rambut Ya-shiro,5,1,7,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-247,247,Atasan Ya-shiro,5,1,7,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-248,248,Sarung Tangan Ya-shiro,5,1,7,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-249,249,Celana Ya-shiro,5,1,7,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-250,250,Sepatu Ya-shiro,5,1,7,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-251,251,Rambut Hell Baron,5,1,8,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-252,252,Atasan Hell Baron,5,1,8,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-253,253,Sarung Tangan Hell Baron,5,1,8,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-254,254,Celana Hell Baron,5,1,8,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-255,255,Sepatu Hell Baron,5,1,8,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-257,257,Rambut Stylish Lad,5,1,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-258,258,Atasan Stylish Lad,5,1,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-259,259,Sarung Tangan Stylish Lad,5,1,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-260,260,Celana Stylish Lad,5,1,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-261,261,Sepatu Stylish Lad,5,1,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-262,262,Rambut Speedster,5,1,2,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-263,263,Atasan Speedster,5,1,2,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-264,264,Sarung Tangan Speedster,5,1,2,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-265,265,Celana Speedster,5,1,2,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-266,266,Sepatu Speedster,5,1,2,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-267,267,Rambut Prajurit Romawi,5,1,1,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-268,268,Atasan Prajurit Romawi,5,1,1,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-269,269,Sarung Tangan Prajurit Romawi,5,1,1,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-270,270,Celana Prajurit Romawi,5,1,1,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-271,271,Sepatu Prajurit Romawi,5,1,1,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-272,272,Rambut Anak Jalanan,5,1,3,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-273,273,Atasan Anak Jalanan,5,1,3,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-274,274,Sarung Tangan Anak Jalanan,5,1,3,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-275,275,Celana Anak Jalanan,5,1,3,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-276,276,Sepatu Anak Jalanan,5,1,3,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-277,277,Rambut Set Woof Woof,5,1,5,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-278,278,Atasan Set Woof Woof,5,1,5,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-279,279,Sarung Tangan Set Woof Woof,5,1,5,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-280,280,Celana Set Woof Woof,5,1,5,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-281,281,Sepatu Set Woof Woof,5,1,5,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-282,282,Rambut Passionate Flame,5,1,9,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-283,283,Atasan Passionate Flame,5,1,9,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-284,284,Sarung Tangan Passionate Flame,5,1,9,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-285,285,"Celana Api Penuh Semangat
+",5,1,9,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-286,286,"Sepatu Api Penuh Semangat
+",5,1,9,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+",0,item-icon-287,287,busur silang,1,1,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+",0,item-icon-288,288,busur logam,"1,2",1,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------",0,item-icon-289,289,busur kristal,"1,2,3",1,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Memulihkan sedikit energi
+",0,item-icon-295,295,"Ramuan Restorasi Energi - Kecil
+",1,3,1,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Memulihkan lebih banyak energi
+",0,item-icon-296,296,"Ramuan Restorasi Energi - Sedang
+",1,3,2,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Memulihkan banyak energi
+",0,item-icon-297,297,"Ramuan Restorasi Energi - Besar
+",1,3,3,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah cangkul emas yang berkilauan, sangat tajam dan tahan lama. Digunakan untuk pertanian, ia memungkinkan Anda dengan mudah memanfaatkan kekuatan bumi, menumbuhkan tanaman yang kuat. Ini juga merupakan kebanggaan petani, melambangkan kerja keras mereka dan harapan akan panen yang melimpah.
+",0,item-icon-299,299,"Cangkul Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah kapak emas yang berkilauan, dengan mata pisau yang sangat tajam, mampu menebang pohon-pohon terkuat dengan mudah. Dengan bobot yang moderat, ini adalah alat yang stabil dan fleksibel, disukai oleh para pengumpul.
+",0,item-icon-300,300,"Kapak Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah alat emas yang berkilauan dirancang untuk pengumpulan. Bahan yang kuat dan desain yang rumit memudahkan penambangan bijih dan harta karun. Baik saat menjelajah di bawah tanah atau menjelajahi daerah pegunungan untuk sumber daya berharga, beliung emas adalah teman yang paling dapat diandalkan.
+",0,item-icon-301,301,"Beliung Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah gunting emas yang indah dan tajam, terbuat sepenuhnya dari emas murni. Mata pisunya sangat tajam, dengan mudah memotong berbagai bahan, baik itu kain, kertas, atau tanaman yang rapuh. Ini adalah alat yang wajib dimiliki oleh setiap petani dan pengrajin, digunakan untuk memangkas tanaman, memotong kain, atau kerajinan tangan yang rumit. Baik di ladang atau di bengkel, Gunting Emas adalah simbol keahlian yang indah dan selera yang halus.
+",0,item-icon-302,302,"Gunting Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah sabit yang berkilauan dengan cahaya emas, dengan mata pisau yang sangat tajam. Ini adalah salah satu alat favorit di antara petani, digunakan untuk panen tanaman yang matang. Cahaya emas yang berkilauan di bawah sinar matahari membawa perasaan panen yang gembira dan kemakmuran ke ladang.
+",0,item-icon-303,303,"Sabit Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah ketel emas yang megah, terbuat sepenuhnya dari emas murni. Tidak hanya memiliki penampilan yang mempesona, tetapi juga memiliki sifat magis. Ketika Anda menggunakan Ketel Emas, ia dengan cepat mengembalikan kesehatan dan mana Anda, menjaga Anda bertenaga dalam pertempuran. Baik dalam pertempuran sengit atau di ladang yang sibuk, Ketel Emas adalah teman yang paling setia.
+",0,item-icon-304,304,"Ketel Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah cangkul yang berkilauan dengan cahaya permata, luar biasa dalam ketajaman dan daya tahan. Menggunakannya untuk pertanian memungkinkan Anda dengan mudah mengolah lahan subur, menuai panen yang melimpah.
+",0,item-icon-305,305,"Cangkul Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah kapak yang berkilauan dengan cahaya permata, dengan mata pisau yang sangat keras yang dengan mudah membelah bijih dan kayu terkeras. Ketajaman dan daya tahannya membuatnya menjadi alat terbaik bagi para pengumpul, menggandakan efisiensi pengumpulan sumber daya mereka.
+",0,item-icon-306,306,"Kapak Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah alat yang berkilauan dengan cahaya permata yang dirancang untuk mengumpulkan bijih berharga. Mata pisau berlian yang tajam dengan mudah menembus batu keras, membantu dalam menemukan dan mengumpulkan sumber daya bijih berharga dalam urat. Baik dalam ekspedisi atau di kota-kota yang makmur, beliung berlian adalah alat penting bagi setiap penambang, membuka pintu kekayaan.
+",0,item-icon-307,307,"Beliung Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Berkilau dengan cahaya permata, gunting yang sangat tajam ini dengan mudah memotong berbagai bahan, baik itu logam keras atau kain tebal, menyelesaikan tugas dengan cepat dan akurat. Di ladang, ini adalah alat efisien petani untuk memangkas tanaman dan memangkas pohon. Di dunia eksplorasi, ini adalah alat penting bagi petualang yang berani, dengan cepat mengumpulkan sumber daya berharga. Baik petani maupun penjelajah, Gunting Berlian adalah mitra yang paling dapat diandalkan.
+",0,item-icon-308,308,"Gunting Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Berkilau dengan cahaya permata, sabit ini memiliki mata pisau yang sangat tajam, dengan mudah memanen tanaman di ladang. Inlay berlian membuat setiap panen efisien dan cepat, membuat Anda menjadi ahli panen di ladang.
+",0,item-icon-309,309,"Sabit Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah item yang indah dan praktis, berkilau dengan cahaya permata. Ini dengan cepat mengembalikan kesehatan dan mana Anda, memungkinkan Anda untuk menjaga vitalitas yang berlangsung lama dalam pertempuran. Baik dalam pertempuran sengit atau perjalanan petualangan yang panjang, Ketel Berlian adalah teman yang paling dapat diandalkan.
+",0,item-icon-310,310,"Ketel Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah cangkul yang berkilau dengan cahaya bintang, ketajamannya dengan mudah mengolah tanah, memberikan kehidupan pada lahan pertanian.
+",0,item-icon-311,311,"Cangkul Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah kapak yang berkilau dengan cahaya bintang, memancarkan energi yang kuat. Mata pisau yang tajam dengan mudah membelah kayu keras, menjadikannya alat yang disukai oleh para pengumpul.
+",0,item-icon-312,312,"Kapak Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah beliung yang berkilau dengan cahaya bintang, mata pisau yang tajam dengan mudah menggali bijih dan permata berharga. Baik menjelajahi pegunungan yang dalam atau menambang dengan tekun di gua, Beliung Cahaya Bintang adalah teman yang paling dapat diandalkan bagi para pengumpul. Penampilannya memungkinkan pengumpulan sumber daya yang lebih efisien, membawa kekayaan dan kemuliaan yang substansial bagi pengguna dan tim mereka.
+",0,item-icon-313,313,"Beliung Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Berkilau dengan cahaya bintang, sepasang gunting yang ringan dan tajam digunakan oleh petani untuk memotong daun dan cabang dengan presisi, memberikan kehidupan baru pada tanaman. Baik memangkas bunga di taman atau mengatur tanaman di ladang, Gunting Cahaya Bintang adalah alat yang paling efektif bagi petani.
+",0,item-icon-314,314,"Gunting Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Berkilau dengan cahaya bintang, mata pisau seperti bintang jatuh di langit malam, memancarkan energi misterius dan kuat. Ini adalah alat utama bagi para pengumpul, dengan mudah memanen berbagai tanaman dan ramuan, memungkinkan mereka mencari sumber daya berharga di tanah yang luas.
+",0,item-icon-315,315,"Sabit Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah ketel yang indah, berkilau dengan cahaya bintang. Ini adalah salah satu alat favorit petani, digunakan untuk mengairi tanaman di ladang, memberi makan pertumbuhan mereka. Setiap tetes yang mengalir dari Ketel Cahaya Bintang penuh dengan vitalitas, membawa harapan akan panen yang melimpah bagi tanaman. Baik itu gandum, sayuran, atau buah-buahan, setelah diberi makan oleh Ketel Cahaya Bintang, mereka mekar dengan warna yang cerah di bawah sinar matahari, membawa kebahagiaan dan kepuasan yang tak terbatas bagi para petani.
+",0,item-icon-316,316,"Ketel Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah pedang emas yang berkilau dengan cahaya, mata pisau yang luar biasa tajam. Bahan berharganya memberikan kekuatan serangan dan daya tahannya yang tangguh, menjadi simbol yang dicari oleh para pejuang. Dalam pertempuran, pedang emas dengan mudah menembus pertahanan musuh, mengalahkan mereka. Baik menghadapi musuh tunggal atau terlibat dalam pertempuran skala besar, pedang emas adalah teman yang paling dapat diandalkan bagi para pejuang.
+",0,item-icon-317,317,"Pedang Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah pedang berkilau dengan cahaya permata, mata pisau yang tajam dengan mudah menembus pertahanan musuh. Ini adalah senjata utama bagi para pejuang, menjadikan Anda penguasa yang tak terkalahkan di medan perang.",0,item-icon-318,318,"Pedang Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah pedang bercahaya seperti bintang, tepinya cepat seperti bintang jatuh. Ketajamannya dengan mudah menembus pertahanan musuh, melepaskan kekuatan yang tak terbatas. Pemegangnya dapat merasakan kekuatan kosmis mengalir melalui tubuh mereka, menjadi kekuatan yang tak terbantahkan dalam pertempuran.
+",0,item-icon-319,319,"Pedang Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah alat koleksi langka yang terbuat dari emas murni. Dengan desain gigi halusnya, alat ini dengan mudah mengumpulkan berbagai sumber daya berharga seperti tanaman obat, batu permata, dan bijih. Dengan menggunakan Alat Koleksi Emas, Anda akan dapat mengumpulkan dengan efisiensi yang sangat tinggi, memperoleh sumber daya yang lebih berharga.
+",0,item-icon-320,320,"Topi Pemetik Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Pakaian atas ini secara eksklusif dirancang untuk kolektor, terbuat dari sutra emas yang dipilih dengan hati-hati. Ringan dan nyaman, pakaian ini menawarkan perlindungan dan fleksibilitas yang sangat baik, memungkinkan kolektor untuk bergerak bebas selama kegiatan pengumpulan yang menantang. Penampilan emasnya memancarkan kemewahan dan pesona yang unik, membuat pemakainya menjadi pusat perhatian selama petualangan.
+",0,item-icon-321,321,"Jas Pemetik Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dirancang khusus untuk kolektor, ditenun dari benang sutra emas yang halus. Mereka tidak hanya memberikan perlindungan yang luar biasa tetapi juga memberikan kecepatan dan ketangkasan yang luar biasa kepada kolektor. Dengan mengenakan Sarung Tangan Koleksi Emas, jari-jari Anda bergerak seperti roh yang menari, dengan mudah mengumpulkan berbagai sumber daya berharga, menjadikan Anda raja tak terkalahkan para kolektor.
+",0,item-icon-322,322,"Sarung Tangan Pemetik Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang khusus untuk kolektor, terbuat dari benang emas berkualitas tinggi. Celana ini memiliki daya tahan yang sangat baik dan nyaman, memungkinkan kolektor untuk tetap dalam keadaan yang rileks dan menyenangkan selama pekerjaan yang menuntut. Dilengkapi dengan beberapa kantong praktis dan pengikat alat, Celana Koleksi Emas memudahkan pengangkutan dan penggunaan berbagai alat koleksi. Baik mengumpulkan bijih berharga, tanaman obat langka, atau sumber daya berharga lainnya, celana ini memberikan efisiensi dan kenyamanan yang sangat baik bagi kolektor.
+",0,item-icon-323,323,"Celana Pemetik Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini secara eksklusif dibuat untuk kolektor menggunakan bahan emas. Ringan dan nyaman, mereka memberikan daya cengkeram dan daya tahan yang sangat baik, memungkinkan kolektor untuk bergerak bebas di berbagai medan. Sepatu ini juga dilengkapi dengan peningkatan keterampilan koleksi khusus, meningkatkan efisiensi dan kualitas panen kolektor. Baik di hutan lebat, pegunungan terjal, atau dataran luas, Sepatu Koleksi Emas adalah teman tak tergantikan bagi kolektor.
+",0,item-icon-324,324,"Sepatu Pemetik Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah alat yang dirancang khusus untuk kolektor, dengan mata pisau yang tajam mampu dengan mudah memotong bijih keras dan batu permata. Baik menggali urat berlian berharga atau mengumpulkan batu permata langka, alat ini membantu Anda menyelesaikan tugas dengan cepat dan efektif. Ketepatan dan daya tahan membuatnya menjadi salah satu alat yang disukai oleh kolektor.
+",0,item-icon-325,325,"Topi Pemetik Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Pakaian atas ini secara eksklusif dirancang untuk kolektor untuk memberikan pengalaman pengumpulan terbaik. Dibuat dari bahan berkualitas tinggi, pakaian ini ringan dan tahan lama, memungkinkan kenyamanan dan fleksibilitas saat mengumpulkan berlian. Pakaian ini memiliki kemampuan perlindungan yang kuat, melindungi dari berbagai tantangan dan bahaya di alam liar. Baik di pegunungan, gua, atau sungai, pakaian atas ini menjadi mitra terpercaya Anda, memungkinkan Anda menjadi ahli pengumpul berlian yang sejati.
+",0,item-icon-326,326,"Jas Pemetik Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini dirancang khusus untuk meningkatkan efisiensi pengumpulan berlian. Permukaannya dilapisi dengan baju besi yang kuat, melindungi tangan dari bahaya. Dalamnya tertanam dengan perangkat mekanis yang rumit, sarung tangan ini menarik dan menempel pada berlian di sekitarnya, membuat proses pengumpulan lebih cepat dan efisien. Kenakan sarung tangan ini, dan Anda akan menjadi penakluk berlian, dengan mudah mengumpulkan banyak permata yang berkilau.
+",0,item-icon-327,327,"Sarung Tangan Pemetik Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini terkenal karena meningkatkan efisiensi pengumpulan berlian, dirancang secara eksklusif untuk kolektor. Terbuat dari bahan canggih, celana ini ringan, nyaman, tahan lama, dan fleksibel. Dilengkapi dengan alat pengumpulan berlian khusus, mereka memungkinkan kolektor untuk dengan cepat dan akurat mendapatkan sumber daya berlian yang berharga. Baik di pegunungan, gua, atau urat bijih, celana ini adalah alat yang tak tergantikan bagi kolektor. Dengan mengenakannya, Anda benar-benar akan menjadi pemanen berlian.
+",0,item-icon-328,328,"Celana Pemetik Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini dirancang secara eksklusif untuk kolektor untuk memberikan pengalaman pengumpulan berlian terbaik. Dibuat dari bahan ringan dan tahan lama, mereka menawarkan daya cengkeram dan kenyamanan yang sangat baik, memungkinkan stabilitas di medan yang menantang. Dilengkapi dengan detektor berlian khusus, sepatu ini dengan akurat menunjukkan lokasi urat berlian terdekat, memungkinkan Anda dengan mudah menemukan dan mengumpulkan sumber daya berlian yang berharga. Baik di pegunungan, gua, atau sungai, sepatu ini adalah perlengkapan penting bagi Anda untuk menjadi kolektor berlian kelas atas.
+",0,item-icon-329,329,"Sepatu Pemetik Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah sabit yang halus, berkilau dengan sinar seperti bintang. Dirancang secara eksklusif untuk kolektor untuk memanen berbagai hasil tanaman. Mata pisau yang tajam dengan mudah memotong bahan tanaman sementara hiasan langit-langit di kepala memberikan penampilan yang misterius dan menawan. Baik mengumpulkan tanaman obat, memanen buah, atau mengumpulkan serat tanaman, Sabit Pemanen Starlight adalah teman terpercaya Anda.
+",0,item-icon-330,330,"Topi Pemetik Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sebuah pakaian atas yang ringan dan tahan lama yang diselimuti kekuatan cahaya bintang. Ini memberikan perlindungan dan kenyamanan tambahan bagi kolektor, membuat mereka lebih percaya diri dan efisien saat mengumpulkan sumber daya berharga. Baik memetik bunga, mengumpulkan tanaman obat, atau menggali bijih, Pakaian Atas Pemanen Starlight memberikan lingkungan kerja yang nyaman, membuat petualangan Anda lebih menyenangkan dan sukses.
+",0,item-icon-331,331,"Jas Pemetik Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini berkilau dengan cahaya bintang, memberikan kemampuan tak tertandingi bagi kolektor. Dengan mengenakannya, jari-jari Anda menjadi lincah dan tajam, memungkinkan pengumpulan yang mudah dari berbagai sumber daya berharga. Baik memetik tanaman obat, menggali bijih, atau mengumpulkan tanaman langka, Sarung Tangan Pemanen Starlight akan menjadi teman setia Anda, membantu Anda mengumpulkan kekayaan di dunia yang luas.
+",0,item-icon-332,332,"Sarung Tangan Pemetik Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang secara eksklusif untuk kolektor, menggunakan teknologi serat canggih untuk menciptakan pakaian yang ringan, nyaman, sangat bernapas, dan tahan lama. Pola bintang yang rumit di celana ini berkilau lembut, membawa keberuntungan dan inspirasi bagi kolektor. Dirancang untuk memenuhi kebutuhan kolektor, menawarkan ruang penyimpanan yang cukup dan sistem membawa alat yang nyaman, membuat pengumpulan berbagai sumber daya berharga, baik itu mengumpulkan tanaman, menggali bijih, atau menangkap hewan kecil, menjadi mudah. Dengan mengenakan Celana Pemanen Starlight, Anda menjadi maestro pengumpulan yang efisien, menjelajahi setiap sudut dunia dan memperoleh harta tak terbatas.
+",0,item-icon-333,333,"Celana Pemetik Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sepatu ini disuntik dengan kekuatan cahaya bintang, dirancang secara eksklusif untuk kolektor. Mereka ringan, nyaman, memiliki daya cengkeram dan sensitivitas yang sangat baik, memungkinkan kolektor untuk dengan cepat bergerak di berbagai medan. Runa khusus pada sepatu ini meningkatkan persepsi kolektor, membuat lebih mudah untuk menemukan titik sumber daya berharga. Baik di hutan lebat, pegunungan terjal, atau dataran luas, Sepatu Pemanen Starlight adalah teman terbaik bagi kolektor.
+",0,item-icon-334,334,"Sepatu Pemetik Bintang Lv 6
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Ini adalah jambul yang bercahaya, berkilau seperti emas, memancarkan aura keberanian dan kekuatan. Ini merupakan simbol kebanggaan bagi para pejuang, melambangkan semangat yang tak terkalahkan dan tekad yang tak berujung. Dengan mengenakan ini, para pejuang menunjukkan kemuliaan dan kekuatan yang tak tertandingi di medan perang, menjadi sumber ketakutan bagi musuh-musuh mereka. Baik menghadapi serangan monster yang ganas atau terlibat dalam pertempuran sengit melawan pemain lain, Jambul Pejuang Emas akan menjadi lambang kemuliaan Anda, membedakan Anda dalam pertempuran.
+",0,item-icon-335,335,"Topi Petarung Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Pakaian ini secara eksklusif dirancang untuk para pejuang yang tak kenal takut dan berani. Ditenun dari benang emas pilihan, ia memancarkan cahaya yang luar biasa. Menawarkan pertahanan dan ketahanan yang sangat baik, Baju Zirah Pejuang Emas memungkinkan para pejuang untuk mempertahankan sikap yang tak terkalahkan dalam pertempuran sengit. Baik menghadapi lawan yang kuat atau menunjukkan otoritas di antara sekutu, Baju Zirah Pejuang Emas adalah pilihan terbaik bagi para pejuang.
+",0,item-icon-336,336,"Jas Petarung Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dibuat dari emas murni, sarung tangan ini berkilau dengan cahaya yang mempesona. Mereka tidak hanya memberikan perlindungan yang luar biasa tetapi juga memberikan kekuatan dan ketangkasan yang tak tertandingi kepada pejuang. Dengan mengenakan Sarung Tangan Pejuang Emas, Anda menjadi raja tak terkalahkan di medan perang, dengan berani menghadapi semua tantangan.
+",0,item-icon-337,337,"Sarung Tangan Petarung Emas Lv 4
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Celana ini dirancang secara eksklusif untuk para pejuang yang pemberani, ditenun dari benang emas langka. Mereka menawarkan pertahanan dan fleksibilitas yang sangat baik, memungkinkan para pejuang untuk mempertahankan keunggulan dalam pertempuran sengit. Baik menghadapi serangan ganas dari musuh atau dengan cepat menghindari serangan, Celana Pejuang Emas menawarkan perlindungan yang dapat diandalkan dan kebebasan bergerak. Kenakan mereka, dan para pejuang akan menampilkan otoritas dan kekuatan yang tak tertandingi.",0,item-icon-338,338,"Celana Petarung Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk prajurit yang tak kenal takut, sepatu ini terbuat dari emas murni dan dihiasi dengan batu permata yang berkilauan, memancarkan cahaya yang memukau. Sepatu ini tidak hanya memberikan perlindungan dan kenyamanan yang baik, tetapi juga memberikan kecepatan dan kelincahan yang tak tertandingi bagi prajurit. Dengan memakai Golden Warrior Boots, Anda akan secepat angin di medan perang, tidak takut pada apapun.
+",0,item-icon-339,339,"Sepatu Petarung Emas Lv 4
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Ini adalah jambul yang berkilauan seperti berlian, memancarkan energi pertempuran yang kuat. Jambul ini menjadi lambang keberanian dan kekuatan bagi para prajurit. Setiap helai rambutnya penuh dengan semangat pertempuran, memberikan kekuatan dan perlindungan tambahan bagi para prajurit. Prajurit yang memakai jambul ini menjadi tak terkalahkan di medan perang, menakuti musuh-musuh mereka.
+",0,item-icon-340,340,"Topi Petarung Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk prajurit yang berani, baju zirah ini dianyam dari serat berlian yang tangguh. Baju zirah ini menawarkan kemampuan pertahanan yang sangat baik dan ketahanan terhadap serangan fatal dari musuh. Baik menghadapi hembusan api naga atau kutukan jahat dari iblis, Diamond Warrior Armor melindungi prajurit dari bahaya. Dengan memakainya, Anda menjadi kekuatan yang tak terkalahkan di medan perang.
+",0,item-icon-341,341,"Jas Petarung Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dibuat dari bahan berlian langka, sarung tangan ini berkilau dengan cahaya yang tak tertandingi. Mereka memberikan perlindungan yang luar biasa dan kekuatan serangan yang tangguh bagi para prajurit, memungkinkan mereka menjadi tak terkalahkan di medan perang. Sarung tangan ini dihiasi dengan rune kuno, memberikan pemakainya kekuatan misterius, menjadikan mereka hadir dengan jelas di medan perang. Baik saat bertahan dari serangan musuh atau melancarkan serangan mematikan, Diamond Warrior Gloves adalah pilihan terbaik bagi para prajurit.
+",0,item-icon-342,342,"Sarung Tangan Petarung Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk prajurit yang berani, celana ini terbuat dari serat berlian berkualitas tinggi. Mereka menawarkan pertahanan yang sangat baik dan fleksibilitas, memungkinkan prajurit menjaga manuver superior di medan perang yang sengit. Baik menghadapi serangan musuh yang kuat atau manuver cepat, Diamond Warrior Pants memberikan perlindungan yang dapat diandalkan bagi para prajurit, membuat mereka tak kenal takut di medan perang.
+",0,item-icon-343,343,"Celana Petarung Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk prajurit yang berani, sepatu ini terbuat dari bahan berlian yang kokoh, memberikan perlindungan dan fleksibilitas yang sangat baik. Pola khusus pada sepatu ini meningkatkan kecepatan gerakan prajurit, membuat mereka lebih lincah dalam pertempuran. Baik mengejar musuh atau menghindari serangan, Diamond Warrior Boots adalah perlengkapan yang tak tergantikan. Dengan memakainya, prajurit akan menunjukkan kekuatan dan kecepatan yang tak tertandingi di medan perang.
+",0,item-icon-344,344,"Sepatu Petarung Berlian Lv 5
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Rambut yang mempesona ini dirancang secara eksklusif untuk Starlight Warriors. Ia berkilau dengan warna-warna bintang, memungkinkan prajurit menunjukkan kemuliaan dan kekuatan yang tak tertandingi dalam pertempuran. Tekstur rambut ini lembut dan nyaman, mampu melindungi kepala prajurit dari bahaya. Baik dalam pertempuran sengit maupun di ladang yang tenang, Starlight Warrior Hair adalah sumber kebanggaan bagi para prajurit.
+",0,item-icon-345,345,Topi Petarung Bintang Lv 6,"1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk prajurit yang berani, pakaian ini diselimuti dengan kekuatan cahaya bintang. Ia menawarkan pertahanan dan perlindungan yang sangat baik, memungkinkan prajurit bertahan teguh dalam pertempuran sengit. Baik menghadapi serangan pedang yang kuat atau serangan panah dari jarak jauh, Starlight Warrior Shirt menawarkan perlindungan zirah yang dapat diandalkan, membuat prajurit bersinar di medan perang.
+",0,item-icon-346,346,"Lv 6 Jas Tempur Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sarung tangan ini memancarkan cahaya berkilauan, menawarkan perlindungan tangan yang kuat bagi para prajurit. Dibuat dari bahan yang kokoh, mereka dapat menahan serangan musuh sambil memberikan kekuatan dan kelenturan yang lebih besar pada prajurit. Baik memegang pedang, palu, atau busur dan panah, Starlight Warrior Gloves membantu prajurit menjaga pegangan yang stabil dan serangan yang tepat. Dengan memakai sarung tangan ini, prajurit akan menjadi bintang sejati di medan perang, tak tertandingi oleh siapapun.
+",0,item-icon-347,347,"Lv 6 Sarung Tangan Tempur Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dengan kekuatan cahaya bintang, celana ini memberikan pertahanan dan fleksibilitas yang sangat baik, memungkinkan prajurit menjaga keunggulan dalam pertempuran sengit. Baik menghindari serangan cepat atau melancarkan serangan kuat, celana ini menawarkan perlindungan yang dapat diandalkan dan kebebasan bergerak bagi para prajurit. Dengan memakainya, prajurit menjadi kehadiran yang paling mempesona dalam cahaya bintang.
+",0,item-icon-348,348,"Lv 6 Celana Tempur Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk prajurit yang berani, sepatu ini diselimuti dengan kekuatan cahaya bintang. Mereka ringan dan tahan lama, memberikan fleksibilitas dan stabilitas yang sangat baik pada kaki, memungkinkan prajurit bergerak dengan cepat dan menjaga keseimbangan dalam pertempuran. Ditanam dengan batu permata cahaya bintang yang kecil, sepatu ini tidak hanya meningkatkan kemuliaan prajurit tetapi juga memberikan kekuatan dan perlindungan tambahan. Baik mengejar musuh atau menghindari serangan, Starlight Warrior Shoes adalah teman yang paling dapat diandalkan bagi para prajurit.
+",0,item-icon-349,349,"Lv 6 Sepatu Tempur Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Ini adalah sekelompok rambut emas yang berkilauan, melambangkan kehormatan dan kekayaan para petani. Petani yang memakainya akan mendapatkan hasil pertanian tambahan, memungkinkan tanaman mereka tumbuh kuat dan menghasilkan panen yang melimpah. Ini adalah simbol kebanggaan bagi para petani, menandakan kerja keras mereka.
+",0,item-icon-350,350,"Lv 4 Topi Petani Emas
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk pemilik pertanian yang mencintai ladang, terbuat dari sutra emas berkualitas tinggi, ringan dan tahan lama, memungkinkan pergerakan bebas di ladang. Menawarkan perlindungan yang sangat baik, juga memberikan rasa martabat dan kemuliaan bagi para petani. Baik saat membajak, menanam, atau panen, Golden Farmer's Shirt adalah teman yang paling dapat diandalkan.
+",0,item-icon-351,351,"Lv 4 Jas Petani Emas
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk pemilik pertanian, terbuat dari emas, sarung tangan ini memberikan daya tahan dan kenyamanan yang luar biasa, memungkinkan petani untuk mengalami kecekatan dan ketepatan yang tak tertandingi saat menanam dan panen. Baik dalam musim penanaman atau waktu panen, Golden Farmer Gloves adalah teman yang paling dapat diandalkan bagi pemilik pertanian.
+",0,item-icon-352,352,"Lv 4 Sarung Tangan Petani Emas
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk pemilik pertanian, terbuat dari sutra emas berkualitas tinggi, celana ini ringan dan nyaman. Mereka menawarkan daya tahan dan perlindungan yang kuat, memungkinkan pemilik pertanian bekerja dengan sukacita di ladang. Baik saat membajak, menanam, atau panen, celana ini memberikan fleksibilitas dan perlindungan terbaik, menjadikan Anda sebagai penguasa sejati di pertanian.
+",0,item-icon-353,353,"Lv 4 Celana Petani Emas
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk pemilik pertanian dan terbuat dari bahan emas berkualitas tinggi, sepatu ini ringan, nyaman, tahan lama, dan tahan tergelincir, memungkinkan pemilik pertanian berjalan lebih stabil dan percaya diri di ladang. Sepatu ini tidak hanya melambangkan status dan kekayaan pemilik pertanian tetapi juga memberikan efisiensi pertanian yang lebih tinggi dan pengalaman pertanian yang menyenangkan. 
+",0,item-icon-354,354,"Lv 4 Sepatu Petani Emas
+","1,2,3,4",1,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Sehelai rambut berkilauan seperti berlian memancarkan aura kemewahan dan kekayaan. Gaya rambut eksklusif ini untuk para petani melambangkan kerja keras mereka dan panen yang sukses di ladang. Baik saat menanam, panen, atau sibuk dengan pekerjaan pertanian, rambut berlian ini memberi petani kepercayaan diri dan daya tarik.
+",0,item-icon-355,355,"Lv 5 Topi Petani Berlian
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk petani yang mencintai kehidupan pertanian, terbuat dari serat berlian berkualitas tinggi, ringan, nyaman, dan sangat tahan lama. Kemeja ini memberikan performa perlindungan yang luar biasa dan memiliki sifat penyerap kelembaban, memastikan Anda tetap kering dan nyaman saat bekerja di ladang. Baik saat membajak, menanam, atau panen, Diamond Farmer Shirt adalah teman yang paling dapat diandalkan.
+",0,item-icon-356,356,"Lv 5 Jas Petani Berlian
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk petani, dihiasi dengan berlian, menampilkan kombinasi sempurna antara kemewahan dan kepraktisan. Dibuat dari bahan premium, sarung tangan ini menawarkan perlindungan dan kenyamanan yang luar biasa. Mereka meningkatkan kecepatan dan efisiensi petani selama proses pertanian, memungkinkan penanaman yang lebih cepat dan panen yang melimpah. Baik menabur benih atau menuai hasil, sarung tangan ini adalah sahabat yang dapat diandalkan bagi petani, menjadikan mereka sebagai taipan pertanian yang sejati.
+",0,item-icon-357,357,"Lv 5 Sarung Tangan Petani Berlian
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, item ini dapat meningkatkan atribut.
+
+-------
+Dirancang khusus untuk penggemar pertanian, terbuat dari bahan berkualitas tinggi, nyaman, dan tahan lama. Dihiasi dengan berlian berkilau, menampilkan status dan kekayaan petani. Ketika Anda memakainya, Anda akan merasakan kegembiraan pertanian yang tak tertandingi, membuat Anda lebih efisien dan percaya diri dalam pekerjaan pertanian. Baik saat menanam, menabur benih, atau panen, celana ini akan menjadi mitra yang paling dapat diandalkan bagi Anda.",0,item-icon-358,358,"Lv 5 Celana Petani Berlian
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+Dirancang khusus untuk petani dan dibuat dari bahan premium, sepatu ini tahan lama, nyaman, anti selip, memberikan kenyamanan bagi petani selama berjam-jam bekerja di ladang. Sol sepatu diperkuat untuk mencegah benda tajam menembus sambil memberikan daya cengkeram yang baik, memastikan stabilitas di permukaan basah dan licin. Sepatu ini juga dilengkapi dengan hiasan berlian tersembunyi, mencerminkan selera unik dan status sukses petani. Baik saat membajak, panen, atau merawat tanaman, Sepatu Petani Berlian adalah alat yang tak tergantikan.
+",0,item-icon-359,359,"Lv 5 Sepatu Petani Berlian
+","1,2,3,4,5",1,5,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+Aksesoris rambut yang modis dan sempurna untuk petani yang bekerja keras. Mengeluarkan sinar seperti bintang, memungkinkan Anda bersinar di ladang. Baik saat menanam, panen, atau merawat tanaman, rambut ini membawa keberuntungan dan kebanggaan seorang petani, membuat Anda menjadi bintang di komunitas pertanian!
+",0,item-icon-360,360,"Lv 6 Topi Petani Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+Dirancang khusus untuk petani dan terinspirasi dari cahaya bintang, memancarkan suasana ceria. Terbuat dari bahan ringan, nyaman, dan tahan lama, memungkinkan petani tetap nyaman dan lincah selama aktivitas pertanian yang sibuk. Baik saat membajak, panen, atau memberi makan hewan, kemeja ini memberikan perlindungan dan kenyamanan yang cukup bagi petani, membuat setiap hari Anda di ladang menjadi hidup dan penuh sukacita!
+",0,item-icon-361,361,"Lv 6 Jas Petani Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+Ditambah dengan kekuatan cahaya bintang dan dirancang khusus untuk petani, sarung tangan ini menawarkan perlindungan dan kelincahan yang luar biasa, memungkinkan petani dengan mudah mengolah tanaman di ladang. Pola-pola halus pada sarung tangan meningkatkan sensasi perabaan petani, memungkinkan mereka mengoperasikan cangkul dan sikat dengan lebih presisi, menciptakan lanskap pertanian yang indah. Baik saat membajak, menanam, atau panen, Sarung Tangan Petani Cahaya Bintang adalah teman yang paling dapat diandalkan bagi petani.
+",0,item-icon-362,362,"Lv 6 Sarung Tangan Petani Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+Dirancang khusus untuk petani dan terbuat dari bahan lembut dan nyaman, celana ini menawarkan daya tahan dan sirkulasi udara yang baik, menjaga petani tetap nyaman dan fleksibel selama pekerjaan di ladang yang sibuk. Pola cahaya bintang yang rumit pada celana ini melambangkan kerja keras dan harapan petani, membawa keberuntungan dan panen yang melimpah. Baik saat menanam, menabur, atau panen, celana ini adalah mitra yang paling dapat diandalkan bagi petani.
+",0,item-icon-363,363,"Lv 6 Celana Petani Bintang
+","1,2,3,4,5",1,6,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipakai, dapat meningkatkan atribut.
+-------
+Dirancang khusus untuk petani dan terbuat dari bahan ringan dan tahan lama. Sepatu ini menawarkan daya tahan terhadap selip yang baik, memastikan stabilitas bagi petani saat berjalan di ladang. Pola cahaya bintang yang rumit pada sepatu ini melambangkan kebijaksanaan dan kerja keras petani. Baik saat bertani, menanam, atau panen, sepatu ini memberikan kenyamanan dan perlindungan, meninggalkan jejak petani di ladang.
+",0,item-icon-364,364,"Lv 6 Sepatu Petani Bintang
+","1,2,3,4,5",1,6,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Tulang keras! Harus berasal dari suatu organisme tertentu.
+",0,item-icon-365,365,"Tulang Kuat
+",1,4,4,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Tumbuhan? Hewan? Atau sesuatu di antaranya?
+",0,item-icon-366,366,"Kepala Telur
+",1,4,4,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Tidak terlihat seperti langsung dipotong dari pohon, lebih seperti hidung manusia salju.
+",0,item-icon-367,367,"Kayu Mewah
+",1,4,4,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Tulang keras! Bersinar juga!
+",0,item-icon-368,368,"Tengkorak Terang
+",1,4,5,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Terlihat agak menyeramkan...
+",0,item-icon-369,369,"Mata Besar
+",1,4,5,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Sepasang sayap yang halus, tak bisa ditolak.
+",0,item-icon-370,370,"Sayap Elf
+",1,4,5,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Terlihat seperti bola, bulat.
+",0,item-icon-371,371,"Cangkang Kura-kura Kristal
+",1,4,6,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Tidak perlu lilin di malam hari.
+",0,item-icon-372,372,"Will-o'-the-wisp
+",1,4,6,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Cukup kecil, tidak bisa digunakan langsung, tetapi seharusnya berfungsi sebagai bahan pembuatan.
+",0,item-icon-373,373,"Tongkat Kecil
+",1,4,6,1
+1,"Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Bunga dandelion emas, sangat langka.
+",0,item-icon-374,374,"Bunga Dandelion Emas
+",1,4,4,1
+1,"Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Bunga kaktus.
+",0,item-icon-375,375,"Bunga Kaktus
+",1,4,4,1
+1,"Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Batu ini pasti aktor yang baik.
+",0,item-icon-376,376,"Racso
+",1,4,4,1
+1,"Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Terlihat tajam, hati-hati jangan sampai terluka.
+",0,item-icon-377,377,"Intan Serat
+",1,4,5,1
+1,"Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan.
+Dapat digunakan untuk membuat peralatan atau item.
+-------
+Mengetuknya dengan ringan dapat menghasilkan suara yang menyenangkan.",0,item-icon-378,378,"Intan Bentuk Catatan
+",1,4,5,1
+1," Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Sebuah batu yang sangat lucu 
+",0,item-icon-379,379,"Intan Berbentuk Beruang
+",1,4,5,1
+1," Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Lihat, bunga kecil ini sangat mirip dengan peri 
+",0,item-icon-380,380,"Bunga Elf
+",1,4,6,1
+1," Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Ketika saya masih kecil, saya dulu berharap bisa menangkap bintang dalam sebuah botol, apakah ini memenuhi harapan saya? 
+",0,item-icon-381,381,"Bintang Kaleng
+",1,4,6,1
+1," Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Batu yang sangat indah, seperti komet dari luar angkasa 
+",0,item-icon-382,382,"Meteorit
+",1,4,6,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Salah satu makanan pokok paling umum di dunia 
+",0,item-icon-383,383,"Gandum
+",1,4,4,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Saya ingat ada permainan di mana benda ini menembakkan peluru 
+",0,item-icon-384,384,"Kacang Polong
+",1,4,4,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bahkan melalui layar, saya bisa mencium aromanya 
+",0,item-icon-385,385,"Bawang Putih
+",1,4,4,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Beberapa orang menggoreng bagian dalam bunga ini sebagai camilan, rasanya enak 
+",0,item-icon-386,386,"Bunga Matahari
+",1,4,5,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Benda ini lebih cocok untuk kebun anggur 
+",0,item-icon-387,387,"Anggur
+",1,4,5,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Salah satu makanan pokok paling umum di dunia 
+",0,item-icon-388,388,"Kentang
+",1,4,5,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Terkejut 
+",0,item-icon-389,389,"Chomper
+",1,4,6,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Terlihat seperti terompet 
+",0,item-icon-390,390,"Bunga Morning Glory
+",1,4,6,1
+1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Akar singkong 
+",0,item-icon-391,391,"Singkong
+",1,4,6,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Dalam suatu permainan tertentu, benda ini dapat meningkatkan pertumbuhan tanaman, tetapi sepertinya tidak di sini 
+",0,item-icon-392,392,"Tulang Tumbuk
+",1,4,4,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Sangat fleksibel, dapat diuleni menjadi tali atau benang 
+",0,item-icon-393,393,"Lian yang Tahan Lama
+",1,4,4,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Sehelai daun yang besar 
+",0,item-icon-394,394,"Daun Jeruk
+",1,4,4,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Jangan takut dengan penampilannya, benda ini sama baiknya dengan rempah-rempah di dunia 
+",0,item-icon-395,395,Bumbu Gelap,1,4,5,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Benda ini memancarkan cahaya redup 
+",0,item-icon-396,396, Serbuk Tulang Bercahaya,1,4,5,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Hei, apakah kamu suka bermain bola salju? 
+",0,item-icon-397,397, Bola Salju Elf,1,4,5,1
+1," Anda dapat memperoleh jenis bahan ini melalui perkawinan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Sisik yang terjatuh dari cangkang kura-kura, sangat indah",0,item-icon-398,398, Kulit Kerang,1,4,6,1
+1," Anda dapat memperoleh jenis bahan ini melalui pembiakan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Sebuah anak panah yang halus
+",0,item-icon-399,399, Panah Terolah,1,4,6,1
+1," Anda dapat memperoleh jenis bahan ini melalui pembiakan.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bagus dan hangat, pasti akan membuat pakaian yang bagus!
+",0,item-icon-400,400, Bulu Kelinci Salju,1,4,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Combat, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-401,401, Esensi Tempur Lv 4,1,4,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Combat, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-402,402, Esensi Tempur Lv 5,1,4,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Combat, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-403,403, Esensi Tempur Lv 6,1,4,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Gathering, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-404,404, Esensi Mengumpulkan Lv 4,1,4,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Gathering, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-405,405, Esensi Mengumpulkan Lv 5,1,4,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Gathering, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-406,406, Esensi Mengumpulkan Lv 6,1,4,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Agricultural Planting, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-407,407, Esensi Penanaman Pertanian Lv 4,1,4,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Agricultural Planting, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-408,408, Esensi Penanaman Pertanian Lv 5,1,4,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Agricultural Planting, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-409,409, Esensi Penanaman Pertanian Lv 6,1,4,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Agricultural Livestock, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-410,410, Esensi Peternakan Pertanian Lv 4,1,4,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Agricultural Livestock, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-411,411, Esensi Peternakan Pertanian Lv 5,1,4,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Essence of Agricultural Livestock, berguna untuk mensintesis berbagai peralatan
+",0,item-icon-412,412, Esensi Peternakan Pertanian Lv 6,1,4,6,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menanam gandum
+",23,item-icon-413,413, Benih Gandum,1,3,4,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menanam kacang polong
+",23,item-icon-414,414, Benih Kacang Polong,1,3,4,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menanam bawang putih
+",23,item-icon-415,415, Benih Bawang Putih,1,3,4,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menanam bunga matahari
+",23,item-icon-416,416, Benih Bunga Matahari,1,3,5,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menanam anggur
+",23,item-icon-417,417, Benih Anggur,1,3,5,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menanam kentang",23,item-icon-418,418, Benih Kentang,1,3,5,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menumbuhkan bunga mayat
+",23,item-icon-419,419, Benih Chomper,1,3,6,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menumbuhkan bunga pagi
+",23,item-icon-420,420, Benih Bunga Morning Glory,1,3,6,1
+1," Mengumpulkan bahan dengan level yang sama dapat menghasilkan biji tambahan, Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Menggunakannya dapat memicu efek khusus.
+-------
+Biji untuk menumbuhkan singkong
+",23,item-icon-421,421, Benih Singkong,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+HP saat ini +320
+",0,item-icon-422,422, Ramuan Penyembuhan Emas Lv 3,1,3,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Serangan tempur +50
+",0,item-icon-423,423, Ramuan Serangan Emas Lv 3,1,3,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Kecepatan gerak +200
+",0,item-icon-424,424, Ramuan Kecepatan Emas Lv 3,1,3,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Kerusakan kritis terhadap monster +120
+",0,item-icon-425,425, Ramuan Serangan Kritis Emas Lv 3,1,3,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+HP maksimal +200
+",0,item-icon-426,426, Ramuan Kehidupan Emas Lv 3,1,3,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pertahanan tempur +20
+",0,item-icon-427,427, Ramuan Pertahanan Emas Lv 3,1,3,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+HP saat ini +400
+",0,item-icon-429,429, Ramuan Penyembuhan Berlian Lv 3,1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Serangan tempur +60
+",0,item-icon-430,430, Ramuan Serangan Berlian Lv 3,1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Kecepatan gerak +240
+",0,item-icon-431,431, Ramuan Kecepatan Berlian Lv 3,1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Kerusakan kritis terhadap monster +150
+",0,item-icon-432,432, Ramuan Serangan Kritis Berlian Lv 3,1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+HP maksimal +240
+",0,item-icon-433,433, Ramuan Kehidupan Berlian Lv 3,1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pertahanan tempur +25
+",0,item-icon-434,434, Ramuan Pertahanan Berlian Lv 3,1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+HP saat ini +480
+",0,item-icon-435,435, Ramuan Penyembuhan Bintang Lv 3,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Serangan tempur +70
+",0,item-icon-436,436, Ramuan Serangan Bintang Lv 3,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Kecepatan gerak +280
+",0,item-icon-437,437, Ramuan Kecepatan Bintang Lv 3,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Kerusakan kritis terhadap monster +180
+",0,item-icon-438,438, Ramuan Serangan Kritis Bintang Lv 3,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+HP maksimal +280",0,item-icon-439,439, Ramuan Kehidupan Bintang Lv 3,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Pertahanan tempur +30
+",0,item-icon-440,440, Ramuan Pertahanan Bintang Lv 3,1,3,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Palu dapat menghilangkan baju besi dari beberapa monster, ambil palu dan hancurkan mereka
+",0,item-icon-441,441, Palu Tembaga Lv 1,1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Palu dapat menghilangkan baju besi dari beberapa monster, ambil palu dan hancurkan mereka
+",0,item-icon-442,442, Palu Besi Lv 2,"1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Palu dapat menghilangkan baju besi dari beberapa monster, ambil palu dan hancurkan mereka
+",0,item-icon-443,443, Palu Kristal Lv 3,"1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Palu dapat menghilangkan baju besi dari beberapa monster, ambil palu dan hancurkan mereka
+",0,item-icon-444,444, Palu Emas Lv 4,"1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Palu dapat menghilangkan baju besi dari beberapa monster, ambil palu dan hancurkan mereka
+",0,item-icon-445,445, Palu Berlian Lv 5,"1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Palu dapat menghilangkan baju besi dari beberapa monster, ambil palu dan hancurkan mereka
+",0,item-icon-446,446, Palu Cahaya Bintang Lv 6,"1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Jika Anda khawatir dikejar oleh monster, busur ini sempurna untuk Anda, Anda dapat membunuh monster dari jarak yang aman
+",0,item-icon-450,450,"Lv 4 Busur Emas
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Jika Anda khawatir dikejar oleh monster, busur ini sempurna untuk Anda, Anda dapat membunuh monster dari jarak yang aman
+",0,item-icon-451,451,"Lv 5 Busur Berlian
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Jika Anda khawatir dikejar oleh monster, busur ini sempurna untuk Anda, Anda dapat membunuh monster dari jarak yang aman
+",0,item-icon-452,452,"Lv 6 Busur Cahaya Bintang
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Jika Anda khawatir dikejar oleh monster, busur ini sempurna untuk Anda, Anda dapat membunuh monster dari jarak yang aman
+",0,item-icon-453,453,"Lv 1 Sikat Tembaga
+",1,1,1,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Digunakan untuk menenangkan hewan peliharaan Anda, memungkinkannya untuk menghasilkan dengan tenang
+",0,item-icon-454,454,"Lv 2 Sikat Besi
+","1,2",1,2,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Digunakan untuk menenangkan hewan peliharaan Anda, memungkinkannya untuk menghasilkan dengan tenang
+",0,item-icon-455,455,"Lv 3 Sikat Kristal
+","1,2,3",1,3,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Digunakan untuk menenangkan hewan peliharaan Anda, memungkinkannya untuk menghasilkan dengan tenang
+",0,item-icon-456,456,"Lv 4 Sikat Emas
+","1,2,3,4",1,4,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Digunakan untuk menenangkan hewan peliharaan Anda, memungkinkannya untuk menghasilkan dengan tenang
+",0,item-icon-457,457,"Lv 5 Sikat Berlian
+","1,2,3,4,5",1,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Ketika dipasang, dapat meningkatkan atribut.
+-------
+Digunakan untuk menenangkan hewan peliharaan Anda, memungkinkannya untuk menghasilkan dengan tenang
+",0,item-icon-458,458,"Lv 6 Sikat Cahaya Bintang
+","1,2,3,4,5",1,6,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Mengembalikan Energi +30",0,item-icon-459,459,"Lv 4 Ramuan Pemulihan Energi
+",1,3,4,1
+1,"Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Mengembalikan Energi +37
+",0,item-icon-460,460,"Lv 5 Ramuan Pemulihan Energi
+",1,3,5,1
+1," Anda dapat memperoleh item ini melalui sintesis.
+Menggunakannya dapat memicu efek khusus.
+-------
+Mengembalikan Energi +45",0,item-icon-461,461,Lv 6 Ramuan Pemulihan Energi,1,3,6,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Item ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Hanya bisa didapatkan di Puncak Bunga
+",0,item-icon-462,462, Serpihan Perunggu,1,4,2,1
+1,"Membunuh monster dengan level yang sama dapat menghasilkan item ini.
+Item ini dapat digunakan untuk membuat peralatan atau barang.
+-------
+Hanya bisa didapatkan di Puncak Bunga
+",0,item-icon-463,463, Tuan Fang,1,4,3,1
+1,"Anda dapat mendapatkan item ini melalui sintesis.
+-------
+Tiket Lotere Floating Realm #01
+",0,item-icon-464,464,#01 Tiket Lotere Floating Realm,1,4,0,1
+1,"Anda dapat mendapatkan item ini melalui sintesis.
+-------
+Tiket Lotere Puncak Bunga #01
+",0,item-icon-465,465,#01 Tiket Lotere Flower Peak,1,4,0,1
+1,"Anda dapat mendapatkan item ini melalui sintesis.
+-------
+Tiket Lotere Dunia Terbuka #01
+",0,item-icon-466,466,#01 Tiket Lotere Open World,1,4,0,1
+1,"Anda dapat mendapatkan item ini melalui sintesis.
+-------
+Tiket Masuk Floating Realm
+",0,item-icon-467,467,Tiket Masuk Floating Realm,1,4,0,1
+1,"Anda dapat mendapatkan item ini melalui sintesis.
+-------
+Tiket Masuk Puncak Bunga
+",0,item-icon-468,468,Tiket Masuk Flower Peak,1,4,0,1
+1,"Tiket Masuk Floating Realm yang Rusak dapat digunakan untuk ditukar dengan Tiket Masuk Floating Realm lengkap.
+",0,item-icon-469,469,Tiket Masuk Floating Realm Rusak,1,4,0,1
+1,Tiket Masuk Puncak Bunga yang Rusak dapat digunakan untuk ditukar dengan Tiket Masuk Puncak Bunga lengkap.,0,item-icon-470,470,Tiket Masuk Flower Peak Rusak,1,4,0,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-471,471,"Rambut Inti Geng
+",5,1,6,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-472,472,"Atasan Inti Geng
+",5,1,6,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-473,473,"Sarung Tangan Inti Geng
+",5,1,6,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion
+",0,item-icon-474,474,"Celana Inti Geng
+",5,1,6,1
+1," Ada kesempatan untuk mendapatkan saat mensintesis peralatan.
+Penampilan modis tanpa atribut
+-------
+Disarankan untuk digunakan sebagai mode fashion",0,item-icon-475,475,Sepatu Inti Geng,5,1,6,1

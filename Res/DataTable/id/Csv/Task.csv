@@ -1,0 +1,199 @@
+designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,isSelfEnd-bool,itemReward-int,name-string,level-int[][],preTaskReq-int[],chanceOptions-string,unlockDungeon-int[]
+"{""options"":[{""optionType"":2,""value"":""134,1"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",1,0,11,10001,,,,
+"{""options"":[{""optionType"":1,""value"":""134,2"",""guiderPoint"":0},{""optionType"":2,""value"":""134,1"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",2,0,11,10002,"1,1;2,1",1,,
+"{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",3,0,11,10003,"2,2",2,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",4,0,11,10004,"2,3",3,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",5,0,11,10005,"2,4",4,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",6,0,11,10006,,5,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",7,1,11,10007,,5,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",8,1,11,10008,,"6,7",,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",9,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",10,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",11,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",12,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",13,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",14,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",15,1,11,Traveling,,,,
+"{""options"":[{""optionType"":4,""value"":""8,2"",""guiderPoint"":0}]}","Untuk kepentingan cinta dan perdamaian, silakan pergi ke tempat yang ditentukan.
+",0,"1,259",16,1,11,Traveling,,,,
+,"Untuk cinta dan perdamaian, berikan ini padaku.
+",0,"3,188",17,1,24,Collecting,,,"{""options"":[{""optionType"":1,""value"":""30,1,100""},{""optionType"":1,""value"":""70,10,100;33,2,300;30,1,100""}]}",
+,"Untuk cinta dan perdamaian, berikan ini padaku.
+",0,"3,188",18,1,24,Collecting,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
+,"Untuk cinta dan perdamaian, berikan ini padaku.
+",0,"3,188",19,1,24,Collecting,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
+,"Untuk cinta dan perdamaian, berikan ini padaku.
+",0,"3,188",20,1,24,Collecting,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101}]}","Ketika kesehatan monster kurang dari setengah, ia akan masuk ke dalam keadaan marah yang dikelilingi oleh sihir. Pada saat ini, monster akan mendapatkan beberapa buff yang kuat. Tetapi jika Anda dapat membuatnya masuk ke dalam Keadaan Lemah dengan asap hitam, Anda dapat mengalahkannya dengan lebih mudah.
+Bantu Gunner untuk membunuh Metal mutt.",0,"2,160",21,0,12,Fresh Start,,,,
+"{""options"":[{""optionType"":4,""value"":""6,5"",""guiderPoint"":2101},{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101}]}","Buka ransel Anda dan persenjatai pedang Anda dan bunuh 5 Metal mutt.
+Masuk ke kota dan temukan Nash.",0,"2,117",22,0,11,Intelligence,,21,,
+"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," [25]- Tekan [Esc] untuk membuka antarmuka pohon bakat Anda
+- pilih upgrade cabang utama
+- pilih upgrade keterampilan War Stomp
+- letakkan keterampilan tersebut di slot cepat",0,"2,117",23,0,0,Lend a Hand,,22,,
+"{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Gunakan cangkul untuk melonggarkan tanah di ladang, lalu gunakan biji untuk menabur di tanah yang telah dilonggarkan.
+Tanam 5 Biji Bambu, 5 Biji Trifolium, dan 5 Biji Wortel di ladang.",0,"1,117",24,0,31,Hoeing and Seeding,,45,,
+"{""options"":[{""optionType"":1,""value"":""70,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,5"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"1,117",25,0,13,Patient Watering and Harvesting,,24,,
+"{""options"":[{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":9,""value"":""158,1"",""guiderPoint"":0}]}","Buka Gather Crafting dan rafinasi Gather Essence. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,117",26,0,32,Essence of a Profession,,27,,
+"{""options"":[{""optionType"":3,""value"":""58,5"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,5"",""guiderPoint"":3501}]}","Dapatkan 5 Kayu Biasa.
+Dapatkan 5 Batu.",0,"3,117",27,0,43,Gather Some Goodies,,25,,
+"{""options"":[{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101},{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":9,""value"":""70,1"",""guiderPoint"":0}]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,117",28,0,44,Crafting an Iron Pickaxe,,26,,
+"{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengumpulkan beberapa bahan yang lebih canggih:
+Dapatkan Dark Iron Ore.
+Dapatkan Desert Tree.
+Dapatkan Ice Cap Mushroom.",0,"3,117",29,0,42,Advanced Gather Challenge,,28,,
+"{""options"":[{""optionType"":4,""value"":""8,5"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,5"",""guiderPoint"":3401}]}","Berdasarkan intelijen terbaru:
+Cactus Warriors - Memiliki pertahanan tinggi, menggunakan serangan berat dapat menembus pertahanannya.
+Pumpkin Fiends - Memiliki keterampilan jarak jauh, menggunakan Trampling dapat membuatnya tidak dapat menggunakan keterampilan jarak jauh.",0,"2,117",30,0,40,Teach Them a Lesson,,26,,
+"{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""31,1"",""guiderPoint"":3401},{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":9,""value"":""44,1"",""guiderPoint"":0}]}","Coba buat Stone Sword di Combat Crafting, senjata yang lebih kuat dapat membuat Anda lebih santai dalam pertempuran.
+Sebelum itu, Anda perlu membuka resep untuk Stone Sword di pohon bakat.",0,"2,117",32,0,30,Crafting an Stone Sword,,30,,
+"{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengalahkan monster yang lebih kuat:
+Bunuh Buzz Buddy.
+Bunuh Mine Cat.
+Bunuh Leafy Lurker.",0,"2,117",33,0,41,Advanced Combat Challenge,,32,,
+"{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Buka pohon bakat Anda dan beralih ke pohon pertanian. Tingkatkan node keterampilan Capture di sebelah kanan.,0,"1,117",34,0,35,Master the Capture,,26,,
+"{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":4501},{""optionType"":3,""value"":""177,1"",""guiderPoint"":4501}]}",,0,"1,117",162,0,34,,,34,,
+"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":9,""value"":""62,1"",""guiderPoint"":0}]}","Jika Anda ingin tanaman Anda tumbuh lebih cepat, Anda membutuhkan cangkul yang lebih canggih. Coba buat Iron Hoe.",0,"1,117",35,0,0,Crafting an Iron Hoe,,162,,
+"{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk menanam biji yang lebih canggih:
+Tanam biji Kapas.
+Tanam biji Pitcher Plant.
+Tanam biji Endurance Fruit.",0,"1,117",36,0,39,Advanced Farming Challenge,,35,,
+"{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Pergi ke pertukaran dan beli sesuatu.,0,"1,117;2,117;3,117",37,0,0,Transaction 1,,"33,29,36",,
+,Monster berkelana dengan liar. Pergi dan basmi mereka.,0,"2,188",38,1,0,Daily-Lv1-Battle,,,"{""options"":[{""optionType"":4,""value"":""6,4,100;8,4,100;7,4,100""}]}",
+,Monster berkelana dengan liar. Pergi dan basmi mereka.,0,"2,278",39,1,0,Daily-Lv2-Battle,,,"{""options"":[{""optionType"":4,""value"":""9,4,100;10,4,100;11,4,100""}]}",
+,Monster berkelana dengan liar. Pergi dan basmi mereka,0,"2,369",40,1,0,Daily-Lv3-Battle,,,"{""options"":[{""optionType"":4,""value"":""12,4,100;13,4,100;14,4,100""}]}",
+,Kejar mereka dan bawa kembali beberapa jarahan.,0,"2,188",41,1,0,Daily-Lv1-Battle,,,"{""options"":[{""optionType"":4,""value"":""6,2,100;8,2,100;7,2,100""},{""optionType"":1,""value"":""30,1,100;31,1,100;32,1,100""}]}",
+,Kejar mereka dan bawa kembali beberapa jarahan.,0,"2,278",42,1,0,Daily-Lv2-Battle,,,"{""options"":[{""optionType"":4,""value"":""9,2,100;11,2,100;10,2,100""},{""optionType"":1,""value"":""33,1,100;34,1,100;35,1,100""}]}",
+,Kejar mereka dan bawa kembali beberapa jarahan,0,"2,369",43,1,0,Daily-Lv3-Battle,,,"{""options"":[{""optionType"":4,""value"":""12,2,100;14,2,100;13,2,100""},{""optionType"":1,""value"":""36,1,100;37,1,100;38,1,100""}]}",
+"{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Pergi ke pertukaran dan beli sesuatu.,0,"1,117;2,117;3,117",44,0,0,Transaction 2,,37,,
+"{""options"":[{""optionType"":1,""value"":""32,10"",""guiderPoint"":2101}]}","Terrance mungkin berada di kota, mari kita pergi dan mencarinya dan bawa beberapa kawat kasa untuknya.",0,"1,117",45,0,17,Farmer Terrance,,23,,
+"{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":4501}]}",,0,"1,117",46,0,0,Capture can dog and output,,45,,
+,Berikan ini padaku.,0,"2,188",47,1,0,Daily-Lv1-Battle,,,"{""options"":[{""optionType"":1,""value"":""30,2,100;31,2,100;32,2,100""}]}",
+,Berikan ini padaku.,0,"2,278",48,1,0,Daily-Lv2-Battle,,,"{""options"":[{""optionType"":1,""value"":""33,2,100;34,2,100;35,2,100""}]}",
+,Berikan ini padaku.,0,"2,369",49,1,0,Daily-Lv3-Battle,,,"{""options"":[{""optionType"":1,""value"":""36,2,100;37,2,100;38,2,100""}]}",
+,Berikan ini padaku.,0,"2,197",52,1,0,Reward-lv1-Battle,,,"{""options"":[{""optionType"":1,""value"":""40,1,100;46,1,100;52,1,100;49,1,100;55,1,100;43,1,100""},{""optionType"":1,""value"":""41,1,100;47,1,100;44,1,100;53,1,100;50,1,100;56,1,100""}]}",
+,Berikan ini padaku.,0,"2,292",53,1,0,Reward-lv2-Battle,,,"{""options"":[{""optionType"":1,""value"":""41,1,100;47,1,100;44,1,100;53,1,100;50,1,100;56,1,100""}]}",
+,Berikan ini padaku.,0,"2,388",54,1,0,Reward-lv3-Battle,,,"{""options"":[{""optionType"":1,""value"":""42,1,100;57,1,100;48,1,100;45,1,100;54,1,100;51,1,100""}]}",
+,Pekerjaan pertanian.,0,"1,188",55,1,0,Daily-Lv1-Farm,,,"{""options"":[{""optionType"":3,""value"":""70,2,100;72,2,100;71,1,100""}]}",
+,Pekerjaan pertanian dan serahkan.,0,"1,188",56,1,0,Daily-Lv1-Farm,,,"{""options"":[{""optionType"":1,""value"":""70,1,100;72,1,100;71,1,100""},{""optionType"":3,""value"":""70,1,100;71,1,100;72,1,100""}]}",
+,Berikan ini padaku.,0,"1,188",57,1,0,Daily-Lv1-Farm,,,"{""options"":[{""optionType"":1,""value"":""70,2,100;71,2,100;72,2,100""}]}",
+,Pekerjaan pertanian.,0,"1,278",58,1,0,Daily-Lv2-Farm,,,"{""options"":[{""optionType"":3,""value"":""74,2,100;75,2,100;73,2,100""}]}",
+,Pekerjaan pertanian dan serahkan.,0,"1,278",59,1,0,Daily-Lv2-Farm,,,"{""options"":[{""optionType"":1,""value"":""74,1,100;73,1,100;75,1,100""},{""optionType"":3,""value"":""74,1,100;73,1,100;75,1,100""}]}",
+,Berikan ini padaku.,0,"1,278",60,1,0,Daily-Lv2-Farm,,,"{""options"":[{""optionType"":1,""value"":""74,2,100;73,2,100;75,2,100""}]}",
+,Pekerjaan pertanian.,0,"1,369",61,1,0,Daily-Lv3-Farm,,,"{""options"":[{""optionType"":3,""value"":""78,2,100;76,2,100;77,2,100""}]}",
+,Pekerjaan pertanian dan serahkan.,0,"1,369",62,1,0,Daily-Lv3-Farm,,,"{""options"":[{""optionType"":1,""value"":""78,1,100;76,1,100;77,1,100""},{""optionType"":3,""value"":""78,1,100;76,1,100;77,1,100""}]}",
+,Berikan ini padaku.,0,"1,369",63,1,0,Daily-Lv3-Farm,,,"{""options"":[{""optionType"":1,""value"":""78,2,100;76,2,100;77,2,100""}]}",
+,Berikan ini padaku.,0,"1,197",64,1,0,Reward-lv1-Farm,,,"{""options"":[{""optionType"":1,""value"":""95,1,100;96,1,100;97,1,100;80,1,100;84,1,100;104,1,100;110,1,100;101,1,100;98,1,100""}]}",
+,Berikan ini padaku.,0,"1,292",65,1,0,Reward-lv2-Farm,,,"{""options"":[{""optionType"":1,""value"":""81,1,100;85,1,100;102,1,100;105,1,100;111,1,100;99,1,100""}]}",
+,Berikan ini padaku.,0,"1,388",66,1,0,Reward-lv3-Farm,,,"{""options"":[{""optionType"":1,""value"":""82,1,100;100,1,100;112,1,100;86,1,100;103,1,100;106,1,100""}]}",
+,Pekerjaan pengumpulan.,0,"3,188",67,1,0,Daily-Lv1-Gather,,,"{""options"":[{""optionType"":9,""value"":""95,2,100;92,2,100;93,2,100""}]}",
+,Pekerjaan pengumpulan dan serahkan.,0,"3,188",68,1,0,Daily-Lv1-Gather,,,"{""options"":[{""optionType"":9,""value"":""95,1,100;92,1,100;93,1,100""},{""optionType"":1,""value"":""134,1,100;128,1,100;129,1,100""}]}",
+,Berikan ini padaku.,0,"3,188",69,1,0,Daily-Lv1-Gather,,,"{""options"":[{""optionType"":1,""value"":""134,2,100;128,2,100;129,2,100""}]}",
+,Pekerjaan pengumpulan.,0,"3,278",70,1,0,Daily-Lv2-Gather,,,"{""options"":[{""optionType"":9,""value"":""96,2,100;197,2,100;198,2,100""}]}",
+,Pekerjaan pengumpulan dan serahkan.,0,"3,278",71,1,0,Daily-Lv2-Gather,,,"{""options"":[{""optionType"":9,""value"":""96,1,100;197,1,100;198,1,100""},{""optionType"":1,""value"":""140,1,100;219,1,100;220,1,100""}]}",
+,Berikan ini padaku.,0,"3,278",72,1,0,Daily-Lv2-Gather,,,"{""options"":[{""optionType"":1,""value"":""140,2,100;219,2,100;220,2,100""}]}",
+,Pekerjaan pengumpulan.,0,"3,369",73,1,0,Daily-Lv3-Gather,,,"{""options"":[{""optionType"":9,""value"":""132,2,100;103,2,100;102,2,100""}]}",
+,Pekerjaan pengumpulan dan serahkan.,0,"3,369",74,1,0,Daily-Lv3-Gather,,,"{""options"":[{""optionType"":9,""value"":""132,1,100;103,1,100;102,1,100""},{""optionType"":1,""value"":""191,1,100;131,1,100;132,1,100""}]}",
+,Berikan ini padaku.,0,"3,369",75,1,0,Daily-Lv3-Gather,,,"{""options"":[{""optionType"":1,""value"":""191,2,100;131,2,100;132,2,100""}]}",
+,Berikan ini padaku.,0,"3,197",76,1,0,Reward-Lv1-Gather,,,"{""options"":[{""optionType"":1,""value"":""88,1,100;92,1,100;113,1,100;116,1,100;119,1,100;122,1,100;125,1,100""}]}",
+,Berikan ini padaku.,0,"3,292",77,1,0,Reward-Lv1-Gather,,,"{""options"":[{""optionType"":1,""value"":""89,1,100;93,1,100;114,1,100;117,1,100;120,1,100;123,1,100;126,1,100""}]}",
+,Berikan ini padaku.,0,"3,388",78,1,0,Reward-Lv1-Gather,,,"{""options"":[{""optionType"":1,""value"":""90,1,100;94,1,100;115,1,100;118,1,100;121,1,100;124,1,100;127,1,100""}]}",
+"{""options"":[{""optionType"":4,""value"":""6,10"",""guiderPoint"":2101}]}","Bunuh 10 Metal Mutts. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"2,314",80,0,0,Bunuh 10 Metal Mutts,,,,
+"{""options"":[{""optionType"":4,""value"":""8,10"",""guiderPoint"":3501}]}","Bunuh 10 Cactus Warriors. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"2,314",81,0,0,Bunuh 10 Cactus Warriors,,89,,
+"{""options"":[{""optionType"":4,""value"":""7,10"",""guiderPoint"":3401}]}","Bunuh 10 Pumpkin Fiends. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya",0,"2,314",82,0,0,Bunuh 10 Pumpkin Fiends,,90,,
+"{""options"":[{""optionType"":4,""value"":""11,15"",""guiderPoint"":20102}]}","Bunuh 15 Buzz Buddies. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"2,465",83,0,0,Bunuh 15 Buzz Buddies,,,,
+"{""options"":[{""optionType"":4,""value"":""10,15"",""guiderPoint"":20103}]}","Bunuh 15 Leafy Lurkers. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"2,465",84,0,0,Bunuh 15 Leafy Lurkers,,92,,
+"{""options"":[{""optionType"":4,""value"":""9,15"",""guiderPoint"":20203}]}","Bunuh 15 Mine Cats. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"2,465",85,0,0,Bunuh 15 Mine Cats,,93,,
+"{""options"":[{""optionType"":4,""value"":""13,20"",""guiderPoint"":20101}]}",Bunuh 20 Crimson Gnashers. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"2,616",86,0,0,Bunuh 20 Crimson Gnashers,,,,
+"{""options"":[{""optionType"":4,""value"":""12,20"",""guiderPoint"":20202}]}",Bunuh 20 Chaos Wraiths. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"2,616",87,0,0,Bunuh 20 Chaos Wraiths,,95,,
+"{""options"":[{""optionType"":4,""value"":""14,20"",""guiderPoint"":20204}]}",Bunuh 20 Frosty Paws. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"2,616",88,0,0,Bunuh 20 Frosty Paws,,96,,
+"{""options"":[{""optionType"":1,""value"":""32,15"",""guiderPoint"":2101}]}","Serahkan 15 Wire Mesh. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"2,314",89,0,0,Serahkan 15 Wire Meshes,,80,,
+"{""options"":[{""optionType"":1,""value"":""30,15"",""guiderPoint"":3501}]}","Serahkan 15 Green Slimes. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya",0,"2,314",90,0,0,Serahkan 15 Green Slimes,,81,,
+"{""options"":[{""optionType"":1,""value"":""31,15"",""guiderPoint"":3401}]}","Serahkan 15 Pumpkin Vines. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya",0,"2,314",91,0,0,Serahkan 15 Pumpkin Vines,,82,,
+"{""options"":[{""optionType"":1,""value"":""34,20"",""guiderPoint"":20102}]}","Serahkan 20 Light Thin Films. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"2,465",92,0,0,Serahkan 20 Light Thin Films,,83,,
+"{""options"":[{""optionType"":1,""value"":""35,20"",""guiderPoint"":20103}]}","Serahkan 20 Grass Demon crowns. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"2,465",93,0,0,Serahkan 20 Grass Demon Crowns,,84,,
+"{""options"":[{""optionType"":1,""value"":""33,20"",""guiderPoint"":20203}]}","Serahkan 20 Mining Cat Sharp Fangs. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"2,465",94,0,0,Serahkan 20 Mining Cat Sharp Fangs,,85,,
+"{""options"":[{""optionType"":1,""value"":""37,25"",""guiderPoint"":20101}]}",Serahkan 25 Crimson Furs. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"2,616",95,0,0,Serahkan 25 Crimson Furs,,86,,
+"{""options"":[{""optionType"":1,""value"":""36,25"",""guiderPoint"":20202}]}",Serahkan 25 Slender Hook Claws. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"2,616",96,0,0,Serahkan 25 Slender Hook Claws,,87,,
+"{""options"":[{""optionType"":1,""value"":""38,25"",""guiderPoint"":20204}]}",Serahkan 25 Ice Snow Fluffs. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"2,616",97,0,0,Serahkan 25 Ice Snow Fluffs,,88,,
+"{""options"":[{""optionType"":1,""value"":""70,10"",""guiderPoint"":3601}]}","Serahkan 10 Bambu. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"1,314",98,0,0,Serahkan 10 Bamboos,,,,
+"{""options"":[{""optionType"":1,""value"":""71,10"",""guiderPoint"":3601}]}","Serahkan 10 Trifolium. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya",0,"1,314",99,0,0,Serahkan 10 Trifolia,,98,,
+"{""options"":[{""optionType"":1,""value"":""72,10"",""guiderPoint"":3601}]}","Serahkan 10 Wortel. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"1,314",100,0,0,Serahkan 10 Carrots,,99,,
+"{""options"":[{""optionType"":1,""value"":""73,15"",""guiderPoint"":3601}]}","Serahkan 15 Nepenthes. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"1,465",101,0,0,Serahkan 15 Nepenthes,,,,
+"{""options"":[{""optionType"":1,""value"":""74,15"",""guiderPoint"":3601}]}","Serahkan 15 Kapas. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"1,465",102,0,0,Serahkan 15 Cotton,,101,,
+"{""options"":[{""optionType"":1,""value"":""75,15"",""guiderPoint"":3601}]}","Serahkan 15 Endurance Fruits. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"1,465",103,0,0,Serahkan 15 Endurance Fruits,,102,,
+"{""options"":[{""optionType"":1,""value"":""76,20"",""guiderPoint"":3601}]}",Serahkan 20 Cabai Merah Pedas. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"1,616",104,0,0,Serahkan 20 Hot Chili Peppers,,,,
+"{""options"":[{""optionType"":1,""value"":""77,20"",""guiderPoint"":3601}]}",Serahkan 20 Buah Keras. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"1,616",105,0,0,Serahkan 20 Hard Fruits,,104,,
+"{""options"":[{""optionType"":1,""value"":""78,20"",""guiderPoint"":3601}]}",Serahkan 20 Jamur Biru. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"1,616",106,0,0,Serahkan 20 Blue Mushrooms,,105,,
+"{""options"":[{""optionType"":1,""value"":""177,10"",""guiderPoint"":4501}]}","Serahkan 10 Cactus Sprouts. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"1,314",107,0,0,Serahkan 10 Cactus Sprouts,,,,
+"{""options"":[{""optionType"":1,""value"":""178,10"",""guiderPoint"":4501}]}","Serahkan 10 Sekrup. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"1,314",108,0,0,Serahkan 10 Screws,,107,,
+"{""options"":[{""optionType"":1,""value"":""179,10"",""guiderPoint"":4501}]}","Serahkan 10 Pumpkin Sprouts. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"1,314",109,0,0,Serahkan 10 Pumpkin Sprouts,,108,,
+"{""options"":[{""optionType"":1,""value"":""180,15"",""guiderPoint"":4501}]}","Serahkan 15 Blue Crystal Stones. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"1,465",110,0,0,Serahkan 15 Blue Crystal Stones,,,,
+"{""options"":[{""optionType"":1,""value"":""181,15"",""guiderPoint"":4501}]}","Serahkan 15 Daun monster rumput. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"1,465",111,0,0,Serahkan 15 Grass Monster Leaves,,110,,
+"{""options"":[{""optionType"":1,""value"":""182,15"",""guiderPoint"":4501}]}","Serahkan 15 unit Madu. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya",0,"1,465",112,0,0,Serahkan 15 Honey,,111,,
+"{""options"":[{""optionType"":1,""value"":""183,20"",""guiderPoint"":4501}]}",Serahkan 20 Shadow Plumes. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"1,616",113,0,0,Serahkan 20 Shadow Plumes,,,,
+"{""options"":[{""optionType"":1,""value"":""184,20"",""guiderPoint"":4501}]}",Serahkan 20 Lava Mengeras. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"1,616",114,0,0,Serahkan 20 Solidified Lava,,113,,
+"{""options"":[{""optionType"":1,""value"":""185,20"",""guiderPoint"":4501}]}",Serahkan 20 Frost Shards. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"1,616",115,0,0,Serahkan 20 Frost Shards,,114,,
+"{""options"":[{""optionType"":1,""value"":""58,10"",""guiderPoint"":3401}]}","Serahkan 10 Mineral. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"3,314",116,0,0,Serahkan 10 Minerals,,,,
+"{""options"":[{""optionType"":1,""value"":""66,10"",""guiderPoint"":2101}]}","Serahkan 10 Serat Tanaman. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"3,314",117,0,0,Serahkan 10 Plant Fibres,,116,,
+"{""options"":[{""optionType"":1,""value"":""62,10"",""guiderPoint"":3501}]}","Serahkan 10 Kayu Biasa. Temukan Quincy untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat kota, jadi Anda bisa pergi dan mencarinya.",0,"3,314",118,0,0,Serahkan 10 Ordinary Woods,,117,,
+"{""options"":[{""optionType"":1,""value"":""59,15"",""guiderPoint"":20103}]}","Serahkan 15 Dark Irons. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"3,465",119,0,0,Serahkan 15 Dark Irons,,,,
+"{""options"":[{""optionType"":1,""value"":""63,15"",""guiderPoint"":20203}]}","Serahkan 15 Desert Tree Woods. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"3,465",120,0,0,Serahkan 15 Desert Tree Woods,,119,,
+"{""options"":[{""optionType"":1,""value"":""67,15"",""guiderPoint"":20201}]}","Serahkan 15 Frozen Fungi. Temukan Torvald untuk menyelesaikan tugas ini. Kadang-kadang seseorang mungkin melihatnya di dekat danau padang rumput, jadi Anda bisa pergi dan mencarinya.",0,"3,465",121,0,0,Serahkan 15 Frozen Fungi,,120,,
+"{""options"":[{""optionType"":1,""value"":""60,20"",""guiderPoint"":20204}]}",Serahkan 20 Red Crystal Ores. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"3,616",122,0,0,Serahkan 20 Red Crystal Ores,,,,
+"{""options"":[{""optionType"":1,""value"":""64,20"",""guiderPoint"":20202}]}",Serahkan 20 Dark Woods. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"3,616",123,0,0,Serahkan 20 Dark Woods,,122,,
+"{""options"":[{""optionType"":1,""value"":""68,20"",""guiderPoint"":20103}]}",Serahkan 20 Magueys. Temukan Drakonar untuk menyelesaikan. Kadang-kadang seseorang akan melihatnya di dekat Hutan Hitam dan Hutan Merah.,0,"3,616",124,0,0,Serahkan 20 Magueys,,123,,
+,,0,"2,460",126,1,0,,,,"{""options"":[{""optionType"":4,""value"":""26,4,100;27,4,100;28,4,100""}]}",
+,,0,"2,551",127,1,0,,,,"{""options"":[{""optionType"":4,""value"":""29,4,100;30,4,100;31,4,100""}]}",
+,,0,"2,642",128,1,0,,,,"{""options"":[{""optionType"":4,""value"":""32,4,100;33,4,100;34,4,100""}]}",20000
+,,0,"2,460",129,1,0,,,,"{""options"":[{""optionType"":4,""value"":""26,2,100;27,2,100;28,2,100""},{""optionType"":1,""value"":""365,1,100;366,1,100;367,1,100""}]}",
+,,0,"2,551",130,1,0,,,,"{""options"":[{""optionType"":4,""value"":""29,2,100;30,2,100;31,2,100""},{""optionType"":1,""value"":""368,1,100;369,1,100;370,1,100""}]}",
+,,0,"2,642",131,1,0,,,,"{""options"":[{""optionType"":4,""value"":""32,2,100;33,2,100;34,2,100""},{""optionType"":1,""value"":""371,1,100;372,1,100;373,1,100""}]}",
+,,0,"2,460",132,1,0,,,,"{""options"":[{""optionType"":1,""value"":""365,2,100;366,2,100;367,2,100""}]}",
+,,0,"2,551",133,1,0,,,,"{""options"":[{""optionType"":1,""value"":""368,2,100;369,2,100;370,2,100""}]}",
+,,0,"2,642",134,1,0,,,,"{""options"":[{""optionType"":1,""value"":""371,2,100;372,2,100;373,2,100""}]}",
+,,0,"2,483",135,1,0,,,,"{""options"":[{""optionType"":1,""value"":""317,1,100;335,1,100;336,1,100;338,1,100;337,1,100;339,1,100""}]}",
+,,0,"2,579",136,1,0,,,,"{""options"":[{""optionType"":1,""value"":""318,1,100;340,1,100;341,1,100;343,1,100;342,1,100;344,1,100""}]}",
+,,0,"2,674",137,1,0,,,,"{""options"":[{""optionType"":1,""value"":""319,1,100;345,1,100;346,1,100;348,1,100;347,1,100;349,1,100""}]}",
+,,0,"1,460",138,1,0,,,,"{""options"":[{""optionType"":3,""value"":""383,2,100;384,2,100;385,2,100""}]}",
+,,0,"1,460",139,1,0,,,,"{""options"":[{""optionType"":3,""value"":""383,1,100;384,1,100;385,1,100""},{""optionType"":1,""value"":""383,1,100;384,1,100;385,1,100""}]}",
+,,0,"1,460",140,1,0,,,,"{""options"":[{""optionType"":1,""value"":""383,2,100;384,2,100;385,2,100""}]}",
+,,0,"1,551",141,1,0,,,,"{""options"":[{""optionType"":3,""value"":""386,2,100;387,2,100;388,2,100""}]}",
+,,0,"1,551",142,1,0,,,,"{""options"":[{""optionType"":3,""value"":""386,1,100;387,1,100;388,1,100""},{""optionType"":1,""value"":""386,2,100;387,2,100;388,2,100""}]}",
+,,0,"1,551",143,1,0,,,,"{""options"":[{""optionType"":1,""value"":""386,2,100;387,2,100;388,2,100""}]}",
+,,0,"1,642",144,1,0,,,,"{""options"":[{""optionType"":3,""value"":""389,2,100;390,2,100;391,2,100""}]}",
+,,0,"1,642",145,1,0,,,,"{""options"":[{""optionType"":3,""value"":""389,1,100;390,1,100;391,1,100""},{""optionType"":1,""value"":""389,1,100;390,1,100;391,1,100""}]}",
+,,0,"1,642",146,1,0,,,,"{""options"":[{""optionType"":1,""value"":""389,2,100;390,2,100;391,2,100""}]}",
+,,0,"1,483",147,1,0,,,,"{""options"":[{""optionType"":1,""value"":""299,1,100;302,1,100;350,1,100;351,1,100;353,1,100;352,1,100;354,1,100;304,1,100""}]}",
+,,0,"1,483",148,1,0,,,,"{""options"":[{""optionType"":1,""value"":""305,1,100;308,1,100;355,1,100;356,1,100;358,1,100;357,1,100;359,1,100;310,1,100""}]}",
+,,0,"1,483",149,1,0,,,,"{""options"":[{""optionType"":1,""value"":""312,1,100;313,1,100;315,1,100;330,1,100;333,1,100;331,1,100;332,1,100;334,1,100""}]}",
+,,0,"3,460",150,1,0,,,,"{""options"":[{""optionType"":9,""value"":""346,2,100""}]}",
+,,0,"3,460",151,1,0,,,,"{""options"":[{""optionType"":9,""value"":""346,1,100""},{""optionType"":1,""value"":""422,1,100;423,1,100;424,1,100;425,1,100;426,1,100;427,1,100""}]}",
+,,0,"3,460",152,1,0,,,,"{""options"":[{""optionType"":1,""value"":""422,2,100;423,2,100;424,2,100;425,2,100;426,2,100;427,2,100""}]}",
+,,0,"3,551",153,1,0,,,,"{""options"":[{""optionType"":9,""value"":""347,2,100""}]}",
+,,0,"3,551",154,1,0,,,,"{""options"":[{""optionType"":9,""value"":""347,1,100""},{""optionType"":1,""value"":""429,1,100;430,1,100;431,1,100;432,1,100;433,1,100;434,1,100""}]}",
+,,0,"3,551",155,1,0,,,,"{""options"":[{""optionType"":1,""value"":""429,2,100;430,2,100;431,2,100;432,2,100;433,2,100;434,2,100""}]}",
+,,0,"3,642",156,1,0,,,,"{""options"":[{""optionType"":9,""value"":""348,2,100""}]}",
+,,0,"3,642",157,1,0,,,,"{""options"":[{""optionType"":9,""value"":""348,1,100""},{""optionType"":1,""value"":""435,1,100;436,1,100;437,1,100;438,1,100;439,1,100;440,1,100""}]}",
+,,0,"3,642",158,1,0,,,,"{""options"":[{""optionType"":1,""value"":""435,2,100;436,2,100;437,2,100;438,2,100;439,2,100;440,2,100""}]}",
+,,0,"3,483",159,1,0,,,,"{""options"":[{""optionType"":1,""value"":""300,1,100;301,1,100;303,1,100;320,1,100;321,1,100;323,1,100;322,1,100;324,1,100""}]}",
+,,0,"3,579",160,1,0,,,,"{""options"":[{""optionType"":1,""value"":""305,1,100;308,1,100;355,1,100;356,1,100;358,1,100;357,1,100;359,1,100;310,1,100""}]}",
+,,0,"3,674",161,1,0,,,,"{""options"":[{""optionType"":1,""value"":""312,1,100;313,1,100;315,1,100;330,1,100;333,1,100;331,1,100;332,1,100;334,1,100""}]}",
+"{""options"":[{""optionType"":4,""value"":""6,5"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,5"",""guiderPoint"":3501},{""optionType"":4,""value"":""8,5"",""guiderPoint"":3401}]}",,0,"2,188",163,0,0,,,,,20000
+"{""options"":[{""optionType"":4,""value"":""12,5"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,5"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,5"",""guiderPoint"":20204}]}",,0,"2,460",164,0,0,,,,,20001

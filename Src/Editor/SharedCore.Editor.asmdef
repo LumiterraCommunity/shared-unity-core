@@ -1,0 +1,21 @@
+{
+    "name": "SharedCore.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:122df4e7707ce4461af1a1456e030f66",
+        "GUID:c910fac2427f4420eadb253d20eb1a6e",
+        "GUID:5ee44b2e0cf0b427789d287c25ffb1bb",
+        "GUID:fedde9fa5a4ad4216b29669e2b3e577c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

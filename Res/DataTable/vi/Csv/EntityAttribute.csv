@@ -1,0 +1,63 @@
+defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,type-int,valueType-int,icon-string
+0,Mức thu thập ,1,0,CollectionLv,3,1,1,
+0,Mức chiến đấu ,2,0,CombatLv,2,1,1,
+0,Mức nông nghiệp ,3,0,FarmingLv,1,1,1,
+0,Kinh nghiệm thu thập ,4,0,CollectionExp,3,1,1,
+0,Kinh nghiệm chiến đấu ,5,0,CombatExp,2,1,1,
+0,Kinh nghiệm nông nghiệp ,6,0,FarmingExp,1,1,1,
+500,Tốc độ di chuyển ,7,0,MoveSpd,2,1,1,
+0,Tốc độ di chuyển bổ sung tại nhà ,8,0,HomeExtraMoveSpd,1,1,1,
+0,Mức trang bị có sẵn ,9,0,GearAvailableLv,0,1,1,
+750,Máu ,10,1,HP,2,2,1,attribute-icon-10
+750,Máu tối đa ,11,1,MaxHP,2,2,1,attribute-icon-11
+10,Hồi máu ,12,0,HpRecovery,2,2,1,
+200,Tấn công chiến đấu ,13,1,CombatAtt,2,2,1,attribute-icon-13
+0,Tốc độ tấn công chiến đấu ,14,0,CombatAttSpd,2,2,2,
+150,Phòng thủ chiến đấu ,15,1,CombatDef,2,2,1,attribute-icon-15
+100,Đánh trúng chiến đấu ,16,0,CombatHit,2,2,1,
+100,Tránh né chiến đấu ,17,0,CombatDodge,2,2,1,
+0,Dễ bị tấn công chiến đấu ,18,0,CombatVulnerable,2,2,2,
+30,Tỷ lệ chí mạng chiến đấu ,19,0,CombatCritRate,2,2,2,
+500,Sát thương chí mạng chiến đấu ,20,0,CombatCritDmg,2,2,2,
+0,Thưởng sát thương chiến đấu ,21,0,CombatDmgBonus,2,2,2,
+0,Tấn công cây ,22,1,TreeAtt,3,3,1,attribute-icon-22
+0,Tốc độ rìu ,23,0,AxeSpd,3,3,2,
+50,Tỷ lệ chí mạng cây ,24,0,TreeCritRate,3,3,2,
+500,Sát thương chí mạng cây ,25,0,TreeCritDmg,3,3,2,
+0,Thưởng sát thương cây ,26,0,TreeDmgBonus,3,3,2,
+0,Tỷ lệ gỗ bổ sung ,27,0,ExtraWoodRate,3,3,2,
+1,Mức cây có sẵn ,28,0,TreeAvailableLv,3,3,1,
+0,Tấn công quặng ,29,1,OreAtt,3,4,1,attribute-icon-29
+0,Tốc độ búa ,30,0,PickaxeSpd,3,4,2,
+50,Tỷ lệ chí mạng quặng ,31,0,OreCritRate,3,4,2,
+500,Sát thương chí mạng quặng ,32,0,OreCritDmg,3,4,2,
+0,Thưởng sát thương quặng ,33,0,OreDmgBonus,3,4,2,
+0,Tỷ lệ quặng bổ sung ,34,0,ExtraOreRate,3,4,2,
+1,Mức quặng có sẵn ,35,0,OreAvailableLv,3,4,1,
+0,Hiệu quả cày cấy ,36,0,HoeingEffect,1,5,1,
+0,Tốc độ cuốc ,37,0,HoeSpd,1,5,2,
+0,Hiệu quả tưới nước ,38,0,WateringEffect,1,6,1,
+0,Tỷ lệ tưới nước bổ sung ,39,0,ExtraWateringRate,1,6,2,
+0,Tỷ lệ thu hoạch bổ sung ,40,0,ExtraHarvestRate,1,7,2,
+0,Tỷ lệ giống cây thu hoạch ,41,0,HarvestSeedRate,1,7,2,
+1,Mức cây trồng có sẵn ,42,0,CropAvailableLv,1,7,1,
+125,Năng lực phì nhiêu ,43,1,FertilityCapacity,1,1,1,attribute-icon-43
+6000,Phì nhiêu tối đa ,44,1,MaxFertility,1,1,1,attribute-icon-44
+125,Năng lực hạnh phúc thú cưng ,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
+2000,Hạnh phúc thú cưng tối đa ,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
+270,Chuyên môn trồng trọt ,49,1,PlantingProficiency,1,1,1,attribute-icon-49
+270,Chuyên môn nuôi dưỡng ,50,1,BreedingProficiency,1,1,1,attribute-icon-50
+400,Tấn công cỏ ,51,1,GrassAtt,3,1,1,attribute-icon-51
+0,Tốc độ liềm ,52,0,SickleSpd,3,1,2,
+50,Tỷ lệ chí mạng cỏ ,53,0,GrassCritRate,3,1,2,
+270,Chuyên môn cỏ ,54,1,GrassProficiency,3,1,1,attribute-icon-54
+270,Chuyên môn cây ,55,1,TreeProficiency,3,1,1,attribute-icon-55
+270,Chuyên môn quặng ,56,1,OreProficiency,3,1,1,attribute-icon-56
+500,Sát thương chí mạng cỏ ,58,0,GrassCritDmg,3,1,2,
+0,Thưởng sát thương cỏ ,59,0,GrassDmgBonus,3,1,2,
+300,Phòng thủ cỏ ,60,0,GrassDef,3,1,1,
+300,Phòng thủ cây ,61,0,TreeDef,3,1,1,
+300,Phòng thủ quặng ,62,0,OreDef,3,1,1,
+300,Chuyên môn yêu cầu,63,0,RequiredProficiency,3,1,1,
+100000,Năng lượng,64,1,Energy,2,1,3,attribute-icon-64
+100000,Năng lượng tối đa,65,1,MaxEnergy,2,1,3,attribute-icon-65

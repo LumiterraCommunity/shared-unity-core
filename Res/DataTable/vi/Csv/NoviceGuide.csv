@@ -1,0 +1,11 @@
+customData-string,event-string,id-int,resList-string[][]
+-,FirstGainEquipment,1,"Guide_OpenMenuForFirstWeapon,1;Guide_SwitchBackpack,1;Guide_FilterWeapon,1;Guide_SelectFirstItem,1;Guide_EquipButton,1;Tips_EquipmentArea,2"
+-,FirstGainUsableItem,2,"Guide_OpenMenuForFirstItem,1;Guide_SwitchBackpack,1;Guide_FilterItemEatable,1;Guide_SelectFirstItem,1;Guide_QuickButton,1;Guide_SelectShortcut,1;Guide_ShortcutConfirm,1"
+-,FirstReceiveTask,3,"Guide_OpenMenu,1;Guide_SwitchTaskPanel,1;Tips_ShowTaskDetail,2;Tips_ShowTaskOpration,2;Tips_ShowDailyBountyTask,2"
+-,FirstLearnedActiveSkill,5,"Guide_SkillEquipSetting,1;Guide_SelectSkill,1;Guide_SetSkillShortcut,1"
+-,FirstOpenCraftView,7,"Tips_ShowCraftRecipes,2;Tips_StartCraft,2"
+-,FirstCraft,8,"Guide_SwitchCraftQueue,1;Tips_WaitCraft,2;Tips_ObtainProduct,2"
+-,FirstSelectSoil,9,"Tips_HoeingAndSeeding,2;Tips_RestoreHoeing,2"
+-,FirstSow,10,"Tips_Watering,2"
+-,FirstSelectPet,11,"Tips_TouchAndFeeding,2;Tips_HaverstPet,2"
+['166'],LearnedSpecificSkill,12,"Tips_InsertBullet,2;Tips_LockinMonster,2;Tips_CaptureMonster,2"
