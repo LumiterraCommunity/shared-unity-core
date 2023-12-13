@@ -33,7 +33,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":9,""value"":""158,1"",""guiderPoint"":0}]}",打开采集制作界面并提炼一瓶采集精华。在此之前，你需要获得足够的材料。,0,"3,117",26,0,32,职业的精华,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,5"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,5"",""guiderPoint"":3501}]}","获取5个普通木材。
 获取5块石头。",0,"3,117",27,0,43,多采点东西,,25,,
-"{""options"":[{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101},{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":9,""value"":""70,1"",""guiderPoint"":0}]}",获取5个普通木材和5个纤维，制作一把铁质镐子。,0,"3,117",28,0,44,制作一把铁镐,,26,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":9,""value"":""70,1"",""guiderPoint"":0}]}",获取5个普通木材和5个纤维，制作一把铁质镐子。,0,"3,117",28,0,44,制作一把铁镐,,26,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","你已经学会了如何升级天赋树和制作装备，尝试收集一些更高级的材料：
 获取一块黑铁矿石。
 获取一棵沙漠树。
@@ -41,7 +41,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""8,5"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,5"",""guiderPoint"":3401}]}","根据最新情报：
 仙人掌战士 - 具有很高的防御力，使用重型攻击可以突破它的防御。
 南瓜恶魔 - 拥有远程技能，使用践踏技能可以使其无法使用远程技能。",0,"2,117",30,0,40,教训一下他们,,26,,
-"{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""31,1"",""guiderPoint"":3401},{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":9,""value"":""44,1"",""guiderPoint"":0}]}",尝试在战斗制作中制作一把石剑，更强大的武器可以让你在战斗中更加轻松。在此之前，你需要在天赋树中解锁石剑的配方。,0,"2,117",32,0,30,制作一把石剑,,30,,
+"{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":9,""value"":""44,1"",""guiderPoint"":0}]}",尝试在战斗制作中制作一把石剑，更强大的武器可以让你在战斗中更加轻松。在此之前，你需要在天赋树中解锁石剑的配方。,0,"2,117",32,0,30,制作一把石剑,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","你已经学会了如何升级天赋树和制作装备，尝试击败更强大的怪物：
 击败一只嗡嗡蜂。
 击败一只矿矿猫。
