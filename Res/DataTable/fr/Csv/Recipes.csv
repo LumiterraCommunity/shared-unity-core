@@ -1,96 +1,96 @@
 classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matItemId-int[][],name-string,productId-int[][],proficiency-int,recipesSort-int,sourceText-int,timeCost-int,type-int,unlockCondition-int,unlockType-int,useDitamin-int,useMELD-int
-1,Artisanat Lv 1 Épée en pierre,2,recipe-icon-44,44,1,"210,2;31,10;30,10",Recette d'épée en pierre de niveau 1 ,"40,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Épée en fer,2,recipe-icon-45,45,2,"211,2;216,2;33,10;34,10", Recette d'épée en fer de niveau 2 ,"41,1,1,6000;41,2,1,4000",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Épée en cristal,2,recipe-icon-46,46,3,"217,2;212,2;36,10;37,10", Recette d'épée en cristal de niveau 3 ,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,1,1,10,2,0,4,0,10
-0,Artisanat Lv 1 Houe en fer,2,recipe-icon-62,62,1,"207,2;178,10;177,10", Recette de houe en fer de niveau 1 ,"80,1,1,10000",0,1,1,10,1,0,4,0,0
+1,Artisanat Lv 1 Épée en pierre,2,recipe-icon-44,44,1,"210,1;213,1",Recette d'épée en pierre de niveau 1 ,"40,1,1,10000",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 2 Épée en fer,2,recipe-icon-45,45,2,"207,2;211,1;214,1", Recette d'épée en fer de niveau 2 ,"41,1,1,6000;41,2,1,4000",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Épée en cristal,2,recipe-icon-46,46,3,"208,2;212,1;215,1", Recette d'épée en cristal de niveau 3 ,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,1,1,10,2,0,4,0,5
+0,Artisanat Lv 1 Houe en fer,2,recipe-icon-62,62,1,"207,2", Recette de houe en fer de niveau 1 ,"80,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Engrais hydratant,2,recipe-icon-94,94,1,"69,1", Recette d'engrais hydratant de niveau 0 ,"130,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Houe bénie,2,recipe-icon-64,64,3,"209,2;211,2;76,10;77,10", Recette de houe bénie de niveau 3 ,"82,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Houe bénie,2,recipe-icon-64,64,3,"217,2;209,2", Recette de houe bénie de niveau 3 ,"82,1,1,10000",0,1,1,10,1,0,4,0,5
 0,Artisanat Lv 0 Engrais stimulant le rendement,2,recipe-icon-93,93,1,"61,1", Recette d'engrais augmentant le rendement de niveau 0 ,"129,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Bouilloire maudite,2,recipe-icon-67,67,2,"182,10;181,10;208,2;213,2", Recette de bouilloire maudite de niveau 2 ,"85,2,1,4000;84,1,1,6000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Hache bénie,2,recipe-icon-76,76,3,"218,2;208,2;60,10;68,10", Recette de hache bénie de niveau 3 ,"94,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Bouilloire maudite,2,recipe-icon-67,67,2,"216,2;208,2", Recette de bouilloire maudite de niveau 2 ,"85,2,1,4000;84,1,1,6000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Hache bénie,2,recipe-icon-76,76,3,"211,1;214,1;218,2", Recette de hache bénie de niveau 3 ,"94,1,1,10000",0,1,1,10,3,0,4,0,5
 0,Artisanat Lv 0 Potion de guérison secondaire,2,recipe-icon-95,95,1,"66,2;32,10", Recette de potion de guérison mineure de niveau 0 ,"134,1,1,1666;135,1,1,1666;136,1,1,1666;137,1,1,1666;139,1,1,1666;138,1,1,1666",0,3,1,10,3,0,4,0,0
 0,Artisanat Lv 1 Potion de guérison,2,recipe-icon-96,96,2,"67,2;75,2;35,5", Recette de potion de guérison de niveau 1 ,"140,1,1,1666;142,1,1,1666;141,1,1,1666;143,1,1,1666;145,1,1,1666;144,1,1,1666",0,3,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Houe maudite,2,recipe-icon-63,63,2,"208,2;213,2;74,10;73,10", Recette de houe maudite de niveau 2 ,"81,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Pioche maudite,2,recipe-icon-71,71,2,"217,2;207,2;63,10;67,10", Recette de pioche maudite de niveau 2 ,"89,1,1,6000;89,2,1,4000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 1 Pioche en fer,2,recipe-icon-70,70,1,"216,2;62,10;66,10", Recette de pioche en fer de niveau 1 ,"88,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Pioche bénie,2,recipe-icon-72,72,3,"218,2;208,2;64,10;60,10", Recette de pioche bénie de niveau 3 ,"90,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Bouilloire bénie,2,recipe-icon-68,68,3,"183,10;185,10;209,2;214,2", Recette de bouilloire bénie de niveau 3 ,"86,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Hache en fer,2,recipe-icon-74,74,1,"216,2;62,10;58,10", Recette de hache en fer de niveau 1 ,"92,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 1 Bouilloire en fer,2,recipe-icon-66,66,1,"207,2;70,10;72,10", Recette de bouilloire en fer de niveau 1 ,"84,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Houe maudite,2,recipe-icon-63,63,2,"216,2;208,2", Recette de houe maudite de niveau 2 ,"81,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Pioche maudite,2,recipe-icon-71,71,2,"210,1;213,1;217,2", Recette de pioche maudite de niveau 2 ,"89,1,1,6000;89,2,1,4000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Pioche en fer,2,recipe-icon-70,70,1,"216,2", Recette de pioche en fer de niveau 1 ,"88,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 3 Pioche bénie,2,recipe-icon-72,72,3,"211,1;214,1;218,2", Recette de pioche bénie de niveau 3 ,"90,1,1,10000",0,1,1,10,3,0,4,0,5
+0,Artisanat Lv 3 Bouilloire bénie,2,recipe-icon-68,68,3,"217,2;209,2", Recette de bouilloire bénie de niveau 3 ,"86,1,1,10000",0,1,1,10,1,0,4,0,5
+0,Artisanat Lv 1 Hache en fer,2,recipe-icon-74,74,1,"216,2", Recette de hache en fer de niveau 1 ,"92,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Bouilloire en fer,2,recipe-icon-66,66,1,"207,2", Recette de bouilloire en fer de niveau 1 ,"84,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Engrais accéléré,2,recipe-icon-92,92,1,"65,1", Recette d'engrais accéléré de niveau 0 ,"128,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Hache maudite,2,recipe-icon-75,75,2,"217,2;207,2;63,10;59,10", Recette de hache maudite de niveau 2 ,"93,1,1,6000;93,2,1,4000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Hache maudite,2,recipe-icon-75,75,2,"210,1;213,1;217,2", Recette de hache maudite de niveau 2 ,"93,1,1,6000;93,2,1,4000",0,1,1,10,3,0,4,0,0
 0,Artisanat Lv 0 Engrais hydratant avancé,2,recipe-icon-101,101,2,"69,2;35,5", Recette d'engrais hydratant avancé de niveau 0 ,"133,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Engrais stimulant le rendement avancé,2,recipe-icon-102,102,2,"61,2;35,5", Recette d'engrais augmentant le rendement avancé de niveau 0 ,"132,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Engrais accéléré avancé,2,recipe-icon-103,103,2,"65,2;35,5", Recette d'engrais accéléré avancé de niveau 0 ,"131,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Talisman,2,recipe-icon-104,104,1,"32,20;71,40;58,40;62,40;66,40", Recette de talisman de niveau 0 ,"161,1,1,4736;161,2,1,3157;161,3,1,2105",0,2,1,10,0,0,4,0,100
 0,Artisanat Lv 0 Talisman,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40", Recette de talisman de niveau 0 ,"161,2,1,4153;161,3,1,2769;161,4,1,1846;161,5,1,1230",0,2,1,10,0,0,4,0,200
-0,Artisanat Lv 1 Chapeau trèfle chanceux,2,recipe-icon-108,108,1,"207,2;72,10;71,10", Recette de chapeau trèfle chanceux de niveau 1 ,"98,1,1,8350;267,5,1,1649",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Chapeau en coton chanceux,2,recipe-icon-109,109,2,"208,2;74,10;73,10;210,2", Recette de chapeau en coton chanceux de niveau 1 ,"99,1,1,5364;99,2,1,3576;262,5,1,1059",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Casque dur chanceux,2,recipe-icon-110,110,3,"209,2;211,2;76,10;77,10", Recette de chapeau dur chanceux de niveau 3 ,"100,1,1,4331;100,2,1,2887;100,3,1,1925;272,5,1,855",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Chapeau de récolte,2,recipe-icon-111,111,1,"216,2;58,10;66,10", Recette de chapeau de collecte de niveau 1 ,"116,1,1,8350;267,5,1,1649",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Chapeau de récolte,2,recipe-icon-112,112,2,"217,2;207,2;59,10;67,10", Recette de chapeaux de collecte de niveau 2 ,"117,1,1,5364;117,2,1,3576;262,5,1,1059",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Chapeau de récolte,2,recipe-icon-113,113,3,"218,2;208,2;64,10;68,10", Recette de chapeaux de collecte de niveau 3 ,"118,1,1,4331;118,3,1,1925;118,2,1,2887;272,5,1,855",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Chapeau trèfle chanceux,2,recipe-icon-108,108,1,"207,2", Recette de chapeau trèfle chanceux de niveau 1 ,"98,1,1,8350;267,5,1,1649",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Chapeau en coton chanceux,2,recipe-icon-109,109,2,"216,2;208,2", Recette de chapeau en coton chanceux de niveau 1 ,"99,1,1,5364;99,2,1,3576;262,5,1,1059",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Casque dur chanceux,2,recipe-icon-110,110,3,"217,2;209,2", Recette de chapeau dur chanceux de niveau 3 ,"100,1,1,4331;100,2,1,2887;100,3,1,1925;272,5,1,855",0,2,1,10,1,0,4,0,5
+0,Artisanat Lv 1 Chapeau de récolte,2,recipe-icon-111,111,1,"216,2", Recette de chapeau de collecte de niveau 1 ,"116,1,1,8350;267,5,1,1649",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Chapeau de récolte,2,recipe-icon-112,112,2,"210,1;213,1;217,2", Recette de chapeaux de collecte de niveau 2 ,"117,1,1,5364;117,2,1,3576;262,5,1,1059",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 3 Chapeau de récolte,2,recipe-icon-113,113,3,"211,1;214,1;218,2", Recette de chapeaux de collecte de niveau 3 ,"118,1,1,4331;118,3,1,1925;118,2,1,2887;272,5,1,855",0,2,1,10,3,0,4,0,5
 0,Artisanat Lv 1 Graine de bambou,2,recipe-icon-123,123,1,"70,1;62,10", Recette de graines de bambou de niveau 1 ,"146,1,2,5000;150,1,1,5000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 1 Graine de trèfle,2,recipe-icon-124,124,1,"71,1;62,10", Recette de graines de trèfle de niveau 1 ,"147,1,2,5000;149,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Graine de carotte,2,recipe-icon-125,125,1,"72,10;62,10", Recette de graines de carotte de niveau 1 ,"148,1,2,5000;151,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Graine de plante pichet,2,recipe-icon-126,126,2,"73,1;63,10", Recette de graines de plante carnivore de niveau 2 ,"149,1,2,5000;154,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Graine de coton,2,recipe-icon-127,127,2,"74,1;63,10", Recette de graines de coton de niveau 2 ,"150,1,2,5000;152,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Graine de cactus,2,recipe-icon-128,128,2,"75,1;63,10", Recette de graines de cactus de niveau 2 ,"151,1,2,5000;153,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Graine de piments forts,2,recipe-icon-129,129,3,"76,1;64,10", Recette de piments forts de niveau 3 ,"152,1,2,10000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Graine de fruit dur,2,recipe-icon-130,130,3,"77,1;64,10", Recette de fruits durs de niveau 3 ,"153,1,2,10000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Graine de champignon bleu fantôme,2,recipe-icon-131,131,3,"78,1;64,10", Recette de graines de champignons fantômes bleus de niveau 3 ,"154,1,2,10000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 1 Graine de carotte,2,recipe-icon-125,125,1,"62,10", Recette de graines de carotte de niveau 1 ,"148,1,2,5000;151,1,1,5000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Graine de plante pichet,2,recipe-icon-126,126,2,"73,1", Recette de graines de plante carnivore de niveau 2 ,"149,1,2,5000;154,1,1,5000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Graine de coton,2,recipe-icon-127,127,2,"74,1", Recette de graines de coton de niveau 2 ,"150,1,2,5000;152,1,1,5000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Graine de cactus,2,recipe-icon-128,128,2,"75,1", Recette de graines de cactus de niveau 2 ,"151,1,2,5000;153,1,1,5000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Graine de piments forts,2,recipe-icon-129,129,3,"76,1", Recette de piments forts de niveau 3 ,"152,1,2,10000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Graine de fruit dur,2,recipe-icon-130,130,3,"77,1", Recette de fruits durs de niveau 3 ,"153,1,2,10000",0,3,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Graine de champignon bleu fantôme,2,recipe-icon-131,131,3,"78,1", Recette de graines de champignons fantômes bleus de niveau 3 ,"154,1,2,10000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 2 Potion de guérison cristallisée,2,recipe-icon-132,132,3,"68,2;78,2;38,5", Recette de potion de guérison cristallisée de niveau 2 ,"191,1,1,1666;192,1,1,1666;194,1,1,1666;195,1,1,1666;196,1,1,1666;197,1,1,1666",0,3,1,10,3,0,4,0,0
-0,Artisanat Lv 1 Bague à tête de puce,2,recipe-icon-133,133,1,"210,2;31,10;32,10", Recette de bague à tête de puce de niveau 1 ,"43,1,1,8350;267,5,1,1649",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Bonnet doux en peau de cristal,2,recipe-icon-134,134,2,"211,2;216,2;33,10;35,10", Recette de casquette en peau de cristal de niveau 2 ,"44,1,1,5364;44,2,1,3576;262,5,1,1059",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Casque en cristal,2,recipe-icon-135,135,3,"217,2;212,2;36,10;38,10", Recette de casque en cristal de niveau 3 ,"45,1,1,4331;45,2,1,2887;45,3,1,1925;272,5,1,855",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Veste en peau de cristal,2,recipe-icon-137,137,2,"216,2;33,10;34,10;214,2", Recette de veste en cuir cristal de niveau 2 ,"47,1,1,5364;47,2,1,3576;263,5,1,1059",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 1 Armure en vigne de cristal,2,recipe-icon-136,136,1,"210,2;30,10;32,10", Recette d'armure en vigne de cristal de niveau 1 ,"46,1,1,8350;268,5,1,1649",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Armure en cristal,2,recipe-icon-138,138,3,"217,2;37,10;215,2;38,10", Recette d'armure en cristal de niveau 3 ,"48,1,1,4331;48,2,1,2887;48,3,1,1925;273,5,1,855",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 1 Jupe en herbe de cristal fissurée,2,recipe-icon-139,139,1,"30,10;31,10;207,2", Recette de jupe en herbe de cristal ,"49,1,1,8350;270,5,1,1649",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Pantalon en peau de cristal,2,recipe-icon-140,140,2,"216,2;34,10;214,2;35,10", Recette de pantalon en cuir cristal de niveau 2 ,"50,1,1,5364;50,2,1,3576;265,5,1,1059",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Armure de jambe en cristal,2,recipe-icon-141,141,3,"217,2;36,10;37,10;215,2", Recette de protège-jambes en cristal de niveau 3 ,"51,1,1,4331;51,2,1,2887;51,3,1,1925;274,5,1,855",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 1 Chaussures en herbe de cristal,2,recipe-icon-142,142,1,"30,10;207,2;32,10", Recette de sandales en herbe de cristal fissuré de niveau 1 ,"55,1,1,8350;271,5,1,1649",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Bottes en peau de cristal,2,recipe-icon-143,143,2,"216,2;33,10;34,10;208,2", Recette de bottes en cuir cristal de niveau 2 ,"56,1,1,5364;56,2,1,3576;266,5,1,1059",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Chaussures en pierre de cristal,2,recipe-icon-144,144,3,"217,2;36,10;209,2;38,10", Recette de chaussures en cristal de niveau 3 ,"57,1,1,4331;57,2,1,2887;57,3,1,1925;275,5,1,855",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 1 Bracelet en cristal,2,recipe-icon-145,145,1,"31,10;207,2;32,10", Recette de bracelet en cristal fissuré de niveau 1 ,"52,1,1,8350;269,5,1,1649",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Gants en peau de cristal,2,recipe-icon-146,146,2,"216,2;33,10;208,2;35,10", Recette de gants en cuir cristal de niveau 2 ,"53,1,1,5364;53,2,1,3576;264,5,1,1059",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Gantelets en cristal,2,recipe-icon-147,147,3,"217,2;37,10;209,2;38,10", Recette de gantelets en cristal de niveau 3 ,"54,1,1,4331;54,2,1,2887;54,3,1,1925;276,5,1,855",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 1 Essence de combat,2,recipe-icon-149,149,1,"30,10;31,10;32,10", Recette d'essence de combat de niveau 1 ,"216,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 2 Essence de combat,2,recipe-icon-150,150,2,"33,10;35,10;34,10;216,2", Recette d'essence de combat de niveau 2 ,"217,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Artisanat Lv 3 Essence de combat,2,recipe-icon-151,151,3,"36,10;37,10;38,10;216,2", Recette d'essence de combat de niveau 3 ,"218,1,1,10000",0,1,1,10,2,0,4,0,5
-0,Artisanat Lv 1 Essence de culture,2,recipe-icon-152,152,1,"70,10;71,10;72,10", Recette d'essence de plantation agricole de niveau 1 ,"210,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Essence de culture,2,recipe-icon-153,153,2,"74,10;73,10;75,10;210,2", Recette d'essence de plantation agricole de niveau 2 ,"211,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Essence de culture,2,recipe-icon-154,154,3,"76,10;77,10;78,10;210,2", Recette d'essence de plantation agricole de niveau 3 ,"212,1,1,10000",0,1,1,10,1,0,4,0,5
-0,Artisanat Lv 1 Essence d'élevage agricole,2,recipe-icon-155,155,1,"178,10;179,10;177,10", Recette d'essence d'élevage agricole de niveau 1 ,"213,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Essence d'élevage agricole,2,recipe-icon-156,156,2,"182,10;180,10;181,10;211,2", Recette d'essence d'élevage agricole de niveau 2 ,"214,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Essence d'élevage agricole,2,recipe-icon-157,157,3,"184,10;185,10;183,10;211,2", Recette d'essence d'élevage agricole de niveau 3 ,"215,1,1,10000",0,1,1,10,1,0,4,0,5
-0,Artisanat Lv 1 Essence de récolte,2,recipe-icon-158,158,1,"62,10;58,10;66,10", Recette d'essence de collecte de niveau 1 ,"207,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Essence de récolte,2,recipe-icon-159,159,2,"63,10;67,10;59,10;207,2", Recette d'essence de collecte de niveau 2 ,"208,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Essence de récolte,2,recipe-icon-160,160,3,"64,10;60,10;68,10;208,2", Recette d'essence de collecte de niveau 3 ,"209,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Artisanat Lv 1 Veste de culture,2,recipe-icon-165,165,1,"207,2;72,10;70,10", Recette de veste agricole de niveau 1 ,"101,1,1,8350;268,5,1,1649",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Pantalon de culture,2,recipe-icon-166,166,1,"207,2;71,10;70,10", Recette de pantalon agricole de niveau 1 ,"104,1,1,8350;270,5,1,1649",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Gants de culture,2,recipe-icon-167,167,1,"207,2;72,10;71,10", Recette de gants agricoles de niveau 1 ,"107,1,1,8350;269,5,1,1649",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Chaussures de culture,2,recipe-icon-168,168,1,"207,2;72,10;70,10", Recette de chaussures agricoles de niveau 1 ,"110,1,1,8350;271,5,1,1649",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Veste de culture,2,recipe-icon-169,169,2,"208,2;74,10;75,10;210,2", Recette de veste agricole de niveau 1 ,"102,1,1,5364;102,2,1,3576;263,5,1,1059",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Pantalon de culture,2,recipe-icon-170,170,2,"208,2;213,2;75,10;73,10", Recette de pantalon agricole de niveau 2 ,"105,1,1,5364;105,2,1,3576;265,5,1,1059",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Gants de culture,2,recipe-icon-171,171,2,"208,2;213,2;74,10;73,10", Recette de gants agricoles de niveau 2 ,"108,1,1,5364;108,2,1,3576;264,5,1,1059",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 2 Chaussures de culture,2,recipe-icon-172,172,2,"208,2;213,2;74,10;75,10", Recette de chaussures agricoles de niveau 2 ,"111,1,1,5364;111,2,1,3576;266,5,1,1059",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Veste de culture,2,recipe-icon-173,173,3,"209,2;211,2;76,10;78,10", Recette de veste agricole de niveau 3 ,"103,1,1,4331;103,2,1,2887;103,3,1,1925;273,5,1,855",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Pantalon de culture,2,recipe-icon-174,174,3,"209,2;76,10;77,10;214,2", Recette de pantalon agricole de niveau 3 ,"106,1,1,4331;106,3,1,1925;106,2,1,2887;275,5,1,855",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Gants de culture,2,recipe-icon-175,175,3,"209,2;76,10;214,2;78,10", Recette de gants agricoles de niveau 3 ,"109,2,1,2887;109,1,1,4331;109,3,1,1925;274,5,1,855",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 3 Chaussures de culture,2,recipe-icon-176,176,3,"209,2;77,10;214,2;78,10", Recette de chaussures agricoles de niveau 3 ,"112,1,1,4331;112,3,1,1925;112,2,1,2887;276,5,1,855",0,2,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Chaussures de récolte,2,recipe-icon-177,177,1,"216,2;62,10;58,10", Recette de chaussures de collecte de niveau 1 ,"113,1,1,8350;271,5,1,1649",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 1 Veste de récolte,2,recipe-icon-178,178,1,"216,2;62,10;66,10", Recette de veste de collecte de niveau 1 ,"119,1,1,8350;268,5,1,1649",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 1 Pantalon de récolte,2,recipe-icon-179,179,1,"216,2;58,10;66,10", Recette de pantalon de collecte de niveau 1 ,"122,1,1,8350;270,5,1,1649",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 1 Gants de récolte,2,recipe-icon-180,180,1,"216,2;58,10;66,10", Recette de gants de collecte de niveau 1 ,"125,1,1,8350;269,5,1,1649",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Chaussures de récolte,2,recipe-icon-181,181,2,"217,2;207,2;63,10;67,10", Recette de chaussures de collecte de niveau 2 ,"114,1,1,5364;114,2,1,3576;266,5,1,1059",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Haut de récolte,2,recipe-icon-182,182,2,"217,2;207,2;63,10;59,10", Recette de veste de collecte de niveau 2 ,"120,1,1,5364;120,2,1,3576;263,5,1,1059",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Pantalon de récolte,2,recipe-icon-183,183,2,"217,2;207,2;59,10;67,10", Recette de pantalon de collecte de niveau 2 ,"123,1,1,5364;123,2,1,3576;265,5,1,1059",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Gants de récolte,2,recipe-icon-184,184,2,"217,2;207,2;59,10;67,10", Recette de gants de collecte de niveau 2 ,"126,1,1,5364;126,2,1,3576;264,5,1,1059",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Chaussures de récolte,2,recipe-icon-185,185,3,"218,2;208,2;64,10;60,10", Recette de chaussures de collecte de niveau 3 ,"115,1,1,4331;115,3,1,1925;115,2,1,2887;276,5,1,855",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Haut de récolte,2,recipe-icon-186,186,3,"218,2;208,2;60,10;68,10", Recette de veste de collecte de niveau 3 ,"121,1,1,4331;121,3,1,1925;121,2,1,2887;273,5,1,855",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Pantalon de récolte,2,recipe-icon-187,187,3,"218,2;208,2;64,10;68,10", Recette de pantalon de collecte de niveau 3 ,"124,1,1,4331;124,3,1,1925;124,2,1,2887;275,5,1,855",0,2,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Gants de récolte,2,recipe-icon-188,188,3,"218,2;208,2;64,10;68,10", Recette de gants de collecte de niveau 3 ,"127,1,1,4331;127,2,1,2887;127,3,1,1925;274,5,1,855",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Bague à tête de puce,2,recipe-icon-133,133,1,"210,1;213,1", Recette de bague à tête de puce de niveau 1 ,"43,1,1,8350;267,5,1,1649",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 2 Bonnet doux en peau de cristal,2,recipe-icon-134,134,2,"207,2;211,1;214,1", Recette de casquette en peau de cristal de niveau 2 ,"44,1,1,5364;44,2,1,3576;262,5,1,1059",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Casque en cristal,2,recipe-icon-135,135,3,"208,2;212,1;215,1", Recette de casque en cristal de niveau 3 ,"45,1,1,4331;45,2,1,2887;45,3,1,1925;272,5,1,855",0,1,1,10,2,0,4,0,5
+0,Artisanat Lv 2 Veste en peau de cristal,2,recipe-icon-137,137,2,"207,2;211,1;214,1", Recette de veste en cuir cristal de niveau 2 ,"47,1,1,5364;47,2,1,3576;263,5,1,1059",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 1 Armure en vigne de cristal,2,recipe-icon-136,136,1,"210,1;213,1", Recette d'armure en vigne de cristal de niveau 1 ,"46,1,1,8350;268,5,1,1649",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Armure en cristal,2,recipe-icon-138,138,3,"208,2;212,1;215,1", Recette d'armure en cristal de niveau 3 ,"48,1,1,4331;48,2,1,2887;48,3,1,1925;273,5,1,855",0,1,1,10,2,0,4,0,5
+0,Artisanat Lv 1 Jupe en herbe de cristal fissurée,2,recipe-icon-139,139,1,"210,1;213,1", Recette de jupe en herbe de cristal ,"49,1,1,8350;270,5,1,1649",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 2 Pantalon en peau de cristal,2,recipe-icon-140,140,2,"207,2;211,1;214,1", Recette de pantalon en cuir cristal de niveau 2 ,"50,1,1,5364;50,2,1,3576;265,5,1,1059",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Armure de jambe en cristal,2,recipe-icon-141,141,3,"208,2;212,1;215,1", Recette de protège-jambes en cristal de niveau 3 ,"51,1,1,4331;51,2,1,2887;51,3,1,1925;274,5,1,855",0,1,1,10,2,0,4,0,5
+0,Artisanat Lv 1 Chaussures en herbe de cristal,2,recipe-icon-142,142,1,"210,1;213,1", Recette de sandales en herbe de cristal fissuré de niveau 1 ,"55,1,1,8350;271,5,1,1649",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 2 Bottes en peau de cristal,2,recipe-icon-143,143,2,"207,2;211,1;214,1", Recette de bottes en cuir cristal de niveau 2 ,"56,1,1,5364;56,2,1,3576;266,5,1,1059",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Chaussures en pierre de cristal,2,recipe-icon-144,144,3,"208,2;212,1;215,1", Recette de chaussures en cristal de niveau 3 ,"57,1,1,4331;57,2,1,2887;57,3,1,1925;275,5,1,855",0,1,1,10,2,0,4,0,5
+0,Artisanat Lv 1 Bracelet en cristal,2,recipe-icon-145,145,1,"210,1;213,1", Recette de bracelet en cristal fissuré de niveau 1 ,"52,1,1,8350;269,5,1,1649",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 2 Gants en peau de cristal,2,recipe-icon-146,146,2,"207,2;211,1;214,1", Recette de gants en cuir cristal de niveau 2 ,"53,1,1,5364;53,2,1,3576;264,5,1,1059",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Gantelets en cristal,2,recipe-icon-147,147,3,"208,2;212,1;215,1", Recette de gantelets en cristal de niveau 3 ,"54,1,1,4331;54,2,1,2887;54,3,1,1925;276,5,1,855",0,1,1,10,2,0,4,0,5
+0,Artisanat Lv 1 Essence de combat,2,recipe-icon-149,149,1,"30,5;31,5;32,5", Recette d'essence de combat de niveau 1 ,"216,1,1,10000",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 2 Essence de combat,2,recipe-icon-150,150,2,"33,5;35,5;34,5;216,2", Recette d'essence de combat de niveau 2 ,"217,1,1,10000",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 3 Essence de combat,2,recipe-icon-151,151,3,"36,5;37,5;38,5;216,2", Recette d'essence de combat de niveau 3 ,"218,1,1,10000",0,1,1,10,2,0,4,0,0
+0,Artisanat Lv 1 Essence de culture,2,recipe-icon-152,152,1,"70,5;71,5;72,5", Recette d'essence de plantation agricole de niveau 1 ,"210,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Essence de culture,2,recipe-icon-153,153,2,"74,5;73,5;75,5;210,2", Recette d'essence de plantation agricole de niveau 2 ,"211,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Essence de culture,2,recipe-icon-154,154,3,"76,5;77,5;78,5;210,2", Recette d'essence de plantation agricole de niveau 3 ,"212,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 1 Essence d'élevage agricole,2,recipe-icon-155,155,1,"178,5;179,5;177,5", Recette d'essence d'élevage agricole de niveau 1 ,"213,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Essence d'élevage agricole,2,recipe-icon-156,156,2,"182,5;180,5;181,5;213,2", Recette d'essence d'élevage agricole de niveau 2 ,"214,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Essence d'élevage agricole,2,recipe-icon-157,157,3,"184,5;185,5;183,5;213,2", Recette d'essence d'élevage agricole de niveau 3 ,"215,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Artisanat Lv 1 Essence de récolte,2,recipe-icon-158,158,1,"62,5;58,5;66,5", Recette d'essence de collecte de niveau 1 ,"207,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Essence de récolte,2,recipe-icon-159,159,2,"63,5;67,5;59,5;207,2", Recette d'essence de collecte de niveau 2 ,"208,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 3 Essence de récolte,2,recipe-icon-160,160,3,"64,5;60,5;68,5;208,2", Recette d'essence de collecte de niveau 3 ,"209,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Veste de culture,2,recipe-icon-165,165,1,"207,2", Recette de veste agricole de niveau 1 ,"101,1,1,8350;268,5,1,1649",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 1 Pantalon de culture,2,recipe-icon-166,166,1,"207,2", Recette de pantalon agricole de niveau 1 ,"104,1,1,8350;270,5,1,1649",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 1 Gants de culture,2,recipe-icon-167,167,1,"207,2", Recette de gants agricoles de niveau 1 ,"107,1,1,8350;269,5,1,1649",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 1 Chaussures de culture,2,recipe-icon-168,168,1,"207,2", Recette de chaussures agricoles de niveau 1 ,"110,1,1,8350;271,5,1,1649",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Veste de culture,2,recipe-icon-169,169,2,"216,2;208,2", Recette de veste agricole de niveau 1 ,"102,1,1,5364;102,2,1,3576;263,5,1,1059",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Pantalon de culture,2,recipe-icon-170,170,2,"216,2;208,2", Recette de pantalon agricole de niveau 2 ,"105,1,1,5364;105,2,1,3576;265,5,1,1059",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Gants de culture,2,recipe-icon-171,171,2,"216,2;208,2", Recette de gants agricoles de niveau 2 ,"108,1,1,5364;108,2,1,3576;264,5,1,1059",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 2 Chaussures de culture,2,recipe-icon-172,172,2,"216,2;208,2", Recette de chaussures agricoles de niveau 2 ,"111,1,1,5364;111,2,1,3576;266,5,1,1059",0,2,1,10,1,0,4,0,0
+0,Artisanat Lv 3 Veste de culture,2,recipe-icon-173,173,3,"217,2;209,2", Recette de veste agricole de niveau 3 ,"103,1,1,4331;103,2,1,2887;103,3,1,1925;273,5,1,855",0,2,1,10,1,0,4,0,5
+0,Artisanat Lv 3 Pantalon de culture,2,recipe-icon-174,174,3,"217,2;209,2", Recette de pantalon agricole de niveau 3 ,"106,1,1,4331;106,3,1,1925;106,2,1,2887;275,5,1,855",0,2,1,10,1,0,4,0,5
+0,Artisanat Lv 3 Gants de culture,2,recipe-icon-175,175,3,"217,2;209,2", Recette de gants agricoles de niveau 3 ,"109,2,1,2887;109,1,1,4331;109,3,1,1925;274,5,1,855",0,2,1,10,1,0,4,0,5
+0,Artisanat Lv 3 Chaussures de culture,2,recipe-icon-176,176,3,"217,2;209,2", Recette de chaussures agricoles de niveau 3 ,"112,1,1,4331;112,3,1,1925;112,2,1,2887;276,5,1,855",0,2,1,10,1,0,4,0,5
+0,Artisanat Lv 1 Chaussures de récolte,2,recipe-icon-177,177,1,"216,2", Recette de chaussures de collecte de niveau 1 ,"113,1,1,8350;271,5,1,1649",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Veste de récolte,2,recipe-icon-178,178,1,"216,2", Recette de veste de collecte de niveau 1 ,"119,1,1,8350;268,5,1,1649",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Pantalon de récolte,2,recipe-icon-179,179,1,"216,2", Recette de pantalon de collecte de niveau 1 ,"122,1,1,8350;270,5,1,1649",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 1 Gants de récolte,2,recipe-icon-180,180,1,"216,2", Recette de gants de collecte de niveau 1 ,"125,1,1,8350;269,5,1,1649",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Chaussures de récolte,2,recipe-icon-181,181,2,"210,1;213,1;217,2", Recette de chaussures de collecte de niveau 2 ,"114,1,1,5364;114,2,1,3576;266,5,1,1059",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Haut de récolte,2,recipe-icon-182,182,2,"210,1;213,1;217,2", Recette de veste de collecte de niveau 2 ,"120,1,1,5364;120,2,1,3576;263,5,1,1059",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Pantalon de récolte,2,recipe-icon-183,183,2,"210,1;213,1;217,2", Recette de pantalon de collecte de niveau 2 ,"123,1,1,5364;123,2,1,3576;265,5,1,1059",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Gants de récolte,2,recipe-icon-184,184,2,"210,1;213,1;217,2", Recette de gants de collecte de niveau 2 ,"126,1,1,5364;126,2,1,3576;264,5,1,1059",0,2,1,10,3,0,4,0,0
+0,Artisanat Lv 3 Chaussures de récolte,2,recipe-icon-185,185,3,"211,1;214,1;218,2", Recette de chaussures de collecte de niveau 3 ,"115,1,1,4331;115,3,1,1925;115,2,1,2887;276,5,1,855",0,2,1,10,3,0,4,0,5
+0,Artisanat Lv 3 Haut de récolte,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Recette de veste de collecte de niveau 3 ,"121,1,1,4331;121,3,1,1925;121,2,1,2887;273,5,1,855",0,2,1,10,3,0,4,0,5
+0,Artisanat Lv 3 Pantalon de récolte,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Recette de pantalon de collecte de niveau 3 ,"124,1,1,4331;124,3,1,1925;124,2,1,2887;275,5,1,855",0,2,1,10,3,0,4,0,5
+0,Artisanat Lv 3 Gants de récolte,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Recette de gants de collecte de niveau 3 ,"127,1,1,4331;127,2,1,2887;127,3,1,1925;274,5,1,855",0,2,1,10,3,0,4,0,5
 0,Artisanat Lv 0 Épée en bois,2,recipe-icon-189,189,0,"62,10;32,10", Recette d'épée en bois de niveau 0 ,"39,1,1,10000",0,1,1,3,2,1,1,0,0
 0,Artisanat Lv 0 Houe en bois,2,recipe-icon-190,190,0,"62,10;66,10", Recette de houe en bois de niveau 0 ,"79,1,1,10000",0,1,1,3,1,1,1,0,0
 0,Artisanat Lv 0 Brosse,2,recipe-icon-191,191,0,"62,10;66,10", Recette de brosse de niveau 0 ,"95,1,1,10000",0,1,1,3,1,1,1,0,0
@@ -102,13 +102,13 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Artisanat Lv 0 Meilleur engrais accéléré,2,recipe-icon-197,197,2,"69,2;35,5", Recette d'engrais accéléré amélioré de niveau 0 ,"219,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Meilleur engrais stimulant le rendement,2,recipe-icon-198,198,2,"61,2;35,5", Recette d'engrais augmentant le rendement amélioré de niveau 0 ,"220,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Meilleur engrais hydratant,2,recipe-icon-199,199,2,"65,2;35,5", Recette d'engrais hydratant amélioré de niveau 0 ,"221,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Artisanat Lv 1 Faucille en pierre,2,recipe-icon-201,201,1,"216,2;62,10;58,10", Recette de faucille en pierre de niveau 1 ,"225,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 2 Faucille en cuivre,2,recipe-icon-203,203,2,"217,2;207,2;63,10;59,10", Recette de faucille en cuivre de niveau 2 ,"226,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 3 Faucille en fer,2,recipe-icon-204,204,3,"218,2;208,2;60,10;68,10", Recette de faucille en fer de niveau 3 ,"227,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Artisanat Lv 0 Petite nourriture,2,recipe-icon-205,205,0,"66,10;62,10", Recette d'alimentation pour animaux de compagnie de petite taille de niveau 0 ,"28,1,1,10000",0,1,0,10,1,1,1,0,0
+0,Artisanat Lv 1 Faucille en pierre,2,recipe-icon-201,201,1,"62,10;58,10", Recette de faucille en pierre de niveau 1 ,"225,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 2 Faucille en cuivre,2,recipe-icon-203,203,2,"216,2", Recette de faucille en cuivre de niveau 2 ,"226,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Artisanat Lv 3 Faucille en fer,2,recipe-icon-204,204,3,"210,1;213,1;217,2", Recette de faucille en fer de niveau 3 ,"227,1,1,10000",0,1,1,10,3,0,4,0,5
+0,Artisanat Lv 0 Petite nourriture,2,recipe-icon-205,205,0,"62,10;66,10", Recette d'alimentation pour animaux de compagnie de petite taille de niveau 0 ,"28,1,1,10000",0,1,0,10,1,1,1,0,0
 0,Fabrication Lv 0 Grande nourriture,2,recipe-icon-206,206,1,"66,40;62,20", Recette d'alimentation pour animaux de compagnie de grande taille de niveau 0 ,"29,1,1,10000",0,1,0,10,1,0,4,0,0
 0,Artisanat Lv 0 Arc en bois,2,recipe-icon-207,207,0,"62,20;66,10", Recette d'arc en bois de niveau 0 ,"223,1,1,10000",0,1,1,10,2,1,1,0,0
-0,Artisanat Lv 0 Marteau en pierre,2,recipe-icon-208,208,0,"58,20;62,20", Recette de marteau en pierre de niveau 0 ,"222,1,1,10000",0,1,1,10,2,1,1,0,0
+0,Artisanat Lv 0 Marteau en pierre,2,recipe-icon-208,208,0,"62,20;58,20", Recette de marteau en pierre de niveau 0 ,"222,1,1,10000",0,1,1,10,2,1,1,0,0
 0,Vide,2,recipe-icon-212,212,0,"62,3", Recette de bombe de niveau 0 ,"232,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Vide,2,recipe-icon-213,213,0,"58,3", Recette de potion de paralysie de niveau 0 ,"233,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Vide,2,recipe-icon-214,214,0,"66,3", Recette de potion visqueuse de niveau 0 ,"234,1,1,10000",0,1,1,10,3,0,4,0,0
@@ -118,100 +118,100 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Vide,2,recipe-icon-218,218,0,"30,3;72,3", Recette de potion de purification de niveau 0.,"238,1,1,10000",0,1,1,10,3,1,1,0,0
 0,Recette de potion de restauration d'énergie - Petite,2,recipe-icon-267,267,0,"66,20;62,5",Receta de Poción de Restauración de Energía - Pequeña,"295,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Recette de potion de restauration d'énergie - Moyenne,2,recipe-icon-268,268,1,"67,10;63,5",Receta de Poción de Restauración de Energía - Mediana,"296,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Recette de potion de restauration d'énergie - Grande,2,recipe-icon-269,269,2,"68,10;64,5",Receta de Poción de Restauración de Energía - Grande,"297,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Recette d'épée en or,2,recipe-icon-270,270,4,"404,2;401,2;365,10;366,10;367,10",Receta de Espada Dorada,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Recette de chapeau de combattant en or,2,recipe-icon-271,271,4,"407,2;401,2;365,10",Receta de Sombrero de Luchador Dorado,"335,1,1,3838;335,2,1,2559;335,3,1,1706;335,4,1,1137;241,5,1,758",0,2,1,30,2,0,4,0,10
-0,Recette de manteau de combattant en or,2,recipe-icon-272,272,4,"410,2;401,2;366,10",Receta de Abrigo de Luchador Dorado,"336,1,1,3838;336,2,1,2559;336,3,1,1706;336,4,1,1137;242,5,1,758",0,2,1,30,2,0,4,0,10
-0,Recette de gants de combattant en or,2,recipe-icon-273,273,4,"404,2;401,2;367,10",Receta de Guantes de Luchador Dorado,"337,1,1,3838;337,2,1,2559;337,3,1,1706;337,4,1,1137;243,5,1,758",0,2,1,30,2,0,4,0,10
-0,Recette de pantalon de combattant en or,2,recipe-icon-274,274,4,"407,2;401,2;365,10",Receta de Pantalones de Luchador Dorado,"338,1,1,3838;338,2,1,2559;338,3,1,1706;338,4,1,1137;244,5,1,758",0,2,1,30,2,0,4,0,10
-0,Recette de chaussures de combattant en or,2,recipe-icon-275,275,4,"410,2;401,2;366,10",Receta de Zapatos de Luchador Dorado,"339,1,1,3838;339,2,1,2559;339,3,1,1706;339,4,1,1137;245,5,1,758",0,2,1,30,2,0,4,0,10
-0,Recette de faucille en or,2,recipe-icon-276,276,4,"407,2;404,2;374,10",Receta de Guadaña Dorada,"229,1,1,2934;303,1,1,2934;303,2,1,1956;303,3,1,1304;303,4,1,869",0,3,1,30,3,0,4,0,15
-0,Recette de hache en or,2,recipe-icon-277,277,4,"410,2;404,2;375,10",Receta de Hacha Dorada,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,3,1,30,3,0,4,0,10
-0,Recette de chapeau de collecte en or,2,recipe-icon-279,279,4,"407,2;404,2;374,10",Receta de Sombrero de Recolector Dorado,"320,1,1,3838;320,2,1,2559;320,3,1,1706;320,4,1,1137;241,5,1,758",0,2,1,30,3,0,4,0,10
-0,Recette de pioche en or,2,recipe-icon-278,278,4,"401,2;404,2;376,10",Receta de Pico Dorado,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,3,1,30,3,0,4,0,10
-0,Recette de manteau de collecte en or,2,recipe-icon-280,280,4,"410,2;404,2;375,10",Receta de Abrigo de Recolector Dorado,"321,1,1,3838;321,2,1,2559;321,3,1,1706;321,4,1,1137;242,5,1,758",0,2,1,30,3,0,4,0,10
-0,Recette de gants de collecte en or,2,recipe-icon-281,281,4,"401,2;404,2;376,10",Receta de Guantes de Recolector Dorado,"322,1,1,3838;322,2,1,2559;322,3,1,1706;322,4,1,1137;243,5,1,758",0,2,1,30,3,0,4,0,10
-0,Recette de houe en or,2,recipe-icon-282,282,4,"401,2;407,2;410,2",Receta de Azada Dorada,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,3,1,30,1,0,4,0,10
-0,Recette de chapeau de fermier en or,2,recipe-icon-284,284,4,"401,2;407,2;410,2",Receta de Sombrero de Granjero Dorado,"350,1,1,3838;350,2,1,2559;350,3,1,1706;350,4,1,1137;241,5,1,758",0,2,1,30,1,0,4,0,10
-0,Recette de manteau de fermier en or,2,recipe-icon-285,285,4,"404,2;407,2;410,2",Receta de Abrigo de Granjero Dorado,"351,1,1,3838;351,2,1,2559;351,3,1,1706;351,4,1,1137;243,5,1,758",0,2,1,30,1,0,4,0,10
-0,Recette de gants de fermier en or,2,recipe-icon-286,286,4,"401,2;407,2;410,2",Receta de Guantes de Granjero Dorado,"352,1,1,3838;352,2,1,2559;352,3,1,1706;352,4,1,1137;242,5,1,758",0,2,1,30,1,0,4,0,10
-0,Recette de pantalon de fermier en or,2,recipe-icon-287,287,4,"404,2;407,2;410,2",Receta de Pantalones de Granjero Dorado,"353,1,1,3838;353,2,1,2559;353,3,1,1706;353,4,1,1137;244,5,1,758",0,2,1,30,1,0,4,0,10
-0,Recette de pantalon de collecte en or,2,recipe-icon-288,288,4,"407,2;404,2;375,10",Receta de Pantalones de Recolector Dorado,"323,1,1,3838;323,2,1,2559;323,3,1,1706;323,4,1,1137;244,5,1,758",0,2,1,30,3,0,4,0,10
-0,Recette de chaussures de collecte en or,2,recipe-icon-289,289,4,"410,2;404,2;376,10",Receta de Zapatos de Recolector Dorado,"324,1,1,3838;324,2,1,2559;324,3,1,1706;324,4,1,1137;245,5,1,758",0,2,1,30,3,0,4,0,10
-0,Recette de chaussures de fermier en or,2,recipe-icon-291,291,4,"401,2;407,2;410,2",Receta de Zapatos de Granjero Dorado,"354,1,1,3838;354,2,1,2559;354,3,1,1706;354,4,1,1137;245,5,1,758",0,2,1,30,1,0,4,0,10
-0,Recette d'épée en diamant,2,recipe-icon-292,292,5,"405,2;402,2;368,10;369,10;370,10",Receta de Espada de Diamante,"318,1,1,3838;318,2,1,2559;318,3,1,1706;318,4,1,1137;318,5,1,758",0,3,1,90,2,0,4,0,15
-0,Recette de chapeau de combattant en diamant,2,recipe-icon-293,293,5,"408,2;402,2;368,10",Receta de Sombrero de Luchador de Diamante,"340,1,1,3568;340,2,1,2378;340,3,1,1585;340,4,1,1057;340,5,1,704;277,5,1,704",0,2,1,90,2,0,4,0,15
-0,Recette de manteau de combattant en diamant,2,recipe-icon-294,294,5,"411,2;402,2;369,10",Receta de Abrigo de Luchador de Diamante,"341,1,1,3568;341,2,1,2378;341,3,1,1585;341,4,1,1057;341,5,1,704;278,5,1,704",0,2,1,90,2,0,4,0,15
-0,Recette de gants de combattant en diamant,2,recipe-icon-295,295,5,"405,2;402,2;370,10",Receta de Guantes de Luchador de Diamante,"342,1,1,3568;342,2,1,2378;342,3,1,1585;342,4,1,1057;342,5,1,704;279,5,1,704",0,2,1,90,2,0,4,0,15
-0,Recette de pantalon de combattant en diamant,2,recipe-icon-296,296,5,"408,2;402,2;368,10",Receta de Pantalones de Luchador de Diamante,"343,1,1,3568;343,2,1,2378;343,3,1,1585;343,4,1,1057;343,5,1,704;280,5,1,704",0,2,1,90,2,0,4,0,15
-0,Recette de chaussures de combattant en diamant,2,recipe-icon-297,297,5,"411,2;402,2;369,10",Receta de Zapatos de Luchador de Diamante,"344,1,1,3568;344,2,1,2378;344,3,1,1585;344,4,1,1057;344,5,1,704;281,5,1,704",0,2,1,90,2,0,4,0,15
-0,Recette de faucille en diamant,2,recipe-icon-298,298,5,"408,2;405,2;377,10",Receta de Guadaña de Diamante,"309,1,1,3838;309,2,1,2559;309,3,1,1706;309,4,1,1137;309,5,1,758",0,3,1,90,3,0,4,0,15
-0,Recette de hache en diamant,2,recipe-icon-299,299,5,"411,2;405,2;378,10",Receta de Hacha de Diamante,"306,1,1,3838;306,2,1,2559;306,3,1,1706;306,4,1,1137;306,5,1,758",0,3,1,90,3,0,4,0,15
-0,Recette de pioche en diamant,2,recipe-icon-300,300,5,"402,2;405,2;379,10",Receta de Pico de Diamante,"307,1,1,3838;307,2,1,2559;307,3,1,1706;307,4,1,1137;307,5,1,758",0,3,1,90,3,0,4,0,15
-0,Recette de chapeau de collecte en diamant,2,recipe-icon-301,301,5,"408,2;405,2;377,10",Receta de Sombrero de Recolector de Diamante,"325,1,1,3568;325,2,1,2378;325,3,1,1585;325,4,1,1057;325,5,1,704;277,5,1,704",0,2,1,90,3,0,4,0,15
-0,Recette de manteau de collecte en diamant,2,recipe-icon-302,302,5,"411,2;405,2;378,10",Receta de Abrigo de Recolector de Diamante,"326,1,1,3568;326,2,1,2378;326,3,1,1585;326,4,1,1057;326,5,1,704;278,5,1,704",0,2,1,90,3,0,4,0,15
-0,Recette de gants de collecte en diamant,2,recipe-icon-303,303,5,"402,2;405,2;379,10",Receta de Guantes de Recolector de Diamante,"327,1,1,3568;327,2,1,2378;327,3,1,1585;327,4,1,1057;327,5,1,704;279,5,1,704",0,2,1,90,3,0,4,0,15
-0,Recette de pantalon de collecte en diamant,2,recipe-icon-304,304,5,"408,2;405,2;378,10",Receta de Pantalones de Recolector de Diamante,"328,1,1,3568;328,2,1,2378;328,3,1,1585;328,4,1,1057;328,5,1,704;280,5,1,704",0,2,1,90,3,0,4,0,15
-0,Recette de chaussures de collecte en diamant,2,recipe-icon-305,305,5,"411,2;405,2;379,10",Receta de Zapatos de Recolector de Diamante,"329,1,1,3568;329,2,1,2378;329,3,1,1585;329,4,1,1057;329,5,1,704;281,5,1,704",0,2,1,90,3,0,4,0,15
-0,Recette de houe en diamant,2,recipe-icon-306,306,5,"402,2;411,2;408,2",Receta de Azada de Diamante,"305,1,1,3838;305,2,1,2559;305,3,1,1706;305,4,1,1137;305,5,1,758",0,3,1,90,1,0,4,0,15
-0,Recette de chapeau de fermier en diamant,2,recipe-icon-308,308,5,"402,2;411,2;408,2",Receta de Sombrero de Granjero de Diamante,"355,1,1,3568;355,2,1,2378;355,3,1,1585;355,4,1,1057;355,5,1,704;277,5,1,704",0,2,1,90,1,0,4,0,15
-0,Recette de manteau de fermier en diamant,2,recipe-icon-309,309,5,"405,2;411,2;408,2",Receta de Abrigo de Granjero de Diamante,"356,1,1,3568;356,2,1,2378;356,3,1,1585;356,4,1,1057;356,5,1,704;279,5,1,704",0,2,1,90,1,0,4,0,15
-0,Recette de gants de fermier en diamant,2,recipe-icon-310,310,5,"402,2;411,2;408,2",Receta de Guantes de Granjero de Diamante,"357,1,1,3568;357,2,1,2378;357,3,1,1585;357,4,1,1057;357,5,1,704;278,5,1,704",0,2,1,90,1,0,4,0,15
-0,Vide,2,recipe-icon-311,311,5,"405,2;411,2;408,2",Receta de Pantalones de Granjero de Diamante,"358,1,1,3568;358,2,1,2378;358,3,1,1585;358,4,1,1057;358,5,1,704;280,5,1,704",0,2,1,90,1,0,4,0,15
-0,Vide,2,recipe-icon-312,312,5,"402,2;411,2;408,2",Receta de Zapatos de Granjero de Diamante,"359,1,1,3568;359,2,1,2378;359,3,1,1585;359,4,1,1057;359,5,1,704;281,5,1,704",0,2,1,90,1,0,4,0,15
-0,Vide,2,recipe-icon-313,313,6,"406,2;403,2;371,10;372,10;373,10",Receta de Espada Estelar,"319,1,1,3838;319,2,1,2559;319,3,1,1706;319,4,1,1137;319,5,1,758",0,3,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-314,314,6,"409,2;403,2;371,10",Receta de Sombrero de Luchador Estelar,"345,1,1,3568;345,2,1,2378;345,3,1,1585;345,4,1,1057;345,5,1,704;471,5,1,704",0,2,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-315,315,6,"412,2;403,2;372,10",Receta de Abrigo de Luchador Estelar,"346,1,1,3568;346,2,1,2378;346,3,1,1585;346,4,1,1057;346,5,1,704;472,5,1,704",0,2,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-316,316,6,"406,2;403,2;373,10",Receta de Guantes de Luchador Estelar,"347,1,1,3568;347,2,1,2378;347,3,1,1585;347,4,1,1057;347,5,1,704;473,5,1,704",0,2,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-317,317,6,"409,2;403,2;371,10",Receta de Pantalones de Luchador Estelar,"348,1,1,3568;348,2,1,2378;348,3,1,1585;348,4,1,1057;348,5,1,704;474,5,1,704",0,2,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-318,318,6,"412,2;403,2;372,10", Receta de zapatos de luchador estelar,"349,1,1,3568;349,2,1,2378;349,3,1,1585;349,4,1,1057;349,5,1,704;475,5,1,704",0,2,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-319,319,6,"409,2;406,2;380,10", Receta de hoz estelar,"315,1,1,3838;315,2,1,2559;315,3,1,1706;315,4,1,1137;315,5,1,758",0,3,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-320,320,6,"412,2;406,2;381,10", Receta de hacha estelar,"312,1,1,3838;312,2,1,2559;312,3,1,1706;312,4,1,1137;312,5,1,758",0,3,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-321,321,6,"403,2;406,2;382,10", Receta de pico estelar,"313,1,1,3838;313,2,1,2559;313,3,1,1706;313,4,1,1137;313,5,1,758",0,3,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-323,323,6,"412,2;406,2;381,10", Receta de abrigo de recolección estelar,"331,1,1,3568;331,2,1,2378;331,3,1,1585;331,4,1,1057;331,5,1,704;472,5,1,704",0,2,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-322,322,6,"409,2;406,2;380,10", Receta de sombrero de recolección estelar,"330,1,1,3568;330,2,1,2378;330,3,1,1585;330,4,1,1057;330,5,1,704;471,5,1,704",0,2,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-324,324,6,"403,2;406,2;382,10", Receta de guantes de recolección estelar,"332,1,1,3568;332,2,1,2378;332,3,1,1585;332,4,1,1057;332,5,1,704;473,5,1,704",0,2,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-325,325,6,"409,2;406,2;381,10", Receta de pantalones de recolección estelar,"333,1,1,3568;333,2,1,2378;333,3,1,1585;333,4,1,1057;333,5,1,704;474,5,1,704",0,2,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-327,327,6,"403,2;409,2;412,2", Receta de azada estelar,"311,1,1,3838;311,2,1,2559;311,3,1,1706;311,4,1,1137;311,5,1,758",0,3,1,270,1,0,4,0,20
-0,Vide,2,recipe-icon-326,326,6,"412,2;406,2;382,10", Receta de zapatos de recolección estelar,"334,1,1,3568;334,2,1,2378;334,3,1,1585;334,4,1,1057;334,5,1,704;475,5,1,704",0,2,1,270,3,0,4,0,20
-0,Vide,2,recipe-icon-330,330,6,"406,2;409,2;412,2", Receta de abrigo de granjero estelar,"361,1,1,3568;361,2,1,2378;361,3,1,1585;361,4,1,1057;361,5,1,704;473,5,1,704",0,2,1,270,1,0,4,0,20
-0,Vide,2,recipe-icon-329,329,6,"403,2;409,2;412,2", Receta de sombrero de granjero estelar,"360,1,1,3568;360,2,1,2378;360,3,1,1585;360,4,1,1057;360,5,1,704;471,5,1,704",0,2,1,270,1,0,4,0,20
-0,Vide,2,recipe-icon-331,331,6,"403,2;409,2;412,2", Receta de guantes de granjero estelar,"362,1,1,3568;362,2,1,2378;362,3,1,1585;362,4,1,1057;362,5,1,704;472,5,1,704",0,2,1,270,1,0,4,0,20
-0,Vide,2,recipe-icon-332,332,6,"406,2;409,2;412,2", Receta de pantalones de granjero estelar,"363,1,1,3568;363,2,1,2378;363,3,1,1585;363,4,1,1057;363,5,1,704;474,5,1,704",0,2,1,270,1,0,4,0,20
-0,Vide,2,recipe-icon-333,333,6,"403,2;409,2;412,2", Receta de zapatos de granjero estelar,"364,1,1,3568;364,2,1,2378;364,3,1,1585;364,4,1,1057;364,5,1,704;475,5,1,704",0,2,1,270,1,0,4,0,20
-0,Vide,2,recipe-icon-334,334,4,"383,10;384,10;385,10;212,2", Receta de esencia de plantación agrícola de nivel 4,"407,1,1,10000",0,1,1,30,1,0,4,0,0
-0,Vide,2,recipe-icon-335,335,5,"386,10;387,10;388,10;407,2", Receta de esencia de plantación agrícola de nivel 5,"408,1,1,10000",0,1,1,90,1,0,4,0,0
-0,Vide,2,recipe-icon-336,336,6,"389,10;390,10;391,10;408,2", Receta de esencia de plantación agrícola de nivel 6,"409,1,1,10000",0,1,1,270,1,0,4,0,0
-0,Vide,2,recipe-icon-337,337,4,"392,10;393,10;394,10;215,2", Receta de esencia de ganadería agrícola de nivel 4,"410,1,1,10000",0,1,1,30,1,0,4,0,0
-0,Vide,2,recipe-icon-338,338,5,"395,10;396,10;397,10;410,2", Receta de esencia de ganadería agrícola de nivel 5,"411,1,1,10000",0,1,1,90,1,0,4,0,0
-0,Vide,2,recipe-icon-339,339,6,"398,10;399,10;400,10;411,2", Receta de esencia de ganadería agrícola de nivel 6,"412,1,1,10000",0,1,1,270,1,0,4,0,0
-0,Vide,2,recipe-icon-340,340,4,"365,10;366,10;367,10;218,2", Receta de esencia de combate de nivel 4,"401,1,1,10000",0,1,1,30,2,0,4,0,0
-0,Vide,2,recipe-icon-341,341,5,"368,10;370,10;369,10;401,2", Receta de esencia de combate de nivel 5,"402,1,1,10000",0,1,1,90,2,0,4,0,0
-0,Vide,2,recipe-icon-342,342,6,"371,10;372,10;373,10;402,2", Receta de esencia de combate de nivel 6,"403,1,1,10000",0,1,1,270,2,0,4,0,0
-0,Vide,2,recipe-icon-343,343,4,"374,10;375,10;376,10;209,2", Receta de esencia de recolección de nivel 4,"404,1,1,10000",0,1,1,30,3,0,4,0,0
-0,Vide,2,recipe-icon-345,345,6,"380,10;381,10;382,10;405,2", Receta de esencia de recolección de nivel 6,"406,1,1,10000",0,1,1,270,3,0,4,0,0
-0,Vide,2,recipe-icon-344,344,5,"377,10;378,10;379,10;404,2", Receta de esencia de recolección de nivel 5,"405,1,1,10000",0,1,1,90,3,0,4,0,0
-0,Vide,2,recipe-icon-347,347,5,"377,10;378,10;379,10", Recetas de poción de nivel 5,"429,1,1,1666;430,1,1,1666;431,1,1,1666;432,1,1,1666;433,1,1,1666;434,1,1,1666",0,1,1,90,3,0,4,0,0
-0,Vide,2,recipe-icon-346,346,4,"374,10;375,10;376,10", Recetas de poción de nivel 4,"422,1,1,1666;423,1,1,1666;424,1,1,1666;425,1,1,1666;426,1,1,1666;427,1,1,1666",0,1,1,30,3,0,4,0,0
-0,Vide,2,recipe-icon-348,348,6,"380,10;381,10;382,10", Recetas de poción de nivel 6,"435,1,1,1666;436,1,1,1666;437,1,1,1666;438,1,1,1666;439,1,1,1666;440,1,1,1666",0,1,1,270,3,0,4,0,0
-0,Vide,2,recipe-icon-364,364,1,"210,2;31,10;30,10",Recette de marteau en cuivre de niveau 1,"441,1,1,10000",0,3,1,10,2,0,4,0,0
-0,Vide,2,recipe-icon-365,365,2,"211,2;216,2;33,10;34,10",Recette de marteau en fer de niveau 2,"442,1,1,6000;442,2,1,4000",0,3,1,10,2,0,4,0,0
-0,Vide,2,recipe-icon-367,367,4,"404,2;401,2;365,10;366,10;367,10",Recette de marteau en or de niveau 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Vide,2,recipe-icon-366,366,3,"217,2;212,2;36,10;37,10",Recette de marteau en cristal de niveau 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,3,1,10,2,0,4,0,0
-0,Vide,2,recipe-icon-368,368,5,"405,2;402,2;368,10;369,10;370,10",Recette de marteau en diamant de niveau 5,"445,1,1,3838;445,2,1,2559;445,3,1,1706;445,4,1,1137;445,5,1,758",0,3,1,90,2,0,4,0,15
-0,Vide,2,recipe-icon-369,369,6,"406,2;403,2;371,10;372,10;373,10",Recette de marteau en lumière d'étoile de niveau 6,"446,1,1,3838;446,2,1,2559;446,3,1,1706;446,4,1,1137;446,5,1,758",0,3,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-370,370,1,"210,2;31,10;30,10",Recette d'arc en pierre de niveau 1,"287,1,1,10000",0,3,1,10,2,0,4,0,0
-0,Vide,2,recipe-icon-371,371,2,"211,2;216,2;33,10;34,10",Recette d'arc en métal de niveau 2,"288,1,1,6000;288,2,1,4000",0,3,1,10,2,0,4,0,0
-0,Vide,2,recipe-icon-372,372,3,"217,2;212,2;36,10;37,10",Recette d'arc en cristal de niveau 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,3,1,10,2,0,4,0,0
-0,Vide,2,recipe-icon-373,373,4,"404,2;401,2;365,10;366,10;367,10",Recette d'arc en or de niveau 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Vide,2,recipe-icon-374,374,5,"405,2;402,2;368,10;369,10;370,10",Recette d'arc en diamant de niveau 5,"451,1,1,3838;451,2,1,2559;451,3,1,1706;451,4,1,1137;451,5,1,758",0,3,1,90,2,0,4,0,15
-0,Vide,2,recipe-icon-375,375,6,"406,2;403,2;371,10;372,10;373,10",Recette d'arc en lumière d'étoile de niveau 6,"452,1,1,3838;452,2,1,2559;452,3,1,1706;452,4,1,1137;452,5,1,758",0,3,1,270,2,0,4,0,20
-0,Vide,2,recipe-icon-376,376,1,"207,2;178,10;177,10",Recette de brosse en cuivre de niveau 1,"453,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Vide,2,recipe-icon-377,377,2,"208,2;213,2;74,10;73,10",Recette de brosse en fer de niveau 2,"454,1,1,6000;454,2,1,4000",0,3,1,10,1,0,4,0,0
-0,Vide,2,recipe-icon-378,378,3,"209,2;211,2;76,10;77,10",Recette de brosse en cristal de niveau 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,3,1,10,1,0,4,0,0
-0,Vide,2,recipe-icon-379,379,4,"401,2;407,2;410,2",Recette de brosse en or de niveau 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,3,1,30,1,0,4,0,10
-0,Vide,2,recipe-icon-380,380,5,"402,2;411,2;408,2",Recette de brosse en diamant de niveau 5,"457,1,1,3838;457,2,1,2559;457,3,1,1706;457,4,1,1137;457,5,1,758",0,3,1,90,1,0,4,0,15
-0,Vide,2,recipe-icon-381,381,6,"403,2;409,2;412,2",Recette de brosse en lumière d'étoile de niveau 6,"458,1,1,3838;458,2,1,2559;458,3,1,1706;458,4,1,1137;458,5,1,758",0,3,1,270,1,0,4,0,20
+0,Recette de potion de restauration d'énergie - Grande,2,recipe-icon-269,269,2,"64,5",Receta de Poción de Restauración de Energía - Grande,"297,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Recette d'épée en or,2,recipe-icon-270,270,4,"209,2;407,1;410,1",Receta de Espada Dorada,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,3,1,30,2,0,4,0,10
+0,Recette de chapeau de combattant en or,2,recipe-icon-271,271,4,"209,2;407,1;410,1",Receta de Sombrero de Luchador Dorado,"335,1,1,3838;335,2,1,2559;335,3,1,1706;335,4,1,1137;241,5,1,758",0,2,1,30,2,0,4,0,10
+0,Recette de manteau de combattant en or,2,recipe-icon-272,272,4,"209,2;407,1;410,1",Receta de Abrigo de Luchador Dorado,"336,1,1,3838;336,2,1,2559;336,3,1,1706;336,4,1,1137;242,5,1,758",0,2,1,30,2,0,4,0,10
+0,Recette de gants de combattant en or,2,recipe-icon-273,273,4,"209,2;407,1;410,1",Receta de Guantes de Luchador Dorado,"337,1,1,3838;337,2,1,2559;337,3,1,1706;337,4,1,1137;243,5,1,758",0,2,1,30,2,0,4,0,10
+0,Recette de pantalon de combattant en or,2,recipe-icon-274,274,4,"209,2;407,1;410,1",Receta de Pantalones de Luchador Dorado,"338,1,1,3838;338,2,1,2559;338,3,1,1706;338,4,1,1137;244,5,1,758",0,2,1,30,2,0,4,0,10
+0,Recette de chaussures de combattant en or,2,recipe-icon-275,275,4,"209,2;407,1;410,1",Receta de Zapatos de Luchador Dorado,"339,1,1,3838;339,2,1,2559;339,3,1,1706;339,4,1,1137;245,5,1,758",0,2,1,30,2,0,4,0,10
+0,Recette de faucille en or,2,recipe-icon-276,276,4,"212,1;215,1;401,2",Receta de Guadaña Dorada,"229,1,1,2934;303,1,1,2934;303,2,1,1956;303,3,1,1304;303,4,1,869",0,3,1,30,3,0,4,0,10
+0,Recette de hache en or,2,recipe-icon-277,277,4,"212,1;215,1;401,2",Receta de Hacha Dorada,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,3,1,30,3,0,4,0,10
+0,Recette de chapeau de collecte en or,2,recipe-icon-279,279,4,"212,1;215,1;401,2",Receta de Sombrero de Recolector Dorado,"320,1,1,3838;320,2,1,2559;320,3,1,1706;320,4,1,1137;241,5,1,758",0,2,1,30,3,0,4,0,10
+0,Recette de pioche en or,2,recipe-icon-278,278,4,"212,1;215,1;401,2",Receta de Pico Dorado,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,3,1,30,3,0,4,0,10
+0,Recette de manteau de collecte en or,2,recipe-icon-280,280,4,"212,1;215,1;401,2",Receta de Abrigo de Recolector Dorado,"321,1,1,3838;321,2,1,2559;321,3,1,1706;321,4,1,1137;242,5,1,758",0,2,1,30,3,0,4,0,10
+0,Recette de gants de collecte en or,2,recipe-icon-281,281,4,"212,1;215,1;401,2",Receta de Guantes de Recolector Dorado,"322,1,1,3838;322,2,1,2559;322,3,1,1706;322,4,1,1137;243,5,1,758",0,2,1,30,3,0,4,0,10
+0,Recette de houe en or,2,recipe-icon-282,282,4,"218,2;404,2",Receta de Azada Dorada,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,3,1,30,1,0,4,0,10
+0,Recette de chapeau de fermier en or,2,recipe-icon-284,284,4,"218,2;404,2",Receta de Sombrero de Granjero Dorado,"350,1,1,3838;350,2,1,2559;350,3,1,1706;350,4,1,1137;241,5,1,758",0,2,1,30,1,0,4,0,10
+0,Recette de manteau de fermier en or,2,recipe-icon-285,285,4,"218,2;404,2",Receta de Abrigo de Granjero Dorado,"351,1,1,3838;351,2,1,2559;351,3,1,1706;351,4,1,1137;243,5,1,758",0,2,1,30,1,0,4,0,10
+0,Recette de gants de fermier en or,2,recipe-icon-286,286,4,"218,2;404,2",Receta de Guantes de Granjero Dorado,"352,1,1,3838;352,2,1,2559;352,3,1,1706;352,4,1,1137;242,5,1,758",0,2,1,30,1,0,4,0,10
+0,Recette de pantalon de fermier en or,2,recipe-icon-287,287,4,"218,2;404,2",Receta de Pantalones de Granjero Dorado,"353,1,1,3838;353,2,1,2559;353,3,1,1706;353,4,1,1137;244,5,1,758",0,2,1,30,1,0,4,0,10
+0,Recette de pantalon de collecte en or,2,recipe-icon-288,288,4,"212,1;215,1;401,2",Receta de Pantalones de Recolector Dorado,"323,1,1,3838;323,2,1,2559;323,3,1,1706;323,4,1,1137;244,5,1,758",0,2,1,30,3,0,4,0,10
+0,Recette de chaussures de collecte en or,2,recipe-icon-289,289,4,"212,1;215,1;401,2",Receta de Zapatos de Recolector Dorado,"324,1,1,3838;324,2,1,2559;324,3,1,1706;324,4,1,1137;245,5,1,758",0,2,1,30,3,0,4,0,10
+0,Recette de chaussures de fermier en or,2,recipe-icon-291,291,4,"218,2;404,2",Receta de Zapatos de Granjero Dorado,"354,1,1,3838;354,2,1,2559;354,3,1,1706;354,4,1,1137;245,5,1,758",0,2,1,30,1,0,4,0,10
+0,Recette d'épée en diamant,2,recipe-icon-292,292,5,"404,2;408,1;411,1",Receta de Espada de Diamante,"318,1,1,3838;318,2,1,2559;318,3,1,1706;318,4,1,1137;318,5,1,758",0,3,1,90,2,0,4,0,15
+0,Recette de chapeau de combattant en diamant,2,recipe-icon-293,293,5,"404,2;408,1;411,1",Receta de Sombrero de Luchador de Diamante,"340,1,1,3568;340,2,1,2378;340,3,1,1585;340,4,1,1057;340,5,1,704;277,5,1,704",0,2,1,90,2,0,4,0,15
+0,Recette de manteau de combattant en diamant,2,recipe-icon-294,294,5,"404,2;408,1;411,1",Receta de Abrigo de Luchador de Diamante,"341,1,1,3568;341,2,1,2378;341,3,1,1585;341,4,1,1057;341,5,1,704;278,5,1,704",0,2,1,90,2,0,4,0,15
+0,Recette de gants de combattant en diamant,2,recipe-icon-295,295,5,"404,2;408,1;411,1",Receta de Guantes de Luchador de Diamante,"342,1,1,3568;342,2,1,2378;342,3,1,1585;342,4,1,1057;342,5,1,704;279,5,1,704",0,2,1,90,2,0,4,0,15
+0,Recette de pantalon de combattant en diamant,2,recipe-icon-296,296,5,"404,2;408,1;411,1",Receta de Pantalones de Luchador de Diamante,"343,1,1,3568;343,2,1,2378;343,3,1,1585;343,4,1,1057;343,5,1,704;280,5,1,704",0,2,1,90,2,0,4,0,15
+0,Recette de chaussures de combattant en diamant,2,recipe-icon-297,297,5,"404,2;408,1;411,1",Receta de Zapatos de Luchador de Diamante,"344,1,1,3568;344,2,1,2378;344,3,1,1585;344,4,1,1057;344,5,1,704;281,5,1,704",0,2,1,90,2,0,4,0,15
+0,Recette de faucille en diamant,2,recipe-icon-298,298,5,"407,1;410,1;402,2",Receta de Guadaña de Diamante,"309,1,1,3838;309,2,1,2559;309,3,1,1706;309,4,1,1137;309,5,1,758",0,3,1,90,3,0,4,0,15
+0,Recette de hache en diamant,2,recipe-icon-299,299,5,"407,1;410,1;402,2",Receta de Hacha de Diamante,"306,1,1,3838;306,2,1,2559;306,3,1,1706;306,4,1,1137;306,5,1,758",0,3,1,90,3,0,4,0,15
+0,Recette de pioche en diamant,2,recipe-icon-300,300,5,"407,1;410,1;402,2",Receta de Pico de Diamante,"307,1,1,3838;307,2,1,2559;307,3,1,1706;307,4,1,1137;307,5,1,758",0,3,1,90,3,0,4,0,15
+0,Recette de chapeau de collecte en diamant,2,recipe-icon-301,301,5,"407,1;410,1;402,2",Receta de Sombrero de Recolector de Diamante,"325,1,1,3568;325,2,1,2378;325,3,1,1585;325,4,1,1057;325,5,1,704;277,5,1,704",0,2,1,90,3,0,4,0,15
+0,Recette de manteau de collecte en diamant,2,recipe-icon-302,302,5,"407,1;410,1;402,2",Receta de Abrigo de Recolector de Diamante,"326,1,1,3568;326,2,1,2378;326,3,1,1585;326,4,1,1057;326,5,1,704;278,5,1,704",0,2,1,90,3,0,4,0,15
+0,Recette de gants de collecte en diamant,2,recipe-icon-303,303,5,"407,1;410,1;402,2",Receta de Guantes de Recolector de Diamante,"327,1,1,3568;327,2,1,2378;327,3,1,1585;327,4,1,1057;327,5,1,704;279,5,1,704",0,2,1,90,3,0,4,0,15
+0,Recette de pantalon de collecte en diamant,2,recipe-icon-304,304,5,"407,1;410,1;402,2",Receta de Pantalones de Recolector de Diamante,"328,1,1,3568;328,2,1,2378;328,3,1,1585;328,4,1,1057;328,5,1,704;280,5,1,704",0,2,1,90,3,0,4,0,15
+0,Recette de chaussures de collecte en diamant,2,recipe-icon-305,305,5,"407,1;410,1;402,2",Receta de Zapatos de Recolector de Diamante,"329,1,1,3568;329,2,1,2378;329,3,1,1585;329,4,1,1057;329,5,1,704;281,5,1,704",0,2,1,90,3,0,4,0,15
+0,Recette de houe en diamant,2,recipe-icon-306,306,5,"401,2;405,2",Receta de Azada de Diamante,"305,1,1,3838;305,2,1,2559;305,3,1,1706;305,4,1,1137;305,5,1,758",0,3,1,90,1,0,4,0,15
+0,Recette de chapeau de fermier en diamant,2,recipe-icon-308,308,5,"401,2;405,2",Receta de Sombrero de Granjero de Diamante,"355,1,1,3568;355,2,1,2378;355,3,1,1585;355,4,1,1057;355,5,1,704;277,5,1,704",0,2,1,90,1,0,4,0,15
+0,Recette de manteau de fermier en diamant,2,recipe-icon-309,309,5,"401,2;405,2",Receta de Abrigo de Granjero de Diamante,"356,1,1,3568;356,2,1,2378;356,3,1,1585;356,4,1,1057;356,5,1,704;279,5,1,704",0,2,1,90,1,0,4,0,15
+0,Recette de gants de fermier en diamant,2,recipe-icon-310,310,5,"401,2;405,2",Receta de Guantes de Granjero de Diamante,"357,1,1,3568;357,2,1,2378;357,3,1,1585;357,4,1,1057;357,5,1,704;278,5,1,704",0,2,1,90,1,0,4,0,15
+0,Vide,2,recipe-icon-311,311,5,"401,2;405,2",Receta de Pantalones de Granjero de Diamante,"358,1,1,3568;358,2,1,2378;358,3,1,1585;358,4,1,1057;358,5,1,704;280,5,1,704",0,2,1,90,1,0,4,0,15
+0,Vide,2,recipe-icon-312,312,5,"401,2;405,2",Receta de Zapatos de Granjero de Diamante,"359,1,1,3568;359,2,1,2378;359,3,1,1585;359,4,1,1057;359,5,1,704;281,5,1,704",0,2,1,90,1,0,4,0,15
+0,Vide,2,recipe-icon-313,313,6,"405,2;409,1;412,1",Receta de Espada Estelar,"319,1,1,3838;319,2,1,2559;319,3,1,1706;319,4,1,1137;319,5,1,758",0,3,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-314,314,6,"405,2;409,1;412,1",Receta de Sombrero de Luchador Estelar,"345,1,1,3568;345,2,1,2378;345,3,1,1585;345,4,1,1057;345,5,1,704;471,5,1,704",0,2,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-315,315,6,"405,2;409,1;412,1",Receta de Abrigo de Luchador Estelar,"346,1,1,3568;346,2,1,2378;346,3,1,1585;346,4,1,1057;346,5,1,704;472,5,1,704",0,2,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-316,316,6,"405,2;409,1;412,1",Receta de Guantes de Luchador Estelar,"347,1,1,3568;347,2,1,2378;347,3,1,1585;347,4,1,1057;347,5,1,704;473,5,1,704",0,2,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-317,317,6,"405,2;409,1;412,1",Receta de Pantalones de Luchador Estelar,"348,1,1,3568;348,2,1,2378;348,3,1,1585;348,4,1,1057;348,5,1,704;474,5,1,704",0,2,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Receta de zapatos de luchador estelar,"349,1,1,3568;349,2,1,2378;349,3,1,1585;349,4,1,1057;349,5,1,704;475,5,1,704",0,2,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-319,319,6,"408,1;411,1;403,2", Receta de hoz estelar,"315,1,1,3838;315,2,1,2559;315,3,1,1706;315,4,1,1137;315,5,1,758",0,3,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Receta de hacha estelar,"312,1,1,3838;312,2,1,2559;312,3,1,1706;312,4,1,1137;312,5,1,758",0,3,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Receta de pico estelar,"313,1,1,3838;313,2,1,2559;313,3,1,1706;313,4,1,1137;313,5,1,758",0,3,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Receta de abrigo de recolección estelar,"331,1,1,3568;331,2,1,2378;331,3,1,1585;331,4,1,1057;331,5,1,704;472,5,1,704",0,2,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Receta de sombrero de recolección estelar,"330,1,1,3568;330,2,1,2378;330,3,1,1585;330,4,1,1057;330,5,1,704;471,5,1,704",0,2,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Receta de guantes de recolección estelar,"332,1,1,3568;332,2,1,2378;332,3,1,1585;332,4,1,1057;332,5,1,704;473,5,1,704",0,2,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Receta de pantalones de recolección estelar,"333,1,1,3568;333,2,1,2378;333,3,1,1585;333,4,1,1057;333,5,1,704;474,5,1,704",0,2,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-327,327,6,"402,2;406,2", Receta de azada estelar,"311,1,1,3838;311,2,1,2559;311,3,1,1706;311,4,1,1137;311,5,1,758",0,3,1,270,1,0,4,0,20
+0,Vide,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Receta de zapatos de recolección estelar,"334,1,1,3568;334,2,1,2378;334,3,1,1585;334,4,1,1057;334,5,1,704;475,5,1,704",0,2,1,270,3,0,4,0,20
+0,Vide,2,recipe-icon-330,330,6,"402,2;406,2", Receta de abrigo de granjero estelar,"361,1,1,3568;361,2,1,2378;361,3,1,1585;361,4,1,1057;361,5,1,704;473,5,1,704",0,2,1,270,1,0,4,0,20
+0,Vide,2,recipe-icon-329,329,6,"402,2;406,2", Receta de sombrero de granjero estelar,"360,1,1,3568;360,2,1,2378;360,3,1,1585;360,4,1,1057;360,5,1,704;471,5,1,704",0,2,1,270,1,0,4,0,20
+0,Vide,2,recipe-icon-331,331,6,"402,2;406,2", Receta de guantes de granjero estelar,"362,1,1,3568;362,2,1,2378;362,3,1,1585;362,4,1,1057;362,5,1,704;472,5,1,704",0,2,1,270,1,0,4,0,20
+0,Vide,2,recipe-icon-332,332,6,"402,2;406,2", Receta de pantalones de granjero estelar,"363,1,1,3568;363,2,1,2378;363,3,1,1585;363,4,1,1057;363,5,1,704;474,5,1,704",0,2,1,270,1,0,4,0,20
+0,Vide,2,recipe-icon-333,333,6,"402,2;406,2", Receta de zapatos de granjero estelar,"364,1,1,3568;364,2,1,2378;364,3,1,1585;364,4,1,1057;364,5,1,704;475,5,1,704",0,2,1,270,1,0,4,0,20
+0,Vide,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2", Receta de esencia de plantación agrícola de nivel 4,"407,1,1,10000",0,1,1,30,1,0,4,0,0
+0,Vide,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2", Receta de esencia de plantación agrícola de nivel 5,"408,1,1,10000",0,1,1,90,1,0,4,0,0
+0,Vide,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2", Receta de esencia de plantación agrícola de nivel 6,"409,1,1,10000",0,1,1,270,1,0,4,0,0
+0,Vide,2,recipe-icon-337,337,4,"392,5;393,5;394,5;215,2", Receta de esencia de ganadería agrícola de nivel 4,"410,1,1,10000",0,1,1,30,1,0,4,0,0
+0,Vide,2,recipe-icon-338,338,5,"395,5;396,5;397,5;410,2", Receta de esencia de ganadería agrícola de nivel 5,"411,1,1,10000",0,1,1,90,1,0,4,0,0
+0,Vide,2,recipe-icon-339,339,6,"398,5;399,5;400,5;411,2", Receta de esencia de ganadería agrícola de nivel 6,"412,1,1,10000",0,1,1,270,1,0,4,0,0
+0,Vide,2,recipe-icon-340,340,4,"365,5;366,5;367,5;218,2", Receta de esencia de combate de nivel 4,"401,1,1,10000",0,1,1,30,2,0,4,0,0
+0,Vide,2,recipe-icon-341,341,5,"368,5;370,5;369,5;401,2", Receta de esencia de combate de nivel 5,"402,1,1,10000",0,1,1,90,2,0,4,0,0
+0,Vide,2,recipe-icon-342,342,6,"371,5;372,5;373,5;402,2", Receta de esencia de combate de nivel 6,"403,1,1,10000",0,1,1,270,2,0,4,0,0
+0,Vide,2,recipe-icon-343,343,4,"375,5;376,5;209,2;374,5", Receta de esencia de recolección de nivel 4,"404,1,1,10000",0,1,1,30,3,0,4,0,0
+0,Vide,2,recipe-icon-345,345,6,"380,5;381,5;382,5;405,2", Receta de esencia de recolección de nivel 6,"406,1,1,10000",0,1,1,270,3,0,4,0,0
+0,Vide,2,recipe-icon-344,344,5,"377,5;378,5;379,5;404,2", Receta de esencia de recolección de nivel 5,"405,1,1,10000",0,1,1,90,3,0,4,0,0
+0,Vide,2,recipe-icon-347,347,5,, Recetas de poción de nivel 5,"429,1,1,1666;430,1,1,1666;431,1,1,1666;432,1,1,1666;433,1,1,1666;434,1,1,1666",0,1,1,90,3,0,4,0,0
+0,Vide,2,recipe-icon-346,346,4,, Recetas de poción de nivel 4,"422,1,1,1666;423,1,1,1666;424,1,1,1666;425,1,1,1666;426,1,1,1666;427,1,1,1666",0,1,1,30,3,0,4,0,0
+0,Vide,2,recipe-icon-348,348,6,, Recetas de poción de nivel 6,"435,1,1,1666;436,1,1,1666;437,1,1,1666;438,1,1,1666;439,1,1,1666;440,1,1,1666",0,1,1,270,3,0,4,0,0
+0,Vide,2,recipe-icon-364,364,1,"210,1;213,1",Recette de marteau en cuivre de niveau 1,"441,1,1,10000",0,3,1,10,2,0,4,0,0
+0,Vide,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Recette de marteau en fer de niveau 2,"442,1,1,6000;442,2,1,4000",0,3,1,10,2,0,4,0,0
+0,Vide,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Recette de marteau en or de niveau 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,3,1,30,2,0,4,0,10
+0,Vide,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Recette de marteau en cristal de niveau 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,3,1,10,2,0,4,0,5
+0,Vide,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Recette de marteau en diamant de niveau 5,"445,1,1,3838;445,2,1,2559;445,3,1,1706;445,4,1,1137;445,5,1,758",0,3,1,90,2,0,4,0,15
+0,Vide,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Recette de marteau en lumière d'étoile de niveau 6,"446,1,1,3838;446,2,1,2559;446,3,1,1706;446,4,1,1137;446,5,1,758",0,3,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-370,370,1,"210,1;213,1",Recette d'arc en pierre de niveau 1,"287,1,1,10000",0,3,1,10,2,0,4,0,0
+0,Vide,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Recette d'arc en métal de niveau 2,"288,1,1,6000;288,2,1,4000",0,3,1,10,2,0,4,0,0
+0,Vide,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Recette d'arc en cristal de niveau 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,3,1,10,2,0,4,0,5
+0,Vide,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Recette d'arc en or de niveau 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,3,1,30,2,0,4,0,10
+0,Vide,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Recette d'arc en diamant de niveau 5,"451,1,1,3838;451,2,1,2559;451,3,1,1706;451,4,1,1137;451,5,1,758",0,3,1,90,2,0,4,0,15
+0,Vide,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Recette d'arc en lumière d'étoile de niveau 6,"452,1,1,3838;452,2,1,2559;452,3,1,1706;452,4,1,1137;452,5,1,758",0,3,1,270,2,0,4,0,20
+0,Vide,2,recipe-icon-376,376,1,"207,2",Recette de brosse en cuivre de niveau 1,"453,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Vide,2,recipe-icon-377,377,2,"216,2;208,2",Recette de brosse en fer de niveau 2,"454,1,1,6000;454,2,1,4000",0,3,1,10,1,0,4,0,0
+0,Vide,2,recipe-icon-378,378,3,"217,2;209,2",Recette de brosse en cristal de niveau 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,3,1,10,1,0,4,0,5
+0,Vide,2,recipe-icon-379,379,4,"218,2;404,2",Recette de brosse en or de niveau 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,3,1,30,1,0,4,0,10
+0,Vide,2,recipe-icon-380,380,5,"401,2;405,2",Recette de brosse en diamant de niveau 5,"457,1,1,3838;457,2,1,2559;457,3,1,1706;457,4,1,1137;457,5,1,758",0,3,1,90,1,0,4,0,15
+0,Vide,2,recipe-icon-381,381,6,"402,2;406,2",Recette de brosse en lumière d'étoile de niveau 6,"458,1,1,3838;458,2,1,2559;458,3,1,1706;458,4,1,1137;458,5,1,758",0,3,1,270,1,0,4,0,20
 0,Vide,2,recipe-icon-382,382,4,"375,5;374,10", Receta de poción de restauración de energía - Pequeña,"459,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Vide,2,recipe-icon-383,383,5,"378,5;377,10",Poción de Restauración de Energía - Receta Mediana,"460,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Vide,2,recipe-icon-384,384,6,"381,5;380,10",Poción de Restauración de Energía - Receta Grande,"461,1,1,10000",0,1,1,10,3,0,4,0,0
@@ -226,10 +226,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10;178,10;179,10",,"466,1,3,10000",0,1,1,10,0,1,1,0,0
 0,,0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",,"466,1,12,10000",0,1,1,10,0,1,1,0,0
 0,,0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",,"466,1,27,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-396,396,,"209,1;218,1;212,1;215,1",,"467,1,1,10000",0,1,1,10,0,1,1,0,3
-0,,0,recipe-icon-397,397,,"469,2",,"468,1,1,6500;467,1,1,3500",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-398,398,,"207,1;216,1;210,1;213,1",,"468,1,1,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-400,400,2,"41,2;217,2",,"41,2,1,10000",0,1,1,10,2,1,1,0,0
-0,,0,recipe-icon-401,401,3,"42,1;218,2",,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,1,1,10,2,1,1,0,0
+0,,0,recipe-icon-396,396,0,"209,1;218,1;212,1;215,1",,"467,1,1,10000",0,1,1,10,0,1,1,0,3
+0,,0,recipe-icon-397,397,0,"469,2",,"468,1,1,6500;467,1,1,3500",0,1,1,10,0,1,1,0,1
+0,,0,recipe-icon-398,398,0,"207,1;216,1;210,1;213,1",,"468,1,1,10000",0,1,1,10,0,1,1,0,0
+0,,2,recipe-icon-400,400,2,"207,2;211,1;214,1",,"41,2,1,10000",0,1,1,10,2,0,4,0,0
+0,,2,recipe-icon-401,401,3,"208,2;212,1;215,1",,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,1,1,10,2,0,4,0,5
 0,,0,recipe-icon-402,402,4,"317,2;218,2",,"401,1,1,2934;317,1,1,2934;317,2,1,1956;317,3,1,1304;317,4,1,869",0,1,1,10,2,1,1,0,0
-0,,0,recipe-icon-403,403,3,"41,2;217,2;41,1",,"41,2,1,10000",0,1,1,10,2,1,1,0,0
+0,,2,recipe-icon-403,403,2,"207,2;211,1;214,1",,"41,2,1,10000",0,1,1,10,2,0,4,0,0
