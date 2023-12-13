@@ -6,12 +6,12 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class SyncSvrTimeLogic
 {
-    private const int SYNC_SVR_TIME_NORMAL_TIMER = 30 * 1000;//正常速度同步时间 间隔时间 ms
-    private const int SYNC_SVR_TIME_FAST_TIMER = 5 * 1000;//快速同步时间 间隔时间 ms
+    private const int SYNC_SVR_TIME_NORMAL_TIMER = 60 * 1000;//正常速度同步时间 间隔时间 ms
+    private const int SYNC_SVR_TIME_FAST_TIMER = 10 * 1000;//快速同步时间 间隔时间 ms
     private const string TIMER_KEY_SYNC_SVR_TIME_NORMAL = "TIMER_KEY_SYNC_SVR_TIME_NORMAL";//正常速度同步时间
     private const string TIMER_KEY_SYNC_SVR_TIME_FAST = "TIMER_KEY_SYNC_SVR_TIME_FAST";//快速同步时间
-    private const long JUDGE_FAST_DELAY = 100;//判断需要快速同步的延迟时间 ms
-    private const long JUDGE_NORMAL_DELAY = 40;//判断需要正常同步的延迟时间 ms
+    private const long JUDGE_FAST_DELAY = 200;//判断需要快速同步的延迟时间 ms
+    private const long JUDGE_NORMAL_DELAY = 70;//判断需要正常同步的延迟时间 ms
 
     private long _lastSyncSvrStamp = -1;//最近同步的服务器时间戳
     private DateTime _lastSyncSvrStampClientTime;//最近同步服务器时间时 对应客户端运行时间 不一定要UTC 只是为了算差值
