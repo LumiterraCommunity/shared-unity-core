@@ -42,7 +42,7 @@ public enum eErrorCode : int
     changeSceneEventNotFound = 0010004, // 切场景事件丢失
     repeatedApplyChangeScene = 0010005, // 重复申请切场景
     takeTicketFailed = 0010006, // 门票扣除失败
-
+    readyChangeSceneTimeout = 0010007, // 准备切服状态已经超时
 
     InstancingLevelCompleteFailure = 0007001, //运行关卡失败
     InstancingLevelCompleteNotLeader = 0007002, //不是队长
