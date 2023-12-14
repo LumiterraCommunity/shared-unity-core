@@ -141,7 +141,7 @@ public class SkillDamage
             return 0;
         }
 
-        float res = Mathf.Pow(atk, 2) * (levelAtk + 1) / ((atk * (levelAtk + 1)) + (def * (levelDef + 1) * 2));
+        float res = Mathf.Pow(atk, 2) * (levelAtk + 10) / ((atk * (levelAtk + 10)) + (def * (levelDef + 10)));
         if (res < 0)
         {
             Log.Error($"Calculate Base Damage error, res:{res} atk:{atk} def:{def} levelAtk:{levelAtk} levelDef:{levelDef}");
