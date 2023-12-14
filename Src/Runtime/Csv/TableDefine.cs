@@ -65,6 +65,7 @@ public enum eGameValueID
     TeammateHarvestGetDropRate = 35,
     EnterDungeonRatio = 36, // 传送进副本时队员离NPC或队长最大半径(单位m)
     InstancingDailyRewardCount = 37, // 副本每日奖励次数
+    InstancingReadyTimeOut = 38, // 副本准备超时时间
 }
 
 // public static class GameValueID
