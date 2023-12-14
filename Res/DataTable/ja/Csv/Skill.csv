@@ -132,7 +132,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",0,2,,"2,300",CameraShakeGrade_2,1,0,1,,,"137,488",skill-icon-137,,,,,,,,,,,
 0,0,0,0,0,388,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000," [120]爆弾を投下し、爆発範囲内の敵に高いダメージを与えます。
 ",1500,2,,"2,400",,1,0,1,,,,skill-icon-138,skill_tree_hurt,,,[9],1,,,,,,
-0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A2-respawn-to-base,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000," [121]短いエネルギー蓄積の後、体内のエネルギーを解放し、一定範囲内の敵に持続的な高ダメージを与えます。スキル解放中は攻撃できない状態になります。
+0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A-1baoqi,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000," [121]短いエネルギー蓄積の後、体内のエネルギーを解放し、一定範囲内の敵に持続的な高ダメージを与えます。スキル解放中は攻撃できない状態になります。
 ",0,2,,"2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
 0,0,0,,0,,,400,140,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,斧を振り、空気刃を作り、木を傷つけます。,,2,Lv1 グループロギング,"4,800,200,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-140,skill_tree_hurt,,,,,,,,,,
 0,0,0,,0,,,400,141,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,斧を振り、空気の刃を作り、木を傷つけます。,,2,Lv2 グループロギング,"4,800,400,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-141,skill_tree_hurt,,,,,,,,,,

@@ -1,23 +1,23 @@
 col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,upgradeToken-int[],preNode-int[]
-0,"Chiến đấu ATK +20
-Chiến đấu DEF +15
-Chiến đấu HP tối đa +50
-Năng lượng tối đa + 10
+0," Chiến đấu ATK +10
+Chiến đấu DEF +8
+Chiến đấu MaxHP + 40
+MaxEnergy + 10
 ","51,10000","1,3",talentTree-1,1,1,1,1,Tinh thông chiến đấu 1,2,160,0,0,
-0,"Chiến đấu ATK +20
-Chiến đấu DEF +15
-Chiến đấu HP tối đa +50
-Năng lượng tối đa + 10
+0," Chiến đấu ATK +10
+Chiến đấu DEF +8
+Chiến đấu MaxHP + 40
+MaxEnergy + 10
 ","52,10000","1,3",talentTree-2,2,1,2,1,Tinh thông chiến đấu 2,2,497,1,0,1
-0,"Chiến đấu ATK +20
-Chiến đấu DEF +15
-Chiến đấu MaxHP +50
-Năng lượng tối đa + 10
+0,"Chiến đấu ATK +10
+Chiến đấu DEF +8
+Chiến đấu MaxHP +40
+MaxEnergy +10
 ","53,10000","1,3",talentTree-3,3,1,3,1,Tinh thông chiến đấu 3,2,1168,2,0,2
-0,"Chiến đấu ATK +20
-Chiến đấu DEF +15
-Chiến đấu MaxHP +50
-Năng lượng tối đa + 10
+0,"Chiến đấu ATK +10
+Chiến đấu DEF +8
+Chiến đấu MaxHP +40
+MaxEnergy +10
 ","54,10000","1,3",talentTree-4,4,1,4,1,Tinh thông chiến đấu 4,2,1954,3,0,3
 0,"Chiến đấu ATK +20
 Chiến đấu DEF +15
@@ -289,51 +289,48 @@ Tăng MaxEnergy +10","89,10000","1,3",talentTree-32,32,1,9,1,Tập hợp chiến
 ",157,2,talentTree-94,94,0,3,1,Công thức tinh chất thú cưng,1,547,0,0,49
 -5,"Mở khóa Công thức Bộ Lv 1
 ",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Bí quyết chiến đấu,2,"85,94,105",0,"0,0,0",
-4,"Chiến đấu HP tối đa +50
+4," Chiến đấu MaxHP +40
 ",264,1,talentTree-96,96,0,1,1,Chiến đấu - HP,2,85,0,0,
-3,"Chiến đấu DEF +15
+3," Chiến đấu DEF +8
 ",258,1,talentTree-97,97,0,1,1,Chiến đấu - Phòng thủ,2,85,0,0,
-2,"Chiến đấu ATK +20
+2," Chiến đấu ATK +10
 ",252,1,talentTree-98,98,0,1,1,Chiến đấu - Sức mạnh tấn công,2,85,0,0,
 1,"Tăng tốc độ di chuyển 10%/20%/30%.
 ",116;117;118,1,talentTree-99,99,0,1,3,Chuyên gia,2,"85,94,105",0,"0,0,0",
-4,Chiến đấu HP tối đa +50,265,1,talentTree-100,100,0,2,1,Chiến đấu - HP,2,233,0,0,96
+4," Chiến đấu MaxHP +40
+",265,1,talentTree-100,100,0,2,1,Chiến đấu - HP,2,233,0,0,96
 -5,"Mở khóa Công thức Bộ Lv 2
 ",45#365#371;134#137;140#143#146,2,talentTree-101,101,0,2,3,Bí quyết chiến đấu,2,"233,281,340",0,"0,0,0",95
-3,"Chiến đấu DEF +15
+3," Chiến đấu DEF +8
 ",259,1,talentTree-102,102,0,2,1,Chiến đấu - Phòng thủ,2,233,0,0,97
-2,"Chiến đấu ATK +20
+2," Chiến đấu ATK +10
 ",253,1,talentTree-103,103,0,2,1,Chiến đấu - Sức mạnh tấn công,2,233,0,0,98
 1,"Mỗi 20/10/5 giây, nếu bạn không nhận sát thương, bạn sẽ nhận được tăng sát thương 10%.
 ",134;135;136,1,talentTree-104,104,0,2,3,Chuyên gia,2,"233,281,340",0,"0,0,0",99
 -5,"Mở khóa Công thức Bộ Lv 3
 ",46#366#372;135#138;141#144#147,2,talentTree-105,105,0,3,3,Bí quyết chiến đấu,2,"486,634,826",0,"0,0,0",101
-3,"Chiến đấu DEF +15
+3,"Chiến đấu DEF +8
 ",260,1,talentTree-106,106,0,3,1,Chiến đấu - Phòng thủ,2,486,0,0,102
-2,"Chiến đấu ATK +20
+2,"Chiến đấu ATK +10
 ",254,1,talentTree-107,107,0,3,1,Chiến đấu - Sức mạnh tấn công,2,486,0,0,103
 1,"Tốc độ Chiến đấu + 10%/20%/30%
 ",125;126;127,1,talentTree-108,108,0,3,3,Chuyên gia,2,"486,634,826",0,"0,0,0",104
-4,"Chiến đấu MaxHP +50
+4,"Chiến đấu MaxHP +40
 ",266,1,talentTree-109,109,0,3,1,Chiến đấu - HP,2,486,0,0,100
-3,"Chiến đấu DEF +15
+3,"Chiến đấu DEF +8
 ",261,1,talentTree-111,111,0,4,1, Chiến đấu - Phòng thủ,2,814,0,0,106
 1,"Tăng tỷ lệ né tránh 2/4/6%
 ",119;120;121,1,talentTree-112,112,0,4,3, Chuyên gia,2,"814,1061,1382",0,"0,0,0",108
-2,"Chiến đấu ATK +20
+2,"Chiến đấu ATK +10
 ",255,1,talentTree-113,113,0,4,1, Chiến đấu - Sức mạnh tấn công,2,814,0,0,107
-4,"Chiến đấu HP tối đa +50
-",267,1,talentTree-114,114,0,4,1, Chiến đấu - Máu,2,814,0,0,109
-3,"Chiến đấu DEF +15
-",262,1,talentTree-116,116,0,5,1,Chiến đấu - Phòng thủ,2,1178,0,0,111
-2,"Chiến đấu ATK +20
-",256,1,talentTree-117,117,0,5,1,Chiến đấu - Sức mạnh tấn công,2,1178,0,0,113
+4, Combat MaxHP +40: Tăng MaxHP Chiến đấu +40,267,1,talentTree-114,114,0,4,1, Chiến đấu - Máu,2,814,0,0,109
+3, Combat DEF +8: Tăng Combat DEF +8,262,1,talentTree-116,116,0,5,1,Chiến đấu - Phòng thủ,2,1178,0,0,111
+2, Combat ATK +10: Tăng Combat ATK +10,256,1,talentTree-117,117,0,5,1,Chiến đấu - Sức mạnh tấn công,2,1178,0,0,113
 1,"Tăng xác suất đánh chí mạng lên 5/10/15%
 ",60;61;62,1,talentTree-118,118,0,5,3,Chuyên gia,2,"1178,1535,1999",0,"0,0,0",112
 -1,"Giảm tốc độ di chuyển của kẻ địch.
 ",341,1,talentTree-119,119,0,5,1,Nhẹ nhàng - Tăng cường,2,1178,0,0,70
-4,"Chiến đấu HP tối đa +50
-",268,1,talentTree-120,120,0,5,1,Chiến đấu - HP,2,1178,0,0,114
+4, Combat MaxHP +40: Tăng MaxHP Chiến đấu +40,268,1,talentTree-120,120,0,5,1,Chiến đấu - HP,2,1178,0,0,114
 -3,"Giảm tốc độ di chuyển của kẻ địch.
 ",335,1,talentTree-122,122,0,6,1,,2,1570,0,0,71
 -2,"Giảm tốc độ di chuyển của kẻ địch.
@@ -347,27 +344,27 @@ Tăng MaxEnergy +10","89,10000","1,3",talentTree-32,32,1,9,1,Tập hợp chiến
 -2, Giảm tốc độ di chuyển của kẻ địch,339,1,talentTree-128,128,0,7,1,,2,1987,0,0,123
 -1, Giảm tốc độ di chuyển của kẻ địch,342,1,talentTree-129,129,0,7,1,,2,1987,0,0,125
 1, Tăng tốc độ tấn công lên 10/20/30%,131;132;133,1,talentTree-130,130,0,7,3,Chuyên gia,2,"1987,2589,3373",0,"0,0,0",124
-2,"Chiến đấu ATK +20
-",257,1,talentTree-131,131,0,6,1,Chiến đấu - Sức mạnh tấn công,2,1570,0,0,117
-3,"Chiến đấu DEF +15
-",263,1,talentTree-132,132,0,6,1,Chiến đấu - Phòng thủ,2,1570,0,0,116
-4, Tăng HP tối đa +50 trong chiến đấu,269,1,talentTree-133,133,0,6,1,Chiến đấu - HP,2,1570,0,0,120
-2, Tăng ATK +20 trong chiến đấu,270,1,talentTree-134,134,0,7,1,Chiến đấu - Sức mạnh tấn công,2,1987,0,0,131
-3, Tăng DEF +15 trong chiến đấu,273,1,talentTree-135,135,0,7,1,Chiến đấu - Phòng thủ,2,1987,0,0,132
-4, Tăng HP tối đa +50 trong chiến đấu,276,1,talentTree-136,136,0,7,1,Chiến đấu - HP,2,1987,0,0,133
+2, Combat ATK +10: Tăng Combat ATK +10,257,1,talentTree-131,131,0,6,1,Chiến đấu - Sức mạnh tấn công,2,1570,0,0,117
+3, Combat DEF +8: Tăng Combat DEF +8,263,1,talentTree-132,132,0,6,1,Chiến đấu - Phòng thủ,2,1570,0,0,116
+4, Combat MaxHP +40: Tăng MaxHP Chiến đấu +40,269,1,talentTree-133,133,0,6,1,Chiến đấu - HP,2,1570,0,0,120
+2, Combat ATK +10: Tăng ATK Chiến đấu +10,270,1,talentTree-134,134,0,7,1,Chiến đấu - Sức mạnh tấn công,2,1987,0,0,131
+3, Combat DEF +8: Tăng DEF Chiến đấu +8,273,1,talentTree-135,135,0,7,1,Chiến đấu - Phòng thủ,2,1987,0,0,132
+4, Combat MaxHP +40: Tăng MaxHP Chiến đấu +40,276,1,talentTree-136,136,0,7,1,Chiến đấu - HP,2,1987,0,0,133
 -2,"Nhảy về phía một kẻ địch gần và gây choáng và sát thương trong phạm vi đáp xuống
 ",124,0,talentTree-139,139,0,8,1,,2,2728,0,0,128
 -1, Giảm tốc độ di chuyển của kẻ địch,343,1,talentTree-140,140,0,8,1,,2,2728,0,0,129
 1, Tăng 0.1/0.2/0.3% sát thương cho mỗi 1% máu mất,128;129;130,1,talentTree-141,141,0,8,3,Chuyên gia,2,"2728,3295,3979",0,"0,0,0",130
-2, Tăng ATK +20 trong chiến đấu,271,1,talentTree-142,142,0,8,1,Chiến đấu - Sức mạnh tấn công,2,2728,0,0,134
-3, Tăng DEF +15 trong chiến đấu,274,1,talentTree-143,143,0,8,1,Chiến đấu - Phòng thủ,2,2728,0,0,135
-4, Tăng HP tối đa +50 trong chiến đấu,277,1,talentTree-144,144,0,8,1,Chiến đấu - Sức khỏe,2,2728,0,0,136
+2, Combat ATK +10: Tăng ATK Chiến đấu +10,271,1,talentTree-142,142,0,8,1,Chiến đấu - Sức mạnh tấn công,2,2728,0,0,134
+3, Combat DEF +8: Tăng DEF Chiến đấu +8,274,1,talentTree-143,143,0,8,1,Chiến đấu - Phòng thủ,2,2728,0,0,135
+4, Combat MaxHP +40: Tăng MaxHP Chiến đấu +40,277,1,talentTree-144,144,0,8,1,Chiến đấu - Sức khỏe,2,2728,0,0,136
 -1,"Sau một thời gian ngắn tích lũy năng lượng, phóng năng lượng bên trong cơ thể, gây sát thương cao liên tục cho kẻ địch trong một khoảng cách nhất định. Trong quá trình phát hành kỹ năng, vẫn ở trạng thái không thể đánh trúng.
 ",139,0,talentTree-149,149,0,9,1,,2,3703,0,0,140
-2, Tăng ATK +20 trong chiến đấu,272,1,talentTree-150,150,0,9,1,Chiến đấu - Sức mạnh tấn công,2,3703,0,0,142
+2, Combat ATK +10: Tăng ATK Chiến đấu +10,272,1,talentTree-150,150,0,9,1,Chiến đấu - Sức mạnh tấn công,2,3703,0,0,142
 1," Vũ khí tấn công để lại vết thương, gây 1%/2%/3% sát thương tấn công mỗi 0.5 giây trong 5 giây, và có thể chồng lên đến 5 lớp",172;173;174,1,talentTree-151,151,0,9,3,Chuyên gia,2,"3703,3703,3703",0,"0,0,0",141
-3,Phòng thủ chiến đấu +15,275,1,talentTree-152,152,0,9,1,Chiến đấu - Phòng thủ,2,3703,0,0,143
-4,HP tối đa chiến đấu +50,278,1,talentTree-153,153,0,9,1,Chiến đấu - HP,2,3703,0,0,144
+3,"Phòng thủ chiến đấu +8
+",275,1,talentTree-152,152,0,9,1,Chiến đấu - Phòng thủ,2,3703,0,0,143
+4,"HP tối đa chiến đấu +40
+",278,1,talentTree-153,153,0,9,1,Chiến đấu - HP,2,3703,0,0,144
 -1,"Tưới nước cho các cánh đồng nhỏ xung quanh bạn.
 ",100,0,talentTree-157,157,0,5,1,Làm chủ bình tưới nước,1,916,0,0,46
 1,"Sức chứa sinh sản + 2;

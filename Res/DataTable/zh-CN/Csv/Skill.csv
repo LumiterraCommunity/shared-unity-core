@@ -124,7 +124,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,136,0,1,0,0,0,0,0,,,,,,-1,攻击有15%概率释放一次3级战争践踏,,1,Lv 3 出其不意,,,1,0,1,,,,skill-icon-136,,,,,,,,,,,
 0,0,0,0,0,,22,200,137,0,1,0,0,0,0,0,A-jianwu,Skill_bladeFlurry,Skill_airblade,,1200,8000,对自身小范围内的敌人进行5次攻击，每次攻击随机选取目标,0,2,剑舞,"2,300",CameraShakeGrade_2,1,0,1,,,"137,488",skill-icon-137,,,,,,,,,,,
 0,0,0,0,0,388,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000,丢置炸弹，对爆炸范围内敌人造成高额伤害,1500,2,爆炸艺术,"2,400",,1,0,1,,,,skill-icon-138,skill_tree_hurt,,,[9],1,,,,,,
-0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A2-respawn-to-base,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000,短暂蓄力后释放体内能量，对周围一定范围内敌人造成持续高额伤害，释放技能期间处于无法命中状态,0,2,不屈,"2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
+0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A-1baoqi,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000,短暂蓄力后释放体内能量，对周围一定范围内敌人造成持续高额伤害，释放技能期间处于无法命中状态,0,2,不屈,"2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
 0,0,0,,0,,,400,140,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,大力挥动手中的斧子，产生小范围气刃攻击，对范围内的树木造成伤害,,2,Lv 1 群体伐木,"4,800,200,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-140,skill_tree_hurt,,,,,,,,,,
 0,0,0,,0,,,400,141,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,大力挥动手中的斧子，产生中等范围气刃攻击，对范围内的树木造成伤害,,2,Lv 2 群体伐木,"4,800,400,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-141,skill_tree_hurt,,,,,,,,,,
 0,0,0,,0,,,400,142,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,大力挥动手中的斧子，产生大范围气刃攻击，对范围内的树木造成伤害,,2,Lv 3 群体伐木,"4,800,600,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-142,skill_tree_hurt,,,,,,,,,,
