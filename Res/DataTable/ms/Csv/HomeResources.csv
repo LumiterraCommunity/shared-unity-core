@@ -1,14 +1,14 @@
 assetRes-string,dropId-int,exp-int,grassDef-int,homeAction-int,icon-string,id-int,lv-int,maxActionValue-int,name-string,oreDef-int,requiredProficiency-int,treeDef-int
 2D_caijiziyuan_shumu01_1,27,20,0,6,2D_caijiziyuan_shumu01_1,4,1,118,Kayu Biasa Tingkat 1,0,100,200
 Slice_12,27,20,0,6,Slice_12,5,1,118,Kayu Biasa Tingkat 1,0,100,200
-2D_caijiziyuan_xianrenzhang,28,40.33081697,0,6,2D_caijiziyuan_xianrenzhang,6,2,282,Kayu Pokok Gurun Tingkat 2,0,200,300
-2D_caijiziyuan_hongguoshi,34,15,400,5,2D_caijiziyuan_hongguoshi,7,3,454,Maguey Tingkat 3,0,400,0
+2D_caijiziyuan_xianrenzhang,28,40.33081697,0,6,2D_caijiziyuan_xianrenzhang,6,2,235,Kayu Pokok Gurun Tingkat 2,0,200,400
+2D_caijiziyuan_hongguoshi,34,15,600,5,2D_caijiziyuan_hongguoshi,7,3,353,Maguey Tingkat 3,0,400,0
 2D_caijiziyuan_shikuai_3,26,20,0,7,2D_caijiziyuan_shikuai_3,8,1,118,Mineral Tingkat 1,200,100,0
-2D_caijiziyuan_heitikuang,30,40.33081697,0,7,2D_caijiziyuan_heitikuang,9,2,282,Besi Gelap Tingkat 2,300,200,0
-2D_caijiziyuan_hongbaoshi,31,59.72663478,0,7,2D_caijiziyuan_hongbaoshi,11,3,454,Batu Kristal Merah Tingkat 3,400,400,0
+2D_caijiziyuan_heitikuang,30,40.33081697,0,7,2D_caijiziyuan_heitikuang,9,2,235,Besi Gelap Tingkat 2,400,200,0
+2D_caijiziyuan_hongbaoshi,31,59.72663478,0,7,2D_caijiziyuan_hongbaoshi,11,3,353,Batu Kristal Merah Tingkat 3,600,400,0
 Slice_11,32,5,200,5,Slice_11,14,1,118,Serat Tumbuhan Tingkat 1,0,100,0
-2D_caijiziyuan_bingyuanzhiwu,33,10,300,5,2D_caijiziyuan_bingyuanzhiwu,15,2,282,Cendawan Beku Tingkat 2,0,200,0
-2D_caijiziyuan_anheimucai,29,59.72663478,0,6,2D_caijiziyuan_anheimucai,16,3,454,Kayu Gelap Tingkat 3,0,400,400
+2D_caijiziyuan_bingyuanzhiwu,33,10,400,5,2D_caijiziyuan_bingyuanzhiwu,15,2,235,Cendawan Beku Tingkat 2,0,200,0
+2D_caijiziyuan_anheimucai,29,59.72663478,0,6,2D_caijiziyuan_anheimucai,16,3,353,Kayu Gelap Tingkat 3,0,400,600
 homeresource-19,32,5,200,5,2D_caijiziyuan_cao2 ,19,1,118,Serat Tumbuhan Tingkat 1,0,100,0
 homeresource-20,0,5,200,5,2D_caijiziyuan_cao1,20,1,118,Serat Tumbuhan Tingkat 1,0,100,0
 2D_caijiziyuan_cao3,32,5,200,5,2D_caijiziyuan_cao3,21,1,118,Serat Tumbuhan Tingkat 1,0,100,0
@@ -25,13 +25,13 @@ homeresource-32,0,5,200,5,2D_caijiziyuan_kucao3,32,1,118,Serat Tumbuhan Tingkat 
 homeresource-33,0,5,200,5,2D_caijiziyuan_kucao4,33,1,118,Serat Tumbuhan Tingkat 1,0,100,0
 2D_caijiziyuan_shikuai_4,26,20,0,7,2D_caijiziyuan_shikuai_4,34,1,118,Mineral Tingkat 1,200,100,0
 homeresource-35,27,20,0,6,2d_shu_06,35,1,118,Kayu Biasa Tingkat 1,0,100,200
-homeresource-36,28,40.33081697,0,6,2d_shu_07,36,2,282,Kayu Pokok Gurun Tingkat 2,0,200,300
-homeresource-37,29,59.72663478,0,6,2d_shu_08,37,3,454,Kayu Gelap Tingkat 3,0,400,400
-homeresource-38,31,59.72663478,0,7,2d_shitou_06,38,3,454,Batu Kristal Merah Tingkat 3,400,400,0
-homeresource-41,30,40.33081697,0,7,2d_shitou_05,41,2,282,Besi Gelap Tingkat 2,300,200,0
+homeresource-36,28,40.33081697,0,6,2d_shu_07,36,2,235,Kayu Pokok Gurun Tingkat 2,0,200,400
+homeresource-37,29,59.72663478,0,6,2d_shu_08,37,3,353,Kayu Gelap Tingkat 3,0,400,600
+homeresource-38,31,59.72663478,0,7,2d_shitou_06,38,3,353,Batu Kristal Merah Tingkat 3,600,400,0
+homeresource-41,30,40.33081697,0,7,2d_shitou_05,41,2,235,Besi Gelap Tingkat 2,400,200,0
 homeresource-42,26,20,0,7,2d_shitou_04,42,1,118,Mineral Tingkat 1,200,100,0
-homeresource-43,33,10,300,5,2d_cao_10,43,2,282,Cendawan Beku Tingkat 2,0,200,0
-homeresource-44,34,15,400,5,2d_cao_11,44,3,454,Maguey Tingkat 3,0,400,0
+homeresource-43,33,10,400,5,2d_cao_10,43,2,235,Cendawan Beku Tingkat 2,0,200,0
+homeresource-44,34,15,600,5,2d_cao_11,44,3,353,Maguey Tingkat 3,0,400,0
 homeresource-45,0,5,200,5,2d_cao_09,45,1,118,Serat Tumbuhan Tingkat 1,0,100,0
 homeresource-47,9,0,0,16,2D_zhandouziyuan_xianrenzhangnianye_icon,47,1,0,Slime Hijau Tingkat 1,0,99999,0
 homeresource-48,8,0,0,16,2D_zhandouziyuan_nanguatengman_icon,48,1,0,Pokok Labu Tingkat 1,0,99999,0
@@ -51,21 +51,21 @@ homeresource-61,15,0,0,16,2D_zhandouziyuan_binxuerongmaok=_icon,61,3,0,Bulu Salj
 homeresource-62,31,0,0,16,2D_caijiziyuan_hongbaoshi_icon,62,3,0,Batu Kristal Merah Tingkat 3,0,99999,0
 homeresource-63,34,0,0,16,2D_caijiziyuan_hongcaoguo_icon,63,3,0,Maguey Tingkat 3,0,99999,0
 homeresource-64,29,0,0,16,2D_caijiziyuan_anheimucai_icon,64,3,0,Kayu Gelap Tingkat 3,0,99999,0
-homeresource-65,56,20,500,5,黄金蒲公英修改,65,4,627, [320] Bunga Dandelion Emas,0,800,0
-homeresource-66,57,80,0,6,黄金吉他树,66,4,627, [321] Bunga Kaktus,0,800,500
-homeresource-67,58,80,0,7,小金人矿石,67,4,627, [322] Racso,500,800,0
-homeresource-68,59,25,600,5,水晶草变异种,68,5,802, [323] Intan Serat,0,1600,0
-homeresource-69,60,100,0,6,音符树变异,69,5,802, [324] Intan Bentuk Nota,0,1600,600
-homeresource-70,61,100,0,7,熊猫矿石,70,5,802, [325] Intan Bentuk Beruang,600,1600,0
-homeresource-71,62,30,700,5,仙女草,71,6,977, [326] Bunga Elf,0,3200,0
-homeresource-72,63,120,0,6,星瓶树变异,72,6,977, [327] Bintang Kaleng,0,3200,700
-homeresource-73,64,120,0,7,星星矿石变异,73,6,977, [328] Meteorit,700,3200,0
-homeresource-74,56,20,500,5,变异修改,74,4,627, [320] Bunga Dandelion Emas,0,800,0
-homeresource-75,57,80,0,6,仙人掌吉他变异,75,4,627, [321] Bunga Kaktus,0,800,500
-homeresource-76,58,80,0,7,小金人矿石变异,76,4,627, [322] Racso,500,800,0
-homeresource-77,59,25,600,5,水晶草,77,5,802, [323] Intan Serat,0,1600,0
-homeresource-78,60,100,0,6,音符树,78,5,802, [324] Intan Bentuk Nota,0,1600,600
-homeresource-79,61,100,0,7,熊猫矿石变异,79,5,802, [325] Intan Bentuk Beruang,600,1600,0
-homeresource-80,62,30,700,5,仙女草变异,80,6,977, [326] Bunga Elf,0,3200,0
-homeresource-81,63,120,0,6,星瓶树,81,6,977, [327] Bintang Kaleng,0,3200,700
-homeresource-82,64,120,0,7,星星矿石,82,6,977, [328] Meteorit,700,3200,0
+homeresource-65,56,20,800,5,黄金蒲公英修改,65,4,471, [320] Bunga Dandelion Emas,0,800,0
+homeresource-66,57,80,0,6,黄金吉他树,66,4,471, [321] Bunga Kaktus,0,800,800
+homeresource-67,58,80,0,7,小金人矿石,67,4,471, [322] Racso,800,800,0
+homeresource-68,59,25,1000,5,水晶草变异种,68,5,588, [323] Intan Serat,0,1600,0
+homeresource-69,60,100,0,6,音符树变异,69,5,588, [324] Intan Bentuk Nota,0,1600,1000
+homeresource-70,61,100,0,7,熊猫矿石,70,5,588, [325] Intan Bentuk Beruang,1000,1600,0
+homeresource-71,62,30,1200,5,仙女草,71,6,706, [326] Bunga Elf,0,3200,0
+homeresource-72,63,120,0,6,星瓶树变异,72,6,706, [327] Bintang Kaleng,0,3200,1200
+homeresource-73,64,120,0,7,星星矿石变异,73,6,706, [328] Meteorit,1200,3200,0
+homeresource-74,56,20,800,5,变异修改,74,4,471, [320] Bunga Dandelion Emas,0,800,0
+homeresource-75,57,80,0,6,仙人掌吉他变异,75,4,471, [321] Bunga Kaktus,0,800,800
+homeresource-76,58,80,0,7,小金人矿石变异,76,4,471, [322] Racso,800,800,0
+homeresource-77,59,25,1000,5,水晶草,77,5,588, [323] Intan Serat,0,1600,0
+homeresource-78,60,100,0,6,音符树,78,5,588, [324] Intan Bentuk Nota,0,1600,1000
+homeresource-79,61,100,0,7,熊猫矿石变异,79,5,588, [325] Intan Bentuk Beruang,1000,1600,0
+homeresource-80,62,30,1200,5,仙女草变异,80,6,706, [326] Bunga Elf,0,3200,0
+homeresource-81,63,120,0,6,星瓶树,81,6,706, [327] Bintang Kaleng,0,3200,1200
+homeresource-82,64,120,0,7,星星矿石,82,6,706, [328] Meteorit,1200,3200,0
