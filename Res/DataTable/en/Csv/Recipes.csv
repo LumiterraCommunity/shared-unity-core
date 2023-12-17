@@ -23,7 +23,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Crafting Lv 0 Advanced Yield-Boosting Fertilizer,2,recipe-icon-102,102,2,"61,2;35,5",Lv 0 Advanced Yield-Boosting Fertilizer Recipe,"132,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Crafting Lv 0 Advanced Accelerated Fertilizer,2,recipe-icon-103,103,2,"65,2;35,5",Lv 0 Advanced Accelerated Fertilizer Recipe,"131,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Crafting Lv 0 Talisman,2,recipe-icon-104,104,1,"32,20;71,40;58,40;62,40;66,40",Lv 0 Talisman Recipe,"161,1,1,4736;161,2,1,3157;161,3,1,2105",0,2,1,10,0,0,4,0,100
-0,Crafting Lv 0 Talisman,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40",Lv 0 Talisman Recipe,"161,2,1,4153;161,3,1,2769;161,4,1,1846;161,5,1,1230",0,2,1,10,0,0,4,0,200
+0,Crafting Lv 0 Talisman,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40",Lv 0 Talisman Recipe,"161,2,1,4426;161,3,1,2950;161,4,1,1967;161,5,1,655",0,2,1,10,0,0,4,0,200
 0,Crafting Lv 1 Lucky Clover Hat ,2,recipe-icon-108,108,1,"207,2",Lv 1 Lucky Clover Hat Recipe,"98,1,1,9101;267,5,1,898",0,2,1,10,1,0,4,0,0
 0,Crafting Lv 2 Lucky Cotton Hat,2,recipe-icon-109,109,2,"216,2;208,2",Lv 1 Lucky Cotton Hat Recipe,"99,1,1,5664;99,2,1,3776;262,5,1,559",0,2,1,10,1,0,4,0,0
 0,Crafting Lv 3 Lucky Hard Hat ,2,recipe-icon-110,110,3,"217,2;209,2",Lv 3 Lucky Hard Hat Recipe,"100,1,1,4525;100,2,1,3016;100,3,1,2011;272,5,1,446",0,2,1,10,1,0,4,0,5
@@ -102,9 +102,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Crafting Lv 0 Better Accelerated Fertilizer,2,recipe-icon-197,197,2,"69,2;35,5",Lv 0 Better Accelerated Fertilizer Recipe,"219,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Crafting Lv 0 Better Yield-Boosting Fertilizer,2,recipe-icon-198,198,2,"61,2;35,5",Lv 0 Better Yield-Boosting Fertilizer Recipe,"220,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Crafting Lv 0 Better Moist Fertilizer,2,recipe-icon-199,199,2,"65,2;35,5",Lv 0 Better Moisturizing Fertilizer Recipe,"221,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Crafting Lv 1 Stone Sickle,2,recipe-icon-201,201,1,"62,10;58,10",Lv 1 Stone Sickle Recipe,"225,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Crafting Lv 2 Copper Sickle,2,recipe-icon-203,203,2,"216,2",Lv 2 Copper Sickle Recipe,"226,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Crafting Lv 3 Iron Sickle,2,recipe-icon-204,204,3,"210,1;213,1;217,2",Lv 3 Iron Sickle Recipe,"227,1,1,10000",0,1,1,10,3,0,4,0,5
+0,Crafting Lv 1 Stone Sickle,2,recipe-icon-201,201,1,"62,10;58,10",Lv 1 Copper Sickle Recipe,"226,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Crafting Lv 2 Copper Sickle,2,recipe-icon-203,203,2,"216,2",Lv 2 Iron Sickle Recipe,"227,1,1,10000",0,1,1,10,3,0,4,0,0
+0,Crafting Lv 3 Iron Sickle,2,recipe-icon-204,204,3,"210,1;213,1;217,2",Lv 3 Blessing Sickle Recipe,"228,1,1,10000",0,1,1,10,3,0,4,0,5
 0,Crafting Lv 0 Small Feed,2,recipe-icon-205,205,0,"62,10;66,10",Lv 0 Small Feed Recipe,"28,1,1,10000",0,1,0,10,1,1,1,0,0
 0,Making Lv 0 Large Feed,2,recipe-icon-206,206,1,"66,40;62,20",Lv 0 Big Feed Recipe,"29,1,1,10000",0,1,0,10,1,0,4,0,0
 0,Crafting Lv 0 Wooden Bow,2,recipe-icon-207,207,0,"62,20;66,10",Lv 0 Wood Bow Recipe,"223,1,1,10000",0,1,1,10,2,1,1,0,0
@@ -125,7 +125,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Golden Fighter Glove Recipe,2,recipe-icon-273,273,4,"209,2;407,1;410,1",Golden Fighter Glove Recipe,"337,1,1,3990;337,2,1,2660;337,3,1,1773;337,4,1,1182;243,5,1,394",0,2,1,30,2,0,4,0,10
 0,Golden Fighter Pants Recipe,2,recipe-icon-274,274,4,"209,2;407,1;410,1",Golden Fighter Pants Recipe,"338,1,1,3990;338,2,1,2660;338,3,1,1773;338,4,1,1182;244,5,1,394",0,2,1,30,2,0,4,0,10
 0,Golden Fighter Shoes Recipe,2,recipe-icon-275,275,4,"209,2;407,1;410,1",Golden Fighter Shoes Recipe,"339,1,1,3990;339,2,1,2660;339,3,1,1773;339,4,1,1182;245,5,1,394",0,2,1,30,2,0,4,0,10
-0,Golden Sickle Recipe,2,recipe-icon-276,276,4,"212,1;215,1;401,2",Golden Sickle Recipe,"229,1,1,2934;303,1,1,2934;303,2,1,1956;303,3,1,1304;303,4,1,869",0,3,1,30,3,0,4,0,10
+0,Golden Sickle Recipe,2,recipe-icon-276,276,4,"212,1;215,1;401,2",Golden Sickle Recipe,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,3,1,30,3,0,4,0,10
 0,Golden Axe Recipe,2,recipe-icon-277,277,4,"212,1;215,1;401,2",Golden Axe Recipe,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,3,1,30,3,0,4,0,10
 0,Golden Gather Hat Recipe,2,recipe-icon-279,279,4,"212,1;215,1;401,2",Golden Gather Hat Recipe,"320,1,1,3990;320,2,1,2660;320,3,1,1773;320,4,1,1182;241,5,1,394",0,2,1,30,3,0,4,0,10
 0,Golden Pickaxe Recipe,2,recipe-icon-278,278,4,"212,1;215,1;401,2",Golden Pickaxe Recipe,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,3,1,30,3,0,4,0,10
@@ -139,46 +139,46 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Golden Gather Pants Recipe,2,recipe-icon-288,288,4,"212,1;215,1;401,2",Golden Gather Pants Recipe,"323,1,1,3990;323,2,1,2660;323,3,1,1773;323,4,1,1182;244,5,1,394",0,2,1,30,3,0,4,0,10
 0,Golden Gather Shoes Recipe,2,recipe-icon-289,289,4,"212,1;215,1;401,2",Golden Gather Shoes Recipe,"324,1,1,3990;324,2,1,2660;324,3,1,1773;324,4,1,1182;245,5,1,394",0,2,1,30,3,0,4,0,10
 0,Golden Farmer Shoes Recipe,2,recipe-icon-291,291,4,"218,2;404,2",Golden Farmer Shoes Recipe,"354,1,1,3990;354,2,1,2660;354,3,1,1773;354,4,1,1182;245,5,1,394",0,2,1,30,1,0,4,0,10
-0,Diamond Sword Recipe,2,recipe-icon-292,292,5,"404,2;408,1;411,1",Diamond Sword Recipe,"318,1,1,3838;318,2,1,2559;318,3,1,1706;318,4,1,1137;318,5,1,758",0,3,1,90,2,0,4,0,15
-0,Diamond Fighter Hat Recipe,2,recipe-icon-293,293,5,"404,2;408,1;411,1",Diamond Fighter Hat Recipe,"340,1,1,3698;340,2,1,2465;340,3,1,1643;340,4,1,1095;340,5,1,730;277,5,1,365",0,2,1,90,2,0,4,0,15
-0,Diamond Fighter Coat Recipe,2,recipe-icon-294,294,5,"404,2;408,1;411,1",Diamond Fighter Coat Recipe,"341,1,1,3698;341,2,1,2465;341,3,1,1643;341,4,1,1095;341,5,1,730;278,5,1,365",0,2,1,90,2,0,4,0,15
-0,Diamond Fighter Glove Recipe,2,recipe-icon-295,295,5,"404,2;408,1;411,1",Diamond Fighter Glove Recipe,"342,1,1,3698;342,2,1,2465;342,3,1,1643;342,4,1,1095;342,5,1,730;279,5,1,365",0,2,1,90,2,0,4,0,15
-0,Diamond Fighter Pants Recipe,2,recipe-icon-296,296,5,"404,2;408,1;411,1",Diamond Fighter Pants Recipe,"343,1,1,3698;343,2,1,2465;343,3,1,1643;343,4,1,1095;343,5,1,730;280,5,1,365",0,2,1,90,2,0,4,0,15
-0,Diamond Fighter Shoes Recipe,2,recipe-icon-297,297,5,"404,2;408,1;411,1",Diamond Fighter Shoes Recipe,"344,1,1,3698;344,2,1,2465;344,3,1,1643;344,4,1,1095;344,5,1,730;281,5,1,365",0,2,1,90,2,0,4,0,15
-0,Diamond Sickle Recipe,2,recipe-icon-298,298,5,"407,1;410,1;402,2",Diamond Sickle Recipe,"309,1,1,3838;309,2,1,2559;309,3,1,1706;309,4,1,1137;309,5,1,758",0,3,1,90,3,0,4,0,15
-0,Diamond Axe Recipe,2,recipe-icon-299,299,5,"407,1;410,1;402,2",Diamond Axe Recipe,"306,1,1,3838;306,2,1,2559;306,3,1,1706;306,4,1,1137;306,5,1,758",0,3,1,90,3,0,4,0,15
-0,Diamond Pickaxe Recipe,2,recipe-icon-300,300,5,"407,1;410,1;402,2",Diamond Pickaxe Recipe,"307,1,1,3838;307,2,1,2559;307,3,1,1706;307,4,1,1137;307,5,1,758",0,3,1,90,3,0,4,0,15
-0,Diamond Gather Hat Recipe,2,recipe-icon-301,301,5,"407,1;410,1;402,2",Diamond Gather Hat Recipe,"325,1,1,3698;325,2,1,2465;325,3,1,1643;325,4,1,1095;325,5,1,730;277,5,1,365",0,2,1,90,3,0,4,0,15
-0,Diamond Gather Coat Recipe,2,recipe-icon-302,302,5,"407,1;410,1;402,2",Diamond Gather Coat Recipe,"326,1,1,3698;326,2,1,2465;326,3,1,1643;326,4,1,1095;326,5,1,730;278,5,1,365",0,2,1,90,3,0,4,0,15
-0,Diamond Gather Glove Recipe,2,recipe-icon-303,303,5,"407,1;410,1;402,2",Diamond Gather Glove Recipe,"327,1,1,3698;327,2,1,2465;327,3,1,1643;327,4,1,1095;327,5,1,730;279,5,1,365",0,2,1,90,3,0,4,0,15
-0,Diamond Gather Pants Recipe,2,recipe-icon-304,304,5,"407,1;410,1;402,2",Diamond Gather Pants Recipe,"328,1,1,3698;328,2,1,2465;328,3,1,1643;328,4,1,1095;328,5,1,730;280,5,1,365",0,2,1,90,3,0,4,0,15
-0,Diamond Gather Shoes Recipe,2,recipe-icon-305,305,5,"407,1;410,1;402,2",Diamond Gather Shoes Recipe,"329,1,1,3698;329,2,1,2465;329,3,1,1643;329,4,1,1095;329,5,1,730;281,5,1,365",0,2,1,90,3,0,4,0,15
-0,Diamond Hoe Recipe,2,recipe-icon-306,306,5,"401,2;405,2",Diamond Hoe Recipe,"305,1,1,3838;305,2,1,2559;305,3,1,1706;305,4,1,1137;305,5,1,758",0,3,1,90,1,0,4,0,15
-0,Diamond Farmer Hat Recipe,2,recipe-icon-308,308,5,"401,2;405,2",Diamond Farmer Hat Recipe,"355,1,1,3698;355,2,1,2465;355,3,1,1643;355,4,1,1095;355,5,1,730;277,5,1,365",0,2,1,90,1,0,4,0,15
-0,Diamond Farmer Coat Recipe,2,recipe-icon-309,309,5,"401,2;405,2",Diamond Farmer Coat Recipe,"356,1,1,3698;356,2,1,2465;356,3,1,1643;356,4,1,1095;356,5,1,730;279,5,1,365",0,2,1,90,1,0,4,0,15
-0,Diamond Farmer Glove Recipe,2,recipe-icon-310,310,5,"401,2;405,2",Diamond Farmer Glove Recipe,"357,1,1,3698;357,2,1,2465;357,3,1,1643;357,4,1,1095;357,5,1,730;278,5,1,365",0,2,1,90,1,0,4,0,15
-0,Diamond Farmer Pants Recipe,2,recipe-icon-311,311,5,"401,2;405,2",Diamond Farmer Pants Recipe,"358,1,1,3698;358,2,1,2465;358,3,1,1643;358,4,1,1095;358,5,1,730;280,5,1,365",0,2,1,90,1,0,4,0,15
-0,Diamond Farmer Shoes Recipe,2,recipe-icon-312,312,5,"401,2;405,2",Diamond Farmer Shoes Recipe,"359,1,1,3698;359,2,1,2465;359,3,1,1643;359,4,1,1095;359,5,1,730;281,5,1,365",0,2,1,90,1,0,4,0,15
-0,Star Sword Recipe,2,recipe-icon-313,313,6,"405,2;409,1;412,1",Star Sword Recipe,"319,1,1,3838;319,2,1,2559;319,3,1,1706;319,4,1,1137;319,5,1,758",0,3,1,270,2,0,4,0,20
-0,Star Fighter Hat Recipe,2,recipe-icon-314,314,6,"405,2;409,1;412,1",Star Fighter Hat Recipe,"345,1,1,3698;345,2,1,2465;345,3,1,1643;345,4,1,1095;345,5,1,730;471,5,1,365",0,2,1,270,2,0,4,0,20
-0,Star Fighter Coat Recipe,2,recipe-icon-315,315,6,"405,2;409,1;412,1",Star Fighter Coat Recipe,"346,1,1,3698;346,2,1,2465;346,3,1,1643;346,4,1,1095;346,5,1,730;472,5,1,365",0,2,1,270,2,0,4,0,20
-0,Star Fighter Glove Recipe,2,recipe-icon-316,316,6,"405,2;409,1;412,1",Star Fighter Glove Recipe,"347,1,1,3698;347,2,1,2465;347,3,1,1643;347,4,1,1095;347,5,1,730;473,5,1,365",0,2,1,270,2,0,4,0,20
-0,Star Fighter Pants Recipe,2,recipe-icon-317,317,6,"405,2;409,1;412,1",Star Fighter Pants Recipe,"348,1,1,3698;348,2,1,2465;348,3,1,1643;348,4,1,1095;348,5,1,730;474,5,1,365",0,2,1,270,2,0,4,0,20
-0,Star Fighter Shoes Recipe,2,recipe-icon-318,318,6,"405,2;409,1;412,1",Star Fighter Shoes Recipe,"349,1,1,3698;349,2,1,2465;349,3,1,1643;349,4,1,1095;349,5,1,730;475,5,1,365",0,2,1,270,2,0,4,0,20
-0,Star Sickle Recipe,2,recipe-icon-319,319,6,"408,1;411,1;403,2",Star Sickle Recipe,"315,1,1,3838;315,2,1,2559;315,3,1,1706;315,4,1,1137;315,5,1,758",0,3,1,270,3,0,4,0,20
-0,Star Axe Recipe,2,recipe-icon-320,320,6,"408,1;411,1;403,2",Star Axe Recipe,"312,1,1,3838;312,2,1,2559;312,3,1,1706;312,4,1,1137;312,5,1,758",0,3,1,270,3,0,4,0,20
-0,Star Pickaxe Recipe,2,recipe-icon-321,321,6,"408,1;411,1;403,2",Star Pickaxe Recipe,"313,1,1,3838;313,2,1,2559;313,3,1,1706;313,4,1,1137;313,5,1,758",0,3,1,270,3,0,4,0,20
-0,Star Gather Coat Recipe,2,recipe-icon-323,323,6,"408,1;411,1;403,2",Star Gather Coat Recipe,"331,1,1,3698;331,2,1,2465;331,3,1,1643;331,4,1,1095;331,5,1,730;472,5,1,365",0,2,1,270,3,0,4,0,20
-0,Star Gather Hat Recipe,2,recipe-icon-322,322,6,"408,1;411,1;403,2",Star Gather Hat Recipe,"330,1,1,3698;330,2,1,2465;330,3,1,1643;330,4,1,1095;330,5,1,730;471,5,1,365",0,2,1,270,3,0,4,0,20
-0,Star Gather Glove Recipe,2,recipe-icon-324,324,6,"408,1;411,1;403,2",Star Gather Glove Recipe,"332,1,1,3698;332,2,1,2465;332,3,1,1643;332,4,1,1095;332,5,1,730;473,5,1,365",0,2,1,270,3,0,4,0,20
-0,Star Gather Pants Recipe,2,recipe-icon-325,325,6,"408,1;411,1;403,2",Star Gather Pants Recipe,"333,1,1,3698;333,2,1,2465;333,3,1,1643;333,4,1,1095;333,5,1,730;474,5,1,365",0,2,1,270,3,0,4,0,20
-0,Star Hoe Recipe,2,recipe-icon-327,327,6,"402,2;406,2",Star Hoe Recipe,"311,1,1,3838;311,2,1,2559;311,3,1,1706;311,4,1,1137;311,5,1,758",0,3,1,270,1,0,4,0,20
-0,Star Gather Shoes Recipe,2,recipe-icon-326,326,6,"408,1;411,1;403,2",Star Gather Shoes Recipe,"334,1,1,3698;334,2,1,2465;334,3,1,1643;334,4,1,1095;334,5,1,730;475,5,1,365",0,2,1,270,3,0,4,0,20
-0,Star Farmer Coat Recipe,2,recipe-icon-330,330,6,"402,2;406,2",Star Farmer Coat Recipe,"361,1,1,3698;361,2,1,2465;361,3,1,1643;361,4,1,1095;361,5,1,730;473,5,1,365",0,2,1,270,1,0,4,0,20
-0,Star Farmer Hat Recipe,2,recipe-icon-329,329,6,"402,2;406,2",Star Farmer Hat Recipe,"360,1,1,3698;360,2,1,2465;360,3,1,1643;360,4,1,1095;360,5,1,730;471,5,1,365",0,2,1,270,1,0,4,0,20
-0,Star Farmer Glove Recipe,2,recipe-icon-331,331,6,"402,2;406,2",Star Farmer Glove Recipe,"362,1,1,3698;362,2,1,2465;362,3,1,1643;362,4,1,1095;362,5,1,730;472,5,1,365",0,2,1,270,1,0,4,0,20
-0,Star Farmer Pants Recipe,2,recipe-icon-332,332,6,"402,2;406,2",Star Farmer Pants Recipe,"363,1,1,3698;363,2,1,2465;363,3,1,1643;363,4,1,1095;363,5,1,730;474,5,1,365",0,2,1,270,1,0,4,0,20
-0,Star Farmer Shoes Recipe,2,recipe-icon-333,333,6,"402,2;406,2",Star Farmer Shoes Recipe,"364,1,1,3698;364,2,1,2465;364,3,1,1643;364,4,1,1095;364,5,1,730;475,5,1,365",0,2,1,270,1,0,4,0,20
+0,Diamond Sword Recipe,2,recipe-icon-292,292,5,"404,2;408,1;411,1",Diamond Sword Recipe,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",0,3,1,90,2,0,4,0,15
+0,Diamond Fighter Hat Recipe,2,recipe-icon-293,293,5,"404,2;408,1;411,1",Diamond Fighter Hat Recipe,"340,1,1,3838;340,2,1,2559;340,3,1,1706;340,4,1,1137;340,5,1,379;277,5,1,379",0,2,1,90,2,0,4,0,15
+0,Diamond Fighter Coat Recipe,2,recipe-icon-294,294,5,"404,2;408,1;411,1",Diamond Fighter Coat Recipe,"341,1,1,3838;341,2,1,2559;341,3,1,1706;341,4,1,1137;341,5,1,379;278,5,1,379",0,2,1,90,2,0,4,0,15
+0,Diamond Fighter Glove Recipe,2,recipe-icon-295,295,5,"404,2;408,1;411,1",Diamond Fighter Glove Recipe,"342,1,1,3838;342,2,1,2559;342,3,1,1706;342,4,1,1137;342,5,1,379;279,5,1,379",0,2,1,90,2,0,4,0,15
+0,Diamond Fighter Pants Recipe,2,recipe-icon-296,296,5,"404,2;408,1;411,1",Diamond Fighter Pants Recipe,"343,1,1,3838;343,2,1,2559;343,3,1,1706;343,4,1,1137;343,5,1,379;280,5,1,379",0,2,1,90,2,0,4,0,15
+0,Diamond Fighter Shoes Recipe,2,recipe-icon-297,297,5,"404,2;408,1;411,1",Diamond Fighter Shoes Recipe,"344,1,1,3838;344,2,1,2559;344,3,1,1706;344,4,1,1137;344,5,1,379;281,5,1,379",0,2,1,90,2,0,4,0,15
+0,Diamond Sickle Recipe,2,recipe-icon-298,298,5,"407,1;410,1;402,2",Diamond Sickle Recipe,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,3,1,90,3,0,4,0,15
+0,Diamond Axe Recipe,2,recipe-icon-299,299,5,"407,1;410,1;402,2",Diamond Axe Recipe,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,3,1,90,3,0,4,0,15
+0,Diamond Pickaxe Recipe,2,recipe-icon-300,300,5,"407,1;410,1;402,2",Diamond Pickaxe Recipe,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",0,3,1,90,3,0,4,0,15
+0,Diamond Gather Hat Recipe,2,recipe-icon-301,301,5,"407,1;410,1;402,2",Diamond Gather Hat Recipe,"325,1,1,3838;325,2,1,2559;325,3,1,1706;325,4,1,1137;325,5,1,379;277,5,1,379",0,2,1,90,3,0,4,0,15
+0,Diamond Gather Coat Recipe,2,recipe-icon-302,302,5,"407,1;410,1;402,2",Diamond Gather Coat Recipe,"326,1,1,3838;326,2,1,2559;326,3,1,1706;326,4,1,1137;326,5,1,379;278,5,1,379",0,2,1,90,3,0,4,0,15
+0,Diamond Gather Glove Recipe,2,recipe-icon-303,303,5,"407,1;410,1;402,2",Diamond Gather Glove Recipe,"327,1,1,3838;327,2,1,2559;327,3,1,1706;327,4,1,1137;327,5,1,379;279,5,1,379",0,2,1,90,3,0,4,0,15
+0,Diamond Gather Pants Recipe,2,recipe-icon-304,304,5,"407,1;410,1;402,2",Diamond Gather Pants Recipe,"328,1,1,3838;328,2,1,2559;328,3,1,1706;328,4,1,1137;328,5,1,379;280,5,1,379",0,2,1,90,3,0,4,0,15
+0,Diamond Gather Shoes Recipe,2,recipe-icon-305,305,5,"407,1;410,1;402,2",Diamond Gather Shoes Recipe,"329,1,1,3838;329,2,1,2559;329,3,1,1706;329,4,1,1137;329,5,1,379;281,5,1,379",0,2,1,90,3,0,4,0,15
+0,Diamond Hoe Recipe,2,recipe-icon-306,306,5,"401,2;405,2",Diamond Hoe Recipe,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,3,1,90,1,0,4,0,15
+0,Diamond Farmer Hat Recipe,2,recipe-icon-308,308,5,"401,2;405,2",Diamond Farmer Hat Recipe,"355,1,1,3838;355,2,1,2559;355,3,1,1706;355,4,1,1137;355,5,1,379;277,5,1,379",0,2,1,90,1,0,4,0,15
+0,Diamond Farmer Coat Recipe,2,recipe-icon-309,309,5,"401,2;405,2",Diamond Farmer Coat Recipe,"356,1,1,3838;356,2,1,2559;356,3,1,1706;356,4,1,1137;356,5,1,379;279,5,1,379",0,2,1,90,1,0,4,0,15
+0,Diamond Farmer Glove Recipe,2,recipe-icon-310,310,5,"401,2;405,2",Diamond Farmer Glove Recipe,"357,1,1,3838;357,2,1,2559;357,3,1,1706;357,4,1,1137;357,5,1,379;278,5,1,379",0,2,1,90,1,0,4,0,15
+0,Diamond Farmer Pants Recipe,2,recipe-icon-311,311,5,"401,2;405,2",Diamond Farmer Pants Recipe,"358,1,1,3838;358,2,1,2559;358,3,1,1706;358,4,1,1137;358,5,1,379;280,5,1,379",0,2,1,90,1,0,4,0,15
+0,Diamond Farmer Shoes Recipe,2,recipe-icon-312,312,5,"401,2;405,2",Diamond Farmer Shoes Recipe,"359,1,1,3838;359,2,1,2559;359,3,1,1706;359,4,1,1137;359,5,1,379;281,5,1,379",0,2,1,90,1,0,4,0,15
+0,Star Sword Recipe,2,recipe-icon-313,313,6,"405,2;409,1;412,1",Star Sword Recipe,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,3,1,270,2,0,4,0,20
+0,Star Fighter Hat Recipe,2,recipe-icon-314,314,6,"405,2;409,1;412,1",Star Fighter Hat Recipe,"345,1,1,3838;345,2,1,2559;345,3,1,1706;345,4,1,1137;345,5,1,379;471,5,1,379",0,2,1,270,2,0,4,0,20
+0,Star Fighter Coat Recipe,2,recipe-icon-315,315,6,"405,2;409,1;412,1",Star Fighter Coat Recipe,"346,1,1,3838;346,2,1,2559;346,3,1,1706;346,4,1,1137;346,5,1,379;472,5,1,379",0,2,1,270,2,0,4,0,20
+0,Star Fighter Glove Recipe,2,recipe-icon-316,316,6,"405,2;409,1;412,1",Star Fighter Glove Recipe,"347,1,1,3838;347,2,1,2559;347,3,1,1706;347,4,1,1137;347,5,1,379;473,5,1,379",0,2,1,270,2,0,4,0,20
+0,Star Fighter Pants Recipe,2,recipe-icon-317,317,6,"405,2;409,1;412,1",Star Fighter Pants Recipe,"348,1,1,3838;348,2,1,2559;348,3,1,1706;348,4,1,1137;348,5,1,379;474,5,1,379",0,2,1,270,2,0,4,0,20
+0,Star Fighter Shoes Recipe,2,recipe-icon-318,318,6,"405,2;409,1;412,1",Star Fighter Shoes Recipe,"349,1,1,3838;349,2,1,2559;349,3,1,1706;349,4,1,1137;349,5,1,379;475,5,1,379",0,2,1,270,2,0,4,0,20
+0,Star Sickle Recipe,2,recipe-icon-319,319,6,"408,1;411,1;403,2",Star Sickle Recipe,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,3,1,270,3,0,4,0,20
+0,Star Axe Recipe,2,recipe-icon-320,320,6,"408,1;411,1;403,2",Star Axe Recipe,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,3,1,270,3,0,4,0,20
+0,Star Pickaxe Recipe,2,recipe-icon-321,321,6,"408,1;411,1;403,2",Star Pickaxe Recipe,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,3,1,270,3,0,4,0,20
+0,Star Gather Coat Recipe,2,recipe-icon-323,323,6,"408,1;411,1;403,2",Star Gather Coat Recipe,"331,1,1,3838;331,2,1,2559;331,3,1,1706;331,4,1,1137;331,5,1,379;472,5,1,379",0,2,1,270,3,0,4,0,20
+0,Star Gather Hat Recipe,2,recipe-icon-322,322,6,"408,1;411,1;403,2",Star Gather Hat Recipe,"330,1,1,3838;330,2,1,2559;330,3,1,1706;330,4,1,1137;330,5,1,379;471,5,1,379",0,2,1,270,3,0,4,0,20
+0,Star Gather Glove Recipe,2,recipe-icon-324,324,6,"408,1;411,1;403,2",Star Gather Glove Recipe,"332,1,1,3838;332,2,1,2559;332,3,1,1706;332,4,1,1137;332,5,1,379;473,5,1,379",0,2,1,270,3,0,4,0,20
+0,Star Gather Pants Recipe,2,recipe-icon-325,325,6,"408,1;411,1;403,2",Star Gather Pants Recipe,"333,1,1,3838;333,2,1,2559;333,3,1,1706;333,4,1,1137;333,5,1,379;474,5,1,379",0,2,1,270,3,0,4,0,20
+0,Star Hoe Recipe,2,recipe-icon-327,327,6,"402,2;406,2",Star Hoe Recipe,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,3,1,270,1,0,4,0,20
+0,Star Gather Shoes Recipe,2,recipe-icon-326,326,6,"408,1;411,1;403,2",Star Gather Shoes Recipe,"334,1,1,3838;334,2,1,2559;334,3,1,1706;334,4,1,1137;334,5,1,379;475,5,1,379",0,2,1,270,3,0,4,0,20
+0,Star Farmer Coat Recipe,2,recipe-icon-330,330,6,"402,2;406,2",Star Farmer Coat Recipe,"361,1,1,3838;361,2,1,2559;361,3,1,1706;361,4,1,1137;361,5,1,379;473,5,1,379",0,2,1,270,1,0,4,0,20
+0,Star Farmer Hat Recipe,2,recipe-icon-329,329,6,"402,2;406,2",Star Farmer Hat Recipe,"360,1,1,3838;360,2,1,2559;360,3,1,1706;360,4,1,1137;360,5,1,379;471,5,1,379",0,2,1,270,1,0,4,0,20
+0,Star Farmer Glove Recipe,2,recipe-icon-331,331,6,"402,2;406,2",Star Farmer Glove Recipe,"362,1,1,3838;362,2,1,2559;362,3,1,1706;362,4,1,1137;362,5,1,379;472,5,1,379",0,2,1,270,1,0,4,0,20
+0,Star Farmer Pants Recipe,2,recipe-icon-332,332,6,"402,2;406,2",Star Farmer Pants Recipe,"363,1,1,3838;363,2,1,2559;363,3,1,1706;363,4,1,1137;363,5,1,379;474,5,1,379",0,2,1,270,1,0,4,0,20
+0,Star Farmer Shoes Recipe,2,recipe-icon-333,333,6,"402,2;406,2",Star Farmer Shoes Recipe,"364,1,1,3838;364,2,1,2559;364,3,1,1706;364,4,1,1137;364,5,1,379;475,5,1,379",0,2,1,270,1,0,4,0,20
 0,Lv 4 Agricultural Planting Essence Recipe,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2",Lv 4 Agricultural Planting Essence Recipe,"407,1,1,10000",0,1,1,30,1,0,4,0,0
 0,Lv 5 Agricultural Planting Essence Recipe,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2",Lv 5 Agricultural Planting Essence Recipe,"408,1,1,10000",0,1,1,90,1,0,4,0,0
 0,Lv 6 Agricultural Planting Essence Recipe,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2",Lv 6 Agricultural Planting Essence Recipe,"409,1,1,10000",0,1,1,270,1,0,4,0,0
@@ -198,20 +198,20 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Lv 2 Iron Hammer Recipe,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Lv 2 Iron Hammer Recipe,"442,1,1,6000;442,2,1,4000",0,3,1,10,2,0,4,0,0
 0,Lv 4 Golden Hammer Recipe,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Lv 4 Golden Hammer Recipe,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,3,1,30,2,0,4,0,10
 0,Lv 3 Crystal Hammer Recipe,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Lv 3 Crystal Hammer Recipe,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,3,1,10,2,0,4,0,5
-0,Lv 5 Diamond Hammer Recipe,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Lv 5 Diamond Hammer Recipe,"445,1,1,3838;445,2,1,2559;445,3,1,1706;445,4,1,1137;445,5,1,758",0,3,1,90,2,0,4,0,15
-0,Lv 6 Starlight Hammer Recipe,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Lv 6 Starlight Hammer Recipe,"446,1,1,3838;446,2,1,2559;446,3,1,1706;446,4,1,1137;446,5,1,758",0,3,1,270,2,0,4,0,20
+0,Lv 5 Diamond Hammer Recipe,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Lv 5 Diamond Hammer Recipe,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,3,1,90,2,0,4,0,15
+0,Lv 6 Starlight Hammer Recipe,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Lv 6 Starlight Hammer Recipe,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,3,1,270,2,0,4,0,20
 0,Lv 1 Stone Bow Recipe,2,recipe-icon-370,370,1,"210,1;213,1",Lv 1 Stone Bow Recipe,"287,1,1,10000",0,3,1,10,2,0,4,0,0
 0,Lv 2 Metal Bow Recipe,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Lv 2 Metal Bow Recipe,"288,1,1,6000;288,2,1,4000",0,3,1,10,2,0,4,0,0
 0,Lv 3 Crystal Bow Recipe,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Lv 3 Crystal Bow Recipe,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,3,1,10,2,0,4,0,5
 0,Lv 4 Golden Bow Recipe,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Lv 4 Golden Bow Recipe,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Lv 5 Diamond Bow Recipe,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Lv 5 Diamond Bow Recipe,"451,1,1,3838;451,2,1,2559;451,3,1,1706;451,4,1,1137;451,5,1,758",0,3,1,90,2,0,4,0,15
-0,Lv 6 Starlight Bow Recipe,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Lv 6 Starlight Bow Recipe,"452,1,1,3838;452,2,1,2559;452,3,1,1706;452,4,1,1137;452,5,1,758",0,3,1,270,2,0,4,0,20
+0,Lv 5 Diamond Bow Recipe,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Lv 5 Diamond Bow Recipe,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,3,1,90,2,0,4,0,15
+0,Lv 6 Starlight Bow Recipe,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Lv 6 Starlight Bow Recipe,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,3,1,270,2,0,4,0,20
 0,Lv 1 Copper Brush Recipe,2,recipe-icon-376,376,1,"207,2",Lv 1 Copper Brush Recipe,"453,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Lv 2 Iron Brush Recipe,2,recipe-icon-377,377,2,"216,2;208,2",Lv 2 Iron Brush Recipe,"454,1,1,6000;454,2,1,4000",0,3,1,10,1,0,4,0,0
 0,Lv 3 Crystal Brush Recipe,2,recipe-icon-378,378,3,"217,2;209,2",Lv 3 Crystal Brush Recipe,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,3,1,10,1,0,4,0,5
 0,Lv 4 Golden Brush Recipe,2,recipe-icon-379,379,4,"218,2;404,2",Lv 4 Golden Brush Recipe,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,3,1,30,1,0,4,0,10
-0,Lv 5 Diamond Brush Recipe,2,recipe-icon-380,380,5,"401,2;405,2",Lv 5 Diamond Brush Recipe,"457,1,1,3838;457,2,1,2559;457,3,1,1706;457,4,1,1137;457,5,1,758",0,3,1,90,1,0,4,0,15
-0,Lv 6 Starlight Brush Recipe,2,recipe-icon-381,381,6,"402,2;406,2",Lv 6 Starlight Brush Recipe,"458,1,1,3838;458,2,1,2559;458,3,1,1706;458,4,1,1137;458,5,1,758",0,3,1,270,1,0,4,0,20
+0,Lv 5 Diamond Brush Recipe,2,recipe-icon-380,380,5,"401,2;405,2",Lv 5 Diamond Brush Recipe,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,3,1,90,1,0,4,0,15
+0,Lv 6 Starlight Brush Recipe,2,recipe-icon-381,381,6,"402,2;406,2",Lv 6 Starlight Brush Recipe,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,3,1,270,1,0,4,0,20
 0,Energy Restoration Potion - Small Recipe,2,recipe-icon-382,382,4,"375,5;374,10",Energy Restoration Potion - Small Recipe,"459,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Energy Restoration Potion - Medium Recipe,2,recipe-icon-383,383,5,"378,5;377,10",Energy Restoration Potion - Medium Recipe,"460,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Energy Restoration Potion - Big Recipe,2,recipe-icon-384,384,6,"381,5;380,10",Energy Restoration Potion - Big Recipe,"461,1,1,10000",0,1,1,10,3,0,4,0,0
