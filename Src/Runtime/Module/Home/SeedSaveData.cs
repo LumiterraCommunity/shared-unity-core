@@ -23,6 +23,14 @@ public class SeedSaveData
     /// 当前剩余额外浇水次数
     /// </summary>
     public int ExtraWateringNum;
+    /// <summary>
+    /// 当前积累的熟练度值
+    /// </summary>
+    public int CurProficiency;
+    /// <summary>
+    /// 是否需要腐败收获
+    /// </summary>
+    public bool NeedPerish;
 
     public SeedSaveData()
     {
@@ -34,6 +42,8 @@ public class SeedSaveData
         SeedCid = data.SeedCid;
         ManureCid = data.ManureCid;
         ExtraWateringNum = data.ExtraWateringNum;
+        CurProficiency = data.CurProficiency;
+        NeedPerish = data.NeedPerish;
     }
 
     internal ProxySeedData ToProxySeedData()
@@ -44,6 +54,8 @@ public class SeedSaveData
             SeedCid = SeedCid,
             ManureCid = ManureCid,
             ExtraWateringNum = ExtraWateringNum,
+            CurProficiency = CurProficiency,
+            NeedPerish = NeedPerish,
         };
     }
 }

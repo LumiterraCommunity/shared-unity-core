@@ -129,6 +129,10 @@ public static class HomeDefine
         /// 等待收获
         /// </summary>
         Harvest = 1 << 6,
+        /// <summary>
+        /// 腐败收获 不会有产出
+        /// </summary>
+        HarvestPerish = 1 << 7,
     }
 
     /// <summary>

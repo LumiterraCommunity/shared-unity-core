@@ -47,10 +47,17 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
         {
             try
             {
-                int extraWateringNum = (int)actionData;
+                GameMessageCore.WateringResult wateringResult = (GameMessageCore.WateringResult)actionData;
+                int extraWateringNum = wateringResult.ExtraWateringNum;
                 if (extraWateringNum > 0)
                 {
                     SoilData.SaveData.SeedData.ExtraWateringNum = extraWateringNum;
+                }
+                SoilData.SaveData.SeedData.CurProficiency = wateringResult.CurProficiency;
+                SoilData.SaveData.SeedData.NeedPerish = wateringResult.NeedPerish;
+                if (wateringResult.NeedPerish)
+                {
+                    Log.Error($"在播种干涸浇水时种子被标记成腐败收获 id={SoilData.SaveData.Id} cid={SoilData.SaveData.SeedData.SeedCid} curStage={SoilData.SaveData.SeedData.GrowingStage} maxStage={SoilData.SeedGrowStageNum - 1}");//打错误是因为理论上不可能出现 除非配置只有一个生长阶段
                 }
             }
             catch (System.Exception e)
