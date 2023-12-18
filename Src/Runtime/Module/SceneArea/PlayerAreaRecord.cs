@@ -178,8 +178,8 @@ public class PlayerAreaRecord : EntityBaseComponent
         if (lastArea != CurArea)
         {
             Log.Info($"PlayerEnterAreaInfo, playerID:{PlayerID}, curArea:{CurArea}, lastArea:{lastArea}");
-            GFEntryCore.GetModule<SceneAreaMgr>().OnPlayerExitCurSceneCheckArea?.Invoke(PlayerID, lastArea);//离开当前区域事件
-            GFEntryCore.GetModule<SceneAreaMgr>().OnPlayerEnterNewSceneCheckArea?.Invoke(PlayerID, CurArea);//进入新区域事件
+            GFEntryCore.GetModule<SceneAreaMgrCore>().OnPlayerExitCurSceneCheckArea?.Invoke(PlayerID, lastArea);//离开当前区域事件
+            GFEntryCore.GetModule<SceneAreaMgrCore>().OnPlayerEnterNewSceneCheckArea?.Invoke(PlayerID, CurArea);//进入新区域事件
         }
     }
 }

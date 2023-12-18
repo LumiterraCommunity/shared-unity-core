@@ -11,7 +11,7 @@ using System;
 using System.Collections.Generic;
 using UnityGameFramework.Runtime;
 //区域名字
-public class SceneAreaMgr : SceneModuleBase
+public class SceneAreaMgrCore : SceneModuleBase
 {
     /// <summary>
     /// 家进入新的场景的检查区域事件
@@ -61,7 +61,6 @@ public class SceneAreaMgr : SceneModuleBase
     /// </summary>
     public void SetDefaultArea(eSceneArea area)
     {
-        SetCurArea(area);//进入默认区域时，当前区域也要改变
         if (DefaultArea == area)
         {
             return;
