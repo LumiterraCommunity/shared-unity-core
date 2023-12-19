@@ -35,8 +35,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         {
             if (Data != null)
             {
-                _addedSoilResourceRelation = HomeModuleCore.SoilResourceRelation;
-                _addedSoilResourceRelation.AddResourceOnSoil((long)Id, Data.SaveData.Id);
+                AddSoilResourceRelation();
             }
             else
             {
@@ -74,6 +73,27 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         }
 
         GetComponent<HomeActionProgressData>().EndProgressAction();
+    }
+
+    /// <summary>
+    /// 添加家园土地资源关系
+    /// </summary>
+    public void AddSoilResourceRelation()
+    {
+        if (_addedSoilResourceRelation != null)
+        {
+            Log.Error($"家园采集资源 {Id} 已经添加过关系了");
+            return;
+        }
+
+        if (!HomeModuleCore.IsInited)
+        {
+            Log.Error($"添加家园土地资源关系时家园没有初始化 {Id}");
+            return;
+        }
+
+        _addedSoilResourceRelation = HomeModuleCore.SoilResourceRelation;
+        _addedSoilResourceRelation.AddResourceOnSoil((long)Id, Data.SaveData.Id);
     }
 
     public bool CheckSupportAction(eAction action)
