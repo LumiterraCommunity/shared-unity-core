@@ -8,8 +8,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Fabricación Nv 0 Fertilizante Potenciador de Rendimiento,2,recipe-icon-93,93,1,"61,1", Receta de fertilizante que aumenta el rendimiento de nivel 0 ,"129,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Fabricación Nv 2 Caldero Maldito,2,recipe-icon-67,67,2,"216,2;208,2", Receta de tetera maldita de nivel 2 ,"85,2,1,4000;84,1,1,6000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 3 Hacha Bendita,2,recipe-icon-76,76,3,"211,1;214,1;218,2", Receta de hacha bendita de nivel 3 ,"94,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Fabricación Nv 0 Poción de Curación Secundaria,2,recipe-icon-95,95,1,"66,2;32,10", Receta de poción curativa secundaria de nivel 0 ,"134,1,1,1666;135,1,1,1666;136,1,1,1666;137,1,1,1666;139,1,1,1666;138,1,1,1666",0,3,1,10,3,0,4,0,0
-0,Fabricación Nv 1 Poción de Curación,2,recipe-icon-96,96,2,"67,2;75,2;35,5", Receta de poción curativa de nivel 1 ,"140,1,1,1666;142,1,1,1666;141,1,1,1666;143,1,1,1666;145,1,1,1666;144,1,1,1666",0,3,1,10,3,0,4,0,0
+0,Fabricación Nv 0 Poción de Curación Secundaria,2,recipe-icon-95,95,1,"66,5;32,5", Receta de poción curativa secundaria de nivel 0 ,"134,1,1,1666;135,1,1,1666;136,1,1,1666;137,1,1,1666;139,1,1,1666;138,1,1,1666",0,3,1,10,3,0,4,0,0
+0,Fabricación Nv 1 Poción de Curación,2,recipe-icon-96,96,2,"67,2;75,2;35,2", Receta de poción curativa de nivel 1 ,"140,1,1,1666;142,1,1,1666;141,1,1,1666;143,1,1,1666;145,1,1,1666;144,1,1,1666",0,3,1,10,3,0,4,0,0
 0,Fabricación Nv 2 Azada Maldita,2,recipe-icon-63,63,2,"216,2;208,2", Receta de azada maldita de nivel 2 ,"81,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 2 Pico Maldito,2,recipe-icon-71,71,2,"210,1;213,1;217,2", Receta de pico maldito de nivel 2 ,"89,1,1,6000;89,2,1,4000",0,1,1,10,3,0,4,0,0
 0,Fabricación Nv 1 Pico de Hierro,2,recipe-icon-70,70,1,"216,2", Receta de pico de hierro de nivel 1 ,"88,1,1,10000",0,1,1,10,3,0,4,0,0
@@ -19,9 +19,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Fabricación Nv 1 Caldero de Hierro,2,recipe-icon-66,66,1,"207,2", Receta de tetera de hierro de nivel 1 ,"84,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 0 Fertilizante Acelerado,2,recipe-icon-92,92,1,"65,1", Receta de fertilizante acelerado de nivel 0 ,"128,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Fabricación Nv 2 Hacha Maldita,2,recipe-icon-75,75,2,"210,1;213,1;217,2", Receta de hacha maldita de nivel 2 ,"93,1,1,6000;93,2,1,4000",0,1,1,10,3,0,4,0,0
-0,Fabricación Nv 0 Fertilizante Avanzado Hidratante,2,recipe-icon-101,101,2,"69,2;35,5", Receta de fertilizante humectante avanzado de nivel 0 ,"133,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Fabricación Nv 0 Fertilizante Avanzado Potenciador de Rendimiento,2,recipe-icon-102,102,2,"61,2;35,5", Receta de fertilizante que aumenta el rendimiento avanzado de nivel 0 ,"132,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Fabricación Nv 0 Fertilizante Avanzado Acelerado,2,recipe-icon-103,103,2,"65,2;35,5", Receta de fertilizante acelerado avanzado de nivel 0 ,"131,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Fabricación Nv 0 Fertilizante Avanzado Hidratante,2,recipe-icon-101,101,2,"69,2;35,2", Receta de fertilizante humectante avanzado de nivel 0 ,"133,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Fabricación Nv 0 Fertilizante Avanzado Potenciador de Rendimiento,2,recipe-icon-102,102,2,"61,2;35,2", Receta de fertilizante que aumenta el rendimiento avanzado de nivel 0 ,"132,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Fabricación Nv 0 Fertilizante Avanzado Acelerado,2,recipe-icon-103,103,2,"65,2;35,2", Receta de fertilizante acelerado avanzado de nivel 0 ,"131,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Fabricación Nv 0 Talismán,2,recipe-icon-104,104,1,"32,20;71,40;58,40;62,40;66,40", Receta de talismán de nivel 0 ,"161,1,1,4736;161,2,1,3157;161,3,1,2105",0,2,1,10,0,0,4,0,100
 0,Fabricación Nv 0 Talismán,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40", Receta de talismán de nivel 0 ,"161,2,1,4426;161,3,1,2950;161,4,1,1967;161,5,1,655",0,2,1,10,0,0,4,0,200
 0,Fabricación Nv 1 Sombrero Trébol de la Suerte,2,recipe-icon-108,108,1,"207,2", Receta de sombrero de trébol de la suerte de nivel 1 ,"98,1,1,9101;267,5,1,898",0,2,1,10,1,0,4,0,0
@@ -39,7 +39,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Fabricación Nv 3 Semilla de Pimientos Picantes,2,recipe-icon-129,129,3,"76,1", Receta de semillas de pimientos picantes de nivel 3 ,"152,1,2,10000",0,3,1,10,1,0,4,0,0
 0,Fabricación Nv 3 Semilla de Fruta Dura,2,recipe-icon-130,130,3,"77,1", Receta de semillas de frutos duros de nivel 3 ,"153,1,2,10000",0,3,1,10,1,0,4,0,0
 0,Fabricación Nv 3 Semilla de Champiñón Fantasma Azul,2,recipe-icon-131,131,3,"78,1", Receta de semillas de hongo fantasma azul de nivel 3 ,"154,1,2,10000",0,3,1,10,1,0,4,0,0
-0,Fabricación Nv 2 Poción de Curación Cristalizada,2,recipe-icon-132,132,3,"68,2;78,2;38,5", Receta de poción curativa cristalizada de nivel 2 ,"191,1,1,1666;192,1,1,1666;194,1,1,1666;195,1,1,1666;196,1,1,1666;197,1,1,1666",0,3,1,10,3,0,4,0,0
+0,Fabricación Nv 2 Poción de Curación Cristalizada,2,recipe-icon-132,132,3,"68,2;78,2;38,2", Receta de poción curativa cristalizada de nivel 2 ,"191,1,1,1666;192,1,1,1666;194,1,1,1666;195,1,1,1666;196,1,1,1666;197,1,1,1666",0,3,1,10,3,0,4,0,0
 0,Fabricación Nv 1 Anillo de Cabeza de Astilla,2,recipe-icon-133,133,1,"210,1;213,1", Receta de anillo de fragmentos de cristal de nivel 1 ,"43,1,1,9101;267,5,1,898",0,1,1,10,2,0,4,0,0
 0,Fabricación Nv 2 Gorra Suave de Piel de Cristal,2,recipe-icon-134,134,2,"207,2;211,1;214,1", Receta de gorra de piel de cristal suave de nivel 2 ,"44,1,1,5664;44,2,1,3776;262,5,1,559",0,1,1,10,2,0,4,0,0
 0,Fabricación Nv 3 Casco de Cristal,2,recipe-icon-135,135,3,"208,2;212,1;215,1", Receta de casco de cristal de nivel 3 ,"45,1,1,4525;45,2,1,3016;45,3,1,2011;272,5,1,446",0,1,1,10,2,0,4,0,5
@@ -57,13 +57,13 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Fabricación Nv 3 Guanteletes de Cristal,2,recipe-icon-147,147,3,"208,2;212,1;215,1", Receta de guanteletes de cristal de nivel 3 ,"54,1,1,4525;54,2,1,3016;54,3,1,2011;276,5,1,446",0,1,1,10,2,0,4,0,5
 0,Fabricación Nv 1 Esencia de Combate,2,recipe-icon-149,149,1,"30,5;31,5;32,5", Receta de esencia de combate de nivel 1 ,"216,1,1,10000",0,1,1,10,2,0,4,0,0
 0,Fabricación Nv 2 Esencia de Combate,2,recipe-icon-150,150,2,"33,5;35,5;34,5;216,2", Receta de esencia de combate de nivel 2 ,"217,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Fabricación Nv 3 Esencia de Combate,2,recipe-icon-151,151,3,"36,5;37,5;38,5;216,2", Receta de esencia de combate de nivel 3 ,"218,1,1,10000",0,1,1,10,2,0,4,0,0
+0,Fabricación Nv 3 Esencia de Combate,2,recipe-icon-151,151,3,"36,5;37,5;38,5;217,2", Receta de esencia de combate de nivel 3 ,"218,1,1,10000",0,1,1,10,2,0,4,0,0
 0,Fabricación Nv 1 Esencia de Agricultura,2,recipe-icon-152,152,1,"70,5;71,5;72,5", Receta de esencia de plantación agrícola de nivel 1 ,"210,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 2 Esencia de Agricultura,2,recipe-icon-153,153,2,"74,5;73,5;75,5;210,2", Receta de esencia de plantación agrícola de nivel 2 ,"211,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Fabricación Nv 3 Esencia de Agricultura,2,recipe-icon-154,154,3,"76,5;77,5;78,5;210,2", Receta de esencia de plantación agrícola de nivel 3 ,"212,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Fabricación Nv 3 Esencia de Agricultura,2,recipe-icon-154,154,3,"76,5;77,5;78,5;211,2", Receta de esencia de plantación agrícola de nivel 3 ,"212,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 1 Esencia de Ganadería Agrícola,2,recipe-icon-155,155,1,"178,5;179,5;177,5", Receta de esencia de ganadería agrícola de nivel 1 ,"213,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 2 Esencia de Ganadería Agrícola,2,recipe-icon-156,156,2,"182,5;180,5;181,5;213,2", Receta de esencia de ganadería agrícola de nivel 2 ,"214,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Fabricación Nv 3 Esencia de Ganadería Agrícola,2,recipe-icon-157,157,3,"184,5;185,5;183,5;213,2", Receta de esencia de ganadería agrícola de nivel 3 ,"215,1,1,10000",0,1,1,10,1,0,4,0,0
+0,Fabricación Nv 3 Esencia de Ganadería Agrícola,2,recipe-icon-157,157,3,"184,5;185,5;183,5;214,2", Receta de esencia de ganadería agrícola de nivel 3 ,"215,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Fabricación Nv 1 Esencia de Recolección,2,recipe-icon-158,158,1,"62,5;58,5;66,5", Receta de esencia de recolección de nivel 1 ,"207,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Fabricación Nv 2 Esencia de Recolección,2,recipe-icon-159,159,2,"63,5;67,5;59,5;207,2", Receta de esencia de recolección de nivel 2 ,"208,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Fabricación Nv 3 Esencia de Recolección,2,recipe-icon-160,160,3,"64,5;60,5;68,5;208,2", Receta de esencia de recolección de nivel 3 ,"209,1,1,10000",0,1,1,10,3,0,4,0,0
@@ -91,7 +91,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Fabricación Nv 3 Camiseta de Recolección,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Receta de chaqueta de recolección de nivel 3 ,"121,1,1,4525;121,3,1,2011;121,2,1,3016;273,5,1,446",0,2,1,10,3,0,4,0,5
 0,Fabricación Nv 3 Pantalones de Recolección,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Receta de pantalones de recolección de nivel 3 ,"124,1,1,4525;124,3,1,2011;124,2,1,3016;275,5,1,446",0,2,1,10,3,0,4,0,5
 0,Fabricación Nv 3 Guantes de Recolección,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Receta de guantes de recolección de nivel 3 ,"127,1,1,4525;127,2,1,3016;127,3,1,2011;274,5,1,446",0,2,1,10,3,0,4,0,5
-0,Fabricación Nv 0 Espada de Madera,2,recipe-icon-189,189,0,"62,10;32,10", Receta de espada de madera de nivel 0 ,"39,1,1,10000",0,1,1,3,2,1,1,0,0
+0,Fabricación Nv 0 Espada de Madera,2,recipe-icon-189,189,0,"62,10;32,5", Receta de espada de madera de nivel 0 ,"39,1,1,10000",0,1,1,3,2,1,1,0,0
 0,Fabricación Nv 0 Azada de Madera,2,recipe-icon-190,190,0,"62,10;66,10", Receta de azada de madera de nivel 0 ,"79,1,1,10000",0,1,1,3,1,1,1,0,0
 0,Fabricación Nv 0 Cepillo,2,recipe-icon-191,191,0,"62,10;66,10", Receta de cepillo de nivel 0 ,"95,1,1,10000",0,1,1,3,1,1,1,0,0
 0,Fabricación Nv 0 Cortadora de Pelo,2,recipe-icon-192,192,0,"62,10;66,10", Receta de cortadora de pelo de nivel 0 ,"96,1,1,10000",0,1,1,3,1,1,1,0,0
@@ -99,12 +99,12 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Hacer Nv 0 Botella de Agua de Madera,2,recipe-icon-194,194,0,"62,10;66,10", Receta de tetera de madera de nivel 0 ,"83,1,1,10000",0,1,1,3,1,1,1,0,0
 0,Fabricación Nv 0 Hacha de Madera,2,recipe-icon-195,195,0,"62,10;66,10", Receta de hacha de madera de nivel 0 ,"91,1,1,10000",0,1,1,3,3,1,1,0,0
 0,Fabricación Nv 0 Pico de Madera,2,recipe-icon-196,196,0,"62,10;66,10", Receta de pico de madera de nivel 0 ,"87,1,1,10000",0,1,1,10,3,1,1,0,0
-0,Fabricación Nv 0 Fertilizante Acelerado Mejorado,2,recipe-icon-197,197,2,"69,2;35,5", Receta de fertilizante acelerado mejorado de nivel 0 ,"219,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Fabricación Nv 0 Fertilizante Potenciador de Rendimiento Mejorado,2,recipe-icon-198,198,2,"61,2;35,5", Receta de fertilizante que aumenta el rendimiento mejorado de nivel 0 ,"220,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Fabricación Nv 0 Fertilizante Hidratante Mejorado,2,recipe-icon-199,199,2,"65,2;35,5", Receta de fertilizante humectante mejorado de nivel 0 ,"221,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Fabricación Nv 0 Fertilizante Acelerado Mejorado,2,recipe-icon-197,197,2,"69,2;35,2", Receta de fertilizante acelerado mejorado de nivel 0 ,"219,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Fabricación Nv 0 Fertilizante Potenciador de Rendimiento Mejorado,2,recipe-icon-198,198,2,"61,2;35,2", Receta de fertilizante que aumenta el rendimiento mejorado de nivel 0 ,"220,1,1,10000",0,3,1,10,1,0,4,0,0
+0,Fabricación Nv 0 Fertilizante Hidratante Mejorado,2,recipe-icon-199,199,2,"65,2;35,2", Receta de fertilizante humectante mejorado de nivel 0 ,"221,1,1,10000",0,3,1,10,1,0,4,0,0
 0,Fabricación Nv 1 Hoz de Piedra,2,recipe-icon-201,201,1,"62,10;58,10", Receta de guadaña de piedra de nivel 1 ,"226,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Fabricación Nv 2 Hoz de Cobre,2,recipe-icon-203,203,2,"216,2", Receta de guadaña de cobre de nivel 2 ,"227,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Fabricación Nv 3 Hoz de Hierro,2,recipe-icon-204,204,3,"210,1;213,1;217,2", Receta de guadaña de hierro de nivel 3 ,"228,1,1,10000",0,1,1,10,3,0,4,0,5
+0,Fabricación Nv 3 Hoz de Hierro,2,recipe-icon-204,204,3,"217,2;210,1;213,1", Receta de guadaña de hierro de nivel 3 ,"228,1,1,10000",0,1,1,10,3,0,4,0,5
 0,Fabricación Nv 0 Alimento Pequeño,2,recipe-icon-205,205,0,"62,10;66,10", Receta de alimento pequeño de nivel 0 ,"28,1,1,10000",0,1,0,10,1,1,1,0,0
 0,Hacer Nv 0 Alimento Grande,2,recipe-icon-206,206,1,"66,40;62,20", Receta de gran alimento de nivel 0 ,"29,1,1,10000",0,1,0,10,1,0,4,0,0
 0,Fabricación Nv 0 Arco de Madera,2,recipe-icon-207,207,0,"62,20;66,10", Receta de arco de madera de nivel 0 ,"223,1,1,10000",0,1,1,10,2,1,1,0,0
@@ -188,7 +188,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Vacío,2,recipe-icon-340,340,4,"365,5;366,5;367,5;218,2", Receta de esencia de combate de nivel 4,"401,1,1,10000",0,1,1,30,2,0,4,0,0
 0,Vacío,2,recipe-icon-341,341,5,"368,5;370,5;369,5;401,2", Receta de esencia de combate de nivel 5,"402,1,1,10000",0,1,1,90,2,0,4,0,0
 0,Vacío,2,recipe-icon-342,342,6,"371,5;372,5;373,5;402,2", Receta de esencia de combate de nivel 6,"403,1,1,10000",0,1,1,270,2,0,4,0,0
-0,Vacío,2,recipe-icon-343,343,4,"375,5;376,5;209,2;374,5", Receta de esencia de recolección de nivel 4,"404,1,1,10000",0,1,1,30,3,0,4,0,0
+0,Vacío,2,recipe-icon-343,343,4,"375,5;376,5;374,5;209,2", Receta de esencia de recolección de nivel 4,"404,1,1,10000",0,1,1,30,3,0,4,0,0
 0,Vacío,2,recipe-icon-345,345,6,"380,5;381,5;382,5;405,2", Receta de esencia de recolección de nivel 6,"406,1,1,10000",0,1,1,270,3,0,4,0,0
 0,Vacío,2,recipe-icon-344,344,5,"377,5;378,5;379,5;404,2", Receta de esencia de recolección de nivel 5,"405,1,1,10000",0,1,1,90,3,0,4,0,0
 0,Vacío,2,recipe-icon-347,347,5,"377,2;378,2;379,2", Recetas de poción de nivel 5,"429,1,1,1666;430,1,1,1666;431,1,1,1666;432,1,1,1666;433,1,1,1666;434,1,1,1666",0,1,1,90,3,0,4,0,0
@@ -215,17 +215,17 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Vacío,2,recipe-icon-382,382,4,"375,5;374,10", Receta de poción de restauración de energía - Pequeña,"459,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Vacío,2,recipe-icon-383,383,5,"378,5;377,10",Poción de Restauración de Energía - Receta Mediana,"460,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Vacío,2,recipe-icon-384,384,6,"381,5;380,10",Poción de Restauración de Energía - Receta Grande,"461,1,1,10000",0,1,1,10,3,0,4,0,0
-0,,0,recipe-icon-385,385,0,"365,8;366,8;367,8",,"464,1,3,10000",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-386,386,0,"368,3;369,3;370,3",,"464,1,12,10000",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-387,387,0,"371,1;372,1;373,1",,"464,1,18,10000",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-389,389,0,"463,1",,"465,1,12,10000",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-388,388,0,"462,1",,"465,1,3,10000",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-390,390,0,"30,10;31,10;32,10;58,10;66,10;62,10",,"466,1,3,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-391,391,0,"34,10;33,10;35,10;59,10;63,10;67,10",,"466,1,12,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-392,392,0,"38,10;36,10;37,10;60,10;64,10;68,10",,"466,1,27,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10;178,10;179,10",,"466,1,3,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",,"466,1,12,10000",0,1,1,10,0,1,1,0,0
-0,,0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",,"466,1,27,10000",0,1,1,10,0,1,1,0,0
+0,,0,recipe-icon-385,385,0,"365,8;366,8;367,8",,"464,1,3,10000",0,1,1,10,0,0,4,0,1
+0,,0,recipe-icon-386,386,0,"368,3;369,3;370,3",,"464,1,12,10000",0,1,1,10,0,0,4,0,1
+0,,0,recipe-icon-387,387,0,"371,1;372,1;373,1",,"464,1,18,10000",0,1,1,10,0,0,4,0,1
+0,,0,recipe-icon-389,389,0,"463,1",,"465,1,12,10000",0,1,1,10,0,0,4,0,1
+0,,0,recipe-icon-388,388,0,"462,1",,"465,1,3,10000",0,1,1,10,0,0,4,0,1
+0,,0,recipe-icon-390,390,0,"207,2;216,2;210,1;213,1",,"466,1,3,10000",0,1,1,10,0,0,4,0,0
+0,,0,recipe-icon-391,391,0,"208,2;217,2;211,1;214,1",,"466,1,12,10000",0,1,1,10,0,0,4,0,0
+0,,0,recipe-icon-392,392,0,"209,2;218,2;212,1;212,1",,"466,1,27,10000",0,1,1,10,0,0,4,0,0
+0,,0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10",,"466,1,3,10000",0,1,1,10,0,0,4,0,0
+0,,0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",,"466,1,12,10000",0,1,1,10,0,0,4,0,0
+0,,0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",,"466,1,27,10000",0,1,1,10,0,0,4,0,0
 0,,0,recipe-icon-396,396,0,"209,1;218,1;212,1;215,1",,"467,1,1,10000",0,1,1,10,0,1,1,0,3
-0,,0,recipe-icon-397,397,0,"469,2",,"468,1,1,6500;467,1,1,3500",0,1,1,10,0,1,1,0,1
-0,,0,recipe-icon-398,398,0,"207,1;216,1;210,1;213,1",,"468,1,1,10000",0,1,1,10,0,1,1,0,0
+0,,0,recipe-icon-397,397,0,"469,2",,"468,1,5,6500;467,1,5,3500",0,1,1,10,0,1,1,0,0
+0,,0,recipe-icon-398,398,0,"207,1;216,1;210,1;213,1",,"468,1,1,10000",0,1,1,10,0,1,1,0,1
