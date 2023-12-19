@@ -105,8 +105,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Crafting Lv 1 Stone Sickle,2,recipe-icon-201,201,1,"62,10;58,10",Lv 1 Copper Sickle Recipe,"226,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Crafting Lv 2 Copper Sickle,2,recipe-icon-203,203,2,"216,2",Lv 2 Iron Sickle Recipe,"227,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Crafting Lv 3 Iron Sickle,2,recipe-icon-204,204,3,"217,2;210,1;213,1",Lv 3 Blessing Sickle Recipe,"228,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Crafting Lv 0 Small Feed,2,recipe-icon-205,205,0,"62,10;66,10",Lv 0 Small Feed Recipe,"28,1,1,10000",0,1,0,10,1,1,1,0,0
-0,Making Lv 0 Large Feed,2,recipe-icon-206,206,1,"66,40;62,20",Lv 0 Big Feed Recipe,"29,1,1,10000",0,1,0,10,1,0,4,0,0
+0,Crafting Lv 0 Small Feed,2,recipe-icon-205,205,0,"66,5;62,5",Lv 0 Small Feed Recipe,"28,1,1,10000",0,1,1,10,1,1,1,0,0
+0,Making Lv 0 Large Feed,2,recipe-icon-206,206,1,"63,5;67,5",Lv 0 Big Feed Recipe,"29,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Crafting Lv 0 Wooden Bow,2,recipe-icon-207,207,0,"62,20;66,10",Lv 0 Wood Bow Recipe,"223,1,1,10000",0,1,1,10,2,1,1,0,0
 0,Crafting Lv 0 Stone Hammer,2,recipe-icon-208,208,0,"62,20;58,20",Lv 0 Stone Hammer Recipe,"222,1,1,10000",0,1,1,10,2,1,1,0,0
 0,Bomb Recipe,2,recipe-icon-212,212,0,"62,3",Bomb Recipe,"232,1,1,10000",0,1,1,10,3,0,4,0,0

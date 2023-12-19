@@ -105,8 +105,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Artisanat Lv 1 Faucille en pierre,2,recipe-icon-201,201,1,"62,10;58,10", Recette de faucille en pierre de niveau 1 ,"226,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Artisanat Lv 2 Faucille en cuivre,2,recipe-icon-203,203,2,"216,2", Recette de faucille en cuivre de niveau 2 ,"227,1,1,10000",0,1,1,10,3,0,4,0,0
 0,Artisanat Lv 3 Faucille en fer,2,recipe-icon-204,204,3,"217,2;210,1;213,1", Recette de faucille en fer de niveau 3 ,"228,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Artisanat Lv 0 Petite nourriture,2,recipe-icon-205,205,0,"62,10;66,10", Recette d'alimentation pour animaux de compagnie de petite taille de niveau 0 ,"28,1,1,10000",0,1,0,10,1,1,1,0,0
-0,Fabrication Lv 0 Grande nourriture,2,recipe-icon-206,206,1,"66,40;62,20", Recette d'alimentation pour animaux de compagnie de grande taille de niveau 0 ,"29,1,1,10000",0,1,0,10,1,0,4,0,0
+0,Artisanat Lv 0 Petite nourriture,2,recipe-icon-205,205,0,"66,5;62,5", Recette d'alimentation pour animaux de compagnie de petite taille de niveau 0 ,"28,1,1,10000",0,1,1,10,1,1,1,0,0
+0,Fabrication Lv 0 Grande nourriture,2,recipe-icon-206,206,1,"63,5;67,5", Recette d'alimentation pour animaux de compagnie de grande taille de niveau 0 ,"29,1,1,10000",0,1,1,10,1,0,4,0,0
 0,Artisanat Lv 0 Arc en bois,2,recipe-icon-207,207,0,"62,20;66,10", Recette d'arc en bois de niveau 0 ,"223,1,1,10000",0,1,1,10,2,1,1,0,0
 0,Artisanat Lv 0 Marteau en pierre,2,recipe-icon-208,208,0,"62,20;58,20", Recette de marteau en pierre de niveau 0 ,"222,1,1,10000",0,1,1,10,2,1,1,0,0
 0,Vide,2,recipe-icon-212,212,0,"62,3", Recette de bombe de niveau 0 ,"232,1,1,10000",0,1,1,10,3,0,4,0,0
