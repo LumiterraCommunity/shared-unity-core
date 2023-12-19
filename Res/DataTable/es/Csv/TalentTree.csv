@@ -164,24 +164,11 @@ Energía máxima + 10
 ",64,0,talentTree-61,61,0,4,1, Pisotear de Guerra ,2,814,0,0,52
 -3,"Desbloquear Recetas de Conjunto Nivel 3
 ",72#76#204;113#186;185#187#188,2,talentTree-62,62,0,3,3, Recetas de Conjunto de Recolectar ,3,"730,1140,1780",0,"0,0,0",34
--1,"Desbloquear Poción de Curación Cristalizada;
-Fertilizante Avanzado de Alta Humedad;
-Fertilizante Avanzado de Aumento de Rendimiento;
-Fertilizante Avanzado Acelerado
-",95#267,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,3,730,0,0,
--1,"Desbloquear Poción de Curación Cristalizada;
-Fertilizante Avanzado de Alta Humedad;
-Fertilizante Avanzado Acelerado
-",96#268,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,3,2356,0,0,65
--1,"Desbloquear Poción de Curación Cristalizada;
-Nivel 0-Nivel 0 Fertilizante Avanzado Hidratante;
-Fertilizante Avanzado Aumentador de Rendimiento;
-Fertilizante Avanzado Acelerado
-",132#269,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,3,4320,0,0,66
--1,"Desbloquear Recetas de Poción Dorada
-",346#382,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,3,1221,0,10,67
--1,"Desbloquear recetas de poción de diamante
-",347#383,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,3,1767,0,15,68
+-1,,95#267,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,3,100,0,0,
+-1,,96#268,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,3,311,0,0,65
+-1,,132#269,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,3,730,0,0,66
+-1,,346#382,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,3,1221,0,10,67
+-1,,347#383,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,3,1767,0,15,68
 -1,"Reducir la velocidad de movimiento del enemigo
 ",340,1,talentTree-70,70,0,4,1, Tormenta Ligera - Mejora ,2,814,0,0,60
 -3,"Aumentar la duración de aturdimiento del enemigo.
@@ -345,8 +332,7 @@ Felicidad máxima de mascotas + 100",284,1,talentTree-164,164,0,6,1, Agricultura
 ",307,1,talentTree-201,201,0,5,1, Recolectar - Árboles ,3,1767,0,0,198
 3,"Ataque de mineral de recolección ++ Competencia ++
 ",316,1,talentTree-202,202,0,5,1, Recolectar - Minería ,3,1767,0,0,199
--1,"Desbloquear recetas de poción estelar
-",348#384,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,3,2356,0,20,69
+-1,,348#384,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,3,2356,0,20,69
 1,"Ataque de hierba de recolección ++ Competencia ++
 ",299,1,talentTree-205,205,0,6,1, Valor de Recolectar - Hierba ,3,2356,0,0,200
 2,"Ataque de árbol de recolección ++ Competencia ++
