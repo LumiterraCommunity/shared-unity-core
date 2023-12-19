@@ -8,8 +8,6 @@
 
 
 using System;
-using System.Collections.Generic;
-using UnityGameFramework.Runtime;
 //区域名字
 public class SceneAreaMgrCore : SceneModuleBase
 {
@@ -26,29 +24,15 @@ public class SceneAreaMgrCore : SceneModuleBase
     /// </summary>
     public Action<long, eSceneArea> OnPlayerExitCurSceneCheckArea = delegate { };
     /// <summary>
-    /// 当前区域改变事件
-    /// </summary>
-    public Action<eSceneArea> OnCurAreaChanged = delegate { };
-    /// <summary>
     /// 默认区域改变事件
     /// </summary>
     public Action<eSceneArea> OnDefaultAreaChanged = delegate { };
-    /// <summary>
-    /// 当前区域，对于前端来说是当前连接的服务器地图，对于后端来说是当前的服务器地图
-    /// </summary>
-    /// <value></value>
-    public eSceneArea CurArea { get; private set; } = eSceneArea.None;
     /// <summary>
     /// 默认区域，对于前端来说，就是当前的主场景，对于后端来说，就是当前的服务器地图
     /// eg:当在家园时，CurArea为家园，DefaultArea为大世界，因为家园是无缝切换的，进入家园的时候，主场景还是大世界
     /// </summary>
     /// <value></value>
     public eSceneArea DefaultArea { get; private set; } = eSceneArea.None;
-    /// <summary>
-    /// 当前区域对应的配置
-    /// </summary>
-    /// <value></value>
-    public DRSceneArea CurDRSceneArea { get; private set; }
     /// <summary>
     /// 默认区域对应的配置
     /// </summary>
@@ -71,19 +55,7 @@ public class SceneAreaMgrCore : SceneModuleBase
         OnDefaultAreaChanged.Invoke(DefaultArea);
     }
 
-    public void SetCurArea(eSceneArea area)
-    {
-        if (CurArea == area)
-        {
-            return;
-        }
-
-        CurArea = area;
-        CurDRSceneArea = GetSceneAreaCfg(CurArea);
-        OnCurAreaChanged.Invoke(CurArea);
-    }
-
-    private DRSceneArea GetSceneAreaCfg(eSceneArea area)
+    protected DRSceneArea GetSceneAreaCfg(eSceneArea area)
     {
         if (area == eSceneArea.None)
         {
@@ -101,19 +73,9 @@ public class SceneAreaMgrCore : SceneModuleBase
     /// <summary>
     /// 是否为副本
     /// </summary>
-    public bool IsInstancing()
+    public virtual bool IsInstancing()
     {
-        return CurDRSceneArea != null && CurDRSceneArea.SceneType == (int)eSceneType.Instancing;
-    }
-
-    public eSceneType GetCurAreaType()
-    {
-        if (CurDRSceneArea == null)
-        {
-            return eSceneType.Unknown;
-        }
-
-        return (eSceneType)CurDRSceneArea.SceneType;
+        return DefaultDRSceneArea != null && DefaultDRSceneArea.SceneType == (int)eSceneType.Instancing;
     }
     /// <summary>
     /// 进入区域
