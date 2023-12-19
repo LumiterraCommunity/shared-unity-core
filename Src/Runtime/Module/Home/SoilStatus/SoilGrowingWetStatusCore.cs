@@ -1,3 +1,4 @@
+using System;
 using static HomeDefine;
 
 /// <summary>
@@ -18,12 +19,24 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
         int growStage = SoilData.SaveData.SeedData.GrowingStage;
         if (growStage >= SoilData.SeedGrowStageNum - 1)//成熟了
         {
-            ChangeState(eSoilStatus.Harvest);
+            ChangeToHarvest();
         }
         else
         {
             SoilData.SetGrowStage(growStage + 1);
             ChangeState(eSoilStatus.GrowingThirsty);
+        }
+    }
+
+    private void ChangeToHarvest()
+    {
+        if (SoilData.SaveData.SeedData.NeedPerish)
+        {
+            ChangeState(eSoilStatus.HarvestPerish);
+        }
+        else
+        {
+            ChangeState(eSoilStatus.Harvest);
         }
     }
 
