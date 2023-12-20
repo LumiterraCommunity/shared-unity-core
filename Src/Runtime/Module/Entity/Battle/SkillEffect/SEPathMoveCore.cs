@@ -43,7 +43,7 @@ public class SEPathMoveCore : SkillEffectBase
         float speed = distance / ((EffectCfg.Duration - EffectData.BeatBackValue.DelayTime) * TimeUtil.MS2S);
         Vector3 moveSpeed = offset.normalized * speed;
         AddMoveModifier(moveSpeed);
-        CharacterMoveCtrl.SetCurSpeed(moveSpeed);
+        //CharacterMoveCtrl.SetCurSpeed(moveSpeed);
     }
     public override void OnRemove()
     {
