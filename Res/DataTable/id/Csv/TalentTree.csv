@@ -33,107 +33,22 @@ MaxEnergy + 10
 ",332,1,talentTree-10,10,0,2,1,Trampling - Enhance,2,233,0,0,11
 -3," Stun musuh di sekitarmu
 ",63,0,talentTree-11,11,0,1,1,Trampling,2,85,0,0,
-0," Kapasitas Kesuburan + 4
-Maksimum Kesuburan + 400
-Kemahiran Penanaman + 18
-Kapasitas Kebahagiaan Hewan Peliharaan + 4
-Maksimum Kebahagiaan Hewan Peliharaan + 100
-Kemahiran Berkembang Biak + 18
-Maksimum Energi + 10
-","66,10000","1,3",talentTree-13,13,1,1,1,Farming Mastery 1,1,160,0,0,
-0," Kapasitas Kesuburan + 4
-Maksimum Kesuburan + 400
-Kemahiran Penanaman + 18
-Kapasitas Kebahagiaan Hewan Peliharaan + 4
-Maksimum Kebahagiaan Hewan Peliharaan + 100
-Kemahiran Berkembang Biak + 18
-Maksimum Energi + 10
-","67,10000","1,3",talentTree-14,14,1,2,1,Farming Mastery 2,1,497,1,0,13
-0,"Kapasitas Kesuburan + 4
-Kesuburan Maksimum + 400
-Kemahiran Menanam + 18
-Kapasitas Kebahagiaan Hewan Peliharaan + 4
-Kebahagiaan Hewan Peliharaan Maksimum + 100
-Kemahiran Berkembang Biak + 18
-Energi Maksimum + 10
-","68,10000","1,3",talentTree-15,15,1,3,1,Farming Mastery 3,1,1168,2,0,14
-0,"Kapasitas Kesuburan + 4
-Kesuburan Maksimum + 400
-Kemahiran Menanam + 18
-Kapasitas Kebahagiaan Hewan Peliharaan + 4
-Kebahagiaan Hewan Peliharaan Maksimum + 100
-Kemahiran Berkembang Biak + 18
-Energi Maksimum + 10
-","69,10000","1,3",talentTree-16,16,1,4,1,Farming Mastery 4,1,1954,3,0,15
-0,"Kapasitas Kesuburan +4
-Kesuburan Maksimum +400
-Kemahiran Menanam +18
-Kapasitas Kebahagiaan Hewan Peliharaan +4
-Kebahagiaan Hewan Peliharaan Maksimum +100
-Kemahiran Berkembang Biak +18
-Max Energi +10
-","70,10000","1,3",talentTree-17,17,1,5,1,Farming Mastery 5,1,2827,4,0,16
-0,"Kapasitas Kesuburan +4
-Kesuburan Maksimum +400
-Kemahiran Menanam +18
-Kapasitas Kebahagiaan Hewan Peliharaan +4
-Kebahagiaan Hewan Peliharaan Maksimum +100
-Kemahiran Berkembang Biak +18
-Max Energi +10
-","71,10000","1,3",talentTree-18,18,1,6,1,Farming Mastery 6,1,3770,5,0,17
-1," Kapasitas Kesuburan + 4;
-Maksimum Kesuburan + 400
+0,,"66,10000","1,3",talentTree-13,13,1,1,1,Farming Mastery 1,1,160,0,0,
+0,,"67,10000","1,3",talentTree-14,14,1,2,1,Farming Mastery 2,1,497,1,0,13
+0,,"68,10000","1,3",talentTree-15,15,1,3,1,Farming Mastery 3,1,1168,2,0,14
+0,,"69,10000","1,3",talentTree-16,16,1,4,1,Farming Mastery 4,1,1954,3,0,15
+0,,"70,10000","1,3",talentTree-17,17,1,5,1,Farming Mastery 5,1,2827,4,0,16
+0,,"71,10000","1,3",talentTree-18,18,1,6,1,Farming Mastery 6,1,3770,5,0,17
+1,"FertilityCapacity + 1
 ",228,1,talentTree-22,22,0,1,1,Farm - Output kesuburan per unit lahan,1,75,0,0,
 -1," Siram ladang kecil di sekitarmu
 ",99,0,talentTree-23,23,0,2,1,Watering Can Mastery,1,233,0,0,77
-0," Serangan Rumput + 20
-Serangan Pohon + 27
-Serangan Bijih + 20
-Kemahiran Memetik Rumput + 27
-Kemahiran Memotong Pohon + 20
-Kemahiran Penambangan + 27
-Maksimum Energi + 10
-","81,10000","1,3",talentTree-24,24,1,1,1,Gather Mastery 1,3,160,0,0,
-0," Serangan Rumput + 20
-Serangan Pohon + 27
-Serangan Bijih + 20
-Kemahiran Memetik Rumput + 27
-Kemahiran Memotong Pohon + 20
-Kemahiran Penambangan + 27
-Maksimum Energi + 10
-","82,10000","1,3",talentTree-25,25,1,2,1,Gather Combat 2,3,497,1,0,24
-0,"Serangan Rumput + 20
-Serangan Pohon + 27
-Serangan Bijih + 20
-Kemahiran Memetik Rumput + 27
-Kemahiran Memotong Pohon + 20
-Kemahiran Penambangan + 27
-Energi Maksimum + 10
-","83,10000","1,3",talentTree-26,26,1,3,1,Gather Combat 3,3,1168,2,0,25
-0,"Serangan Rumput + 20
-Serangan Pohon + 27
-Serangan Bijih + 20
-Kemahiran Memetik Rumput + 27
-Kemahiran Memotong Pohon + 20
-Kemahiran Penambangan + 27
-Energi Maksimum + 10
-","84,10000","1,3",talentTree-27,27,1,4,1,Gather Combat 4,3,1954,3,0,26
-0,"Serangan Rumput +20
-Serangan Pohon +27
-Serangan Bijih +20
-Kemahiran Memetik Rumput +27
-Kemahiran Memotong Pohon +20
-Kemahiran Penambangan +27
-Max Energi +10
-","85,10000","1,3",talentTree-28,28,1,5,1,Gather Combat 5,3,2827,4,0,27
-0,"Serangan Rumput +20
-Serangan Pohon +27
-Serangan Bijih +20
-Kemahiran Memetik Rumput +27
-Kemahiran Memotong Pohon +20
-Kemahiran Penambangan +27
-Max Energi +10
-","86,10000","1,3",talentTree-29,29,1,6,1,Gather Combat 6,3,3770,5,0,28
+0,,"81,10000","1,3",talentTree-24,24,1,1,1,Gather Mastery 1,3,160,0,0,
+0,,"82,10000","1,3",talentTree-25,25,1,2,1,Gather Combat 2,3,497,1,0,24
+0,,"83,10000","1,3",talentTree-26,26,1,3,1,Gather Combat 3,3,1168,2,0,25
+0,,"84,10000","1,3",talentTree-27,27,1,4,1,Gather Combat 4,3,1954,3,0,26
+0,,"85,10000","1,3",talentTree-28,28,1,5,1,Gather Combat 5,3,2827,4,0,27
+0,,"86,10000","1,3",talentTree-29,29,1,6,1,Gather Combat 6,3,3770,5,0,28
 -3," Buka Resep Set Tingkat 1
 ",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"100,156,243",0,"0,0,0",
 -3," Buka Resep Set Tingkat 2
@@ -142,11 +57,11 @@ Max Energi +10
 ",415,0,talentTree-45,45,0,3,1,Lovely Touch,1,547,0,0,23
 -1,"Keterampilan Efisiensi - Cangkul Kelompok
 ",103,0,talentTree-46,46,0,4,1,Earth Splitter,1,916,0,0,45
-2,"Kemahiran Menanam + 18
+2,"Kemahiran Penanaman + 4
 ",246,1,talentTree-48,48,0,3,1,Farm - Profisi panen,1,547,0,0,81
 -2," Buka Resep Esensi Hewan Peliharaan Tingkat 2
 ",156,2,talentTree-49,49,0,2,1,Pet Essence Recipes,1,233,0,0,72
-2,"Kemahiran Menanam + 18
+2,"Kemahiran Penanaman + 4
 ",249,1,talentTree-50,50,0,4,1,Farm - Profisi panen,1,916,0,0,48
 -3,"Meningkatkan durasi pingsan musuh
 ",333,1,talentTree-52,52,0,3,1,Trampling - Enhance,2,486,0,0,10
@@ -164,59 +79,52 @@ Max Energi +10
 ",64,0,talentTree-61,61,0,4,1,War Trampling,2,814,0,0,52
 -3,"Buka Resep Set Tingkat 3
 ",72#76#204;113#186;185#187#188,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"730,1140,1780",0,"0,0,0",34
--1,,95#267,2,talentTree-65,65,0,1,1,Lv 1 Crazy Collector,3,100,0,0,
--1,,96#268,2,talentTree-66,66,0,2,1,Lv 1 Chosen Person,3,311,0,0,65
--1,,132#269,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,730,0,0,66
--1,,346#382,2,talentTree-68,68,0,4,1,Lv 2 Crazy Collector,3,1221,0,10,67
--1,,347#383,2,talentTree-69,69,0,5,1,Lv 2 Chosen Person,3,1767,0,15,68
+-1,"Buka Resep Ramuan
+Buka Resep Ramuan Energi
+",95#267,2,talentTree-65,65,0,1,1,Lv 1 Crazy Collector,3,100,0,0,
+-1,"Buka Resep Ramuan
+Buka Resep Ramuan Energi
+",96#268,2,talentTree-66,66,0,2,1,Lv 1 Chosen Person,3,311,0,0,65
+-1,"Buka Resep Ramuan
+Buka Resep Ramuan Energi
+",132#269,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,730,0,0,66
+-1,"Buka Resep Ramuan
+Buka Resep Ramuan Energi
+",346#382,2,talentTree-68,68,0,4,1,Lv 2 Crazy Collector,3,1221,0,10,67
+-1,"Buka Resep Ramuan
+Buka Resep Ramuan Energi
+",347#383,2,talentTree-69,69,0,5,1,Lv 2 Chosen Person,3,1767,0,15,68
 -1,"Mengurangi kecepatan gerakan musuh
 ",340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,2,814,0,0,60
 -3,"Meningkatkan durasi pingsan musuh.
 ",334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,2,1178,0,0,61
 -2," Buka Resep Esensi Hewan Peliharaan Tingkat 2
 ",155,2,talentTree-72,72,0,1,1,Pet Essence Recipes,1,75,0,0,
-2," Kemahiran Penanaman + 18
+2,"Kemahiran Penanaman + 4
 ",230,1,talentTree-73,73,0,1,1,Farm - Profisi panen,1,75,0,0,
-3," Kapasitas Kebahagiaan Hewan Peliharaan + 4;
-Maksimum Kebahagiaan Hewan Peliharaan + 100
-",231,1,talentTree-74,74,0,1,1,Farm - Indeks Kebahagiaan Pet dalam Pertempuran,1,75,0,0,
-4," Kemahiran Berkembang Biak + 18
-",233,1,talentTree-76,76,0,1,1,Farm - Profisi Panen,1,75,0,0,
+3,Kapasitas Kebahagiaan Hewan Peliharaan +1,231,1,talentTree-74,74,0,1,1,Farm - Indeks Kebahagiaan Pet dalam Pertempuran,1,75,0,0,
+4,,233,1,talentTree-76,76,0,1,1,Farm - Profisi Panen,1,75,0,0,
 -1," Keterampilan Efisiensi - Cangkul Kelompok
 ",102,0,talentTree-77,77,0,1,1,Earth Splitter,1,75,0,0,
 -4," Buka Resep Peralatan Tingkat 1
 ",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,1,"75,113,172",0,"0,0,0",
 -4," Buka Resep Peralatan Tingkat 2
 ",63#377#67#127#128#126#206;109#169;170#171#172,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"233,434,809",0,"0,0,0",78
-1," Kapasitas Kesuburan + 3;
-Maksimum Kesuburan + 400
+1,"FertilityCapacity + 1
 ",229,1,talentTree-80,80,0,2,1,Farm - Output kesuburan per unit lahan,1,233,0,0,22
-2," Kemahiran Penanaman + 18
-",245,1,talentTree-81,81,0,2,1,Farm - Output kesuburan lahan maksimum,1,233,0,0,73
-3," Kapasitas Kebahagiaan Hewan Peliharaan + 3;
-Maksimum Kebahagiaan Hewan Peliharaan + 100
-",232,1,talentTree-82,82,0,2,1,Farm - Profisi panen,1,233,0,0,74
-4," Kemahiran Berkembang Biak + 18
-",247,1,talentTree-83,83,0,2,1,Farm - Indeks Kebahagiaan Output Unit Pet,1,233,0,0,76
-1,"Kapasitas Kesuburan + 3;
-Kesuburan Maksimum + 400
+2,Kemahiran Penanaman + 4,245,1,talentTree-81,81,0,2,1,Farm - Output kesuburan lahan maksimum,1,233,0,0,73
+3,Kapasitas Kebahagiaan Hewan Peliharaan +1,232,1,talentTree-82,82,0,2,1,Farm - Profisi panen,1,233,0,0,74
+4,,247,1,talentTree-83,83,0,2,1,Farm - Indeks Kebahagiaan Output Unit Pet,1,233,0,0,76
+1,"FertilityCapacity + 1
 ",236,1,talentTree-84,84,0,4,1,Nilai pertanian - Output kesuburan per unit lahan,1,916,0,0,93
-4,"Kemahiran Berkembang Biak +18
-",289,1,talentTree-85,85,0,5,1,Farm - Profisi Panen,1,1325,0,0,90
+4,,289,1,talentTree-85,85,0,5,1,Farm - Profisi Panen,1,1325,0,0,90
 -4,"Buka Resep Peralatan Tingkat 3
 ",64#378#68#131#130#129;110#173;174#175#176,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"547,1020,1900",0,"0,0,0",79
-3,"Kapasitas Kebahagiaan Hewan Peliharaan + 3;
-Kebahagiaan Hewan Peliharaan Maksimum + 100
-",282,1,talentTree-89,89,0,4,1,Farm - Indeks Kebahagiaan Pet dalam Pertempuran,1,916,0,0,92
-4,"Kemahiran Berkembang Biak +18
-",288,1,talentTree-90,90,0,4,1,Farm - Profisi Panen,1,916,0,0,91
-4,"Kemahiran Berkembang Biak + 18
-",248,1,talentTree-91,91,0,3,1,Farm - Profisi Panen,1,547,0,0,83
-3,"Kapasitas Kebahagiaan Hewan Peliharaan + 3;
-Kebahagiaan Hewan Peliharaan Maksimum + 100
-",244,1,talentTree-92,92,0,3,1,Farm - Indeks Kebahagiaan Pet dalam Pertempuran,1,547,0,0,82
-1,"Kapasitas Kesuburan + 3;
-Kesuburan Maksimum + 400
+3,Kapasitas Kebahagiaan Hewan Peliharaan +1,282,1,talentTree-89,89,0,4,1,Farm - Indeks Kebahagiaan Pet dalam Pertempuran,1,916,0,0,92
+4,,288,1,talentTree-90,90,0,4,1,Farm - Profisi Panen,1,916,0,0,91
+4,,248,1,talentTree-91,91,0,3,1,Farm - Profisi Panen,1,547,0,0,83
+3,Kapasitas Kebahagiaan Hewan Peliharaan +1,244,1,talentTree-92,92,0,3,1,Farm - Indeks Kebahagiaan Pet dalam Pertempuran,1,547,0,0,82
+1,"FertilityCapacity + 1
 ",235,1,talentTree-93,93,0,3,1,Farm - Output kesuburan per unit lahan,1,547,0,0,80
 -2,"Buka Resep Esensi Hewan Peliharaan Tingkat 3
 ",157,2,talentTree-94,94,0,3,1,Pet Essence Recipes,1,547,0,0,49
@@ -284,23 +192,15 @@ Kesuburan Maksimum + 400
 ",269,1,talentTree-133,133,0,6,1,Combat - HP,2,1570,0,0,120
 -1,"Menyiram ladang kecil di sekitarmu.
 ",100,0,talentTree-157,157,0,5,1,Watering Can Mastery,1,1325,0,0,46
-1,"Kapasitas Kesuburan +2;
-Kesuburan Maksimum +400
+1,"FertilityCapacity + 1
 ",237,1,talentTree-158,158,0,5,1,Farm - Output kesuburan per unit lahan,1,1325,0,0,84
-2,"Kemahiran Menanam +18
-",250,1,talentTree-159,159,0,5,1,Farm - Profisi mengumpulkan,1,1325,0,0,50
-3,"Kapasitas Kebahagiaan Hewan Peliharaan +2;
-Kebahagiaan Hewan Peliharaan Maksimum +100
-",283,1,talentTree-160,160,0,5,1,Farm - Indeks Kebahagiaan Output Pet,1,1325,0,0,89
-1,"Kapasitas Kesuburan +2;
-Kesuburan Maksimum +400
+2,Kemahiran Menanam +4,250,1,talentTree-159,159,0,5,1,Farm - Profisi mengumpulkan,1,1325,0,0,50
+3,Kapasitas Kebahagiaan Hewan Peliharaan +1,283,1,talentTree-160,160,0,5,1,Farm - Indeks Kebahagiaan Output Pet,1,1325,0,0,89
+1,"FertilityCapacity + 1
 ",238,1,talentTree-163,163,0,6,1,Farm - Output kesuburan per unit lahan,1,1767,0,0,158
-3,"Kapasitas Kebahagiaan Hewan Peliharaan +2;
-Kebahagiaan Hewan Peliharaan Maksimum +100",284,1,talentTree-164,164,0,6,1,Farm - Indeks Kebahagiaan Output Pet,1,1767,0,0,160
-2,"Kemahiran Menanam +18
-",251,1,talentTree-165,165,0,6,1,Farm - Profisi mengumpulkan,1,1767,0,0,159
-4," Kemahiran Berkembang Biak +18
-",290,1,talentTree-166,166,0,6,1,Farm - Profisi Panen,1,1767,0,0,85
+3,Kapasitas Kebahagiaan Hewan Peliharaan +1,284,1,talentTree-164,164,0,6,1,Farm - Indeks Kebahagiaan Output Pet,1,1767,0,0,160
+2,Kemahiran Menanam +4,251,1,talentTree-165,165,0,6,1,Farm - Profisi mengumpulkan,1,1767,0,0,159
+4,,290,1,talentTree-166,166,0,6,1,Farm - Profisi Panen,1,1767,0,0,85
 -1," Kemahiran Efisiensi - Cangkul Kelompok
 ",104,0,talentTree-169,169,0,6,1,Earth Splitter,1,1767,0,10,157
 1," Serangan Rumput ++ Kemahiran ++
@@ -332,7 +232,9 @@ Kebahagiaan Hewan Peliharaan Maksimum +100",284,1,talentTree-164,164,0,6,1,Farm 
 ",307,1,talentTree-201,201,0,5,1,Nilai Gather - Pohon,3,1767,0,0,198
 3,"Serangan Bijih ++ Kemahiran ++
 ",316,1,talentTree-202,202,0,5,1,Gather - Pertambangan,3,1767,0,0,199
--1,,348#384,2,talentTree-204,204,0,6,1,Magic Props Recipes,3,2356,0,20,69
+-1,"Buka Resep Ramuan
+Buka Resep Ramuan Energi
+",348#384,2,talentTree-204,204,0,6,1,Magic Props Recipes,3,2356,0,20,69
 1,"Serangan Rumput ++ Kemahiran ++
 ",299,1,talentTree-205,205,0,6,1,Nilai Gather - Rumput,3,2356,0,0,200
 2,"Serangan Pohon ++ Kemahiran ++

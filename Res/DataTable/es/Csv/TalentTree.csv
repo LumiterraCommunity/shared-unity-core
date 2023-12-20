@@ -33,107 +33,22 @@ MaxEnergy + 10
 ",332,1,talentTree-10,10,0,2,1, Pisotear - Mejora ,2,233,0,0,11
 -3,"Aturdir a los enemigos a tu alrededor
 ",63,0,talentTree-11,11,0,1,1, Pisotear ,2,85,0,0,
-0,"Capacidad de Fertilidad + 4
-MaxFertilidad + 400
-Competencia en Plantación + 18
-Capacidad de Felicidad de Mascotas + 4
-MaxFelicidadMascotas + 100
-Competencia en Reproducción + 18
-MaxEnergía + 10
-","66,10000","1,3",talentTree-13,13,1,1,1, Maestría en Agricultura 1 ,1,160,0,0,
-0,"Capacidad de Fertilidad + 4
-MaxFertilidad + 400
-Competencia en Plantación + 18
-Capacidad de Felicidad de Mascotas + 4
-MaxFelicidadMascotas + 100
-Competencia en Reproducción + 18
-MaxEnergía + 10
-","67,10000","1,3",talentTree-14,14,1,2,1, Maestría en Agricultura 2 ,1,497,1,0,13
-0,"Capacidad de Fertilidad + 4
-MaxFertilidad + 400
-Competencia en Plantación + 18
-Capacidad de Felicidad de Mascotas + 4
-MaxFelicidadMascotas + 100
-Competencia en Reproducción + 18
-MaxEnergía + 10
-","68,10000","1,3",talentTree-15,15,1,3,1, Maestría en Agricultura 3 ,1,1168,2,0,14
-0,"Capacidad de Fertilidad + 4
-MaxFertilidad + 400
-Competencia en Plantación + 18
-Capacidad de Felicidad de Mascotas + 4
-MaxFelicidadMascotas + 100
-Competencia en Reproducción + 18
-MaxEnergía + 10
-","69,10000","1,3",talentTree-16,16,1,4,1, Maestría en Agricultura 4 ,1,1954,3,0,15
-0,"Capacidad de fertilidad + 4
-Fertilidad máxima + 400
-Competencia de plantación + 18
-Capacidad de felicidad de mascotas + 4
-Felicidad máxima de mascotas + 100
-Competencia reproductiva + 18
-Energía máxima + 10
-","70,10000","1,3",talentTree-17,17,1,5,1, Maestría en Agricultura 5 ,1,2827,4,0,16
-0,"Capacidad de fertilidad + 4
-Fertilidad máxima + 400
-Competencia de plantación + 18
-Capacidad de felicidad de mascotas + 4
-Felicidad máxima de mascotas + 100
-Competencia reproductiva + 18
-Energía máxima + 10
-","71,10000","1,3",talentTree-18,18,1,6,1, Maestría en Agricultura 6 ,1,3770,5,0,17
-1,"Capacidad de Fertilidad + 4;
-MaxFertilidad + 400
+0,,"66,10000","1,3",talentTree-13,13,1,1,1, Maestría en Agricultura 1 ,1,160,0,0,
+0,,"67,10000","1,3",talentTree-14,14,1,2,1, Maestría en Agricultura 2 ,1,497,1,0,13
+0,,"68,10000","1,3",talentTree-15,15,1,3,1, Maestría en Agricultura 3 ,1,1168,2,0,14
+0,,"69,10000","1,3",talentTree-16,16,1,4,1, Maestría en Agricultura 4 ,1,1954,3,0,15
+0,,"70,10000","1,3",talentTree-17,17,1,5,1, Maestría en Agricultura 5 ,1,2827,4,0,16
+0,,"71,10000","1,3",talentTree-18,18,1,6,1, Maestría en Agricultura 6 ,1,3770,5,0,17
+1,"Capacidad de fertilidad + 1.
 ",228,1,talentTree-22,22,0,1,1, Agricultura - Producción de fertilidad por unidad de tierra ,1,75,0,0,
 -1,"Riega los campos pequeños a tu alrededor
 ",99,0,talentTree-23,23,0,2,1, Maestría en Regadera ,1,233,0,0,77
-0,"Ataque de Hierba + 20
-Ataque de Árbol + 27
-Ataque de Mineral + 20
-Competencia en Hierba + 27
-Competencia en Árbol + 20
-Competencia en Mineral + 27
-MaxEnergía + 10
-","81,10000","1,3",talentTree-24,24,1,1,1, Maestría en Recolectar 1 ,3,160,0,0,
-0,"Ataque de Hierba + 20
-Ataque de Árbol + 27
-Ataque de Mineral + 20
-Competencia en Hierba + 27
-Competencia en Árbol + 20
-Competencia en Mineral + 27
-MaxEnergía + 10
-","82,10000","1,3",talentTree-25,25,1,2,1, Recolectar Combate 2 ,3,497,1,0,24
-0,"Ataque de Hierba + 20
-Ataque de Árbol + 27
-Ataque de Mineral + 20
-Competencia en Hierba + 27
-Competencia en Árbol + 20
-Competencia en Mineral + 27
-MaxEnergía + 10
-","83,10000","1,3",talentTree-26,26,1,3,1, Recolectar Combate 3 ,3,1168,2,0,25
-0,"Ataque de Hierba + 20
-Ataque de Árbol + 27
-Ataque de Mineral + 20
-Competencia en Hierba + 27
-Competencia en Árbol + 20
-Competencia en Mineral + 27
-MaxEnergía + 10
-","84,10000","1,3",talentTree-27,27,1,4,1, Recolectar Combate 4 ,3,1954,3,0,26
-0,"Ataque de hierba + 20
-Ataque de árbol + 27
-Ataque de mineral + 20
-Competencia de hierba + 27
-Competencia de árbol + 20
-Competencia de mineral + 27
-Energía máxima + 10
-","85,10000","1,3",talentTree-28,28,1,5,1, Recolectar Combate 5 ,3,2827,4,0,27
-0,"Ataque de hierba + 20
-Ataque de árbol + 27
-Ataque de mineral + 20
-Competencia de hierba + 27
-Competencia de árbol + 20
-Competencia de mineral + 27
-Energía máxima + 10
-","86,10000","1,3",talentTree-29,29,1,6,1,Recolectar Combate 6 ,3,3770,5,0,28
+0,,"81,10000","1,3",talentTree-24,24,1,1,1, Maestría en Recolectar 1 ,3,160,0,0,
+0,,"82,10000","1,3",talentTree-25,25,1,2,1, Recolectar Combate 2 ,3,497,1,0,24
+0,,"83,10000","1,3",talentTree-26,26,1,3,1, Recolectar Combate 3 ,3,1168,2,0,25
+0,,"84,10000","1,3",talentTree-27,27,1,4,1, Recolectar Combate 4 ,3,1954,3,0,26
+0,,"85,10000","1,3",talentTree-28,28,1,5,1, Recolectar Combate 5 ,3,2827,4,0,27
+0,,"86,10000","1,3",talentTree-29,29,1,6,1,Recolectar Combate 6 ,3,3770,5,0,28
 -3,"Desbloquear Recetas de Conjunto Nivel 1
 ",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3, Recetas de Conjunto de Recolectar ,3,"100,156,243",0,"0,0,0",
 -3,"Desbloquear Recetas de Conjunto Nivel 2
@@ -142,11 +57,11 @@ Energía máxima + 10
 ",415,0,talentTree-45,45,0,3,1, Toque Encantador ,1,547,0,0,23
 -1,"Habilidades de Eficiencia - Azada en Grupo
 ",103,0,talentTree-46,46,0,4,1, Separador de Tierra ,1,916,0,0,45
-2,"Competencia en Plantación + 18
+2,"Competencia en plantación + 4.
 ",246,1,talentTree-48,48,0,3,1, Agricultura - Maestría en Cosecha ,1,547,0,0,81
 -2,"Desbloquear Recetas de Esencia de Mascotas Nivel 2
 ",156,2,talentTree-49,49,0,2,1, Recetas de Esencia de Mascota ,1,233,0,0,72
-2,"Competencia en Plantación + 18
+2,"Competencia en plantación + 4.
 ",249,1,talentTree-50,50,0,4,1, Agricultura - Maestría en Cosecha ,1,916,0,0,48
 -3,"Aumentar la duración de aturdimiento del enemigo
 ",333,1,talentTree-52,52,0,3,1, Pisotear - Mejora ,2,486,0,0,10
@@ -164,59 +79,52 @@ Energía máxima + 10
 ",64,0,talentTree-61,61,0,4,1, Pisotear de Guerra ,2,814,0,0,52
 -3,"Desbloquear Recetas de Conjunto Nivel 3
 ",72#76#204;113#186;185#187#188,2,talentTree-62,62,0,3,3, Recetas de Conjunto de Recolectar ,3,"730,1140,1780",0,"0,0,0",34
--1,,95#267,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,3,100,0,0,
--1,,96#268,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,3,311,0,0,65
--1,,132#269,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,3,730,0,0,66
--1,,346#382,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,3,1221,0,10,67
--1,,347#383,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,3,1767,0,15,68
+-1,"Desbloquear receta de poción
+Desbloquear receta de poción de energía
+",95#267,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,3,100,0,0,
+-1,"Desbloquear receta de poción
+Desbloquear receta de poción de energía
+",96#268,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,3,311,0,0,65
+-1,"Desbloquear receta de poción
+Desbloquear receta de poción de energía
+",132#269,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,3,730,0,0,66
+-1,"Desbloquear receta de poción
+Desbloquear receta de poción de energía
+",346#382,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,3,1221,0,10,67
+-1,"Desbloquear receta de poción
+Desbloquear receta de poción de energía
+",347#383,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,3,1767,0,15,68
 -1,"Reducir la velocidad de movimiento del enemigo
 ",340,1,talentTree-70,70,0,4,1, Tormenta Ligera - Mejora ,2,814,0,0,60
 -3,"Aumentar la duración de aturdimiento del enemigo.
 ",334,1,talentTree-71,71,0,5,1, Pisotear de Guerra - Mejora ,2,1178,0,0,61
 -2,"Desbloquear Recetas de Esencia de Mascotas Nivel 2
 ",155,2,talentTree-72,72,0,1,1, Recetas de Esencia de Mascota ,1,75,0,0,
-2,"Competencia en Plantación + 18
+2,"Competencia en plantación + 4.
 ",230,1,talentTree-73,73,0,1,1, Agricultura - Maestría en Cosecha ,1,75,0,0,
-3,"Capacidad de Felicidad de Mascotas + 4;
-MaxFelicidadMascotas + 100
-",231,1,talentTree-74,74,0,1,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,1,75,0,0,
-4,"Competencia en Reproducción + 18
-",233,1,talentTree-76,76,0,1,1, Agricultura - Maestría en Cosecha ,1,75,0,0,
+3,Capacidad de Felicidad de Mascotas +1,231,1,talentTree-74,74,0,1,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,1,75,0,0,
+4,,233,1,talentTree-76,76,0,1,1, Agricultura - Maestría en Cosecha ,1,75,0,0,
 -1,"Habilidades de Eficiencia - Grupo de Azada
 ",102,0,talentTree-77,77,0,1,1, Separador de Tierra ,1,75,0,0,
 -4,"Desbloquear Recetas de Equipamiento Nivel 1
 ",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3, Recetas de Conjunto de Agricultura ,1,"75,113,172",0,"0,0,0",
 -4,"Desbloquear Recetas de Equipamiento Nivel 2
 ",63#377#67#127#128#126#206;109#169;170#171#172,2,talentTree-79,79,0,2,3, Recetas de Conjunto de Agricultura ,1,"233,434,809",0,"0,0,0",78
-1,"Capacidad de Fertilidad + 3;
-MaxFertilidad + 400
+1,"Capacidad de fertilidad + 1.
 ",229,1,talentTree-80,80,0,2,1, Agricultura - Producción de fertilidad por unidad de tierra ,1,233,0,0,22
-2,"Competencia en Plantación + 18
-",245,1,talentTree-81,81,0,2,1, Agricultura - Producción de fertilidad máxima ,1,233,0,0,73
-3,"Capacidad de Felicidad de Mascotas + 3;
-MaxFelicidadMascotas + 100
-",232,1,talentTree-82,82,0,2,1, Agricultura - Maestría en Cosecha ,1,233,0,0,74
-4,"Competencia en Reproducción + 18
-",247,1,talentTree-83,83,0,2,1, Agricultura - Índice de Felicidad de Salida de Unidad de Mascotas ,1,233,0,0,76
-1,"Capacidad de Fertilidad + 3;
-MaxFertilidad + 400
+2,Competencia en plantación + 4.,245,1,talentTree-81,81,0,2,1, Agricultura - Producción de fertilidad máxima ,1,233,0,0,73
+3,Capacidad de Felicidad de Mascotas +1,232,1,talentTree-82,82,0,2,1, Agricultura - Maestría en Cosecha ,1,233,0,0,74
+4,,247,1,talentTree-83,83,0,2,1, Agricultura - Índice de Felicidad de Salida de Unidad de Mascotas ,1,233,0,0,76
+1,"Capacidad de fertilidad + 1.
 ",236,1,talentTree-84,84,0,4,1, Valor de Agricultura - Producción de fertilidad por unidad de tierra ,1,916,0,0,93
-4,"Competencia reproductiva + 18
-",289,1,talentTree-85,85,0,5,1, Agricultura - Maestría en Cosecha ,1,1325,0,0,90
+4,,289,1,talentTree-85,85,0,5,1, Agricultura - Maestría en Cosecha ,1,1325,0,0,90
 -4,"Desbloquear Recetas de Equipamiento Nivel 3
 ",64#378#68#131#130#129;110#173;174#175#176,2,talentTree-88,88,0,3,3, Recetas de Conjunto de Agricultura ,1,"547,1020,1900",0,"0,0,0",79
-3,"Capacidad de Felicidad de Mascotas + 3;
-MaxFelicidadMascotas + 100
-",282,1,talentTree-89,89,0,4,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,1,916,0,0,92
-4,"Competencia reproductiva + 18
-",288,1,talentTree-90,90,0,4,1, Agricultura - Maestría en Cosecha ,1,916,0,0,91
-4,"Competencia en Reproducción + 18
-",248,1,talentTree-91,91,0,3,1, Agricultura - Maestría en Cosecha ,1,547,0,0,83
-3,"Capacidad de Felicidad de Mascotas + 3;
-MaxFelicidadMascotas + 100
-",244,1,talentTree-92,92,0,3,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,1,547,0,0,82
-1,"Capacidad de Fertilidad + 3;
-MaxFertilidad + 400
+3,Capacidad de Felicidad de Mascotas +1,282,1,talentTree-89,89,0,4,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,1,916,0,0,92
+4,,288,1,talentTree-90,90,0,4,1, Agricultura - Maestría en Cosecha ,1,916,0,0,91
+4,,248,1,talentTree-91,91,0,3,1, Agricultura - Maestría en Cosecha ,1,547,0,0,83
+3,Capacidad de Felicidad de Mascotas +1,244,1,talentTree-92,92,0,3,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,1,547,0,0,82
+1,"Capacidad de fertilidad + 1.
 ",235,1,talentTree-93,93,0,3,1, Agricultura - Producción de fertilidad por unidad de tierra ,1,547,0,0,80
 -2,"Desbloquear Recetas de Esencia de Mascotas Nivel 3
 ",157,2,talentTree-94,94,0,3,1, Recetas de Esencia de Mascota ,1,547,0,0,49
@@ -284,23 +192,15 @@ MaxFertilidad + 400
 ",269,1,talentTree-133,133,0,6,1, Combate - HP ,2,1570,0,0,120
 -1,"Regar pequeños campos a tu alrededor.
 ",100,0,talentTree-157,157,0,5,1, Maestría en Regadera ,1,1325,0,0,46
-1,"Capacidad de fertilidad + 2;
-Fertilidad máxima + 400
+1,"Capacidad de fertilidad + 1.
 ",237,1,talentTree-158,158,0,5,1, Agricultura - Producción de fertilidad por unidad de tierra ,1,1325,0,0,84
-2,"Competencia de plantación + 18
-",250,1,talentTree-159,159,0,5,1, Agricultura - Maestría en Recolectar ,1,1325,0,0,50
-3,"Capacidad de felicidad de mascotas + 2;
-Felicidad máxima de mascotas + 100
-",283,1,talentTree-160,160,0,5,1, Agricultura - Índice de Felicidad de Salida de Mascotas ,1,1325,0,0,89
-1,"Capacidad de fertilidad + 2;
-Fertilidad máxima + 400
+2,Competencia en Plantación +4,250,1,talentTree-159,159,0,5,1, Agricultura - Maestría en Recolectar ,1,1325,0,0,50
+3,Capacidad de Felicidad de Mascotas +1,283,1,talentTree-160,160,0,5,1, Agricultura - Índice de Felicidad de Salida de Mascotas ,1,1325,0,0,89
+1,"Capacidad de fertilidad + 1.
 ",238,1,talentTree-163,163,0,6,1, Agricultura - Producción de fertilidad por unidad de tierra ,1,1767,0,0,158
-3,"Capacidad de felicidad de mascotas + 2;
-Felicidad máxima de mascotas + 100",284,1,talentTree-164,164,0,6,1, Agricultura - Índice de Felicidad de Salida de Mascotas ,1,1767,0,0,160
-2,"Competencia de plantación + 18
-",251,1,talentTree-165,165,0,6,1, Agricultura - Maestría en Recolectar ,1,1767,0,0,159
-4,"Competencia de Cría +18
-",290,1,talentTree-166,166,0,6,1, Agricultura - Maestría en Cosecha ,1,1767,0,0,85
+3,Capacidad de Felicidad de Mascotas +1,284,1,talentTree-164,164,0,6,1, Agricultura - Índice de Felicidad de Salida de Mascotas ,1,1767,0,0,160
+2,Competencia en Plantación +4,251,1,talentTree-165,165,0,6,1, Agricultura - Maestría en Recolectar ,1,1767,0,0,159
+4,,290,1,talentTree-166,166,0,6,1, Agricultura - Maestría en Cosecha ,1,1767,0,0,85
 -1,"Habilidades de Eficiencia - Azada en Grupo
 ",104,0,talentTree-169,169,0,6,1, Separador de Tierra ,1,1767,0,10,157
 1,"Ataque de Hierba ++ Competencia ++
@@ -332,7 +232,9 @@ Felicidad máxima de mascotas + 100",284,1,talentTree-164,164,0,6,1, Agricultura
 ",307,1,talentTree-201,201,0,5,1, Recolectar - Árboles ,3,1767,0,0,198
 3,"Ataque de mineral de recolección ++ Competencia ++
 ",316,1,talentTree-202,202,0,5,1, Recolectar - Minería ,3,1767,0,0,199
--1,,348#384,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,3,2356,0,20,69
+-1,"Desbloquear receta de poción
+Desbloquear receta de poción de energía
+",348#384,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,3,2356,0,20,69
 1,"Ataque de hierba de recolección ++ Competencia ++
 ",299,1,talentTree-205,205,0,6,1, Valor de Recolectar - Hierba ,3,2356,0,0,200
 2,"Ataque de árbol de recolección ++ Competencia ++
