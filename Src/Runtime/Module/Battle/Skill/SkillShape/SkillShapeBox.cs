@@ -9,6 +9,8 @@ public class SkillShapeBox : SkillShapeBase
     private Quaternion _rotation;
     private Vector3 _center;
 
+    public override float Radius => _halfSize.x;//x是长
+
 
     /// <summary>
     /// 全参数初始化函数

@@ -18,6 +18,16 @@ public static class HomeDefine
     public static readonly Vector3 SOIL_SIZE = new(1.2f, 1.2f, 1.2f);  //土地格子大小
     public static readonly Vector3 EMPTY_SIZE = Vector3.one; //空地格子大小
 
+    /// <summary>
+    /// 单个格子操作时的向前偏移多少检查下面格子 就是挥插头往前插一点点的距离 老需求 现在暂时不需要了
+    /// </summary>
+    public const float SINGLE_GRID_OPERATE_OFFSET = 0f;
+    /// <summary>
+    /// 单个目标采集时的射出检测球体的半径
+    /// </summary>
+    public const float SEARCH_SINGLE_SPHERE_RADIUS = 0.7f;
+
+
     public const float HOME_PROGRESS_ACTION_BACK_PROTECT_TIME = 2000;//家园进度动作回退保护时间 ms 不能太小 因为需要考虑本地预表现回退时回包覆盖的情况
 
     public const int ACTION_MAX_PROGRESS_PROTECT = 100;//进度动作最大值的保护性值 防止异常报错 正常不会用到

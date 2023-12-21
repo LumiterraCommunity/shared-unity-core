@@ -8,6 +8,11 @@ using UnityGameFramework.Runtime;
 public abstract class SkillShapeBase : IReference
 {
     /// <summary>
+    /// 半径 也有点临时用 家园那边需要做客户端校验用 以后可以提供一个正式的boundingBox之类的
+    /// </summary>
+    /// <value></value>
+    public abstract float Radius { get; }
+    /// <summary>
     /// 子类实现shape的初始化时赋值为true
     /// </summary>
     protected bool InitShape = false;

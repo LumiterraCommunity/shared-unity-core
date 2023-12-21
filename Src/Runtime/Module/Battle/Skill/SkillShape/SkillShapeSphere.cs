@@ -7,6 +7,8 @@ public class SkillShapeSphere : SkillShapeBase
     private Vector3 _center;
     private float _radius;
 
+    public override float Radius => _radius;
+
     public void Init(Vector3 center, float radius)
     {
         _center = center;
