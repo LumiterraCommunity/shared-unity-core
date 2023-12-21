@@ -1,232 +1,241 @@
 classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matItemId-int[][],name-string,productId-int[][],proficiency-int,recipesSort-int,sourceText-int,timeCost-int,type-int,unlockCondition-int,unlockType-int,useDitamin-int,useMELD-int
-1,Pembuatan Pedang Batu Lv 1 ,2,recipe-icon-44,44,1,"210,1;213,1",Resep Pedang Batu Lv 1 ,"40,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Pembuatan Pedang Besi Lv 2 ,2,recipe-icon-45,45,2,"207,2;211,1;214,1", Resep Pedang Besi Lv 2 ,"41,1,1,6000;41,2,1,4000",0,1,1,10,2,0,4,0,0
-0,Pembuatan Pedang Kristal Lv 3 ,2,recipe-icon-46,46,3,"208,2;212,1;215,1", Resep Pedang Kristal Lv 3 ,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,1,1,10,2,0,4,0,5
-0,Pembuatan Cangkul Besi Lv 1 ,2,recipe-icon-62,62,1,"207,2", Resep Cangkul Besi Lv 1 ,"80,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Pupuk Lembab Lv 0 ,2,recipe-icon-94,94,1,"69,1", Resep Pupuk yang Melembabkan Lv 0 ,"130,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Cangkul yang Diberkati Lv 3 ,2,recipe-icon-64,64,3,"217,2;209,2", Resep Cangkul yang Diberkati Lv 3 ,"82,1,1,10000",0,1,1,10,1,0,4,0,5
-0,Pembuatan Pupuk yang Meningkatkan Hasil Lv 0 ,2,recipe-icon-93,93,1,"61,1", Resep Pupuk yang Meningkatkan Hasil Lv 0 ,"129,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Ketel Terkutuk Lv 2 ,2,recipe-icon-67,67,2,"216,2;208,2", Resep Ketel Terkutuk Lv 2 ,"85,2,1,4000;84,1,1,6000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Kapak yang Diberkati Lv 3 ,2,recipe-icon-76,76,3,"211,1;214,1;218,2", Resep Kapak yang Diberkati Lv 3 ,"94,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Pembuatan Ramuan Penyembuhan Kecil Lv 0 ,2,recipe-icon-95,95,1,"66,5;32,5", Resep Ramuan Penyembuhan Kecil Lv 0 ,"134,1,1,1666;135,1,1,1666;136,1,1,1666;137,1,1,1666;139,1,1,1666;138,1,1,1666",0,3,1,10,3,0,4,0,0
-0,Pembuatan Ramuan Penyembuhan Lv 1 ,2,recipe-icon-96,96,2,"67,2;75,2;35,2", Resep Ramuan Penyembuhan Lv 1 ,"140,1,1,1666;142,1,1,1666;141,1,1,1666;143,1,1,1666;145,1,1,1666;144,1,1,1666",0,3,1,10,3,0,4,0,0
-0,Pembuatan Cangkul Terkutuk Lv 2 ,2,recipe-icon-63,63,2,"216,2;208,2", Resep Cangkul Terkutuk Lv 2 ,"81,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Beliung Terkutuk Lv 2 ,2,recipe-icon-71,71,2,"210,1;213,1;217,2", Resep Beliung Terkutuk Lv 2 ,"89,1,1,6000;89,2,1,4000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Beliung Besi Lv 1 ,2,recipe-icon-70,70,1,"216,2", Resep Beliung Besi Lv 1 ,"88,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Beliung yang Diberkati Lv 3 ,2,recipe-icon-72,72,3,"211,1;214,1;218,2", Resep Beliung yang Diberkati Lv 3 ,"90,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Pembuatan Ketel yang Diberkati Lv 3 ,2,recipe-icon-68,68,3,"217,2;209,2", Resep Ketel yang Diberkati Lv 3 ,"86,1,1,10000",0,1,1,10,1,0,4,0,5
-0,Pembuatan Kapak Besi Lv 1 ,2,recipe-icon-74,74,1,"216,2", Resep Kapak Besi Lv 1 ,"92,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Ketel Besi Lv 1 ,2,recipe-icon-66,66,1,"207,2", Resep Ketel Besi Lv 1 ,"84,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Pupuk Dipercepat Lv 0 ,2,recipe-icon-92,92,1,"65,1", Resep Pupuk Dipercepat Lv 0 ,"128,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Kapak Terkutuk Lv 2 ,2,recipe-icon-75,75,2,"210,1;213,1;217,2", Resep Kapak Terkutuk Lv 2 ,"93,1,1,6000;93,2,1,4000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Pupuk Berakselerasi Tinggi Lv 0 ,2,recipe-icon-101,101,2,"69,2;35,2", Resep Pupuk yang Melembabkan yang Lebih Maju Lv 0 ,"133,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Pupuk Hasil Tinggi Lv 0 ,2,recipe-icon-102,102,2,"61,2;35,2", Resep Pupuk yang Meningkatkan Hasil yang Lebih Maju Lv 0 ,"132,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Pupuk dengan Kelembaban Tinggi Lv 0 ,2,recipe-icon-103,103,2,"65,2;35,2", Resep Pupuk Dipercepat yang Lebih Maju Lv 0 ,"131,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Jimat Lv 0 ,2,recipe-icon-104,104,1,"32,20;71,40;58,40;62,40;66,40", Resep Jimat Lv 0 ,"161,1,1,4736;161,2,1,3157;161,3,1,2105",0,2,1,10,0,0,4,0,100
-0,Pembuatan Jimat Lv 0 ,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40", Resep Jimat Lv 0 ,"161,2,1,4426;161,3,1,2950;161,4,1,1967;161,5,1,655",0,2,1,10,0,0,4,0,200
-0,Pembuatan Topi Semanggi Keberuntungan Lv 1 ,2,recipe-icon-108,108,1,"207,2", Resep Topi Semanggi Keberuntungan Lv 1 ,"98,1,1,9101;267,5,1,898",0,2,1,10,1,0,4,0,0
-0,Pembuatan Topi Katun Keberuntungan Lv 2 ,2,recipe-icon-109,109,2,"216,2;208,2", Resep Topi Katun Keberuntungan Lv 1 ,"99,1,1,5664;99,2,1,3776;262,5,1,559",0,2,1,10,1,0,4,0,0
-0,Pembuatan Topi Keras Keberuntungan Lv 3 ,2,recipe-icon-110,110,3,"217,2;209,2", Resep Topi Keras Keberuntungan Lv 3 ,"100,1,1,4525;100,2,1,3016;100,3,1,2011;272,5,1,446",0,2,1,10,1,0,4,0,5
-0,Pembuatan Topi Koleksi Lv 1 ,2,recipe-icon-111,111,1,"216,2", Resep Topi Koleksi Lv 1 ,"116,1,1,9101;267,5,1,898",0,2,1,10,3,0,4,0,0
-0,Pembuatan Topi Koleksi Lv 2 ,2,recipe-icon-112,112,2,"210,1;213,1;217,2", Resep Topi Koleksi Lv 2 ,"117,1,1,5664;117,2,1,3776;262,5,1,559",0,2,1,10,3,0,4,0,0
-0,Pembuatan Topi Koleksi Lv 3 ,2,recipe-icon-113,113,3,"211,1;214,1;218,2", Resep Topi Koleksi Lv 3 ,"118,1,1,4525;118,3,1,2011;118,2,1,3016;272,5,1,446",0,2,1,10,3,0,4,0,5
-0,Pembuatan Benih Bambu Lv 1 ,2,recipe-icon-123,123,1,"70,1;62,10", Resep Benih Bambu Lv 1 ,"146,1,2,5000;150,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Semanggi Lv 1 ,2,recipe-icon-124,124,1,"71,1;62,10", Resep Benih Semanggi Lv 1 ,"147,1,2,5000;149,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Wortel Lv 1 ,2,recipe-icon-125,125,1,"62,10", Resep Benih Wortel Lv 1 ,"148,1,2,5000;151,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Tanaman Pembunuh Lv 2 ,2,recipe-icon-126,126,2,"73,1", Resep Benih Tanaman Pembasmi Lalat Lv 2 ,"149,1,2,5000;154,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Kapas Lv 2 ,2,recipe-icon-127,127,2,"74,1", Resep Benih Kapas Lv 2 ,"150,1,2,5000;152,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Kaktus Lv 2 ,2,recipe-icon-128,128,2,"75,1", Resep Benih Kaktus Lv 2 ,"151,1,2,5000;153,1,1,5000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Cabai Pedas Lv 3 ,2,recipe-icon-129,129,3,"76,1", Resep Cabai Pedas Lv 3 ,"152,1,2,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Buah Keras Lv 3 ,2,recipe-icon-130,130,3,"77,1", Resep Buah Keras Lv 3 ,"153,1,2,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Benih Jamur Phantom Biru Lv 3 ,2,recipe-icon-131,131,3,"78,1", Resep Benih Jamur Phantom Biru Lv 3 ,"154,1,2,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Ramuan Penyembuhan Kristal Lv 2 ,2,recipe-icon-132,132,3,"68,2;78,2;38,2", Resep Ramuan Penyembuhan Kristal Lv 2 ,"191,1,1,1666;192,1,1,1666;194,1,1,1666;195,1,1,1666;196,1,1,1666;197,1,1,1666",0,3,1,10,3,0,4,0,0
-0,Pembuatan Lingkaran Pecahan Kristal Lv 1 ,2,recipe-icon-133,133,1,"210,1;213,1", Resep Lingkaran Pecahan Kristal Lv 1 ,"43,1,1,9101;267,5,1,898",0,1,1,10,2,0,4,0,0
-0,Pembuatan Topi Kristal Helm Prajurit Lv 2 ,2,recipe-icon-134,134,2,"207,2;211,1;214,1", Resep Topi Kulit Helm Prajurit Lv 2 ,"44,1,1,5664;44,2,1,3776;262,5,1,559",0,1,1,10,2,0,4,0,0
-0,Pembuatan Helm Prajurit Helm Hedron Lv 3 ,2,recipe-icon-135,135,3,"208,2;212,1;215,1", Resep Helm Prajurit Helm Hedron Lv 3 ,"45,1,1,4525;45,2,1,3016;45,3,1,2011;272,5,1,446",0,1,1,10,2,0,4,0,5
-0,Pembuatan Atasan Prajurit Atasan Kulit Kristal Lv 2 ,2,recipe-icon-137,137,2,"207,2;211,1;214,1", Resep Atasan Prajurit Atasan Kulit Kristal Lv 2 ,"47,1,1,5664;47,2,1,3776;263,5,1,559",0,1,1,10,2,0,4,0,0
-0,Pembuatan Armor Anggur Pecahan Kristal Tunik Prajurit Lv 1 ,2,recipe-icon-136,136,1,"210,1;213,1", Resep Armor Anggur Pecahan Kristal Lv 1 ,"46,1,1,9101;268,5,1,898",0,1,1,10,2,0,4,0,0
-0,Pembuatan Armor Tunik Hedron Prajurit Lv 3 ,2,recipe-icon-138,138,3,"208,2;212,1;215,1", Resep Armor Tunik Hedron Prajurit Lv 3 ,"48,1,1,4525;48,2,1,3016;48,3,1,2011;273,5,1,446",0,1,1,10,2,0,4,0,5
-0,Pembuatan Celana Prajurit Rok Hula Pecahan Kristal Lv 1 ,2,recipe-icon-139,139,1,"210,1;213,1", Resep Celana Prajurit Rok Hula Pecahan Kristal Lv 1 ,"49,1,1,9101;270,5,1,898",0,1,1,10,2,0,4,0,0
-0,Pembuatan Celana Prajurit Celana Kulit Kristal Lv 2 ,2,recipe-icon-140,140,2,"207,2;211,1;214,1", Resep Celana Prajurit Celana Kulit Kristal Lv 2 ,"50,1,1,5664;50,2,1,3776;265,5,1,559",0,1,1,10,2,0,4,0,0
-0,Pembuatan Pelindung Kaki Hedron Celana Prajurit Lv 3 ,2,recipe-icon-141,141,3,"208,2;212,1;215,1", Resep Pelindung Kaki Hedron Celana Prajurit Lv 3 ,"51,1,1,4525;51,2,1,3016;51,3,1,2011;274,5,1,446",0,1,1,10,2,0,4,0,5
-0,Pembuatan Gelang Pecahan Kristal Sarung Tangan Prajurit Lv 1 ,2,recipe-icon-142,142,1,"210,1;213,1", Resep Gelang Pecahan Kristal Lv 1 ,"55,1,1,9101;271,5,1,898",0,1,1,10,2,0,4,0,0
-0,Pembuatan Sarung Tangan Prajurit Sarung Tangan Kulit Kristal Lv 2 ,2,recipe-icon-143,143,2,"207,2;211,1;214,1", Resep Sarung Tangan Prajurit Sarung Tangan Kulit Kristal Lv 2 ,"56,1,1,5664;56,2,1,3776;266,5,1,559",0,1,1,10,2,0,4,0,0
-0,Pembuatan Sarung Tangan Prajurit Sarung Tangan Hedron Lv 3 ,2,recipe-icon-144,144,3,"208,2;212,1;215,1", Resep Sarung Tangan Prajurit Sarung Tangan Hedron Lv 3 ,"57,1,1,4525;57,2,1,3016;57,3,1,2011;275,5,1,446",0,1,1,10,2,0,4,0,5
-0,Pembuatan Sandal Pecah Sepatu Prajurit Lv 1 ,2,recipe-icon-145,145,1,"210,1;213,1", Resep Sandal Pecah Sepatu Prajurit Lv 1 ,"52,1,1,9101;269,5,1,898",0,1,1,10,2,0,4,0,0
-0,Pembuatan Sepatu Prajurit Sepatu Bot Kulit Kristal Lv 2 ,2,recipe-icon-146,146,2,"207,2;211,1;214,1", Resep Sepatu Prajurit Sepatu Bot Kulit Kristal Lv 2 ,"53,1,1,5664;53,2,1,3776;264,5,1,559",0,1,1,10,2,0,4,0,0
-0,Pembuatan Sepatu Prajurit Sepatu Spar Hedron Lv 3 ,2,recipe-icon-147,147,3,"208,2;212,1;215,1", Resep Sepatu Prajurit Sepatu Spar Lv 3 ,"54,1,1,4525;54,2,1,3016;54,3,1,2011;276,5,1,446",0,1,1,10,2,0,4,0,5
-0,Pembuatan Esensi Pertempuran Lv 1 ,2,recipe-icon-149,149,1,"30,5;31,5;32,5", Resep Ramuan Pertempuran Lv 1 ,"216,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Pembuatan Esensi Pertempuran Lv 2 ,2,recipe-icon-150,150,2,"33,5;35,5;34,5;216,2", Resep Ramuan Pertempuran Lv 2 ,"217,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Pembuatan Esensi Pertempuran Lv 3 ,2,recipe-icon-151,151,3,"36,5;37,5;38,5;217,2", Resep Ramuan Pertempuran Lv 3 ,"218,1,1,10000",0,1,1,10,2,0,4,0,0
-0,Pembuatan Esensi Pertanian Lv 1 ,2,recipe-icon-152,152,1,"70,5;71,5;72,5", Resep Esensi Pertempuran Lv 1 ,"210,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Esensi Pertanian Lv 2 ,2,recipe-icon-153,153,2,"74,5;73,5;75,5;210,2", Resep Esensi Pertempuran Lv 2 ,"211,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Esensi Pertanian Lv 3 ,2,recipe-icon-154,154,3,"76,5;77,5;78,5;211,2", Resep Esensi Pertempuran Lv 3 ,"212,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Esensi Peternakan Pertanian Lv 1 ,2,recipe-icon-155,155,1,"178,5;179,5;177,5", Resep Esensi Penanaman Pertanian Lv 1 ,"213,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Esensi Peternakan Pertanian Lv 2 ,2,recipe-icon-156,156,2,"182,5;180,5;181,5;213,2", Resep Esensi Penanaman Pertanian Lv 2 ,"214,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Esensi Peternakan Pertanian Lv 3 ,2,recipe-icon-157,157,3,"184,5;185,5;183,5;214,2", Resep Esensi Penanaman Pertanian Lv 3 ,"215,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Esensi Koleksi Lv 1 ,2,recipe-icon-158,158,1,"62,5;58,5;66,5", Resep Esensi Peternakan Pertanian Lv 1 ,"207,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Esensi Koleksi Lv 2 ,2,recipe-icon-159,159,2,"63,5;67,5;59,5;207,2", Resep Esensi Peternakan Pertanian Lv 2 ,"208,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Esensi Koleksi Lv 3 ,2,recipe-icon-160,160,3,"64,5;60,5;68,5;208,2", Resep Esensi Peternakan Pertanian Lv 3 ,"209,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Pakaian Pertanian Lv 1 ,2,recipe-icon-165,165,1,"207,2", Resep Puncak Pertanian Lv 1 ,"101,1,1,9101;268,5,1,898",0,2,1,10,1,0,4,0,0
-0,Pembuatan Celana Pertanian Lv 1 ,2,recipe-icon-166,166,1,"207,2", Resep Celana Pertanian Lv 1 ,"104,1,1,9101;270,5,1,898",0,2,1,10,1,0,4,0,0
-0,Pembuatan Sarung Tangan Pertanian Lv 1 ,2,recipe-icon-167,167,1,"207,2", Resep Sarung Tangan Pertanian Lv 1 ,"107,1,1,9101;269,5,1,898",0,2,1,10,1,0,4,0,0
-0,Pembuatan Sepatu Pertanian Lv 1 ,2,recipe-icon-168,168,1,"207,2", Resep Sepatu Pertanian Lv 1 ,"110,1,1,9101;271,5,1,898",0,2,1,10,1,0,4,0,0
-0,Pembuatan Pakaian Pertanian Lv 2 ,2,recipe-icon-169,169,2,"216,2;208,2", Resep Puncak Pertanian Lv 2 ,"102,1,1,5664;102,2,1,3776;263,5,1,559",0,2,1,10,1,0,4,0,0
-0,Pembuatan Celana Pertanian Lv 2 ,2,recipe-icon-170,170,2,"216,2;208,2", Resep Celana Pertanian Lv 2 ,"105,1,1,5664;105,2,1,3776;265,5,1,559",0,2,1,10,1,0,4,0,0
-0,Pembuatan Sarung Tangan Pertanian Lv 2 ,2,recipe-icon-171,171,2,"216,2;208,2", Resep Sarung Tangan Pertanian Lv 2 ,"108,1,1,5664;108,2,1,3776;264,5,1,559",0,2,1,10,1,0,4,0,0
-0,Pembuatan Sepatu Pertanian Lv 2 ,2,recipe-icon-172,172,2,"216,2;208,2", Resep Sepatu Pertanian Lv 2 ,"111,1,1,5664;111,2,1,3776;266,5,1,559",0,2,1,10,1,0,4,0,0
-0,Pembuatan Pakaian Pertanian Lv 3 ,2,recipe-icon-173,173,3,"217,2;209,2", Resep Puncak Pertanian Lv 3 ,"103,1,1,4525;103,2,1,3016;103,3,1,2011;273,5,1,446",0,2,1,10,1,0,4,0,5
-0,Pembuatan Celana Pertanian Lv 3 ,2,recipe-icon-174,174,3,"217,2;209,2", Resep Celana Pertanian Lv 3 ,"106,1,1,4525;106,3,1,2011;106,2,1,3016;275,5,1,446",0,2,1,10,1,0,4,0,5
-0,Pembuatan Sarung Tangan Pertanian Lv 3 ,2,recipe-icon-175,175,3,"217,2;209,2", Resep Sarung Tangan Pertanian Lv 3 ,"109,2,1,3016;109,1,1,4525;109,3,1,2011;274,5,1,446",0,2,1,10,1,0,4,0,5
-0,Pembuatan Sepatu Pertanian Lv 3 ,2,recipe-icon-176,176,3,"217,2;209,2", Resep Sepatu Pertanian Lv 3 ,"112,1,1,4525;112,3,1,2011;112,2,1,3016;276,5,1,446",0,2,1,10,1,0,4,0,5
-0,Pembuatan Sepatu Koleksi Lv 1 ,2,recipe-icon-177,177,1,"216,2", Resep Sepatu Koleksi Lv 1 ,"113,1,1,9101;271,5,1,898",0,2,1,10,3,0,4,0,0
-0,Pembuatan Atasan Koleksi Lv 1 ,2,recipe-icon-178,178,1,"216,2", Resep Puncak Koleksi Lv 1 ,"119,1,1,9101;268,5,1,898",0,2,1,10,3,0,4,0,0
-0,Pembuatan Celana Koleksi Lv 1 ,2,recipe-icon-179,179,1,"216,2", Resep Celana Koleksi Lv 1 ,"122,1,1,9101;270,5,1,898",0,2,1,10,3,0,4,0,0
-0,Pembuatan Sarung Tangan Koleksi Lv 1 ,2,recipe-icon-180,180,1,"216,2", Resep Sarung Tangan Koleksi Lv 1 ,"125,1,1,9101;269,5,1,898",0,2,1,10,3,0,4,0,0
-0,Pembuatan Sepatu Koleksi Lv 2 ,2,recipe-icon-181,181,2,"210,1;213,1;217,2", Resep Sepatu Koleksi Lv 2 ,"114,1,1,5664;114,2,1,3776;266,5,1,559",0,2,1,10,3,0,4,0,0
-0,Pembuatan Atasan Koleksi Lv 2 ,2,recipe-icon-182,182,2,"210,1;213,1;217,2", Resep Puncak Koleksi Lv 2 ,"120,1,1,5664;120,2,1,3776;263,5,1,559",0,2,1,10,3,0,4,0,0
-0,Pembuatan Celana Koleksi Lv 2 ,2,recipe-icon-183,183,2,"210,1;213,1;217,2", Resep Celana Koleksi Lv 2 ,"123,1,1,5664;123,2,1,3776;265,5,1,559",0,2,1,10,3,0,4,0,0
-0,Pembuatan Sarung Tangan Koleksi Lv 2 ,2,recipe-icon-184,184,2,"210,1;213,1;217,2", Resep Sarung Tangan Koleksi Lv 2 ,"126,1,1,5664;126,2,1,3776;264,5,1,559",0,2,1,10,3,0,4,0,0
-0,Pembuatan Sepatu Koleksi Lv 3 ,2,recipe-icon-185,185,3,"211,1;214,1;218,2", Resep Sepatu Koleksi Lv 3 ,"115,1,1,4525;115,3,1,2011;115,2,1,3016;276,5,1,446",0,2,1,10,3,0,4,0,5
-0,Pembuatan Atasan Koleksi Lv 3 ,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Resep Puncak Koleksi Lv 3 ,"121,1,1,4525;121,3,1,2011;121,2,1,3016;273,5,1,446",0,2,1,10,3,0,4,0,5
-0,Pembuatan Celana Koleksi Lv 3 ,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Resep Celana Koleksi Lv 3 ,"124,1,1,4525;124,3,1,2011;124,2,1,3016;275,5,1,446",0,2,1,10,3,0,4,0,5
-0,Pembuatan Sarung Tangan Koleksi Lv 3 ,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Resep Sarung Tangan Koleksi Lv 3 ,"127,1,1,4525;127,2,1,3016;127,3,1,2011;274,5,1,446",0,2,1,10,3,0,4,0,5
-0,Pembuatan Pedang Kayu Lv 0 ,2,recipe-icon-189,189,0,"62,10;32,5", Resep Esensi Mengumpulkan Lv 1 ,"39,1,1,10000",0,1,1,3,2,1,1,0,0
-0,Pembuatan Cangkul Kayu Lv 0 ,2,recipe-icon-190,190,0,"62,10;66,10", Resep Esensi Mengumpulkan Lv 2 ,"79,1,1,10000",0,1,1,3,1,1,1,0,0
-0,Pembuatan Sikat Lv 0 ,2,recipe-icon-191,191,0,"62,10;66,10", Resep Esensi Mengumpulkan Lv 3 ,"95,1,1,10000",0,1,1,3,1,1,1,0,0
-0,Pembuatan Alat Pemotong Rambut Lv 0 ,2,recipe-icon-192,192,0,"62,10;66,10", Resep Pedang Kayu Lv 0 ,"96,1,1,10000",0,1,1,3,1,1,1,0,0
-0,Pembuatan Mesin Pemerah Susu Lv 0 ,2,recipe-icon-193,193,0,"62,10;66,10", Resep Cangkul Kayu Lv 0 ,"97,1,1,10000",0,1,1,3,1,1,1,0,0
-0,Pembuatan Botol Air Kayu Lv 0 ,2,recipe-icon-194,194,0,"62,10;66,10", Resep Sikat Lv 0 ,"83,1,1,10000",0,1,1,3,1,1,1,0,0
-0,Pembuatan Kapak Kayu Lv 0 ,2,recipe-icon-195,195,0,"62,10;66,10", Resep Alat Pemotong Rambut Lv 0 ,"91,1,1,10000",0,1,1,3,3,1,1,0,0
-0,Pembuatan Beliung Kayu Lv 0 ,2,recipe-icon-196,196,0,"62,10;66,10", Resep Mesin Pemerah Susu Lv 0 ,"87,1,1,10000",0,1,1,10,3,1,1,0,0
-0,Pembuatan Pupuk Berakselerasi Tinggi Lv 0 ,2,recipe-icon-197,197,2,"69,2;35,2", Resep Pupuk Dipercepat yang Lebih Baik Lv 0 ,"219,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Pupuk Hasil Tinggi Lv 0 ,2,recipe-icon-198,198,2,"61,2;35,2", Resep Pupuk yang Meningkatkan Hasil yang Lebih Baik Lv 0 ,"220,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Pupuk dengan Kelembaban Tinggi Lv 0 ,2,recipe-icon-199,199,2,"65,2;35,2", Resep Pupuk yang Melembabkan yang Lebih Baik Lv 0 ,"221,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Pembuatan Sabit Batu Lv 1 ,2,recipe-icon-201,201,1,"62,10;58,10", Resep Sabit Batu Lv 1 ,"226,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Sabit Tembaga Lv 2 ,2,recipe-icon-203,203,2,"216,2", Resep Sabit Tembaga Lv 2 ,"227,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Pembuatan Sabit Besi Lv 3 ,2,recipe-icon-204,204,3,"217,2;210,1;213,1", Resep Sabit Besi Lv 3 ,"228,1,1,10000",0,1,1,10,3,0,4,0,5
-0,Pembuatan Pakan Kecil Lv 0 ,2,recipe-icon-205,205,0,"66,5;62,5", Resep Ketel Kayu Lv 0 ,"28,1,1,10000",0,1,1,10,1,1,1,0,0
-0,Pembuatan Pakan Besar Lv 0 ,2,recipe-icon-206,206,1,"63,5;67,5", Resep Kapak Kayu Lv 0 ,"29,1,1,10000",0,1,1,10,1,0,4,0,0
-0,Pembuatan Busur Kayu Lv 0 ,2,recipe-icon-207,207,0,"62,20;66,10", Resep Beliung Kayu Lv 0 ,"223,1,1,10000",0,1,1,10,2,1,1,0,0
-0,Pembuatan Palu Batu Lv 0 ,2,recipe-icon-208,208,0,"62,20;58,20", Resep Pakan Kecil Lv 0 ,"222,1,1,10000",0,1,1,10,2,1,1,0,0
-0,Kosong,2,recipe-icon-212,212,0,"62,3", Resep Pakan Besar Lv 0 ,"232,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Kosong,2,recipe-icon-213,213,0,"58,3", Resep Busur Kayu Lv 0 ,"233,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Kosong,2,recipe-icon-214,214,0,"66,3", Resep Palu Batu Lv 0 ,"234,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Kosong,2,recipe-icon-215,215,0,"65,1;61,1;69,1", Resep Botol Peledak Lv 0 ,"235,1,3,10000",0,1,1,10,3,1,1,0,0
-0,Kosong,2,recipe-icon-216,216,0,"32,3;70,3", Resep Ramuan Setrum Lv 0 ,"236,1,1,10000",0,1,1,10,3,1,1,0,0
-0,Kosong,2,recipe-icon-217,217,0,"31,3;71,3", Resep Ramuan Pelambat Lv 0 ,"237,1,1,10000",0,1,1,10,3,1,1,0,0
-0,Kosong,2,recipe-icon-218,218,0,"30,3;72,3", Resep Ramuan Terbakar Lv 0 ,"238,1,1,10000",0,1,1,10,3,1,1,0,0
-0,Resep Pemulihan Energi - Kecil,2,recipe-icon-267,267,0,"66,20;62,5", Resep Pemulihan Energi - Kecil,"295,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Resep Pemulihan Energi - Sedang,2,recipe-icon-268,268,1,"67,10;63,5", Resep Pemulihan Energi - Sedang,"296,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Resep Pemulihan Energi - Besar,2,recipe-icon-269,269,2,"64,5", Resep Pemulihan Energi - Besar,"297,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Resep Pedang Emas,2,recipe-icon-270,270,4,"209,2;407,1;410,1", Resep Pedang Emas,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Resep Topi Petarung Emas,2,recipe-icon-271,271,4,"209,2;407,1;410,1", Resep Topi Petarung Emas,"335,1,1,3990;335,2,1,2660;335,3,1,1773;335,4,1,1182;241,5,1,394",0,2,1,30,2,0,4,0,10
-0,Resep Jas Petarung Emas,2,recipe-icon-272,272,4,"209,2;407,1;410,1", Resep Jas Petarung Emas,"336,1,1,3990;336,2,1,2660;336,3,1,1773;336,4,1,1182;242,5,1,394",0,2,1,30,2,0,4,0,10
-0,Resep Sarung Tangan Petarung Emas,2,recipe-icon-273,273,4,"209,2;407,1;410,1", Resep Sarung Tangan Petarung Emas,"337,1,1,3990;337,2,1,2660;337,3,1,1773;337,4,1,1182;243,5,1,394",0,2,1,30,2,0,4,0,10
-0,Resep Celana Petarung Emas,2,recipe-icon-274,274,4,"209,2;407,1;410,1", Resep Celana Petarung Emas,"338,1,1,3990;338,2,1,2660;338,3,1,1773;338,4,1,1182;244,5,1,394",0,2,1,30,2,0,4,0,10
-0,Resep Sepatu Petarung Emas,2,recipe-icon-275,275,4,"209,2;407,1;410,1", Resep Sepatu Petarung Emas,"339,1,1,3990;339,2,1,2660;339,3,1,1773;339,4,1,1182;245,5,1,394",0,2,1,30,2,0,4,0,10
-0,Resep Sabit Emas,2,recipe-icon-276,276,4,"212,1;215,1;401,2", Resep Sabit Emas,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,3,1,30,3,0,4,0,10
-0,Resep Kapak Emas,2,recipe-icon-277,277,4,"212,1;215,1;401,2", Resep Kapak Emas,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,3,1,30,3,0,4,0,10
-0,Resep Topi Kolektor Emas,2,recipe-icon-279,279,4,"212,1;215,1;401,2", Resep Topi Kolektor Emas,"320,1,1,3990;320,2,1,2660;320,3,1,1773;320,4,1,1182;241,5,1,394",0,2,1,30,3,0,4,0,10
-0,Resep Beliung Emas,2,recipe-icon-278,278,4,"212,1;215,1;401,2", Resep Beliung Emas,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,3,1,30,3,0,4,0,10
-0,Resep Jas Kolektor Emas,2,recipe-icon-280,280,4,"212,1;215,1;401,2", Resep Jas Kolektor Emas,"321,1,1,3990;321,2,1,2660;321,3,1,1773;321,4,1,1182;242,5,1,394",0,2,1,30,3,0,4,0,10
-0,Resep Sarung Tangan Kolektor Emas,2,recipe-icon-281,281,4,"212,1;215,1;401,2", Resep Sarung Tangan Kolektor Emas,"322,1,1,3990;322,2,1,2660;322,3,1,1773;322,4,1,1182;243,5,1,394",0,2,1,30,3,0,4,0,10
-0,Resep Cangkul Emas,2,recipe-icon-282,282,4,"218,2;404,2", Resep Cangkul Emas,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,3,1,30,1,0,4,0,10
-0,Resep Topi Petani Emas,2,recipe-icon-284,284,4,"218,2;404,2", Resep Topi Petani Emas,"350,1,1,3990;350,2,1,2660;350,3,1,1773;350,4,1,1182;241,5,1,394",0,2,1,30,1,0,4,0,10
-0,Resep Jas Petani Emas,2,recipe-icon-285,285,4,"218,2;404,2", Resep Jas Petani Emas,"351,1,1,3990;351,2,1,2660;351,3,1,1773;351,4,1,1182;243,5,1,394",0,2,1,30,1,0,4,0,10
-0,Resep Sarung Tangan Petani Emas,2,recipe-icon-286,286,4,"218,2;404,2", Resep Sarung Tangan Petani Emas,"352,1,1,3990;352,2,1,2660;352,3,1,1773;352,4,1,1182;242,5,1,394",0,2,1,30,1,0,4,0,10
-0,Resep Celana Petani Emas,2,recipe-icon-287,287,4,"218,2;404,2", Resep Celana Petani Emas,"353,1,1,3990;353,2,1,2660;353,3,1,1773;353,4,1,1182;244,5,1,394",0,2,1,30,1,0,4,0,10
-0,Resep Celana Kolektor Emas,2,recipe-icon-288,288,4,"212,1;215,1;401,2", Resep Celana Kolektor Emas,"323,1,1,3990;323,2,1,2660;323,3,1,1773;323,4,1,1182;244,5,1,394",0,2,1,30,3,0,4,0,10
-0,Resep Sepatu Kolektor Emas,2,recipe-icon-289,289,4,"212,1;215,1;401,2", Resep Sepatu Kolektor Emas,"324,1,1,3990;324,2,1,2660;324,3,1,1773;324,4,1,1182;245,5,1,394",0,2,1,30,3,0,4,0,10
-0,Resep Sepatu Petani Emas,2,recipe-icon-291,291,4,"218,2;404,2", Resep Sepatu Petani Emas,"354,1,1,3990;354,2,1,2660;354,3,1,1773;354,4,1,1182;245,5,1,394",0,2,1,30,1,0,4,0,10
-0,Resep Pedang Berlian,2,recipe-icon-292,292,5,"404,2;408,1;411,1", Resep Pedang Berlian,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",0,3,1,90,2,0,4,0,15
-0,Resep Topi Petarung Berlian,2,recipe-icon-293,293,5,"404,2;408,1;411,1", Resep Topi Petarung Berlian,"340,1,1,3838;340,2,1,2559;340,3,1,1706;340,4,1,1137;340,5,1,379;277,5,1,379",0,2,1,90,2,0,4,0,15
-0,Resep Jas Petarung Berlian,2,recipe-icon-294,294,5,"404,2;408,1;411,1", Resep Jas Petarung Berlian,"341,1,1,3838;341,2,1,2559;341,3,1,1706;341,4,1,1137;341,5,1,379;278,5,1,379",0,2,1,90,2,0,4,0,15
-0,Resep Sarung Tangan Petarung Berlian,2,recipe-icon-295,295,5,"404,2;408,1;411,1", Resep Sarung Tangan Petarung Berlian,"342,1,1,3838;342,2,1,2559;342,3,1,1706;342,4,1,1137;342,5,1,379;279,5,1,379",0,2,1,90,2,0,4,0,15
-0,Resep Celana Petarung Berlian,2,recipe-icon-296,296,5,"404,2;408,1;411,1", Resep Celana Petarung Berlian,"343,1,1,3838;343,2,1,2559;343,3,1,1706;343,4,1,1137;343,5,1,379;280,5,1,379",0,2,1,90,2,0,4,0,15
-0,Resep Sepatu Petarung Berlian,2,recipe-icon-297,297,5,"404,2;408,1;411,1", Resep Sepatu Petarung Berlian,"344,1,1,3838;344,2,1,2559;344,3,1,1706;344,4,1,1137;344,5,1,379;281,5,1,379",0,2,1,90,2,0,4,0,15
-0,Resep Sabit Berlian,2,recipe-icon-298,298,5,"407,1;410,1;402,2", Resep Sabit Berlian,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,3,1,90,3,0,4,0,15
-0,Resep Kapak Berlian,2,recipe-icon-299,299,5,"407,1;410,1;402,2", Resep Kapak Berlian,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,3,1,90,3,0,4,0,15
-0,Resep Beliung Berlian,2,recipe-icon-300,300,5,"407,1;410,1;402,2", Resep Beliung Berlian,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",0,3,1,90,3,0,4,0,15
-0,Resep Topi Kolektor Berlian,2,recipe-icon-301,301,5,"407,1;410,1;402,2", Resep Topi Kolektor Berlian,"325,1,1,3838;325,2,1,2559;325,3,1,1706;325,4,1,1137;325,5,1,379;277,5,1,379",0,2,1,90,3,0,4,0,15
-0,Resep Jas Kolektor Berlian,2,recipe-icon-302,302,5,"407,1;410,1;402,2", Resep Jas Kolektor Berlian,"326,1,1,3838;326,2,1,2559;326,3,1,1706;326,4,1,1137;326,5,1,379;278,5,1,379",0,2,1,90,3,0,4,0,15
-0,Resep Sarung Tangan Kolektor Berlian,2,recipe-icon-303,303,5,"407,1;410,1;402,2", Resep Sarung Tangan Kolektor Berlian,"327,1,1,3838;327,2,1,2559;327,3,1,1706;327,4,1,1137;327,5,1,379;279,5,1,379",0,2,1,90,3,0,4,0,15
-0,Resep Celana Kolektor Berlian,2,recipe-icon-304,304,5,"407,1;410,1;402,2", Resep Celana Kolektor Berlian,"328,1,1,3838;328,2,1,2559;328,3,1,1706;328,4,1,1137;328,5,1,379;280,5,1,379",0,2,1,90,3,0,4,0,15
-0,Resep Sepatu Kolektor Berlian,2,recipe-icon-305,305,5,"407,1;410,1;402,2", Resep Sepatu Kolektor Berlian,"329,1,1,3838;329,2,1,2559;329,3,1,1706;329,4,1,1137;329,5,1,379;281,5,1,379",0,2,1,90,3,0,4,0,15
-0,Resep Cangkul Berlian,2,recipe-icon-306,306,5,"401,2;405,2", Resep Cangkul Berlian,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,3,1,90,1,0,4,0,15
-0,Resep Topi Petani Berlian,2,recipe-icon-308,308,5,"401,2;405,2", Resep Topi Petani Berlian,"355,1,1,3838;355,2,1,2559;355,3,1,1706;355,4,1,1137;355,5,1,379;277,5,1,379",0,2,1,90,1,0,4,0,15
-0,Resep Jas Petani Berlian,2,recipe-icon-309,309,5,"401,2;405,2", Resep Jas Petani Berlian,"356,1,1,3838;356,2,1,2559;356,3,1,1706;356,4,1,1137;356,5,1,379;279,5,1,379",0,2,1,90,1,0,4,0,15
-0,Resep Sarung Tangan Petani Berlian,2,recipe-icon-310,310,5,"401,2;405,2", Resep Sarung Tangan Petani Berlian,"357,1,1,3838;357,2,1,2559;357,3,1,1706;357,4,1,1137;357,5,1,379;278,5,1,379",0,2,1,90,1,0,4,0,15
-0,Kosong,2,recipe-icon-311,311,5,"401,2;405,2", Resep Celana Petani Berlian,"358,1,1,3838;358,2,1,2559;358,3,1,1706;358,4,1,1137;358,5,1,379;280,5,1,379",0,2,1,90,1,0,4,0,15
-0,Kosong,2,recipe-icon-312,312,5,"401,2;405,2", Resep Sepatu Petani Berlian,"359,1,1,3838;359,2,1,2559;359,3,1,1706;359,4,1,1137;359,5,1,379;281,5,1,379",0,2,1,90,1,0,4,0,15
-0,Kosong,2,recipe-icon-313,313,6,"405,2;409,1;412,1", Resep Pedang Bintang,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,3,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-314,314,6,"405,2;409,1;412,1", Resep Topi Petarung Bintang,"345,1,1,3838;345,2,1,2559;345,3,1,1706;345,4,1,1137;345,5,1,379;471,5,1,379",0,2,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-315,315,6,"405,2;409,1;412,1", Resep Jas Petarung Bintang,"346,1,1,3838;346,2,1,2559;346,3,1,1706;346,4,1,1137;346,5,1,379;472,5,1,379",0,2,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-316,316,6,"405,2;409,1;412,1", Resep Sarung Tangan Petarung Bintang,"347,1,1,3838;347,2,1,2559;347,3,1,1706;347,4,1,1137;347,5,1,379;473,5,1,379",0,2,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-317,317,6,"405,2;409,1;412,1", Resep Celana Petarung Bintang,"348,1,1,3838;348,2,1,2559;348,3,1,1706;348,4,1,1137;348,5,1,379;474,5,1,379",0,2,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Resep Sepatu Star Fighter,"349,1,1,3838;349,2,1,2559;349,3,1,1706;349,4,1,1137;349,5,1,379;475,5,1,379",0,2,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-319,319,6,"408,1;411,1;403,2", Resep Sabit Star,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,3,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Resep Kapak Star,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,3,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Resep Beliung Star,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,3,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Resep Atasan Koleksi Star,"331,1,1,3838;331,2,1,2559;331,3,1,1706;331,4,1,1137;331,5,1,379;472,5,1,379",0,2,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Resep Topi Koleksi Star,"330,1,1,3838;330,2,1,2559;330,3,1,1706;330,4,1,1137;330,5,1,379;471,5,1,379",0,2,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Resep Sarung Tangan Koleksi Star,"332,1,1,3838;332,2,1,2559;332,3,1,1706;332,4,1,1137;332,5,1,379;473,5,1,379",0,2,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Resep Celana Koleksi Star,"333,1,1,3838;333,2,1,2559;333,3,1,1706;333,4,1,1137;333,5,1,379;474,5,1,379",0,2,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-327,327,6,"402,2;406,2", Resep Cangkul Star,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,3,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Resep Sepatu Koleksi Star,"334,1,1,3838;334,2,1,2559;334,3,1,1706;334,4,1,1137;334,5,1,379;475,5,1,379",0,2,1,270,3,0,4,0,20
-0,Kosong,2,recipe-icon-330,330,6,"402,2;406,2", Resep Atasan Petani Star,"361,1,1,3838;361,2,1,2559;361,3,1,1706;361,4,1,1137;361,5,1,379;473,5,1,379",0,2,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-329,329,6,"402,2;406,2", Resep Topi Petani Star,"360,1,1,3838;360,2,1,2559;360,3,1,1706;360,4,1,1137;360,5,1,379;471,5,1,379",0,2,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-331,331,6,"402,2;406,2", Resep Sarung Tangan Petani Star,"362,1,1,3838;362,2,1,2559;362,3,1,1706;362,4,1,1137;362,5,1,379;472,5,1,379",0,2,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-332,332,6,"402,2;406,2", Resep Celana Petani Star,"363,1,1,3838;363,2,1,2559;363,3,1,1706;363,4,1,1137;363,5,1,379;474,5,1,379",0,2,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-333,333,6,"402,2;406,2", Resep Sepatu Petani Star,"364,1,1,3838;364,2,1,2559;364,3,1,1706;364,4,1,1137;364,5,1,379;475,5,1,379",0,2,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2", Resep Esensi Penanaman Pertanian Lv 4,"407,1,1,10000",0,1,1,30,1,0,4,0,0
-0,Kosong,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2", Resep Esensi Penanaman Pertanian Lv 5,"408,1,1,10000",0,1,1,90,1,0,4,0,0
-0,Kosong,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2", Resep Esensi Penanaman Pertanian Lv 6,"409,1,1,10000",0,1,1,270,1,0,4,0,0
-0,Kosong,2,recipe-icon-337,337,4,"392,5;393,5;394,5;215,2", Resep Esensi Peternakan Pertanian Lv 4,"410,1,1,10000",0,1,1,30,1,0,4,0,0
-0,Kosong,2,recipe-icon-338,338,5,"395,5;396,5;397,5;410,2", Resep Esensi Peternakan Pertanian Lv 5,"411,1,1,10000",0,1,1,90,1,0,4,0,0
-0,Kosong,2,recipe-icon-339,339,6,"398,5;399,5;400,5;411,2", Resep Esensi Peternakan Pertanian Lv 6,"412,1,1,10000",0,1,1,270,1,0,4,0,0
-0,Kosong,2,recipe-icon-340,340,4,"365,5;366,5;367,5;218,2", Resep Esensi Tempur Lv 4,"401,1,1,10000",0,1,1,30,2,0,4,0,0
-0,Kosong,2,recipe-icon-341,341,5,"368,5;370,5;369,5;401,2", Resep Esensi Tempur Lv 5,"402,1,1,10000",0,1,1,90,2,0,4,0,0
-0,Kosong,2,recipe-icon-342,342,6,"371,5;372,5;373,5;402,2", Resep Esensi Tempur Lv 6,"403,1,1,10000",0,1,1,270,2,0,4,0,0
-0,Kosong,2,recipe-icon-343,343,4,"375,5;376,5;374,5;209,2", Resep Esensi Mengumpulkan Lv 4,"404,1,1,10000",0,1,1,30,3,0,4,0,0
-0,Kosong,2,recipe-icon-345,345,6,"380,5;381,5;382,5;405,2", Resep Esensi Mengumpulkan Lv 6,"406,1,1,10000",0,1,1,270,3,0,4,0,0
-0,Kosong,2,recipe-icon-344,344,5,"377,5;378,5;379,5;404,2", Resep Esensi Mengumpulkan Lv 5,"405,1,1,10000",0,1,1,90,3,0,4,0,0
-0,Kosong,2,recipe-icon-347,347,5,"377,2;378,2;379,2", Resep Ramuan Lv 5,"429,1,1,1666;430,1,1,1666;431,1,1,1666;432,1,1,1666;433,1,1,1666;434,1,1,1666",0,1,1,90,3,0,4,0,0
-0,Kosong,2,recipe-icon-346,346,4,"374,2;375,2;376,2", Resep Ramuan Lv 4,"422,1,1,1666;423,1,1,1666;424,1,1,1666;425,1,1,1666;426,1,1,1666;427,1,1,1666",0,1,1,30,3,0,4,0,0
-0,Kosong,2,recipe-icon-348,348,6,"380,2;381,2;382,2", Resep Ramuan Lv 6,"435,1,1,1666;436,1,1,1666;437,1,1,1666;438,1,1,1666;439,1,1,1666;440,1,1,1666",0,1,1,270,3,0,4,0,0
-0,Kosong,2,recipe-icon-364,364,1,"210,1;213,1",Resep Palu Tembaga Lv 1,"441,1,1,10000",0,3,1,10,2,0,4,0,0
-0,Kosong,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Resep Palu Besi Lv 2,"442,1,1,6000;442,2,1,4000",0,3,1,10,2,0,4,0,0
-0,Kosong,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Resep Palu Emas Lv 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Kosong,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Resep Palu Kristal Lv 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,3,1,10,2,0,4,0,5
-0,Kosong,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Resep Palu Berlian Lv 5,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,3,1,90,2,0,4,0,15
-0,Kosong,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Resep Palu Cahaya Bintang Lv 6,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,3,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-370,370,1,"210,1;213,1",Resep Busur Batu Lv 1,"287,1,1,10000",0,3,1,10,2,0,4,0,0
-0,Kosong,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Resep Busur Logam Lv 2,"288,1,1,6000;288,2,1,4000",0,3,1,10,2,0,4,0,0
-0,Kosong,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Resep Busur Kristal Lv 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,3,1,10,2,0,4,0,5
-0,Kosong,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Resep Busur Emas Lv 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,3,1,30,2,0,4,0,10
-0,Kosong,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Resep Busur Berlian Lv 5,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,3,1,90,2,0,4,0,15
-0,Kosong,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Resep Busur Cahaya Bintang Lv 6,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,3,1,270,2,0,4,0,20
-0,Kosong,2,recipe-icon-376,376,1,"207,2",Resep Sikat Tembaga Lv 1,"453,1,1,10000",0,3,1,10,1,0,4,0,0
-0,Kosong,2,recipe-icon-377,377,2,"216,2;208,2",Resep Sikat Besi Lv 2,"454,1,1,6000;454,2,1,4000",0,3,1,10,1,0,4,0,0
-0,Kosong,2,recipe-icon-378,378,3,"217,2;209,2",Resep Sikat Kristal Lv 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,3,1,10,1,0,4,0,5
-0,Kosong,2,recipe-icon-379,379,4,"218,2;404,2",Resep Sikat Emas Lv 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,3,1,30,1,0,4,0,10
-0,Kosong,2,recipe-icon-380,380,5,"401,2;405,2",Resep Sikat Berlian Lv 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,3,1,90,1,0,4,0,15
-0,Kosong,2,recipe-icon-381,381,6,"402,2;406,2",Resep Sikat Cahaya Bintang Lv 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,3,1,270,1,0,4,0,20
-0,Kosong,2,recipe-icon-382,382,4,"375,5;374,10", Resep Ramuan Pemulihan Energi - Kecil,"459,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Kosong,2,recipe-icon-383,383,5,"378,5;377,10", Ramuan Pemulihan Energi - Resep Sedang,"460,1,1,10000",0,1,1,10,3,0,4,0,0
-0,Kosong,2,recipe-icon-384,384,6,"381,5;380,10", Ramuan Pemulihan Energi - Resep Besar,"461,1,1,10000",0,1,1,10,3,0,4,0,0
-0,,0,recipe-icon-385,385,0,"365,8;366,8;367,8",,"464,1,3,10000",0,1,1,10,0,0,4,0,1
-0,,0,recipe-icon-386,386,0,"368,3;369,3;370,3",,"464,1,12,10000",0,1,1,10,0,0,4,0,1
-0,,0,recipe-icon-387,387,0,"371,1;372,1;373,1",,"464,1,18,10000",0,1,1,10,0,0,4,0,1
-0,,0,recipe-icon-389,389,0,"463,1",,"465,1,12,10000",0,1,1,10,0,0,4,0,1
-0,,0,recipe-icon-388,388,0,"462,1",,"465,1,3,10000",0,1,1,10,0,0,4,0,1
-0,,0,recipe-icon-390,390,0,"207,2;216,2;210,1;213,1",,"466,1,3,10000",0,1,1,10,0,0,4,0,0
-0,,0,recipe-icon-391,391,0,"208,2;217,2;211,1;214,1",,"466,1,12,10000",0,1,1,10,0,0,4,0,0
-0,,0,recipe-icon-392,392,0,"209,2;218,2;212,1;212,1",,"466,1,27,10000",0,1,1,10,0,0,4,0,0
-0,,0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10",,"466,1,3,10000",0,1,1,10,0,0,4,0,0
-0,,0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",,"466,1,12,10000",0,1,1,10,0,0,4,0,0
-0,,0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",,"466,1,27,10000",0,1,1,10,0,0,4,0,0
-0,,0,recipe-icon-396,396,0,"209,2;218,2;212,1;215,1",,"467,1,1,10000",0,1,1,5,0,1,1,0,3
-0,,0,recipe-icon-397,397,0,"469,2",,"468,1,5,6500;467,1,5,3500",0,1,1,5,0,1,1,0,0
-0,,0,recipe-icon-398,398,0,"207,2;216,2;210,1;213,1",,"468,1,1,10000",0,1,1,5,0,1,1,0,1
-0,,0,recipe-icon-404,404,0,"62,10;58,10",,"225,1,1,10000",0,1,1,10,3,1,1,0,0
+1,Pembuatan Pedang Batu Lv 1 ,2,recipe-icon-44,44,1,"210,1;213,1",Resep Pedang Batu Lv 1 ,"40,1,1,10000",0,99044,1,10,2,0,4,0,0
+0,Pembuatan Pedang Besi Lv 2 ,2,recipe-icon-45,45,2,"207,2;211,1;214,1", Resep Pedang Besi Lv 2 ,"41,1,1,6000;41,2,1,4000",0,98045,1,10,2,0,4,0,0
+0,Pembuatan Pedang Kristal Lv 3 ,2,recipe-icon-46,46,3,"208,2;212,1;215,1", Resep Pedang Kristal Lv 3 ,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97046,1,10,2,0,4,0,0
+0,Pembuatan Cangkul Besi Lv 1 ,2,recipe-icon-62,62,1,"207,2", Resep Cangkul Besi Lv 1 ,"80,1,1,10000",0,99062,1,10,1,0,4,0,0
+0,Pembuatan Pupuk Lembab Lv 0 ,2,recipe-icon-94,94,1,"69,1", Resep Pupuk yang Melembabkan Lv 0 ,"130,1,1,10000",0,99094,1,10,1,0,4,0,0
+0,Pembuatan Cangkul yang Diberkati Lv 3 ,2,recipe-icon-64,64,3,"217,2;209,2", Resep Cangkul yang Diberkati Lv 3 ,"82,1,1,10000",0,97064,1,10,1,0,4,0,0
+0,Pembuatan Pupuk yang Meningkatkan Hasil Lv 0 ,2,recipe-icon-93,93,1,"61,1", Resep Pupuk yang Meningkatkan Hasil Lv 0 ,"129,1,1,10000",0,99093,1,10,1,0,4,0,0
+0,Pembuatan Ketel Terkutuk Lv 2 ,2,recipe-icon-67,67,2,"216,2;208,2", Resep Ketel Terkutuk Lv 2 ,"85,2,1,4000;84,1,1,6000",0,98067,1,10,1,0,4,0,0
+0,Pembuatan Kapak yang Diberkati Lv 3 ,2,recipe-icon-76,76,3,"211,1;214,1;218,2", Resep Kapak yang Diberkati Lv 3 ,"94,1,1,10000",0,97076,1,10,3,0,4,0,0
+0,Pembuatan Ramuan Penyembuhan Kecil Lv 0 ,2,recipe-icon-95,95,1,"66,5;32,5", Resep Ramuan Penyembuhan Kecil Lv 0 ,"134,1,1,5031;135,1,1,993;136,1,1,993;137,1,1,993;139,1,1,993;138,1,1,993",0,99095,1,10,3,0,4,0,0
+0,Pembuatan Ramuan Penyembuhan Lv 1 ,2,recipe-icon-96,96,2,"67,2;75,2;35,2", Resep Ramuan Penyembuhan Lv 1 ,"140,1,1,5031;142,1,1,993;141,1,1,993;143,1,1,993;145,1,1,993;144,1,1,993",0,98096,1,10,3,0,4,0,0
+0,Pembuatan Cangkul Terkutuk Lv 2 ,2,recipe-icon-63,63,2,"216,2;208,2", Resep Cangkul Terkutuk Lv 2 ,"81,1,1,10000",0,98063,1,10,1,0,4,0,0
+0,Pembuatan Beliung Terkutuk Lv 2 ,2,recipe-icon-71,71,2,"210,1;213,1;217,2", Resep Beliung Terkutuk Lv 2 ,"89,1,1,6000;89,2,1,4000",0,98071,1,10,3,0,4,0,0
+0,Pembuatan Beliung Besi Lv 1 ,2,recipe-icon-70,70,1,"216,2", Resep Beliung Besi Lv 1 ,"88,1,1,10000",0,99070,1,10,3,0,4,0,0
+0,Pembuatan Beliung yang Diberkati Lv 3 ,2,recipe-icon-72,72,3,"211,1;214,1;218,2", Resep Beliung yang Diberkati Lv 3 ,"90,1,1,10000",0,97072,1,10,3,0,4,0,0
+0,Pembuatan Ketel yang Diberkati Lv 3 ,2,recipe-icon-68,68,3,"217,2;209,2", Resep Ketel yang Diberkati Lv 3 ,"86,1,1,10000",0,97068,1,10,1,0,4,0,0
+0,Pembuatan Kapak Besi Lv 1 ,2,recipe-icon-74,74,1,"216,2", Resep Kapak Besi Lv 1 ,"92,1,1,10000",0,99074,1,10,3,0,4,0,0
+0,Pembuatan Ketel Besi Lv 1 ,2,recipe-icon-66,66,1,"207,2", Resep Ketel Besi Lv 1 ,"84,1,1,10000",0,99066,1,10,1,0,4,0,0
+0,Pembuatan Pupuk Dipercepat Lv 0 ,2,recipe-icon-92,92,1,"65,1", Resep Pupuk Dipercepat Lv 0 ,"128,1,1,10000",0,99092,1,10,1,0,4,0,0
+0,Pembuatan Kapak Terkutuk Lv 2 ,2,recipe-icon-75,75,2,"210,1;213,1;217,2", Resep Kapak Terkutuk Lv 2 ,"93,1,1,6000;93,2,1,4000",0,98075,1,10,3,0,4,0,0
+0,Pembuatan Pupuk Berakselerasi Tinggi Lv 0 ,2,recipe-icon-101,101,2,"69,2;35,2", Resep Pupuk yang Melembabkan yang Lebih Maju Lv 0 ,"133,1,1,10000",0,98101,1,10,1,0,4,0,0
+0,Pembuatan Pupuk Hasil Tinggi Lv 0 ,2,recipe-icon-102,102,2,"61,2;35,2", Resep Pupuk yang Meningkatkan Hasil yang Lebih Maju Lv 0 ,"132,1,1,10000",0,98102,1,10,1,0,4,0,0
+0,Pembuatan Pupuk dengan Kelembaban Tinggi Lv 0 ,2,recipe-icon-103,103,2,"65,2;35,2", Resep Pupuk Dipercepat yang Lebih Maju Lv 0 ,"131,1,1,10000",0,98103,1,10,1,0,4,0,0
+0,Pembuatan Jimat Lv 0 ,2,recipe-icon-104,104,1,"32,20;71,40;58,40;62,40;66,40", Resep Jimat Lv 0 ,"161,1,1,4736;161,2,1,3157;161,3,1,2105",0,99104,1,10,0,0,4,0,100
+0,Pembuatan Jimat Lv 0 ,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40", Resep Jimat Lv 0 ,"161,2,1,4426;161,3,1,2950;161,4,1,1967;161,5,1,655",0,99106,1,10,0,0,4,0,200
+0,Pembuatan Topi Semanggi Keberuntungan Lv 1 ,2,recipe-icon-108,108,1,"207,2", Resep Topi Semanggi Keberuntungan Lv 1 ,"98,1,1,9101;267,5,1,898",0,99108,1,10,1,0,4,0,0
+0,Pembuatan Topi Katun Keberuntungan Lv 2 ,2,recipe-icon-109,109,2,"216,2;208,2", Resep Topi Katun Keberuntungan Lv 1 ,"99,1,1,5664;99,2,1,3776;262,5,1,559",0,98109,1,10,1,0,4,0,0
+0,Pembuatan Topi Keras Keberuntungan Lv 3 ,2,recipe-icon-110,110,3,"217,2;209,2", Resep Topi Keras Keberuntungan Lv 3 ,"100,1,1,4525;100,2,1,3016;100,3,1,2011;272,5,1,446",0,97110,1,10,1,0,4,0,0
+0,Pembuatan Topi Koleksi Lv 1 ,2,recipe-icon-111,111,1,"216,2", Resep Topi Koleksi Lv 1 ,"116,1,1,9101;267,5,1,898",0,99111,1,10,3,0,4,0,0
+0,Pembuatan Topi Koleksi Lv 2 ,2,recipe-icon-112,112,2,"210,1;213,1;217,2", Resep Topi Koleksi Lv 2 ,"117,1,1,5664;117,2,1,3776;262,5,1,559",0,98112,1,10,3,0,4,0,0
+0,Pembuatan Topi Koleksi Lv 3 ,2,recipe-icon-113,113,3,"211,1;214,1;218,2", Resep Topi Koleksi Lv 3 ,"118,1,1,4525;118,3,1,2011;118,2,1,3016;272,5,1,446",0,97113,1,10,3,0,4,0,0
+0,Pembuatan Benih Bambu Lv 1 ,2,recipe-icon-123,123,1,"70,1", Resep Benih Bambu Lv 1 ,"146,1,2,5000;150,1,1,5000",0,99123,1,10,1,0,4,0,0
+0,Pembuatan Benih Semanggi Lv 1 ,2,recipe-icon-124,124,1,"71,1", Resep Benih Semanggi Lv 1 ,"147,1,2,5000;149,1,1,5000",0,99124,1,10,1,0,4,0,0
+0,Pembuatan Benih Wortel Lv 1 ,2,recipe-icon-125,125,1,"72,1", Resep Benih Wortel Lv 1 ,"148,1,2,5000;151,1,1,5000",0,99125,1,10,1,0,4,0,0
+0,Pembuatan Benih Tanaman Pembunuh Lv 2 ,2,recipe-icon-126,126,2,"73,1", Resep Benih Tanaman Pembasmi Lalat Lv 2 ,"149,1,2,5000;154,1,1,5000",0,98126,1,10,1,0,4,0,0
+0,Pembuatan Benih Kapas Lv 2 ,2,recipe-icon-127,127,2,"74,1", Resep Benih Kapas Lv 2 ,"150,1,2,5000;152,1,1,5000",0,98127,1,10,1,0,4,0,0
+0,Pembuatan Benih Kaktus Lv 2 ,2,recipe-icon-128,128,2,"75,1", Resep Benih Kaktus Lv 2 ,"151,1,2,5000;153,1,1,5000",0,98128,1,10,1,0,4,0,0
+0,Pembuatan Benih Cabai Pedas Lv 3 ,2,recipe-icon-129,129,3,"76,1", Resep Cabai Pedas Lv 3 ,"152,1,2,5000;413,1,1,5000",0,97129,1,10,1,0,4,0,0
+0,Pembuatan Benih Buah Keras Lv 3 ,2,recipe-icon-130,130,3,"77,1", Resep Buah Keras Lv 3 ,"153,1,2,5000;414,1,1,5000",0,97130,1,10,1,0,4,0,0
+0,Pembuatan Benih Jamur Phantom Biru Lv 3 ,2,recipe-icon-131,131,3,"78,1", Resep Benih Jamur Phantom Biru Lv 3 ,"154,1,2,5000;415,1,1,5000",0,97131,1,10,1,0,4,0,0
+0,Pembuatan Ramuan Penyembuhan Kristal Lv 2 ,2,recipe-icon-132,132,3,"68,2;78,2;38,2", Resep Ramuan Penyembuhan Kristal Lv 2 ,"191,1,1,5031;192,1,1,993;194,1,1,993;195,1,1,993;196,1,1,993;197,1,1,993",0,97132,1,10,3,0,4,0,0
+0,Pembuatan Lingkaran Pecahan Kristal Lv 1 ,2,recipe-icon-133,133,1,"210,1;213,1", Resep Lingkaran Pecahan Kristal Lv 1 ,"43,1,1,9101;267,5,1,898",0,99133,1,10,2,0,4,0,0
+0,Pembuatan Topi Kristal Helm Prajurit Lv 2 ,2,recipe-icon-134,134,2,"207,2;211,1;214,1", Resep Topi Kulit Helm Prajurit Lv 2 ,"44,1,1,5664;44,2,1,3776;262,5,1,559",0,98134,1,10,2,0,4,0,0
+0,Pembuatan Helm Prajurit Helm Hedron Lv 3 ,2,recipe-icon-135,135,3,"208,2;212,1;215,1", Resep Helm Prajurit Helm Hedron Lv 3 ,"45,1,1,4525;45,2,1,3016;45,3,1,2011;272,5,1,446",0,97135,1,10,2,0,4,0,0
+0,Pembuatan Atasan Prajurit Atasan Kulit Kristal Lv 2 ,2,recipe-icon-137,137,2,"207,2;211,1;214,1", Resep Atasan Prajurit Atasan Kulit Kristal Lv 2 ,"47,1,1,5664;47,2,1,3776;263,5,1,559",0,98137,1,10,2,0,4,0,0
+0,Pembuatan Armor Anggur Pecahan Kristal Tunik Prajurit Lv 1 ,2,recipe-icon-136,136,1,"210,1;213,1", Resep Armor Anggur Pecahan Kristal Lv 1 ,"46,1,1,9101;268,5,1,898",0,99136,1,10,2,0,4,0,0
+0,Pembuatan Armor Tunik Hedron Prajurit Lv 3 ,2,recipe-icon-138,138,3,"208,2;212,1;215,1", Resep Armor Tunik Hedron Prajurit Lv 3 ,"48,1,1,4525;48,2,1,3016;48,3,1,2011;273,5,1,446",0,97138,1,10,2,0,4,0,0
+0,Pembuatan Celana Prajurit Rok Hula Pecahan Kristal Lv 1 ,2,recipe-icon-139,139,1,"210,1;213,1", Resep Celana Prajurit Rok Hula Pecahan Kristal Lv 1 ,"49,1,1,9101;270,5,1,898",0,99139,1,10,2,0,4,0,0
+0,Pembuatan Celana Prajurit Celana Kulit Kristal Lv 2 ,2,recipe-icon-140,140,2,"207,2;211,1;214,1", Resep Celana Prajurit Celana Kulit Kristal Lv 2 ,"50,1,1,5664;50,2,1,3776;265,5,1,559",0,98140,1,10,2,0,4,0,0
+0,Pembuatan Pelindung Kaki Hedron Celana Prajurit Lv 3 ,2,recipe-icon-141,141,3,"208,2;212,1;215,1", Resep Pelindung Kaki Hedron Celana Prajurit Lv 3 ,"51,1,1,4525;51,2,1,3016;51,3,1,2011;274,5,1,446",0,97141,1,10,2,0,4,0,0
+0,Pembuatan Gelang Pecahan Kristal Sarung Tangan Prajurit Lv 1 ,2,recipe-icon-142,142,1,"210,1;213,1", Resep Gelang Pecahan Kristal Lv 1 ,"55,1,1,9101;271,5,1,898",0,99142,1,10,2,0,4,0,0
+0,Pembuatan Sarung Tangan Prajurit Sarung Tangan Kulit Kristal Lv 2 ,2,recipe-icon-143,143,2,"207,2;211,1;214,1", Resep Sarung Tangan Prajurit Sarung Tangan Kulit Kristal Lv 2 ,"56,1,1,5664;56,2,1,3776;266,5,1,559",0,98143,1,10,2,0,4,0,0
+0,Pembuatan Sarung Tangan Prajurit Sarung Tangan Hedron Lv 3 ,2,recipe-icon-144,144,3,"208,2;212,1;215,1", Resep Sarung Tangan Prajurit Sarung Tangan Hedron Lv 3 ,"57,1,1,4525;57,2,1,3016;57,3,1,2011;275,5,1,446",0,97144,1,10,2,0,4,0,0
+0,Pembuatan Sandal Pecah Sepatu Prajurit Lv 1 ,2,recipe-icon-145,145,1,"210,1;213,1", Resep Sandal Pecah Sepatu Prajurit Lv 1 ,"52,1,1,9101;269,5,1,898",0,99145,1,10,2,0,4,0,0
+0,Pembuatan Sepatu Prajurit Sepatu Bot Kulit Kristal Lv 2 ,2,recipe-icon-146,146,2,"207,2;211,1;214,1", Resep Sepatu Prajurit Sepatu Bot Kulit Kristal Lv 2 ,"53,1,1,5664;53,2,1,3776;264,5,1,559",0,98146,1,10,2,0,4,0,0
+0,Pembuatan Sepatu Prajurit Sepatu Spar Hedron Lv 3 ,2,recipe-icon-147,147,3,"208,2;212,1;215,1", Resep Sepatu Prajurit Sepatu Spar Lv 3 ,"54,1,1,4525;54,2,1,3016;54,3,1,2011;276,5,1,446",0,97147,1,10,2,0,4,0,0
+0,Pembuatan Esensi Pertempuran Lv 1 ,2,recipe-icon-149,149,1,"30,5;31,5;32,5", Resep Ramuan Pertempuran Lv 1 ,"216,1,1,10000",0,99149,1,10,2,0,4,0,0
+0,Pembuatan Esensi Pertempuran Lv 2 ,2,recipe-icon-150,150,2,"33,5;35,5;34,5;216,2", Resep Ramuan Pertempuran Lv 2 ,"217,1,1,10000",0,98150,1,10,2,0,4,0,0
+0,Pembuatan Esensi Pertempuran Lv 3 ,2,recipe-icon-151,151,3,"36,5;37,5;38,5;217,2", Resep Ramuan Pertempuran Lv 3 ,"218,1,1,10000",0,97151,1,10,2,0,4,0,0
+0,Pembuatan Esensi Pertanian Lv 1 ,2,recipe-icon-152,152,1,"70,5;71,5;72,5", Resep Esensi Pertempuran Lv 1 ,"210,1,1,10000",0,99152,1,10,1,0,4,0,0
+0,Pembuatan Esensi Pertanian Lv 2 ,2,recipe-icon-153,153,2,"74,5;73,5;75,5;210,2", Resep Esensi Pertempuran Lv 2 ,"211,1,1,10000",0,98153,1,10,1,0,4,0,0
+0,Pembuatan Esensi Pertanian Lv 3 ,2,recipe-icon-154,154,3,"76,5;77,5;78,5;211,2", Resep Esensi Pertempuran Lv 3 ,"212,1,1,10000",0,97154,1,10,1,0,4,0,0
+0,Pembuatan Esensi Peternakan Pertanian Lv 1 ,2,recipe-icon-155,155,1,"178,5;179,5;177,5", Resep Esensi Penanaman Pertanian Lv 1 ,"213,1,1,10000",0,99155,1,10,1,0,4,0,0
+0,Pembuatan Esensi Peternakan Pertanian Lv 2 ,2,recipe-icon-156,156,2,"182,5;180,5;181,5;213,2", Resep Esensi Penanaman Pertanian Lv 2 ,"214,1,1,10000",0,98156,1,10,1,0,4,0,0
+0,Pembuatan Esensi Peternakan Pertanian Lv 3 ,2,recipe-icon-157,157,3,"184,5;185,5;183,5;214,2", Resep Esensi Penanaman Pertanian Lv 3 ,"215,1,1,10000",0,97157,1,10,1,0,4,0,0
+0,Pembuatan Esensi Koleksi Lv 1 ,2,recipe-icon-158,158,1,"62,5;58,5;66,5", Resep Esensi Peternakan Pertanian Lv 1 ,"207,1,1,10000",0,99158,1,10,3,0,4,0,0
+0,Pembuatan Esensi Koleksi Lv 2 ,2,recipe-icon-159,159,2,"63,5;67,5;59,5;207,2", Resep Esensi Peternakan Pertanian Lv 2 ,"208,1,1,10000",0,98159,1,10,3,0,4,0,0
+0,Pembuatan Esensi Koleksi Lv 3 ,2,recipe-icon-160,160,3,"64,5;60,5;68,5;208,2", Resep Esensi Peternakan Pertanian Lv 3 ,"209,1,1,10000",0,97160,1,10,3,0,4,0,0
+0,Pembuatan Pakaian Pertanian Lv 1 ,2,recipe-icon-165,165,1,"207,2", Resep Puncak Pertanian Lv 1 ,"101,1,1,9101;268,5,1,898",0,99165,1,10,1,0,4,0,0
+0,Pembuatan Celana Pertanian Lv 1 ,2,recipe-icon-166,166,1,"207,2", Resep Celana Pertanian Lv 1 ,"104,1,1,9101;270,5,1,898",0,99166,1,10,1,0,4,0,0
+0,Pembuatan Sarung Tangan Pertanian Lv 1 ,2,recipe-icon-167,167,1,"207,2", Resep Sarung Tangan Pertanian Lv 1 ,"107,1,1,9101;269,5,1,898",0,99167,1,10,1,0,4,0,0
+0,Pembuatan Sepatu Pertanian Lv 1 ,2,recipe-icon-168,168,1,"207,2", Resep Sepatu Pertanian Lv 1 ,"110,1,1,9101;271,5,1,898",0,99168,1,10,1,0,4,0,0
+0,Pembuatan Pakaian Pertanian Lv 2 ,2,recipe-icon-169,169,2,"216,2;208,2", Resep Puncak Pertanian Lv 2 ,"102,1,1,5664;102,2,1,3776;263,5,1,559",0,98169,1,10,1,0,4,0,0
+0,Pembuatan Celana Pertanian Lv 2 ,2,recipe-icon-170,170,2,"216,2;208,2", Resep Celana Pertanian Lv 2 ,"105,1,1,5664;105,2,1,3776;265,5,1,559",0,98170,1,10,1,0,4,0,0
+0,Pembuatan Sarung Tangan Pertanian Lv 2 ,2,recipe-icon-171,171,2,"216,2;208,2", Resep Sarung Tangan Pertanian Lv 2 ,"108,1,1,5664;108,2,1,3776;264,5,1,559",0,98171,1,10,1,0,4,0,0
+0,Pembuatan Sepatu Pertanian Lv 2 ,2,recipe-icon-172,172,2,"216,2;208,2", Resep Sepatu Pertanian Lv 2 ,"111,1,1,5664;111,2,1,3776;266,5,1,559",0,98172,1,10,1,0,4,0,0
+0,Pembuatan Pakaian Pertanian Lv 3 ,2,recipe-icon-173,173,3,"217,2;209,2", Resep Puncak Pertanian Lv 3 ,"103,1,1,4525;103,2,1,3016;103,3,1,2011;273,5,1,446",0,97173,1,10,1,0,4,0,0
+0,Pembuatan Celana Pertanian Lv 3 ,2,recipe-icon-174,174,3,"217,2;209,2", Resep Celana Pertanian Lv 3 ,"106,1,1,4525;106,3,1,2011;106,2,1,3016;275,5,1,446",0,97174,1,10,1,0,4,0,0
+0,Pembuatan Sarung Tangan Pertanian Lv 3 ,2,recipe-icon-175,175,3,"217,2;209,2", Resep Sarung Tangan Pertanian Lv 3 ,"109,2,1,3016;109,1,1,4525;109,3,1,2011;274,5,1,446",0,97175,1,10,1,0,4,0,0
+0,Pembuatan Sepatu Pertanian Lv 3 ,2,recipe-icon-176,176,3,"217,2;209,2", Resep Sepatu Pertanian Lv 3 ,"112,1,1,4525;112,3,1,2011;112,2,1,3016;276,5,1,446",0,97176,1,10,1,0,4,0,0
+0,Pembuatan Sepatu Koleksi Lv 1 ,2,recipe-icon-177,177,1,"216,2", Resep Sepatu Koleksi Lv 1 ,"113,1,1,9101;271,5,1,898",0,99177,1,10,3,0,4,0,0
+0,Pembuatan Atasan Koleksi Lv 1 ,2,recipe-icon-178,178,1,"216,2", Resep Puncak Koleksi Lv 1 ,"119,1,1,9101;268,5,1,898",0,99178,1,10,3,0,4,0,0
+0,Pembuatan Celana Koleksi Lv 1 ,2,recipe-icon-179,179,1,"216,2", Resep Celana Koleksi Lv 1 ,"122,1,1,9101;270,5,1,898",0,99179,1,10,3,0,4,0,0
+0,Pembuatan Sarung Tangan Koleksi Lv 1 ,2,recipe-icon-180,180,1,"216,2", Resep Sarung Tangan Koleksi Lv 1 ,"125,1,1,9101;269,5,1,898",0,99180,1,10,3,0,4,0,0
+0,Pembuatan Sepatu Koleksi Lv 2 ,2,recipe-icon-181,181,2,"210,1;213,1;217,2", Resep Sepatu Koleksi Lv 2 ,"114,1,1,5664;114,2,1,3776;266,5,1,559",0,98181,1,10,3,0,4,0,0
+0,Pembuatan Atasan Koleksi Lv 2 ,2,recipe-icon-182,182,2,"210,1;213,1;217,2", Resep Puncak Koleksi Lv 2 ,"120,1,1,5664;120,2,1,3776;263,5,1,559",0,98182,1,10,3,0,4,0,0
+0,Pembuatan Celana Koleksi Lv 2 ,2,recipe-icon-183,183,2,"210,1;213,1;217,2", Resep Celana Koleksi Lv 2 ,"123,1,1,5664;123,2,1,3776;265,5,1,559",0,98183,1,10,3,0,4,0,0
+0,Pembuatan Sarung Tangan Koleksi Lv 2 ,2,recipe-icon-184,184,2,"210,1;213,1;217,2", Resep Sarung Tangan Koleksi Lv 2 ,"126,1,1,5664;126,2,1,3776;264,5,1,559",0,98184,1,10,3,0,4,0,0
+0,Pembuatan Sepatu Koleksi Lv 3 ,2,recipe-icon-185,185,3,"211,1;214,1;218,2", Resep Sepatu Koleksi Lv 3 ,"115,1,1,4525;115,3,1,2011;115,2,1,3016;276,5,1,446",0,97185,1,10,3,0,4,0,0
+0,Pembuatan Atasan Koleksi Lv 3 ,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Resep Puncak Koleksi Lv 3 ,"121,1,1,4525;121,3,1,2011;121,2,1,3016;273,5,1,446",0,97186,1,10,3,0,4,0,0
+0,Pembuatan Celana Koleksi Lv 3 ,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Resep Celana Koleksi Lv 3 ,"124,1,1,4525;124,3,1,2011;124,2,1,3016;275,5,1,446",0,97187,1,10,3,0,4,0,0
+0,Pembuatan Sarung Tangan Koleksi Lv 3 ,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Resep Sarung Tangan Koleksi Lv 3 ,"127,1,1,4525;127,2,1,3016;127,3,1,2011;274,5,1,446",0,97188,1,10,3,0,4,0,0
+0,Pembuatan Pedang Kayu Lv 0 ,2,recipe-icon-189,189,0,"62,10;32,5", Resep Esensi Mengumpulkan Lv 1 ,"39,1,1,10000",0,100189,1,3,2,1,1,0,0
+0,Pembuatan Cangkul Kayu Lv 0 ,2,recipe-icon-190,190,0,"62,10;66,10", Resep Esensi Mengumpulkan Lv 2 ,"79,1,1,10000",0,100190,1,3,1,1,1,0,0
+0,Pembuatan Sikat Lv 0 ,2,recipe-icon-191,191,0,"62,10;66,10", Resep Esensi Mengumpulkan Lv 3 ,"95,1,1,10000",0,100191,1,3,1,1,1,0,0
+0,Pembuatan Alat Pemotong Rambut Lv 0 ,2,recipe-icon-192,192,0,"62,10;66,10", Resep Pedang Kayu Lv 0 ,"96,1,1,10000",0,100192,1,3,1,1,1,0,0
+0,Pembuatan Mesin Pemerah Susu Lv 0 ,2,recipe-icon-193,193,0,"62,10;66,10", Resep Cangkul Kayu Lv 0 ,"97,1,1,10000",0,100193,1,3,1,1,1,0,0
+0,Pembuatan Botol Air Kayu Lv 0 ,2,recipe-icon-194,194,0,"62,10;66,10", Resep Sikat Lv 0 ,"83,1,1,10000",0,100194,1,3,1,1,1,0,0
+0,Pembuatan Kapak Kayu Lv 0 ,2,recipe-icon-195,195,0,"62,10;66,10", Resep Alat Pemotong Rambut Lv 0 ,"91,1,1,10000",0,100195,1,3,3,1,1,0,0
+0,Pembuatan Beliung Kayu Lv 0 ,2,recipe-icon-196,196,0,"62,10;66,10", Resep Mesin Pemerah Susu Lv 0 ,"87,1,1,10000",0,100196,1,10,3,1,1,0,0
+0,Pembuatan Pupuk Berakselerasi Tinggi Lv 0 ,2,recipe-icon-197,197,2,"69,2;35,2", Resep Pupuk Dipercepat yang Lebih Baik Lv 0 ,"219,1,1,10000",0,98197,1,10,1,0,4,0,0
+0,Pembuatan Pupuk Hasil Tinggi Lv 0 ,2,recipe-icon-198,198,2,"61,2;35,2", Resep Pupuk yang Meningkatkan Hasil yang Lebih Baik Lv 0 ,"220,1,1,10000",0,98198,1,10,1,0,4,0,0
+0,Pembuatan Pupuk dengan Kelembaban Tinggi Lv 0 ,2,recipe-icon-199,199,2,"65,2;35,2", Resep Pupuk yang Melembabkan yang Lebih Baik Lv 0 ,"221,1,1,10000",0,98199,1,10,1,0,4,0,0
+0,Pembuatan Sabit Batu Lv 1 ,2,recipe-icon-201,201,1,"62,10;58,10", Resep Sabit Batu Lv 1 ,"226,1,1,10000",0,99201,1,10,3,0,4,0,0
+0,Pembuatan Sabit Tembaga Lv 2 ,2,recipe-icon-203,203,2,"216,2", Resep Sabit Tembaga Lv 2 ,"227,1,1,10000",0,98203,1,10,3,0,4,0,0
+0,Pembuatan Sabit Besi Lv 3 ,2,recipe-icon-204,204,3,"217,2;210,1;213,1", Resep Sabit Besi Lv 3 ,"228,1,1,10000",0,97204,1,10,3,0,4,0,0
+0,Pembuatan Pakan Kecil Lv 0 ,2,recipe-icon-205,205,0,"66,5;62,5", Resep Ketel Kayu Lv 0 ,"28,1,1,10000",0,100205,1,10,1,1,1,0,0
+0,Pembuatan Pakan Besar Lv 0 ,2,recipe-icon-206,206,1,"63,5;67,5", Resep Kapak Kayu Lv 0 ,"29,1,1,10000",0,99206,1,10,1,0,4,0,0
+0,Pembuatan Busur Kayu Lv 0 ,2,recipe-icon-207,207,0,"62,20;66,10", Resep Beliung Kayu Lv 0 ,"223,1,1,10000",0,100207,1,10,2,1,1,0,0
+0,Pembuatan Palu Batu Lv 0 ,2,recipe-icon-208,208,0,"62,20;58,20", Resep Pakan Kecil Lv 0 ,"222,1,1,10000",0,100208,1,10,2,1,1,0,0
+0,Kosong,2,recipe-icon-212,212,0,"62,3", Resep Pakan Besar Lv 0 ,"232,1,1,10000",0,100212,1,10,3,0,4,0,0
+0,Kosong,2,recipe-icon-213,213,0,"58,3", Resep Busur Kayu Lv 0 ,"233,1,1,10000",0,100213,1,10,3,0,4,0,0
+0,Kosong,2,recipe-icon-214,214,0,"66,3", Resep Palu Batu Lv 0 ,"234,1,1,10000",0,100214,1,10,3,0,4,0,0
+0,Kosong,2,recipe-icon-215,215,0,"65,1;61,1;69,1", Resep Botol Peledak Lv 0 ,"235,1,3,10000",0,100215,1,10,3,1,1,0,0
+0,Kosong,2,recipe-icon-216,216,0,"32,3;70,3", Resep Ramuan Setrum Lv 0 ,"236,1,1,10000",0,100216,1,10,3,1,1,0,0
+0,Kosong,2,recipe-icon-217,217,0,"31,3;71,3", Resep Ramuan Pelambat Lv 0 ,"237,1,1,10000",0,100217,1,10,3,1,1,0,0
+0,Kosong,2,recipe-icon-218,218,0,"30,3;72,3", Resep Ramuan Terbakar Lv 0 ,"238,1,1,10000",0,100218,1,10,3,1,1,0,0
+0,Resep Pemulihan Energi - Kecil,2,recipe-icon-267,267,0,"66,20;62,5", Resep Pemulihan Energi - Kecil,"295,1,1,10000",0,100267,1,10,3,0,4,0,0
+0,Resep Pemulihan Energi - Sedang,2,recipe-icon-268,268,1,"67,10;63,5", Resep Pemulihan Energi - Sedang,"296,1,1,10000",0,99268,1,10,3,0,4,0,0
+0,Resep Pemulihan Energi - Besar,2,recipe-icon-269,269,2,"64,5", Resep Pemulihan Energi - Besar,"297,1,1,10000",0,98269,1,10,3,0,4,0,0
+0,Resep Pedang Emas,2,recipe-icon-270,270,4,"209,2;407,1;410,1", Resep Pedang Emas,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,96270,1,30,2,0,4,0,10
+0,Resep Topi Petarung Emas,2,recipe-icon-271,271,4,"209,2;407,1;410,1", Resep Topi Petarung Emas,"335,1,1,3990;335,2,1,2660;335,3,1,1773;335,4,1,1182;241,5,1,394",0,96271,1,30,2,0,4,0,10
+0,Resep Jas Petarung Emas,2,recipe-icon-272,272,4,"209,2;407,1;410,1", Resep Jas Petarung Emas,"336,1,1,3990;336,2,1,2660;336,3,1,1773;336,4,1,1182;242,5,1,394",0,96272,1,30,2,0,4,0,10
+0,Resep Sarung Tangan Petarung Emas,2,recipe-icon-273,273,4,"209,2;407,1;410,1", Resep Sarung Tangan Petarung Emas,"337,1,1,3990;337,2,1,2660;337,3,1,1773;337,4,1,1182;243,5,1,394",0,96273,1,30,2,0,4,0,10
+0,Resep Celana Petarung Emas,2,recipe-icon-274,274,4,"209,2;407,1;410,1", Resep Celana Petarung Emas,"338,1,1,3990;338,2,1,2660;338,3,1,1773;338,4,1,1182;244,5,1,394",0,96274,1,30,2,0,4,0,10
+0,Resep Sepatu Petarung Emas,2,recipe-icon-275,275,4,"209,2;407,1;410,1", Resep Sepatu Petarung Emas,"339,1,1,3990;339,2,1,2660;339,3,1,1773;339,4,1,1182;245,5,1,394",0,96275,1,30,2,0,4,0,10
+0,Resep Sabit Emas,2,recipe-icon-276,276,4,"212,1;215,1;401,2", Resep Sabit Emas,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,96276,1,30,3,0,4,0,10
+0,Resep Kapak Emas,2,recipe-icon-277,277,4,"212,1;215,1;401,2", Resep Kapak Emas,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,96277,1,30,3,0,4,0,10
+0,Resep Topi Kolektor Emas,2,recipe-icon-279,279,4,"212,1;215,1;401,2", Resep Topi Kolektor Emas,"320,1,1,3990;320,2,1,2660;320,3,1,1773;320,4,1,1182;241,5,1,394",0,96279,1,30,3,0,4,0,10
+0,Resep Beliung Emas,2,recipe-icon-278,278,4,"212,1;215,1;401,2", Resep Beliung Emas,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,96278,1,30,3,0,4,0,10
+0,Resep Jas Kolektor Emas,2,recipe-icon-280,280,4,"212,1;215,1;401,2", Resep Jas Kolektor Emas,"321,1,1,3990;321,2,1,2660;321,3,1,1773;321,4,1,1182;242,5,1,394",0,96280,1,30,3,0,4,0,10
+0,Resep Sarung Tangan Kolektor Emas,2,recipe-icon-281,281,4,"212,1;215,1;401,2", Resep Sarung Tangan Kolektor Emas,"322,1,1,3990;322,2,1,2660;322,3,1,1773;322,4,1,1182;243,5,1,394",0,96281,1,30,3,0,4,0,10
+0,Resep Cangkul Emas,2,recipe-icon-282,282,4,"218,2;404,2", Resep Cangkul Emas,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,96282,1,30,1,0,4,0,10
+0,Resep Topi Petani Emas,2,recipe-icon-284,284,4,"218,2;404,2", Resep Topi Petani Emas,"350,1,1,3990;350,2,1,2660;350,3,1,1773;350,4,1,1182;241,5,1,394",0,96284,1,30,1,0,4,0,10
+0,Resep Jas Petani Emas,2,recipe-icon-285,285,4,"218,2;404,2", Resep Jas Petani Emas,"351,1,1,3990;351,2,1,2660;351,3,1,1773;351,4,1,1182;243,5,1,394",0,96285,1,30,1,0,4,0,10
+0,Resep Sarung Tangan Petani Emas,2,recipe-icon-286,286,4,"218,2;404,2", Resep Sarung Tangan Petani Emas,"352,1,1,3990;352,2,1,2660;352,3,1,1773;352,4,1,1182;242,5,1,394",0,96286,1,30,1,0,4,0,10
+0,Resep Celana Petani Emas,2,recipe-icon-287,287,4,"218,2;404,2", Resep Celana Petani Emas,"353,1,1,3990;353,2,1,2660;353,3,1,1773;353,4,1,1182;244,5,1,394",0,96287,1,30,1,0,4,0,10
+0,Resep Celana Kolektor Emas,2,recipe-icon-288,288,4,"212,1;215,1;401,2", Resep Celana Kolektor Emas,"323,1,1,3990;323,2,1,2660;323,3,1,1773;323,4,1,1182;244,5,1,394",0,96288,1,30,3,0,4,0,10
+0,Resep Sepatu Kolektor Emas,2,recipe-icon-289,289,4,"212,1;215,1;401,2", Resep Sepatu Kolektor Emas,"324,1,1,3990;324,2,1,2660;324,3,1,1773;324,4,1,1182;245,5,1,394",0,96289,1,30,3,0,4,0,10
+0,Resep Sepatu Petani Emas,2,recipe-icon-291,291,4,"218,2;404,2", Resep Sepatu Petani Emas,"354,1,1,3990;354,2,1,2660;354,3,1,1773;354,4,1,1182;245,5,1,394",0,96291,1,30,1,0,4,0,10
+0,Resep Pedang Berlian,2,recipe-icon-292,292,5,"404,2;408,1;411,1", Resep Pedang Berlian,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",0,95292,1,90,2,0,4,0,15
+0,Resep Topi Petarung Berlian,2,recipe-icon-293,293,5,"404,2;408,1;411,1", Resep Topi Petarung Berlian,"340,1,1,3838;340,2,1,2559;340,3,1,1706;340,4,1,1137;340,5,1,379;277,5,1,379",0,95293,1,90,2,0,4,0,15
+0,Resep Jas Petarung Berlian,2,recipe-icon-294,294,5,"404,2;408,1;411,1", Resep Jas Petarung Berlian,"341,1,1,3838;341,2,1,2559;341,3,1,1706;341,4,1,1137;341,5,1,379;278,5,1,379",0,95294,1,90,2,0,4,0,15
+0,Resep Sarung Tangan Petarung Berlian,2,recipe-icon-295,295,5,"404,2;408,1;411,1", Resep Sarung Tangan Petarung Berlian,"342,1,1,3838;342,2,1,2559;342,3,1,1706;342,4,1,1137;342,5,1,379;279,5,1,379",0,95295,1,90,2,0,4,0,15
+0,Resep Celana Petarung Berlian,2,recipe-icon-296,296,5,"404,2;408,1;411,1", Resep Celana Petarung Berlian,"343,1,1,3838;343,2,1,2559;343,3,1,1706;343,4,1,1137;343,5,1,379;280,5,1,379",0,95296,1,90,2,0,4,0,15
+0,Resep Sepatu Petarung Berlian,2,recipe-icon-297,297,5,"404,2;408,1;411,1", Resep Sepatu Petarung Berlian,"344,1,1,3838;344,2,1,2559;344,3,1,1706;344,4,1,1137;344,5,1,379;281,5,1,379",0,95297,1,90,2,0,4,0,15
+0,Resep Sabit Berlian,2,recipe-icon-298,298,5,"407,1;410,1;402,2", Resep Sabit Berlian,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,95298,1,90,3,0,4,0,15
+0,Resep Kapak Berlian,2,recipe-icon-299,299,5,"407,1;410,1;402,2", Resep Kapak Berlian,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,95299,1,90,3,0,4,0,15
+0,Resep Beliung Berlian,2,recipe-icon-300,300,5,"407,1;410,1;402,2", Resep Beliung Berlian,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",0,95300,1,90,3,0,4,0,15
+0,Resep Topi Kolektor Berlian,2,recipe-icon-301,301,5,"407,1;410,1;402,2", Resep Topi Kolektor Berlian,"325,1,1,3838;325,2,1,2559;325,3,1,1706;325,4,1,1137;325,5,1,379;277,5,1,379",0,95301,1,90,3,0,4,0,15
+0,Resep Jas Kolektor Berlian,2,recipe-icon-302,302,5,"407,1;410,1;402,2", Resep Jas Kolektor Berlian,"326,1,1,3838;326,2,1,2559;326,3,1,1706;326,4,1,1137;326,5,1,379;278,5,1,379",0,95302,1,90,3,0,4,0,15
+0,Resep Sarung Tangan Kolektor Berlian,2,recipe-icon-303,303,5,"407,1;410,1;402,2", Resep Sarung Tangan Kolektor Berlian,"327,1,1,3838;327,2,1,2559;327,3,1,1706;327,4,1,1137;327,5,1,379;279,5,1,379",0,95303,1,90,3,0,4,0,15
+0,Resep Celana Kolektor Berlian,2,recipe-icon-304,304,5,"407,1;410,1;402,2", Resep Celana Kolektor Berlian,"328,1,1,3838;328,2,1,2559;328,3,1,1706;328,4,1,1137;328,5,1,379;280,5,1,379",0,95304,1,90,3,0,4,0,15
+0,Resep Sepatu Kolektor Berlian,2,recipe-icon-305,305,5,"407,1;410,1;402,2", Resep Sepatu Kolektor Berlian,"329,1,1,3838;329,2,1,2559;329,3,1,1706;329,4,1,1137;329,5,1,379;281,5,1,379",0,95305,1,90,3,0,4,0,15
+0,Resep Cangkul Berlian,2,recipe-icon-306,306,5,"401,2;405,2", Resep Cangkul Berlian,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,95306,1,90,1,0,4,0,15
+0,Resep Topi Petani Berlian,2,recipe-icon-308,308,5,"401,2;405,2", Resep Topi Petani Berlian,"355,1,1,3838;355,2,1,2559;355,3,1,1706;355,4,1,1137;355,5,1,379;277,5,1,379",0,95308,1,90,1,0,4,0,15
+0,Resep Jas Petani Berlian,2,recipe-icon-309,309,5,"401,2;405,2", Resep Jas Petani Berlian,"356,1,1,3838;356,2,1,2559;356,3,1,1706;356,4,1,1137;356,5,1,379;279,5,1,379",0,95309,1,90,1,0,4,0,15
+0,Resep Sarung Tangan Petani Berlian,2,recipe-icon-310,310,5,"401,2;405,2", Resep Sarung Tangan Petani Berlian,"357,1,1,3838;357,2,1,2559;357,3,1,1706;357,4,1,1137;357,5,1,379;278,5,1,379",0,95310,1,90,1,0,4,0,15
+0,Kosong,2,recipe-icon-311,311,5,"401,2;405,2", Resep Celana Petani Berlian,"358,1,1,3838;358,2,1,2559;358,3,1,1706;358,4,1,1137;358,5,1,379;280,5,1,379",0,95311,1,90,1,0,4,0,15
+0,Kosong,2,recipe-icon-312,312,5,"401,2;405,2", Resep Sepatu Petani Berlian,"359,1,1,3838;359,2,1,2559;359,3,1,1706;359,4,1,1137;359,5,1,379;281,5,1,379",0,95312,1,90,1,0,4,0,15
+0,Kosong,2,recipe-icon-313,313,6,"405,2;409,1;412,1", Resep Pedang Bintang,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,94313,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-314,314,6,"405,2;409,1;412,1", Resep Topi Petarung Bintang,"345,1,1,3838;345,2,1,2559;345,3,1,1706;345,4,1,1137;345,5,1,379;471,5,1,379",0,94314,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-315,315,6,"405,2;409,1;412,1", Resep Jas Petarung Bintang,"346,1,1,3838;346,2,1,2559;346,3,1,1706;346,4,1,1137;346,5,1,379;472,5,1,379",0,94315,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-316,316,6,"405,2;409,1;412,1", Resep Sarung Tangan Petarung Bintang,"347,1,1,3838;347,2,1,2559;347,3,1,1706;347,4,1,1137;347,5,1,379;473,5,1,379",0,94316,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-317,317,6,"405,2;409,1;412,1", Resep Celana Petarung Bintang,"348,1,1,3838;348,2,1,2559;348,3,1,1706;348,4,1,1137;348,5,1,379;474,5,1,379",0,94317,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Resep Sepatu Star Fighter,"349,1,1,3838;349,2,1,2559;349,3,1,1706;349,4,1,1137;349,5,1,379;475,5,1,379",0,94318,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-319,319,6,"408,1;411,1;403,2", Resep Sabit Star,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,94319,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Resep Kapak Star,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94320,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Resep Beliung Star,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94321,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Resep Atasan Koleksi Star,"331,1,1,3838;331,2,1,2559;331,3,1,1706;331,4,1,1137;331,5,1,379;472,5,1,379",0,94323,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Resep Topi Koleksi Star,"330,1,1,3838;330,2,1,2559;330,3,1,1706;330,4,1,1137;330,5,1,379;471,5,1,379",0,94322,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Resep Sarung Tangan Koleksi Star,"332,1,1,3838;332,2,1,2559;332,3,1,1706;332,4,1,1137;332,5,1,379;473,5,1,379",0,94324,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Resep Celana Koleksi Star,"333,1,1,3838;333,2,1,2559;333,3,1,1706;333,4,1,1137;333,5,1,379;474,5,1,379",0,94325,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-327,327,6,"402,2;406,2", Resep Cangkul Star,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94327,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Resep Sepatu Koleksi Star,"334,1,1,3838;334,2,1,2559;334,3,1,1706;334,4,1,1137;334,5,1,379;475,5,1,379",0,94326,1,270,3,0,4,0,20
+0,Kosong,2,recipe-icon-330,330,6,"402,2;406,2", Resep Atasan Petani Star,"361,1,1,3838;361,2,1,2559;361,3,1,1706;361,4,1,1137;361,5,1,379;473,5,1,379",0,94330,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-329,329,6,"402,2;406,2", Resep Topi Petani Star,"360,1,1,3838;360,2,1,2559;360,3,1,1706;360,4,1,1137;360,5,1,379;471,5,1,379",0,94329,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-331,331,6,"402,2;406,2", Resep Sarung Tangan Petani Star,"362,1,1,3838;362,2,1,2559;362,3,1,1706;362,4,1,1137;362,5,1,379;472,5,1,379",0,94331,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-332,332,6,"402,2;406,2", Resep Celana Petani Star,"363,1,1,3838;363,2,1,2559;363,3,1,1706;363,4,1,1137;363,5,1,379;474,5,1,379",0,94332,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-333,333,6,"402,2;406,2", Resep Sepatu Petani Star,"364,1,1,3838;364,2,1,2559;364,3,1,1706;364,4,1,1137;364,5,1,379;475,5,1,379",0,94333,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2", Resep Esensi Penanaman Pertanian Lv 4,"407,1,1,10000",0,96334,1,30,1,0,4,0,0
+0,Kosong,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2", Resep Esensi Penanaman Pertanian Lv 5,"408,1,1,10000",0,95335,1,90,1,0,4,0,0
+0,Kosong,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2", Resep Esensi Penanaman Pertanian Lv 6,"409,1,1,10000",0,94336,1,270,1,0,4,0,0
+0,Kosong,2,recipe-icon-337,337,4,"392,5;393,5;394,5;215,2", Resep Esensi Peternakan Pertanian Lv 4,"410,1,1,10000",0,96337,1,30,1,0,4,0,0
+0,Kosong,2,recipe-icon-338,338,5,"395,5;396,5;397,5;410,2", Resep Esensi Peternakan Pertanian Lv 5,"411,1,1,10000",0,95338,1,90,1,0,4,0,0
+0,Kosong,2,recipe-icon-339,339,6,"398,5;399,5;400,5;411,2", Resep Esensi Peternakan Pertanian Lv 6,"412,1,1,10000",0,94339,1,270,1,0,4,0,0
+0,Kosong,2,recipe-icon-340,340,4,"365,5;366,5;367,5;218,2", Resep Esensi Tempur Lv 4,"401,1,1,10000",0,96340,1,30,2,0,4,0,0
+0,Kosong,2,recipe-icon-341,341,5,"368,5;370,5;369,5;401,2", Resep Esensi Tempur Lv 5,"402,1,1,10000",0,95341,1,90,2,0,4,0,0
+0,Kosong,2,recipe-icon-342,342,6,"371,5;372,5;373,5;402,2", Resep Esensi Tempur Lv 6,"403,1,1,10000",0,94342,1,270,2,0,4,0,0
+0,Kosong,2,recipe-icon-343,343,4,"375,5;376,5;374,5;209,2", Resep Esensi Mengumpulkan Lv 4,"404,1,1,10000",0,96343,1,30,3,0,4,0,0
+0,Kosong,2,recipe-icon-345,345,6,"380,5;381,5;382,5;405,2", Resep Esensi Mengumpulkan Lv 6,"406,1,1,10000",0,94345,1,270,3,0,4,0,0
+0,Kosong,2,recipe-icon-344,344,5,"377,5;378,5;379,5;404,2", Resep Esensi Mengumpulkan Lv 5,"405,1,1,10000",0,95344,1,90,3,0,4,0,0
+0,Kosong,2,recipe-icon-347,347,5,"377,2;378,2;379,2", Resep Ramuan Lv 5,"429,1,1,5031;430,1,1,993;431,1,1,993;432,1,1,993;433,1,1,993;434,1,1,993",0,95347,1,90,3,0,4,0,0
+0,Kosong,2,recipe-icon-346,346,4,"374,2;375,2;376,2", Resep Ramuan Lv 4,"422,1,1,5031;423,1,1,993;424,1,1,993;425,1,1,993;426,1,1,993;427,1,1,993",0,96346,1,30,3,0,4,0,0
+0,Kosong,2,recipe-icon-348,348,6,"380,2;381,2;382,2", Resep Ramuan Lv 6,"435,1,1,5031;436,1,1,993;437,1,1,993;438,1,1,993;439,1,1,993;440,1,1,993",0,94348,1,270,3,0,4,0,0
+0,Kosong,2,recipe-icon-364,364,1,"210,1;213,1",Resep Palu Tembaga Lv 1,"441,1,1,10000",0,99364,1,10,2,0,4,0,0
+0,Kosong,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Resep Palu Besi Lv 2,"442,1,1,6000;442,2,1,4000",0,98365,1,10,2,0,4,0,0
+0,Kosong,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Resep Palu Emas Lv 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96367,1,30,2,0,4,0,10
+0,Kosong,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Resep Palu Kristal Lv 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97366,1,10,2,0,4,0,0
+0,Kosong,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Resep Palu Berlian Lv 5,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95368,1,90,2,0,4,0,15
+0,Kosong,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Resep Palu Cahaya Bintang Lv 6,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,94369,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-370,370,1,"210,1;213,1",Resep Busur Batu Lv 1,"287,1,1,10000",0,99370,1,10,2,0,4,0,0
+0,Kosong,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Resep Busur Logam Lv 2,"288,1,1,6000;288,2,1,4000",0,98371,1,10,2,0,4,0,0
+0,Kosong,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Resep Busur Kristal Lv 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97372,1,10,2,0,4,0,0
+0,Kosong,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Resep Busur Emas Lv 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96373,1,30,2,0,4,0,10
+0,Kosong,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Resep Busur Berlian Lv 5,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95374,1,90,2,0,4,0,15
+0,Kosong,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Resep Busur Cahaya Bintang Lv 6,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94375,1,270,2,0,4,0,20
+0,Kosong,2,recipe-icon-376,376,1,"207,2",Resep Sikat Tembaga Lv 1,"453,1,1,10000",0,99376,1,10,1,0,4,0,0
+0,Kosong,2,recipe-icon-377,377,2,"216,2;208,2",Resep Sikat Besi Lv 2,"454,1,1,6000;454,2,1,4000",0,98377,1,10,1,0,4,0,0
+0,Kosong,2,recipe-icon-378,378,3,"217,2;209,2",Resep Sikat Kristal Lv 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97378,1,10,1,0,4,0,0
+0,Kosong,2,recipe-icon-379,379,4,"218,2;404,2",Resep Sikat Emas Lv 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96379,1,30,1,0,4,0,10
+0,Kosong,2,recipe-icon-380,380,5,"401,2;405,2",Resep Sikat Berlian Lv 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95380,1,90,1,0,4,0,15
+0,Kosong,2,recipe-icon-381,381,6,"402,2;406,2",Resep Sikat Cahaya Bintang Lv 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94381,1,270,1,0,4,0,20
+0,Kosong,2,recipe-icon-382,382,4,"375,5;374,10", Resep Ramuan Pemulihan Energi - Kecil,"459,1,1,10000",0,96382,1,10,3,0,4,0,0
+0,Kosong,2,recipe-icon-383,383,5,"378,5;377,10", Ramuan Pemulihan Energi - Resep Sedang,"460,1,1,10000",0,95383,1,10,3,0,4,0,0
+0,Kosong,2,recipe-icon-384,384,6,"381,5;380,10", Ramuan Pemulihan Energi - Resep Besar,"461,1,1,10000",0,94384,1,10,3,0,4,0,0
+0,,0,recipe-icon-385,385,0,"365,8;366,8;367,8",,"464,1,3,10000",0,100385,1,10,0,0,4,0,1
+0,,0,recipe-icon-386,386,0,"368,3;369,3;370,3",,"464,1,12,10000",0,100386,1,10,0,0,4,0,1
+0,,0,recipe-icon-387,387,0,"371,1;372,1;373,1",,"464,1,18,10000",0,100387,1,10,0,0,4,0,1
+0,,0,recipe-icon-389,389,0,"463,1",,"465,1,12,10000",0,100389,1,10,0,0,4,0,1
+0,,0,recipe-icon-388,388,0,"462,1",,"465,1,3,10000",0,100388,1,10,0,0,4,0,1
+0,,0,recipe-icon-390,390,0,"207,2;216,2;210,1;213,1",,"466,1,3,10000",0,100390,1,10,0,0,4,0,0
+0,,0,recipe-icon-391,391,0,"208,2;217,2;211,1;214,1",,"466,1,12,10000",0,100391,1,10,0,0,4,0,0
+0,,0,recipe-icon-392,392,0,"209,2;218,2;212,1;212,1",,"466,1,27,10000",0,100392,1,10,0,0,4,0,0
+0,,0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10",,"466,1,3,10000",0,100393,1,10,0,0,4,0,0
+0,,0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",,"466,1,12,10000",0,100394,1,10,0,0,4,0,0
+0,,0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",,"466,1,27,10000",0,100395,1,10,0,0,4,0,0
+0,,0,recipe-icon-396,396,0,"209,2;218,2;212,1;215,1",,"467,1,1,10000",0,100396,1,5,0,1,1,0,3
+0,,0,recipe-icon-397,397,0,"469,2",,"468,1,5,6500;467,1,5,3500",0,100397,1,5,0,1,1,0,0
+0,,0,recipe-icon-398,398,0,"207,2;216,2;210,1;213,1",,"468,1,1,10000",0,100398,1,5,0,1,1,0,1
+0,,0,recipe-icon-404,404,0,"62,10;58,10",,"225,1,1,10000",0,100404,1,10,3,1,1,0,0
+0,,0,recipe-icon-405,405,4,"413,1",,"413,1,2,5000;416,1,1,5000",0,96405,1,10,1,0,4,0,0
+0,,0,recipe-icon-406,406,4,"414,1",,"414,1,2,5000;417,1,1,5000",0,96406,1,10,1,0,4,0,0
+0,,0,recipe-icon-407,407,4,"415,1",,"415,1,2,5000;418,1,1,5000",0,96407,1,10,1,0,4,0,0
+0,,0,recipe-icon-410,410,5,"416,1",,"416,1,2,5000;419,1,1,5000",0,95410,1,10,1,0,4,0,0
+0,,0,recipe-icon-411,411,5,"417,1",,"417,1,2,5000;420,1,1,5000",0,95411,1,10,1,0,4,0,0
+0,,0,recipe-icon-412,412,5,"418,1",,"418,1,2,5000;421,1,1,5000",0,95412,1,10,1,0,4,0,0
+0,,0,recipe-icon-413,413,6,"419,1",,"419,1,2,10000",0,94413,1,10,1,0,4,0,0
+0,,0,recipe-icon-414,414,6,"420,1",,"420,1,2,10000",0,94414,1,10,1,0,4,0,0
+0,,0,recipe-icon-415,415,6,"421,1",,"421,1,2,10000",0,94415,1,10,1,0,4,0,0
