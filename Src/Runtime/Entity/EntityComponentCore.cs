@@ -7,7 +7,7 @@ using UnityEngine;
 /// <summary>
 /// 获取组件所挂载的实体
 /// </summary>
-public class EntityComponentCore<T> : MonoBehaviour where T : EntityBase, new()
+public class EntityComponentCore<T> : MonoBehaviour, IEntityComponent where T : EntityBase, new()
 {
     private T _refEntity;
     /// <summary>
@@ -25,5 +25,10 @@ public class EntityComponentCore<T> : MonoBehaviour where T : EntityBase, new()
 
             return _refEntity;
         }
+    }
+
+    public void InitEntity(EntityBase entity)
+    {
+        _refEntity = entity as T;
     }
 }

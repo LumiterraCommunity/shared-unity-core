@@ -113,7 +113,7 @@ public class EntityBase
     public EntityBase()
     {
         InitRoot();
-        BaseData = Root.AddComponent<EntityBaseData>();
+        BaseData = RootAddComponent<EntityBaseData>();
     }
 
     public virtual void Dispose()
@@ -235,7 +235,7 @@ public class EntityBase
 
     public T AddComponent<T>() where T : Component
     {
-        return Root.AddComponent<T>();
+        return RootAddComponent<T>();
     }
 
     public bool TryGetComponent<T>(out T component)
@@ -260,7 +260,17 @@ public class EntityBase
             return t;
         }
 
-        return Root.AddComponent<T>();
+        return RootAddComponent<T>();
+    }
+
+    protected T RootAddComponent<T>() where T : Component
+    {
+        T t = Root.AddComponent<T>();
+        if (t is IEntityComponent entityComponent)
+        {
+            entityComponent.InitEntity(this);
+        }
+        return t;
     }
 
     /// <summary>
