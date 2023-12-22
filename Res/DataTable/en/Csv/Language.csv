@@ -85,7 +85,7 @@ The higher the level of crafting the item, the more the increased proficiency.",
 20010004,被T提示,Cheating detected by the system,
 20010005,被T提示,The server is offline,
 20010006,,System error,
-20020001,家园错误码,Lack of item,道具不足
+20020001,家园相关,Lack of item,道具不足
 5001,家园错误码,Resource does not exist,资源不存在
 5002,家园错误码,Operation not supported,操作不支持
 5003,家园错误码,Home item deduction abnormal,家园道具扣除异常
@@ -252,3 +252,9 @@ Sprite due to insufficient space",超过上限提示
 20180007,设置,Low,
 20180008,设置,Medium,
 20180009,设置,High,
+,,,
+20190000,天赋树,The pre-node must be unlocked first.,
+20190001,天赋树,Total level of talent tree needs reach to {0}.,
+20190002,天赋树,The trunk node of the same layer must be unlocked first.,
+20070017,登录,Failed to login to the target scene.,
+20020002,家园相关,There was nothing in the storage box!,

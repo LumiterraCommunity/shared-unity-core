@@ -81,7 +81,7 @@ id-int,module-string,value-string,describe-string
 20010004,被T提示,Triche détectée par le système,
 20010005,被T提示,Le serveur est hors ligne,
 20010006,,Erreur système,
-20020001,家园错误码,Manque d'objet,道具不足
+20020001,家园相关,Manque d'objet,道具不足
 5001,家园错误码,La ressource n'existe pas,资源不存在
 5002,家园错误码,Opération non prise en charge,操作不支持
 5003,家园错误码,Anomalie de déduction de l'objet domestique,家园道具扣除异常
@@ -245,3 +245,9 @@ id-int,module-string,value-string,describe-string
 20180007,设置,Bas ,
 20180008,设置,Moyen ,
 20180009,设置,Élevé ,
+,,,
+20190000,天赋树,,
+20190001,天赋树,,
+20190002,天赋树,,
+20070017,登录,,
+20020002,家园相关,,
