@@ -81,7 +81,7 @@ id-int,module-string,value-string,describe-string
 20010004,被T提示,Se ha detectado trampa por el sistema,
 20010005,被T提示,El servidor está fuera de línea,
 20010006,,Error del sistema,
-20020001,家园错误码,Falta de objeto,道具不足
+20020001,家园相关,Falta de objeto,道具不足
 5001,家园错误码,El recurso no existe,资源不存在
 5002,家园错误码,Operación no compatible,操作不支持
 5003,家园错误码,Anomalía en la deducción del objeto de inicio,家园道具扣除异常
@@ -245,3 +245,9 @@ id-int,module-string,value-string,describe-string
 20180007,设置,Rendah,
 20180008,设置,Sedang,
 20180009,设置,Tinggi,
+,,,
+20190000,天赋树,,
+20190001,天赋树,,
+20190002,天赋树,,
+20070017,登录,,
+20020002,家园相关,,
