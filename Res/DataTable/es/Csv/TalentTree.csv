@@ -146,21 +146,20 @@ Desbloquear receta de poción de energía
 ",259,1,talentTree-102,102,0,2,1, Combate - Defensa ,2,233,0,0,97
 2," Combate ATK +5
 ",253,1,talentTree-103,103,0,2,1, Combate - Poder de Ataque ,2,233,0,0,98
-1,"Cada 20/10/5 segundos, si no has recibido daño, obtienes un aumento de daño del 10%
-",134;135;136,1,talentTree-104,104,0,2,3, Experto ,2,"233,281,340",0,"0,0,0",99
+1,Golpe de combate + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3, Experto ,2,"233,281,340",0,"0,0,0",99
 -5,"Desbloquear Recetas de Conjunto Nivel 3
 ",46#366#372;135#138;141#144#147,2,talentTree-105,105,0,3,3, Recetas de Conjunto de Combate ,2,"486,634,826",0,"0,0,0",101
 3," Combate DEF +5
 ",260,1,talentTree-106,106,0,3,1, Combate - Defensa ,2,486,0,0,102
 2," Combate ATK +5
 ",254,1,talentTree-107,107,0,3,1, Combate - Poder de Ataque ,2,486,0,0,103
-1,"Velocidad de Combate + 10%/20%/30%
+1,"Obtener una tasa de esquiva del 2%/4%/6%
 ",125;126;127,1,talentTree-108,108,0,3,3, Experto ,2,"486,634,826",0,"0,0,0",104
 4," Combate MaxHP +20
 ",266,1,talentTree-109,109,0,3,1, Combate - HP ,2,486,0,0,100
 3," Combate DEF +5
 ",261,1,talentTree-111,111,0,4,1, Combate - Defensa ,2,814,0,0,106
-1,"Obtener una tasa de esquiva del 2%/4%/6%
+1,"Cada 20/10/5 segundos, si no has recibido daño, obtienes un aumento de daño del 10%
 ",119;120;121,1,talentTree-112,112,0,4,3, Experto ,2,"814,1061,1382",0,"0,0,0",108
 2," Combate ATK +5
 ",255,1,talentTree-113,113,0,4,1, Combate - Poder de Ataque ,2,814,0,0,107

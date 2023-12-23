@@ -155,14 +155,14 @@ Unlock Energy Potion Recipe",347#383,2,talentTree-69,69,0,5,1,Magic Props Recipe
 -5,Unlock Set Recipes Lv 2,45#365#371;134#137;140#143#146,2,talentTree-101,101,0,2,3,Combat Set Recipes,2,"233,281,340",0,"0,0,0",95
 3,Combat DEF +5,259,1,talentTree-102,102,0,2,1,Combat - Defense,2,233,0,0,97
 2,Combat ATK +5,253,1,talentTree-103,103,0,2,1,Combat - Attack Power,2,233,0,0,98
-1,"Every 20/10/5 seconds, if you haven't taken any damage, you gain a 10% damage boost.",134;135;136,1,talentTree-104,104,0,2,3,Expert,2,"233,281,340",0,"0,0,0",99
+1,CombatHit + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3,Expert,2,"233,281,340",0,"0,0,0",99
 -5,Unlock Set Recipes Lv 3,46#366#372;135#138;141#144#147,2,talentTree-105,105,0,3,3,Combat Set Recipes,2,"486,634,826",0,"0,0,0",101
 3,Combat DEF +5,260,1,talentTree-106,106,0,3,1,Combat - Defense,2,486,0,0,102
 2,Combat ATK +5,254,1,talentTree-107,107,0,3,1,Combat - Attack Power,2,486,0,0,103
-1,Combat Speed + 10%/20%/30%,125;126;127,1,talentTree-108,108,0,3,3,Expert,2,"486,634,826",0,"0,0,0",104
+1,Gain a 2/4/6% dodge rate,125;126;127,1,talentTree-108,108,0,3,3,Expert,2,"486,634,826",0,"0,0,0",104
 4,Combat MaxHP +20,266,1,talentTree-109,109,0,3,1,Combat - HP,2,486,0,0,100
 3,Combat DEF +5,261,1,talentTree-111,111,0,4,1,Combat - Defense,2,814,0,0,106
-1,Gain a 2/4/6% dodge rate,119;120;121,1,talentTree-112,112,0,4,3,Expert,2,"814,1061,1382",0,"0,0,0",108
+1,"Every 20/10/5 seconds, if you haven't taken any damage, you gain a 10% damage boost.",119;120;121,1,talentTree-112,112,0,4,3,Expert,2,"814,1061,1382",0,"0,0,0",108
 2,Combat ATK +5,255,1,talentTree-113,113,0,4,1,Combat - Attack Power,2,814,0,0,107
 4,Combat MaxHP +20,267,1,talentTree-114,114,0,4,1,Combat - HP,2,814,0,0,109
 3,Combat DEF +5,262,1,talentTree-116,116,0,5,1,Combat - Defense,2,1178,0,0,111
