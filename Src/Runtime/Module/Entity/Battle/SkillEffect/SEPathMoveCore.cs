@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-12 14:36:36
  * @Description: 技能路径移动效果
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEPathMoveCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEPathMoveCore.cs
  * 
  */
 
@@ -33,8 +33,9 @@ public class SEPathMoveCore : SkillEffectBase
     private void Move()
     {
         RefEntity.GetComponent<EntityEvent>().SpecialMoveStartNotMoveStatus?.Invoke();
+        Vector3 curPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
         Vector3 targetPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.BackToPos);
-        Vector3 offset = targetPos - RefEntity.Position;
+        Vector3 offset = targetPos - curPos;
         float distance = offset.magnitude;
         if (distance.ApproximatelyEquals(0) || offset.ApproximatelyEquals(Vector3.zero))
         {
