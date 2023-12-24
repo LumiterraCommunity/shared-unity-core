@@ -10,11 +10,15 @@ public static class MoveDefine
     /// <summary>
     /// 方向偏移多少度就需要同步
     /// </summary>
-    public const float MOVE_SYNC_DIRECTION_OFFSET_ANGLE = 30f;//TODO:10度效果最好 不会怎么闪 30度如果一直转圈容易闪 不过在服务器没有解决性能问题前这样可以保证服务器更安全 不一直转圈也还好
+    public const float MOVE_SYNC_DIRECTION_OFFSET_ANGLE = 20f;//TODO:10度效果最好 不会怎么闪 30度如果一直转圈容易闪 不过在服务器没有解决性能问题前这样可以保证服务器更安全 不一直转圈也还好
     /// <summary>
     /// 允许的网络延迟时间 s
     /// </summary>
     public const float MOVE_ALLOW_NETWORK_DELAY_TIME = 0.1f;
+    /// <summary>
+    /// 空中允许的网络延迟时间 s
+    /// </summary>
+    public const float AIR_MOVE_ALLOW_NETWORK_DELAY_TIME = 0.5f;
     /// <summary>
     /// 移动的步高 也就是能移动的直线高度
     /// </summary>
