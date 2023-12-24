@@ -282,4 +282,13 @@ public class EntityBase
     {
         return Root.GetComponents<T>();
     }
+    /// <summary>
+    ///  检测位置是否有效
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public virtual bool CheckPositionValid(Vector3 checkPos, Vector3 prePos)
+    {
+        return true;
+    }
 }
