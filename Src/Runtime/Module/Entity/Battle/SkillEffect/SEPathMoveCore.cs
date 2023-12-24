@@ -34,6 +34,11 @@ public class SEPathMoveCore : SkillEffectBase
     {
         RefEntity.GetComponent<EntityEvent>().SpecialMoveStartNotMoveStatus?.Invoke();
         Vector3 curPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
+        //如果当前位置有效，则使用当前位置
+        if (RefEntity.CheckPositionValid(RefEntity.Position, curPos))
+        {
+            curPos = RefEntity.Position;
+        }
         Vector3 targetPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.BackToPos);
         Vector3 offset = targetPos - curPos;
         float distance = offset.magnitude;
