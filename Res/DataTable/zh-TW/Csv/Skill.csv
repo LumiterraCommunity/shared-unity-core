@@ -437,7 +437,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000," [77]空
 ",1000,2,我插,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000," [79]空
-",1000,2,我手搓閃電,"2,300",,1,0,1,,1000,499,,,,top_down_Normal_3,[24],4,,478,,,,
+",1000,2,我手搓閃電,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
 0,0,0,,0,,,200,415,0,0,0,1,0,0,0,pray,,,,660,30000, [152]暫時增加寵物幸福指數容量,,2,可愛的觸感,,,1,0,1,,1000,470,skill-icon-415,,,,,,,,,,,
 0,0,0,,0,"15,456,446",463,1700,417,1,0,0,0,0,0,1,attackArea,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,4000," [58]空
 ",500,2,蓄力擊飛,"4,300,400,18000",,1,0,1,,1000,,,,,top_down_Normal_Half_4,,,,,,,,
@@ -446,10 +446,10 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"471,388",467,1000,423,1,0,0,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,12000," [74]空
 ",1000,2, [74]哈士奇的愤怒,"2,500",,1,0,1,,1000,467,,,,top_down_MoonFalling,[23],2,,,,,,
 0,0,0,,0,"35,388",467,0,424,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,12000," [80]空
-",1000,2, [80]通过搓手产生闪电,"2,300",,1,0,1,,1000,,,,,top_down_Normal_3,[24],2,,481,,,,
+",1000,2, [80]通过搓手产生闪电,"2,300",,1,0,1,,1000,499,,,,top_down_Normal_3,[24],2,,481,,,,
 0,0,0,,0,,"467,469",0,425,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,4000," [76]空
 ",1000,2, [76]刺痛,"1,200,1500,200",,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
 0,0,0,,0,"471,386,3",467,1000,426,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000," [78]空
-",1000,2, [78]插入,"2,600",,1,0,1,,1000,497,,,,top_down_Normal_6,,,,480,,,,
+",1000,2, [78]插入,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,480,,,,
 0,0,0,,0,213,,0,427,1,0,0,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,0," [81]空
 ",10000,2, [81]区域增益,"2,900",,1,0,2,,1000,,,,,top_down_Blue_9,,,,500,,,,
