@@ -50,10 +50,10 @@ Masuk ke kota dan temukan Nash.",0,"2,117",22,0,11,Intelligence,,21,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Gunakan cangkul untuk melonggarkan tanah di ladang, lalu gunakan biji untuk menabur di tanah yang telah dilonggarkan.
 Tanam 5 Biji Bambu, 5 Biji Trifolium, dan 5 Biji Wortel di ladang.",0,"1,117",24,0,31,Hoeing and Seeding,,45,,
 "{""options"":[{""optionType"":1,""value"":""70,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,5"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"1,117",25,0,13,Patient Watering and Harvesting,,24,,
-"{""options"":[{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":9,""value"":""158,1"",""guiderPoint"":0}]}","Buka Gather Crafting dan rafinasi Gather Essence. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,117",26,0,32,Essence of a Profession,,27,,
+"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},]}","Buka Gather Crafting dan rafinasi Gather Essence. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,117",26,0,32,Essence of a Profession,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,5"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,5"",""guiderPoint"":3501}]}","Dapatkan 5 Kayu Biasa.
 Dapatkan 5 Batu.",0,"3,117",27,0,43,Gather Some Goodies,,25,,
-"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":9,""value"":""70,1"",""guiderPoint"":0}]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,117",28,0,44,Crafting an Iron Pickaxe,,26,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,117",28,0,44,Crafting an Iron Pickaxe,,26,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengumpulkan beberapa bahan yang lebih canggih:
 Dapatkan Dark Iron Ore.
 Dapatkan Desert Tree.
@@ -61,7 +61,7 @@ Dapatkan Ice Cap Mushroom.",0,"3,117",29,0,42,Advanced Gather Challenge,,28,,
 "{""options"":[{""optionType"":4,""value"":""8,5"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,5"",""guiderPoint"":3401}]}","Berdasarkan intelijen terbaru:
 Cactus Warriors - Memiliki pertahanan tinggi, menggunakan serangan berat dapat menembus pertahanannya.
 Pumpkin Fiends - Memiliki keterampilan jarak jauh, menggunakan Trampling dapat membuatnya tidak dapat menggunakan keterampilan jarak jauh.",0,"2,117",30,0,40,Teach Them a Lesson,,26,,
-"{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":9,""value"":""44,1"",""guiderPoint"":0}]}","Coba buat Stone Sword di Combat Crafting, senjata yang lebih kuat dapat membuat Anda lebih santai dalam pertempuran.
+"{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},]}","Coba buat Stone Sword di Combat Crafting, senjata yang lebih kuat dapat membuat Anda lebih santai dalam pertempuran.
 Sebelum itu, Anda perlu membuka resep untuk Stone Sword di pohon bakat.",0,"2,117",32,0,30,Crafting an Stone Sword,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengalahkan monster yang lebih kuat:
 Bunuh Buzz Buddy.
@@ -69,7 +69,7 @@ Bunuh Mine Cat.
 Bunuh Leafy Lurker.",0,"2,117",33,0,41,Advanced Combat Challenge,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Buka pohon bakat Anda dan beralih ke pohon pertanian. Tingkatkan node keterampilan Capture di sebelah kanan.,0,"1,117",34,0,35,Master the Capture,,26,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}",,0,"1,117",162,0,34,,,34,,
-"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":9,""value"":""62,1"",""guiderPoint"":0}]}","Jika Anda ingin tanaman Anda tumbuh lebih cepat, Anda membutuhkan cangkul yang lebih canggih. Coba buat Iron Hoe.",0,"1,117",35,0,0,Crafting an Iron Hoe,,162,,
+"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},]}","Jika Anda ingin tanaman Anda tumbuh lebih cepat, Anda membutuhkan cangkul yang lebih canggih. Coba buat Iron Hoe.",0,"1,117",35,0,0,Crafting an Iron Hoe,,162,,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk menanam biji yang lebih canggih:
 Tanam biji Kapas.
 Tanam biji Pitcher Plant.

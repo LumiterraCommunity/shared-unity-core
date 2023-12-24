@@ -30,10 +30,10 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","使用锄头松土，然后在松土的土壤上播种种子。
 在田地里种植5颗竹子种子，5颗三叶草种子和5颗胡萝卜种子。",0,"1,117",24,0,31,锄地和播种,,45,,
 "{""options"":[{""optionType"":1,""value"":""70,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,5"",""guiderPoint"":3601}]}",在种下种子之后，需要耐心地浇水三到四次，直到它们成熟。一旦它们准备好了，你可以靠近它们进行收获。之后，去找西拉斯。他需要那些东西。,0,"1,117",25,0,13,耐心浇灌和收获,,24,,
-"{""options"":[{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":9,""value"":""158,1"",""guiderPoint"":0}]}",打开采集制作界面并提炼一瓶采集精华。在此之前，你需要获得足够的材料。,0,"3,117",26,0,32,职业的精华,,27,,
+"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},]}",打开采集制作界面并提炼一瓶采集精华。在此之前，你需要获得足够的材料。,0,"3,117",26,0,32,职业的精华,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,5"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,5"",""guiderPoint"":3501}]}","获取5个普通木材。
 获取5块石头。",0,"3,117",27,0,43,多采点东西,,25,,
-"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":9,""value"":""70,1"",""guiderPoint"":0}]}",获取5个普通木材和5个纤维，制作一把铁质镐子。,0,"3,117",28,0,44,制作一把铁镐,,26,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},]}",获取5个普通木材和5个纤维，制作一把铁质镐子。,0,"3,117",28,0,44,制作一把铁镐,,26,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","你已经学会了如何升级天赋树和制作装备，尝试收集一些更高级的材料：
 获取一块黑铁矿石。
 获取一棵沙漠树。
@@ -41,7 +41,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""8,5"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,5"",""guiderPoint"":3401}]}","根据最新情报：
 仙人掌战士 - 具有很高的防御力，使用重型攻击可以突破它的防御。
 南瓜恶魔 - 拥有远程技能，使用践踏技能可以使其无法使用远程技能。",0,"2,117",30,0,40,教训一下他们,,26,,
-"{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":9,""value"":""44,1"",""guiderPoint"":0}]}",尝试在战斗制作中制作一把石剑，更强大的武器可以让你在战斗中更加轻松。在此之前，你需要在天赋树中解锁石剑的配方。,0,"2,117",32,0,30,制作一把石剑,,30,,
+"{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},]}",尝试在战斗制作中制作一把石剑，更强大的武器可以让你在战斗中更加轻松。在此之前，你需要在天赋树中解锁石剑的配方。,0,"2,117",32,0,30,制作一把石剑,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","你已经学会了如何升级天赋树和制作装备，尝试击败更强大的怪物：
 击败一只嗡嗡蜂。
 击败一只矿矿猫。
@@ -49,7 +49,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",打开你的天赋树并切换到农业树。在最右边升级你的捕捉技能节点。,0,"1,117",34,0,35,学会捕捉技能,,26,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","通过捕捉技能捕捉Metal mutt和Pumpkin Fiend
 回到家园使用刷子抚摸你的宠物，获取足够的螺丝和南瓜嫩芽",0,"1,117",162,0,34,学会畜牧,,34,,
-"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":9,""value"":""62,1"",""guiderPoint"":0}]}","通过升级农业天赋树第一列节点以解锁配方
+"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},]}","通过升级农业天赋树第一列节点以解锁配方
 在Terrance处制作一把锄头",0,"1,117",35,0,0,制作一把铁锄,,162,,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","你已经学会了如何升级天赋树和制作装备，试着种植更高级的种子吧：
 种植棉花种子。
