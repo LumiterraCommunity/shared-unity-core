@@ -456,9 +456,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","2,300",,1,0,1,,1000,,,,,top_down_Normal_3,[16],4,,,,,,
 1,0,1,,0,459,,4000,404,0,1,0,1,0,1,0,pray,,,,4100,0," Kỹ năng cứu hộ.
 ",,2,Kỹ năng Cứu hộ,,,2,1,1,,1000,,skill-icon-404,,,,,,,,,,,skill_Rescue_AccuBar
-0,0,0,,0,15,,1000,405,1,0,0,0,1,0,1,attackArea,,Skill_DarkSnowSprite_AttackArea,,1500,4000,"Trống
+0,0,0,,0,385,,1000,405,1,0,0,0,1,0,1,attackArea,,Skill_DarkSnowSprite_AttackArea,,1500,4000,"Trống
 ",1000,2,"Dark Snow Sprite Snow Storm
-","2,400",,1,0,1,,1000,,,,,Skill_SnowStorm,[18],2,,,,,,
+","2,400",,1,0,1,,1000,"489,490",,,,Skill_SnowStorm,[18],2,,,,,,
 0,0,0,,0,15,,1400,406,1,0,0,0,1,0,1,attackArea,,Skill_SkeletonArcher_AttackArea,,2000,4000,"Trống
 ",1000,2,"Skeleton Archer Arrow Rain
 ","2,300",,1,0,1,,1000,,,,,top_down_ArrowRain,[20],4,,,,,,

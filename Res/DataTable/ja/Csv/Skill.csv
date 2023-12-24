@@ -423,8 +423,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",2000,2,トラップモンスターの爆弾,"2,300",,1,0,1,,1000,,,,,top_down_Normal_3,[16],4,,,,,,
 1,0,1,,0,459,,4000,404,0,1,0,1,0,1,0,pray,,,,4100,0," [151]救助スキル。
 ",,2,レスキュースキル,,,2,1,1,,1000,,skill-icon-404,,,,,,,,,,,skill_Rescue_AccuBar
-0,0,0,,0,15,,1000,405,1,0,0,0,1,0,1,attackArea,,Skill_DarkSnowSprite_AttackArea,,1500,4000," [61]空
-",1000,2,ダークスノースプライトのスノーストーム,"2,400",,1,0,1,,1000,,,,,Skill_SnowStorm,[18],2,,,,,,
+0,0,0,,0,385,,1000,405,1,0,0,0,1,0,1,attackArea,,Skill_DarkSnowSprite_AttackArea,,1500,4000," [61]空
+",1000,2,ダークスノースプライトのスノーストーム,"2,400",,1,0,1,,1000,"489,490",,,,Skill_SnowStorm,[18],2,,,,,,
 0,0,0,,0,15,,1400,406,1,0,0,0,1,0,1,attackArea,,Skill_SkeletonArcher_AttackArea,,2000,4000," [64]空
 ",1000,2,スケルトンアーチャーのアローレイン,"2,300",,1,0,1,,1000,,,,,top_down_ArrowRain,[20],4,,,,,,
 0,0,0,,0,"1,9",,800,407,1,0,0,0,1,0,1,attack,,Skill_RabbitWizard_AttackArea,,1100,4000," [66]空
