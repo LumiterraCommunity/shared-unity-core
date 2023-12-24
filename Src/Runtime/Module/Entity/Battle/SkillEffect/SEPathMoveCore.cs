@@ -28,7 +28,8 @@ public class SEPathMoveCore : SkillEffectBase
         }
         if (RefEntity.EntityCheckPosCore != null)
         {
-            float distance = EffectCfg.Parameters[0] * MathUtilCore.CM2M;
+            ///给2倍的位移误差
+            float distance = EffectCfg.Parameters[0] * MathUtilCore.CM2M * 2;
             RefEntity.EntityCheckPosCore.AddErrorDist(distance);
         }
         TimerMgr.AddTimer(GetHashCode(), EffectData.BeatBackValue.DelayTime, Move);
