@@ -49,16 +49,6 @@ public class RoleBaseDataCore : EntityBaseComponent
     /// 巡逻半径
     /// </summary>
     public int PatrolRadius { get; protected set; }
-    /// <summary>
-    /// 角色邀请码
-    /// 先放在这里，节省一个组件的开销
-    /// </summary>
-    public string InviteCode { get; protected set; }
-    public string InviteCodeOrganization { get; protected set; } = "";
-    /// <summary>
-    /// 角色盲盒质押等级，0~4级，0为未质押
-    /// </summary>
-    public int BoxStakeLv { get; protected set; } = 0;
 
     public void SetName(string name)
     {
@@ -108,21 +98,5 @@ public class RoleBaseDataCore : EntityBaseComponent
     public void SetPatrolRadius(int patrolRadius)
     {
         PatrolRadius = patrolRadius;
-    }
-
-    public void SetInviteCode(string inviteCode)
-    {
-        string[] codeSplits = inviteCode.Split('-');
-        if (codeSplits.Length == 3)
-        {
-            InviteCodeOrganization = codeSplits[1];
-        }
-
-        InviteCode = inviteCode;
-    }
-
-    public void SetBoxStakeLv(int lv)
-    {
-        BoxStakeLv = lv;
     }
 }
