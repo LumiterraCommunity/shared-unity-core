@@ -102,6 +102,12 @@ public class EntityBase
     public EntityBaseNetDataCore NetData { get; set; }
 
     /// <summary>
+    /// 网络数据
+    /// </summary>
+    /// <value></value>
+    public EntityCheckPosCore EntityCheckPosCore { get; set; }
+
+    /// <summary>
     /// 不要乱用 读写相关属性都有独立方法 只能在特定情境下只能通过获取Transform来获取时使用
     /// </summary>
     /// <returns></returns>
@@ -281,14 +287,5 @@ public class EntityBase
     public T[] GetComponents<T>()
     {
         return Root.GetComponents<T>();
-    }
-    /// <summary>
-    ///  检测位置是否有效
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    /// <returns></returns>
-    public virtual bool CheckPositionValid(Vector3 checkPos, Vector3 prePos)
-    {
-        return true;
     }
 }
