@@ -5,6 +5,8 @@ using UnityEngine;
 /// </summary>
 public class SkillShapeCustom : SkillShapeBase
 {
+    public override float Radius => 0;
+
     protected override int CheckAll(int targetLayer, Collider[] noGCResult)
     {
         throw new System.NotImplementedException();

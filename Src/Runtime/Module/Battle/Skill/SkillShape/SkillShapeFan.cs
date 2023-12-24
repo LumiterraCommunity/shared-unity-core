@@ -11,6 +11,9 @@ public class SkillShapeFan : SkillShapeBase
     private float _height;
     private Vector3 _forward;
 
+    public override float Radius => _radius;
+
+
     /// <summary>
     /// 
     /// </summary>

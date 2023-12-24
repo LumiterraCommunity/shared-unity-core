@@ -7,6 +7,9 @@ public class SkillShapeCapsule : SkillShapeBase
     private Vector3 _p1;
     private Vector3 _p2;
     private float _radius;
+
+    public override float Radius => _radius;
+
     /// <summary>
     /// 全参数构造函数
     /// </summary>
