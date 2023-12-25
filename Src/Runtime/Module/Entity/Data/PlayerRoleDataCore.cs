@@ -144,6 +144,12 @@ public class PlayerRoleDataCore : EntityBaseComponent
 
     public void SetInviteCode(string inviteCode)
     {
+        if (string.IsNullOrEmpty(inviteCode))
+        {
+            Log.Error("invite code is null or empty");
+            return;
+        }
+
         string[] codeSplits = inviteCode.Split('-');
         if (codeSplits.Length == 3)
         {
