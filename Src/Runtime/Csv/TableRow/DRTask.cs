@@ -87,36 +87,9 @@ public class DRTask : DataRowBase
     }
 
     /// <summary>
-  /**获取level-int[][]。*/
-    /// </summary>
-    public int[][] Level
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取preTaskReq-int[]。*/
     /// </summary>
     public int[] PreTaskReq
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取chanceOptions-string。*/
-    /// </summary>
-    public string ChanceOptions
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取unlockDungeon-int[]。*/
-    /// </summary>
-    public int[] UnlockDungeon
     {
         get;
         private set;
@@ -135,10 +108,7 @@ public class DRTask : DataRowBase
         IsSelfEnd = DataTableParseUtil.ParseBool(columnStrings[index++]);
         ItemReward = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
-        Level = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         PreTaskReq = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        ChanceOptions = DataTableParseUtil.ParseString(columnStrings[index++]);
-        UnlockDungeon = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -158,10 +128,7 @@ public class DRTask : DataRowBase
                 IsSelfEnd = binaryReader.ReadBoolean();
                 ItemReward = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
-                Level = binaryReader.ReadArrayList<Int32>();
                 PreTaskReq = binaryReader.ReadArray<Int32>();
-                ChanceOptions = binaryReader.ReadString();
-                UnlockDungeon = binaryReader.ReadArray<Int32>();
             }
         }
 
