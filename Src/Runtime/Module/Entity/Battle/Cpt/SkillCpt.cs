@@ -133,6 +133,58 @@ public class SkillCpt : EntityBaseComponent
         return false;
     }
 
+    public long[] GetValidTargetList(int skillID, long[] targetList)
+    {
+        List<long> validTargetList = new();
+
+        if (!SkillMap.TryGetValue(skillID, out SkillBase skill))
+        {
+            return validTargetList.ToArray();
+        }
+
+        if (targetList == null || targetList.Length == 0)
+        {
+            return validTargetList.ToArray();
+        }
+
+        for (int i = 0; i < targetList.Length; i++)
+        {
+            if (GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(targetList[i], out EntityBase targetEntity))
+            {
+                if (skill.IsSkillRange(targetEntity.Position))
+                {
+                    validTargetList.Add(targetList[i]);
+                }
+            }
+        }
+        return validTargetList.ToArray();
+    }
+
+    public Vector3[] GetValidTargetPosList(int skillID, Vector3[] targetPosList)
+    {
+        List<Vector3> validTargetPosList = new();
+        if (!SkillMap.TryGetValue(skillID, out SkillBase skill))
+        {
+            return validTargetPosList.ToArray();
+        }
+
+        if (targetPosList == null || targetPosList.Length == 0)
+        {
+            return validTargetPosList.ToArray();
+        }
+
+
+        for (int i = 0; i < targetPosList.Length; i++)
+        {
+            if (skill.IsSkillRange(targetPosList[i]))
+            {
+                validTargetPosList.Add(targetPosList[i]);
+            }
+
+        }
+        return validTargetPosList.ToArray();
+    }
+
     /// <summary>
     /// 获得技能
     /// </summary>
