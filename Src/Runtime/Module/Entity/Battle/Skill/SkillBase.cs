@@ -245,6 +245,19 @@ public class SkillBase : IReference
     }
 
     /// <summary>
+    /// 是否在技能范围内
+    /// </summary>
+    public bool IsSkillRange(Vector3 pos)
+    {
+        if (DRSkill == null)
+        {
+            return false;
+        }
+        float distance = Vector3.Distance(RefEntity.Position, pos);
+        return distance <= DRSkill.SkillDistance * MathUtilCore.CM2M;
+    }
+
+    /// <summary>
     /// 创建技能
     /// </summary>
     /// <typeparam name="T"></typeparam>
