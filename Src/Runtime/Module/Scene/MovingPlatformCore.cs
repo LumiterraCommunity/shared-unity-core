@@ -1,4 +1,5 @@
-﻿/*
+﻿using System;
+/*
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 移动平台组件
@@ -66,7 +67,8 @@ public class MovingPlatformCore : SharedCoreComponent
     private void UpdatePosition()
     {
         //当前运行时间
-        float runTime = TimeUtil.GetServerTimeStamp() / 1000 % (int)_allTime;
+        double curTime = TimeUtil.GetServerTimeStamp() / (double)(_allTime * TimeUtil.S2MS);
+        float runTime = (float)(curTime - Math.Floor(curTime)) * _allTime;
         //计算当前时间所在的路径位置
         float tempTime = 0;
         for (int i = 0; i < Waypoints.Count; i++)
@@ -105,9 +107,9 @@ public class MovingPlatformCore : SharedCoreComponent
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        MovePlatform(Time.deltaTime);
+        MovePlatform(Time.fixedDeltaTime);
     }
 
     private void MovePlatform(float deltaTime)
