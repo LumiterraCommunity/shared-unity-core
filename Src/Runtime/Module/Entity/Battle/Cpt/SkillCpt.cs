@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 13:38:00
  * @Description: 技能组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillCpt.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillCpt.cs
  * 
  */
 using System.Collections.Generic;
@@ -153,7 +153,7 @@ public class SkillCpt : EntityBaseComponent
         {
             if (GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(targetList[i], out EntityBase targetEntity))
             {
-                if (skill.IsSkillRange(targetEntity.Position))
+                if (skill.IsSkillRange(targetEntity.Position) && skill.IsSkillTarget(targetEntity))
                 {
                     _validTargetList.Add(targetList[i]);
                 }

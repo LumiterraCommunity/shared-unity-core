@@ -256,7 +256,15 @@ public class SkillBase : IReference
         float distance = Vector3.Distance(RefEntity.Position, pos);
         return distance <= DRSkill.SkillDistance * MathUtilCore.CM2M;
     }
-
+    public bool IsSkillTarget(EntityBase targetEntity)
+    {
+        //todo 临时代码 无法攻击友方单位
+        if (RefEntity.BaseData.Type == targetEntity.BaseData.Type)
+        {
+            return (TargetType & (int)eSkillTargetType.Enemy) == 0;
+        }
+        return true;
+    }
     /// <summary>
     /// 创建技能
     /// </summary>
