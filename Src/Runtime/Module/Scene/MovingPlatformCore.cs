@@ -1,4 +1,5 @@
-﻿/*
+﻿using System;
+/*
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 移动平台组件
@@ -14,8 +15,6 @@ public class MovingPlatformCore : SharedCoreComponent
 
     [Header("移动速度")]
     public float MovementSpeed = 10f;
-    [Header("是否反向移动")]
-    public bool ReverseDirection = false;
     [Header("等待时间")]
     public float WaitTime = 1f;
     [Header("移动路径")]
@@ -26,6 +25,7 @@ public class MovingPlatformCore : SharedCoreComponent
 
     private Rigidbody _rigidBody;
     private TriggerAreaCore _triggerArea;
+    private float _allTime = 0;
 
     private void Start()
     {
@@ -44,54 +44,107 @@ public class MovingPlatformCore : SharedCoreComponent
         {
             CurrentWaypoint = Waypoints[CurrentWaypointIndex];
         }
+
+        CalAllTime();
+        UpdatePosition();
     }
 
-    private void Update()
+    private void CalAllTime()
     {
-        if (_waitTime > 0)
+        _allTime = 0;
+        for (int i = 0; i < Waypoints.Count; i++)
         {
-            _waitTime -= Time.deltaTime;
-            return;
+            _allTime += WaitTime;
+            int targetIndex = i + 1;
+            if (i == Waypoints.Count - 1)
+            {
+                targetIndex = 0;
+            }
+            _allTime += Vector3.Distance(Waypoints[i].position, Waypoints[targetIndex].position) / MovementSpeed;
         }
-        MovePlatform();
     }
 
-    private void MovePlatform()
+    private void UpdatePosition()
     {
+        //当前运行时间
+        double curTime = TimeUtil.GetServerTimeStamp() / (double)(_allTime * TimeUtil.S2MS);
+        float runTime = (float)(curTime - Math.Floor(curTime)) * _allTime;
+        //计算当前时间所在的路径位置
+        float tempTime = 0;
+        for (int i = 0; i < Waypoints.Count; i++)
+        {
+            int targetIndex = i + 1;
+            if (i == Waypoints.Count - 1)
+            {
+                targetIndex = 0;
+            }
+            float moveTime = Vector3.Distance(Waypoints[i].position, Waypoints[targetIndex].position) / MovementSpeed;
+            if ((tempTime + moveTime + WaitTime) >= runTime)
+            {
+                float deltaTime = runTime - tempTime;
+                CurrentWaypointIndex = targetIndex;
+                CurrentWaypoint = Waypoints[CurrentWaypointIndex];
+                transform.position = Waypoints[i].position;
+                if (deltaTime > WaitTime)
+                {
+                    deltaTime -= WaitTime;
+                    _waitTime = 0;
+                    Vector3 toCurrentWaypoint = CurrentWaypoint.position - transform.position;
+                    Vector3 movement = toCurrentWaypoint.normalized;
+                    movement *= MovementSpeed * deltaTime;
+                    UpdatePositionMovement(movement);
+                }
+                else
+                {
+                    _waitTime = WaitTime - deltaTime;
+                }
+                break;
+            }
+            else
+            {
+                tempTime += moveTime + WaitTime;
+            }
+        }
+    }
 
-        //If no waypoints have been assigned, return;
+    private void FixedUpdate()
+    {
+        MovePlatform(Time.fixedDeltaTime);
+    }
+
+    private void MovePlatform(float deltaTime)
+    {
         if (Waypoints.Count <= 0)
         {
             return;
         }
-
-        //Calculate a vector to the current waypoint;
-        Vector3 _toCurrentWaypoint = CurrentWaypoint.position - transform.position;
-
-        //Get normalized movement direction;
-        Vector3 _movement = _toCurrentWaypoint.normalized;
-
-        //Get movement for this frame;
-        _movement *= MovementSpeed * Time.deltaTime;
-
-        //If the remaining distance to the next waypoint is smaller than this frame's movement, move directly to next waypoint;
-        //Else, move toward next waypoint;
-        if (_movement.magnitude >= _toCurrentWaypoint.magnitude || _movement.magnitude == 0f)
-        {
-            _rigidBody.transform.position = CurrentWaypoint.position;
-            UpdateWaypoint();
-        }
-        else
-        {
-            _rigidBody.transform.position += _movement;
-        }
-
-        if (_triggerArea == null)
+        _waitTime -= deltaTime;
+        if (_waitTime > 0)
         {
             return;
         }
 
-        //Move all controllrs on top of the platform the same distance;
+        Vector3 toCurrentWaypoint = CurrentWaypoint.position - transform.position;
+        Vector3 movement = toCurrentWaypoint.normalized;
+        movement *= MovementSpeed * deltaTime;
+
+        if (movement.magnitude >= toCurrentWaypoint.magnitude || movement.magnitude == 0f)
+        {
+            UpdatePosition();
+        }
+        else
+        {
+            UpdatePositionMovement(movement);
+        }
+    }
+
+    private void UpdatePositionMovement(Vector3 movement)
+    {
+        _rigidBody.transform.position += movement;
+        if (_triggerArea == null)
+        {
+            return;
+        }
 
         for (int i = 0; i < _triggerArea.RigidbodiesInTriggerArea.Count; i++)
         {
@@ -99,35 +152,7 @@ public class MovingPlatformCore : SharedCoreComponent
             {
                 continue;
             }
-            _triggerArea.RigidbodiesInTriggerArea[i].MovePosition(_triggerArea.RigidbodiesInTriggerArea[i].position + _movement);
+            _triggerArea.RigidbodiesInTriggerArea[i].MovePosition(_triggerArea.RigidbodiesInTriggerArea[i].position + movement);
         }
-    }
-
-    //This function is called after the current waypoint has been reached;
-    //The next waypoint is chosen from the list of waypoints;
-    private void UpdateWaypoint()
-    {
-        if (ReverseDirection)
-        {
-            CurrentWaypointIndex--;
-        }
-        else
-        {
-            CurrentWaypointIndex++;
-        }
-
-        //If end of list has been reached, reset index;
-        if (CurrentWaypointIndex >= Waypoints.Count)
-        {
-            CurrentWaypointIndex = 0;
-        }
-
-        if (CurrentWaypointIndex < 0)
-        {
-            CurrentWaypointIndex = Waypoints.Count - 1;
-        }
-
-        CurrentWaypoint = Waypoints[CurrentWaypointIndex];
-        _waitTime = WaitTime;
     }
 }
