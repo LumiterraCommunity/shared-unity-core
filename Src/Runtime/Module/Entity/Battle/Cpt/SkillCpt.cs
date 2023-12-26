@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 13:38:00
  * @Description: 技能组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillCpt.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillCpt.cs
  * 
  */
 using System.Collections.Generic;
@@ -13,6 +13,8 @@ public class SkillCpt : EntityBaseComponent
 {
     public Dictionary<int, SkillBase> SkillMap { get; private set; } = new();
     private bool _isDestroy = false;
+    private List<long> _validTargetList = new();
+    private List<Vector3> _validTargetPosList = new();
     private void OnDestroy()
     {
         _isDestroy = true;
@@ -135,16 +137,16 @@ public class SkillCpt : EntityBaseComponent
 
     public long[] GetValidTargetList(int skillID, long[] targetList)
     {
-        List<long> validTargetList = new();
+        _validTargetList.Clear();
 
         if (!SkillMap.TryGetValue(skillID, out SkillBase skill))
         {
-            return validTargetList.ToArray();
+            return _validTargetList.ToArray();
         }
 
         if (targetList == null || targetList.Length == 0)
         {
-            return validTargetList.ToArray();
+            return _validTargetList.ToArray();
         }
 
         for (int i = 0; i < targetList.Length; i++)
@@ -153,24 +155,24 @@ public class SkillCpt : EntityBaseComponent
             {
                 if (skill.IsSkillRange(targetEntity.Position))
                 {
-                    validTargetList.Add(targetList[i]);
+                    _validTargetList.Add(targetList[i]);
                 }
             }
         }
-        return validTargetList.ToArray();
+        return _validTargetList.ToArray();
     }
 
     public Vector3[] GetValidTargetPosList(int skillID, Vector3[] targetPosList)
     {
-        List<Vector3> validTargetPosList = new();
+        _validTargetPosList.Clear();
         if (!SkillMap.TryGetValue(skillID, out SkillBase skill))
         {
-            return validTargetPosList.ToArray();
+            return _validTargetPosList.ToArray();
         }
 
         if (targetPosList == null || targetPosList.Length == 0)
         {
-            return validTargetPosList.ToArray();
+            return _validTargetPosList.ToArray();
         }
 
 
@@ -178,11 +180,11 @@ public class SkillCpt : EntityBaseComponent
         {
             if (skill.IsSkillRange(targetPosList[i]))
             {
-                validTargetPosList.Add(targetPosList[i]);
+                _validTargetPosList.Add(targetPosList[i]);
             }
 
         }
-        return validTargetPosList.ToArray();
+        return _validTargetPosList.ToArray();
     }
 
     /// <summary>
