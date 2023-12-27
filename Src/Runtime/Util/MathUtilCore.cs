@@ -182,4 +182,12 @@ public static class MathUtilCore
         float numValue = (float)(num / Math.Pow(10, decimals));
         return numValue;
     }
+
+    public static System.Numerics.BigInteger Float2BigInteger(float num, int exponent, int decimals)
+    {
+        double value = num * Math.Pow(10, decimals);
+        System.Numerics.BigInteger bigSlippage = new(value);
+        bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
+        return bigSlippage;
+    }
 }
