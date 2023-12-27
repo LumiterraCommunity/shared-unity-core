@@ -381,7 +381,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,"467,469",0,412,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,2000,,1000,2,Pricking,"1,200,1500,200",,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
 0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000,,1000,2,Inserting,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,,1000,2,Lightning by rub my hands.,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
-0,0,0,,0,,,200,415,0,0,0,1,0,0,0,pray,,,,660,30000,Temporarily increase PetHappinessCapacity,,2,Lovely Touch,,,1,0,1,,1000,470,skill-icon-415,,,,,,,,,,,
+0,0,0,,0,,,200,415,0,0,0,1,0,0,0,happy,,,,660,30000,Temporarily increase PetHappinessCapacity,,2,Lovely Touch,,,1,0,1,,1000,470,skill-icon-415,,,,,,,,,,,
 0,0,0,,0,"15,456,446",463,1700,417,1,0,0,0,0,0,1,attackArea,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,4000,,500,2,Skeleton Captain Range attack,"4,300,400,18000",,1,0,1,,1000,,,,,top_down_Normal_Half_4,,,,,,,,
 0,0,0,,0,1,467,1000,422,1,0,0,0,1,0,1,attackArea,,Skill_FroestLord_AttackArea,,2833,12000,,1000,2,Watch out your butt,"2,300",,1,0,1,,1000,"489,490",,,,top_down_Normal_3,[22],2,,,,,,
 0,0,0,,0,"471,388",467,1000,423,1,0,0,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,12000,,1000,2,Husky's Wrath,"2,500",,1,0,1,,1000,467,,,,top_down_MoonFalling,[23],2,,,,,,
