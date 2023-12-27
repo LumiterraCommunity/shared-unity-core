@@ -415,7 +415,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",1000,2, Memasukkan,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,"Kosong
 ",1000,2, Petir dengan menggosok tangan saya.,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
-0,0,0,,0,,,200,415,0,0,0,1,0,0,0,pray,,,,660,30000," Sementara meningkatkan Kapasitas Kebahagiaan Hewan Peliharaan.
+0,0,0,,0,,,200,415,0,0,0,1,0,0,0,happy,,,,660,30000," Sementara meningkatkan Kapasitas Kebahagiaan Hewan Peliharaan.
 ",,2,Sentuhan Manis,,,1,0,1,,1000,470,skill-icon-415,,,,,,,,,,,
 0,0,0,,0,"15,456,446",463,1700,417,1,0,0,0,0,0,1,attackArea,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,4000,"Kosong
 ",500,2, Serangan jarak jauh Skeleton Captain,"4,300,400,18000",,1,0,1,,1000,,,,,top_down_Normal_Half_4,,,,,,,,
