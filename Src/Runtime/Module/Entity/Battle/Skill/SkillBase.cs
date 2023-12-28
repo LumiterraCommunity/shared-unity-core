@@ -253,6 +253,12 @@ public class SkillBase : IReference
         {
             return false;
         }
+
+        if (DRSkill.SkillDistance <= 0)//没配置范围 代表一些没有距离要求的特殊技能
+        {
+            return true;
+        }
+
         float distance = Vector3.Distance(RefEntity.Position, pos);
         return distance <= DRSkill.SkillDistance * MathUtilCore.CM2M;
     }
