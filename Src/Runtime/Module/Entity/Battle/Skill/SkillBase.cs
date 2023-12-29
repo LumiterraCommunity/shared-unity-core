@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-01-06 10:52:11
  * @Description:  技能基础, 用了引用池，记住继承Clear清除数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Skill/SkillBase.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Skill/SkillBase.cs
  * 
  */
 using GameFramework;
@@ -262,7 +262,15 @@ public class SkillBase : IReference
         float distance = Vector3.Distance(RefEntity.Position, pos);
         return distance <= DRSkill.SkillDistance * MathUtilCore.CM2M;
     }
-
+    public bool IsSkillTarget(EntityBase targetEntity)
+    {
+        //todo 临时代码 无法攻击友方单位
+        if ((TargetType & (int)eSkillTargetType.Enemy) != 0)
+        {
+            return RefEntity.BaseData.Type != targetEntity.BaseData.Type;
+        }
+        return true;
+    }
     /// <summary>
     /// 创建技能
     /// </summary>
