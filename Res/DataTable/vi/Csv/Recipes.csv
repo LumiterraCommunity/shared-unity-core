@@ -117,8 +117,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Trống,2,recipe-icon-217,217,0,"31,3;71,3", Cấp 0 Công thức Chai Giảm Tốc Độ ,"237,1,1,10000",0,100217,1,10,3,1,1,0,0
 0,Trống,2,recipe-icon-218,218,0,"30,3;72,3", Cấp 0 Công thức Chai Đốt ,"238,1,1,10000",0,100218,1,10,3,1,1,0,0
 0,Công thức Thuốc phục hồi Năng lượng - Nhỏ,2,recipe-icon-267,267,0,"66,20;62,5", Công thức Phục hồi Năng lượng - Nhỏ ,"295,1,1,10000",0,100267,1,10,3,0,4,0,0
-0,Công thức Thuốc phục hồi Năng lượng - Trung bình,2,recipe-icon-268,268,1,"67,10;63,5", Công thức Phục hồi Năng lượng - Trung ,"296,1,1,10000",0,99268,1,10,3,0,4,0,0
-0,Công thức Thuốc phục hồi Năng lượng - Lớn,2,recipe-icon-269,269,2,"64,5", Công thức Phục hồi Năng lượng - Lớn ,"297,1,1,10000",0,98269,1,10,3,0,4,0,0
+0,Công thức Thuốc phục hồi Năng lượng - Trung bình,2,recipe-icon-268,268,1,"63,5;59,5;67,5", Công thức Phục hồi Năng lượng - Trung ,"296,1,1,10000",0,99268,1,10,3,0,4,0,0
+0,Công thức Thuốc phục hồi Năng lượng - Lớn,2,recipe-icon-269,269,2,"64,5;60,5;68,5", Công thức Phục hồi Năng lượng - Lớn ,"297,1,1,10000",0,98269,1,10,3,0,4,0,0
 0,Công thức Kiếm Vàng,2,recipe-icon-270,270,4,"209,2;407,1;410,1", Công thức Kiếm Vàng ,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,96270,1,30,2,0,4,0,10
 0,Công thức Mũ Chiến binh Vàng,2,recipe-icon-271,271,4,"209,2;407,1;410,1", Công thức Mũ Chiến binh Vàng ,"335,1,1,4090;335,2,1,2727;335,3,1,1818;335,4,1,1212;471,5,1,151",0,96271,1,30,2,0,4,0,10
 0,Công thức Áo Chiến binh Vàng,2,recipe-icon-272,272,4,"209,2;407,1;410,1", Công thức Áo Chiến binh Vàng ,"336,1,1,4090;336,2,1,2727;336,3,1,1818;336,4,1,1212;472,5,1,151",0,96272,1,30,2,0,4,0,10
@@ -212,9 +212,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Trống,2,recipe-icon-379,379,4,"218,2;404,2",Công thức Bàn Chải Vàng cấp độ 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96379,1,30,1,0,4,0,10
 0,Trống,2,recipe-icon-380,380,5,"401,2;405,2",Công thức Bàn Chải Kim Cương cấp độ 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95380,1,90,1,0,4,0,15
 0,Trống,2,recipe-icon-381,381,6,"402,2;406,2",Công thức Bàn Chải Ánh Sáng Sao cấp độ 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94381,1,270,1,0,4,0,20
-0,Trống,2,recipe-icon-382,382,4,"375,5;374,10", Công thức Thuốc Phục Hồi Năng Lượng - Nhỏ,"459,1,1,10000",0,96382,1,10,3,0,4,0,0
-0,Trống,2,recipe-icon-383,383,5,"378,5;377,10", Công thức Phục hồi Năng lượng - Trung bình,"460,1,1,10000",0,95383,1,10,3,0,4,0,0
-0,Trống,2,recipe-icon-384,384,6,"381,5;380,10", Công thức Phục hồi Năng lượng - Lớn,"461,1,1,10000",0,94384,1,10,3,0,4,0,0
+0,Trống,2,recipe-icon-382,382,4,"375,5;376,5;374,5", Công thức Thuốc Phục Hồi Năng Lượng - Nhỏ,"459,1,1,10000",0,96382,1,10,3,0,4,0,0
+0,Trống,2,recipe-icon-383,383,5,"377,5;378,5;379,5", Công thức Phục hồi Năng lượng - Trung bình,"460,1,1,10000",0,95383,1,10,3,0,4,0,0
+0,Trống,2,recipe-icon-384,384,6,"380,5;381,5;382,5", Công thức Phục hồi Năng lượng - Lớn,"461,1,1,10000",0,94384,1,10,3,0,4,0,0
 0,,0,recipe-icon-385,385,0,"365,8;366,8;367,8",,"464,1,3,10000",0,100385,1,10,0,0,4,0,1
 0,,0,recipe-icon-386,386,0,"368,3;369,3;370,3",,"464,1,12,10000",0,100386,1,10,0,0,4,0,1
 0,,0,recipe-icon-387,387,0,"371,1;372,1;373,1",,"464,1,18,10000",0,100387,1,10,0,0,4,0,1

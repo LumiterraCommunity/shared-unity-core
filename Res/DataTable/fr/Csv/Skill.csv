@@ -383,7 +383,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"458,456,446",,1000,402,1,0,0,0,1,0,1,attack,,Skill_TrapPush_Attack,,1500,4000,Vide,2000,2, Piège Monstre pousser,,,1,0,1,,1000,,,,,,[15],1,,,,,,
 0,0,0,,0,"458,445",,1000,403,1,0,0,0,1,0,1,attack,,Skill_TrapBomb_Attack,,1500,4000,Vide,2000,2, Piège Monstre bombe,"2,300",,1,0,1,,1000,,,,,top_down_Normal_3,[16],4,,,,,,
 1,0,1,,0,459,,4000,404,0,1,0,1,0,1,0,pray,,,,4100,0," Compétence de sauvetage.
-",,2,Compétence de sauvetage,,,2,1,1,,1000,,skill-icon-404,,,,,,,,,,,skill_Rescue_AccuBar
+",,2,Compétence de sauvetage,,,2,1,2,,1000,,skill-icon-404,,,,,,,,,,,skill_Rescue_AccuBar
 0,0,0,,0,385,,1000,405,1,0,0,0,1,0,1,attackArea,,Skill_DarkSnowSprite_AttackArea,,1500,4000,Vide,1000,2, Tempête de neige du Sprite de neige sombre,"2,400",,1,0,1,,1000,"489,490",,,,Skill_SnowStorm,[18],2,,,,,,
 0,0,0,,0,15,,1400,406,1,0,0,0,1,0,1,attackArea,,Skill_SkeletonArcher_AttackArea,,2000,4000,Vide,1000,2, Pluie de flèches de l'Archer squelette,"2,300",,1,0,1,,1000,,,,,top_down_ArrowRain,[20],4,,,,,,
 0,0,0,,0,"1,9",,800,407,1,0,0,0,1,0,1,attack,,Skill_RabbitWizard_AttackArea,,1100,4000,Vide,1000,2, Magie saignante du Magicien lapin,,,1,0,1,,1000,,,,,,[21],1,,,,,,
