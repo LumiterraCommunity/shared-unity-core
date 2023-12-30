@@ -18,7 +18,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
 
     public List<TLevel> LevelList = new(); //关卡列表
     public int CurLevelIndex = 0; //当前关卡
-    public long CurLevelStartTime = 0; //当前关卡开始时间
+    public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
     public static GameObject Root { get; private set; }
     private void Awake()

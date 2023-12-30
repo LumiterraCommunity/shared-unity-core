@@ -26,6 +26,7 @@ public class MovingPlatformCore : SharedCoreComponent
     private Rigidbody _rigidBody;
     private TriggerAreaCore _triggerArea;
     private float _allTime = 0;
+    private long _startTime = 0;
 
     private void Start()
     {
@@ -46,9 +47,37 @@ public class MovingPlatformCore : SharedCoreComponent
         }
 
         CalAllTime();
-        UpdatePosition();
+        MessageCore.LevelStatusUpdate += OnLevelStatusUpdate;
+        UpdateLevelStatus();
     }
 
+
+    private void OnDestroy()
+    {
+        MessageCore.LevelStatusUpdate -= OnLevelStatusUpdate;
+
+    }
+    private void OnLevelStatusUpdate(int levelIndex, GameMessageCore.eInstancingStatusType statusType)
+    {
+        UpdateLevelStatus();
+    }
+
+    public void UpdateLevelStatus()
+    {
+
+        if (!GFEntryCore.IsExistModule<IInstancingMgr>())
+        {
+            return;
+        }
+
+        IInstancingMgr instancingMgr = GFEntryCore.GetModule<IInstancingMgr>();
+        if (!instancingMgr.IsInit)
+        {
+            return;
+        }
+        _startTime = instancingMgr.CurLevelStartTime;
+        UpdatePosition();
+    }
     private void CalAllTime()
     {
         _allTime = 0;
@@ -67,8 +96,8 @@ public class MovingPlatformCore : SharedCoreComponent
     private void UpdatePosition()
     {
         //当前运行时间
-        double curTime = TimeUtil.GetServerTimeStamp() / (double)(_allTime * TimeUtil.S2MS);
-        float runTime = (float)(curTime - Math.Floor(curTime)) * _allTime;
+        float curTime = (TimeUtil.GetServerTimeStamp() - _startTime) * TimeUtil.MS2S;
+        float runTime = curTime % _allTime;
         //计算当前时间所在的路径位置
         float tempTime = 0;
         for (int i = 0; i < Waypoints.Count; i++)
