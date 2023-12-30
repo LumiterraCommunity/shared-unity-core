@@ -19,6 +19,9 @@ public interface IInstancingMgr
     /// <param name="index"></param>
     bool IsInit { get; set; }
     /// <summary>
+    /// 当前关卡时间
+    /// <summary>
+    long CurLevelStartTime { get; set; }
     /// 设置当前关卡
     /// </summary>
     /// <param name="index"></param>
