@@ -7,10 +7,12 @@ public static class MoveDefine
     /// 走直线时的最大请求间隔时间 s
     /// </summary>
     public const float MOVE_MAX_SYNC_INTERVAL_TIME = 1f;//TODO:0.5效果最好 目前为了解决服务器网络性能暂时改成1s
+    public const float MOVE_MAX_SYNC_INTERVAL_TIME_INSTANCE = 0.2f;//副本走直线
     /// <summary>
     /// 方向偏移多少度就需要同步
     /// </summary>
     public const float MOVE_SYNC_DIRECTION_OFFSET_ANGLE = 20f;//TODO:10度效果最好 不会怎么闪 30度如果一直转圈容易闪 不过在服务器没有解决性能问题前这样可以保证服务器更安全 不一直转圈也还好
+    public const float MOVE_SYNC_DIRECTION_OFFSET_ANGLE_INSTANCE = 5f;//副本偏移阈值
     /// <summary>
     /// 允许的网络延迟时间 s
     /// </summary>
