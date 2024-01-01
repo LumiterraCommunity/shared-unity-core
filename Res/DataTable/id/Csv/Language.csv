@@ -1,257 +1,264 @@
-id-int,module-string,value-string,describe-string
-10004021,装备属性-生命上限,Max HP,
-10004022,装备属性-生命恢复,Pemulihan HP,
-10004023,装备属性-攻击点数,Poin Serangan,
-10004024,装备属性-攻击速度,Kecepatan Serangan,
-10004025,装备属性-防御点数,Poin Pertahanan,
-10004026,装备属性-暴击点数,Poin Kritis,
-10004027,装备属性-暴击伤害,Kerusakan Kritis,
-10004028,装备属性-命中点数,Poin Tertahan,
-10004029,装备属性-闪避点数,Poin Menghindar,
-10004030,装备属性-移动速度,Kecepatan Gerak,
-10022007,画板,Lumiterra,
-10027010,机器人,LV.{0},
-10060001,UI tips EXP,"Cara untuk mendapatkan EXP termasuk membunuh monster, menyelesaikan tugas, dll.Anda dapat mendapatkan banyak EXP setiap kali menyelesaikan misi penjarahan.",
-10060002,UI tips token,Anda dapat membeli LNCO melalui bursa mata uang atau pertukaran kripto.Anda juga dapat mendapatkan LNCO dengan menjual item permainan di pasar.,
-10060003,UI tips Proficiency,"Meningkatkan kekuatan senjata, kekuatan peralatan, dan ramuan semua meningkatkan keahlian dalam keterampilan kerajinan yang sesuai.Semakin tinggi level kerajinan item, semakin tinggi keahlian yang meningkat.",
-10070001,通用提示文案-外观穿戴1,Anda harus memakai peralatan sebelum dapat memakai penampilan.,
-10070002,通用提示文案-外观穿戴2,Hanya penampilan dengan jenis yang sama dengan peralatan saat ini yang dapat dipakai.,
-10080013,大世界钱包地址复制提示,Alamat dompet telah disalin,
-10080014,大世界NFT物件拆除确认提示,Harap konfirmasi penghapusan,
-10080015,大世界NFT物件拆除不返还提示,Tidak akan mengembalikan Ditamin,
-10080016,聊天窗文本复制提示,Teks telah disalin,
-10080017,大世界放弃领地弹窗,"Apakah Anda yakin ingin meninggalkan tanah ini ({0}, {1})?",
-10080018,大世界24小时预计奖励tips,Perkiraan pendapatan 24 jam: {0} Ditamin,
-10080019,大世界超出占地限制tips,Batas hadiah: {0} Tanah Terisi,
-10080020,聊天禁言提示,Anda telah dilarang dan tidak dapat mengobrol sampai larangan tersebut dicabut,
-10080021,创建地图达到上限提示,Batas maksimum pembuatan peta adalah {0}.,
-10080022,销毁道具提示,Apakah Anda ingin menghancurkan {0} * {1}? Tidak dapat dikembalikan setelah dihancurkan!,
-10080023,销毁道具成功提示,Berhasil dihancurkan!,
-10081001,实体地图操作界面,Peta sudah berjalan dan ini adalah portal terakhir dari peta yang sedang berjalan. Mengubah pengaturan portal saat ini akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.,
-10081002,实体地图操作界面,"Peta sedang berjalan di server cloud, dan tingkat layanan saat ini adalah:0Ditamin/jam.",
-10081003,实体地图操作界面,Peta sudah berjalan dan ini adalah portal terakhir dari peta yang sedang berjalan. Mengubah pengaturan portal saat ini akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.,
-10081004,实体地图操作界面,Peta sudah berjalan. Memperbarui data peta akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.,
-10081005,实体地图操作界面,Peta sudah berjalan. Menutup peta akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.,
-10082001,功能提示,Fungsi konversi teks menjadi suara sedang tidak tersedia sementara waktu,
-10089001,打地鼠,Memukul Tikus,
-10089002,记数字和符号,Memori Karakter,
-10089003,打气球,Melempar Balon,
-10089004,裁剪艺术,Potongan yang Hilang,
-10089005,旋转剪影,Siluet Berputar,
-10089006,数方块,Perhitungan Blok,
-10089007,调整时钟,Penyesuaian Jam,
-10089008,鸟笼洗牌,Acak Sangkar Burung,
-10089009,敲积木求和,Retakan Blok,
-10089010,卡片记忆,Memori Kartu,
-10089011,逆转记忆,Memori Terbalik,
-10089012,PVP邀请链接复制提示,Tautan undangan telah disalin,
-10089013,PVP PK房间准备超时提示,Waktu habis ruang PK,
-10089014,PVP主动认输,Menyerah dalam permainan?,
-10089015,装备插槽升级提示,Slot peralatan naik level!,
-10089016,装备插槽等级不足提示,Level slot tidak mencukupi,
-10090001,打地鼠小游戏提示1,Klik pada gambar yang sama!,
-10090002,快闪记忆提示1,Ingat angka dan tanda!,
-10090003,快闪记忆提示2,{0} digit,
-10090004,顺序气球提示,Hancurkan balon dengan urutan angka dari kecil ke besar!,
-10090005,积木计算提示,Berapa jumlah blok?,
-10090006,旋转剪影提示,Mana yang sama dengan siluet?,
-10090007,剪裁艺术提示,Gambar mana yang paling cocok?,
-10090008,调整时钟quiz提示,Atur jam!,
-10090009,拾取非归属于自己的道具提醒,"Tidak dapat diambil, itu bukan milikmu",
-10090010,回复%血量,Pulihkan {0}% hp,
-10090011,重复使用配方提醒,Anda sudah mempelajari resep ini.,
-10090012,鸟笼洗牌提示,Di mana ayam-ayamnya?,
-10090013,,Pukul batu bata yang tidak perlu!,
-10090014,逆向记忆提示,Ulangi secara terbalik!,
-10090015,获得BUFF提示,Dapatkan BUFF: {0},
-10090016,卡牌记忆提示,Ingat kartu-kartu itu!,
-10090017,点击技能熟练度问号弹窗,Tingkatkan keahlian Anda dengan Kerajinan,
-10090018,奖励预览,Pratinjau Hadiah,
-10090019,恭喜获得,Selamat atas perolehan Anda:,
-10090020,放弃任务确认提示,Apakah Anda yakin ingin meninggalkan tugas ini?,
-10090021,放弃任务时间提示,Tidak dapat menyerah secara terus-menerus dalam waktu 5 menit.,
-90000000,重置地图提示文本,{0} mereset dan menjalankan ulang peta saat ini,
-90000001,重置领地提示文本,{0} mereset peta saat ini,
-90000002,重置领地提示文本,{0} mereset dan menjalankan ulang tanahnya,
-90000003,重置领地提示文本,{0} mereset tanahnya,
-90000004,停止地图所有代码块运行 ,{0} menghentikan semua blok kode saat ini,
-20010001,断网标题,Terputus,
-20010002,断网提示,Jaringan terputus,
-20010003,被T提示,Akun Anda sudah masuk di tempat lain,
-20010004,被T提示,Deteksi kecurangan oleh sistem,
-20010005,被T提示,Server sedang offline,
-20010006,,Kesalahan sistem,
-20020001,家园相关,Kekurangan item,道具不足
-5001,家园错误码,Sumber daya tidak ada,资源不存在
-5002,家园错误码,Operasi tidak didukung,操作不支持
-5003,家园错误码,Pengurangan item rumah tidak normal,家园道具扣除异常
-20030001,保存技能配置,Berhasil disimpan,
-20040001,畜牧,{0} sprite[/color]Silakan pilih untuk meninggalkan Sprite ini atau menggantinya dengan Sprite lainkarena ruang tidak mencukupi,超过上限提示
-20040002,畜牧,HEWAN PENUH,超过上限提示标题
-20040003,畜牧,TINGGALKAN,放弃按钮
-20040004,畜牧,GANTI,替换按钮
-6001,畜牧错误码,Permintaan menangkap hewan exception,捕捉动物请求异常
-6002,畜牧错误码,Menangkap hewan tidak valid,捕捉动物无效
-20050001,捕获取消操作,Batal Menangkap,
-20050002,捕获距离太远,Terlalu jauh,
-20050003,捕获绳子断开,Tali putus,
-20050004,捕获超时,Waktu menangkap habis,
-20050005,捕获过程道具不足,Kekurangan perlengkapan,
-20060001,技能,Keterampilan dalam CD,释放技能正在CD中
-20040005,畜牧,Kesalahan dalam mendapatkan data rumah,
-20040006,畜牧,Waktu habis mendapatkan data rumah,
-20040007,畜牧,Data rumah tidak lengkap,
-20040008,畜牧,Salah satu mangkuk makanan menjadi kosong,
-20040011,畜牧,Tidak ada pemeliharaan untuk sementara waktu,
-20040009,畜牧,Salah satu mangkuk makanan telah diisi dengan makanan,
-20040010,畜牧,Ikatan Anda dengan hewan peliharaan Anda meningkat,
-20040012,畜牧,Kesuburan tanah tidak mencukupi,
-20040013,畜牧,Kebahagiaan hewan tidak mencukupi,
-20040014,畜牧,Kesuburan tanah saat ini tidak mencukupi,
-20070001,登录,Sistem,
-20070002,登录,Masuk,
-20070003,登录,Gagal masuk,
-20070004,登录,"Gagal masuk, silakan coba lagi.",
-20070005,登录,Coba lagi,
-20070006,登录,Memuat scene,
-20070007,登录,Nama tidak boleh mengandung karakter ilegal,
-20070008,登录,Nama tidak boleh kosong,
-20070009,登录,Nama tidak boleh melebihi {0} karakter,
-20070010,登录,Memuat sumber daya {0},
-20070011,登录,Menghubungkan dompet,
-20070012,登录,Menghubungkan permainan,
-20070013,登录,Gagal menghubungkan permainan,
-20070014,登录,"Gagal menghubungkan permainan, silakan coba lagi.",
-20070015,登录,Dalam antrian: {0},
-20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi.",
-20080002,设置,Berhenti sekarang,
-20080003,设置,Nanti,
-20090001,任务,Menerima hadiah peti kisah {0}  ,
-20090002,任务,Menyelesaikan kisah {0}  ,
-20090003,任务,Membuat item apa pun di halaman kerajinan  ,
-20090004,任务,Membuat {0} di halaman kerajinan  ,
-20090005,任务,Menggunakan {0}  ,
-20090006,任务,Menyerahkan {0}  ,
-20090007,任务,Membunuh {0}  ,
-20090008,任务,"Melihat sekitar koordinat peta ({0}, {1})  ",
-20090009,任务,Meningkatkan karakter Anda  ,
-20090010,任务,Mendapatkan {0}  ,
-20090011,任务,Meningkatkan slot {0}  ,
-20090012,任务,Meningkatkan node {0} menjadi level {1} ,
-20100001,专精,Bertani ,
-20100002,专精,Pertempuran ,
-20100003,专精,Mengumpulkan ,
-20100004,专精,Umum ,
-20100005,,Level Maksimum ,
-20100006,,Kekurangan EXP {0} ,
-20100007,nft 关键字,Kekurangan Token ,
-"20100000
-",专精,Umum ,
-20110000,nft 关键字,Memulihkan HP ,
-20110001,nft 关键字,Menambah Buff ,
-20110002,nft 关键字,Belajar Resep ,
-20110003,nft 关键字,Pelindung Kepala ,
-20110004,nft 关键字,Pelindung Dada ,
-20110005,nft 关键字,Pelindung Kaki ,
-20110006,nft 关键字,Pelindung Kaki ,
-20110007,nft 关键字,Pelindung Tangan ,
-20110008,nft 关键字,Pedang ,
-20110009,nft 关键字,Busur ,
-20110010,nft 关键字,Pisau Belati ,
-20110011,nft 关键字,Tombak ,
-20110012,nft 关键字,Konsumsi ,
-20110013,nft 关键字,Bahan ,
-20110014,nft 关键字,Dapat Ditempatkan ,
-20110015,nft 关键字,Dapat Dikenakan,
-20110016,nft 关键字,Kotak Misteri,
-20110017,nft 关键字 在配置中的类型,Perlengkapan,
-20110018,nft 关键字 在配置中的类型,Benda yang Dapat Dikonsumsi,
-20110019,nft 关键字 在配置中的类型,Bahan,
-20110020,nft 关键字 在配置中的类型,Bangunan,
-20090013,任务,{0} Item Dipilih,
-20090014,任务,{0} Item Dipilih,
-20090015,,Tidak Diketahui,
-20090016,,Harian,
-20090017,,Tugas Harian,
-20170000,合成,Masuk antrian,
-20170001,合成,Antrian kerajinan penuh.,
-20170002,合成,Resep kerajinan belum terbuka.,
-20170003,合成,Bahan tidak cukup.,
-20170004,合成,Token tidak cukup.,
-20120005,登录,Mulai menghubungkan dompet,
-20120006,登录,Pembaruan menghubungkan dompet,
-20120007,登录,Selesai menghubungkan dompet,
-20120008,登录,Gagal menghubungkan dompet,
-20120009,登录,Dompet terhubung siap,
-20120010,登录,Mulai masuk ke dompet,
-20120011,登录,Buka halaman masuk dompet,
-20120012,登录,Berhasil masuk ke dompet,
-20120013,登录,Gagal masuk ke dompet,
-20130000,组队,Tim {0},
-20140001,网络,"Kesalahan jaringan, silakan coba lagi",
-20140002,网络,Jaringan,弱网提示标题
-10001001,通用,OK,
-10001002,通用,Batal,
-10001003,通用,Konfirmasi,
-10001004,通用,Tutup,
-20130001,组队,Permintaan terkirim,
-20130002,组队,"Anda telah bergabung dengan tim, harap keluar dari tim terlebih dahulu",
-20130003,组队,Permintaan kedaluwarsa,
-20150001,副本,Melarikan diri akan mengakibatkan hukuman kegagalan. Apakah Anda yakin ingin keluar?,
-20150002,副本,Ada kemungkinan bahwa {0} potong peralatan yang Anda kenakan akan rusak jika Anda gagal. Apakah Anda yakin ingin melanjutkan tantangan?,
-20150003,副本,"Gagal memulai instansi, silakan coba lagi nanti",场景服务启动失败
-20150004,副本,"Waktu habis saat memasuki instansi, silakan coba lagi nanti",切换场景超时
-20150005,副本,Tiket tidak mencukupi,门票不足
-20150006,副本,Gagal mengurangi tiket,门票扣除失败
-20150007,副本,Instansi belum terbuka,副本未解锁
-20150008,副本,Anda sudah berada di sini,已在当前场景
-20150009,副本,Aplikasi duplikat,重复申请
-20150010,副本,Anda tidak memiliki izin untuk masuk,没有权限进入场景
-20150011,副本,"Gagal masuk ke peta, silakan hubungi administrator",无效地图类型 参数错误(地图id or subtype信息错误)
-20150012,副本,Tidak dapat masuk solo,地图不支持当前的挑战类型(单人多人挑战类型)
-20150013,副本,Silakan keluar dari tim saat ini,玩家在队伍中(单人挑战不能有队伍)
-20150014,副本,Silakan bergabung dengan tim,玩家队伍不存在(非单人挑战类型必须有队伍)
-20150015,副本,Terlalu jauh,成员不在附近  （成员不在npc附近） （成员不在队长附近）已经离线(member entity 离开当前服务器)
-20150016,副本,"Tingkat karakter tidak mencukupi, membutuhkan tingkat {0}",地图需要XX级才能进入
-20150017,副本,"Kesalahan data karakter, silakan hubungi administrator",角色数据错误
-20150018,副本,"NPC tidak ditemukan, silakan hubungi administrator",NPC 不存在
-20130004,组队,Format nama tidak valid,
-20130005,组队,Format deskripsi tidak valid,
-20160000,副本,Kekurangan tiket,
-20160001,副本,Harap keluar dari tim saat ini,
-20160002,副本,Membutuhkan tim untuk tantangan,
-20130006,组队,Anda sudah berada di sini,
-20160003,副本,Hanya pemimpin tim yang dapat memulai tantangan tim,
-20160004,副本,Belum terbuka,
-20160005,副本,Kesalahan sistem,
-20160006,副本,Dunia terbuka,
-20160008,副本,Dungeon,
-20160007,副本,Rumah milik ,
-20160009,,Area tidak diketahui,
-20130007,,{0} mengundang Anda untuk bergabung dengan tim,
-20070016,登录,Silakan masukkan kode yang valid,
-10001005,通用,Menghubungkan,
-20180001,设置,25 Bingkai,
-20180002,设置,30 Bingkai,
-20180003,设置,45 Bingkai,
-20180004,设置,60 Bingkai,
-20180005,设置,Tidak ada Batasan,
-20170005,合成,Silakan pilih bahan yang cukup,
-20150019,副本,menolak untuk masuk ke dungeon,
-20120014,登录,Inisialisasi dompet,
-20120015,登录, Waktu habis untuk menginisialisasi dompet,
-20180006,设置,Sangat Rendah,
-20180007,设置,Rendah,
-20180008,设置,Sedang,
-20180009,设置,Tinggi,
-20190000,天赋树,Pre-node harus terlebih dahulu terbuka.,
-20190001,天赋树,Total level dari pohon bakat harus mencapai {0}.,
-20190002,天赋树,Node batang dari lapisan yang sama harus terlebih dahulu terbuka.,
-20070017,登录,Gagal masuk ke scene tujuan.,
-20020002,家园相关,Tidak ada apa-apa di dalam kotak penyimpanan!,
-20200000,活动, klaim hadiah berhasil,
-20200001,活动, klaim hadiah gagal,
-20200002,活动, cetak tiket berhasil,
-20200003,活动, cetak tiket gagal,
-20200004,活动, jual tiket berhasil,
-20200005,活动, jual tiket gagal,
+describe-string,id-int,module-string,value-string
+,,,
+资源不存在,5001,家园错误码,Sumber daya tidak ada
+操作不支持,5002,家园错误码,Operasi tidak didukung
+家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
+捕捉动物请求异常,6001,畜牧错误码,Permintaan menangkap hewan exception
+捕捉动物无效,6002,畜牧错误码,Menangkap hewan tidak valid
+,10001001,通用,OK
+,10001002,通用,Batal
+,10001003,通用,Konfirmasi
+,10001004,通用,Tutup
+,10001005,通用,Menghubungkan
+,10004021,装备属性-生命上限,Max HP
+,10004022,装备属性-生命恢复,Pemulihan HP
+,10004023,装备属性-攻击点数,Poin Serangan
+,10004024,装备属性-攻击速度,Kecepatan Serangan
+,10004025,装备属性-防御点数,Poin Pertahanan
+,10004026,装备属性-暴击点数,Poin Kritis
+,10004027,装备属性-暴击伤害,Kerusakan Kritis
+,10004028,装备属性-命中点数,Poin Tertahan
+,10004029,装备属性-闪避点数,Poin Menghindar
+,10004030,装备属性-移动速度,Kecepatan Gerak
+,10022007,画板,Lumiterra
+,10027010,机器人,LV.{0}
+,10060001,UI tips EXP,"Cara untuk mendapatkan EXP termasuk membunuh monster, menyelesaikan tugas, dll.Anda dapat mendapatkan banyak EXP setiap kali menyelesaikan misi penjarahan."
+,10060002,UI tips token,Anda dapat membeli LNCO melalui bursa mata uang atau pertukaran kripto.Anda juga dapat mendapatkan LNCO dengan menjual item permainan di pasar.
+,10060003,UI tips Proficiency,"Meningkatkan kekuatan senjata, kekuatan peralatan, dan ramuan semua meningkatkan keahlian dalam keterampilan kerajinan yang sesuai.Semakin tinggi level kerajinan item, semakin tinggi keahlian yang meningkat."
+,10070001,通用提示文案-外观穿戴1,Anda harus memakai peralatan sebelum dapat memakai penampilan.
+,10070002,通用提示文案-外观穿戴2,Hanya penampilan dengan jenis yang sama dengan peralatan saat ini yang dapat dipakai.
+,10080013,大世界钱包地址复制提示,Alamat dompet telah disalin
+,10080014,大世界NFT物件拆除确认提示,Harap konfirmasi penghapusan
+,10080015,大世界NFT物件拆除不返还提示,Tidak akan mengembalikan Ditamin
+,10080016,聊天窗文本复制提示,Teks telah disalin
+,10080017,大世界放弃领地弹窗,"Apakah Anda yakin ingin meninggalkan tanah ini ({0}, {1})?"
+,10080018,大世界24小时预计奖励tips,Perkiraan pendapatan 24 jam: {0} Ditamin
+,10080019,大世界超出占地限制tips,Batas hadiah: {0} Tanah Terisi
+,10080020,聊天禁言提示,Anda telah dilarang dan tidak dapat mengobrol sampai larangan tersebut dicabut
+,10080021,创建地图达到上限提示,Batas maksimum pembuatan peta adalah {0}.
+,10080022,销毁道具提示,Apakah Anda ingin menghancurkan {0} * {1}? Tidak dapat dikembalikan setelah dihancurkan!
+,10080023,销毁道具成功提示,Berhasil dihancurkan!
+,10081001,实体地图操作界面,Peta sudah berjalan dan ini adalah portal terakhir dari peta yang sedang berjalan. Mengubah pengaturan portal saat ini akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.
+,10081002,实体地图操作界面,"Peta sedang berjalan di server cloud, dan tingkat layanan saat ini adalah:0Ditamin/jam."
+,10081003,实体地图操作界面,Peta sudah berjalan dan ini adalah portal terakhir dari peta yang sedang berjalan. Mengubah pengaturan portal saat ini akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.
+,10081004,实体地图操作界面,Peta sudah berjalan. Memperbarui data peta akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.
+,10081005,实体地图操作界面,Peta sudah berjalan. Menutup peta akan mengganggu pengalaman bermain bagi pemain di peta yang sedang berjalan. Harap konfirmasi.
+,10082001,功能提示,Fungsi konversi teks menjadi suara sedang tidak tersedia sementara waktu
+,10089001,打地鼠,Memukul Tikus
+,10089002,记数字和符号,Memori Karakter
+,10089003,打气球,Melempar Balon
+,10089004,裁剪艺术,Potongan yang Hilang
+,10089005,旋转剪影,Siluet Berputar
+,10089006,数方块,Perhitungan Blok
+,10089007,调整时钟,Penyesuaian Jam
+,10089008,鸟笼洗牌,Acak Sangkar Burung
+,10089009,敲积木求和,Retakan Blok
+,10089010,卡片记忆,Memori Kartu
+,10089011,逆转记忆,Memori Terbalik
+,10089012,PVP邀请链接复制提示,Tautan undangan telah disalin
+,10089013,PVP PK房间准备超时提示,Waktu habis ruang PK
+,10089014,PVP主动认输,Menyerah dalam permainan?
+,10089015,装备插槽升级提示,Slot peralatan naik level!
+,10089016,装备插槽等级不足提示,Level slot tidak mencukupi
+,10090001,打地鼠小游戏提示1,Klik pada gambar yang sama!
+,10090002,快闪记忆提示1,Ingat angka dan tanda!
+,10090003,快闪记忆提示2,{0} digit
+,10090004,顺序气球提示,Hancurkan balon dengan urutan angka dari kecil ke besar!
+,10090005,积木计算提示,Berapa jumlah blok?
+,10090006,旋转剪影提示,Mana yang sama dengan siluet?
+,10090007,剪裁艺术提示,Gambar mana yang paling cocok?
+,10090008,调整时钟quiz提示,Atur jam!
+,10090009,拾取非归属于自己的道具提醒,"Tidak dapat diambil, itu bukan milikmu"
+,10090010,回复%血量,Pulihkan {0}% hp
+,10090011,重复使用配方提醒,Anda sudah mempelajari resep ini.
+,10090012,鸟笼洗牌提示,Di mana ayam-ayamnya?
+,10090013,,Pukul batu bata yang tidak perlu!
+,10090014,逆向记忆提示,Ulangi secara terbalik!
+,10090015,获得BUFF提示,Dapatkan BUFF: {0}
+,10090016,卡牌记忆提示,Ingat kartu-kartu itu!
+,10090017,点击技能熟练度问号弹窗,Tingkatkan keahlian Anda dengan Kerajinan
+,10090018,奖励预览,Pratinjau Hadiah
+,10090019,恭喜获得,Selamat atas perolehan Anda:
+,10090020,放弃任务确认提示,Apakah Anda yakin ingin meninggalkan tugas ini?
+,10090021,放弃任务时间提示,Tidak dapat menyerah secara terus-menerus dalam waktu 5 menit.
+,20010001,断网标题,Terputus
+,20010002,断网提示,Jaringan terputus
+,20010003,被T提示,Akun Anda sudah masuk di tempat lain
+,20010004,被T提示,Deteksi kecurangan oleh sistem
+,20010005,被T提示,Server sedang offline
+,20010006,被T提示,Kesalahan sistem
+,20010007,被T提示,
+道具不足,20020001,家园相关,Kekurangan item
+,20020002,家园相关,Tidak ada apa-apa di dalam kotak penyimpanan!
+,20030001,保存技能配置,Berhasil disimpan
+超过上限提示,20040001,畜牧,{0} sprite[/color]Silakan pilih untuk meninggalkan Sprite ini atau menggantinya dengan Sprite lainkarena ruang tidak mencukupi
+超过上限提示标题,20040002,畜牧,HEWAN PENUH
+放弃按钮,20040003,畜牧,TINGGALKAN
+替换按钮,20040004,畜牧,GANTI
+,20040005,畜牧,Kesalahan dalam mendapatkan data rumah
+,20040006,畜牧,Waktu habis mendapatkan data rumah
+,20040007,畜牧,Data rumah tidak lengkap
+,20040008,畜牧,Salah satu mangkuk makanan menjadi kosong
+,20040009,畜牧,Salah satu mangkuk makanan telah diisi dengan makanan
+,20040010,畜牧,Ikatan Anda dengan hewan peliharaan Anda meningkat
+,20040011,畜牧,Tidak ada pemeliharaan untuk sementara waktu
+,20040012,畜牧,Kesuburan tanah tidak mencukupi
+,20040013,畜牧,Kebahagiaan hewan tidak mencukupi
+,20040014,畜牧,Kesuburan tanah saat ini tidak mencukupi
+,20050001,捕获取消操作,Batal Menangkap
+,20050002,捕获距离太远,Terlalu jauh
+,20050003,捕获绳子断开,Tali putus
+,20050004,捕获超时,Waktu menangkap habis
+,20050005,捕获过程道具不足,Kekurangan perlengkapan
+释放技能正在CD中,20060001,技能,Keterampilan dalam CD
+,20070001,登录,Sistem
+,20070002,登录,Masuk
+,20070003,登录,Gagal masuk
+,20070004,登录,"Gagal masuk, silakan coba lagi."
+,20070005,登录,Coba lagi
+,20070006,登录,Memuat scene
+,20070007,登录,Nama tidak boleh mengandung karakter ilegal
+,20070008,登录,Nama tidak boleh kosong
+,20070009,登录,Nama tidak boleh melebihi {0} karakter
+,20070010,登录,Memuat sumber daya {0}
+,20070011,登录,Menghubungkan dompet
+,20070012,登录,Menghubungkan permainan
+,20070013,登录,Gagal menghubungkan permainan
+,20070014,登录,"Gagal menghubungkan permainan, silakan coba lagi."
+,20070015,登录,Dalam antrian: {0}
+,20070016,登录,Silakan masukkan kode yang valid
+,20070017,登录,Gagal masuk ke scene tujuan.
+,20070018,,
+,20070019,,
+,20070020,,
+,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
+,20080002,设置,Berhenti sekarang
+,20080003,设置,Nanti
+,20090001,任务,Menerima hadiah peti kisah {0}  
+,20090002,任务,Menyelesaikan kisah {0}  
+,20090003,任务,Membuat item apa pun di halaman kerajinan  
+,20090004,任务,Membuat {0} di halaman kerajinan  
+,20090005,任务,Menggunakan {0}  
+,20090006,任务,Menyerahkan {0}  
+,20090007,任务,Membunuh {0}  
+,20090008,任务,"Melihat sekitar koordinat peta ({0}, {1})  "
+,20090009,任务,Meningkatkan karakter Anda  
+,20090010,任务,Mendapatkan {0}  
+,20090011,任务,Meningkatkan slot {0}  
+,20090012,任务,Meningkatkan node {0} menjadi level {1} 
+,20090013,任务,{0} Item Dipilih
+,20090014,任务,{0} Item Dipilih
+,20090015,,Tidak Diketahui
+,20090016,,Harian
+,20090017,,Tugas Harian
+,"20100000
+",专精,Umum 
+,20100001,专精,Bertani 
+,20100002,专精,Pertempuran 
+,20100003,专精,Mengumpulkan 
+,20100004,专精,Umum 
+,20100005,,Level Maksimum 
+,20100006,,Kekurangan EXP {0} 
+,20100007,nft 关键字,Kekurangan Token 
+,20110000,nft 关键字,Memulihkan HP 
+,20110001,nft 关键字,Menambah Buff 
+,20110002,nft 关键字,Belajar Resep 
+,20110003,nft 关键字,Pelindung Kepala 
+,20110004,nft 关键字,Pelindung Dada 
+,20110005,nft 关键字,Pelindung Kaki 
+,20110006,nft 关键字,Pelindung Kaki 
+,20110007,nft 关键字,Pelindung Tangan 
+,20110008,nft 关键字,Pedang 
+,20110009,nft 关键字,Busur 
+,20110010,nft 关键字,Pisau Belati 
+,20110011,nft 关键字,Tombak 
+,20110012,nft 关键字,Konsumsi 
+,20110013,nft 关键字,Bahan 
+,20110014,nft 关键字,Dapat Ditempatkan 
+,20110015,nft 关键字,Dapat Dikenakan
+,20110016,nft 关键字,Kotak Misteri
+,20110017,nft 关键字 在配置中的类型,Perlengkapan
+,20110018,nft 关键字 在配置中的类型,Benda yang Dapat Dikonsumsi
+,20110019,nft 关键字 在配置中的类型,Bahan
+,20110020,nft 关键字 在配置中的类型,Bangunan
+,20120005,登录,Mulai menghubungkan dompet
+,20120006,登录,Pembaruan menghubungkan dompet
+,20120007,登录,Selesai menghubungkan dompet
+,20120008,登录,Gagal menghubungkan dompet
+,20120009,登录,Dompet terhubung siap
+,20120010,登录,Mulai masuk ke dompet
+,20120011,登录,Buka halaman masuk dompet
+,20120012,登录,Berhasil masuk ke dompet
+,20120013,登录,Gagal masuk ke dompet
+,20120014,登录,Inisialisasi dompet
+,20120015,登录, Waktu habis untuk menginisialisasi dompet
+,20130000,组队,Tim {0}
+,20130001,组队,Permintaan terkirim
+,20130002,组队,"Anda telah bergabung dengan tim, harap keluar dari tim terlebih dahulu"
+,20130003,组队,Permintaan kedaluwarsa
+,20130004,组队,Format nama tidak valid
+,20130005,组队,Format deskripsi tidak valid
+,20130006,组队,Anda sudah berada di sini
+,20130007,,{0} mengundang Anda untuk bergabung dengan tim
+,20140001,网络,"Kesalahan jaringan, silakan coba lagi"
+弱网提示标题,20140002,网络,Jaringan
+,20150001,副本,Melarikan diri akan mengakibatkan hukuman kegagalan. Apakah Anda yakin ingin keluar?
+,20150002,副本,Ada kemungkinan bahwa {0} potong peralatan yang Anda kenakan akan rusak jika Anda gagal. Apakah Anda yakin ingin melanjutkan tantangan?
+场景服务启动失败,20150003,副本,"Gagal memulai instansi, silakan coba lagi nanti"
+切换场景超时,20150004,副本,"Waktu habis saat memasuki instansi, silakan coba lagi nanti"
+门票不足,20150005,副本,Tiket tidak mencukupi
+门票扣除失败,20150006,副本,Gagal mengurangi tiket
+副本未解锁,20150007,副本,Instansi belum terbuka
+已在当前场景,20150008,副本,Anda sudah berada di sini
+重复申请,20150009,副本,Aplikasi duplikat
+没有权限进入场景,20150010,副本,Anda tidak memiliki izin untuk masuk
+无效地图类型 参数错误(地图id or subtype信息错误),20150011,副本,"Gagal masuk ke peta, silakan hubungi administrator"
+地图不支持当前的挑战类型(单人多人挑战类型),20150012,副本,Tidak dapat masuk solo
+玩家在队伍中(单人挑战不能有队伍),20150013,副本,Silakan keluar dari tim saat ini
+玩家队伍不存在(非单人挑战类型必须有队伍),20150014,副本,Silakan bergabung dengan tim
+成员不在附近  （成员不在npc附近） （成员不在队长附近）已经离线(member entity 离开当前服务器),20150015,副本,Terlalu jauh
+地图需要XX级才能进入,20150016,副本,"Tingkat karakter tidak mencukupi, membutuhkan tingkat {0}"
+角色数据错误,20150017,副本,"Kesalahan data karakter, silakan hubungi administrator"
+NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrator"
+,20150019,副本,menolak untuk masuk ke dungeon
+,20160000,副本,Kekurangan tiket
+,20160001,副本,Harap keluar dari tim saat ini
+,20160002,副本,Membutuhkan tim untuk tantangan
+,20160003,副本,Hanya pemimpin tim yang dapat memulai tantangan tim
+,20160004,副本,Belum terbuka
+,20160005,副本,Kesalahan sistem
+,20160006,副本,Dunia terbuka
+,20160007,副本,Rumah milik 
+,20160008,副本,Dungeon
+,20160009,,Area tidak diketahui
+,20160010,,
+,20170000,合成,Masuk antrian
+,20170001,合成,Antrian kerajinan penuh.
+,20170002,合成,Resep kerajinan belum terbuka.
+,20170003,合成,Bahan tidak cukup.
+,20170004,合成,Token tidak cukup.
+,20170005,合成,Silakan pilih bahan yang cukup
+,20180001,设置,25 Bingkai
+,20180002,设置,30 Bingkai
+,20180003,设置,45 Bingkai
+,20180004,设置,60 Bingkai
+,20180005,设置,Tidak ada Batasan
+,20180006,设置,Sangat Rendah
+,20180007,设置,Rendah
+,20180008,设置,Sedang
+,20180009,设置,Tinggi
+,20190000,天赋树,Pre-node harus terlebih dahulu terbuka.
+,20190001,天赋树,Total level dari pohon bakat harus mencapai {0}.
+,20190002,天赋树,Node batang dari lapisan yang sama harus terlebih dahulu terbuka.
+,20190003,,
+,20200000,活动, klaim hadiah berhasil
+,20200001,活动, klaim hadiah gagal
+,20200002,活动, cetak tiket berhasil
+,20200003,活动, cetak tiket gagal
+,20200004,活动, jual tiket berhasil
+,20200005,活动, jual tiket gagal
+,90000000,重置地图提示文本,{0} mereset dan menjalankan ulang peta saat ini
+,90000001,重置领地提示文本,{0} mereset peta saat ini
+,90000002,重置领地提示文本,{0} mereset dan menjalankan ulang tanahnya
+,90000003,重置领地提示文本,{0} mereset tanahnya
+,90000004,停止地图所有代码块运行 ,{0} menghentikan semua blok kode saat ini

@@ -1,257 +1,264 @@
-id-int,module-string,value-string,describe-string
-10004021,装备属性-生命上限,Max HP,
-10004022,装备属性-生命恢复,Recuperación de HP,
-10004023,装备属性-攻击点数,Puntos de Ataque,
-10004024,装备属性-攻击速度,Velocidad de Ataque,
-10004025,装备属性-防御点数,Puntos de Defensa,
-10004026,装备属性-暴击点数,Punto de Crítico,
-10004027,装备属性-暴击伤害,Daño Crítico,
-10004028,装备属性-命中点数,Puntos de Golpe,
-10004029,装备属性-闪避点数,Puntos de Esquiva,
-10004030,装备属性-移动速度,Velocidad de Movimiento,
-10022007,画板,Lumiterra,
-10027010,机器人,LV.{0},
-10060001,UI tips EXP,"Las formas de obtener EXP incluyen matar monstruos, completar tareas, etc.Puedes obtener mucha EXP cada vez que completes una ronda de misiones de recompensa.",
-10060002,UI tips token,Puedes comprar LNCO a través de intercambios de criptomonedas o curvas.También puedes obtener LNCO vendiendo objetos del juego en el mercado.,
-10060003,UI tips Proficiency,"El poder de fabricación de armas, el poder de los equipos y las pociones aumentan la destreza de la habilidad de fabricación correspondiente.Cuanto mayor sea el nivel de fabricación del objeto, mayor será el aumento de destreza.",
-10070001,通用提示文案-外观穿戴1,Debes equipar el equipo antes de poder usar la apariencia.,
-10070002,通用提示文案-外观穿戴2,Solo se pueden usar apariencias del mismo tipo que el equipo actual.,
-10080013,大世界钱包地址复制提示,La dirección de la billetera se ha copiado,
-10080014,大世界NFT物件拆除确认提示,Confirma la eliminación,
-10080015,大世界NFT物件拆除不返还提示,No se devolverá Ditamin,
-10080016,聊天窗文本复制提示,Texto copiado,
-10080017,大世界放弃领地弹窗,"¿Estás seguro de abandonar este territorio ({0}, {1})?",
-10080018,大世界24小时预计奖励tips,Ganancias estimadas en 24 horas: {0} Ditamin,
-10080019,大世界超出占地限制tips,Límite de recompensa: {0} Territorio Ocupado,
-10080020,聊天禁言提示,Has sido bloqueado y no podrás chatear hasta que se levante el bloqueo.,
-10080021,创建地图达到上限提示,El límite máximo de creación de mapas es {0}.,
-10080022,销毁道具提示,¿Quieres destruir {0} * {1}? ¡No se puede restaurar después de ser destruido!,
-10080023,销毁道具成功提示,¡Destrucción exitosa!,
-10081001,实体地图操作界面,"El mapa ya está en ejecución y este es el último portal del mapa en ejecución. Cambiar la configuración del portal actual interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma.",
-10081002,实体地图操作界面,El mapa se está ejecutando en un servidor en la nube y la tasa de servicio actual es: 0Ditamin/hora.,
-10081003,实体地图操作界面,"El mapa ya está en ejecución y este es el último portal del mapa en ejecución. Cambiar la configuración del portal actual interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma.",
-10081004,实体地图操作界面,"El mapa ya está en ejecución. Actualizar los datos del mapa interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma.",
-10081005,实体地图操作界面,"El mapa ya está en ejecución. Cerrar el mapa interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma.",
-10082001,功能提示,La función de conversión de texto a sonido no está disponible temporalmente.,
-10089001,打地鼠,Golpeo de Topos,
-10089002,记数字和符号,Memoria de Personaje,
-10089003,打气球,Reventar Globos,
-10089004,裁剪艺术,Pieza Faltante,
-10089005,旋转剪影,Silueta Giratoria,
-10089006,数方块,Cálculo de Bloques,
-10089007,调整时钟,Ajuste de Reloj,
-10089008,鸟笼洗牌,Mezcla de Jaula de Pájaros,
-10089009,敲积木求和,Grieta de Bloques,
-10089010,卡片记忆,Memoria de Cartas,
-10089011,逆转记忆,Memoria Inversa,
-10089012,PVP邀请链接复制提示,Enlace de Invitación copiado,
-10089013,PVP PK房间准备超时提示,Tiempo de espera de la sala PK,
-10089014,PVP主动认输,¿Abandonar el juego?,
-10089015,装备插槽升级提示,¡Nivel de ranura de equipo mejorado!,
-10089016,装备插槽等级不足提示,Nivel de ranura insuficiente,
-10090001,打地鼠小游戏提示1,¡Haz clic en la misma imagen!,
-10090002,快闪记忆提示1,¡Recuerda números y signos!,
-10090003,快闪记忆提示2,{0} dígitos,
-10090004,顺序气球提示,¡Destruye globos por números de menor a mayor!,
-10090005,积木计算提示,¿Cuál es el número de bloques?,
-10090006,旋转剪影提示,¿Cuál es el mismo que la silueta?,
-10090007,剪裁艺术提示,¿Qué imagen encaja mejor?,
-10090008,调整时钟quiz提示,¡Ajusta el reloj!,
-10090009,拾取非归属于自己的道具提醒,"No se puede recoger, no te pertenece",
-10090010,回复%血量,Recupera {0}% de HP,
-10090011,重复使用配方提醒,Ya has aprendido esta receta.,
-10090012,鸟笼洗牌提示,¿Dónde están los pollos?,
-10090013,,¡Golpea los ladrillos innecesarios!,
-10090014,逆向记忆提示,¡Repite al revés!,
-10090015,获得BUFF提示,Obtén BUFF: {0},
-10090016,卡牌记忆提示,¡Recuerda las cartas!,
-10090017,点击技能熟练度问号弹窗,Mejora tu destreza con la fabricación,
-10090018,奖励预览,Vista previa de recompensa,
-10090019,恭喜获得,Felicidades por obtener:,
-10090020,放弃任务确认提示,¿Estás seguro de que quieres abandonar esta tarea?,
-10090021,放弃任务时间提示,No puedes abandonar continuamente en un plazo de 5 minutos.,
-90000000,重置地图提示文本,{0} ha restablecido y reiniciado el mapa actual,
-90000001,重置领地提示文本,{0} ha restablecido el mapa actual,
-90000002,重置领地提示文本,{0} ha restablecido y reiniciado su territorio,
-90000003,重置领地提示文本,{0} ha restablecido su territorio,
-90000004,停止地图所有代码块运行 ,{0} ha detenido la ejecución de todos los bloques de código actuales,
-20010001,断网标题,Desconectado,
-20010002,断网提示,La red está desconectada,
-20010003,被T提示,Tu cuenta ha iniciado sesión en otro lugar,
-20010004,被T提示,Se ha detectado trampa por el sistema,
-20010005,被T提示,El servidor está fuera de línea,
-20010006,,Error del sistema,
-20020001,家园相关,Falta de objeto,道具不足
-5001,家园错误码,El recurso no existe,资源不存在
-5002,家园错误码,Operación no compatible,操作不支持
-5003,家园错误码,Anomalía en la deducción del objeto de inicio,家园道具扣除异常
-20030001,保存技能配置,Guardado exitoso,
-20040001,畜牧,{0} sprites[/color]Elige abandonar este Sprite o reemplazarlo por otro debido a falta de espacio,超过上限提示
-20040002,畜牧,LAS MASCOTAS ESTÁN LLENAS,超过上限提示标题
-20040003,畜牧,ABANDONAR,放弃按钮
-20040004,畜牧,REEMPLAZAR,替换按钮
-6001,畜牧错误码,Excepción en la solicitud de captura de animales,捕捉动物请求异常
-6002,畜牧错误码,La captura de animales no es válida,捕捉动物无效
-20050001,捕获取消操作,Cancelar captura,
-20050002,捕获距离太远,Está demasiado lejos,
-20050003,捕获绳子断开,La cuerda está rota,
-20050004,捕获超时,Tiempo de espera de captura agotado,
-20050005,捕获过程道具不足,Falta de accesorios,
-20060001,技能,Habilidad en enfriamiento,释放技能正在CD中
-20040005,畜牧,Error al obtener datos de inicio,
-20040006,畜牧,Tiempo de espera para obtener datos de inicio,
-20040007,畜牧,Datos de inicio incompletos,
-20040008,畜牧,Uno de los platos de comida se ha vaciado,
-20040011,畜牧,No se puede acariciar por el momento,
-20040009,畜牧,Uno de los platos de comida se ha llenado de comida,
-20040010,畜牧,Tu vínculo con tu mascota aumenta,
-20040012,畜牧,La fertilidad del suelo es insuficiente,
-20040013,畜牧,La felicidad del animal es insuficiente,
-20040014,畜牧,La fertilidad actual del suelo es insuficiente,
-20070001,登录,Sistema,
-20070002,登录,Iniciando sesión,
-20070003,登录,Error de inicio de sesión,
-20070004,登录,"Error de inicio de sesión, por favor inténtalo de nuevo.",
-20070005,登录,Reintentar,
-20070006,登录,Cargando escena,
-20070007,登录,El nombre no puede contener caracteres ilegales,
-20070008,登录,El nombre no puede estar vacío,
-20070009,登录,El nombre no puede exceder {0} caracteres,
-20070010,登录,Cargando recursos {0},
-20070011,登录,Conectando billetera,
-20070012,登录,Conectando juego,
-20070013,登录,Error al conectar el juego,
-20070014,登录,"Error al conectar el juego, por favor inténtalo de nuevo.",
-20070015,登录,En cola: {0},
-20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación.",
-20080002,设置,Renuncia ahora,
-20080003,设置,Más tarde,
-20090001,任务,Recibir recompensas del cofre de la misión {0},
-20090002,任务,Completar la misión {0},
-20090003,任务,Crear cualquier objeto en la página de creación,
-20090004,任务,Crear {0} en la página de creación,
-20090005,任务,Usar {0},
-20090006,任务,Entregar {0},
-20090007,任务,Matar {0},
-20090008,任务,"Buscar en las coordenadas del mapa ({0}, {1})",
-20090009,任务,Mejorar tu personaje,
-20090010,任务,Obtener {0},
-20090011,任务,Mejorar la ranura {0},
-20090012,任务,Mejorar el nodo {0} al nivel {1},
-20100001,专精,Agricultura,
-20100002,专精,Batalla,
-20100003,专精,Recolectar,
-20100004,专精,General,
-20100005,,El nivel es máximo,
-20100006,,Falta de EXP {0},
-20100007,nft 关键字,Falta de fichas,
-"20100000
-",专精,General,
-20110000,nft 关键字,Restaurar HP,
-20110001,nft 关键字,Agregar buff,
-20110002,nft 关键字,Aprender receta,
-20110003,nft 关键字,Armadura de cabeza,
-20110004,nft 关键字,Armadura de pecho,
-20110005,nft 关键字,Armadura de piernas,
-20110006,nft 关键字,Armadura de pies,
-20110007,nft 关键字,Armadura de manos,
-20110008,nft 关键字,Espada,
-20110009,nft 关键字,Arco,
-20110010,nft 关键字,Daga,
-20110011,nft 关键字,Lanza,
-20110012,nft 关键字,Consumible,
-20110013,nft 关键字,Material,
-20110014,nft 关键字,Colocable,
-20110015,nft 关键字,Portátil,
-20110016,nft 关键字,Caja misteriosa,
-20110017,nft 关键字 在配置中的类型,Equipo,
-20110018,nft 关键字 在配置中的类型,Consumible,
-20110019,nft 关键字 在配置中的类型,Material,
-20110020,nft 关键字 在配置中的类型,Edificio,
-20090013,任务,{0} Artículos seleccionados,
-20090014,任务,{0} Artículo seleccionado,
-20090015,,Desconocido,
-20090016,,Diario,
-20090017,,Recompensa,
-20170000,合成,Entrar en la cola,
-20170001,合成,La cola de fabricación está llena.,
-20170002,合成,La receta de fabricación no está desbloqueada.,
-20170003,合成,No hay suficiente material.,
-20170004,合成,No hay suficientes fichas.,
-20120005,登录,Inicio de conexión de billetera,
-20120006,登录,Actualización de conexión de billetera,
-20120007,登录,Finalización de conexión de billetera,
-20120008,登录,Error en la conexión de billetera,
-20120009,登录,Conexión de billetera lista,
-20120010,登录,Iniciar sesión en la billetera,
-20120011,登录,Abrir página de inicio de sesión de billetera,
-20120012,登录,Inicio de sesión en la billetera exitoso,
-20120013,登录,Error en el inicio de sesión de la billetera,
-20130000,组队, Equipo de {0},
-20140001,网络," Excepción de red, por favor inténtelo de nuevo",
-20140002,网络, Red,弱网提示标题
-10001001,通用, OK,
-10001002,通用, Cancelar,
-10001003,通用, Confirmar,
-10001004,通用, Cerrar,
-20130001,组队,Solicitud enviada,
-20130002,组队,"Te has unido al equipo, por favor sal del equipo primero",
-20130003,组队,Solicitud expirada,
-20150001,副本,Escapar conllevará penalizaciones por fracaso. ¿Estás seguro de que quieres abandonar?,
-20150002,副本,Existe la posibilidad de que {0} piezas del equipo que llevas puesto se dañen si fallas. ¿Estás seguro de que quieres continuar el desafío?,
-20150003,副本,"No se pudo iniciar la instancia, por favor inténtalo de nuevo más tarde.",场景服务启动失败
-20150004,副本,"Tiempo de espera al ingresar a la instancia, por favor inténtalo de nuevo más tarde.",切换场景超时
-20150005,副本,Boletos insuficientes,门票不足
-20150006,副本,No se pudieron deducir los boletos,门票扣除失败
-20150007,副本,Instancia aún no desbloqueada,副本未解锁
-20150008,副本,Ya estás aquí.,已在当前场景
-20150009,副本,Solicitud duplicada.,重复申请
-20150010,副本,No tienes permiso para ingresar.,没有权限进入场景
-20150011,副本,"No se pudo ingresar al mapa, por favor contacta al administrador.",无效地图类型 参数错误(地图id or subtype信息错误)
-20150012,副本,No se puede ingresar en solitario.,地图不支持当前的挑战类型(单人多人挑战类型)
-20150013,副本,"Por favor, sal del equipo actual.",玩家在队伍中(单人挑战不能有队伍)
-20150014,副本,"Por favor, únete a un equipo.",玩家队伍不存在(非单人挑战类型必须有队伍)
-20150015,副本,Demasiado lejos,成员不在附近  （成员不在npc附近） （成员不在队长附近）已经离线(member entity 离开当前服务器)
-20150016,副本,"Nivel de personaje insuficiente, se requiere nivel {0}",地图需要XX级才能进入
-20150017,副本,"Error en los datos del personaje, por favor contacta al administrador.",角色数据错误
-20150018,副本,"NPC no encontrado, por favor contacta al administrador.",NPC 不存在
-20130004,组队,Formato de nombre inválido,
-20130005,组队,Formato de descripción inválido,
-20160000,副本,Escasez de boletos,
-20160001,副本,"Por favor, sal del equipo actual",
-20160002,副本,Necesitas un equipo para desafiar,
-20130006,组队,Ya estás aquí,
-20160003,副本,Solo el líder del equipo puede iniciar un desafío de equipo.,
-20160004,副本,Aún no desbloqueado.,
-20160005,副本,Error del sistema.,
-20160006,副本,Mundo abierto.,
-20160008,副本,Mazmorra.,
-20160007,副本,Hogar de {0}.,
-20160009,,Área desconocida.,
-20130007,,{0} te invita a unirte al equipo,
-20070016,登录,Por favor ingrese un código válido,
-10001005,通用,Conexión,
-20180001,设置,25 Marco,
-20180002,设置,30 Marco,
-20180003,设置,45 Marco,
-20180004,设置,60 Marco,
-20180005,设置,Sin límite,
-20170005,合成,Por favor seleccione suficientes materiales,
-20150019,副本,se niega a ingresar a la mazmorra,
-20120014,登录,Inicializar billetera,
-20120015,登录, Waktu habis untuk menginisialisasi dompet,
-20180006,设置,Sangat Rendah,
-20180007,设置,Rendah,
-20180008,设置,Sedang,
-20180009,设置,Tinggi,
-20190000,天赋树,El nodo previo debe desbloquearse primero.,
-20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.,
-20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.,
-20070017,登录,Error al iniciar sesión en la escena objetivo.,
-20020002,家园相关,¡No había nada en la caja de almacenamiento!,
-20200000,活动, reclamar premio exitoso,
-20200001,活动, reclamar premio fallido,
-20200002,活动, acuñar boleto exitoso,
-20200003,活动, acuñar boleto fallido,
-20200004,活动, vender boleto exitoso,
-20200005,活动, vender boleto fallido,
+describe-string,id-int,module-string,value-string
+,,,
+资源不存在,5001,家园错误码,El recurso no existe
+操作不支持,5002,家园错误码,Operación no compatible
+家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
+捕捉动物请求异常,6001,畜牧错误码,Excepción en la solicitud de captura de animales
+捕捉动物无效,6002,畜牧错误码,La captura de animales no es válida
+,10001001,通用, OK
+,10001002,通用, Cancelar
+,10001003,通用, Confirmar
+,10001004,通用, Cerrar
+,10001005,通用,Conexión
+,10004021,装备属性-生命上限,Max HP
+,10004022,装备属性-生命恢复,Recuperación de HP
+,10004023,装备属性-攻击点数,Puntos de Ataque
+,10004024,装备属性-攻击速度,Velocidad de Ataque
+,10004025,装备属性-防御点数,Puntos de Defensa
+,10004026,装备属性-暴击点数,Punto de Crítico
+,10004027,装备属性-暴击伤害,Daño Crítico
+,10004028,装备属性-命中点数,Puntos de Golpe
+,10004029,装备属性-闪避点数,Puntos de Esquiva
+,10004030,装备属性-移动速度,Velocidad de Movimiento
+,10022007,画板,Lumiterra
+,10027010,机器人,LV.{0}
+,10060001,UI tips EXP,"Las formas de obtener EXP incluyen matar monstruos, completar tareas, etc.Puedes obtener mucha EXP cada vez que completes una ronda de misiones de recompensa."
+,10060002,UI tips token,Puedes comprar LNCO a través de intercambios de criptomonedas o curvas.También puedes obtener LNCO vendiendo objetos del juego en el mercado.
+,10060003,UI tips Proficiency,"El poder de fabricación de armas, el poder de los equipos y las pociones aumentan la destreza de la habilidad de fabricación correspondiente.Cuanto mayor sea el nivel de fabricación del objeto, mayor será el aumento de destreza."
+,10070001,通用提示文案-外观穿戴1,Debes equipar el equipo antes de poder usar la apariencia.
+,10070002,通用提示文案-外观穿戴2,Solo se pueden usar apariencias del mismo tipo que el equipo actual.
+,10080013,大世界钱包地址复制提示,La dirección de la billetera se ha copiado
+,10080014,大世界NFT物件拆除确认提示,Confirma la eliminación
+,10080015,大世界NFT物件拆除不返还提示,No se devolverá Ditamin
+,10080016,聊天窗文本复制提示,Texto copiado
+,10080017,大世界放弃领地弹窗,"¿Estás seguro de abandonar este territorio ({0}, {1})?"
+,10080018,大世界24小时预计奖励tips,Ganancias estimadas en 24 horas: {0} Ditamin
+,10080019,大世界超出占地限制tips,Límite de recompensa: {0} Territorio Ocupado
+,10080020,聊天禁言提示,Has sido bloqueado y no podrás chatear hasta que se levante el bloqueo.
+,10080021,创建地图达到上限提示,El límite máximo de creación de mapas es {0}.
+,10080022,销毁道具提示,¿Quieres destruir {0} * {1}? ¡No se puede restaurar después de ser destruido!
+,10080023,销毁道具成功提示,¡Destrucción exitosa!
+,10081001,实体地图操作界面,"El mapa ya está en ejecución y este es el último portal del mapa en ejecución. Cambiar la configuración del portal actual interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma."
+,10081002,实体地图操作界面,El mapa se está ejecutando en un servidor en la nube y la tasa de servicio actual es: 0Ditamin/hora.
+,10081003,实体地图操作界面,"El mapa ya está en ejecución y este es el último portal del mapa en ejecución. Cambiar la configuración del portal actual interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma."
+,10081004,实体地图操作界面,"El mapa ya está en ejecución. Actualizar los datos del mapa interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma."
+,10081005,实体地图操作界面,"El mapa ya está en ejecución. Cerrar el mapa interrumpirá la experiencia de juego para los jugadores en los mapas en vivo. Por favor, confirma."
+,10082001,功能提示,La función de conversión de texto a sonido no está disponible temporalmente.
+,10089001,打地鼠,Golpeo de Topos
+,10089002,记数字和符号,Memoria de Personaje
+,10089003,打气球,Reventar Globos
+,10089004,裁剪艺术,Pieza Faltante
+,10089005,旋转剪影,Silueta Giratoria
+,10089006,数方块,Cálculo de Bloques
+,10089007,调整时钟,Ajuste de Reloj
+,10089008,鸟笼洗牌,Mezcla de Jaula de Pájaros
+,10089009,敲积木求和,Grieta de Bloques
+,10089010,卡片记忆,Memoria de Cartas
+,10089011,逆转记忆,Memoria Inversa
+,10089012,PVP邀请链接复制提示,Enlace de Invitación copiado
+,10089013,PVP PK房间准备超时提示,Tiempo de espera de la sala PK
+,10089014,PVP主动认输,¿Abandonar el juego?
+,10089015,装备插槽升级提示,¡Nivel de ranura de equipo mejorado!
+,10089016,装备插槽等级不足提示,Nivel de ranura insuficiente
+,10090001,打地鼠小游戏提示1,¡Haz clic en la misma imagen!
+,10090002,快闪记忆提示1,¡Recuerda números y signos!
+,10090003,快闪记忆提示2,{0} dígitos
+,10090004,顺序气球提示,¡Destruye globos por números de menor a mayor!
+,10090005,积木计算提示,¿Cuál es el número de bloques?
+,10090006,旋转剪影提示,¿Cuál es el mismo que la silueta?
+,10090007,剪裁艺术提示,¿Qué imagen encaja mejor?
+,10090008,调整时钟quiz提示,¡Ajusta el reloj!
+,10090009,拾取非归属于自己的道具提醒,"No se puede recoger, no te pertenece"
+,10090010,回复%血量,Recupera {0}% de HP
+,10090011,重复使用配方提醒,Ya has aprendido esta receta.
+,10090012,鸟笼洗牌提示,¿Dónde están los pollos?
+,10090013,,¡Golpea los ladrillos innecesarios!
+,10090014,逆向记忆提示,¡Repite al revés!
+,10090015,获得BUFF提示,Obtén BUFF: {0}
+,10090016,卡牌记忆提示,¡Recuerda las cartas!
+,10090017,点击技能熟练度问号弹窗,Mejora tu destreza con la fabricación
+,10090018,奖励预览,Vista previa de recompensa
+,10090019,恭喜获得,Felicidades por obtener:
+,10090020,放弃任务确认提示,¿Estás seguro de que quieres abandonar esta tarea?
+,10090021,放弃任务时间提示,No puedes abandonar continuamente en un plazo de 5 minutos.
+,20010001,断网标题,Desconectado
+,20010002,断网提示,La red está desconectada
+,20010003,被T提示,Tu cuenta ha iniciado sesión en otro lugar
+,20010004,被T提示,Se ha detectado trampa por el sistema
+,20010005,被T提示,El servidor está fuera de línea
+,20010006,被T提示,Error del sistema
+,20010007,被T提示,
+道具不足,20020001,家园相关,Falta de objeto
+,20020002,家园相关,¡No había nada en la caja de almacenamiento!
+,20030001,保存技能配置,Guardado exitoso
+超过上限提示,20040001,畜牧,{0} sprites[/color]Elige abandonar este Sprite o reemplazarlo por otro debido a falta de espacio
+超过上限提示标题,20040002,畜牧,LAS MASCOTAS ESTÁN LLENAS
+放弃按钮,20040003,畜牧,ABANDONAR
+替换按钮,20040004,畜牧,REEMPLAZAR
+,20040005,畜牧,Error al obtener datos de inicio
+,20040006,畜牧,Tiempo de espera para obtener datos de inicio
+,20040007,畜牧,Datos de inicio incompletos
+,20040008,畜牧,Uno de los platos de comida se ha vaciado
+,20040009,畜牧,Uno de los platos de comida se ha llenado de comida
+,20040010,畜牧,Tu vínculo con tu mascota aumenta
+,20040011,畜牧,No se puede acariciar por el momento
+,20040012,畜牧,La fertilidad del suelo es insuficiente
+,20040013,畜牧,La felicidad del animal es insuficiente
+,20040014,畜牧,La fertilidad actual del suelo es insuficiente
+,20050001,捕获取消操作,Cancelar captura
+,20050002,捕获距离太远,Está demasiado lejos
+,20050003,捕获绳子断开,La cuerda está rota
+,20050004,捕获超时,Tiempo de espera de captura agotado
+,20050005,捕获过程道具不足,Falta de accesorios
+释放技能正在CD中,20060001,技能,Habilidad en enfriamiento
+,20070001,登录,Sistema
+,20070002,登录,Iniciando sesión
+,20070003,登录,Error de inicio de sesión
+,20070004,登录,"Error de inicio de sesión, por favor inténtalo de nuevo."
+,20070005,登录,Reintentar
+,20070006,登录,Cargando escena
+,20070007,登录,El nombre no puede contener caracteres ilegales
+,20070008,登录,El nombre no puede estar vacío
+,20070009,登录,El nombre no puede exceder {0} caracteres
+,20070010,登录,Cargando recursos {0}
+,20070011,登录,Conectando billetera
+,20070012,登录,Conectando juego
+,20070013,登录,Error al conectar el juego
+,20070014,登录,"Error al conectar el juego, por favor inténtalo de nuevo."
+,20070015,登录,En cola: {0}
+,20070016,登录,Por favor ingrese un código válido
+,20070017,登录,Error al iniciar sesión en la escena objetivo.
+,20070018,,
+,20070019,,
+,20070020,,
+,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
+,20080002,设置,Renuncia ahora
+,20080003,设置,Más tarde
+,20090001,任务,Recibir recompensas del cofre de la misión {0}
+,20090002,任务,Completar la misión {0}
+,20090003,任务,Crear cualquier objeto en la página de creación
+,20090004,任务,Crear {0} en la página de creación
+,20090005,任务,Usar {0}
+,20090006,任务,Entregar {0}
+,20090007,任务,Matar {0}
+,20090008,任务,"Buscar en las coordenadas del mapa ({0}, {1})"
+,20090009,任务,Mejorar tu personaje
+,20090010,任务,Obtener {0}
+,20090011,任务,Mejorar la ranura {0}
+,20090012,任务,Mejorar el nodo {0} al nivel {1}
+,20090013,任务,{0} Artículos seleccionados
+,20090014,任务,{0} Artículo seleccionado
+,20090015,,Desconocido
+,20090016,,Diario
+,20090017,,Recompensa
+,"20100000
+",专精,General
+,20100001,专精,Agricultura
+,20100002,专精,Batalla
+,20100003,专精,Recolectar
+,20100004,专精,General
+,20100005,,El nivel es máximo
+,20100006,,Falta de EXP {0}
+,20100007,nft 关键字,Falta de fichas
+,20110000,nft 关键字,Restaurar HP
+,20110001,nft 关键字,Agregar buff
+,20110002,nft 关键字,Aprender receta
+,20110003,nft 关键字,Armadura de cabeza
+,20110004,nft 关键字,Armadura de pecho
+,20110005,nft 关键字,Armadura de piernas
+,20110006,nft 关键字,Armadura de pies
+,20110007,nft 关键字,Armadura de manos
+,20110008,nft 关键字,Espada
+,20110009,nft 关键字,Arco
+,20110010,nft 关键字,Daga
+,20110011,nft 关键字,Lanza
+,20110012,nft 关键字,Consumible
+,20110013,nft 关键字,Material
+,20110014,nft 关键字,Colocable
+,20110015,nft 关键字,Portátil
+,20110016,nft 关键字,Caja misteriosa
+,20110017,nft 关键字 在配置中的类型,Equipo
+,20110018,nft 关键字 在配置中的类型,Consumible
+,20110019,nft 关键字 在配置中的类型,Material
+,20110020,nft 关键字 在配置中的类型,Edificio
+,20120005,登录,Inicio de conexión de billetera
+,20120006,登录,Actualización de conexión de billetera
+,20120007,登录,Finalización de conexión de billetera
+,20120008,登录,Error en la conexión de billetera
+,20120009,登录,Conexión de billetera lista
+,20120010,登录,Iniciar sesión en la billetera
+,20120011,登录,Abrir página de inicio de sesión de billetera
+,20120012,登录,Inicio de sesión en la billetera exitoso
+,20120013,登录,Error en el inicio de sesión de la billetera
+,20120014,登录,Inicializar billetera
+,20120015,登录, Waktu habis untuk menginisialisasi dompet
+,20130000,组队, Equipo de {0}
+,20130001,组队,Solicitud enviada
+,20130002,组队,"Te has unido al equipo, por favor sal del equipo primero"
+,20130003,组队,Solicitud expirada
+,20130004,组队,Formato de nombre inválido
+,20130005,组队,Formato de descripción inválido
+,20130006,组队,Ya estás aquí
+,20130007,,{0} te invita a unirte al equipo
+,20140001,网络," Excepción de red, por favor inténtelo de nuevo"
+弱网提示标题,20140002,网络, Red
+,20150001,副本,Escapar conllevará penalizaciones por fracaso. ¿Estás seguro de que quieres abandonar?
+,20150002,副本,Existe la posibilidad de que {0} piezas del equipo que llevas puesto se dañen si fallas. ¿Estás seguro de que quieres continuar el desafío?
+场景服务启动失败,20150003,副本,"No se pudo iniciar la instancia, por favor inténtalo de nuevo más tarde."
+切换场景超时,20150004,副本,"Tiempo de espera al ingresar a la instancia, por favor inténtalo de nuevo más tarde."
+门票不足,20150005,副本,Boletos insuficientes
+门票扣除失败,20150006,副本,No se pudieron deducir los boletos
+副本未解锁,20150007,副本,Instancia aún no desbloqueada
+已在当前场景,20150008,副本,Ya estás aquí.
+重复申请,20150009,副本,Solicitud duplicada.
+没有权限进入场景,20150010,副本,No tienes permiso para ingresar.
+无效地图类型 参数错误(地图id or subtype信息错误),20150011,副本,"No se pudo ingresar al mapa, por favor contacta al administrador."
+地图不支持当前的挑战类型(单人多人挑战类型),20150012,副本,No se puede ingresar en solitario.
+玩家在队伍中(单人挑战不能有队伍),20150013,副本,"Por favor, sal del equipo actual."
+玩家队伍不存在(非单人挑战类型必须有队伍),20150014,副本,"Por favor, únete a un equipo."
+成员不在附近  （成员不在npc附近） （成员不在队长附近）已经离线(member entity 离开当前服务器),20150015,副本,Demasiado lejos
+地图需要XX级才能进入,20150016,副本,"Nivel de personaje insuficiente, se requiere nivel {0}"
+角色数据错误,20150017,副本,"Error en los datos del personaje, por favor contacta al administrador."
+NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administrador."
+,20150019,副本,se niega a ingresar a la mazmorra
+,20160000,副本,Escasez de boletos
+,20160001,副本,"Por favor, sal del equipo actual"
+,20160002,副本,Necesitas un equipo para desafiar
+,20160003,副本,Solo el líder del equipo puede iniciar un desafío de equipo.
+,20160004,副本,Aún no desbloqueado.
+,20160005,副本,Error del sistema.
+,20160006,副本,Mundo abierto.
+,20160007,副本,Hogar de {0}.
+,20160008,副本,Mazmorra.
+,20160009,,Área desconocida.
+,20160010,,
+,20170000,合成,Entrar en la cola
+,20170001,合成,La cola de fabricación está llena.
+,20170002,合成,La receta de fabricación no está desbloqueada.
+,20170003,合成,No hay suficiente material.
+,20170004,合成,No hay suficientes fichas.
+,20170005,合成,Por favor seleccione suficientes materiales
+,20180001,设置,25 Marco
+,20180002,设置,30 Marco
+,20180003,设置,45 Marco
+,20180004,设置,60 Marco
+,20180005,设置,Sin límite
+,20180006,设置,Sangat Rendah
+,20180007,设置,Rendah
+,20180008,设置,Sedang
+,20180009,设置,Tinggi
+,20190000,天赋树,El nodo previo debe desbloquearse primero.
+,20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.
+,20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.
+,20190003,,
+,20200000,活动, reclamar premio exitoso
+,20200001,活动, reclamar premio fallido
+,20200002,活动, acuñar boleto exitoso
+,20200003,活动, acuñar boleto fallido
+,20200004,活动, vender boleto exitoso
+,20200005,活动, vender boleto fallido
+,90000000,重置地图提示文本,{0} ha restablecido y reiniciado el mapa actual
+,90000001,重置领地提示文本,{0} ha restablecido el mapa actual
+,90000002,重置领地提示文本,{0} ha restablecido y reiniciado su territorio
+,90000003,重置领地提示文本,{0} ha restablecido su territorio
+,90000004,停止地图所有代码块运行 ,{0} ha detenido la ejecución de todos los bloques de código actuales

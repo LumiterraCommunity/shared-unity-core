@@ -24,6 +24,15 @@ public class DRLanguage : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取describe-string。*/
+    /// </summary>
+    public string Describe
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取module-string。*/
     /// </summary>
     public string Module
@@ -41,24 +50,15 @@ public class DRLanguage : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取describe-string。*/
-    /// </summary>
-    public string Describe
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        Describe = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Module = DataTableParseUtil.ParseString(columnStrings[index++]);
         Value = DataTableParseUtil.ParseString(columnStrings[index++]);
-        Describe = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
     }
@@ -70,10 +70,10 @@ public class DRLanguage : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                Describe = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Module = binaryReader.ReadString();
                 Value = binaryReader.ReadString();
-                Describe = binaryReader.ReadString();
             }
         }
 
