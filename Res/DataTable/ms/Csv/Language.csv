@@ -9,6 +9,7 @@ describe-string,id-int,module-string,value-string
 ,10001003,通用,Sahkan 
 ,10001004,通用,Tutup
 ,10001005,通用,Sambungan
+,10001006,通用,"Perkhidmatan sibuk, sila tunggu dengan sabar"
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -86,7 +87,7 @@ describe-string,id-int,module-string,value-string
 ,20010004,被T提示,Penipuan dikesan oleh sistem
 ,20010005,被T提示,Pelayan dalam talian
 ,20010006,被T提示,Ralat sistem
-,20010007,被T提示,
+,20010007,被T提示, Automatik offline disebabkan tidak aktif
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tiada apa-apa dalam kotak simpanan!
 ,20030001,保存技能配置,Berjaya disimpan
@@ -127,9 +128,9 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,Dalam antrian: {0}
 ,20070016,登录,Sila masukkan kod yang sah
 ,20070017,登录,Gagal log masuk ke senario sasaran.
-,20070018,,
-,20070019,,
-,20070020,,
+,20070018,, Kod pengaktifan (pilihan)
+,20070019,, LINE #{0}
+,20070020,, Sila pilih pelayan terlebih dahulu
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -230,7 +231,7 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20160007,副本,Rumah milik 
 ,20160008,副本,Dungeon
 ,20160009,,Kawasan tidak diketahui
-,20160010,,
+,20160010,,Hanya ketua pasukan boleh beroperasi.
 ,20170000,合成,Masuk dalam barisan antrian
 ,20170001,合成, Antrian kraf penuh.
 ,20170002,合成, Resipi kraf tidak terbuka.
@@ -249,7 +250,7 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20190000,天赋树,Nod pra-perlu dibuka terlebih dahulu.
 ,20190001,天赋树,Jumlah tahap pohon bakat perlu mencapai {0}.
 ,20190002,天赋树,Nod batang pada lapisan yang sama perlu dibuka terlebih dahulu.
-,20190003,,
+,20190003,,Tahap pokok bakat tidak mencukupi
 ,20200000,活动, tuntutan hadiah berjaya
 ,20200001,活动, tuntutan hadiah gagal
 ,20200002,活动, mencetak tiket berjaya

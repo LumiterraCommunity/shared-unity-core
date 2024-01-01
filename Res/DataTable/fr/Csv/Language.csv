@@ -9,6 +9,7 @@ describe-string,id-int,module-string,value-string
 ,10001003,通用,Confirmer 
 ,10001004,通用,Fermer
 ,10001005,通用,Connexion
+,10001006,通用,"Le service est occupé, veuillez patienter"
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -86,7 +87,7 @@ describe-string,id-int,module-string,value-string
 ,20010004,被T提示,Triche détectée par le système
 ,20010005,被T提示,Le serveur est hors ligne
 ,20010006,被T提示,Erreur système
-,20010007,被T提示,
+,20010007,被T提示,Déconnexion automatique en raison d'une inactivité 
 道具不足,20020001,家园相关,Manque d'objet
 ,20020002,家园相关,Il n'y avait rien dans la boîte de stockage !
 ,20030001,保存技能配置,Enregistré avec succès
@@ -127,9 +128,9 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,En attente : {0}
 ,20070016,登录,Veuillez entrer un code valide
 ,20070017,登录,Échec de la connexion à la scène cible.
-,20070018,,
-,20070019,,
-,20070020,,
+,20070018,,Code d'activation (facultatif) 
+,20070019,,LIGNE #{0} 
+,20070020,,Veuillez d'abord sélectionner le serveur 
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -230,7 +231,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20160007,副本,Maison de 
 ,20160008,副本,Donjon
 ,20160009,,Zone inconnue
-,20160010,,
+,20160010,,Seul le chef d'équipe peut agir.
 ,20170000,合成,Entrer dans la file d'attente
 ,20170001,合成,La file d'artisanat est pleine.
 ,20170002,合成,La recette d'artisanat n'est pas déverrouillée.
@@ -249,7 +250,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20190000,天赋树,Le pré-nœud doit d'abord être déverrouillé.
 ,20190001,天赋树,Le niveau total de l'arbre de talent doit atteindre {0}.
 ,20190002,天赋树,Le nœud principal de la même couche doit d'abord être déverrouillé.
-,20190003,,
+,20190003,,Niveau d'arbre de talents insuffisant
 ,20200000,活动,Réclamation du prix réussie
 ,20200001,活动,Échec de la réclamation du prix
 ,20200002,活动,Création du ticket réussie

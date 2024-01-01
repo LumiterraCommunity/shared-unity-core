@@ -9,6 +9,7 @@ describe-string,id-int,module-string,value-string
 ,10001003,通用, Xác nhận
 ,10001004,通用, Đóng
 ,10001005,通用,Kết nối
+,10001006,通用,"Dịch vụ đang bận, vui lòng chờ một chút"
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -86,7 +87,7 @@ describe-string,id-int,module-string,value-string
 ,20010004,被T提示,Phát hiện gian lận bởi hệ thống
 ,20010005,被T提示,Máy chủ đã tắt
 ,20010006,被T提示,Lỗi hệ thống
-,20010007,被T提示,
+,20010007,被T提示,Tự động ngoại tuyến do không hoạt động
 道具不足,20020001,家园相关,Thiếu vật phẩm
 ,20020002,家园相关,Không có gì trong hộp lưu trữ!
 ,20030001,保存技能配置,Lưu thành công
@@ -127,9 +128,9 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,Trong hàng đợi: {0}
 ,20070016,登录,Vui lòng nhập mã hợp lệ
 ,20070017,登录,Đăng nhập vào cảnh mục tiêu thất bại.
-,20070018,,
-,20070019,,
-,20070020,,
+,20070018,,Mã kích hoạt (tùy chọn)
+,20070019,,LINE #{0}
+,20070020,,Vui lòng chọn máy chủ trước
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó
@@ -230,7 +231,7 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20160007,副本,Nhà của
 ,20160008,副本,Hang động
 ,20160009,,Khu vực không xác định
-,20160010,,
+,20160010,,Chỉ người đứng đầu nhóm mới có thể thao tác.
 ,20170000,合成,Vào hàng chờ
 ,20170001,合成,Hàng chế tạo đã đầy.
 ,20170002,合成,Công thức chế tạo chưa được mở khóa.
@@ -249,7 +250,7 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20190000,天赋树,Phải mở khóa nút trước đó.
 ,20190001,天赋树,Tổng cấp độ của cây tài năng cần đạt đến {0}.
 ,20190002,天赋树,Phải mở khóa nút gốc cùng tầng trước.
-,20190003,,
+,20190003,,Không đủ cấp độ cây tài năng
 ,20200000,活动,Nhận giải thưởng thành công
 ,20200001,活动,Nhận giải thưởng không thành công
 ,20200002,活动,Tạo vé thành công
