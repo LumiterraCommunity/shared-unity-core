@@ -121,7 +121,9 @@ public class MovingPlatformCore : SharedCoreComponent
                     Vector3 toCurrentWaypoint = CurrentWaypoint.position - transform.position;
                     Vector3 movement = toCurrentWaypoint.normalized;
                     movement *= MovementSpeed * deltaTime;
-                    UpdatePositionMovement(movement);
+                    //现在这里有问题 在两端时会甩出去一段距离
+                    // UpdatePositionMovement(movement);
+                    _rigidBody.transform.position += movement;
                 }
                 else
                 {
