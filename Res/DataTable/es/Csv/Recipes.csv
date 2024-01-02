@@ -1,4 +1,4 @@
-classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matItemId-int[][],name-string,productId-int[][],proficiency-int,recipesSort-int,sourceText-int,timeCost-int,type-int,unlockCondition-int,unlockType-int,useDitamin-int,useMELD-int
+classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matItemId-int[][],name-string,productId-int[][],proficiency-int,recipesSort-int,sourceText-int,timeCost-int,type-int,unlockCondition-int,unlockType-int,useDitamin-int,useToken-int
 1,Fabricación Nv 1 Espada de Piedra,2,recipe-icon-44,44,1,"210,1;213,1", Receta de espada de piedra de nivel 1 ,"40,1,1,10000",0,99044,1,10,2,0,4,0,0
 0,Fabricación Nv 2 Espada de Hierro,2,recipe-icon-45,45,2,"207,2;211,1;214,1", Receta de espada de hierro de nivel 2 ,"41,1,1,6000;41,2,1,4000",0,98045,1,10,2,0,4,0,0
 0,Fabricación Nv 3 Espada de Cristal,2,recipe-icon-46,46,3,"208,2;212,1;215,1", Receta de espada de cristal de nivel 3 ,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97046,1,10,2,0,4,0,0
