@@ -168,9 +168,9 @@ public class DRRecipes : DataRowBase
     }
 
     /// <summary>
-  /**获取useMELD-int。*/
+  /**获取useToken-int。*/
     /// </summary>
-    public int UseMELD
+    public int UseToken
     {
         get;
         private set;
@@ -198,7 +198,7 @@ public class DRRecipes : DataRowBase
         UnlockCondition = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UnlockType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseDitamin = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        UseMELD = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        UseToken = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -227,7 +227,7 @@ public class DRRecipes : DataRowBase
                 UnlockCondition = binaryReader.Read7BitEncodedInt32();
                 UnlockType = binaryReader.Read7BitEncodedInt32();
                 UseDitamin = binaryReader.Read7BitEncodedInt32();
-                UseMELD = binaryReader.Read7BitEncodedInt32();
+                UseToken = binaryReader.Read7BitEncodedInt32();
             }
         }
 

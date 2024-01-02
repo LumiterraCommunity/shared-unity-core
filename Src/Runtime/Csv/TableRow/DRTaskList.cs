@@ -24,15 +24,6 @@ public class DRTaskList : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取costMELD-int。*/
-    /// </summary>
-    public int CostMELD
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取expReward-int[][]。*/
     /// </summary>
     public int[][] ExpReward
@@ -100,7 +91,6 @@ public class DRTaskList : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        CostMELD = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ExpReward = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         ItemReward = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -120,7 +110,6 @@ public class DRTaskList : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                CostMELD = binaryReader.Read7BitEncodedInt32();
                 ExpReward = binaryReader.ReadArrayList<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 ItemReward = binaryReader.Read7BitEncodedInt32();
