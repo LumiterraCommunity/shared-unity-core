@@ -362,7 +362,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","2,200",,1,0,1,,1000,,,,,,[13],1,,,,,,
 0,0,0,,0,,,,371,0,0,0,0,0,0,0,,,,,,0,Empty. ,,2,"Cyber Raze yếu
 ",,,1,0,1,,1000,,,,,,,,,421,,,,
-0,0,0,,0,,426,500,372,0,0,0,0,0,0,0,attack,Skill_Frosty_attack,Skill_FrostyLord_Attack,,2200,3000,Empty. ,500,2,"Tấn công Frosty Lord
+0,0,0,,0,,426,500,372,0,0,0,0,0,0,0,attack,Skill_Frosty_attack,Skill_FrostyLord_Attack,,2200,4000,Empty. ,500,2,"Tấn công Frosty Lord
 ","4,800,600,12000",,1,0,1,,1000,425,,,,,,,,,,,,
 0,0,0,,0,"15,238",426,800,373,0,0,0,0,1,0,1,attackArea,Skill_Frosty_attackArea,Skill_FrostyLord_Attack_Area,,1467,5000,Empty. ,3000,2,"Tấn công từ xa Frosty Lord
 ","2,500",CameraShakeGrade_3,1,0,1,,1000,474,,,,top_down_Thunder,[14],5,,,,,,
@@ -441,7 +441,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","2,300",,1,0,1,,1000,,,,,top_down_Normal_3,[17],1,,452,,,,
 0,0,0,,0,,22,333,399,1,0,0,0,0,0,1,attack2,,Skill_IceShellGiant_Attack,,2167,4000,"Trống
 ",500,2,"Tấn công bình thường của Ice Shell Giant
-","1,200,1000,200",,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,,453,,,,
+",,,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,,453,,,,
 0,0,0,,0,15,,1400,400,1,0,0,0,1,0,1,attack,,Skill_SkeletonArcher_Attack,,2000,4000,"Trống
 ",1400,2,"Skeleton Archer Lockin Skeleton Arrow
 ",,,1,0,1,,1000,,,,,,[19],1,,454,,,,
@@ -473,14 +473,14 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","2,300",,1,0,1,,1000,"489,482,490",,,,top_down_Normal_3,[22],4,,,,,,
 0,0,0,,0,,467,400,410,1,0,0,0,0,0,1,attack,,Skill_ArcticLord_Attack,,1266,2000,"Trống
 ",1000,2,"Hãy để tôi cắn
-","1,200,1000,200",,1,0,1,,1000,"467,472,501",,,,top_down_Cuboid,,,,477,,,,
+",,,1,0,1,,1000,"467,472,501",,,,top_down_Cuboid,,,,477,,,,
 0,0,0,,0,"471,388",467,1000,411,1,0,0,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,60000,"Trống
 ",1000,2,"Sự tức giận của Husky
 ","2,500",,1,0,1,,1000,"467,496",,,,top_down_MoonFalling,[23],4,,,,,,
 0,0,0,,0,,"467,469",0,412,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,2000,"Trống
 ",1000,2,"Đâm
-","1,200,1500,200",,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
-0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,2000,"Trống
+",,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
+0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,3000,"Trống
 ",1000,2,"Chèn
 ","2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,"Trống
@@ -502,7 +502,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","2,300",,1,0,1,,1000,499,,,,top_down_Normal_3,[24],2,,481,,,,
 0,0,0,,0,,"467,469",0,425,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,4000,"Trống
 ",1000,2,"Đâm chọc
-","1,200,1500,200",,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
+",,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
 0,0,0,,0,"471,386,3",467,1000,426,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000,"Trống
 ",1000,2,"Chèn vào
 ","2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,480,,,,

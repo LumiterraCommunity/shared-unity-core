@@ -340,7 +340,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,388,426,2000,370,0,0,0,0,1,0,0,attack2,,Skill_CyberRaze_Attack_Area,,2600,3000,赛博瑞兹远程攻击。,2000,2,Cyber Raze激光,"2,200",,1,0,1,,1000,,,,,,[13],1,,,,,,
 0,0,0,,0,,,,371,0,0,0,0,0,0,0,,,,,,0,"空
 ",,2,Cyber Raze弱势检测技能,,,1,0,1,,1000,,,,,,,,,421,,,,
-0,0,0,,0,,426,500,372,0,0,0,0,0,0,0,attack,Skill_Frosty_attack,Skill_FrostyLord_Attack,,2200,3000,"空
+0,0,0,,0,,426,500,372,0,0,0,0,0,0,0,attack,Skill_Frosty_attack,Skill_FrostyLord_Attack,,2200,4000,"空
 ",500,2,寒霜领主近战攻击,"4,800,600,12000",,1,0,1,,1000,425,,,,,,,,,,,,
 0,0,0,,0,"15,238",426,800,373,0,0,0,0,1,0,1,attackArea,Skill_Frosty_attackArea,Skill_FrostyLord_Attack_Area,,1467,5000,"空
 ",3000,2,寒霜领主捶地召唤闪电,"2,500",CameraShakeGrade_3,1,0,1,,1000,474,,,,top_down_Thunder,[14],5,,,,,,
@@ -377,7 +377,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"15,9",414,400,398,1,0,0,0,1,0,1,attack,,Skill_DarkSnowSprite_Attack,,1000,4000,"空
 ",1000,2,雪球,"2,300",,1,0,1,,1000,,,,,top_down_Normal_3,[17],1,,452,,,,
 0,0,0,,0,,22,333,399,1,0,0,0,0,0,1,attack2,,Skill_IceShellGiant_Attack,,2167,4000,"空
-",500,2,死亡冲击,"1,200,1000,200",,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,,453,,,,
+",500,2,死亡冲击,,,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,,453,,,,
 0,0,0,,0,15,,1400,400,1,0,0,0,1,0,1,attack,,Skill_SkeletonArcher_Attack,,2000,4000,"空
 ",1400,2,怪物锁定箭,,,1,0,1,,1000,,,,,,[19],1,,454,,,,
 0,0,0,,0,465,,2266,401,1,0,0,0,0,0,1,attackArea,,Skill_RabbitWizard_Attack,,2433,10000,"空
@@ -398,12 +398,12 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,1,467,1000,409,1,0,0,0,1,0,1,attackArea,,Skill_ForestLord_AttackArea,,2833,30000,"空
 ",1000,2,看好你屁屁,"2,300",,1,0,1,,1000,"489,482,490",,,,top_down_Normal_3,[22],4,,,,,,
 0,0,0,,0,,467,400,410,1,0,0,0,0,0,1,attack,,Skill_ArcticLord_Attack,,1266,2000,"空
-",1000,2,给我咬一口,"1,200,1000,200",,1,0,1,,1000,"467,472,501",,,,top_down_Cuboid,,,,477,,,,
+",1000,2,给我咬一口,,,1,0,1,,1000,"467,472,501",,,,top_down_Cuboid,,,,477,,,,
 0,0,0,,0,"471,388",467,1000,411,1,0,0,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,60000,"空
 ",1000,2,哈士奇之怒,"2,500",,1,0,1,,1000,"467,496",,,,top_down_MoonFalling,[23],4,,,,,,
 0,0,0,,0,,"467,469",0,412,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,2000,"空
-",1000,2,我刺,"1,200,1500,200",,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
-0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,2000,"空
+",1000,2,我刺,,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
+0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,3000,"空
 ",1000,2,我插,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,"空
 ",1000,2,我手搓闪电,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
@@ -417,7 +417,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"35,388",467,0,424,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,12000,"空
 ",1000,2,我手搓闪电(小),"2,300",,1,0,1,,1000,499,,,,top_down_Normal_3,[24],2,,481,,,,
 0,0,0,,0,,"467,469",0,425,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,4000,"空
-",1000,2,我刺(小),"1,200,1500,200",,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
+",1000,2,我刺(小),,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
 0,0,0,,0,"471,386,3",467,1000,426,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000,"空
 ",1000,2,我插(小),"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,480,,,,
 0,0,0,,0,213,,0,427,1,0,0,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,0,"空
