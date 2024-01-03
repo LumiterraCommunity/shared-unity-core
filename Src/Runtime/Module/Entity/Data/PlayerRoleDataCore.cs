@@ -65,8 +65,8 @@ public class PlayerRoleDataCore : EntityBaseComponent
     /// 角色邀请码
     /// 先放在这里，节省一个组件的开销
     /// </summary>
-    public string InviteCode { get; protected set; }
-    public string InviteCodeOrganization { get; protected set; } = "";
+    public string InviteCode { get; protected set; } = string.Empty;
+    public string InviteCodeOrganization { get; protected set; } = string.Empty;
     /// <summary>
     /// 角色盲盒质押等级，0~4级，0为未质押
     /// </summary>
