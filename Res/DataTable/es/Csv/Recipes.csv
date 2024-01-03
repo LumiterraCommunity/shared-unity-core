@@ -157,85 +157,88 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Receta de Sombrero de Granjero de Diamante,2,recipe-icon-308,308,5,"401,2;405,2",Receta de Sombrero de Granjero de Diamante,"355,1,1,3932;355,2,1,2621;355,3,1,1747;355,4,1,1165;355,5,1,388;277,5,1,145",0,95308,1,90,1,0,4,0,15
 0,Receta de Abrigo de Granjero de Diamante,2,recipe-icon-309,309,5,"401,2;405,2",Receta de Abrigo de Granjero de Diamante,"356,1,1,3932;356,2,1,2621;356,3,1,1747;356,4,1,1165;356,5,1,388;278,5,1,145",0,95309,1,90,1,0,4,0,15
 0,Receta de Guantes de Granjero de Diamante,2,recipe-icon-310,310,5,"401,2;405,2",Receta de Guantes de Granjero de Diamante,"357,1,1,3932;357,2,1,2621;357,3,1,1747;357,4,1,1165;357,5,1,388;473,5,1,145",0,95310,1,90,1,0,4,0,15
-0,Vacío,2,recipe-icon-311,311,5,"401,2;405,2",Receta de Pantalones de Granjero de Diamante,"358,1,1,3932;358,2,1,2621;358,3,1,1747;358,4,1,1165;358,5,1,388;280,5,1,145",0,95311,1,90,1,0,4,0,15
-0,Vacío,2,recipe-icon-312,312,5,"401,2;405,2",Receta de Zapatos de Granjero de Diamante,"359,1,1,3932;359,2,1,2621;359,3,1,1747;359,4,1,1165;359,5,1,388;281,5,1,145",0,95312,1,90,1,0,4,0,15
-0,Vacío,2,recipe-icon-313,313,6,"405,2;409,1;412,1",Receta de Espada Estelar,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,94313,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-314,314,6,"405,2;409,1;412,1",Receta de Sombrero de Luchador Estelar,"345,1,1,3932;345,2,1,2621;345,3,1,1747;345,4,1,1165;345,5,1,388;282,5,1,145",0,94314,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-315,315,6,"405,2;409,1;412,1",Receta de Abrigo de Luchador Estelar,"346,1,1,3932;346,2,1,2621;346,3,1,1747;346,4,1,1165;346,5,1,388;283,5,1,145",0,94315,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-316,316,6,"405,2;409,1;412,1",Receta de Guantes de Luchador Estelar,"347,1,1,3875;347,2,1,2583;347,3,1,1722;347,4,1,1148;347,5,1,382;279,5,1,143;284,5,1,143",0,94316,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-317,317,6,"405,2;409,1;412,1",Receta de Pantalones de Luchador Estelar,"348,1,1,3932;348,2,1,2621;348,3,1,1747;348,4,1,1165;348,5,1,388;285,5,1,145",0,94317,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Receta de zapatos de luchador estelar,"349,1,1,3932;349,2,1,2621;349,3,1,1747;349,4,1,1165;349,5,1,388;286,5,1,145",0,94318,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-319,319,6,"408,1;411,1;403,2", Receta de hoz estelar,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,94319,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Receta de hacha estelar,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94320,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Receta de pico estelar,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94321,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Receta de abrigo de recolección estelar,"331,1,1,3932;331,2,1,2621;331,3,1,1747;331,4,1,1165;331,5,1,388;283,5,1,145",0,94323,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Receta de sombrero de recolección estelar,"330,1,1,3932;330,2,1,2621;330,3,1,1747;330,4,1,1165;330,5,1,388;282,5,1,145",0,94322,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Receta de guantes de recolección estelar,"332,1,1,3875;332,2,1,2583;332,3,1,1722;332,4,1,1148;332,5,1,382;279,5,1,143;284,5,1,143",0,94324,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Receta de pantalones de recolección estelar,"333,1,1,3932;333,2,1,2621;333,3,1,1747;333,4,1,1165;333,5,1,388;285,5,1,145",0,94325,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-327,327,6,"402,2;406,2", Receta de azada estelar,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94327,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Receta de zapatos de recolección estelar,"334,1,1,3932;334,2,1,2621;334,3,1,1747;334,4,1,1165;334,5,1,388;286,5,1,145",0,94326,1,270,3,0,4,0,20
-0,Vacío,2,recipe-icon-330,330,6,"402,2;406,2", Receta de abrigo de granjero estelar,"361,1,1,3932;361,2,1,2621;361,3,1,1747;361,4,1,1165;361,5,1,388;283,5,1,145",0,94330,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-329,329,6,"402,2;406,2", Receta de sombrero de granjero estelar,"360,1,1,3932;360,2,1,2621;360,3,1,1747;360,4,1,1165;360,5,1,388;282,5,1,145",0,94329,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-331,331,6,"402,2;406,2", Receta de guantes de granjero estelar,"362,1,1,3875;362,2,1,2583;362,3,1,1722;362,4,1,1148;362,5,1,382;279,5,1,143;284,5,1,143",0,94331,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-332,332,6,"402,2;406,2", Receta de pantalones de granjero estelar,"363,1,1,3932;363,2,1,2621;363,3,1,1747;363,4,1,1165;363,5,1,388;285,5,1,145",0,94332,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-333,333,6,"402,2;406,2", Receta de zapatos de granjero estelar,"364,1,1,3932;364,2,1,2621;364,3,1,1747;364,4,1,1165;364,5,1,388;286,5,1,145",0,94333,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2", Receta de esencia de plantación agrícola de nivel 4,"407,1,1,10000",0,96334,1,30,1,0,4,0,0
-0,Vacío,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2", Receta de esencia de plantación agrícola de nivel 5,"408,1,1,10000",0,95335,1,90,1,0,4,0,0
-0,Vacío,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2", Receta de esencia de plantación agrícola de nivel 6,"409,1,1,10000",0,94336,1,270,1,0,4,0,0
-0,Vacío,2,recipe-icon-337,337,4,"392,5;393,5;394,5;215,2", Receta de esencia de ganadería agrícola de nivel 4,"410,1,1,10000",0,96337,1,30,1,0,4,0,0
-0,Vacío,2,recipe-icon-338,338,5,"395,5;396,5;397,5;410,2", Receta de esencia de ganadería agrícola de nivel 5,"411,1,1,10000",0,95338,1,90,1,0,4,0,0
-0,Vacío,2,recipe-icon-339,339,6,"398,5;399,5;400,5;411,2", Receta de esencia de ganadería agrícola de nivel 6,"412,1,1,10000",0,94339,1,270,1,0,4,0,0
-0,Vacío,2,recipe-icon-340,340,4,"365,5;366,5;367,5;218,2", Receta de esencia de combate de nivel 4,"401,1,1,10000",0,96340,1,30,2,0,4,0,0
-0,Vacío,2,recipe-icon-341,341,5,"368,5;370,5;369,5;401,2", Receta de esencia de combate de nivel 5,"402,1,1,10000",0,95341,1,90,2,0,4,0,0
-0,Vacío,2,recipe-icon-342,342,6,"371,5;372,5;373,5;402,2", Receta de esencia de combate de nivel 6,"403,1,1,10000",0,94342,1,270,2,0,4,0,0
-0,Vacío,2,recipe-icon-343,343,4,"375,5;376,5;374,5;209,2", Receta de esencia de recolección de nivel 4,"404,1,1,10000",0,96343,1,30,3,0,4,0,0
-0,Vacío,2,recipe-icon-345,345,6,"380,5;381,5;382,5;405,2", Receta de esencia de recolección de nivel 6,"406,1,1,10000",0,94345,1,270,3,0,4,0,0
-0,Vacío,2,recipe-icon-344,344,5,"377,5;378,5;379,5;404,2", Receta de esencia de recolección de nivel 5,"405,1,1,10000",0,95344,1,90,3,0,4,0,0
-0,Vacío,2,recipe-icon-347,347,5,"377,2;378,2;379,2", Recetas de poción de nivel 5,"429,1,1,5031;430,1,1,993;431,1,1,993;432,1,1,993;433,1,1,993;434,1,1,993",0,95347,1,90,3,0,4,0,0
-0,Vacío,2,recipe-icon-346,346,4,"374,2;375,2;376,2", Recetas de poción de nivel 4,"422,1,1,5031;423,1,1,993;424,1,1,993;425,1,1,993;426,1,1,993;427,1,1,993",0,96346,1,30,3,0,4,0,0
-0,Vacío,2,recipe-icon-348,348,6,"380,2;381,2;382,2", Recetas de poción de nivel 6,"435,1,1,5031;436,1,1,993;437,1,1,993;438,1,1,993;439,1,1,993;440,1,1,993",0,94348,1,270,3,0,4,0,0
-0,Vacío,2,recipe-icon-364,364,1,"210,1;213,1",Receta de martillo de cobre de nivel 1,"441,1,1,10000",0,99364,1,10,2,0,4,0,0
-0,Vacío,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Receta de martillo de hierro de nivel 2,"442,1,1,6000;442,2,1,4000",0,98365,1,10,2,0,4,0,0
-0,Vacío,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Receta de martillo dorado de nivel 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96367,1,30,2,0,4,0,10
-0,Vacío,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Receta de martillo de cristal de nivel 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97366,1,10,2,0,4,0,0
-0,Vacío,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Receta de martillo de diamante de nivel 5,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95368,1,90,2,0,4,0,15
-0,Vacío,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Receta de martillo de luz estelar de nivel 6,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,94369,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-370,370,1,"210,1;213,1",Receta de arco de piedra de nivel 1,"287,1,1,10000",0,99370,1,10,2,0,4,0,0
-0,Vacío,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Receta de arco de metal de nivel 2,"288,1,1,6000;288,2,1,4000",0,98371,1,10,2,0,4,0,0
-0,Vacío,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Receta de arco de cristal de nivel 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97372,1,10,2,0,4,0,0
-0,Vacío,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Receta de arco dorado de nivel 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96373,1,30,2,0,4,0,10
-0,Vacío,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Receta de arco de diamante de nivel 5,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95374,1,90,2,0,4,0,15
-0,Vacío,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Receta de arco de luz estelar de nivel 6,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94375,1,270,2,0,4,0,20
-0,Vacío,2,recipe-icon-376,376,1,"207,2",Receta de cepillo de cobre de nivel 1,"453,1,1,10000",0,99376,1,10,1,0,4,0,0
-0,Vacío,2,recipe-icon-377,377,2,"216,2;208,2",Receta de cepillo de hierro de nivel 2,"454,1,1,6000;454,2,1,4000",0,98377,1,10,1,0,4,0,0
-0,Vacío,2,recipe-icon-378,378,3,"217,2;209,2",Receta de cepillo de cristal de nivel 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97378,1,10,1,0,4,0,0
-0,Vacío,2,recipe-icon-379,379,4,"218,2;404,2",Receta de cepillo dorado de nivel 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96379,1,30,1,0,4,0,10
-0,Vacío,2,recipe-icon-380,380,5,"401,2;405,2",Receta de cepillo de diamante de nivel 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95380,1,90,1,0,4,0,15
-0,Vacío,2,recipe-icon-381,381,6,"402,2;406,2",Receta de cepillo de luz estelar de nivel 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94381,1,270,1,0,4,0,20
-0,Vacío,2,recipe-icon-382,382,4,"375,5;376,5;374,5", Receta de poción de restauración de energía - Pequeña,"459,1,1,10000",0,96382,1,10,3,0,4,0,0
-0,Vacío,2,recipe-icon-383,383,5,"377,5;378,5;379,5",Poción de Restauración de Energía - Receta Mediana,"460,1,1,10000",0,95383,1,10,3,0,4,0,0
-0,Vacío,2,recipe-icon-384,384,6,"380,5;381,5;382,5",Poción de Restauración de Energía - Receta Grande,"461,1,1,10000",0,94384,1,10,3,0,4,0,0
-0,,0,recipe-icon-385,385,0,"365,8;366,8;367,8",,"464,1,3,10000",0,100385,1,10,0,0,4,0,1
-0,,0,recipe-icon-386,386,0,"368,3;369,3;370,3",,"464,1,12,10000",0,100386,1,10,0,0,4,0,1
-0,,0,recipe-icon-387,387,0,"371,1;372,1;373,1",,"464,1,18,10000",0,100387,1,10,0,0,4,0,1
-0,,0,recipe-icon-389,389,0,"463,1",,"465,1,12,10000",0,100389,1,10,0,0,4,0,1
-0,,0,recipe-icon-388,388,0,"462,1",,"465,1,3,10000",0,100388,1,10,0,0,4,0,1
-0,,0,recipe-icon-390,390,0,"207,2;216,2;210,1;213,1",,"466,1,3,10000",0,100390,1,10,0,0,4,0,0
-0,,0,recipe-icon-391,391,0,"208,2;217,2;211,1;214,1",,"466,1,12,10000",0,100391,1,10,0,0,4,0,0
-0,,0,recipe-icon-392,392,0,"209,2;218,2;212,1;212,1",,"466,1,27,10000",0,100392,1,10,0,0,4,0,0
-0,,0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10",,"466,1,3,10000",0,100393,1,10,0,0,4,0,0
-0,,0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",,"466,1,12,10000",0,100394,1,10,0,0,4,0,0
-0,,0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",,"466,1,27,10000",0,100395,1,10,0,0,4,0,0
-0,,0,recipe-icon-396,396,0,"209,2;218,2;212,1;215,1",,"467,1,1,10000",0,100396,1,5,0,1,1,0,3
-0,,0,recipe-icon-397,397,0,"469,2",,"468,1,5,6500;467,1,5,3500",0,100397,1,5,0,1,1,0,0
-0,,0,recipe-icon-398,398,0,"207,2;216,2;210,1;213,1",,"468,1,1,10000",0,100398,1,5,0,1,1,0,1
-0,,0,recipe-icon-404,404,0,"62,10;58,10",,"225,1,1,10000",0,100404,1,10,3,1,1,0,0
-0,,0,recipe-icon-405,405,4,"413,1",,"413,1,2,5000;416,1,1,5000",0,96405,1,10,1,0,4,0,0
-0,,0,recipe-icon-406,406,4,"414,1",,"414,1,2,5000;417,1,1,5000",0,96406,1,10,1,0,4,0,0
-0,,0,recipe-icon-407,407,4,"415,1",,"415,1,2,5000;418,1,1,5000",0,96407,1,10,1,0,4,0,0
-0,,0,recipe-icon-410,410,5,"416,1",,"416,1,2,5000;419,1,1,5000",0,95410,1,10,1,0,4,0,0
-0,,0,recipe-icon-411,411,5,"417,1",,"417,1,2,5000;420,1,1,5000",0,95411,1,10,1,0,4,0,0
-0,,0,recipe-icon-412,412,5,"418,1",,"418,1,2,5000;421,1,1,5000",0,95412,1,10,1,0,4,0,0
-0,,0,recipe-icon-413,413,6,"419,1",,"419,1,2,10000",0,94413,1,10,1,0,4,0,0
-0,,0,recipe-icon-414,414,6,"420,1",,"420,1,2,10000",0,94414,1,10,1,0,4,0,0
-0,,0,recipe-icon-415,415,6,"421,1",,"421,1,2,10000",0,94415,1,10,1,0,4,0,0
+0, Receta de pantalones de granjero de diamante,2,recipe-icon-311,311,5,"401,2;405,2",Receta de Pantalones de Granjero de Diamante,"358,1,1,3932;358,2,1,2621;358,3,1,1747;358,4,1,1165;358,5,1,388;280,5,1,145",0,95311,1,90,1,0,4,0,15
+0, Receta de zapatos de granjero de diamante,2,recipe-icon-312,312,5,"401,2;405,2",Receta de Zapatos de Granjero de Diamante,"359,1,1,3932;359,2,1,2621;359,3,1,1747;359,4,1,1165;359,5,1,388;281,5,1,145",0,95312,1,90,1,0,4,0,15
+0, Receta de espada estelar,2,recipe-icon-313,313,6,"405,2;409,1;412,1",Receta de Espada Estelar,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,94313,1,270,2,0,4,0,20
+0, Receta de sombrero de luchador estelar,2,recipe-icon-314,314,6,"405,2;409,1;412,1",Receta de Sombrero de Luchador Estelar,"345,1,1,3932;345,2,1,2621;345,3,1,1747;345,4,1,1165;345,5,1,388;282,5,1,145",0,94314,1,270,2,0,4,0,20
+0, Receta de abrigo de luchador estelar,2,recipe-icon-315,315,6,"405,2;409,1;412,1",Receta de Abrigo de Luchador Estelar,"346,1,1,3932;346,2,1,2621;346,3,1,1747;346,4,1,1165;346,5,1,388;283,5,1,145",0,94315,1,270,2,0,4,0,20
+0, Receta de guantes de luchador estelar,2,recipe-icon-316,316,6,"405,2;409,1;412,1",Receta de Guantes de Luchador Estelar,"347,1,1,3875;347,2,1,2583;347,3,1,1722;347,4,1,1148;347,5,1,382;279,5,1,143;284,5,1,143",0,94316,1,270,2,0,4,0,20
+0, Receta de pantalones de luchador estelar,2,recipe-icon-317,317,6,"405,2;409,1;412,1",Receta de Pantalones de Luchador Estelar,"348,1,1,3932;348,2,1,2621;348,3,1,1747;348,4,1,1165;348,5,1,388;285,5,1,145",0,94317,1,270,2,0,4,0,20
+0, Receta de zapatos de luchador estelar,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Receta de zapatos de luchador estelar,"349,1,1,3932;349,2,1,2621;349,3,1,1747;349,4,1,1165;349,5,1,388;286,5,1,145",0,94318,1,270,2,0,4,0,20
+0, Receta de hoz estelar,2,recipe-icon-319,319,6,"408,1;411,1;403,2", Receta de hoz estelar,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,94319,1,270,3,0,4,0,20
+0, Receta de hacha estelar,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Receta de hacha estelar,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94320,1,270,3,0,4,0,20
+0, Receta de pico estelar,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Receta de pico estelar,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94321,1,270,3,0,4,0,20
+0, Receta de abrigo de recolector estelar,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Receta de abrigo de recolección estelar,"331,1,1,3932;331,2,1,2621;331,3,1,1747;331,4,1,1165;331,5,1,388;283,5,1,145",0,94323,1,270,3,0,4,0,20
+0, Receta de sombrero de recolector estelar,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Receta de sombrero de recolección estelar,"330,1,1,3932;330,2,1,2621;330,3,1,1747;330,4,1,1165;330,5,1,388;282,5,1,145",0,94322,1,270,3,0,4,0,20
+0, Receta de guantes de recolector estelar,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Receta de guantes de recolección estelar,"332,1,1,3875;332,2,1,2583;332,3,1,1722;332,4,1,1148;332,5,1,382;279,5,1,143;284,5,1,143",0,94324,1,270,3,0,4,0,20
+0, Receta de pantalones de recolector estelar,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Receta de pantalones de recolección estelar,"333,1,1,3932;333,2,1,2621;333,3,1,1747;333,4,1,1165;333,5,1,388;285,5,1,145",0,94325,1,270,3,0,4,0,20
+0, Receta de azada estelar,2,recipe-icon-327,327,6,"402,2;406,2", Receta de azada estelar,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94327,1,270,1,0,4,0,20
+0, Receta de zapatos de recolector estelar,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Receta de zapatos de recolección estelar,"334,1,1,3932;334,2,1,2621;334,3,1,1747;334,4,1,1165;334,5,1,388;286,5,1,145",0,94326,1,270,3,0,4,0,20
+0, Receta de abrigo de granjero estelar,2,recipe-icon-330,330,6,"402,2;406,2", Receta de abrigo de granjero estelar,"361,1,1,3932;361,2,1,2621;361,3,1,1747;361,4,1,1165;361,5,1,388;283,5,1,145",0,94330,1,270,1,0,4,0,20
+0, Receta de sombrero de granjero estelar,2,recipe-icon-329,329,6,"402,2;406,2", Receta de sombrero de granjero estelar,"360,1,1,3932;360,2,1,2621;360,3,1,1747;360,4,1,1165;360,5,1,388;282,5,1,145",0,94329,1,270,1,0,4,0,20
+0, Receta de guantes de granjero estelar,2,recipe-icon-331,331,6,"402,2;406,2", Receta de guantes de granjero estelar,"362,1,1,3875;362,2,1,2583;362,3,1,1722;362,4,1,1148;362,5,1,382;279,5,1,143;284,5,1,143",0,94331,1,270,1,0,4,0,20
+0, Receta de Pantalones de Granjero Estrella,2,recipe-icon-332,332,6,"402,2;406,2", Receta de pantalones de granjero estelar,"363,1,1,3932;363,2,1,2621;363,3,1,1747;363,4,1,1165;363,5,1,388;285,5,1,145",0,94332,1,270,1,0,4,0,20
+0, Receta de Zapatos de Granjero Estrella,2,recipe-icon-333,333,6,"402,2;406,2", Receta de zapatos de granjero estelar,"364,1,1,3932;364,2,1,2621;364,3,1,1747;364,4,1,1165;364,5,1,388;286,5,1,145",0,94333,1,270,1,0,4,0,20
+0, Receta de Esencia de Plantación Agrícola de Nivel 4,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2", Receta de esencia de plantación agrícola de nivel 4,"407,1,1,10000",0,96334,1,30,1,0,4,0,0
+0, Receta de Esencia de Plantación Agrícola de Nivel 5,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2", Receta de esencia de plantación agrícola de nivel 5,"408,1,1,10000",0,95335,1,90,1,0,4,0,0
+0, Receta de Esencia de Plantación Agrícola de Nivel 6,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2", Receta de esencia de plantación agrícola de nivel 6,"409,1,1,10000",0,94336,1,270,1,0,4,0,0
+0, Receta de Esencia de Ganadería Agrícola de Nivel 4,2,recipe-icon-337,337,4,"392,5;393,5;394,5;215,2", Receta de esencia de ganadería agrícola de nivel 4,"410,1,1,10000",0,96337,1,30,1,0,4,0,0
+0, Receta de Esencia de Ganadería Agrícola de Nivel 5,2,recipe-icon-338,338,5,"395,5;396,5;397,5;410,2", Receta de esencia de ganadería agrícola de nivel 5,"411,1,1,10000",0,95338,1,90,1,0,4,0,0
+0, Receta de Esencia de Ganadería Agrícola de Nivel 6,2,recipe-icon-339,339,6,"398,5;399,5;400,5;411,2", Receta de esencia de ganadería agrícola de nivel 6,"412,1,1,10000",0,94339,1,270,1,0,4,0,0
+0, Receta de Esencia de Combate de Nivel 4,2,recipe-icon-340,340,4,"365,5;366,5;367,5;218,2", Receta de esencia de combate de nivel 4,"401,1,1,10000",0,96340,1,30,2,0,4,0,0
+0, Receta de Esencia de Combate de Nivel 5,2,recipe-icon-341,341,5,"368,5;370,5;369,5;401,2", Receta de esencia de combate de nivel 5,"402,1,1,10000",0,95341,1,90,2,0,4,0,0
+0, Receta de Esencia de Combate de Nivel 6,2,recipe-icon-342,342,6,"371,5;372,5;373,5;402,2", Receta de esencia de combate de nivel 6,"403,1,1,10000",0,94342,1,270,2,0,4,0,0
+0, Receta de Esencia de Recolecta de Nivel 4,2,recipe-icon-343,343,4,"375,5;376,5;374,5;209,2", Receta de esencia de recolección de nivel 4,"404,1,1,10000",0,96343,1,30,3,0,4,0,0
+0, Receta de Esencia de Recolecta de Nivel 6,2,recipe-icon-345,345,6,"380,5;381,5;382,5;405,2", Receta de esencia de recolección de nivel 6,"406,1,1,10000",0,94345,1,270,3,0,4,0,0
+0, Receta de Esencia de Recolecta de Nivel 5,2,recipe-icon-344,344,5,"377,5;378,5;379,5;404,2", Receta de esencia de recolección de nivel 5,"405,1,1,10000",0,95344,1,90,3,0,4,0,0
+0, Recetas de Pociones de Nivel 5,2,recipe-icon-347,347,5,"377,2;378,2;379,2", Recetas de poción de nivel 5,"429,1,1,5031;430,1,1,993;431,1,1,993;432,1,1,993;433,1,1,993;434,1,1,993",0,95347,1,90,3,0,4,0,0
+0, Recetas de Pociones de Nivel 4,2,recipe-icon-346,346,4,"374,2;375,2;376,2", Recetas de poción de nivel 4,"422,1,1,5031;423,1,1,993;424,1,1,993;425,1,1,993;426,1,1,993;427,1,1,993",0,96346,1,30,3,0,4,0,0
+0, Recetas de Pociones de Nivel 6,2,recipe-icon-348,348,6,"380,2;381,2;382,2", Recetas de poción de nivel 6,"435,1,1,5031;436,1,1,993;437,1,1,993;438,1,1,993;439,1,1,993;440,1,1,993",0,94348,1,270,3,0,4,0,0
+0, Receta de Martillo de Cobre de Nivel 1,2,recipe-icon-364,364,1,"210,1;213,1",Receta de martillo de cobre de nivel 1,"441,1,1,10000",0,99364,1,10,2,0,4,0,0
+0, Receta de Martillo de Hierro de Nivel 2,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Receta de martillo de hierro de nivel 2,"442,1,1,6000;442,2,1,4000",0,98365,1,10,2,0,4,0,0
+0, Receta de Martillo Dorado de Nivel 4,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Receta de martillo dorado de nivel 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96367,1,30,2,0,4,0,10
+0,Receta de martillo de cristal de nivel 3,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Receta de martillo de cristal de nivel 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97366,1,10,2,0,4,0,0
+0,Receta de martillo de diamante de nivel 5,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Receta de martillo de diamante de nivel 5,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95368,1,90,2,0,4,0,15
+0,Receta de martillo de luz estelar de nivel 6,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Receta de martillo de luz estelar de nivel 6,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,94369,1,270,2,0,4,0,20
+0,Receta de arco de piedra de nivel 1,2,recipe-icon-370,370,1,"210,1;213,1",Receta de arco de piedra de nivel 1,"287,1,1,10000",0,99370,1,10,2,0,4,0,0
+0,Receta de arco de metal de nivel 2,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Receta de arco de metal de nivel 2,"288,1,1,6000;288,2,1,4000",0,98371,1,10,2,0,4,0,0
+0,Receta de arco de cristal de nivel 3,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Receta de arco de cristal de nivel 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97372,1,10,2,0,4,0,0
+0,Receta de arco dorado de nivel 4,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Receta de arco dorado de nivel 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96373,1,30,2,0,4,0,10
+0,Receta de arco de diamante de nivel 5,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Receta de arco de diamante de nivel 5,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95374,1,90,2,0,4,0,15
+0,Receta de arco de luz estelar de nivel 6,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Receta de arco de luz estelar de nivel 6,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94375,1,270,2,0,4,0,20
+0,Receta de cepillo de cobre de nivel 1,2,recipe-icon-376,376,1,"207,2",Receta de cepillo de cobre de nivel 1,"453,1,1,10000",0,99376,1,10,1,0,4,0,0
+0,Receta de cepillo de hierro de nivel 2,2,recipe-icon-377,377,2,"216,2;208,2",Receta de cepillo de hierro de nivel 2,"454,1,1,6000;454,2,1,4000",0,98377,1,10,1,0,4,0,0
+0,Receta de cepillo de cristal de nivel 3,2,recipe-icon-378,378,3,"217,2;209,2",Receta de cepillo de cristal de nivel 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97378,1,10,1,0,4,0,0
+0,Receta de cepillo dorado de nivel 4,2,recipe-icon-379,379,4,"218,2;404,2",Receta de cepillo dorado de nivel 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96379,1,30,1,0,4,0,10
+0,Receta de cepillo de diamante de nivel 5,2,recipe-icon-380,380,5,"401,2;405,2",Receta de cepillo de diamante de nivel 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95380,1,90,1,0,4,0,15
+0,Receta de cepillo de luz estelar de nivel 6,2,recipe-icon-381,381,6,"402,2;406,2",Receta de cepillo de luz estelar de nivel 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94381,1,270,1,0,4,0,20
+0,Receta de poción de restauración de energía - Pequeña,2,recipe-icon-382,382,4,"375,5;376,5;374,5", Receta de poción de restauración de energía - Pequeña,"459,1,1,10000",0,96382,1,10,3,0,4,0,0
+0,Receta de poción de restauración de energía - Mediana,2,recipe-icon-383,383,5,"377,5;378,5;379,5",Poción de Restauración de Energía - Receta Mediana,"460,1,1,10000",0,95383,1,10,3,0,4,0,0
+0,Receta de poción de restauración de energía - Grande,2,recipe-icon-384,384,6,"380,5;381,5;382,5",Poción de Restauración de Energía - Receta Grande,"461,1,1,10000",0,94384,1,10,3,0,4,0,0
+0,Receta de boleto de lotería del Reino Flotante - Nivel 4,0,recipe-icon-385,385,0,"365,8;366,8;367,8", Receta de Boletos de Lotería del Reino Flotante - Nv 4,"464,1,3,10000",0,100385,1,10,0,0,4,0,1
+0,Receta de boleto de lotería del Reino Flotante - Nivel 5,0,recipe-icon-386,386,0,"368,3;369,3;370,3", Receta de Boletos de Lotería del Reino Flotante - Nv 5,"464,1,12,10000",0,100386,1,10,0,0,4,0,1
+0, Receta de boleto de lotería del Reino Flotante - Lv 6,0,recipe-icon-387,387,0,"371,1;372,1;373,1", Receta de Boletos de Lotería del Reino Flotante - Nv 6,"464,1,18,10000",0,100387,1,10,0,0,4,0,1
+0, Receta de boleto de lotería de Flower Peak - Lv 3,0,recipe-icon-389,389,0,"463,1", Receta de Boletos de Lotería de Pico de Flores - Nv 3,"465,1,12,10000",0,100389,1,10,0,0,4,0,1
+0, Receta de boleto de lotería de Flower Peak - Lv 2,0,recipe-icon-388,388,0,"462,1", Receta de Boletos de Lotería de Pico de Flores - Nv 2,"465,1,3,10000",0,100388,1,10,0,0,4,0,1
+0, Receta de boleto de lotería del mundo abierto - Lv 1 (Material Salvaje),0,recipe-icon-390,390,0,"207,2;216,2;210,1;213,1", Boletos de Lotería del Mundo Nv 1 (Materia Prima Salvaje),"466,1,3,10000",0,100390,1,10,0,0,4,0,0
+0, Receta de boleto de lotería del mundo abierto - Lv 1 (Material Salvaje),0,recipe-icon-391,391,0,"208,2;217,2;211,1;214,1", Boletos de Lotería del Mundo Nv 2 (Materia Prima Salvaje),"466,1,12,10000",0,100391,1,10,0,0,4,0,0
+0, Receta de boleto de lotería del mundo abierto - Lv 1 (Material Salvaje),0,recipe-icon-392,392,0,"209,2;218,2;212,1;212,1", Boletos de Lotería del Mundo Nv 3 (Materia Prima Salvaje),"466,1,27,10000",0,100392,1,10,0,0,4,0,0
+0, Receta de boleto de lotería del mundo abierto - Lv 1 (Material de Granja),0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10", Receta de Boletos de Lotería del Mundo Abierto Nv 1 (Materia Prima de Granja),"466,1,3,10000",0,100393,1,10,0,0,4,0,0
+0, Receta de boleto de lotería del mundo abierto - Lv 2 (Material de Granja),0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10", Receta de Boletos de Lotería del Mundo Abierto Nv 2 (Materia Prima de Granja),"466,1,12,10000",0,100394,1,10,0,0,4,0,0
+0, Receta de boleto de lotería del mundo abierto - Lv 3 (Material de Granja),0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10", Receta de Boletos de Lotería del Mundo Abierto Nv 3 (Materia Prima de Granja),"466,1,27,10000",0,100395,1,10,0,0,4,0,0
+0, Receta de boleto de admisión al Reino Flotante,0,recipe-icon-396,396,0,"209,2;218,2;212,1;215,1", Receta de Boletos de Admisión al Reino Flotante,"467,1,1,10000",0,100396,1,5,0,1,1,0,3
+0, Intercambio de boleto de admisión al Reino Flotante,0,recipe-icon-397,397,0,"469,2", Intercambio de Boletos de Admisión a la Mazmorra,"468,1,5,6500;467,1,5,3500",0,100397,1,5,0,1,1,0,0
+0, Receta de boleto de admisión a Flower Peak,0,recipe-icon-398,398,0,"207,2;216,2;210,1;213,1", Receta de Boletos de Admisión a Pico de Flores,"468,1,1,10000",0,100398,1,5,0,1,1,0,1
+0, Receta de guadaña de madera de nivel 0,0,recipe-icon-404,404,0,"62,10;58,10", Receta de Hoz de Cobre Nv 1,"225,1,1,10000",0,100404,1,10,3,1,1,0,0
+0, Receta de semilla de trigo,0,recipe-icon-405,405,4,"413,1", Receta de Semillas de Trigo Nv 4,"413,1,2,5000;416,1,1,5000",0,96405,1,10,1,0,4,0,0
+0, Receta de semilla de guisante,0,recipe-icon-406,406,4,"414,1", Receta de Semillas de Guisantes Nv 4,"414,1,2,5000;417,1,1,5000",0,96406,1,10,1,0,4,0,0
+0, Receta de semilla de ajo,0,recipe-icon-407,407,4,"415,1", Receta de Semillas de Ajo Nv 4,"415,1,2,5000;418,1,1,5000",0,96407,1,10,1,0,4,0,0
+0, Receta de semilla de girasol,0,recipe-icon-410,410,5,"416,1", Receta de Semillas de Girasol Nv 5,"416,1,2,5000;419,1,1,5000",0,95410,1,10,1,0,4,0,0
+0, Receta de semilla de uva,0,recipe-icon-411,411,5,"417,1", Receta de Semillas de Uva Nv 5,"417,1,2,5000;420,1,1,5000",0,95411,1,10,1,0,4,0,0
+0, Receta de semilla de papa,0,recipe-icon-412,412,5,"418,1",Receta de Semilla de Papa de Nivel 5,"418,1,2,5000;421,1,1,5000",0,95412,1,10,1,0,4,0,0
+0, Receta de semilla de Chomper,0,recipe-icon-413,413,6,"419,1",Receta de Semilla de Chomper de Nivel 6,"419,1,2,10000",0,94413,1,10,1,0,4,0,0
+0, Receta de semilla de gloria de la mañana,0,recipe-icon-414,414,6,"420,1",Receta de Semilla de Flor de Gloria de la Mañana de Nivel 6,"420,1,2,10000",0,94414,1,10,1,0,4,0,0
+0, Receta de semilla de yuca,0,recipe-icon-415,415,6,"421,1",Receta de Semilla de Yuca de Nivel 6,"421,1,2,10000",0,94415,1,10,1,0,4,0,0
+0, Receta de hervidor dorado de nivel 4,0,recipe-icon-416,416,4,"218,2;404,2",Receta de Hervidor Dorado de Nivel 4,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96416,1,30,1,0,4,0,10
+0, Receta de hervidor de diamante de nivel 5,0,recipe-icon-417,417,5,"401,2;405,2",Receta de Hervidor de Diamante de Nivel 5,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95417,1,90,1,0,4,0,15
+0, Receta de hervidor estrella de nivel 6,0,recipe-icon-418,418,6,"402,2;406,2",Receta de Hervidor Estrella de Nivel 6,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94418,1,270,1,0,4,0,20
