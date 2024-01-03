@@ -2,10 +2,11 @@
  * @Author: xiang huan
  * @Date: 2023-04-21 10:58:10
  * @Description: 实体网络数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/HotFix/Module/Entity/Data/EntityBaseNetDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Data/EntityBaseNetDataCore.cs
  * 
  */
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 
 public class EntityBaseNetDataCore : EntityBaseComponent
 {
@@ -49,12 +50,23 @@ public class EntityBaseNetDataCore : EntityBaseComponent
             Init();
         }
 
-        if (EntityWithLocation == null || EntityWithLocation.IsLock)
+        try
         {
-            CreateData();
+            if (EntityWithLocation == null || EntityWithLocation.IsLock)
+            {
+                CreateData();
+            }
+            UpdateData();
+            EntityWithLocation.IsLock = true;
         }
-        UpdateData();
-        EntityWithLocation.IsLock = true;
+        catch (System.Exception e)
+        {
+            Log.Error($"EntityBaseNetDataCore GetData Error:{e}");
+            if (EntityWithLocation == null)
+            {
+                EntityWithLocation = new();
+            }
+        }
         return EntityWithLocation;
     }
 
