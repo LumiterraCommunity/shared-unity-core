@@ -230,15 +230,15 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Trao đổi Vé Vào Vùng Trôi,0,recipe-icon-397,397,0,"469,2", Trao đổi Vé tham quan Hang Động,"468,1,1,6500;467,1,1,3500",0,100397,1,5,0,1,1,0,0
 0,Công thức Vé Vào Đỉnh Hoa,0,recipe-icon-398,398,0,"207,2;216,2;210,1;213,1", Công thức Vé tham quan Đỉnh Hoa,"468,1,1,10000",0,100398,1,5,0,1,1,0,1
 0,Công thức Cuốc Gỗ cấp độ 0,0,recipe-icon-404,404,0,"62,10;58,10", Công thức Cuốc Đồng Cấp độ 1,"225,1,1,10000",0,100404,1,10,3,1,1,0,0
-0,Công thức Hạt Lúa Mì,0,recipe-icon-405,405,4,"413,1", Công thức Hạt Lúa Mì Cấp độ 4,"413,1,2,5000;416,1,1,5000",0,96405,1,10,1,0,4,0,0
-0,Công thức Hạt Đậu,0,recipe-icon-406,406,4,"414,1", Công thức Hạt Đậu Cấp độ 4,"414,1,2,5000;417,1,1,5000",0,96406,1,10,1,0,4,0,0
-0,Công thức hạt tỏi,0,recipe-icon-407,407,4,"415,1", Công thức Hạt Tỏi Cấp độ 4,"415,1,2,5000;418,1,1,5000",0,96407,1,10,1,0,4,0,0
-0,Công thức hạt hướng dương,0,recipe-icon-410,410,5,"416,1", Công thức Hạt Hướng Dương Cấp độ 5,"416,1,2,5000;419,1,1,5000",0,95410,1,10,1,0,4,0,0
-0,Công thức hạt nho,0,recipe-icon-411,411,5,"417,1", Công thức Hạt Nho Cấp độ 5,"417,1,2,5000;420,1,1,5000",0,95411,1,10,1,0,4,0,0
-0,Công thức hạt khoai tây,0,recipe-icon-412,412,5,"418,1",Công thức Hạt giống Khoai tây cấp độ 5,"418,1,2,5000;421,1,1,5000",0,95412,1,10,1,0,4,0,0
-0,Công thức hạt chomper,0,recipe-icon-413,413,6,"419,1",Công thức Hạt giống Chomper cấp độ 6,"419,1,2,10000",0,94413,1,10,1,0,4,0,0
-0,Công thức hạt hoa morning glory,0,recipe-icon-414,414,6,"420,1",Công thức Hạt giống Hoa bìm bìm cấp độ 6,"420,1,2,10000",0,94414,1,10,1,0,4,0,0
-0,Công thức hạt sắn,0,recipe-icon-415,415,6,"421,1",Công thức Hạt giống Sắn cấp độ 6,"421,1,2,10000",0,94415,1,10,1,0,4,0,0
+0,Công thức Hạt Lúa Mì,0,recipe-icon-405,405,4,"383,1", Công thức Hạt Lúa Mì Cấp độ 4,"413,1,2,5000;416,1,1,5000",0,96405,1,10,1,0,4,0,0
+0,Công thức Hạt Đậu,0,recipe-icon-406,406,4,"384,1", Công thức Hạt Đậu Cấp độ 4,"414,1,2,5000;417,1,1,5000",0,96406,1,10,1,0,4,0,0
+0,Công thức hạt tỏi,0,recipe-icon-407,407,4,"385,1", Công thức Hạt Tỏi Cấp độ 4,"415,1,2,5000;418,1,1,5000",0,96407,1,10,1,0,4,0,0
+0,Công thức hạt hướng dương,0,recipe-icon-410,410,5,"386,1", Công thức Hạt Hướng Dương Cấp độ 5,"416,1,2,5000;419,1,1,5000",0,95410,1,10,1,0,4,0,0
+0,Công thức hạt nho,0,recipe-icon-411,411,5,"387,1", Công thức Hạt Nho Cấp độ 5,"417,1,2,5000;420,1,1,5000",0,95411,1,10,1,0,4,0,0
+0,Công thức hạt khoai tây,0,recipe-icon-412,412,5,"388,1",Công thức Hạt giống Khoai tây cấp độ 5,"418,1,2,5000;421,1,1,5000",0,95412,1,10,1,0,4,0,0
+0,Công thức hạt chomper,0,recipe-icon-413,413,6,"389,1",Công thức Hạt giống Chomper cấp độ 6,"419,1,2,10000",0,94413,1,10,1,0,4,0,0
+0,Công thức hạt hoa morning glory,0,recipe-icon-414,414,6,"390,1",Công thức Hạt giống Hoa bìm bìm cấp độ 6,"420,1,2,10000",0,94414,1,10,1,0,4,0,0
+0,Công thức hạt sắn,0,recipe-icon-415,415,6,"391,1",Công thức Hạt giống Sắn cấp độ 6,"421,1,2,10000",0,94415,1,10,1,0,4,0,0
 0,Công thức ấm vàng cấp độ 4,0,recipe-icon-416,416,4,"218,2;404,2",Công thức Ấm đun nước Vàng cấp độ 4,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96416,1,30,1,0,4,0,10
 0,Công thức ấm kim cương cấp độ 5,0,recipe-icon-417,417,5,"401,2;405,2",Công thức Ấm đun nước Kim cương cấp độ 5,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95417,1,90,1,0,4,0,15
 0,Công thức ấm sao cấp độ 6,0,recipe-icon-418,418,6,"402,2;406,2",Công thức Ấm đun nước Sao cấp độ 6,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94418,1,270,1,0,4,0,20
