@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,Vacío
 资源不存在,5001,家园错误码,El recurso no existe
 操作不支持,5002,家园错误码,Operación no compatible
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
@@ -259,8 +260,4 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20200003,活动, acuñar boleto fallido
 ,20200004,活动, vender boleto exitoso
 ,20200005,活动, vender boleto fallido
-,90000000,重置地图提示文本,{0} ha restablecido y reiniciado el mapa actual
-,90000001,重置领地提示文本,{0} ha restablecido el mapa actual
-,90000002,重置领地提示文本,{0} ha restablecido y reiniciado su territorio
-,90000003,重置领地提示文本,{0} ha restablecido su territorio
-,90000004,停止地图所有代码块运行 ,{0} ha detenido la ejecución de todos los bloques de código actuales
+,20210000,钱包相关, ¡La solicitud de saldo de tokens ha fallado!

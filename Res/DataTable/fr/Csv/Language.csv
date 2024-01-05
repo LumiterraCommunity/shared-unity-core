@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,Vide
 资源不存在,5001,家园错误码,La ressource n'existe pas
 操作不支持,5002,家园错误码,Opération non prise en charge
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
@@ -259,8 +260,4 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20200003,活动,Échec de la création du ticket
 ,20200004,活动,Vente du ticket réussie
 ,20200005,活动,Échec de la vente du ticket
-,90000000,重置地图提示文本,{0} a réinitialisé et relancé la carte actuelle
-,90000001,重置领地提示文本,{0} a réinitialisé la carte actuelle
-,90000002,重置领地提示文本,{0} a réinitialisé et relancé son territoire
-,90000003,重置领地提示文本,{0} a réinitialisé son territoire
-,90000004,停止地图所有代码块运行 ,{0} a arrêté l'exécution de tous les blocs de code actuels
+,20210000,钱包相关, La demande de solde de jetons a échoué !
