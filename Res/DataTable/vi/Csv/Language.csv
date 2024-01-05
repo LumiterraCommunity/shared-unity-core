@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,Rỗng
 资源不存在,5001,家园错误码,Tài nguyên không tồn tại
 操作不支持,5002,家园错误码,Thao tác không được hỗ trợ
 家园道具扣除异常,5003,家园错误码,Lỗi trừ điểm vật phẩm nhà
@@ -259,8 +260,4 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20200003,活动,Tạo vé không thành công
 ,20200004,活动,Bán vé thành công
 ,20200005,活动,Bán vé không thành công
-,90000000,重置地图提示文本,{0} đã đặt lại và chạy lại bản đồ hiện tại
-,90000001,重置领地提示文本,{0} đã đặt lại bản đồ hiện tại
-,90000002,重置领地提示文本,{0} đã đặt lại và chạy lại lãnh thổ của mình
-,90000003,重置领地提示文本,{0} đã đặt lại lãnh thổ của mình
-,90000004,停止地图所有代码块运行 ,{0} đã dừng tất cả các khối mã hiện tại
+,20210000,钱包相关, Yêu cầu cân bằng Token thất bại!

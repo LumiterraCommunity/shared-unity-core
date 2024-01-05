@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,Kosong
 资源不存在,5001,家园错误码,Sumber tidak wujud
 操作不支持,5002,家园错误码,Operasi tidak disokong
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
@@ -259,8 +260,4 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20200003,活动, mencetak tiket gagal
 ,20200004,活动, menjual tiket berjaya
 ,20200005,活动, menjual tiket gagal
-,90000000,重置地图提示文本,{0} menetapkan semula dan menjalankan semula peta semasa
-,90000001,重置领地提示文本,{0} menetapkan semula peta semasa
-,90000002,重置领地提示文本,{0} menetapkan semula dan menjalankan semula tanahnya
-,90000003,重置领地提示文本,{0} menetapkan semula tanahnya
-,90000004,停止地图所有代码块运行 ,{0} menghentikan semua blok kod semasa
+,20210000,钱包相关, Permintaan baki token gagal!
