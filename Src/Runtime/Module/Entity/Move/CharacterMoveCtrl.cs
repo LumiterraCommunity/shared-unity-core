@@ -237,6 +237,11 @@ public class CharacterMoveCtrl : EntityBaseComponent
     {
         CurSpeed = speed;
     }
+    public void StopCurSpeed()
+    {
+        CurSpeed = Vector3.zero;
+        _mover.SetVelocity(CurSpeed);
+    }
 
     /// <summary>
     /// 添加移动

@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-07 10:29:02
  * @Description: 死亡状态
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/DeathStatusCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/DeathStatusCore.cs
  * 
  */
 using System.Threading;
@@ -39,7 +39,7 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
         {
             if (StatusCtrl.TryGetComponent(out CharacterMoveCtrl moveCtrl))
             {
-                moveCtrl.SetCurSpeed(UnityEngine.Vector3.zero);
+                moveCtrl.StopCurSpeed();
                 moveCtrl.SetEnableGravity(false);
             }
             IsStopGravityDeath = true;
