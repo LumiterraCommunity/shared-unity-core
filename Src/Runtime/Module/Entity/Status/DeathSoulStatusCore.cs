@@ -28,7 +28,7 @@ public class DeathSoulStatusCore : ListenEventStatusCore, IEntityCanMove, IEntit
         {
             if (StatusCtrl.TryGetComponent(out CharacterMoveCtrl moveCtrl))
             {
-                moveCtrl.SetCurSpeed(UnityEngine.Vector3.zero);
+                moveCtrl.StopCurSpeed();
                 moveCtrl.SetEnableGravity(false);
             }
             IsStopGravityDeath = true;
