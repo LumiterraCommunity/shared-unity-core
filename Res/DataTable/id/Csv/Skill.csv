@@ -412,7 +412,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,"467,469",0,412,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,2000,"Kosong
 ",1000,2, Menusuk,,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
 0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,3000,"Kosong
-",1000,2, Memasukkan,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
+",600,2, Memasukkan,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,"Kosong
 ",1000,2, Petir dengan menggosok tangan saya.,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
 0,0,0,,0,,,200,415,0,0,0,1,0,0,0,happy,,,,660,30000," Sementara meningkatkan Kapasitas Kebahagiaan Hewan Peliharaan.
@@ -428,6 +428,6 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,"467,469",0,425,1,0,0,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,4000,"Kosong
 ",1000,2,Menyengat,,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
 0,0,0,,0,"471,386,3",467,1000,426,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000,"Kosong
-",1000,2,Memasukkan,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,480,,,,
+",600,2,Memasukkan,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,480,,,,
 0,0,0,,0,213,,0,427,1,0,0,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,0,"Kosong
 ",10000,2,Buff Area,"2,900",,1,0,2,,1000,,,,,top_down_Blue_9,,,,500,,,,
