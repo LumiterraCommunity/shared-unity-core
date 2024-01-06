@@ -481,7 +481,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",1000,2,"Đâm
 ",,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
 0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,3000,"Trống
-",1000,2,"Chèn
+",600,2,"Chèn
 ","2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,"Trống
 ",1000,2,"Sét do xoa tay
@@ -504,7 +504,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",1000,2,"Đâm chọc
 ",,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,479,,,,
 0,0,0,,0,"471,386,3",467,1000,426,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,4000,"Trống
-",1000,2,"Chèn vào
+",600,2,"Chèn vào
 ","2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,480,,,,
 0,0,0,,0,213,,0,427,1,0,0,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,0,"Trống
 ",10000,2,"Khu vực Buff
