@@ -146,7 +146,6 @@ public class PlayerRoleDataCore : EntityBaseComponent
     {
         if (string.IsNullOrEmpty(inviteCode))
         {
-            Log.Error("invite code is null or empty");
             return;
         }
 

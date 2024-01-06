@@ -25,4 +25,14 @@ public class SEStunCore : SkillEffectBase
         RefEntity.EntityEvent.EntityRemoveStunEffect?.Invoke();
         base.OnRemove();
     }
+
+    public override bool CheckApplyEffect(EntityBase fromEntity, EntityBase targetEntity)
+    {
+        if (targetEntity.BattleDataCore.HasBattleState(BattleDefine.eBattleState.Endure))
+        {
+            return false;//霸体状态不添加眩晕效果
+        }
+
+        return base.CheckApplyEffect(fromEntity, targetEntity);
+    }
 }
