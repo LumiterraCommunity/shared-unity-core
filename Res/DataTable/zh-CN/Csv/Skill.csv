@@ -45,7 +45,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,61,0,1,0,0,0,0,0,,,,,,-1,Lv 2 战斗暴击,,1,Lv 2 战斗暴击,,,1,0,1,,,,skill-icon-61,,,,,,,56,,,,
 0,0,0,,0,,,,62,0,1,0,0,0,0,0,,,,,,-1,Lv 3 战斗暴击,,1,Lv 3 战斗暴击,,,1,0,1,,,,skill-icon-62,,,,,,,57,,,,
 0,0,0,0,0,"58,238",22,350,63,0,1,0,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling,Skill_trampling,,665,5000,眩晕一定范围内敌人,0,2,践踏,"2,200",WarTrampling,1,0,1,,,,skill-icon-63,,,,,,,,,,,
-0,0,0,0,0,"495,238,386,227","467,483,502",350,64,0,1,0,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling_3,Skill_trampling,,665,8000,眩晕一定范围内敌人，释放技能期间处于无法命中状态,0,2,战争践踏,"2,300",WarTrampling,1,0,1,,,,skill-icon-64,,,,,,,,,,,
+0,0,0,0,0,"495,238,386,227","483,22",350,64,0,1,0,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling_3,Skill_trampling,,665,8000,眩晕一定范围内敌人，释放技能期间处于无法命中状态,0,2,战争践踏,"2,300",WarTrampling,1,0,1,,,,skill-icon-64,,,,,,,,,,,
 0,0,0,0,0,"457,445,388",22,550,65,0,1,0,0,0,0,0,A-chuisanlianji-2-NEW,Skill_Sweeping,Skill_Swepping,,1000,5000,击退面前大范围敌人，并造成短暂眩晕,0,2,横扫千军,"4,300,300,27000",WarTrampling,1,0,1,,,,skill-icon-65,,,,,,,,,,,
 0,0,0,,0,,,,66,0,1,0,0,0,0,0,,,,,,-1,有1%概率获得双倍作物，提升可用装备等级到1级,,1,Lv 1 农牧主干,,,1,0,1,,,,skill-icon-66,,,,,,,"240,242,245,249",,,,
 0,0,0,,0,,,,67,0,1,0,0,0,0,0,,,,,,-1,有2%概率获得双倍作物，提升可用装备等级到2级,,1,Lv 2 农牧主干,,,1,0,1,,,,skill-icon-67,,,,,,,"243,242,246,249",,,,
@@ -406,7 +406,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,3000,"空
 ",600,2,我插,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000,"空
-",1000,2,我手搓闪电,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
+",1000,2,我手搓闪电,"2,300",,1,0,1,,1000,"497,485",,,,top_down_Normal_3,[24],4,,478,,,,
 0,0,0,,0,,,200,415,0,0,0,1,0,0,0,happy,,,,660,30000,短暂提高单位宠物输出幸福指数,,2,可爱的触感,,,1,0,1,,1000,470,skill-icon-415,,,,,,,,,,,
 0,0,0,,0,"15,456,446",463,1700,417,1,0,0,0,0,0,1,attackArea,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,4000,"空
 ",500,2,蓄力击飞,"4,300,400,18000",,1,0,1,,1000,,,,,top_down_Normal_Half_4,,,,,,,,

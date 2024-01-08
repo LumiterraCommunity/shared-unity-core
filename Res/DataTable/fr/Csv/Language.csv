@@ -82,7 +82,7 @@ describe-string,id-int,module-string,value-string
 ,10090018,奖励预览,Aperçu de la récompense
 ,10090019,恭喜获得,Félicitations pour avoir obtenu :
 ,10090020,放弃任务确认提示,Êtes-vous sûr de vouloir abandonner cette tâche ?
-,10090021,放弃任务时间提示,Impossible d'abandonner continuellement pendant 5 minutes.
+,10090021,放弃每日任务提示,Ne peut pas abandonner continuellement pendant {0} minutes.
 ,20010001,断网标题,Déconnecté
 ,20010002,断网提示,Le réseau est déconnecté
 ,20010003,被T提示,Votre compte est connecté ailleurs
