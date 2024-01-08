@@ -42,27 +42,40 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// 后面的变动通过 UpdateNode,AddNode,RemoveNode 来更新
     /// </summary>
     /// <param name="talentData"></param>
-    public void Init(GrpcTalentData talentData)
+    public bool Init(GrpcTalentData talentData)
     {
-        Log.Info("init talent tree");
-        TalentTreeLvList = talentData.Levels == null ? new() : new(talentData.Levels);
-        AllTalentTreeDic = new();
+        Log.Info("start init talent tree");
         AllTalentTreeList = new();
-        int treeCount = talentData.Trees == null ? 0 : talentData.Trees.Length;
-        for (int treeIndex = 0; treeIndex < treeCount; treeIndex++)
-        {
-            GrpcTalentTree tree = talentData.Trees[treeIndex];
-            AllTalentTreeList.Add(tree.TalentType, new(tree.Nodes));
-            AllTalentTreeDic.Add(tree.TalentType, new());
-            int nodeCount = tree.Nodes.Length;
-            for (int nodeIndex = 0; nodeIndex < nodeCount; nodeIndex++)
-            {
-                GrpcTalentNodeData node = tree.Nodes[nodeIndex];
-                AllTalentTreeDic[tree.TalentType].Add(node.NodeId, node);
-            }
-        }
+        AllTalentTreeDic = new();
+        TalentTreeLvList = new();
 
-        RefEntity.EntityEvent.TalentSkillInited?.Invoke(GetTalentSkills());
+        try
+        {
+            TalentTreeLvList.AddRange(talentData.Levels);//天赋树等级列表
+            int treeCount = talentData.Trees.Length;
+            for (int treeIndex = 0; treeIndex < treeCount; treeIndex++)
+            {
+                GrpcTalentTree tree = talentData.Trees[treeIndex];
+                AllTalentTreeList.Add(tree.TalentType, new(tree.Nodes));
+                AllTalentTreeDic.Add(tree.TalentType, new());
+                int nodeCount = tree.Nodes.Length;
+                for (int nodeIndex = 0; nodeIndex < nodeCount; nodeIndex++)
+                {
+                    GrpcTalentNodeData node = tree.Nodes[nodeIndex];
+                    AllTalentTreeDic[tree.TalentType].Add(node.NodeId, node);
+                }
+            }
+
+            RefEntity.EntityEvent.TalentSkillInited?.Invoke(GetTalentSkills());
+            Log.Info("init talent tree success");
+            return true;
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"init talent tree success,but some error happened, error: {e.Message}");
+            RefEntity.EntityEvent.TalentSkillInited?.Invoke(new List<int>());
+            return false;
+        }
     }
 
     /// <summary>
