@@ -1569,7 +1569,7 @@ canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-
 -------
 フラワーピーク入場券
 ",0,item-icon-468,468,花峰入場券,1,4,0,1
-1,,0,item-icon-469,469,壊れた浮遊界入場券,1,4,0,1
+1,壊れたフラワーピーク入場券は完全なフラワーピーク入場券と交換することができます。,0,item-icon-469,469,壊れた浮遊界入場券,1,4,0,1
 1,壊れたフラワーピーク入場券は完全なフラワーピーク入場券と交換することができます。,0,item-icon-470,470,壊れた花峰入場券,1,4,0,1
 1,"装備を合成すると入手するチャンスがあります。
 属性のないおしゃれな外見
@@ -1595,4 +1595,4 @@ canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-
 属性のないおしゃれな外見
 -------
 ファッションとして着用をおすすめします",0,item-icon-475,475,ギャングコアのシューズ,5,1,4,1
-1,,0,item-icon-478,478,,1,4,0,1
+1,,0,item-icon-478,478,LUAG Future: [411]LUAGの未来,1,4,0,1
