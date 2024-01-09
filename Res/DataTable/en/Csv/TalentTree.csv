@@ -100,7 +100,7 @@ TreeProficiency + 5
 OreProficiency + 5
 MaxEnergy + 10","86,10000","1,3",talentTree-29,29,1,6,1,Gather Mastery  6,3,3770,5,0,28
 -3,Unlock Set Recipes Lv 1,70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"100,156,243",0,"0,0,0",
--3,Unlock Set Recipes Lv 2,71#75#203;112#182;181#183#184,2,talentTree-34,34,0,2,3,Gather Set Recipes,3,"311,485,758",0,"0,0,0",33
+-3,Unlock Set Recipes Lv 2,71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Gather Set Recipes,3,"311,485,758",0,"0,0,0",33
 -1,Lovely Touch,415,0,talentTree-45,45,0,3,1,Lovely Touch,1,547,0,0,23
 -1,Efficiency Skills - Group Hoe,103,0,talentTree-46,46,0,4,1,Earth Splitter,1,916,0,0,45
 2,PlantingProficiency + 4,246,1,talentTree-48,48,0,3,1,Farm - PlantingProficiency ,1,547,0,0,81
@@ -113,7 +113,7 @@ MaxEnergy + 10","86,10000","1,3",talentTree-29,29,1,6,1,Gather Mastery  6,3,3770
 -2,Repel the enemy in a small area in front of you and flip backwards,123,0,talentTree-57,57,0,5,1,Escape,2,1178,0,0,56
 -1,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,2,486,0,0,
 -3,"Dizzy enemies within a certain range, unable to hit during skill release",64,0,talentTree-61,61,0,4,1,War Trampling,2,814,0,0,52
--3,Unlock Set Recipes Lv 3,72#76#204;113#186;185#187#188,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"730,1140,1780",0,"0,0,0",34
+-3,Unlock Set Recipes Lv 3,72#76#204;113#186;185#187#188#483#485#488#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"730,1140,1780",0,"0,0,0",34
 -1,"Unlock Potion Recipe
 Unlock Energy Potion Recipe",95#267,2,talentTree-65,65,0,1,1,Magic Props Recipes,3,100,0,0,
 -1,"Unlock Potion Recipe
@@ -132,14 +132,14 @@ Unlock Energy Potion Recipe",347#383,2,talentTree-69,69,0,5,1,Magic Props Recipe
 4,BreedingProficiency + 4,233,1,talentTree-76,76,0,1,1,Farm - BreedingProficiency,1,75,0,0,
 -1,Efficiency Skills - Group Hoe,102,0,talentTree-77,77,0,1,1,Earth Splitter,1,75,0,0,
 -4,Unlock Lv 1 equipment recipes,62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,1,"75,113,172",0,"0,0,0",
--4,Unlock Lv 2 equipment recipes,63#377#67#127#128#126#206;109#169;170#171#172,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"233,434,809",0,"0,0,0",78
+-4,Unlock Lv 2 equipment recipes,63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"233,434,809",0,"0,0,0",78
 1,FertilityCapacity + 1,229,1,talentTree-80,80,0,2,1,Farm - Fertility output per unit of land,1,233,0,0,22
 2,PlantingProficiency + 4,245,1,talentTree-81,81,0,2,1,Farm - PlantingProficiency ,1,233,0,0,73
 3,PetHappinessCapacity + 1,232,1,talentTree-82,82,0,2,1,Farm - Harvest proficiency,1,233,0,0,74
 4,BreedingProficiency + 4,247,1,talentTree-83,83,0,2,1,Farm - Pet Unit Output Happiness Index,1,233,0,0,76
 1,FertilityCapacity + 1,236,1,talentTree-84,84,0,4,1,Farm - FertilityCapacity ,1,916,0,0,93
 4,BreedingProficiency + 4,289,1,talentTree-85,85,0,5,1,Farm - BreedingProficiency,1,1325,0,0,90
--4,Unlock Lv 3 equipment recipes,64#378#68#131#130#129;110#173;174#175#176,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"547,1020,1900",0,"0,0,0",79
+-4,Unlock Lv 3 equipment recipes,64#378#68#131#130#129;110#173;174#175#176#487#506#505#501#490#499#500#580,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"547,1020,1900",0,"0,0,0",79
 3,PetHappinessCapacity + 1,282,1,talentTree-89,89,0,4,1,Farm - PetHappinessCapacity ,1,916,0,0,92
 4,BreedingProficiency + 4,288,1,talentTree-90,90,0,4,1,Farm - BreedingProficiency,1,916,0,0,91
 4,BreedingProficiency + 4,248,1,talentTree-91,91,0,3,1,Farm - BreedingProficiency,1,547,0,0,83
@@ -152,11 +152,11 @@ Unlock Energy Potion Recipe",347#383,2,talentTree-69,69,0,5,1,Magic Props Recipe
 2,Combat ATK +5,252,1,talentTree-98,98,0,1,1,Combat - Attack Power,2,85,0,0,
 1,Increase speed by 10%/20%/30%.,116;117;118,1,talentTree-99,99,0,1,3,Expert,2,"85,94,105",0,"0,0,0",
 4,Combat MaxHP +20,265,1,talentTree-100,100,0,2,1,Combat - HP,2,233,0,0,96
--5,Unlock Set Recipes Lv 2,45#365#371;134#137;140#143#146,2,talentTree-101,101,0,2,3,Combat Set Recipes,2,"233,281,340",0,"0,0,0",95
+-5,Unlock Set Recipes Lv 2,45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579,2,talentTree-101,101,0,2,3,Combat Set Recipes,2,"233,281,340",0,"0,0,0",95
 3,Combat DEF +5,259,1,talentTree-102,102,0,2,1,Combat - Defense,2,233,0,0,97
 2,Combat ATK +5,253,1,talentTree-103,103,0,2,1,Combat - Attack Power,2,233,0,0,98
 1,CombatHit + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3,Expert,2,"233,281,340",0,"0,0,0",99
--5,Unlock Set Recipes Lv 3,46#366#372;135#138;141#144#147,2,talentTree-105,105,0,3,3,Combat Set Recipes,2,"486,634,826",0,"0,0,0",101
+-5,Unlock Set Recipes Lv 3,46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493,2,talentTree-105,105,0,3,3,Combat Set Recipes,2,"486,634,826",0,"0,0,0",101
 3,Combat DEF +5,260,1,talentTree-106,106,0,3,1,Combat - Defense,2,486,0,0,102
 2,Combat ATK +5,254,1,talentTree-107,107,0,3,1,Combat - Attack Power,2,486,0,0,103
 1,Gain a 2/4/6% dodge rate,125;126;127,1,talentTree-108,108,0,3,3,Expert,2,"486,634,826",0,"0,0,0",104
@@ -216,24 +216,24 @@ Unlock Energy Potion Recipe",348#384,2,talentTree-204,204,0,6,1,Magic Props Reci
 -2,Unlock Essence Recipes Lv 2,159,2,talentTree-246,246,0,2,1,Gather Essence Recipes,3,311,0,0,245
 -2,Unlock Essence Recipes Lv 3,160,2,talentTree-247,247,0,3,1,Gather Essence Recipes,3,730,0,0,246
 5,Capture animals as your pets,166,0,talentTree-254,254,0,1,1,Capture,1,75,0,0,
--5,Unlock Set Recipes Lv 4,270#367#373;271#272;273#274#275,2,talentTree-256,256,0,4,3,Combat Set Recipes,2,"814,1061,1382",0,"10,10,10",105
+-5,Unlock Set Recipes Lv 4,270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581,2,talentTree-256,256,0,4,3,Combat Set Recipes,2,"814,1061,1382",0,"10,10,10",105
 -4,Unlock Essence Recipes Lv 4,340,2,talentTree-257,257,0,4,1,Combat Essence Recipes,2,814,0,10,238
--5,Unlock Set Recipes Lv 5,292#368#374;293#294;295#296#297,2,talentTree-258,258,0,5,3,Combat Set Recipes,2,"1178,1535,1999",0,"15,15,15",256
+-5,Unlock Set Recipes Lv 5,292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582,2,talentTree-258,258,0,5,3,Combat Set Recipes,2,"1178,1535,1999",0,"15,15,15",256
 -4,Unlock Essence Recipes Lv 5,341,2,talentTree-259,259,0,5,1,Combat Essence Recipes,2,1178,0,15,257
--5,Unlock Set Recipes Lv 6,313#369#375;314#315;316#317#318,2,talentTree-260,260,0,6,3,Combat Set Recipes,2,"1570,2046,2666",0,"20,20,20",258
+-5,Unlock Set Recipes Lv 6,313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583,2,talentTree-260,260,0,6,3,Combat Set Recipes,2,"1570,2046,2666",0,"20,20,20",258
 -4,Unlock Essence Recipes Lv 6,342,2,talentTree-261,261,0,6,1,Combat Essence Recipes,2,1570,0,20,259
--3,Unlock Set Recipes Lv 4,276#277#278;279#280;281#288#289,2,talentTree-262,262,0,4,3,Gather Set Recipes,3,"1221,1907,2978",0,"10,10,10",62
+-3,Unlock Set Recipes Lv 4,276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3,Gather Set Recipes,3,"1221,1907,2978",0,"10,10,10",62
 -2,Unlock Essence Recipes Lv 4,343,2,talentTree-263,263,0,4,1,Gather Essence Recipes,3,1221,0,10,247
--3,Unlock Set Recipes Lv 5,298#299#300;301#302;303#304#305,2,talentTree-264,264,0,5,3,Gather Set Recipes,3,"1767,2759,4309",0,"15,15,15",262
+-3,Unlock Set Recipes Lv 5,298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3,Gather Set Recipes,3,"1767,2759,4309",0,"15,15,15",262
 -2,Unlock Essence Recipes Lv 5,344,2,talentTree-265,265,0,5,1,Gather Essence Recipes,3,1767,0,15,263
--3,Unlock Set Recipes Lv 6,319#320#321;322#323;324#325#326,2,talentTree-266,266,0,6,3,Gather Set Recipes,3,"2356,3679,5745",0,"20,20,20",264
+-3,Unlock Set Recipes Lv 6,319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3,Gather Set Recipes,3,"2356,3679,5745",0,"20,20,20",264
 -2,Unlock Essence Recipes Lv 6,345,2,talentTree-267,267,0,6,1,Gather Essence Recipes,3,2356,0,20,265
--4,Unlock Set Recipes Lv 4,282#379#416#405#406#407;284#285;286#287#291,2,talentTree-268,268,0,4,3,Farming Set Recipes,1,"916,1706,3179",0,"10,10,10",88
+-4,Unlock Set Recipes Lv 4,282#379#416#405#406#407;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3,Farming Set Recipes,1,"916,1706,3179",0,"10,10,10",88
 -3,Unlock Essence Recipes Lv 4,334,2,talentTree-269,269,0,4,1,Planting Essence Recipes,1,916,0,5,229
 -2,Unlock Essence Recipes Lv 4,337,2,talentTree-270,270,0,4,1,Livestock Essence Recipes,1,916,0,5,94
--4,Unlock Set Recipes Lv 5,306#380#417#410#411#412;308#309;310#311#312,2,talentTree-271,271,0,5,3,Farming Set Recipes,1,"1325,2469,4600",0,"15,15,15",268
+-4,Unlock Set Recipes Lv 5,306#380#417#410#411#412;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3,Farming Set Recipes,1,"1325,2469,4600",0,"15,15,15",268
 -3,Unlock Essence Recipes Lv 5,335,2,talentTree-272,272,0,5,1,Planting Essence Recipes,1,1325,0,8,269
 -2,Unlock Essence Recipes Lv 5,338,2,talentTree-273,273,0,5,1,Livestock Essence Recipes,1,1325,0,8,270
--4,Unlock Set Recipes Lv 6,327#381#418#413#414#415;329#330;331#332#333,2,talentTree-274,274,0,6,3,Farming Set Recipes,1,"1767,3292,6133",0,"20,20,20",271
+-4,Unlock Set Recipes Lv 6,327#381#418#413#414#415;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3,Farming Set Recipes,1,"1767,3292,6133",0,"20,20,20",271
 -3,Unlock Essence Recipes Lv 6,336,2,talentTree-275,275,0,6,1,Planting Essence Recipes,1,1767,0,10,272
 -2,Unlock Essence Recipes Lv 6,339,2,talentTree-276,276,0,6,1,Livestock Essence Recipes,1,1767,0,10,273

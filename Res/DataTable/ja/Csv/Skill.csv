@@ -46,7 +46,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,62,0,1,0,0,0,0,0,,,,,,-1,致命的なレベル3のクリティカルヒットを放つ技術をマスターする。,,1,Lv3 戦闘クリティカル,,,1,0,1,,,,skill-icon-62,,,,,,,57,,,,
 0,0,0,0,0,"58,238",22,350,63,0,1,0,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling,Skill_trampling,,665,5000," [113]一定の範囲内で敵をめまいにする。
 ",0,2,踏みつけ,"2,200",WarTrampling,1,0,1,,,,skill-icon-63,,,,,,,,,,,
-0,0,0,0,0,"495,238,386,227","467,483,502",350,64,0,1,0,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling_3,Skill_trampling,,665,8000," [114]一定の範囲内で敵をめまいにし、スキル解放中に攻撃できない状態にする。
+0,0,0,0,0,"495,238,386,227","483,22",350,64,0,1,0,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling_3,Skill_trampling,,665,8000," [114]一定の範囲内で敵をめまいにし、スキル解放中に攻撃できない状態にする。
 ",0,2,戦争の踏みつけ,"2,300",WarTrampling,1,0,1,,,,skill-icon-64,,,,,,,,,,,
 0,0,0,0,0,"457,445,388",22,550,65,0,1,0,0,0,0,0,A-chuisanlianji-2-NEW,Skill_Sweeping,Skill_Swepping,,1000,5000," [115]前方の広範囲の敵を撃破し、一時的なめまいを引き起こす。
 ",0,2,掃討,"4,300,300,27000",WarTrampling,1,0,1,,,,skill-icon-65,,,,,,,,,,,
@@ -442,7 +442,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"471,386,3",467,1000,413,1,0,0,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,3000," [77]空
 ",600,2,挿入する,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
 0,0,0,,0,"35,388",467,0,414,1,0,0,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,60000," [79]空
-",1000,2,手をこすって雷を発する,"2,300",,1,0,1,,1000,497,,,,top_down_Normal_3,[24],4,,478,,,,
+",1000,2,手をこすって雷を発する,"2,300",,1,0,1,,1000,"497,485",,,,top_down_Normal_3,[24],4,,478,,,,
 0,0,0,,0,,,200,415,0,0,0,1,0,0,0,happy,,,,660,30000," [152]一時的にPetHappinessCapacityを増やす。
 ",,2,ラブリータッチ,,,1,0,1,,1000,470,skill-icon-415,,,,,,,,,,,
 0,0,0,,0,"15,456,446",463,1700,417,1,0,0,0,0,0,1,attackArea,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,4000," [58]空
