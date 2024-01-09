@@ -60,7 +60,7 @@ public static class BattleDefine
     public static eBattleState[] BATTLE_STATE_CANNOT_MOVE_LIST = { eBattleState.Stun, eBattleState.Root };
     public static eBattleState[] BATTLE_STATE_CANNOT_SKILL_LIST = { eBattleState.Stun, eBattleState.Silence };
     public const long ENTITY_ID_UNKNOWN = -1;  // 未知实体ID
-    public const int ENTITY_HATRED_MAX_RANGE = 25;  // 仇恨最大范围
+    public const int ENTITY_HATRED_MAX_RANGE = 99;  // 仇恨最大范围
     public const float MAX_PARABOLA_FLYER_HEIGHT = 2.5f;  // 抛物线子弹最大高度
 
     public const int PLAYER_DEATH_STATUS_TIME = 60000;  // 玩家死亡状态时间
