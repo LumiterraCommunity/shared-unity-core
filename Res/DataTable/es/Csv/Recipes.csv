@@ -258,30 +258,30 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0, Puedes recibir las siguientes recompensas:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-432,432,3,"209,1;478,20000",Nivel 3 LUAG Receta de lotería,"478,1,160000,100;478,1,36000,400;478,1,24000,1500;478,1,22000,3000;478,1,12000,5000",0,97432,1,3,-,0,1,1,0,3
 0, Puedes recibir las siguientes recompensas:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-433,433,3,"212,1;478,20000",Nivel 3 LUAG Receta de lotería,"478,1,160000,100;478,1,12000,5000;478,1,36000,400;478,1,24000,1500;478,1,22000,3000",0,97433,1,3,-,0,1,1,0,3
 0, Puedes recibir las siguientes recompensas:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-434,434,3,"215,1;478,20000",Nivel 3 LUAG Receta de lotería,"478,1,160000,100;478,1,36000,400;478,1,24000,1500;478,1,22000,3000;478,1,12000,5000",0,97434,1,3,-,0,1,1,0,3
-0,Vuelve a fundir tu Chaqueta de Recolecta,2,recipe-icon-435,435,1,"122,1;216,",Lv 1 Recasting de la Chaqueta de Recolección,"119,1,1,10000",0,99435,1,10,-,3,0,4,0,0
-0,Vuelve a fundir tu Hacha de Hierro,2,recipe-icon-436,436,1,"80,1;216,",Lv 1 Recasting del Hacha de Hierro,"92,1,1,10000",0,99436,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tu Chaqueta de Recolecta,2,recipe-icon-435,435,1,"122,1;216,2",Lv 1 Recasting de la Chaqueta de Recolección,"119,1,1,10000",0,99435,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tu Hacha de Hierro,2,recipe-icon-436,436,1,"80,1;216,2",Lv 1 Recasting del Hacha de Hierro,"92,1,1,10000",0,99436,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tu Sombrero de Agricultor Dorado,2,recipe-icon-526,526,4,"350,1;209,2",Lv 4 Recasting del Sombrero de Agricultura Dorado,"350,1,1,4153;350,2,1,2769;350,3,1,1846;350,4,1,1230",0,96526,1,10,-,1,0,4,0,10
 0,Vuelve a fundir tu Hoz de Hierro,2,recipe-icon-480,480,2,"227,1;216,2",Lv 2 Recasting de la Hoz de Hierro,"227,1,1,6000;227,2,1,4000",0,98480,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Hacha de Diamante,2,recipe-icon-537,537,5,"306,1;401,2",Lv 5 Recasting del Hacha de Diamante,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,95537,1,10,-,3,0,4,0,15
 0,Vuelve a fundir tu Chaqueta de Agricultura,2,recipe-icon-462,462,2,"102,1;207,2",Lv 2 Recasting de la Chaqueta de Agricultura,"102,1,1,6000;102,2,1,4000",0,98462,1,10,-,1,0,4,0,0
 0,Recast your Diamond Farmer Glove: Vuelve a fundir tu Guante de Granjero de Diamante,2,recipe-icon-548,548,5,"357,1;404,2",Lv 5 Recasting de Guantes de Granjero de Diamante,"357,1,1,3990;357,2,1,2660;357,3,1,1773;357,4,1,1182;357,5,1,394",0,95548,1,10,-,1,0,4,0,15
-0,Vuelve a fundir tu Arco de Piedra,2,recipe-icon-444,444,1,"287,1;213,;210,",Lv 1 Recasting del Arco de Piedra,"287,1,1,10000",0,99444,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Arco de Piedra,2,recipe-icon-444,444,1,"287,1;213,1;210,1",Lv 1 Recasting del Arco de Piedra,"287,1,1,10000",0,99444,1,10,-,2,0,4,0,0
 0,Recast your Star Farmer Shoes: Vuelve a fundir tus Zapatos de Granjero Estelar,2,recipe-icon-568,568,6,"364,1;405,2",Lv 6 Recasting de Zapatos de Granjero Estelar,"364,1,1,3990;364,2,1,2660;364,3,1,1773;364,4,1,1182;364,5,1,394",0,94568,1,10,-,1,0,4,0,20
 0,Vuelve a fundir tus Guantes de Recolecta,2,recipe-icon-487,487,3,"112,1;208,2",Lv 3 Recasting de los Guantes de Recolección,"127,1,1,4736;127,2,1,3157;127,3,1,2105",0,97487,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tu Hacha Maldita,2,recipe-icon-468,468,2,"93,1;216,2",Lv 2 Recasting del Hacha Maldita,"93,1,1,6000;93,2,1,4000",0,98468,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Espada de Hierro,2,recipe-icon-479,479,2,"41,1;213,1;210,1",Lv 2 Recasting de la Espada de Hierro,"41,1,1,6000;41,2,1,4000",0,98479,1,10,-,2,0,4,0,0
 0,Recast your Diamond Fighter Pants: Vuelve a fundir tus Pantalones de Luchador de Diamante,2,recipe-icon-540,540,5,"343,1;410,1;407,1",Lv 5 Recasting de Pantalones de Luchador de Diamante,"343,1,1,3990;343,2,1,2660;343,3,1,1773;343,4,1,1182;343,5,1,394",0,95540,1,10,-,2,0,4,0,15
 0,Recast your Star Farmer Hat: Vuelve a fundir tu Sombrero de Granjero Estelar,2,recipe-icon-573,573,6,"360,1;405,2",Lv 6 Recasting de Sombrero de Granjero Estelar,"360,1,1,3990;360,2,1,2660;360,3,1,1773;360,4,1,1182;360,5,1,394",0,94573,1,10,-,1,0,4,0,20
-0,Vuelve a fundir tus Guantes de Recolecta,2,recipe-icon-452,452,1,"125,1;216,",Lv 1 Recasting de los Guantes de Recolección,"125,1,1,10000",0,99452,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tus Guantes de Recolecta,2,recipe-icon-452,452,1,"125,1;216,2",Lv 1 Recasting de los Guantes de Recolección,"125,1,1,10000",0,99452,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Tetera Bendita,2,recipe-icon-506,506,3,"86,1;208,2",Lv 3 Recasting de la Tetera Bendita,"86,1,1,4736;86,2,1,3157;86,3,1,2105",0,97506,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tu Azada Bendita,2,recipe-icon-505,505,3,"82,1;208,2",Lv 3 Recasting de la Azada Bendita,"82,1,1,4736;82,2,1,3157;82,3,1,2105",0,97505,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tus Guantes de Agricultura,2,recipe-icon-460,460,2,"108,1;207,2",Lv 2 Recasting de los Guantes de Agricultura,"108,1,1,6000;108,2,1,4000",0,98460,1,10,-,1,0,4,0,0
-0,Vuelve a fundir tus Zapatos de Hierba de Cristal Agrietado,2,recipe-icon-449,449,1,"55,1;213,;210,",Lv 1 Recasting de los Zapatos de Hierba de Cristal Agrietado,"55,1,1,10000",0,99449,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tus Zapatos de Hierba de Cristal Agrietado,2,recipe-icon-449,449,1,"55,1;213,1;210,1",Lv 1 Recasting de los Zapatos de Hierba de Cristal Agrietado,"55,1,1,10000",0,99449,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tu Chaqueta de Agricultura,2,recipe-icon-501,501,3,"103,1;208,2",Lv 3 Recasting de la Chaqueta de Agricultura,"103,1,1,4736;103,2,1,3157;103,3,1,2105",0,97501,1,10,-,1,0,4,0,0
 0,Recast your Diamond Gather Coat: Vuelve a fundir tu Abrigo de Recolector de Diamante,2,recipe-icon-539,539,5,"326,1;401,2",Lv 5 Recasting de Abrigo de Recolector de Diamante,"326,1,1,3990;326,2,1,2660;326,3,1,1773;326,4,1,1182;326,5,1,394",0,95539,1,10,-,3,0,4,0,15
-0,Vuelve a fundir tu Armadura de Cristal Agrietado,2,recipe-icon-446,446,1,"46,1;213,;210,",Lv 1 Recasting de la Armadura de Cristal Agrietado,"46,1,1,10000",0,99446,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Armadura de Cristal Agrietado,2,recipe-icon-446,446,1,"46,1;213,1;210,1",Lv 1 Recasting de la Armadura de Cristal Agrietado,"46,1,1,10000",0,99446,1,10,-,2,0,4,0,0
 0,Recast your Diamond Farmer Shoes: Vuelve a fundir tus Zapatos de Granjero de Diamante,2,recipe-icon-533,533,5,"359,1;404,2",Lv 5 Recasting de Zapatos de Granjero de Diamante,"359,1,1,3990;359,2,1,2660;359,3,1,1773;359,4,1,1182;359,5,1,394",0,95533,1,10,-,1,0,4,0,15
-0,Vuelve a fundir tu Tetera de Hierro,2,recipe-icon-437,437,1,"88,1;216,",Lv 1 Recasting de la Tetera de Hierro,"84,1,1,10000",0,99437,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tu Tetera de Hierro,2,recipe-icon-437,437,1,"88,1;216,2",Lv 1 Recasting de la Tetera de Hierro,"84,1,1,10000",0,99437,1,10,-,3,0,4,0,0
 0,Recast your Diamond Farmer Coat: Vuelve a fundir tu Abrigo de Granjero de Diamante,2,recipe-icon-545,545,5,"356,1;404,2",Lv 5 Recasting de Abrigo de Granjero de Diamante,"356,1,1,3990;356,2,1,2660;356,3,1,1773;356,4,1,1182;356,5,1,394",0,95545,1,10,-,1,0,4,0,15
 0,Vuelve a fundir tu Abrigo de Agricultor Dorado,2,recipe-icon-520,520,4,"351,1;209,2",Lv 4 Recasting de la Chaqueta de Agricultura Dorada,"351,1,1,4153;351,2,1,2769;351,3,1,1846;351,4,1,1230",0,96520,1,10,-,1,0,4,0,10
 0,Vuelve a fundir tus Guantes de Luchador Dorados,2,recipe-icon-511,511,4,"337,1;215,1;212,1",Lv 4 Recasting de los Guantes de Luchador Dorados,"337,1,1,4153;337,2,1,2769;337,3,1,1846;337,4,1,1230",0,96511,1,10,-,2,0,4,0,10
@@ -294,48 +294,48 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Vuelve a fundir tu Tetera Dorada,2,recipe-icon-528,528,4,"304,1;209,2",Lv 4 Recasting de la Tetera Dorada,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96528,1,10,-,1,0,4,0,10
 0,Vuelve a fundir tus Zapatos de Agricultura,2,recipe-icon-472,472,2,"111,1;207,2",Lv 2 Recasting de los Zapatos de Agricultura,"111,1,1,6000;111,2,1,4000",0,98472,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tu Hoz de Cristal,2,recipe-icon-483,483,3,"228,1;217,2",Lv 3 Recasting de la Hoz de Cristal,"228,1,1,4736;228,2,1,3157;228,3,1,2105",0,97483,1,10,-,3,0,4,0,0
-0,Vuelve a fundir tu Sombrero de Trébol de la Suerte,2,recipe-icon-457,457,1,"119,1;216,",Lv 1 Recasting del Sombrero de Trébol de la Suerte,"98,1,1,10000",0,99457,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tu Sombrero de Trébol de la Suerte,2,recipe-icon-457,457,1,"119,1;216,2",Lv 1 Recasting del Sombrero de Trébol de la Suerte,"98,1,1,10000",0,99457,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Sombrero de Recolecta,2,recipe-icon-485,485,3,"127,1;217,2",Lv 3 Recasting del Sombrero de Recolección,"118,1,1,4736;118,2,1,3157;118,3,1,2105",0,97485,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tus Zapatos de Agricultor Dorados,2,recipe-icon-510,510,4,"354,1;209,2",Lv 4 Recasting de los Zapatos de Agricultura Dorados,"354,1,1,4153;354,2,1,2769;354,3,1,1846;354,4,1,1230",0,96510,1,10,-,1,0,4,0,10
 0,Vuelve a fundir tu Sombrero de Recolector Dorado,2,recipe-icon-525,525,4,"320,1;218,2",Lv 4 Recasting del Sombrero de Recolección Dorado,"320,1,1,4153;320,2,1,2769;320,3,1,1846;320,4,1,1230",0,96525,1,10,-,3,0,4,0,10
 0,Recast your Star Kettle: Vuelve a fundir tu Tetera Estelar,2,recipe-icon-563,563,6,"316,1;405,2",Lv 6 Recasting de Tetera Estelar,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94563,1,10,-,1,0,4,0,20
 0,Vuelve a fundir tus Guantes de Recolector Dorados,2,recipe-icon-524,524,4,"322,1;218,2",Lv 4 Recasting de los Guantes de Recolección Dorados,"322,1,1,4153;322,2,1,2769;322,3,1,1846;322,4,1,1230",0,96524,1,10,-,3,0,4,0,10
-0,Vuelve a fundir tu Hoz de Cobre,2,recipe-icon-455,455,1,"226,1;216,",Lv 1 Recasting de la Hoz de Cobre,"226,1,1,10000",0,99455,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tu Hoz de Cobre,2,recipe-icon-455,455,1,"226,1;216,2",Lv 1 Recasting de la Hoz de Cobre,"226,1,1,10000",0,99455,1,10,-,3,0,4,0,0
 0,Recast your Star Gather Hat: Vuelve a fundir tu Sombrero de Recolector Estelar,2,recipe-icon-557,557,6,"330,1;402,2",Lv 6 Recasting de Sombrero de Recolector Estelar,"330,1,1,3990;330,2,1,2660;330,3,1,1773;330,4,1,1182;330,5,1,394",0,94557,1,10,-,3,0,4,0,20
-0,Vuelve a fundir tu Pico de Hierro,2,recipe-icon-445,445,1,"98,1;216,",Lv 1 Recasting del Pico de Hierro,"88,1,1,10000",0,99445,1,10,-,1,0,4,0,0
-0,Vuelve a fundir tus Guantes de Agricultura,2,recipe-icon-448,448,1,"107,1;207,",Lv 1 Recasting de los Guantes de Agricultura,"107,1,1,10000",0,99448,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tu Pico de Hierro,2,recipe-icon-445,445,1,"98,1;216,2",Lv 1 Recasting del Pico de Hierro,"88,1,1,10000",0,99445,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tus Guantes de Agricultura,2,recipe-icon-448,448,1,"107,1;207,2",Lv 1 Recasting de los Guantes de Agricultura,"107,1,1,10000",0,99448,1,10,-,1,0,4,0,0
 0,Recast your Diamond Gather Shoes: Vuelve a fundir tus Zapatos de Recolector de Diamante,2,recipe-icon-538,538,5,"329,1;401,2",Lv 5 Recasting de Zapatos de Recolector de Diamante,"329,1,1,3990;329,2,1,2660;329,3,1,1773;329,4,1,1182;329,5,1,394",0,95538,1,10,-,3,0,4,0,15
 0,Recast your Star Gather Glove: Vuelve a fundir tu Guante de Recolector Estelar,2,recipe-icon-554,554,6,"332,1;402,2",Lv 6 Recasting de Guantes de Recolector Estelar,"332,1,1,3990;332,2,1,2660;332,3,1,1773;332,4,1,1182;332,5,1,394",0,94554,1,10,-,3,0,4,0,20
 0,Recast your Star Pickaxe: Vuelve a fundir tu Pico Estelar,2,recipe-icon-565,565,6,"313,1;402,2",Lv 6 Recasting de Pico Estelar,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94565,1,10,-,3,0,4,0,20
-0,Vuelve a fundir tu Pulsera de Cristal Agrietado,2,recipe-icon-443,443,1,"52,1;213,;210,",Lv 1 Recasting de la Pulsera de Cristal Agrietado,"52,1,1,10000",0,99443,1,10,-,2,0,4,0,0
-0,Vuelve a fundir tu Martillo de Cobre,2,recipe-icon-456,456,1,"441,1;213,;210,",Lv 1 Recasting del Martillo de Cobre,"441,1,1,10000",0,99456,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Pulsera de Cristal Agrietado,2,recipe-icon-443,443,1,"52,1;213,1;210,1",Lv 1 Recasting de la Pulsera de Cristal Agrietado,"52,1,1,10000",0,99443,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Martillo de Cobre,2,recipe-icon-456,456,1,"441,1;213,1;210,1",Lv 1 Recasting del Martillo de Cobre,"441,1,1,10000",0,99456,1,10,-,2,0,4,0,0
 0,Recast your Diamond Sickle: Vuelve a fundir tu Hoz de Diamante,2,recipe-icon-577,577,5,"309,1;401,2",Lv 5 Recasting de Hoz de Diamante,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,95577,1,10,-,3,0,4,0,15
 0,Vuelve a fundir tu Azada Dorada,2,recipe-icon-507,507,4,"299,1;209,2",Lv 4 Recasting de la Azada Dorada,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,96507,1,10,-,1,0,4,0,10
 0,Recast your Diamond Farmer Hat: Vuelve a fundir tu Sombrero de Granjero de Diamante,2,recipe-icon-549,549,5,"355,1;404,2",Lv 5 Recasting de Sombrero de Granjero de Diamante,"355,1,1,3990;355,2,1,2660;355,3,1,1773;355,4,1,1182;355,5,1,394",0,95549,1,10,-,1,0,4,0,15
 0,Recast your Diamond Fighter Hat: Vuelve a fundir tu Sombrero de Luchador de Diamante,2,recipe-icon-535,535,5,"340,1;410,1;407,1",Lv 5 Recasting de Sombrero de Luchador de Diamante,"340,1,1,3990;340,2,1,2660;340,3,1,1773;340,4,1,1182;340,5,1,394",0,95535,1,10,-,2,0,4,0,15
 0,Vuelve a fundir tu Cepillo de Cristal,2,recipe-icon-490,490,3,"455,1;208,2",Lv 3 Recasting del Cepillo de Cristal,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97490,1,10,-,1,0,4,0,0
-0,Vuelve a fundir tu Falda de Hierba de Cristal Agrietado,2,recipe-icon-447,447,1,"49,1;213,;210,",Lv 1 Recasting de la Falda de Hierba de Cristal Agrietado,"49,1,1,10000",0,99447,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Falda de Hierba de Cristal Agrietado,2,recipe-icon-447,447,1,"49,1;213,1;210,1",Lv 1 Recasting de la Falda de Hierba de Cristal Agrietado,"49,1,1,10000",0,99447,1,10,-,2,0,4,0,0
 0,Recast your Star Hoe: Vuelve a fundir tu Azada Estelar,2,recipe-icon-564,564,6,"311,1;405,2",Lv 6 Recasting de Azada Estelar,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94564,1,10,-,1,0,4,0,20
 0,Vuelve a fundir tu Armadura de Piedra de Cristal,2,recipe-icon-497,497,3,"48,1;214,1;211,1",Lv 3 Recasting de la Armadura de Piedra de Cristal,"48,1,1,4736;48,2,1,3157;48,3,1,2105",0,97497,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tu Sombrero Duro de Trébol de la Suerte,2,recipe-icon-488,488,3,"115,1;217,2",Lv 3 Recasting del Sombrero Duro de Trébol de la Suerte,"112,1,1,4736;112,2,1,3157;112,3,1,2105",0,97488,1,10,-,3,0,4,0,0
-0,Vuelve a fundir tus Zapatos de Recolecta,2,recipe-icon-438,438,1,"92,1;216,",Lv 1 Recasting de los Zapatos de Recolección,"113,1,1,10000",0,99438,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tus Zapatos de Recolecta,2,recipe-icon-438,438,1,"92,1;216,2",Lv 1 Recasting de los Zapatos de Recolección,"113,1,1,10000",0,99438,1,10,-,3,0,4,0,0
 0,Recast your Diamond Gather Pants: Vuelve a fundir tus Pantalones de Recolector de Diamante,2,recipe-icon-544,544,5,"328,1;401,2",Lv 5 Recasting de Pantalones de Recolector de Diamante,"328,1,1,3990;328,2,1,2660;328,3,1,1773;328,4,1,1182;328,5,1,394",0,95544,1,10,-,3,0,4,0,15
 0,Vuelve a fundir tu Hacha Bendita,2,recipe-icon-491,491,3,"94,1;217,2",Lv 3 Recasting del Hacha Bendita,"94,1,1,4736;94,2,1,3157;94,3,1,2105",0,97491,1,10,-,3,0,4,0,0
 0,Recast your Diamond Kettle: Vuelve a fundir tu Tetera de Diamante,2,recipe-icon-551,551,5,"310,1;404,2",Lv 5 Recasting de Tetera de Diamante,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95551,1,10,-,1,0,4,0,15
 0,Vuelve a fundir tu Azada Maldita,2,recipe-icon-466,466,2,"81,1;207,2",Lv 2 Recasting de la Azada Maldita,"81,1,1,6000;81,2,1,4000",0,98466,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tu Hoz Dorada,2,recipe-icon-576,576,4,"303,1;218,2",Lv 4 Recasting de la Hoz Dorada,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,96576,1,10,-,3,0,4,0,10
 0,Vuelve a fundir tus Zapatos de Recolecta,2,recipe-icon-477,477,2,"114,1;216,2",Lv 2 Recasting de los Zapatos de Recolección,"114,1,1,6000;114,2,1,4000",0,98477,1,10,-,3,0,4,0,0
-0,Vuelve a fundir tus Pantalones de Agricultura,2,recipe-icon-441,441,1,"104,1;207,",Lv 1 Recasting de los Pantalones de Agricultura,"104,1,1,10000",0,99441,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tus Pantalones de Agricultura,2,recipe-icon-441,441,1,"104,1;207,2",Lv 1 Recasting de los Pantalones de Agricultura,"104,1,1,10000",0,99441,1,10,-,1,0,4,0,0
 0,Recast your Star Fighter Coat: Vuelve a fundir tu Abrigo de Luchador Estelar,2,recipe-icon-570,570,6,"346,1;411,1;408,1",Lv 6 Recasting de Abrigo de Luchador Estelar,"346,1,1,3990;346,2,1,2660;346,3,1,1773;346,4,1,1182;346,5,1,394",0,94570,1,10,-,2,0,4,0,20
 0,Vuelve a fundir tu Pico Maldito,2,recipe-icon-461,461,2,"89,1;216,2",Lv 2 Recasting del Pico Maldito,"89,1,1,6000;89,2,1,4000",0,98461,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Sombrero de Algodón de la Suerte,2,recipe-icon-481,481,2,"99,1;207,2",Lv 2 Recasting del Sombrero de Algodón de Trébol de la Suerte,"99,1,1,6000;99,2,1,4000",0,98481,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tu Cepillo Dorado,2,recipe-icon-522,522,4,"456,1;209,2",Lv 4 Recasting del Cepillo Dorado,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96522,1,10,-,1,0,4,0,10
-0,Vuelve a fundir tu Azada de Hierro,2,recipe-icon-439,439,1,"84,1;207,",Lv 1 Recasting de la Azada de Hierro,"80,1,1,10000",0,99439,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tu Azada de Hierro,2,recipe-icon-439,439,1,"84,1;207,2",Lv 1 Recasting de la Azada de Hierro,"80,1,1,10000",0,99439,1,10,-,1,0,4,0,0
 0,Recast your Diamond Hoe: Vuelve a fundir tu Azada de Diamante,2,recipe-icon-530,530,5,"305,1;404,2",Lv 5 Recasting de Azada de Diamante,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,95530,1,10,-,1,0,4,0,15
 0,Vuelve a fundir tus Pantalones de Luchador Dorados,2,recipe-icon-517,517,4,"338,1;215,1;212,1",Lv 4 Recasting de los Pantalones de Luchador Dorados,"338,1,1,4153;338,2,1,2769;338,3,1,1846;338,4,1,1230",0,96517,1,10,-,2,0,4,0,10
 0,Vuelve a fundir tu Chaqueta de Recolecta,2,recipe-icon-486,486,3,"118,1;217,2",Lv 3 Recasting de la Chaqueta de Recolección,"121,1,1,4736;121,2,1,3157;121,3,1,2105",0,97486,1,10,-,3,0,4,0,0
 0,Recast your Star Fighter Shoes: Vuelve a fundir tus Zapatos de Luchador Estelar,2,recipe-icon-555,555,6,"349,1;411,1;408,1",Lv 6 Recasting de Zapatos de Luchador Estelar,"349,1,1,3990;349,2,1,2660;349,3,1,1773;349,4,1,1182;349,5,1,394",0,94555,1,10,-,2,0,4,0,20
-0,Vuelve a fundir tus Zapatos de Agricultura,2,recipe-icon-454,454,1,"110,1;207,",Lv 1 Recasting de los Zapatos de Agricultura,"110,1,1,10000",0,99454,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tus Zapatos de Agricultura,2,recipe-icon-454,454,1,"110,1;207,2",Lv 1 Recasting de los Zapatos de Agricultura,"110,1,1,10000",0,99454,1,10,-,1,0,4,0,0
 0,Vuelve a fundir tus Pantalones de Agricultor Dorados,2,recipe-icon-509,509,4,"353,1;209,2",Lv 4 Recasting de los Pantalones de Agricultura Dorados,"353,1,1,4153;353,2,1,2769;353,3,1,1846;353,4,1,1230",0,96509,1,10,-,1,0,4,0,10
 0,Vuelve a fundir tu Hacha Dorada,2,recipe-icon-514,514,4,"300,1;218,2",Lv 4 Recasting del Hacha Dorada,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,96514,1,10,-,3,0,4,0,10
 0,Vuelve a fundir tus Guanteletes de Piedra de Cristal,2,recipe-icon-495,495,3,"54,1;214,1;211,1",Lv 3 Recasting del Guantelete de Piedra de Cristal,"54,1,1,4736;54,2,1,3157;54,3,1,2105",0,97495,1,10,-,2,0,4,0,0
@@ -349,16 +349,16 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Vuelve a fundir tus Zapatos de Piedra de Cristal,2,recipe-icon-498,498,3,"57,1;214,1;211,1",Lv 3 Recasting de los Zapatos de Piedra de Cristal,"57,1,1,4736;57,2,1,3157;57,3,1,2105",0,97498,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tu Arco de Diamante,2,recipe-icon-546,546,5,"451,1;410,1;407,1",Lv 5 Recasting del Arco de Diamante,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95546,1,10,-,2,0,4,0,15
 0,Recast your Star Gather Coat: Vuelve a fundir tu Abrigo de Recolector Estelar,2,recipe-icon-556,556,6,"331,1;402,2",Lv 6 Recasting de Abrigo de Recolector Estelar,"331,1,1,3990;331,2,1,2660;331,3,1,1773;331,4,1,1182;331,5,1,394",0,94556,1,10,-,3,0,4,0,20
-0,Vuelve a fundir tu Chaqueta de Agricultura,2,recipe-icon-450,450,1,"101,1;207,",Lv 1 Recasting de la Chaqueta de Agricultura,"101,1,1,10000",0,99450,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tu Chaqueta de Agricultura,2,recipe-icon-450,450,1,"101,1;207,2",Lv 1 Recasting de la Chaqueta de Agricultura,"101,1,1,10000",0,99450,1,10,-,1,0,4,0,0
 0,Recast your Starlight Brush: Vuelve a fundir tu Cepillo de Luz Estelar,2,recipe-icon-553,553,6,"458,1;405,2",Lv 6 Recasting de Cepillo Estelar,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94553,1,10,-,1,0,4,0,20
 0,Recast your Starlight Bow: Vuelve a fundir tu Arco de Luz Estelar,2,recipe-icon-559,559,6,"452,1;411,1;408,1",Lv 6 Recasting de Arco Estelar,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94559,1,10,-,2,0,4,0,20
 0,Vuelve a fundir tus Zapatos de Luchador Dorados,2,recipe-icon-518,518,4,"339,1;215,1;212,1",Lv 4 Recasting de los Zapatos de Luchador Dorados,"339,1,1,4153;339,2,1,2769;339,3,1,1846;339,4,1,1230",0,96518,1,10,-,2,0,4,0,10
 0,Vuelve a fundir tu Espada de Cristal,2,recipe-icon-489,489,3,"42,1;214,1;211,1",Lv 3 Recasting de la Espada de Cristal,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97489,1,10,-,2,0,4,0,0
-0,Vuelve a fundir tus Pantalones de Recolecta,2,recipe-icon-451,451,1,"113,1;216,",Lv 1 Recasting de los Pantalones de Recolección,"122,1,1,10000",0,99451,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tus Pantalones de Recolecta,2,recipe-icon-451,451,1,"113,1;216,2",Lv 1 Recasting de los Pantalones de Recolección,"122,1,1,10000",0,99451,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Martillo Dorado,2,recipe-icon-513,513,4,"444,1;215,1;212,1",Lv 4 Recasting del Martillo Dorado,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96513,1,10,-,2,0,4,0,10
 0,Vuelve a fundir tu Casco de Piedra de Cristal,2,recipe-icon-496,496,3,"45,1;214,1;211,1",Lv 3 Recasting del Casco de Piedra de Cristal,"45,1,1,4736;45,2,1,3157;45,3,1,2105",0,97496,1,10,-,2,0,4,0,0
 0,Recast your Star Farmer Glove: Vuelve a fundir tu Guante de Granjero Estelar,2,recipe-icon-575,575,6,"362,1;405,2",Lv 6 Recasting de Guantes de Granjero Estelar,"362,1,1,3990;362,2,1,2660;362,3,1,1773;362,4,1,1182;362,5,1,394",0,94575,1,10,-,1,0,4,0,20
-0,Vuelve a fundir tu Espada de Piedra,2,recipe-icon-459,459,1,"40,1;213,;210,",Lv 1 Recasting de la Espada de Piedra,"40,1,1,10000",0,99459,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Espada de Piedra,2,recipe-icon-459,459,1,"40,1;213,1;210,1",Lv 1 Recasting de la Espada de Piedra,"40,1,1,10000",0,99459,1,10,-,2,0,4,0,0
 0,Recast your Diamond Gather Glove: Vuelve a fundir tu Guante de Recolector de Diamante,2,recipe-icon-542,542,5,"327,1;401,2",Lv 5 Recasting de Guantes de Recolector de Diamante,"327,1,1,3990;327,2,1,2660;327,3,1,1773;327,4,1,1182;327,5,1,394",0,95542,1,10,-,3,0,4,0,15
 0,Vuelve a fundir tus Guantes de Agricultor Dorados,2,recipe-icon-523,523,4,"352,1;209,2",Lv 4 Recasting de los Guantes de Agricultura Dorados,"352,1,1,4153;352,2,1,2769;352,3,1,1846;352,4,1,1230",0,96523,1,10,-,1,0,4,0,10
 0,Vuelve a fundir tu Cepillo de Diamante,2,recipe-icon-547,547,5,"457,1;404,2",Lv 5 Recasting del Cepillo de Diamante,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95547,1,10,-,1,0,4,0,15
@@ -366,7 +366,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Recast your Star Axe: Vuelve a fundir tu Hacha Estelar,2,recipe-icon-578,578,6,"312,1;402,2",Lv 6 Recasting de Hacha Estelar,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94578,1,10,-,3,0,4,0,20
 0,Vuelve a fundir tus Pantalones de Piel de Cristal,2,recipe-icon-470,470,2,"50,1;213,1;210,1",Lv 2 Recasting de los Pantalones de Piel de Cristal,"50,1,1,6000;50,2,1,4000",0,98470,1,10,-,2,0,4,0,0
 0,Recast your Diamond Fighter Shoes: Vuelve a fundir tus Zapatos de Luchador de Diamante,2,recipe-icon-541,541,5,"344,1;410,1;407,1",Lv 5 Recasting de Zapatos de Luchador de Diamante,"344,1,1,3990;344,2,1,2660;344,3,1,1773;344,4,1,1182;344,5,1,394",0,95541,1,10,-,2,0,4,0,15
-0,Vuelve a fundir tu Anillo de Cabeza de Chip,2,recipe-icon-442,442,1,"43,1;213,;210,",Lv 1 Recasting del Anillo de Cabeza de Chip,"43,1,1,10000",0,99442,1,10,-,2,0,4,0,0
+0,Vuelve a fundir tu Anillo de Cabeza de Chip,2,recipe-icon-442,442,1,"43,1;213,1;210,1",Lv 1 Recasting del Anillo de Cabeza de Chip,"43,1,1,10000",0,99442,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tu Abrigo de Luchador Dorado,2,recipe-icon-508,508,4,"336,1;215,1;212,1",Lv 4 Recasting de la Chaqueta de Luchador Dorada,"336,1,1,4153;336,2,1,2769;336,3,1,1846;336,4,1,1230",0,96508,1,10,-,2,0,4,0,10
 0,Vuelve a fundir tu Chaqueta de Recolecta,2,recipe-icon-465,465,2,"120,1;216,2",Lv 2 Recasting de la Chaqueta de Recolección,"120,1,1,6000;120,2,1,4000",0,98465,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tus Pantalones de Recolecta,2,recipe-icon-476,476,2,"123,1;216,2",Lv 2 Recasting de los Pantalones de Recolección,"123,1,1,6000;123,2,1,4000",0,98476,1,10,-,3,0,4,0,0
@@ -385,14 +385,14 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Vuelve a fundir tus Guantes de Recolecta,2,recipe-icon-474,474,2,"126,1;216,2",Lv 2 Recasting de los Guantes de Recolección,"126,1,1,6000;126,2,1,4000",0,98474,1,10,-,3,0,4,0,0
 0,Recast your Star Fighter Pants: Vuelve a fundir tus Pantalones de Luchador Estelar,2,recipe-icon-572,572,6,"348,1;411,1;408,1",Lv 6 Recasting de Pantalones de Luchador Estelar,"348,1,1,3990;348,2,1,2660;348,3,1,1773;348,4,1,1182;348,5,1,394",0,94572,1,10,-,2,0,4,0,20
 0,Recast your Star Gather Shoes: Vuelve a fundir tus Zapatos de Recolector Estelar,2,recipe-icon-562,562,6,"334,1;402,2",Lv 6 Recasting de Zapatos de Recolector Estelar,"334,1,1,3990;334,2,1,2660;334,3,1,1773;334,4,1,1182;334,5,1,394",0,94562,1,10,-,3,0,4,0,20
-0,Vuelve a fundir tu Cepillo de Cobre,2,recipe-icon-458,458,1,"453,1;207,",Lv 1 Recasting del Cepillo de Cobre,"453,1,1,10000",0,99458,1,10,-,1,0,4,0,0
+0,Vuelve a fundir tu Cepillo de Cobre,2,recipe-icon-458,458,1,"453,1;207,2",Lv 1 Recasting del Cepillo de Cobre,"453,1,1,10000",0,99458,1,10,-,1,0,4,0,0
 0,Recast your Diamond Farmer Pants: Vuelve a fundir tus Pantalones de Granjero de Diamante,2,recipe-icon-532,532,5,"358,1;404,2",Lv 5 Recasting de Pantalones de Granjero de Diamante,"358,1,1,3990;358,2,1,2660;358,3,1,1773;358,4,1,1182;358,5,1,394",0,95532,1,10,-,1,0,4,0,15
 0,Recast your Star Fighter Hat: Vuelve a fundir tu Sombrero de Luchador Estelar,2,recipe-icon-571,571,6,"345,1;411,1;408,1",Lv 6 Recasting de Sombrero de Luchador Estelar,"345,1,1,3990;345,2,1,2660;345,3,1,1773;345,4,1,1182;345,5,1,394",0,94571,1,10,-,2,0,4,0,20
 0,Vuelve a fundir tu Martillo de Hierro,2,recipe-icon-482,482,2,"442,1;213,1;210,1",Lv 2 Recasting del Martillo de Hierro,"442,1,1,6000;442,2,1,4000",0,98482,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tus Pantalones de Agricultura,2,recipe-icon-473,473,2,"105,1;207,2",Lv 2 Recasting de los Pantalones de Agricultura,"105,1,1,6000;105,2,1,4000",0,98473,1,10,-,1,0,4,0,0
 0,Recast your Diamond Fighter Glove: Vuelve a fundir tu Guante de Luchador de Diamante,2,recipe-icon-534,534,5,"342,1;410,1;407,1",Lv 5 Recasting de Guantes de Luchador de Diamante,"342,1,1,3990;342,2,1,2660;342,3,1,1773;342,4,1,1182;342,5,1,394",0,95534,1,10,-,2,0,4,0,15
 0,Recast your Star Farmer Coat: Vuelve a fundir tu Abrigo de Granjero Estelar,2,recipe-icon-574,574,6,"361,1;405,2",Lv 6 Recasting de Abrigo de Granjero Estelar,"361,1,1,3990;361,2,1,2660;361,3,1,1773;361,4,1,1182;361,5,1,394",0,94574,1,10,-,1,0,4,0,20
-0,Vuelve a fundir tu Sombrero de Recolecta,2,recipe-icon-453,453,1,"116,1;216,",Lv 1 Recasting del Sombrero de Recolección,"116,1,1,10000",0,99453,1,10,-,3,0,4,0,0
+0,Vuelve a fundir tu Sombrero de Recolecta,2,recipe-icon-453,453,1,"116,1;216,2",Lv 1 Recasting del Sombrero de Recolección,"116,1,1,10000",0,99453,1,10,-,3,0,4,0,0
 0,Vuelve a fundir tu Armadura de Pierna de Cristal,2,recipe-icon-493,493,3,"51,1;214,1;211,1",Lv 3 Recasting de la Armadura de Pierna de Cristal,"51,1,1,4736;51,2,1,3157;51,3,1,2105",0,97493,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tu Sombrero Suave de Piel de Cristal,2,recipe-icon-467,467,2,"44,1;213,1;210,1",Lv 2 Recasting del Sombrero Suave de Piel de Cristal,"44,1,1,6000;44,2,1,4000",0,98467,1,10,-,2,0,4,0,0
 0,Vuelve a fundir tu Pico Dorado,2,recipe-icon-529,529,4,"301,1;218,2",Lv 4 Recasting del Pico Dorado,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,96529,1,10,-,3,0,4,0,10
