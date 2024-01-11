@@ -242,10 +242,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Công thức ấm vàng cấp độ 4,2,recipe-icon-416,416,4,"218,2;404,2",Công thức Ấm đun nước Vàng cấp độ 4,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96416,1,30,-,1,0,4,0,10
 0,Công thức ấm kim cương cấp độ 5,2,recipe-icon-417,417,5,"401,2;405,2",Công thức Ấm đun nước Kim cương cấp độ 5,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95417,1,90,-,1,0,4,0,15
 0,Công thức ấm sao cấp độ 6,2,recipe-icon-418,418,6,"402,2;406,2",Công thức Ấm đun nước Sao cấp độ 6,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94418,1,270,-,1,0,4,0,20
-0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-419,419,4,"401,1", Công thức Trao Đổi LUAG Cấp 4 - Chiến Đấu,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96419,1,3,65,0,1,1,0,72
-0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-420,420,4,"404,1", Công thức Trao Đổi LUAG Cấp 4 - Thu Thập,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96420,1,3,65,0,1,1,0,72
-0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-421,421,4,"407,1", Công thức Trao Đổi LUAG Cấp 4 - Trồng Trọt,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96421,1,3,65,0,1,1,0,72
-0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-422,422,4,"410,1", Công thức Trao Đổi LUAG Cấp 4 - Chăn Nuôi,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96422,1,3,65,0,1,1,0,72
+0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-419,419,4,"401,1;463,1", Công thức Trao Đổi LUAG Cấp 4 - Chiến Đấu,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96419,1,3,55,0,1,1,0,85
+0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-420,420,4,"404,1;365,1", Công thức Trao Đổi LUAG Cấp 4 - Thu Thập,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96420,1,3,55,0,1,1,0,85
+0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-421,421,4,"407,1;366,1", Công thức Trao Đổi LUAG Cấp 4 - Trồng Trọt,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96421,1,3,55,0,1,1,0,85
+0,Bạn có thể nhận được các phần thưởng sau:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-422,422,4,"410,1;367,1", Công thức Trao Đổi LUAG Cấp 4 - Chăn Nuôi,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",0,96422,1,3,55,0,1,1,0,85
 0, Bạn có thể nhận được các phần thưởng sau:40000 LUAG 1%9000 LUAG 4%6000 LUAG 10%5500 LUAG 35%3000 LUAG 50%,2,recipe-icon-423,423,1,"216,1;478,50", Công thức Xổ Số LUAG Cấp 1,"478,1,400,100;478,1,90,400;478,1,60,1500;478,1,55,3000;478,1,30,5000",0,99423,1,3,-,0,1,1,0,3
 0, Bạn có thể nhận được các phần thưởng sau:40000 LUAG 1%9000 LUAG 4%6000 LUAG 10%5500 LUAG 35%3000 LUAG 50%,2,recipe-icon-424,424,1,"207,1;478,50", Công thức Xổ Số LUAG Cấp 1,"478,1,400,100;478,1,90,400;478,1,60,1500;478,1,55,3000;478,1,30,5000",0,99424,1,3,-,0,1,1,0,3
 0, Bạn có thể nhận được các phần thưởng sau:40000 LUAG 1%9000 LUAG 4%6000 LUAG 10%5500 LUAG 35%3000 LUAG 50%,2,recipe-icon-425,425,1,"210,1;478,50", Công thức Xổ Số LUAG Cấp 1,"478,1,400,100;478,1,90,400;478,1,60,1500;478,1,55,3000;478,1,30,5000",0,99425,1,3,-,0,1,1,0,3
@@ -258,147 +258,147 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0, Bạn có thể nhận được các phần thưởng sau:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-432,432,3,"209,1;478,200", Công thức Xổ Số LUAG Cấp 3,"478,1,1600,100;478,1,360,400;478,1,240,1500;478,1,220,3000;478,1,120,5000",0,97432,1,3,-,0,1,1,0,3
 0, Bạn có thể nhận được các phần thưởng sau:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-433,433,3,"212,1;478,200", Công thức Xổ Số LUAG Cấp 3,"478,1,1600,100;478,1,360,400;478,1,240,1500;478,1,220,3000;478,1,120,5000",0,97433,1,3,-,0,1,1,0,3
 0, Bạn có thể nhận được các phần thưởng sau:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-434,434,3,"215,1;478,200", Công thức Xổ Số LUAG Cấp 3,"478,1,1600,100;478,1,360,400;478,1,240,1500;478,1,220,3000;478,1,120,5000",0,97434,1,3,-,0,1,1,0,3
-0,Tái tạo Gathering Jacket của bạn,2,recipe-icon-435,435,1,"216,2;119,1",Lv 1 Gathering Jacket Recasting: [158]Tái chế Áo khoác thu thập cấp độ 1,"119,1,1,10000",0,99435,1,10,-,3,0,4,0,0
-0,Tái tạo Iron Axe của bạn,2,recipe-icon-436,436,1,"216,2;92,1",Lv 1 Iron Axe Recasting: [161]Tái chế Rìu sắt cấp độ 1,"92,1,1,10000",0,99436,1,10,-,1,0,4,0,0
-0,Tái tạo Golden Farmer Hat của bạn,2,recipe-icon-526,526,4,"350,1;209,2",Lv 4 Golden Farmer Hat Recasting: [221]Tái chế Mũ nông dân vàng cấp độ 4,"350,1,1,4153;350,2,1,2769;350,3,1,1846;350,4,1,1230",0,96526,1,10,-,1,0,4,0,10
-0,Tái tạo Iron Sickle của bạn,2,recipe-icon-480,480,2,"227,1;216,2",Lv 2 Iron Sickle Recasting: [188]Tái chế Liềm sắt cấp độ 2,"227,1,1,6000;227,2,1,4000",0,98480,1,10,-,3,0,4,0,0
-0,Tái tạo Diamond Axe của bạn,2,recipe-icon-537,537,5,"306,1;401,2",Lv 5 Diamond Axe Recasting: [241]Tái chế Rìu kim cương cấp độ 5,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,95537,1,10,-,3,0,4,0,15
-0,Tái tạo Farming Jacket của bạn,2,recipe-icon-462,462,2,"102,1;207,2",Lv 2 Farming Jacket Recasting: [178]Tái chế Áo khoác nông nghiệp cấp độ 2,"102,1,1,6000;102,2,1,4000",0,98462,1,10,-,1,0,4,0,0
-0,Tái tạo Găng Tay Nông Dân Kim Cương của bạn,2,recipe-icon-548,548,5,"357,1;404,2",Lv 5 Găng Tay Nông Dân Kim Cương Tái Chế,"357,1,1,3990;357,2,1,2660;357,3,1,1773;357,4,1,1182;357,5,1,394",0,95548,1,10,-,1,0,4,0,15
-0,Tái tạo Stone Bow của bạn,2,recipe-icon-444,444,1,"287,1;213,1;210,1",Lv 1 Stone Bow Recasting: [166]Tái chế Cung đá cấp độ 1,"287,1,1,10000",0,99444,1,10,-,2,0,4,0,0
-0,Tái tạo Giày Nông Dân Sao của bạn,2,recipe-icon-568,568,6,"364,1;405,2",Lv 6 Giày Nông Dân Sao Tái Chế,"364,1,1,3990;364,2,1,2660;364,3,1,1773;364,4,1,1182;364,5,1,394",0,94568,1,10,-,1,0,4,0,20
-0,Tái tạo Gathering Gloves của bạn,2,recipe-icon-487,487,3,"208,2;127,1",Lv 3 Gathering Gloves Recasting: [209]Tái chế Găng tay thu thập cấp độ 3,"127,1,1,4736;127,2,1,3157;127,3,1,2105",0,97487,1,10,-,1,0,4,0,0
-0,Tái tạo Curse Axe của bạn,2,recipe-icon-468,468,2,"93,1;216,2",Lv 2 Curse Axe Recasting: [173]Tái chế Rìu bị nguyền rủa cấp độ 2,"93,1,1,6000;93,2,1,4000",0,98468,1,10,-,3,0,4,0,0
-0,Tái tạo Iron Sword của bạn,2,recipe-icon-479,479,2,"41,1;213,1;210,1",Lv 2 Iron Sword Recasting: [189]Tái chế Kiếm sắt cấp độ 2,"41,1,1,6000;41,2,1,4000",0,98479,1,10,-,2,0,4,0,0
-0,Tái tạo Quần Chiến Binh Kim Cương của bạn,2,recipe-icon-540,540,5,"343,1;410,1;407,1",Lv 5 Quần Chiến Binh Kim Cương Tái Chế,"343,1,1,3990;343,2,1,2660;343,3,1,1773;343,4,1,1182;343,5,1,394",0,95540,1,10,-,2,0,4,0,15
-0,Tái tạo Mũ Nông Dân Sao của bạn,2,recipe-icon-573,573,6,"360,1;405,2",Lv 6 Mũ Nông Dân Sao Tái Chế,"360,1,1,3990;360,2,1,2660;360,3,1,1773;360,4,1,1182;360,5,1,394",0,94573,1,10,-,1,0,4,0,20
-0,Tái tạo Gathering Gloves của bạn,2,recipe-icon-452,452,1,"125,1;216,2",Lv 1 Gathering Gloves Recasting: [156]Tái chế Găng tay thu thập cấp độ 1,"125,1,1,10000",0,99452,1,10,-,3,0,4,0,0
-0,Tái tạo Blessing Kettle của bạn,2,recipe-icon-506,506,3,"86,1;208,2",Lv 3 Blessing Kettle Recasting: [194]Tái chế Ấm đun nước may mắn cấp độ 3,"86,1,1,4736;86,2,1,3157;86,3,1,2105",0,97506,1,10,-,1,0,4,0,0
-0,Tái tạo Blessing Hoe của bạn,2,recipe-icon-505,505,3,"82,1;208,2",Lv 3 Blessing Hoe Recasting: [193]Tái chế Cuốc may mắn cấp độ 3,"82,1,1,4736;82,2,1,3157;82,3,1,2105",0,97505,1,10,-,1,0,4,0,0
-0,Tái tạo Farming Gloves của bạn,2,recipe-icon-460,460,2,"108,1;207,2",Lv 2 Farming Gloves Recasting: [177]Tái chế Găng tay nông nghiệp cấp độ 2,"108,1,1,6000;108,2,1,4000",0,98460,1,10,-,1,0,4,0,0
-0,Tái tạo Cracked Crystal Grass Shoes của bạn,2,recipe-icon-449,449,1,"55,1;213,1;210,1",Lv 1 Cracked Crystal Grass Shoes Recasting: [150]Tái chế Giày cỏ pha lê mảnh cấp độ 1,"55,1,1,10000",0,99449,1,10,-,2,0,4,0,0
-0,Tái tạo Farming Jacket của bạn,2,recipe-icon-501,501,3,"103,1;208,2",Lv 3 Farming Jacket Recasting: [207]Tái chế Áo khoác nông nghiệp cấp độ 3,"103,1,1,4736;103,2,1,3157;103,3,1,2105",0,97501,1,10,-,1,0,4,0,0
-0,Tái tạo Áo Thu Thập Kim Cương của bạn,2,recipe-icon-539,539,5,"326,1;401,2",Lv 5 Áo Thu Thập Kim Cương Tái Chế,"326,1,1,3990;326,2,1,2660;326,3,1,1773;326,4,1,1182;326,5,1,394",0,95539,1,10,-,3,0,4,0,15
-0,Tái tạo Cracked Crystal Armor của bạn,2,recipe-icon-446,446,1,"46,1;213,1;210,1",Lv 1 Cracked Crystal Armor Recasting: [148]Tái chế Áo giáp pha lê mảnh cấp độ 1,"46,1,1,10000",0,99446,1,10,-,2,0,4,0,0
-0,Tái tạo Giày Nông Dân Kim Cương của bạn,2,recipe-icon-533,533,5,"359,1;404,2",Lv 5 Giày Nông Dân Kim Cương Tái Chế,"359,1,1,3990;359,2,1,2660;359,3,1,1773;359,4,1,1182;359,5,1,394",0,95533,1,10,-,1,0,4,0,15
-0,Tái tạo Iron Kettle của bạn,2,recipe-icon-437,437,1,"216,2;84,1",Lv 1 Iron Kettle Recasting: [163]Tái chế Ấm đun nước sắt cấp độ 1,"84,1,1,10000",0,99437,1,10,-,3,0,4,0,0
-0,Tái tạo Áo Nông Dân Kim Cương của bạn,2,recipe-icon-545,545,5,"356,1;404,2",Lv 5 Áo Nông Dân Kim Cương Tái Chế,"356,1,1,3990;356,2,1,2660;356,3,1,1773;356,4,1,1182;356,5,1,394",0,95545,1,10,-,1,0,4,0,15
-0,Tái tạo Golden Farmer Coat của bạn,2,recipe-icon-520,520,4,"351,1;209,2",Lv 4 Golden Farmer Coat Recasting: [219]Tái chế Áo khoác nông dân vàng cấp độ 4,"351,1,1,4153;351,2,1,2769;351,3,1,1846;351,4,1,1230",0,96520,1,10,-,1,0,4,0,10
-0,Tái tạo Golden Fighter Glove của bạn,2,recipe-icon-511,511,4,"337,1;215,1;212,1",Lv 4 Golden Fighter Glove Recasting: [225]Tái chế Găng tay chiến binh vàng cấp độ 4,"337,1,1,4153;337,2,1,2769;337,3,1,1846;337,4,1,1230",0,96511,1,10,-,2,0,4,0,10
-0,Tái tạo Golden Gather Coat của bạn,2,recipe-icon-515,515,4,"321,1;218,2",Lv 4 Golden Gather Coat Recasting: [229]Tái chế Áo khoác thu thập vàng cấp độ 4,"321,1,1,4153;321,2,1,2769;321,3,1,1846;321,4,1,1230",0,96515,1,10,-,3,0,4,0,10
-0,Tái tạo Golden Gather Shoes của bạn,2,recipe-icon-516,516,4,"324,1;218,2",Lv 4 Golden Gather Shoes Recasting: [233]Tái chế Giày thu thập vàng cấp độ 4,"324,1,1,4153;324,2,1,2769;324,3,1,1846;324,4,1,1230",0,96516,1,10,-,3,0,4,0,10
-0,Tái tạo Crystal Skin Glove của bạn,2,recipe-icon-469,469,2,"53,1;213,1;210,1",Lv 2 Crystal Skin Glove Recasting: [170]Tái chế Găng tay da pha lê cấp độ 2,"53,1,1,6000;53,2,1,4000",0,98469,1,10,-,2,0,4,0,0
-0,Tái tạo Quần Nông Dân Sao của bạn,2,recipe-icon-560,560,6,"363,1;405,2",Lv 6 Quần Nông Dân Sao Tái Chế,"363,1,1,3990;363,2,1,2660;363,3,1,1773;363,4,1,1182;363,5,1,394",0,94560,1,10,-,1,0,4,0,20
-0,Tái tạo Curse Kettle của bạn,2,recipe-icon-463,463,2,"85,1;207,2",Lv 2 Curse Kettle Recasting: [175]Tái chế Ấm đun nước bị nguyền rủa cấp độ 2,"85,1,1,5000;85,1,1,5000",0,98463,1,10,-,1,0,4,0,0
-0,Tái tạo Kiếm Sao của bạn,2,recipe-icon-561,561,6,"319,1;411,1;408,1",Lv 6 Kiếm Sao Tái Chế,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,94561,1,10,-,2,0,4,0,20
-0,Tái tạo Golden Kettle của bạn,2,recipe-icon-528,528,4,"304,1;209,2",Lv 4 Golden Kettle Recasting: [236]Tái chế Ấm đun nước vàng cấp độ 4,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96528,1,10,-,1,0,4,0,10
-0,Tái tạo Farming Shoes của bạn,2,recipe-icon-472,472,2,"111,1;207,2",Lv 2 Farming Shoes Recasting: [180]Tái chế Giày nông nghiệp cấp độ 2,"111,1,1,6000;111,2,1,4000",0,98472,1,10,-,1,0,4,0,0
-0,Tái tạo Crystal Sickle của bạn,2,recipe-icon-483,483,3,"228,1;217,2",Lv 3 Crystal Sickle Recasting: [200]Tái chế Liềm pha lê cấp độ 3,"228,1,1,4736;228,2,1,3157;228,3,1,2105",0,97483,1,10,-,3,0,4,0,0
-0,Tái tạo Lucky Clover Hat của bạn,2,recipe-icon-457,457,1,"216,2;98,1",Lv 1 Lucky Clover Hat Recasting: [165]Tái chế Mũ lá may mắn cấp độ 1,"98,1,1,10000",0,99457,1,10,-,3,0,4,0,0
-0,Tái tạo Gathering Hat của bạn,2,recipe-icon-485,485,3,"217,2;118,1",Lv 3 Gathering Hat Recasting: [210]Tái chế Mũ thu thập cấp độ 3,"118,1,1,4736;118,2,1,3157;118,3,1,2105",0,97485,1,10,-,3,0,4,0,0
-0,Tái tạo Golden Farmer Shoes của bạn,2,recipe-icon-510,510,4,"354,1;209,2",Lv 4 Golden Farmer Shoes Recasting: [223]Tái chế Giày nông dân vàng cấp độ 4,"354,1,1,4153;354,2,1,2769;354,3,1,1846;354,4,1,1230",0,96510,1,10,-,1,0,4,0,10
-0,Tái tạo Golden Gather Hat của bạn,2,recipe-icon-525,525,4,"320,1;218,2",Lv 4 Golden Gather Hat Recasting: [231]Tái chế Mũ thu thập vàng cấp độ 4,"320,1,1,4153;320,2,1,2769;320,3,1,1846;320,4,1,1230",0,96525,1,10,-,3,0,4,0,10
-0,Tái tạo Ấm Đun Nước Sao của bạn,2,recipe-icon-563,563,6,"316,1;405,2",Lv 6 Ấm Đun Nước Sao Tái Chế,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94563,1,10,-,1,0,4,0,20
-0,Tái tạo Golden Gather Glove của bạn,2,recipe-icon-524,524,4,"322,1;218,2",Lv 4 Golden Gather Glove Recasting: [230]Tái chế Găng tay thu thập vàng cấp độ 4,"322,1,1,4153;322,2,1,2769;322,3,1,1846;322,4,1,1230",0,96524,1,10,-,3,0,4,0,10
-0,Tái tạo Copper Sickle của bạn,2,recipe-icon-455,455,1,"226,1;216,2",Lv 1 Copper Sickle Recasting: [147]Tái chế Liềm đồng cấp độ 1,"226,1,1,10000",0,99455,1,10,-,3,0,4,0,0
-0,Tái tạo Mũ Thu Thập Sao của bạn,2,recipe-icon-557,557,6,"330,1;402,2",Lv 6 Mũ Thu Thập Sao Tái Chế,"330,1,1,3990;330,2,1,2660;330,3,1,1773;330,4,1,1182;330,5,1,394",0,94557,1,10,-,3,0,4,0,20
-0,Tái tạo Iron Pickaxe của bạn,2,recipe-icon-445,445,1,"216,2;88,1",Lv 1 Iron Pickaxe Recasting: [164]Tái chế Cuốc đá sắt cấp độ 1,"88,1,1,10000",0,99445,1,10,-,1,0,4,0,0
-0,Tái tạo Farming Gloves của bạn,2,recipe-icon-448,448,1,"107,1;207,2",Lv 1 Farming Gloves Recasting: [152]Tái chế Găng tay nông nghiệp cấp độ 1,"107,1,1,10000",0,99448,1,10,-,1,0,4,0,0
-0,Tái tạo Giày Thu Thập Kim Cương của bạn,2,recipe-icon-538,538,5,"329,1;401,2",Lv 5 Giày Thu Thập Kim Cương Tái Chế,"329,1,1,3990;329,2,1,2660;329,3,1,1773;329,4,1,1182;329,5,1,394",0,95538,1,10,-,3,0,4,0,15
-0,Tái tạo Găng Tay Thu Thập Sao của bạn,2,recipe-icon-554,554,6,"332,1;402,2",Lv 6 Găng Tay Thu Thập Sao Tái Chế,"332,1,1,3990;332,2,1,2660;332,3,1,1773;332,4,1,1182;332,5,1,394",0,94554,1,10,-,3,0,4,0,20
-0,Tái tạo Cuốc Sao của bạn,2,recipe-icon-565,565,6,"313,1;402,2",Lv 6 Cuốc Sao Tái Chế,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94565,1,10,-,3,0,4,0,20
-0,Tái tạo Cracked Crystal Bracelet của bạn,2,recipe-icon-443,443,1,"52,1;213,1;210,1",Lv 1 Cracked Crystal Bracelet Recasting: [149]Tái chế Vòng tay pha lê mảnh cấp độ 1,"52,1,1,10000",0,99443,1,10,-,2,0,4,0,0
-0,Tái tạo Copper Hammer của bạn,2,recipe-icon-456,456,1,"441,1;213,1;210,1",Lv 1 Copper Hammer Recasting: [146]Tái chế Búa đồng cấp độ 1,"441,1,1,10000",0,99456,1,10,-,2,0,4,0,0
-0,Tái tạo Liềm Kim Cương của bạn,2,recipe-icon-577,577,5,"309,1;401,2",Lv 5 Liềm Kim Cương Tái Chế,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,95577,1,10,-,3,0,4,0,15
-0,Tái tạo Golden Hoe của bạn,2,recipe-icon-507,507,4,"299,1;209,2",Lv 4 Golden Hoe Recasting: [235]Tái chế Cuốc vàng cấp độ 4,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,96507,1,10,-,1,0,4,0,10
-0,Tái tạo Mũ Nông Dân Kim Cương của bạn,2,recipe-icon-549,549,5,"355,1;404,2",Lv 5 Mũ Nông Dân Kim Cương Tái Chế,"355,1,1,3990;355,2,1,2660;355,3,1,1773;355,4,1,1182;355,5,1,394",0,95549,1,10,-,1,0,4,0,15
-0,Tái tạo Mũ Chiến Binh Kim Cương của bạn,2,recipe-icon-535,535,5,"340,1;410,1;407,1",Lv 5 Mũ Chiến Binh Kim Cương Tái Chế,"340,1,1,3990;340,2,1,2660;340,3,1,1773;340,4,1,1182;340,5,1,394",0,95535,1,10,-,2,0,4,0,15
-0,Tái tạo Crystal Brush của bạn,2,recipe-icon-490,490,3,"455,1;208,2",Lv 3 Crystal Brush Recasting: [197]Tái chế Cọ pha lê cấp độ 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97490,1,10,-,1,0,4,0,0
-0,Tái tạo Cracked Crystal Grass Skirt của bạn,2,recipe-icon-447,447,1,"49,1;213,1;210,1",Lv 1 Cracked Crystal Grass Skirt Recasting: [151]Tái chế Váy cỏ pha lê mảnh cấp độ 1,"49,1,1,10000",0,99447,1,10,-,2,0,4,0,0
-0,Tái tạo Cuốc Sao của bạn,2,recipe-icon-564,564,6,"311,1;405,2",Lv 6 Cuốc Sao Tái Chế,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94564,1,10,-,1,0,4,0,20
-0,Tái tạo Crystal Stone Armor của bạn,2,recipe-icon-497,497,3,"48,1;214,1;211,1",Lv 3 Crystal Stone Armor Recasting: [201]Tái chế Áo giáp đá pha lê cấp độ 3,"48,1,1,4736;48,2,1,3157;48,3,1,2105",0,97497,1,10,-,2,0,4,0,0
-0,Tái tạo Lucky Hard Hat của bạn,2,recipe-icon-488,488,3,"217,2;112,1",Lv 3 Lucky Hard Hat Recasting: [214]Tái chế Mũ cứng may mắn cấp độ 3,"112,1,1,4736;112,2,1,3157;112,3,1,2105",0,97488,1,10,-,3,0,4,0,0
-0,Tái tạo Gathering Shoes của bạn,2,recipe-icon-438,438,1,"216,2;113,1",Lv 1 Gathering Shoes Recasting: [160]Tái chế Giày thu thập cấp độ 1,"113,1,1,10000",0,99438,1,10,-,3,0,4,0,0
-0,Tái tạo Quần Thu Thập Kim Cương của bạn,2,recipe-icon-544,544,5,"328,1;401,2",Lv 5 Quần Thu Thập Kim Cương Tái Chế,"328,1,1,3990;328,2,1,2660;328,3,1,1773;328,4,1,1182;328,5,1,394",0,95544,1,10,-,3,0,4,0,15
-0,Tái tạo Blessed Axe của bạn,2,recipe-icon-491,491,3,"94,1;217,2",Lv 3 Blessed Axe Recasting: [192]Tái chế Rìu may mắn cấp độ 3,"94,1,1,4736;94,2,1,3157;94,3,1,2105",0,97491,1,10,-,3,0,4,0,0
-0,Tái tạo Ấm Đun Nước Kim Cương của bạn,2,recipe-icon-551,551,5,"310,1;404,2",Lv 5 Ấm Đun Nước Kim Cương Tái Chế,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95551,1,10,-,1,0,4,0,15
-0,Tái tạo Curse Hoe của bạn,2,recipe-icon-466,466,2,"81,1;207,2",Lv 2 Curse Hoe Recasting: [174]Tái chế Cuốc bị nguyền rủa cấp độ 2,"81,1,1,6000;81,2,1,4000",0,98466,1,10,-,1,0,4,0,0
-0,Tái tạo Golden Sickle của bạn,2,recipe-icon-576,576,4,"303,1;218,2",Lv 4 Golden Sickle Recasting: [239]Tái chế Liềm vàng cấp độ 4,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,96576,1,10,-,3,0,4,0,10
-0,Tái tạo Gathering Shoes của bạn,2,recipe-icon-477,477,2,"114,1;216,2",Lv 2 Gathering Shoes Recasting: [185]Tái chế Giày thu thập cấp độ 2,"114,1,1,6000;114,2,1,4000",0,98477,1,10,-,3,0,4,0,0
-0,Tái tạo Farming Pants của bạn,2,recipe-icon-441,441,1,"104,1;207,2",Lv 1 Farming Pants Recasting: [154]Tái chế Quần nông nghiệp cấp độ 1,"104,1,1,10000",0,99441,1,10,-,1,0,4,0,0
-0,Tái tạo Áo Chiến Binh Sao của bạn,2,recipe-icon-570,570,6,"346,1;411,1;408,1",Lv 6 Áo Chiến Binh Sao Tái Chế,"346,1,1,3990;346,2,1,2660;346,3,1,1773;346,4,1,1182;346,5,1,394",0,94570,1,10,-,2,0,4,0,20
-0,Tái tạo Cursed Pickaxe của bạn,2,recipe-icon-461,461,2,"89,1;216,2",Lv 2 Cursed Pickaxe Recasting: [176]Tái chế Cuốc đá bị nguyền rủa cấp độ 2,"89,1,1,6000;89,2,1,4000",0,98461,1,10,-,3,0,4,0,0
-0,Tái tạo Lucky Cotton Hat của bạn,2,recipe-icon-481,481,2,"99,1;207,2",Lv 2 Lucky Cotton Hat Recasting: [190]Tái chế Mũ bông may mắn cấp độ 2,"99,1,1,6000;99,2,1,4000",0,98481,1,10,-,1,0,4,0,0
-0,Tái tạo Golden Brush của bạn,2,recipe-icon-522,522,4,"456,1;209,2",Lv 4 Golden Brush Recasting: [218]Tái chế Cọ vàng cấp độ 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96522,1,10,-,1,0,4,0,10
-0,Tái tạo Iron Hoe của bạn,2,recipe-icon-439,439,1,"207,2;80,1",Lv 1 Iron Hoe Recasting: [162]Tái chế Cuốc sắt cấp độ 1,"80,1,1,10000",0,99439,1,10,-,1,0,4,0,0
-0,Tái tạo Cuốc Kim Cương của bạn,2,recipe-icon-530,530,5,"305,1;404,2",Lv 5 Cuốc Kim Cương Tái Chế,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,95530,1,10,-,1,0,4,0,15
-0,Tái tạo Golden Fighter Pants của bạn,2,recipe-icon-517,517,4,"338,1;215,1;212,1",Lv 4 Golden Fighter Pants Recasting: [227]Tái chế Quần chiến binh vàng cấp độ 4,"338,1,1,4153;338,2,1,2769;338,3,1,1846;338,4,1,1230",0,96517,1,10,-,2,0,4,0,10
-0,Tái tạo Gathering Jacket của bạn,2,recipe-icon-486,486,3,"217,2;121,1",Lv 3 Gathering Jacket Recasting: [211]Tái chế Áo khoác thu thập cấp độ 3,"121,1,1,4736;121,2,1,3157;121,3,1,2105",0,97486,1,10,-,3,0,4,0,0
-0,Tái tạo Giày Chiến Binh Sao của bạn,2,recipe-icon-555,555,6,"349,1;411,1;408,1",Lv 6 Giày Chiến Binh Sao Tái Chế,"349,1,1,3990;349,2,1,2660;349,3,1,1773;349,4,1,1182;349,5,1,394",0,94555,1,10,-,2,0,4,0,20
-0,Tái tạo Farming Shoes của bạn,2,recipe-icon-454,454,1,"110,1;207,2",Lv 1 Farming Shoes Recasting: [155]Tái chế Giày nông nghiệp cấp độ 1,"110,1,1,10000",0,99454,1,10,-,1,0,4,0,0
-0,Tái tạo Golden Farmer Pants của bạn,2,recipe-icon-509,509,4,"353,1;209,2",Lv 4 Golden Farmer Pants Recasting: [222]Tái chế Quần nông dân vàng cấp độ 4,"353,1,1,4153;353,2,1,2769;353,3,1,1846;353,4,1,1230",0,96509,1,10,-,1,0,4,0,10
-0,Tái tạo Golden Axe của bạn,2,recipe-icon-514,514,4,"300,1;218,2",Lv 4 Golden Axe Recasting: [216]Tái chế Rìu vàng cấp độ 4,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,96514,1,10,-,3,0,4,0,10
-0,Tái tạo Crystal Stone Gauntlet của bạn,2,recipe-icon-495,495,3,"54,1;214,1;211,1",Lv 3 Crystal Stone Gauntlet Recasting: [202]Tái chế Găng tay đá pha lê cấp độ 3,"54,1,1,4736;54,2,1,3157;54,3,1,2105",0,97495,1,10,-,2,0,4,0,0
-0,Tái tạo Búa Kim Cương của bạn,2,recipe-icon-536,536,5,"445,1;410,1;407,1",Lv 5 Búa Kim Cương Tái Chế,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95536,1,10,-,2,0,4,0,15
-0,Tái tạo Golden Fighter Hat của bạn,2,recipe-icon-512,512,4,"335,1;215,1;212,1",Lv 4 Golden Fighter Hat Recasting: [226]Tái chế Mũ chiến binh vàng cấp độ 4,"335,1,1,4153;335,2,1,2769;335,3,1,1846;335,4,1,1230",0,96512,1,10,-,2,0,4,0,10
-0,Tái tạo Crystal Bow của bạn,2,recipe-icon-494,494,3,"289,1;214,1;211,1",Lv 3 Crystal Bow Recasting: [196]Tái chế Cung pha lê cấp độ 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97494,1,10,-,2,0,4,0,0
-0,Tái tạo Gathering Pants của bạn,2,recipe-icon-503,503,3,"217,2;124,1",Lv 3 Gathering Pants Recasting: [212]Tái chế Quần thu thập cấp độ 3,"124,1,1,4736;124,2,1,3157;124,3,1,2105",0,97503,1,10,-,3,0,4,0,0
-0,Tái tạo Mũ Thu Thập Kim Cương của bạn,2,recipe-icon-543,543,5,"325,1;401,2",Lv 5 Mũ Thu Thập Kim Cương Tái Chế,"325,1,1,3990;325,2,1,2660;325,3,1,1773;325,4,1,1182;325,5,1,394",0,95543,1,10,-,3,0,4,0,15
-0,Tái tạo Iron Brush của bạn,2,recipe-icon-475,475,2,"454,1;207,2",Lv 2 Iron Brush Recasting: [186]Tái chế Cọ sắt cấp độ 2,"454,1,1,6000;454,2,1,4000",0,98475,1,10,-,1,0,4,0,0
-0,Tái tạo Gathering Hat của bạn,2,recipe-icon-478,478,2,"117,1;216,2",Lv 2 Gathering Hat Recasting: [182]Tái chế Mũ thu thập cấp độ 2,"117,1,1,6000;117,2,1,4000",0,98478,1,10,-,3,0,4,0,0
-0,Tái tạo Crystal Stone Shoes của bạn,2,recipe-icon-498,498,3,"57,1;214,1;211,1",Lv 3 Crystal Stone Shoes Recasting: [204]Tái chế Giày đá pha lê cấp độ 3,"57,1,1,4736;57,2,1,3157;57,3,1,2105",0,97498,1,10,-,2,0,4,0,0
-0,Tái tạo Diamond Bow của bạn,2,recipe-icon-546,546,5,"451,1;410,1;407,1",Lv 5 Diamond Bow Recasting: [242]Tái chế Cung kim cương cấp độ 5,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95546,1,10,-,2,0,4,0,15
-0,Tái tạo Áo Thu Thập Sao của bạn,2,recipe-icon-556,556,6,"331,1;402,2",Lv 6 Áo Thu Thập Sao Tái Chế,"331,1,1,3990;331,2,1,2660;331,3,1,1773;331,4,1,1182;331,5,1,394",0,94556,1,10,-,3,0,4,0,20
-0,Tái tạo Farming Jacket của bạn,2,recipe-icon-450,450,1,"101,1;207,2",Lv 1 Farming Jacket Recasting: [153]Tái chế Áo khoác nông nghiệp cấp độ 1,"101,1,1,10000",0,99450,1,10,-,1,0,4,0,0
-0,Tái tạo Cọ Ánh Sáng của bạn,2,recipe-icon-553,553,6,"458,1;405,2",Lv 6 Cọ Ánh Sáng Tái Chế,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94553,1,10,-,1,0,4,0,20
-0,Tái tạo Cung Ánh Sáng của bạn,2,recipe-icon-559,559,6,"452,1;411,1;408,1",Lv 6 Cung Ánh Sáng Tái Chế,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94559,1,10,-,2,0,4,0,20
-0,Tái tạo Golden Fighter Shoes của bạn,2,recipe-icon-518,518,4,"339,1;215,1;212,1",Lv 4 Golden Fighter Shoes Recasting: [228]Tái chế Giày chiến binh vàng cấp độ 4,"339,1,1,4153;339,2,1,2769;339,3,1,1846;339,4,1,1230",0,96518,1,10,-,2,0,4,0,10
-0,Tái tạo Crystal Sword của bạn,2,recipe-icon-489,489,3,"42,1;214,1;211,1",Lv 3 Crystal Sword Recasting: [205]Tái chế Kiếm pha lê cấp độ 3,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97489,1,10,-,2,0,4,0,0
-0,Tái tạo Gathering Pants của bạn,2,recipe-icon-451,451,1,"216,2;122,1",Lv 1 Gathering Pants Recasting: [159]Tái chế Quần thu thập cấp độ 1,"122,1,1,10000",0,99451,1,10,-,3,0,4,0,0
-0,Tái tạo Golden Hammer của bạn,2,recipe-icon-513,513,4,"444,1;215,1;212,1",Lv 4 Golden Hammer Recasting: [234]Tái chế Búa vàng cấp độ 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96513,1,10,-,2,0,4,0,10
-0,Tái tạo Crystal Stone Helmet của bạn,2,recipe-icon-496,496,3,"45,1;214,1;211,1",Lv 3 Crystal Stone Helmet Recasting: [203]Tái chế Mũ bảo hiểm đá pha lê cấp độ 3,"45,1,1,4736;45,2,1,3157;45,3,1,2105",0,97496,1,10,-,2,0,4,0,0
-0,Tái tạo Găng Tay Nông Dân Sao của bạn,2,recipe-icon-575,575,6,"362,1;405,2",Lv 6 Găng Tay Nông Dân Sao Tái Chế,"362,1,1,3990;362,2,1,2660;362,3,1,1773;362,4,1,1182;362,5,1,394",0,94575,1,10,-,1,0,4,0,20
-0,Tái tạo Stone Sword của bạn,2,recipe-icon-459,459,1,"40,1;213,1;210,1",Lv 1 Stone Sword Recasting: [167]Tái chế Kiếm đá cấp độ 1,"40,1,1,10000",0,99459,1,10,-,2,0,4,0,0
-0,Tái tạo Găng Tay Thu Thập Kim Cương của bạn,2,recipe-icon-542,542,5,"327,1;401,2",Lv 5 Găng Tay Thu Thập Kim Cương Tái Chế,"327,1,1,3990;327,2,1,2660;327,3,1,1773;327,4,1,1182;327,5,1,394",0,95542,1,10,-,3,0,4,0,15
-0,Tái tạo Golden Farmer Glove của bạn,2,recipe-icon-523,523,4,"352,1;209,2",Lv 4 Golden Farmer Glove Recasting: [220]Tái chế Găng tay nông dân vàng cấp độ 4,"352,1,1,4153;352,2,1,2769;352,3,1,1846;352,4,1,1230",0,96523,1,10,-,1,0,4,0,10
-0,Tái tạo Diamond Brush của bạn,2,recipe-icon-547,547,5,"457,1;404,2",Lv 5 Diamond Brush Recasting: [243]Tái chế Cọ kim cương cấp độ 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95547,1,10,-,1,0,4,0,15
-0,Tái tạo Golden Gather Pants của bạn,2,recipe-icon-519,519,4,"323,1;218,2",Lv 4 Golden Gather Pants Recasting: [232]Tái chế Quần thu thập vàng cấp độ 4,"323,1,1,4153;323,2,1,2769;323,3,1,1846;323,4,1,1230",0,96519,1,10,-,3,0,4,0,10
-0,Tái tạo Rìu Sao của bạn,2,recipe-icon-578,578,6,"312,1;402,2",Lv 6 Rìu Sao Tái Chế,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94578,1,10,-,3,0,4,0,20
-0,Tái tạo Crystal Skin Pant của bạn,2,recipe-icon-470,470,2,"50,1;213,1;210,1",Lv 2 Crystal Skin Pant Recasting: [171]Tái chế Quần da pha lê cấp độ 2,"50,1,1,6000;50,2,1,4000",0,98470,1,10,-,2,0,4,0,0
-0,Tái tạo Giày Chiến Binh Kim Cương của bạn,2,recipe-icon-541,541,5,"344,1;410,1;407,1",Lv 5 Giày Chiến Binh Kim Cương Tái Chế,"344,1,1,3990;344,2,1,2660;344,3,1,1773;344,4,1,1182;344,5,1,394",0,95541,1,10,-,2,0,4,0,15
-0,Tái tạo Chip Head Ring của bạn,2,recipe-icon-442,442,1,"43,1;213,1;210,1",Lv 1 Chip Head Ring Recasting: [144]Tái chế Vòng đầu Chip cấp độ 1,"43,1,1,10000",0,99442,1,10,-,2,0,4,0,0
-0,Tái tạo Golden Fighter Coat của bạn,2,recipe-icon-508,508,4,"336,1;215,1;212,1",Lv 4 Golden Fighter Coat Recasting: [224]Tái chế Áo khoác chiến binh vàng cấp độ 4,"336,1,1,4153;336,2,1,2769;336,3,1,1846;336,4,1,1230",0,96508,1,10,-,2,0,4,0,10
-0,Tái tạo Gathering Jacket của bạn,2,recipe-icon-465,465,2,"120,1;216,2",Lv 2 Gathering Jacket Recasting: [183]Tái chế Áo khoác thu thập cấp độ 2,"120,1,1,6000;120,2,1,4000",0,98465,1,10,-,3,0,4,0,0
-0,Tái tạo Gathering Pants của bạn,2,recipe-icon-476,476,2,"123,1;216,2",Lv 2 Gathering Pants Recasting: [184]Tái chế Quần thu thập cấp độ 2,"123,1,1,6000;123,2,1,4000",0,98476,1,10,-,3,0,4,0,0
-0,Tái tạo Golden Bow của bạn,2,recipe-icon-521,521,4,"450,1;215,1;212,1",Lv 4 Golden Bow Recasting: [217]Tái chế Cung vàng cấp độ 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96521,1,10,-,2,0,4,0,10
-0,Tái tạo Găng Tay Chiến Binh Sao của bạn,2,recipe-icon-569,569,6,"347,1;411,1;408,1",Lv 6 Găng Tay Chiến Binh Sao Tái Chế,"347,1,1,3990;347,2,1,2660;347,3,1,1773;347,4,1,1182;347,5,1,394",0,94569,1,10,-,2,0,4,0,20
-0,Tái tạo Farming Pants của bạn,2,recipe-icon-499,499,3,"106,1;208,2",Lv 3 Farming Pants Recasting: [208]Tái chế Quần nông nghiệp cấp độ 3,"106,1,1,4736;106,2,1,3157;106,3,1,2105",0,97499,1,10,-,1,0,4,0,0
-0,Tái tạo Cuốc Kim Cương của bạn,2,recipe-icon-552,552,5,"307,1;401,2",Lv 5 Cuốc Kim Cương Tái Chế,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",0,95552,1,10,-,3,0,4,0,15
-0,Tái tạo Crystal Hammer của bạn,2,recipe-icon-492,492,3,"443,1;214,1;211,1",Lv 3 Crystal Hammer Recasting: [198]Tái chế Búa pha lê cấp độ 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97492,1,10,-,2,0,4,0,0
-0,Tái tạo Farming Gloves của bạn,2,recipe-icon-500,500,3,"109,1;208,2",Lv 3 Farming Gloves Recasting: [206]Tái chế Găng tay nông nghiệp cấp độ 3,"109,1,1,4736;109,2,1,3157;109,3,1,2105",0,97500,1,10,-,1,0,4,0,0
-0,Tái tạo Áo Chiến Binh Kim Cương của bạn,2,recipe-icon-531,531,5,"341,1;410,1;407,1",Lv 5 Áo Chiến Binh Kim Cương Tái Chế,"341,1,1,3990;341,2,1,2660;341,3,1,1773;341,4,1,1182;341,5,1,394",0,95531,1,10,-,2,0,4,0,15
-0,Tái tạo Gathering Shoes của bạn,2,recipe-icon-484,484,3,"217,2;115,1",Lv 3 Gathering Shoes Recasting: [213]Tái chế Giày thu thập cấp độ 3,"115,1,1,4736;115,2,1,3157;115,3,1,2105",0,97484,1,10,-,3,0,4,0,0
-0,Tái tạo Blessing Pickaxe của bạn,2,recipe-icon-504,504,3,"90,1;217,2",Lv 3 Blessing Pickaxe Recasting: [195]Tái chế Cuốc may mắn cấp độ 3,"90,1,1,4736;90,2,1,3157;90,3,1,2105",0,97504,1,10,-,3,0,4,0,0
-0,Tái tạo Liềm Sao của bạn,2,recipe-icon-566,566,6,"315,1;402,2",Lv 6 Liềm Sao Tái Chế,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,94566,1,10,-,3,0,4,0,20
-0,Tái tạo Crystal Skin Boots của bạn,2,recipe-icon-464,464,2,"56,1;213,1;210,1",Lv 2 Crystal Skin Boots Recasting: [169]Tái chế Giày da pha lê cấp độ 2,"56,1,1,6000;56,2,1,4000",0,98464,1,10,-,2,0,4,0,0
-0,Tái tạo Crystal Skin Armor của bạn,2,recipe-icon-471,471,2,"47,1;213,1;210,1",Lv 2 Crystal Skin Armor Recasting: [168]Tái chế Áo giáp da pha lê cấp độ 2,"47,1,1,6000;47,2,1,4000",0,98471,1,10,-,2,0,4,0,0
-0,Tái tạo Gathering Gloves của bạn,2,recipe-icon-474,474,2,"126,1;216,2",Lv 2 Gathering Gloves Recasting: [181]Tái chế Găng tay thu thập cấp độ 2,"126,1,1,6000;126,2,1,4000",0,98474,1,10,-,3,0,4,0,0
-0,Tái tạo Quần Chiến Binh Sao của bạn,2,recipe-icon-572,572,6,"348,1;411,1;408,1",Lv 6 Quần Chiến Binh Sao Tái Chế,"348,1,1,3990;348,2,1,2660;348,3,1,1773;348,4,1,1182;348,5,1,394",0,94572,1,10,-,2,0,4,0,20
-0,Tái tạo Giày Thu Thập Sao của bạn,2,recipe-icon-562,562,6,"334,1;402,2",Lv 6 Giày Thu Thập Sao Tái Chế,"334,1,1,3990;334,2,1,2660;334,3,1,1773;334,4,1,1182;334,5,1,394",0,94562,1,10,-,3,0,4,0,20
-0,Tái tạo Copper Brush của bạn,2,recipe-icon-458,458,1,"453,1;207,2",Lv 1 Copper Brush Recasting: [145]Tái chế Cọ đồng cấp độ 1,"453,1,1,10000",0,99458,1,10,-,1,0,4,0,0
-0,Tái tạo Quần Nông Dân Kim Cương của bạn,2,recipe-icon-532,532,5,"358,1;404,2",Lv 5 Quần Nông Dân Kim Cương Tái Chế,"358,1,1,3990;358,2,1,2660;358,3,1,1773;358,4,1,1182;358,5,1,394",0,95532,1,10,-,1,0,4,0,15
-0,Tái tạo Mũ Chiến Binh Sao của bạn,2,recipe-icon-571,571,6,"345,1;411,1;408,1",Lv 6 Mũ Chiến Binh Sao Tái Chế,"345,1,1,3990;345,2,1,2660;345,3,1,1773;345,4,1,1182;345,5,1,394",0,94571,1,10,-,2,0,4,0,20
-0,Tái tạo Iron Hammer của bạn,2,recipe-icon-482,482,2,"442,1;213,1;210,1",Lv 2 Iron Hammer Recasting: [187]Tái chế Búa sắt cấp độ 2,"442,1,1,6000;442,2,1,4000",0,98482,1,10,-,2,0,4,0,0
-0,Tái tạo Farming Pants của bạn,2,recipe-icon-473,473,2,"105,1;207,2",Lv 2 Farming Pants Recasting: [179]Tái chế Quần nông nghiệp cấp độ 2,"105,1,1,6000;105,2,1,4000",0,98473,1,10,-,1,0,4,0,0
-0,Tái tạo Găng Tay Chiến Binh Kim Cương của bạn,2,recipe-icon-534,534,5,"342,1;410,1;407,1",Lv 5 Găng Tay Chiến Binh Kim Cương Tái Chế,"342,1,1,3990;342,2,1,2660;342,3,1,1773;342,4,1,1182;342,5,1,394",0,95534,1,10,-,2,0,4,0,15
-0,Tái tạo Áo Nông Dân Sao của bạn,2,recipe-icon-574,574,6,"361,1;405,2",Lv 6 Áo Nông Dân Sao Tái Chế,"361,1,1,3990;361,2,1,2660;361,3,1,1773;361,4,1,1182;361,5,1,394",0,94574,1,10,-,1,0,4,0,20
-0,Tái tạo Gathering Hat của bạn,2,recipe-icon-453,453,1,"116,1;216,2",Lv 1 Gathering Hat Recasting: [157]Tái chế Mũ thu thập cấp độ 1,"116,1,1,10000",0,99453,1,10,-,3,0,4,0,0
-0,Tái tạo Crystal Leg Armor của bạn,2,recipe-icon-493,493,3,"51,1;214,1;211,1",Lv 3 Crystal Leg Armor Recasting: [199]Tái chế Giáp chân pha lê cấp độ 3,"51,1,1,4736;51,2,1,3157;51,3,1,2105",0,97493,1,10,-,2,0,4,0,0
-0,Tái tạo Crystal Skin Soft Hat của bạn,2,recipe-icon-467,467,2,"44,1;213,1;210,1",Lv 2 Crystal Skin Soft Hat Recasting: [172]Tái chế Mũ mềm da pha lê cấp độ 2,"44,1,1,6000;44,2,1,4000",0,98467,1,10,-,2,0,4,0,0
-0,Tái tạo Golden Pickaxe của bạn,2,recipe-icon-529,529,4,"301,1;218,2",Lv 4 Golden Pickaxe Recasting: [237]Tái chế Cuốc đá vàng cấp độ 4,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,96529,1,10,-,3,0,4,0,10
-0,Tái tạo Quần Thu Thập Sao của bạn,2,recipe-icon-558,558,6,"333,1;402,2",Lv 6 Quần Thu Thập Sao Tái Chế,"333,1,1,3990;333,2,1,2660;333,3,1,1773;333,4,1,1182;333,5,1,394",0,94558,1,10,-,3,0,4,0,20
-0,Tái tạo Metal Bow của bạn,2,recipe-icon-579,579,2,"288,1;213,1;210,1",Lv 2 Metal Bow Recasting: [191]Tái chế Cung kim loại cấp độ 2,"288,1,1,6000;288,2,1,4000",0,98579,1,10,-,2,0,4,0,0
-0,Tái tạo Lucky Hard Hat của bạn,2,recipe-icon-580,580,3,"100,1;208,2",Lv 3 Lucky Hard Hat Recasting: [215]Tái chế Mũ cứng may mắn cấp độ 3,"100,1,1,4736;100,2,1,3157;100,3,1,2105",0,97580,1,10,-,1,0,4,0,0
-0,Tái tạo Golden Sword của bạn,2,recipe-icon-581,581,4,"317,1;215,1;212,1",Lv 4 Golden Sword Recasting: [240]Tái chế Kiếm vàng cấp độ 4,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,96581,1,10,-,2,0,4,0,10
-0,Tái tạo Kiếm Kim Cương của bạn,2,recipe-icon-582,582,5,"318,1;410,1;407,1",Lv 5 Kiếm Kim Cương Tái Chế,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",0,95582,1,10,-,2,0,4,0,15
-0,Tái tạo Búa Ánh Sáng của bạn,2,recipe-icon-583,583,6,"446,1;411,1;408,1",Lv 6 Búa Ánh Sáng Tái Chế,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,94583,1,10,-,2,0,4,0,20
+0,Tái tạo Gathering Jacket của bạn,2,recipe-icon-435,435,1,"216,2;119,1",Lv 1 Đúc lại Áo khoác Thu thập,"119,1,1,10000",0,99435,1,10,-,3,0,4,0,0
+0,Tái tạo Iron Axe của bạn,2,recipe-icon-436,436,1,"216,2;92,1",Lv 1 Đúc lại Rìu sắt,"92,1,1,10000",0,99436,1,10,-,1,0,4,0,0
+0,Tái tạo Golden Farmer Hat của bạn,2,recipe-icon-526,526,4,"350,1;209,2", Cấp độ 4 Mũ nông dân vàng Tái chế,"350,1,1,4153;350,2,1,2769;350,3,1,1846;350,4,1,1230",0,96526,1,10,-,1,0,4,0,10
+0,Tái tạo Iron Sickle của bạn,2,recipe-icon-480,480,2,"227,1;216,2",Làm lại Liềm Sắt cấp độ 2 ,"227,1,1,6000;227,2,1,4000",0,98480,1,10,-,3,0,4,0,0
+0,Tái tạo Diamond Axe của bạn,2,recipe-icon-537,537,5,"306,1;401,2",Lv 5 Rìu kim cương Tái tạo,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,95537,1,10,-,3,0,4,0,15
+0,Tái tạo Farming Jacket của bạn,2,recipe-icon-462,462,2,"102,1;207,2",Lv 2 Đúc lại Áo khoác Nông nghiệp,"102,1,1,6000;102,2,1,4000",0,98462,1,10,-,1,0,4,0,0
+0,Tái tạo Găng Tay Nông Dân Kim Cương của bạn,2,recipe-icon-548,548,5,"357,1;404,2",Lv 5 Đúc lại Găng tay nông dân kim cương,"357,1,1,3990;357,2,1,2660;357,3,1,1773;357,4,1,1182;357,5,1,394",0,95548,1,10,-,1,0,4,0,15
+0,Tái tạo Stone Bow của bạn,2,recipe-icon-444,444,1,"287,1;213,1;210,1",Lv 1 Đúc lại Cung đá,"287,1,1,10000",0,99444,1,10,-,2,0,4,0,0
+0,Tái tạo Giày Nông Dân Sao của bạn,2,recipe-icon-568,568,6,"364,1;405,2",Lv 6 Giày nông dân sao Tái tạo,"364,1,1,3990;364,2,1,2660;364,3,1,1773;364,4,1,1182;364,5,1,394",0,94568,1,10,-,1,0,4,0,20
+0,Tái tạo Gathering Gloves của bạn,2,recipe-icon-487,487,3,"208,2;127,1",Làm lại Găng tay Thu thập cấp độ 3 ,"127,1,1,4736;127,2,1,3157;127,3,1,2105",0,97487,1,10,-,1,0,4,0,0
+0,Tái tạo Curse Axe của bạn,2,recipe-icon-468,468,2,"93,1;216,2",Làm lại Rìu bị nguyền rủa cấp độ 2 ,"93,1,1,6000;93,2,1,4000",0,98468,1,10,-,3,0,4,0,0
+0,Tái tạo Iron Sword của bạn,2,recipe-icon-479,479,2,"41,1;213,1;210,1",Làm lại Kiếm Sắt cấp độ 2 ,"41,1,1,6000;41,2,1,4000",0,98479,1,10,-,2,0,4,0,0
+0,Tái tạo Quần Chiến Binh Kim Cương của bạn,2,recipe-icon-540,540,5,"343,1;410,1;407,1",Lv 5 Quần chiến binh kim cương Tái tạo,"343,1,1,3990;343,2,1,2660;343,3,1,1773;343,4,1,1182;343,5,1,394",0,95540,1,10,-,2,0,4,0,15
+0,Tái tạo Mũ Nông Dân Sao của bạn,2,recipe-icon-573,573,6,"360,1;405,2",Lv 6 Mũ nông dân sao Tái tạo,"360,1,1,3990;360,2,1,2660;360,3,1,1773;360,4,1,1182;360,5,1,394",0,94573,1,10,-,1,0,4,0,20
+0,Tái tạo Gathering Gloves của bạn,2,recipe-icon-452,452,1,"125,1;216,2",Lv 1 Đúc lại Găng tay Thu thập,"125,1,1,10000",0,99452,1,10,-,3,0,4,0,0
+0,Tái tạo Blessing Kettle của bạn,2,recipe-icon-506,506,3,"86,1;208,2",Làm lại Ấm đun nước phước lành cấp độ 3,"86,1,1,4736;86,2,1,3157;86,3,1,2105",0,97506,1,10,-,1,0,4,0,0
+0,Tái tạo Blessing Hoe của bạn,2,recipe-icon-505,505,3,"82,1;208,2", Cấp độ 3 Lưỡi cuốc May Mắn Tái chế,"82,1,1,4736;82,2,1,3157;82,3,1,2105",0,97505,1,10,-,1,0,4,0,0
+0,Tái tạo Farming Gloves của bạn,2,recipe-icon-460,460,2,"108,1;207,2",Làm lại Găng tay Nông nghiệp cấp độ 2 ,"108,1,1,6000;108,2,1,4000",0,98460,1,10,-,1,0,4,0,0
+0,Tái tạo Cracked Crystal Grass Shoes của bạn,2,recipe-icon-449,449,1,"55,1;213,1;210,1",Lv 1 Đúc lại Giày cỏ pha lê mảnh,"55,1,1,10000",0,99449,1,10,-,2,0,4,0,0
+0,Tái tạo Farming Jacket của bạn,2,recipe-icon-501,501,3,"103,1;208,2", Cấp độ 3 Áo khoác Nông nghiệp Tái chế,"103,1,1,4736;103,2,1,3157;103,3,1,2105",0,97501,1,10,-,1,0,4,0,0
+0,Tái tạo Áo Thu Thập Kim Cương của bạn,2,recipe-icon-539,539,5,"326,1;401,2",Lv 5 Áo thu thập kim cương Tái tạo,"326,1,1,3990;326,2,1,2660;326,3,1,1773;326,4,1,1182;326,5,1,394",0,95539,1,10,-,3,0,4,0,15
+0,Tái tạo Cracked Crystal Armor của bạn,2,recipe-icon-446,446,1,"46,1;213,1;210,1",Lv 1 Đúc lại Áo giáp pha lê mảnh,"46,1,1,10000",0,99446,1,10,-,2,0,4,0,0
+0,Tái tạo Giày Nông Dân Kim Cương của bạn,2,recipe-icon-533,533,5,"359,1;404,2",Lv 5 Đúc lại Giày nông dân kim cương,"359,1,1,3990;359,2,1,2660;359,3,1,1773;359,4,1,1182;359,5,1,394",0,95533,1,10,-,1,0,4,0,15
+0,Tái tạo Iron Kettle của bạn,2,recipe-icon-437,437,1,"216,2;84,1",Lv 1 Đúc lại Ấm đun nước đồng,"84,1,1,10000",0,99437,1,10,-,3,0,4,0,0
+0,Tái tạo Áo Nông Dân Kim Cương của bạn,2,recipe-icon-545,545,5,"356,1;404,2",Lv 5 Áo nông dân kim cương Tái tạo,"356,1,1,3990;356,2,1,2660;356,3,1,1773;356,4,1,1182;356,5,1,394",0,95545,1,10,-,1,0,4,0,15
+0,Tái tạo Golden Farmer Coat của bạn,2,recipe-icon-520,520,4,"351,1;209,2", Cấp độ 4 Áo khoác nông dân vàng Tái chế,"351,1,1,4153;351,2,1,2769;351,3,1,1846;351,4,1,1230",0,96520,1,10,-,1,0,4,0,10
+0,Tái tạo Golden Fighter Glove của bạn,2,recipe-icon-511,511,4,"337,1;215,1;212,1",Lv 4 Đúc lại Găng tay chiến binh vàng,"337,1,1,4153;337,2,1,2769;337,3,1,1846;337,4,1,1230",0,96511,1,10,-,2,0,4,0,10
+0,Tái tạo Golden Gather Coat của bạn,2,recipe-icon-515,515,4,"321,1;218,2",Lv 4 Đúc lại Áo thu thập vàng,"321,1,1,4153;321,2,1,2769;321,3,1,1846;321,4,1,1230",0,96515,1,10,-,3,0,4,0,10
+0,Tái tạo Golden Gather Shoes của bạn,2,recipe-icon-516,516,4,"324,1;218,2",Lv 4 Đúc lại Giày thu thập vàng,"324,1,1,4153;324,2,1,2769;324,3,1,1846;324,4,1,1230",0,96516,1,10,-,3,0,4,0,10
+0,Tái tạo Crystal Skin Glove của bạn,2,recipe-icon-469,469,2,"53,1;213,1;210,1",Làm lại Găng tay da pha lê cấp độ 2 ,"53,1,1,6000;53,2,1,4000",0,98469,1,10,-,2,0,4,0,0
+0,Tái tạo Quần Nông Dân Sao của bạn,2,recipe-icon-560,560,6,"363,1;405,2",Lv 6 Quần nông dân sao Tái tạo,"363,1,1,3990;363,2,1,2660;363,3,1,1773;363,4,1,1182;363,5,1,394",0,94560,1,10,-,1,0,4,0,20
+0,Tái tạo Curse Kettle của bạn,2,recipe-icon-463,463,2,"85,1;207,2",Làm lại Ấm đun nước bị nguyền rủa cấp độ 2 ,"85,1,1,6000;85,2,1,4000",0,98463,1,10,-,1,0,4,0,0
+0,Tái tạo Kiếm Sao của bạn,2,recipe-icon-561,561,6,"319,1;411,1;408,1",,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,94561,1,10,-,2,0,4,0,20
+0,Tái tạo Golden Kettle của bạn,2,recipe-icon-528,528,4,"304,1;209,2",Lv 4 Đúc lại Ấm đun vàng,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96528,1,10,-,1,0,4,0,10
+0,Tái tạo Farming Shoes của bạn,2,recipe-icon-472,472,2,"111,1;207,2",Làm lại Giày Nông nghiệp cấp độ 2 ,"111,1,1,6000;111,2,1,4000",0,98472,1,10,-,1,0,4,0,0
+0,Tái tạo Crystal Sickle của bạn,2,recipe-icon-483,483,3,"228,1;217,2", Cấp độ 3 Cuốc cỏ Pha lê Tái chế,"228,1,1,4736;228,2,1,3157;228,3,1,2105",0,97483,1,10,-,3,0,4,0,0
+0,Tái tạo Lucky Clover Hat của bạn,2,recipe-icon-457,457,1,"216,2;98,1",Lv 1 Đúc lại Mũ lá may mắn,"98,1,1,10000",0,99457,1,10,-,3,0,4,0,0
+0,Tái tạo Gathering Hat của bạn,2,recipe-icon-485,485,3,"217,2;118,1", Cấp độ 3 Mũ thu thập Tái chế,"118,1,1,4736;118,2,1,3157;118,3,1,2105",0,97485,1,10,-,3,0,4,0,0
+0,Tái tạo Golden Farmer Shoes của bạn,2,recipe-icon-510,510,4,"354,1;209,2",Lv 4 Đúc lại Giày nông dân vàng,"354,1,1,4153;354,2,1,2769;354,3,1,1846;354,4,1,1230",0,96510,1,10,-,1,0,4,0,10
+0,Tái tạo Golden Gather Hat của bạn,2,recipe-icon-525,525,4,"320,1;218,2",Lv 4 Đúc lại Mũ thu thập vàng,"320,1,1,4153;320,2,1,2769;320,3,1,1846;320,4,1,1230",0,96525,1,10,-,3,0,4,0,10
+0,Tái tạo Ấm Đun Nước Sao của bạn,2,recipe-icon-563,563,6,"316,1;405,2", Lv 6 Star Kettle Recasting: Tái chế ấm đun nước 6 sao[142] Lv 6 Star Hoe Recasting: Tái chế cuốc 6 sao[143] Lv 6 Star Scissors Recasting: Tái chế kéo 6 sao[144] Lv 6 Starlight Brush Recasting: Tái chế bàn chải ánh sáng 6 sao[145] Lv 6 Star Farmer Glove Recasting: Tái chế găng tay nông dân 6 sao[146] Lv 6 Star Farmer Coat Recasting: Tái chế áo nông dân 6 sao[147] Lv 6 Star Sword Recasting: Tái chế kiếm 6 sao[148] Lv 6 Star Fighter Coat Recasting: Tái chế áo chiến binh 6 sao[149] Lv 6 Star Fighter Shoes Recasting: Tái chế giày chiến binh 6 sao[150] Lv 6 Starlight Bow Recasting: Tái chế cung ánh sáng 6 sao[151] Lv 6 Star Fighter Glove Recasting: Tái chế găng tay chiến binh 6 sao[152] Lv 6 Star Fighter Pants Recasting: Tái chế quần chiến binh 6 sao[153] Lv 6 Star Fighter Hat Recasting: Tái chế mũ chiến binh 6 sao[154] Lv 6 Starlight Hammer Recasting: Tái chế búa ánh sáng 6 sao[155] Lv 6 Star Gather Hat Recasting: Tái chế mũ thu thập 6 sao[156] Lv 6 Star Gather Glove Recasting: Tái chế găng tay thu thập 6 sao[157] Lv 6 Star Pickaxe Recasting: Tái chế cuốc đá 6 sao[158] Lv 6 Star Gather Coat Recasting: Tái chế áo thu thập 6 sao[159] Lv 6 Star Axe Recasting: Tái chế rìu 6 sao[160] Lv 6 Star Sickle Recasting: Tái chế liềm 6 sao[161] Lv 6 Star Gather Shoes Recasting: Tái chế giày thu thập 6 sao[162] Lv 6 Star Gather Pants Recasting: Tái chế quần thu thập 6 sao[163] Lv 1 Stone Sword Recipe: Công thức kiếm đá cấp độ 1[164] Lv 2 Iron Sword Recipe: Công thức kiếm sắt cấp độ 2[165] Lv 3 Crystal Sword Recipe: Công thức kiếm pha lê cấp độ 3,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94563,1,10,-,1,0,4,0,20
+0,Tái tạo Golden Gather Glove của bạn,2,recipe-icon-524,524,4,"322,1;218,2",Lv 4 Đúc lại Găng tay thu thập vàng,"322,1,1,4153;322,2,1,2769;322,3,1,1846;322,4,1,1230",0,96524,1,10,-,3,0,4,0,10
+0,Tái tạo Copper Sickle của bạn,2,recipe-icon-455,455,1,"226,1;216,2",Lv 1 Đúc lại Liềm đồng,"226,1,1,10000",0,99455,1,10,-,3,0,4,0,0
+0,Tái tạo Mũ Thu Thập Sao của bạn,2,recipe-icon-557,557,6,"330,1;402,2",,"330,1,1,3990;330,2,1,2660;330,3,1,1773;330,4,1,1182;330,5,1,394",0,94557,1,10,-,3,0,4,0,20
+0,Tái tạo Iron Pickaxe của bạn,2,recipe-icon-445,445,1,"216,2;88,1",Lv 1 Đúc lại Cuốc sắt,"88,1,1,10000",0,99445,1,10,-,1,0,4,0,0
+0,Tái tạo Farming Gloves của bạn,2,recipe-icon-448,448,1,"107,1;207,2",Lv 1 Đúc lại Găng tay Nông nghiệp,"107,1,1,10000",0,99448,1,10,-,1,0,4,0,0
+0,Tái tạo Giày Thu Thập Kim Cương của bạn,2,recipe-icon-538,538,5,"329,1;401,2",Lv 5 Giày thu thập kim cương Tái tạo,"329,1,1,3990;329,2,1,2660;329,3,1,1773;329,4,1,1182;329,5,1,394",0,95538,1,10,-,3,0,4,0,15
+0,Tái tạo Găng Tay Thu Thập Sao của bạn,2,recipe-icon-554,554,6,"332,1;402,2",,"332,1,1,3990;332,2,1,2660;332,3,1,1773;332,4,1,1182;332,5,1,394",0,94554,1,10,-,3,0,4,0,20
+0,Tái tạo Cuốc Sao của bạn,2,recipe-icon-565,565,6,"313,1;402,2",,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94565,1,10,-,3,0,4,0,20
+0,Tái tạo Cracked Crystal Bracelet của bạn,2,recipe-icon-443,443,1,"52,1;213,1;210,1",Lv 1 Đúc lại Vòng tay pha lê mảnh,"52,1,1,10000",0,99443,1,10,-,2,0,4,0,0
+0,Tái tạo Copper Hammer của bạn,2,recipe-icon-456,456,1,"441,1;213,1;210,1",Lv 1 Đúc lại Búa đồng,"441,1,1,10000",0,99456,1,10,-,2,0,4,0,0
+0,Tái tạo Liềm Kim Cương của bạn,2,recipe-icon-577,577,5,"309,1;401,2",Lv 5 Liềm kim cương Tái tạo,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,95577,1,10,-,3,0,4,0,15
+0,Tái tạo Golden Hoe của bạn,2,recipe-icon-507,507,4,"299,1;209,2",Lv 4 Đúc lại Cuốc vàng,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,96507,1,10,-,1,0,4,0,10
+0,Tái tạo Mũ Nông Dân Kim Cương của bạn,2,recipe-icon-549,549,5,"355,1;404,2",Lv 5 Mũ nông dân kim cương Tái tạo,"355,1,1,3990;355,2,1,2660;355,3,1,1773;355,4,1,1182;355,5,1,394",0,95549,1,10,-,1,0,4,0,15
+0,Tái tạo Mũ Chiến Binh Kim Cương của bạn,2,recipe-icon-535,535,5,"340,1;410,1;407,1",Lv 5 Mũ chiến binh kim cương Tái tạo,"340,1,1,3990;340,2,1,2660;340,3,1,1773;340,4,1,1182;340,5,1,394",0,95535,1,10,-,2,0,4,0,15
+0,Tái tạo Crystal Brush của bạn,2,recipe-icon-490,490,3,"455,1;208,2", Cấp độ 3 Bàn chải Pha lê Tái chế,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97490,1,10,-,1,0,4,0,0
+0,Tái tạo Cracked Crystal Grass Skirt của bạn,2,recipe-icon-447,447,1,"49,1;213,1;210,1",Lv 1 Đúc lại Váy Hula cỏ pha lê mảnh,"49,1,1,10000",0,99447,1,10,-,2,0,4,0,0
+0,Tái tạo Cuốc Sao của bạn,2,recipe-icon-564,564,6,"311,1;405,2",,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94564,1,10,-,1,0,4,0,20
+0,Tái tạo Crystal Stone Armor của bạn,2,recipe-icon-497,497,3,"48,1;214,1;211,1", Cấp độ 3 Áo giáp Pha lê Tái chế,"48,1,1,4736;48,2,1,3157;48,3,1,2105",0,97497,1,10,-,2,0,4,0,0
+0,Tái tạo Lucky Hard Hat của bạn,2,recipe-icon-488,488,3,"217,2;112,1", Cấp độ 3 Giày Nông nghiệp Tái chế,"112,1,1,4736;112,2,1,3157;112,3,1,2105",0,97488,1,10,-,3,0,4,0,0
+0,Tái tạo Gathering Shoes của bạn,2,recipe-icon-438,438,1,"216,2;113,1",Lv 1 Đúc lại Giày Thu thập,"113,1,1,10000",0,99438,1,10,-,3,0,4,0,0
+0,Tái tạo Quần Thu Thập Kim Cương của bạn,2,recipe-icon-544,544,5,"328,1;401,2",Lv 5 Quần thu thập kim cương Tái tạo,"328,1,1,3990;328,2,1,2660;328,3,1,1773;328,4,1,1182;328,5,1,394",0,95544,1,10,-,3,0,4,0,15
+0,Tái tạo Blessed Axe của bạn,2,recipe-icon-491,491,3,"94,1;217,2", Cấp độ 3 Rìu May Mắn Tái chế,"94,1,1,4736;94,2,1,3157;94,3,1,2105",0,97491,1,10,-,3,0,4,0,0
+0,Tái tạo Ấm Đun Nước Kim Cương của bạn,2,recipe-icon-551,551,5,"310,1;404,2",Lv 5 Ấm đun nước kim cương Tái tạo,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95551,1,10,-,1,0,4,0,15
+0,Tái tạo Curse Hoe của bạn,2,recipe-icon-466,466,2,"81,1;207,2",Làm lại Cuốc bị nguyền rủa cấp độ 2 ,"81,1,1,6000;81,2,1,4000",0,98466,1,10,-,1,0,4,0,0
+0,Tái tạo Golden Sickle của bạn,2,recipe-icon-576,576,4,"303,1;218,2",Lv 4 Đúc lại Liềm vàng,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,96576,1,10,-,3,0,4,0,10
+0,Tái tạo Gathering Shoes của bạn,2,recipe-icon-477,477,2,"114,1;216,2",Làm lại Giày Thu thập cấp độ 2 ,"114,1,1,6000;114,2,1,4000",0,98477,1,10,-,3,0,4,0,0
+0,Tái tạo Farming Pants của bạn,2,recipe-icon-441,441,1,"104,1;207,2",Lv 1 Đúc lại Quần Nông nghiệp,"104,1,1,10000",0,99441,1,10,-,1,0,4,0,0
+0,Tái tạo Áo Chiến Binh Sao của bạn,2,recipe-icon-570,570,6,"346,1;411,1;408,1",,"346,1,1,3990;346,2,1,2660;346,3,1,1773;346,4,1,1182;346,5,1,394",0,94570,1,10,-,2,0,4,0,20
+0,Tái tạo Cursed Pickaxe của bạn,2,recipe-icon-461,461,2,"89,1;216,2",Làm lại Cuốc bị nguyền rủa cấp độ 2 ,"89,1,1,6000;89,2,1,4000",0,98461,1,10,-,3,0,4,0,0
+0,Tái tạo Lucky Cotton Hat của bạn,2,recipe-icon-481,481,2,"99,1;207,2",Làm lại Mũ Bông May Mắn cấp độ 2 ,"99,1,1,6000;99,2,1,4000",0,98481,1,10,-,1,0,4,0,0
+0,Tái tạo Golden Brush của bạn,2,recipe-icon-522,522,4,"456,1;209,2",Lv 4 Đúc lại Cọ vàng,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96522,1,10,-,1,0,4,0,10
+0,Tái tạo Iron Hoe của bạn,2,recipe-icon-439,439,1,"207,2;80,1",Lv 1 Đúc lại Cuốc gỗ,"80,1,1,10000",0,99439,1,10,-,1,0,4,0,0
+0,Tái tạo Cuốc Kim Cương của bạn,2,recipe-icon-530,530,5,"305,1;404,2",Lv 5 Cuốc kim cương Tái tạo,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,95530,1,10,-,1,0,4,0,15
+0,Tái tạo Golden Fighter Pants của bạn,2,recipe-icon-517,517,4,"338,1;215,1;212,1",Lv 4 Đúc lại Quần chiến binh vàng,"338,1,1,4153;338,2,1,2769;338,3,1,1846;338,4,1,1230",0,96517,1,10,-,2,0,4,0,10
+0,Tái tạo Gathering Jacket của bạn,2,recipe-icon-486,486,3,"217,2;121,1", Cấp độ 3 Áo khoác Thu thập Tái chế,"121,1,1,4736;121,2,1,3157;121,3,1,2105",0,97486,1,10,-,3,0,4,0,0
+0,Tái tạo Giày Chiến Binh Sao của bạn,2,recipe-icon-555,555,6,"349,1;411,1;408,1",,"349,1,1,3990;349,2,1,2660;349,3,1,1773;349,4,1,1182;349,5,1,394",0,94555,1,10,-,2,0,4,0,20
+0,Tái tạo Farming Shoes của bạn,2,recipe-icon-454,454,1,"110,1;207,2",Lv 1 Đúc lại Giày Nông nghiệp,"110,1,1,10000",0,99454,1,10,-,1,0,4,0,0
+0,Tái tạo Golden Farmer Pants của bạn,2,recipe-icon-509,509,4,"353,1;209,2",Lv 4 Đúc lại Quần nông dân vàng,"353,1,1,4153;353,2,1,2769;353,3,1,1846;353,4,1,1230",0,96509,1,10,-,1,0,4,0,10
+0,Tái tạo Golden Axe của bạn,2,recipe-icon-514,514,4,"300,1;218,2",Lv 4 Đúc lại Rìu vàng,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,96514,1,10,-,3,0,4,0,10
+0,Tái tạo Crystal Stone Gauntlet của bạn,2,recipe-icon-495,495,3,"54,1;214,1;211,1", Cấp độ 3 Găng tay Pha lê Tái chế,"54,1,1,4736;54,2,1,3157;54,3,1,2105",0,97495,1,10,-,2,0,4,0,0
+0,Tái tạo Búa Kim Cương của bạn,2,recipe-icon-536,536,5,"445,1;410,1;407,1",Lv 5 Búa kim cương Tái tạo,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95536,1,10,-,2,0,4,0,15
+0,Tái tạo Golden Fighter Hat của bạn,2,recipe-icon-512,512,4,"335,1;215,1;212,1",Lv 4 Đúc lại Mũ chiến binh vàng,"335,1,1,4153;335,2,1,2769;335,3,1,1846;335,4,1,1230",0,96512,1,10,-,2,0,4,0,10
+0,Tái tạo Crystal Bow của bạn,2,recipe-icon-494,494,3,"289,1;214,1;211,1", Cấp độ 3 Cung Pha lê Tái chế,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97494,1,10,-,2,0,4,0,0
+0,Tái tạo Gathering Pants của bạn,2,recipe-icon-503,503,3,"217,2;124,1", Cấp độ 3 Quần Thu thập Tái chế,"124,1,1,4736;124,2,1,3157;124,3,1,2105",0,97503,1,10,-,3,0,4,0,0
+0,Tái tạo Mũ Thu Thập Kim Cương của bạn,2,recipe-icon-543,543,5,"325,1;401,2",Lv 5 Mũ thu thập kim cương Tái tạo,"325,1,1,3990;325,2,1,2660;325,3,1,1773;325,4,1,1182;325,5,1,394",0,95543,1,10,-,3,0,4,0,15
+0,Tái tạo Iron Brush của bạn,2,recipe-icon-475,475,2,"454,1;207,2",Làm lại Cọ Sắt cấp độ 2 ,"454,1,1,6000;454,2,1,4000",0,98475,1,10,-,1,0,4,0,0
+0,Tái tạo Gathering Hat của bạn,2,recipe-icon-478,478,2,"117,1;216,2",Làm lại Mũ Thu thập cấp độ 2 ,"117,1,1,6000;117,2,1,4000",0,98478,1,10,-,3,0,4,0,0
+0,Tái tạo Crystal Stone Shoes của bạn,2,recipe-icon-498,498,3,"57,1;214,1;211,1", Cấp độ 3 Giày Pha lê Tái chế,"57,1,1,4736;57,2,1,3157;57,3,1,2105",0,97498,1,10,-,2,0,4,0,0
+0,Tái tạo Diamond Bow của bạn,2,recipe-icon-546,546,5,"451,1;410,1;407,1",Lv 5 Cung kim cương Tái tạo,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95546,1,10,-,2,0,4,0,15
+0,Tái tạo Áo Thu Thập Sao của bạn,2,recipe-icon-556,556,6,"331,1;402,2",,"331,1,1,3990;331,2,1,2660;331,3,1,1773;331,4,1,1182;331,5,1,394",0,94556,1,10,-,3,0,4,0,20
+0,Tái tạo Farming Jacket của bạn,2,recipe-icon-450,450,1,"101,1;207,2",Lv 1 Đúc lại Áo Nông nghiệp,"101,1,1,10000",0,99450,1,10,-,1,0,4,0,0
+0,Tái tạo Cọ Ánh Sáng của bạn,2,recipe-icon-553,553,6,"458,1;405,2",,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94553,1,10,-,1,0,4,0,20
+0,Tái tạo Cung Ánh Sáng của bạn,2,recipe-icon-559,559,6,"452,1;411,1;408,1",,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94559,1,10,-,2,0,4,0,20
+0,Tái tạo Golden Fighter Shoes của bạn,2,recipe-icon-518,518,4,"339,1;215,1;212,1",Lv 4 Đúc lại Giày chiến binh vàng,"339,1,1,4153;339,2,1,2769;339,3,1,1846;339,4,1,1230",0,96518,1,10,-,2,0,4,0,10
+0,Tái tạo Crystal Sword của bạn,2,recipe-icon-489,489,3,"42,1;214,1;211,1", Cấp độ 3 Thanh kiếm Pha lê Tái chế,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97489,1,10,-,2,0,4,0,0
+0,Tái tạo Gathering Pants của bạn,2,recipe-icon-451,451,1,"216,2;122,1",Lv 1 Đúc lại Quần Thu thập,"122,1,1,10000",0,99451,1,10,-,3,0,4,0,0
+0,Tái tạo Golden Hammer của bạn,2,recipe-icon-513,513,4,"444,1;215,1;212,1",Lv 4 Đúc lại Búa vàng,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96513,1,10,-,2,0,4,0,10
+0,Tái tạo Crystal Stone Helmet của bạn,2,recipe-icon-496,496,3,"45,1;214,1;211,1", Cấp độ 3 Mũ bảo hiểm Pha lê Tái chế,"45,1,1,4736;45,2,1,3157;45,3,1,2105",0,97496,1,10,-,2,0,4,0,0
+0,Tái tạo Găng Tay Nông Dân Sao của bạn,2,recipe-icon-575,575,6,"362,1;405,2",,"362,1,1,3990;362,2,1,2660;362,3,1,1773;362,4,1,1182;362,5,1,394",0,94575,1,10,-,1,0,4,0,20
+0,Tái tạo Stone Sword của bạn,2,recipe-icon-459,459,1,"40,1;213,1;210,1",Lv 1 Đúc lại Kiếm đá,"40,1,1,10000",0,99459,1,10,-,2,0,4,0,0
+0,Tái tạo Găng Tay Thu Thập Kim Cương của bạn,2,recipe-icon-542,542,5,"327,1;401,2",Lv 5 Găng tay thu thập kim cương Tái tạo,"327,1,1,3990;327,2,1,2660;327,3,1,1773;327,4,1,1182;327,5,1,394",0,95542,1,10,-,3,0,4,0,15
+0,Tái tạo Golden Farmer Glove của bạn,2,recipe-icon-523,523,4,"352,1;209,2",Lv 4 Đúc lại Găng tay nông dân vàng,"352,1,1,4153;352,2,1,2769;352,3,1,1846;352,4,1,1230",0,96523,1,10,-,1,0,4,0,10
+0,Tái tạo Diamond Brush của bạn,2,recipe-icon-547,547,5,"457,1;404,2",Lv 5 Cọ kim cương Tái tạo,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95547,1,10,-,1,0,4,0,15
+0,Tái tạo Golden Gather Pants của bạn,2,recipe-icon-519,519,4,"323,1;218,2",Lv 4 Đúc lại Quần thu thập vàng,"323,1,1,4153;323,2,1,2769;323,3,1,1846;323,4,1,1230",0,96519,1,10,-,3,0,4,0,10
+0,Tái tạo Rìu Sao của bạn,2,recipe-icon-578,578,6,"312,1;402,2",,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94578,1,10,-,3,0,4,0,20
+0,Tái tạo Crystal Skin Pant của bạn,2,recipe-icon-470,470,2,"50,1;213,1;210,1",Làm lại Quần da pha lê cấp độ 2 ,"50,1,1,6000;50,2,1,4000",0,98470,1,10,-,2,0,4,0,0
+0,Tái tạo Giày Chiến Binh Kim Cương của bạn,2,recipe-icon-541,541,5,"344,1;410,1;407,1",Lv 5 Giày chiến binh kim cương Tái tạo,"344,1,1,3990;344,2,1,2660;344,3,1,1773;344,4,1,1182;344,5,1,394",0,95541,1,10,-,2,0,4,0,15
+0,Tái tạo Chip Head Ring của bạn,2,recipe-icon-442,442,1,"43,1;213,1;210,1",Lv 1 Đúc lại Vòng đầu Chip,"43,1,1,10000",0,99442,1,10,-,2,0,4,0,0
+0,Tái tạo Golden Fighter Coat của bạn,2,recipe-icon-508,508,4,"336,1;215,1;212,1",Lv 4 Đúc lại Áo chiến binh vàng,"336,1,1,4153;336,2,1,2769;336,3,1,1846;336,4,1,1230",0,96508,1,10,-,2,0,4,0,10
+0,Tái tạo Gathering Jacket của bạn,2,recipe-icon-465,465,2,"120,1;216,2",Làm lại Áo khoác Thu thập cấp độ 2 ,"120,1,1,6000;120,2,1,4000",0,98465,1,10,-,3,0,4,0,0
+0,Tái tạo Gathering Pants của bạn,2,recipe-icon-476,476,2,"123,1;216,2",Làm lại Quần Thu thập cấp độ 2 ,"123,1,1,6000;123,2,1,4000",0,98476,1,10,-,3,0,4,0,0
+0,Tái tạo Golden Bow của bạn,2,recipe-icon-521,521,4,"450,1;215,1;212,1",Lv 4 Đúc lại Cung vàng,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96521,1,10,-,2,0,4,0,10
+0,Tái tạo Găng Tay Chiến Binh Sao của bạn,2,recipe-icon-569,569,6,"347,1;411,1;408,1",,"347,1,1,3990;347,2,1,2660;347,3,1,1773;347,4,1,1182;347,5,1,394",0,94569,1,10,-,2,0,4,0,20
+0,Tái tạo Farming Pants của bạn,2,recipe-icon-499,499,3,"106,1;208,2", Cấp độ 3 Quần Nông nghiệp Tái chế,"106,1,1,4736;106,2,1,3157;106,3,1,2105",0,97499,1,10,-,1,0,4,0,0
+0,Tái tạo Cuốc Kim Cương của bạn,2,recipe-icon-552,552,5,"307,1;401,2",Lv 5 Cuốc kim cương Tái tạo,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",0,95552,1,10,-,3,0,4,0,15
+0,Tái tạo Crystal Hammer của bạn,2,recipe-icon-492,492,3,"443,1;214,1;211,1", Cấp độ 3 Búa Pha lê Tái chế,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97492,1,10,-,2,0,4,0,0
+0,Tái tạo Farming Gloves của bạn,2,recipe-icon-500,500,3,"109,1;208,2", Cấp độ 3 Găng tay Nông nghiệp Tái chế,"109,1,1,4736;109,2,1,3157;109,3,1,2105",0,97500,1,10,-,1,0,4,0,0
+0,Tái tạo Áo Chiến Binh Kim Cương của bạn,2,recipe-icon-531,531,5,"341,1;410,1;407,1",Lv 5 Áo chiến binh kim cương Tái tạo,"341,1,1,3990;341,2,1,2660;341,3,1,1773;341,4,1,1182;341,5,1,394",0,95531,1,10,-,2,0,4,0,15
+0,Tái tạo Gathering Shoes của bạn,2,recipe-icon-484,484,3,"217,2;115,1", Cấp độ 3 Giày Thu thập Tái chế,"115,1,1,4736;115,2,1,3157;115,3,1,2105",0,97484,1,10,-,3,0,4,0,0
+0,Tái tạo Blessing Pickaxe của bạn,2,recipe-icon-504,504,3,"90,1;217,2", Cấp độ 3 Cuốc May Mắn Tái chế,"90,1,1,4736;90,2,1,3157;90,3,1,2105",0,97504,1,10,-,3,0,4,0,0
+0,Tái tạo Liềm Sao của bạn,2,recipe-icon-566,566,6,"315,1;402,2",,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,94566,1,10,-,3,0,4,0,20
+0,Tái tạo Crystal Skin Boots của bạn,2,recipe-icon-464,464,2,"56,1;213,1;210,1",Làm lại Giày da pha lê cấp độ 2 ,"56,1,1,6000;56,2,1,4000",0,98464,1,10,-,2,0,4,0,0
+0,Tái tạo Crystal Skin Armor của bạn,2,recipe-icon-471,471,2,"47,1;213,1;210,1",Làm lại Áo da pha lê cấp độ 2 ,"47,1,1,6000;47,2,1,4000",0,98471,1,10,-,2,0,4,0,0
+0,Tái tạo Gathering Gloves của bạn,2,recipe-icon-474,474,2,"126,1;216,2",Làm lại Găng tay Thu thập cấp độ 2 ,"126,1,1,6000;126,2,1,4000",0,98474,1,10,-,3,0,4,0,0
+0,Tái tạo Quần Chiến Binh Sao của bạn,2,recipe-icon-572,572,6,"348,1;411,1;408,1",,"348,1,1,3990;348,2,1,2660;348,3,1,1773;348,4,1,1182;348,5,1,394",0,94572,1,10,-,2,0,4,0,20
+0,Tái tạo Giày Thu Thập Sao của bạn,2,recipe-icon-562,562,6,"334,1;402,2",,"334,1,1,3990;334,2,1,2660;334,3,1,1773;334,4,1,1182;334,5,1,394",0,94562,1,10,-,3,0,4,0,20
+0,Tái tạo Copper Brush của bạn,2,recipe-icon-458,458,1,"453,1;207,2",Lv 1 Đúc lại Cọ đồng,"453,1,1,10000",0,99458,1,10,-,1,0,4,0,0
+0,Tái tạo Quần Nông Dân Kim Cương của bạn,2,recipe-icon-532,532,5,"358,1;404,2",Lv 5 Quần nông dân kim cương Tái tạo,"358,1,1,3990;358,2,1,2660;358,3,1,1773;358,4,1,1182;358,5,1,394",0,95532,1,10,-,1,0,4,0,15
+0,Tái tạo Mũ Chiến Binh Sao của bạn,2,recipe-icon-571,571,6,"345,1;411,1;408,1",,"345,1,1,3990;345,2,1,2660;345,3,1,1773;345,4,1,1182;345,5,1,394",0,94571,1,10,-,2,0,4,0,20
+0,Tái tạo Iron Hammer của bạn,2,recipe-icon-482,482,2,"442,1;213,1;210,1",Làm lại Búa Sắt cấp độ 2 ,"442,1,1,6000;442,2,1,4000",0,98482,1,10,-,2,0,4,0,0
+0,Tái tạo Farming Pants của bạn,2,recipe-icon-473,473,2,"105,1;207,2",Làm lại Quần Nông nghiệp cấp độ 2 ,"105,1,1,6000;105,2,1,4000",0,98473,1,10,-,1,0,4,0,0
+0,Tái tạo Găng Tay Chiến Binh Kim Cương của bạn,2,recipe-icon-534,534,5,"342,1;410,1;407,1",Lv 5 Găng tay chiến binh kim cương Tái tạo,"342,1,1,3990;342,2,1,2660;342,3,1,1773;342,4,1,1182;342,5,1,394",0,95534,1,10,-,2,0,4,0,15
+0,Tái tạo Áo Nông Dân Sao của bạn,2,recipe-icon-574,574,6,"361,1;405,2",,"361,1,1,3990;361,2,1,2660;361,3,1,1773;361,4,1,1182;361,5,1,394",0,94574,1,10,-,1,0,4,0,20
+0,Tái tạo Gathering Hat của bạn,2,recipe-icon-453,453,1,"116,1;216,2",Lv 1 Đúc lại Mũ Thu thập,"116,1,1,10000",0,99453,1,10,-,3,0,4,0,0
+0,Tái tạo Crystal Leg Armor của bạn,2,recipe-icon-493,493,3,"51,1;214,1;211,1", Cấp độ 3 Áo giáp chân Pha lê Tái chế,"51,1,1,4736;51,2,1,3157;51,3,1,2105",0,97493,1,10,-,2,0,4,0,0
+0,Tái tạo Crystal Skin Soft Hat của bạn,2,recipe-icon-467,467,2,"44,1;213,1;210,1",Làm lại Mũ Bảo Hiểm Mềm Da pha lê cấp độ 2 ,"44,1,1,6000;44,2,1,4000",0,98467,1,10,-,2,0,4,0,0
+0,Tái tạo Golden Pickaxe của bạn,2,recipe-icon-529,529,4,"301,1;218,2",Lv 4 Đúc lại Cuốc vàng,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,96529,1,10,-,3,0,4,0,10
+0,Tái tạo Quần Thu Thập Sao của bạn,2,recipe-icon-558,558,6,"333,1;402,2",,"333,1,1,3990;333,2,1,2660;333,3,1,1773;333,4,1,1182;333,5,1,394",0,94558,1,10,-,3,0,4,0,20
+0,Tái tạo Metal Bow của bạn,2,recipe-icon-579,579,2,"288,1;213,1;210,1",Làm lại Cung Kim Loại cấp độ 2 ,"288,1,1,6000;288,2,1,4000",0,98579,1,10,-,2,0,4,0,0
+0,Tái tạo Lucky Hard Hat của bạn,2,recipe-icon-580,580,3,"100,1;208,2", Cấp độ 3 Mũ bảo hiểm May Mắn Tái chế,"100,1,1,4736;100,2,1,3157;100,3,1,2105",0,97580,1,10,-,1,0,4,0,0
+0,Tái tạo Golden Sword của bạn,2,recipe-icon-581,581,4,"317,1;215,1;212,1",Lv 4 Đúc lại Kiếm vàng,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,96581,1,10,-,2,0,4,0,10
+0,Tái tạo Kiếm Kim Cương của bạn,2,recipe-icon-582,582,5,"318,1;410,1;407,1",Lv 5 Thanh kiếm kim cương Tái tạo,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",0,95582,1,10,-,2,0,4,0,15
+0,Tái tạo Búa Ánh Sáng của bạn,2,recipe-icon-583,583,6,"446,1;411,1;408,1",,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,94583,1,10,-,2,0,4,0,20
