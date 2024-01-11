@@ -6,7 +6,7 @@ using UnityEngine;
 public static class HomeDefine
 {
     /// <summary>
-    /// 家园进度值流逝速度 每秒 
+    /// 家园进度值流逝速度 每秒流逝比例
     /// 为了性能 不要在进度数据组件中update读表
     /// </summary>
     public static float HomeProgressLostSpeed = 0;
