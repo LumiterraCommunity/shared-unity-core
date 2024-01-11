@@ -53,7 +53,13 @@ public class HomeActionProgressData : MonoBehaviour
         if (!InitHomeProgressLostSpeed)
         {
             InitHomeProgressLostSpeed = true;
-            HomeProgressLostSpeed = TableUtil.GetGameValue(eGameValueID.homeActionLostSpeed).Value;
+            int lostTime = TableUtil.GetGameValue(eGameValueID.homeActionLostSpeed).Value;//配置几秒流完
+            if (lostTime <= 0)
+            {
+                Log.Error($"homeActionLostSpeed配置错误:{lostTime}");
+                lostTime = 1;
+            }
+            HomeProgressLostSpeed = 1 / (float)lostTime;
         }
     }
 
@@ -84,7 +90,7 @@ public class HomeActionProgressData : MonoBehaviour
             return;
         }
 
-        CurProgressActionValue -= HomeProgressLostSpeed * Time.deltaTime;
+        CurProgressActionValue -= HomeProgressLostSpeed * CurProgressActionMaxValue * Time.deltaTime;
         CurProgressActionValue = Mathf.Max(0, CurProgressActionValue);
 
         if (CurProgressActionValue.ApproximatelyEquals(0))
