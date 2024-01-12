@@ -47,6 +47,7 @@ public class MovingPlatformCore : SharedCoreComponent
         }
 
         CalAllTime();
+        MessageCore.InstancingLevelInitFinish += UpdateLevelStatus;
         MessageCore.LevelStatusUpdate += OnLevelStatusUpdate;
         UpdateLevelStatus();
     }
@@ -55,6 +56,7 @@ public class MovingPlatformCore : SharedCoreComponent
     private void OnDestroy()
     {
         MessageCore.LevelStatusUpdate -= OnLevelStatusUpdate;
+        MessageCore.InstancingLevelInitFinish -= UpdateLevelStatus;
 
     }
     private void OnLevelStatusUpdate(int levelIndex, GameMessageCore.eInstancingStatusType statusType)
