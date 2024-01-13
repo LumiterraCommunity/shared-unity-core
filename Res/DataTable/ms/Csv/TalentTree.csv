@@ -122,9 +122,9 @@ Kemahiran Perlombongan + 5
 Tenaga Maksimum + 10
 ","86,10000","1,3",talentTree-29,29,1,6,1,Kumpulkan Pertempuran 6,3,3770,5,0,28
 -3," Buka Resipi Set Tahap 1
-",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Menginjak - Tingkatkan,3,"100,156,243",0,"0,0,0",
+",70#74#201#267;111#178;177#179#180,2,talentTree-33,33,0,1,3,Menginjak - Tingkatkan,3,"100,156,243",0,"0,0,0",
 -3," Buka Resipi Set Tahap 2
-",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Menginjak - Tingkatkan,3,"311,485,758",0,"0,0,0",33
+",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Menginjak - Tingkatkan,3,"311,485,758",0,"0,0,0",33
 -1,"Sentuhan Yang Menarik
 ",415,0,talentTree-45,45,0,3,1,Pemisah Bumi,1,547,0,0,23
 -1,"Kemahiran Kecekapan - Cangkul Berkumpulan
@@ -150,22 +150,22 @@ Tenaga Maksimum + 10
 -3," Musuh yang pening dalam julat tertentu, tidak dapat mengenai semasa pelepasan kemahiran
 ",64,0,talentTree-61,61,0,4,1,Resipi Set Kumpulan,2,814,0,0,52
 -3,"Buka Resipi Set Tahap 3
-",72#76#204;113#186;185#187#188#483#485#488#491#486#503#484#504,2,talentTree-62,62,0,3,3,Resipi Set Kumpulan,3,"730,1140,1780",0,"0,0,0",34
+",72#76#204#269;113#186;185#187#188#483#485#488#491#486#503#484#504,2,talentTree-62,62,0,3,3,Resipi Set Kumpulan,3,"730,1140,1780",0,"0,0,0",34
 -1,"Buka Resipi Minuman
 Buka Resipi Minuman Tenaga
-",95#267,2,talentTree-65,65,0,1,1,Orang Terpilih Tahap 1,3,100,0,0,
+",95,2,talentTree-65,65,0,1,1,Orang Terpilih Tahap 1,3,100,0,0,
 -1,"Buka Resipi Minuman
 Buka Resipi Minuman Tenaga
-",96#268,2,talentTree-66,66,0,2,1,Resipi Prop Sihir,3,311,0,0,65
+",96,2,talentTree-66,66,0,2,1,Resipi Prop Sihir,3,311,0,0,65
 -1,"Buka Resipi Minuman
 Buka Resipi Minuman Tenaga
-",132#269,2,talentTree-67,67,0,3,1,Pengumpul Gila Tahap 2,3,730,0,0,66
+",132,2,talentTree-67,67,0,3,1,Pengumpul Gila Tahap 2,3,730,0,0,66
 -1,"Buka Resipi Minuman
 Buka Resipi Minuman Tenaga
-",346#382,2,talentTree-68,68,0,4,1,Orang Terpilih Tahap 2,3,1221,0,10,67
+",346,2,talentTree-68,68,0,4,1,Orang Terpilih Tahap 2,3,1221,0,10,67
 -1,"Buka Resipi Minuman
 Buka Resipi Minuman Tenaga
-",347#383,2,talentTree-69,69,0,5,1,Hujan Salji Ringan - Tingkatkan,3,1767,0,15,68
+",347,2,talentTree-69,69,0,5,1,Hujan Salji Ringan - Tingkatkan,3,1767,0,15,68
 -1,"Kurangkan kelajuan pergerakan musuh
 ",340,1,talentTree-70,70,0,4,1,Pemisah Bumi,2,814,0,0,60
 -3,"Tingkatkan tempoh kejutan musuh.
@@ -181,9 +181,9 @@ Buka Resipi Minuman Tenaga
 -1," Kemahiran Kecekapan - Cangkul Berkumpulan
 ",102,0,talentTree-77,77,0,1,1,Hujan Salji Ringan - Tingkatkan,1,75,0,0,
 -4," Buka Resipi Peralatan Tahap 1
-",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Resipi Set Pertanian,1,"75,113,172",0,"0,0,0",
+",62#376#66#123#125#124#205#591#597;108#165;166#167#168,2,talentTree-78,78,0,1,3,Resipi Set Pertanian,1,"75,113,172",0,"0,0,0",
 -4," Buka Resipi Peralatan Tahap 2
-",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Resipi Set Pertanian,1,"233,434,809",0,"0,0,0",78
+",63#377#67#127#128#126#206#593#598;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Resipi Set Pertanian,1,"233,434,809",0,"0,0,0",78
 1,"Kapasiti Kesuburan + 1
 ",229,1,talentTree-80,80,0,2,1,Pertanian - Output kesuburan setiap unit tanah,1,233,0,0,22
 2,Kemahiran Penanaman + 4,245,1,talentTree-81,81,0,2,1,Pertanian - Output kesuburan tanah maksimum,1,233,0,0,73
@@ -196,7 +196,7 @@ Buka Resipi Minuman Tenaga
 4,"Kemahiran Membiak + 4
 ",289,1,talentTree-85,85,0,5,1,Pertanian - Kemahiran menuai,1,1325,0,0,90
 -4,"Buka Resipi Peralatan Tahap 3
-",64#378#68#131#130#129;110#173;174#175#176#487#506#505#501#490#499#500#580,2,talentTree-88,88,0,3,3,Resipi Set Pertanian,1,"547,1020,1900",0,"0,0,0",79
+",64#378#68#131#130#129#596#599;110#173;174#175#176#487#506#505#501#490#499#500#580,2,talentTree-88,88,0,3,3,Resipi Set Pertanian,1,"547,1020,1900",0,"0,0,0",79
 3,"Kapasiti Kebahagiaan Haiwan Peliharaan +1 
 ",282,1,talentTree-89,89,0,4,1,Pertanian - Indeks Kebahagiaan Pertempuran Haiwan Peliharaan,1,916,0,0,92
 4,"Kemahiran Membiak + 4
@@ -210,7 +210,7 @@ Buka Resipi Minuman Tenaga
 -2,"Buka Resipi Essence Haiwan Peliharaan Tahap 3
 ",157,2,talentTree-94,94,0,3,1,Serangan Hiu - Tingkatkan,1,547,0,0,49
 -5," Buka Resipi Set Tahap 1
-",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Resipi Set Pertempuran,2,"85,94,105",0,"0,0,0",
+",44#364#370#588;133#136;139#142#145,2,talentTree-95,95,0,1,3,Resipi Set Pertempuran,2,"85,94,105",0,"0,0,0",
 4," HP Maksimum Tempur +20
 ",264,1,talentTree-96,96,0,1,1,Pertempuran - HP,2,85,0,0,
 3," Pertahanan Tempur +5
@@ -222,14 +222,14 @@ Buka Resipi Minuman Tenaga
 4," HP Maksimum Tempur +20
 ",265,1,talentTree-100,100,0,2,1,Pertempuran - HP,2,233,0,0,96
 -5," Buka Resipi Set Tahap 2
-",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579,2,talentTree-101,101,0,2,3,Resipi Set Pertempuran,2,"233,281,340",0,"0,0,0",95
+",45#365#371#585;134#137;140#143#146#479#469#470#464#471#482#467#579,2,talentTree-101,101,0,2,3,Resipi Set Pertempuran,2,"233,281,340",0,"0,0,0",95
 3," Pertahanan Tempur +5
 ",259,1,talentTree-102,102,0,2,1,Pertempuran - Pertahanan,2,233,0,0,97
 2," Serangan Tempur +5
 ",253,1,talentTree-103,103,0,2,1,Pertempuran - Kuasa Serangan,2,233,0,0,98
 1,CombatHit + 2/4/6% ,134;135;136,1,talentTree-104,104,0,2,3,Pakar,2,"233,281,340",0,"0,0,0",99
 -5,"Buka Resipi Set Tahap 3
-",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493,2,talentTree-105,105,0,3,3,Resipi Set Pertempuran,2,"486,634,826",0,"0,0,0",101
+",46#366#372#592;135#138;141#144#147#497#495#494#498#489#496#492#493,2,talentTree-105,105,0,3,3,Resipi Set Pertempuran,2,"486,634,826",0,"0,0,0",101
 3," Pertahanan Tempur +5
 ",260,1,talentTree-106,106,0,3,1,Pertempuran - Pertahanan,2,486,0,0,102
 2," Serangan Tempur +5
@@ -319,7 +319,7 @@ Buka Resipi Minuman Tenaga
 ",316,1,talentTree-202,202,0,5,1,Nilai Kumpulkan - Perlombongan,3,1767,0,0,199
 -1,"Buka Resipi Minuman
 Buka Resipi Minuman Tenaga
-",348#384,2,talentTree-204,204,0,6,1,Pengumpul Gila Tahap 3,3,2356,0,20,69
+",348,2,talentTree-204,204,0,6,1,Pengumpul Gila Tahap 3,3,2356,0,20,69
 1,"Serangan Rumput Mengumpul ++ Kemahiran ++
 ",299,1,talentTree-205,205,0,6,1,Kumpulkan - Rumput,3,2356,0,0,200
 2,"Serangan Pokok Mengumpul ++ Kemahiran ++
@@ -347,43 +347,43 @@ Buka Resipi Minuman Tenaga
 5," Tangkap haiwan sebagai haiwan peliharaan anda
 ",166,0,talentTree-254,254,0,1,1,Capture,1,75,0,0,
 -5,"Buka Resipi Set Tahap 4
-",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581,2,talentTree-256,256,0,4,3, Resipi Set Pertempuran,2,"814,1061,1382",0,"10,10,10",105
+",270#367#373#590;271#272;273#274#275#511#517#512#518#513#508#521#581,2,talentTree-256,256,0,4,3, Resipi Set Pertempuran,2,"814,1061,1382",0,"10,10,10",105
 -4,"Buka Resipi Essence Tahap 4
 ",340,2,talentTree-257,257,0,4,1, Resipi Essence Pertempuran,2,814,0,10,238
 -5,"Buka Resipi Set Tahap 5
-",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582,2,talentTree-258,258,0,5,3, Resipi Set Pertempuran,2,"1178,1535,1999",0,"15,15,15",256
+",292#368#374#589;293#294;295#296#297#540#535#536#546#541#531#534#582,2,talentTree-258,258,0,5,3, Resipi Set Pertempuran,2,"1178,1535,1999",0,"15,15,15",256
 -4,"Buka Resipi Essence Tahap 5
 ",341,2,talentTree-259,259,0,5,1, Resipi Essence Pertempuran,2,1178,0,15,257
 -5,"Buka Resipi Set Tahap 6
-",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583,2,talentTree-260,260,0,6,3, Resipi Set Pertempuran,2,"1570,2046,2666",0,"20,20,20",258
+",313#369#375#595;314#315;316#317#318#561#570#555#559#569#572#571#583,2,talentTree-260,260,0,6,3, Resipi Set Pertempuran,2,"1570,2046,2666",0,"20,20,20",258
 -4,"Buka Resipi Essence Tahap 6
 ",342,2,talentTree-261,261,0,6,1, Resipi Intipati Pertempuran,2,1570,0,20,259
 -3,"Buka Resipi Set Tahap 4
-",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3, Resipi Set Pengumpulan,3,"1221,1907,2978",0,"10,10,10",62
+",276#277#278#382;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3, Resipi Set Pengumpulan,3,"1221,1907,2978",0,"10,10,10",62
 -2,"Buka Resipi Essence Tahap 4
 ",343,2,talentTree-263,263,0,4,1, Resipi Essence Pengumpulan,3,1221,0,10,247
 -3,"Buka Resipi Set Tahap 5
-",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3, Resipi Set Pengumpulan,3,"1767,2759,4309",0,"15,15,15",262
+",298#299#300#383;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3, Resipi Set Pengumpulan,3,"1767,2759,4309",0,"15,15,15",262
 -2,"Buka Resipi Essence Tahap 5
 ",344,2,talentTree-265,265,0,5,1, Resipi Essence Pengumpulan,3,1767,0,15,263
 -3,"Buka Resipi Set Tahap 6
-",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3, Resipi Set Pengumpulan,3,"2356,3679,5745",0,"20,20,20",264
+",319#320#321#384;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3, Resipi Set Pengumpulan,3,"2356,3679,5745",0,"20,20,20",264
 -2,"Buka Resipi Essence Tahap 6
 ",345,2,talentTree-267,267,0,6,1, Resipi Intipati Pengumpulan,3,2356,0,20,265
 -4,"Buka Resipi Set Tahap 4
-",282#379#416#405#406#407;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3, Resipi Set Pertanian,1,"916,1706,3179",0,"10,10,10",88
+",282#379#416#405#406#407#594#600;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3, Resipi Set Pertanian,1,"916,1706,3179",0,"10,10,10",88
 -3,"Buka Resipi Essence Tahap 4
 ",334,2,talentTree-269,269,0,4,1, Resipi Essence Penanaman,1,916,0,5,229
 -2,"Buka Resipi Essence Tahap 4
 ",337,2,talentTree-270,270,0,4,1, Resipi Essence Penternakan Pertanian,1,916,0,5,94
 -4,"Buka Resipi Set Tahap 5
-",306#380#417#410#411#412;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3, Resipi Set Pertanian,1,"1325,2469,4600",0,"15,15,15",268
+",306#380#417#410#411#412#587#601;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3, Resipi Set Pertanian,1,"1325,2469,4600",0,"15,15,15",268
 -3,"Buka Resipi Essence Tahap 5
 ",335,2,talentTree-272,272,0,5,1, Resipi Essence Penanaman,1,1325,0,8,269
 -2,"Buka Resipi Essence Tahap 5
 ",338,2,talentTree-273,273,0,5,1, Resipi Essence Penternakan Pertanian,1,1325,0,8,270
 -4,"Buka Resipi Set Tahap 6
-",327#381#418#413#414#415;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3, Resipi Set Pertanian,1,"1767,3292,6133",0,"20,20,20",271
+",327#381#418#413#414#415#586#602;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3, Resipi Set Pertanian,1,"1767,3292,6133",0,"20,20,20",271
 -3,"Buka Resipi Essence Tahap 6
 ",336,2,talentTree-275,275,0,6,1, Resipi Intipati Penanaman,1,1767,0,10,272
 -2,"Buka Resipi Essence Tahap 6
