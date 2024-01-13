@@ -11,7 +11,9 @@ describe-string,id-int,module-string,value-string
 ,10001005,通用,Kết nối
 ,10001006,通用,"Dịch vụ đang bận, vui lòng chờ một chút"
 ,10001007,通用,"Ví đã ngắt kết nối, vui lòng khởi động lại ứng dụng."
-,10001008,,Thông báo hệ thống
+,10001008,通用,Thông báo hệ thống
+,10001009,通用,Phiên bản ứng dụng đã được cập nhật. Vui lòng khởi động lại ứng dụng.
+,10001010,通用,Trò chơi bắt đầu
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
