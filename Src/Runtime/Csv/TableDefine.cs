@@ -26,6 +26,8 @@ public static class TableDefine
     public const string DATA_TABLE_ENCODING = "UTF-8";
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
 
+    public const int ENTITY_CID_NULL = -1; // 空实体配置ID
+
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
         {TalentType.Battle, ITEMID_EXP_COMBAT},
