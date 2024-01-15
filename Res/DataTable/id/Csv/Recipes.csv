@@ -258,165 +258,165 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Anda dapat menerima hadiah berikut:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-432,432,3,"209,1;478,200",Lv 3 LUAG Resep Lotere,"478,1,1600,100;478,1,360,400;478,1,240,1500;478,1,220,3000;478,1,120,5000",0,97432,1,3,-,0,1,1,0,3
 0,Anda dapat menerima hadiah berikut:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-433,433,3,"212,1;478,200",Lv 3 LUAG Resep Lotere,"478,1,1600,100;478,1,360,400;478,1,240,1500;478,1,220,3000;478,1,120,5000",0,97433,1,3,-,0,1,1,0,3
 0,Anda dapat menerima hadiah berikut:160000 LUAG 1%36000 LUAG 4%24000 LUAG 10%22000 LUAG 35%12000 LUAG 50%,2,recipe-icon-434,434,3,"215,1;478,200",Lv 3 LUAG Resep Lotere,"478,1,1600,100;478,1,360,400;478,1,240,1500;478,1,220,3000;478,1,120,5000",0,97434,1,3,-,0,1,1,0,3
-0,Recast Gathering Jacket Anda,2,recipe-icon-435,435,1,"216,2;119,1",,"119,1,1,10000",0,99435,1,10,-,3,0,4,0,0
-0,Recast Iron Axe Anda,2,recipe-icon-436,436,1,"216,2;92,1",,"92,1,1,10000",0,99436,1,10,-,1,0,4,0,0
-0,Recast Golden Farmer Hat Anda,2,recipe-icon-526,526,4,"350,1;209,2",,"350,1,1,4153;350,2,1,2769;350,3,1,1846;350,4,1,1230",0,96526,1,10,-,1,0,4,0,10
-0,Recast Iron Sickle Anda,2,recipe-icon-480,480,2,"227,1;216,2",,"227,1,1,6000;227,2,1,4000",0,98480,1,10,-,3,0,4,0,0
+0,Recast Gathering Jacket Anda,2,recipe-icon-435,435,1,"216,2;119,1",Lv 1 Mencetak Ulang Jaket Pengumpulan,"119,1,1,10000",0,99435,1,10,-,3,0,4,0,0
+0,Recast Iron Axe Anda,2,recipe-icon-436,436,1,"216,2;92,1",Lv 1 Mencetak Ulang Kapak Besi,"92,1,1,10000",0,99436,1,10,-,1,0,4,0,0
+0,Recast Golden Farmer Hat Anda,2,recipe-icon-526,526,4,"350,1;209,2",Lv 4 Topi Petani Emas Dicetak Ulang,"350,1,1,4153;350,2,1,2769;350,3,1,1846;350,4,1,1230",0,96526,1,10,-,1,0,4,0,10
+0,Recast Iron Sickle Anda,2,recipe-icon-480,480,2,"227,1;216,2",Lv 2 Sabit Besi Dilebur Ulang,"227,1,1,6000;227,2,1,4000",0,98480,1,10,-,3,0,4,0,0
 0,Recast Diamond Axe Anda,2,recipe-icon-537,537,5,"306,1;401,2",,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",0,95537,1,10,-,3,0,4,0,15
-0,Recast Farming Jacket Anda,2,recipe-icon-462,462,2,"102,1;207,2",,"102,1,1,6000;102,2,1,4000",0,98462,1,10,-,1,0,4,0,0
+0,Recast Farming Jacket Anda,2,recipe-icon-462,462,2,"102,1;207,2",Lv 2 Jaket Pertanian Dilebur Ulang,"102,1,1,6000;102,2,1,4000",0,98462,1,10,-,1,0,4,0,0
 0,Buat ulang Sarung Tangan Petani Berlian Anda,2,recipe-icon-548,548,5,"357,1;404,2",,"357,1,1,3990;357,2,1,2660;357,3,1,1773;357,4,1,1182;357,5,1,394",0,95548,1,10,-,1,0,4,0,15
-0,Recast Stone Bow Anda,2,recipe-icon-444,444,1,"287,1;213,1;210,1",,"287,1,1,10000",0,99444,1,10,-,2,0,4,0,0
+0,Recast Stone Bow Anda,2,recipe-icon-444,444,1,"287,1;213,1;210,1",Lv 1 Mencetak Ulang Busur Batu,"287,1,1,10000",0,99444,1,10,-,2,0,4,0,0
 0,Buat ulang Sepatu Petani Bintang Anda,2,recipe-icon-568,568,6,"364,1;405,2",,"364,1,1,3990;364,2,1,2660;364,3,1,1773;364,4,1,1182;364,5,1,394",0,94568,1,10,-,1,0,4,0,20
-0,Recast Gathering Gloves Anda,2,recipe-icon-487,487,3,"208,2;127,1",,"127,1,1,4736;127,2,1,3157;127,3,1,2105",0,97487,1,10,-,1,0,4,0,0
-0,Recast Curse Axe Anda,2,recipe-icon-468,468,2,"93,1;216,2",,"93,1,1,6000;93,2,1,4000",0,98468,1,10,-,3,0,4,0,0
-0,Recast Iron Sword Anda,2,recipe-icon-479,479,2,"41,1;213,1;210,1",,"41,1,1,6000;41,2,1,4000",0,98479,1,10,-,2,0,4,0,0
+0,Recast Gathering Gloves Anda,2,recipe-icon-487,487,3,"208,2;127,1",Membuat Ulang Sarung Tangan Pengumpulan Lv 3,"127,1,1,4736;127,2,1,3157;127,3,1,2105",0,97487,1,10,-,3,0,4,0,0
+0,Recast Curse Axe Anda,2,recipe-icon-468,468,2,"93,1;216,2",Lv 2 Kapak Terkutuk Dilebur Ulang,"93,1,1,6000;93,2,1,4000",0,98468,1,10,-,3,0,4,0,0
+0,Recast Iron Sword Anda,2,recipe-icon-479,479,2,"41,1;213,1;210,1",Lv 2 Pedang Besi Dilebur Ulang,"41,1,1,6000;41,2,1,4000",0,98479,1,10,-,2,0,4,0,0
 0,Buat ulang Celana Pejuang Berlian Anda,2,recipe-icon-540,540,5,"343,1;410,1;407,1",,"343,1,1,3990;343,2,1,2660;343,3,1,1773;343,4,1,1182;343,5,1,394",0,95540,1,10,-,2,0,4,0,15
 0,Buat ulang Topi Petani Bintang Anda,2,recipe-icon-573,573,6,"360,1;405,2",,"360,1,1,3990;360,2,1,2660;360,3,1,1773;360,4,1,1182;360,5,1,394",0,94573,1,10,-,1,0,4,0,20
-0,Recast Gathering Gloves Anda,2,recipe-icon-452,452,1,"125,1;216,2",,"125,1,1,10000",0,99452,1,10,-,3,0,4,0,0
-0,Recast Blessing Kettle Anda,2,recipe-icon-506,506,3,"86,1;208,2",,"86,1,1,4736;86,2,1,3157;86,3,1,2105",0,97506,1,10,-,1,0,4,0,0
-0,Recast Blessing Hoe Anda,2,recipe-icon-505,505,3,"82,1;208,2",,"82,1,1,4736;82,2,1,3157;82,3,1,2105",0,97505,1,10,-,1,0,4,0,0
-0,Recast Farming Gloves Anda,2,recipe-icon-460,460,2,"108,1;207,2",,"108,1,1,6000;108,2,1,4000",0,98460,1,10,-,1,0,4,0,0
-0,Recast Cracked Crystal Grass Shoes Anda,2,recipe-icon-449,449,1,"55,1;213,1;210,1",,"55,1,1,10000",0,99449,1,10,-,2,0,4,0,0
-0,Recast Farming Jacket Anda,2,recipe-icon-501,501,3,"103,1;208,2",,"103,1,1,4736;103,2,1,3157;103,3,1,2105",0,97501,1,10,-,1,0,4,0,0
+0,Recast Gathering Gloves Anda,2,recipe-icon-452,452,1,"125,1;216,2",Lv 1 Mencetak Ulang Sarung Tangan Pengumpulan,"125,1,1,10000",0,99452,1,10,-,3,0,4,0,0
+0,Recast Blessing Kettle Anda,2,recipe-icon-506,506,3,"86,1;208,2",Membuat Ulang Ketel yang Diberkati Lv 3,"86,1,1,4736;86,2,1,3157;86,3,1,2105",0,97506,1,10,-,1,0,4,0,0
+0,Recast Blessing Hoe Anda,2,recipe-icon-505,505,3,"82,1;208,2",Membuat Ulang Cangkul yang Diberkati Lv 3,"82,1,1,4736;82,2,1,3157;82,3,1,2105",0,97505,1,10,-,1,0,4,0,0
+0,Recast Farming Gloves Anda,2,recipe-icon-460,460,2,"108,1;207,2",Lv 2 Mencetak Ulang Sarung Tangan Pertanian,"108,1,1,6000;108,2,1,4000",0,98460,1,10,-,1,0,4,0,0
+0,Recast Cracked Crystal Grass Shoes Anda,2,recipe-icon-449,449,1,"55,1;213,1;210,1",Lv 1 Mencetak Ulang Sepatu Rumput Pecahan Kristal,"55,1,1,10000",0,99449,1,10,-,2,0,4,0,0
+0,Recast Farming Jacket Anda,2,recipe-icon-501,501,3,"103,1;208,2",Membuat Ulang Jaket Pertanian Lv 3,"103,1,1,4736;103,2,1,3157;103,3,1,2105",0,97501,1,10,-,1,0,4,0,0
 0,Buat ulang Jas Pengumpul Berlian Anda,2,recipe-icon-539,539,5,"326,1;401,2",,"326,1,1,3990;326,2,1,2660;326,3,1,1773;326,4,1,1182;326,5,1,394",0,95539,1,10,-,3,0,4,0,15
-0,Recast Cracked Crystal Armor Anda,2,recipe-icon-446,446,1,"46,1;213,1;210,1",,"46,1,1,10000",0,99446,1,10,-,2,0,4,0,0
-0,Buat ulang Sepatu Petani Berlian Anda,2,recipe-icon-533,533,5,"359,1;404,2",,"359,1,1,3990;359,2,1,2660;359,3,1,1773;359,4,1,1182;359,5,1,394",0,95533,1,10,-,1,0,4,0,15
-0,Recast Iron Kettle Anda,2,recipe-icon-437,437,1,"216,2;84,1",,"84,1,1,10000",0,99437,1,10,-,3,0,4,0,0
+0,Recast Cracked Crystal Armor Anda,2,recipe-icon-446,446,1,"46,1;213,1;210,1",Lv 1 Mencetak Ulang Armor Pecahan Kristal,"46,1,1,10000",0,99446,1,10,-,2,0,4,0,0
+0,Buat ulang Sepatu Petani Berlian Anda,2,recipe-icon-533,533,5,"359,1;404,2",Lv 5 Sepatu Petani Berlian Dicetak Ulang,"359,1,1,3990;359,2,1,2660;359,3,1,1773;359,4,1,1182;359,5,1,394",0,95533,1,10,-,1,0,4,0,15
+0,Recast Iron Kettle Anda,2,recipe-icon-437,437,1,"216,2;84,1",Lv 1 Mencetak Ulang Ketel Besi,"84,1,1,10000",0,99437,1,10,-,3,0,4,0,0
 0,Buat ulang Jas Petani Berlian Anda,2,recipe-icon-545,545,5,"356,1;404,2",,"356,1,1,3990;356,2,1,2660;356,3,1,1773;356,4,1,1182;356,5,1,394",0,95545,1,10,-,1,0,4,0,15
-0,Recast Golden Farmer Coat Anda,2,recipe-icon-520,520,4,"351,1;209,2",,"351,1,1,4153;351,2,1,2769;351,3,1,1846;351,4,1,1230",0,96520,1,10,-,1,0,4,0,10
-0,Recast Golden Fighter Glove Anda,2,recipe-icon-511,511,4,"337,1;215,1;212,1",,"337,1,1,4153;337,2,1,2769;337,3,1,1846;337,4,1,1230",0,96511,1,10,-,2,0,4,0,10
-0,Recast Golden Gather Coat Anda,2,recipe-icon-515,515,4,"321,1;218,2",,"321,1,1,4153;321,2,1,2769;321,3,1,1846;321,4,1,1230",0,96515,1,10,-,3,0,4,0,10
-0,Recast Golden Gather Shoes Anda,2,recipe-icon-516,516,4,"324,1;218,2",,"324,1,1,4153;324,2,1,2769;324,3,1,1846;324,4,1,1230",0,96516,1,10,-,3,0,4,0,10
-0,Recast Crystal Skin Glove Anda,2,recipe-icon-469,469,2,"53,1;213,1;210,1",,"53,1,1,6000;53,2,1,4000",0,98469,1,10,-,2,0,4,0,0
+0,Recast Golden Farmer Coat Anda,2,recipe-icon-520,520,4,"351,1;209,2",Lv 4 Mantel Petani Emas Dicetak Ulang,"351,1,1,4153;351,2,1,2769;351,3,1,1846;351,4,1,1230",0,96520,1,10,-,1,0,4,0,10
+0,Recast Golden Fighter Glove Anda,2,recipe-icon-511,511,4,"337,1;215,1;212,1",Membuat Ulang Sarung Tangan Petarung Emas Lv 4,"337,1,1,4153;337,2,1,2769;337,3,1,1846;337,4,1,1230",0,96511,1,10,-,2,0,4,0,10
+0,Recast Golden Gather Coat Anda,2,recipe-icon-515,515,4,"321,1;218,2",Lv 4 Mantel Pengumpul Emas Dicetak Ulang,"321,1,1,4153;321,2,1,2769;321,3,1,1846;321,4,1,1230",0,96515,1,10,-,3,0,4,0,10
+0,Recast Golden Gather Shoes Anda,2,recipe-icon-516,516,4,"324,1;218,2",Lv 4 Sepatu Pengumpul Emas Dicetak Ulang,"324,1,1,4153;324,2,1,2769;324,3,1,1846;324,4,1,1230",0,96516,1,10,-,3,0,4,0,10
+0,Recast Crystal Skin Glove Anda,2,recipe-icon-469,469,2,"53,1;213,1;210,1",Lv 2 Sarung Tangan Prajurit Sarung Tangan Kulit Kristal Dilebur Ulang,"53,1,1,6000;53,2,1,4000",0,98469,1,10,-,2,0,4,0,0
 0,Buat ulang Celana Petani Bintang Anda,2,recipe-icon-560,560,6,"363,1;405,2",,"363,1,1,3990;363,2,1,2660;363,3,1,1773;363,4,1,1182;363,5,1,394",0,94560,1,10,-,1,0,4,0,20
-0,Recast Curse Kettle Anda,2,recipe-icon-463,463,2,"85,1;207,2",,"85,1,1,6000;85,2,1,4000",0,98463,1,10,-,1,0,4,0,0
+0,Recast Curse Kettle Anda,2,recipe-icon-463,463,2,"85,1;207,2",Lv 2 Ketel Terkutuk Dilebur Ulang,"85,1,1,6000;85,2,1,4000",0,98463,1,10,-,1,0,4,0,0
 0,Buat ulang Pedang Bintang Anda,2,recipe-icon-561,561,6,"319,1;411,1;408,1",,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",0,94561,1,10,-,2,0,4,0,20
-0,Recast Golden Kettle Anda,2,recipe-icon-528,528,4,"304,1;209,2",,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96528,1,10,-,1,0,4,0,10
-0,Recast Farming Shoes Anda,2,recipe-icon-472,472,2,"111,1;207,2",,"111,1,1,6000;111,2,1,4000",0,98472,1,10,-,1,0,4,0,0
-0,Recast Crystal Sickle Anda,2,recipe-icon-483,483,3,"228,1;217,2",,"228,1,1,4736;228,2,1,3157;228,3,1,2105",0,97483,1,10,-,3,0,4,0,0
-0,Recast Lucky Clover Hat Anda,2,recipe-icon-457,457,1,"216,2;98,1",,"98,1,1,10000",0,99457,1,10,-,3,0,4,0,0
-0,Recast Gathering Hat Anda,2,recipe-icon-485,485,3,"217,2;118,1",,"118,1,1,4736;118,2,1,3157;118,3,1,2105",0,97485,1,10,-,3,0,4,0,0
-0,Recast Golden Farmer Shoes Anda,2,recipe-icon-510,510,4,"354,1;209,2",,"354,1,1,4153;354,2,1,2769;354,3,1,1846;354,4,1,1230",0,96510,1,10,-,1,0,4,0,10
-0,Recast Golden Gather Hat Anda,2,recipe-icon-525,525,4,"320,1;218,2",,"320,1,1,4153;320,2,1,2769;320,3,1,1846;320,4,1,1230",0,96525,1,10,-,3,0,4,0,10
+0,Recast Golden Kettle Anda,2,recipe-icon-528,528,4,"304,1;209,2",Lv 4 Ketel Emas Dicetak Ulang,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",0,96528,1,10,-,1,0,4,0,10
+0,Recast Farming Shoes Anda,2,recipe-icon-472,472,2,"111,1;207,2",Lv 2 Sepatu Pertanian Dilebur Ulang,"111,1,1,6000;111,2,1,4000",0,98472,1,10,-,1,0,4,0,0
+0,Recast Crystal Sickle Anda,2,recipe-icon-483,483,3,"228,1;217,2",Lv 3 Sabit Kristal Dilebur Ulang,"228,1,1,4736;228,2,1,3157;228,3,1,2105",0,97483,1,10,-,3,0,4,0,0
+0,Recast Lucky Clover Hat Anda,2,recipe-icon-457,457,1,"216,2;98,1",Lv 1 Mencetak Ulang Topi Daun Beruntung,"98,1,1,10000",0,99457,1,10,-,3,0,4,0,0
+0,Recast Gathering Hat Anda,2,recipe-icon-485,485,3,"217,2;118,1",Lv 3 Topi Pengumpulan Dilebur Ulang,"118,1,1,4736;118,2,1,3157;118,3,1,2105",0,97485,1,10,-,3,0,4,0,0
+0,Recast Golden Farmer Shoes Anda,2,recipe-icon-510,510,4,"354,1;209,2",Membuat Ulang Sepatu Petani Emas Lv 4,"354,1,1,4153;354,2,1,2769;354,3,1,1846;354,4,1,1230",0,96510,1,10,-,1,0,4,0,10
+0,Recast Golden Gather Hat Anda,2,recipe-icon-525,525,4,"320,1;218,2",Lv 4 Topi Pengumpul Emas Dicetak Ulang,"320,1,1,4153;320,2,1,2769;320,3,1,1846;320,4,1,1230",0,96525,1,10,-,3,0,4,0,10
 0,Buat ulang Ketel Bintang Anda,2,recipe-icon-563,563,6,"316,1;405,2",,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",0,94563,1,10,-,1,0,4,0,20
-0,Recast Golden Gather Glove Anda,2,recipe-icon-524,524,4,"322,1;218,2",,"322,1,1,4153;322,2,1,2769;322,3,1,1846;322,4,1,1230",0,96524,1,10,-,3,0,4,0,10
-0,Recast Copper Sickle Anda,2,recipe-icon-455,455,1,"226,1;216,2",,"226,1,1,10000",0,99455,1,10,-,3,0,4,0,0
+0,Recast Golden Gather Glove Anda,2,recipe-icon-524,524,4,"322,1;218,2",Lv 4 Sarung Tangan Pengumpul Emas Dicetak Ulang,"322,1,1,4153;322,2,1,2769;322,3,1,1846;322,4,1,1230",0,96524,1,10,-,3,0,4,0,10
+0,Recast Copper Sickle Anda,2,recipe-icon-455,455,1,"226,1;216,2",Lv 1 Mencetak Ulang Sabit Tembaga,"226,1,1,10000",0,99455,1,10,-,3,0,4,0,0
 0,Buat ulang Topi Pengumpul Bintang Anda,2,recipe-icon-557,557,6,"330,1;402,2",,"330,1,1,3990;330,2,1,2660;330,3,1,1773;330,4,1,1182;330,5,1,394",0,94557,1,10,-,3,0,4,0,20
-0,Recast Iron Pickaxe Anda,2,recipe-icon-445,445,1,"216,2;88,1",,"88,1,1,10000",0,99445,1,10,-,1,0,4,0,0
-0,Recast Farming Gloves Anda,2,recipe-icon-448,448,1,"107,1;207,2",,"107,1,1,10000",0,99448,1,10,-,1,0,4,0,0
+0,Recast Iron Pickaxe Anda,2,recipe-icon-445,445,1,"216,2;88,1",Lv 1 Mencetak Ulang Beliung Besi,"88,1,1,10000",0,99445,1,10,-,1,0,4,0,0
+0,Recast Farming Gloves Anda,2,recipe-icon-448,448,1,"107,1;207,2",Lv 1 Mencetak Ulang Sarung Tangan Pertanian,"107,1,1,10000",0,99448,1,10,-,1,0,4,0,0
 0,Buat ulang Sepatu Pengumpul Berlian Anda,2,recipe-icon-538,538,5,"329,1;401,2",,"329,1,1,3990;329,2,1,2660;329,3,1,1773;329,4,1,1182;329,5,1,394",0,95538,1,10,-,3,0,4,0,15
 0,Buat ulang Sarung Tangan Pengumpul Bintang Anda,2,recipe-icon-554,554,6,"332,1;402,2",,"332,1,1,3990;332,2,1,2660;332,3,1,1773;332,4,1,1182;332,5,1,394",0,94554,1,10,-,3,0,4,0,20
 0,Buat ulang Beliung Bintang Anda,2,recipe-icon-565,565,6,"313,1;402,2",,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",0,94565,1,10,-,3,0,4,0,20
-0,Recast Cracked Crystal Bracelet Anda,2,recipe-icon-443,443,1,"52,1;213,1;210,1",,"52,1,1,10000",0,99443,1,10,-,2,0,4,0,0
-0,Recast Copper Hammer Anda,2,recipe-icon-456,456,1,"441,1;213,1;210,1",,"441,1,1,10000",0,99456,1,10,-,2,0,4,0,0
+0,Recast Cracked Crystal Bracelet Anda,2,recipe-icon-443,443,1,"52,1;213,1;210,1",Lv 1 Mencetak Ulang Gelang Pecahan Kristal,"52,1,1,10000",0,99443,1,10,-,2,0,4,0,0
+0,Recast Copper Hammer Anda,2,recipe-icon-456,456,1,"441,1;213,1;210,1",Lv 1 Mencetak Ulang Palu Tembaga,"441,1,1,10000",0,99456,1,10,-,2,0,4,0,0
 0,Buat ulang Sabit Berlian Anda,2,recipe-icon-577,577,5,"309,1;401,2",,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",0,95577,1,10,-,3,0,4,0,15
-0,Recast Golden Hoe Anda,2,recipe-icon-507,507,4,"299,1;209,2",,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,96507,1,10,-,1,0,4,0,10
+0,Recast Golden Hoe Anda,2,recipe-icon-507,507,4,"299,1;209,2",Membuat Ulang Cangkul Emas Lv 4,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",0,96507,1,10,-,1,0,4,0,10
 0,Buat ulang Topi Petani Berlian Anda,2,recipe-icon-549,549,5,"355,1;404,2",,"355,1,1,3990;355,2,1,2660;355,3,1,1773;355,4,1,1182;355,5,1,394",0,95549,1,10,-,1,0,4,0,15
-0,Buat ulang Topi Pejuang Berlian Anda,2,recipe-icon-535,535,5,"340,1;410,1;407,1",,"340,1,1,3990;340,2,1,2660;340,3,1,1773;340,4,1,1182;340,5,1,394",0,95535,1,10,-,2,0,4,0,15
-0,Recast Crystal Brush Anda,2,recipe-icon-490,490,3,"455,1;208,2",,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97490,1,10,-,1,0,4,0,0
-0,Recast Cracked Crystal Grass Skirt Anda,2,recipe-icon-447,447,1,"49,1;213,1;210,1",,"49,1,1,10000",0,99447,1,10,-,2,0,4,0,0
+0,Buat ulang Topi Pejuang Berlian Anda,2,recipe-icon-535,535,5,"340,1;410,1;407,1",Lv 5 Topi Petarung Berlian Dicetak Ulang,"340,1,1,3990;340,2,1,2660;340,3,1,1773;340,4,1,1182;340,5,1,394",0,95535,1,10,-,2,0,4,0,15
+0,Recast Crystal Brush Anda,2,recipe-icon-490,490,3,"455,1;208,2",Membuat Ulang Sikat Kristal Lv 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",0,97490,1,10,-,1,0,4,0,0
+0,Recast Cracked Crystal Grass Skirt Anda,2,recipe-icon-447,447,1,"49,1;213,1;210,1",Lv 1 Mencetak Ulang Rok Hula Pecahan Kristal,"49,1,1,10000",0,99447,1,10,-,2,0,4,0,0
 0,Buat ulang Cangkul Bintang Anda,2,recipe-icon-564,564,6,"311,1;405,2",,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",0,94564,1,10,-,1,0,4,0,20
-0,Recast Crystal Stone Armor Anda,2,recipe-icon-497,497,3,"48,1;214,1;211,1",,"48,1,1,4736;48,2,1,3157;48,3,1,2105",0,97497,1,10,-,2,0,4,0,0
-0,Recast Lucky Hard Hat Anda,2,recipe-icon-488,488,3,"217,2;112,1",,"112,1,1,4736;112,2,1,3157;112,3,1,2105",0,97488,1,10,-,3,0,4,0,0
-0,Recast Gathering Shoes Anda,2,recipe-icon-438,438,1,"216,2;113,1",,"113,1,1,10000",0,99438,1,10,-,3,0,4,0,0
+0,Recast Crystal Stone Armor Anda,2,recipe-icon-497,497,3,"48,1;214,1;211,1",Membuat Ulang Armor Batu Kristal Lv 3,"48,1,1,4736;48,2,1,3157;48,3,1,2105",0,97497,1,10,-,2,0,4,0,0
+0,Recast Lucky Hard Hat Anda,2,recipe-icon-488,488,3,"217,2;112,1",Membuat Ulang Sepatu Pertanian Lv 3,"112,1,1,4736;112,2,1,3157;112,3,1,2105",0,97488,1,10,-,1,0,4,0,0
+0,Recast Gathering Shoes Anda,2,recipe-icon-438,438,1,"216,2;113,1",Lv 1 Mencetak Ulang Sepatu Pengumpulan,"113,1,1,10000",0,99438,1,10,-,3,0,4,0,0
 0,Buat ulang Celana Pengumpul Berlian Anda,2,recipe-icon-544,544,5,"328,1;401,2",,"328,1,1,3990;328,2,1,2660;328,3,1,1773;328,4,1,1182;328,5,1,394",0,95544,1,10,-,3,0,4,0,15
-0,Recast Blessed Axe Anda,2,recipe-icon-491,491,3,"94,1;217,2",,"94,1,1,4736;94,2,1,3157;94,3,1,2105",0,97491,1,10,-,3,0,4,0,0
+0,Recast Blessed Axe Anda,2,recipe-icon-491,491,3,"94,1;217,2",Membuat Ulang Kapak yang Diberkati Lv 3,"94,1,1,4736;94,2,1,3157;94,3,1,2105",0,97491,1,10,-,3,0,4,0,0
 0,Buat ulang Ketel Berlian Anda,2,recipe-icon-551,551,5,"310,1;404,2",,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",0,95551,1,10,-,1,0,4,0,15
-0,Recast Curse Hoe Anda,2,recipe-icon-466,466,2,"81,1;207,2",,"81,1,1,6000;81,2,1,4000",0,98466,1,10,-,1,0,4,0,0
+0,Recast Curse Hoe Anda,2,recipe-icon-466,466,2,"81,1;207,2",Lv 2 Cangkul Terkutuk Dilebur Ulang,"81,1,1,6000;81,2,1,4000",0,98466,1,10,-,1,0,4,0,0
 0,Recast Golden Sickle Anda,2,recipe-icon-576,576,4,"303,1;218,2",,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",0,96576,1,10,-,3,0,4,0,10
-0,Recast Gathering Shoes Anda,2,recipe-icon-477,477,2,"114,1;216,2",,"114,1,1,6000;114,2,1,4000",0,98477,1,10,-,3,0,4,0,0
-0,Recast Farming Pants Anda,2,recipe-icon-441,441,1,"104,1;207,2",,"104,1,1,10000",0,99441,1,10,-,1,0,4,0,0
+0,Recast Gathering Shoes Anda,2,recipe-icon-477,477,2,"114,1;216,2",Lv 2 Sepatu Pengumpulan Dilebur Ulang,"114,1,1,6000;114,2,1,4000",0,98477,1,10,-,3,0,4,0,0
+0,Recast Farming Pants Anda,2,recipe-icon-441,441,1,"104,1;207,2",Lv 1 Mencetak Ulang Celana Pertanian,"104,1,1,10000",0,99441,1,10,-,1,0,4,0,0
 0,Buat ulang Jas Pejuang Bintang Anda,2,recipe-icon-570,570,6,"346,1;411,1;408,1",,"346,1,1,3990;346,2,1,2660;346,3,1,1773;346,4,1,1182;346,5,1,394",0,94570,1,10,-,2,0,4,0,20
-0,Recast Cursed Pickaxe Anda,2,recipe-icon-461,461,2,"89,1;216,2",,"89,1,1,6000;89,2,1,4000",0,98461,1,10,-,3,0,4,0,0
-0,Recast Lucky Cotton Hat Anda,2,recipe-icon-481,481,2,"99,1;207,2",,"99,1,1,6000;99,2,1,4000",0,98481,1,10,-,1,0,4,0,0
-0,Recast Golden Brush Anda,2,recipe-icon-522,522,4,"456,1;209,2",,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96522,1,10,-,1,0,4,0,10
-0,Recast Iron Hoe Anda,2,recipe-icon-439,439,1,"207,2;80,1",,"80,1,1,10000",0,99439,1,10,-,1,0,4,0,0
-0,Buat ulang Cangkul Berlian Anda,2,recipe-icon-530,530,5,"305,1;404,2",,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,95530,1,10,-,1,0,4,0,15
-0,Recast Golden Fighter Pants Anda,2,recipe-icon-517,517,4,"338,1;215,1;212,1",,"338,1,1,4153;338,2,1,2769;338,3,1,1846;338,4,1,1230",0,96517,1,10,-,2,0,4,0,10
-0,Recast Gathering Jacket Anda,2,recipe-icon-486,486,3,"217,2;121,1",,"121,1,1,4736;121,2,1,3157;121,3,1,2105",0,97486,1,10,-,3,0,4,0,0
+0,Recast Cursed Pickaxe Anda,2,recipe-icon-461,461,2,"89,1;216,2",Lv 2 Beliung Terkutuklah Dilebur Ulang,"89,1,1,6000;89,2,1,4000",0,98461,1,10,-,3,0,4,0,0
+0,Recast Lucky Cotton Hat Anda,2,recipe-icon-481,481,2,"99,1;207,2",Lv 2 Topi Kapas Beruntung Dilebur Ulang,"99,1,1,6000;99,2,1,4000",0,98481,1,10,-,1,0,4,0,0
+0,Recast Golden Brush Anda,2,recipe-icon-522,522,4,"456,1;209,2",Lv 4 Sikat Emas Dicetak Ulang,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",0,96522,1,10,-,1,0,4,0,10
+0,Recast Iron Hoe Anda,2,recipe-icon-439,439,1,"207,2;80,1",Lv 1 Mencetak Ulang Cangkul Besi,"80,1,1,10000",0,99439,1,10,-,1,0,4,0,0
+0,Buat ulang Cangkul Berlian Anda,2,recipe-icon-530,530,5,"305,1;404,2",Lv 5 Cangkul Berlian Dicetak Ulang,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",0,95530,1,10,-,1,0,4,0,15
+0,Recast Golden Fighter Pants Anda,2,recipe-icon-517,517,4,"338,1;215,1;212,1",Lv 4 Celana Petarung Emas Dicetak Ulang,"338,1,1,4153;338,2,1,2769;338,3,1,1846;338,4,1,1230",0,96517,1,10,-,2,0,4,0,10
+0,Recast Gathering Jacket Anda,2,recipe-icon-486,486,3,"217,2;121,1",Membuat Ulang Jaket Pengumpulan Lv 3,"121,1,1,4736;121,2,1,3157;121,3,1,2105",0,97486,1,10,-,3,0,4,0,0
 0,Buat ulang Sepatu Pejuang Bintang Anda,2,recipe-icon-555,555,6,"349,1;411,1;408,1",,"349,1,1,3990;349,2,1,2660;349,3,1,1773;349,4,1,1182;349,5,1,394",0,94555,1,10,-,2,0,4,0,20
-0,Recast Farming Shoes Anda,2,recipe-icon-454,454,1,"110,1;207,2",,"110,1,1,10000",0,99454,1,10,-,1,0,4,0,0
-0,Recast Golden Farmer Pants Anda,2,recipe-icon-509,509,4,"353,1;209,2",,"353,1,1,4153;353,2,1,2769;353,3,1,1846;353,4,1,1230",0,96509,1,10,-,1,0,4,0,10
-0,Recast Golden Axe Anda,2,recipe-icon-514,514,4,"300,1;218,2",,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,96514,1,10,-,3,0,4,0,10
-0,Recast Crystal Stone Gauntlet Anda,2,recipe-icon-495,495,3,"54,1;214,1;211,1",,"54,1,1,4736;54,2,1,3157;54,3,1,2105",0,97495,1,10,-,2,0,4,0,0
-0,Buat ulang Palu Berlian Anda,2,recipe-icon-536,536,5,"445,1;410,1;407,1",,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95536,1,10,-,2,0,4,0,15
-0,Recast Golden Fighter Hat Anda,2,recipe-icon-512,512,4,"335,1;215,1;212,1",,"335,1,1,4153;335,2,1,2769;335,3,1,1846;335,4,1,1230",0,96512,1,10,-,2,0,4,0,10
-0,Recast Crystal Bow Anda,2,recipe-icon-494,494,3,"289,1;214,1;211,1",,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97494,1,10,-,2,0,4,0,0
-0,Recast Gathering Pants Anda,2,recipe-icon-503,503,3,"217,2;124,1",,"124,1,1,4736;124,2,1,3157;124,3,1,2105",0,97503,1,10,-,3,0,4,0,0
+0,Recast Farming Shoes Anda,2,recipe-icon-454,454,1,"110,1;207,2",Lv 1 Mencetak Ulang Sepatu Pertanian,"110,1,1,10000",0,99454,1,10,-,1,0,4,0,0
+0,Recast Golden Farmer Pants Anda,2,recipe-icon-509,509,4,"353,1;209,2",Membuat Ulang Celana Petani Emas Lv 4,"353,1,1,4153;353,2,1,2769;353,3,1,1846;353,4,1,1230",0,96509,1,10,-,1,0,4,0,10
+0,Recast Golden Axe Anda,2,recipe-icon-514,514,4,"300,1;218,2",Lv 4 Kapak Emas Dicetak Ulang,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",0,96514,1,10,-,3,0,4,0,10
+0,Recast Crystal Stone Gauntlet Anda,2,recipe-icon-495,495,3,"54,1;214,1;211,1",Membuat Ulang Sarung Tangan Batu Kristal Lv 3,"54,1,1,4736;54,2,1,3157;54,3,1,2105",0,97495,1,10,-,2,0,4,0,0
+0,Buat ulang Palu Berlian Anda,2,recipe-icon-536,536,5,"445,1;410,1;407,1",Lv 5 Palu Berlian Dicetak Ulang,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",0,95536,1,10,-,2,0,4,0,15
+0,Recast Golden Fighter Hat Anda,2,recipe-icon-512,512,4,"335,1;215,1;212,1",Lv 4 Topi Petarung Emas Dicetak Ulang,"335,1,1,4153;335,2,1,2769;335,3,1,1846;335,4,1,1230",0,96512,1,10,-,2,0,4,0,10
+0,Recast Crystal Bow Anda,2,recipe-icon-494,494,3,"289,1;214,1;211,1",Membuat Ulang Busur Kristal Lv 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",0,97494,1,10,-,2,0,4,0,0
+0,Recast Gathering Pants Anda,2,recipe-icon-503,503,3,"217,2;124,1",Membuat Ulang Celana Pengumpulan Lv 3,"124,1,1,4736;124,2,1,3157;124,3,1,2105",0,97503,1,10,-,3,0,4,0,0
 0,Buat ulang Topi Pengumpul Berlian Anda,2,recipe-icon-543,543,5,"325,1;401,2",,"325,1,1,3990;325,2,1,2660;325,3,1,1773;325,4,1,1182;325,5,1,394",0,95543,1,10,-,3,0,4,0,15
-0,Recast Iron Brush Anda,2,recipe-icon-475,475,2,"454,1;207,2",,"454,1,1,6000;454,2,1,4000",0,98475,1,10,-,1,0,4,0,0
-0,Recast Gathering Hat Anda,2,recipe-icon-478,478,2,"117,1;216,2",,"117,1,1,6000;117,2,1,4000",0,98478,1,10,-,3,0,4,0,0
-0,Recast Crystal Stone Shoes Anda,2,recipe-icon-498,498,3,"57,1;214,1;211,1",,"57,1,1,4736;57,2,1,3157;57,3,1,2105",0,97498,1,10,-,2,0,4,0,0
+0,Recast Iron Brush Anda,2,recipe-icon-475,475,2,"454,1;207,2",Lv 2 Sikat Besi Dilebur Ulang,"454,1,1,6000;454,2,1,4000",0,98475,1,10,-,1,0,4,0,0
+0,Recast Gathering Hat Anda,2,recipe-icon-478,478,2,"117,1;216,2",Lv 2 Topi Pengumpulan Dilebur Ulang,"117,1,1,6000;117,2,1,4000",0,98478,1,10,-,3,0,4,0,0
+0,Recast Crystal Stone Shoes Anda,2,recipe-icon-498,498,3,"57,1;214,1;211,1",Membuat Ulang Sepatu Batu Kristal Lv 3,"57,1,1,4736;57,2,1,3157;57,3,1,2105",0,97498,1,10,-,2,0,4,0,0
 0,Recast Diamond Bow Anda,2,recipe-icon-546,546,5,"451,1;410,1;407,1",,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",0,95546,1,10,-,2,0,4,0,15
 0,Buat ulang Jas Pengumpul Bintang Anda,2,recipe-icon-556,556,6,"331,1;402,2",,"331,1,1,3990;331,2,1,2660;331,3,1,1773;331,4,1,1182;331,5,1,394",0,94556,1,10,-,3,0,4,0,20
-0,Recast Farming Jacket Anda,2,recipe-icon-450,450,1,"101,1;207,2",,"101,1,1,10000",0,99450,1,10,-,1,0,4,0,0
+0,Recast Farming Jacket Anda,2,recipe-icon-450,450,1,"101,1;207,2",Lv 1 Mencetak Ulang Jaket Pertanian,"101,1,1,10000",0,99450,1,10,-,1,0,4,0,0
 0,Buat ulang Kuas Cahaya Bintang Anda,2,recipe-icon-553,553,6,"458,1;405,2",,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",0,94553,1,10,-,1,0,4,0,20
 0,Buat ulang Busur Cahaya Bintang Anda,2,recipe-icon-559,559,6,"452,1;411,1;408,1",,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",0,94559,1,10,-,2,0,4,0,20
-0,Recast Golden Fighter Shoes Anda,2,recipe-icon-518,518,4,"339,1;215,1;212,1",,"339,1,1,4153;339,2,1,2769;339,3,1,1846;339,4,1,1230",0,96518,1,10,-,2,0,4,0,10
-0,Recast Crystal Sword Anda,2,recipe-icon-489,489,3,"42,1;214,1;211,1",,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97489,1,10,-,2,0,4,0,0
-0,Recast Gathering Pants Anda,2,recipe-icon-451,451,1,"216,2;122,1",,"122,1,1,10000",0,99451,1,10,-,3,0,4,0,0
-0,Recast Golden Hammer Anda,2,recipe-icon-513,513,4,"444,1;215,1;212,1",,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96513,1,10,-,2,0,4,0,10
-0,Recast Crystal Stone Helmet Anda,2,recipe-icon-496,496,3,"45,1;214,1;211,1",,"45,1,1,4736;45,2,1,3157;45,3,1,2105",0,97496,1,10,-,2,0,4,0,0
+0,Recast Golden Fighter Shoes Anda,2,recipe-icon-518,518,4,"339,1;215,1;212,1",Lv 4 Sepatu Petarung Emas Dicetak Ulang,"339,1,1,4153;339,2,1,2769;339,3,1,1846;339,4,1,1230",0,96518,1,10,-,2,0,4,0,10
+0,Recast Crystal Sword Anda,2,recipe-icon-489,489,3,"42,1;214,1;211,1",Membuat Ulang Pedang Kristal Lv 3,"42,1,1,4736;42,2,1,3157;42,3,1,2105",0,97489,1,10,-,2,0,4,0,0
+0,Recast Gathering Pants Anda,2,recipe-icon-451,451,1,"216,2;122,1",Lv 1 Mencetak Ulang Celana Pengumpulan,"122,1,1,10000",0,99451,1,10,-,3,0,4,0,0
+0,Recast Golden Hammer Anda,2,recipe-icon-513,513,4,"444,1;215,1;212,1",Lv 4 Palu Emas Dicetak Ulang,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",0,96513,1,10,-,2,0,4,0,10
+0,Recast Crystal Stone Helmet Anda,2,recipe-icon-496,496,3,"45,1;214,1;211,1",Membuat Ulang Helm Batu Kristal Lv 3,"45,1,1,4736;45,2,1,3157;45,3,1,2105",0,97496,1,10,-,2,0,4,0,0
 0,Buat ulang Sarung Tangan Petani Bintang Anda,2,recipe-icon-575,575,6,"362,1;405,2",,"362,1,1,3990;362,2,1,2660;362,3,1,1773;362,4,1,1182;362,5,1,394",0,94575,1,10,-,1,0,4,0,20
-0,Recast Stone Sword Anda,2,recipe-icon-459,459,1,"40,1;213,1;210,1",,"40,1,1,10000",0,99459,1,10,-,2,0,4,0,0
+0,Recast Stone Sword Anda,2,recipe-icon-459,459,1,"40,1;213,1;210,1",Lv 1 Mencetak Ulang Pedang Batu,"40,1,1,10000",0,99459,1,10,-,2,0,4,0,0
 0,Buat ulang Sarung Tangan Pengumpul Berlian Anda,2,recipe-icon-542,542,5,"327,1;401,2",,"327,1,1,3990;327,2,1,2660;327,3,1,1773;327,4,1,1182;327,5,1,394",0,95542,1,10,-,3,0,4,0,15
-0,Recast Golden Farmer Glove Anda,2,recipe-icon-523,523,4,"352,1;209,2",,"352,1,1,4153;352,2,1,2769;352,3,1,1846;352,4,1,1230",0,96523,1,10,-,1,0,4,0,10
+0,Recast Golden Farmer Glove Anda,2,recipe-icon-523,523,4,"352,1;209,2",Lv 4 Sarung Tangan Petani Emas Dicetak Ulang,"352,1,1,4153;352,2,1,2769;352,3,1,1846;352,4,1,1230",0,96523,1,10,-,1,0,4,0,10
 0,Recast Diamond Brush Anda,2,recipe-icon-547,547,5,"457,1;404,2",,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",0,95547,1,10,-,1,0,4,0,15
-0,Recast Golden Gather Pants Anda,2,recipe-icon-519,519,4,"323,1;218,2",,"323,1,1,4153;323,2,1,2769;323,3,1,1846;323,4,1,1230",0,96519,1,10,-,3,0,4,0,10
+0,Recast Golden Gather Pants Anda,2,recipe-icon-519,519,4,"323,1;218,2",Lv 4 Celana Pengumpul Emas Dicetak Ulang,"323,1,1,4153;323,2,1,2769;323,3,1,1846;323,4,1,1230",0,96519,1,10,-,3,0,4,0,10
 0,Buat ulang Kapak Bintang Anda,2,recipe-icon-578,578,6,"312,1;402,2",,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",0,94578,1,10,-,3,0,4,0,20
-0,Recast Crystal Skin Pant Anda,2,recipe-icon-470,470,2,"50,1;213,1;210,1",,"50,1,1,6000;50,2,1,4000",0,98470,1,10,-,2,0,4,0,0
+0,Recast Crystal Skin Pant Anda,2,recipe-icon-470,470,2,"50,1;213,1;210,1",Lv 2 Celana Prajurit Celana Kulit Kristal Dilebur Ulang,"50,1,1,6000;50,2,1,4000",0,98470,1,10,-,2,0,4,0,0
 0,Buat ulang Sepatu Pejuang Berlian Anda,2,recipe-icon-541,541,5,"344,1;410,1;407,1",,"344,1,1,3990;344,2,1,2660;344,3,1,1773;344,4,1,1182;344,5,1,394",0,95541,1,10,-,2,0,4,0,15
-0,Recast Chip Head Ring Anda,2,recipe-icon-442,442,1,"43,1;213,1;210,1",,"43,1,1,10000",0,99442,1,10,-,2,0,4,0,0
-0,Recast Golden Fighter Coat Anda,2,recipe-icon-508,508,4,"336,1;215,1;212,1",,"336,1,1,4153;336,2,1,2769;336,3,1,1846;336,4,1,1230",0,96508,1,10,-,2,0,4,0,10
-0,Recast Gathering Jacket Anda,2,recipe-icon-465,465,2,"120,1;216,2",,"120,1,1,6000;120,2,1,4000",0,98465,1,10,-,3,0,4,0,0
-0,Recast Gathering Pants Anda,2,recipe-icon-476,476,2,"123,1;216,2",,"123,1,1,6000;123,2,1,4000",0,98476,1,10,-,3,0,4,0,0
-0,Recast Golden Bow Anda,2,recipe-icon-521,521,4,"450,1;215,1;212,1",,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96521,1,10,-,2,0,4,0,10
+0,Recast Chip Head Ring Anda,2,recipe-icon-442,442,1,"43,1;213,1;210,1",Lv 1 Mencetak Ulang Lingkaran Pecahan Kristal,"43,1,1,10000",0,99442,1,10,-,2,0,4,0,0
+0,Recast Golden Fighter Coat Anda,2,recipe-icon-508,508,4,"336,1;215,1;212,1",Membuat Ulang Mantel Petani Emas Lv 4,"336,1,1,4153;336,2,1,2769;336,3,1,1846;336,4,1,1230",0,96508,1,10,-,2,0,4,0,10
+0,Recast Gathering Jacket Anda,2,recipe-icon-465,465,2,"120,1;216,2",Lv 2 Jaket Pengumpulan Dilebur Ulang,"120,1,1,6000;120,2,1,4000",0,98465,1,10,-,3,0,4,0,0
+0,Recast Gathering Pants Anda,2,recipe-icon-476,476,2,"123,1;216,2",Lv 2 Celana Pengumpulan Dilebur Ulang,"123,1,1,6000;123,2,1,4000",0,98476,1,10,-,3,0,4,0,0
+0,Recast Golden Bow Anda,2,recipe-icon-521,521,4,"450,1;215,1;212,1",Lv 4 Busur Emas Dicetak Ulang,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",0,96521,1,10,-,2,0,4,0,10
 0,Buat ulang Sarung Tangan Pejuang Bintang Anda,2,recipe-icon-569,569,6,"347,1;411,1;408,1",,"347,1,1,3990;347,2,1,2660;347,3,1,1773;347,4,1,1182;347,5,1,394",0,94569,1,10,-,2,0,4,0,20
-0,Recast Farming Pants Anda,2,recipe-icon-499,499,3,"106,1;208,2",,"106,1,1,4736;106,2,1,3157;106,3,1,2105",0,97499,1,10,-,1,0,4,0,0
+0,Recast Farming Pants Anda,2,recipe-icon-499,499,3,"106,1;208,2",Membuat Ulang Celana Pertanian Lv 3,"106,1,1,4736;106,2,1,3157;106,3,1,2105",0,97499,1,10,-,1,0,4,0,0
 0,Buat ulang Beliung Berlian Anda,2,recipe-icon-552,552,5,"307,1;401,2",,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",0,95552,1,10,-,3,0,4,0,15
-0,Recast Crystal Hammer Anda,2,recipe-icon-492,492,3,"443,1;214,1;211,1",,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97492,1,10,-,2,0,4,0,0
-0,Recast Farming Gloves Anda,2,recipe-icon-500,500,3,"109,1;208,2",,"109,1,1,4736;109,2,1,3157;109,3,1,2105",0,97500,1,10,-,1,0,4,0,0
-0,Buat ulang Jas Pejuang Berlian Anda,2,recipe-icon-531,531,5,"341,1;410,1;407,1",,"341,1,1,3990;341,2,1,2660;341,3,1,1773;341,4,1,1182;341,5,1,394",0,95531,1,10,-,2,0,4,0,15
-0,Recast Gathering Shoes Anda,2,recipe-icon-484,484,3,"217,2;115,1",,"115,1,1,4736;115,2,1,3157;115,3,1,2105",0,97484,1,10,-,3,0,4,0,0
-0,Recast Blessing Pickaxe Anda,2,recipe-icon-504,504,3,"90,1;217,2",,"90,1,1,4736;90,2,1,3157;90,3,1,2105",0,97504,1,10,-,3,0,4,0,0
+0,Recast Crystal Hammer Anda,2,recipe-icon-492,492,3,"443,1;214,1;211,1",Membuat Ulang Palu Kristal Lv 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",0,97492,1,10,-,2,0,4,0,0
+0,Recast Farming Gloves Anda,2,recipe-icon-500,500,3,"109,1;208,2",Membuat Ulang Sarung Tangan Pertanian Lv 3,"109,1,1,4736;109,2,1,3157;109,3,1,2105",0,97500,1,10,-,1,0,4,0,0
+0,Buat ulang Jas Pejuang Berlian Anda,2,recipe-icon-531,531,5,"341,1;410,1;407,1",Lv 5 Mantel Petarung Berlian Dicetak Ulang,"341,1,1,3990;341,2,1,2660;341,3,1,1773;341,4,1,1182;341,5,1,394",0,95531,1,10,-,2,0,4,0,15
+0,Recast Gathering Shoes Anda,2,recipe-icon-484,484,3,"217,2;115,1",Lv 3 Sepatu Pengumpulan Dilebur Ulang,"115,1,1,4736;115,2,1,3157;115,3,1,2105",0,97484,1,10,-,3,0,4,0,0
+0,Recast Blessing Pickaxe Anda,2,recipe-icon-504,504,3,"90,1;217,2",Membuat Ulang Beliung yang Diberkati Lv 3,"90,1,1,4736;90,2,1,3157;90,3,1,2105",0,97504,1,10,-,3,0,4,0,0
 0,Buat ulang Sabit Bintang Anda,2,recipe-icon-566,566,6,"315,1;402,2",,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",0,94566,1,10,-,3,0,4,0,20
-0,Recast Crystal Skin Boots Anda,2,recipe-icon-464,464,2,"56,1;213,1;210,1",,"56,1,1,6000;56,2,1,4000",0,98464,1,10,-,2,0,4,0,0
-0,Recast Crystal Skin Armor Anda,2,recipe-icon-471,471,2,"47,1;213,1;210,1",,"47,1,1,6000;47,2,1,4000",0,98471,1,10,-,2,0,4,0,0
-0,Recast Gathering Gloves Anda,2,recipe-icon-474,474,2,"126,1;216,2",,"126,1,1,6000;126,2,1,4000",0,98474,1,10,-,3,0,4,0,0
+0,Recast Crystal Skin Boots Anda,2,recipe-icon-464,464,2,"56,1;213,1;210,1",Lv 2 Sepatu Bot Kulit Kristal Dilebur Ulang,"56,1,1,6000;56,2,1,4000",0,98464,1,10,-,2,0,4,0,0
+0,Recast Crystal Skin Armor Anda,2,recipe-icon-471,471,2,"47,1;213,1;210,1",Lv 2 Atasan Prajurit Atasan Kulit Kristal Dilebur Ulang,"47,1,1,6000;47,2,1,4000",0,98471,1,10,-,2,0,4,0,0
+0,Recast Gathering Gloves Anda,2,recipe-icon-474,474,2,"126,1;216,2",Lv 2 Sarung Tangan Pengumpulan Dilebur Ulang,"126,1,1,6000;126,2,1,4000",0,98474,1,10,-,3,0,4,0,0
 0,Buat ulang Celana Pejuang Bintang Anda,2,recipe-icon-572,572,6,"348,1;411,1;408,1",,"348,1,1,3990;348,2,1,2660;348,3,1,1773;348,4,1,1182;348,5,1,394",0,94572,1,10,-,2,0,4,0,20
 0,Buat ulang Sepatu Pengumpul Bintang Anda,2,recipe-icon-562,562,6,"334,1;402,2",,"334,1,1,3990;334,2,1,2660;334,3,1,1773;334,4,1,1182;334,5,1,394",0,94562,1,10,-,3,0,4,0,20
-0,Recast Copper Brush Anda,2,recipe-icon-458,458,1,"453,1;207,2",,"453,1,1,10000",0,99458,1,10,-,1,0,4,0,0
-0,Buat ulang Celana Petani Berlian Anda,2,recipe-icon-532,532,5,"358,1;404,2",,"358,1,1,3990;358,2,1,2660;358,3,1,1773;358,4,1,1182;358,5,1,394",0,95532,1,10,-,1,0,4,0,15
+0,Recast Copper Brush Anda,2,recipe-icon-458,458,1,"453,1;207,2",Lv 1 Mencetak Ulang Sikat Tembaga,"453,1,1,10000",0,99458,1,10,-,1,0,4,0,0
+0,Buat ulang Celana Petani Berlian Anda,2,recipe-icon-532,532,5,"358,1;404,2",Lv 5 Celana Petani Berlian Dicetak Ulang,"358,1,1,3990;358,2,1,2660;358,3,1,1773;358,4,1,1182;358,5,1,394",0,95532,1,10,-,1,0,4,0,15
 0,Buat ulang Topi Pejuang Bintang Anda,2,recipe-icon-571,571,6,"345,1;411,1;408,1",,"345,1,1,3990;345,2,1,2660;345,3,1,1773;345,4,1,1182;345,5,1,394",0,94571,1,10,-,2,0,4,0,20
-0,Recast Iron Hammer Anda,2,recipe-icon-482,482,2,"442,1;213,1;210,1",,"442,1,1,6000;442,2,1,4000",0,98482,1,10,-,2,0,4,0,0
-0,Recast Farming Pants Anda,2,recipe-icon-473,473,2,"105,1;207,2",,"105,1,1,6000;105,2,1,4000",0,98473,1,10,-,1,0,4,0,0
-0,Buat ulang Sarung Tangan Pejuang Berlian Anda,2,recipe-icon-534,534,5,"342,1;410,1;407,1",,"342,1,1,3990;342,2,1,2660;342,3,1,1773;342,4,1,1182;342,5,1,394",0,95534,1,10,-,2,0,4,0,15
+0,Recast Iron Hammer Anda,2,recipe-icon-482,482,2,"442,1;213,1;210,1",Lv 2 Palu Besi Dilebur Ulang,"442,1,1,6000;442,2,1,4000",0,98482,1,10,-,2,0,4,0,0
+0,Recast Farming Pants Anda,2,recipe-icon-473,473,2,"105,1;207,2",Lv 2 Celana Pertanian Dilebur Ulang,"105,1,1,6000;105,2,1,4000",0,98473,1,10,-,1,0,4,0,0
+0,Buat ulang Sarung Tangan Pejuang Berlian Anda,2,recipe-icon-534,534,5,"342,1;410,1;407,1",Lv 5 Sarung Tangan Petarung Berlian Dicetak Ulang,"342,1,1,3990;342,2,1,2660;342,3,1,1773;342,4,1,1182;342,5,1,394",0,95534,1,10,-,2,0,4,0,15
 0,Buat ulang Jas Petani Bintang Anda,2,recipe-icon-574,574,6,"361,1;405,2",,"361,1,1,3990;361,2,1,2660;361,3,1,1773;361,4,1,1182;361,5,1,394",0,94574,1,10,-,1,0,4,0,20
-0,Recast Gathering Hat Anda,2,recipe-icon-453,453,1,"116,1;216,2",,"116,1,1,10000",0,99453,1,10,-,3,0,4,0,0
-0,Recast Crystal Leg Armor Anda,2,recipe-icon-493,493,3,"51,1;214,1;211,1",,"51,1,1,4736;51,2,1,3157;51,3,1,2105",0,97493,1,10,-,2,0,4,0,0
-0,Recast Crystal Skin Soft Hat Anda,2,recipe-icon-467,467,2,"44,1;213,1;210,1",,"44,1,1,6000;44,2,1,4000",0,98467,1,10,-,2,0,4,0,0
-0,Recast Golden Pickaxe Anda,2,recipe-icon-529,529,4,"301,1;218,2",,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,96529,1,10,-,3,0,4,0,10
+0,Recast Gathering Hat Anda,2,recipe-icon-453,453,1,"116,1;216,2",Lv 1 Mencetak Ulang Topi Pengumpulan,"116,1,1,10000",0,99453,1,10,-,3,0,4,0,0
+0,Recast Crystal Leg Armor Anda,2,recipe-icon-493,493,3,"51,1;214,1;211,1",Membuat Ulang Pelindung Kaki Kristal Lv 3,"51,1,1,4736;51,2,1,3157;51,3,1,2105",0,97493,1,10,-,2,0,4,0,0
+0,Recast Crystal Skin Soft Hat Anda,2,recipe-icon-467,467,2,"44,1;213,1;210,1",Lv 2 Topi Kristal Helm Prajurit Dilebur Ulang,"44,1,1,6000;44,2,1,4000",0,98467,1,10,-,2,0,4,0,0
+0,Recast Golden Pickaxe Anda,2,recipe-icon-529,529,4,"301,1;218,2",Lv 4 Beliung Emas Dicetak Ulang,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",0,96529,1,10,-,3,0,4,0,10
 0,Buat ulang Celana Pengumpul Bintang Anda,2,recipe-icon-558,558,6,"333,1;402,2",,"333,1,1,3990;333,2,1,2660;333,3,1,1773;333,4,1,1182;333,5,1,394",0,94558,1,10,-,3,0,4,0,20
 0,Recast Metal Bow Anda,2,recipe-icon-579,579,2,"288,1;213,1;210,1",,"288,1,1,6000;288,2,1,4000",0,98579,1,10,-,2,0,4,0,0
 0,Recast Lucky Hard Hat Anda,2,recipe-icon-580,580,3,"100,1;208,2",,"100,1,1,4736;100,2,1,3157;100,3,1,2105",0,97580,1,10,-,1,0,4,0,0
 0,Recast Golden Sword Anda,2,recipe-icon-581,581,4,"317,1;215,1;212,1",,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",0,96581,1,10,-,2,0,4,0,10
 0,Buat ulang Pedang Berlian Anda,2,recipe-icon-582,582,5,"318,1;410,1;407,1",,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",0,95582,1,10,-,2,0,4,0,15
 0,Buat ulang Palu Cahaya Bintang Anda,2,recipe-icon-583,583,6,"446,1;411,1;408,1",,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",0,94583,1,10,-,2,0,4,0,20
-0,,2,recipe-icon-595,595,6,"398,4;399,4;400,4;479,1",,"461,1,1,10000",0,94595,1,10,-,2,0,4,0,0
-0,,2,recipe-icon-589,589,5,"395,4;396,4;397,4;479,1",,"460,1,1,10000",0,95589,1,10,-,2,0,4,0,0
-0,,2,recipe-icon-592,592,3,"183,4;184,4;185,4;479,1",,"297,1,1,10000",0,97592,1,10,-,2,0,4,0,0
-0,,2,recipe-icon-590,590,4,"392,4;394,4;393,4;479,1",,"459,1,1,10000",0,96590,1,10,-,2,0,4,0,0
-0,,2,recipe-icon-588,588,1,"177,4;178,4;179,4;479,2",,"295,1,1,10000",0,99588,1,10,-,2,0,4,0,0
-0,,2,recipe-icon-585,585,2,"180,4;181,4;182,4;479,1",,"296,1,1,10000",0,98585,1,10,-,2,0,4,0,0
-0,,2,recipe-icon-586,586,6,"380,4;382,4;381,4;479,1",,"461,1,1,10000",0,94586,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-587,587,5,"377,4;378,4;379,4;479,1",,"460,1,1,10000",0,95587,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-596,596,3,"64,4;68,4;60,4;479,1",,"297,1,1,10000",0,97596,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-594,594,4,"374,4;376,4;375,4;479,1",,"459,1,1,10000",0,96594,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-591,591,1,"58,4;62,4;66,4;479,2",,"295,1,1,10000",0,99591,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-593,593,2,"67,4;63,4;59,4;479,1",,"296,1,1,10000",0,98593,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-597,597,1,"30,4;31,4;32,4;479,2",,"295,1,1,10000",0,99597,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-598,598,2,"33,4;34,4;35,4;479,1",,"296,1,1,10000",0,98598,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-599,599,3,"37,4;36,4;38,4;479,1",,"297,1,1,10000",0,97599,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-600,600,4,"365,4;366,4;367,4;479,1",,"459,1,1,10000",0,96600,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-601,601,5,"369,4;370,4;368,4;479,1",,"460,1,1,10000",0,95601,1,10,-,1,0,4,0,0
-0,,2,recipe-icon-602,602,6,"372,4;371,4;373,4;479,1",,"461,1,1,10000",0,94602,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Besar,2,recipe-icon-595,595,6,"398,4;399,4;400,4;479,1", Resep Pemulihan Energi Pertempuran - Lv 6,"461,1,1,10000",0,94595,1,10,-,2,0,4,0,0
+0,Resep Energi Pemulihan - Sedang,2,recipe-icon-589,589,5,"395,4;396,4;397,4;479,1", Resep Pemulihan Energi Pertempuran - Lv 5,"460,1,1,10000",0,95589,1,10,-,2,0,4,0,0
+0,Resep Energi Pemulihan - Besar,2,recipe-icon-592,592,3,"183,4;184,4;185,4;479,1", Resep Pemulihan Energi Pertempuran - Besar,"297,1,1,10000",0,97592,1,10,-,2,0,4,0,0
+0,Resep Energi Pemulihan - Kecil,2,recipe-icon-590,590,4,"392,4;394,4;393,4;479,1", Resep Pemulihan Energi Pertempuran - Lv 4,"459,1,1,10000",0,96590,1,10,-,2,0,4,0,0
+0,Resep Energi Pemulihan - Kecil,2,recipe-icon-588,588,1,"177,4;178,4;179,4;479,2", Resep Pemulihan Energi Pertempuran - Kecil,"295,1,1,10000",0,99588,1,10,-,2,0,4,0,0
+0,Resep Energi Pemulihan - Sedang,2,recipe-icon-585,585,2,"180,4;181,4;182,4;479,1", Resep Pemulihan Energi Pertempuran - Sedang,"296,1,1,10000",0,98585,1,10,-,2,0,4,0,0
+0,Resep Energi Pemulihan - Besar,2,recipe-icon-586,586,6,"380,4;382,4;381,4;479,1", Resep Pemulihan Energi Penanaman - Lv 6,"461,1,1,10000",0,94586,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Sedang,2,recipe-icon-587,587,5,"377,4;378,4;379,4;479,1", Resep Pemulihan Energi Penanaman - Lv 5,"460,1,1,10000",0,95587,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Besar,2,recipe-icon-596,596,3,"64,4;68,4;60,4;479,1", Resep Pemulihan Energi Penanaman - Besar,"297,1,1,10000",0,97596,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Kecil,2,recipe-icon-594,594,4,"374,4;376,4;375,4;479,1", Resep Pemulihan Energi Penanaman - Lv 4,"459,1,1,10000",0,96594,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Kecil,2,recipe-icon-591,591,1,"58,4;62,4;66,4;479,2", Resep Pemulihan Energi Penanaman - Kecil,"295,1,1,10000",0,99591,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Sedang,2,recipe-icon-593,593,2,"67,4;63,4;59,4;479,1", Resep Pemulihan Energi Penanaman - Sedang,"296,1,1,10000",0,98593,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Kecil,2,recipe-icon-597,597,1,"30,4;31,4;32,4;479,2", Resep Pemulihan Energi Peternakan - Kecil,"295,1,1,10000",0,99597,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Sedang,2,recipe-icon-598,598,2,"33,4;34,4;35,4;479,1", Resep Pemulihan Energi Peternakan - Sedang,"296,1,1,10000",0,98598,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Besar,2,recipe-icon-599,599,3,"37,4;36,4;38,4;479,1", Resep Pemulihan Energi Peternakan - Besar,"297,1,1,10000",0,97599,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Kecil,2,recipe-icon-600,600,4,"365,4;366,4;367,4;479,1", Resep Pemulihan Energi Peternakan - Lv 4,"459,1,1,10000",0,96600,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Sedang,2,recipe-icon-601,601,5,"369,4;370,4;368,4;479,1", Resep Pemulihan Energi Peternakan - Lv 5,"460,1,1,10000",0,95601,1,10,-,1,0,4,0,0
+0,Resep Energi Pemulihan - Besar,2,recipe-icon-602,602,6,"372,4;371,4;373,4;479,1", Resep Pemulihan Energi Peternakan - Lv 6,"461,1,1,10000",0,94602,1,10,-,1,0,4,0,0
