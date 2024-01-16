@@ -1,14 +1,4 @@
 canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],type-int,useLv-int,userType-int
-0,"Moneda de Lumiterra
-",0,item-icon-10,10,LNCO,1,4,0,0
-0,"El término EXP se refiere a los puntos de experiencia, que son recompensas obtenidas por personajes o jugadores en juegos al completar misiones, derrotar monstruos y subir de nivel. EXP se puede utilizar para aumentar los niveles de los personajes, los niveles de habilidad, mejorar los atributos del personaje y mejorar la experiencia general del juego. En muchos juegos, EXP es un recurso esencial y crucial para los jugadores.
-",0,item-icon-11,11,EXP,1,4,0,0
-1,"La lotería es una forma de juego que implica el sorteo de boletos para determinar premios. Los participantes compran boletos de lotería con combinaciones de números o símbolos, con la esperanza de ganar recompensas como dinero. Los boletos ganadores de la lotería se determinan mediante un sorteo aleatorio. A pesar de esto, muchas personas disfrutan participando en actividades de lotería porque pueden brindar emoción y fortunas inesperadas que podrían cambiar la vida de alguien.
-",0,item-icon-12,12,Boleto de lotería,1,4,0,1
-0,"USDC, abreviatura de USD Coin, es una stablecoin vinculada al dólar estadounidense (USD) y se mantiene en una proporción de 1:1, lo que significa que por cada token USDC emitido, hay un equivalente de un dólar estadounidense en reserva en una institución financiera regulada. USDC tiene como objetivo proporcionar un activo digital estable, seguro y transparente para diversos casos de uso como el comercio, las remesas o los pagos.
-",0,item-icon-13,13,USDC,1,4,0,0
-1,"La batería es un dispositivo que puede almacenar energía eléctrica y convertirla en electricidad, generalmente compuesto por electrodos positivos y negativos, electrolitos y una carcasa.
-",0,item-icon-21,21,Batería,1,4,0,1
 1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -494,12 +484,6 @@ Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material en bruto que se puede utilizar para fabricar diversos objetos.
 ",0,item-icon-69,69,Telaraña de nivel 1,1,4,1,1
-1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
-",0,item-icon-171,171,Boleto #1 de nivel 0,1,4,0,1
-1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
-",0,item-icon-172,172,Boleto #2 de nivel 0,1,4,0,1
-1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
-",0,item-icon-173,173,Boleto #3 de nivel 0,1,4,0,1
 1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
