@@ -1,10 +1,4 @@
 canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],type-int,useLv-int,userType-int
-0,Currency of Lumiterra,0,item-icon-10,10,LNCO,1,4,0,0
-0,"The term EXP refers to experience points, which are rewards earned by characters or players in games for completing quests, defeating monsters, and leveling up. EXP can be used to increase character levels, skill levels, enhance character attributes, and improve the overall gaming experience. In many games, EXP is an essential and crucial resource for players.",0,item-icon-11,11,EXP,1,4,0,0
-1,"Lottery is a form of gambling that involves drawing lots to determine prizes. Participants buy lottery tickets with combinations of numbers or symbols, hoping to win rewards such as money. Winning lottery tickets are determined by random draw. Despite this, many people still enjoy participating in lottery activities because they can bring excitement and unexpected fortunes that could change one's life.",0,item-icon-12,12,Lottery Ticket,1,4,0,1
-0,"USDC, short for USD Coin, is a stablecoin pegged to the US Dollar (USD) and is maintained at a 1:1 ratio, meaning that for every USDC token issued, there is an equivalent of one US Dollar held in reserve by a regulated financial institution. USDC aims to provide a stable, secure, and transparent digital asset for various use cases such as trading, remittances, or payments.",0,item-icon-13,13,USDC,1,4,0,0
-1,"Battery is a device that can store electrical energy and convert it into electricity, usually consisting of positive and negative electrodes, electrolytes, and a casing.
-",0,item-icon-21,21,Battery,1,4,0,1
 1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
@@ -433,9 +427,6 @@ These mushrooms grow in the cold polar regions and have a light blue color. They
 It can be used to craft equipment or items.
 -------
 This spider web is level 1 and can be collected in the forest. It is a raw material that can be used to make various items.",0,item-icon-69,69,Cobweb,1,4,1,1
-1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime.,0,item-icon-171,171,Ticket #1,1,4,0,1
-1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime.,0,item-icon-172,172,Ticket #2,1,4,0,1
-1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime,0,item-icon-173,173,Ticket #3,1,4,0,1
 1,"You can obtain this type of material through breeding.
 It can be used to craft equipment or items.
 -------
@@ -1613,5 +1604,5 @@ It can be used to craft Energy Potion.",0,item-icon-479,479,Empty Bottle,1,4,0,1
 1,"Appearing in Floating Realm, Appearing in Flower Peak.
 It can be used to craft equipment or items.
 -------
-It can be used to exchange LUAG Future(100).",0,item-icon-480,480,LUAG Future(N),1,4,0,1
+It can be used to exchange LUAG Future(100).",0,item-icon-480,480,Broken LUAG Future,1,4,0,1
 1,It can be use to exchange LUAG Future(100),0,item-icon-481,481,LUAG Star,1,4,0,1
