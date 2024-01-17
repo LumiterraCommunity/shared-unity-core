@@ -108,6 +108,12 @@ public class EntityBase
     public EntityCheckPosCore EntityCheckPosCore { get; set; }
 
     /// <summary>
+    /// 阵营数据
+    /// </summary>
+    /// <value></value>
+    public EntityCampDataCore EntityCampDataCore { get; set; }
+
+    /// <summary>
     /// 不要乱用 读写相关属性都有独立方法 只能在特定情境下只能通过获取Transform来获取时使用
     /// </summary>
     /// <returns></returns>

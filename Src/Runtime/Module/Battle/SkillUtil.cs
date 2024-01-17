@@ -45,49 +45,7 @@ public static partial class SkillUtil
 
     public static int GetEntityTargetLayer(GameMessageCore.EntityType type, int targetType)
     {
-        int targetLayer;
-        switch (type)
-        {
-            case GameMessageCore.EntityType.MainPlayer:
-            case GameMessageCore.EntityType.Player:
-                targetLayer = GetPlayerTargetLayer(targetType);
-                break;
-            case GameMessageCore.EntityType.Monster:
-                targetLayer = GetMonsterTargetLayer(targetType);
-                break;
-            default:
-                targetLayer = 0;
-                break;
-        }
-        return targetLayer;
-    }
-
-    public static int GetPlayerTargetLayer(int targetType)
-    {
-        int targetLayer = 0;
-        if ((targetType & (int)eSkillTargetType.Friend) != 0)
-        {
-            targetLayer |= 1 << MLayerMask.PLAYER;
-        }
-        if ((targetType & (int)eSkillTargetType.Enemy) != 0)
-        {
-            targetLayer |= 1 << MLayerMask.MONSTER;
-        }
-        return targetLayer;
-    }
-
-    public static int GetMonsterTargetLayer(int targetType)
-    {
-        int targetLayer = 0;
-        if ((targetType & (int)eSkillTargetType.Friend) != 0)
-        {
-            targetLayer |= 1 << MLayerMask.MONSTER;
-        }
-        if ((targetType & (int)eSkillTargetType.Enemy) != 0)
-        {
-            targetLayer |= 1 << MLayerMask.PLAYER;
-        }
-        return targetLayer;
+        return (1 << MLayerMask.PLAYER) | (1 << MLayerMask.MONSTER);
     }
 
     /// <summary>
@@ -112,7 +70,7 @@ public static partial class SkillUtil
         {
             if (colliders[i].gameObject.TryGetComponent(out EntityReferenceData refData))
             {
-                if (refData.Entity != null && refData.Entity.BaseData.Id != fromEntity.BaseData.Id)
+                if (fromEntity.EntityCampDataCore.IsSkillTarget(refData.Entity, skillTargetType))
                 {
                     targetEntityList.Add(refData.Entity);
                 }
@@ -144,7 +102,7 @@ public static partial class SkillUtil
         {
             if (colliders[i].gameObject.TryGetComponent(out EntityReferenceData refData))
             {
-                if (refData.Entity != null && refData.Entity.BaseData.Id != fromEntity.BaseData.Id)
+                if (fromEntity.EntityCampDataCore.IsSkillTarget(refData.Entity, skillTargetType))
                 {
                     if (!entityMap.Contains(refData.Entity))
                     {
