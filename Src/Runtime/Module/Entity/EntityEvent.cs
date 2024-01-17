@@ -1,7 +1,7 @@
 /* 
  * @Author XQ
  * @Date 2022-08-15 11:15:06
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
  */
 using System;
 using System.Collections.Generic;
@@ -192,6 +192,11 @@ public class EntityEvent : EntityBaseComponent
     /// 战斗所属ID更新
     /// </summary>
     public Action<long> BattleOwnerIDUpdate;
+
+    /// <summary>
+    /// 阵营类型更新
+    /// </summary>
+    public Action ChangeCamp;
 
     /// <summary>
     /// 实体改变战斗状态  T0:是否战斗

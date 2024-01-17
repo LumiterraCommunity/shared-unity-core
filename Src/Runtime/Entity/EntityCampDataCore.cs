@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体阵营数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
  * 
  */
 
@@ -18,7 +18,7 @@ public class EntityCampDataCore : EntityBaseComponent
     /// 阵营类型
     /// </summary>
     /// <value></value>
-    public eEntityCampType CampType { get; protected set; }
+    public eEntityCampType CampType;
 
     public void Init(eEntityCampType campType)
     {
@@ -81,6 +81,7 @@ public class EntityCampDataCore : EntityBaseComponent
     public virtual bool ChangeCamp(eEntityCampType campType)
     {
         CampType = campType;
+        RefEntity.EntityEvent.ChangeCamp?.Invoke();
         return true;
     }
 }
