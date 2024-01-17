@@ -13,8 +13,8 @@ public class SkillCpt : EntityBaseComponent
 {
     public Dictionary<int, SkillBase> SkillMap { get; private set; } = new();
     private bool _isDestroy = false;
-    private List<long> _validTargetList = new();
-    private List<Vector3> _validTargetPosList = new();
+    private readonly List<long> _validTargetList = new();
+    private readonly List<Vector3> _validTargetPosList = new();
     private void OnDestroy()
     {
         _isDestroy = true;
@@ -135,7 +135,7 @@ public class SkillCpt : EntityBaseComponent
         return false;
     }
 
-    public long[] GetValidTargetList(int skillID, long[] targetList)
+    public long[] GetValidTargetList(int skillID, long[] targetList, int targetType)
     {
         _validTargetList.Clear();
 
@@ -153,7 +153,7 @@ public class SkillCpt : EntityBaseComponent
         {
             if (GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(targetList[i], out EntityBase targetEntity))
             {
-                if (skill.IsSkillRange(targetEntity.Position) && skill.IsSkillTarget(targetEntity))
+                if (skill.IsSkillRange(targetEntity.Position) && RefEntity.EntityCampDataCore.IsSkillTarget(targetEntity, targetType))
                 {
                     _validTargetList.Add(targetList[i]);
                 }

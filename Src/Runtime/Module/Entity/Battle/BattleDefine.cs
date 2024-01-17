@@ -64,6 +64,21 @@ public static class BattleDefine
     public const float MAX_PARABOLA_FLYER_HEIGHT = 2.5f;  // 抛物线子弹最大高度
 
     public const int PLAYER_DEATH_STATUS_TIME = 60000;  // 玩家死亡状态时间
+
+    public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampFriend = new()
+    {
+        {eEntityCampType.Monster, new HashSet<eEntityCampType> {eEntityCampType.Monster}},
+        {eEntityCampType.Player, new HashSet<eEntityCampType> {eEntityCampType.Player}},
+        {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {}},
+    };
+
+    public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampEnemy = new()
+    {
+        {eEntityCampType.Monster, new HashSet<eEntityCampType> {eEntityCampType.Player, eEntityCampType.PlayerPVP}},
+        {eEntityCampType.Player, new HashSet<eEntityCampType> {eEntityCampType.Monster}},
+        {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.PlayerPVP}},
+    };
+
 }
 public enum eEntityCDType : int
 {
@@ -94,4 +109,11 @@ public enum eSkillTargetType : int
 {
     Enemy = 1 << 1,  //敌方目标
     Friend = 1 << 2,  //友方目标
+}
+
+public enum eEntityCampType : int
+{
+    Monster = 1,  //怪物阵营
+    Player = 2,   //玩家阵营
+    PlayerPVP = 3,  //玩家PVP阵营
 }
