@@ -75,8 +75,8 @@ public static class BattleDefine
     public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampEnemy = new()
     {
         {eEntityCampType.Monster, new HashSet<eEntityCampType> {eEntityCampType.Player, eEntityCampType.PlayerPVP}},
-        {eEntityCampType.Player, new HashSet<eEntityCampType> {eEntityCampType.Monster}},
-        {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.PlayerPVP}},
+        {eEntityCampType.Player, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.PlayerPVP}},
+        {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.Player, eEntityCampType.PlayerPVP}},
     };
 
 }
