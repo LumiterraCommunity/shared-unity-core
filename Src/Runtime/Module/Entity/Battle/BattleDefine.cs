@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 10:51:41
  * @Description: 战斗公共定义
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
  * 
  */
 
@@ -116,4 +116,11 @@ public enum eEntityCampType : int
     Monster = 1,  //怪物阵营
     Player = 2,   //玩家阵营
     PlayerPVP = 3,  //玩家PVP阵营
+}
+
+public enum eBattleAreaType : int
+{
+    Peace = 1,    //和平区域，无法攻击
+    Danger = 2,   //危险区域，敌对阵营可以攻击
+    Chaos = 3,    //混乱区域，可以攻击任何阵营
 }

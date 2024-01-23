@@ -63,4 +63,9 @@ public static class MTag
     /// 畜牧动物掉落
     /// </summary>
     public const string HOME_ANIMAL_DROP = "HomeAnimalDrop";
+
+    /// <summary>
+    /// 战斗区域
+    /// </summary>
+    public const string BATTLE_AREA = "BattleArea";
 }
