@@ -152,6 +152,7 @@ public enum eFoodItemInteractType
     usePotion,//嗑药
     occupyLand,//占地
     equipItem,//装备道具
+    releaseSkill,//释放技能
 }
 
 public enum eSkillEffectType : int

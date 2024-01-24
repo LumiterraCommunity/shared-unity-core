@@ -366,6 +366,24 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取isItemSkill-bool。*/
+    /// </summary>
+    public bool IsItemSkill
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取itemCost-int[][]。*/
+    /// </summary>
+    public int[][] ItemCost
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取animRotate-int。*/
     /// </summary>
     public int AnimRotate
@@ -499,6 +517,8 @@ public class DRSkill : DataRowBase
         EffectSelf = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SkillIcon = DataTableParseUtil.ParseString(columnStrings[index++]);
         HitEff = DataTableParseUtil.ParseString(columnStrings[index++]);
+        IsItemSkill = DataTableParseUtil.ParseBool(columnStrings[index++]);
+        ItemCost = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         AnimRotate = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillAlertEffect = DataTableParseUtil.ParseString(columnStrings[index++]);
         SkillFlyerNum = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -559,6 +579,8 @@ public class DRSkill : DataRowBase
                 EffectSelf = binaryReader.ReadArray<Int32>();
                 SkillIcon = binaryReader.ReadString();
                 HitEff = binaryReader.ReadString();
+                IsItemSkill = binaryReader.ReadBoolean();
+                ItemCost = binaryReader.ReadArrayList<Int32>();
                 AnimRotate = binaryReader.Read7BitEncodedInt32();
                 SkillAlertEffect = binaryReader.ReadString();
                 SkillFlyerNum = binaryReader.Read7BitEncodedInt32();
