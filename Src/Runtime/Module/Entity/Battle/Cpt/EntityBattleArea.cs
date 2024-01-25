@@ -7,14 +7,19 @@
  */
 using System.Collections.Generic;
 using UnityEngine;
+using UnityGameFramework.Runtime;
 
 /// <summary>
 /// 战斗区域组件
 /// </summary>
 public class EntityBattleArea : EntityBaseComponent
 {
-    private readonly List<Collider> _areaQueue = new();
+
+
+    private readonly Dictionary<int, BattleAreaConfig> _areaConfigDic = new();
+    public int CurAreaID;
     public eBattleAreaType CurAreaType = eBattleAreaType.Peace;
+    public DRBattleArea DRBattleArea { get; private set; }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer != MLayerMask.EFFECT_TRIGGER)
@@ -27,12 +32,16 @@ public class EntityBattleArea : EntityBaseComponent
             return;
         }
 
-        if (!other.gameObject.TryGetComponent(out BattleAreaConfig _))
+        if (!other.gameObject.TryGetComponent(out BattleAreaConfig areaConfig))
         {
             return;
         }
-
-        _areaQueue.Add(other);
+        int code = other.GetHashCode();
+        if (_areaConfigDic.ContainsKey(code))
+        {
+            return;
+        }
+        _areaConfigDic.Add(code, areaConfig);
         UpdateCurAreaConfig();
     }
 
@@ -47,16 +56,17 @@ public class EntityBattleArea : EntityBaseComponent
         {
             return;
         }
-
-        if (other == _areaQueue[^1])
+        if (!other.gameObject.TryGetComponent(out BattleAreaConfig _))
         {
-            _areaQueue.RemoveAt(_areaQueue.Count - 1);
-            UpdateCurAreaConfig();
+            return;
         }
-        else
+        int code = other.GetHashCode();
+        if (!_areaConfigDic.ContainsKey(code))
         {
-            _ = _areaQueue.Remove(other);
+            return;
         }
+        _ = _areaConfigDic.Remove(code);
+        UpdateCurAreaConfig();
     }
 
     /// <summary>
@@ -64,13 +74,31 @@ public class EntityBattleArea : EntityBaseComponent
     /// </summary>
     private void UpdateCurAreaConfig()
     {
-        if (_areaQueue.Count > 0)
+        if (_areaConfigDic.Count > 0)
         {
-            BattleAreaConfig config = _areaQueue[^1].gameObject.GetComponent<BattleAreaConfig>();
-            CurAreaType = config.AreaType;
+            //根据优先级获取当前区域
+            int priority = int.MinValue;
+            foreach (KeyValuePair<int, BattleAreaConfig> item in _areaConfigDic)
+            {
+                if (item.Value.Priority > priority)
+                {
+                    priority = item.Value.Priority;
+                    CurAreaID = item.Value.AreaID;
+                    DRBattleArea = GFEntryCore.DataTable.GetDataTable<DRBattleArea>().GetDataRow(CurAreaID);
+                    if (DRBattleArea != null)
+                    {
+                        CurAreaType = (eBattleAreaType)DRBattleArea.Type;
+                    }
+                    else
+                    {
+                        Log.Error($"UpdateCurAreaConfig id is null {CurAreaID}");
+                    }
+                }
+            }
         }
         else
         {
+            CurAreaID = 0;
             CurAreaType = eBattleAreaType.Peace;
         }
     }

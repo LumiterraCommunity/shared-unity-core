@@ -15,6 +15,6 @@ public class BattleAreaConfig : SharedCoreComponent
     [Header("区域ID")]
     public int AreaID;
 
-    [Header("区域类型")]
-    public eBattleAreaType AreaType;
+    [Header("优先级")]
+    public int Priority = 1;
 }
