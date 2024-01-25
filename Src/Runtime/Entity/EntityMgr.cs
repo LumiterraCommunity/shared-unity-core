@@ -117,7 +117,7 @@ public class EntityMgr<TEntity, TFactory> : SceneModuleBase, IEntityMgr where TE
     }
 
     /// <summary>
-    /// 获取entityType类型的所有实体 不走GC 不要改变里面值 而且不要频繁使用 慎用
+    /// 获取entityType类型的所有实体 不走GC 不要改变里面值 慎用
     /// 返回值一定不为空
     /// </summary>
     /// <param name="entityType"></param>
