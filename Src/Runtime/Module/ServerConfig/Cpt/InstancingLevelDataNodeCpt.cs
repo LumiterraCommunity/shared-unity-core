@@ -12,19 +12,32 @@ public class InstancingLevelDataNodeCpt : MonoBehaviour, IServerDataNodeCpt
     [Header("关卡AI")]
     public string LevelAI = "";
     [Header("出生点")]
-    public GameObject BirthPoint;
+    public List<GameObject> BirthPoint;
     public object GetServerData()
     {
         List<ResourcesPointData> resourcesList = new();
         SearchResourcesDataNode(transform, resourcesList);
-        Transform tansformPoint = BirthPoint != null ? BirthPoint.transform : transform;
+        List<System.Numerics.Vector3> birthPointList = new();
+        if (BirthPoint != null && BirthPoint.Count > 0)
+        {
+            for (int i = 0; i < BirthPoint.Count; i++)
+            {
+                birthPointList.Add(new System.Numerics.Vector3(BirthPoint[i].transform.position.x, BirthPoint[i].transform.position.y, BirthPoint[i].transform.position.z));
+            }
+        }
+        else
+        {
+            birthPointList.Add(new System.Numerics.Vector3(transform.position.x, transform.position.y, transform.position.z));
+        }
+
         InstancingLevelData data = new()
         {
-            X = tansformPoint.position.x,
-            Y = tansformPoint.position.y,
-            Z = tansformPoint.position.z,
+            X = transform.position.x,
+            Y = transform.position.y,
+            Z = transform.position.z,
             LevelAI = LevelAI,
             ResourcesPointList = resourcesList.ToArray(),
+            BirthPointList = birthPointList.ToArray(),
         };
         return data;
     }

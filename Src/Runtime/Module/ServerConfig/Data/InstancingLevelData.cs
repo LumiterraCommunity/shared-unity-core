@@ -6,10 +6,12 @@
  * 
  */
 using System;
+using System.Numerics;
 
 [Serializable]
 public class InstancingLevelData : DataNodeBase
 {
     public string LevelAI;
     public ResourcesPointData[] ResourcesPointList;
+    public Vector3[] BirthPointList;
 }
