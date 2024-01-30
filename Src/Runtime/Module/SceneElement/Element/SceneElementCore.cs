@@ -2,11 +2,13 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 场景元素组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SceneElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SceneElementCore.cs
  * 
  */
 using UnityEngine;
 using System;
+using GameMessageCore;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -15,13 +17,15 @@ public class SceneElementCore : SharedCoreComponent
 {
 
     public static Action<long, SceneElementCore> OnSceneElementInitHook;
-    public static Action<long, SceneElementCore> OnSceneElementDestroyHook;
+    public static Action<long> OnSceneElementDestroyHook;
+    public static Action<SceneElementData> BroadcastSceneElementDataUpdate; //全局广播，大世界多人场景不要轻易使用!!!
     public virtual eSceneElementType ElementType => eSceneElementType.None;
     [SerializeField]
     [Header("全局ID 自动生成 不要乱改")]
     private long _id;
     public long Id => _id;
-    protected bool IsSyncData = false; //是否需要同步数据
+    public bool IsSyncData = false; //是否需要同步数据，!!!同步数据会采用全局广播，大世界多人场景不要轻易使用
+    protected SceneElementData SceneElementData = new();
     protected virtual void Awake()
     {
 
@@ -41,7 +45,7 @@ public class SceneElementCore : SharedCoreComponent
 
     protected virtual void OnDestroy()
     {
-        OnSceneElementDestroyHook?.Invoke(_id, this);
+        OnSceneElementDestroyHook?.Invoke(_id);
     }
 
     protected virtual void Update()
@@ -87,12 +91,33 @@ public class SceneElementCore : SharedCoreComponent
     }
 #endif
 
-    public virtual void InitNetData(string netData)
+    /// <summary>
+    /// 更新元素数据，需要同步数据的元素需要重写此方法 
+    /// </summary>
+    public virtual void UpdateElementData()
+    {
+        IsSyncData = true;
+        SceneElementData.Id = Id;
+    }
+    public virtual void InitElementData(SceneElementData netData)
     {
 
     }
-    public virtual string GetNetData()
+
+    public virtual SceneElementData GetElementData()
     {
-        return "";
+        return SceneElementData;
+    }
+
+    /// <summary>
+    /// 全局广播，大世界等多人场景不要轻易使用!!!   
+    /// </summary>
+    public void BroadcastElementData()
+    {
+        if (!IsSyncData || SceneElementData == null)
+        {
+            return;
+        }
+        BroadcastSceneElementDataUpdate?.Invoke(SceneElementData);
     }
 }
