@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-02-13 19:12:29
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Data/SafeAreaElementNetData.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Data/SafeAreaElementNetData.cs
  * 
  */
 
@@ -11,6 +11,8 @@ using UnityEngine;
 
 public class SafeAreaElementNetData
 {
+
+    public long StartTime;
     public Vector3 Position;
     public string ToJson()
     {

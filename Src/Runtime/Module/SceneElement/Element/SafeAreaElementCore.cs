@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 安全区组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
  * 
  */
 using UnityEngine;
@@ -34,17 +34,18 @@ public class SafeAreaElementCore : SceneElementCore
     public List<SafeAreaInfo> SafeAreaInfos;
     private int _curIndex = 0;
     private float _waitTime = 0;
+    private long _startTime = 0;
     private void Start()
     {
         CurRadius = InitRadius;
         SetCurIndex(0);
     }
-    public void Run(float runTime = 0)
+    protected void Run(float runTime)
     {
         IsRun = true;
         UpdateSafeArea(runTime);
     }
-    public void Stop()
+    protected void Stop()
     {
         IsRun = false;
     }
@@ -143,25 +144,32 @@ public class SafeAreaElementCore : SceneElementCore
 
     public bool IsSafeArea(Vector3 pos)
     {
-        //只计算x和z距离
         return Vector3.Distance(pos.OnlyXZ(), transform.position.OnlyXZ()) <= CurRadius;
     }
 
-    public override void InitNetData(string netData)
+    public override void UpdateElementData()
     {
-        if (string.IsNullOrEmpty(netData))
-        {
-            return;
-        }
-        SafeAreaElementNetData config = JsonConvert.DeserializeObject<SafeAreaElementNetData>(netData);
-        transform.position = config.Position;
-    }
-    public override string GetNetData()
-    {
+        base.UpdateElementData();
         SafeAreaElementNetData netData = new()
         {
-            Position = transform.position
+            StartTime = _startTime,
+            Position = transform.position,
         };
-        return netData.ToJson();
+        SceneElementData.ElementData = netData.ToJson();
+    }
+
+    public void StartElement(Vector3 pos, long startTime)
+    {
+        _startTime = startTime;
+        transform.position = pos;
+        float runTime = (TimeUtil.GetServerTimeStamp() - _startTime) * TimeUtil.MS2S;
+        Run(runTime);
+        UpdateElementData();
+    }
+
+    public override void InitElementData(GameMessageCore.SceneElementData netData)
+    {
+        SafeAreaElementNetData config = JsonConvert.DeserializeObject<SafeAreaElementNetData>(netData.ElementData);
+        StartElement(config.Position, config.StartTime);
     }
 }
