@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 场景元素组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SceneElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SceneElementCore.cs
  * 
  */
 using UnityEngine;
@@ -12,7 +12,7 @@ using GameMessageCore;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-
+[ExecuteAlways]
 public class SceneElementCore : SharedCoreComponent
 {
 

@@ -2,11 +2,12 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
 public class PortalElementCore : SceneElementCore
 {
@@ -14,18 +15,31 @@ public class PortalElementCore : SceneElementCore
 
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
+    [Header("传送门特效")]
+    public GameObject PortalElementEffect;
+
+    [Header("传送门激活时间(s)")]
+    public float ActivateTime = 0;
 
     [Header("当前使用次数")]
     public int CurUseNum = 0;
 
     [Header("最大使用次数")]
     public int MaxUseNum = 0;
-    private long _startTime = 0;
+
+    private long _startTime = long.MaxValue;
+    private float _curActivateTime = 0;
+    private readonly List<Collider> _playerList = new();
+    private readonly HashSet<EntityBase> _portalDic = new();
 
     protected override void Update()
     {
         base.Update();
+        UpdateStatusHide();
         UpdateStatusInactive();
+        UpdateStatusActivate(Time.deltaTime);
+        UpdateStatusRunning();
+        PortalElementEffect?.SetActive(StatusType != ePortalStatusType.Hide);
     }
     public override void UpdateElementData()
     {
@@ -53,9 +67,9 @@ public class PortalElementCore : SceneElementCore
         StartElement(config.StartTime, config.StatusType, config.CurUseNum);
     }
 
-    private void UpdateStatusInactive()
+    private void UpdateStatusHide()
     {
-        if (StatusType != ePortalStatusType.Inactive)
+        if (StatusType != ePortalStatusType.Hide)
         {
             return;
         }
@@ -64,7 +78,68 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        StatusType = ePortalStatusType.Open;
+        StatusType = ePortalStatusType.Inactive;
+    }
+    private void UpdateStatusInactive()
+    {
+        if (StatusType != ePortalStatusType.Inactive)
+        {
+            return;
+        }
+        if (_playerList.Count > 0)
+        {
+            StatusType = ePortalStatusType.Activate;
+            _curActivateTime = 0;
+        }
+    }
+
+
+    private void UpdateStatusActivate(float deltaTime)
+    {
+        if (StatusType != ePortalStatusType.Activate)
+        {
+            return;
+        }
+        if (_playerList.Count == 0)
+        {
+            StatusType = ePortalStatusType.Inactive;
+        }
+        else
+        {
+            _curActivateTime += deltaTime;
+            if (_curActivateTime >= ActivateTime)
+            {
+                StatusType = ePortalStatusType.Running;
+            }
+        }
+    }
+
+    private void UpdateStatusRunning()
+    {
+        if (StatusType != ePortalStatusType.Running)
+        {
+            return;
+        }
+        for (int i = 0; i < _playerList.Count; i++)
+        {
+            EntityBase entity = GFEntryCore.GetModule<IEntityMgr>().GetEntityWithRoot<EntityBase>(_playerList[i].gameObject);
+            if (entity != null && entity.Inited && entity.BattleDataCore.IsLive() && !_portalDic.Contains(entity))
+            {
+                CurUseNum++;
+                _ = _portalDic.Add(entity);
+                entity.EntityEvent.EntityTriggerPortalElement?.Invoke();
+            }
+
+            if (CurUseNum >= MaxUseNum)
+            {
+                break;
+            }
+        }
+
+        if (CurUseNum >= MaxUseNum)
+        {
+            StatusType = ePortalStatusType.Finish;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -78,6 +153,7 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
+        _playerList.Add(other);
     }
 
     private void OnTriggerExit(Collider other)
@@ -86,6 +162,7 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
+        _ = _playerList.Remove(other);
 
     }
 
