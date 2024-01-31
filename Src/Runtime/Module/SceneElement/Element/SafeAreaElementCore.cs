@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 安全区组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
  * 
  */
 using UnityEngine;
@@ -12,13 +12,7 @@ using Newtonsoft.Json;
 
 public class SafeAreaElementCore : SceneElementCore
 {
-    public struct SafeAreaInfo
-    {
-        public float Radius;
-        public float Speed;
-        public float WaitTime;
-        public float Damage;
-    }
+
     public override eSceneElementType ElementType => eSceneElementType.SafeArea;
 
     [Header("是否运行")]
@@ -29,9 +23,18 @@ public class SafeAreaElementCore : SceneElementCore
 
     [Header("初始半径")]
     public float InitRadius = 0;
-
+    [Serializable]
+    public struct SafeAreaInfo
+    {
+        public float Radius;
+        public float Speed;
+        public float WaitTime;
+        public float Damage;
+    }
     [Header("安全列表")]
     public List<SafeAreaInfo> SafeAreaInfos;
+    [Header("安全区特效")]
+    public GameObject SafeAreaEffect;
     private int _curIndex = 0;
     private float _waitTime = 0;
     private long _startTime = 0;
@@ -99,6 +102,10 @@ public class SafeAreaElementCore : SceneElementCore
         {
             CurRadius = safeZoneInfo.Radius;
             deltaTime -= moveTime;
+        }
+        if (SafeAreaEffect != null)
+        {
+            SafeAreaEffect.transform.localScale = Vector3.one * CurRadius;
         }
         return deltaTime;
     }
@@ -171,5 +178,11 @@ public class SafeAreaElementCore : SceneElementCore
     {
         SafeAreaElementNetData config = JsonConvert.DeserializeObject<SafeAreaElementNetData>(netData.ElementData);
         StartElement(config.Position, config.StartTime);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, CurRadius);
     }
 }

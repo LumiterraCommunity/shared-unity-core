@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-01-29 11:11:32
  * @Description: 
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
  * 
  */
 
@@ -18,8 +18,9 @@ public enum eSceneElementType
 
 public enum ePortalStatusType
 {
-    Inactive = 0,     //未开启
-    Open = 1,         //开启
-    Running = 3,      //运行中
-    Finish = 2,       //完成
+    Hide, //隐藏
+    Inactive, //未激活
+    Activate, //激活状态
+    Running, //运行状态
+    Finish, //完成状态
 }

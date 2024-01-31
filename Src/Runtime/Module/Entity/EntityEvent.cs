@@ -276,4 +276,9 @@ public class EntityEvent : EntityBaseComponent
     /// </summary>
     public Action<GameMessageCore.DamageState> OnSceneDeath;
     #endregion
+
+    /// <summary>
+    /// 实体传送门元素
+    /// </summary>
+    public Action EntityTriggerPortalElement;
 }
