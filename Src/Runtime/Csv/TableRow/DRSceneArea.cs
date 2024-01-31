@@ -24,15 +24,6 @@ public class DRSceneArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取campLimit-int[]。*/
-    /// </summary>
-    public int[] CampLimit
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取level-int。*/
     /// </summary>
     public int Level
@@ -99,6 +90,15 @@ public class DRSceneArea : DataRowBase
   /**获取bossCovers-int[]。*/
     /// </summary>
     public int[] BossCovers
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取campLimit-int[]。*/
+    /// </summary>
+    public int[] CampLimit
     {
         get;
         private set;
@@ -194,12 +194,20 @@ public class DRSceneArea : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取releaseTime-int[]。*/
+    /// </summary>
+    public int[] ReleaseTime
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Level = DataTableParseUtil.ParseInt(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -209,6 +217,7 @@ public class DRSceneArea : DataRowBase
         SceneType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         BaseScore = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChallengeMode = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterBaseReward = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterLuckyReward = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -219,6 +228,7 @@ public class DRSceneArea : DataRowBase
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        ReleaseTime = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -230,7 +240,6 @@ public class DRSceneArea : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                CampLimit = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Level = binaryReader.Read7BitEncodedInt32();
                 LoadingBg = binaryReader.ReadString();
@@ -240,6 +249,7 @@ public class DRSceneArea : DataRowBase
                 SceneType = binaryReader.Read7BitEncodedInt32();
                 BaseScore = binaryReader.ReadArray<Int32>();
                 BossCovers = binaryReader.ReadArray<Int32>();
+                CampLimit = binaryReader.ReadArray<Int32>();
                 ChallengeMode = binaryReader.ReadArray<Int32>();
                 ChapterBaseReward = binaryReader.ReadArray<Int32>();
                 ChapterLuckyReward = binaryReader.ReadArray<Int32>();
@@ -250,6 +260,7 @@ public class DRSceneArea : DataRowBase
                 Name = binaryReader.ReadString();
                 PunishDesc = binaryReader.ReadString();
                 Tickets = binaryReader.ReadArrayList<Int32>();
+                ReleaseTime = binaryReader.ReadArray<Int32>();
             }
         }
 
