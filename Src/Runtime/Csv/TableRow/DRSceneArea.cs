@@ -24,6 +24,15 @@ public class DRSceneArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取campLimit-int[]。*/
+    /// </summary>
+    public int[] CampLimit
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取level-int。*/
     /// </summary>
     public int Level
@@ -54,6 +63,15 @@ public class DRSceneArea : DataRowBase
   /**获取sceneName-string。*/
     /// </summary>
     public string SceneName
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取sceneSubtype-int。*/
+    /// </summary>
+    public int SceneSubtype
     {
         get;
         private set;
@@ -181,11 +199,13 @@ public class DRSceneArea : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Level = DataTableParseUtil.ParseInt(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
         RewardFrequency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneName = DataTableParseUtil.ParseString(columnStrings[index++]);
+        SceneSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         BaseScore = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -210,11 +230,13 @@ public class DRSceneArea : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                CampLimit = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Level = binaryReader.Read7BitEncodedInt32();
                 LoadingBg = binaryReader.ReadString();
                 RewardFrequency = binaryReader.Read7BitEncodedInt32();
                 SceneName = binaryReader.ReadString();
+                SceneSubtype = binaryReader.Read7BitEncodedInt32();
                 SceneType = binaryReader.Read7BitEncodedInt32();
                 BaseScore = binaryReader.ReadArray<Int32>();
                 BossCovers = binaryReader.ReadArray<Int32>();
