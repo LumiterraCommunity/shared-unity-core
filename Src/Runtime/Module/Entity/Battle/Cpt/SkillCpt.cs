@@ -100,7 +100,7 @@ public class SkillCpt : EntityBaseComponent
             // }
 
             //道具技能不会加进技能列表，这里直接能用，释放的时候会判断道具数量
-            if (!dRSkill.IsItemSkill)
+            if (dRSkill.ItemCost.Length < 1)
             {
                 Log.Warning($"CanUseSkill Skill Is Null! skillId ={skillID}");
                 return false;
