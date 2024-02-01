@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-12-02 10:52:02
  * @Description: 用于管理场景中的元素（元素不走实体管理那套，一般是指场景全局运行且需要同步数据的对象，谨慎使用，如果对象过多要同步的数据量巨大，应考虑使用实体走九宫格那套）
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementMgrCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementMgrCore.cs
  * 
  */
 
@@ -65,7 +65,7 @@ public class SceneElementMgrCore : SceneModuleBase
     {
         if (SceneElementDicByType.TryGetValue(elementType, out List<SceneElementCore> elementList))
         {
-            return elementList as List<T>;
+            return elementList.ConvertAll(x => (T)x);
         }
         return null;
     }
