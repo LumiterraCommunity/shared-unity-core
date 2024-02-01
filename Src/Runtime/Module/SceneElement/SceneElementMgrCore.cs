@@ -83,11 +83,11 @@ public class SceneElementMgrCore : SceneModuleBase
     }
     public List<SceneElementData> GetNetData()
     {
+        SceneElementDataList.Clear();
         if (SceneElementDic.Count == 0)
         {
             return SceneElementDataList;
         }
-
         foreach (KeyValuePair<long, SceneElementCore> item in SceneElementDic)
         {
             if (item.Value.IsSyncData)
