@@ -207,5 +207,4 @@ public class SkillCpt : EntityBaseComponent
     {
         return SkillMap.ContainsKey(skillID);
     }
-
 }

@@ -34,6 +34,9 @@ public class EntitySkillCollector : EntityBaseComponent
         //装备
         RefEntity.EntityEvent.EntityAvatarUpdated += OnUpdateEquipmentSkillID;
         OnUpdateEquipmentSkillID();
+
+        //采集道具技能
+        CollectFromItem();
     }
 
     private void OnDestroy()
@@ -167,5 +170,32 @@ public class EntitySkillCollector : EntityBaseComponent
         {
             EntitySkillDataCore.SetSkillGroupIDList(eSkillGroupType.Equipment, drEquipment.GivenSkillId);
         }
+    }
+
+    /// <summary>
+    /// 从可释放技能的道具采集
+    /// 这里不会检测玩家是否有这个道具，真正释放的时候会校验
+    /// </summary>
+    private void CollectFromItem()
+    {
+        List<int> skillList = new();
+        DRItemEatable[] allItemEatable = GFEntryCore.DataTable.GetDataTable<DRItemEatable>().GetAllDataRows();//目前可使用道具才有配置技能
+        string releaseSkillType = eFoodItemInteractType.releaseSkill.ToString();
+        for (int i = 0; i < allItemEatable.Length; i++)
+        {
+            DRItemEatable item = allItemEatable[i];
+            if (item.InteractType == releaseSkillType)
+            {
+                for (int j = 0; j < item.Args.Length; j++)
+                {
+                    if (int.TryParse(item.Args[j], out int skillID))
+                    {
+                        skillList.Add(skillID);
+                    }
+                }
+            }
+        }
+
+        EntitySkillDataCore.SetSkillGroupIDList(eSkillGroupType.Item, skillList.ToArray());
     }
 }
