@@ -87,6 +87,8 @@ public class SkillCpt : EntityBaseComponent
         //检测是否拥有技能
         if (!SkillMap.TryGetValue(skillID, out SkillBase skill))
         {
+            Log.Warning($"CanUseSkill Skill Is Null! skillId ={skillID}");
+
             //TODO: home 因为现在服务器没有装备道具和技能的逻辑 但是现在只有播种和放饲料 施肥等道具技能需要用到 可以单独判断不让校验 因为没有道具即使客户端发播种技能也没用
             //先注释这个特殊逻辑
             // DRSkill dRSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(skillID);
@@ -99,12 +101,7 @@ public class SkillCpt : EntityBaseComponent
             //     }
             // }
 
-            //道具技能不会加进技能列表，这里直接能用，释放的时候会判断道具数量
-            if (dRSkill.ItemCost.Length < 1)
-            {
-                Log.Warning($"CanUseSkill Skill Is Null! skillId ={skillID}");
-                return false;
-            }
+            return false;
         }
 
         //检测技能能否使用
