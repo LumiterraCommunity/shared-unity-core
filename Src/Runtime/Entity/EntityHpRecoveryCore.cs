@@ -76,7 +76,7 @@ public class EntityHpRecoveryCore : EntityBaseComponent
         IsHpRecovery = false;
         _ = TimerMgr.RemoveTimer(GetHashCode());
     }
-    private void OnHpRecovery()
+    protected virtual void OnHpRecovery()
     {
         if (!IsHpRecovery)
         {
