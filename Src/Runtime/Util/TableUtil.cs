@@ -43,6 +43,41 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 配置中的宠物特性数组转实际枚举 配置中的是左移位数
+    /// </summary>
+    /// <param name="drFeatures"></param>
+    /// <returns></returns>
+    public static ePetFeature ToPetFeature(int[] drFeatures)
+    {
+        if (drFeatures == null || drFeatures.Length == 0)
+        {
+            return ePetFeature.None;
+        }
+
+        ePetFeature feature = ePetFeature.None;
+        foreach (int item in drFeatures)
+        {
+            feature |= ToPetFeature(item);
+        }
+        return feature;
+    }
+
+    /// <summary>
+    /// 配置中的宠物特性转实际枚举 配置中的是左移位数
+    /// </summary>
+    /// <param name="drFeature"></param>
+    /// <returns></returns>
+    public static ePetFeature ToPetFeature(int drFeature)
+    {
+        if (drFeature == 0)
+        {
+            return ePetFeature.None;
+        }
+
+        return (ePetFeature)(1 << drFeature);
+    }
+
+    /// <summary>
     /// 配置表中的字符串格式化输入 xxx{0}bbbb{1}
     /// </summary>
     /// <param name="format"></param>
