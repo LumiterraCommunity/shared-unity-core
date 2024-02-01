@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 安全区组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
  * 
  */
 using UnityEngine;
@@ -87,7 +87,7 @@ public class SafeAreaElementCore : SceneElementCore
             return deltaTime;
         }
         SafeAreaInfo safeZoneInfo = SafeAreaInfos[_curIndex];
-        if (safeZoneInfo.Radius <= CurRadius)
+        if (CurRadius <= safeZoneInfo.Radius)
         {
             return deltaTime;
         }
