@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
@@ -39,7 +39,10 @@ public class PortalElementCore : SceneElementCore
         UpdateStatusInactive();
         UpdateStatusActivate(Time.deltaTime);
         UpdateStatusRunning();
-        PortalElementEffect?.SetActive(StatusType != ePortalStatusType.Hide);
+        if (PortalElementEffect != null)
+        {
+            PortalElementEffect.SetActive(StatusType != ePortalStatusType.Hide);
+        }
     }
     public override void UpdateElementData()
     {
