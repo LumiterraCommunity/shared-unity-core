@@ -11,6 +11,7 @@ public static class DataTableConfig
         "Building",
         "BuildingBatteryReCharge",
         "BuildingTimeReCharge",
+        "BattleArea",
         "Chat",
         "CraftBuilding",
         "Drop",
