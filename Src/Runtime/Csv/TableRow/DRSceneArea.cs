@@ -195,9 +195,9 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取releaseTime-int[]。*/
+  /**获取releaseTime-int[][]。*/
     /// </summary>
-    public int[] ReleaseTime
+    public int[][] ReleaseTime
     {
         get;
         private set;
@@ -228,7 +228,7 @@ public class DRSceneArea : DataRowBase
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
-        ReleaseTime = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -260,7 +260,7 @@ public class DRSceneArea : DataRowBase
                 Name = binaryReader.ReadString();
                 PunishDesc = binaryReader.ReadString();
                 Tickets = binaryReader.ReadArrayList<Int32>();
-                ReleaseTime = binaryReader.ReadArray<Int32>();
+                ReleaseTime = binaryReader.ReadArrayList<Int32>();
             }
         }
 
