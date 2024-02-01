@@ -151,7 +151,7 @@ public class SafeAreaElementCore : SceneElementCore
 
     public bool IsSafeArea(Vector3 pos)
     {
-        return Vector3.Distance(pos.OnlyXZ(), transform.position.OnlyXZ()) <= CurRadius;
+        return Vector3.Distance(pos, transform.position) <= CurRadius;
     }
 
     public override void UpdateElementData()
