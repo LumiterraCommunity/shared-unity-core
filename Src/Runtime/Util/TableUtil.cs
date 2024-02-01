@@ -210,7 +210,7 @@ public static class TableUtil
         DRSceneArea areaRow = GFEntryCore.DataTable.GetDataTable<DRSceneArea>().GetDataRow(mapId);
         if (areaRow == null)
         {
-            Log.Debug($"map {mapId} not found");
+            Log.Error($"map {mapId} not found");
             return false;
         }
         // 非副本随时可以开启 or 没有配置开启时间段,默认随时可以开启
@@ -222,6 +222,7 @@ public static class TableUtil
         // 检查开启时间段
         bool opened = false;
         DateTime now = TimeUtil.GetServerTime();
+        int minutesNow = (now.Hour * TimeUtil.MinutesOfHour) + now.Minute;
         foreach (int[] timeInfoRow in areaRow.ReleaseTime)
         {
             if (timeInfoRow.Length != 2)
@@ -231,7 +232,6 @@ public static class TableUtil
 
             int minutesBegin = timeInfoRow[0];
             int minutesEnd = timeInfoRow[1];
-            int minutesNow = (now.Hour * TimeUtil.MinutesOfHour) + now.Minute;
 
             bool isInPeriod = minutesNow >= minutesBegin && minutesNow < minutesEnd;
 
