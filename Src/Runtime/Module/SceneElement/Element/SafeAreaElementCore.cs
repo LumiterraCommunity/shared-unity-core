@@ -9,6 +9,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 using Newtonsoft.Json;
+using UnityGameFramework.Runtime;
 
 public class SafeAreaElementCore : SceneElementCore
 {
@@ -105,7 +106,7 @@ public class SafeAreaElementCore : SceneElementCore
         }
         if (SafeAreaEffect != null)
         {
-            SafeAreaEffect.transform.localScale = Vector3.one * CurRadius;
+            SafeAreaEffect.transform.localScale = 2 * CurRadius * Vector3.one;
         }
         return deltaTime;
     }
