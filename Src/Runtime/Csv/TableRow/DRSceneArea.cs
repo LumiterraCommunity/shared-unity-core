@@ -24,9 +24,9 @@ public class DRSceneArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取level-int。*/
+  /**获取level-int[]。*/
     /// </summary>
-    public int Level
+    public int[] Level
     {
         get;
         private set;
@@ -209,7 +209,7 @@ public class DRSceneArea : DataRowBase
 
         int index = 0;
         _id = int.Parse(columnStrings[index++]);
-        Level = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
         RewardFrequency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneName = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -241,7 +241,7 @@ public class DRSceneArea : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 _id = binaryReader.Read7BitEncodedInt32();
-                Level = binaryReader.Read7BitEncodedInt32();
+                Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
                 RewardFrequency = binaryReader.Read7BitEncodedInt32();
                 SceneName = binaryReader.ReadString();
