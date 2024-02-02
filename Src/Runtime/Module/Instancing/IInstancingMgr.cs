@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本关卡管理接口
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/IInstancingMgr.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/IInstancingMgr.cs
  * 
  */
 
@@ -31,7 +31,8 @@ public interface IInstancingMgr
     /// </summary>
     /// <param name="index"></param>
     /// <param name="isSuccess"></param>
-    bool CompleteLevel(int index, bool isSuccess);
+    /// <param name="isReward"></param>
+    bool CompleteLevel(int index, bool isSuccess, bool isReward = true);
 
     /// <summary>
     /// 重置关卡

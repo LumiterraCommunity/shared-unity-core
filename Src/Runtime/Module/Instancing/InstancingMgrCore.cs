@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本管理
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
  * 
  */
 using System;
@@ -57,7 +57,8 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     /// </summary>
     /// <param name="index"></param>
     /// <param name="isSuccess"></param>
-    public virtual bool CompleteLevel(int index, bool isSuccess)
+    /// <param name="isReward"></param>
+    public virtual bool CompleteLevel(int index, bool isSuccess, bool isReward = true)
     {
         if (index < 0 || index >= LevelList.Count)
         {
@@ -65,7 +66,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
             return false;
         }
 
-        if (!LevelList[index].CompleteLevel(isSuccess))
+        if (!LevelList[index].CompleteLevel(isSuccess, isReward))
         {
             return false;
         }
