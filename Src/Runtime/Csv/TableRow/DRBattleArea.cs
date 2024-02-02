@@ -33,9 +33,9 @@ public class DRBattleArea : DataRowBase
     }
 
     /// <summary>
-  /**获取deathEXPDrop-int[]。*/
+  /**获取deathEXPDrop-int。*/
     /// </summary>
-    public int[] DeathEXPDrop
+    public int DeathEXPDrop
     {
         get;
         private set;
@@ -74,7 +74,7 @@ public class DRBattleArea : DataRowBase
 
         int index = 0;
         DeathDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        DeathEXPDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DeathEXPDrop = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DeathTaxation = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -91,7 +91,7 @@ public class DRBattleArea : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 DeathDrop = binaryReader.ReadArray<Int32>();
-                DeathEXPDrop = binaryReader.ReadArray<Int32>();
+                DeathEXPDrop = binaryReader.Read7BitEncodedInt32();
                 DeathTaxation = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
