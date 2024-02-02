@@ -1,4 +1,4 @@
-deathDrop-int[],deathEXPDrop-int[],deathTaxation-int[],id-int,name-string,type-int
+deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-string,type-int
 "0,0",10,"0,0",1,城镇,1
 "100,10",20,"10,10",2,城镇周边,2
 "100,20",30,"20,10",3,雪山,3
