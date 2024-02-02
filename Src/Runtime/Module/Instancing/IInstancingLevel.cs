@@ -18,7 +18,7 @@ public interface IInstancingLevel
     /// <summary>
     /// 完成关卡
     /// </summary>
-    bool CompleteLevel(bool isSuccess);
+    bool CompleteLevel(bool isSuccess, bool isReward = true);
     /// <summary>
     /// 重置关卡
     /// </summary>
