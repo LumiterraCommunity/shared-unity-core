@@ -24,9 +24,27 @@ public class DRBattleArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取deathPunish-int[]。*/
+  /**获取deathDrop-int[]。*/
     /// </summary>
-    public int[] DeathPunish
+    public int[] DeathDrop
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取deathEXPDrop-int[]。*/
+    /// </summary>
+    public int[] DeathEXPDrop
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取deathTaxation-int[]。*/
+    /// </summary>
+    public int[] DeathTaxation
     {
         get;
         private set;
@@ -55,7 +73,9 @@ public class DRBattleArea : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        DeathPunish = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DeathDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DeathEXPDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DeathTaxation = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -70,7 +90,9 @@ public class DRBattleArea : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                DeathPunish = binaryReader.ReadArray<Int32>();
+                DeathDrop = binaryReader.ReadArray<Int32>();
+                DeathEXPDrop = binaryReader.ReadArray<Int32>();
+                DeathTaxation = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 Type = binaryReader.Read7BitEncodedInt32();
