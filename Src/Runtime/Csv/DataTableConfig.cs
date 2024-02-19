@@ -27,6 +27,7 @@ public static class DataTableConfig
         "Monster",
         "NoviceGuide",
         "Npc",
+        "Pet",
         "Recipes",
         "Reward",
         "Role",
