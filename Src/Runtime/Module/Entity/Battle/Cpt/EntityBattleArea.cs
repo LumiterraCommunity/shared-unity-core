@@ -1,8 +1,8 @@
 /*
  * @Author: xiang huan
  * @Date: 2022-10-09 10:43:29
- * @Description: 区域bgm组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/EntityBattleArea.cs
+ * @Description: 战斗区域组件
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/EntityBattleArea.cs
  * 
  */
 using System.Collections.Generic;

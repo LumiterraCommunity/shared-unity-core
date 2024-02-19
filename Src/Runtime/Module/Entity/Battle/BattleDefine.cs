@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 10:51:41
  * @Description: 战斗公共定义
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
  * 
  */
 
@@ -64,7 +64,7 @@ public static class BattleDefine
     public const float MAX_PARABOLA_FLYER_HEIGHT = 2.5f;  // 抛物线子弹最大高度
 
     public const int PLAYER_DEATH_STATUS_TIME = 60000;  // 玩家死亡状态时间
-    public const int PEACE_AREA_ID = 1;  // 玩家死亡状态时间
+    public const int PEACE_AREA_ID = 1;  // 和平区域ID
 
     public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampFriend = new()
     {
