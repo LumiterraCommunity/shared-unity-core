@@ -247,6 +247,11 @@ public class EntityBattleDataCore : EntityBaseComponent
         return RefEntity.EntityAttributeData.GetValue(type);
     }
 
+    protected float GetRealValue(eAttributeType type)
+    {
+        return RefEntity.EntityAttributeData.GetRealValue(type);
+    }
+
     protected void SetBaseValue(eAttributeType type, int value)
     {
         RefEntity.EntityAttributeData.SetBaseValue(type, value);
@@ -319,5 +324,16 @@ public class EntityBattleDataCore : EntityBaseComponent
         Status = status;
         RefEntity.EntityEvent.ChangeEntityStatus?.Invoke();
         return true;
+    }
+    /// <summary>
+    /// 根据潜力计算最终数值
+    /// </summary>
+    /// <param name="baseValue"></param>
+    /// <param name="potential"></param>
+    /// <param name="lv"></param>
+    /// <returns></returns>
+    protected int CalcFinalValueByPotentiality(int baseValue, float potential, int lv)
+    {
+        return baseValue + (int)(baseValue * potential * lv);
     }
 }

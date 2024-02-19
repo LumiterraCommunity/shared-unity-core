@@ -20,4 +20,5 @@ public class ResourcesPointData : DataNodeBase
     public float PatrolSpd;
     public string PatrolPath;
     public string AIName;
+    public int Lv;//等级
 }
