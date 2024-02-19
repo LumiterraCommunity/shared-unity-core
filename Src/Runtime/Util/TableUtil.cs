@@ -249,4 +249,64 @@ public static class TableUtil
         }
         return opened;
     }
+
+    /// <summary>
+    /// 获取怪物随机潜力值
+    /// 返回的是int，代表千分位的浮点数
+    /// </summary>
+    /// <param name="cfg"></param>
+    /// <param name="type"></param>
+    /// <returns></returns>
+    public static int GetMonsterRandomPotentiality(DRMonster cfg, GameMessageCore.TalentType type)
+    {
+        int[] valueRange = null;
+        switch (type)
+        {
+            case GameMessageCore.TalentType.Gather:
+                valueRange = cfg.GatherPotentiality;
+                break;
+            case GameMessageCore.TalentType.Battle:
+                valueRange = cfg.CombatPotentiality;
+                break;
+            case GameMessageCore.TalentType.Farming:
+                valueRange = cfg.FarmPotentiality;
+                break;
+        }
+
+        if (valueRange == null || valueRange.Length != 2)
+        {
+            Log.Error($"GetMonsterRandomPotentialValue valueRange error valueRange = {valueRange}");
+            return 0;
+        }
+
+        int minValue = valueRange[0];
+        int maxValue = valueRange[1];
+        return UnityEngine.Random.Range(minValue, maxValue);
+    }
+
+    /// <summary>
+    /// 遍历属性数组
+    /// </summary>
+    /// <param name="attr"></param>
+    /// <param name="cb"></param>
+    public static void ForeachAttribute(int[][] attr, Action<eAttributeType, int, bool> cb)
+    {
+        if (attr == null || attr.Length == 0)
+        {
+            return;
+        }
+
+        foreach (int[] item in attr)
+        {
+            if (item.Length != 3)
+            {
+                Log.Error($"ForeachAttribute item.Length != 3");
+                continue;
+            }
+            eAttributeType type = (eAttributeType)item[0];
+            int value = item[1];
+            bool affectByPotential = item[2] > 0;
+            cb?.Invoke(type, value, affectByPotential);
+        }
+    }
 }
