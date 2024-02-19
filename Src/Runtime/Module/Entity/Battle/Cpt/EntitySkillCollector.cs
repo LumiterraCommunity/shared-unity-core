@@ -34,6 +34,13 @@ public class EntitySkillCollector : EntityBaseComponent
         //装备
         RefEntity.EntityEvent.EntityAvatarUpdated += OnUpdateEquipmentSkillID;
         OnUpdateEquipmentSkillID();
+
+        //宠物
+        if (RefEntity.TryGetComponent(out PlayerPetDataCore petData))
+        {
+            petData.FollowingPetChanged += OnFollowingPetChanged;
+            OnFollowingPetChanged(petData.FollowingPet);
+        }
     }
 
     private void OnDestroy()
@@ -43,6 +50,10 @@ public class EntitySkillCollector : EntityBaseComponent
             RefEntity.EntityEvent.TalentSkillUpdated -= OnTalentSkillUpdated;
             RefEntity.EntityEvent.TalentSkillInited -= OnTalentSkillInited;
             RefEntity.EntityEvent.EntityAvatarUpdated -= OnUpdateEquipmentSkillID;
+            if (RefEntity.TryGetComponent(out PlayerPetDataCore petMgr))
+            {
+                petMgr.FollowingPetChanged -= OnFollowingPetChanged;
+            }
         }
     }
 
@@ -167,5 +178,41 @@ public class EntitySkillCollector : EntityBaseComponent
         {
             EntitySkillDataCore.SetSkillGroupIDList(eSkillGroupType.Equipment, drEquipment.GivenSkillId);
         }
+    }
+
+    /// <summary>
+    /// 当前跟随的宠物发生变化
+    /// </summary>
+    /// <param name="pet"></param>
+    private void OnFollowingPetChanged(EntityBase pet)
+    {
+        EntitySkillDataCore.RemoveSkillGroupIDList(eSkillGroupType.Pet);
+        if (pet == null)
+        {
+            PlayerPetDataCore petMgr = RefEntity.GetComponent<PlayerPetDataCore>();
+            if (petMgr == null)
+            {
+                Log.Error($"CollectSkillFromPet error, petMgr is null");
+                return;
+            }
+
+            pet = petMgr.FollowingPet;
+        }
+
+        if (pet == null)
+        {
+            //当前没有宠物跟随
+            return;
+        }
+
+        PetDataCore petData = RefEntity.GetComponent<PetDataCore>();
+        if (petData == null)
+        {
+            Log.Error($"CollectSkillFromPet error, petData is null");
+            return;
+        }
+
+        int[] followSkills = petData.GetFollowingSkills();
+        EntitySkillDataCore.SetSkillGroupIDList(eSkillGroupType.Pet, followSkills);
     }
 }
