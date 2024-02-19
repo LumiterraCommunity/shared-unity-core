@@ -12,10 +12,14 @@ public class AnimalDataCore : MonoBehaviour
     /// </summary>
     public ulong AnimalId => _saveData.AnimalId;
     /// <summary>
-    /// 配置表
+    /// 怪物配置表
     /// </summary>
     /// <value></value>
     public DRMonster DRMonster { get; private set; }
+    /// <summary>
+    /// 宠物配置表,宠物都是从怪物表中转化过来的，基础属性读取怪物表，宠物特有属性读取宠物表
+    /// </summary>
+    public DRPet DRPet { get; private set; }
     [SerializeField]
     private AnimalBaseData _baseData;
     /// <summary>
@@ -44,7 +48,7 @@ public class AnimalDataCore : MonoBehaviour
     /// <summary>
     /// 幸福值是否有效
     /// </summary>
-    public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= DRMonster.RequiredHappiness;
+    public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= DRPet.RequiredHappiness;
 
     /// <summary>
     /// 是否饥饿状态
@@ -60,9 +64,10 @@ public class AnimalDataCore : MonoBehaviour
     {
         _baseData = animalBaseData;
         DRMonster = GFEntryCore.DataTable.GetDataTable<DRMonster>().GetDataRow(_baseData.Cid);
-        if (DRMonster == null)
+        DRPet = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(_baseData.Cid);
+        if (DRMonster == null || DRPet == null)
         {
-            throw new Exception($"动物配置表中没有找到cid为{_baseData.Cid}的数据");
+            throw new Exception($"配置表中没有找到cid为{_baseData.Cid}的数据");
         }
     }
 
@@ -87,7 +92,7 @@ public class AnimalDataCore : MonoBehaviour
         {
             _saveData = new AnimalSaveData(_baseData.AnimalId)
             {
-                HungerProgress = DRMonster.MaxHunger
+                HungerProgress = DRPet.MaxHunger
             };
         }
 
@@ -111,9 +116,9 @@ public class AnimalDataCore : MonoBehaviour
     {
         if (IsHappyValid)
         {
-            int remainHappy = SaveData.Happiness - DRMonster.RequiredHappiness;
+            int remainHappy = SaveData.Happiness - DRPet.RequiredHappiness;
             remainHappy = Mathf.Max(remainHappy, 1);
-            HarvestMaxTime = (float)DRMonster.BreedingDifficulty / remainHappy * TableUtil.GetGameValue(eGameValueID.AnimalHarvestTimeRate).Value;
+            HarvestMaxTime = (float)DRPet.BreedingDifficulty / remainHappy * TableUtil.GetGameValue(eGameValueID.AnimalHarvestTimeRate).Value;
         }
         else
         {
