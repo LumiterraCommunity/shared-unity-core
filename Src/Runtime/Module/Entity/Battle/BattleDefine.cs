@@ -80,6 +80,12 @@ public static class BattleDefine
         {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.Player, eEntityCampType.PlayerPVP}},
     };
 
+    public static readonly HashSet<eEntityCampType> PlayerCampList = new()
+    {
+        eEntityCampType.Player,
+        eEntityCampType.PlayerPVP,
+    };
+
 }
 public enum eEntityCDType : int
 {
