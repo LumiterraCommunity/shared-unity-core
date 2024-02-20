@@ -74,6 +74,7 @@ public class EntityBattleArea : EntityBaseComponent
     /// </summary>
     private void UpdateCurAreaConfig()
     {
+        int areaID = CurAreaID;
         if (_areaConfigDic.Count > 0)
         {
             //根据优先级获取当前区域
@@ -83,24 +84,31 @@ public class EntityBattleArea : EntityBaseComponent
                 if (item.Value.Priority > priority)
                 {
                     priority = item.Value.Priority;
-                    CurAreaID = item.Value.AreaID;
-                    DRBattleArea = GFEntryCore.DataTable.GetDataTable<DRBattleArea>().GetDataRow(CurAreaID);
-                    if (DRBattleArea != null)
-                    {
-                        CurAreaType = (eBattleAreaType)DRBattleArea.Type;
-                    }
-                    else
-                    {
-                        Log.Error($"UpdateCurAreaConfig id is null {CurAreaID}");
-                    }
+                    areaID = item.Value.AreaID;
                 }
             }
         }
         else
         {
-            CurAreaID = BattleDefine.PEACE_AREA_ID;
-            CurAreaType = eBattleAreaType.Peace;
+            areaID = BattleDefine.PEACE_AREA_ID;
         }
+
+        if (areaID == CurAreaID)
+        {
+            return;
+        }
+
+        CurAreaID = areaID;
+        DRBattleArea = GFEntryCore.DataTable.GetDataTable<DRBattleArea>().GetDataRow(CurAreaID);
+        if (DRBattleArea != null)
+        {
+            CurAreaType = (eBattleAreaType)DRBattleArea.Type;
+        }
+        else
+        {
+            Log.Error($"UpdateCurAreaConfig id is null {areaID}");
+        }
+        RefEntity.EntityEvent.EntityBattleAreaChange?.Invoke();
     }
 
 }
