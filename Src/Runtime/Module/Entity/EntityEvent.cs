@@ -275,6 +275,11 @@ public class EntityEvent : EntityBaseComponent
     /// 场景环境死亡 T0:伤害类型
     /// </summary>
     public Action<GameMessageCore.DamageState> OnSceneDeath;
+
+    /// <summary>
+    /// 实体战斗区域改变
+    /// </summary>
+    public Action EntityBattleAreaChange;
     #endregion
 
     /// <summary>
