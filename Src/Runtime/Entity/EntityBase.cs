@@ -40,6 +40,10 @@ public class EntityBase
     /// </summary>
     public Vector3 Forward => _transform.forward;
     /// <summary>
+    /// 右方向向量
+    /// </summary>
+    public Vector3 Right => _transform.right;
+    /// <summary>
     /// 欧拉角 里面都是弧度
     /// </summary>
     public Vector3 EulerAngles => _transform.eulerAngles;
