@@ -15,6 +15,7 @@ public static class DataTableConfig
         "Chat",
         "CraftBuilding",
         "Drop",
+        "HomeResourceArea",
         "EntityAttribute",
         "Equipment",
         "GameValue",
