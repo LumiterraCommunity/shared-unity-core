@@ -133,7 +133,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",,,1,0,1,,,,skill-icon-136,,,,,,506,,,,,
 0,0,0,0,0,,22,200,137,0,1,0,0,0,0,0,A-jianwu,Skill_bladeFlurry,Skill_airblade,,1200,8000," Attaquez 5 fois au hasard dans une petite zone.
 ",0,2,0,Rafale,"2,300",CameraShakeGrade_2,1,0,1,,,"137,488",skill-icon-137,,,,,,,,,,,
-0,0,0,0,0,388,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000," Lâchez des bombes et infligez de gros dégâts aux ennemis dans la zone d'explosion.
+0,0,0,0,0,45,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000," Lâchez des bombes et infligez de gros dégâts aux ennemis dans la zone d'explosion.
 ",1500,2,25,Art de l'explosion,"2,400",,1,0,1,,,"510,511",skill-icon-138,skill_tree_hurt,,,1,,,,,,,
 0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A-1baoqi,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000," Après une courte période d'accumulation d'énergie, libérez l'énergie à l'intérieur du corps, infligeant des dégâts élevés soutenus aux ennemis dans une certaine zone. Pendant la libération de la compétence, restez dans un état d'incapacité à frapper.
 ",0,2,0,Inébranlable,"2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
