@@ -134,7 +134,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,22,200,137,0,1,0,0,0,0,0,A-jianwu,Skill_bladeFlurry,Skill_airblade,,1200,8000," [119]在小范围内随机攻击5次。
 ",0,2,0, [37]連擊,"2,300",CameraShakeGrade_2,1,0,1,,,"137,488",skill-icon-137,,,,,,,,,,,
 0,0,0,0,0,388,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000," [120]投掷炸弹，对爆炸范围内的敌人造成高伤害。
-",1500,2,25, [38]爆炸技巧,"2,400",,1,0,1,,,"489,490",skill-icon-138,skill_tree_hurt,,,1,,,,,,,
+",1500,2,25, [38]爆炸技巧,"2,400",,1,0,1,,,"510,511",skill-icon-138,skill_tree_hurt,,,1,,,,,,,
 0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A-1baoqi,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000," [121]在短时间的能量积累后，释放体内的能量，对一定范围内的敌人造成持续高伤害。在释放技能期间，保持无法命中状态。
 ",0,2,0, [39]不屈不撓,"2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
 0,0,0,,0,,,400,140,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,大力揮動手中的斧子，產生小範圍氣刃攻擊，對範圍內的樹木造成傷害,,2,0,Lv 1 群體伐木,"4,800,200,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-140,skill_tree_hurt,,,,,,,,,,
