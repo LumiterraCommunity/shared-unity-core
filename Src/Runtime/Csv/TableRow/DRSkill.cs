@@ -240,6 +240,15 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取skillFlyerId-int。*/
+    /// </summary>
+    public int SkillFlyerId
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取skillName-string。*/
     /// </summary>
     public string SkillName
@@ -357,15 +366,6 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
-  /**获取skillFlyerId-int。*/
-    /// </summary>
-    public int SkillFlyerId
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取skillFlyerNum-int。*/
     /// </summary>
     public int SkillFlyerNum
@@ -467,6 +467,7 @@ public class DRSkill : DataRowBase
         SkillDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         SkillDistance = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillFlag = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        SkillFlyerId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillName = DataTableParseUtil.ParseString(columnStrings[index++]);
         SkillRange = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SkillShake = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
@@ -480,7 +481,6 @@ public class DRSkill : DataRowBase
         HitEff = DataTableParseUtil.ParseString(columnStrings[index++]);
         AnimRotate = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillAlertEffect = DataTableParseUtil.ParseString(columnStrings[index++]);
-        SkillFlyerId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillFlyerNum = DataTableParseUtil.ParseInt(columnStrings[index++]);
         AccuEff = DataTableParseUtil.ParseInt(columnStrings[index++]);
         EffectInit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -525,6 +525,7 @@ public class DRSkill : DataRowBase
                 SkillDesc = binaryReader.ReadString();
                 SkillDistance = binaryReader.Read7BitEncodedInt32();
                 SkillFlag = binaryReader.ReadArray<Int32>();
+                SkillFlyerId = binaryReader.Read7BitEncodedInt32();
                 SkillName = binaryReader.ReadString();
                 SkillRange = binaryReader.ReadArray<Int32>();
                 SkillShake = binaryReader.ReadArray<String>();
@@ -538,7 +539,6 @@ public class DRSkill : DataRowBase
                 HitEff = binaryReader.ReadString();
                 AnimRotate = binaryReader.Read7BitEncodedInt32();
                 SkillAlertEffect = binaryReader.ReadString();
-                SkillFlyerId = binaryReader.Read7BitEncodedInt32();
                 SkillFlyerNum = binaryReader.Read7BitEncodedInt32();
                 AccuEff = binaryReader.Read7BitEncodedInt32();
                 EffectInit = binaryReader.ReadArray<Int32>();
