@@ -137,9 +137,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,22,200,137,0,1,0,0,0,0,0,A-jianwu,Skill_bladeFlurry,Skill_airblade,,1200,8000," Serang 5 kali secara rawak dalam julat kecil.
 ",0,2,0," [37]Serangan Beruntun
 ","2,300",CameraShakeGrade_2,1,0,1,,,"137,488",skill-icon-137,,,,,,,,,,,
-0,0,0,0,0,1,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000," Jatuhkan bom dan berikan kerosakan tinggi kepada musuh dalam julat letupan.
+0,0,0,0,0,1,,200,138,0,1,0,0,1,0,1,A-1diuzhadan,,Skill_Throw,,660,2000," Jatuhkan bom dan berikan kerosakan tinggi kepada musuh dalam julat letupan.
 ",1500,2,25," [38]Seni Letupan
-","2,400",,1,0,1,,,"510,511",skill-icon-138,skill_tree_hurt,,,1,,,,,,,
+","2,400",,1,0,1,,,"510,511",skill-icon-138,skill_tree_hurt,,top_down_Normal_3,1,,,,,,,
 0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A-1baoqi,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000," Selepas jangka masa penduluman tenaga yang singkat, bebaskan tenaga di dalam badan, menyebabkan kerosakan tinggi yang berterusan kepada musuh dalam julat tertentu. Semasa melepaskan kemahiran, kekal dalam keadaan tidak dapat mengenai.
 ",0,2,0," [39]Tidak Berbelah Diri
 ","2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
@@ -474,4 +474,4 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",10000,2,0, [81]Buff Kawasan,"2,900",,1,0,2,,1000,,,,,top_down_Blue_9,,,500,,,,,
 0,0,0,,0,507,,200,431,0,0,0,0,0,0,0,happy,,,,660,15000,,0,2,0,,"2,666",CameraShakeGrade_1,1,0,2,,1000,507,skill-icon-431,,,,,,,,,,,
 0,0,0,,0,508,,200,432,0,0,0,0,0,0,0,happy,,,,660,45000,,0,2,0,,"2,666",,1,0,2,,1000,508,,,,,,,,,,,,
-0,0,0,,0,1,,1000,433,0,1,0,0,1,0,1,A-1diuzhadan,Skill_seeding_2,A-chuisanlianji-3-NEW,,2833,30000,,600,2,25,,"2,300",,1,1,1,,1000,"489,490",,,,top_down_bomb,1,,,,,,,
+0,0,0,,0,1,,1000,433,0,1,0,0,1,0,1,A-1diuzhadan,Skill_seeding_2,A-chuisanlianji-3-NEW,,2833,30000,,600,2,25,,"2,300",,1,1,1,,1000,"489,490",,,,top_down_Normal_3,1,,,,,,,
