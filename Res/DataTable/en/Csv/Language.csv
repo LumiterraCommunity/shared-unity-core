@@ -159,15 +159,15 @@ Sprite due to insufficient space"
 ,20090012,任务,Upgrade the {0} node to {1} level
 ,20090013,任务,{0} Items selected
 ,20090014,任务,{0} Item selected
-,20090015,,Unknown
-,20090016,,Daily
-,20090017,,Bounty
+,20090015,任务,Unknown
+,20090016,任务,Daily
+,20090017,任务,Bounty
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming
 ,20100002,专精,Battle
 ,20100003,专精,Gather
-,20100004,专精,General
+,20100004,,Pet
 ,20100005,,Level is Max
 ,20100006,,Lack of {0} EXP
 ,20100007,nft 关键字,Lack of Token
@@ -203,6 +203,7 @@ Sprite due to insufficient space"
 ,20120013,登录,Login wallet failed
 ,20120014,登录,Init wallet
 ,20120015,登录,Init wallet timeout
+,20120016,登录,Wallet disconnection.
 ,20130000,组队,{0}'s team
 ,20130001,组队,Request sent
 ,20130002,组队,"You have joined the team, please leave the team first"
@@ -210,7 +211,7 @@ Sprite due to insufficient space"
 ,20130004,组队,Invalid name format
 ,20130005,组队,Description format invalid
 ,20130006,组队,You are already here
-,20130007,,{0} invites you to join the team
+,20130007,组队,{0} invites you to join the team
 ,20140001,网络,"Network exception, please try again"
 弱网提示标题,20140002,网络,Network
 ,20150001,副本,Running away will incur penalties for failure. Are you sure you want to quit?
@@ -241,8 +242,10 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20160006,副本,Open world
 ,20160007,副本,'s Home
 ,20160008,副本,Dungeon
-,20160009,,Unknown area
-,20160010,,Only the team leader can operate.
+,20160009,副本,Unknown area
+,20160010,副本,Only the team leader can operate.
+,20160011,,Level mismatch.
+,20160012,,Not yet open.
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -271,3 +274,7 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20200004,活动,sell ticket success
 ,20200005,活动,sell ticket failed
 ,20210000,钱包相关,Token balance request failed!
+,20220001,战报,You were killed by  [color=#F7CE3D]{att=unkown}[/color] 
+,20220002,战报,"You were killed , [color=#F24F4F]Lost[/color] items"
+,20220003,战报,[color=#F7CE3D]{att=unkown}[/color] killed [color=#F7CE3D]{def=unkown}[/color] 
+,20220004,战报,[color=#F7CE3D]{att=unkown}[/color] [color=#35F883]win[/color] items
