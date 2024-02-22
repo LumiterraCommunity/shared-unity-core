@@ -131,7 +131,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,22,200,137,0,1,0,0,0,0,0,A-jianwu,Skill_bladeFlurry,Skill_airblade,,1200,8000," Ataca 5 veces al azar dentro de un rango pequeño.
 ",0,2,0, [37] Ráfaga,"2,300",CameraShakeGrade_2,1,0,1,,,"137,488",skill-icon-137,,,,,,,,,,,
 0,0,0,0,0,388,,200,138,0,1,0,0,1,0,0,A-1diuzhadan,,Skill_Throw,,660,2000," Lanza bombas y causa un alto daño a los enemigos dentro del rango de explosión.
-",1500,2,9, [38] Arte de Explosión,"2,400",,1,0,1,,,,skill-icon-138,skill_tree_hurt,,,1,,,,,,,
+",1500,2,25, [38] Arte de Explosión,"2,400",,1,0,1,,,"489,490",skill-icon-138,skill_tree_hurt,,,1,,,,,,,
 0,0,0,0,1,,"485,467",750,139,0,1,0,0,0,1,0,A-1baoqi,Skill_gainBuff_Chosen,Skill_Saiyan,,3000,20000," Después de un breve período de acumulación de energía, libera la energía dentro del cuerpo, causando un daño sostenido alto a los enemigos dentro de un rango determinado. Durante la liberación de la habilidad, permanece en un estado de incapacidad para golpear.
 ",0,2,0, [39] Inquebrantable,"2,400",Saiyan,1,0,1,,,"140,488,484",skill-icon-139,,,,,,,,,,,
 0,0,0,,0,,,400,140,0,1,0,0,0,0,0,A1-qirenzhan-NEW,Skill_airBlade,A1-qirenzhan-NEW,,650,20000,"Balancea el hacha, crea una cuchilla de aire, daña los árboles. ",,2,0,Coleccionista de madera nivel 3,"4,800,200,12000",CameraShakeGrade_3,1,0,1,6,1000,,skill-icon-140,skill_tree_hurt,,,,,,,,,,
@@ -402,4 +402,4 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 1,0,0,,0,213,,0,427,1,1,0,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,0,Vacío,10000,2,0, [81]Buff de área,"2,900",,1,0,2,,1000,,,,,top_down_Blue_9,,,500,,,,,
 0,0,0,,0,507,,200,431,0,0,0,0,0,0,0,happy,,,,660,15000,,0,2,0,,"2,666",CameraShakeGrade_1,1,0,2,,1000,507,skill-icon-431,,,,,,,,,,,
 0,0,0,,0,508,,200,432,0,0,0,0,0,0,0,happy,,,,660,45000,,0,2,0,,"2,666",,1,0,2,,1000,508,,,,,,,,,,,,
-0,0,0,,0,1,,1000,433,0,1,0,0,1,0,0,happy,,,,2833,30000,,600,2,25,,"2,300",,1,0,1,,1000,"489,490",,,,,1,,,,,,,
+0,0,0,,0,1,,1000,433,0,1,0,0,1,0,1,A-1diuzhadan,Skill_seeding_2,A-chuisanlianji-3-NEW,,2833,30000,,600,2,25,,"2,300",,1,1,1,,1000,"489,490",,,,top_down_bomb,1,,,,,,,
