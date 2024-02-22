@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-12-08 15:29:03
  * @Description: 家园资源区域管理
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Home/HomeResourcesAreaMgrCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Home/HomeResourcesAreaMgrCore.cs
  * 
  */
 
@@ -44,7 +44,7 @@ public class HomeResourcesAreaMgrCore : SceneModuleBase
         List<HomeResourcesArea> list = new();
         foreach (KeyValuePair<int, HomeResourcesArea> item in AreaMap)
         {
-            if (item.Value.AreaType == type)
+            if ((HomeDefine.eHomeResourcesAreaType)item.Value.DRHomeResourceArea.Type == type)
             {
                 list.Add(item.Value);
             }

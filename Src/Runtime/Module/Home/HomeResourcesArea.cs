@@ -8,6 +8,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityGameFramework.Runtime;
 public class HomeResourcesArea : SharedCoreComponent
 {
     [Header("唯一区域ID(不可重复)")]
@@ -16,33 +17,41 @@ public class HomeResourcesArea : SharedCoreComponent
     [Header("是否绘制形状")]
     public bool IsDraw;
 
-    [Header("区域类型")]
-    public HomeDefine.eHomeResourcesAreaType AreaType;
+    // [Header("区域类型")]
+    // public HomeDefine.eHomeResourcesAreaType AreaType;
 
-    [Header("刷新间隔(ms)")]
-    public int UpdateInterval;
+    // [Header("刷新间隔(ms)")]
+    // public int UpdateInterval;
 
-    [Header("立即刷新")]
-    public bool IsUpdateNow = false;
+    // [Header("立即刷新")]
+    // public bool IsUpdateNow = false;
 
-    [Serializable]
-    public struct HomeResourcesAreaPoint
-    {
-        [Header("权重(百分位)")]
-        public int Weight;
-        [Header("配置ID")]
-        public int ConfigId;
-        [Header("刷新上限")]
-        public int LimitNum;
-    }
-    [Header("资源列表")]
-    public List<HomeResourcesAreaPoint> PointList;
+    // [Serializable]
+    // public struct HomeResourcesAreaPoint
+    // {
+    //     [Header("权重(百分位)")]
+    //     public int Weight;
+    //     [Header("配置ID")]
+    //     public int ConfigId;
+    //     [Header("刷新上限")]
+    //     public int LimitNum;
+    // }
+    // [Header("资源列表")]
+    // public List<HomeResourcesAreaPoint> PointList;
 
     public Bounds AreaBounds { get; private set; }
     public HomeResourcesAreaSaveData SaveData { get; private set; }  //保存数据
+
+    public DRHomeResourceArea DRHomeResourceArea { get; private set; }
     private void Awake()
     {
         AreaBounds = new Bounds(transform.position, transform.localScale);
+        DRHomeResourceArea = GFEntryCore.DataTable.GetDataTable<DRHomeResourceArea>().GetDataRow(Id);
+        if (DRHomeResourceArea == null)
+        {
+            Log.Error("HomeResourcesArea Awake Error: Can't find config id = " + Id);
+            return;
+        }
         SaveData = CreateSaveData();
         GFEntryCore.HomeResourcesAreaMgr.AddArea(this);
     }
@@ -58,10 +67,12 @@ public class HomeResourcesArea : SharedCoreComponent
     /// </summary>
     protected HomeResourcesAreaSaveData CreateSaveData()
     {
-
-
-        long updateTime = (GFEntryCore.GFEntryType == GFEntryType.Client ? TimeUtil.GetTimeStamp() : TimeUtil.GetServerTimeStamp()) + UpdateInterval;
-        if (IsUpdateNow)
+        if (DRHomeResourceArea == null)
+        {
+            return null;
+        }
+        long updateTime = (GFEntryCore.GFEntryType == GFEntryType.Client ? TimeUtil.GetTimeStamp() : TimeUtil.GetServerTimeStamp()) + DRHomeResourceArea.UpdateInterval;
+        if (DRHomeResourceArea.IsUpdateNow)
         {
             updateTime = 0;
         }
