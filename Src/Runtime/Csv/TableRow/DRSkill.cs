@@ -420,6 +420,15 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取itemCost-int[][]。*/
+    /// </summary>
+    public int[][] ItemCost
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取accuTab-string。*/
     /// </summary>
     public string AccuTab
@@ -478,6 +487,7 @@ public class DRSkill : DataRowBase
         ComposeSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         CostPropType = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         MaxAccuTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        ItemCost = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         AccuTab = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
@@ -535,6 +545,7 @@ public class DRSkill : DataRowBase
                 ComposeSkill = binaryReader.ReadArray<Int32>();
                 CostPropType = binaryReader.ReadArray<Int32>();
                 MaxAccuTime = binaryReader.Read7BitEncodedInt32();
+                ItemCost = binaryReader.ReadArrayList<Int32>();
                 AccuTab = binaryReader.ReadString();
             }
         }
