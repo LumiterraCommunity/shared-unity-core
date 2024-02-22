@@ -70,6 +70,12 @@ public static class TableUtil
             Log.Error($"GetLanguage DRLanguage is null id = {id}");
             return $"#{id}";
         }
+
+        if (string.IsNullOrEmpty(drLanguage.Value))//如果没有翻译为空
+        {
+            return $"#{id} empty";
+        }
+
         return drLanguage.Value;
     }
 
