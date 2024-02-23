@@ -70,6 +70,7 @@ public enum eGameValueID
     InstancingDailyRewardCount = 37, // 副本每日奖励次数
     InstancingReadyTimeOut = 38, // 副本准备超时时间
     DailyTaskReceiveCD = 39, // 日常任务接取CD
+    PVPDamageRate = 43,//PVP伤害系数
 }
 
 // public static class GameValueID
