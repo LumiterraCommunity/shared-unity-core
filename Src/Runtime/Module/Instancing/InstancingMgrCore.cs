@@ -20,6 +20,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public int CurLevelIndex = 0; //当前关卡
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
+    public bool IsMatchComplete = false; //是否匹配完成
     public static GameObject Root { get; private set; }
     private void Awake()
     {
@@ -28,6 +29,11 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
             Root = new GameObject("InstancingMgr");
             Root.transform.SetParent(gameObject.transform);
         }
+    }
+
+    public virtual void CompleteMatch()
+    {
+        IsMatchComplete = true;
     }
 
     /// <summary>
