@@ -16,6 +16,11 @@ public static class BattleDefine
     /// </summary>
     public const int SKILL_CHECK_HIT_MAX_COLLIDER_NUM = 50;
 
+    /// <summary>
+    /// 地形伤害实体ID 包括了毒圈 掉落 溺水等 为了给统一的实体伤害事件处理
+    /// </summary>
+    public const long SCENE_DAMAGE_ENTITY_ID = -999;
+
     public enum eSkillShapeId : int
     {
         IdUnknown = 0,
