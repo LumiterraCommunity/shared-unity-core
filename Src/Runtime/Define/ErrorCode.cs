@@ -48,6 +48,7 @@ public enum eErrorCode : int
     InstancingLevelCompleteNotLeader = 0007002, //不是队长
     InstancingLevelCompleteNotSuccess = 0007003, //上一关卡未成功
     InstancingNotComplete = 0007004, //副本未完成
+    InstancingNotCompleteMatch = 0007005, //副本未完成匹配
 
     #endregion
 
