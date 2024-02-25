@@ -14,6 +14,7 @@ public class MonsterDataCore : EntityBaseComponent
     public int Lv => RefEntity.BattleDataCore.Level;
     public int configId => DRMonster == null ? -1 : DRMonster.Id;
     public DRMonster DRMonster { get; protected set; }
+    public int Lv => RefEntity.BattleDataCore.Level;
 
     public void SetMonsterConfigID(int cfgID)
     {
