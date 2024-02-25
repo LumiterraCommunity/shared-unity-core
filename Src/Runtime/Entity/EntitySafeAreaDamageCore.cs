@@ -15,6 +15,7 @@ using System.Collections.Generic;
 /// </summary>
 public class EntitySafeAreaDamageCore : EntityBaseComponent
 {
+
     private void Start()
     {
         StartCheckSafeArea();
@@ -25,12 +26,12 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
         StopCheckSafeArea();
     }
 
-    private void StartCheckSafeArea()
+    public void StartCheckSafeArea()
     {
         TimerMgr.AddTimer(GetHashCode(), TimeUtil.S2MS, CheckSafeArea, 0);
     }
 
-    private void StopCheckSafeArea()
+    public void StopCheckSafeArea()
     {
         _ = TimerMgr.RemoveTimer(GetHashCode());
     }
