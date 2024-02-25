@@ -53,6 +53,12 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
             return;
         }
 
+        //和平区域不会受到伤害
+        if (RefEntity.TryGetComponent(out EntityBattleArea entityBattleArea) && entityBattleArea.CurAreaType == eBattleAreaType.Peace)
+        {
+            return;
+        }
+
         //理论上只有一个安全区，否则设计有问题
         SafeAreaElementCore safeAreaElement = safeAreaElements[0];
         if (!safeAreaElement.IsSafeArea(RefEntity.Position))
