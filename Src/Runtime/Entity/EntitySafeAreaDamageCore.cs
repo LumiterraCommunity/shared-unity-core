@@ -70,6 +70,11 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
     protected virtual void AreaDamage(SafeAreaElementCore.SafeAreaInfo safeAreaInfo)
     {
         int damage = (int)(safeAreaInfo.Damage * RefEntity.BattleDataCore.HPMAX / 100);
+        if (RefEntity.BattleDataCore.IsLive())
+        {
+            RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(BattleDefine.SCENE_DAMAGE_ENTITY_ID, damage);
+        }
+
         int hp = RefEntity.BattleDataCore.HP - damage;
         RefEntity.BattleDataCore.SetHP(hp);
     }

@@ -79,7 +79,7 @@ public class EntityEvent : EntityBaseComponent
     public Action SpecialMoveStartNotMoveStatus;
     /// <summary>
     /// 实体受到伤害
-    /// T0：伤害来源 T1：伤害值
+    /// T0：伤害来源(大于0来自实体 小于0来自地形) T1：伤害值(正数)
     /// </summary>
     public Action<long, int> EntityBattleAddDamage;
 
