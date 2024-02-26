@@ -209,4 +209,12 @@ public static class TimeUtil
             return GetServerTimeStamp();
         }
     }
+
+    public static string GetTimeHHMMSS(int time)
+    {
+        int hour = time / 3600;
+        int minute = time % 3600 / 60;
+        int second = time % 60;
+        return $"{hour:D2}:{minute:D2}:{second:D2}";
+    }
 }

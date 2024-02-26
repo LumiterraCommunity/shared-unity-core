@@ -24,4 +24,5 @@ public enum eSkillGroupType : int
     Talent = 6,     // 天赋技能
     Item = 7,       // 道具
     Extend = 8,     // 扩展技能组
+    Pet = 9,        // 宠物技能组
 }
