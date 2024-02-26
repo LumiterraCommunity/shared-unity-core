@@ -74,7 +74,7 @@ public class PlayerRoleDataCore : EntityBaseComponent
     /// <summary>
     /// 玩家当前手持物品配置ID
     /// </summary>
-    public int InHandItem { get; protected set; } = 0;
+    public InHandItemData InHandItem { get; protected set; }
 
     public void SetGender(string gender)
     {
@@ -171,14 +171,14 @@ public class PlayerRoleDataCore : EntityBaseComponent
     /// 设置手持物品配置ID
     /// </summary>
     /// <param name="cid"></param>
-    public void SetInHandItem(int cid)
+    public void SetInHandItem(InHandItemData data)
     {
-        if (cid == InHandItem)
+        if (InHandItem == data)
         {
             return;
         }
 
-        InHandItem = cid;
-        RefEntity.EntityEvent.InHandItemChange?.Invoke(cid);
+        InHandItem = data;
+        RefEntity.EntityEvent.InHandItemChange?.Invoke(data);
     }
 }
