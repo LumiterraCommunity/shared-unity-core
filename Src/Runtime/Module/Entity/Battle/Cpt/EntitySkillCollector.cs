@@ -34,22 +34,22 @@ public class EntitySkillCollector : EntityBaseComponent
     /// 玩家手持物品发生变化
     /// </summary>
     /// <param name="itemID"></param>
-    protected virtual void OnInHandItemChanged(int itemID)
+    protected virtual void OnInHandItemChanged(InHandItemData inHandItem)
     {
         if (LastInHandItemSkillID > 0)
         {
             EntitySkillDataCore.RemoveSkillGroupID(eSkillGroupType.Item, LastInHandItemSkillID);//移除上次手持物技能
         }
 
-        if (itemID <= 0)
+        if (inHandItem == null)
         {
             return;
         }
 
-        DRItem itemCfg = GFEntryCore.DataTable.GetDataTable<DRItem>().GetDataRow(itemID);
+        DRItem itemCfg = GFEntryCore.DataTable.GetDataTable<DRItem>().GetDataRow(inHandItem.Cid);
         if (itemCfg == null)
         {
-            Log.Error($"OnUpdateInHandItem not find item id:{itemID}");
+            Log.Error($"OnUpdateInHandItem not find item id:{inHandItem.Cid}");
             return;
         }
 
