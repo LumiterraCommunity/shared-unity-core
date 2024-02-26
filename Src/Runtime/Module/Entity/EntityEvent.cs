@@ -271,4 +271,9 @@ public class EntityEvent : EntityBaseComponent
     /// </summary>
     public Action<GameMessageCore.DamageState> OnSceneDeath;
     #endregion
+    /// <summary>
+    /// 手持物品改变
+    /// 0:代表没有，其余代表物品ID
+    /// </summary>
+    public Action<int> InHandItemChange;
 }

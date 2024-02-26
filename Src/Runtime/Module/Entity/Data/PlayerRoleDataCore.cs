@@ -71,6 +71,10 @@ public class PlayerRoleDataCore : EntityBaseComponent
     /// 角色盲盒质押等级，0~4级，0为未质押
     /// </summary>
     public int BoxStakeLv { get; protected set; } = 0;
+    /// <summary>
+    /// 玩家当前手持物品配置ID
+    /// </summary>
+    public int InHandItem { get; protected set; } = 0;
 
     public void SetGender(string gender)
     {
@@ -161,5 +165,20 @@ public class PlayerRoleDataCore : EntityBaseComponent
     public void SetBoxStakeLv(int lv)
     {
         BoxStakeLv = lv;
+    }
+
+    /// <summary>
+    /// 设置手持物品配置ID
+    /// </summary>
+    /// <param name="cid"></param>
+    public void SetInHandItem(int cid)
+    {
+        if (cid == InHandItem)
+        {
+            return;
+        }
+
+        InHandItem = cid;
+        RefEntity.EntityEvent.InHandItemChange?.Invoke(cid);
     }
 }
