@@ -23,10 +23,10 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     public eAction HarvestAction { get; private set; } = eAction.None;//收获动作
 
     /// <summary>
-    /// 宠物特性
+    /// 宠物能力 TODO: pet 等PetDataCore好了后 直接用PetDataCore的
     /// </summary>
     /// <value></value>
-    public ePetFeature PetFeature { get; private set; } = ePetFeature.None;
+    public ePetAbility PetAbility { get; private set; } = ePetAbility.None;
     /// <summary>
     /// 动物数据
     /// </summary>
@@ -49,7 +49,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void Start()
     {
-        if (Data.DRMonster != null)
+        if (Data.DRPet != null)
         {
             HarvestAction = TableUtil.ToHomeAction(Data.DRPet.HarvestAction);
             SupportAction |= HarvestAction;//收获动作添加到支持列表

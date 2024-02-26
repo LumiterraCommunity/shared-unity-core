@@ -3,7 +3,7 @@ using UnityGameFramework.Runtime;
 
 
 /// <summary>
-/// 宠物专属数据
+/// 宠物专属数据 挂在宠物实体上
 /// </summary>
 public class PetDataCore : EntityBaseComponent
 {

@@ -61,9 +61,10 @@ public static class HomeDefine
     /// </summary>
     public const eAction HARVEST_ANIMAL_ACTION_MASK = eAction.Harvest | eAction.Pick;
 
-    #region 畜牧动物
+    #region 宠物
 
     public const string ANIMAL_AI_NAME = "HomeAnimalAI";
+    public const string PET_AI_NAME = "PetAI";
 
     /// <summary>
     /// 动物找吃的距离食盆的距离
