@@ -10,7 +10,7 @@ public class PetDataCore : EntityBaseComponent
     /// <summary>
     /// 宠物所有特性集合,通过位存储
     /// </summary>
-    public ePetAbility AllAbility = ePetAbility.None;
+    public ePetAbility AllAbility { get; protected set; } = ePetAbility.None;
     /// <summary>
     /// 宠物主人ID
     /// </summary>
