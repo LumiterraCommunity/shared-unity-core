@@ -24,45 +24,9 @@ public class DRMonster : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取att-int。*/
-    /// </summary>
-    public int Att
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取attSpd-int。*/
-    /// </summary>
-    public int AttSpd
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取autoHarvest-bool。*/
-    /// </summary>
-    public bool AutoHarvest
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取bodyCapacity-int。*/
     /// </summary>
     public int BodyCapacity
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取breedingDifficulty-int。*/
-    /// </summary>
-    public int BreedingDifficulty
     {
         get;
         private set;
@@ -96,27 +60,9 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
-  /**获取critDmg-int。*/
+  /**获取combatPotentiality-int[]。*/
     /// </summary>
-    public int CritDmg
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取critRate-int。*/
-    /// </summary>
-    public int CritRate
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取def-int。*/
-    /// </summary>
-    public int Def
+    public int[] CombatPotentiality
     {
         get;
         private set;
@@ -141,6 +87,15 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取farmPotentiality-int[]。*/
+    /// </summary>
+    public int[] FarmPotentiality
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取favoriteItem-int[]。*/
     /// </summary>
     public int[] FavoriteItem
@@ -150,45 +105,9 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
-  /**获取harvestDropId-int。*/
+  /**获取gatherPotentiality-int[]。*/
     /// </summary>
-    public int HarvestDropId
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取harvestTime-int。*/
-    /// </summary>
-    public int HarvestTime
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取hitPoint-int。*/
-    /// </summary>
-    public int HitPoint
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取hp-int。*/
-    /// </summary>
-    public int Hp
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取hungerSpeed-int。*/
-    /// </summary>
-    public int HungerSpeed
+    public int[] GatherPotentiality
     {
         get;
         private set;
@@ -204,45 +123,18 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取initialAttribute-int[][]。*/
+    /// </summary>
+    public int[][] InitialAttribute
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取lockEnemyRange-int。*/
     /// </summary>
     public int LockEnemyRange
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取lv-int。*/
-    /// </summary>
-    public int Lv
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取maxHunger-int。*/
-    /// </summary>
-    public int MaxHunger
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取missPoint-int。*/
-    /// </summary>
-    public int MissPoint
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取moveSpeed-int。*/
-    /// </summary>
-    public int MoveSpeed
     {
         get;
         private set;
@@ -276,24 +168,6 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
-  /**获取requiredHappiness-int。*/
-    /// </summary>
-    public int RequiredHappiness
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取requiredProficiency-int。*/
-    /// </summary>
-    public int RequiredProficiency
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取roleAssetID-int。*/
     /// </summary>
     public int RoleAssetID
@@ -320,55 +194,31 @@ public class DRMonster : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取harvestAction-int。*/
-    /// </summary>
-    public int HarvestAction
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        Att = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        AttSpd = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        AutoHarvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         BodyCapacity = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        BreedingDifficulty = DataTableParseUtil.ParseInt(columnStrings[index++]);
         CaptureHp = DataTableParseUtil.ParseInt(columnStrings[index++]);
         CaptureSkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CombatDist = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        CritDmg = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        CritRate = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        Def = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        CombatPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        FarmPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         FavoriteItem = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        HarvestDropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        HarvestTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        HitPoint = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        Hp = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        HungerSpeed = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        GatherPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         LockEnemyRange = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        MaxHunger = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        MissPoint = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        MoveSpeed = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PushDist = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PushDmg = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        RequiredHappiness = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        HarvestAction = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -380,41 +230,26 @@ public class DRMonster : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                Att = binaryReader.Read7BitEncodedInt32();
-                AttSpd = binaryReader.Read7BitEncodedInt32();
-                AutoHarvest = binaryReader.ReadBoolean();
                 BodyCapacity = binaryReader.Read7BitEncodedInt32();
-                BreedingDifficulty = binaryReader.Read7BitEncodedInt32();
                 CaptureHp = binaryReader.Read7BitEncodedInt32();
                 CaptureSkillCastPool = binaryReader.ReadArrayList<Int32>();
                 CombatDist = binaryReader.Read7BitEncodedInt32();
-                CritDmg = binaryReader.Read7BitEncodedInt32();
-                CritRate = binaryReader.Read7BitEncodedInt32();
-                Def = binaryReader.Read7BitEncodedInt32();
+                CombatPotentiality = binaryReader.ReadArray<Int32>();
                 Desc = binaryReader.ReadString();
                 Exp = binaryReader.Read7BitEncodedInt32();
+                FarmPotentiality = binaryReader.ReadArray<Int32>();
                 FavoriteItem = binaryReader.ReadArray<Int32>();
-                HarvestDropId = binaryReader.Read7BitEncodedInt32();
-                HarvestTime = binaryReader.Read7BitEncodedInt32();
-                HitPoint = binaryReader.Read7BitEncodedInt32();
-                Hp = binaryReader.Read7BitEncodedInt32();
-                HungerSpeed = binaryReader.Read7BitEncodedInt32();
+                GatherPotentiality = binaryReader.ReadArray<Int32>();
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
+                InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 LockEnemyRange = binaryReader.Read7BitEncodedInt32();
-                Lv = binaryReader.Read7BitEncodedInt32();
-                MaxHunger = binaryReader.Read7BitEncodedInt32();
-                MissPoint = binaryReader.Read7BitEncodedInt32();
-                MoveSpeed = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 PushDist = binaryReader.Read7BitEncodedInt32();
                 PushDmg = binaryReader.Read7BitEncodedInt32();
-                RequiredHappiness = binaryReader.Read7BitEncodedInt32();
-                RequiredProficiency = binaryReader.Read7BitEncodedInt32();
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();
                 SkillCastPool = binaryReader.ReadArrayList<Int32>();
                 DropId = binaryReader.Read7BitEncodedInt32();
-                HarvestAction = binaryReader.Read7BitEncodedInt32();
             }
         }
 
