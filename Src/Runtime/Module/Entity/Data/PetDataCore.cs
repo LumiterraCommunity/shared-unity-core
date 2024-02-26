@@ -8,10 +8,9 @@ using UnityGameFramework.Runtime;
 public class PetDataCore : EntityBaseComponent
 {
     /// <summary>
-    /// 宠物所有特性集合
-    /// 有频繁的遍历操作时，考虑使用List
+    /// 宠物所有特性集合,通过位存储
     /// </summary>
-    public HashSet<ePetAbility> AbilitySet = new();
+    public ePetAbility AllAbility = ePetAbility.None;
     /// <summary>
     /// 宠物主人ID
     /// </summary>
@@ -56,13 +55,10 @@ public class PetDataCore : EntityBaseComponent
     /// <summary>
     /// 设置宠物所有特性
     /// </summary>
-    /// <param name="ability"></param>
-    public void SetPetAbility(IEnumerable<ePetAbility> abilities)
+    /// <param name="abilities"></param>
+    public void SetPetAbility(ePetAbility abilities)
     {
-        foreach (ePetAbility ability in abilities)
-        {
-            _ = AbilitySet.Add(ability);
-        }
+        AllAbility = abilities;
     }
 
     /// <summary>
@@ -71,7 +67,7 @@ public class PetDataCore : EntityBaseComponent
     /// <param name="ability"></param>
     public void AddPetAbility(ePetAbility ability)
     {
-        _ = AbilitySet.Add(ability);
+        AllAbility |= ability;
     }
 
     /// <summary>
@@ -80,7 +76,7 @@ public class PetDataCore : EntityBaseComponent
     /// <param name="ability"></param>
     public void RemovePetAbility(ePetAbility ability)
     {
-        _ = AbilitySet.Remove(ability);
+        AllAbility &= ~ability;
     }
 
     /// <summary>
@@ -90,7 +86,7 @@ public class PetDataCore : EntityBaseComponent
     /// <returns></returns>
     public bool HasPetAbility(ePetAbility ability)
     {
-        return AbilitySet.Contains(ability);
+        return (AllAbility & ability) != 0;
     }
 
     /// <summary>
