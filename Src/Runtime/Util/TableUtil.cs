@@ -42,6 +42,41 @@ public static class TableUtil
         return (HomeDefine.eAction)(1 << drAction);
     }
 
+    // /// <summary>
+    // /// 配置中的宠物特性数组转实际枚举 配置中的是左移位数
+    // /// </summary>
+    // /// <param name="drFeatures"></param>
+    // /// <returns></returns>
+    // public static ePetAbility ToPetFeature(int[] drFeatures)
+    // {
+    //     if (drFeatures == null || drFeatures.Length == 0)
+    //     {
+    //         return ePetAbility.None;
+    //     }
+
+    //     ePetAbility feature = ePetAbility.None;
+    //     foreach (int item in drFeatures)
+    //     {
+    //         feature |= ToPetFeature(item);
+    //     }
+    //     return feature;
+    // }
+
+    // /// <summary>
+    // /// 配置中的宠物特性转实际枚举 配置中的是左移位数
+    // /// </summary>
+    // /// <param name="drFeature"></param>
+    // /// <returns></returns>
+    // public static ePetAbility ToPetFeature(int drFeature)
+    // {
+    //     if (drFeature == 0)
+    //     {
+    //         return ePetAbility.None;
+    //     }
+
+    //     return (ePetAbility)(1 << drFeature);
+    // }
+
     /// <summary>
     /// 配置表中的字符串格式化输入 xxx{0}bbbb{1}
     /// </summary>

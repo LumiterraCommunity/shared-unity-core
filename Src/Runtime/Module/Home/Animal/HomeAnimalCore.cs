@@ -23,6 +23,11 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     public eAction HarvestAction { get; private set; } = eAction.None;//收获动作
 
     /// <summary>
+    /// 宠物能力 TODO: pet 等PetDataCore好了后 直接用PetDataCore的
+    /// </summary>
+    /// <value></value>
+    public ePetAbility PetAbility { get; private set; } = ePetAbility.None;
+    /// <summary>
     /// 动物数据
     /// </summary>
     /// <value></value>
@@ -44,7 +49,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void Start()
     {
-        if (Data.DRMonster != null)
+        if (Data.DRPet != null)
         {
             HarvestAction = TableUtil.ToHomeAction(Data.DRPet.HarvestAction);
             SupportAction |= HarvestAction;//收获动作添加到支持列表
@@ -54,6 +59,9 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
                 //https://codingmonkey.feishu.cn/docx/BgbRdOKxPo25mEx8apNcH65enlf
                 Log.Error($"动物目前不能再配置自动收获 cid:{Data.BaseData.Cid}");
             }
+
+            //TODO pet 表
+            // PetFeature = TableUtil.ToPetFeature(Data.DRMonster.PetFeature);
         }
         else
         {
