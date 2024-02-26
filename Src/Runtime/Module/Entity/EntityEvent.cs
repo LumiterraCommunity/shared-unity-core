@@ -286,4 +286,10 @@ public class EntityEvent : EntityBaseComponent
     /// 实体传送门元素
     /// </summary>
     public Action EntityTriggerPortalElement;
+
+    /// <summary>
+    /// 手持物品改变
+    /// 0:代表没有，其余代表物品ID
+    /// </summary>
+    public Action<int> InHandItemChange;
 }
