@@ -5,9 +5,8 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /// 实体技能采集器，负责采集各个模块提供的技能并添加到实体上
 /// </summary>
-public class PlayerSkillCollector : EntityBaseComponent
+public class PlayerSkillCollector : EntitySkillCollector
 {
-    protected EntitySkillDataCore EntitySkillDataCore;
     private bool _isInitTalentSkill = false;
     private PlayerRoleDataCore _playerRoleDataCore;
     protected PlayerRoleDataCore RoleDataCore
@@ -22,38 +21,41 @@ public class PlayerSkillCollector : EntityBaseComponent
         }
     }
 
-    private void Start()
+    protected override void Start()
     {
-        EntitySkillDataCore = RefEntity.GetComponent<EntitySkillDataCore>();
+        base.Start();
         //天赋树
         RefEntity.EntityEvent.TalentSkillUpdated += OnTalentSkillUpdated;
         RefEntity.EntityEvent.TalentSkillInited += OnTalentSkillInited;
-        CheckInitTalentSkill();
 
-        //装备
-        RefEntity.EntityEvent.EntityAvatarUpdated += OnUpdateEquipmentSkillID;
-        OnUpdateEquipmentSkillID();
-
-        //宠物
+        //宠物跟随技能
         if (RefEntity.TryGetComponent(out PlayerPetDataCore petData))
         {
             petData.FollowingPetChanged += OnFollowingPetChanged;
             OnFollowingPetChanged(petData.FollowingPet);
         }
+
+        CheckInitTalentSkill();
+        //装备
+        OnUpdateEquipmentSkillID();
+        //手持物品
+        OnInHandItemChanged(RoleDataCore.InHandItem);
     }
 
-    private void OnDestroy()
+    protected override void OnDestroy()
     {
         if (RefEntity != null)
         {
             RefEntity.EntityEvent.TalentSkillUpdated -= OnTalentSkillUpdated;
             RefEntity.EntityEvent.TalentSkillInited -= OnTalentSkillInited;
-            RefEntity.EntityEvent.EntityAvatarUpdated -= OnUpdateEquipmentSkillID;
+
             if (RefEntity.TryGetComponent(out PlayerPetDataCore petMgr))
             {
                 petMgr.FollowingPetChanged -= OnFollowingPetChanged;
             }
         }
+
+        base.OnDestroy();
     }
 
     private void OnTalentSkillUpdated(IEnumerable<int> addList, IEnumerable<int> removeList)
@@ -142,7 +144,7 @@ public class PlayerSkillCollector : EntityBaseComponent
         EntitySkillDataCore.BroadCastUpdateSkillGroup(eSkillGroupType.Talent);
     }
 
-    protected void OnUpdateEquipmentSkillID()
+    protected override void OnUpdateEquipmentSkillID()
     {
         if (RoleDataCore == null)
         {
