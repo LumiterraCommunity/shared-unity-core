@@ -40,7 +40,7 @@ public class AnimalBaseData
         AnimalId = data.AnimalId;
         Name = data.Name;
         Cid = data.Cid;
-        Favorability = data.Favorability;
+        Favorability = data.FavorAbility;
         CreateMs = data.CreateMs;
         UpdateMs = data.UpdateMs;
     }
@@ -52,7 +52,7 @@ public class AnimalBaseData
             AnimalId = AnimalId,
             Name = Name,
             Cid = Cid,
-            Favorability = Favorability,
+            FavorAbility = Favorability,
             CreateMs = CreateMs,
             UpdateMs = UpdateMs,
         };
