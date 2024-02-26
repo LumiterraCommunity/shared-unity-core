@@ -273,7 +273,7 @@ public class EntityEvent : EntityBaseComponent
     #endregion
     /// <summary>
     /// 手持物品改变
-    /// 0:代表没有，其余代表物品ID
+    /// null代表没有手持物品
     /// </summary>
-    public Action<int> InHandItemChange;
+    public Action<InHandItemData> InHandItemChange;
 }

@@ -36,7 +36,7 @@ public class PetDataCore : EntityBaseComponent
     /// 当前手持物id
     /// 用于播种，喂食等操作，使用道具丢炸弹等操作
     /// </summary>
-    public int InHandItem { get; protected set; } = 0;
+    public InHandItemData InHandItem { get; protected set; }
 
     public void SetOwnerId(long ownerId)
     {
@@ -128,14 +128,14 @@ public class PetDataCore : EntityBaseComponent
         FollowingTarget = target;
     }
 
-    public void SetInHandItem(int cid)
+    public void SetInHandItem(InHandItemData data)
     {
-        if (cid == InHandItem)
+        if (InHandItem == data)
         {
             return;
         }
 
-        InHandItem = cid;
-        RefEntity.EntityEvent.InHandItemChange?.Invoke(cid);
+        InHandItem = data;
+        RefEntity.EntityEvent.InHandItemChange?.Invoke(data);
     }
 }
