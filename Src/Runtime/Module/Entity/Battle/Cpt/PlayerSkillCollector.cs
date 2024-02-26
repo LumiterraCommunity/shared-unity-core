@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using GameMessageCore;
@@ -6,7 +5,7 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /// 实体技能采集器，负责采集各个模块提供的技能并添加到实体上
 /// </summary>
-public class EntitySkillCollector : EntityBaseComponent
+public class PlayerSkillCollector : EntityBaseComponent
 {
     protected EntitySkillDataCore EntitySkillDataCore;
     private bool _isInitTalentSkill = false;
