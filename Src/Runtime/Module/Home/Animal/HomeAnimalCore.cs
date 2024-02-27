@@ -23,11 +23,6 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     public eAction HarvestAction { get; private set; } = eAction.None;//收获动作
 
     /// <summary>
-    /// 宠物能力 TODO: pet 等PetDataCore好了后 直接用PetDataCore的
-    /// </summary>
-    /// <value></value>
-    public ePetAbility PetAbility { get; private set; } = ePetAbility.None;
-    /// <summary>
     /// 动物数据
     /// </summary>
     /// <value></value>

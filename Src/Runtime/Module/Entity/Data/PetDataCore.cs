@@ -1,9 +1,9 @@
-using System.Collections.Generic;
 using UnityGameFramework.Runtime;
 
 
 /// <summary>
-/// 宠物专属数据 挂在宠物实体上
+/// 宠物核心数据
+/// 家园宠物和跟随宠物都使用这个组件，不过跟随宠物用到的是这个组件的子类FollowingPetDataCore
 /// </summary>
 public class PetDataCore : EntityBaseComponent
 {
@@ -11,18 +11,6 @@ public class PetDataCore : EntityBaseComponent
     /// 宠物所有特性集合,通过位存储
     /// </summary>
     public ePetAbility AllAbility { get; protected set; } = ePetAbility.None;
-    /// <summary>
-    /// 宠物主人ID
-    /// </summary>
-    public long OwnerId { get; protected set; }
-    /// <summary>
-    /// 当前跟随的目标
-    /// </summary>
-    public EntityBase FollowingTarget { get; protected set; }
-    /// <summary>
-    /// 当前是否正在跟随
-    /// </summary>
-    public bool IsFollowing => FollowingTarget != null;
     /// <summary>
     /// 宠物配置
     /// </summary>
@@ -36,11 +24,6 @@ public class PetDataCore : EntityBaseComponent
     /// 用于播种，喂食等操作，使用道具丢炸弹等操作
     /// </summary>
     public int InHandItem { get; protected set; } = 0;
-
-    public void SetOwnerId(long ownerId)
-    {
-        OwnerId = ownerId;
-    }
 
     public void SetPetCfgId(int cfgID)
     {
@@ -87,41 +70,6 @@ public class PetDataCore : EntityBaseComponent
     public bool HasPetAbility(ePetAbility ability)
     {
         return (AllAbility & ability) != 0;
-    }
-
-    /// <summary>
-    /// 获取跟随技能ID列表,一定会返回一个数组
-    /// </summary>
-    /// <returns></returns>
-    public int[] GetFollowingSkills()
-    {
-        if (!HasPetAbility(ePetAbility.SkillExtend) || !IsFollowing)
-        {
-            //没有扩展技能特性或者当前没在跟随
-            return new int[] { };
-        }
-
-        if (PetCfg == null)
-        {
-            Log.Error("PetCfg is null");
-            return new int[] { };
-        }
-
-        return PetCfg.ExtendSkill;
-    }
-
-    /// <summary>
-    /// 设置跟随目标
-    /// </summary>
-    /// <param name="target"></param>
-    public void SetFollowingTarget(EntityBase target)
-    {
-        if (FollowingTarget == target)
-        {
-            return;
-        }
-
-        FollowingTarget = target;
     }
 
     public void SetInHandItem(int cid)
