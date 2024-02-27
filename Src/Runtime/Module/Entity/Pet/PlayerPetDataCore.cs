@@ -53,7 +53,7 @@ public class PlayerPetDataCore : EntityBaseComponent
             return;
         }
 
-        if (pet.TryGetComponent(out PetDataCore petDataCore))
+        if (pet.TryGetComponent(out FollowingPetDataCore petDataCore))
         {
             petDataCore.SetFollowingTarget(target);
         }
