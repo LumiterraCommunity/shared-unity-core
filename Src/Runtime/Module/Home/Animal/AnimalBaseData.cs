@@ -1,6 +1,6 @@
 using GameMessageCore;
 /// <summary>
-/// 动物基础数据 用于数据管理面板的数据
+/// 动物基础数据 用于数据管理面板的数据 TODO: pet 需要删除该类 使用PetDataCore
 /// </summary>
 [System.Serializable]
 public class AnimalBaseData
@@ -29,6 +29,10 @@ public class AnimalBaseData
     /// 动物最近更新时间戳
     /// </summary>
     public long UpdateMs;
+    /// <summary>
+    /// 暂存从数据服来的属性 主要为了拿HP 临时用下 后面迁移整个文件时就没了
+    /// </summary>
+    public GrpcAttributeData[] Profile;
 
     public AnimalBaseData()
     {
@@ -44,6 +48,7 @@ public class AnimalBaseData
         CreateMs = data.CreateMs;
         UpdateMs = data.UpdateMs;
     }
+
 
     public ProxyAnimalBaseData ToProxyAnimalBaseData()
     {
