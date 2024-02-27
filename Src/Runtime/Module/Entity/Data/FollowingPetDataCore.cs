@@ -7,10 +7,6 @@ using UnityGameFramework.Runtime;
 public class FollowingPetDataCore : PetDataCore
 {
     /// <summary>
-    /// 宠物主人ID
-    /// </summary>
-    public long OwnerId { get; protected set; }
-    /// <summary>
     /// 当前跟随的目标
     /// </summary>
     public EntityBase FollowingTarget { get; protected set; }
@@ -18,12 +14,6 @@ public class FollowingPetDataCore : PetDataCore
     /// 当前是否正在跟随
     /// </summary>
     public bool IsFollowing => FollowingTarget != null;
-
-    public void SetOwnerId(long ownerId)
-    {
-        OwnerId = ownerId;
-    }
-
     /// <summary>
     /// 获取跟随技能ID列表,一定会返回一个数组
     /// </summary>
