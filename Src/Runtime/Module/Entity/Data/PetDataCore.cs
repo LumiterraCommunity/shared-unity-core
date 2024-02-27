@@ -12,6 +12,10 @@ public class PetDataCore : EntityBaseComponent
     /// </summary>
     public ePetAbility AllAbility { get; protected set; } = ePetAbility.None;
     /// <summary>
+    /// 宠物主人ID
+    /// </summary>
+    public long OwnerId { get; protected set; }
+    /// <summary>
     /// 宠物配置
     /// </summary>
     public DRPet PetCfg { protected set; get; }
@@ -42,6 +46,15 @@ public class PetDataCore : EntityBaseComponent
     public void SetPetAbility(ePetAbility abilities)
     {
         AllAbility = abilities;
+    }
+
+    /// <summary>
+    /// 设置宠物主人ID
+    /// </summary>
+    /// <param name="ownerId"></param>
+    public void SetOwnerId(long ownerId)
+    {
+        OwnerId = ownerId;
     }
 
     /// <summary>
