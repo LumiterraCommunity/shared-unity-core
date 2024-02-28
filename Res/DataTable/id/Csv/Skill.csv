@@ -197,14 +197,14 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,199,0,0,0,0,0,0,0,,PS_VFX_HealCast,,,,0,Mengobati 80 HP. ,,2,0,serangan palu,,,1,0,1,,1000,208,,,,,,,,,,,,
 0,0,0,,0,,,,200,0,0,0,0,0,0,0,,PS_VFX_HealCast,,,,0,Mengobati 160 HP. ,,2,0,Serangan jarak jauh busur 1,,,1,0,1,,1000,209,,,,,,,,,,,,
 0,0,0,,0,,,,201,0,0,0,0,0,0,0,,PS_VFX_HealCast,,,,0,Mengobati 240 HP. ,,2,0,Serangan jarak jauh busur 2,,,1,0,1,,1000,210,,,,,,,,,,,,
-0,0,0,0,0,"227,21,15","236,22",500,202,0,1,0,0,0,0,1,A-chuisanlianji-1-NEW,Skill_Hammer_attack1,A-chuisanlianji-1-NEW,14,900,-1,Serangan Palu - Gerakan 1. ,400,2,0,gulungan pemain,"4,300,300,27000",CameraShakeGrade_2,1,0,1,7,333,,,,,,,,,,,,,
-0,0,0,0,0,"227,21,386","236,22",500,203,0,1,0,0,0,0,1,A-chuisanlianji-2-NEW,Skill_Hammer_attack2,A-chuisanlianji-2-NEW,14,900,-1,Serangan Palu - Gerakan 2. ,400,2,0,Pencangkulan monolitik,"4,300,300,27000",CameraShakeGrade_2,1,0,1,7,333,,,,,,,,,,,,,
-0,0,0,0,0,"227,21,388","236,22",500,204,0,1,0,0,0,0,1,A-chuisanlianji-3-NEW,Skill_Hammer_attack3,A-chuisanlianji-3-NEW,14,900,-1,Serangan Palu - Gerakan 3. ,400,2,0,Lahan pertanian kelompok Lv 1,"4,300,300,27000",CameraShakeGrade_3,1,0,1,7,333,,,,,,,,,,,,,
-0,0,0,0,0,"387,404",,250,205,0,1,0,0,1,0,0,gongjian_attack1,,A-gongjian-NEW_audio,14,500,-1,Meluncurkan serangan busur yang kuat kepada musuh-musuh Anda. ,2000,2,1,Lahan pertanian kelompok Lv 2,,,1,1,1,,,,,,0,,1,,,,,,,
+0,0,0,0,0,"227,21,15","236,22,516",500,202,0,1,0,0,0,0,1,A-chuisanlianji-1-NEW,Skill_Hammer_attack1,A-chuisanlianji-1-NEW,14,900,-1,Serangan Palu - Gerakan 1. ,400,2,0,gulungan pemain,"4,300,300,27000",CameraShakeGrade_2,1,0,1,7,333,,,,,,,,,,,,,
+0,0,0,0,0,"227,21,386","236,22,516",500,203,0,1,0,0,0,0,1,A-chuisanlianji-2-NEW,Skill_Hammer_attack2,A-chuisanlianji-2-NEW,14,900,-1,Serangan Palu - Gerakan 2. ,400,2,0,Pencangkulan monolitik,"4,300,300,27000",CameraShakeGrade_2,1,0,1,7,333,,,,,,,,,,,,,
+0,0,0,0,0,"227,21,388","236,22,516",500,204,0,1,0,0,0,0,1,A-chuisanlianji-3-NEW,Skill_Hammer_attack3,A-chuisanlianji-3-NEW,14,900,-1,Serangan Palu - Gerakan 3. ,400,2,0,Lahan pertanian kelompok Lv 1,"4,300,300,27000",CameraShakeGrade_3,1,0,1,7,333,,,,,,,,,,,,,
+0,0,0,0,0,"387,404",515,250,205,0,1,0,0,1,0,0,gongjian_attack1,SkillEffect_Slowdown_2,A-gongjian-NEW_audio,14,500,-1,Meluncurkan serangan busur yang kuat kepada musuh-musuh Anda. ,2000,2,1,Lahan pertanian kelompok Lv 2,,,1,1,1,,,,,,0,,1,,,,,,,
 1,0,0,,0,15,"218,222",700,206,0,1,0,0,0,0,0,attack,,Chaos_Wraith_Attack,,1000,0,Serangan Chaos Wraith. ,350,2,0,Serangan jarak jauh busur 3,"4,300,200,12000",,1,0,1,,1000,,,,,,,,,,,,,
 1,0,1,0,0,385,,500,207,0,1,0,0,1,0,1,attackArea,,monsterattack,,1000,2000,Monster melee hitam. ,1000,2,5,Ramuan Kecepatan Lebih Rendah,"2,200",,1,1,1,,1000,,,,,top_down_bomb_2,3,,,,,,,
 1,0,0,,0,15,"222,219",950,208,0,1,0,0,0,0,0,attack,,Crimson_Gnasher_Attack,,1500,0,Serangan Crimson Gnasher. ,400,2,0,Serangan Chaos Wraith,"4,300,200,12000",,1,0,1,,1000,,,,,,,,,,,,,
-1,0,0,,0,"227,386",222,1200,209,0,1,0,0,0,0,0,attackArea,,,,1833,0,Crimson Gnasher hyper armor. ,400,2,0,monster hitam jarak jauh,"4,300,200,12000",,1,0,1,,1000,,,,,,,,,,,,,
+1,0,0,,0,"227,386",222,1200,209,0,1,0,0,0,0,0,attackArea,,,,1833,0,Crimson Gnasher hyper armor. ,400,2,0,monster hitam jarak jauh,"1,500,100,1",,1,0,1,,1000,,,,,,,,,,,,,
 1,0,0,,0,15,"220,223",650,210,0,1,0,0,0,0,0,attack,,Frosty_Paw_Attack,,1033,0,Serangan Frosty Paw. ,300,2,0,Serangan Gnasher Merah,"4,300,200,12000",,1,0,1,,1000,,,,,,,,,,,,,
 1,0,0,,0,"227,386","220,223",650,211,0,1,0,0,0,0,0,attack,,Frosty_Paw_Attack,,1033,0,Frosty Paw hyper armor. ,300,2,0,Tubuh Super Gnasher Merah,"4,300,200,12000",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,,,212,0,0,0,0,0,0,0,,,,,,-1,Meningkatkan kecepatan serangan dan kekuatan serangan secara bersamaan. ,,1,0,Serangan Cakar Beku,,,1,0,1,,,,,,,,,,228,,,,,
@@ -328,7 +328,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,341,0,0,0,0,0,0,0,,,,,,-1,Mengurangi kecepatan bergerak musuh. ,,1,0,Lv3 Hiu Terburu-buru,,,1,0,1,,1000,,skill-icon-341,,,,,,375,,,,,
 0,0,0,,0,,,,342,0,0,0,0,0,0,0,,,,,,-1,Mengurangi kecepatan bergerak musuh. ,,1,0,Meningkatkan efek perlambatan,,,1,0,1,,1000,,skill-icon-342,,,,,,377,,,,,
 0,0,0,,0,,,,343,0,0,0,0,0,0,0,,,,,,-1,Mengurangi kecepatan bergerak musuh. ,,1,0,Meningkatkan efek perlambatan,,,1,0,1,,1000,,skill-icon-343,,,,,,379,,,,,
-0,0,0,0,0,"404,387",,250,344,0,1,0,0,1,0,0,gongjian_attack2,,A-gongjian-NEW_audio,14,550,-1,Karakter jarak jauh. ,2000,2,1,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
+0,0,0,0,0,"404,387",515,250,344,0,1,0,0,1,0,0,gongjian_attack2,SkillEffect_Slowdown_2,A-gongjian-NEW_audio,14,550,-1,Karakter jarak jauh. ,2000,2,1,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
 0,0,0,0,0,"15,404",414,550,345,0,1,0,0,1,0,0,gongjian_attack3,,A-gongjian-NEW_audio,14,800,-1,Karakter jarak jauh. ,2000,2,7,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
 1,0,0,0,0,"404,385",,300,346,0,1,0,0,1,0,0,attack,,Skill_Bee_attack,,1000,2000,Serangan Jauh Buzz Buddy ,1000,2,8,lebah terpencil,,,1,1,1,,1000,,,,,,1,,,,,,,
 0,0,0,,0,"227,388",,200,347,0,1,0,0,1,0,1,A-1diuzhadan,,playerroll,,660,5000,Melempar Bom ,1000,2,9,melempar botol peledak,"2,200",,1,1,1,,1000,,,skill_tree_hurt,,top_down_bomb_blue,1,,,,,,"232,1",
@@ -394,7 +394,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 1,0,0,,0,"458,445",,1000,403,1,1,0,0,1,0,1,attack,,Skill_TrapBomb_Attack,,1500,4000,"Kosong
 ",2000,2,16, Monster Perangkap Bom,"2,300",,1,0,1,,1000,,,,,top_down_Normal_3,4,,,,,,,
 1,0,1,,0,459,,4000,404,0,0,0,1,0,1,0,pray,,,,4100,0," Keterampilan Penyelamatan.
-",,2,0,Keterampilan Penyelamatan,,,2,1,2,,1000,,skill-icon-404,,,,,,,,,,,skill_Rescue_AccuBar
+",,2,0,Keterampilan Penyelamatan,,,2,1,12,,1000,,skill-icon-404,,,,,,,,,,,skill_Rescue_AccuBar
 1,0,0,,0,385,,1000,405,1,1,0,0,1,0,1,attackArea,,Skill_DarkSnowSprite_AttackArea,,1500,4000,"Kosong
 ",1000,2,18, Snow Storm Dark Snow Sprite,"2,400",,1,0,1,,1000,"489,490",,,,Skill_SnowStorm,2,,,,,,,
 1,0,0,,0,15,,1400,406,1,1,0,0,1,0,1,attackArea,,Skill_SkeletonArcher_AttackArea,,2000,4000,"Kosong
@@ -431,7 +431,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",600,2,0,Memasukkan,"2,600",,1,0,1,,1000,,,,,top_down_Normal_6,,,480,,,,,
 1,0,0,,0,213,,0,427,1,1,0,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,0,"Kosong
 ",10000,2,0,Buff Area,"2,900",,1,0,2,,1000,,,,,top_down_Blue_9,,,500,,,,,
-0,0,0,,0,507,,200,431,0,0,0,0,0,0,0,happy,,,,660,15000,,0,2,0,,"2,666",CameraShakeGrade_1,1,0,2,,1000,507,skill-icon-431,,,,,,,,,,,
+0,0,0,,0,520,,200,431,0,0,0,0,0,0,0,happy,,,,660,15000,,0,2,0,,"2,666",CameraShakeGrade_1,1,0,2,,1000,513,skill-icon-431,,,,,,,,,,,
 0,0,0,,0,508,,200,432,0,0,0,0,0,0,0,happy,,,,660,45000,,0,2,0,,"2,666",,1,0,2,,1000,508,,,,,,,,,,,,
 0,0,0,,0,1,,1000,433,0,1,0,0,1,0,1,A-1diuzhadan,Skill_seeding_2,A-chuisanlianji-3-NEW,,2833,30000,,600,2,25,,"2,300",,1,1,1,,1000,"489,490",,,,top_down_Normal_3,1,,,,,,,
 0,0,0,,0,493,,1000,434,0,0,0,0,0,0,0,,Skill_HealRing,,,2833,30000,,0,2,0,,"2,200",,1,0,2,,1000,493,,,,,,,,,,,,
+0,0,0,0,0,,,250,435,1,1,0,0,0,0,0,,Skill_Fire_Breath_NoSmoke,,,3000,30000,,800,2,0,,"4,150,800,4500",,1,0,1,,1000,518,,,,,,,,,,,,
+0,0,0,0,0,1,,200,436,0,1,0,0,1,0,1,A-1diuzhadan,,Skill_Throw,,660,2000,,1500,2,25,,"2,400",,1,0,1,,,"510,511",,skill_tree_hurt,,top_down_Normal_3,1,,,,,,,
