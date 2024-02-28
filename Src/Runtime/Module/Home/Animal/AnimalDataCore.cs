@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityGameFramework.Runtime;
 
 /// <summary>
-/// 动物数据
+/// 动物数据 只有家园畜牧的相关数据
 /// </summary>
 public class AnimalDataCore : EntityBaseComponent
 {
@@ -16,7 +16,7 @@ public class AnimalDataCore : EntityBaseComponent
     public AnimalSaveData SaveData => _saveData;
 
     /// <summary>
-    /// 宠物配置表
+    /// 宠物配置表 不要放开给外面用 外面用的话统一请用PetDataCore里的 这里只是为了效率自己引用一份
     /// </summary>
     private DRPet _petCfg;
 
