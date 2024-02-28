@@ -8,9 +8,9 @@ using UnityEngine;
 public class AnimalSaveData
 {
     /// <summary>
-    /// 动物在家园系统中的全局ID和数据服那边的ID一致 和实体的ID没有直接关系
+    /// 动物在家园系统中的全局ID和数据服那边的ID一致 也是实体ID
     /// </summary>
-    public ulong AnimalId;
+    public long AnimalId;
     /// <summary>
     /// 饥饿进度 0代表完全饿了
     /// </summary>
@@ -45,7 +45,7 @@ public class AnimalSaveData
 
     }
 
-    public AnimalSaveData(ulong animalId)
+    public AnimalSaveData(long animalId)
     {
         AnimalId = animalId;
     }

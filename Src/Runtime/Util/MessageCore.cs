@@ -13,7 +13,7 @@ public static class MessageCore
     /// <summary>
     /// 家园某个已使用的动物幸福值发生变化 T0:动物唯一ID
     /// </summary>
-    public static Action<ulong> HomeOneAnimalUsedHappyChanged = delegate { };
+    public static Action<long> HomeOneAnimalUsedHappyChanged = delegate { };
 
     /// <summary>
     /// 副本关卡初始化完成
