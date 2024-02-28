@@ -206,14 +206,14 @@ public class PlayerSkillCollector : EntitySkillCollector
             return;
         }
 
-        FollowingPetDataCore petData = RefEntity.GetComponent<FollowingPetDataCore>();
-        if (petData == null)
+        PetFollowDataCore followData = RefEntity.GetComponent<PetFollowDataCore>();
+        if (followData == null)
         {
             Log.Error($"CollectSkillFromPet error, petData is null");
             return;
         }
 
-        int[] followSkills = petData.GetFollowingSkills();
+        int[] followSkills = followData.GetFollowingSkills();
         EntitySkillDataCore.SetSkillGroupIDList(eSkillGroupType.Pet, followSkills);
     }
 }
