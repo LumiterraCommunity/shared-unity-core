@@ -55,12 +55,12 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void Start()
     {
-        if (Data.DRPet != null)
+        if (PetData.PetCfg != null)
         {
-            HarvestAction = TableUtil.ToHomeAction(Data.DRPet.HarvestAction);
+            HarvestAction = TableUtil.ToHomeAction(PetData.PetCfg.HarvestAction);
             SupportAction |= HarvestAction;//收获动作添加到支持列表
 
-            if (Data.DRPet.AutoHarvest)
+            if (PetData.PetCfg.AutoHarvest)
             {
                 //https://codingmonkey.feishu.cn/docx/BgbRdOKxPo25mEx8apNcH65enlf
                 Log.Error($"动物目前不能再配置自动收获 cid:{PetData.PetCfgId}");
@@ -113,7 +113,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
         else
         {
-            if (Data.IsCanHarvest && !Data.DRPet.AutoHarvest)
+            if (Data.IsCanHarvest && !PetData.PetCfg.AutoHarvest)
             {
                 OnEnterHarvestStatus(true);
             }
@@ -153,7 +153,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
         if (Data.IsCanHarvest != oldCanHarvest && Data.IsCanHarvest)
         {
-            if (!Data.DRPet.AutoHarvest)
+            if (!PetData.PetCfg.AutoHarvest)
             {
                 OnEnterHarvestStatus(false);
             }
@@ -168,7 +168,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         AnimalSaveData saveData = Data.SaveData;
         if (saveData.HungerProgress > 0)
         {
-            saveData.HungerProgress -= Data.DRPet.HungerSpeed * Time.deltaTime;
+            saveData.HungerProgress -= PetData.PetCfg.HungerSpeed * Time.deltaTime;
 
             if (saveData.HungerProgress <= 0)//开始完全饥饿
             {
@@ -221,7 +221,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
             return false;
         }
 
-        if (Data.DRPet.AutoHarvest)
+        if (PetData.PetCfg.AutoHarvest)
         {
             return action == eAction.Appease;//自动收获的只支持安抚 不允许手动收获
         }
@@ -311,7 +311,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     protected virtual void OnExecuteHarvest(eAction action)
     {
-        if (Data.DRPet.AutoHarvest)
+        if (PetData.PetCfg.AutoHarvest)
         {
             Log.Error($"动物配置表错误 自动收获的动物不能手动收获 cid:{PetData.PetCfgId}");
             return;
