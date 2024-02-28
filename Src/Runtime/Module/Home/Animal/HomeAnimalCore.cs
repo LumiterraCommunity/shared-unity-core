@@ -377,27 +377,29 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         colliderGo.tag = MTag.HOME_ANIMAL;
     }
 
-    //TODO: pet
-    public GameMessageCore.ProxyAnimalBaseData ToProxyAnimalBaseData()
+    /// <summary>
+    /// 生成一个用于网络传输的宠物基础数据
+    /// </summary>
+    /// <returns></returns>
+    public GameMessageCore.ProxyAnimalBaseData ToProxyPetData()
     {
-        return new GameMessageCore.ProxyAnimalBaseData()
+        GameMessageCore.ProxyAnimalBaseData proxyData = new()
         {
-            // // AnimalId = AnimalId,
-            // // Name = Name,
-            // // Cid = Cid,
-            // FavorAbility = Favorability,
-            // CreateMs = CreateMs,
-            // UpdateMs = UpdateMs,
+            AnimalId = RefEntity.BaseData.Id,
+            Name = RefEntity.RoleBaseDataCore.Name,
         };
+        PetData.ToProxyPetData(proxyData);
+
+        return proxyData;
     }
 
+    /// <summary>
+    /// 从网络传输的宠物基础数据来初始化
+    /// </summary>
+    /// <param name="data"></param>
     public void InitFromNetData(GameMessageCore.ProxyAnimalBaseData data)
     {
-        // Favorability = data.FavorAbility;
-        // CreateMs = data.CreateMs;
-        // UpdateMs = data.UpdateMs;
-        // //TODO: pet ability
-
-        // SetPetCfgId(data.Cid);
+        RefEntity.RoleBaseDataCore.SetName(data.Name);
+        PetData.InitFromProxyPetData(data);
     }
 }
