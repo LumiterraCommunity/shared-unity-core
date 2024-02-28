@@ -5,12 +5,13 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /// 动物数据
 /// </summary>
-public class AnimalDataCore : MonoBehaviour
+public class AnimalDataCore : EntityBaseComponent
 {
     /// <summary>
     /// 动物Id 家园系统中的ID和数据管理Id一致
     /// </summary>
     public ulong AnimalId => _saveData.AnimalId;
+    //TODO: pet 这两个表需要删掉 直接使用PetDataCore中的数据
     /// <summary>
     /// 怪物配置表
     /// </summary>
@@ -20,13 +21,6 @@ public class AnimalDataCore : MonoBehaviour
     /// 宠物配置表,宠物都是从怪物表中转化过来的，基础属性读取怪物表，宠物特有属性读取宠物表
     /// </summary>
     public DRPet DRPet { get; private set; }
-    [SerializeField]
-    private AnimalBaseData _baseData;
-    /// <summary>
-    /// 动物基础数据 对应动物管理列表中的数据
-    /// </summary>
-    /// <value></value>
-    public AnimalBaseData BaseData => _baseData;
     [SerializeField]
     private AnimalSaveData _saveData;
     /// <summary>
@@ -60,19 +54,23 @@ public class AnimalDataCore : MonoBehaviour
     /// </summary>
     public Action<int> MsgFavorabilityChanged;
 
-    public void SetBaseData(AnimalBaseData animalBaseData)
+    public void SetPetCid(int petCid)
     {
-        _baseData = animalBaseData;
-        DRMonster = GFEntryCore.DataTable.GetDataTable<DRMonster>().GetDataRow(_baseData.Cid);
-        DRPet = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(_baseData.Cid);
+        DRMonster = GFEntryCore.DataTable.GetDataTable<DRMonster>().GetDataRow(petCid);
+        DRPet = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(petCid);
         if (DRMonster == null || DRPet == null)
         {
-            throw new Exception($"配置表中没有找到cid为{_baseData.Cid}的数据");
+            throw new Exception($"配置表中没有找到cid为{petCid}的数据");
         }
     }
 
+    /// <summary>
+    /// 初始化设置一个存储数据 如果是null代表没有 会自动创建一个
+    /// </summary>
+    /// <param name="animalSaveData"></param>
     public void SetSaveData(AnimalSaveData animalSaveData)
     {
+        ulong entityId = (ulong)RefEntity.BaseData.Id;
         if (animalSaveData != null)
         {
             if (animalSaveData.ProductSaveData != null && animalSaveData.ProductSaveData.ProductId == 0)
@@ -82,15 +80,15 @@ public class AnimalDataCore : MonoBehaviour
             }
 
             _saveData = animalSaveData;
-            if (_baseData.AnimalId != _saveData.AnimalId)
+            if (entityId != _saveData.AnimalId)
             {
-                Log.Error($"动物数据和存档数据不一致 _baseData.AnimalId:{_baseData.AnimalId} _saveData.AnimalId:{_saveData.AnimalId}");
-                _saveData.AnimalId = _baseData.AnimalId;
+                Log.Error($"动物数据和存档数据不一致 _baseData.AnimalId:{RefEntity.BaseData.Id} _saveData.AnimalId:{_saveData.AnimalId}");
+                _saveData.AnimalId = entityId;
             }
         }
         else
         {
-            _saveData = new AnimalSaveData(_baseData.AnimalId)
+            _saveData = new AnimalSaveData(entityId)
             {
                 HungerProgress = DRPet.MaxHunger
             };
