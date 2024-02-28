@@ -1,3 +1,4 @@
+using GameMessageCore;
 using UnityGameFramework.Runtime;
 
 
@@ -28,6 +29,29 @@ public class PetDataCore : EntityBaseComponent
     /// 用于播种，喂食等操作，使用道具丢炸弹等操作
     /// </summary>
     public int InHandItem { get; protected set; } = 0;
+
+    /// <summary>
+    /// 好感度数值
+    /// </summary>
+    public int Favorability;
+    /// <summary>
+    /// 动物创建时间戳
+    /// </summary>
+    public long CreateMs;
+    /// <summary>
+    /// 动物最近更新时间戳
+    /// </summary>
+    public long UpdateMs;
+
+    public void InitFromNetData(GrpcPetData petData)
+    {
+        Favorability = petData.FavorAbility;
+        CreateMs = petData.CreateMs;
+        UpdateMs = petData.UpdateMs;
+        //TODO: pet ability
+
+        SetPetCfgId(petData.Cid);
+    }
 
     public void SetPetCfgId(int cfgID)
     {
