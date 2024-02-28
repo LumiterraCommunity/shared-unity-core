@@ -3,7 +3,7 @@ using System.Collections.Generic;
  * @Author: xiang huan
  * @Date: 2023-01-11 19:15:17
  * @Description: 属性修改
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/HotFix/Module/Entity/Battle/SkillEffect/SEAttributeModifierCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAttributeModifierCore.cs
  * 
  */
 
@@ -30,6 +30,23 @@ public class SEAttributeModifierCore : SkillEffectBase
                         eAttributeType attributeType = (eAttributeType)EffectCfg.Parameters2[index][0];
                         eModifierType modifierType = (eModifierType)EffectCfg.Parameters2[index][1];
                         int value = EffectCfg.Parameters2[index][2];
+                        //基于其它属性进行加成计算
+                        if (EffectCfg.Parameters2[index].Length > 4)
+                        {
+                            eAttributeType addType = (eAttributeType)EffectCfg.Parameters2[index][3]; //加成属性类型
+                            eModifierType addModifierType = (eModifierType)EffectCfg.Parameters2[index][4]; //加成类型
+                            int addValue;
+                            if (addModifierType == eModifierType.PctAdd)
+                            {
+                                addValue = RefEntity.EntityAttributeData.GetBaseValue(addType);
+                                value = (int)(addValue * (IntAttribute.PERCENTAGE_FLAG + value) / IntAttribute.PERCENTAGE_FLAG);
+                            }
+                            else if (addModifierType == eModifierType.FinalPctAdd)
+                            {
+                                addValue = RefEntity.EntityAttributeData.GetValue(addType);
+                                value = (int)(addValue * (IntAttribute.PERCENTAGE_FLAG + value) / IntAttribute.PERCENTAGE_FLAG);
+                            }
+                        }
                         //血量做特殊处理，
                         if (attributeType == eAttributeType.HP)
                         {
