@@ -7,16 +7,6 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class AnimalDataCore : EntityBaseComponent
 {
-    //TODO: pet 这两个表需要删掉 直接使用PetDataCore中的数据
-    /// <summary>
-    /// 怪物配置表
-    /// </summary>
-    /// <value></value>
-    public DRMonster DRMonster { get; private set; }
-    /// <summary>
-    /// 宠物配置表,宠物都是从怪物表中转化过来的，基础属性读取怪物表，宠物特有属性读取宠物表
-    /// </summary>
-    public DRPet DRPet { get; private set; }
     [SerializeField]
     private AnimalSaveData _saveData;
     /// <summary>
@@ -24,6 +14,11 @@ public class AnimalDataCore : EntityBaseComponent
     /// </summary>
     /// <value></value>
     public AnimalSaveData SaveData => _saveData;
+
+    /// <summary>
+    /// 宠物配置表
+    /// </summary>
+    private DRPet _petCfg;
 
     /// <summary>
     /// 动物收获最大时间 秒
@@ -38,7 +33,7 @@ public class AnimalDataCore : EntityBaseComponent
     /// <summary>
     /// 幸福值是否有效
     /// </summary>
-    public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= DRPet.RequiredHappiness;
+    public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= _petCfg.RequiredHappiness;
 
     /// <summary>
     /// 是否饥饿状态
@@ -50,22 +45,19 @@ public class AnimalDataCore : EntityBaseComponent
     /// </summary>
     public Action<int> MsgFavorabilityChanged;
 
-    public void SetPetCid(int petCid)
-    {
-        DRMonster = GFEntryCore.DataTable.GetDataTable<DRMonster>().GetDataRow(petCid);
-        DRPet = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(petCid);
-        if (DRMonster == null || DRPet == null)
-        {
-            throw new Exception($"配置表中没有找到cid为{petCid}的数据");
-        }
-    }
-
     /// <summary>
-    /// 初始化设置一个存储数据 如果是null代表没有 会自动创建一个
+    /// 初始化数据
     /// </summary>
-    /// <param name="animalSaveData"></param>
-    public void SetSaveData(AnimalSaveData animalSaveData)
+    /// <param name="animalSaveData">如果是null代表没有 会自动创建一个</param>
+    public void InitData(int petCfgId, AnimalSaveData animalSaveData)
     {
+        _petCfg = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(petCfgId);
+        if (_petCfg == null)
+        {
+            Log.Error($"AnimalDataCore InitData Can not find pet cfg id:{petCfgId}");
+            return;
+        }
+
         long entityId = RefEntity.BaseData.Id;
         if (animalSaveData != null)
         {
@@ -86,7 +78,7 @@ public class AnimalDataCore : EntityBaseComponent
         {
             _saveData = new AnimalSaveData(entityId)
             {
-                HungerProgress = DRPet.MaxHunger
+                HungerProgress = _petCfg.MaxHunger
             };
         }
 
@@ -110,9 +102,9 @@ public class AnimalDataCore : EntityBaseComponent
     {
         if (IsHappyValid)
         {
-            int remainHappy = SaveData.Happiness - DRPet.RequiredHappiness;
+            int remainHappy = SaveData.Happiness - _petCfg.RequiredHappiness;
             remainHappy = Mathf.Max(remainHappy, 1);
-            HarvestMaxTime = (float)DRPet.BreedingDifficulty / remainHappy * TableUtil.GetGameValue(eGameValueID.AnimalHarvestTimeRate).Value;
+            HarvestMaxTime = (float)_petCfg.BreedingDifficulty / remainHappy * TableUtil.GetGameValue(eGameValueID.AnimalHarvestTimeRate).Value;
         }
         else
         {
