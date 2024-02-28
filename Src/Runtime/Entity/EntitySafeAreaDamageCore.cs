@@ -28,6 +28,7 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
 
     public void StartCheckSafeArea()
     {
+        StopCheckSafeArea();
         TimerMgr.AddTimer(GetHashCode(), TimeUtil.S2MS, CheckSafeArea, 0);
     }
 
