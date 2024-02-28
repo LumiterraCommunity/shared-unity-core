@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体安全区伤害组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntitySafeAreaDamageCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntitySafeAreaDamageCore.cs
  * 
  */
 
@@ -41,13 +41,7 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
         {
             return;
         }
-
-        SceneElementMgrCore sceneElementMgr = GFEntryCore.GetModule<SceneElementMgrCore>();
-        List<SafeAreaElementCore> safeAreaElements = sceneElementMgr.GetSceneElementListByType<SafeAreaElementCore>(eSceneElementType.SafeArea);
-        if (safeAreaElements == null || safeAreaElements.Count <= 0)
-        {
-            return;
-        }
+        //死亡不受伤害
         if (!RefEntity.BattleDataCore.IsLive())
         {
             return;
@@ -58,6 +52,13 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
         {
             return;
         }
+        SceneElementMgrCore sceneElementMgr = GFEntryCore.GetModule<SceneElementMgrCore>();
+        List<SafeAreaElementCore> safeAreaElements = sceneElementMgr.GetSceneElementListByType<SafeAreaElementCore>(eSceneElementType.SafeArea);
+        if (safeAreaElements == null || safeAreaElements.Count <= 0)
+        {
+            return;
+        }
+
 
         //理论上只有一个安全区，否则设计有问题
         SafeAreaElementCore safeAreaElement = safeAreaElements[0];
