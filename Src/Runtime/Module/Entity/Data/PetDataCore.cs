@@ -1,3 +1,4 @@
+using System;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
 
@@ -48,9 +49,30 @@ public class PetDataCore : EntityBaseComponent
         Favorability = petData.FavorAbility;
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
-        //TODO: pet ability
-
+        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
         SetPetCfgId(petData.Cid);
+    }
+
+    internal void InitFromProxyPetData(ProxyAnimalBaseData proxyData)
+    {
+        Favorability = proxyData.FavorAbility;
+        CreateMs = proxyData.CreateMs;
+        UpdateMs = proxyData.UpdateMs;
+        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
+        SetPetCfgId(proxyData.Cid);
+    }
+
+    /// <summary>
+    /// 将上层准备的proxy数据 到这里加工 填充上这里管的数据
+    /// </summary>
+    /// <param name="proxyData"></param>
+    internal void ToProxyPetData(ProxyAnimalBaseData proxyData)
+    {
+        proxyData.FavorAbility = Favorability;
+        proxyData.CreateMs = CreateMs;
+        proxyData.UpdateMs = UpdateMs;
+        proxyData.Cid = PetCfgId;
+        PetUtilCore.PetAbilityEnumToBitProtoRepeated(AllAbility, proxyData.AbilityList);
     }
 
     public void SetPetCfgId(int cfgID)
