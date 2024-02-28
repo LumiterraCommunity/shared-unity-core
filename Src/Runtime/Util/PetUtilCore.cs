@@ -5,7 +5,7 @@ using GameMessageCore;
 /// <summary>
 /// 宠物相关工具
 /// </summary>
-public static class PetUtil
+public static class PetUtilCore
 {
     /// <summary>
     /// 宠物位移数组转换为宠物能力
