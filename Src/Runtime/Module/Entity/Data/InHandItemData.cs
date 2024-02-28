@@ -3,6 +3,6 @@
 /// </summary>
 public class InHandItemData
 {
-    public int Id;//nft id,也是唯一id
+    public string Id;//nft id,也是唯一id
     public int Cid { get; private set; }//道具配置id
 }
