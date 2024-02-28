@@ -26,7 +26,7 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// 设置当前跟随的宠物，null表示取消跟随
     /// </summary>
     /// <param name="pet"></param>
-    protected void SetFollowingPet(EntityBase pet)
+    public void SetFollowingPet(EntityBase pet)
     {
         if (pet == FollowingPet)
         {
