@@ -6,8 +6,8 @@ using UnityEngine;
 public abstract class AnimalDropCore : MonoBehaviour
 {
     protected AnimalProductSaveData RefProductSaveData { get; private set; }
-    protected ulong AnimalId { get; private set; }
-    public virtual void InitAnimalDrop(AnimalProductSaveData productSaveData, ulong animalId)
+    protected long AnimalId { get; private set; }
+    public virtual void InitAnimalDrop(AnimalProductSaveData productSaveData, long animalId)
     {
         RefProductSaveData = productSaveData;
         AnimalId = animalId;

@@ -8,7 +8,7 @@ using static HomeDefine;
 /// </summary>
 public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 {
-    public ulong Id => Data.AnimalId;
+    public ulong Id => (ulong)RefEntity.BaseData.Id;
 
     public eResourceType ResourceType => eResourceType.Animal;
 
@@ -355,7 +355,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         DropEntity = GameObjectUtil.CreateGameObject($"{RefEntity.BaseData.Id}_{productSaveData.ProductId}", parent);
         DropEntity.transform.position = NetUtilCore.Vector3FromNet(productSaveData.Pos);
         AnimalDropCore drop = DropEntity.AddComponent<TDrop>();
-        drop.InitAnimalDrop(productSaveData, Data.AnimalId);
+        drop.InitAnimalDrop(productSaveData, RefEntity.BaseData.Id);
     }
 
     /// <summary>

@@ -7,10 +7,6 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class AnimalDataCore : EntityBaseComponent
 {
-    /// <summary>
-    /// 动物Id 家园系统中的ID和数据管理Id一致
-    /// </summary>
-    public ulong AnimalId => _saveData.AnimalId;
     //TODO: pet 这两个表需要删掉 直接使用PetDataCore中的数据
     /// <summary>
     /// 怪物配置表
@@ -70,7 +66,7 @@ public class AnimalDataCore : EntityBaseComponent
     /// <param name="animalSaveData"></param>
     public void SetSaveData(AnimalSaveData animalSaveData)
     {
-        ulong entityId = (ulong)RefEntity.BaseData.Id;
+        long entityId = RefEntity.BaseData.Id;
         if (animalSaveData != null)
         {
             if (animalSaveData.ProductSaveData != null && animalSaveData.ProductSaveData.ProductId == 0)
