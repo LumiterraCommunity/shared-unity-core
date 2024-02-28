@@ -8,6 +8,7 @@
 using UnityEngine;
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using GameMessageCore;
 
 public class PortalElementCore : SceneElementCore
 {
@@ -47,13 +48,13 @@ public class PortalElementCore : SceneElementCore
     public override void UpdateElementData()
     {
         base.UpdateElementData();
-        PortalElementNetData netData = new()
+        PortalElementData netData = new()
         {
             StartTime = _startTime,
-            StatusType = StatusType,
+            StatusType = (int)StatusType,
             CurUseNum = CurUseNum,
         };
-        SceneElementData.ElementData = netData.ToJson();
+        SceneElementData.Portal = netData;
     }
 
     public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum)
@@ -64,10 +65,10 @@ public class PortalElementCore : SceneElementCore
         UpdateElementData();
     }
 
-    public override void InitElementData(GameMessageCore.SceneElementData netData)
+    public override void InitElementData(SceneElementData netData)
     {
-        PortalElementNetData config = JsonConvert.DeserializeObject<PortalElementNetData>(netData.ElementData);
-        StartElement(config.StartTime, config.StatusType, config.CurUseNum);
+        PortalElementData portal = netData.Portal;
+        StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum);
     }
 
     private void UpdateStatusHide()

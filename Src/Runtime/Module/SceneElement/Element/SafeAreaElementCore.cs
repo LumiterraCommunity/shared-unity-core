@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 安全区组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
  * 
  */
 using UnityEngine;
@@ -158,12 +158,12 @@ public class SafeAreaElementCore : SceneElementCore
     public override void UpdateElementData()
     {
         base.UpdateElementData();
-        SafeAreaElementNetData netData = new()
+        GameMessageCore.SafeAreaElementData netData = new()
         {
             StartTime = _startTime,
-            Position = new System.Numerics.Vector3(transform.position.x, transform.position.y, transform.position.z),
         };
-        SceneElementData.ElementData = netData.ToJson();
+        netData.Position.Set(transform.position.x, transform.position.y, transform.position.z);
+        SceneElementData.SafeArea = netData;
     }
 
     public void StartElement(Vector3 pos, long startTime)
@@ -177,8 +177,8 @@ public class SafeAreaElementCore : SceneElementCore
 
     public override void InitElementData(GameMessageCore.SceneElementData netData)
     {
-        SafeAreaElementNetData config = JsonConvert.DeserializeObject<SafeAreaElementNetData>(netData.ElementData);
-        StartElement(new Vector3(config.Position.X, config.Position.Y, config.Position.Z), config.StartTime);
+        GameMessageCore.SafeAreaElementData safeArea = netData.SafeArea;
+        StartElement(new Vector3(safeArea.Position.X, safeArea.Position.Y, safeArea.Position.Z), safeArea.StartTime);
     }
 
     private void OnDrawGizmos()
