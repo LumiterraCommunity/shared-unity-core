@@ -1,3 +1,5 @@
+using System;
+using GameMessageCore;
 using UnityGameFramework.Runtime;
 
 
@@ -28,6 +30,50 @@ public class PetDataCore : EntityBaseComponent
     /// 用于播种，喂食等操作，使用道具丢炸弹等操作
     /// </summary>
     public int InHandItem { get; protected set; } = 0;
+
+    /// <summary>
+    /// 好感度数值
+    /// </summary>
+    public int Favorability;
+    /// <summary>
+    /// 动物创建时间戳
+    /// </summary>
+    public long CreateMs;
+    /// <summary>
+    /// 动物最近更新时间戳
+    /// </summary>
+    public long UpdateMs;
+
+    public void InitFromNetData(GrpcPetData petData)
+    {
+        Favorability = petData.FavorAbility;
+        CreateMs = petData.CreateMs;
+        UpdateMs = petData.UpdateMs;
+        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
+        SetPetCfgId(petData.Cid);
+    }
+
+    internal void InitFromProxyPetData(ProxyAnimalBaseData proxyData)
+    {
+        Favorability = proxyData.FavorAbility;
+        CreateMs = proxyData.CreateMs;
+        UpdateMs = proxyData.UpdateMs;
+        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
+        SetPetCfgId(proxyData.Cid);
+    }
+
+    /// <summary>
+    /// 将上层准备的proxy数据 到这里加工 填充上这里管的数据
+    /// </summary>
+    /// <param name="proxyData"></param>
+    internal void ToProxyPetData(ProxyAnimalBaseData proxyData)
+    {
+        proxyData.FavorAbility = Favorability;
+        proxyData.CreateMs = CreateMs;
+        proxyData.UpdateMs = UpdateMs;
+        proxyData.Cid = PetCfgId;
+        PetUtilCore.PetAbilityEnumToBitProtoRepeated(AllAbility, proxyData.AbilityList);
+    }
 
     public void SetPetCfgId(int cfgID)
     {

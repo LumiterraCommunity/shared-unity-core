@@ -4,11 +4,11 @@ using UnityGameFramework.Runtime;
 using static HomeDefine;
 
 /// <summary>
-/// 家园动物core
+/// 家园动物core 需要依赖AnimalDataCore和PetDataCore 装配时需要先添加依赖项
 /// </summary>
 public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 {
-    public ulong Id => Data.AnimalId;
+    public ulong Id => (ulong)RefEntity.BaseData.Id;
 
     public eResourceType ResourceType => eResourceType.Animal;
 
@@ -27,6 +27,11 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     /// <value></value>
     public AnimalDataCore Data { get; private set; }
+    /// <summary>
+    /// 宠物数据 方便获取及节省性能 其实和实体上挂载的一致
+    /// </summary>
+    /// <value></value>
+    public PetDataCore PetData { get; private set; }
 
     /// <summary>
     /// 自动收获的掉落实体
@@ -38,21 +43,27 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void Awake()
     {
-        Data = gameObject.AddComponent<AnimalDataCore>();
+        Data = gameObject.GetComponent<AnimalDataCore>();
+        PetData = gameObject.GetComponent<PetDataCore>();
         _animalDeadTimeFromHunger = TableUtil.GetGameValue(eGameValueID.animalDeadTimeFromHunger).Value;
+
+        if (Data == null || PetData)
+        {
+            Log.Error($"家园动物 Data 组件 is null，也可能是添加顺序反了，这个强依赖顺序");
+        }
     }
 
     protected virtual void Start()
     {
-        if (Data.DRPet != null)
+        if (PetData.PetCfg != null)
         {
-            HarvestAction = TableUtil.ToHomeAction(Data.DRPet.HarvestAction);
+            HarvestAction = TableUtil.ToHomeAction(PetData.PetCfg.HarvestAction);
             SupportAction |= HarvestAction;//收获动作添加到支持列表
 
-            if (Data.DRPet.AutoHarvest)
+            if (PetData.PetCfg.AutoHarvest)
             {
                 //https://codingmonkey.feishu.cn/docx/BgbRdOKxPo25mEx8apNcH65enlf
-                Log.Error($"动物目前不能再配置自动收获 cid:{Data.BaseData.Cid}");
+                Log.Error($"动物目前不能再配置自动收获 cid:{PetData.PetCfgId}");
             }
 
             //TODO pet 表
@@ -60,7 +71,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
         else
         {
-            Log.Error($"动物配置表为空 cid:{Data.BaseData.Cid}");
+            Log.Error($"动物配置表为空 cid:{PetData.PetCfgId}");
         }
 
         if (gameObject.TryGetComponent(out EntityCollisionCore entityCollisionCore))
@@ -102,7 +113,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
         else
         {
-            if (Data.IsCanHarvest && !Data.DRPet.AutoHarvest)
+            if (Data.IsCanHarvest && !PetData.PetCfg.AutoHarvest)
             {
                 OnEnterHarvestStatus(true);
             }
@@ -142,7 +153,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
         if (Data.IsCanHarvest != oldCanHarvest && Data.IsCanHarvest)
         {
-            if (!Data.DRPet.AutoHarvest)
+            if (!PetData.PetCfg.AutoHarvest)
             {
                 OnEnterHarvestStatus(false);
             }
@@ -157,7 +168,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         AnimalSaveData saveData = Data.SaveData;
         if (saveData.HungerProgress > 0)
         {
-            saveData.HungerProgress -= Data.DRPet.HungerSpeed * Time.deltaTime;
+            saveData.HungerProgress -= PetData.PetCfg.HungerSpeed * Time.deltaTime;
 
             if (saveData.HungerProgress <= 0)//开始完全饥饿
             {
@@ -210,7 +221,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
             return false;
         }
 
-        if (Data.DRPet.AutoHarvest)
+        if (PetData.PetCfg.AutoHarvest)
         {
             return action == eAction.Appease;//自动收获的只支持安抚 不允许手动收获
         }
@@ -286,8 +297,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         if (appeaseValid)
         {
             Data.SaveData.IsComforted = true;
-            Data.BaseData.Favorability += TableUtil.GetGameValue(eGameValueID.animalAddFavorabilityEveryAppease).Value;
-            Data.MsgFavorabilityChanged?.Invoke(Data.BaseData.Favorability);
+            PetData.Favorability += TableUtil.GetGameValue(eGameValueID.animalAddFavorabilityEveryAppease).Value;
+            Data.MsgFavorabilityChanged?.Invoke(PetData.Favorability);
         }
         gameObject.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Appease, TableUtil.GetGameValue(eGameValueID.animalAppeaseMaxActionValue).Value);
 
@@ -300,9 +311,9 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     protected virtual void OnExecuteHarvest(eAction action)
     {
-        if (Data.DRPet.AutoHarvest)
+        if (PetData.PetCfg.AutoHarvest)
         {
-            Log.Error($"动物配置表错误 自动收获的动物不能手动收获 cid:{Data.BaseData.Cid}");
+            Log.Error($"动物配置表错误 自动收获的动物不能手动收获 cid:{PetData.PetCfgId}");
             return;
         }
 
@@ -319,19 +330,19 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     {
         if (productSaveData == null)
         {
-            Log.Error($"动物收获的产品数据为空 cid:{Data.BaseData.Cid}");
+            Log.Error($"动物收获的产品数据为空 cid:{PetData.PetCfgId}");
             return;
         }
 
         if (Data.SaveData.ProductSaveData != null && !isInit)
         {
-            Log.Error($"动物收获的产品数据不为空 cid:{Data.BaseData.Cid}");
+            Log.Error($"动物收获的产品数据不为空 cid:{PetData.PetCfgId}");
             return;
         }
 
         if (DropEntity != null)
         {
-            Log.Error($"动物掉落实体不为空 cid:{Data.BaseData.Cid}");
+            Log.Error($"动物掉落实体不为空 cid:{PetData.PetCfgId}");
         }
 
         if (productSaveData.ProductId == 0)
@@ -341,10 +352,10 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
 
         Data.SaveData.ProductSaveData = productSaveData;
-        DropEntity = GameObjectUtil.CreateGameObject($"{Data.BaseData.AnimalId}_{productSaveData.ProductId}", parent);
+        DropEntity = GameObjectUtil.CreateGameObject($"{RefEntity.BaseData.Id}_{productSaveData.ProductId}", parent);
         DropEntity.transform.position = NetUtilCore.Vector3FromNet(productSaveData.Pos);
         AnimalDropCore drop = DropEntity.AddComponent<TDrop>();
-        drop.InitAnimalDrop(productSaveData, Data.AnimalId);
+        drop.InitAnimalDrop(productSaveData, RefEntity.BaseData.Id);
     }
 
     /// <summary>
@@ -364,5 +375,31 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     {
         colliderGo.layer = MLayerMask.HOME_RESOURCE;//将怪物碰撞盒改成家园触发层
         colliderGo.tag = MTag.HOME_ANIMAL;
+    }
+
+    /// <summary>
+    /// 生成一个用于网络传输的宠物基础数据
+    /// </summary>
+    /// <returns></returns>
+    public GameMessageCore.ProxyAnimalBaseData ToProxyPetData()
+    {
+        GameMessageCore.ProxyAnimalBaseData proxyData = new()
+        {
+            AnimalId = RefEntity.BaseData.Id,
+            Name = RefEntity.RoleBaseDataCore.Name,
+        };
+        PetData.ToProxyPetData(proxyData);
+
+        return proxyData;
+    }
+
+    /// <summary>
+    /// 从网络传输的宠物基础数据来初始化
+    /// </summary>
+    /// <param name="data"></param>
+    public void InitFromNetData(GameMessageCore.ProxyAnimalBaseData data)
+    {
+        RefEntity.RoleBaseDataCore.SetName(data.Name);
+        PetData.InitFromProxyPetData(data);
     }
 }
