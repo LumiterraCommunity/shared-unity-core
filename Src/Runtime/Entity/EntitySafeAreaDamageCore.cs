@@ -8,6 +8,7 @@
 
 
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 
 /// <summary>
@@ -65,11 +66,11 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
         SafeAreaElementCore safeAreaElement = safeAreaElements[0];
         if (!safeAreaElement.IsSafeArea(RefEntity.Position))
         {
-            AreaDamage(safeAreaElement.GetCurSafeAreaInfo());
+            _ = AreaDamage(safeAreaElement.GetCurSafeAreaInfo());
         }
     }
 
-    protected virtual void AreaDamage(SafeAreaElementCore.SafeAreaInfo safeAreaInfo)
+    protected virtual int AreaDamage(SafeAreaElementCore.SafeAreaInfo safeAreaInfo)
     {
         int damage = (int)(safeAreaInfo.Damage * RefEntity.BattleDataCore.HPMAX / 100);
         if (RefEntity.BattleDataCore.IsLive())
@@ -79,5 +80,6 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
 
         int hp = RefEntity.BattleDataCore.HP - damage;
         RefEntity.BattleDataCore.SetHP(hp);
+        return damage;
     }
 }
