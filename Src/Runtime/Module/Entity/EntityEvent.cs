@@ -1,7 +1,7 @@
 /* 
  * @Author XQ
  * @Date 2022-08-15 11:15:06
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
  */
 using System;
 using System.Collections.Generic;
@@ -79,7 +79,7 @@ public class EntityEvent : EntityBaseComponent
     public Action SpecialMoveStartNotMoveStatus;
     /// <summary>
     /// 实体受到伤害
-    /// T0：伤害来源 T1：伤害值
+    /// T0：伤害来源(大于0来自实体 小于0来自地形) T1：伤害值(正数)
     /// </summary>
     public Action<long, int> EntityBattleAddDamage;
 
@@ -194,6 +194,11 @@ public class EntityEvent : EntityBaseComponent
     public Action<long> BattleOwnerIDUpdate;
 
     /// <summary>
+    /// 阵营类型更新
+    /// </summary>
+    public Action ChangeCamp;
+
+    /// <summary>
     /// 实体改变战斗状态  T0:是否战斗
     /// </summary>
     public Action<bool> ChangeIsBattle;
@@ -270,5 +275,15 @@ public class EntityEvent : EntityBaseComponent
     /// 场景环境死亡 T0:伤害类型
     /// </summary>
     public Action<GameMessageCore.DamageState> OnSceneDeath;
+
+    /// <summary>
+    /// 实体战斗区域改变
+    /// </summary>
+    public Action EntityBattleAreaChange;
     #endregion
+
+    /// <summary>
+    /// 实体传送门元素
+    /// </summary>
+    public Action EntityTriggerPortalElement;
 }

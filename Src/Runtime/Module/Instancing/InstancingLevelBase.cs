@@ -14,6 +14,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     public int LevelIndex;                                                          //关卡索引
     public InstancingLevelData LevelData;                                           //关卡数据
     public eInstancingStatusType StatusType = eInstancingStatusType.InstancingInactive;       //关卡状态
+    public bool IsReward = true;                                                      //是否关卡奖励
     /// <summary>
     /// 初始化关卡数据
     /// </summary>
@@ -41,7 +42,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     /// 完成关卡
     /// </summary>
     /// <param name="isSuccess"></param>
-    public virtual bool CompleteLevel(bool isSuccess)
+    public virtual bool CompleteLevel(bool isSuccess, bool isReward = true)
     {
         if (StatusType != eInstancingStatusType.InstancingRunning)
         {
@@ -49,6 +50,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
             return false;
         }
         StatusType = isSuccess ? eInstancingStatusType.InstancingSuccess : eInstancingStatusType.InstancingFailure;
+        IsReward = isReward;
         return true;
     }
 

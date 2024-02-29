@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 10:51:41
  * @Description: 战斗公共定义
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
  * 
  */
 
@@ -15,6 +15,11 @@ public static class BattleDefine
     /// 检测技能命中最大碰撞体数量 为了GC
     /// </summary>
     public const int SKILL_CHECK_HIT_MAX_COLLIDER_NUM = 50;
+
+    /// <summary>
+    /// 地形伤害实体ID 包括了毒圈 掉落 溺水等 为了给统一的实体伤害事件处理
+    /// </summary>
+    public const long SCENE_DAMAGE_ENTITY_ID = -999;
 
     public enum eSkillShapeId : int
     {
@@ -64,6 +69,28 @@ public static class BattleDefine
     public const float MAX_PARABOLA_FLYER_HEIGHT = 2.5f;  // 抛物线子弹最大高度
 
     public const int PLAYER_DEATH_STATUS_TIME = 60000;  // 玩家死亡状态时间
+    public const int PEACE_AREA_ID = 1;  // 和平区域ID
+
+    public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampFriend = new()
+    {
+        {eEntityCampType.Monster, new HashSet<eEntityCampType> {eEntityCampType.Monster}},
+        {eEntityCampType.Player, new HashSet<eEntityCampType> {eEntityCampType.Player}},
+        {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {}},
+    };
+
+    public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampEnemy = new()
+    {
+        {eEntityCampType.Monster, new HashSet<eEntityCampType> {eEntityCampType.Player, eEntityCampType.PlayerPVP}},
+        {eEntityCampType.Player, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.PlayerPVP}},
+        {eEntityCampType.PlayerPVP, new HashSet<eEntityCampType> {eEntityCampType.Monster, eEntityCampType.Player, eEntityCampType.PlayerPVP}},
+    };
+
+    public static readonly HashSet<eEntityCampType> PlayerCampList = new()
+    {
+        eEntityCampType.Player,
+        eEntityCampType.PlayerPVP,
+    };
+
 }
 public enum eEntityCDType : int
 {
@@ -94,4 +121,18 @@ public enum eSkillTargetType : int
 {
     Enemy = 1 << 1,  //敌方目标
     Friend = 1 << 2,  //友方目标
+}
+
+public enum eEntityCampType : int
+{
+    Monster = 1,  //怪物阵营
+    Player = 2,   //玩家阵营
+    PlayerPVP = 3,  //玩家PVP阵营
+}
+
+public enum eBattleAreaType : int
+{
+    Peace = 1,    //和平区域，无法攻击
+    Danger = 2,   //危险区域，敌对阵营可以攻击
+    Chaos = 3,    //混乱区域，可以攻击任何阵营
 }

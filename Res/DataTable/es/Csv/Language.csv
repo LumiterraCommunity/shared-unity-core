@@ -152,15 +152,15 @@ describe-string,id-int,module-string,value-string
 ,20090012,任务,Mejorar el nodo {0} al nivel {1}
 ,20090013,任务,{0} Artículos seleccionados
 ,20090014,任务,{0} Artículo seleccionado
-,20090015,,Desconocido
-,20090016,,Diario
-,20090017,,Recompensa
+,20090015,任务,Desconocido
+,20090016,任务,Diario
+,20090017,任务,Recompensa
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
 ,20100002,专精,Batalla
 ,20100003,专精,Recolectar
-,20100004,专精,General
+,20100004,,
 ,20100005,,El nivel es máximo
 ,20100006,,Falta de EXP {0}
 ,20100007,nft 关键字,Falta de fichas
@@ -196,6 +196,7 @@ describe-string,id-int,module-string,value-string
 ,20120013,登录,Error en el inicio de sesión de la billetera
 ,20120014,登录,Inicializar billetera
 ,20120015,登录, Waktu habis untuk menginisialisasi dompet
+,20120016,登录,
 ,20130000,组队, Equipo de {0}
 ,20130001,组队,Solicitud enviada
 ,20130002,组队,"Te has unido al equipo, por favor sal del equipo primero"
@@ -203,7 +204,7 @@ describe-string,id-int,module-string,value-string
 ,20130004,组队,Formato de nombre inválido
 ,20130005,组队,Formato de descripción inválido
 ,20130006,组队,Ya estás aquí
-,20130007,,{0} te invita a unirte al equipo
+,20130007,组队,{0} te invita a unirte al equipo
 ,20140001,网络," Excepción de red, por favor inténtelo de nuevo"
 弱网提示标题,20140002,网络, Red
 ,20150001,副本,Escapar conllevará penalizaciones por fracaso. ¿Estás seguro de que quieres abandonar?
@@ -234,8 +235,10 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20160006,副本,Mundo abierto.
 ,20160007,副本,Hogar de {0}.
 ,20160008,副本,Mazmorra.
-,20160009,,Área desconocida.
-,20160010,,Solo el líder del equipo puede operar.
+,20160009,副本,Área desconocida.
+,20160010,副本,Solo el líder del equipo puede operar.
+,20160011,,
+,20160012,,
 ,20170000,合成,Entrar en la cola
 ,20170001,合成,La cola de fabricación está llena.
 ,20170002,合成,La receta de fabricación no está desbloqueada.
@@ -264,3 +267,8 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20200004,活动, vender boleto exitoso
 ,20200005,活动, vender boleto fallido
 ,20210000,钱包相关, ¡La solicitud de saldo de tokens ha fallado!
+,20220001,战报,
+,20220002,战报,
+,20220003,战报,
+,20220004,战报,
+地形杀时,20220005,战报,

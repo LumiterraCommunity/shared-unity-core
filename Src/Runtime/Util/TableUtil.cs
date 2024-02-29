@@ -70,6 +70,12 @@ public static class TableUtil
             Log.Error($"GetLanguage DRLanguage is null id = {id}");
             return $"#{id}";
         }
+
+        if (string.IsNullOrEmpty(drLanguage.Value))//如果没有翻译为空
+        {
+            return $"#{id} empty";
+        }
+
         return drLanguage.Value;
     }
 
@@ -198,5 +204,49 @@ public static class TableUtil
     {
         float coefficient = GetAttributeCoefficient(type);
         return (int)(realValue / coefficient);
+    }
+
+    /// <summary>
+    /// 检查当前时间(hour)场景是否开启
+    /// </summary>
+    /// <param name="mapId"></param>
+    /// <returns></returns>
+    public static bool SceneIsOpened(int mapId)
+    {
+        DRSceneArea areaRow = GFEntryCore.DataTable.GetDataTable<DRSceneArea>().GetDataRow(mapId);
+        if (areaRow == null)
+        {
+            Log.Error($"map {mapId} not found");
+            return false;
+        }
+        // 非副本随时可以开启 or 没有配置开启时间段,默认随时可以开启
+        if (areaRow.SceneType != (int)GameMessageCore.SceneServiceSubType.Dungeon || areaRow.ReleaseTime.Length == 0)
+        {
+            return true;
+        }
+
+        // 检查开启时间段
+        bool opened = false;
+        DateTime now = TimeUtil.TimeStamp2DataTime(TimeUtil.GetServerTimeStamp());
+        double minutesNow = now.TimeOfDay.TotalMinutes;
+        foreach (int[] timeInfoRow in areaRow.ReleaseTime)
+        {
+            if (timeInfoRow.Length != 2)
+            {
+                continue;
+            }
+
+            int minutesBegin = timeInfoRow[0];
+            int minutesEnd = timeInfoRow[1];
+
+            bool isInPeriod = minutesNow >= minutesBegin && minutesNow < minutesEnd;
+
+            if (isInPeriod)
+            {
+                opened = true;
+                break;
+            }
+        }
+        return opened;
     }
 }

@@ -18,6 +18,11 @@ public class ResourcesPointDataNodeCpt : MonoBehaviour, IServerDataNodeCpt
     private int _configId;
     public int ConfigId => _configId;
 
+    [Header("等级范围")]
+    [SerializeField]
+    private string _levelRange;
+    public string LevelRange => _levelRange;
+
     [Header("刷新间隔时间(ms)")]
     [SerializeField]
     private int _updateInterval;
@@ -49,6 +54,7 @@ public class ResourcesPointDataNodeCpt : MonoBehaviour, IServerDataNodeCpt
     public string AIName;
     public object GetServerData()
     {
+
         ResourcesPointData data = new()
         {
             X = transform.position.x,
@@ -64,6 +70,10 @@ public class ResourcesPointDataNodeCpt : MonoBehaviour, IServerDataNodeCpt
             PatrolPath = _patrolPath,
             AIName = AIName
         };
+        if (!string.IsNullOrEmpty(_levelRange))
+        {
+            data.LevelRange = DataTableParseUtil.ParseArray<int>(_levelRange);
+        }
         return data;
     }
 }

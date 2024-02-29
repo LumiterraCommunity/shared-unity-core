@@ -152,15 +152,15 @@ describe-string,id-int,module-string,value-string
 ,20090012,任务, Améliorer le nœud {0} au niveau {1}
 ,20090013,任务,{0} Objets sélectionnés 
 ,20090014,任务,{0} Objet sélectionné 
-,20090015,,Inconnu 
-,20090016,,Quotidien 
-,20090017,,Prime
+,20090015,任务,Inconnu 
+,20090016,任务,Quotidien 
+,20090017,任务,Prime
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
 ,20100002,专精, Combat
 ,20100003,专精, Collecte
-,20100004,专精, Général
+,20100004,,
 ,20100005,, Niveau maximum
 ,20100006,, Manque d'EXP {0}
 ,20100007,nft 关键字, Manque de jeton
@@ -196,6 +196,7 @@ describe-string,id-int,module-string,value-string
 ,20120013,登录,Échec de la connexion au portefeuille
 ,20120014,登录,Initialiser le portefeuille
 ,20120015,登录,Délai d'initialisation du portefeuille expiré
+,20120016,登录,
 ,20130000,组队,Équipe de {0} 
 ,20130001,组队,Demande envoyée
 ,20130002,组队,"Vous avez rejoint l'équipe, veuillez d'abord quitter l'équipe"
@@ -203,7 +204,7 @@ describe-string,id-int,module-string,value-string
 ,20130004,组队,Format de nom invalide
 ,20130005,组队,Format de description invalide
 ,20130006,组队,Vous êtes déjà ici
-,20130007,,{0} vous invite à rejoindre l'équipe
+,20130007,组队,{0} vous invite à rejoindre l'équipe
 ,20140001,网络,"Exception réseau, veuillez réessayer "
 弱网提示标题,20140002,网络,Réseau 
 ,20150001,副本,S'enfuir entraînera des pénalités en cas d'échec. Êtes-vous sûr de vouloir abandonner ?
@@ -234,8 +235,10 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20160006,副本,Monde ouvert
 ,20160007,副本,Maison de 
 ,20160008,副本,Donjon
-,20160009,,Zone inconnue
-,20160010,,Seul le chef d'équipe peut agir.
+,20160009,副本,Zone inconnue
+,20160010,副本,Seul le chef d'équipe peut agir.
+,20160011,,
+,20160012,,
 ,20170000,合成,Entrer dans la file d'attente
 ,20170001,合成,La file d'artisanat est pleine.
 ,20170002,合成,La recette d'artisanat n'est pas déverrouillée.
@@ -264,3 +267,8 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20200004,活动,Vente du ticket réussie
 ,20200005,活动,Échec de la vente du ticket
 ,20210000,钱包相关, La demande de solde de jetons a échoué !
+,20220001,战报,
+,20220002,战报,
+,20220003,战报,
+,20220004,战报,
+地形杀时,20220005,战报,

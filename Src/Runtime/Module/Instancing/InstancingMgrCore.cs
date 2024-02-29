@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本管理
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
  * 
  */
 using System;
@@ -20,6 +20,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public int CurLevelIndex = 0; //当前关卡
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
+    public bool IsMatchComplete = false; //是否匹配完成
     public static GameObject Root { get; private set; }
     private void Awake()
     {
@@ -28,6 +29,11 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
             Root = new GameObject("InstancingMgr");
             Root.transform.SetParent(gameObject.transform);
         }
+    }
+
+    public virtual void CompleteMatch()
+    {
+        IsMatchComplete = true;
     }
 
     /// <summary>
@@ -57,7 +63,8 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     /// </summary>
     /// <param name="index"></param>
     /// <param name="isSuccess"></param>
-    public virtual bool CompleteLevel(int index, bool isSuccess)
+    /// <param name="isReward"></param>
+    public virtual bool CompleteLevel(int index, bool isSuccess, bool isReward = true)
     {
         if (index < 0 || index >= LevelList.Count)
         {
@@ -65,7 +72,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
             return false;
         }
 
-        if (!LevelList[index].CompleteLevel(isSuccess))
+        if (!LevelList[index].CompleteLevel(isSuccess, isReward))
         {
             return false;
         }

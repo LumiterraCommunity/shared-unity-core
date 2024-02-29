@@ -18,18 +18,18 @@ namespace SharedCore.Editor
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
-            if (GUILayout.Button("生成唯一ID"))
-            {
+            // if (GUILayout.Button("生成唯一ID"))
+            // {
 
-                for (int i = 0; i < targets.Length; i++)
-                {
-                    HomeResourcesArea homeResourcesArea = targets[i] as HomeResourcesArea;
-                    if (homeResourcesArea == null) continue;
-                    GlobalObjectId globalObjectId = GlobalObjectId.GetGlobalObjectIdSlow(targets[i]);
-                    homeResourcesArea.Id = globalObjectId.targetPrefabId.GetHashCode();
-                    EditorUtility.SetDirty(homeResourcesArea);
-                }
-            }
+            //     for (int i = 0; i < targets.Length; i++)
+            //     {
+            //         HomeResourcesArea homeResourcesArea = targets[i] as HomeResourcesArea;
+            //         if (homeResourcesArea == null) continue;
+            //         GlobalObjectId globalObjectId = GlobalObjectId.GetGlobalObjectIdSlow(targets[i]);
+            //         homeResourcesArea.Id = globalObjectId.targetPrefabId.GetHashCode();
+            //         EditorUtility.SetDirty(homeResourcesArea);
+            //     }
+            // }
         }
     }
 }

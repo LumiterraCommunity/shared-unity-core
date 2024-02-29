@@ -39,6 +39,11 @@ public class SENormalDamageCore : SkillEffectBase
         //场景伤害
         if (SkillUtil.IsSceneDeath(EffectData.DamageValue.DmgState))
         {
+            if (RefEntity.BattleDataCore.IsLive())
+            {
+                RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(BattleDefine.SCENE_DAMAGE_ENTITY_ID, -EffectData.DamageValue.DeltaInt);
+            }
+
             RefEntity.BattleDataCore.SetHP(EffectData.DamageValue.CurrentInt);
             if (!RefEntity.BattleDataCore.IsLive())
             {
