@@ -130,22 +130,6 @@ public static class TimeUtil
         return s_syncSvrTimeLogic.ServerLocalTimestamp;
     }
 
-    /// <summary>
-    /// 获取当前服务器时间
-    /// !!尽量不要在update里面使用，比如计算倒计时表现（该方法获得的时间可能会有抖动的）
-    /// </summary>
-    /// <returns></returns>
-    public static DateTime GetServerTime()
-    {
-        DateTime unixEpoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-        long unixTimeStamp = GetServerTimeStamp();
-        TimeSpan timeSpan = TimeSpan.FromMilliseconds(unixTimeStamp);
-        DateTime utcDateTime = unixEpoch.Add(timeSpan);
-        return utcDateTime;
-    }
-
-
-
     public static long GetTimeStampByInputString(string inputStr)
     {
         string[] strList = inputStr.Split("-");
