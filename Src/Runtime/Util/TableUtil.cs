@@ -228,7 +228,7 @@ public static class TableUtil
         // 检查开启时间段
         bool opened = false;
         DateTime now = TimeUtil.TimeStamp2DataTime(TimeUtil.GetServerTimeStamp());
-        int minutesNow = (now.Hour * TimeUtil.MinutesOfHour) + now.Minute;
+        double minutesNow = now.TimeOfDay.TotalMinutes;
         foreach (int[] timeInfoRow in areaRow.ReleaseTime)
         {
             if (timeInfoRow.Length != 2)
