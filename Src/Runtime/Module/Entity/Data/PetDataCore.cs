@@ -46,7 +46,7 @@ public class PetDataCore : EntityBaseComponent
 
     public void InitFromNetData(GrpcPetData petData)
     {
-        Favorability = petData.FavorAbility;
+        Favorability = petData.Favorability;
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
         AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
