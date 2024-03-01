@@ -141,6 +141,15 @@ public class DRPet : DataRowBase
     }
 
     /// <summary>
+  /**获取toEggProbability-int。*/
+    /// </summary>
+    public int ToEggProbability
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取upgradeEXP-int[]。*/
     /// </summary>
     public int[] UpgradeEXP
@@ -168,6 +177,7 @@ public class DRPet : DataRowBase
         PotWashingItem = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         RequiredHappiness = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        ToEggProbability = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UpgradeEXP = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
@@ -194,6 +204,7 @@ public class DRPet : DataRowBase
                 PotWashingItem = binaryReader.ReadArray<Int32>();
                 RequiredHappiness = binaryReader.Read7BitEncodedInt32();
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
+                ToEggProbability = binaryReader.Read7BitEncodedInt32();
                 UpgradeEXP = binaryReader.ReadArray<Int32>();
             }
         }
