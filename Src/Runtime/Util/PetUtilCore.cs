@@ -50,4 +50,14 @@ public static class PetUtilCore
             }
         }
     }
+
+    /// <summary>
+    /// 通过位移获取宠物能力
+    /// </summary>
+    /// <param name="bitOffset"></param>
+    /// <returns></returns>
+    public static ePetAbility PetAbilityFromBitOffset(int bitOffset)
+    {
+        return (ePetAbility)(1 << bitOffset);
+    }
 }
