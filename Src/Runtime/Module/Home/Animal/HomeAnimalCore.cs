@@ -47,7 +47,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         PetData = gameObject.GetComponent<PetDataCore>();
         _animalDeadTimeFromHunger = TableUtil.GetGameValue(eGameValueID.animalDeadTimeFromHunger).Value;
 
-        if (Data == null || PetData)
+        if (Data == null || PetData == null)
         {
             Log.Error($"家园动物 Data 组件 is null，也可能是添加顺序反了，这个强依赖顺序");
         }
