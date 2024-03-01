@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
 
@@ -13,6 +14,10 @@ public class PetDataCore : EntityBaseComponent
     /// 宠物所有特性集合,通过位存储
     /// </summary>
     public ePetAbility AllAbility { get; protected set; } = ePetAbility.None;
+    /// <summary>
+    /// 宠物特性对应的技能ID
+    /// </summary>
+    public Dictionary<ePetAbility, int> AbilityToSkillIdDic = new();
     /// <summary>
     /// 宠物主人ID
     /// </summary>
@@ -75,6 +80,47 @@ public class PetDataCore : EntityBaseComponent
         PetUtilCore.PetAbilityEnumToBitProtoRepeated(AllAbility, proxyData.AbilityList);
     }
 
+    /// <summary>
+    /// 初始化宠物特性对应的技能ID
+    /// !!注意，该函数一定要在设置完宠物特性和宠物配置后调用
+    /// </summary>
+    private void InitAbilityToSkillDic()
+    {
+        if (PetCfg == null)
+        {
+            Log.Error("PetCfg is null");
+            return;
+        }
+
+        if (AllAbility == ePetAbility.None)
+        {
+            return;//如果没有特性，就不用初始化技能了
+        }
+
+        int[][] abilityInfos = PetCfg.Ability;
+        for (int i = 0; i < abilityInfos.Length; i++)
+        {
+            int[] abilityInfo = abilityInfos[i];
+            if (abilityInfo.Length != 3)
+            {
+                Log.Error($"Pet ability config error, id:{PetCfg.Id}");
+                continue;
+            }
+            int skillId = abilityInfo[2];
+            if (skillId <= 0)
+            {
+                continue;
+            }
+            ePetAbility ability = PetUtilCore.PetAbilityFromBitOffset(abilityInfo[0]);
+            if (!HasPetAbility(ability))
+            {
+                continue;//虽然配置了技能，但是宠物的特性是随机生成的，所以可能没有这个特性
+            }
+
+            AbilityToSkillIdDic[ability] = skillId;
+        }
+    }
+
     public void SetPetCfgId(int cfgID)
     {
         PetCfg = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(cfgID);
@@ -82,7 +128,10 @@ public class PetDataCore : EntityBaseComponent
         if (PetCfg == null)
         {
             Log.Error($"Can not find pet cfg id:{cfgID}");
+            return;
         }
+
+        InitAbilityToSkillDic();
     }
 
     /// <summary>
