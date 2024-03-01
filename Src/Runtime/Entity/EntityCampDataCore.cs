@@ -7,6 +7,7 @@
  */
 
 using System.Collections.Generic;
+using UnityGameFramework.Runtime;
 
 
 /// <summary>
@@ -14,15 +15,43 @@ using System.Collections.Generic;
 /// </summary>
 public class EntityCampDataCore : EntityBaseComponent
 {
+    private EntityBase _refOwner;
+    public EntityBase RefOwner
+    {
+        get
+        {
+            //宠物获取主人
+            if (_refOwner == null && RefEntity.BaseData.Type == GameMessageCore.EntityType.Pet)
+            {
+                if (_refOwner.TryGetComponent(out PetDataCore PetDataCore))
+                {
+                    if (!GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(PetDataCore.OwnerId, out _refOwner))
+                    {
+                        Log.Error("EntityCampDataCore Owner is null");
+                    };
+                }
+
+            }
+            return _refOwner;
+        }
+    }
+
+    private eEntityCampType _campType;
+
     /// <summary>
     /// 阵营类型
     /// </summary>
     /// <value></value>
-    public eEntityCampType CampType;
+    public eEntityCampType CampType => RefOwner != null ? RefOwner.EntityCampDataCore.GetCampType() : _campType;
 
     public void Init(eEntityCampType campType)
     {
-        CampType = campType;
+        _campType = campType;
+    }
+
+    protected eEntityCampType GetCampType()
+    {
+        return _campType;
     }
 
     /// <summary>
@@ -80,7 +109,7 @@ public class EntityCampDataCore : EntityBaseComponent
 
     public virtual bool ChangeCamp(eEntityCampType campType)
     {
-        CampType = campType;
+        _campType = campType;
         RefEntity.EntityEvent.ChangeCamp?.Invoke();
         return true;
     }
