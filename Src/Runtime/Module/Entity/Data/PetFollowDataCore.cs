@@ -29,6 +29,12 @@ public class PetFollowDataCore : EntityBaseComponent
     /// <returns></returns>
     public int[] GetFollowingSkills()
     {
+        if (_petDataCore == null)
+        {
+            //可能还没Start，这里要判断一下
+            return new int[] { };
+        }
+
         if (!_petDataCore.HasPetAbility(ePetAbility.SkillExtend) || !IsFollowing)
         {
             //没有扩展技能特性或者当前没在跟随
