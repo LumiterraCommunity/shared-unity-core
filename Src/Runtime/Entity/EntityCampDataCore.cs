@@ -21,7 +21,7 @@ public class EntityCampDataCore : EntityBaseComponent
         get
         {
             //宠物获取主人
-            if (_refOwner == null && RefEntity.BaseData.Type == GameMessageCore.EntityType.Pet)
+            if (_refOwner != null && RefEntity.BaseData.Type == GameMessageCore.EntityType.Pet)
             {
                 if (_refOwner.TryGetComponent(out PetDataCore PetDataCore))
                 {
