@@ -1,5 +1,5 @@
 using UnityEngine;
-public class EntityBaseData : MonoBehaviour
+public class EntityBaseData : EntityBaseComponent
 {
     [SerializeField]
     private long _id;
