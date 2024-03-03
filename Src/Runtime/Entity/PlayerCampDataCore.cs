@@ -19,8 +19,9 @@ public class PlayerCampDataCore : EntityCampDataCore
     /// </summary>
     public override bool IsEnemy(EntityBase other)
     {
+        EntityBase ownerEntity = other.EntityCampDataCore.RefOwner ?? other;
         //检测目标所在区域
-        if (other.TryGetComponent(out EntityBattleArea entityBattleArea))
+        if (ownerEntity.TryGetComponent(out EntityBattleArea entityBattleArea))
         {
             //和平区域不可以攻击
             if (entityBattleArea.CurAreaType == eBattleAreaType.Peace)

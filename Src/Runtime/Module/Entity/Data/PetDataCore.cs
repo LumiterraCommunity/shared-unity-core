@@ -26,6 +26,12 @@ public class PetDataCore : EntityBaseComponent
     /// 宠物配置
     /// </summary>
     public DRPet PetCfg { protected set; get; }
+
+    /// <summary>
+    /// 怪物和宠物同ID配置, 宠物战斗时使用
+    /// </summary>
+    public DRMonster MonsterCfg { get; protected set; }
+
     /// <summary>
     /// 宠物配置
     /// </summary>
@@ -132,6 +138,11 @@ public class PetDataCore : EntityBaseComponent
         }
 
         InitAbilityToSkillDic();
+        MonsterCfg = GFEntryCore.DataTable.GetDataTable<DRMonster>().GetDataRow(cfgID);
+        if (MonsterCfg == null)
+        {
+            Log.Error($"Can not find monster cfg id:{cfgID}");
+        }
     }
 
     /// <summary>
