@@ -206,7 +206,7 @@ public class PlayerSkillCollector : EntitySkillCollector
             return;
         }
 
-        PetFollowDataCore followData = RefEntity.GetComponent<PetFollowDataCore>();
+        PetFollowDataCore followData = pet.GetComponent<PetFollowDataCore>();
         if (followData == null)
         {
             Log.Error($"CollectSkillFromPet error, petData is null");
