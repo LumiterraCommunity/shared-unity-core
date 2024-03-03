@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体阵营数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
  * 
  */
 
@@ -21,9 +21,9 @@ public class EntityCampDataCore : EntityBaseComponent
         get
         {
             //宠物获取主人
-            if (_refOwner != null && RefEntity.BaseData.Type == GameMessageCore.EntityType.Pet)
+            if (_refOwner == null && RefEntity.BaseData.Type == GameMessageCore.EntityType.Pet)
             {
-                if (_refOwner.TryGetComponent(out PetDataCore PetDataCore))
+                if (RefEntity.TryGetComponent(out PetDataCore PetDataCore))
                 {
                     if (!GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(PetDataCore.OwnerId, out _refOwner))
                     {
