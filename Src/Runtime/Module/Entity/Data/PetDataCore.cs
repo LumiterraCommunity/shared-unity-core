@@ -64,7 +64,7 @@ public class PetDataCore : EntityBaseComponent
         SetPetCfgId(petData.Cid);
     }
 
-    internal void InitFromProxyPetData(ProxyAnimalBaseData proxyData)
+    public void InitFromProxyPetData(ProxyAnimalBaseData proxyData)
     {
         Favorability = proxyData.FavorAbility;
         CreateMs = proxyData.CreateMs;
