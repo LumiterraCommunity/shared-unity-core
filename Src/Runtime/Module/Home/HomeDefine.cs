@@ -92,6 +92,11 @@ public static class HomeDefine
     /// </summary>
     public const int ANIMAL_DETAIL_INFO_SHOW_DISTANCE = 3;
 
+    /// <summary>
+    /// 宠物采集资源时检测主人附近多少距离 米
+    /// </summary>
+    public const float PET_COLLECT_RESOURCE_CHECK_RADIUS = 15;
+
 
     #endregion
 
