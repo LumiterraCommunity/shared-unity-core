@@ -77,7 +77,7 @@ public class PetDataCore : EntityBaseComponent
     /// 将上层准备的proxy数据 到这里加工 填充上这里管的数据
     /// </summary>
     /// <param name="proxyData"></param>
-    internal void ToProxyPetData(ProxyAnimalBaseData proxyData)
+    public void ToProxyPetData(ProxyAnimalBaseData proxyData)
     {
         proxyData.FavorAbility = Favorability;
         proxyData.CreateMs = CreateMs;
