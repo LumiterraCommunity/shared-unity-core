@@ -3,7 +3,6 @@
  * @Date 2022-08-09 09:51:55
  * @FilePath /Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Data/PlayerRoleDataCore.cs
  */
-using System.Collections.Generic;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
 
@@ -55,13 +54,6 @@ public class PlayerRoleDataCore : EntityBaseComponent
     public bool IsLockAutoRecovery { get; private set; }
 
     /// <summary>
-    /// 角色穿着数据
-    /// 用字典方便业务层使用
-    /// </summary>
-    /// <value></value>
-    public Dictionary<AvatarPosition, AvatarAttribute> WearDic { get; protected set; } = new();
-
-    /// <summary>
     /// 角色邀请码
     /// 先放在这里，节省一个组件的开销
     /// </summary>
@@ -94,16 +86,6 @@ public class PlayerRoleDataCore : EntityBaseComponent
     public void SetRoleFeature(PlayerFeature feature)
     {
         RoleFeature = feature;
-    }
-
-    public void SetRoleAvatars(IEnumerable<AvatarAttribute> avatars)
-    {
-        WearDic.Clear();
-        foreach (AvatarAttribute avatar in avatars)
-        {
-            WearDic.Add(avatar.Position, avatar);
-        }
-        RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
 
     /// <summary>
