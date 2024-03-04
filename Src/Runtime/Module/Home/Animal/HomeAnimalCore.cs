@@ -237,14 +237,14 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
     }
 
-    public void ExecuteAction(eAction action, int toolCid, int skillId, long playerId, object actionData)
+    public void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId)
     {
         if (action == eAction.Appease)//安抚
         {
             try
             {
                 int usedHappy = (int)actionData;
-                OnExecuteAppease(Data.SaveData.IsComforted == false, usedHappy, playerId);
+                OnExecuteAppease(Data.SaveData.IsComforted == false, usedHappy);
             }
             catch (System.Exception e)
             {
@@ -257,7 +257,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
     }
 
-    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect, long playerId)
+    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
 
     }
@@ -291,8 +291,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     /// <param name="appeaseValid">是否有效抚摸 无效代表一个成熟阶段重复抚摸</param>
     /// <param name="usedHappy">抚摸使用的的幸福值</param>
-    /// <param name="playerId">抚摸的玩家id</param>
-    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy, long playerId)
+    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy)
     {
         if (appeaseValid)
         {
