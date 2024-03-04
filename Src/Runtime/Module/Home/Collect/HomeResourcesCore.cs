@@ -106,7 +106,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         return (SupportAction & action) != 0;
     }
 
-    public void ExecuteAction(eAction action, int toolCid, int skillId, long playerId, object actionData)
+    public void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId)
     {
         if (!CheckSupportAction(action))
         {
@@ -124,7 +124,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     {
     }
 
-    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect, long playerId)
+    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
 
     }

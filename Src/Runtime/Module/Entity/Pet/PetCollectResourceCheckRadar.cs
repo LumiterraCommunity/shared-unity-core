@@ -86,4 +86,32 @@ public class PetCollectResourceCheckRadar : CheckEntityRadarBase
             }
         }
     }
+
+    /// <summary>
+    /// 获取最近的某种资源实体id 每次都会遍历 有性能问题 慎用
+    /// </summary>
+    /// <param name="targetResType"></param>
+    /// <returns>返回0代表没有</returns>
+    public long GetNearestResourceEntityId(eAction targetResType)
+    {
+        if (!_resTypeMap.TryGetValue(targetResType, out List<HomeResourcesCore> resources))
+        {
+            return 0;
+        }
+
+        float minDistance = float.MaxValue;
+        long nearestEntityId = 0;
+
+        foreach (HomeResourcesCore resource in resources)
+        {
+            float distance = Vector3.Distance(transform.position, resource.Position);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                nearestEntityId = resource.RefEntity.BaseData.Id;
+            }
+        }
+
+        return nearestEntityId;
+    }
 }
