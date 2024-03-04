@@ -244,7 +244,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
             try
             {
                 int usedHappy = (int)actionData;
-                OnExecuteAppease(Data.SaveData.IsComforted == false, usedHappy);
+                OnExecuteAppease(Data.SaveData.IsComforted == false, usedHappy, playerId);
             }
             catch (System.Exception e)
             {
@@ -291,7 +291,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     /// <param name="appeaseValid">是否有效抚摸 无效代表一个成熟阶段重复抚摸</param>
     /// <param name="usedHappy">抚摸使用的的幸福值</param>
-    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy)
+    /// <param name="playerId">抚摸的玩家id</param>
+    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy, long playerId)
     {
         if (appeaseValid)
         {
