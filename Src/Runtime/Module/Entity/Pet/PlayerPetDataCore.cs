@@ -48,7 +48,7 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// <param name="target"></param>
     private void SetPetFlowingTarget(EntityBase pet, EntityBase target)
     {
-        if (pet == null)
+        if (pet == null || !pet.Inited)
         {
             return;
         }
