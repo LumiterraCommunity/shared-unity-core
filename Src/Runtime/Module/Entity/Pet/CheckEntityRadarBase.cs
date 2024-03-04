@@ -38,6 +38,10 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
         SphereCollider collider = _triggerRoot.AddComponent<SphereCollider>();
         collider.radius = CheckRadius;
         collider.isTrigger = true;
+
+        RadarHelper helper = _triggerRoot.AddComponent<RadarHelper>();
+        helper.OnOneTriggerEnter += OnOneTriggerEnter;
+        helper.OnOneTriggerExit += OnOneTriggerExit;
     }
 
     protected virtual void OnDestroy()
@@ -56,7 +60,7 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
         _entityColliderMap.Clear();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnOneTriggerEnter(Collider other)
     {
         //不是指定层
         if ((CheckLayer & (1 << other.gameObject.layer)) == 0)
@@ -64,16 +68,14 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
             return;
         }
 
-        //不是实体
-        if (!other.TryGetComponent(out EntityBaseData entityBaseData))
+        //在本碰撞体和最多上层父级中找实体组件 找不到说明不是实体不理会
+        if (other.TryGetComponent(out EntityBaseData entityBaseData) || (other.transform.parent && other.transform.parent.TryGetComponent(out entityBaseData)))
         {
-            return;
+            AddEntity(entityBaseData.RefEntity, other);
         }
-
-        AddEntity(entityBaseData.RefEntity, other);
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnOneTriggerExit(Collider other)
     {
         if (_entityColliderMap.TryGetValue(other.GetHashCode(), out EntityBase entity))
         {
