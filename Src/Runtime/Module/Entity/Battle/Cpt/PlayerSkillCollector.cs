@@ -146,11 +146,13 @@ public class PlayerSkillCollector : EntitySkillCollector
 
     protected override void OnUpdateEquipmentSkillID()
     {
-        if (RoleDataCore == null)
+        EntityAvatarDataCore avatarData = RefEntity.GetComponent<EntityAvatarDataCore>();
+        if (avatarData == null)
         {
             return;
         }
-        if (RoleDataCore.WearDic.TryGetValue(AvatarPosition.Weapon, out AvatarAttribute avatar))
+
+        if (avatarData.AvatarDic.TryGetValue(AvatarPosition.Weapon, out AvatarAttribute avatar))
         {
             DREquipment drEquipment = EquipmentTable.Inst.GetRowByItemID(avatar.ObjectId);
             if (drEquipment != null)
