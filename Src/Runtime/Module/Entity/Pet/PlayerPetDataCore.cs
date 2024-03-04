@@ -28,7 +28,7 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// <param name="pet"></param>
     public void SetFollowingPet(EntityBase pet)
     {
-        if (pet == FollowingPet)
+        if (pet == FollowingPet || !pet.Inited)
         {
             return;
         }
