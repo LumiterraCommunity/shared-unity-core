@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体阵营数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
  * 
  */
 
@@ -16,7 +16,7 @@ using UnityGameFramework.Runtime;
 public class EntityCampDataCore : EntityBaseComponent
 {
     private EntityBase _refOwner;
-    public EntityBase RefOwner
+    public EntityBase RefOwner  //没有主人时，主人为自己
     {
         get
         {
@@ -32,7 +32,7 @@ public class EntityCampDataCore : EntityBaseComponent
                 }
 
             }
-            return _refOwner;
+            return _refOwner ?? RefEntity;
         }
     }
 
@@ -42,26 +42,42 @@ public class EntityCampDataCore : EntityBaseComponent
     /// 阵营类型
     /// </summary>
     /// <value></value>
-    public eEntityCampType CampType => RefOwner != null ? RefOwner.EntityCampDataCore.GetCampType() : _campType;
-
+    public eEntityCampType CampType => RefOwner.EntityCampDataCore.GetCampType();
     public void Init(eEntityCampType campType)
     {
         _campType = campType;
     }
-
     protected eEntityCampType GetCampType()
     {
         return _campType;
     }
+    public virtual bool CheckIsEnemy(EntityBase other)
+    {
+        //归属相同
+        if (RefOwner.BaseData.Id == other.EntityCampDataCore.RefOwner.BaseData.Id)
+        {
+            return false;
+        }
+        return IsEnemy(other.EntityCampDataCore.RefOwner);
+    }
 
+    public virtual bool CheckIsFriend(EntityBase other)
+    {
+        //归属相同
+        if (RefOwner.BaseData.Id == other.EntityCampDataCore.RefOwner.BaseData.Id)
+        {
+            return true;
+        }
+        return IsFriend(other.EntityCampDataCore.RefOwner);
+    }
     /// <summary>
     /// 是否是敌人
     /// </summary>
-    public virtual bool IsEnemy(EntityBase other)
+    protected virtual bool IsEnemy(EntityBase otherOwner)
     {
-        if (BattleDefine.EntityCampEnemy.TryGetValue(CampType, out HashSet<eEntityCampType> enemyList))
+        if (BattleDefine.EntityCampEnemy.TryGetValue(RefOwner.EntityCampDataCore.CampType, out HashSet<eEntityCampType> enemyList))
         {
-            return enemyList.Contains(other.EntityCampDataCore.CampType);
+            return enemyList.Contains(otherOwner.EntityCampDataCore.CampType);
         }
         return false;
     }
@@ -69,13 +85,13 @@ public class EntityCampDataCore : EntityBaseComponent
     /// <summary>
     /// 是否是友军
     /// </summary>
-    /// <param name="other"></param>
+    /// <param name="otherOwner"></param>
     /// <returns></returns>
-    public virtual bool IsFriend(EntityBase other)
+    protected virtual bool IsFriend(EntityBase otherOwner)
     {
-        if (BattleDefine.EntityCampFriend.TryGetValue(CampType, out HashSet<eEntityCampType> friendList))
+        if (BattleDefine.EntityCampFriend.TryGetValue(RefOwner.EntityCampDataCore.CampType, out HashSet<eEntityCampType> friendList))
         {
-            return friendList.Contains(other.EntityCampDataCore.CampType);
+            return friendList.Contains(otherOwner.EntityCampDataCore.CampType);
         }
         return false;
     }
@@ -93,13 +109,13 @@ public class EntityCampDataCore : EntityBaseComponent
         }
 
         // 目标为友方
-        if ((skillTargetType & (int)eSkillTargetType.Friend) != 0 && IsFriend(other))
+        if ((skillTargetType & (int)eSkillTargetType.Friend) != 0 && CheckIsFriend(other))
         {
             return true;
         }
 
         // 目标为敌人
-        if ((skillTargetType & (int)eSkillTargetType.Enemy) != 0 && IsEnemy(other))
+        if ((skillTargetType & (int)eSkillTargetType.Enemy) != 0 && CheckIsEnemy(other))
         {
             return true;
         }

@@ -15,7 +15,7 @@ public class PetCampDataCore : EntityCampDataCore
     protected PetDataCore PetDataCore;
     private void Start()
     {
-        if (RefOwner != null)
+        if (RefOwner.BaseData.Id != RefEntity.BaseData.Id)
         {
             RefOwner.EntityEvent.ChangeCamp += OnOwnerChangeCamp;
         }
@@ -23,7 +23,7 @@ public class PetCampDataCore : EntityCampDataCore
 
     private void OnDestroy()
     {
-        if (RefOwner != null)
+        if (RefOwner.BaseData.Id != RefEntity.BaseData.Id)
         {
             RefOwner.EntityEvent.ChangeCamp -= OnOwnerChangeCamp;
         }
@@ -33,36 +33,12 @@ public class PetCampDataCore : EntityCampDataCore
     {
         RefEntity.EntityEvent.ChangeCamp?.Invoke();
     }
-
-    /// <summary>
-    /// 基于主人判断是否是敌人
-    /// </summary>
-    public override bool IsEnemy(EntityBase other)
+    public override bool CheckIsEnemy(EntityBase other)
     {
-        if (RefOwner == null || RefOwner.BaseData.Id == other.BaseData.Id)
-        {
-            return false;
-        }
-        return RefOwner.EntityCampDataCore.IsEnemy(other);
+        return RefOwner.EntityCampDataCore.CheckIsEnemy(other);
     }
-
-    /// <summary>
-    /// 基于主人判断是否是友军
-    /// </summary>
-    /// <param name="other"></param>
-    /// <returns></returns>
-    public override bool IsFriend(EntityBase other)
+    public override bool CheckIsFriend(EntityBase other)
     {
-        if (RefOwner == null)
-        {
-            return false;
-        }
-
-        if (RefOwner.BaseData.Id == other.BaseData.Id)
-        {
-            return true;
-        }
-
-        return RefOwner.EntityCampDataCore.IsFriend(other);
+        return RefOwner.EntityCampDataCore.CheckIsFriend(other);
     }
 }
