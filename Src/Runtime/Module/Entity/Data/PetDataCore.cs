@@ -39,6 +39,7 @@ public class PetDataCore : EntityBaseComponent
     /// <summary>
     /// 当前手持物id
     /// 用于播种，喂食等操作，使用道具丢炸弹等操作
+    /// 没有手持物的时候为null
     /// </summary>
     public InHandItemData InHandItem { get; protected set; }
 

@@ -1,5 +1,5 @@
 /// <summary>
-/// 手持item数据
+/// Entity的手持item数据
 /// </summary>
 public class InHandItemData
 {
