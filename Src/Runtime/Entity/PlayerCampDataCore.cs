@@ -17,11 +17,10 @@ public class PlayerCampDataCore : EntityCampDataCore
     /// <summary>
     /// 是否是敌人
     /// </summary>
-    public override bool IsEnemy(EntityBase other)
+    protected override bool IsEnemy(EntityBase otherOwner)
     {
-        EntityBase ownerEntity = other.EntityCampDataCore.RefOwner ?? other;
         //检测目标所在区域
-        if (ownerEntity.TryGetComponent(out EntityBattleArea entityBattleArea))
+        if (otherOwner.TryGetComponent(out EntityBattleArea entityBattleArea))
         {
             //和平区域不可以攻击
             if (entityBattleArea.CurAreaType == eBattleAreaType.Peace)
@@ -35,6 +34,6 @@ public class PlayerCampDataCore : EntityCampDataCore
                 return true;
             }
         }
-        return base.IsEnemy(other);
+        return base.IsEnemy(otherOwner);
     }
 }
