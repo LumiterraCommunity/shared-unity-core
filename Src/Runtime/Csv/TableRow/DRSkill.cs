@@ -240,6 +240,15 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取skillFlyerId-int。*/
+    /// </summary>
+    public int SkillFlyerId
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取skillName-string。*/
     /// </summary>
     public string SkillName
@@ -357,15 +366,6 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
-  /**获取skillFlyerId-int。*/
-    /// </summary>
-    public int SkillFlyerId
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取skillFlyerNum-int。*/
     /// </summary>
     public int SkillFlyerNum
@@ -420,6 +420,15 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取itemCost-int[][]。*/
+    /// </summary>
+    public int[][] ItemCost
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取accuTab-string。*/
     /// </summary>
     public string AccuTab
@@ -458,6 +467,7 @@ public class DRSkill : DataRowBase
         SkillDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         SkillDistance = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillFlag = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        SkillFlyerId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillName = DataTableParseUtil.ParseString(columnStrings[index++]);
         SkillRange = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SkillShake = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
@@ -471,13 +481,13 @@ public class DRSkill : DataRowBase
         HitEff = DataTableParseUtil.ParseString(columnStrings[index++]);
         AnimRotate = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillAlertEffect = DataTableParseUtil.ParseString(columnStrings[index++]);
-        SkillFlyerId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillFlyerNum = DataTableParseUtil.ParseInt(columnStrings[index++]);
         AccuEff = DataTableParseUtil.ParseInt(columnStrings[index++]);
         EffectInit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ComposeSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         CostPropType = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         MaxAccuTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        ItemCost = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         AccuTab = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
@@ -515,6 +525,7 @@ public class DRSkill : DataRowBase
                 SkillDesc = binaryReader.ReadString();
                 SkillDistance = binaryReader.Read7BitEncodedInt32();
                 SkillFlag = binaryReader.ReadArray<Int32>();
+                SkillFlyerId = binaryReader.Read7BitEncodedInt32();
                 SkillName = binaryReader.ReadString();
                 SkillRange = binaryReader.ReadArray<Int32>();
                 SkillShake = binaryReader.ReadArray<String>();
@@ -528,13 +539,13 @@ public class DRSkill : DataRowBase
                 HitEff = binaryReader.ReadString();
                 AnimRotate = binaryReader.Read7BitEncodedInt32();
                 SkillAlertEffect = binaryReader.ReadString();
-                SkillFlyerId = binaryReader.Read7BitEncodedInt32();
                 SkillFlyerNum = binaryReader.Read7BitEncodedInt32();
                 AccuEff = binaryReader.Read7BitEncodedInt32();
                 EffectInit = binaryReader.ReadArray<Int32>();
                 ComposeSkill = binaryReader.ReadArray<Int32>();
                 CostPropType = binaryReader.ReadArray<Int32>();
                 MaxAccuTime = binaryReader.Read7BitEncodedInt32();
+                ItemCost = binaryReader.ReadArrayList<Int32>();
                 AccuTab = binaryReader.ReadString();
             }
         }
