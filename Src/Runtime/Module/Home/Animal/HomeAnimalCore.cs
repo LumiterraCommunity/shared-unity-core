@@ -275,6 +275,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public virtual void EnterAnimalDeadStatus(bool isInit)
     {
+        return;//TODO: pet test 先不死方便测试
+
         if (!isInit)
         {
             gameObject.GetComponent<HomeActionProgressData>().EndProgressAction();
