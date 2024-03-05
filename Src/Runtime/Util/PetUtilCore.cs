@@ -10,7 +10,7 @@ using Google.Protobuf.Collections;
 public static class PetUtilCore
 {
     /// <summary>
-    /// 宠物位移数组转换为宠物能力
+    /// 宠物能力位移数组转换为宠物能力枚举
     /// </summary>
     /// <param name="abilityBitOffsets"></param>
     /// <returns></returns>
@@ -23,6 +23,16 @@ public static class PetUtilCore
         }
 
         return result;
+    }
+
+    /// <summary>
+    /// 宠物能力位移值转换为宠物能力枚举
+    /// </summary>
+    /// <param name="ability"></param>
+    /// <returns></returns>
+    public static ePetAbility PetAbilityBitToEnum(PetAbilityType ability)
+    {
+        return (ePetAbility)(1 << (int)ability);
     }
 
     /// <summary>
@@ -59,5 +69,20 @@ public static class PetUtilCore
     public static ePetAbility PetAbilityFromBitOffset(int bitOffset)
     {
         return (ePetAbility)(1 << bitOffset);
+    }
+
+    public static int GetPetLv(IEnumerable<AttributeData> attrs)
+    {
+        int lv = 0;
+        foreach (AttributeData attr in attrs)
+        {
+            eAttributeType attrType = (eAttributeType)attr.Id;
+            if (attrType is eAttributeType.CombatLv or eAttributeType.CollectionLv or eAttributeType.FarmingLv)
+            {
+                lv = Math.Max(lv, attr.Value);
+            }
+        }
+
+        return lv;
     }
 }
