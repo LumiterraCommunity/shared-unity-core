@@ -2,12 +2,9 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 玩家阵营数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/PlayerCampDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/PlayerCampDataCore.cs
  * 
  */
-
-using System.Collections.Generic;
-
 
 /// <summary>
 /// 玩家阵营数据

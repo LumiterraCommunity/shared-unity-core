@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体阵营数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
  * 
  */
 
@@ -37,12 +37,14 @@ public class EntityCampDataCore : EntityBaseComponent
     }
 
     private eEntityCampType _campType;
-
     /// <summary>
     /// 阵营类型
     /// </summary>
     /// <value></value>
     public eEntityCampType CampType => RefOwner.EntityCampDataCore.GetCampType();
+
+    public long DelayChangeTimestamp { get; protected set; } = -1;
+    public eEntityCampType DelayChangeCampType { get; protected set; }
     public void Init(eEntityCampType campType)
     {
         _campType = campType;
@@ -128,5 +130,50 @@ public class EntityCampDataCore : EntityBaseComponent
         _campType = campType;
         RefEntity.EntityEvent.ChangeCamp?.Invoke();
         return true;
+    }
+
+    protected virtual void Update()
+    {
+        if (IsDelayChangeCamp())
+        {
+            long curTimeStamp = TimeUtil.GetServerTimeStamp();
+            if (curTimeStamp >= DelayChangeTimestamp)
+            {
+                _ = ChangeCamp(DelayChangeCampType);
+                StopDelayChangeCamp();
+            }
+        }
+    }
+    /// <summary>
+    /// 开始延迟改变阵营
+    /// </summary>
+    /// <param name="campType"></param>
+    /// <param name="delayTime"></param>
+    public virtual bool StartDelayChangeCamp(eEntityCampType campType, long delayTime = 0)
+    {
+        if (IsDelayChangeCamp())
+        {
+            return false;
+        }
+        DelayChangeCampType = campType;
+        DelayChangeTimestamp = delayTime;
+        return true;
+    }
+    /// <summary>
+    /// 停止延迟改变阵营
+    /// </summary>
+    /// <param name="campType"></param>
+    /// <param name="delayTime"></param>
+    public virtual void StopDelayChangeCamp()
+    {
+        DelayChangeTimestamp = -1;
+    }
+
+    /// <summary>
+    /// 是否有延迟改变阵营
+    /// </summary>
+    public bool IsDelayChangeCamp()
+    {
+        return DelayChangeTimestamp >= 0;
     }
 }
