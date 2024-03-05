@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using GameMessageCore;
 
 public class EntityAvatarDataCore : EntityBaseComponent
@@ -12,21 +13,22 @@ public class EntityAvatarDataCore : EntityBaseComponent
     /// <summary>
     /// 角色穿着列表
     /// </summary>
-    public IEnumerable<AvatarAttribute> AvatarList { get; protected set; }
+    public List<AvatarAttribute> AvatarList { get; protected set; } = new();
 
     /// <summary>
-    /// 设置角色穿着数据
+    /// 从网络数据初始化
     /// </summary>
     /// <param name="avatars"></param>
-    public void SetRoleAvatars(IEnumerable<AvatarAttribute> avatars)
+    public void InitFromNet(GrpcAvatarAttribute[] avatars)
     {
         AvatarDic.Clear();
-        AvatarList = avatars;
-        foreach (AvatarAttribute avatar in avatars)
+        AvatarList.Clear();
+        foreach (GrpcAvatarAttribute avatar in avatars)
         {
-            AvatarDic.Add(avatar.Position, avatar);
+            AvatarAttribute avatarAttribute = avatar.ToProtoData();
+            AvatarDic.Add(avatarAttribute.Position, avatarAttribute);
         }
-
+        AvatarList.AddRange(AvatarDic.Values);
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
 
