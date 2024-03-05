@@ -139,8 +139,8 @@ public class EntityCampDataCore : EntityBaseComponent
             long curTimeStamp = TimeUtil.GetServerTimeStamp();
             if (curTimeStamp >= DelayChangeTimestamp)
             {
-                _ = ChangeCamp(DelayChangeCampType);
                 StopDelayChangeCamp();
+                _ = ChangeCamp(DelayChangeCampType);
             }
         }
     }
