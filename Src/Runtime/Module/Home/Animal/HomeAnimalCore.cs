@@ -237,7 +237,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
     }
 
-    public void ExecuteAction(eAction action, int toolCid, int skillId, long playerId, object actionData)
+    public void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId)
     {
         if (action == eAction.Appease)//安抚
         {
@@ -257,7 +257,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
     }
 
-    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect, long playerId)
+    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
 
     }
@@ -275,6 +275,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public virtual void EnterAnimalDeadStatus(bool isInit)
     {
+        return;//TODO: pet test 先不死方便测试
+
         if (!isInit)
         {
             gameObject.GetComponent<HomeActionProgressData>().EndProgressAction();

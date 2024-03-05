@@ -74,6 +74,7 @@ public abstract class HomeModuleCore : MonoBehaviour
 
     protected virtual void UnInitModule()
     {
+        HomeData = null;
         SoilMgr = null;
         SoilResourceRelation = null;
     }

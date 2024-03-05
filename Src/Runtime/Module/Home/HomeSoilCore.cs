@@ -54,7 +54,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         return GetCurStatus().CheckSupportAction(action);
     }
 
-    public void ExecuteAction(eAction action, int toolCid, int skillId, long playerId, object actionData)
+    public void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId)
     {
         try
         {
@@ -82,7 +82,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         }
     }
 
-    public void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect, long playerId)
+    public void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
         SoilEvent.OnBeHit?.Invoke(skillId);
     }
