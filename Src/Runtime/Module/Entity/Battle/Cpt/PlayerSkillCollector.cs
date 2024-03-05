@@ -39,7 +39,7 @@ public class PlayerSkillCollector : EntitySkillCollector
         //装备
         OnUpdateEquipmentSkillID();
         //手持物品
-        OnInHandItemChanged(RoleDataCore.InHandItem);
+        OnInHandItemChanged(RefEntity.GetComponent<EntityInHandItemDataCore>().Cid);
     }
 
     protected override void OnDestroy()

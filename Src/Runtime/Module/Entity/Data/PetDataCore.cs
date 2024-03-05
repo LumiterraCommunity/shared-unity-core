@@ -37,13 +37,6 @@ public class PetDataCore : EntityBaseComponent
     /// </summary>
     public int PetCfgId => PetCfg == null ? -1 : PetCfg.Id;
     /// <summary>
-    /// 当前手持物id
-    /// 用于播种，喂食等操作，使用道具丢炸弹等操作
-    /// 没有手持物的时候为null
-    /// </summary>
-    public InHandItemData InHandItem { get; protected set; }
-
-    /// <summary>
     /// 好感度数值
     /// </summary>
     public int Favorability;
@@ -204,16 +197,5 @@ public class PetDataCore : EntityBaseComponent
     public bool HasPetAbility(ePetAbility ability)
     {
         return (AllAbility & ability) != 0;
-    }
-
-    public void SetInHandItem(InHandItemData data)
-    {
-        if (InHandItem == data)
-        {
-            return;
-        }
-
-        InHandItem = data;
-        RefEntity.EntityEvent.InHandItemChange?.Invoke(data);
     }
 }

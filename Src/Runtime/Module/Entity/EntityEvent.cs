@@ -291,7 +291,7 @@ public class EntityEvent : EntityBaseComponent
     /// 手持物品改变
     /// null代表没有手持物品
     /// </summary>
-    public Action<InHandItemData> InHandItemChange;
+    public Action<int> InHandItemChange;
 
     /// <summary>
     /// 实体改变阵营开始
