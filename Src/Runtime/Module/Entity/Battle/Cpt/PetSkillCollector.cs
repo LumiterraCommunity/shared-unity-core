@@ -10,7 +10,7 @@ public class PetSkillCollector : EntitySkillCollector
     {
         base.Start();
         OnUpdateEquipmentSkillID();
-        OnInHandItemChanged(RefEntity.GetComponent<PetDataCore>().InHandItem);
+        OnInHandItemChanged(RefEntity.GetComponent<EntityInHandItemDataCore>().Cid);
 
 
         CollectFromPetAbility();//采集宠物特性对应的技能
