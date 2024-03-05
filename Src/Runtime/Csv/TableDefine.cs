@@ -71,6 +71,7 @@ public enum eGameValueID
     InstancingReadyTimeOut = 38, // 副本准备超时时间
     DailyTaskReceiveCD = 39, // 日常任务接取CD
     PVPDamageRate = 43,//PVP伤害系数
+    PlayerCampChangeTime = 44, //玩家切换阵营时间
 }
 
 // public static class GameValueID
