@@ -292,4 +292,9 @@ public class EntityEvent : EntityBaseComponent
     /// null代表没有手持物品
     /// </summary>
     public Action<InHandItemData> InHandItemChange;
+
+    /// <summary>
+    /// 实体改变阵营开始
+    /// </summary>
+    public Action DelayChangeCampUpdate;
 }

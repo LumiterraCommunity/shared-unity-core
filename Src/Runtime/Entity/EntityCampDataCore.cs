@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体阵营数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
  * 
  */
 
@@ -157,6 +157,7 @@ public class EntityCampDataCore : EntityBaseComponent
         }
         DelayChangeCampType = campType;
         DelayChangeTimestamp = delayTime;
+        RefEntity.EntityEvent.DelayChangeCampUpdate?.Invoke();
         return true;
     }
     /// <summary>
@@ -167,6 +168,7 @@ public class EntityCampDataCore : EntityBaseComponent
     public virtual void StopDelayChangeCamp()
     {
         DelayChangeTimestamp = -1;
+        RefEntity.EntityEvent.DelayChangeCampUpdate?.Invoke();
     }
 
     /// <summary>
@@ -174,6 +176,6 @@ public class EntityCampDataCore : EntityBaseComponent
     /// </summary>
     public bool IsDelayChangeCamp()
     {
-        return DelayChangeTimestamp >= 0;
+        return DelayChangeTimestamp > 0;
     }
 }
