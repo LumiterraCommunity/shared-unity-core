@@ -17,7 +17,7 @@ public class PetDataCore : EntityBaseComponent
     /// <summary>
     /// 宠物特性对应的技能ID
     /// </summary>
-    public Dictionary<ePetAbility, int> AbilityToSkillIdDic = new();
+    public Dictionary<ePetAbility, int> AbilityToSkillIdDic { get; protected set; } = new();
     /// <summary>
     /// 宠物主人ID
     /// </summary>
