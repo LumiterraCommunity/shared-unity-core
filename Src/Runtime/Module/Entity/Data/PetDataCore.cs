@@ -128,6 +128,20 @@ public class PetDataCore : EntityBaseComponent
         }
     }
 
+    /// <summary>
+    /// 获取宠物特性对应的技能ID 如果没有返回-1
+    /// </summary>
+    /// <param name="ability"></param>
+    /// <returns></returns>
+    public int GetAbilitySkillId(ePetAbility ability)
+    {
+        if (AbilityToSkillIdDic.TryGetValue(ability, out int skillId))
+        {
+            return skillId;
+        }
+        return -1;
+    }
+
     public void SetPetCfgId(int cfgID)
     {
         PetCfg = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(cfgID);

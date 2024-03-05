@@ -29,4 +29,18 @@ public class EntityAvatarDataCore : EntityBaseComponent
 
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
+
+    /// <summary>
+    /// 获取武器的ItemCid 没有装备返回-1
+    /// </summary>
+    /// <returns></returns>
+    public int GetWeaponAvatar()
+    {
+        if (!AvatarDic.TryGetValue(AvatarPosition.Weapon, out AvatarAttribute weaponAvatar))
+        {
+            return -1;
+        }
+
+        return weaponAvatar.ObjectId;
+    }
 }

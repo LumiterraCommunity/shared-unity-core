@@ -94,7 +94,7 @@ public class SkillCpt : EntityBaseComponent
             DRSkill dRSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(skillID);
             if (dRSkill != null && dRSkill.HomeAction != null && dRSkill.HomeAction.Length > 0)
             {
-                HomeDefine.eAction action = TableUtil.ToHomeAction(dRSkill.HomeAction);
+                HomeDefine.eAction action = dRSkill.GetHomeAction();
                 if ((action & (HomeDefine.eAction.Sowing | HomeDefine.eAction.PutAnimalFood | HomeDefine.eAction.Manure)) != 0)
                 {
                     return true;

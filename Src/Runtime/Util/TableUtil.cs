@@ -1,7 +1,7 @@
 using System;
-using System.Linq;
 using System.Collections.Generic;
 using UnityGameFramework.Runtime;
+using GameFramework.DataTable;
 /// <summary>
 /// 通用配置表工具类
 /// </summary>
@@ -366,5 +366,16 @@ public static class TableUtil
             bool affectByPotential = item[2] > 0;
             cb?.Invoke(type, value, affectByPotential);
         }
+    }
+
+    /// <summary>
+    /// 获取一个配置具体项
+    /// </summary>
+    /// <param name="cid"></param>
+    /// <typeparam name="T">哪个表</typeparam>
+    /// <returns></returns>
+    public static T GetConfig<T>(int cid) where T : IDataRow
+    {
+        return GFEntryCore.DataTable.GetDataTable<T>().GetDataRow(cid);
     }
 }
