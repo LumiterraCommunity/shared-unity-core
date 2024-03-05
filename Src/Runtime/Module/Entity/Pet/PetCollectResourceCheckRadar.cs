@@ -33,6 +33,21 @@ public class PetCollectResourceCheckRadar : CheckEntityRadarBase
         return _resTypeMap.ContainsKey(resType);
     }
 
+    /// <summary>
+    /// 获取某个类型的资源列表 没有GC 不要改变里面内容 没有返回null
+    /// </summary>
+    /// <param name="type"></param>
+    /// <returns></returns>
+    public List<HomeResourcesCore> GetTypeResList(eAction type)
+    {
+        if (_resTypeMap.TryGetValue(type, out List<HomeResourcesCore> resList))
+        {
+            return resList;
+        }
+
+        return null;
+    }
+
     protected override void OnAddEntity(EntityBase entity)
     {
         //已经存在 理论上走不到这里 上层有判断
@@ -85,33 +100,5 @@ public class PetCollectResourceCheckRadar : CheckEntityRadarBase
                 _ = _resTypeMap.Remove(resType);
             }
         }
-    }
-
-    /// <summary>
-    /// 获取最近的某种资源实体id 每次都会遍历 有性能问题 慎用
-    /// </summary>
-    /// <param name="targetResType"></param>
-    /// <returns>返回0代表没有</returns>
-    public long GetNearestResourceEntityId(eAction targetResType)
-    {
-        if (!_resTypeMap.TryGetValue(targetResType, out List<HomeResourcesCore> resources))
-        {
-            return 0;
-        }
-
-        float minDistance = float.MaxValue;
-        long nearestEntityId = 0;
-
-        foreach (HomeResourcesCore resource in resources)
-        {
-            float distance = Vector3.Distance(transform.position, resource.Position);
-            if (distance < minDistance)
-            {
-                minDistance = distance;
-                nearestEntityId = resource.RefEntity.BaseData.Id;
-            }
-        }
-
-        return nearestEntityId;
     }
 }
