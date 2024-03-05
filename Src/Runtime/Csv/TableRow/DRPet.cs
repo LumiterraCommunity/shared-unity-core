@@ -51,6 +51,15 @@ public class DRPet : DataRowBase
     }
 
     /// <summary>
+  /**获取eggItemId-int。*/
+    /// </summary>
+    public int EggItemId
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取extendSkill-int[]。*/
     /// </summary>
     public int[] ExtendSkill
@@ -166,6 +175,7 @@ public class DRPet : DataRowBase
         Ability = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         AutoHarvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         BreedingDifficulty = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        EggItemId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ExtendSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         HarvestAction = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestDropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -193,6 +203,7 @@ public class DRPet : DataRowBase
                 Ability = binaryReader.ReadArrayList<Int32>();
                 AutoHarvest = binaryReader.ReadBoolean();
                 BreedingDifficulty = binaryReader.Read7BitEncodedInt32();
+                EggItemId = binaryReader.Read7BitEncodedInt32();
                 ExtendSkill = binaryReader.ReadArray<Int32>();
                 HarvestAction = binaryReader.Read7BitEncodedInt32();
                 HarvestDropId = binaryReader.Read7BitEncodedInt32();
