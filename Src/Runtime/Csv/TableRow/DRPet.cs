@@ -114,6 +114,15 @@ public class DRPet : DataRowBase
     }
 
     /// <summary>
+  /**获取incubationMat-int[][]。*/
+    /// </summary>
+    public int[][] IncubationMat
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取initialAttribute-int[][]。*/
     /// </summary>
     public int[][] InitialAttribute
@@ -192,6 +201,7 @@ public class DRPet : DataRowBase
         HungerSpeed = DataTableParseUtil.ParseInt(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         IncubationDuration = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        IncubationMat = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         MaxHunger = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PotWashingItem = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -221,6 +231,7 @@ public class DRPet : DataRowBase
                 HungerSpeed = binaryReader.Read7BitEncodedInt32();
                 _id = binaryReader.Read7BitEncodedInt32();
                 IncubationDuration = binaryReader.Read7BitEncodedInt32();
+                IncubationMat = binaryReader.ReadArrayList<Int32>();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 MaxHunger = binaryReader.Read7BitEncodedInt32();
                 PotWashingItem = binaryReader.ReadArray<Int32>();
