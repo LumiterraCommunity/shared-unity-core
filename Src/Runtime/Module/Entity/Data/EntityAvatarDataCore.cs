@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using GameMessageCore;
 
 public class EntityAvatarDataCore : EntityBaseComponent
@@ -29,6 +28,18 @@ public class EntityAvatarDataCore : EntityBaseComponent
             AvatarDic.Add(avatarAttribute.Position, avatarAttribute);
         }
         AvatarList.AddRange(AvatarDic.Values);
+        RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
+    }
+
+    public void InitFromNet(IEnumerable<AvatarAttribute> avatars)
+    {
+        AvatarDic.Clear();
+        AvatarList.Clear();
+        AvatarList.AddRange(avatars);
+        foreach (AvatarAttribute avatar in avatars)
+        {
+            AvatarDic.Add(avatar.Position, avatar);
+        }
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
 
