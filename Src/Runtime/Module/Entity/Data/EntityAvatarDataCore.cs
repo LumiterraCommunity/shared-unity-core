@@ -22,12 +22,15 @@ public class EntityAvatarDataCore : EntityBaseComponent
     {
         AvatarDic.Clear();
         AvatarList.Clear();
-        foreach (GrpcAvatarAttribute avatar in avatars)
+        if (avatars != null && avatars.Length > 0)
         {
-            AvatarAttribute avatarAttribute = avatar.ToProtoData();
-            AvatarDic.Add(avatarAttribute.Position, avatarAttribute);
+            foreach (GrpcAvatarAttribute avatar in avatars)
+            {
+                AvatarAttribute avatarAttribute = avatar.ToProtoData();
+                AvatarDic.Add(avatarAttribute.Position, avatarAttribute);
+            }
+            AvatarList.AddRange(AvatarDic.Values);
         }
-        AvatarList.AddRange(AvatarDic.Values);
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
 
