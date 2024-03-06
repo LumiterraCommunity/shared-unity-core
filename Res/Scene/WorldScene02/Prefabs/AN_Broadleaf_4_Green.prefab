@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &135955951957682817
+--- !u!1 &2329284489876079676
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5921285533535849139}
-  - component: {fileID: 1257359978364036912}
+  - component: {fileID: 1262696072588675266}
+  - component: {fileID: 7763028624295984584}
   m_Layer: 0
   m_Name: AN_Broadleaf_4_Green
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 16
   m_IsActive: 1
---- !u!4 &5921285533535849139
+--- !u!4 &1262696072588675266
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 135955951957682817}
+  m_GameObject: {fileID: 2329284489876079676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1257359978364036912
+--- !u!136 &7763028624295984584
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 135955951957682817}
+  m_GameObject: {fileID: 2329284489876079676}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
