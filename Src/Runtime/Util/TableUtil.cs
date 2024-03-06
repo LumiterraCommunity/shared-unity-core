@@ -249,4 +249,28 @@ public static class TableUtil
         }
         return opened;
     }
+
+    /// <summary>
+    /// 检测场景进入模式(单人|队伍)
+    /// </summary>
+    /// <param name="mapId"></param>
+    /// <param name="challengeType"></param>
+    /// <returns></returns>
+    public static bool CheckDungeonChallenge(int mapId, GameMessageCore.SceneChallengeType challengeType)
+    {
+        DRSceneArea areaRow = GFEntryCore.DataTable.GetDataTable<DRSceneArea>().GetDataRow(mapId);
+        if (areaRow == null)
+        {
+            return false;
+        }
+
+        foreach (int mode in areaRow.ChallengeMode)
+        {
+            if (mode == (int)challengeType)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
