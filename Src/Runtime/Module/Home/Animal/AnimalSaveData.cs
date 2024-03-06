@@ -12,7 +12,7 @@ public class AnimalSaveData
     /// </summary>
     public long AnimalId;
     /// <summary>
-    /// 饥饿进度 0代表完全饿了
+    /// 饥饿进度 0代表完全饿了 具体值 不是100进度值 有配置最大饥饿度配套
     /// </summary>
     public float HungerProgress = 0;
     /// <summary>
