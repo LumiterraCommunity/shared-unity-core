@@ -1,7 +1,7 @@
 /* 
  * @Author XQ
  * @Date 2022-08-15 11:15:06
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
  */
 using System;
 using System.Collections.Generic;
@@ -207,6 +207,11 @@ public class EntityEvent : EntityBaseComponent
     /// 实体灵魂状态改变  
     /// </summary>
     public Action ChangeIsSoul;
+
+    /// <summary>
+    /// 实体状态改变  
+    /// </summary>
+    public Action ChangeEntityStatus;
 
     #endregion
     #region 天赋树

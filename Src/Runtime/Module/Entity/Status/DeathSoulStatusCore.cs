@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-07 10:29:02
  * @Description: 死亡灵魂状态, 用于死亡后的状态
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/DeathSoulStatusCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/DeathSoulStatusCore.cs
  * 
  */
 using System.Threading;
@@ -58,12 +58,22 @@ public class DeathSoulStatusCore : ListenEventStatusCore, IEntityCanMove, IEntit
 
     protected override void AddEvent(EntityEvent entityEvent)
     {
-        entityEvent.EntityBeReborn += OnBeReborn;
+
     }
 
     protected override void RemoveEvent(EntityEvent entityEvent)
     {
-        entityEvent.EntityBeReborn -= OnBeReborn;
+
+    }
+
+    protected override void OnUpdate(IFsm<EntityStatusCtrl> fsm, float elapseSeconds, float realElapseSeconds)
+    {
+        base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);
+        if (!RefEntityIsDead())
+        {
+            OnBeReborn();
+            return;
+        }
     }
 
     /// <summary>
@@ -73,6 +83,7 @@ public class DeathSoulStatusCore : ListenEventStatusCore, IEntityCanMove, IEntit
     protected virtual void OnBeReborn()
     {
         ChangeState(OwnerFsm, IdleStatusCore.Name);
+        StatusCtrl.RefEntity.EntityEvent.EntityBeReborn?.Invoke();
     }
 
     public bool CheckCanMove()

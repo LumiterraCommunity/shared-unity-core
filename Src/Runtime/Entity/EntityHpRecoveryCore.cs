@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体脱战回血组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityHpRecoveryCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityHpRecoveryCore.cs
  * 
  */
 
@@ -16,8 +16,7 @@ public class EntityHpRecoveryCore : EntityBaseComponent
     private void Start()
     {
         RefEntity.EntityEvent.ChangeIsBattle += OnChangeIsBattle;
-        RefEntity.EntityEvent.EnterDeath += OnEnterDeath;
-        RefEntity.EntityEvent.EntityBeReborn += OnEntityBeReborn;
+        RefEntity.EntityEvent.ChangeEntityStatus += OnChangeEntityStatus;
         CheckHpRecovery();
     }
 
@@ -27,8 +26,7 @@ public class EntityHpRecoveryCore : EntityBaseComponent
         if (RefEntity != null)
         {
             RefEntity.EntityEvent.ChangeIsBattle -= OnChangeIsBattle;
-            RefEntity.EntityEvent.EnterDeath -= OnEnterDeath;
-            RefEntity.EntityEvent.EntityBeReborn += OnEntityBeReborn;
+            RefEntity.EntityEvent.ChangeEntityStatus -= OnChangeEntityStatus;
         }
     }
     private void OnChangeIsBattle(bool isBattle)
@@ -36,12 +34,7 @@ public class EntityHpRecoveryCore : EntityBaseComponent
         CheckHpRecovery();
     }
 
-    private void OnEnterDeath()
-    {
-        CheckHpRecovery();
-    }
-
-    private void OnEntityBeReborn()
+    private void OnChangeEntityStatus()
     {
         CheckHpRecovery();
     }
