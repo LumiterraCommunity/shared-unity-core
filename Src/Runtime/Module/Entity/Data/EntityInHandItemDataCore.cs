@@ -1,4 +1,5 @@
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 /// <summary>
 /// 实体手持物数据
 /// </summary>
@@ -11,11 +12,23 @@ public class EntityInHandItemDataCore : EntityBaseComponent
 
     public void InitFromNetData(GrpcNftBaseData data)
     {
+        if (data == null)
+        {
+            Log.Error("InitFromNetData data is null");
+            return;
+        }
+
         Init(data.NftId, data.ItemCid, data.Num);
     }
 
     public void InitFromNetData(NftBaseInfo data)
     {
+        if (data == null)
+        {
+            Log.Error("InitFromNetData data is null");
+            return;
+        }
+
         Init(data.NftId, data.Cid, data.Num);
     }
 
