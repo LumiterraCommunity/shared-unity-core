@@ -16,7 +16,7 @@ using System.Runtime.InteropServices;
 /// </summary>
 public class EntitySafeAreaDamageCore : EntityBaseComponent
 {
-
+    public bool IsSafeArea { get; private set; } = true;
     private void Start()
     {
         StartCheckSafeArea();
@@ -39,6 +39,7 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
     }
     private void CheckSafeArea()
     {
+        IsSafeArea = true;
         if (!GFEntryCore.IsExistModule<SceneElementMgrCore>())
         {
             return;
@@ -67,8 +68,10 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
         if (!safeAreaElement.IsSafeArea(RefEntity.Position))
         {
             _ = AreaDamage(safeAreaElement.GetCurSafeAreaInfo());
+            IsSafeArea = false;
         }
     }
+
 
     protected virtual int AreaDamage(SafeAreaElementCore.SafeAreaInfo safeAreaInfo)
     {
