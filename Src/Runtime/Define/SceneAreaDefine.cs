@@ -13,7 +13,7 @@
 public enum eSceneArea : int
 {
     None,
-    World = 10003,  //大世界
+    World = 10001,  //大世界
     // World2 = 10003,  //大世界
     Home = 10002,   //家园
     DungeonSceneLv1_3 = 20000,  //4-6级副本
