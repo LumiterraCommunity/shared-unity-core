@@ -204,11 +204,6 @@ public class EntityEvent : EntityBaseComponent
     public Action<bool> ChangeIsBattle;
 
     /// <summary>
-    /// 实体灵魂状态改变  
-    /// </summary>
-    public Action ChangeIsSoul;
-
-    /// <summary>
     /// 实体状态改变  
     /// </summary>
     public Action ChangeEntityStatus;
