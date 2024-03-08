@@ -1,9 +1,13 @@
 describe-string,id-int,module-string,value-string
+,,,
+,,,
+,,,
 资源不存在,5001,家园错误码,Resource does not exist
 操作不支持,5002,家园错误码,Operation not supported
 家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
 捕捉动物请求异常,6001,畜牧错误码,Capture animals request exception
 捕捉动物无效,6002,畜牧错误码,Capture animals is invalid
+,2016001,,
 ,10001001,通用,OK
 ,10001002,通用,Cancel
 ,10001003,通用,Confirm
@@ -244,8 +248,10 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20160008,副本,Dungeon
 ,20160009,副本,Unknown area
 ,20160010,副本,Only the team leader can operate.
-,20160011,,Level mismatch.
-,20160012,,Not yet open.
+,20160011,副本,Level mismatch.
+,20160012,副本,Not yet open.
+,20160013,副本,Match Failed
+,20160014,副本,Please try again later or challenge other dungeons
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -274,8 +280,25 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20200004,活动,sell ticket success
 ,20200005,活动,sell ticket failed
 ,20210000,钱包相关,Token balance request failed!
-,20220001,战报,You were killed by  [color=#F7CE3D]{att=unkown}[/color] 
-,20220002,战报,"You were killed , [color=#F24F4F]Lost[/color] items"
-,20220003,战报,[color=#F7CE3D]{att=unkown}[/color] killed [color=#F7CE3D]{def=unkown}[/color] 
-,20220004,战报,[color=#F7CE3D]{att=unkown}[/color] [color=#35F883]win[/color] items
-地形杀时,20220005,战报,Terrain
+地形杀,20220001,战报名称,[color=#F7CE3D]Terrain[/color]
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
+,20220004,战报名称,reserved
+,20220005,战报名称,reserved
+,20220006,战报概要,You were killed by {att=unknown}
+,20220007,战报概要,Your {def=unknown} were killed by {att=unknown}
+,20220008,战报概要,Your unit participated in the kill of {def=unknown}
+,20220009,战报概要,You killed {def=unknown}
+,20220010,战报概要,Your {att=unknown} killed {def=unknown}
+,20220011,战报详情,[color=#F24F4F]Lost[/color] items
+,20220012,战报详情,{att=unknown} participated in the kill
+,20220013,战报详情,[color=#35F883]win[/color] items
+,20220014,战报详情,{att=unknown} [color=#35F883]win[/color] items
+,20220015,战报详情,{att=unknown} killed {def=unknown}
+,20230000,宠物,Pet  followed.
+,20230001,宠物,Pet un-followed.
+,20230002,宠物,Pet marrow washing success.
+,20230003,宠物,Are you sure to convert {0} into a pet egg? It can be re-hatched after being converted into a pet egg.
+,20230004,宠物,Make pet eggs
+,20230005,宠物,Are you sure to release {0}? You will lose the pet after release.
+,20230006,,You've released your pet.

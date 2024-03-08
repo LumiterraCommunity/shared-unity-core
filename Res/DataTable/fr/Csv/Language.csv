@@ -1,9 +1,13 @@
 describe-string,id-int,module-string,value-string
+,,,
+,,,
+,,,
 资源不存在,5001,家园错误码,La ressource n'existe pas
 操作不支持,5002,家园错误码,Opération non prise en charge
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
 捕捉动物请求异常,6001,畜牧错误码,Exception de demande de capture d'animaux
 捕捉动物无效,6002,畜牧错误码,La capture d'animaux est invalide
+,2016001,,
 ,10001001,通用,OK 
 ,10001002,通用,Annuler 
 ,10001003,通用,Confirmer 
@@ -237,8 +241,10 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20160008,副本,Donjon
 ,20160009,副本,Zone inconnue
 ,20160010,副本,Seul le chef d'équipe peut agir.
-,20160011,,
-,20160012,,
+,20160011,副本,
+,20160012,副本,
+,20160013,副本,
+,20160014,副本,
 ,20170000,合成,Entrer dans la file d'attente
 ,20170001,合成,La file d'artisanat est pleine.
 ,20170002,合成,La recette d'artisanat n'est pas déverrouillée.
@@ -267,8 +273,25 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20200004,活动,Vente du ticket réussie
 ,20200005,活动,Échec de la vente du ticket
 ,20210000,钱包相关, La demande de solde de jetons a échoué !
-,20220001,战报,
-,20220002,战报,
-,20220003,战报,
-,20220004,战报,
-地形杀时,20220005,战报,
+地形杀,20220001,战报名称,
+单一目标,20220002,战报名称,
+xx的yy,20220003,战报名称,
+,20220004,战报名称,
+,20220005,战报名称,
+,20220006,战报概要,
+,20220007,战报概要,
+,20220008,战报概要,
+,20220009,战报概要,
+,20220010,战报概要,
+,20220011,战报详情,
+,20220012,战报详情,
+,20220013,战报详情,
+,20220014,战报详情,
+,20220015,战报详情,
+,20230000,宠物,
+,20230001,宠物,
+,20230002,宠物,
+,20230003,宠物,
+,20230004,宠物,
+,20230005,宠物,
+,20230006,,
