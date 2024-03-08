@@ -5,39 +5,23 @@
  * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Home/HomeResourcesArea.cs
  * 
  */
-using System.Collections.Generic;
 using UnityEngine;
-using System;
 using UnityGameFramework.Runtime;
+using UnityEditor;
+[ExecuteAlways]
 public class HomeResourcesArea : SharedCoreComponent
 {
-    [Header("唯一区域ID(不可重复)")]
-    public int Id;
+    [SerializeField]
+    [Header("全局ID 自动生成 不要乱改")]
+    private int _id;
+    public int Id => _id;
 
     [Header("是否绘制形状")]
     public bool IsDraw;
 
-    // [Header("区域类型")]
-    // public HomeDefine.eHomeResourcesAreaType AreaType;
+    [Header("配置ID")]
+    public int ConfigId;
 
-    // [Header("刷新间隔(ms)")]
-    // public int UpdateInterval;
-
-    // [Header("立即刷新")]
-    // public bool IsUpdateNow = false;
-
-    // [Serializable]
-    // public struct HomeResourcesAreaPoint
-    // {
-    //     [Header("权重(百分位)")]
-    //     public int Weight;
-    //     [Header("配置ID")]
-    //     public int ConfigId;
-    //     [Header("刷新上限")]
-    //     public int LimitNum;
-    // }
-    // [Header("资源列表")]
-    // public List<HomeResourcesAreaPoint> PointList;
 
     public Bounds AreaBounds { get; private set; }
     public HomeResourcesAreaSaveData SaveData { get; private set; }  //保存数据
@@ -45,21 +29,39 @@ public class HomeResourcesArea : SharedCoreComponent
     public DRHomeResourceArea DRHomeResourceArea { get; private set; }
     private void Awake()
     {
-        AreaBounds = new Bounds(transform.position, transform.localScale);
-        DRHomeResourceArea = GFEntryCore.DataTable.GetDataTable<DRHomeResourceArea>().GetDataRow(Id);
-        if (DRHomeResourceArea == null)
+#if UNITY_EDITOR
+        //为了自动序列化ID和服务器场景同步使用
+        if (!Application.isPlaying)
         {
-            Log.Error("HomeResourcesArea Awake Error: Can't find config id = " + Id);
-            return;
+            if (_id == default//直接在场景中添加组件
+            || (PrefabUtility.GetCorrespondingObjectFromSource(this) != null && gameObject.scene != null && gameObject.scene.isLoaded))//发生在预制件拖动到场景中，场景加载时的awake不会走这里
+            {
+                AutoSetID();
+            }
         }
-        SaveData = CreateSaveData();
-        GFEntryCore.HomeResourcesAreaMgr.AddArea(this);
+#endif
+        if (Application.isPlaying)
+        {
+            AreaBounds = new Bounds(transform.position, transform.localScale);
+            DRHomeResourceArea = GFEntryCore.DataTable.GetDataTable<DRHomeResourceArea>().GetDataRow(ConfigId);
+            if (DRHomeResourceArea == null)
+            {
+                Log.Error("HomeResourcesArea Awake Error: Can't find config id = " + ConfigId);
+                return;
+            }
+            SaveData = CreateSaveData();
+            GFEntryCore.HomeResourcesAreaMgr.AddArea(this);
+        }
     }
 
 
     private void OnDestroy()
     {
-        GFEntryCore.HomeResourcesAreaMgr.RemoveArea(Id);
+        if (Application.isPlaying)
+        {
+
+            GFEntryCore.HomeResourcesAreaMgr.RemoveArea(Id);
+        }
     }
 
     /// <summary>
@@ -161,4 +163,45 @@ public class HomeResourcesArea : SharedCoreComponent
         Gizmos.DrawWireCube(Vector3.zero, Vector3.one);
         Gizmos.matrix = oldMatrix;
     }
+    protected virtual void Update()
+    {
+
+#if UNITY_EDITOR
+        UpdateID();
+#endif
+    }
+#if UNITY_EDITOR
+    private void UpdateID()
+    {
+        if (Application.isPlaying)
+        {
+            return;
+        }
+
+        CheckIDRevertFromPrefab();
+    }
+
+    /// <summary>
+    // 检查是否从预制件中恢复ID成了预制件的ID  需要再改掉
+    /// </summary>
+    private void CheckIDRevertFromPrefab()
+    {
+        HomeResourcesArea prefabComponent = PrefabUtility.GetCorrespondingObjectFromSource(this);
+        if (prefabComponent == null)
+        {
+            return;
+        }
+
+        if (_id == prefabComponent._id && _id != GetInstanceID())
+        {
+            AutoSetID();
+        }
+    }
+
+    private void AutoSetID()
+    {
+        _id = GetInstanceID();//给定一个全局ID
+        EditorUtility.SetDirty(this);
+    }
+#endif
 }
