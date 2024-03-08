@@ -1,7 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
-,,,
-,,,
 资源不存在,5001,家园错误码,Resource does not exist
 操作不支持,5002,家园错误码,Operation not supported
 家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
@@ -149,6 +146,8 @@ Sprite due to insufficient space"
 ,20080001,设置,"To apply the language setting, please restart the app."
 ,20080002,设置,Quit now
 ,20080003,设置,Later
+,20080004,设置,"Warning! Logging out in an unsafe area, players will be able to leave the game normally after being idle for a period of time."
+,20080005,设置,"Logging out in an unsafe area, reconnect to enter the game."
 ,20090001,任务,Receive {0} quest chest rewards 
 ,20090002,任务,Complete {0} quest 
 ,20090003,任务,Craft any item on the crafting page 
@@ -280,9 +279,9 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20200004,活动,sell ticket success
 ,20200005,活动,sell ticket failed
 ,20210000,钱包相关,Token balance request failed!
-地形杀,20220001,战报名称,[color=#F7CE3D]Terrain[/color]
-单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
-xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
+地形杀,20220001,战报名称,[color=#F7CE3D]Terrain[/color] 
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color] 
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color] 
 ,20220004,战报名称,reserved
 ,20220005,战报名称,reserved
 ,20220006,战报概要,You were killed by {att=unknown}

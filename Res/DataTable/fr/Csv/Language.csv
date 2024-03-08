@@ -1,7 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
-,,,
-,,,
 资源不存在,5001,家园错误码,La ressource n'existe pas
 操作不支持,5002,家园错误码,Opération non prise en charge
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
@@ -142,6 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
+,20080004,设置,
+,20080005,设置,
 ,20090001,任务, Recevoir les récompenses du coffre de quête {0}
 ,20090002,任务, Terminer la quête {0}
 ,20090003,任务, Fabriquer n'importe quel objet sur la page de fabrication
