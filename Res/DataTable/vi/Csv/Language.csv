@@ -1,7 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
-,,,
-,,,
 资源不存在,5001,家园错误码,Tài nguyên không tồn tại
 操作不支持,5002,家园错误码,Thao tác không được hỗ trợ
 家园道具扣除异常,5003,家园错误码,Lỗi trừ điểm vật phẩm nhà
@@ -142,6 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó
+,20080004,设置,
+,20080005,设置,
 ,20090001,任务,Nhận {0} phần thưởng hòm nhiệm vụ  
 ,20090002,任务,Hoàn thành nhiệm vụ {0}  
 ,20090003,任务,Chế tạo bất kỳ vật phẩm nào trên trang chế tạo  

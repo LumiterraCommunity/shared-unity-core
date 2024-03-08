@@ -1,7 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
-,,,
-,,,
 资源不存在,5001,家园错误码,El recurso no existe
 操作不支持,5002,家园错误码,Operación no compatible
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
@@ -142,6 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
+,20080004,设置,
+,20080005,设置,
 ,20090001,任务,Recibir recompensas del cofre de la misión {0}
 ,20090002,任务,Completar la misión {0}
 ,20090003,任务,Crear cualquier objeto en la página de creación

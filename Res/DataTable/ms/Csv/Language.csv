@@ -1,7 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
-,,,
-,,,
 资源不存在,5001,家园错误码,Sumber tidak wujud
 操作不支持,5002,家园错误码,Operasi tidak disokong
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
@@ -142,6 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
+,20080004,设置,
+,20080005,设置,
 ,20090001,任务,Terima ganjaran peti tugas {0}  
 ,20090002,任务,Selesaikan tugas {0}  
 ,20090003,任务,Hasilkan mana-mana item di halaman pembuatan  
