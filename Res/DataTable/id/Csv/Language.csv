@@ -1,9 +1,13 @@
 describe-string,id-int,module-string,value-string
+,,,
+,,,
+,,,
 资源不存在,5001,家园错误码,Sumber daya tidak ada
 操作不支持,5002,家园错误码,Operasi tidak didukung
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
 捕捉动物请求异常,6001,畜牧错误码,Permintaan menangkap hewan exception
 捕捉动物无效,6002,畜牧错误码,Menangkap hewan tidak valid
+,2016001,,
 ,10001001,通用,OK
 ,10001002,通用,Batal
 ,10001003,通用,Konfirmasi
@@ -237,8 +241,10 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20160008,副本,Dungeon
 ,20160009,副本,Area tidak diketahui
 ,20160010,副本,Hanya pemimpin tim yang dapat mengoperasikan
-,20160011,,
-,20160012,,
+,20160011,副本,
+,20160012,副本,
+,20160013,副本,
+,20160014,副本,
 ,20170000,合成,Masuk antrian
 ,20170001,合成,Antrian kerajinan penuh.
 ,20170002,合成,Resep kerajinan belum terbuka.
@@ -267,8 +273,25 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20200004,活动, jual tiket berhasil
 ,20200005,活动, jual tiket gagal
 ,20210000,钱包相关, gagal!
-,20220001,战报,
-,20220002,战报,
-,20220003,战报,
-,20220004,战报,
-地形杀时,20220005,战报,
+地形杀,20220001,战报名称,
+单一目标,20220002,战报名称,
+xx的yy,20220003,战报名称,
+,20220004,战报名称,
+,20220005,战报名称,
+,20220006,战报概要,
+,20220007,战报概要,
+,20220008,战报概要,
+,20220009,战报概要,
+,20220010,战报概要,
+,20220011,战报详情,
+,20220012,战报详情,
+,20220013,战报详情,
+,20220014,战报详情,
+,20220015,战报详情,
+,20230000,宠物,
+,20230001,宠物,
+,20230002,宠物,
+,20230003,宠物,
+,20230004,宠物,
+,20230005,宠物,
+,20230006,,
