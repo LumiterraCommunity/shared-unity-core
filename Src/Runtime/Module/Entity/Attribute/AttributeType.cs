@@ -70,6 +70,7 @@ public enum eAttributeType : int
     CombatPotentiality = 66,
     GatherPotentiality = 67,
     FarmPotentiality = 68,
+    ExtraGrassRate = 69,
 
 }
 

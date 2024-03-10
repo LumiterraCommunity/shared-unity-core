@@ -18,6 +18,7 @@ public enum eSceneArea : int
     Home = 10002,   //家园
     DungeonSceneLv1_3 = 20000,  //4-6级副本
     DungeonSceneLv4_6 = 20001,  //4-6级副本
+    DungeonSceneLv7_9 = 20002,  //4-6级副本
     PVPDungeonSceneLv1_3 = 21001,  //4-6级副本
 }
 
