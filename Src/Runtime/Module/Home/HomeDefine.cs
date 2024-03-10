@@ -150,6 +150,10 @@ public static class HomeDefine
         /// 腐败收获 不会有产出
         /// </summary>
         HarvestPerish = 1 << 7,
+        /// <summary>
+        /// 特殊功能状态 比如图腾等成熟后所在状态
+        /// </summary>
+        SpecialFunction = 1 << 7,
     }
 
     /// <summary>
