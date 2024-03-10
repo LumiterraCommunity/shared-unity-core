@@ -6,9 +6,9 @@ using static HomeDefine;
 /// <summary>
 /// 土地成熟等待收获状态
 /// </summary>
-public class SoilHarvestStatusCore : SoilStatusCore
+public class SoilRipeStatusCore : SoilStatusCore
 {
-    public override eSoilStatus StatusFlag => eSoilStatus.Harvest;
+    public override eSoilStatus StatusFlag => eSoilStatus.Ripe;
 
     private eAction _supportAction = eAction.Harvest;
     public override eAction SupportAction => _supportAction;
