@@ -34,6 +34,22 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         InitStatus(StatusCtrl);
     }
 
+    protected virtual void Start()
+    {
+        SoilEvent.OnFunctionSeedRipe += OnFunctionSeedRipe;
+    }
+
+    protected virtual void OnDestroy()
+    {
+        SoilEvent.OnFunctionSeedRipe -= OnFunctionSeedRipe;
+    }
+
+    private void OnFunctionSeedRipe(GameMessageCore.SeedFunctionType type)
+    {
+        HomeEntityCore entity = HomeModuleCore.EntityFactory.CreateHomeEntity(LogicRoot, type);
+        entity.Init(this);
+    }
+
     /// <summary>
     /// 子类初始化具体的状态 前后端不一样
     /// </summary>

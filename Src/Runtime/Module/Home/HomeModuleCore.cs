@@ -40,6 +40,7 @@ public abstract class HomeModuleCore : MonoBehaviour
     /// </summary>
     /// <value></value>
     public static HomeDataCore HomeData { get; protected set; }
+    public static HomeEntityFactoryCore<HomeEntityCore> EntityFactory { get; internal set; }
 
     protected virtual void Start()
     {
