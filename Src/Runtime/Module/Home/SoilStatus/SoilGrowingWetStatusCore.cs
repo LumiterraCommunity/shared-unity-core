@@ -32,11 +32,11 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
     {
         if (SoilData.SaveData.SeedData.NeedPerish)
         {
-            ChangeState(eSoilStatus.HarvestPerish);
+            ChangeState(eSoilStatus.RipePerish);
         }
         else
         {
-            ChangeState(eSoilStatus.Harvest);
+            ChangeState(eSoilStatus.Ripe);
         }
     }
 
