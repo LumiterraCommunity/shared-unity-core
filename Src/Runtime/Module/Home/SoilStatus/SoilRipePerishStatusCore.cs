@@ -3,9 +3,9 @@ using static HomeDefine;
 /// <summary>
 /// 土地成熟等待腐败收获状态
 /// </summary>
-public class SoilHarvestPerishStatusCore : SoilStatusCore
+public class SoilRipePerishStatusCore : SoilStatusCore
 {
-    public override eSoilStatus StatusFlag => eSoilStatus.HarvestPerish;
+    public override eSoilStatus StatusFlag => eSoilStatus.RipePerish;
 
     public override eAction SupportAction => eAction.Harvest;
 
