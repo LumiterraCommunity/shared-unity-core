@@ -1,4 +1,5 @@
 using System;
+using GameMessageCore;
 using UnityEngine;
 
 /// <summary>
@@ -23,4 +24,8 @@ public class SoilEvent : MonoBehaviour
     /// 开始收获特殊动画 T0:收获的玩家实体
     /// </summary>
     public Action<EntityBase> StartHarvestSpecialAnim;
+    /// <summary>
+    /// 当功能性种子成熟时 T0:功能性种子类型
+    /// </summary>
+    public Action<SeedFunctionType> OnFunctionSeedRipe;
 }
