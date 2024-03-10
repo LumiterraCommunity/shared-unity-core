@@ -211,11 +211,12 @@ public static class TimeUtil
         }
     }
 
-    public static string GetTimeHHMMSS(int time)
+    public static string GetTimeHHMMSS(int ms)
     {
-        int hour = time / 3600;
-        int minute = time % 3600 / 60;
-        int second = time % 60;
+        int seconds = (int)(ms * MS2S);
+        int hour = seconds / SecondsOfHour;
+        int minute = seconds % SecondsOfHour / SecondsOfMinute;
+        int second = seconds % SecondsOfMinute;
         return $"{hour:D2}:{minute:D2}:{second:D2}";
     }
 }
