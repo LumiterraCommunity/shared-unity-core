@@ -15,4 +15,25 @@ public static class EntityUtilCore
     {
         return entityType == EntityType.Player || entityType == EntityType.MainPlayer;
     }
+
+    /// <summary>
+    /// 判断玩家能否正常离线
+    /// </summary>
+    /// <param name="entityType"></param>
+    /// <returns></returns>
+    public static bool CheckPlayerCanOffline(EntityBase entityBase, SceneServiceSubType sceneType)
+    {
+        //副本场景
+        if (sceneType == SceneServiceSubType.Dungeon)
+        {
+            return false;
+        }
+
+        //不是和平区域
+        if (entityBase.TryGetComponent(out EntityBattleArea entityBattleArea) && entityBattleArea.CurAreaType != eBattleAreaType.Peace)
+        {
+            return false;
+        }
+        return true;
+    }
 }
