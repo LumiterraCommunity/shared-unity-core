@@ -85,4 +85,17 @@ public static class PetUtilCore
 
         return lv;
     }
+
+    public static int GetPetProfileByType(IEnumerable<AttributeData> attrs, eAttributeType type)
+    {
+        foreach (AttributeData attr in attrs)
+        {
+            if (attr.Id == (int)type)
+            {
+                return attr.Value;
+            }
+        }
+
+        return 0;
+    }
 }
