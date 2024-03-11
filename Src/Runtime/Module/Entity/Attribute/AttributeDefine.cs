@@ -5,7 +5,20 @@
  * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Attribute/AttributeDefine.cs
  * 
  */
+using System.Collections.Generic;
 
+public static class AttributeDefine
+{
+    /// <summary>
+    /// 潜力值属性集合
+    /// </summary>
+    public static readonly HashSet<eAttributeType> PotentialAttrSet = new()
+    {
+        eAttributeType.CombatPotentiality,
+        eAttributeType.GatherPotentiality,
+        eAttributeType.FarmPotentiality,
+    };
+}
 /// <summary>
 /// 属性修改器类型
 /// </summary>
