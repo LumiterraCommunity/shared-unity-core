@@ -195,6 +195,7 @@ Sprite due to insufficient space"
 ,20110018,nft 关键字 在配置中的类型,Consumable
 ,20110019,nft 关键字 在配置中的类型,Material
 ,20110020,nft 关键字 在配置中的类型,Building
+,20110021,nft 关键字 在配置中的类型,Pet egg
 ,20120005,登录,Connect wallet started
 ,20120006,登录,Connect wallet Updated
 ,20120007,登录,Connect wallet finished
@@ -279,10 +280,10 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20200004,活动,sell ticket success
 ,20200005,活动,sell ticket failed
 ,20210000,钱包相关,Token balance request failed!
-地形杀,20220001,战报名称,[color=#F7CE3D]Terrain[/color] 
+地形杀,20220001,战报名称,[color=#F27B24]Terrain[/color] 
 单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color] 
 xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color] 
-,20220004,战报名称,reserved
+家园饥饿杀,20220004,战报名称,[color=#F27B24]Hunger[/color] 
 ,20220005,战报名称,reserved
 ,20220006,战报概要,You were killed by {att=unknown}
 ,20220007,战报概要,Your {def=unknown} were killed by {att=unknown}
