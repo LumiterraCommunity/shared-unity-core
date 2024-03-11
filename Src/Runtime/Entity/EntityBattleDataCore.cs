@@ -5,6 +5,7 @@
  * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
  * 
  */
+using System;
 using System.Collections.Generic;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
@@ -334,6 +335,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// <returns></returns>
     protected int CalcFinalValueByPotentiality(int baseValue, float potential, int lv)
     {
-        return baseValue + (int)(baseValue * potential * lv);
+        //提升公式：当前属性数值 = 基础数值 +（基础数值 * 潜力值）* （等级-1）
+        return baseValue + (int)(baseValue * potential * Math.Max(lv - 1, 0));
     }
 }
