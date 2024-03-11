@@ -20,6 +20,10 @@ public static class BattleDefine
     /// 地形伤害实体ID 包括了毒圈 掉落 溺水等 为了给统一的实体伤害事件处理
     /// </summary>
     public const long SCENE_DAMAGE_ENTITY_ID = -999;
+    /// <summary>
+    /// 家园饥饿伤害实体ID
+    /// </summary>
+    public const long HUNGER_DAMAGE_ENTITY_ID = -899;
 
     public enum eSkillShapeId : int
     {
