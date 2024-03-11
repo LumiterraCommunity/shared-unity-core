@@ -13,7 +13,15 @@ public class PetFollowDataCore : EntityBaseComponent
 
     private void Start()
     {
-        _petDataCore = RefEntity.GetComponent<PetDataCore>();
+        InitPetDataCore();
+    }
+
+    private void InitPetDataCore()
+    {
+        if (_petDataCore == null)
+        {
+            _petDataCore = RefEntity.GetComponent<PetDataCore>();
+        }
     }
 
     /// <summary>
@@ -24,7 +32,12 @@ public class PetFollowDataCore : EntityBaseComponent
     {
         if (_petDataCore == null)
         {
-            //可能还没Start，这里要判断一下
+            InitPetDataCore();
+        }
+
+        if (_petDataCore == null)
+        {
+            Log.Error("PetDataCore is null");
             return new int[] { };
         }
 
