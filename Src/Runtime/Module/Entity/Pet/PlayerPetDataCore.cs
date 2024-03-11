@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using UnityGameFramework.Runtime;
 
 
@@ -23,11 +22,20 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// 这里只存实体的id，有的宠物可能在家园，不在场景中，所以不存实体引用
     /// 有遍历需求的时候可以额外增加一个List
     /// </summary>
-    public HashSet<long> PetSet { get; private set; }
+    // public HashSet<long> PetSet { get; private set; }
     /// <summary>
     /// 当前跟随的宠物，null表示没有跟随宠物
     /// </summary>
     public EntityBase FollowingPet { get; private set; }
+
+    private void OnDestroy()
+    {
+        if (FollowingPet != null)
+        {
+            FollowingPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
+        }
+    }
+
     /// <summary>
     /// 设置当前跟随的宠物，null表示取消跟随
     /// </summary>
@@ -38,6 +46,8 @@ public class PlayerPetDataCore : EntityBaseComponent
         {
             return;
         }
+
+        HandFollowingPetUnInitEvent(pet, FollowingPet);
 
         if (pet == null)
         {
@@ -54,29 +64,50 @@ public class PlayerPetDataCore : EntityBaseComponent
         }
     }
 
-    public void AddPet(long id)
+    private void HandFollowingPetUnInitEvent(EntityBase newPet, EntityBase lastPet)
     {
-        if (PetSet == null)
+        if (newPet != null)
         {
-            PetSet = new();
+            newPet.EntityEvent.UnInitFromScene += OnPetUnInitFromScene;
         }
 
-        if (!PetSet.Add(id))
+        if (lastPet != null)
         {
-            Log.Error("AddPet: pet already exist, id = {0}", id);
+            lastPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
         }
     }
 
-    public void RemovePet(long id)
+    private void OnPetUnInitFromScene(EntityBase pet)
     {
-        if (PetSet == null)
+        if (pet == FollowingPet)
         {
-            return;
-        }
-
-        if (!PetSet.Remove(id))
-        {
-            Log.Error("RemovePet: pet not exist, id = {0}", id);
+            SetFollowingPet(null);
         }
     }
+
+    // public void AddPet(long id)
+    // {
+    //     if (PetSet == null)
+    //     {
+    //         PetSet = new();
+    //     }
+
+    //     if (!PetSet.Add(id))
+    //     {
+    //         Log.Error("AddPet: pet already exist, id = {0}", id);
+    //     }
+    // }
+
+    // public void RemovePet(long id)
+    // {
+    //     if (PetSet == null)
+    //     {
+    //         return;
+    //     }
+
+    //     if (!PetSet.Remove(id))
+    //     {
+    //         Log.Error("RemovePet: pet not exist, id = {0}", id);
+    //     }
+    // }
 }
