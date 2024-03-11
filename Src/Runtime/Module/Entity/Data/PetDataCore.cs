@@ -23,6 +23,10 @@ public class PetDataCore : EntityBaseComponent
     /// </summary>
     public long OwnerId { get; protected set; }
     /// <summary>
+    /// 是否正在跟随
+    /// </summary>
+    public bool IsFollowing { get; protected set; }
+    /// <summary>
     /// 宠物配置
     /// </summary>
     public DRPet PetCfg { protected set; get; }
@@ -64,6 +68,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = proxyData.CreateMs;
         UpdateMs = proxyData.UpdateMs;
         AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
+        SetIsFollowing(proxyData.Status);
         SetPetCfgId(proxyData.Cid);
     }
 
@@ -77,6 +82,7 @@ public class PetDataCore : EntityBaseComponent
         proxyData.CreateMs = CreateMs;
         proxyData.UpdateMs = UpdateMs;
         proxyData.Cid = PetCfgId;
+        proxyData.Status = IsFollowing;
         PetUtilCore.PetAbilityEnumToBitProtoRepeated(AllAbility, proxyData.AbilityList);
     }
 
@@ -169,6 +175,11 @@ public class PetDataCore : EntityBaseComponent
     public void SetOwnerId(long ownerId)
     {
         OwnerId = ownerId;
+    }
+
+    public void SetIsFollowing(bool isFollowing)
+    {
+        IsFollowing = isFollowing;
     }
 
     /// <summary>
