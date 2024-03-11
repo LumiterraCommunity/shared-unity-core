@@ -29,10 +29,11 @@ public class PlayerSkillCollector : EntitySkillCollector
         RefEntity.EntityEvent.TalentSkillInited += OnTalentSkillInited;
 
         //宠物跟随技能
-        if (RefEntity.TryGetComponent(out PlayerPetDataCore petData))
+        if (RefEntity.TryGetComponent(out PlayerPetDataCore playerPetData))
         {
-            petData.FollowingPetChanged += OnFollowingPetChanged;
-            OnFollowingPetChanged(petData.FollowingPet);
+            playerPetData.PetFollow += OnPetFollow;
+            playerPetData.PetUnFollow += OnPetUnFollow;
+            CheckPetSkill();
         }
 
         CheckInitTalentSkill();
@@ -49,9 +50,10 @@ public class PlayerSkillCollector : EntitySkillCollector
             RefEntity.EntityEvent.TalentSkillUpdated -= OnTalentSkillUpdated;
             RefEntity.EntityEvent.TalentSkillInited -= OnTalentSkillInited;
 
-            if (RefEntity.TryGetComponent(out PlayerPetDataCore petMgr))
+            if (RefEntity.TryGetComponent(out PlayerPetDataCore playerPetData))
             {
-                petMgr.FollowingPetChanged -= OnFollowingPetChanged;
+                playerPetData.PetFollow -= OnPetFollow;
+                playerPetData.PetUnFollow -= OnPetUnFollow;
             }
         }
 
@@ -187,28 +189,33 @@ public class PlayerSkillCollector : EntitySkillCollector
     /// 当前跟随的宠物发生变化
     /// </summary>
     /// <param name="pet"></param>
-    private void OnFollowingPetChanged(EntityBase pet)
+    private void OnPetFollow(EntityBase _)
+    {
+        CheckPetSkill();
+    }
+
+    private void OnPetUnFollow(EntityBase _)
+    {
+        CheckPetSkill();
+    }
+
+    private void CheckPetSkill()
     {
         EntitySkillDataCore.RemoveSkillGroupIDList(eSkillGroupType.Pet);
-        if (pet == null)
+        PlayerPetDataCore petMgr = RefEntity.GetComponent<PlayerPetDataCore>();
+        if (petMgr == null)
         {
-            PlayerPetDataCore petMgr = RefEntity.GetComponent<PlayerPetDataCore>();
-            if (petMgr == null)
-            {
-                Log.Error($"CollectSkillFromPet error, petMgr is null");
-                return;
-            }
-
-            pet = petMgr.FollowingPet;
+            Log.Error($"CollectSkillFromPet error, petMgr is null");
+            return;
         }
 
-        if (pet == null)
+        if (petMgr.FollowingPet == null)
         {
             //当前没有宠物跟随
             return;
         }
 
-        PetFollowDataCore followData = pet.GetComponent<PetFollowDataCore>();
+        PetFollowDataCore followData = petMgr.FollowingPet.GetComponent<PetFollowDataCore>();
         if (followData == null)
         {
             Log.Error($"CollectSkillFromPet error, petData is null");

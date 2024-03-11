@@ -9,9 +9,15 @@ using UnityGameFramework.Runtime;
 public class PlayerPetDataCore : EntityBaseComponent
 {
     /// <summary>
-    /// 玩家当前跟随的宠物发生变化，null代表没有跟随宠物
+    /// 宠物跟随事件
+    /// T0:当前正在跟随的实体
     /// </summary>
-    public event Action<EntityBase> FollowingPetChanged;
+    public event Action<EntityBase> PetFollow;
+    /// <summary>
+    /// 宠物取消跟随事件
+    /// T0:取消跟随前的实体
+    /// </summary>
+    public event Action<EntityBase> PetUnFollow;
     /// <summary>
     /// 玩家宠物集合，没有任何宠物的时候返回null
     /// 这里只存实体的id，有的宠物可能在家园，不在场景中，所以不存实体引用
@@ -28,34 +34,23 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// <param name="pet"></param>
     public void SetFollowingPet(EntityBase pet)
     {
-        if (pet == FollowingPet || !pet.Inited)
+        if (pet == FollowingPet)
         {
             return;
         }
 
-        string petInfo = pet == null ? "null" : pet.BaseData.Id.ToString();
-        Log.Info($"Player following pet changed, cur pet is {petInfo}");
-        SetPetFlowingTarget(FollowingPet, null);//取消之前的跟随标记
-        SetPetFlowingTarget(pet, RefEntity);//设置新的跟随
-        FollowingPet = pet;
-        FollowingPetChanged?.Invoke(pet);
-    }
-
-    /// <summary>
-    /// 设置宠物跟随目标
-    /// </summary>
-    /// <param name="pet"></param>
-    /// <param name="target"></param>
-    private void SetPetFlowingTarget(EntityBase pet, EntityBase target)
-    {
-        if (pet == null || !pet.Inited)
+        if (pet == null)
         {
-            return;
+            EntityBase lastPet = FollowingPet;
+            FollowingPet = null;
+            PetUnFollow?.Invoke(lastPet);
+            Log.Info("Player un follow pet");
         }
-
-        if (pet.TryGetComponent(out PetFollowDataCore followData))
+        else
         {
-            followData.SetFollowingTarget(target);
+            FollowingPet = pet;
+            PetFollow?.Invoke(pet);
+            Log.Info($"Player following pet changed, cur pet is {pet.BaseData.Id}");
         }
     }
 
