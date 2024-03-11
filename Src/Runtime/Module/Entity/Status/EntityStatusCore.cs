@@ -8,6 +8,7 @@ public class EntityStatusCore : ComponentStatusCore<EntityStatusCtrl>
     {
         try
         {
+            //因为流程是先进入死亡状态，再进入灵魂状态，所以这里判断是否死亡，是根据IsLive判断的
             return StatusCtrl.RefEntity != null && StatusCtrl.RefEntity.BattleDataCore != null && !StatusCtrl.RefEntity.BattleDataCore.IsLive();
         }
         catch (System.Exception e)

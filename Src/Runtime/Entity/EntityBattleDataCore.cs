@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 战斗数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
  * 
  */
 using System.Collections.Generic;
@@ -80,7 +80,17 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// 是否进入灵魂状态
     /// </summary>
     /// <value></value>
-    public bool IsInSoul { get; protected set; } = false;
+    public bool IsInSoul => Status == EntityStatus.Soul;
+    /// <summary>
+    /// 是否进入死亡状态
+    /// </summary>
+    /// <value></value>
+    public bool IsInDead => Status == EntityStatus.Dead;
+
+    /// <summary>
+    /// 实体状态
+    /// </summary>
+    public EntityStatus Status;
 
     /// <summary>
     /// 战斗归属ID
@@ -106,21 +116,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     }
     public virtual void SetHP(int hp, bool isForce = false)
     {
-        //死亡状态返回
-        if (!isForce && EntityBehaviorCheckLogic.IsDeathStatus(RefEntity))
-        {
-            return;
-        }
-
-        HP = hp;
-        if (HP > HPMAX)
-        {
-            HP = HPMAX;
-        }
-        if (hp > 0)
-        {
-            DeathReason = DamageState.Normal;
-        }
+        HP = System.Math.Clamp(hp, 0, HPMAX);
     }
 
     /// <summary>
@@ -218,7 +214,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// </summary>
     public bool IsLive()
     {
-        return HP > 0 && !IsInSoul;
+        return Status == EntityStatus.Live;
     }
 
     private int GetHpValue()
@@ -309,20 +305,19 @@ public class EntityBattleDataCore : EntityBaseComponent
     }
 
     /// <summary>
-    ///  改变灵魂状态
+    ///  改变实体状态
     /// </summary>
-    /// <param name="isInSoul"></param>
+    /// <param name="status"></param>
+    /// <param name="sync">是否同步</param>
     /// <returns>改变成功或者失败 状态没变为失败 主要给子类覆写使用</returns>
-    public virtual bool ChangeIsSoul(bool isInSoul)
+    public virtual bool ChangeStatus(EntityStatus status, bool sync = false)
     {
-        if (IsInSoul == isInSoul)
+        if (Status == status)
         {
             return false;
         }
-
-        IsInSoul = isInSoul;
-        RefEntity.EntityEvent.ChangeIsSoul?.Invoke();
+        Status = status;
+        RefEntity.EntityEvent.ChangeEntityStatus?.Invoke();
         return true;
     }
-
 }

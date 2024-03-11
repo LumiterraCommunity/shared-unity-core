@@ -1,7 +1,7 @@
 /* 
  * @Author XQ
  * @Date 2022-08-15 11:15:06
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
  */
 using System;
 using System.Collections.Generic;
@@ -204,9 +204,9 @@ public class EntityEvent : EntityBaseComponent
     public Action<bool> ChangeIsBattle;
 
     /// <summary>
-    /// 实体灵魂状态改变  
+    /// 实体状态改变  
     /// </summary>
-    public Action ChangeIsSoul;
+    public Action ChangeEntityStatus;
 
     #endregion
     #region 天赋树

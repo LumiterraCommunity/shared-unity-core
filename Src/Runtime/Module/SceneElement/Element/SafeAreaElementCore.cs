@@ -161,6 +161,7 @@ public class SafeAreaElementCore : SceneElementCore
         GameMessageCore.SafeAreaElementData netData = new()
         {
             StartTime = _startTime,
+            Position = new()
         };
         netData.Position.Set(transform.position.x, transform.position.y, transform.position.z);
         SceneElementData.SafeArea = netData;

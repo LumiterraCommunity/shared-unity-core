@@ -77,22 +77,30 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
 
     protected override void AddEvent(EntityEvent entityEvent)
     {
-        entityEvent.EntityBeReborn += OnBeReborn;
+
     }
 
     protected override void RemoveEvent(EntityEvent entityEvent)
     {
-        entityEvent.EntityBeReborn -= OnBeReborn;
+
     }
 
     protected override void OnUpdate(IFsm<EntityStatusCtrl> fsm, float elapseSeconds, float realElapseSeconds)
     {
         base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);
+
         if (RefEntityIsSoul())
         {
             ChangeState(fsm, DeathSoulStatusCore.Name);
             return;
         }
+
+        if (!RefEntityIsDead())
+        {
+            OnBeReborn();
+            return;
+        }
+
     }
     private void CancelTimeDeath()
     {
@@ -130,7 +138,7 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
     /// <value></value>
     protected virtual void OnDeathEnd()
     {
-        _ = StatusCtrl.RefEntity.BattleDataCore.ChangeIsSoul(true);
+
     }
 
     /// <summary>
@@ -140,6 +148,7 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
     protected virtual void OnBeReborn()
     {
         ChangeState(OwnerFsm, IdleStatusCore.Name);
+        StatusCtrl.RefEntity.EntityEvent.EntityBeReborn?.Invoke();
     }
 
     public bool CheckCanMove()
