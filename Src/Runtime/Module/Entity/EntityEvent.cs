@@ -285,7 +285,7 @@ public class EntityEvent : EntityBaseComponent
     /// <summary>
     /// 实体传送门元素
     /// </summary>
-    public Action EntityTriggerPortalElement;
+    public Action<PortalElementCore> EntityTriggerPortalElement;
 
     /// <summary>
     /// 手持物品改变

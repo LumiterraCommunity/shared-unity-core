@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 安全区组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SafeAreaElementCore.cs
  * 
  */
 using UnityEngine;
@@ -15,9 +15,6 @@ public class SafeAreaElementCore : SceneElementCore
 {
 
     public override eSceneElementType ElementType => eSceneElementType.SafeArea;
-
-    [Header("区域ID")]
-    public int AreaID = 0;
 
     [Header("是否运行")]
     public bool IsRun = false;
@@ -39,6 +36,11 @@ public class SafeAreaElementCore : SceneElementCore
     public List<SafeAreaInfo> SafeAreaInfos;
     [Header("安全区特效")]
     public GameObject SafeAreaEffect;
+
+    [Header("最小传送门数量系数")]
+    public float MinPortalCoefficient = 10f;
+    [Header("最大传送门数量系数")]
+    public float MaxPortalCoefficient = 5f;
     private int _curIndex = 0;
     private float _waitTime = 0;
     private long _startTime = 0;

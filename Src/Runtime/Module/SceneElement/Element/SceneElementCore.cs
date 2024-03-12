@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 场景元素组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SceneElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/SceneElementCore.cs
  * 
  */
 using UnityEngine;
@@ -24,6 +24,9 @@ public class SceneElementCore : SharedCoreComponent
     [Header("全局ID 自动生成 不要乱改")]
     private long _id;
     public long Id => _id;
+
+    [Header("区域ID, 与战斗区域ID对应")]
+    public int AreaID = 0;
     public bool IsSyncData = false; //是否需要同步数据，!!!同步数据会采用全局广播，大世界多人场景不要轻易使用
     protected SceneElementData SceneElementData = new();
     protected virtual void Awake()

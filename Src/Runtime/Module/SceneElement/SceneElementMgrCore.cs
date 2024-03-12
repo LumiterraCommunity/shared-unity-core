@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-12-02 10:52:02
  * @Description: 用于管理场景中的元素（元素不走实体管理那套，一般是指场景全局运行且需要同步数据的对象，谨慎使用，如果对象过多要同步的数据量巨大，应考虑使用实体走九宫格那套）
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementMgrCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementMgrCore.cs
  * 
  */
 
@@ -16,7 +16,6 @@ public class SceneElementMgrCore : SceneModuleBase
 {
     public Dictionary<long, SceneElementCore> SceneElementDic = new();
     public Dictionary<eSceneElementType, List<SceneElementCore>> SceneElementDicByType = new();
-
     protected List<SceneElementData> SceneElementDataList = new();
     protected virtual void Awake()
     {
@@ -73,6 +72,26 @@ public class SceneElementMgrCore : SceneModuleBase
             return elementList.ConvertAll(x => (T)x);
         }
         return null;
+    }
+
+    /// <summary>
+    /// 根据类型和区域ID获取场景元素列表
+    /// </summary>
+    /// <param name="elementType"></param>
+    /// <param name="areaID"></param>
+    /// <param name="resultList"></param> <summary>
+    public void GetSceneElementListByTypeAndAreaID(eSceneElementType elementType, int areaID, List<SceneElementCore> resultList)
+    {
+        if (SceneElementDicByType.TryGetValue(elementType, out List<SceneElementCore> elementList))
+        {
+            for (int i = 0; i < elementList.Count; i++)
+            {
+                if (elementList[i].AreaID == areaID)
+                {
+                    resultList.Add(elementList[i]);
+                }
+            }
+        }
     }
 
     public void InitNetData(RepeatedField<SceneElementData> sceneElementDataList)
