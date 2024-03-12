@@ -2,17 +2,22 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
-using Newtonsoft.Json;
 using System.Collections.Generic;
 using GameMessageCore;
 
 public class PortalElementCore : SceneElementCore
 {
     public override eSceneElementType ElementType => eSceneElementType.Portal;
+
+    [Header("区域ID")]
+    public int AreaID = 0;
+
+    [Header("目标区域ID -1为离开副本")]
+    public int TargetAreaID = -1;
 
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
