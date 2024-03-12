@@ -28,4 +28,8 @@ public class SoilEvent : MonoBehaviour
     /// 当功能性种子成熟时 T0:功能性种子类型
     /// </summary>
     public Action<SeedFunctionType> OnFunctionSeedRipe;
+    /// <summary>
+    /// 当功能性种子实体被移除后
+    /// </summary>
+    public Action OnFunctionSeedEntityRemoved;
 }

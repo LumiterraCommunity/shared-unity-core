@@ -40,7 +40,11 @@ public abstract class HomeModuleCore : MonoBehaviour
     /// </summary>
     /// <value></value>
     public static HomeDataCore HomeData { get; protected set; }
-    public static HomeEntityFactoryCore<HomeEntityCore> EntityFactory { get; internal set; }
+    /// <summary>
+    /// 家园实体管理
+    /// </summary>
+    /// <value></value>
+    public static IHomeEntityMgrCore HomeEntityMgr { get; protected set; }
 
     protected virtual void Start()
     {
@@ -78,6 +82,7 @@ public abstract class HomeModuleCore : MonoBehaviour
         HomeData = null;
         SoilMgr = null;
         SoilResourceRelation = null;
+        HomeEntityMgr = null;
     }
 
     /// <summary>

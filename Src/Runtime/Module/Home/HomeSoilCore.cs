@@ -29,6 +29,12 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         return 0;
     }
 
+    /// <summary>
+    /// 土地上的功能性实体 只有功能性种子成熟后且没有收割掉时才不为null
+    /// </summary>
+    /// <value></value>
+    public HomeEntityCore FunctionEntity { get; private set; }
+
     protected virtual void Awake()
     {
         SoilEvent = gameObject.AddComponent<SoilEvent>();
@@ -46,12 +52,6 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     protected virtual void OnDestroy()
     {
         SoilEvent.OnFunctionSeedRipe -= OnFunctionSeedRipe;
-    }
-
-    private void OnFunctionSeedRipe(GameMessageCore.SeedFunctionType type)
-    {
-        HomeEntityCore entity = HomeModuleCore.EntityFactory.CreateHomeEntity(LogicRoot, type);
-        entity.Init(this);
     }
 
     /// <summary>
@@ -105,5 +105,49 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     public void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
         SoilEvent.OnBeHit?.Invoke(skillId);
+    }
+
+    private void OnFunctionSeedRipe(GameMessageCore.SeedFunctionType type)
+    {
+        GameObject entityRoot = GameObjectUtil.CreateGameObject("FunctionEntityRoot", LogicRoot.transform);
+        HomeEntityCore entity = HomeModuleCore.HomeEntityMgr.AddEntity((long)SoilData.SaveData.Id, type, entityRoot);
+        SetHomeEntity(entity);
+
+        entity.Init(this);
+    }
+
+    /// <summary>
+    /// 设置土地上的实体 建立关联关系
+    /// </summary>
+    /// <param name="entity"></param>
+    private void SetHomeEntity(HomeEntityCore entity)
+    {
+        if (FunctionEntity != null && entity != null)
+        {
+            Log.Error("土地上已经有实体了");
+            SetHomeEntity(null);
+            return;
+        }
+
+        if (entity != null)//添加实体关系
+        {
+            FunctionEntity = entity;
+            entity.EntityEvent.OnEntityRemoved += OnEntityRemoved;
+        }
+        else//移除实体关系
+        {
+            if (FunctionEntity != null)
+            {
+                FunctionEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
+                FunctionEntity = null;
+            }
+        }
+    }
+
+    private void OnEntityRemoved()
+    {
+        SetHomeEntity(null);
+
+        SoilEvent.OnFunctionSeedEntityRemoved?.Invoke();
     }
 }
