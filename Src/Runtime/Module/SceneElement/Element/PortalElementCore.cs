@@ -2,21 +2,22 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
 using System.Collections.Generic;
 using GameMessageCore;
+using System;
 
 public class PortalElementCore : SceneElementCore
 {
     public override eSceneElementType ElementType => eSceneElementType.Portal;
-    [SerializeField]
+    [Serializable]
     public struct PortalTypeInfo
     {
         public ePortalType PortalType;
-        public UnityEngine.Vector3 Pos;
+        public GameObject TransferObject;
         public int Weight;
     }
     [Header("传送门类型列表")]
