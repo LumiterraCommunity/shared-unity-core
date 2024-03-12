@@ -41,10 +41,10 @@ public abstract class HomeModuleCore : MonoBehaviour
     /// <value></value>
     public static HomeDataCore HomeData { get; protected set; }
     /// <summary>
-    /// 家园实体管理
+    /// 种子实体管理
     /// </summary>
     /// <value></value>
-    public static IHomeEntityMgrCore HomeEntityMgr { get; protected set; }
+    public static ISeedEntityMgrCore SeedEntityMgr { get; protected set; }
 
     protected virtual void Start()
     {
@@ -82,7 +82,7 @@ public abstract class HomeModuleCore : MonoBehaviour
         HomeData = null;
         SoilMgr = null;
         SoilResourceRelation = null;
-        HomeEntityMgr = null;
+        SeedEntityMgr = null;
     }
 
     /// <summary>
