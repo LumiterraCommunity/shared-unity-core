@@ -59,6 +59,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
         AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
+        IsFollowing = petData.Status;
         SetPetCfgId(petData.Cid);
     }
 
@@ -68,7 +69,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = proxyData.CreateMs;
         UpdateMs = proxyData.UpdateMs;
         AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
-        SetIsFollowing(proxyData.Status);
+        IsFollowing = proxyData.Status;
         SetPetCfgId(proxyData.Cid);
     }
 
