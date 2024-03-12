@@ -2,9 +2,9 @@ using System;
 using UnityEngine;
 
 /// <summary>
-/// 家园实体自身的事件
+/// 种子实体自身的事件
 /// </summary>
-public class HomeEntityEventCore : MonoBehaviour
+public class SeedEntityEventCore : MonoBehaviour
 {
     /// <summary>
     /// 初始化完成时的事件

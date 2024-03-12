@@ -3,12 +3,13 @@ using UnityEngine;
 using UnityGameFramework.Runtime;
 
 /// <summary>
-/// 家园实体基类core 是挂载土地根节点上的一个脚本 不是走的EntityBase的实体 是属于土地上的特殊种子的功能实体 和土地有一定耦合关系 更加轻巧且状态同步更加简单
+/// 种子实体基类core 是特殊种子成熟后会生成一个这样的实体 其根节点是对应土地根节点的子节点 本类就挂载在这个节点上;
+/// 不是走的EntityBase的实体 是属于土地上的特殊种子的功能实体 和土地有一定耦合关系 更加轻巧且状态同步更加简单
 /// </summary>
-public abstract class HomeEntityCore : MonoBehaviour
+public abstract class SeedEntityCore : MonoBehaviour
 {
     /// <summary>
-    /// 家园实体的唯一id 目前和土地id一样
+    /// 种子实体的唯一id 目前和土地id一样
     /// </summary>
     /// <value></value>
     public long Id { get; private set; }
@@ -27,7 +28,7 @@ public abstract class HomeEntityCore : MonoBehaviour
     /// 实体自身的消息事件
     /// </summary>
     /// <value></value>
-    public HomeEntityEventCore EntityEvent { get; protected set; }
+    public SeedEntityEventCore EntityEvent { get; protected set; }
 
     /// <summary>
     /// 初始化工作
@@ -39,14 +40,14 @@ public abstract class HomeEntityCore : MonoBehaviour
 
         OnInit();
 
-        IHomeEntityInitLogic[] initLogics = GetComponents<IHomeEntityInitLogic>();
+        ISeedEntityInitLogic[] initLogics = GetComponents<ISeedEntityInitLogic>();
         if (initLogics == null || initLogics.Length == 0)
         {
-            Log.Error("家园实体 没有找到初始化逻辑");
+            Log.Error("种子实体 没有找到初始化逻辑");
             return;
         }
 
-        foreach (IHomeEntityInitLogic logic in initLogics)
+        foreach (ISeedEntityInitLogic logic in initLogics)
         {
             try
             {
@@ -54,7 +55,7 @@ public abstract class HomeEntityCore : MonoBehaviour
             }
             catch (System.Exception e)
             {
-                Log.Error($"家园实体初始化逻辑出错 type:{Type} {logic.GetType().Name} error:{e}");
+                Log.Error($"种子实体初始化逻辑出错 type:{Type} {logic.GetType().Name} error:{e}");
                 continue;
             }
         }
@@ -72,7 +73,7 @@ public abstract class HomeEntityCore : MonoBehaviour
         }
         catch (System.Exception e)
         {
-            Log.Error($"家园实体释放逻辑出错 type:{Type} error:{e}");
+            Log.Error($"种子实体释放逻辑出错 type:{Type} error:{e}");
         }
 
         SetBaseInfo(0, SeedFunctionType.None);
@@ -86,7 +87,7 @@ public abstract class HomeEntityCore : MonoBehaviour
     }
 
     /// <summary>
-    /// 子类初始化 这是实体上的通用初始化 不同实体业务上的初始化添加HomeEntityInitLogic子类来实现
+    /// 子类初始化 这是实体上的通用初始化 不同实体业务上的初始化添加SeedEntityInitLogic子类来实现
     /// </summary>
     protected abstract void OnInit();
     /// <summary>
