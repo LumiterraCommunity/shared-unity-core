@@ -17,9 +17,12 @@ public class PortalElementCore : SceneElementCore
     public struct PortalTypeInfo
     {
         public ePortalType PortalType;
-        public GameObject TransferObject;
         public int Weight;
     }
+
+    [Header("传送位置")]
+    public UnityEngine.Vector3 TransferPos;
+
     [Header("传送门类型列表")]
     public List<PortalTypeInfo> PortalTypeList;
 
