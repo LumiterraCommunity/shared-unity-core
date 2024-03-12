@@ -297,4 +297,9 @@ public class EntityEvent : EntityBaseComponent
     /// 实体改变阵营开始
     /// </summary>
     public Action DelayChangeCampUpdate;
+
+    /// <summary>
+    /// 实体重连
+    /// </summary>
+    public Action EntityReconnect;
 }
