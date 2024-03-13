@@ -285,7 +285,7 @@ public class EntityEvent : EntityBaseComponent
     /// <summary>
     /// 实体传送门元素
     /// </summary>
-    public Action EntityTriggerPortalElement;
+    public Action<PortalElementCore> EntityTriggerPortalElement;
 
     /// <summary>
     /// 手持物品改变
@@ -297,4 +297,9 @@ public class EntityEvent : EntityBaseComponent
     /// 实体改变阵营开始
     /// </summary>
     public Action DelayChangeCampUpdate;
+
+    /// <summary>
+    /// 实体重连
+    /// </summary>
+    public Action EntityReconnect;
 }

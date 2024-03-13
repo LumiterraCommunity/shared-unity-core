@@ -2,17 +2,32 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
-using Newtonsoft.Json;
 using System.Collections.Generic;
 using GameMessageCore;
+using System;
 
 public class PortalElementCore : SceneElementCore
 {
     public override eSceneElementType ElementType => eSceneElementType.Portal;
+    [Serializable]
+    public struct PortalTypeInfo
+    {
+        public ePortalType PortalType;
+        public int Weight;
+    }
+
+    [Header("传送位置")]
+    public UnityEngine.Vector3 TransferPos;
+
+    [Header("传送门类型列表")]
+    public List<PortalTypeInfo> PortalTypeList;
+
+    [Header("当前传送门索引")]
+    public int CurTypeIndex;
 
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
@@ -53,22 +68,24 @@ public class PortalElementCore : SceneElementCore
             StartTime = _startTime,
             StatusType = (int)StatusType,
             CurUseNum = CurUseNum,
+            CurTypeIndex = CurTypeIndex,
         };
         SceneElementData.Portal = netData;
     }
 
-    public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum)
+    public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum, int curTypeIndex)
     {
         _startTime = startTime;
         StatusType = statusType;
         CurUseNum = curUseNum;
+        CurTypeIndex = curTypeIndex;
         UpdateElementData();
     }
 
     public override void InitElementData(SceneElementData netData)
     {
         PortalElementData portal = netData.Portal;
-        StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum);
+        StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum, portal.CurTypeIndex);
     }
 
     private void UpdateStatusHide()
@@ -131,7 +148,7 @@ public class PortalElementCore : SceneElementCore
             {
                 CurUseNum++;
                 _ = _portalDic.Add(entity);
-                entity.EntityEvent.EntityTriggerPortalElement?.Invoke();
+                entity.EntityEvent.EntityTriggerPortalElement?.Invoke(this);
             }
 
             if (CurUseNum >= MaxUseNum)

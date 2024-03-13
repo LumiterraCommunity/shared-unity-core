@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体安全区伤害组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntitySafeAreaDamageCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntitySafeAreaDamageCore.cs
  * 
  */
 
@@ -17,6 +17,7 @@ using System.Runtime.InteropServices;
 public class EntitySafeAreaDamageCore : EntityBaseComponent
 {
     public bool IsSafeArea { get; private set; } = true;
+    public List<SceneElementCore> SafeAreaElements = new();
     private void Start()
     {
         StartCheckSafeArea();
@@ -50,21 +51,21 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
             return;
         }
 
-        //和平区域不会受到伤害
-        if (RefEntity.TryGetComponent(out EntityBattleArea entityBattleArea) && entityBattleArea.CurAreaType == eBattleAreaType.Peace)
+        if (!RefEntity.TryGetComponent(out EntityBattleArea entityBattleArea))
         {
             return;
         }
         SceneElementMgrCore sceneElementMgr = GFEntryCore.GetModule<SceneElementMgrCore>();
-        List<SafeAreaElementCore> safeAreaElements = sceneElementMgr.GetSceneElementListByType<SafeAreaElementCore>(eSceneElementType.SafeArea);
-        if (safeAreaElements == null || safeAreaElements.Count <= 0)
+        SafeAreaElements.Clear();
+        sceneElementMgr.GetSceneElementListByTypeAndAreaID(eSceneElementType.SafeArea, entityBattleArea.CurAreaID, SafeAreaElements);
+        if (SafeAreaElements == null || SafeAreaElements.Count <= 0)
         {
             return;
         }
 
 
-        //理论上只有一个安全区，否则设计有问题
-        SafeAreaElementCore safeAreaElement = safeAreaElements[0];
+        //理论上一个战斗区域只有一个安全区，否则设计有问题
+        SafeAreaElementCore safeAreaElement = SafeAreaElements[0] as SafeAreaElementCore;
         if (!safeAreaElement.IsSafeArea(RefEntity.Position))
         {
             _ = AreaDamage(safeAreaElement.GetCurSafeAreaInfo());

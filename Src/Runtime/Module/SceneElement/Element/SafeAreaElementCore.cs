@@ -36,6 +36,11 @@ public class SafeAreaElementCore : SceneElementCore
     public List<SafeAreaInfo> SafeAreaInfos;
     [Header("安全区特效")]
     public GameObject SafeAreaEffect;
+
+    [Header("最小传送门数量系数")]
+    public float MinPortalCoefficient = 10f;
+    [Header("最大传送门数量系数")]
+    public float MaxPortalCoefficient = 5f;
     private int _curIndex = 0;
     private float _waitTime = 0;
     private long _startTime = 0;
