@@ -80,7 +80,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         {
             if (action == eAction.Sowing)
             {
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, toolCid);
+                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, (toolCid, (string)actionData));//actionData为costItemNftId
             }
             else if (action == eAction.Manure)
             {

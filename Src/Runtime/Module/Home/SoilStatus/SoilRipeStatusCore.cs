@@ -1,5 +1,4 @@
 using GameFramework.Fsm;
-using GameMessageCore;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
 
@@ -10,8 +9,7 @@ public class SoilRipeStatusCore : SoilStatusCore
 {
     public override eSoilStatus StatusFlag => eSoilStatus.Ripe;
 
-    private eAction _supportAction = eAction.Harvest;
-    public override eAction SupportAction => _supportAction;
+    public override eAction SupportAction => HomeUtilCore.JudgeSeedIsFunctionEntityType(SoilData) ? eAction.None : eAction.Harvest;
 
     protected override float AutoEnterNextStatusTime => 0;
 
@@ -24,16 +22,14 @@ public class SoilRipeStatusCore : SoilStatusCore
 
         _waitGoSpecialFunctionStatus = false;
 
-        if (((SeedFunctionType)SoilData.DRSeed.FunctionType) != SeedFunctionType.None)
+        if (HomeUtilCore.JudgeSeedIsFunctionEntityType(SoilData))
         {
-            _supportAction = eAction.None;
             _waitGoSpecialFunctionStatus = true;
         }
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
     {
-        _supportAction = eAction.Harvest;
         _waitGoSpecialFunctionStatus = false;
 
         base.OnLeave(fsm, isShutdown);
