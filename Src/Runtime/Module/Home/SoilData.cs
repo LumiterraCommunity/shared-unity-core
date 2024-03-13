@@ -75,14 +75,15 @@ public class SoilData : MonoBehaviour
     /// 设置当前种子配置id 如果是要清除种子 则传入0
     /// </summary>
     /// <param name="seedCid">0代表清除</param>
-    internal void SetSeedCid(int seedCid)
+    internal void SetSeedCid(int seedCid, string seedNftId)
     {
-        if (SaveData.SeedData.SeedCid == seedCid)
+        if (SaveData.SeedData.SeedCid == seedCid && SaveData.SeedData.SeedNftId == seedNftId)
         {
             return;
         }
 
         SaveData.SeedData.SeedCid = seedCid;
+        SaveData.SeedData.SeedNftId = seedNftId;
 
         DRSeed = GFEntryCore.DataTable.GetDataTable<DRSeed>().GetDataRow(seedCid);
         if (DRSeed == null)

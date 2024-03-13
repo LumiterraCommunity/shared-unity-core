@@ -16,6 +16,10 @@ public class SeedSaveData
     /// </summary>
     public int SeedCid;
     /// <summary>
+    /// 当前种子的nftId,比如图腾等需要明确当时种植的nftId
+    /// </summary>
+    public string SeedNftId;
+    /// <summary>
     /// 施的肥料配置ID
     /// </summary>
     public int ManureCid;
@@ -44,6 +48,7 @@ public class SeedSaveData
         ExtraWateringNum = data.ExtraWateringNum;
         CurProficiency = data.CurProficiency;
         NeedPerish = data.NeedPerish;
+        SeedNftId = data.SeedNftId;
     }
 
     internal ProxySeedData ToProxySeedData()
@@ -56,6 +61,7 @@ public class SeedSaveData
             ExtraWateringNum = ExtraWateringNum,
             CurProficiency = CurProficiency,
             NeedPerish = NeedPerish,
+            SeedNftId = SeedNftId,
         };
     }
 }

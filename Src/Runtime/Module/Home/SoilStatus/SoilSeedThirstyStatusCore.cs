@@ -14,7 +14,7 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
     {
         get
         {
-            eAction res = eAction.Watering | eAction.Eradicate;
+            eAction res = eAction.Watering | (HomeUtilCore.JudgeSeedCanEradicate(SoilData) ? eAction.Eradicate : eAction.None);
             if (SoilData.SaveData.SeedData.ManureCid <= 0)//如果没有施过肥可以施肥
             {
                 res |= eAction.Manure;
