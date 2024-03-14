@@ -43,7 +43,6 @@ public abstract class SeedEntityCore : MonoBehaviour
         ISeedEntityInitLogic[] initLogics = GetComponents<ISeedEntityInitLogic>();
         if (initLogics == null || initLogics.Length == 0)
         {
-            Log.Error("种子实体 没有找到初始化逻辑");
             return;
         }
 
