@@ -41,11 +41,11 @@ public static class HomeUtilCore
     }
 
     /// <summary>
-    /// 判断种子是否可以被铲除
+    /// 判断种子是否可以被摧毁 不能摧毁的往往体现在如何如果这个种子也要长成熟
     /// </summary>
     /// <param name="soilData"></param>
     /// <returns></returns>
-    public static bool JudgeSeedCanEradicate(SoilData soilData)
+    public static bool JudgeSeedCanDestroy(SoilData soilData)
     {
         if (soilData == null)
         {
