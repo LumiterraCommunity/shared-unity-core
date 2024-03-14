@@ -20,15 +20,14 @@ public class SoilSpecialFunctionStatusCore : SoilStatusCore
 
         StatusCtrl.SoilEvent.OnFunctionSeedEntityRemoved += OnFinishStatus;
 
-        SeedFunctionType functionType = (SeedFunctionType)SoilData.DRSeed.FunctionType;
-        if (functionType == SeedFunctionType.None)
+        if (!HomeUtilCore.JudgeSeedIsFunctionEntityType(SoilData))
         {
             Log.Error("进入特殊功能状态时没有特殊功能类型");
             OnFinishStatus();
             return;
         }
 
-        StatusCtrl.SoilEvent.OnFunctionSeedRipe?.Invoke(functionType);//会生成一个实体
+        StatusCtrl.SoilEvent.OnFunctionSeedRipe?.Invoke((SeedFunctionType)SoilData.DRSeed.FunctionType);//会生成一个实体
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
