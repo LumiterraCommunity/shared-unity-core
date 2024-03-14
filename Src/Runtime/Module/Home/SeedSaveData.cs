@@ -18,7 +18,7 @@ public class SeedSaveData
     /// <summary>
     /// 当前种子的nftId,比如图腾等需要明确当时种植的nftId
     /// </summary>
-    public string SeedNftId;
+    public string SeedNftId = string.Empty;
     /// <summary>
     /// 施的肥料配置ID
     /// </summary>
@@ -61,7 +61,7 @@ public class SeedSaveData
             ExtraWateringNum = ExtraWateringNum,
             CurProficiency = CurProficiency,
             NeedPerish = NeedPerish,
-            SeedNftId = SeedNftId,
+            SeedNftId = SeedNftId ?? string.Empty,
         };
     }
 }
