@@ -8,7 +8,7 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
 {
     public override eSoilStatus StatusFlag => eSoilStatus.GrowingWet;
 
-    public override eAction SupportAction => HomeUtilCore.JudgeSeedCanEradicate(SoilData) ? eAction.Eradicate : eAction.None;
+    public override eAction SupportAction => HomeUtilCore.JudgeSeedCanDestroy(SoilData) ? eAction.Eradicate : eAction.None;
 
     protected override float AutoEnterNextStatusTime => SoilData.SeedEveryGrowStageTime;
 
