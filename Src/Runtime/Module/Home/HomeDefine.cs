@@ -153,11 +153,11 @@ public static class HomeDefine
         /// <summary>
         /// 特殊功能状态 比如图腾等成熟后所在状态
         /// </summary>
-        SpecialFunction = 1 << 7,
+        SpecialFunction = 1 << 8,
         /// <summary>
         /// 可收获状态
         /// </summary>
-        Harvest = 1 << 8,
+        Harvest = 1 << 9,
     }
 
     /// <summary>
