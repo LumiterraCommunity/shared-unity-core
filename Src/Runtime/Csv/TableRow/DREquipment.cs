@@ -95,6 +95,15 @@ public class DREquipment : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取weaponSubtype-int。*/
+    /// </summary>
+    public int WeaponSubtype
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -109,6 +118,7 @@ public class DREquipment : DataRowBase
         GivenSkillId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         ItemId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        WeaponSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -129,6 +139,7 @@ public class DREquipment : DataRowBase
                 GivenSkillId = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 ItemId = binaryReader.Read7BitEncodedInt32();
+                WeaponSubtype = binaryReader.Read7BitEncodedInt32();
             }
         }
 
