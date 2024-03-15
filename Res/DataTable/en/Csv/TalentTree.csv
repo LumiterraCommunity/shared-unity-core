@@ -23,6 +23,18 @@ MaxEnergy + 10","55,10000","1,3",talentTree-5,5,1,5,1,Combat Mastery 5,2,2827,4,
 Combat DEF + 5
 Combat MaxHP + 20
 MaxEnergy + 10","56,10000","1,3",talentTree-6,6,1,6,1,Combat Mastery 6,2,3770,5,0,5
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10","57,10000","1,3",talentTree-7,7,1,7,1,Combat Mastery 7,2,4770,6,0,6
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10","58,10000","1,3",talentTree-8,8,1,8,1,Combat Mastery 8,2,5819,7,0,7
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10","59,10000","1,3",talentTree-9,9,1,9,1,Combat Mastery 9,2,6912,8,0,8
 -3,Reduce the enemy's movement speed.,332,1,talentTree-10,10,0,2,1,Trampling - Enhance,2,233,0,0,11
 -3,Stun enemies around you.,63,0,talentTree-11,11,0,1,1,Trampling,2,85,0,0,
 0,"FertilityCapacity + 1
@@ -55,6 +67,21 @@ PlantingProficiency + 4
 PetHappinessCapacity + 1
 BreedingProficiency + 4
 MaxEnergy + 10","71,10000","1,3",talentTree-18,18,1,6,1,Farming Mastery 6,1,3770,5,0,17
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10","72,10000","1,3",talentTree-19,19,1,7,1,Farm Mastery 7,1,4770,6,0,18
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10","73,10000","1,3",talentTree-20,20,1,8,1,Farming Mastery 8,1,5819,7,0,19
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10","74,10000","1,3",talentTree-21,21,1,9,1,Farming Mastery 9,1,6912,8,0,20
 1,FertilityCapacity + 1,228,1,talentTree-22,22,0,1,1,Farm - FertilityCapacity ,1,75,0,0,
 -1,Waters small fields around you.,99,0,talentTree-23,23,0,2,1,Watering Can Mastery,1,233,0,0,77
 0,"GrassAtt + 5
@@ -99,6 +126,27 @@ GrassProficiency + 5
 TreeProficiency + 5
 OreProficiency + 5
 MaxEnergy + 10","86,10000","1,3",talentTree-29,29,1,6,1,Gather Mastery  6,3,3770,5,0,28
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10","87,10000","1,3",talentTree-30,30,1,7,1,Gather Mastery  7,3,4770,6,0,29
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10","88,10000","1,3",talentTree-31,31,1,8,1,Gather Mastery  8,3,5819,7,0,30
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10","89,10000","1,3",talentTree-32,32,1,9,1,Gather Mastery  9,3,6912,8,0,31
 -3,"Unlock Set Recipes Lv 1
 Unlock Energy Potion Recipe Lv 1",70#74#201#267;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"100,156,243",0,"0,0,0",
 -3,"Unlock Set Recipes Lv 2
@@ -114,7 +162,7 @@ Unlock Energy Potion Recipe Lv 2",71#75#203#268;112#182;181#183#184#480#468#477#
 -2,Reduce the enemy's movement speed.,337,1,talentTree-56,56,0,4,1,Bull Rush - Enhance,2,814,0,0,55
 -2,Repel the enemy in a small area in front of you and flip backwards,123,0,talentTree-57,57,0,5,1,Escape,2,1178,0,0,56
 -1,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,2,486,0,0,
--3,"Dizzy enemies within a certain range, unable to hit during skill release",64,0,talentTree-61,61,0,4,1,War Trampling,2,814,0,0,52
+-3,"Dizzy enemies within a certain range, unable to hit during skill release",433,0,talentTree-61,61,0,4,1,War Trampling,2,814,0,0,52
 -3,"Unlock Set Recipes Lv 3
 Unlock Energy Potion Recipe Lv 3",72#76#204#269;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"730,1140,1780",0,"0,0,0",34
 -1,Unlock Potion Recipe,95,2,talentTree-65,65,0,1,1,Magic Props Recipes,3,100,0,0,
@@ -178,9 +226,27 @@ Unlock Energy Potion Recipe Lv 3",46#366#372#592;135#138;141#144#147#497#495#494
 -2,Reduce the enemy's movement speed.,338,1,talentTree-123,123,0,6,1,Escape - Enhance,2,1570,0,0,57
 1,Increase crit damage to monsters by 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3,Expert,2,"1570,2046,2666",0,"0,0,0",118
 -1,Drop bombs and deal high damage to enemies within the explosion range,138,0,talentTree-125,125,0,6,1,Explosion Art,2,1570,0,0,119
+-3,Defeat a large area of enemies in front of you and cause temporary dizziness,460,0,talentTree-127,127,0,7,1,Sweeping,2,1987,0,0,122
+-2,Reduce the enemy's movement speed.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,2,1987,0,0,123
+-1,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Explosion Art - Enhance,2,1987,0,0,125
+1,Attack speed increased by 10/20/30%.,131;132;133,1,talentTree-130,130,0,7,3,Expert,2,"1987,2589,3373",0,"0,0,0",124
 2,Combat ATK +5,257,1,talentTree-131,131,0,6,1,Combat - Attack Power,2,1570,0,0,117
 3,Combat DEF +5,263,1,talentTree-132,132,0,6,1,Combat - Defense,2,1570,0,0,116
 4,Combat MaxHP +20,269,1,talentTree-133,133,0,6,1,Combat - HP,2,1570,0,0,120
+2,Combat ATK +5,270,1,talentTree-134,134,0,7,1,Combat - Attack Power,2,1987,0,0,131
+3,Combat DEF +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,2,1987,0,0,132
+4,Combat MaxHP +20,276,1,talentTree-136,136,0,7,1,Combat - HP,2,1987,0,0,133
+-2,Jump towards a nearby enemy and cause range dizziness and damage at the landing point,459,0,talentTree-139,139,0,8,1,Pursuit,2,2728,0,0,128
+-1,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Explosion Art - Enhance,2,2728,0,0,129
+1,0.1/0.2/0.3% damage bonus per 1% health lost.,128;129;130,1,talentTree-141,141,0,8,3,Expert,2,"2728,3295,3979",0,"0,0,0",130
+2,Combat ATK +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,2,2728,0,0,134
+3,Combat DEF +5,274,1,talentTree-143,143,0,8,1,Combat - Defense,2,2728,0,0,135
+4,Combat MaxHP +20,277,1,talentTree-144,144,0,8,1,Combat - Health,2,2728,0,0,136
+-1,"After a short period of energy accumulation, release the energy inside the body, causing sustained high damage to enemies within a certain range. During the release of the skill, remain in an inability to hit state",432,0,talentTree-149,149,0,9,1,Unyielding,2,3703,0,0,140
+2,Combat ATK +5,272,1,talentTree-150,150,0,9,1,Combat - Attack Power,2,3703,0,0,142
+1,"The weapon's attack leaves wounds, dealing 1%/2%/3% attack damage every 0.5 seconds for 5 seconds, and can stack up to 5 layers.",172;173;174,1,talentTree-151,151,0,9,3,Expert,2,"3703,3703,3703",0,"0,0,0",141
+3,Combat DEF +5,275,1,talentTree-152,152,0,9,1,Combat - Defense,2,3703,0,0,143
+4,Combat MaxHP +20,278,1,talentTree-153,153,0,9,1,Combat - HP,2,3703,0,0,144
 -1,Waters small fields around you.,100,0,talentTree-157,157,0,5,1,Watering Can Mastery,1,1325,0,0,46
 1,FertilityCapacity + 1,237,1,talentTree-158,158,0,5,1,Farm - FertilityCapacity ,1,1325,0,0,84
 2,PlantingProficiency + 4,250,1,talentTree-159,159,0,5,1,Farm - PlantingProficiency ,1,1325,0,0,50
@@ -190,6 +256,19 @@ Unlock Energy Potion Recipe Lv 3",46#366#372#592;135#138;141#144#147#497#495#494
 2,PlantingProficiency + 4,251,1,talentTree-165,165,0,6,1,Farm - PlantingProficiency ,1,1767,0,0,159
 4,BreedingProficiency + 4,290,1,talentTree-166,166,0,6,1,Farm - BreedingProficiency,1,1767,0,0,85
 -1,Efficiency Skills - Group Hoe,104,0,talentTree-169,169,0,6,1,Earth Splitter,1,1767,0,0,157
+1,FertilityCapacity + 1,239,1,talentTree-170,170,0,7,1,Farm - FertilityCapacity ,1,2236,0,0,163
+2,PlantingProficiency + 4,279,1,talentTree-171,171,0,7,1,Farm - PlantingProficiency ,1,2236,0,0,165
+3,PetHappinessCapacity + 1,285,1,talentTree-172,172,0,7,1,Farm - PetHappinessCapacity ,1,2236,0,0,164
+4,BreedingProficiency + 4,291,1,talentTree-173,173,0,7,1,Farm - BreedingProficiency,1,2236,0,0,166
+-1,Waters small fields around you.,101,0,talentTree-176,176,0,8,1,Watering Can Mastery,1,2728,0,10,169
+2,PlantingProficiency + 4,280,1,talentTree-177,177,0,8,1,Farm - PlantingProficiency ,1,2728,0,0,171
+1,FertilityCapacity + 1,240,1,talentTree-178,178,0,8,1,Farm - FertilityCapacity ,1,2728,0,0,170
+3,PetHappinessCapacity + 1,286,1,talentTree-179,179,0,8,1,Farm - PetHappinessCapacity ,1,2728,0,0,172
+4,BreedingProficiency + 4,292,1,talentTree-180,180,0,8,1,Farm - BreedingProficiency,1,2728,0,0,173
+1,FertilityCapacity + 1,241,1,talentTree-184,184,0,9,1,Farm - FertilityCapacity ,1,3240,0,0,178
+2,PlantingProficiency + 4,281,1,talentTree-185,185,0,9,1,Farm - PlantingProficiency ,1,3240,0,0,177
+3,PetHappinessCapacity + 1,287,1,talentTree-186,186,0,9,1,Farm - PetHappinessCapacity ,1,3240,0,0,179
+4,BreedingProficiency + 4,293,1,talentTree-187,187,0,9,1,Farm - BreedingProficiency,1,3240,0,0,180
 1,Gather Grass Atk ++  Proficiency ++,294,1,talentTree-188,188,0,1,1,Gather - Grass,3,100,0,0,
 2,Gather Tree Atk ++  Proficiency ++,303,1,talentTree-189,189,0,1,1,Gather value - Trees,3,100,0,0,
 3,Gather Ore Atk ++  Proficiency ++,312,1,talentTree-190,190,0,1,1,Gather value - Mining,3,100,0,0,
@@ -209,6 +288,18 @@ Unlock Energy Potion Recipe Lv 3",46#366#372#592;135#138;141#144#147#497#495#494
 1,Gather Grass Atk ++  Proficiency ++,299,1,talentTree-205,205,0,6,1,Gather - Grass value,3,2356,0,0,200
 2,Gather Tree Atk ++  Proficiency ++,308,1,talentTree-206,206,0,6,1,Gather - Trees,3,2356,0,0,201
 3,Gather Ore Atk ++  Proficiency ++,317,1,talentTree-207,207,0,6,1,Gather value - Mining,3,2356,0,0,202
+-1,Not yet open,,2,talentTree-209,209,0,7,1,Not yet open,3,2981,0,0,204
+1,Gather Grass Atk ++  Proficiency ++,300,1,talentTree-210,210,0,7,1,Gather - Grass,3,2981,0,0,205
+2,Gather Tree Atk ++  Proficiency ++,309,1,talentTree-211,211,0,7,1,Gather - Trees,3,2981,0,0,206
+3,Gather Ore Atk ++  Proficiency ++,318,1,talentTree-212,212,0,7,1,Gather - Mining,3,2981,0,0,207
+-1,Not yet open,,2,talentTree-214,214,0,8,1,Not yet open,3,3637,0,0,209
+2,Gather Tree Atk ++  Proficiency ++,310,1,talentTree-215,215,0,8,1,Gather - Trees,3,3637,0,0,211
+1,Gather Grass Atk ++  Proficiency ++,301,1,talentTree-216,216,0,8,1,Gather - Grass,3,3637,0,0,210
+3,Gather Ore Atk ++  Proficiency ++,319,1,talentTree-217,217,0,8,1,Gather - Mining,3,3637,0,0,212
+-1,Not yet open,,2,talentTree-219,219,0,9,1,Not yet open,3,4320,0,0,214
+1,Gather Grass Atk ++  Proficiency ++,302,1,talentTree-220,220,0,9,1,Gather - Grass,3,4320,0,0,216
+2,Gather Tree Atk ++  Proficiency ++,311,1,talentTree-221,221,0,9,1,Gather - Trees,3,4320,0,0,215
+3,Gather Ore Atk ++  Proficiency ++,320,1,talentTree-222,222,0,9,1,Gather - Mining,3,4320,0,0,217
 -3,Unlock Planting Essence Recipes Lv 1,152,2,talentTree-227,227,0,1,1,Planting Essence Recipes,1,75,0,0,
 -3,Unlock Planting Essence Recipes Lv 2,153,2,talentTree-228,228,0,2,1,Planting Essence Recipes,1,233,0,0,227
 -3,Unlock Planting Essence Recipes Lv 3,154,2,talentTree-229,229,0,3,1,Planting Essence Recipes,1,547,0,0,228
@@ -249,3 +340,24 @@ Unlock Energy Potion Recipe Lv 5",306#380#417#410#411#412#587#601;308#309;310#31
 Unlock Energy Potion Recipe Lv 6",327#381#418#413#414#415#586#602;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3,Farming Set Recipes,1,"1767,3292,6133",0,"20,20,20",271
 -3,Unlock Essence Recipes Lv 6,336,2,talentTree-275,275,0,6,1,Planting Essence Recipes,1,1767,0,10,272
 -2,Unlock Essence Recipes Lv 6,339,2,talentTree-276,276,0,6,1,Livestock Essence Recipes,1,1767,0,10,273
+-4,,654#655#656;657#658;659#660#661#829#830#831#832#833#834#835#836,2,,277,0,7,3,,1,"2236,4165,7760",0,"0,0,0",274
+-3,,635,2,,278,0,7,1,,1,2236,0,0,275
+-2,,632,2,,279,0,7,1,,1,2236,0,0,276
+-4,,662#663#664;665#666;667#668#669#854#855#856#857#858#859#860#861,2,,280,0,8,3,,1,"2728,5082,9467",0,"0,0,0",277
+-3,,636,2,,281,0,8,1,,1,2728,0,0,278
+-2,,633,2,,282,0,8,1,,1,2728,0,0,279
+-4,,686#687#688;689#690;691#692#693#878#879#880#881#882#883#884#885,2,,283,0,9,3,,1,"3240,6036,11245",0,"0,0,0",280
+-3,,637,2,,284,0,9,1,,1,3240,0,0,281
+-2,,634,2,,285,0,9,1,,1,3240,0,0,282
+-5,,638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837,2,,286,0,7,3,,2,"1987,2589,3373",0,"0,0,0",260
+-4,,626,2,,287,0,7,1,,2,1987,0,0,261
+-5,,670#671#672;675#676#677#838#839#840#841#842#843#844#845;673#674,2,,288,0,8,3,,2,"2728,3295,3979",0,"0,0,0",286
+-4,,627,2,,289,0,8,1,,2,2728,0,0,288
+-5,,694#695#696;699#700#701#862#863#864#865#866#867#868#869;697#698,2,,290,0,9,3,,2,"3703,4100,4540",0,"0,0,0",288
+-4,,628,2,,291,0,9,1,,2,3703,0,0,289
+-3,,646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828,2,,292,0,7,3,,3,"2981,4655,7270",0,"0,0,0",266
+-2,,629,2,,293,0,7,1,,3,2981,0,0,267
+-3,,678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853,2,,294,0,8,3,,3,"3637,5680,8869",0,"0,0,0",292
+-2,,630,2,,295,0,8,1,,3,3637,0,0,293
+-3,,702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877,2,,296,0,9,3,,3,"4320,6746,10535",0,"0,0,0",294
+-2,,631,2,,297,0,9,1,,3,4320,0,0,295
