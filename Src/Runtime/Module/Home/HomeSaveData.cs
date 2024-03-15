@@ -44,7 +44,7 @@ public class HomeSaveData
     /// <param name="data"></param>
     /// <param name="compression">是否需要压缩 默认false</param>
     /// <returns></returns>
-    public static string ToJson(object data, bool compression = false)
+    public static string ToJson(object data, bool compression = false)//TODO: totem 改下默认true
     {
         string json = JsonConvert.SerializeObject(data, Formatting.None);
         if (!compression)

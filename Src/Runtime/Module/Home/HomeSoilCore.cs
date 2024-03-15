@@ -33,13 +33,14 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     /// 土地上的功能性种子实体 只有功能性种子成熟后且没有收割掉时才不为null 在SeedEntityMgr中管理也能找到
     /// </summary>
     /// <value></value>
-    public SeedEntityCore SeedFunctionEntity { get; private set; }
+    public SeedEntityCore SeedEntity { get; private set; }
 
     protected virtual void Awake()
     {
         SoilEvent = gameObject.AddComponent<SoilEvent>();
         StatusCtrl = gameObject.AddComponent<SoilStatusCtrl>();
         SoilData = gameObject.AddComponent<SoilData>();
+        _ = gameObject.AddComponent<SoilSeedEntityProxyDataProcess>();
 
         InitStatus(StatusCtrl);
     }
@@ -122,7 +123,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     /// <param name="entity"></param>
     private void SetSeedEntity(SeedEntityCore entity)
     {
-        if (SeedFunctionEntity != null && entity != null)
+        if (SeedEntity != null && entity != null)
         {
             Log.Error("土地上已经有实体了");
             SetSeedEntity(null);
@@ -131,15 +132,15 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
         if (entity != null)//添加实体关系
         {
-            SeedFunctionEntity = entity;
+            SeedEntity = entity;
             entity.EntityEvent.OnEntityRemoved += OnEntityRemoved;
         }
         else//移除实体关系
         {
-            if (SeedFunctionEntity != null)
+            if (SeedEntity != null)
             {
-                SeedFunctionEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
-                SeedFunctionEntity = null;
+                SeedEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
+                SeedEntity = null;
             }
         }
     }
