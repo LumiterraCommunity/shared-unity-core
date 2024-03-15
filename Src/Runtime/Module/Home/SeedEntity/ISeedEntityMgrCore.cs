@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using GameMessageCore;
 using UnityEngine;
 
@@ -7,6 +8,13 @@ using UnityEngine;
 /// </summary>
 public interface ISeedEntityMgrCore
 {
+    /// <summary>
+    /// 获取指定类型的所有实体 不会为null 不会GC 不要改内部内容
+    /// </summary>
+    /// <param name="type"></param>
+    /// <returns></returns>
+    List<SeedEntityCore> GetEntities(SeedFunctionType type);
+
     /// <summary>
     /// 添加一个新的种子实体 会自动创建 但是还不会具体初始化逻辑
     /// </summary>
