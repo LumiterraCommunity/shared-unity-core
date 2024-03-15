@@ -86,6 +86,15 @@ public static class PetUtilCore
         return lv;
     }
 
+    public static int GetPetLv(EntityAttributeData attrData)
+    {
+        int battleLv = attrData.GetBaseValue(eAttributeType.CombatLv);
+        int collectionLv = attrData.GetBaseValue(eAttributeType.CollectionLv);
+        int farmingLv = attrData.GetBaseValue(eAttributeType.FarmingLv);
+
+        return Math.Max(battleLv, Math.Max(collectionLv, farmingLv));
+    }
+
     public static int GetPetProfileByType(IEnumerable<AttributeData> attrs, eAttributeType type)
     {
         foreach (AttributeData attr in attrs)
