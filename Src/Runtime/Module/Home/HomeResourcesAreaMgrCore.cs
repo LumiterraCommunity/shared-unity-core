@@ -68,7 +68,7 @@ public class HomeResourcesAreaMgrCore : SceneModuleBase
         }
     }
 
-    public List<HomeResourcesAreaSaveData> GetHomeAreaSaveData()
+    public List<HomeResourcesAreaSaveData> GetResourceSaveData()
     {
         List<HomeResourcesAreaSaveData> list = new();
         try
@@ -80,7 +80,7 @@ public class HomeResourcesAreaMgrCore : SceneModuleBase
         }
         catch (System.Exception e)
         {
-            Log.Error($"GetHomeAreaSaveData Error : {e}");
+            Log.Error($"GetResourceSaveData Error : {e}");
         }
         return list;
     }
