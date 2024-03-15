@@ -89,4 +89,13 @@ public class InitHomeLogicCore : MonoBehaviour
             soil.SoilEvent.MsgInitStatus?.Invoke(data);
         }
     }
+
+    /// <summary>
+    /// 从家园保存数据中恢复图腾状态
+    /// </summary>
+    /// <param name="saveData"></param>
+    public void RestoreTotemStatus(HomeSaveData saveData)
+    {
+        //TODO: totem
+    }
 }

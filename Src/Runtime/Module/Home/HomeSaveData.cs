@@ -12,10 +12,22 @@ public class HomeSaveData
     /// 所有非空白idle状态的土地列表 空白的不存储
     /// </summary>
     public List<SoilSaveData> SoilSaveDataList;
-
-    public List<HomeResourcesAreaSaveData> HomeAreaSaveDataList;
-    public List<AnimalSaveData> AnimalSaveDataList;
-    public AnimalSceneSaveData AnimalSceneSaveData;
+    /// <summary>
+    /// 采集物区域数据
+    /// </summary>
+    public List<HomeResourcesAreaSaveData> ResourceAreaSaveDataList;
+    /// <summary>
+    /// 场景数据 食盆等
+    /// </summary>
+    public HomeSceneSaveData SceneSaveData;
+    /// <summary>
+    /// 宠物数据 为null说明没数据
+    /// </summary>
+    public GrpcPetData[] PetDataArray;
+    /// <summary>
+    /// 图腾数据 为null说明没数据
+    /// </summary>
+    public GrpcTotemData[] TotemDataArray;
     /// <summary>
     /// 上次保存的时间戳
     /// </summary>
