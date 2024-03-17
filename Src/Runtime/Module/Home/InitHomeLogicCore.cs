@@ -95,9 +95,9 @@ public class InitHomeLogicCore : MonoBehaviour
     /// <summary>
     /// 从家园保存数据中恢复实体种子状态 可以根据业务层数据结构分多次恢复也可以
     /// </summary>
-    public void RestoreSeedEntityStatus(List<ProxySeedEntityData> entityProxyDataList)
+    public void RestoreSeedEntityStatus(IEnumerable<ProxySeedEntityData> entityProxyDataList)
     {
-        if (entityProxyDataList == null || entityProxyDataList.Count == 0)
+        if (entityProxyDataList == null)
         {
             return;
         }
