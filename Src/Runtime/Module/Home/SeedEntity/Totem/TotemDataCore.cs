@@ -1,9 +1,10 @@
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 
 /// <summary>
 /// 图腾上的专有数据
 /// </summary>
-public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>
+public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntitySpecialData
 {
     /// <summary>
     /// 没有初始化的实体是无效的
@@ -25,6 +26,15 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>
     public string RewardLp;
 
     /// <summary>
+    /// 有投资份额
+    /// </summary>
+    /// <returns></returns>
+    public bool IsHavePrizeLp()
+    {
+        return !string.IsNullOrEmpty(PrizeLp) && PrizeLp != "0";//后端约定0或者空表示没有份额
+    }
+
+    /// <summary>
     /// 从网络数据初始化 只有初始化后才是有效实体
     /// </summary>
     /// <param name="proxyData"></param>
@@ -32,8 +42,53 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>
     {
         Inited = true;
 
+        SetProxyData(proxyData);
+    }
+
+    /// <summary>
+    /// 初始化一个新实体
+    /// </summary>
+    internal void InitFromNewEntity()
+    {
+        Inited = true;
+
+        InvestDungeon = 0;
+        PrizeLp = string.Empty;
+        RewardLp = string.Empty;
+    }
+
+    public void SetProxyData(ProxyTotemData proxyData)
+    {
+        if (proxyData == null)
+        {
+            Log.Error($"UpdateData proxyData is null,id:{RefEntity.Id}");
+            return;
+        }
+
+        if (!Inited)
+        {
+            Log.Error($"UpdateData not inited,id:{RefEntity.Id}");
+            return;
+        }
+
         InvestDungeon = proxyData.InvestDungeon;
         PrizeLp = proxyData.PrizeLp;
         RewardLp = proxyData.RewardLp;
+    }
+
+    public void FillProxyData(ProxySeedEntityData proxyData)
+    {
+        if (!Inited)
+        {
+            Log.Error($"FillProxyData not inited,id:{RefEntity.Id}");
+            return;
+        }
+
+        proxyData.TotemData = new ProxyTotemData()
+        {
+            InvestDungeon = InvestDungeon,
+            PrizeLp = PrizeLp,
+            RewardLp = RewardLp,
+        };
     }
 }

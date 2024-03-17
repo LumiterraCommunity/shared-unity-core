@@ -35,6 +35,10 @@ public class SeedSaveData
     /// 是否需要腐败收获
     /// </summary>
     public bool NeedPerish;
+    /// <summary>
+    /// 种子实体id 一般是0 只有特殊种子 还是播种就由数据服分配了id的才有值
+    /// </summary>
+    public long SeedEntityId;
 
     public SeedSaveData()
     {
@@ -49,6 +53,7 @@ public class SeedSaveData
         CurProficiency = data.CurProficiency;
         NeedPerish = data.NeedPerish;
         SeedNftId = data.SeedNftId;
+        SeedEntityId = data.SeedEntityId;
     }
 
     internal ProxySeedData ToProxySeedData()
@@ -62,6 +67,7 @@ public class SeedSaveData
             CurProficiency = CurProficiency,
             NeedPerish = NeedPerish,
             SeedNftId = SeedNftId ?? string.Empty,
+            SeedEntityId = SeedEntityId,
         };
     }
 }

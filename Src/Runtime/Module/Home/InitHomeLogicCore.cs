@@ -72,13 +72,13 @@ public class InitHomeLogicCore : MonoBehaviour
     /// <param name="saveData"></param>
     public void RestoreSoilStatus(HomeSaveData saveData)
     {
-        if (saveData == null || saveData.SoilSaveDataList == null || saveData.SoilSaveDataList.Count == 0)
+        if (saveData == null || saveData.GeneralSoilSaveDataList == null || saveData.GeneralSoilSaveDataList.Count == 0)
         {
             Log.Info($"saveData is null, init soil default status");
             return;
         }
 
-        foreach (SoilSaveData data in saveData.SoilSaveDataList)
+        foreach (SoilSaveData data in saveData.GeneralSoilSaveDataList)
         {
             ulong id = data.Id;
             HomeSoilCore soil = HomeModuleCore.SoilMgr.GetSoil(id);
