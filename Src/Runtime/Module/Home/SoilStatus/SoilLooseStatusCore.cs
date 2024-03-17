@@ -29,8 +29,8 @@ public class SoilLooseStatusCore : SoilStatusCore
         {
             if (action == eAction.Sowing)
             {
-                (int seedCid, string seedNftId) = (ValueTuple<int, string>)actionData;
-                SoilData.SetSeedCid(seedCid, seedNftId);
+                (int seedCid, string seedNftId, long seedEntityId) = (ValueTuple<int, string, long>)actionData;
+                SoilData.SetSeedCid(seedCid, seedNftId, seedEntityId);
                 ChangeState(eSoilStatus.SeedThirsty);
             }
             else if (action == eAction.Eradicate)

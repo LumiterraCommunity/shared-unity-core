@@ -25,8 +25,16 @@ public interface ISeedEntityMgrCore
     SeedEntityCore AddEntity(long id, SeedFunctionType type, GameObject root);
 
     /// <summary>
-    /// 移除一个种子实体 会自动销毁
+    /// 移除一个种子实体 会自动销毁释放 土地也会回归到初始状态
     /// </summary>
     /// <param name="id"></param>
     void RemoveEntity(long id);
+    /// <summary>
+    /// 尝试获取一个实体
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="entity"></param>
+    /// <returns></returns>
+    bool TryGetEntity(long id, out SeedEntityCore entity);
+    bool HasEntity(long id);
 }

@@ -1,7 +1,10 @@
+using System;
+using GameMessageCore;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
+using Vector3 = UnityEngine.Vector3;
 
 /// <summary>
 /// 家园单块土地实体
@@ -81,7 +84,8 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         {
             if (action == eAction.Sowing)
             {
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, (toolCid, (string)actionData));//actionData为costItemNftId
+                (string seedNftId, long seedEntityId) = (ValueTuple<string, long>)actionData;
+                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, (toolCid, seedNftId, seedEntityId));
             }
             else if (action == eAction.Manure)
             {
@@ -111,7 +115,9 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     private void OnFunctionSeedRipe(GameMessageCore.SeedFunctionType type)
     {
         GameObject entityRoot = GameObjectUtil.CreateGameObject("FunctionEntityRoot", LogicRoot.transform);
-        SeedEntityCore entity = HomeModuleCore.SeedEntityMgr.AddEntity((long)SoilData.SaveData.Id, type, entityRoot);
+        //实体id 如果是数据服分配的id 就用数据服分配的id 如果没有就用土地id
+        long entityId = SoilData.SaveData.SeedData.SeedEntityId > 0 ? SoilData.SaveData.SeedData.SeedEntityId : (long)SoilData.SaveData.Id;
+        SeedEntityCore entity = HomeModuleCore.SeedEntityMgr.AddEntity(entityId, type, entityRoot);
         SetSeedEntity(entity);
 
         entity.Init(this);
@@ -150,5 +156,24 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         SetSeedEntity(null);
 
         SoilEvent.OnFunctionSeedEntityRemoved?.Invoke();
+    }
+
+    /// <summary>
+    /// 生成一份用来传输的种子实体数据 上面会由具体实体上的特殊数据
+    /// </summary>
+    /// <returns></returns>
+    public ProxySeedEntityData ToProxySeedEntityData()
+    {
+        ProxySeedEntityData proxyData = new()
+        {
+            SoilData = SoilData.SaveData.ToProxySoilData(),
+        };
+
+        if (SeedEntity != null && SeedEntity.TryGetComponent(out ISeedEntitySpecialData specialData))
+        {
+            specialData.FillProxyData(proxyData);
+        }
+
+        return proxyData;
     }
 }
