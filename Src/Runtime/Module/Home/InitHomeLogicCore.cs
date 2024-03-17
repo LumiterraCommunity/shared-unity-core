@@ -72,13 +72,13 @@ public class InitHomeLogicCore : MonoBehaviour
     /// <param name="saveData"></param>
     public void RestoreSoilStatus(HomeSaveData saveData)
     {
-        if (saveData == null || saveData.SoilSaveDataList == null || saveData.SoilSaveDataList.Count == 0)
+        if (saveData == null || saveData.GeneralSoilSaveDataList == null || saveData.GeneralSoilSaveDataList.Count == 0)
         {
             Log.Info($"saveData is null, init soil default status");
             return;
         }
 
-        foreach (SoilSaveData data in saveData.SoilSaveDataList)
+        foreach (SoilSaveData data in saveData.GeneralSoilSaveDataList)
         {
             ulong id = data.Id;
             HomeSoilCore soil = HomeModuleCore.SoilMgr.GetSoil(id);
@@ -95,9 +95,9 @@ public class InitHomeLogicCore : MonoBehaviour
     /// <summary>
     /// 从家园保存数据中恢复实体种子状态 可以根据业务层数据结构分多次恢复也可以
     /// </summary>
-    public void RestoreSeedEntityStatus(List<ProxySeedEntityData> entityProxyDataList)
+    public void RestoreSeedEntityStatus(IEnumerable<ProxySeedEntityData> entityProxyDataList)
     {
-        if (entityProxyDataList == null || entityProxyDataList.Count == 0)
+        if (entityProxyDataList == null)
         {
             return;
         }

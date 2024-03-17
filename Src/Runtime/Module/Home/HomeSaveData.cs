@@ -9,9 +9,9 @@ using Newtonsoft.Json;
 public class HomeSaveData
 {
     /// <summary>
-    /// 所有非空白idle状态的土地列表 空白的不存储
+    /// 所有非空白idle状态的普通土地列表 空白的不存储 有种子实体的特殊地块也不存储
     /// </summary>
-    public List<SoilSaveData> SoilSaveDataList;
+    public List<SoilSaveData> GeneralSoilSaveDataList;
     /// <summary>
     /// 采集物区域数据
     /// </summary>

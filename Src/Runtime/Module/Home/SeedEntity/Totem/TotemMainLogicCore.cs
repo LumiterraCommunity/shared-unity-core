@@ -16,6 +16,7 @@ public class TotemMainLogicCore : SeedEntityComponentCore<SeedEntityCore>
         }
         else//新成熟生成的实体
         {
+            GetComponent<TotemDataCore>().InitFromNewEntity();//军杰说直接用默认数据 没有给默认数据接口
             OnGenerateNewEntityWhenRipe();
         }
     }
