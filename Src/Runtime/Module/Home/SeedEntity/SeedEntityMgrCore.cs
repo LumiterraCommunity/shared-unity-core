@@ -71,4 +71,14 @@ public class SeedEntityMgrCore<TFactory> : MonoBehaviour, ISeedEntityMgrCore whe
             Debug.LogError($"SeedEntity RemoveEntity Error: Entity {id} not found");
         }
     }
+
+    public bool TryGetEntity(long id, out SeedEntityCore entity)
+    {
+        return EntityMap.TryGetValue(id, out entity);
+    }
+
+    public bool HasEntity(long id)
+    {
+        return EntityMap.ContainsKey(id);
+    }
 }
