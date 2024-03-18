@@ -14,4 +14,8 @@ public class SeedEntityEventCore : MonoBehaviour
     /// 实体释放时的事件
     /// </summary>
     public Action OnEntityRemoved;
+    /// <summary>
+    /// 图腾数据更新了
+    /// </summary>
+    public Action OnTotemDataUpdated;
 }
