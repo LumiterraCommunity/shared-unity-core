@@ -61,6 +61,7 @@ public enum eErrorCode : int
     TotemHavePrizeLp = 0010002,//图腾有还有投资数据
     TotemOwnerInvalid = 0010003,//图腾所有者无效
     TotemSysErr = 0010004,//图腾系统错误
+    TotemNotHaveReward = 0010005,//图腾没有收益
     #endregion
 
     #endregion
