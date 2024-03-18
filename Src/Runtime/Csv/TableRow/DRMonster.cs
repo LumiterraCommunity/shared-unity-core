@@ -132,6 +132,15 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取isTotemReward-bool。*/
+    /// </summary>
+    public bool IsTotemReward
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取lockEnemyRange-int。*/
     /// </summary>
     public int LockEnemyRange
@@ -212,6 +221,7 @@ public class DRMonster : DataRowBase
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        IsTotemReward = DataTableParseUtil.ParseBool(columnStrings[index++]);
         LockEnemyRange = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PushDist = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -243,6 +253,7 @@ public class DRMonster : DataRowBase
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
+                IsTotemReward = binaryReader.ReadBoolean();
                 LockEnemyRange = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 PushDist = binaryReader.Read7BitEncodedInt32();
