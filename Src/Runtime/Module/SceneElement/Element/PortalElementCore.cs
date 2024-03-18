@@ -46,12 +46,18 @@ public class PortalElementCore : SceneElementCore
     [Header("最大使用次数")]
     public int MaxUseNum = 0;
 
+    public bool IsRun = false;
     private long _startTime = long.MaxValue;
     private float _curActivateTime = 0;
     private readonly ListMap<Collider, EntityBase> _playerList = new();
     protected override void Update()
     {
         base.Update();
+        if (!IsRun)
+        {
+            return;
+        }
+
         UpdateStatusHide();
         UpdateStatusInactive();
         UpdateStatusActivate(Time.deltaTime);
@@ -80,6 +86,7 @@ public class PortalElementCore : SceneElementCore
         StatusType = statusType;
         CurUseNum = curUseNum;
         CurTypeIndex = curTypeIndex;
+        IsRun = true;
         UpdateElementData();
     }
 
