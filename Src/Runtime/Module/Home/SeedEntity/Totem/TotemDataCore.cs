@@ -1,3 +1,4 @@
+using System;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
 
@@ -32,6 +33,15 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
     public bool IsHavePrizeLp()
     {
         return !string.IsNullOrEmpty(PrizeLp) && PrizeLp != "0";//后端约定0或者空表示没有份额
+    }
+
+    /// <summary>
+    /// 有可以收获的收益
+    /// </summary>
+    /// <returns></returns>
+    public bool IsHaveReward()
+    {
+        return !string.IsNullOrEmpty(RewardLp) && RewardLp != "0";//后端约定0或者空表示没有份额
     }
 
     /// <summary>
@@ -74,6 +84,8 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
         InvestDungeon = proxyData.InvestDungeon;
         PrizeLp = proxyData.PrizeLp;
         RewardLp = proxyData.RewardLp;
+
+        RefEntity.EntityEvent.OnTotemDataUpdated?.Invoke();
     }
 
     public void FillProxyData(ProxySeedEntityData proxyData)
