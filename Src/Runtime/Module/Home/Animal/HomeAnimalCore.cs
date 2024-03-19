@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -37,15 +38,19 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// 自动收获的掉落实体
     /// </summary>
     protected GameObject DropEntity { get; private set; }
-
-    private int _animalDeadTimeFromHunger;
     private bool _isListenColliderLoadFinish;
+
+    //缓存一些读表值 节省tick中反复读取
+    private int _animalDeadTimeFromHunger;
+    private float _petProduceHungerRate = 1;
 
     protected virtual void Awake()
     {
         Data = gameObject.GetComponent<AnimalDataCore>();
         PetData = gameObject.GetComponent<PetDataCore>();
+
         _animalDeadTimeFromHunger = TableUtil.GetGameValue(eGameValueID.animalDeadTimeFromHunger).Value;
+        _petProduceHungerRate = TableUtil.GetGameValue(eGameValueID.PetProduceHungerRate).Value * TableDefine.THOUSANDTH_2_FLOAT;
 
         if (Data == null || PetData == null)
         {
@@ -55,6 +60,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void Start()
     {
+        RefEntity.EntityEvent.InputSkillRelease += OnInputSkillRelease;
+
         if (PetData.PetCfg != null)
         {
             HarvestAction = TableUtil.ToHomeAction(PetData.PetCfg.HarvestAction);
@@ -92,6 +99,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void OnDestroy()
     {
+        RefEntity.EntityEvent.InputSkillRelease -= OnInputSkillRelease;
+
         if (DropEntity != null)
         {
             Destroy(DropEntity);
@@ -103,6 +112,12 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
             RefEntity.EntityEvent.ColliderLoadFinish -= OnColliderLoadFinish;
             _isListenColliderLoadFinish = false;
         }
+    }
+
+    private void OnInputSkillRelease(InputSkillReleaseData data)
+    {
+        int needCostHunger = TableUtil.GetGameValue(eGameValueID.PetCastSkillHungerCost).Value;
+        ModifyHunger(Data.SaveData.HungerProgress - needCostHunger);
     }
 
     private void InitStatus()
@@ -168,17 +183,13 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         AnimalSaveData saveData = Data.SaveData;
         if (saveData.HungerProgress > 0)
         {
-            float newHunger = saveData.HungerProgress - (PetData.PetCfg.HungerSpeed * Time.deltaTime);
-            if (newHunger <= 0)//开始完全饥饿
+            float hungerSpeed = PetData.PetCfg.HungerSpeed;
+            if (saveData.IsProduceStage)
             {
-                saveData.SetHungerProgress(0);
-                saveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
+                hungerSpeed *= _petProduceHungerRate;
             }
-            else
-            {
-                saveData.SetHungerProgress(newHunger);
-                saveData.LastCompleteHungerStamp = 0;
-            }
+            float newHunger = saveData.HungerProgress - (hungerSpeed * Time.deltaTime);
+            ModifyHunger(newHunger);
         }
         else
         {
@@ -190,6 +201,25 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
                     OnTimerHungerDead();
                 }
             }
+        }
+    }
+
+    //正常情况下的修改饥饿度 可以给负数 里面会修正成0
+    private void ModifyHunger(float newHunger)
+    {
+        if (newHunger <= 0)//完全饥饿
+        {
+            if (Data.SaveData.HungerProgress > 0)//开始没饿 这里代表刚变成完全饥饿状态
+            {
+                Data.SaveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
+            }
+
+            Data.SaveData.SetHungerProgress(0);
+        }
+        else
+        {
+            Data.SaveData.SetHungerProgress(newHunger);
+            Data.SaveData.LastCompleteHungerStamp = 0;
         }
     }
 
@@ -205,7 +235,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public virtual void EatenSetHunger(float progress)
     {
-        Data.SaveData.SetHungerProgress(progress);
+        ModifyHunger(progress);
     }
 
     public bool CheckSupportAction(eAction action)

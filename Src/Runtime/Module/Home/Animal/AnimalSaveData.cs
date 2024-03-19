@@ -40,6 +40,11 @@ public class AnimalSaveData
     /// </summary>
     public AnimalProductSaveData ProductSaveData;
 
+    /// <summary>
+    /// 是否是生产过程阶段（不是收获阶段的意思，宠物在此阶段就不会执行AI）
+    /// </summary>
+    public bool IsProduceStage => IsComforted;
+
     public AnimalSaveData()
     {
 
