@@ -185,7 +185,7 @@ public static class MathUtilCore
 
     public static float BigInteger2Float(string bigIntegerStr, int exponent, int decimals)
     {
-        System.Numerics.BigInteger bigInteger = System.Numerics.BigInteger.Parse(bigIntegerStr);
+        _ = System.Numerics.BigInteger.TryParse(bigIntegerStr, out System.Numerics.BigInteger bigInteger);
         double num = (double)(bigInteger / System.Numerics.BigInteger.Pow(10, exponent - decimals));
         float numValue = (float)(num / Math.Pow(10, decimals));
         return numValue;
