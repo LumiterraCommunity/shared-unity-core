@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
@@ -43,6 +43,7 @@ public class PortalElementCore : SceneElementCore
     [Header("最大使用次数")]
     public int MaxUseNum = 0;
 
+    public bool IsRun = false;
     private long _startTime = long.MaxValue;
     private float _curActivateTime = 0;
     private readonly List<Collider> _playerList = new();
@@ -51,6 +52,11 @@ public class PortalElementCore : SceneElementCore
     protected override void Update()
     {
         base.Update();
+        if (!IsRun)
+        {
+            return;
+        }
+
         UpdateStatusHide();
         UpdateStatusInactive();
         UpdateStatusActivate(Time.deltaTime);
@@ -79,6 +85,7 @@ public class PortalElementCore : SceneElementCore
         StatusType = statusType;
         CurUseNum = curUseNum;
         CurTypeIndex = curTypeIndex;
+        IsRun = true;
         UpdateElementData();
     }
 
