@@ -168,15 +168,15 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         AnimalSaveData saveData = Data.SaveData;
         if (saveData.HungerProgress > 0)
         {
-            saveData.HungerProgress -= PetData.PetCfg.HungerSpeed * Time.deltaTime;
-
-            if (saveData.HungerProgress <= 0)//开始完全饥饿
+            float newHunger = saveData.HungerProgress - (PetData.PetCfg.HungerSpeed * Time.deltaTime);
+            if (newHunger <= 0)//开始完全饥饿
             {
-                saveData.HungerProgress = 0;
+                saveData.SetHungerProgress(0);
                 saveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
             }
             else
             {
+                saveData.SetHungerProgress(newHunger);
                 saveData.LastCompleteHungerStamp = 0;
             }
         }
@@ -205,7 +205,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public virtual void EatenSetHunger(float progress)
     {
-        Data.SaveData.HungerProgress = progress;
+        Data.SaveData.SetHungerProgress(progress);
     }
 
     public bool CheckSupportAction(eAction action)
