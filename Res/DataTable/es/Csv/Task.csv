@@ -47,7 +47,7 @@ Entra en la ciudad y encuentra a Nash.",0,"2,117",22,0,11,Inteligencia,,21,,
 - selecciona mejorar rama principal
 - selecciona mejorar habilidad de Pisotón de Guerra
 - coloca la habilidad en la ranura rápida",0,"2,117",23,0,0,Echar una mano,,22,,
-"{""options"":[{""optionType"":2,""value"":""146692,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Usa una azada para aflojar la tierra en el campo y luego usa semillas para sembrar en la tierra aflojada.
+"{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Usa una azada para aflojar la tierra en el campo y luego usa semillas para sembrar en la tierra aflojada.
 Planta 5 Semillas de Bambú, 5 Semillas de Trébol y 5 Semillas de Zanahoria en el campo.",0,"1,117",24,0,31,Labrar y sembrar,,45,,
 "{""options"":[{""optionType"":1,""value"":""70,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,5"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"1,117",25,0,13,Regar y cosechar con paciencia,,24,,
 "{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Abre la recolección de artesanía y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,117",26,0,32,Esencia de una profesión,,27,,
@@ -107,13 +107,13 @@ Planta semillas de Fruta de Resistencia.",0,"1,117",36,0,39,Desafío de agricult
 ,Dame esto.,0,"1,148",65,1,0,Recompensa - Granja nivel 2,,,"{""options"":[{""optionType"":1,""value"":""217,1,200;214,1,100;211,1,100;208,1,200""}]}",
 ,Dame esto.,0,"1,134",66,1,0,Recompensa - Granja nivel 3,,,"{""options"":[{""optionType"":1,""value"":""217,2,200;214,2,100;211,2,100;208,2,200""}]}",
 ,Trabajo de recolección.,0,"3,123",67,1,0,Recolección diaria - Nivel 1,,,"{""options"":[{""optionType"":9,""value"":""95,2,100;205,2,100;206,2,100""}]}",
-,Trabajo de recolección y entrega.,0,"3,123",68,1,0,Recolección diaria - Nivel 1,,,"{""options"":[{""optionType"":9,""value"":""95,1,100;205,1,100;206,1,100""},{""optionType"":1,""value"":""134,2,200;146692,4,200;148,4,200""}]}",
+,Trabajo de recolección y entrega.,0,"3,123",68,1,0,Recolección diaria - Nivel 1,,,"{""options"":[{""optionType"":9,""value"":""95,1,100;205,1,100;206,1,100""},{""optionType"":1,""value"":""134,2,200;146,4,200;148,4,200""}]}",
 ,Dame esto.,0,"3,123",69,1,0,Recolección diaria - Nivel 1,,,"{""options"":[{""optionType"":1,""value"":""134,4,200;150,4,200;151,4,200""}]}",
 ,Trabajo de recolección.,0,"3,141",70,1,0,Recolección diaria - Nivel 2,,,"{""options"":[{""optionType"":9,""value"":""96,2,100;205,2,100;206,2,100""}]}",
 ,Trabajo de recolección y entrega.,0,"3,141",71,1,0,Recolección diaria - Nivel 2,,,"{""options"":[{""optionType"":9,""value"":""96,1,100;205,1,100;206,1,100""},{""optionType"":1,""value"":""140,2,200;147,4,200;28,2,200""}]}",
 ,Dame esto.,0,"3,141",72,1,0,Recolección diaria - Nivel 2,,,"{""options"":[{""optionType"":1,""value"":""140,4,200;149,4,200;28,4,200""}]}",
 ,Trabajo de recolección.,0,"3,128",73,1,0,Recolección diaria - Nivel 3,,,"{""options"":[{""optionType"":9,""value"":""132,2,100;205,2,100;206,2,100""}]}",
-,Trabajo de recolección y entrega.,0,"3,128",74,1,0,Recolección diaria - Nivel 3,,,"{""options"":[{""optionType"":9,""value"":""132,1,100;205,1,100;206,1,100""},{""optionType"":1,""value"":""191,2,200;29,2,200;146692,4,200""}]}",
+,Trabajo de recolección y entrega.,0,"3,128",74,1,0,Recolección diaria - Nivel 3,,,"{""options"":[{""optionType"":9,""value"":""132,1,100;205,1,100;206,1,100""},{""optionType"":1,""value"":""191,2,200;29,2,200;146,4,200""}]}",
 ,Dame esto.,0,"3,128",75,1,0,Recolección diaria - Nivel 3,,,"{""options"":[{""optionType"":1,""value"":""191,4,200;29,4,200;150,4,200""}]}",
 ,Dame esto.,0,"3,129",76,1,0,Recompensa - Recolección nivel 1,,,"{""options"":[{""optionType"":1,""value"":""216,2,200;213,2,100;210,2,100;207,2,200""}]}",
 ,Dame esto.,0,"3,148",77,1,0,Recompensa - Recolección nivel 1,,,"{""options"":[{""optionType"":1,""value"":""217,1,200;214,1,100;211,1,100;208,1,200""}]}",

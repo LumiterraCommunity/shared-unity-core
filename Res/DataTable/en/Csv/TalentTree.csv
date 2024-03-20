@@ -162,7 +162,7 @@ Unlock Energy Potion Recipe Lv 2",71#75#203#268;112#182;181#183#184#480#468#477#
 -2,Reduce the enemy's movement speed.,337,1,talentTree-56,56,0,4,1,Bull Rush - Enhance,2,814,0,0,55
 -2,Repel the enemy in a small area in front of you and flip backwards,123,0,talentTree-57,57,0,5,1,Escape,2,1178,0,0,56
 -1,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,2,486,0,0,
--3,"Dizzy enemies within a certain range, unable to hit during skill release",433,0,talentTree-61,61,0,4,1,War Trampling,2,814,0,0,52
+-3,"Dizzy enemies within a certain range, unable to hit during skill release",459,0,talentTree-61,61,0,4,1,War Trampling,2,814,0,0,52
 -3,"Unlock Set Recipes Lv 3
 Unlock Energy Potion Recipe Lv 3",72#76#204#269;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"730,1140,1780",0,"0,0,0",34
 -1,Unlock Potion Recipe,95,2,talentTree-65,65,0,1,1,Magic Props Recipes,3,100,0,0,
@@ -225,7 +225,7 @@ Unlock Energy Potion Recipe Lv 3",46#366#372#592;135#138;141#144#147#497#495#494
 -3,Reduce the enemy's movement speed.,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,2,1570,0,0,71
 -2,Reduce the enemy's movement speed.,338,1,talentTree-123,123,0,6,1,Escape - Enhance,2,1570,0,0,57
 1,Increase crit damage to monsters by 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3,Expert,2,"1570,2046,2666",0,"0,0,0",118
--1,Drop bombs and deal high damage to enemies within the explosion range,138,0,talentTree-125,125,0,6,1,Explosion Art,2,1570,0,0,119
+-1,Drop bombs and deal high damage to enemies within the explosion range,485,0,talentTree-125,125,0,6,1,Explosion Art,2,1570,0,0,119
 -3,Defeat a large area of enemies in front of you and cause temporary dizziness,460,0,talentTree-127,127,0,7,1,Sweeping,2,1987,0,0,122
 -2,Reduce the enemy's movement speed.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,2,1987,0,0,123
 -1,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Explosion Art - Enhance,2,1987,0,0,125
@@ -236,7 +236,7 @@ Unlock Energy Potion Recipe Lv 3",46#366#372#592;135#138;141#144#147#497#495#494
 2,Combat ATK +5,270,1,talentTree-134,134,0,7,1,Combat - Attack Power,2,1987,0,0,131
 3,Combat DEF +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,2,1987,0,0,132
 4,Combat MaxHP +20,276,1,talentTree-136,136,0,7,1,Combat - HP,2,1987,0,0,133
--2,Jump towards a nearby enemy and cause range dizziness and damage at the landing point,459,0,talentTree-139,139,0,8,1,Pursuit,2,2728,0,0,128
+-2,Jump towards a nearby enemy and cause range dizziness and damage at the landing point,484,0,talentTree-139,139,0,8,1,Pursuit,2,2728,0,0,128
 -1,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Explosion Art - Enhance,2,2728,0,0,129
 1,0.1/0.2/0.3% damage bonus per 1% health lost.,128;129;130,1,talentTree-141,141,0,8,3,Expert,2,"2728,3295,3979",0,"0,0,0",130
 2,Combat ATK +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,2,2728,0,0,134
@@ -352,7 +352,7 @@ Unlock Energy Potion Recipe Lv 6",327#381#418#413#414#415#586#602;329#330;331#33
 -5,,638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837,2,talentTree-286,286,0,7,3,,2,"1987,2589,3373",0,"0,0,0",260
 -4,,626,2,,287,0,7,1,,2,1987,0,0,261
 -5,,670#671#672;675#676#677#838#839#840#841#842#843#844#845;673#674,2,talentTree-288,288,0,8,3,,2,"2728,3295,3979",0,"0,0,0",286
--4,,627,2,,289,0,8,1,,2,2728,0,0,286
+-4,,627,2,,289,0,8,1,,2,2728,0,0,287
 -5,,694#695#696;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-290,290,0,9,3,,2,"3703,4100,4540",0,"0,0,0",288
 -4,,628,2,,291,0,9,1,,2,3703,0,0,289
 -3,,646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828,2,talentTree-292,292,0,7,3,,3,"2981,4655,7270",0,"0,0,0",266

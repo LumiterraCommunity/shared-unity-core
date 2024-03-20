@@ -280,10 +280,10 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20200004,活动,sell ticket success
 ,20200005,活动,sell ticket failed
 ,20210000,钱包相关,Token balance request failed!
-地形杀,20220001,战报名称,[color=#F27B24]Terrain[/color] 
+地形杀,20220001,战报名称,[color=#FF9F2F]Terrain[/color] 
 单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color] 
 xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color] 
-家园饥饿杀,20220004,战报名称,[color=#F27B24]Hunger[/color] 
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Hunger[/color] 
 ,20220005,战报名称,reserved
 ,20220006,战报概要,You were killed by {att=unknown}
 ,20220007,战报概要,Your {def=unknown} were killed by {att=unknown}
@@ -295,6 +295,11 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220013,战报详情,[color=#35F883]win[/color] items
 ,20220014,战报详情,{att=unknown} [color=#35F883]win[/color] items
 ,20220015,战报详情,{att=unknown} killed {def=unknown}
+,20220016,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] successfully
+,20220017,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] failed
+,20220018,战报详情,[color=#F7CE3D]You[/color] was rewarded for clearing the level
+,20220019,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus"
+,20220020,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Ticket Bonus"
 ,20230000,宠物,Pet  followed.
 ,20230001,宠物,Pet un-followed.
 ,20230002,宠物,Pet marrow washing success.
@@ -303,3 +308,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230005,宠物,Are you sure to release {0}? You will lose the pet after release.
 ,20230006,宠物,You've released your pet.
 ,20230007,宠物,Pet rename completed.
+,20240001,图腾,Achieve success
