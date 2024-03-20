@@ -170,7 +170,7 @@ public class EntityMgr<TEntity, TFactory> : SceneModuleBase, IEntityMgr where TE
     /// 移除一个场景实体 主角不使用这个方法
     /// </summary>
     /// <param name="entityID"></param>
-    public void RemoveEntity(long entityID)
+    public virtual void RemoveEntity(long entityID)
     {
         if (!EntityDic.TryGetValue(entityID, out TEntity entity))
         {
