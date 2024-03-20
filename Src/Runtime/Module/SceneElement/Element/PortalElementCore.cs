@@ -38,7 +38,7 @@ public class PortalElementCore : SceneElementCore
     public float ActivateTime = 0;
 
     [Header("传送门传送时间(s)")]
-    public float TriggerPortalTime = 0;
+    public float TriggerPortalTime = 3;
 
     [Header("当前使用次数")]
     public int CurUseNum = 0;
