@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
@@ -64,14 +64,14 @@ public class PortalElementCore : SceneElementCore
     public override void UpdateElementData()
     {
         base.UpdateElementData();
-        PortalElementData netData = new()
+        if (SceneElementData.Portal == null)
         {
-            StartTime = _startTime,
-            StatusType = (int)StatusType,
-            CurUseNum = CurUseNum,
-            CurTypeIndex = CurTypeIndex,
-        };
-        SceneElementData.Portal = netData;
+            SceneElementData.Portal = new();
+        }
+        SceneElementData.Portal.StartTime = _startTime;
+        SceneElementData.Portal.StatusType = (int)StatusType;
+        SceneElementData.Portal.CurUseNum = CurUseNum;
+        SceneElementData.Portal.CurTypeIndex = CurTypeIndex;
     }
 
     public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum, int curTypeIndex)
@@ -132,6 +132,7 @@ public class PortalElementCore : SceneElementCore
             if (_curActivateTime >= ActivateTime)
             {
                 StatusType = ePortalStatusType.Running;
+                UpdateElementData();
             }
         }
     }
@@ -146,6 +147,7 @@ public class PortalElementCore : SceneElementCore
         if (CurUseNum >= MaxUseNum)
         {
             StatusType = ePortalStatusType.Finish;
+            UpdateElementData();
         }
     }
 
@@ -209,5 +211,6 @@ public class PortalElementCore : SceneElementCore
     public void TriggerPortalElement(EntityBase entityBase)
     {
         CurUseNum++;
+        UpdateElementData();
     }
 }

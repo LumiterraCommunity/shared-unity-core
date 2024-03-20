@@ -163,13 +163,15 @@ public class SafeAreaElementCore : SceneElementCore
     public override void UpdateElementData()
     {
         base.UpdateElementData();
-        GameMessageCore.SafeAreaElementData netData = new()
+        if (SceneElementData.SafeArea == null)
         {
-            StartTime = _startTime,
-            Position = new()
-        };
-        netData.Position.Set(transform.position.x, transform.position.y, transform.position.z);
-        SceneElementData.SafeArea = netData;
+            SceneElementData.SafeArea = new()
+            {
+                Position = new()
+            };
+        }
+        SceneElementData.SafeArea.StartTime = _startTime;
+        SceneElementData.SafeArea.Position.Set(transform.position.x, transform.position.y, transform.position.z);
     }
 
     public void StartElement(Vector3 pos, long startTime)
