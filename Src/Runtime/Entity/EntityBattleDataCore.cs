@@ -64,7 +64,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// </summary>
     public float MoveSpeed { get => GetMoveSpeedValue(); protected set => SetBaseValue(eAttributeType.MoveSpd, (int)(value * MathUtilCore.M2CM)); }
     /// <summary>
-    /// 等级
+    /// 等级,这里取的是战斗专精等级
     /// </summary>
     public int Level { get => GetValue(eAttributeType.CombatLv); protected set => SetBaseValue(eAttributeType.CombatLv, value); }
     /// <summary>

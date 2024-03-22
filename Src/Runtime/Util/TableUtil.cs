@@ -345,8 +345,8 @@ public static class TableUtil
     /// <summary>
     /// 遍历属性数组
     /// </summary>
-    /// <param name="attr"></param>
-    /// <param name="cb"></param>
+    /// <param name="attr">属性二维数组</param>
+    /// <param name="cb">T0:属性类型，T1:属性值，T2:属性是否受潜力值影响</param>
     public static void ForeachAttribute(int[][] attr, Action<eAttributeType, int, bool> cb)
     {
         if (attr == null || attr.Length == 0)

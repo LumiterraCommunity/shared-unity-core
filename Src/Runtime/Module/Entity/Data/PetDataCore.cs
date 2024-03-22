@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
@@ -6,7 +5,7 @@ using UnityGameFramework.Runtime;
 
 /// <summary>
 /// 宠物核心数据
-/// 家园宠物和跟随宠物都使用这个组件，不过跟随宠物用到的是这个组件的子类FollowingPetDataCore
+/// 家园宠物和跟随宠物都使用这个组件
 /// </summary>
 public class PetDataCore : EntityBaseComponent
 {

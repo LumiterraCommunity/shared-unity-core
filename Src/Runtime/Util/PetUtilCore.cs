@@ -19,20 +19,30 @@ public static class PetUtilCore
         ePetAbility result = ePetAbility.None;
         foreach (PetAbilityType ability in abilityBitOffsets)
         {
-            result |= (ePetAbility)(1 << (int)ability);
+            result |= PetAbilityBitToEnum(ability);
         }
 
         return result;
     }
 
     /// <summary>
-    /// 宠物能力位移值转换为宠物能力枚举
+    /// 宠物能力位移值枚举转换为宠物能力枚举
     /// </summary>
     /// <param name="ability"></param>
     /// <returns></returns>
     public static ePetAbility PetAbilityBitToEnum(PetAbilityType ability)
     {
-        return (ePetAbility)(1 << (int)ability);
+        return PetAbilityFromBitOffset((int)ability);
+    }
+
+    /// <summary>
+    /// 通过位移获取宠物能力
+    /// </summary>
+    /// <param name="bitOffset"></param>
+    /// <returns></returns>
+    public static ePetAbility PetAbilityFromBitOffset(int bitOffset)
+    {
+        return (ePetAbility)(1 << bitOffset);
     }
 
     /// <summary>
@@ -59,16 +69,6 @@ public static class PetUtilCore
                 protoRepeated.Add((PetAbilityType)i);
             }
         }
-    }
-
-    /// <summary>
-    /// 通过位移获取宠物能力
-    /// </summary>
-    /// <param name="bitOffset"></param>
-    /// <returns></returns>
-    public static ePetAbility PetAbilityFromBitOffset(int bitOffset)
-    {
-        return (ePetAbility)(1 << bitOffset);
     }
 
     public static int GetPetLv(IEnumerable<AttributeData> attrs)
