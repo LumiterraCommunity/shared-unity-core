@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,Sumber tidak wujud
 操作不支持,5002,家园错误码,Operasi tidak disokong
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
@@ -262,6 +263,7 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20180007,设置,Rendah
 ,20180008,设置,Sederhana
 ,20180009,设置,Tinggi
+,20180010,设置,
 ,20190000,天赋树,Nod pra-perlu dibuka terlebih dahulu.
 ,20190001,天赋树,Jumlah tahap pohon bakat perlu mencapai {0}.
 ,20190002,天赋树,Nod batang pada lapisan yang sama perlu dibuka terlebih dahulu.
@@ -302,3 +304,6 @@ xx的yy,20220003,战报名称,
 ,20230006,宠物,
 ,20230007,宠物,
 ,20240001,图腾,
+,20250000,仓库,
+,20250001,仓库,
+,20250002,,

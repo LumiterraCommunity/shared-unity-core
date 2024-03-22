@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,El recurso no existe
 操作不支持,5002,家园错误码,Operación no compatible
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
@@ -262,6 +263,7 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20180007,设置,Rendah
 ,20180008,设置,Sedang
 ,20180009,设置,Tinggi
+,20180010,设置,
 ,20190000,天赋树,El nodo previo debe desbloquearse primero.
 ,20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.
 ,20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.
@@ -302,3 +304,6 @@ xx的yy,20220003,战报名称,
 ,20230006,宠物,
 ,20230007,宠物,
 ,20240001,图腾,
+,20250000,仓库,
+,20250001,仓库,
+,20250002,,

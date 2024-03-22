@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,Tài nguyên không tồn tại
 操作不支持,5002,家园错误码,Thao tác không được hỗ trợ
 家园道具扣除异常,5003,家园错误码,Lỗi trừ điểm vật phẩm nhà
@@ -262,6 +263,7 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20180007,设置,Thấp
 ,20180008,设置,Trung bình
 ,20180009,设置,Cao
+,20180010,设置,
 ,20190000,天赋树,Phải mở khóa nút trước đó.
 ,20190001,天赋树,Tổng cấp độ của cây tài năng cần đạt đến {0}.
 ,20190002,天赋树,Phải mở khóa nút gốc cùng tầng trước.
@@ -302,3 +304,6 @@ xx的yy,20220003,战报名称,
 ,20230006,宠物,
 ,20230007,宠物,
 ,20240001,图腾,
+,20250000,仓库,
+,20250001,仓库,
+,20250002,,

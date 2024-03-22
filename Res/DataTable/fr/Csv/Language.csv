@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,La ressource n'existe pas
 操作不支持,5002,家园错误码,Opération non prise en charge
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
@@ -262,6 +263,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20180007,设置,Bas 
 ,20180008,设置,Moyen 
 ,20180009,设置,Élevé 
+,20180010,设置,
 ,20190000,天赋树,Le pré-nœud doit d'abord être déverrouillé.
 ,20190001,天赋树,Le niveau total de l'arbre de talent doit atteindre {0}.
 ,20190002,天赋树,Le nœud principal de la même couche doit d'abord être déverrouillé.
@@ -302,3 +304,6 @@ xx的yy,20220003,战报名称,
 ,20230006,宠物,
 ,20230007,宠物,
 ,20240001,图腾,
+,20250000,仓库,
+,20250001,仓库,
+,20250002,,

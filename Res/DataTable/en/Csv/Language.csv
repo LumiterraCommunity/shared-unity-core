@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,Resource does not exist
 操作不支持,5002,家园错误码,Operation not supported
 家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
@@ -269,6 +270,7 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20180007,设置,Low
 ,20180008,设置,Medium
 ,20180009,设置,High
+,20180010,设置,Cannot disengage while in combat. 
 ,20190000,天赋树,The pre-node must be unlocked first.
 ,20190001,天赋树,Total level of talent tree needs reach to {0}.
 ,20190002,天赋树,The trunk node of the same layer must be unlocked first.
@@ -309,3 +311,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,You've released your pet.
 ,20230007,宠物,Pet rename completed.
 ,20240001,图腾,Achieve success
+,20250000,仓库,Please renew the storage lease before storing.
+,20250001,仓库,Please renew the lease of the storage before taking it out.
+,20250002,,The storage is full.
