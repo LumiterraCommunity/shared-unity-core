@@ -1,11 +1,9 @@
 describe-string,id-int,module-string,value-string
-,,,
 资源不存在,5001,家园错误码,El recurso no existe
 操作不支持,5002,家园错误码,Operación no compatible
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
 捕捉动物请求异常,6001,畜牧错误码,Excepción en la solicitud de captura de animales
 捕捉动物无效,6002,畜牧错误码,La captura de animales no es válida
-,2016001,,
 ,10001001,通用, OK
 ,10001002,通用, Cancelar
 ,10001003,通用, Confirmar
