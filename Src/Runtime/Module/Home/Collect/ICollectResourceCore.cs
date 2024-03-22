@@ -38,19 +38,21 @@ public interface ICollectResourceCore
     /// </summary>
     /// <param name="action"></param>
     /// <param name="toolCid">工具id 可能是种子 肥料 装备</param>
+    /// <param name="playerId">操作的玩家id 可能是宠物的主人</param>
+    /// <param name="entityId">操作的具体实体id 可能是宠物</param>
     /// <param name="skillId">技能id</param>/*  */
     /// <param name="actionData">动作数据 没有传null</param>
-    /// <param name="playerId">操作的玩家id 可能是宠物的主人</param>
-    void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId);
+    void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData);
     /// <summary>
     /// 执行了一次进度 最后一次进度也会调用 再去调用执行动作
     /// </summary>
     /// <param name="targetCurAction"></param>
+    /// <param name="triggerEntityId">触发者id</param>
     /// <param name="skillId">技能id</param>
-    /// <param name="deltaProgress">进度变化值</param>
+    /// <param name="deltaProgress">进度变化值 正数 如果是hold动作会给0</param>
     /// <param name="isCrit">是否暴击</param>
     /// <param name="isPreEffect">是否是预表现效果</param>
-    void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect);
+    void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect);
     /// <summary>
     /// 获取对应家园动作的等级 其实是专精等级的概念 错误返回0
     /// </summary>

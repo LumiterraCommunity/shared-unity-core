@@ -76,6 +76,7 @@ public enum eGameValueID
     PlayerCampChangeTime = 44, //玩家切换阵营时间
     PetCastSkillHungerCost = 46,//宠物释放技能饥饿度消耗
     PetProduceHungerRate = 47,//生产时的宠物饥饿度消耗倍率
+    KillCostEnergy = 50,//击杀行为消耗精力 千分位
 }
 
 // public static class GameValueID

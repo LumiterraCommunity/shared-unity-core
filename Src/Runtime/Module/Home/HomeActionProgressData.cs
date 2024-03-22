@@ -10,6 +10,12 @@ using static HomeDefine;
 public class HomeActionProgressData : MonoBehaviour
 {
     private const string BACK_PROTECT_TIMER_KEY = "BACK_PROTECT_TIMER_KEY";
+
+    /// <summary>
+    /// 当进度归属玩家改变后调用 T0：新的归属玩家id，0代表取消归属
+    /// </summary>
+    public event Action<long> OnProgressOwnerChanged;
+
     /// <summary>
     /// 进度充满的时间戳 只在设置HoldToFull才有效
     /// </summary>
@@ -117,7 +123,13 @@ public class HomeActionProgressData : MonoBehaviour
     /// <param name="id"></param>
     public void SetCurProgressOwnerId(long id)
     {
+        if (CurProgressOwnerId == id)
+        {
+            return;
+        }
+
         CurProgressOwnerId = id;
+        OnProgressOwnerChanged?.Invoke(id);
     }
 
     /// <summary>
