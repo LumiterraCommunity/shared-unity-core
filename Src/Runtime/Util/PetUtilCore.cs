@@ -92,7 +92,7 @@ public static class PetUtilCore
         int collectionLv = attrData.GetBaseValue(eAttributeType.CollectionLv);
         int farmingLv = attrData.GetBaseValue(eAttributeType.FarmingLv);
 
-        return Math.Max(battleLv, Math.Max(collectionLv, farmingLv));
+        return UnityEngine.Mathf.Max(battleLv, collectionLv, farmingLv);
     }
 
     public static int GetPetProfileByType(IEnumerable<AttributeData> attrs, eAttributeType type)
