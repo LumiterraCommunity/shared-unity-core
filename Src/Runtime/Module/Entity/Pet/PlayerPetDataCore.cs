@@ -28,12 +28,9 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// </summary>
     public EntityBase FollowingPet { get; private set; }
 
-    private void OnDestroy()
+    protected virtual void OnDestroy()
     {
-        if (FollowingPet != null)
-        {
-            FollowingPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
-        }
+        ClearCurFollowingPet(true);
     }
 
     /// <summary>
@@ -47,34 +44,38 @@ public class PlayerPetDataCore : EntityBaseComponent
             return;
         }
 
-        HandFollowingPetUnInitEvent(pet, FollowingPet);
+        EntityBase lastPet = FollowingPet;
+        ClearCurFollowingPet(false);
+        FollowingPet = pet;
 
-        if (pet == null)
+        if (pet != null)
         {
-            EntityBase lastPet = FollowingPet;
-            FollowingPet = null;
-            PetUnFollow?.Invoke(lastPet);
-            Log.Info("Player un follow pet");
-        }
-        else
-        {
-            FollowingPet = pet;
+            FollowingPet.EntityEvent.UnInitFromScene += OnPetUnInitFromScene;
             PetFollow?.Invoke(pet);
             Log.Info($"Player following pet changed, cur pet is {pet.BaseData.Id}");
         }
+        else
+        {
+            //这里pet为null，所以lastPet不会为null，不然上面的判断就直接返回了
+            PetUnFollow?.Invoke(lastPet);
+            Log.Info("Player un follow pet");
+        }
     }
 
-    private void HandFollowingPetUnInitEvent(EntityBase newPet, EntityBase lastPet)
+    private void ClearCurFollowingPet(bool isDestroy)
     {
-        if (newPet != null)
+        if (FollowingPet == null)
         {
-            newPet.EntityEvent.UnInitFromScene += OnPetUnInitFromScene;
+            return;
         }
 
-        if (lastPet != null)
+        FollowingPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
+        if (isDestroy)
         {
-            lastPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
+            //销毁的时删除当前跟随的宠物
+            GFEntryCore.GetModule<IEntityMgr>().RemoveEntity(FollowingPet.BaseData.Id);
         }
+        FollowingPet = null;
     }
 
     private void OnPetUnInitFromScene(EntityBase pet)

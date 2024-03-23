@@ -53,12 +53,7 @@ public class RoleBaseDataCore : EntityBaseComponent
     public void SetName(string name)
     {
         Name = name;
-    }
-
-    public void Rename(string newName)
-    {
-        SetName(newName);
-        RefEntity.EntityEvent.Rename?.Invoke(newName);
+        RefEntity.EntityEvent.NameUpdate?.Invoke(name);
     }
 
     public void SetHeight(float height)

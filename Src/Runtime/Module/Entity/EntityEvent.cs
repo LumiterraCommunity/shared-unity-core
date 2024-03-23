@@ -312,5 +312,5 @@ public class EntityEvent : EntityBaseComponent
     /// 实体重命名
     /// <nwe name>
     /// </summary>
-    public Action<string> Rename;
+    public Action<string> NameUpdate;
 }
