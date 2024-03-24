@@ -17,18 +17,17 @@ public class SEAreaElementCore : SceneElementCore
     public eSEAreaTriggerType TriggerType;
 
     [Header("技能ID")]
-    public int SkillID;
+    public int SkillID = 14;
 
-    [Header("技能应用类型")]
-    public eSkillEffectApplyType ApplyType;
+    [Header("技能效果ID列表")]
+    public int[] EffectIDs;
 
     [Header("触发间隔时间(s)")]
     public float Interval = 1f;
 
+
     protected float LastTriggerTime = 0;
     protected EntityTriggerHelper TriggerHelper;
-    protected DRSkill DRSkill;
-    protected int[] EffectIDs;
     protected InputSkillReleaseData InputData;
 
     protected virtual void Start()
@@ -36,13 +35,6 @@ public class SEAreaElementCore : SceneElementCore
         TriggerHelper = gameObject.AddComponent<EntityTriggerHelper>();
         TriggerHelper.OnAddEntity += OnAddEntity;
         TriggerHelper.OnRemoveEntity += OnRemoveEntity;
-
-        DRSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(SkillID);
-        if (DRSkill == null)
-        {
-            Log.Error($"SEAreaElementCore skillID is null  skillID = {SkillID}");
-        }
-        EffectIDs = SkillUtil.GetSkillEffectByType(DRSkill, ApplyType);
 
         InputData = new(SkillID, transform.forward);
         InputData.SetInputRandomSeed(0); // 固定随机值
