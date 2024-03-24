@@ -74,9 +74,6 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
                 //https://codingmonkey.feishu.cn/docx/BgbRdOKxPo25mEx8apNcH65enlf
                 Log.Error($"动物目前不能再配置自动收获 cid:{PetData.PetCfgId}");
             }
-
-            //TODO pet 表
-            // PetFeature = TableUtil.ToPetFeature(Data.DRMonster.PetFeature);
         }
         else
         {
