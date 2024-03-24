@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-12-06 10:27:50
  * @Description: 资源刷新区域
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Home/HomeResourcesArea.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Home/HomeResourcesArea.cs
  * 
  */
 using UnityEngine;
@@ -163,13 +163,12 @@ public class HomeResourcesArea : SharedCoreComponent
         Gizmos.DrawWireCube(Vector3.zero, Vector3.one);
         Gizmos.matrix = oldMatrix;
     }
+#if UNITY_EDITOR
     protected virtual void Update()
     {
-
-#if UNITY_EDITOR
         UpdateID();
-#endif
     }
+#endif
 #if UNITY_EDITOR
     private void UpdateID()
     {
