@@ -68,10 +68,9 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
             return;
         }
 
-        //在本碰撞体和最多上层父级中找实体组件 找不到说明不是实体不理会
-        if (other.TryGetComponent(out EntityBaseData entityBaseData) || (other.transform.parent && other.transform.parent.TryGetComponent(out entityBaseData)))
+        if (other.TryGetComponent(out EntityReferenceData entityReference))
         {
-            AddEntity(entityBaseData.RefEntity, other);
+            AddEntity(entityReference.Entity, other);
         }
     }
 
