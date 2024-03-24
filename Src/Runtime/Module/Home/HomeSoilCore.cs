@@ -23,7 +23,11 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
     public eAction SupportAction => GetCurStatus().SupportAction;
 
-    public int Lv => throw new System.NotImplementedException();//目前业务没有需要读的 否则报错
+    public int GetActionLevel(eAction action)
+    {
+        Log.Error("HomeSoilCore.GetActionLevel() is not implemented");
+        return 0;
+    }
 
     protected virtual void Awake()
     {

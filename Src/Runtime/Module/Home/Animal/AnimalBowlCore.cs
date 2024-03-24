@@ -17,7 +17,11 @@ public class AnimalBowlCore : MonoBehaviour, ICollectResourceCore
 
     public Vector3 Position => transform.position;
 
-    public int Lv => -1;
+    public int GetActionLevel(eAction action)
+    {
+        Log.Error("AnimalBowlCore.GetActionLevel() is not implemented");
+        return 0;
+    }
 
     public eAction SupportAction => eAction.PutAnimalFood;
 

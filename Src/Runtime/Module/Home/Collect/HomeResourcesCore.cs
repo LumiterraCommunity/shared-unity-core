@@ -20,7 +20,18 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     public eAction SupportAction { get; set; } = eAction.None;
     public ResourceDataCore Data { get; private set; }
 
-    public int Lv => Data.DRHomeResources.Lv;
+    public int GetActionLevel(eAction action)
+    {
+        if ((action & SupportAction) != 0)
+        {
+            return Data.DRHomeResources.Lv;
+        }
+        else
+        {
+            Log.Error($"HomeResourcesCore.GetActionLevel() is not implemented action:{action}");
+            return 0;
+        }
+    }
 
     private HomeSoilResourceRelation _addedSoilResourceRelation;//上次添加关系的组建 方式一个家园到另外家园瞬间的引用关系错误
 

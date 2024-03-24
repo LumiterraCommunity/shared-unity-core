@@ -22,11 +22,6 @@ public interface ICollectResourceCore
     /// </summary>
     /// <value></value>
     Vector3 Position { get; }
-    /// <summary>
-    /// 等级
-    /// </summary>
-    /// <value></value>
-    int Lv { get; }
 
     /// 检查是否支持当前复合动作 不支持也能选中 只是不会执行和发出去
     /// </summary>
@@ -56,4 +51,10 @@ public interface ICollectResourceCore
     /// <param name="isCrit">是否暴击</param>
     /// <param name="isPreEffect">是否是预表现效果</param>
     void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect);
+    /// <summary>
+    /// 获取对应家园动作的等级 其实是专精等级的概念 错误返回0
+    /// </summary>
+    /// <param name="action">具体单一动作</param>
+    /// <returns></returns>
+    int GetActionLevel(eAction action);
 }

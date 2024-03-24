@@ -21,6 +21,19 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public int Lv => PetUtilCore.GetPetLv(RefEntity.EntityAttributeData);
 
+    public int GetActionLevel(eAction action)
+    {
+        if ((action & COLLECT_RESOURCE_ACTION_MASK) != 0)
+        {
+            return RefEntity.EntityAttributeData.GetBaseValue(eAttributeType.CollectionLv);
+        }
+        else
+        {
+            return RefEntity.EntityAttributeData.GetBaseValue(eAttributeType.FarmingLv);
+        }
+        //作为家园动作等级是没有战斗等级的
+    }
+
     public eAction SupportAction { get; set; } = eAction.Appease;
 
     public eAction HarvestAction { get; private set; } = eAction.None;//收获动作
