@@ -17,7 +17,7 @@ public class SEAreaElementCore : SceneElementCore
     public eSEAreaTriggerType TriggerType;
 
     [Header("技能ID")]
-    public int SKillID;
+    public int SkillID;
 
     [Header("技能应用类型")]
     public eSkillEffectApplyType ApplyType;
@@ -37,14 +37,14 @@ public class SEAreaElementCore : SceneElementCore
         TriggerHelper.OnAddEntity += OnAddEntity;
         TriggerHelper.OnRemoveEntity += OnRemoveEntity;
 
-        DRSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(SKillID);
+        DRSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(SkillID);
         if (DRSkill == null)
         {
-            Log.Error($"SEAreaElementCore skillID is null  skillID = {SKillID}");
+            Log.Error($"SEAreaElementCore skillID is null  skillID = {SkillID}");
         }
         EffectIDs = SkillUtil.GetSkillEffectByType(DRSkill, ApplyType);
 
-        InputData = new(SKillID, transform.forward);
+        InputData = new(SkillID, transform.forward);
         InputData.SetInputRandomSeed(0); // 固定随机值
     }
     protected override void Update()
