@@ -413,7 +413,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,532,113,330,452,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_red,Skill_BlazeRidge_AttackRange,,1000,15000,,2000,2,0,,"1,200,2000,100",,1,0,1,,1000,547,,,,,,,,,,,,
 0,0,0,,0,"386,238",467,610,453,0,1,0,0,0,0,0,0,attackRange,Skill_Earthshock,Skill_DoomLord_AttackRange,,1333,15000,,300,2,0,EarthShock,"1,200,500,100",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,553,950,454,0,1,0,0,0,0,0,0,attackRange,Skill_big_windmill,Skill_VerdantFlame_AttackRange,,5000,60000,,300,2,0,big windmill,"2,500",,1,0,1,,1000,525,,,,,,,,,,,,
-0,0,0,,0,,553,950,455,0,1,0,1,0,0,0,0,attackArea,Skill_Flurry,SKill_VerdantFlame_AttackArea,,3000,35000,,300,2,0,,"2,600",CameraShakeGrade_1,1,0,1,,1000,535,,,,,,,,,,,,
+0,0,0,,0,,553,950,455,0,1,0,0,0,0,0,0,attackArea,Skill_Flurry,SKill_VerdantFlame_AttackArea,,3000,35000,,300,2,0,,"2,600",CameraShakeGrade_1,1,0,1,,1000,535,,,,,,,,,,,,
 0,0,0,,0,386,553,800,456,0,1,0,0,0,0,0,0,attackArea,Skill_megaseism,Skill_DoomLord_AttackRange,,2100,60000,,500,2,0,megaseism,"2,600",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,"113,547",500,457,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_green,Skill_GlowingGuard_AttackRange,,2900,20000,,2000,2,0,Linear impact,"1,200,2000,100",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,"538,541",,500,458,0,1,0,1,0,1,0,0,attackArea,,Skill_GlowingGuard_AttackArea,,1500,5000,,1000,2,32,Flying spear,,CameraShakeGrade_1,1,0,1,,1000,,skill-icon-458,,,,2,,,,,,,
