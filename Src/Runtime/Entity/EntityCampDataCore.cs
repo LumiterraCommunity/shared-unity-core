@@ -36,7 +36,7 @@ public class EntityCampDataCore : EntityBaseComponent
         }
     }
 
-    private eEntityCampType _campType;
+    private eEntityCampType _selfCampType;
     /// <summary>
     /// 阵营类型
     /// </summary>
@@ -47,11 +47,11 @@ public class EntityCampDataCore : EntityBaseComponent
     public eEntityCampType DelayChangeCampType { get; protected set; }
     public void Init(eEntityCampType campType)
     {
-        _campType = campType;
+        _selfCampType = campType;
     }
     protected eEntityCampType GetCampType()
     {
-        return _campType;
+        return _selfCampType;
     }
     public virtual bool CheckIsEnemy(EntityBase other)
     {
@@ -127,7 +127,7 @@ public class EntityCampDataCore : EntityBaseComponent
 
     public virtual bool ChangeCamp(eEntityCampType campType)
     {
-        _campType = campType;
+        _selfCampType = campType;
         RefEntity.EntityEvent.ChangeCamp?.Invoke();
         return true;
     }
