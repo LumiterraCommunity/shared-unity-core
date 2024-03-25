@@ -7,7 +7,6 @@
 */
 
 using GameMessageCore;
-using UnityEngine;
 public class SEDotDamageCore : SkillEffectBase
 {
 
@@ -36,5 +35,20 @@ public class SEDotDamageCore : SkillEffectBase
         {
             return;
         }
+    }
+
+    public override DamageEffect CreateEffectData(EntityBase fromEntity, EntityBase targetEntity, InputSkillReleaseData inputData)
+    {
+        float damageCoefficient = 1;
+        if (EffectCfg.Parameters != null && EffectCfg.Parameters.Length > 0)
+        {
+            damageCoefficient = EffectCfg.Parameters[0] * MathUtilCore.I2T;
+        }
+        DamageEffect effect = new();
+        EntityBattleDataCore targetBattleData = targetEntity.BattleDataCore;
+        DamageData damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, fromEntity.BattleDataCore.Level, targetEntity.BattleDataCore.Level, damageCoefficient);
+        effect.DamageValue = damage;
+        effect.DamageValue.CurrentInt = targetBattleData.HP + damage.DeltaInt;
+        return effect;
     }
 }
