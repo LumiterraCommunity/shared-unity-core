@@ -2,14 +2,14 @@
 * @Author: xiang huan
 * @Date: 2022-07-19 16:19:58
 * @Description: 持续伤害效果
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEDotDamageCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEDotDamageCore.cs
 * 
 */
 
 using GameMessageCore;
 public class SEDotDamageCore : SkillEffectBase
 {
-
+    public override bool IsUpdate => true;
     /// <summary>
     /// 检测能否应用效果
     /// </summary>
