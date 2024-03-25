@@ -25,18 +25,15 @@ public class SEAuraCore : SkillEffectBase
         {
             return;
         }
-        //同步效果球时，在前端执行是不会同步技能输入数据的，所以这里需要手动创建
-        InputSkillReleaseData inputData = new(SkillID, RefEntity.Forward);
-        SetInputData(inputData);
 
 #if UNITY_EDITOR
         _drawObj = new GameObject("SEAuraCore");
         SkillShapeGizmos shapeGizmos = _drawObj.AddComponent<SkillShapeGizmos>();
 
         UnityEngine.Vector3 targetPos = new(EffectData.PosValue.X, EffectData.PosValue.Y, EffectData.PosValue.Z);
-        if (inputData.DRSkill.SkillRange != null && inputData.DRSkill.SkillRange.Length > 0)
+        if (InputData.DRSkill.SkillRange != null && InputData.DRSkill.SkillRange.Length > 0)
         {
-            shapeGizmos.StartDraw(inputData.DRSkill.SkillRange, targetPos, inputData.Dir);
+            shapeGizmos.StartDraw(InputData.DRSkill.SkillRange, targetPos, InputData.Dir);
         }
 #endif
     }

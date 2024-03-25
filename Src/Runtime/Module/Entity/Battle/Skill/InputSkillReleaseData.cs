@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-02-09 14:54:09
  * @Description: 技能输入数据 
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Skill/InputSkillReleaseData.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Skill/InputSkillReleaseData.cs
  * 
  */
 
