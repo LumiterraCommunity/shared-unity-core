@@ -15,26 +15,7 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class EntityCampDataCore : EntityBaseComponent
 {
-    private EntityBase _refOwner;
-    public EntityBase RefOwner  //没有主人时，主人为自己
-    {
-        get
-        {
-            //宠物获取主人
-            if (_refOwner == null && RefEntity.BaseData.Type == GameMessageCore.EntityType.Pet)
-            {
-                if (RefEntity.TryGetComponent(out PetDataCore PetDataCore))
-                {
-                    if (!GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(PetDataCore.OwnerId, out _refOwner))
-                    {
-                        Log.Error("EntityCampDataCore Owner is null");
-                    };
-                }
-
-            }
-            return _refOwner ?? RefEntity;
-        }
-    }
+    public virtual EntityBase RefOwner => RefEntity;
 
     private eEntityCampType _selfCampType;
     /// <summary>

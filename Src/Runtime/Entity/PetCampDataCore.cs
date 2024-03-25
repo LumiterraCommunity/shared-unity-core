@@ -7,12 +7,32 @@
  */
 
 
+using UnityGameFramework.Runtime;
+
+
 /// <summary>
 /// 宠物阵营数据
 /// </summary>
 public class PetCampDataCore : EntityCampDataCore
 {
+    private EntityBase _refOwner;
+    public override EntityBase RefOwner => GetRefOwner();
     protected PetDataCore PetDataCore;
+    private EntityBase GetRefOwner()
+    {
+        if (_refOwner != null)
+        {
+            return _refOwner;
+        }
+        if (RefEntity.TryGetComponent(out PetDataCore PetDataCore))
+        {
+            if (!GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(PetDataCore.OwnerId, out _refOwner))
+            {
+                Log.Error("EntityCampDataCore Owner is null");
+            };
+        }
+        return _refOwner ?? RefEntity;
+    }
     private void Start()
     {
         if (RefOwner.BaseData.Id != RefEntity.BaseData.Id)
