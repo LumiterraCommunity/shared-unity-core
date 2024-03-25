@@ -32,13 +32,9 @@ public class PetSkillCollector : EntitySkillCollector
             return;
         }
 
-        //遍历 ePetAbility
-        foreach (ePetAbility ability in Enum.GetValues(typeof(ePetAbility)))
+        foreach (int skillId in petData.AbilityToSkillIdDic.Values)
         {
-            if (petData.AbilityToSkillIdDic.TryGetValue(ability, out int skillId))
-            {
-                EntitySkillDataCore.AddSkillGroupID(eSkillGroupType.Base, skillId);//特性是伴随宠物的，所以都是基础技能
-            }
+            EntitySkillDataCore.AddSkillGroupID(eSkillGroupType.Base, skillId);//特性是伴随宠物的，所以都是基础技能
         }
     }
 }
