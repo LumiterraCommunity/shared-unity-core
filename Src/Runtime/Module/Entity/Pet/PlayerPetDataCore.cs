@@ -44,20 +44,16 @@ public class PlayerPetDataCore : EntityBaseComponent
             return;
         }
 
-        EntityBase lastPet = FollowingPet;
         ClearCurFollowingPet(false);
         FollowingPet = pet;
-
         if (pet != null)
         {
-            FollowingPet.EntityEvent.UnInitFromScene += OnPetUnInitFromScene;
+            pet.EntityEvent.UnInitFromScene += OnPetUnInitFromScene;
             PetFollow?.Invoke(pet);
             Log.Info($"Player following pet changed, cur pet is {pet.BaseData.Id}");
         }
         else
         {
-            //这里pet为null，所以lastPet不会为null，不然上面的判断就直接返回了
-            PetUnFollow?.Invoke(lastPet);
             Log.Info("Player un follow pet");
         }
     }
@@ -70,6 +66,7 @@ public class PlayerPetDataCore : EntityBaseComponent
         }
 
         FollowingPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
+        PetUnFollow?.Invoke(FollowingPet);
         if (isDestroy)
         {
             //销毁的时删除当前跟随的宠物
