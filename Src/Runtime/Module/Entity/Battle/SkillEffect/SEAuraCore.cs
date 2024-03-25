@@ -2,7 +2,7 @@
 * @Author: xiang huan
 * @Date: 2022-07-19 16:19:58
 * @Description: 添加实体技能效果
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAuraCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAuraCore.cs
 * 
 */
 
@@ -13,7 +13,6 @@ using UnityGameFramework.Runtime;
 
 public class SEAuraCore : SkillEffectBase
 {
-    protected ListMap<long, EntityBase> EntityList = new();
     protected HashSet<EntityBase> SearchEntityMap = new();
 #if UNITY_EDITOR
     private GameObject _drawObj;
@@ -47,7 +46,6 @@ public class SEAuraCore : SkillEffectBase
 #if UNITY_EDITOR
         UnityEngine.Object.Destroy(_drawObj);
 #endif
-        RemoveAllEntity();
         SearchEntityMap.Clear();
         base.OnRemove();
     }
@@ -69,73 +67,14 @@ public class SEAuraCore : SkillEffectBase
         SearchEntityMap.Clear();
         UnityEngine.Vector3 targetPos = new(EffectData.PosValue.X, EffectData.PosValue.Y, EffectData.PosValue.Z);
         SkillUtil.SearchTargetEntityMap(targetPos, RefEntity, SearchEntityMap, InputData.DRSkill.SkillRange, InputData.Dir, InputData.TargetType);
-        //移除已经不存在的实体
-        if (EntityList.Count > 0)
-        {
-            for (int i = EntityList.Count - 1; i >= 0; i--)
-            {
-                if (SearchEntityMap.Contains(EntityList[i]))
-                {
-                    continue;
-                }
-                RemoveEntity(EntityList[i]);
-            }
-        }
 
-        //添加新的实体
         if (SearchEntityMap.Count > 0)
         {
             foreach (EntityBase entity in SearchEntityMap)
             {
-                if (EntityList.ContainsKey(entity.BaseData.Id))
-                {
-                    continue;
-                }
-
-                AddEntity(entity);
+                _ = SkillUtil.EntitySkillEffectExecute(InputData, EffectCfg.Parameters, RefEntity, entity);
             }
         }
-    }
-
-    protected void AddEntity(EntityBase entity)
-    {
-        if (EntityList.ContainsKey(entity.BaseData.Id))
-        {
-            return;
-        }
-        entity.EntityEvent.UnInitFromScene += UnInitFromScene;
-        _ = SkillUtil.EntitySkillEffectExecute(InputData, EffectCfg.Parameters, RefEntity, entity);
-        _ = EntityList.Add(entity.BaseData.Id, entity);
-    }
-
-    protected void RemoveEntity(EntityBase entity)
-    {
-        if (!EntityList.ContainsKey(entity.BaseData.Id))
-        {
-            return;
-        }
-        entity.EntityEvent.UnInitFromScene -= UnInitFromScene;
-        SkillUtil.EntityAbolishSkillEffect(SkillID, EffectCfg.Parameters, RefEntity, entity);
-        _ = EntityList.Remove(entity.BaseData.Id);
-    }
-
-    protected void RemoveAllEntity()
-    {
-        if (EntityList.Count <= 0)
-        {
-            return;
-        }
-        for (int i = EntityList.Count - 1; i >= 0; i--)
-        {
-            EntityList[i].EntityEvent.UnInitFromScene -= UnInitFromScene;
-            SkillUtil.EntityAbolishSkillEffect(SkillID, EffectCfg.Parameters, RefEntity, EntityList[i]);
-        }
-        EntityList.Clear();
-    }
-
-    protected virtual void UnInitFromScene(EntityBase entity)
-    {
-        RemoveEntity(entity);
     }
     public override DamageEffect CreateEffectData(EntityBase fromEntity, EntityBase targetEntity, InputSkillReleaseData inputData)
     {
