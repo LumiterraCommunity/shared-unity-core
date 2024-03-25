@@ -48,4 +48,4 @@ id-int,note-string,value-int,strValue-string,valueArray-int[],strValueArray-stri
 49,仓库周期价格，单位：绿豆,0,,"0,10,10",
 50,每次击杀精力消耗量 千分位,1000,,,
 51,每个从宝箱收获的农作物消耗的精力 千分位,1000,,,
-52,宠物特性在NFT的对外显示名,0,,,"Battle,Gather,Farming,Rescue,Riding,Skill Expansion"
+52,宠物特性在NFT的对外显示名,0,,,",Battle,Gather,Farming,Rescue,Riding,Skill Expansion"
