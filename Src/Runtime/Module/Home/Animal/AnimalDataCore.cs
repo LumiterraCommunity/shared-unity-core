@@ -3,26 +3,10 @@ using UnityEngine;
 using UnityGameFramework.Runtime;
 
 /// <summary>
-/// 动物数据
+/// 动物数据 只有家园畜牧的相关数据
 /// </summary>
-public class AnimalDataCore : MonoBehaviour
+public class AnimalDataCore : EntityBaseComponent
 {
-    /// <summary>
-    /// 动物Id 家园系统中的ID和数据管理Id一致
-    /// </summary>
-    public ulong AnimalId => _saveData.AnimalId;
-    /// <summary>
-    /// 配置表
-    /// </summary>
-    /// <value></value>
-    public DRMonster DRMonster { get; private set; }
-    [SerializeField]
-    private AnimalBaseData _baseData;
-    /// <summary>
-    /// 动物基础数据 对应动物管理列表中的数据
-    /// </summary>
-    /// <value></value>
-    public AnimalBaseData BaseData => _baseData;
     [SerializeField]
     private AnimalSaveData _saveData;
     /// <summary>
@@ -30,6 +14,11 @@ public class AnimalDataCore : MonoBehaviour
     /// </summary>
     /// <value></value>
     public AnimalSaveData SaveData => _saveData;
+
+    /// <summary>
+    /// 宠物配置表 不要放开给外面用 外面用的话统一请用PetDataCore里的 这里只是为了效率自己引用一份
+    /// </summary>
+    private DRPet _petCfg;
 
     /// <summary>
     /// 动物收获最大时间 秒
@@ -44,7 +33,7 @@ public class AnimalDataCore : MonoBehaviour
     /// <summary>
     /// 幸福值是否有效
     /// </summary>
-    public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= DRMonster.RequiredHappiness;
+    public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= _petCfg.RequiredHappiness;
 
     /// <summary>
     /// 是否饥饿状态
@@ -56,18 +45,20 @@ public class AnimalDataCore : MonoBehaviour
     /// </summary>
     public Action<int> MsgFavorabilityChanged;
 
-    public void SetBaseData(AnimalBaseData animalBaseData)
+    /// <summary>
+    /// 初始化数据
+    /// </summary>
+    /// <param name="animalSaveData">如果是null代表没有 会自动创建一个</param>
+    public void InitData(int petCfgId, AnimalSaveData animalSaveData)
     {
-        _baseData = animalBaseData;
-        DRMonster = GFEntryCore.DataTable.GetDataTable<DRMonster>().GetDataRow(_baseData.Cid);
-        if (DRMonster == null)
+        _petCfg = GFEntryCore.DataTable.GetDataTable<DRPet>().GetDataRow(petCfgId);
+        if (_petCfg == null)
         {
-            throw new Exception($"动物配置表中没有找到cid为{_baseData.Cid}的数据");
+            Log.Error($"AnimalDataCore InitData Can not find pet cfg id:{petCfgId}");
+            return;
         }
-    }
 
-    public void SetSaveData(AnimalSaveData animalSaveData)
-    {
+        long entityId = RefEntity.BaseData.Id;
         if (animalSaveData != null)
         {
             if (animalSaveData.ProductSaveData != null && animalSaveData.ProductSaveData.ProductId == 0)
@@ -77,18 +68,16 @@ public class AnimalDataCore : MonoBehaviour
             }
 
             _saveData = animalSaveData;
-            if (_baseData.AnimalId != _saveData.AnimalId)
+            if (entityId != _saveData.AnimalId)
             {
-                Log.Error($"动物数据和存档数据不一致 _baseData.AnimalId:{_baseData.AnimalId} _saveData.AnimalId:{_saveData.AnimalId}");
-                _saveData.AnimalId = _baseData.AnimalId;
+                Log.Error($"动物数据和存档数据不一致 _baseData.AnimalId:{RefEntity.BaseData.Id} _saveData.AnimalId:{_saveData.AnimalId}");
+                _saveData.AnimalId = entityId;
             }
         }
         else
         {
-            _saveData = new AnimalSaveData(_baseData.AnimalId)
-            {
-                HungerProgress = DRMonster.MaxHunger
-            };
+            _saveData = new AnimalSaveData(entityId);
+            _saveData.SetHungerProgress(_petCfg.MaxHunger);
         }
 
         SetHappiness(_saveData.Happiness);
@@ -111,9 +100,9 @@ public class AnimalDataCore : MonoBehaviour
     {
         if (IsHappyValid)
         {
-            int remainHappy = SaveData.Happiness - DRMonster.RequiredHappiness;
+            int remainHappy = SaveData.Happiness - _petCfg.RequiredHappiness;
             remainHappy = Mathf.Max(remainHappy, 1);
-            HarvestMaxTime = (float)DRMonster.BreedingDifficulty / remainHappy * TableUtil.GetGameValue(eGameValueID.AnimalHarvestTimeRate).Value;
+            HarvestMaxTime = (float)_petCfg.BreedingDifficulty / remainHappy * TableUtil.GetGameValue(eGameValueID.AnimalHarvestTimeRate).Value;
         }
         else
         {

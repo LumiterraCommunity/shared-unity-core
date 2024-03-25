@@ -1,7 +1,7 @@
 /* 
  * @Author XQ
  * @Date 2022-08-15 11:15:06
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
  */
 using System;
 using System.Collections.Generic;
@@ -283,7 +283,34 @@ public class EntityEvent : EntityBaseComponent
     #endregion
 
     /// <summary>
-    /// 实体传送门元素
+    /// 进入传送门
     /// </summary>
-    public Action EntityTriggerPortalElement;
+    public Action<PortalElementCore> EnterPortalElement;
+
+    /// <summary>
+    /// 退出传送门
+    /// </summary>//  
+    public Action<PortalElementCore> ExitPortalElement;
+
+
+    /// <summary>
+    /// 手持物品改变
+    /// null代表没有手持物品
+    /// </summary>
+    public Action<int> InHandItemChange;
+
+    /// <summary>
+    /// 实体改变阵营开始
+    /// </summary>
+    public Action DelayChangeCampUpdate;
+
+    /// <summary>
+    /// 实体重连
+    /// </summary>
+    public Action EntityReconnect;
+    /// <summary>
+    /// 实体重命名
+    /// <nwe name>
+    /// </summary>
+    public Action<string> NameUpdate;
 }

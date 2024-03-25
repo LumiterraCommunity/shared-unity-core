@@ -5,6 +5,7 @@
  * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
  * 
  */
+using System;
 using System.Collections.Generic;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
@@ -63,7 +64,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// </summary>
     public float MoveSpeed { get => GetMoveSpeedValue(); protected set => SetBaseValue(eAttributeType.MoveSpd, (int)(value * MathUtilCore.M2CM)); }
     /// <summary>
-    /// 等级
+    /// 等级,这里取的是战斗专精等级
     /// </summary>
     public int Level { get => GetValue(eAttributeType.CombatLv); protected set => SetBaseValue(eAttributeType.CombatLv, value); }
     /// <summary>
@@ -247,6 +248,11 @@ public class EntityBattleDataCore : EntityBaseComponent
         return RefEntity.EntityAttributeData.GetValue(type);
     }
 
+    protected float GetRealValue(eAttributeType type)
+    {
+        return RefEntity.EntityAttributeData.GetRealValue(type);
+    }
+
     protected void SetBaseValue(eAttributeType type, int value)
     {
         RefEntity.EntityAttributeData.SetBaseValue(type, value);
@@ -319,5 +325,17 @@ public class EntityBattleDataCore : EntityBaseComponent
         Status = status;
         RefEntity.EntityEvent.ChangeEntityStatus?.Invoke();
         return true;
+    }
+    /// <summary>
+    /// 根据潜力计算最终数值
+    /// </summary>
+    /// <param name="baseValue"></param>
+    /// <param name="potential"></param>
+    /// <param name="lv"></param>
+    /// <returns></returns>
+    protected int CalcFinalValueByPotentiality(int baseValue, float potential, int lv)
+    {
+        //提升公式：当前属性数值 = 基础数值 +（基础数值 * 潜力值）* （等级-1）
+        return baseValue + (int)(baseValue * potential * Math.Max(lv - 1, 0));
     }
 }

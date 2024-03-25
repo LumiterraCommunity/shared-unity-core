@@ -6,13 +6,28 @@
  * 
  */
 using UnityEngine;
-using Newtonsoft.Json;
 using System.Collections.Generic;
 using GameMessageCore;
+using System;
 
 public class PortalElementCore : SceneElementCore
 {
     public override eSceneElementType ElementType => eSceneElementType.Portal;
+    [Serializable]
+    public struct PortalTypeInfo
+    {
+        public ePortalType PortalType;
+        public int Weight;
+    }
+
+    [Header("传送位置")]
+    public UnityEngine.Vector3 TransferPos;
+
+    [Header("传送门类型列表")]
+    public List<PortalTypeInfo> PortalTypeList;
+
+    [Header("当前传送门索引")]
+    public int CurTypeIndex;
 
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
@@ -22,6 +37,9 @@ public class PortalElementCore : SceneElementCore
     [Header("传送门激活时间(s)")]
     public float ActivateTime = 0;
 
+    [Header("传送门传送时间(s)")]
+    public float TriggerPortalTime = 3;
+
     [Header("当前使用次数")]
     public int CurUseNum = 0;
 
@@ -30,9 +48,7 @@ public class PortalElementCore : SceneElementCore
 
     private long _startTime = long.MaxValue;
     private float _curActivateTime = 0;
-    private readonly List<Collider> _playerList = new();
-    private readonly HashSet<EntityBase> _portalDic = new();
-
+    private readonly ListMap<Collider, EntityBase> _playerList = new();
     protected override void Update()
     {
         base.Update();
@@ -48,27 +64,29 @@ public class PortalElementCore : SceneElementCore
     public override void UpdateElementData()
     {
         base.UpdateElementData();
-        PortalElementData netData = new()
+        if (SceneElementData.Portal == null)
         {
-            StartTime = _startTime,
-            StatusType = (int)StatusType,
-            CurUseNum = CurUseNum,
-        };
-        SceneElementData.Portal = netData;
+            SceneElementData.Portal = new();
+        }
+        SceneElementData.Portal.StartTime = _startTime;
+        SceneElementData.Portal.StatusType = (int)StatusType;
+        SceneElementData.Portal.CurUseNum = CurUseNum;
+        SceneElementData.Portal.CurTypeIndex = CurTypeIndex;
     }
 
-    public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum)
+    public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum, int curTypeIndex)
     {
         _startTime = startTime;
         StatusType = statusType;
         CurUseNum = curUseNum;
+        CurTypeIndex = curTypeIndex;
         UpdateElementData();
     }
 
     public override void InitElementData(SceneElementData netData)
     {
         PortalElementData portal = netData.Portal;
-        StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum);
+        StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum, portal.CurTypeIndex);
     }
 
     private void UpdateStatusHide()
@@ -90,7 +108,7 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        if (_playerList.Count > 0)
+        if (CheckHasActivate())
         {
             StatusType = ePortalStatusType.Activate;
             _curActivateTime = 0;
@@ -104,7 +122,7 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        if (_playerList.Count == 0)
+        if (!CheckHasActivate())
         {
             StatusType = ePortalStatusType.Inactive;
         }
@@ -114,6 +132,7 @@ public class PortalElementCore : SceneElementCore
             if (_curActivateTime >= ActivateTime)
             {
                 StatusType = ePortalStatusType.Running;
+                UpdateElementData();
             }
         }
     }
@@ -124,25 +143,11 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        for (int i = 0; i < _playerList.Count; i++)
-        {
-            EntityBase entity = GFEntryCore.GetModule<IEntityMgr>().GetEntityWithRoot<EntityBase>(_playerList[i].gameObject);
-            if (entity != null && entity.Inited && entity.BattleDataCore.IsLive() && !_portalDic.Contains(entity))
-            {
-                CurUseNum++;
-                _ = _portalDic.Add(entity);
-                entity.EntityEvent.EntityTriggerPortalElement?.Invoke();
-            }
-
-            if (CurUseNum >= MaxUseNum)
-            {
-                break;
-            }
-        }
 
         if (CurUseNum >= MaxUseNum)
         {
             StatusType = ePortalStatusType.Finish;
+            UpdateElementData();
         }
     }
 
@@ -153,11 +158,12 @@ public class PortalElementCore : SceneElementCore
             return;
         }
         EntityBase entity = GFEntryCore.GetModule<IEntityMgr>().GetEntityWithRoot<EntityBase>(other.gameObject);
-        if (entity == null || !entity.Inited || !entity.BattleDataCore.IsLive())
+        if (entity == null)
         {
             return;
         }
-        _playerList.Add(other);
+        entity.EntityEvent.EnterPortalElement?.Invoke(this);
+        _ = _playerList.Add(other, entity);
     }
 
     private void OnTriggerExit(Collider other)
@@ -166,8 +172,45 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        _ = _playerList.Remove(other);
-
+        if (_playerList.TryGetValueFromKey(other, out EntityBase entity))
+        {
+            _ = _playerList.Remove(other);
+            entity.EntityEvent.ExitPortalElement?.Invoke(this);
+        }
     }
 
+    private bool CheckHasActivate()
+    {
+        if (_playerList.Count == 0)
+        {
+            return false;
+        }
+        EntityBase topEntity = null;
+        for (int i = 0; i < _playerList.Count; i++)
+        {
+            EntityBase entity = _playerList[i];
+            if (entity.Inited && entity.BattleDataCore.IsLive())
+            {
+                if (topEntity == null)
+                {
+                    topEntity = entity;
+                }
+                else
+                {
+                    // 有敌人在传送门内
+                    if (topEntity.EntityCampDataCore.CheckIsEnemy(entity))
+                    {
+                        return false;
+                    }
+                }
+            }
+        }
+        return topEntity != null;
+    }
+
+    public void TriggerPortalElement(EntityBase entityBase)
+    {
+        CurUseNum++;
+        UpdateElementData();
+    }
 }

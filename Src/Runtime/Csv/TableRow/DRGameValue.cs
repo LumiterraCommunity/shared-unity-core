@@ -50,6 +50,15 @@ public class DRGameValue : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取valueArray-int[]。*/
+    /// </summary>
+    public int[] ValueArray
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -59,6 +68,7 @@ public class DRGameValue : DataRowBase
         Note = DataTableParseUtil.ParseString(columnStrings[index++]);
         Value = DataTableParseUtil.ParseInt(columnStrings[index++]);
         StrValue = DataTableParseUtil.ParseString(columnStrings[index++]);
+        ValueArray = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -74,6 +84,7 @@ public class DRGameValue : DataRowBase
                 Note = binaryReader.ReadString();
                 Value = binaryReader.Read7BitEncodedInt32();
                 StrValue = binaryReader.ReadString();
+                ValueArray = binaryReader.ReadArray<Int32>();
             }
         }
 

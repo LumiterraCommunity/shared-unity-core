@@ -33,7 +33,7 @@ public class HomeActionProgressData : MonoBehaviour
     /// <value></value>
     public float CurProgressActionValue { get; private set; }
     /// <summary>
-    /// 当前进度归属玩家id 0代表没有归属
+    /// 当前进度归属玩家id 0代表没有归属 宠物采集也是主人的id
     /// </summary>
     /// <value></value>
     public long CurProgressOwnerId { get; private set; }
@@ -111,6 +111,10 @@ public class HomeActionProgressData : MonoBehaviour
         enabled = false;
     }
 
+    /// <summary>
+    /// 设置当前进度归属玩家id 宠物需要设置主人Id
+    /// </summary>
+    /// <param name="id"></param>
     public void SetCurProgressOwnerId(long id)
     {
         CurProgressOwnerId = id;

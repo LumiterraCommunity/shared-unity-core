@@ -79,6 +79,11 @@ public class EntityMgr<TEntity, TFactory> : SceneModuleBase, IEntityMgr where TE
         return false;
     }
 
+    public bool HasEntity(long id)
+    {
+        return EntityDic.ContainsKey(id);
+    }
+
     /// <summary>
     /// 通过实体显示节点反查逻辑实体
     /// </summary>
@@ -182,6 +187,17 @@ public class EntityMgr<TEntity, TFactory> : SceneModuleBase, IEntityMgr where TE
         {
             Log.Error($"Entity {entityID} dispose failed,error={e}");
         }
+    }
+
+    public bool TryRemoveEntity(long entityID)
+    {
+        if (!HasEntity(entityID))
+        {
+            return false;
+        }
+
+        RemoveEntity(entityID);
+        return true;
     }
 
     /// <summary>

@@ -9,9 +9,9 @@ public static class MTag
     public const string MOVE_GROUND_AREA = "MoveGroundArea";
 
     /// <summary>
-    /// 区域BGM
+    /// 区域
     /// </summary>
-    public const string AREA_BGM = "AreaBGM";
+    public const string AREA = "AreaBGM";
     /// <summary>
     /// 场景破坏元素
     /// </summary>
@@ -63,9 +63,4 @@ public static class MTag
     /// 畜牧动物掉落
     /// </summary>
     public const string HOME_ANIMAL_DROP = "HomeAnimalDrop";
-
-    /// <summary>
-    /// 战斗区域
-    /// </summary>
-    public const string BATTLE_AREA = "BattleArea";
 }

@@ -17,8 +17,8 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 100,战斗命中值,16,0,CombatHit,2,2,1,
 100,战斗闪避值,17,0,CombatDodge,2,2,1,
 0,战斗易伤比例,18,0,CombatVulnerable,2,2,2,
-30,对怪物暴击率,19,0,CombatCritRate,2,2,2,
-500,对怪物暴击伤害,20,0,CombatCritDmg,2,2,2,
+30,战斗暴击率,19,0,CombatCritRate,2,2,2,
+500,战斗暴击伤害,20,0,CombatCritDmg,2,2,2,
 0,伤害加成,21,0,CombatDmgBonus,2,2,2,
 200,对树木攻击力,22,1,TreeAtt,3,3,1,attribute-icon-22
 0,斧子加速系数,23,0,AxeSpd,3,3,2,
@@ -47,7 +47,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 1000,最大可输出幸福指数,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
 270,种植熟练度,49,1,PlantingProficiency,1,1,1,attribute-icon-49
 270,养殖熟练度,50,1,BreedingProficiency,1,1,1,attribute-icon-50
-200,砍草攻击力,51,1,GrassAtt,3,1,1,attribute-icon-51
+200,对草攻击力,51,1,GrassAtt,3,1,1,attribute-icon-51
 0,镰刀加速系数,52,0,SickleSpd,3,1,2,
 50,对草暴击率,53,0,GrassCritRate,3,1,2,
 200,采草熟练度,54,1,GrassProficiency,3,1,1,attribute-icon-54
@@ -61,3 +61,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 300,需求熟练度,63,0,RequiredProficiency,3,1,1,
 100000,精力,64,1,Energy,2,1,3,attribute-icon-64
 100000,最大精力,65,1,MaxEnergy,2,1,3,attribute-icon-65
+0,战斗潜力值,66,0,CombatPotentiality,2,1,3,
+0,农牧潜力值,67,0,GatherPotentiality,1,1,3,
+0,采集潜力值,68,0,FarmPotentiality,3,1,3,
+0,采草掉落翻倍概率,69,0,ExtraGrassRate,3,,2,

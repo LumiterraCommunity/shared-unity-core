@@ -24,6 +24,15 @@ public class DRBattleArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取areaSort-int。*/
+    /// </summary>
+    public int AreaSort
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取deathDrop-int[]。*/
     /// </summary>
     public int[] DeathDrop
@@ -73,6 +82,7 @@ public class DRBattleArea : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        AreaSort = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DeathDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         DeathEXPDrop = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DeathTaxation = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -90,6 +100,7 @@ public class DRBattleArea : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                AreaSort = binaryReader.Read7BitEncodedInt32();
                 DeathDrop = binaryReader.ReadArray<Int32>();
                 DeathEXPDrop = binaryReader.Read7BitEncodedInt32();
                 DeathTaxation = binaryReader.ReadArray<Int32>();

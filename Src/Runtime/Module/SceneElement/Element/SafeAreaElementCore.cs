@@ -36,6 +36,11 @@ public class SafeAreaElementCore : SceneElementCore
     public List<SafeAreaInfo> SafeAreaInfos;
     [Header("安全区特效")]
     public GameObject SafeAreaEffect;
+
+    [Header("最小传送门数量系数")]
+    public float MinPortalCoefficient = 10f;
+    [Header("最大传送门数量系数")]
+    public float MaxPortalCoefficient = 5f;
     private int _curIndex = 0;
     private float _waitTime = 0;
     private long _startTime = 0;
@@ -158,13 +163,15 @@ public class SafeAreaElementCore : SceneElementCore
     public override void UpdateElementData()
     {
         base.UpdateElementData();
-        GameMessageCore.SafeAreaElementData netData = new()
+        if (SceneElementData.SafeArea == null)
         {
-            StartTime = _startTime,
-            Position = new()
-        };
-        netData.Position.Set(transform.position.x, transform.position.y, transform.position.z);
-        SceneElementData.SafeArea = netData;
+            SceneElementData.SafeArea = new()
+            {
+                Position = new()
+            };
+        }
+        SceneElementData.SafeArea.StartTime = _startTime;
+        SceneElementData.SafeArea.Position.Set(transform.position.x, transform.position.y, transform.position.z);
     }
 
     public void StartElement(Vector3 pos, long startTime)

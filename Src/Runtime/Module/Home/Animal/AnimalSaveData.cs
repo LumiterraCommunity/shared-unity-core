@@ -8,13 +8,13 @@ using UnityEngine;
 public class AnimalSaveData
 {
     /// <summary>
-    /// 动物在家园系统中的全局ID和数据服那边的ID一致 和实体的ID没有直接关系
+    /// 动物在家园系统中的全局ID和数据服那边的ID一致 也是实体ID
     /// </summary>
-    public ulong AnimalId;
+    public long AnimalId;
     /// <summary>
-    /// 饥饿进度 0代表完全饿了
+    /// 饥饿进度 0代表完全饿了 具体值 不是100进度值 有配置最大饥饿度配套
     /// </summary>
-    public float HungerProgress = 0;
+    public float HungerProgress { get; private set; } = 0;
     /// <summary>
     /// 上次完全饥饿的时间戳 >0说明正在饥饿中
     /// </summary>
@@ -40,12 +40,17 @@ public class AnimalSaveData
     /// </summary>
     public AnimalProductSaveData ProductSaveData;
 
+    /// <summary>
+    /// 是否是生产过程阶段（不是收获阶段的意思，宠物在此阶段就不会执行AI）
+    /// </summary>
+    public bool IsProduceStage => IsComforted;
+
     public AnimalSaveData()
     {
 
     }
 
-    public AnimalSaveData(ulong animalId)
+    public AnimalSaveData(long animalId)
     {
         AnimalId = animalId;
     }
@@ -80,10 +85,19 @@ public class AnimalSaveData
     }
 
     /// <summary>
-    /// 统一设置饥饿进度 0~ANIMAL_HARVEST_PROCESS_MAX_UNIT
+    /// 统一设置收获进度 0~ANIMAL_HARVEST_PROCESS_MAX_UNIT
     /// </summary>
     public void SetHarvestProgress(float progress)
     {
         HarvestProgress = Mathf.Clamp(progress, 0, HomeDefine.ANIMAL_HARVEST_PROCESS_MAX_UNIT);
+    }
+
+    /// <summary>
+    /// 设置饥饿度 内部会处理成最小为0
+    /// </summary>
+    /// <param name="value"></param>
+    public void SetHungerProgress(float value)
+    {
+        HungerProgress = Mathf.Max(0, value);
     }
 }

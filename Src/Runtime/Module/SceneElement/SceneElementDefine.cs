@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-01-29 11:11:32
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
  * 
  */
 
@@ -23,4 +23,10 @@ public enum ePortalStatusType
     Activate, //激活状态
     Running, //运行状态
     Finish, //完成状态
+}
+
+public enum ePortalType
+{
+    Exit, //退出传送门
+    Area, //区域传送门
 }

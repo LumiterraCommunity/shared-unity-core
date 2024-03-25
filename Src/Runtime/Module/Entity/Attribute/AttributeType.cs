@@ -67,6 +67,10 @@ public enum eAttributeType : int
     RequiredProficiency = 63,
     Energy = 64,
     MaxEnergy = 65,
+    CombatPotentiality = 66,
+    GatherPotentiality = 67,
+    FarmPotentiality = 68,
+    ExtraGrassRate = 69,
 
 }
 

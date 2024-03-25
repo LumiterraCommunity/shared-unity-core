@@ -190,4 +190,14 @@ public static class MathUtilCore
         bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
         return bigSlippage;
     }
+
+    /// <summary>
+    /// 判断一个数是否是2的幂 0返回false
+    /// </summary>
+    /// <param name="x"></param>
+    /// <returns></returns>
+    public static bool IsPowerOfTwo(int x)
+    {
+        return (x & (x - 1)) == 0 && x != 0;
+    }
 }

@@ -28,7 +28,8 @@ public static class HomeDefine
     public const float SEARCH_SINGLE_SPHERE_RADIUS = 0.7f;
 
 
-    public const float HOME_PROGRESS_ACTION_BACK_PROTECT_TIME = 2000;//家园进度动作回退保护时间 ms 不能太小 因为需要考虑本地预表现回退时回包覆盖的情况
+    //TODO: pet test 需要解决这个开始自动时间小于宠物攻击间隔 但是回进度问题
+    public const float HOME_PROGRESS_ACTION_BACK_PROTECT_TIME = 5000;//家园进度动作回退保护时间 ms 不能太小 因为需要考虑本地预表现回退时回包覆盖的情况
 
     public const int ACTION_MAX_PROGRESS_PROTECT = 100;//进度动作最大值的保护性值 防止异常报错 正常不会用到
 
@@ -61,9 +62,10 @@ public static class HomeDefine
     /// </summary>
     public const eAction HARVEST_ANIMAL_ACTION_MASK = eAction.Harvest | eAction.Pick;
 
-    #region 畜牧动物
+    #region 宠物
 
     public const string ANIMAL_AI_NAME = "HomeAnimalAI";
+    public const string PET_AI_NAME = "PetAI";
 
     /// <summary>
     /// 动物找吃的距离食盆的距离
@@ -90,6 +92,11 @@ public static class HomeDefine
     /// 动物离主角多近时可以显示头顶详细信息
     /// </summary>
     public const int ANIMAL_DETAIL_INFO_SHOW_DISTANCE = 3;
+
+    /// <summary>
+    /// 宠物采集资源时检测主人附近多少距离 米
+    /// </summary>
+    public const float PET_COLLECT_RESOURCE_CHECK_RADIUS = 15;
 
 
     #endregion

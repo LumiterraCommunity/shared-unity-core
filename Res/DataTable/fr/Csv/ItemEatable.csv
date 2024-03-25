@@ -37,13 +37,13 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 -,Fertilize,0,0,219,equipItem
 -,Fertilize,0,0,220,equipItem
 -,Fertilize,0,0,221,equipItem
-347,Add Buff,5000,7,232,usePotion
-348,Add Buff,5000,7,233,usePotion
-351,Add Buff,5000,7,234,usePotion
-352,Add Buff,5000,7,235,usePotion
-356,Add Buff,5000,6,236,usePotion
-357,Add Buff,5000,6,237,usePotion
-358,Add Buff,5000,6,238,usePotion
+347,ReleaseSkill,5000,0,232,releaseSkill
+348,ReleaseSkill,5000,0,233,releaseSkill
+351,ReleaseSkill,5000,0,234,releaseSkill
+352,ReleaseSkill,5000,0,235,releaseSkill
+356,ReleaseSkill,5000,0,236,releaseSkill
+357,ReleaseSkill,5000,0,237,releaseSkill
+358,ReleaseSkill,5000,0,238,releaseSkill
 12,Restore Energy,0,0,295,usePotion
 15,Restore Energy,0,0,296,usePotion
 22,Restore Energy,0,0,297,usePotion
@@ -77,3 +77,34 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 30,Restore Energy,0,0,459,usePotion
 37,Restore Energy,0,0,460,usePotion
 45,Restore Energy,0,0,461,usePotion
+52,Restore Energy,0,0,599,usePotion
+60,Restore Energy,0,0,600,usePotion
+67,Restore Energy,0,0,601,usePotion
+-,Sow Seeds,0,0,614,equipItem
+-,Sow Seeds,0,0,615,equipItem
+-,Sow Seeds,0,0,616,equipItem
+-,Sow Seeds,0,0,617,equipItem
+-,Sow Seeds,0,0,618,equipItem
+-,Sow Seeds,0,0,619,equipItem
+-,Sow Seeds,0,0,620,equipItem
+-,Sow Seeds,0,0,621,equipItem
+-,Sow Seeds,0,0,622,equipItem
+,Add Buff,5000,1,623,usePotion
+,Add Buff,60000,6,641,usePotion
+,Add Buff,60000,6,642,usePotion
+,Add Buff,60000,6,643,usePotion
+,Add Buff,60000,6,644,usePotion
+,Add Buff,60000,6,645,usePotion
+,Add Buff,5000,1,646,usePotion
+,Add Buff,60000,6,647,usePotion
+,Add Buff,60000,6,648,usePotion
+,Add Buff,60000,6,649,usePotion
+,Add Buff,60000,6,650,usePotion
+,Add Buff,60000,6,651,usePotion
+,Add Buff,5000,1,652,usePotion
+,Add Buff,60000,6,653,usePotion
+,Add Buff,60000,6,654,usePotion
+,Add Buff,60000,6,655,usePotion
+,Add Buff,60000,6,656,usePotion
+,Add Buff,60000,6,657,usePotion
+-,Sow Seeds,0,0,692,equipItem

@@ -92,7 +92,7 @@ public abstract class EntityCollisionCore : EntityBaseComponent
             BodyCollision = CollisionObject.GetComponent<Collider>();
         }
 
-        EntityReferenceData refData = RefEntity.AddComponent<EntityReferenceData>();
+        EntityReferenceData refData = CollisionObject.AddComponent<EntityReferenceData>();
         refData.SetEntity(RefEntity);
 
         if (RefEntity.TryGetComponent(out RoleBaseDataCore roleData))

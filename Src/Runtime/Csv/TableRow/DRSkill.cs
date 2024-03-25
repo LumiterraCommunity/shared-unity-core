@@ -123,6 +123,15 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取isReleaseEffFollow-bool。*/
+    /// </summary>
+    public bool IsReleaseEffFollow
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取isReleastActLoop-bool。*/
     /// </summary>
     public bool IsReleastActLoop
@@ -454,6 +463,7 @@ public class DRSkill : DataRowBase
         IsAutoUse = DataTableParseUtil.ParseBool(columnStrings[index++]);
         IsCheckHit = DataTableParseUtil.ParseBool(columnStrings[index++]);
         IsHoldSkill = DataTableParseUtil.ParseBool(columnStrings[index++]);
+        IsReleaseEffFollow = DataTableParseUtil.ParseBool(columnStrings[index++]);
         IsReleastActLoop = DataTableParseUtil.ParseBool(columnStrings[index++]);
         IsRemote = DataTableParseUtil.ParseBool(columnStrings[index++]);
         PlayProgress = DataTableParseUtil.ParseBool(columnStrings[index++]);
@@ -512,6 +522,7 @@ public class DRSkill : DataRowBase
                 IsAutoUse = binaryReader.ReadBoolean();
                 IsCheckHit = binaryReader.ReadBoolean();
                 IsHoldSkill = binaryReader.ReadBoolean();
+                IsReleaseEffFollow = binaryReader.ReadBoolean();
                 IsReleastActLoop = binaryReader.ReadBoolean();
                 IsRemote = binaryReader.ReadBoolean();
                 PlayProgress = binaryReader.ReadBoolean();

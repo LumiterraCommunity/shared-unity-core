@@ -22,11 +22,6 @@ public interface ICollectResourceCore
     /// </summary>
     /// <value></value>
     Vector3 Position { get; }
-    /// <summary>
-    /// 等级
-    /// </summary>
-    /// <value></value>
-    int Lv { get; }
 
     /// 检查是否支持当前复合动作 不支持也能选中 只是不会执行和发出去
     /// </summary>
@@ -43,10 +38,10 @@ public interface ICollectResourceCore
     /// </summary>
     /// <param name="action"></param>
     /// <param name="toolCid">工具id 可能是种子 肥料 装备</param>
-    /// <param name="skillId">技能id</param>
-    /// <param name="playerId">操作的玩家id</param>
+    /// <param name="skillId">技能id</param>/*  */
     /// <param name="actionData">动作数据 没有传null</param>
-    void ExecuteAction(eAction action, int toolCid, int skillId, long playerId, object actionData);
+    /// <param name="playerId">操作的玩家id 可能是宠物的主人</param>
+    void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId);
     /// <summary>
     /// 执行了一次进度 最后一次进度也会调用 再去调用执行动作
     /// </summary>
@@ -55,6 +50,11 @@ public interface ICollectResourceCore
     /// <param name="deltaProgress">进度变化值</param>
     /// <param name="isCrit">是否暴击</param>
     /// <param name="isPreEffect">是否是预表现效果</param>
-    /// <param name="playerId">操作的玩家id</param>
-    void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect, long playerId);
+    void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect);
+    /// <summary>
+    /// 获取对应家园动作的等级 其实是专精等级的概念 错误返回0
+    /// </summary>
+    /// <param name="action">具体单一动作</param>
+    /// <returns></returns>
+    int GetActionLevel(eAction action);
 }

@@ -20,7 +20,18 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     public eAction SupportAction { get; set; } = eAction.None;
     public ResourceDataCore Data { get; private set; }
 
-    public int Lv => Data.DRHomeResources.Lv;
+    public int GetActionLevel(eAction action)
+    {
+        if ((action & SupportAction) != 0)
+        {
+            return Data.DRHomeResources.Lv;
+        }
+        else
+        {
+            Log.Error($"HomeResourcesCore.GetActionLevel() is not implemented action:{action}");
+            return 0;
+        }
+    }
 
     private HomeSoilResourceRelation _addedSoilResourceRelation;//上次添加关系的组建 方式一个家园到另外家园瞬间的引用关系错误
 
@@ -106,7 +117,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         return (SupportAction & action) != 0;
     }
 
-    public void ExecuteAction(eAction action, int toolCid, int skillId, long playerId, object actionData)
+    public void ExecuteAction(eAction action, int toolCid, int skillId, object actionData, long playerId)
     {
         if (!CheckSupportAction(action))
         {
@@ -124,7 +135,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     {
     }
 
-    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect, long playerId)
+    public virtual void ExecuteProgress(eAction targetCurAction, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
 
     }

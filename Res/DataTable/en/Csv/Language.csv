@@ -145,6 +145,8 @@ Sprite due to insufficient space"
 ,20080001,设置,"To apply the language setting, please restart the app."
 ,20080002,设置,Quit now
 ,20080003,设置,Later
+,20080004,设置,"Warning! Logging out in an unsafe area, players will be able to leave the game normally after being idle for a period of time."
+,20080005,设置,"Logging out in an unsafe area, reconnect to enter the game."
 ,20090001,任务,Receive {0} quest chest rewards 
 ,20090002,任务,Complete {0} quest 
 ,20090003,任务,Craft any item on the crafting page 
@@ -192,6 +194,7 @@ Sprite due to insufficient space"
 ,20110018,nft 关键字 在配置中的类型,Consumable
 ,20110019,nft 关键字 在配置中的类型,Material
 ,20110020,nft 关键字 在配置中的类型,Building
+,20110021,nft 关键字 在配置中的类型,Pet egg
 ,20120005,登录,Connect wallet started
 ,20120006,登录,Connect wallet Updated
 ,20120007,登录,Connect wallet finished
@@ -244,8 +247,10 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20160008,副本,Dungeon
 ,20160009,副本,Unknown area
 ,20160010,副本,Only the team leader can operate.
-,20160011,,Level mismatch.
-,20160012,,Not yet open.
+,20160011,副本,Level mismatch.
+,20160012,副本,Not yet open.
+,20160013,副本,Match Failed
+,20160014,副本,Please try again later or challenge other dungeons
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -263,6 +268,7 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20180007,设置,Low
 ,20180008,设置,Medium
 ,20180009,设置,High
+,20180010,设置,Cannot disengage while in combat. 
 ,20190000,天赋树,The pre-node must be unlocked first.
 ,20190001,天赋树,Total level of talent tree needs reach to {0}.
 ,20190002,天赋树,The trunk node of the same layer must be unlocked first.
@@ -274,8 +280,35 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20200004,活动,sell ticket success
 ,20200005,活动,sell ticket failed
 ,20210000,钱包相关,Token balance request failed!
-,20220001,战报,You were killed by  [color=#F7CE3D]{att=unkown}[/color] 
-,20220002,战报,"You were killed , [color=#F24F4F]Lost[/color] items"
-,20220003,战报,[color=#F7CE3D]{att=unkown}[/color] killed [color=#F7CE3D]{def=unkown}[/color] 
-,20220004,战报,[color=#F7CE3D]{att=unkown}[/color] [color=#35F883]win[/color] items
-地形杀时,20220005,战报,Terrain
+地形杀,20220001,战报名称,[color=#FF9F2F]Terrain[/color] 
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color] 
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color] 
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Hunger[/color] 
+,20220005,战报名称,reserved
+,20220006,战报概要,You were killed by {att=unknown}
+,20220007,战报概要,Your {def=unknown} were killed by {att=unknown}
+,20220008,战报概要,Your unit participated in the kill of {def=unknown}
+,20220009,战报概要,You killed {def=unknown}
+,20220010,战报概要,Your {att=unknown} killed {def=unknown}
+,20220011,战报详情,[color=#F24F4F]Lost[/color] items
+,20220012,战报详情,{att=unknown} participated in the kill
+,20220013,战报详情,[color=#35F883]win[/color] items
+,20220014,战报详情,{att=unknown} [color=#35F883]win[/color] items
+,20220015,战报详情,{att=unknown} killed {def=unknown}
+,20220016,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] successfully
+,20220017,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] failed
+,20220018,战报详情,[color=#F7CE3D]You[/color] was rewarded for clearing the level
+,20220019,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus"
+,20220020,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Ticket Bonus"
+,20230000,宠物,Pet  followed.
+,20230001,宠物,Pet un-followed.
+,20230002,宠物,Pet marrow washing success.
+,20230003,宠物,Are you sure to convert {0} into a pet egg? It can be re-hatched after being converted into a pet egg.
+,20230004,宠物,Make pet eggs
+,20230005,宠物,Are you sure to release {0}? You will lose the pet after release.
+,20230006,宠物,You've released your pet.
+,20230007,宠物,Pet rename completed.
+,20240001,图腾,Achieve success
+,20250000,仓库,Please renew the storage lease before storing.
+,20250001,仓库,Please renew the lease of the storage before taking it out.
+,20250002,,The storage is full.

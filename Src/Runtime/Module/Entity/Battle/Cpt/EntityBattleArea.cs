@@ -27,7 +27,7 @@ public class EntityBattleArea : EntityBaseComponent
             return;
         }
 
-        if (!other.gameObject.CompareTag(MTag.BATTLE_AREA))
+        if (!other.gameObject.CompareTag(MTag.AREA))
         {
             return;
         }
@@ -52,7 +52,7 @@ public class EntityBattleArea : EntityBaseComponent
             return;
         }
 
-        if (!other.gameObject.CompareTag(MTag.BATTLE_AREA))
+        if (!other.gameObject.CompareTag(MTag.AREA))
         {
             return;
         }

@@ -87,18 +87,18 @@ public class DRSkillEffect : DataRowBase
     }
 
     /// <summary>
-  /**获取parameters2-int[][]。*/
+  /**获取buffIcon-string。*/
     /// </summary>
-    public int[][] Parameters2
+    public string BuffIcon
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取buffIcon-string。*/
+  /**获取parameters2-int[][]。*/
     /// </summary>
-    public string BuffIcon
+    public int[][] Parameters2
     {
         get;
         private set;
@@ -153,8 +153,8 @@ public class DRSkillEffect : DataRowBase
         MaxLayer = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Parameters = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ShowBuffIcon = DataTableParseUtil.ParseBool(columnStrings[index++]);
-        Parameters2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         BuffIcon = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Parameters2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         EffectInterval = DataTableParseUtil.ParseInt(columnStrings[index++]);
         EffectFlag = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         EffectImmuneFlag = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -178,8 +178,8 @@ public class DRSkillEffect : DataRowBase
                 MaxLayer = binaryReader.Read7BitEncodedInt32();
                 Parameters = binaryReader.ReadArray<Int32>();
                 ShowBuffIcon = binaryReader.ReadBoolean();
-                Parameters2 = binaryReader.ReadArrayList<Int32>();
                 BuffIcon = binaryReader.ReadString();
+                Parameters2 = binaryReader.ReadArrayList<Int32>();
                 EffectInterval = binaryReader.Read7BitEncodedInt32();
                 EffectFlag = binaryReader.ReadArray<Int32>();
                 EffectImmuneFlag = binaryReader.ReadArray<Int32>();

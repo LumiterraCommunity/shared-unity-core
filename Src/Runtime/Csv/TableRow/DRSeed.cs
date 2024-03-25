@@ -42,6 +42,15 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
+  /**获取functionType-int。*/
+    /// </summary>
+    public int FunctionType
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取growRes-string[]。*/
     /// </summary>
     public string[] GrowRes
@@ -122,6 +131,15 @@ public class DRSeed : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取functionAvatar-string。*/
+    /// </summary>
+    public string FunctionAvatar
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -129,6 +147,7 @@ public class DRSeed : DataRowBase
         int index = 0;
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        FunctionType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GrowRes = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         GrowTotalTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestRes = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -139,6 +158,7 @@ public class DRSeed : DataRowBase
         RequiredFertilizer = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequirementProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         WitherTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        FunctionAvatar = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
     }
@@ -152,6 +172,7 @@ public class DRSeed : DataRowBase
             {
                 DropId = binaryReader.Read7BitEncodedInt32();
                 Exp = binaryReader.Read7BitEncodedInt32();
+                FunctionType = binaryReader.Read7BitEncodedInt32();
                 GrowRes = binaryReader.ReadArray<String>();
                 GrowTotalTime = binaryReader.Read7BitEncodedInt32();
                 HarvestRes = binaryReader.ReadString();
@@ -162,6 +183,7 @@ public class DRSeed : DataRowBase
                 RequiredFertilizer = binaryReader.Read7BitEncodedInt32();
                 RequirementProficiency = binaryReader.Read7BitEncodedInt32();
                 WitherTime = binaryReader.Read7BitEncodedInt32();
+                FunctionAvatar = binaryReader.ReadString();
             }
         }
 

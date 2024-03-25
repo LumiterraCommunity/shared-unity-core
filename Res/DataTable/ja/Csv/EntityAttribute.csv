@@ -61,3 +61,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 300,必要な熟練度,63,0,RequiredProficiency,3,1,1,
 100000,エネルギー,64,1,Energy,2,1,3,attribute-icon-64
 100000,最大エネルギー,65,1,MaxEnergy,2,1,3,attribute-icon-65
+0,,66,0,CombatPotentiality,2,1,3,
+0,,67,0,GatherPotentiality,1,1,3,
+0,,68,0,FarmPotentiality,3,1,3,
+0,,69,0,ExtraGrassRate,3,,2,

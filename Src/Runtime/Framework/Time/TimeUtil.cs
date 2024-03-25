@@ -21,6 +21,7 @@ public static class TimeUtil
     public static readonly DateTime DateForm = new(1970, 1, 1, 0, 0, 0, 0);
     public static readonly int SecondsOfMinute = 60;
     public static readonly int MinutesOfHour = 60;
+    public static readonly int MinutesOfDay = 1440;
     public static readonly int SecondsOfHour = 3600;
     public static readonly int SecondsOfDay = 86400;
 
@@ -209,5 +210,14 @@ public static class TimeUtil
         {
             return GetServerTimeStamp();
         }
+    }
+
+    public static string GetTimeHHMMSS(int ms)
+    {
+        int seconds = (int)(ms * MS2S);
+        int hour = seconds / SecondsOfHour;
+        int minute = seconds % SecondsOfHour / SecondsOfMinute;
+        int second = seconds % SecondsOfMinute;
+        return $"{hour:D2}:{minute:D2}:{second:D2}";
     }
 }
