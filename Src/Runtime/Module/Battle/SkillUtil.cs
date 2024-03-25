@@ -406,6 +406,12 @@ public static partial class SkillUtil
         }
 
         //没有技能， 效果是静态的，直接从配置中获取
+        return GetSkillEffectByType(drSkill, type);
+    }
+
+
+    public static int[] GetSkillEffectByType(DRSkill drSkill, eSkillEffectApplyType type)
+    {
         return type switch
         {
             eSkillEffectApplyType.Init => drSkill.EffectInit,
@@ -415,7 +421,6 @@ public static partial class SkillUtil
             _ => null,
         };
     }
-
     public static bool IsSceneDeath(GameMessageCore.DamageState dmgState)
     {
         return dmgState is GameMessageCore.DamageState.Fall or GameMessageCore.DamageState.WaterDrown;

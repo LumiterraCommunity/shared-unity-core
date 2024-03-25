@@ -2,15 +2,14 @@
 * @Author: xiang huan
 * @Date: 2022-07-19 16:19:58
 * @Description: 持续伤害效果
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEDotDamageCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEDotDamageCore.cs
 * 
 */
 
 using GameMessageCore;
-using UnityEngine;
 public class SEDotDamageCore : SkillEffectBase
 {
-
+    public override bool IsUpdate => true;
     /// <summary>
     /// 检测能否应用效果
     /// </summary>
@@ -36,5 +35,20 @@ public class SEDotDamageCore : SkillEffectBase
         {
             return;
         }
+    }
+
+    public override DamageEffect CreateEffectData(EntityBase fromEntity, EntityBase targetEntity, InputSkillReleaseData inputData)
+    {
+        float damageCoefficient = 1;
+        if (EffectCfg.Parameters != null && EffectCfg.Parameters.Length > 0)
+        {
+            damageCoefficient = EffectCfg.Parameters[0] * MathUtilCore.I2T;
+        }
+        DamageEffect effect = new();
+        EntityBattleDataCore targetBattleData = targetEntity.BattleDataCore;
+        DamageData damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, fromEntity.BattleDataCore.Level, targetEntity.BattleDataCore.Level, damageCoefficient);
+        effect.DamageValue = damage;
+        effect.DamageValue.CurrentInt = targetBattleData.HP + damage.DeltaInt;
+        return effect;
     }
 }

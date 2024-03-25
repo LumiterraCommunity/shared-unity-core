@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-01-29 11:11:32
  * @Description: 
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
  * 
  */
 
@@ -14,6 +14,8 @@ public enum eSceneElementType
     None = 0,
     SafeArea = 1, //安全区
     Portal = 2, //传送门
+    SEArea = 3, //技能效果区域
+
 }
 
 public enum ePortalStatusType
@@ -29,4 +31,11 @@ public enum ePortalType
 {
     Exit, //退出传送门
     Area, //区域传送门
+}
+
+public enum eSEAreaTriggerType
+{
+    Enter, //进入触发
+    Exit, //退出触发
+    Interval, //间隔触发
 }

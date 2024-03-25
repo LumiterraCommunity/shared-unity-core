@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-01-16 09:44:22
  * @Description: 
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Editor/Battle/SkillCptInspector.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Editor/Battle/SkillCptInspector.cs
  * 
  */
 using System.Collections.Generic;
@@ -51,11 +51,31 @@ namespace SharedCore.Editor
                     if (int.TryParse(_skillID, out int value))
                     {
                         Vector3 dir = skillCpt.RefEntity.Forward;
+                        SkillBase skillBase = skillCpt.GetSkill(value);
                         if (!skillCpt.CanUseSkill(value, dir))
                         {
                             return;
                         }
-                        InputSkillReleaseData inputData = new(value, dir);
+                        List<long> enemyList = new();
+                        List<Vector3> targetPosList = new();
+
+                        int targetNum = skillBase.DRSkill.IsRemote ? skillBase.DRSkill.SkillFlyerNum : 1;
+                        if (skillCpt.TryGetComponent(out EntitySkillSearchTarget skillSearchTarget))
+                        {
+                            skillSearchTarget.SearchTarget(value, targetNum);
+                            if (skillSearchTarget.TargetList.Count > 0)
+                            {
+                                dir = skillSearchTarget.TargetList[0].Position - skillCpt.RefEntity.Position;
+                                dir.Normalize();
+                                for (int i = 0; i < skillSearchTarget.TargetList.Count; i++)
+                                {
+                                    enemyList.Add(skillSearchTarget.TargetList[i].BaseData.Id);
+                                    targetPosList.Add(skillSearchTarget.TargetList[i].Position);
+                                }
+                            }
+                        }
+
+                        InputSkillReleaseData inputData = new(value, dir, enemyList.ToArray(), targetPosList.ToArray());
                         skillCpt.RefEntity.EntityEvent.InputSkillRelease?.Invoke(inputData);
                     }
                 }

@@ -24,6 +24,8 @@ public static class TableDefine
     public static readonly int ITEMID_SEED = 22;
     public const int DATA_TABLE_START_ROW = 1;
     public const string DATA_TABLE_ENCODING = "UTF-8";
+
+    public const int TEMPLATE_SKILL_ID = 14; // 模版技能ID
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
