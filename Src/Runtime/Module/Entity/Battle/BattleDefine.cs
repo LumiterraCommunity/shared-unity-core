@@ -149,3 +149,10 @@ public enum eDotDamageType : int
     Percent = 3,  //血量百分比伤害
     MaxPercent = 4,  //血量最大百分比伤害
 }
+
+public enum eSearchTargetType : int
+{
+    RangeTarget = 1,    //范围内目标
+    RangeRandomPos = 2,  //范围内随机位置
+    CaptureTarget = 3,  //捕获目标
+}
