@@ -203,6 +203,15 @@ public class DRMonster : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取petId-int。*/
+    /// </summary>
+    public int PetId
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -229,6 +238,7 @@ public class DRMonster : DataRowBase
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        PetId = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -261,6 +271,7 @@ public class DRMonster : DataRowBase
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();
                 SkillCastPool = binaryReader.ReadArrayList<Int32>();
                 DropId = binaryReader.Read7BitEncodedInt32();
+                PetId = binaryReader.Read7BitEncodedInt32();
             }
         }
 
