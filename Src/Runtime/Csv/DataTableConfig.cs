@@ -25,6 +25,7 @@ public static class DataTableConfig
         "ItemEatable",
         "Language",
         "Map",
+        "Mapping",
         "Monster",
         "NoviceGuide",
         "Npc",
