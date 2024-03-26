@@ -14,7 +14,7 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /** __DATA_TABLE_COMMENT__*/
 /// </summary>
-public class DRMap : DataRowBase
+public class DRMapping : DataRowBase
 {
     private int _id = 0;
 
