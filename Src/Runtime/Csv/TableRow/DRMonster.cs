@@ -159,15 +159,6 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
-  /**获取petId-int。*/
-    /// </summary>
-    public int PetId
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取pushDist-int。*/
     /// </summary>
     public int PushDist
@@ -233,7 +224,6 @@ public class DRMonster : DataRowBase
         IsTotemReward = DataTableParseUtil.ParseBool(columnStrings[index++]);
         LockEnemyRange = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
-        PetId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PushDist = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PushDmg = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -266,7 +256,6 @@ public class DRMonster : DataRowBase
                 IsTotemReward = binaryReader.ReadBoolean();
                 LockEnemyRange = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
-                PetId = binaryReader.Read7BitEncodedInt32();
                 PushDist = binaryReader.Read7BitEncodedInt32();
                 PushDmg = binaryReader.Read7BitEncodedInt32();
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();

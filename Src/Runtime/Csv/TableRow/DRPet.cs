@@ -141,15 +141,6 @@ public class DRPet : DataRowBase
     }
 
     /// <summary>
-  /**获取name-string。*/
-    /// </summary>
-    public string Name
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取potWashingItem-int[]。*/
     /// </summary>
     public int[] PotWashingItem
@@ -213,7 +204,6 @@ public class DRPet : DataRowBase
         IncubationMat = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         MaxHunger = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PotWashingItem = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         RequiredHappiness = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -244,7 +234,6 @@ public class DRPet : DataRowBase
                 IncubationMat = binaryReader.ReadArrayList<Int32>();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 MaxHunger = binaryReader.Read7BitEncodedInt32();
-                Name = binaryReader.ReadString();
                 PotWashingItem = binaryReader.ReadArray<Int32>();
                 RequiredHappiness = binaryReader.Read7BitEncodedInt32();
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
