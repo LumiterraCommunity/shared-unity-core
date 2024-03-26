@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-29 10:08:50
  * @Description: 实体技能搜索目标
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/EntitySkillSearchTarget.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/EntitySkillSearchTarget.cs
  * 
  */
 
@@ -14,8 +14,10 @@ using UnityGameFramework.Runtime;
 public class EntitySkillSearchTarget : EntityBaseComponent
 {
     public List<EntityBase> TargetList { get; protected set; } = new();//目标实体
-
-    public int TargetNum { get; protected set; } = 1;//目标数量
+    public List<Vector3> TargetPosList { get; protected set; } = new(); //目标位置
+    public Vector3 TargetDir { get; protected set; } = Vector3.forward; //目标方向
+    public int TargetNum { get; protected set; } = 1;//需要的目标数量
+    public int SearchNum { get; protected set; } = 0;//已经搜索到的目标数量
     protected EntityInputData InputData;
     protected virtual void Start()
     {
@@ -23,80 +25,78 @@ public class EntitySkillSearchTarget : EntityBaseComponent
     }
     private void OnDestroy()
     {
-        UpdateTarget(null);
+        ResetSearch();
     }
-    public virtual void UpdateTarget(List<EntityBase> targetEntities)
+
+    public virtual void ResetSearch()
     {
         TargetList.Clear();
-
+        TargetPosList.Clear();
+        TargetDir = Vector3.forward;
+        SearchNum = 0;
+        TargetNum = 0;
+    }
+    /// <summary>
+    /// 更新目标
+    /// </summary>
+    /// <param name="targetEntities">目标实体</param> 
+    public virtual void UpdateTarget(List<EntityBase> targetEntities)
+    {
         if (targetEntities == null || targetEntities.Count <= 0)
         {
             return;
         }
-
-        foreach (EntityBase entity in targetEntities)
-        {
-            if (!entity.Inited || entity.BattleDataCore == null || !entity.BattleDataCore.IsLive())
-            {
-                continue;
-            }
-            TargetList.Add(entity);
-        }
-
-        //根据距离排序 由近到远
-        TargetList.Sort((a, b) =>
-        {
-            float distanceA = Vector3.Distance(a.Position, RefEntity.Position);
-            float distanceB = Vector3.Distance(b.Position, RefEntity.Position);
-            return distanceA.CompareTo(distanceB);
-        });
-
-        //只保留目标数量
-        if (TargetList.Count > TargetNum)
-        {
-            TargetList.RemoveRange(TargetNum, TargetList.Count - TargetNum);
-        }
+        TargetList.AddRange(targetEntities);
     }
 
-    public virtual void SearchTarget(int skillID, int targetNum = 1)
+    /// <summary>
+    /// 更新位置
+    /// </summary>
+    /// <param name="posList"></param> <summary>
+    public virtual void UpdateTargetPos(List<Vector3> posList)
     {
-        UpdateTarget(null);
+        if (posList == null || posList.Count <= 0)
+        {
+            return;
+        }
+        TargetPosList.AddRange(posList);
+    }
+
+    /// <summary>
+    /// 更新方向
+    /// </summary>
+    public virtual void UpdateTargetDir(Vector3 dir)
+    {
+        TargetDir = dir;
+    }
+    /// <summary>
+    /// 搜索目标
+    /// <summary>
+    /// <param name="dir">搜素方向</param>/// 
+    /// <param name="skillID">技能ID</param>
+    /// <param name="targetNum">目标数量</param> 
+    public virtual void SearchTarget(Vector3 dir, int skillID, int targetNum = 1)
+    {
+        ResetSearch();
+        UpdateTargetDir(dir);
+        TargetNum = targetNum;
+
         DRSkill drSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(skillID);
         if (drSkill == null)
         {
             Log.Error($"not find skill id:{skillID}");
             return;
         }
-        int skillTargetType = SkillUtil.GetFlag(drSkill.TargetType);
-        TargetNum = targetNum;
-        List<EntityBase> targetEntities = SearchSkillRangeTarget(drSkill, skillTargetType);
-        if (targetEntities.Count < TargetNum)
-        {
-            targetEntities = SearchSkillDistanceTarget(drSkill, skillTargetType);
-        }
-        UpdateTarget(targetEntities);
-    }
 
-    protected List<EntityBase> SearchSkillRangeTarget(DRSkill drSkill, int skillTargetType)
-    {
-        if (drSkill.SkillRange == null || drSkill.SkillRange.Length == 0)
+        for (int i = 0; i < drSkill.SearchTarget.Length; i++)
         {
-            return new();
+            SearchNum += SkillSearchHelp.SearchTarget(this, dir, drSkill, drSkill.SearchTarget[i]);
+            if (SearchNum >= TargetNum)
+            {
+                break;
+            }
         }
 
-        Vector3 dir = RefEntity.Forward;
-        if (InputData != null && InputData.InputMoveDirection != null)//有输入移动方向需要按照输入方向
-        {
-            dir = InputData.InputMoveDirection.Value;
-        }
-        List<EntityBase> targetEntities = SkillUtil.SearchTargetEntityList(RefEntity.RoleBaseDataCore.CenterPos, RefEntity, drSkill.SkillRange, dir, skillTargetType);
-        return targetEntities;
     }
 
-    protected List<EntityBase> SearchSkillDistanceTarget(DRSkill drSkill, int skillTargetType)
-    {
-        int[] range = { (int)BattleDefine.eSkillShapeId.SkillShapeSphere, drSkill.SkillDistance };
-        List<EntityBase> targetEntities = SkillUtil.SearchTargetEntityList(RefEntity.RoleBaseDataCore.CenterPos, RefEntity, range, RefEntity.Forward, skillTargetType);
-        return targetEntities;
-    }
 }

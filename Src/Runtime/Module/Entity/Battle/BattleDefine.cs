@@ -140,3 +140,10 @@ public enum eBattleAreaType : int
     Danger = 2,   //危险区域，敌对阵营可以攻击
     Chaos = 3,    //混乱区域，可以攻击任何阵营
 }
+
+public enum eSearchTargetType : int
+{
+    RangeTarget = 1,    //范围内目标
+    RangeRandomPos = 2,  //范围内随机位置
+    CaptureTarget = 3,  //捕获目标
+}
