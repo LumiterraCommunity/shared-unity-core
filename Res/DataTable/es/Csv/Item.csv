@@ -1863,197 +1863,923 @@ Se puede usar para fabricar Poción de Energía.
 ",0,item-icon-479,479,Botella vacía,1,4,0,1
 1,LUAG Futuro Roto,0,item-icon-480,480,LUAG Futuro (N),1,4,0,1
 1,Se puede usar para intercambiar LUAG Futuro(100).,0,item-icon-481,481,LUAG Estrella,1,4,0,1
-1,,0,item-icon-482,482,,1,4,1,1
-1,,0,item-icon-483,483,,1,4,2,1
-1,,0,item-icon-484,484,,1,4,3,1
-1,,0,item-icon-485,485,,1,4,4,1
-1,,0,item-icon-486,486,,1,4,5,1
-1,,0,item-icon-487,487,,1,4,6,1
-1,,0,item-icon-488,488,,1,4,7,1
-1,,0,item-icon-489,489,,1,4,8,1
-1,,0,item-icon-490,490,,1,4,9,1
-1,,0,item-icon-491,491,,1,4,7,1
-1,,0,item-icon-492,492,,1,4,7,1
-1,,0,item-icon-493,493,,1,4,7,1
-1,,0,item-icon-494,494,,1,4,7,1
-1,,0,item-icon-495,495,,1,4,7,1
-1,,0,item-icon-496,496,,1,4,7,1
-1,,0,item-icon-497,497,,1,4,7,1
-1,,0,item-icon-498,498,,1,4,7,1
-1,,0,item-icon-499,499,,1,4,7,1
-1,,0,item-icon-503,503,,1,4,8,1
-1,,0,item-icon-504,504,,1,4,8,1
-1,,0,item-icon-505,505,,1,4,8,1
-1,,0,item-icon-506,506,,1,4,8,1
-1,,0,item-icon-507,507,,1,4,8,1
-1,,0,item-icon-508,508,,1,4,8,1
-1,,0,item-icon-509,509,,1,4,8,1
-1,,0,item-icon-510,510,,1,4,8,1
-1,,0,item-icon-511,511,,1,4,8,1
-1,,0,item-icon-515,515,,1,4,9,1
-1,,0,item-icon-516,516,,1,4,9,1
-1,,0,item-icon-517,517,,1,4,9,1
-1,,0,item-icon-518,518,,1,4,9,1
-1,,0,item-icon-519,519,,1,4,9,1
-1,,0,item-icon-520,520,,1,4,9,1
-1,,0,item-icon-521,521,,1,4,9,1
-1,,0,item-icon-522,522,,1,4,9,1
-1,,0,item-icon-523,523,,1,4,9,1
-1,,0,item-icon-527,527,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-528,528,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-529,529,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-530,530,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-531,531,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-532,532,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-533,533,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-534,534,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-535,535,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-536,536,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-537,537,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-538,538,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-539,539,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-540,540,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-541,541,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-542,542,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-543,543,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-544,544,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-545,545,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-546,546,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-547,547,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-548,548,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-549,549,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-550,550,,"1,2,3,4,5",1,7,1
-1,,0,item-icon-551,551,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-552,552,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-553,553,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-554,554,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-555,555,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-556,556,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-557,557,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-558,558,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-559,559,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-560,560,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-561,561,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-562,562,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-563,563,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-564,564,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-565,565,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-566,566,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-567,567,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-568,568,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-569,569,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-570,570,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-571,571,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-572,572,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-573,573,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-574,574,,"1,2,3,4,5",1,8,1
-1,,0,item-icon-575,575,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-576,576,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-577,577,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-578,578,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-579,579,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-580,580,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-581,581,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-582,582,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-583,583,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-584,584,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-585,585,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-586,586,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-587,587,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-588,588,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-589,589,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-590,590,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-591,591,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-592,592,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-593,593,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-594,594,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-595,595,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-596,596,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-597,597,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-598,598,,"1,2,3,4,5",1,9,1
-1,,0,item-icon-599,599,,1,3,7,1
-1,,0,item-icon-600,600,,1,3,8,1
-1,,0,item-icon-601,601,,1,3,9,1
-1,,0,item-icon-602,602,,1,4,7,1
-1,,0,item-icon-603,603,,1,4,8,1
-1,,0,item-icon-604,604,,1,4,9,1
-1,,0,item-icon-605,605,,1,4,7,1
-1,,0,item-icon-606,606,,1,4,8,1
-1,,0,item-icon-607,607,,1,4,9,1
-1,,0,item-icon-608,608,,1,4,7,1
-1,,0,item-icon-609,609,,1,4,8,1
-1,,0,item-icon-610,610,,1,4,9,1
-1,,0,item-icon-611,611,,1,4,7,1
-1,,0,item-icon-612,612,,1,4,8,1
-1,,0,item-icon-613,613,,1,4,9,1
-1,,97,item-icon-614,614,,1,3,7,1
-1,,97,item-icon-615,615,,1,3,7,1
-1,,97,item-icon-616,616,,1,3,7,1
-1,,97,item-icon-617,617,,1,3,8,1
-1,,97,item-icon-618,618,,1,3,8,1
-1,,97,item-icon-619,619,,1,3,8,1
-1,,97,item-icon-620,620,,1,3,9,1
-1,,97,item-icon-621,621,,1,3,9,1
-1,,97,item-icon-622,622,,1,3,9,1
-1,,0,item-icon-623,623,,1,3,7,1
-1,,0,item-icon-641,641,,1,3,7,1
-1,,0,item-icon-642,642,,1,3,7,1
-1,,0,item-icon-643,643,,1,3,7,1
-1,,0,item-icon-644,644,,1,3,7,1
-1,,0,item-icon-645,645,,1,3,7,1
-1,,0,item-icon-646,646,,1,3,8,1
-1,,0,item-icon-647,647,,1,3,8,1
-1,,0,item-icon-648,648,,1,3,8,1
-1,,0,item-icon-649,649,,1,3,8,1
-1,,0,item-icon-650,650,,1,3,8,1
-1,,0,item-icon-651,651,,1,3,8,1
-1,,0,item-icon-652,652,,1,3,9,1
-1,,0,item-icon-653,653,,1,3,9,1
-1,,0,item-icon-654,654,,1,3,9,1
-1,,0,item-icon-655,655,,1,3,9,1
-1,,0,item-icon-656,656,,1,3,9,1
-1,,0,item-icon-657,657,,1,3,9,1
-1,,0,item-icon-658,658,,1,4,0,1
-1,,0,item-icon-659,659,,1,4,0,1
-1,,0,item-icon-660,660,,1,4,0,1
-1,,0,item-icon-661,661,,1,4,0,1
-1,,0,item-icon-665,665,,1,3,1,1
-1,,0,item-icon-666,666,,1,3,1,1
-1,,0,item-icon-667,667,,1,3,1,1
-1,,0,item-icon-668,668,,1,3,2,1
-1,,0,item-icon-669,669,,1,3,2,1
-1,,0,item-icon-670,670,,1,3,2,1
-1,,0,item-icon-671,671,,1,3,3,1
-1,,0,item-icon-672,672,,1,3,3,1
-1,,0,item-icon-673,673,,1,3,3,1
-1,,0,item-icon-674,674,,1,3,4,1
-1,,0,item-icon-675,675,,1,3,4,1
-1,,0,item-icon-676,676,,1,3,4,1
-1,,0,item-icon-677,677,,1,3,5,1
-1,,0,item-icon-678,678,,1,3,5,1
-1,,0,item-icon-679,679,,1,3,5,1
-1,,0,item-icon-680,680,,1,3,6,1
-1,,0,item-icon-681,681,,1,3,6,1
-1,,0,item-icon-682,682,,1,3,6,1
-1,,0,item-icon-683,683,,1,3,7,1
-1,,0,item-icon-684,684,,1,3,7,1
-1,,0,item-icon-685,685,,1,3,7,1
-1,,0,item-icon-686,686,,1,3,8,1
-1,,0,item-icon-687,687,,1,3,8,1
-1,,0,item-icon-688,688,,1,3,8,1
-1,,0,item-icon-689,689,,1,3,9,1
-1,,0,item-icon-690,690,,1,3,9,1
-1,,0,item-icon-691,691,,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-482,482,Nv 1 Slime de Energía,1,4,1,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-483,483,Nv 2 Slime de Energía,1,4,2,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-484,484,Nv 3 Slime de Energía,1,4,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-485,485,Nv 4 Slime de Energía,1,4,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-486,486,Nv 5 Slime de Energía,1,4,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-487,487,Nv 6 Slime de Energía,1,4,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-488,488,Nv 7 Slime de Energía,1,4,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-489,489,Nv 8 Slime de Energía,1,4,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
+",0,item-icon-490,490,Nv 9 Slime de Energía,1,4,9,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un material raro y resistente forjado en el corazón de erupciones volcánicas.
+",0,item-icon-491,491,Escama de Roca de Fuego,1,4,7,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una poción brillante que otorga aumentos temporales de agilidad y velocidad.
+",0,item-icon-492,492,Botella Deslumbrante,1,4,7,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un colosal ojo de piedra que irradia poder antiguo, capaz de revelar secretos ocultos.
+",0,item-icon-493,493,Ojo de Roca Gigante,1,4,7,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una flor rara y vibrante, que emana un resplandor ardiente, encontrada en regiones volcánicas.
+",0,item-icon-494,494,Flor de Lava,1,4,7,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Combustible para calentar y cocinar, esencial para sobrevivir en la naturaleza.
+",0,item-icon-495,495,Madera de Fuego,1,4,7,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+El recuento de palabras para cada descripción está dentro del límite especificado de 20 palabras.
+",0,item-icon-496,496,Lava,1,4,7,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una flor vibrante que irradia calidez y belleza, simbolizando pasión y vitalidad.
+",0,item-icon-497,497,Crisantemo Rojo Ardiente,1,4,7,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+La traducción proporcionada anteriormente se basa en la suposición de que ""Heard of Fire"" se refiere al nombre del juego o a un concepto específico dentro del juego. Si tiene un significado diferente, por favor avíseme para que pueda ajustar las traducciones en consecuencia.
+",0,item-icon-498,498,Oído de Fuego,1,4,7,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una calabaza ardiente que desata llamas abrasadoras sobre los enemigos, causando daño generalizado.
+",0,item-icon-499,499,Calabaza Caliente,1,4,7,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una piedra masiva imbuida de poder antiguo, capaz de dar forma a la tierra misma.
+",0,item-icon-500,500,Piedra Gigante,1,4,7,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Partículas brillantes que brillan y bailan, arrojando un resplandor fascinante dondequiera que vayan.
+",0,item-icon-501,501,Polvo Deslumbrante,1,4,7,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una piedra poderosa que aprovecha la esencia ardiente, capaz de desatar llamas devastadoras.
+",0,item-icon-502,502,Piedra de Fuego,1,4,7,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Estos calzados vibrantes mejoran la agilidad y velocidad de un granjero, perfectos para cuidar cultivos y navegar por los campos.
+",0,item-icon-503,503,Pies de Rayas Amarillas,1,4,8,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Exquisitos accesorios elaborados con las escamas de poderosos dragones, mejorando el poder del portador.
+",0,item-icon-504,504,Joyería de Dragón,1,4,8,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un orbe místico que otorga una visión mejorada, permitiéndote descubrir tesoros y secretos ocultos.
+",0,item-icon-505,505,Ojo de Águila,1,4,8,1
+1," Aparece en Ancient Domain.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un material ligero y flexible que mejora la agilidad y el movimiento.",0,item-icon-506,506,Fibra Hueca,1,4,8,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Ligera y resistente, esta madera es perfecta para fabricar arcos y flechas.
+",0,item-icon-507,507,Madera Hueca,1,4,8,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una piedra misteriosa con un núcleo vacío, irradiando energía antigua.
+",0,item-icon-508,508,Piedra Hueca,1,4,8,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una hoja delicada imbuida de energía misteriosa, capaz de mejorar las habilidades mágicas.
+",0,item-icon-509,509,Hoja Hueca,1,4,8,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una fruta misteriosa con un núcleo vacío, se dice que posee poderes ocultos.
+",0,item-icon-510,510,Fruta Hueca,1,4,8,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una flor delicada con un centro hueco, irradiando un aura calmante.
+",0,item-icon-511,511,Flor Hueca,1,4,8,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un huevo raro y precioso, incubado por águilas majestuosas.
+",0,item-icon-512,512,Huevo de Águila,1,4,8,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una gema rara y poderosa, se dice que contiene la esencia de los dragones.
+",0,item-icon-513,513,Lágrima de Dragón,1,4,8,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una poción potente que induce risa incontrolable, haciendo que los enemigos pierdan el enfoque y tropiecen.
+",0,item-icon-514,514,Vómito de Rayas Amarillas,1,4,8,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una esencia poderosa que alimenta las habilidades mágicas y mejora la energía espiritual.
+",0,item-icon-515,515,Núcleo Espiritual,1,4,9,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un artefacto poderoso que mejora las habilidades de las estatuas.
+",0,item-icon-516,516,Núcleo de Estatua,1,4,9,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un arma poderosa con un núcleo puntiagudo, capaz de atravesar las defensas enemigas.
+",0,item-icon-517,517,Núcleo de Púa,1,4,9,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un material resistente tejido con hilos de bronce, proporcionando durabilidad y protección mejoradas.
+",0,item-icon-518,518,Fibra de Bronce,1,4,9,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un material resistente con un encanto cálido y rústico, perfecto para fabricar armas y herramientas duraderas.
+",0,item-icon-519,519,Madera de Bronce,1,4,9,1
+1,"Apareciendo en el Dominio Antiguo.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una piedra resistente con un tono de bronce, perfecta para la fabricación y construcción.
+",0,item-icon-520,520,Piedra de Bronce,1,4,9,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una fruta rara que mejora el proceso de fundición, aumentando la calidad de los objetos fabricados.",0,item-icon-521,521,Fruta de Fundición,1,4,9,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una planta vibrante y alucinógena que mejora la percepción y otorga habilidades mágicas temporales.
+",0,item-icon-522,522,Vegetal Psicodélico,1,4,9,1
+1," Puedes obtener este tipo de material mediante la siembra.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una flor potente que otorga aumentos temporales a las habilidades mágicas.
+",0,item-icon-523,523,Flor de Poder,1,4,9,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Polvo explosivo que crea púas afiladas, infligiendo daño perforante a los enemigos.
+",0,item-icon-524,524,Polvo de Púa,1,4,9,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Un ladrillo resistente utilizado para construir estatuas, añadiendo durabilidad y fuerza.
+",0,item-icon-525,525,Ladrillo de Estatua,1,4,9,1
+1," Puedes obtener este tipo de material mediante la cría.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Polvo brillante que emite una luz vibrante, iluminando los rincones más oscuros.
+",0,item-icon-526,526,Polvo Fluorescente,1,4,9,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Una espada ardiente forjada a partir de lava fundida, capaz de desatar una devastación ardiente.
+",0,item-icon-527,527,Espada de Lava Lv7,"1,2,3,4,5",1,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Un arma ardiente forjada en el corazón de un volcán, capaz de desatar golpes devastadores.
+",0,item-icon-528,528,Martillo de Lava Lv7,"1,2,3,4,5",1,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Un arma ardiente forjada a partir de roca fundida, capaz de desatar flechas abrasadoras.
+",0,item-icon-529,529,Arco de Lava Lv7,"1,2,3,4,5",1,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Una protección ardiente que otorga protección contra el calor abrasador y mejora las habilidades de combate.
+",0,item-icon-530,530,Sombrero de Combate de Lava Lv7,"1,2,3,4,5",1,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Una prenda protectora ardiente para guerreros intrépidos, resistente al calor abrasador.",0,item-icon-531,531,Abrigo de Combate de Lava Lv7,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Pantalones resistentes al fuego para valientes guerreros que desafían el calor abrasador de la batalla.
+",0,item-icon-532,532,Lv7 Pantalones de Combate de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Guantes ardientes imbuidos con el poder de la lava fundida, mejorando la destreza en combate.
+",0,item-icon-533,533,Lv7 Guantes de Combate de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Calzado resistente al fuego para valientes guerreros que desafían batallas abrasadoras.
+",0,item-icon-534,534,Lv7 Zapatos de Combate de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Una herramienta ardiente forjada en el corazón del volcán, perfecta para recolectar recursos preciosos.
+",0,item-icon-535,535,Lv7 Hoz de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Un arma ardiente forjada a partir de roca fundida, capaz de atravesar cualquier obstáculo.
+",0,item-icon-536,536,Lv7 Hacha de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Una herramienta poderosa forjada a partir de lava fundida, capaz de extraer minerales raros.
+",0,item-icon-537,537,Lv7 Pico de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Una cabeza ardiente que mejora las habilidades de recolección en regiones volcánicas.
+",0,item-icon-538,538,Lv7 Sombrero de Recolecta de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Una prenda protectora diseñada para recolectores expertos que se aventuran en regiones volcánicas abrasadoras.
+",0,item-icon-539,539,Lv7 Abrigo de Recolecta de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Pantalones resistentes al fuego para recolectores expertos que se aventuran en entornos abrasadores.
+",0,item-icon-540,540,Lv7 Pantalones de Recolecta de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Guantes resistentes al calor diseñados para recolectar recursos en entornos abrasadores.
+",0,item-icon-541,541,Lv7 Guantes de Recolecta de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Estos zapatos especializados están diseñados para recolectores valientes que se aventuran en las profundidades abrasadoras.
+",0,item-icon-542,542,Lv7 Zapatos de Recolecta de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Una tetera ardiente que aprovecha el poder de la lava, capaz de hervir agua al instante.
+",0,item-icon-543,543,Lv7 Tetera de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Una herramienta ardiente que aprovecha el poder de la lava fundida para una agricultura eficiente.
+",0,item-icon-544,544,Lv7 Azada de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Un cepillo ardiente que aprovecha el poder de la lava para mejorar las habilidades de agricultura.
+",0,item-icon-545,545,Lv7 Cepillo de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Una cabeza ardiente que protege a los agricultores del calor abrasador.
+",0,item-icon-546,546,Lv7 Sombrero de Agricultura de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Proporciona una resistencia superior al calor para los agricultores que trabajan en entornos volcánicos.
+",0,item-icon-547,547,Lv7 Abrigo de Agricultura de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Pantalones resistentes al fuego para valientes agricultores que cuidan cultivos ardientes.
+",0,item-icon-548,548,Lv7 Pantalones de Agricultura de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Guantes resistentes al calor para valientes agricultores que cuidan cultivos ardientes.
+",0,item-icon-549,549,Lv7 Guantes de Agricultura de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Calzado resistente al calor para valientes agricultores que cuidan cultivos ardientes.
+",0,item-icon-550,550,Lv7 Zapatos de Agricultura de Lava,"1,2,3,4,5",1,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Un arma ligera y ágil, perfecta para ataques rápidos y precisos.
+",0,item-icon-551,551,Lv8 Espada Hueca,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Un martillo poderoso forjado con tecnología hueca, capaz de infligir golpes devastadores.
+",0,item-icon-552,552,Lv8 Martillo Hueco,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Un arco ligero con un diseño hueco, perfecto para ataques rápidos y precisos.
+",0,item-icon-553,553,Lv8 Arco Hueco,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Una cabeza ligera y resistente que proporciona una excelente protección en las batallas.
+",0,item-icon-554,554,Lv8 Sombrero de Combate Hueco,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Un abrigo ligero y duradero diseñado para guerreros ágiles, que proporciona movilidad y protección mejoradas en las batallas.
+",0,item-icon-555,555,Lv8 Abrigo de Combate Hueco,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Pantalones resistentes y robustos fabricados para la batalla, que proporcionan una excelente protección y agilidad para aventureros de nivel 8.",0,item-icon-556,556,Lv8 Pantalones de Combate Hueco,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Guantes ligeros y duraderos diseñados para luchadores ágiles, proporcionando un mejor agarre y flexibilidad en combate.
+",0,item-icon-557,557,Guantes de combate huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Calzado ligero diseñado para guerreros ágiles, proporcionando mayor movilidad y movimientos rápidos en batallas.
+",0,item-icon-558,558,Zapatos de combate huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Una herramienta de recolección ligera y afilada, perfecta para cosechar cultivos abundantes con precisión.
+",0,item-icon-559,559,Hoz hueca de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Un hacha poderosa con un diseño hueco, perfecta para recolectores expertos.
+",0,item-icon-560,560,Hacha hueca de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Un pico resistente diseñado para la recolección de recursos, capaz de extraer minerales valiosos con facilidad.
+",0,item-icon-561,561,Pico hueco de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Un sombrero ligero diseñado para recolectores expertos, proporcionando una mayor visibilidad y protección en el campo.
+",0,item-icon-562,562,Sombrero de recolección hueco de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Un abrigo ligero y duradero diseñado para recolectores expertos.
+",0,item-icon-563,563,Abrigo de recolección hueco de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Pantalones ligeros diseñados para la recolección eficiente de recursos. Mejora la velocidad de movimiento y proporciona capacidad de almacenamiento adicional.
+",0,item-icon-564,564,Pantalones de recolección huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Guantes ligeros diseñados para la recolección eficiente de recursos.
+",0,item-icon-565,565,Guantes de recolección huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta la probabilidad de obtener recursos de mayor nivel.
+-------
+Calzado ligero diseñado para la recolección eficiente. Mejora la velocidad de movimiento y reduce la fatiga.
+",0,item-icon-566,566,Zapatos de recolección huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Una tetera ligera con un diseño hueco, perfecta para preparar pociones y brebajes.
+",0,item-icon-567,567,Tetera hueca de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Una herramienta agrícola ligera con una hoja ahuecada, perfecta para labrar el suelo de manera eficiente.
+",0,item-icon-568,568,Azada hueca de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Un cepillo ligero con cerdas huecas, perfecto para trazos delicados y detalles precisos.
+",0,item-icon-569,569,Cepillo hueco de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Un sombrero ligero con diseño ahuecado, perfecto para agricultores.
+",0,item-icon-570,570,Sombrero de agricultura hueco de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Un abrigo ligero y transpirable diseñado para agricultores diligentes. Proporciona una excelente protección contra la suciedad y las espinas.
+",0,item-icon-571,571,Abrigo de agricultura hueco de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Pantalones ligeros y transpirables diseñados para agricultores dedicados.
+",0,item-icon-572,572,Pantalones de agricultura huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Guantes ligeros diseñados para la agricultura eficiente. Proporciona un mejor agarre y destreza para tareas delicadas.
+",0,item-icon-573,573,Guantes de agricultura huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+-------
+Calzado ligero diseñado para la agricultura eficiente. Mejora la velocidad de movimiento y reduce la fatiga.
+",0,item-icon-574,574,Zapatos de agricultura huecos de nivel 8,"1,2,3,4,5",1,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Una espada de bronce poderosa para guerreros de nivel 9, perfecta para golpes rápidos y precisos.
+",0,item-icon-575,575,Espada de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Un martillo de bronce resistente para guerreros de nivel 9, que ofrece golpes poderosos en batallas.
+",0,item-icon-576,576,Martillo de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Un arco poderoso hecho de bronce, perfecto para arqueros expertos de nivel 9.
+",0,item-icon-577,577,Arco de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Un sombrero de bronce resistente para guerreros de nivel 9, que proporciona una protección confiable en combate.
+",0,item-icon-578,578,Sombrero de combate de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Un abrigo de bronce resistente que proporciona una excelente protección para combatientes de nivel 9.
+",0,item-icon-579,579,Abrigo de combate de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Pantalones duraderos hechos de bronce, que proporcionan una protección sólida para combatientes de nivel 9.
+",0,item-icon-580,580,Pantalones de combate de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
+-------
+Guantes resistentes hechos de bronce, que proporcionan una protección mejorada para combatientes de nivel 9.",0,item-icon-581,581,Guantes de combate de bronce de nivel 9,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
+-------
+Calzado resistente para la batalla, fabricado con bronce duradero. Mejora la agilidad y la defensa.
+",0,item-icon-582,582,Zapatos de Combate de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Una hoz de bronce resistente diseñada para tareas eficientes de cosecha y poda.
+",0,item-icon-583,583,Hoz de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Un hacha de bronce resistente diseñada para recolectores expertos, capaz de derribar árboles con facilidad.
+",0,item-icon-584,584,Hacha de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Un pico de bronce resistente para recolectores expertos, capaz de extraer recursos preciosos de manera eficiente.
+",0,item-icon-585,585,Pico de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Un sombrero resistente hecho de bronce, que proporciona una excelente protección y habilidades de recolección mejoradas.
+",0,item-icon-586,586,Sombrero de Recolección de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Un abrigo resistente hecho de bronce, que proporciona una excelente protección para los recolectores durante sus expediciones de recolección de recursos.
+",0,item-icon-587,587,Abrigo de Recolección de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Pantalones duraderos fabricados con bronce, que proporcionan una protección mejorada y flexibilidad para una recolección eficiente de recursos.
+",0,item-icon-588,588,Pantalones de Recolección de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Guantes resistentes hechos de bronce, perfectos para recolectores expertos de nivel 9.
+",0,item-icon-589,589,Guantes de Recolección de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior.
+-------
+Calzado resistente para recolectores dedicados, que proporciona movilidad y protección mejoradas.
+",0,item-icon-590,590,Zapatos de Recolección de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Una tetera de bronce resistente, perfecta para preparar pociones y brebajes.
+",0,item-icon-591,591,Tetera de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Una azada de bronce resistente, perfecta para labrar el suelo y cultivar cultivos de manera eficiente.
+",0,item-icon-592,592,Azada de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Un cepillo de bronce resistente para agricultores, perfecto para cuidar los cultivos y mantener una granja próspera.
+",0,item-icon-593,593,Cepillo de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Un sombrero resistente para agricultores, que proporciona protección y estilo.
+",0,item-icon-594,594,Sombrero de Agricultura de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Un abrigo duradero para agricultores, que proporciona protección y comodidad durante largas horas de cuidado de cultivos.
+",0,item-icon-595,595,Abrigo de Agricultura de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Pantalones duraderos hechos de bronce, perfectos para agricultores trabajadores de nivel 9.
+",0,item-icon-596,596,Pantalones de Agricultura de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Guantes duraderos para una agricultura eficiente, que proporcionan un agarre y protección mejorados.
+",0,item-icon-597,597,Guantes de Agricultura de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
+-------
+Calzado resistente para agricultores dedicados, que proporciona comodidad y protección durante largas horas de cuidado de cultivos.
+",0,item-icon-598,598,Zapatos de Agricultura de Bronce,"1,2,3,4,5",1,9,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Restaura tu energía y te llena de vitalidad nuevamente.
+",0,item-icon-599,599,Poción de Restauración de Energía,1,3,7,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Restaura tu energía y te llena de vitalidad nuevamente.
+",0,item-icon-600,600,Poción de Restauración de Energía,1,3,8,1
+1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Restaura tu energía y te llena de vitalidad nuevamente.
+",0,item-icon-601,601,Poción de Restauración de Energía,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
+-------
+Esencia de Combate, útil para sintetizar varios equipos.
+",0,item-icon-602,602,Esencia de Combate Nivel 7,1,4,7,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
+-------
+Esencia de Combate, útil para sintetizar varios equipos.
+",0,item-icon-603,603,Esencia de Combate Nivel 8,1,4,8,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
+-------
+Esencia de Combate, útil para sintetizar varios equipos.
+",0,item-icon-604,604,Esencia de Combate Nivel 9,1,4,9,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
+-------
+Esencia de Recolección, útil para sintetizar varios equipos.
+",0,item-icon-605,605,Esencia de Recolección Nivel 7,1,4,7,1
+1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
+-------
+Esencia de Recolección, útil para sintetizar varios equipos.",0,item-icon-606,606,Esencia de Recolección Nivel 8,1,4,8,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de recolección, útil para sintetizar varios equipos
+",0,item-icon-607,607,Nv 9 Reunir Esencia,1,4,9,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de plantación agrícola, útil para sintetizar varios equipos
+",0,item-icon-608,608,Nv 7 Esencia de Plantación Agrícola,1,4,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de plantación agrícola, útil para sintetizar varios equipos
+",0,item-icon-609,609,Nv 8 Esencia de Plantación Agrícola,1,4,8,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de plantación agrícola, útil para sintetizar varios equipos
+",0,item-icon-610,610,Nv 9 Esencia de Plantación Agrícola,1,4,9,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de ganadería agrícola, útil para sintetizar varios equipos
+",0,item-icon-611,611,Nv 7 Esencia de Ganadería Agrícola,1,4,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de ganadería agrícola, útil para sintetizar varios equipos
+",0,item-icon-612,612,Nv 8 Esencia de Ganadería Agrícola,1,4,8,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esencia de ganadería agrícola, útil para sintetizar varios equipos
+",0,item-icon-613,613,Nv 9 Esencia de Ganadería Agrícola,1,4,9,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semillas para cultivar trigo
+",97,item-icon-614,614,Semilla de Crisantemo Rojo Ardiente,1,3,7,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Crisantemo Rojo Ardiente
+",97,item-icon-615,615,Semilla de Oído de Fuego,1,3,7,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Manada de Fuego
+",97,item-icon-616,616,Semilla de Calabaza Picante,1,3,7,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Calabaza Caliente
+",97,item-icon-617,617,Semilla de Hoja Hueca,1,3,8,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Hoja Hueca
+",97,item-icon-618,618,Semilla de Fruto Hueco,1,3,8,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Fruta Hueca
+",97,item-icon-619,619,Semilla de Flor Hueca,1,3,8,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Flor Hueca
+",97,item-icon-620,620,Semilla de Fruto de Fundición,1,3,9,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Fruta de Fundición
+",97,item-icon-621,621,Semilla de Verdura Psicodélica,1,3,9,1
+1,"Aparece en Ancient Domain.
+Usarlo puede activar efectos especiales.
+-------
+Semilla para cultivar Verdura Psicodélica
+",97,item-icon-622,622,Semilla de Flor de Poder,1,3,9,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+HP actual +320
+",0,item-icon-623,623,Poción de Curación Caliente,1,3,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Ataque de combate +50
+",0,item-icon-641,641,Poción de Ataque Caliente,1,3,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Velocidad de movimiento +200
+",0,item-icon-642,642,Poción de Velocidad Caliente,1,3,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Daño crítico contra monstruos +120
+",0,item-icon-643,643,Poción de Golpe Crítico Caliente,1,3,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+HP máximo +200
+",0,item-icon-644,644,Poción de Vida Caliente,1,3,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Defensa de combate +20
+",0,item-icon-645,645,Poción de Defensa Caliente,1,3,7,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+HP actual +400
+",0,item-icon-646,646,Poción de Curación Hueca,1,3,8,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Ataque de combate +60
+",0,item-icon-647,647,Poción de Ataque Hueca,1,3,8,1
+1,"Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Velocidad de movimiento +240",0,item-icon-648,648,Poción de Velocidad Hueca,1,3,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Daño crítico contra monstruos +150
+",0,item-icon-649,649,Poción Crítica Hueca,1,3,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+HP máximo +240
+",0,item-icon-650,650,Poción de Vida Hueca,1,3,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Defensa de combate +25
+",0,item-icon-651,651,Poción de Defensa Hueca,1,3,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+HP actual +480
+",0,item-icon-652,652,Poción Curativa de Bronce,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Ataque de combate +70
+",0,item-icon-653,653,Poción de Ataque de Bronce,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Velocidad de movimiento +280
+",0,item-icon-654,654,Poción de Velocidad de Bronce,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Daño crítico contra monstruos +180
+",0,item-icon-655,655,Poción Crítica de Bronce,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+HP máximo +280
+",0,item-icon-656,656,Poción de Vida de Bronce,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Defensa de combate +30
+",0,item-icon-657,657,Poción de Defensa de Bronce,1,3,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede usar para fabricar equipos o objetos.
+-------
+Boleto de admisión al Ancient Domain
+",0,item-icon-658,658,Boleto de Admisión al Dominio Antiguo,1,4,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede usar para fabricar equipos o objetos.
+-------
+Boleto de admisión al Junior Arena
+",0,item-icon-659,659,Boleto de Admisión a la Arena Junior,1,4,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede usar para fabricar equipos o objetos.
+-------
+Boleto de admisión al Intermediate Arena
+",0,item-icon-660,660,Boleto de Admisión a la Arena Intermedia,1,4,0,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede usar para fabricar equipos o objetos.
+-------
+Boleto de admisión al Advanced Arena
+",0,item-icon-661,661,Boleto de Admisión a la Arena Avanzada,1,4,0,1
+1," Puede eclosionar una mascota: Metal Mutt
+",0,item-icon-665,665,Perro de Metal,1,6,1,1
+1," Puede eclosionar una mascota: Pumpkin Fiend
+",0,item-icon-666,666,Demonio de Calabaza,1,6,1,1
+1," Puede eclosionar una mascota: Cactus Warrior
+",0,item-icon-667,667,Guerrero de Cactus,1,6,1,1
+1," Puede eclosionar una mascota: Buzz Buddy
+",0,item-icon-668,668,Amigo Zumbador,1,6,2,1
+1," Puede eclosionar una mascota: Leafy Lurker
+",0,item-icon-669,669,Acechador de Hojas,1,6,2,1
+1," Puede eclosionar una mascota: Mine Cat
+",0,item-icon-670,670,Gato Minero,1,6,2,1
+1," Puede eclosionar una mascota: Chaos Wraith
+",0,item-icon-671,671,Espectro del Caos,1,6,3,1
+1," Puede eclosionar una mascota: Crimson Gnasher
+",0,item-icon-672,672,Mordedor Carmesí,1,6,3,1
+1, Puede eclosionar una mascota: Frosty Paw,0,item-icon-673,673,Pata Helada,1,6,3,1
+1,Puede eclosionar mascota - Tronco Enojado,0,item-icon-674,674,"Tronco Enojado
+[583]Cabeza de Huevo de Hoja Naranja
+[584]Soldado Esqueleto
+[585]Espíritu Oscuro de Nieve
+[586]Behemoth de las Sombras
+[587]Capitán Esqueleto
+[588]Gigante de Caparazón de Hielo
+[589]Mago Conejo
+[590]Arquero Esqueleto
+[591]Pequeño Señor Supremo Deslumbrante
+[592]Centinela de Fuego y Roca
+[593]Centinela de Roca Gigante
+[594]Bestia de Roca de Rayas Amarillas
+[595]Guardián de Águila de Ojos Sabios
+[596]Joven Dragón de Luz Estelar
+[597]Espíritu de Luz Enigmático
+[598]Espíritu Tallado de Piedra Verde
+[599]Escudo Sonriente de Púas
+[600]Semilla de Prueba de Tótem
+[601]Poder de la Naturaleza Nivel 1
+[602]Poder de la Naturaleza Nivel 2
+[603]Poder de la Naturaleza Nivel 3
+[604]Poder de la Naturaleza Nivel 4
+[605]Poder de la Naturaleza Nivel 5
+[606]Poder de la Naturaleza Nivel 6",1,6,4,1
+1,Puede eclosionar mascota - Cabeza de Huevo de Hoja Naranja,0,item-icon-675,675,Cabeza de Huevo de Hoja Naranja,1,6,4,1
+1,Puede eclosionar mascota - Soldado Esqueleto,0,item-icon-676,676,Soldado Esqueleto,1,6,4,1
+1,Puede eclosionar mascota - Espíritu Oscuro de Nieve,0,item-icon-677,677,Espíritu Oscuro de Nieve,1,6,5,1
+1,Puede eclosionar mascota - Behemoth de las Sombras,0,item-icon-678,678,Behemoth de las Sombras,1,6,5,1
+1,Puede eclosionar mascota - Capitán Esqueleto,0,item-icon-679,679,Capitán Esqueleto,1,6,5,1
+1,Puede eclosionar mascota - Gigante de Concha de Hielo,0,item-icon-680,680,Gigante de Caparazón de Hielo,1,6,6,1
+1,Puede eclosionar mascota - Conejo Mago,0,item-icon-681,681,Mago Conejo,1,6,6,1
+1,Puede eclosionar mascota - Arquero Esqueleto,0,item-icon-682,682,Arquero Esqueleto,1,6,6,1
+1,Puede eclosionar mascota - Pequeño Señor Supremo Deslumbrante,0,item-icon-683,683,Pequeño Señor Supremo Deslumbrante,1,6,7,1
+1,Puede eclosionar mascota - Centinela de Fuego y Roca,0,item-icon-684,684,Centinela de Fuego y Roca,1,6,7,1
+1,Puede eclosionar mascota - Centinela de Roca Gigante,0,item-icon-685,685,Centinela de Roca Gigante,1,6,7,1
+1,Puede eclosionar mascota - Bestia de Roca con Rayas Amarillas,0,item-icon-686,686,Bestia de Roca de Rayas Amarillas,1,6,8,1
+1,Puede eclosionar mascota - Guardián de Águila de Ojos Sabios,0,item-icon-687,687,Guardián de Águila de Ojos Sabios,1,6,8,1
+1,Puede eclosionar mascota - Joven Dragón de Luz Estelar,0,item-icon-688,688,Joven Dragón de Luz Estelar,1,6,8,1
+1,Puede eclosionar mascota - Espíritu de Luz Enigmático,0,item-icon-689,689,Espíritu de Luz Enigmático,1,6,9,1
+1,Puede eclosionar mascota - Espíritu Tallado de Piedra Verde,0,item-icon-690,690,Espíritu Tallado de Piedra Verde,1,6,9,1
+1,Puede eclosionar mascota - Escudo de Púas Sonriente,0,item-icon-691,691,Escudo Sonriente de Púas,1,6,9,1
 1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
 ",97,item-icon-692,692,Semilla de bambú de nivel 1,1,3,1,1
-1,,0,item-icon-693,693,,1,4,1,1
-1,,0,item-icon-694,694,,1,4,2,1
-1,,0,item-icon-695,695,,1,4,3,1
-1,,0,item-icon-696,696,,1,4,4,1
-1,,0,item-icon-697,697,,1,4,5,1
-1,,0,item-icon-698,698,,1,4,6,1
-1,,0,item-icon-699,699,,1,4,7,1
-1,,0,item-icon-700,700,,1,4,8,1
-1,,0,item-icon-701,701,,1,4,9,1
+1,"Puedes obtener este objeto a través de síntesis.
+Se puede usar para fabricar equipo o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-693,693,Poder de la Naturaleza Nivel 1,1,4,1,1
+1,"Puedes obtener este objeto a través de síntesis.
+Se puede usar para fabricar equipo o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-694,694,Poder de la Naturaleza Nivel 2,1,4,2,1
+1,"Puedes obtener este objeto a través de síntesis.
+Se puede usar para fabricar equipo o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-695,695,Poder de la Naturaleza Nivel 3,1,4,3,1
+1,"Puedes obtener este objeto a través de síntesis.
+Se puede usar para fabricar equipo o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-696,696,Poder de la Naturaleza Nivel 4,1,4,4,1
+1,"Puedes obtener este objeto a través de síntesis.
+Se puede usar para fabricar equipo o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-697,697,Poder de la Naturaleza Nivel 5,1,4,5,1
+1,"Puedes obtener este objeto a través de síntesis.
+Se puede usar para fabricar equipo o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-698,698,Poder de la Naturaleza Nivel 6,1,4,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
+",0,item-icon-699,699,Poder de la Naturaleza Nivel 7,1,4,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
+",0,item-icon-700,700,Nivel 8 Poder de la Naturaleza,1,4,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
+",0,item-icon-701,701,Nivel 9 Poder de la Naturaleza,1,4,9,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-702,702,Nivel 3 Alimento,1,3,3,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-703,703,Nivel 4 Alimento,1,3,4,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-704,704,Nivel 5 Alimento,1,3,5,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-705,705,Nivel 6 Alimento,1,3,6,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-706,706,Nivel 7 Alimento,1,3,7,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-707,707,Nivel 8 Alimento,1,3,8,1
+1," Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-708,708,Nivel 9 Alimento,1,3,9,1
