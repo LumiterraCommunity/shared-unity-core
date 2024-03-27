@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 10:51:41
  * @Description: 战斗公共定义
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/BattleDefine.cs
  * 
  */
 
@@ -139,4 +139,13 @@ public enum eBattleAreaType : int
     Peace = 1,    //和平区域，无法攻击
     Danger = 2,   //危险区域，敌对阵营可以攻击
     Chaos = 3,    //混乱区域，可以攻击任何阵营
+}
+
+//持续伤害效果类型
+public enum eDotDamageType : int
+{
+    Normal = 1,  //普通
+    Fixed = 2, //血量固定伤害
+    Percent = 3,  //血量百分比伤害
+    MaxPercent = 4,  //血量最大百分比伤害
 }
