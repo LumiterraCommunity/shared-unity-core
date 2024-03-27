@@ -298,4 +298,9 @@ public class EntityBase
     {
         return Root.GetComponents<T>();
     }
+
+    public static bool IsValid(EntityBase entity)
+    {
+        return entity != null && entity.Inited;
+    }
 }
