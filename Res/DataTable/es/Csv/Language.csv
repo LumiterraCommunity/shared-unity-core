@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
 捕捉动物请求异常,6001,畜牧错误码,Excepción en la solicitud de captura de animales
 捕捉动物无效,6002,畜牧错误码,La captura de animales no es válida
-,2016001,,
 ,10001001,通用, OK
 ,10001002,通用, Cancelar
 ,10001003,通用, Confirmar
@@ -15,6 +14,7 @@ describe-string,id-int,module-string,value-string
 ,10001008,通用, Mensaje del sistema
 ,10001009,通用,
 ,10001010,通用,
+,10001011,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Recuperación de HP
 ,10004023,装备属性-攻击点数,Puntos de Ataque
@@ -262,6 +262,7 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20180007,设置,Rendah
 ,20180008,设置,Sedang
 ,20180009,设置,Tinggi
+,20180010,设置,
 ,20190000,天赋树,El nodo previo debe desbloquearse primero.
 ,20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.
 ,20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.
@@ -302,3 +303,8 @@ xx的yy,20220003,战报名称,
 ,20230006,宠物,
 ,20230007,宠物,
 ,20240001,图腾,
+,20250000,仓库,
+,20250001,仓库,
+,20250002,,
+,20260001,精力,
+,20260002,精力,
