@@ -82,6 +82,12 @@ public class PathMoveStatusCore : ListenEventStatusCore, IEntityCanMove, IEntity
     /// </summary>
     private void OnNextPointArrived()
     {
+        //在极端上层清理了InputMovePath后 本状态的update还没执行到 这里同一帧先走到了会出现 就等着update退出状态即可 不用走到下面finish逻辑
+        if (InputData.InputMovePath.Count == 0)
+        {
+            return;
+        }
+
         _ = InputData.InputMovePath.Dequeue();
 
         if (InputData.InputMovePath.Count == 0)
@@ -153,22 +159,26 @@ public class PathMoveStatusCore : ListenEventStatusCore, IEntityCanMove, IEntity
             ChangeState(fsm, FloatInAirStatusCore.Name);
             return;
         }
+
+        if (InputData.InputMovePath.Count == 0)
+        {
+            ChangeState(OwnerFsm, IdleStatusCore.Name);
+            return;
+        }
     }
 
     private void OnMoveSpeedUpdate()
     {
         OnPathChanged();
     }
+
     //路径改了
     private void OnPathChanged()
     {
-        if (InputData.InputMovePath.Count == 0)
+        if (InputData.InputMovePath.Count > 0)
         {
-            ChangeState(OwnerFsm, IdleStatusCore.Name);
-            return;
+            MoveToNextPoint();
         }
-
-        MoveToNextPoint();
     }
 
     public bool CheckCanMove()
