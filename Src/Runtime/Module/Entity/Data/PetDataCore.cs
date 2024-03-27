@@ -57,7 +57,10 @@ public class PetDataCore : EntityBaseComponent
         Favorability = petData.Favorability;
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
-        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
+        if (petData.AbilityList != null)//没有能力的宠物这个字段可能为空，这里要保护一下
+        {
+            AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
+        }
         IsFollowing = petData.Status;
         SetPetCfgId(petData.Cid);
 
@@ -69,7 +72,10 @@ public class PetDataCore : EntityBaseComponent
         Favorability = proxyData.FavorAbility;
         CreateMs = proxyData.CreateMs;
         UpdateMs = proxyData.UpdateMs;
-        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
+        if (proxyData.AbilityList != null)//没有能力的宠物这个字段可能为空，这里要保护一下
+        {
+            AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
+        }
         IsFollowing = proxyData.Status;
         SetPetCfgId(proxyData.Cid);
 
