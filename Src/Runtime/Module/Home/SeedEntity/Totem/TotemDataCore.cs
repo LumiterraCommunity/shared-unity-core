@@ -1,4 +1,3 @@
-using System;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
 
@@ -25,6 +24,10 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
     /// 回报份额
     /// </summary>
     public string RewardLp;
+    /// <summary>
+    /// 当前能领取的奖励
+    /// </summary>
+    public string RewardToken;
 
     /// <summary>
     /// 有投资份额
@@ -41,7 +44,7 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
     /// <returns></returns>
     public bool IsHaveReward()
     {
-        return !string.IsNullOrEmpty(RewardLp) && RewardLp != "0";//后端约定0或者空表示没有份额
+        return !string.IsNullOrEmpty(RewardToken) && RewardToken != "0";//后端约定0或者空表示没有
     }
 
     /// <summary>
@@ -65,6 +68,7 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
         InvestDungeon = 0;
         PrizeLp = string.Empty;
         RewardLp = string.Empty;
+        RewardToken = string.Empty;
     }
 
     public void SetProxyData(ProxyTotemData proxyData)
@@ -84,6 +88,7 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
         InvestDungeon = proxyData.InvestDungeon;
         PrizeLp = proxyData.PrizeLp;
         RewardLp = proxyData.RewardLp;
+        RewardToken = proxyData.RewardToken;
 
         RefEntity.EntityEvent.OnTotemDataUpdated?.Invoke();
     }
@@ -101,6 +106,7 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
             InvestDungeon = InvestDungeon,
             PrizeLp = PrizeLp,
             RewardLp = RewardLp,
+            RewardToken = RewardToken,
         };
     }
 }
