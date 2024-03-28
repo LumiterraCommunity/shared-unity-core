@@ -89,24 +89,24 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 -,Sow Seeds,0,0,620,equipItem
 -,Sow Seeds,0,0,621,equipItem
 -,Sow Seeds,0,0,622,equipItem
-,Add Buff,5000,1,623,usePotion
-,Add Buff,60000,6,641,usePotion
-,Add Buff,60000,6,642,usePotion
-,Add Buff,60000,6,643,usePotion
-,Add Buff,60000,6,644,usePotion
-,Add Buff,60000,6,645,usePotion
-,Add Buff,5000,1,646,usePotion
-,Add Buff,60000,6,647,usePotion
-,Add Buff,60000,6,648,usePotion
-,Add Buff,60000,6,649,usePotion
-,Add Buff,60000,6,650,usePotion
-,Add Buff,60000,6,651,usePotion
-,Add Buff,5000,1,652,usePotion
-,Add Buff,60000,6,653,usePotion
-,Add Buff,60000,6,654,usePotion
-,Add Buff,60000,6,655,usePotion
-,Add Buff,60000,6,656,usePotion
-,Add Buff,60000,6,657,usePotion
+493,Add Buff,5000,1,623,usePotion
+494,Add Buff,60000,6,641,usePotion
+495,Add Buff,60000,6,642,usePotion
+496,Add Buff,60000,6,643,usePotion
+497,Add Buff,60000,6,644,usePotion
+498,Add Buff,60000,6,645,usePotion
+499,Add Buff,5000,1,646,usePotion
+500,Add Buff,60000,6,647,usePotion
+501,Add Buff,60000,6,648,usePotion
+502,Add Buff,60000,6,649,usePotion
+503,Add Buff,60000,6,650,usePotion
+504,Add Buff,60000,6,651,usePotion
+505,Add Buff,5000,1,652,usePotion
+506,Add Buff,60000,6,653,usePotion
+507,Add Buff,60000,6,654,usePotion
+508,Add Buff,60000,6,655,usePotion
+509,Add Buff,60000,6,656,usePotion
+510,Add Buff,60000,6,657,usePotion
 -,Sow Seeds,0,0,692,equipItem
 -,Feed,0,0,702,equipItem
 -,Feed,0,0,703,equipItem
@@ -115,3 +115,12 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 -,Feed,0,0,706,equipItem
 -,Feed,0,0,707,equipItem
 -,Feed,0,0,708,equipItem
+4,Restore Energy,0,0,709,usePotion
+10,Restore Energy,0,0,710,usePotion
+17,Restore Energy,0,0,711,usePotion
+25,Restore Energy,0,0,712,usePotion
+34,Restore Energy,0,0,713,usePotion
+44,Restore Energy,0,0,714,usePotion
+55,Restore Energy,0,0,715,usePotion
+67,Restore Energy,0,0,716,usePotion
+80,Restore Energy,0,0,717,usePotion

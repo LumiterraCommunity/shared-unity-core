@@ -12,9 +12,9 @@ describe-string,id-int,module-string,value-string
 ,10001006,通用,"Le service est occupé, veuillez patienter"
 ,10001007,通用,"Portefeuille déconnecté, veuillez redémarrer l'application."
 ,10001008,通用,Message système
-,10001009,通用,
-,10001010,通用,
-,10001011,通用,
+,10001009,通用,La version de l'application a été mise à jour. Veuillez redémarrer l'application.
+,10001010,通用,Début du jeu
+,10001011,通用,Obtenu{0}
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -139,8 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
-,20080004,设置,
-,20080005,设置,
+,20080004,设置,"Attention ! Déconnexion dans une zone dangereuse, les joueurs pourront quitter le jeu normalement après avoir été inactifs pendant un certain temps."
+,20080005,设置,"Déconnexion dans une zone dangereuse, reconnectez-vous pour entrer dans le jeu."
 ,20090001,任务, Recevoir les récompenses du coffre de quête {0}
 ,20090002,任务, Terminer la quête {0}
 ,20090003,任务, Fabriquer n'importe quel objet sur la page de fabrication
@@ -163,7 +163,7 @@ describe-string,id-int,module-string,value-string
 ,20100001,专精, Agriculture
 ,20100002,专精, Combat
 ,20100003,专精, Collecte
-,20100004,,
+,20100004,,Animal de compagnie
 ,20100005,, Niveau maximum
 ,20100006,, Manque d'EXP {0}
 ,20100007,nft 关键字, Manque de jeton
@@ -188,7 +188,7 @@ describe-string,id-int,module-string,value-string
 ,20110018,nft 关键字 在配置中的类型,Consommable 
 ,20110019,nft 关键字 在配置中的类型,Matériau 
 ,20110020,nft 关键字 在配置中的类型,Construction 
-,20110021,nft 关键字 在配置中的类型,
+,20110021,nft 关键字 在配置中的类型,Œuf d'animal de compagnie
 ,20120005,登录,Connexion au portefeuille démarrée 
 ,20120006,登录,Mise à jour de la connexion au portefeuille 
 ,20120007,登录,Connexion au portefeuille terminée 
@@ -200,7 +200,7 @@ describe-string,id-int,module-string,value-string
 ,20120013,登录,Échec de la connexion au portefeuille
 ,20120014,登录,Initialiser le portefeuille
 ,20120015,登录,Délai d'initialisation du portefeuille expiré
-,20120016,登录,
+,20120016,登录,Déconnexion du portefeuille
 ,20130000,组队,Équipe de {0} 
 ,20130001,组队,Demande envoyée
 ,20130002,组队,"Vous avez rejoint l'équipe, veuillez d'abord quitter l'équipe"
@@ -241,10 +241,10 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20160008,副本,Donjon
 ,20160009,副本,Zone inconnue
 ,20160010,副本,Seul le chef d'équipe peut agir.
-,20160011,副本,
-,20160012,副本,
-,20160013,副本,
-,20160014,副本,
+,20160011,副本,Niveau incompatible.
+,20160012,副本,Pas encore ouvert.
+,20160013,副本,Match échoué.
+,20160014,副本,Veuillez réessayer plus tard ou défier d'autres donjons.
 ,20170000,合成,Entrer dans la file d'attente
 ,20170001,合成,La file d'artisanat est pleine.
 ,20170002,合成,La recette d'artisanat n'est pas déverrouillée.
@@ -262,7 +262,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20180007,设置,Bas 
 ,20180008,设置,Moyen 
 ,20180009,设置,Élevé 
-,20180010,设置,
+,20180010,设置,Impossible de se désengager pendant le combat.
 ,20190000,天赋树,Le pré-nœud doit d'abord être déverrouillé.
 ,20190001,天赋树,Le niveau total de l'arbre de talent doit atteindre {0}.
 ,20190002,天赋树,Le nœud principal de la même couche doit d'abord être déverrouillé.
@@ -274,37 +274,37 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20200004,活动,Vente du ticket réussie
 ,20200005,活动,Échec de la vente du ticket
 ,20210000,钱包相关, La demande de solde de jetons a échoué !
-地形杀,20220001,战报名称,
-单一目标,20220002,战报名称,
-xx的yy,20220003,战报名称,
-家园饥饿杀,20220004,战报名称,
-,20220005,战报名称,
-,20220006,战报概要,
-,20220007,战报概要,
-,20220008,战报概要,
-,20220009,战报概要,
-,20220010,战报概要,
-,20220011,战报详情,
-,20220012,战报详情,
-,20220013,战报详情,
-,20220014,战报详情,
-,20220015,战报详情,
-,20220016,战报概要,
-,20220017,战报概要,
-,20220018,战报详情,
-,20220019,战报详情,
-,20220020,战报详情,
-,20230000,宠物,
-,20230001,宠物,
-,20230002,宠物,
-,20230003,宠物,
-,20230004,宠物,
-,20230005,宠物,
-,20230006,宠物,
-,20230007,宠物,
-,20240001,图腾,
-,20250000,仓库,
-,20250001,仓库,
-,20250002,,
-,20260001,精力,
-,20260002,精力,
+地形杀,20220001,战报名称,[color=#FF9F2F]Terrain[/color]
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Faim[/color]
+,20220005,战报名称,Réservé
+,20220006,战报概要,Vous avez été tué par {att=unknown}
+,20220007,战报概要,Vos {def=unknown} ont été tués par {att=unknown}
+,20220008,战报概要,Votre unité a participé à la mort de {def=unknown}
+,20220009,战报概要,Vous avez tué {def=unknown}
+,20220010,战报概要,Votre {att=unknown} a tué {def=unknown}
+,20220011,战报详情,[color=#F24F4F]Objets perdus[/color]
+,20220012,战报详情,{att=unknown} a participé à la mort
+,20220013,战报详情,[color=#35F883]Objets gagnés[/color]
+,20220014,战报详情,{att=unknown} [color=#35F883]a gagné[/color] des objets
+,20220015,战报详情,{att=unknown} a tué {def=unknown}
+,20220016,战报概要,Défi du [color=#FF9F2F]{name=Abyss canyon}[/color] réussi
+,20220017,战报概要,Échec du défi du [color=#FF9F2F]{name=Abyss canyon}[/color]
+,20220018,战报详情,[color=#F7CE3D]Vous[/color] avez été récompensé(e) pour avoir terminé le niveau
+,20220019,战报详情,"[color=#F7CE3D]Vous[/color] avez obtenu un bonus Totem <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20220020,战报详情,"[color=#F7CE3D]Vous[/color] avez obtenu un bonus de billet <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20230000,宠物,L'animal de compagnie vous suit.
+,20230001,宠物,L'animal de compagnie ne vous suit plus.
+,20230002,宠物,Le lavage de moelle de l'animal de compagnie a réussi.
+,20230003,宠物,Êtes-vous sûr(e) de vouloir convertir {0} en un œuf d'animal de compagnie ? Il peut être réincubé après avoir été converti en œuf d'animal de compagnie.
+,20230004,宠物,Fabriquer des œufs d'animal de compagnie.
+,20230005,宠物,Êtes-vous sûr(e) de vouloir libérer {0} ? Vous perdrez l'animal de compagnie après la libération.
+,20230006,宠物,Vous avez libéré votre animal de compagnie.
+,20230007,宠物,Le changement de nom de l'animal de compagnie est terminé.
+,20240001,图腾,Succès accompli.
+,20250000,仓库,Veuillez renouveler le bail de stockage avant de le ranger.
+,20250001,仓库,Veuillez renouveler le bail de stockage avant de le retirer.
+,20250002,,Le stockage est plein.
+,20260001,精力,Énergie insuffisante.
+,20260002,精力,L'énergie de [color=#F7CE3D]{0}[/color] est insuffisante.
