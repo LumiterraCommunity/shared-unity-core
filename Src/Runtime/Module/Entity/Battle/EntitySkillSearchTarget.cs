@@ -14,6 +14,7 @@ using UnityGameFramework.Runtime;
 public class EntitySkillSearchTarget : EntityBaseComponent
 {
     public List<EntityBase> TargetList { get; protected set; } = new();//目标实体
+    public List<long> TargetIDList { get; protected set; } = new();//目标ID
     public List<Vector3> TargetPosList { get; protected set; } = new(); //目标位置
     public Vector3 TargetDir { get; protected set; } = Vector3.forward; //目标方向
     public int TargetNum { get; protected set; } = 1;//需要的目标数量
@@ -31,6 +32,7 @@ public class EntitySkillSearchTarget : EntityBaseComponent
     public virtual void ResetSearch()
     {
         TargetList.Clear();
+        TargetIDList.Clear();
         TargetPosList.Clear();
         TargetDir = Vector3.forward;
         SearchNum = 0;
@@ -47,6 +49,7 @@ public class EntitySkillSearchTarget : EntityBaseComponent
             return;
         }
         TargetList.AddRange(targetEntities);
+        TargetIDList.AddRange(targetEntities.ConvertAll(t => t.BaseData.Id));
     }
 
     /// <summary>

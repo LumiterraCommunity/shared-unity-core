@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-01-16 09:44:22
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Editor/Battle/SkillCptInspector.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Editor/Battle/SkillCptInspector.cs
  * 
  */
 using System.Collections.Generic;
@@ -63,7 +63,7 @@ namespace SharedCore.Editor
                         if (skillCpt.TryGetComponent(out EntitySkillSearchTarget skillSearchTarget))
                         {
                             skillSearchTarget.SearchTarget(dir, value, targetNum);
-                            enemyList = skillSearchTarget.TargetList.ConvertAll(x => x.BaseData.Id);
+                            enemyList = skillSearchTarget.TargetIDList;
                             targetPosList = skillSearchTarget.TargetPosList;
                             dir = skillSearchTarget.TargetDir;
                         }
