@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-10-14 15:35:49
  * @Description: 技能范围搜索目标逻辑
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SearchTarget/SkillSearchRangeTargetLogic.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SearchTarget/SkillSearchRangeTargetLogic.cs
  * 
  */
 
@@ -19,9 +19,9 @@ public class SkillSearchRangeTargetLogic : ISkillSearchTargetLogic
         {
             return 0;
         }
-
+        int targetNum = searchTarget.TargetNum - searchTarget.SearchNum;
         List<EntityBase> searchList = SearchSkillRangeTarget(entity, drSkill, skillTargetType, dir);
-        if (searchList.Count < searchTarget.TargetNum)
+        if (searchList.Count < targetNum)
         {
             searchList = SearchSkillDistanceTarget(entity, drSkill, skillTargetType, dir);
         }
@@ -36,14 +36,14 @@ public class SkillSearchRangeTargetLogic : ISkillSearchTargetLogic
 
         List<EntityBase> targetList = new();
         List<Vector3> posList = new();
-        for (int i = 0; i < searchList.Count && i < searchTarget.TargetNum; i++)
+        for (int i = 0; i < searchList.Count && i < targetNum; i++)
         {
             targetList.Add(searchList[i]);
             posList.Add(searchList[i].Position);
         }
         //更新目标
-        searchTarget.UpdateTarget(targetList);
-        searchTarget.UpdateTargetPos(posList);
+        searchTarget.AddTarget(targetList);
+        searchTarget.AddTargetPos(posList);
 
         //更新方向
         if (targetList.Count > 0)

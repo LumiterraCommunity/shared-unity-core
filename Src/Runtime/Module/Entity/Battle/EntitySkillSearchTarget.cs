@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-29 10:08:50
  * @Description: 实体技能搜索目标
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/EntitySkillSearchTarget.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/EntitySkillSearchTarget.cs
  * 
  */
 
@@ -37,10 +37,10 @@ public class EntitySkillSearchTarget : EntityBaseComponent
         TargetNum = 0;
     }
     /// <summary>
-    /// 更新目标
+    /// 添加目标
     /// </summary>
     /// <param name="targetEntities">目标实体</param> 
-    public virtual void UpdateTarget(List<EntityBase> targetEntities)
+    public virtual void AddTarget(List<EntityBase> targetEntities)
     {
         if (targetEntities == null || targetEntities.Count <= 0)
         {
@@ -50,10 +50,10 @@ public class EntitySkillSearchTarget : EntityBaseComponent
     }
 
     /// <summary>
-    /// 更新位置
+    /// 添加位置
     /// </summary>
     /// <param name="posList"></param> <summary>
-    public virtual void UpdateTargetPos(List<Vector3> posList)
+    public virtual void AddTargetPos(List<Vector3> posList)
     {
         if (posList == null || posList.Count <= 0)
         {

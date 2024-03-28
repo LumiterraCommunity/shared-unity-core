@@ -17,7 +17,7 @@ public class SkillSearchCaptureTargetLogic : ISkillSearchTargetLogic
         long captureId = entity.CaptureData.CaptureId;
         if (GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(captureId, out EntityBase captureEntity))
         {
-            searchTarget.UpdateTarget(new List<EntityBase> { captureEntity });
+            searchTarget.AddTarget(new List<EntityBase> { captureEntity });
             return 1;
         }
         return 0;

@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-10-14 15:35:49
  * @Description: 技能搜索随机位置逻辑
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SearchTarget/SkillSearchRandomPosLogic.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SearchTarget/SkillSearchRandomPosLogic.cs
  * 
  */
 
@@ -22,11 +22,11 @@ public class SkillSearchRandomPosLogic : ISkillSearchTargetLogic
         {
             Vector2 rnd = drSkill.SkillDistance * MathUtilCore.CM2M * UnityEngine.Random.insideUnitCircle;
             Vector3 randPos = entity.Position + new Vector3(rnd.x, 0, rnd.y);
-            _ = MapUtilCore.SampleTerrainWalkablePos(randPos, out Vector3 pos, 5f);
+            _ = MapUtilCore.SamplePosOnTerrain(randPos, out Vector3 pos, 5f);
             posList.Add(pos);
             searchNum++;
         }
-        searchTarget.UpdateTargetPos(posList);
+        searchTarget.AddTargetPos(posList);
         return searchNum;
     }
 }
