@@ -14,6 +14,7 @@ describe-string,id-int,module-string,value-string
 ,10001008,通用, Sistem memberi amaran
 ,10001009,通用, Versi aplikasi telah dikemaskini. Sila mulakan semula aplikasi.
 ,10001010,通用, Permainan bermula
+,10001011,通用,Diperolehi{0}
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -138,8 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
-,20080004,设置,
-,20080005,设置,
+,20080004,设置,"Amaran! Log keluar di kawasan yang tidak selamat, pemain akan dapat keluar dari permainan secara normal setelah tidak aktif untuk jangka masa tertentu."
+,20080005,设置,"Log keluar di kawasan yang tidak selamat, sambung semula untuk masuk ke dalam permainan."
 ,20090001,任务,Terima ganjaran peti tugas {0}  
 ,20090002,任务,Selesaikan tugas {0}  
 ,20090003,任务,Hasilkan mana-mana item di halaman pembuatan  
@@ -162,7 +163,7 @@ describe-string,id-int,module-string,value-string
 ,20100001,专精,Pertanian 
 ,20100002,专精,Pertempuran 
 ,20100003,专精,Mengumpul 
-,20100004,,
+,20100004,,Haiwan peliharaan.
 ,20100005,,Tahap Maksimum 
 ,20100006,,Kekurangan EXP {0} 
 ,20100007,nft 关键字,Kekurangan Token 
@@ -187,7 +188,7 @@ describe-string,id-int,module-string,value-string
 ,20110018,nft 关键字 在配置中的类型,Bahan Penggunaan
 ,20110019,nft 关键字 在配置中的类型,Bahan
 ,20110020,nft 关键字 在配置中的类型,Pembinaan
-,20110021,nft 关键字 在配置中的类型,
+,20110021,nft 关键字 在配置中的类型,Sambungan dompet dimulakan
 ,20120005,登录,Sambungan dompet dimulakan
 ,20120006,登录,Sambungan dompet dikemaskini
 ,20120007,登录,Sambungan dompet selesai
@@ -199,7 +200,7 @@ describe-string,id-int,module-string,value-string
 ,20120013,登录,Log masuk dompet gagal
 ,20120014,登录,Mulakan dompet
 ,20120015,登录, Masa tamat baki dompet
-,20120016,登录,
+,20120016,登录,Dompet terputus
 ,20130000,组队,Pasukan {0} 
 ,20130001,组队,Permintaan telah dihantar
 ,20130002,组队,"Anda telah menyertai pasukan, sila tinggalkan pasukan terlebih dahulu"
@@ -240,10 +241,10 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20160008,副本,Dungeon
 ,20160009,副本,Kawasan tidak diketahui
 ,20160010,副本,Hanya ketua pasukan boleh beroperasi.
-,20160011,副本,
-,20160012,副本,
-,20160013,副本,
-,20160014,副本,
+,20160011,副本, Tahap tidak sepadan.
+,20160012,副本, Belum dibuka.
+,20160013,副本, Perlawanan gagal.
+,20160014,副本, Sila cuba lagi kemudian atau cabar dungeon lain.
 ,20170000,合成,Masuk dalam barisan antrian
 ,20170001,合成, Antrian kraf penuh.
 ,20170002,合成, Resipi kraf tidak terbuka.
@@ -261,7 +262,7 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20180007,设置,Rendah
 ,20180008,设置,Sederhana
 ,20180009,设置,Tinggi
-,20180010,设置,
+,20180010,设置, Tidak boleh keluar semasa dalam pertempuran.
 ,20190000,天赋树,Nod pra-perlu dibuka terlebih dahulu.
 ,20190001,天赋树,Jumlah tahap pohon bakat perlu mencapai {0}.
 ,20190002,天赋树,Nod batang pada lapisan yang sama perlu dibuka terlebih dahulu.
@@ -273,35 +274,37 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20200004,活动, menjual tiket berjaya
 ,20200005,活动, menjual tiket gagal
 ,20210000,钱包相关, Permintaan baki token gagal!
-地形杀,20220001,战报名称,
-单一目标,20220002,战报名称,
-xx的yy,20220003,战报名称,
-家园饥饿杀,20220004,战报名称,
-,20220005,战报名称,
-,20220006,战报概要,
-,20220007,战报概要,
-,20220008,战报概要,
-,20220009,战报概要,
-,20220010,战报概要,
-,20220011,战报详情,
-,20220012,战报详情,
-,20220013,战报详情,
-,20220014,战报详情,
-,20220015,战报详情,
-,20220016,战报概要,
-,20220017,战报概要,
-,20220018,战报详情,
-,20220019,战报详情,
-,20220020,战报详情,
-,20230000,宠物,
-,20230001,宠物,
-,20230002,宠物,
-,20230003,宠物,
-,20230004,宠物,
-,20230005,宠物,
-,20230006,宠物,
-,20230007,宠物,
-,20240001,图腾,
-,20250000,仓库,
-,20250001,仓库,
-,20250002,,
+地形杀,20220001,战报名称,[color=#FF9F2F]Landskap[/color]
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Kelaparan[/color]
+,20220005,战报名称,Ditempah
+,20220006,战报概要,Anda dibunuh oleh {att=unknown}
+,20220007,战报概要,Unit {def=unknown} anda dibunuh oleh {att=unknown}
+,20220008,战报概要,Unit anda mengambil bahagian dalam pembunuhan {def=unknown}
+,20220009,战报概要,Anda membunuh {def=unknown}
+,20220010,战报概要,Unit {att=unknown} anda membunuh {def=unknown}
+,20220011,战报详情,[color=#F24F4F]Barang hilang[/color]
+,20220012,战报详情,{att=unknown} mengambil bahagian dalam pembunuhan
+,20220013,战报详情,[color=#35F883]Menang[/color] barang
+,20220014,战报详情,{att=unknown} [color=#35F883]Menang[/color] barang
+,20220015,战报详情,{att=unknown} membunuh {def=unknown}
+,20220016,战报概要,Cabaran [color=#FF9F2F]{name=Abyss canyon}[/color] berjaya
+,20220017,战报概要,Cabaran [color=#FF9F2F]{name=Abyss canyon}[/color] gagal
+,20220018,战报详情,[color=#F7CE3D]Anda[/color] telah diberi ganjaran kerana menamatkan tahap tersebut
+,20220019,战报详情,"[color=#F7CE3D]Anda[/color] mendapat Bonus Totem <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20220020,战报详情,"[color=#F7CE3D]Anda[/color] mendapat Bonus Tiket <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20230000,宠物,Haiwan peliharaan mengikuti.
+,20230001,宠物,Haiwan peliharaan berhenti mengikuti.
+,20230002,宠物,Berjaya mencuci sumsum haiwan peliharaan.
+,20230003,宠物,Adakah anda pasti untuk menukar {0} menjadi telur haiwan peliharaan? Ia boleh menetas semula selepas ditukarkan menjadi telur haiwan peliharaan.
+,20230004,宠物,Buat telur haiwan peliharaan.
+,20230005,宠物,Adakah anda pasti untuk melepaskan {0}? Anda akan kehilangan haiwan peliharaan selepas melepaskannya.
+,20230006,宠物,Anda telah melepaskan haiwan peliharaan anda.
+,20230007,宠物,Penukaran nama haiwan peliharaan selesai.
+,20240001,图腾,Berjaya mencapai.
+,20250000,仓库,Sila perbaharui sewa storan sebelum menyimpan.
+,20250001,仓库,Sila perbaharui sewa storan sebelum mengeluarkannya.
+,20250002,,Storan penuh.
+,20260001,精力,Tenaga tidak mencukupi.
+,20260002,精力,Tenaga [color=#F7CE3D]{0}[/color] tidak mencukupi.

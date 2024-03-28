@@ -12,8 +12,9 @@ describe-string,id-int,module-string,value-string
 ,10001006,通用,"Layanan sedang sibuk, harap tunggu dengan sabar"
 ,10001007,通用," Dompet terputus, silakan restart aplikasi."
 ,10001008,通用, Peringatan sistem
-,10001009,通用,
-,10001010,通用,
+,10001009,通用,Versi aplikasi telah diperbarui. Silakan restart aplikasi.
+,10001010,通用,Permainan dimulai
+,10001011,通用,Diperoleh{0}
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -138,8 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
-,20080004,设置,
-,20080005,设置,
+,20080004,设置,"Peringatan! Keluar dari permainan di area yang tidak aman, pemain akan dapat keluar dari permainan secara normal setelah tidak aktif selama jangka waktu tertentu."
+,20080005,设置,"Keluar dari permainan di area yang tidak aman, sambungkan kembali untuk masuk ke dalam permainan."
 ,20090001,任务,Menerima hadiah peti kisah {0}  
 ,20090002,任务,Menyelesaikan kisah {0}  
 ,20090003,任务,Membuat item apa pun di halaman kerajinan  
@@ -162,7 +163,7 @@ describe-string,id-int,module-string,value-string
 ,20100001,专精,Bertani 
 ,20100002,专精,Pertempuran 
 ,20100003,专精,Mengumpulkan 
-,20100004,,
+,20100004,,Hewan peliharaan
 ,20100005,,Level Maksimum 
 ,20100006,,Kekurangan EXP {0} 
 ,20100007,nft 关键字,Kekurangan Token 
@@ -187,7 +188,7 @@ describe-string,id-int,module-string,value-string
 ,20110018,nft 关键字 在配置中的类型,Benda yang Dapat Dikonsumsi
 ,20110019,nft 关键字 在配置中的类型,Bahan
 ,20110020,nft 关键字 在配置中的类型,Bangunan
-,20110021,nft 关键字 在配置中的类型,
+,20110021,nft 关键字 在配置中的类型,Telur Hewan Peliharaan
 ,20120005,登录,Mulai menghubungkan dompet
 ,20120006,登录,Pembaruan menghubungkan dompet
 ,20120007,登录,Selesai menghubungkan dompet
@@ -199,7 +200,7 @@ describe-string,id-int,module-string,value-string
 ,20120013,登录,Gagal masuk ke dompet
 ,20120014,登录,Inisialisasi dompet
 ,20120015,登录, Waktu habis untuk menginisialisasi dompet
-,20120016,登录,
+,20120016,登录,Dompet terputus
 ,20130000,组队,Tim {0}
 ,20130001,组队,Permintaan terkirim
 ,20130002,组队,"Anda telah bergabung dengan tim, harap keluar dari tim terlebih dahulu"
@@ -240,10 +241,10 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20160008,副本,Dungeon
 ,20160009,副本,Area tidak diketahui
 ,20160010,副本,Hanya pemimpin tim yang dapat mengoperasikan
-,20160011,副本,
-,20160012,副本,
-,20160013,副本,
-,20160014,副本,
+,20160011,副本,Kesalahan level tidak sesuai.
+,20160012,副本,Belum dibuka.
+,20160013,副本,Pertandingan gagal.
+,20160014,副本,Silakan coba lagi nanti atau tantang dungeon lain.
 ,20170000,合成,Masuk antrian
 ,20170001,合成,Antrian kerajinan penuh.
 ,20170002,合成,Resep kerajinan belum terbuka.
@@ -261,7 +262,7 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20180007,设置,Rendah
 ,20180008,设置,Sedang
 ,20180009,设置,Tinggi
-,20180010,设置,
+,20180010,设置,Tidak dapat melepaskan saat dalam pertempuran.
 ,20190000,天赋树,Pre-node harus terlebih dahulu terbuka.
 ,20190001,天赋树,Total level dari pohon bakat harus mencapai {0}.
 ,20190002,天赋树,Node batang dari lapisan yang sama harus terlebih dahulu terbuka.
@@ -273,35 +274,37 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20200004,活动, jual tiket berhasil
 ,20200005,活动, jual tiket gagal
 ,20210000,钱包相关, gagal!
-地形杀,20220001,战报名称,
-单一目标,20220002,战报名称,
-xx的yy,20220003,战报名称,
-家园饥饿杀,20220004,战报名称,
-,20220005,战报名称,
-,20220006,战报概要,
-,20220007,战报概要,
-,20220008,战报概要,
-,20220009,战报概要,
-,20220010,战报概要,
-,20220011,战报详情,
-,20220012,战报详情,
-,20220013,战报详情,
-,20220014,战报详情,
-,20220015,战报详情,
-,20220016,战报概要,
-,20220017,战报概要,
-,20220018,战报详情,
-,20220019,战报详情,
-,20220020,战报详情,
-,20230000,宠物,
-,20230001,宠物,
-,20230002,宠物,
-,20230003,宠物,
-,20230004,宠物,
-,20230005,宠物,
-,20230006,宠物,
-,20230007,宠物,
-,20240001,图腾,
-,20250000,仓库,
-,20250001,仓库,
-,20250002,,
+地形杀,20220001,战报名称,[color=#FF9F2F]Landskap[/color]
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Kelaparan[/color]
+,20220005,战报名称,Dipesan
+,20220006,战报概要,Anda dibunuh oleh {att=unknown}
+,20220007,战报概要,{def=unknown} Anda dibunuh oleh {att=unknown}
+,20220008,战报概要,Unit Anda berpartisipasi dalam pembunuhan {def=unknown}
+,20220009,战报概要,Anda membunuh {def=unknown}
+,20220010,战报概要,{att=unknown} Anda membunuh {def=unknown}
+,20220011,战报详情,[color=#F24F4F]Barang hilang[/color]
+,20220012,战报详情,{att=unknown} berpartisipasi dalam pembunuhan
+,20220013,战报详情,[color=#35F883]Menang[/color] barang
+,20220014,战报详情,{att=unknown} [color=#35F883]Menang[/color] barang
+,20220015,战报详情,{att=unknown} membunuh {def=unknown}
+,20220016,战报概要,Berhasil menantang [color=#FF9F2F]{name=Abyss canyon}[/color]
+,20220017,战报概要,Tantangan [color=#FF9F2F]{name=Abyss canyon}[/color] gagal
+,20220018,战报详情,[color=#F7CE3D]Anda[/color] mendapatkan hadiah karena menyelesaikan level
+,20220019,战报详情,"[color=#F7CE3D]Anda[/color] mendapatkan Bonus Totem sebesar <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20220020,战报详情,"[color=#F7CE3D]Anda[/color] mendapatkan Bonus Tiket sebesar <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20230000,宠物,Hewan peliharaan mengikuti.
+,20230001,宠物,Hewan peliharaan berhenti mengikuti.
+,20230002,宠物,Pencucian sumsum hewan peliharaan berhasil.
+,20230003,宠物,Apakah Anda yakin ingin mengubah {0} menjadi telur hewan peliharaan? Telur hewan peliharaan dapat menetas kembali setelah diubah menjadi telur hewan peliharaan.
+,20230004,宠物,Buat telur hewan peliharaan
+,20230005,宠物,Apakah Anda yakin ingin melepaskan {0}? Anda akan kehilangan hewan peliharaan setelah melepaskannya.
+,20230006,宠物,Anda telah melepaskan hewan peliharaan Anda.
+,20230007,宠物,Penggantian nama hewan peliharaan selesai.
+,20240001,图腾,Berhasil mencapai
+,20250000,仓库,Harap perpanjang sewa penyimpanan sebelum menyimpan.
+,20250001,仓库,Harap perpanjang sewa penyimpanan sebelum mengambilnya.
+,20250002,,Penyimpanan penuh.
+,20260001,精力,Energi tidak cukup.
+,20260002,精力,Energi {0} tidak cukup.

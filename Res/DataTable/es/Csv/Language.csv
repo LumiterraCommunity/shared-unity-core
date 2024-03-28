@@ -12,8 +12,9 @@ describe-string,id-int,module-string,value-string
 ,10001006,通用,"El servicio está ocupado, por favor espera pacientemente"
 ,10001007,通用," Billetera desconectada, reinicie la aplicación."
 ,10001008,通用, Mensaje del sistema
-,10001009,通用,
-,10001010,通用,
+,10001009,通用,"La versión de la aplicación ha sido actualizada. Por favor, reinicie la aplicación."
+,10001010,通用,Iniciando el juego
+,10001011,通用,Obtenido{0}
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Recuperación de HP
 ,10004023,装备属性-攻击点数,Puntos de Ataque
@@ -138,8 +139,8 @@ describe-string,id-int,module-string,value-string
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
-,20080004,设置,
-,20080005,设置,
+,20080004,设置,"¡Advertencia! Cerrar sesión en una zona insegura, los jugadores podrán salir del juego normalmente después de estar inactivos durante un período de tiempo."
+,20080005,设置,"Cerrar sesión en una zona insegura, reconectar para entrar al juego."
 ,20090001,任务,Recibir recompensas del cofre de la misión {0}
 ,20090002,任务,Completar la misión {0}
 ,20090003,任务,Crear cualquier objeto en la página de creación
@@ -162,7 +163,7 @@ describe-string,id-int,module-string,value-string
 ,20100001,专精,Agricultura
 ,20100002,专精,Batalla
 ,20100003,专精,Recolectar
-,20100004,,
+,20100004,,Mascota.
 ,20100005,,El nivel es máximo
 ,20100006,,Falta de EXP {0}
 ,20100007,nft 关键字,Falta de fichas
@@ -187,7 +188,7 @@ describe-string,id-int,module-string,value-string
 ,20110018,nft 关键字 在配置中的类型,Consumible
 ,20110019,nft 关键字 在配置中的类型,Material
 ,20110020,nft 关键字 在配置中的类型,Edificio
-,20110021,nft 关键字 在配置中的类型,
+,20110021,nft 关键字 在配置中的类型,Huevo de mascota
 ,20120005,登录,Inicio de conexión de billetera
 ,20120006,登录,Actualización de conexión de billetera
 ,20120007,登录,Finalización de conexión de billetera
@@ -199,7 +200,7 @@ describe-string,id-int,module-string,value-string
 ,20120013,登录,Error en el inicio de sesión de la billetera
 ,20120014,登录,Inicializar billetera
 ,20120015,登录, Waktu habis untuk menginisialisasi dompet
-,20120016,登录,
+,20120016,登录,Desconexión de la billetera
 ,20130000,组队, Equipo de {0}
 ,20130001,组队,Solicitud enviada
 ,20130002,组队,"Te has unido al equipo, por favor sal del equipo primero"
@@ -240,10 +241,10 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20160008,副本,Mazmorra.
 ,20160009,副本,Área desconocida.
 ,20160010,副本,Solo el líder del equipo puede operar.
-,20160011,副本,
-,20160012,副本,
-,20160013,副本,
-,20160014,副本,
+,20160011,副本,Nivel no coincide.
+,20160012,副本,Aún no está abierto.
+,20160013,副本,Fallo en la coincidencia.
+,20160014,副本,"Por favor, inténtalo de nuevo más tarde o desafía otras mazmorras."
 ,20170000,合成,Entrar en la cola
 ,20170001,合成,La cola de fabricación está llena.
 ,20170002,合成,La receta de fabricación no está desbloqueada.
@@ -261,7 +262,7 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20180007,设置,Rendah
 ,20180008,设置,Sedang
 ,20180009,设置,Tinggi
-,20180010,设置,
+,20180010,设置,No se puede desactivar mientras se está en combate.
 ,20190000,天赋树,El nodo previo debe desbloquearse primero.
 ,20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.
 ,20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.
@@ -273,35 +274,37 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20200004,活动, vender boleto exitoso
 ,20200005,活动, vender boleto fallido
 ,20210000,钱包相关, ¡La solicitud de saldo de tokens ha fallado!
-地形杀,20220001,战报名称,
-单一目标,20220002,战报名称,
-xx的yy,20220003,战报名称,
-家园饥饿杀,20220004,战报名称,
-,20220005,战报名称,
-,20220006,战报概要,
-,20220007,战报概要,
-,20220008,战报概要,
-,20220009,战报概要,
-,20220010,战报概要,
-,20220011,战报详情,
-,20220012,战报详情,
-,20220013,战报详情,
-,20220014,战报详情,
-,20220015,战报详情,
-,20220016,战报概要,
-,20220017,战报概要,
-,20220018,战报详情,
-,20220019,战报详情,
-,20220020,战报详情,
-,20230000,宠物,
-,20230001,宠物,
-,20230002,宠物,
-,20230003,宠物,
-,20230004,宠物,
-,20230005,宠物,
-,20230006,宠物,
-,20230007,宠物,
-,20240001,图腾,
-,20250000,仓库,
-,20250001,仓库,
-,20250002,,
+地形杀,20220001,战报名称,[color=#FF9F2F]Terreno[/color]
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Hambre[/color]
+,20220005,战报名称,reservado
+,20220006,战报概要,Fuiste asesinado por {att=desconocido}
+,20220007,战报概要,Tus {def=desconocido} fueron asesinados por {att=desconocido}
+,20220008,战报概要,Tu unidad participó en el asesinato de {def=desconocido}
+,20220009,战报概要,Has matado a {def=desconocido}
+,20220010,战报概要,Tu {att=desconocido} mató a {def=desconocido}
+,20220011,战报详情,[color=#F24F4F]Objetos perdidos[/color]
+,20220012,战报详情,{att=desconocido} participó en el asesinato
+,20220013,战报详情,[color=#35F883]Ganar[/color] objetos
+,20220014,战报详情,{att=desconocido} [color=#35F883]ganó[/color] objetos
+,20220015,战报详情,{att=desconocido} mató a {def=desconocido}
+,20220016,战报概要,Desafiar con éxito el [color=#FF9F2F]{name=Abyss canyon}[/color]
+,20220017,战报概要,Desafiar el [color=#FF9F2F]{name=Abyss canyon}[/color] fallido
+,20220018,战报详情,[color=#F7CE3D]Has[/color] sido recompensado por completar el nivel
+,20220019,战报详情,"[color=#F7CE3D]Has[/color] obtenido un <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Bono de Tótem"
+,20220020,战报详情,"[color=#F7CE3D]Has[/color] obtenido un <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Bono de Boletos"
+,20230000,宠物,Mascota seguida.
+,20230001,宠物,Mascota dejó de seguir.
+,20230002,宠物,Éxito en el lavado de médula de mascota.
+,20230003,宠物,¿Estás seguro de convertir {0} en un huevo de mascota? Puede ser re-incubado después de ser convertido en un huevo de mascota.
+,20230004,宠物,Crear huevos de mascota
+,20230005,宠物,¿Estás seguro de liberar a {0}? Perderás a la mascota después de liberarla.
+,20230006,宠物,Has liberado a tu mascota.
+,20230007,宠物,Renombrado de mascota completado.
+,20240001,图腾,Logro alcanzado.
+,20250000,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de almacenar."
+,20250001,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de sacarlo."
+,20250002,,El almacenamiento está lleno.
+,20260001,精力,Energía insuficiente.
+,20260002,精力,La energía de [color=#F7CE3D]{0}[/color] no es suficiente.
