@@ -19,6 +19,6 @@ public interface ISkillSearchTargetLogic
     /// <param name="dir">技能方向</param>
     /// <param name="drSkill">技能表</param>
     /// <param name="searchParams">搜索参数</param>
-    /// <returns></returns>
+    /// <returns>已经搜索到的目标</returns>
     int SearchTarget(EntitySkillSearchTarget searchTarget, Vector3 dir, DRSkill drSkill, int[] searchParams);
 }
