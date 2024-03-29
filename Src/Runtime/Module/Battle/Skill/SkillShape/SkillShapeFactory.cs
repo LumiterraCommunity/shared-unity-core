@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 10:49:14
  * @Description: 技能碰撞检测生成工厂
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Battle/Skill/SkillShape/SkillShapeFactory.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Battle/Skill/SkillShape/SkillShapeFactory.cs
  * 
  */
 using System.Collections.Generic;
@@ -64,8 +64,14 @@ public class SkillShapeFactory
         float xHalf = parameters[1] * MathUtilCore.CM2M / 2; //长
         float zHalf = parameters[2] * MathUtilCore.CM2M / 2; //宽
         float yHalf = parameters[3] * MathUtilCore.CM2M / 2; //高
+        //前进距离
+        float forwardDistance = 0;
+        if (parameters.Length > 4)
+        {
+            forwardDistance = parameters[4] * MathUtilCore.CM2M;
+        }
         Vector3 halfSize = new(xHalf, yHalf, zHalf);
-        Vector3 moveDir = dir.normalized * xHalf;
+        Vector3 moveDir = (dir.normalized * xHalf) + (dir.normalized * forwardDistance);
         Vector3 anchor = startPos;
         Vector3 centerPos = anchor + moveDir;
         Quaternion rotation = Quaternion.LookRotation(moveDir, Vector3.up);
@@ -82,7 +88,13 @@ public class SkillShapeFactory
         }
 
         float radius = parameters[1] * MathUtilCore.CM2M; //半径
-        Vector3 centerPos = startPos;
+                                                          //前进距离
+        float forwardDistance = 0;
+        if (parameters.Length > 2)
+        {
+            forwardDistance = parameters[2] * MathUtilCore.CM2M;
+        }
+        Vector3 centerPos = startPos + (dir.normalized * forwardDistance);
         SkillShapeSphere shape = SkillShapeBase.Create<SkillShapeSphere>();
         shape.Init(centerPos, radius);
         return shape;
@@ -92,7 +104,12 @@ public class SkillShapeFactory
 
         float height = parameters[1] * MathUtilCore.CM2M; //高度
         float radius = parameters[2] * MathUtilCore.CM2M; //半径
-        Vector3 centerPos = startPos;
+        float forwardDistance = 0;
+        if (parameters.Length > 3)
+        {
+            forwardDistance = parameters[3] * MathUtilCore.CM2M;
+        }
+        Vector3 centerPos = startPos + (dir.normalized * forwardDistance);
         Vector3 pos1 = centerPos - (height / 2 * Vector3.up);
         Vector3 pos2 = centerPos + (height / 2 * Vector3.up);
 
@@ -105,7 +122,12 @@ public class SkillShapeFactory
         float height = parameters[1] * MathUtilCore.CM2M; //高度
         float radius = parameters[2] * MathUtilCore.CM2M; //半径
         float angle = parameters[3] * MathUtilCore.CM2M; //角度
-        Vector3 centerPos = startPos;
+        float forwardDistance = 0;
+        if (parameters.Length > 4)
+        {
+            forwardDistance = parameters[4] * MathUtilCore.CM2M;
+        }
+        Vector3 centerPos = startPos + (dir.normalized * forwardDistance);
         SkillShapeFan shape = SkillShapeBase.Create<SkillShapeFan>();
         shape.Init(centerPos, radius, angle, height, dir);
         return shape;

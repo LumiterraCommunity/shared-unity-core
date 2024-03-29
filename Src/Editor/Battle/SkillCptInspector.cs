@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-01-16 09:44:22
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Editor/Battle/SkillCptInspector.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Editor/Battle/SkillCptInspector.cs
  * 
  */
 using System.Collections.Generic;
@@ -62,19 +62,11 @@ namespace SharedCore.Editor
                         int targetNum = skillBase.DRSkill.IsRemote ? skillBase.DRSkill.SkillFlyerNum : 1;
                         if (skillCpt.TryGetComponent(out EntitySkillSearchTarget skillSearchTarget))
                         {
-                            skillSearchTarget.SearchTarget(value, targetNum);
-                            if (skillSearchTarget.TargetList.Count > 0)
-                            {
-                                dir = skillSearchTarget.TargetList[0].Position - skillCpt.RefEntity.Position;
-                                dir.Normalize();
-                                for (int i = 0; i < skillSearchTarget.TargetList.Count; i++)
-                                {
-                                    enemyList.Add(skillSearchTarget.TargetList[i].BaseData.Id);
-                                    targetPosList.Add(skillSearchTarget.TargetList[i].Position);
-                                }
-                            }
+                            skillSearchTarget.SearchTarget(dir, value, targetNum);
+                            enemyList = skillSearchTarget.TargetIDList;
+                            targetPosList = skillSearchTarget.TargetPosList;
+                            dir = skillSearchTarget.TargetDir;
                         }
-
                         InputSkillReleaseData inputData = new(value, dir, enemyList.ToArray(), targetPosList.ToArray());
                         skillCpt.RefEntity.EntityEvent.InputSkillRelease?.Invoke(inputData);
                     }
