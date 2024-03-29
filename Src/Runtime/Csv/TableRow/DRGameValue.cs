@@ -41,12 +41,6 @@ public class DRGameValue : DataRowBase
         private set;
     }
 
-    public int[] ValueArray
-    {
-        get;
-        private set;
-    }
-
     /// <summary>
   /**获取strValue-string。*/
     /// </summary>
