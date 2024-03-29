@@ -15,12 +15,12 @@ public class SkillSearchRangeTargetLogic : ISkillSearchTargetLogic
     {
         EntityBase entity = searchTarget.RefEntity;
         int skillTargetType = SkillUtil.GetFlag(drSkill.TargetType);
-        if (drSkill.SkillRange == null || drSkill.SkillRange.Length == 0)
-        {
-            return 0;
-        }
         int targetNum = searchTarget.TargetNum - searchTarget.SearchNum;
-        List<EntityBase> searchList = SearchSkillRangeTarget(entity, drSkill, skillTargetType, dir);
+        List<EntityBase> searchList = new();
+        if (drSkill.SkillRange != null && drSkill.SkillRange.Length > 0)
+        {
+            searchList = SearchSkillRangeTarget(entity, drSkill, skillTargetType, dir);
+        }
         if (searchList.Count < targetNum)
         {
             searchList = SearchSkillDistanceTarget(entity, drSkill, skillTargetType, dir);
