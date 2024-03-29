@@ -74,9 +74,11 @@ public enum eGameValueID
     DailyTaskReceiveCD = 39, // 日常任务接取CD
     PVPDamageRate = 43,//PVP伤害系数
     PlayerCampChangeTime = 44, //玩家切换阵营时间
+    HatchPetEggProtectTime = 45,//孵化宠物蛋保护时间，防止用户频繁取消孵化,减轻服务器压力
     PetCastSkillHungerCost = 46,//宠物释放技能饥饿度消耗
     PetProduceHungerRate = 47,//生产时的宠物饥饿度消耗倍率
     KillCostEnergy = 50,//击杀行为消耗精力 千分位
+    PetAbilityDisplays = 52,//宠物特性对外名称显示
 }
 
 // public static class GameValueID
