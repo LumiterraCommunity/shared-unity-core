@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepHeightRatio: 0.15
-  colliderHeight: 4
+  colliderHeight: 7
   colliderThickness: 2.12
-  colliderOffset: {x: 0, y: 0.5, z: 0}
+  colliderOffset: {x: 0, y: 0, z: 0}
   sensorType: 0
   isInDebugMode: 0
   sensorArrayRows: 1

@@ -49,7 +49,7 @@ MonoBehaviour:
   stepHeightRatio: 0.15
   colliderHeight: 4
   colliderThickness: 2.12
-  colliderOffset: {x: 0, y: 0.5, z: 0}
+  colliderOffset: {x: 0, y: 0, z: 0}
   sensorType: 0
   isInDebugMode: 0
   sensorArrayRows: 1
@@ -57,8 +57,8 @@ MonoBehaviour:
   sensorArrayRowsAreOffset: 0
   raycastArrayPreviewPositions: []
   IsMove: 0
-  RealColliderHeight: 6
-  RealColliderMiddle: 3.45
+  RealColliderHeight: 4
+  RealColliderMiddle: 3
 --- !u!136 &2968927320251847465
 CapsuleCollider:
   m_ObjectHideFlags: 0

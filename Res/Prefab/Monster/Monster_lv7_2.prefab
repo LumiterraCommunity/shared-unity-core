@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepHeightRatio: 0.25
-  colliderHeight: 3
+  colliderHeight: 2
   colliderThickness: 1
-  colliderOffset: {x: 0.08571429, y: 0.5, z: 0}
+  colliderOffset: {x: 0, y: 0, z: 0}
   sensorType: 0
   isInDebugMode: 0
   sensorArrayRows: 1
@@ -72,7 +72,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 1.05
   m_Direction: 1
-  m_Center: {x: 0.120000005, y: 0.875, z: 0}
+  m_Center: {x: 0, y: 0.875, z: 0}
 --- !u!54 &-5128824234472245034
 Rigidbody:
   m_ObjectHideFlags: 0
