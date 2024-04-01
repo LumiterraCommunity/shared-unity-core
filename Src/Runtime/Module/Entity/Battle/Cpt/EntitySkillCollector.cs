@@ -38,7 +38,7 @@ public class EntitySkillCollector : EntityBaseComponent
     {
         if (LastInHandItemSkillID > 0)
         {
-            EntitySkillDataCore.RemoveSkillGroupID(eSkillGroupType.Item, LastInHandItemSkillID);//移除上次手持物技能
+            EntitySkillDataCore.RemoveSkillGroupID(eSkillGroupType.InHandItem, LastInHandItemSkillID);//移除上次手持物技能
         }
 
         if (inHandItem <= 0)
@@ -53,7 +53,7 @@ public class EntitySkillCollector : EntityBaseComponent
             return;
         }
 
-        EntitySkillDataCore.AddSkillGroupID(eSkillGroupType.Item, itemCfg.GivenSkillId);
+        EntitySkillDataCore.AddSkillGroupID(eSkillGroupType.InHandItem, itemCfg.GivenSkillId);
         LastInHandItemSkillID = itemCfg.GivenSkillId;
     }
 }
