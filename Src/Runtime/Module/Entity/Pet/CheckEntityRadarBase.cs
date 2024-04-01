@@ -142,4 +142,22 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
     /// </summary>
     /// <param name="entity"></param>
     protected abstract void OnRemoveEntity(EntityBase entity);
+
+    /// <summary>
+    /// 启用或者关闭雷达 关闭后触发器会隐藏
+    /// </summary>
+    /// <param name="active"></param>
+    public void SetEnable(bool active)
+    {
+        if (enabled == active)
+        {
+            return;
+        }
+        enabled = active;
+
+        if (_triggerRoot != null)
+        {
+            _triggerRoot.SetActive(active);
+        }
+    }
 }
