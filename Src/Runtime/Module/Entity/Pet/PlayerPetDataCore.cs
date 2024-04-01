@@ -65,14 +65,23 @@ public class PlayerPetDataCore : EntityBaseComponent
             return;
         }
 
-        FollowingPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
-        PetUnFollow?.Invoke(FollowingPet);
+        EntityBase oldPet = FollowingPet;
+        FollowingPet = null;
+
+        oldPet.EntityEvent.UnInitFromScene -= OnPetUnInitFromScene;
+        try
+        {
+            PetUnFollow?.Invoke(oldPet);
+        }
+        catch (Exception e)
+        {
+            Log.Error($"ClearCurFollowingPet event invoke error: {e}");
+        }
         if (isDestroy)
         {
             //销毁的时删除当前跟随的宠物
-            GFEntryCore.GetModule<IEntityMgr>().RemoveEntity(FollowingPet.BaseData.Id);
+            GFEntryCore.GetModule<IEntityMgr>().RemoveEntity(oldPet.BaseData.Id);
         }
-        FollowingPet = null;
     }
 
     private void OnPetUnInitFromScene(EntityBase pet)

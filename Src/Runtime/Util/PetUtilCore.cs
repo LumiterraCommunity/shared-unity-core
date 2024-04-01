@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using GameMessageCore;
 using Google.Protobuf.Collections;
+using UnityGameFramework.Runtime;
+using static HomeDefine;
 
 
 /// <summary>
@@ -106,5 +108,104 @@ public static class PetUtilCore
         }
 
         return 0;
+    }
+
+    /// <summary>
+    /// 判断宠物是否可以采集
+    /// </summary>
+    /// <returns></returns>
+    public static bool JudgePetCanCollect(EntityBase pet)
+    {
+        //没召唤出了宠物
+        if (pet == null)
+        {
+            return false;
+        }
+
+        //不是宠物
+        if (!pet.TryGetComponent(out PetDataCore petData))
+        {
+            Log.Error($"JudgePetCanCollect: petData is null");
+            return false;
+        }
+
+        // 没有采集能力
+        if ((petData.AllAbility & ePetAbility.Gather) == 0)
+        {
+            return false;
+        }
+
+        if (!pet.TryGetComponent(out EntityAvatarDataCore petAvatarDataCore))
+        {
+            Log.Error($"JudgePetCanCollect: petAvatarDataCore is null");
+            return false;
+        }
+
+        //没有装备武器
+        int itemId = petAvatarDataCore.GetWeaponAvatar();
+        if (itemId <= 0)
+        {
+            return false;
+        }
+
+        DREquipment equipment = EquipmentTable.Inst.GetRowByItemID(itemId);
+        if (equipment == null)
+        {
+            Log.Error($"JudgePetCanCollect: equipment cfg error itemId:{itemId}");
+            return false;
+        }
+
+        //宠物穿的武器类型不对
+        if (!PetWearWeaponIsCollect(equipment))
+        {
+            return false;
+        }
+
+        //宠物穿的武器没有采集动作
+        if (!PetWearWeaponCanCollectAction(equipment))
+        {
+            Log.Error($"JudgePetCanCollect: pet wear weapon can not collect action,equipment id: {equipment.Id}");
+            return false;
+        }
+
+        return true;
+    }
+
+    /// <summary>
+    /// 宠物穿的武器有采集动作
+    /// </summary>
+    /// <param name="equipment"></param>
+    /// <returns></returns>
+    public static bool PetWearWeaponCanCollectAction(DREquipment equipment)
+    {
+        if (equipment.GivenSkillId.Length <= 0)
+        {
+            return false;
+        }
+
+        int skillId = equipment.GivenSkillId[0];
+        if (skillId <= 0)
+        {
+            return false;
+        }
+
+        DRSkill drSkill = TableUtil.GetConfig<DRSkill>(skillId);
+        if (drSkill == null)
+        {
+            return false;
+        }
+
+        eAction actions = drSkill.GetHomeAction();
+        return (actions & (eAction.Mowing | eAction.Cut | eAction.Mining)) != 0;
+    }
+
+    /// <summary>
+    /// 宠物穿的武器是采集类型
+    /// </summary>
+    /// <param name="equipment"></param>
+    /// <returns></returns>
+    public static bool PetWearWeaponIsCollect(DREquipment equipment)
+    {
+        return (WeaponSubType)equipment.WeaponSubtype is WeaponSubType.Sickle or WeaponSubType.Axe or WeaponSubType.Pickaxe;
     }
 }
