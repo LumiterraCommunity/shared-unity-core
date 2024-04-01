@@ -47,6 +47,10 @@ public static class MLayerMask
     /// 像树叶那种遮挡人物时半透的场景物件层
     /// </summary>
     public const int OBSTRUCT_TRANSPARENT = 23;
+    /// <summary>
+    /// 用来检测实体的层
+    /// </summary>
+    public const int ENTITY_CHECK = 24;
 
     /// <summary>
     /// 相机自动避开的非触发器的碰撞体遮挡层 比如地表 树

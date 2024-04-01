@@ -33,7 +33,7 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
     protected virtual void Start()
     {
         _triggerRoot = GameObjectUtil.CreateGameObject(GetType().Name, transform);
-        _triggerRoot.layer = MLayerMask.PUBLIC_TRIGGER;
+        _triggerRoot.layer = MLayerMask.ENTITY_CHECK;
 
         SphereCollider collider = _triggerRoot.AddComponent<SphereCollider>();
         collider.radius = CheckRadius;
