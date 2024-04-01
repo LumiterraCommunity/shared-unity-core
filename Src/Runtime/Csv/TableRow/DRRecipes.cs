@@ -96,6 +96,15 @@ public class DRRecipes : DataRowBase
     }
 
     /// <summary>
+  /**获取productTypes-int[]。*/
+    /// </summary>
+    public int[] ProductTypes
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取proficiency-int。*/
     /// </summary>
     public int Proficiency
@@ -199,6 +208,7 @@ public class DRRecipes : DataRowBase
         MatItemId = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         ProductId = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        ProductTypes = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Proficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RecipesSort = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SourceText = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -229,6 +239,7 @@ public class DRRecipes : DataRowBase
                 MatItemId = binaryReader.ReadArrayList<Int32>();
                 Name = binaryReader.ReadString();
                 ProductId = binaryReader.ReadArrayList<Int32>();
+                ProductTypes = binaryReader.ReadArray<Int32>();
                 Proficiency = binaryReader.Read7BitEncodedInt32();
                 RecipesSort = binaryReader.Read7BitEncodedInt32();
                 SourceText = binaryReader.Read7BitEncodedInt32();

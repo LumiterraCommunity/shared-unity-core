@@ -123,6 +123,15 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
+  /**获取totemScore-int。*/
+    /// </summary>
+    public int TotemScore
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取treeDef-int。*/
     /// </summary>
     public int TreeDef
@@ -148,6 +157,7 @@ public class DRHomeResources : DataRowBase
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         OreDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TreeDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
@@ -172,6 +182,7 @@ public class DRHomeResources : DataRowBase
                 Name = binaryReader.ReadString();
                 OreDef = binaryReader.Read7BitEncodedInt32();
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
+                TotemScore = binaryReader.Read7BitEncodedInt32();
                 TreeDef = binaryReader.Read7BitEncodedInt32();
             }
         }
