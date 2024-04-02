@@ -153,6 +153,10 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
 
     public float ScoreToRewards(float score)
     {
+        if (TotemTotalScore <= 0)
+        {
+            return 0;
+        }
         return score * TotemTotalRewards / TotemTotalScore;
     }
 
