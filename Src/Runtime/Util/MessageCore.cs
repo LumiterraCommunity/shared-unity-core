@@ -23,4 +23,9 @@ public static class MessageCore
     /// 副本关卡状态更新 p0 = 关卡索引 p1 = 关卡状态
     /// </summary>
     public static Action<int, eInstancingStatusType> LevelStatusUpdate = delegate { };
+
+    /// <summary>
+    /// 副本关卡玩家数据更新
+    /// </summary>
+    public static Action InstancingPlayerDataUpdate = delegate { };
 }
