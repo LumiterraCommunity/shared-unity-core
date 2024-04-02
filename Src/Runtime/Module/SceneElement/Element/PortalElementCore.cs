@@ -46,6 +46,9 @@ public class PortalElementCore : SceneElementCore
     [Header("最大使用次数")]
     public int MaxUseNum = 0;
 
+    [Header("奖励倍率")]
+    public float RewardRate = 1;
+
     public bool IsRun = false;
     private long _startTime = long.MaxValue;
     private float _curActivateTime = 0;
@@ -78,6 +81,7 @@ public class PortalElementCore : SceneElementCore
         SceneElementData.Portal.StatusType = (int)StatusType;
         SceneElementData.Portal.CurUseNum = CurUseNum;
         SceneElementData.Portal.CurTypeIndex = CurTypeIndex;
+        SceneElementData.Portal.RewardRate = RewardRate;
     }
 
     public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum, int curTypeIndex)

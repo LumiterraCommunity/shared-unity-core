@@ -15,12 +15,14 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
 {
     public bool IsInit { get; set; } = false; //是否初始化
     public eInstancingStatusType StatusType = eInstancingStatusType.InstancingInactive;       //副本状态
-
     public List<TLevel> LevelList = new(); //关卡列表
+    public ListMap<long, PlayerInstancingData> PlayerInstancingData = new(); //玩家副本数据
     public int CurLevelIndex = 0; //当前关卡
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
     public bool IsMatchComplete = false; //是否匹配完成
+    public float TotemTotalRewards = 0; //图腾总奖励
+    public float TotemTotalScore = 0;   //图腾总分数
     public static GameObject Root { get; private set; }
     private void Awake()
     {
@@ -134,6 +136,19 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     protected virtual void LevelStatusChange(int index)
     {
 
+    }
+
+    public virtual PlayerInstancingData GetOrAddPlayerData(long playerId)
+    {
+        if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
+        {
+            return playerData;
+        }
+
+        playerData = new();
+        playerData.SetData(playerId);
+        _ = PlayerInstancingData.Add(playerId, playerData);
+        return playerData;
     }
 
 }
