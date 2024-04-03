@@ -6,6 +6,7 @@
  * 
  */
 using System.Collections.Generic;
+using System.Numerics;
 public class PlayerInstancingData
 {
     public long PlayerId; //玩家ID
@@ -14,6 +15,8 @@ public class PlayerInstancingData
     public HashSet<int> CompleteLevelList = new(); //已经完成的关卡
     public int Score;                              //副本分数
     public float TotemScore;                       //图腾分数
+    public bool IsWaitTransfer; //是否等待传送
+    public Vector3? TransferPos = null;    //传送位置
     protected GameMessageCore.InstancingPlayerData NetData = new();
     public void SetData(long playerId, int score = 0, float totemScore = 0)
     {

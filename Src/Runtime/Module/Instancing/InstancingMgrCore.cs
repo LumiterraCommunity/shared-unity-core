@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本管理
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
  * 
  */
 using System;
@@ -21,8 +21,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
     public bool IsMatchComplete = false; //是否匹配完成
-    public float TotemTotalRewards = 0; //图腾总奖励
-    public float TotemTotalScore = 0;   //图腾总分数
+    public InstancingTotemData TotemData = new(); //副本图腾数据
     public static GameObject Root { get; private set; }
     private void Awake()
     {
@@ -151,13 +150,44 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         return playerData;
     }
 
+
+    public PlayerInstancingData GetPlayerData(long playerId)
+    {
+        if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
+        {
+            return playerData;
+        }
+        return null;
+    }
     public float ScoreToRewards(float score)
     {
-        if (TotemTotalScore <= 0)
+        if (TotemData.TotalScore <= 0)
         {
             return 0;
         }
-        return score * TotemTotalRewards / TotemTotalScore;
+        return score * TotemData.BaseRewards / TotemData.TotalScore;
     }
-
+    public float RandomRewardsRate(int areaLevel)
+    {
+        if (TotemData.BaseRewards <= 0)
+        {
+            return 0;
+        }
+        float curRate = TotemData.TotalRewards / TotemData.BaseRewards;
+        float mimRateRange = 0.66f;
+        float maxRateRange = 0.83f;
+        if (TableUtil.TryGetGameValue(eGameValueID.InstancingRewardsRateRange, out DRGameValue drGameValue))
+        {
+            mimRateRange = drGameValue.ValueArray[0] * TableDefine.THOUSANDTH_2_FLOAT;
+            maxRateRange = drGameValue.ValueArray[1] * TableDefine.THOUSANDTH_2_FLOAT;
+        }
+        //根据区域等级调整奖励倍率, 3级区域不调整, 2级区域调整66%-83%, 1级区域调整66%-83%
+        int level = Math.Max(0, InstancingDefine.MAX_AREA_LEVEL - areaLevel);
+        for (int i = 0; i < level; i++)
+        {
+            float rate = UnityEngine.Random.Range(mimRateRange, maxRateRange);
+            curRate *= rate;
+        }
+        return curRate;
+    }
 }

@@ -131,6 +131,12 @@ public static class TableUtil
         return drGameValue;
     }
 
+    public static bool TryGetGameValue(eGameValueID id, out DRGameValue drGameValue)
+    {
+        drGameValue = GFEntryCore.DataTable.GetDataTable<DRGameValue>().GetDataRow((int)id);
+        return drGameValue != null;
+    }
+
     /// <summary>
     /// 获取天赋节点收益，可能返回null
     /// </summary>

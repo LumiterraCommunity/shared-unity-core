@@ -82,6 +82,7 @@ public enum eGameValueID
     KillCostEnergy = 50,//击杀行为消耗精力 千分位
     PetAbilityDisplays = 52,//宠物特性对外名称显示
     offlineTimeout = 53, // 离线超时时间
+    InstancingRewardsRateRange = 55, // 副本奖励倍率范围
 }
 
 // public static class GameValueID
