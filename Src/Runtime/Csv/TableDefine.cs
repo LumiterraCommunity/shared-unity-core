@@ -79,6 +79,8 @@ public enum eGameValueID
     PetProduceHungerRate = 47,//生产时的宠物饥饿度消耗倍率
     KillCostEnergy = 50,//击杀行为消耗精力 千分位
     PetAbilityDisplays = 52,//宠物特性对外名称显示
+
+    InstancingRewardsRateRange = 55, // 副本奖励倍率范围
 }
 
 // public static class GameValueID
