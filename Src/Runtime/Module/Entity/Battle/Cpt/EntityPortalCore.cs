@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-10-09 10:43:29
  * @Description: 实体传送组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/EntityPortalCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/EntityPortalCore.cs
  * 
  */
 using UnityEngine;
@@ -37,7 +37,7 @@ public class EntityPortalCore : EntityBaseComponent
         UpdateStatusRunning();
     }
 
-    private void UpdateStatusActivate()
+    protected virtual void UpdateStatusActivate()
     {
         if (StatusType != ePortalStatusType.Activate)
         {
@@ -48,12 +48,10 @@ public class EntityPortalCore : EntityBaseComponent
         {
             return;
         }
-
-        WaitTriggerTime = PortalElement.TriggerPortalTime;
-        StatusType = ePortalStatusType.Running;
+        StartRunning();
     }
 
-    private void UpdateStatusRunning()
+    protected virtual void UpdateStatusRunning()
     {
         if (StatusType != ePortalStatusType.Running)
         {
@@ -62,7 +60,7 @@ public class EntityPortalCore : EntityBaseComponent
 
         if (!CheckIsTrigger())
         {
-            StatusType = ePortalStatusType.Activate;
+            StopRunning();
             return;
         }
 
@@ -73,7 +71,9 @@ public class EntityPortalCore : EntityBaseComponent
             WaitTriggerTime = 0;
             StatusType = ePortalStatusType.Finish;
         }
+        UpdateRunning();
     }
+
     private void EnterPortalElement(PortalElementCore portalElementCore)
     {
         if (PortalElement != null)
@@ -81,7 +81,6 @@ public class EntityPortalCore : EntityBaseComponent
             return;
         }
         PortalElement = portalElementCore;
-        StatusType = ePortalStatusType.Activate;
     }
 
     private void ExitPortalElement(PortalElementCore portalElementCore)
@@ -91,7 +90,7 @@ public class EntityPortalCore : EntityBaseComponent
             return;
         }
         PortalElement = null;
-        StatusType = ePortalStatusType.Activate;
+        StopRunning();
     }
     protected virtual void TriggerPortalElement()
     {
@@ -109,5 +108,21 @@ public class EntityPortalCore : EntityBaseComponent
             return false;
         }
         return true;
+    }
+
+    protected virtual void StartRunning()
+    {
+        WaitTriggerTime = PortalElement.TriggerPortalTime;
+        StatusType = ePortalStatusType.Running;
+    }
+    protected virtual void StopRunning()
+    {
+        WaitTriggerTime = 0;
+        StatusType = ePortalStatusType.Activate;
+    }
+
+    protected virtual void UpdateRunning()
+    {
+
     }
 }
