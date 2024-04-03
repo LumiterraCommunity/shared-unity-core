@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
@@ -31,8 +31,15 @@ public class PortalElementCore : SceneElementCore
 
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
-    [Header("传送门特效")]
-    public GameObject PortalElementEffect;
+
+    [Serializable]
+    public struct PortalEffectInfo
+    {
+        public ePortalStatusType StatusType;
+        public GameObject PortalElementEffect;
+    }
+    [Header("特效列表")]
+    public List<PortalEffectInfo> PortalElementEffect;
 
     [Header("传送门激活时间(s)")]
     public float ActivateTime = 0;
@@ -65,10 +72,6 @@ public class PortalElementCore : SceneElementCore
         UpdateStatusInactive();
         UpdateStatusActivate(Time.deltaTime);
         UpdateStatusRunning();
-        if (PortalElementEffect != null)
-        {
-            PortalElementEffect.SetActive(StatusType != ePortalStatusType.Hide);
-        }
     }
     public override void UpdateElementData()
     {
@@ -92,12 +95,14 @@ public class PortalElementCore : SceneElementCore
         CurTypeIndex = curTypeIndex;
         IsRun = true;
         UpdateElementData();
+        UpdatePortalElementEffect();
     }
 
     public override void InitElementData(SceneElementData netData)
     {
         PortalElementData portal = netData.Portal;
         StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum, portal.CurTypeIndex);
+        SetRewardRate(portal.RewardRate);
     }
 
     private void UpdateStatusHide()
@@ -111,7 +116,7 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        StatusType = ePortalStatusType.Inactive;
+        SetStatusType(ePortalStatusType.Inactive);
     }
     private void UpdateStatusInactive()
     {
@@ -121,7 +126,7 @@ public class PortalElementCore : SceneElementCore
         }
         if (CheckHasActivate())
         {
-            StatusType = ePortalStatusType.Activate;
+            SetStatusType(ePortalStatusType.Activate);
             _curActivateTime = 0;
         }
     }
@@ -135,15 +140,14 @@ public class PortalElementCore : SceneElementCore
         }
         if (!CheckHasActivate())
         {
-            StatusType = ePortalStatusType.Inactive;
+            SetStatusType(ePortalStatusType.Inactive);
         }
         else
         {
             _curActivateTime += deltaTime;
             if (_curActivateTime >= ActivateTime)
             {
-                StatusType = ePortalStatusType.Running;
-                UpdateElementData();
+                SetStatusType(ePortalStatusType.Running);
             }
         }
     }
@@ -157,8 +161,7 @@ public class PortalElementCore : SceneElementCore
 
         if (CurUseNum >= MaxUseNum)
         {
-            StatusType = ePortalStatusType.Finish;
-            UpdateElementData();
+            SetStatusType(ePortalStatusType.Finish);
         }
     }
 
@@ -235,5 +238,24 @@ public class PortalElementCore : SceneElementCore
     {
         RewardRate = rate;
         UpdateElementData();
+    }
+
+    public void SetStatusType(ePortalStatusType statusType)
+    {
+        StatusType = statusType;
+        UpdateElementData();
+        UpdatePortalElementEffect();
+    }
+
+    protected void UpdatePortalElementEffect()
+    {
+        for (int i = 0; i < PortalElementEffect.Count; i++)
+        {
+            PortalEffectInfo effectInfo = PortalElementEffect[i];
+            if (effectInfo.PortalElementEffect != null)
+            {
+                effectInfo.PortalElementEffect.SetActive(effectInfo.StatusType == StatusType);
+            }
+        }
     }
 }
