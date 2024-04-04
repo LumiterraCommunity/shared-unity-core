@@ -249,13 +249,21 @@ public class PortalElementCore : SceneElementCore
 
     protected void UpdatePortalElementEffect()
     {
+        int index = -1;
         for (int i = 0; i < PortalElementEffect.Count; i++)
         {
             PortalEffectInfo effectInfo = PortalElementEffect[i];
-            if (effectInfo.PortalElementEffect != null)
+            effectInfo.PortalElementEffect.SetActive(false);
+            if (effectInfo.StatusType == StatusType)
             {
-                effectInfo.PortalElementEffect.SetActive(effectInfo.StatusType == StatusType);
+                index = i;
             }
         }
+
+        if (index >= 0)
+        {
+            PortalElementEffect[index].PortalElementEffect.SetActive(true);
+        }
+
     }
 }
