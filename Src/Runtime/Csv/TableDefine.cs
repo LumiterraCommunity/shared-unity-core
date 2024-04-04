@@ -29,6 +29,7 @@ public static class TableDefine
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
+    public const int TOKEN_DECIMALS = 18; // 代币小数位数
 
     public const int DECIMALS_INT = 10;
 
