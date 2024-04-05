@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
@@ -253,10 +253,13 @@ public class PortalElementCore : SceneElementCore
         for (int i = 0; i < PortalElementEffect.Count; i++)
         {
             PortalEffectInfo effectInfo = PortalElementEffect[i];
-            effectInfo.PortalElementEffect.SetActive(false);
-            if (effectInfo.StatusType == StatusType)
+            if (effectInfo.PortalElementEffect != null)
             {
-                index = i;
+                effectInfo.PortalElementEffect.SetActive(false);
+                if (effectInfo.StatusType == StatusType)
+                {
+                    index = i;
+                }
             }
         }
 
