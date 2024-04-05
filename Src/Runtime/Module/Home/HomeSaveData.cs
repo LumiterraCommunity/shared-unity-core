@@ -9,13 +9,25 @@ using Newtonsoft.Json;
 public class HomeSaveData
 {
     /// <summary>
-    /// 所有非空白idle状态的土地列表 空白的不存储
+    /// 所有非空白idle状态的普通土地列表 空白的不存储 有种子实体的特殊地块也不存储
     /// </summary>
-    public List<SoilSaveData> SoilSaveDataList;
-
-    public List<HomeResourcesAreaSaveData> HomeAreaSaveDataList;
-    public List<AnimalSaveData> AnimalSaveDataList;
-    public AnimalSceneSaveData AnimalSceneSaveData;
+    public List<SoilSaveData> GeneralSoilSaveDataList;
+    /// <summary>
+    /// 采集物区域数据
+    /// </summary>
+    public List<HomeResourcesAreaSaveData> ResourceAreaSaveDataList;
+    /// <summary>
+    /// 场景数据 食盆等
+    /// </summary>
+    public HomeSceneSaveData SceneSaveData;
+    /// <summary>
+    /// 宠物数据 为null说明没数据
+    /// </summary>
+    public GrpcPetData[] PetDataArray;
+    /// <summary>
+    /// 图腾数据 为null说明没数据
+    /// </summary>
+    public GrpcTotemData[] TotemDataArray;
     /// <summary>
     /// 上次保存的时间戳
     /// </summary>
@@ -32,7 +44,7 @@ public class HomeSaveData
     /// <param name="data"></param>
     /// <param name="compression">是否需要压缩 默认false</param>
     /// <returns></returns>
-    public static string ToJson(object data, bool compression = false)
+    public static string ToJson(object data, bool compression = false)//TODO: totem 改下默认true
     {
         string json = JsonConvert.SerializeObject(data, Formatting.None);
         if (!compression)

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using GameMessageCore;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Vector3 = UnityEngine.Vector3;
 
 /// <summary>
 /// 初始化家园逻辑core 相当于启动逻辑共享部分
@@ -70,13 +72,13 @@ public class InitHomeLogicCore : MonoBehaviour
     /// <param name="saveData"></param>
     public void RestoreSoilStatus(HomeSaveData saveData)
     {
-        if (saveData == null || saveData.SoilSaveDataList == null || saveData.SoilSaveDataList.Count == 0)
+        if (saveData == null || saveData.GeneralSoilSaveDataList == null || saveData.GeneralSoilSaveDataList.Count == 0)
         {
             Log.Info($"saveData is null, init soil default status");
             return;
         }
 
-        foreach (SoilSaveData data in saveData.SoilSaveDataList)
+        foreach (SoilSaveData data in saveData.GeneralSoilSaveDataList)
         {
             ulong id = data.Id;
             HomeSoilCore soil = HomeModuleCore.SoilMgr.GetSoil(id);
@@ -87,6 +89,42 @@ public class InitHomeLogicCore : MonoBehaviour
             }
 
             soil.SoilEvent.MsgInitStatus?.Invoke(data);
+        }
+    }
+
+    /// <summary>
+    /// 从家园保存数据中恢复实体种子状态 可以根据业务层数据结构分多次恢复也可以
+    /// </summary>
+    public void RestoreSeedEntityStatus(IEnumerable<ProxySeedEntityData> entityProxyDataList)
+    {
+        if (entityProxyDataList == null)
+        {
+            return;
+        }
+
+        foreach (ProxySeedEntityData data in entityProxyDataList)
+        {
+            try
+            {
+                HomeSoilCore soil = HomeModuleCore.SoilMgr.GetSoil(data.SoilData.Id);
+                if (soil == null)
+                {
+                    Log.Error($"not found soil form db, id:{data.SoilData.Id}");
+                    continue;
+                }
+
+                //填充实体数据
+                SoilSeedEntityProxyDataProcess process = soil.GetComponent<SoilSeedEntityProxyDataProcess>();
+                process.SetInitProxyData(data);
+
+                //恢复土地状态 顺序不能错 要等上面先填充实体数据 状态恢复生成实体时会用到
+                soil.SoilEvent.MsgInitStatus?.Invoke(new SoilSaveData(data.SoilData));
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"totem restore is error, id:{data.SoilData.Id}error:{e}");
+                continue;
+            }
         }
     }
 }

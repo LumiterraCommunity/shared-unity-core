@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
@@ -28,8 +29,8 @@ public class SoilLooseStatusCore : SoilStatusCore
         {
             if (action == eAction.Sowing)
             {
-                int seedCid = (int)actionData;
-                SoilData.SetSeedCid(seedCid);
+                (int seedCid, string seedNftId, long seedEntityId) = (ValueTuple<int, string, long>)actionData;
+                SoilData.SetSeedCid(seedCid, seedNftId, seedEntityId);
                 ChangeState(eSoilStatus.SeedThirsty);
             }
             else if (action == eAction.Eradicate)

@@ -1,7 +1,10 @@
+using System;
+using GameMessageCore;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
+using Vector3 = UnityEngine.Vector3;
 
 /// <summary>
 /// 家园单块土地实体
@@ -29,13 +32,30 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         return 0;
     }
 
+    /// <summary>
+    /// 土地上的功能性种子实体 只有功能性种子成熟后且没有收割掉时才不为null 在SeedEntityMgr中管理也能找到
+    /// </summary>
+    /// <value></value>
+    public SeedEntityCore SeedEntity { get; private set; }
+
     protected virtual void Awake()
     {
         SoilEvent = gameObject.AddComponent<SoilEvent>();
         StatusCtrl = gameObject.AddComponent<SoilStatusCtrl>();
         SoilData = gameObject.AddComponent<SoilData>();
+        _ = gameObject.AddComponent<SoilSeedEntityProxyDataProcess>();
 
         InitStatus(StatusCtrl);
+    }
+
+    protected virtual void Start()
+    {
+        SoilEvent.OnFunctionSeedRipe += OnFunctionSeedRipe;
+    }
+
+    protected virtual void OnDestroy()
+    {
+        SoilEvent.OnFunctionSeedRipe -= OnFunctionSeedRipe;
     }
 
     /// <summary>
@@ -64,7 +84,8 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         {
             if (action == eAction.Sowing)
             {
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, toolCid);
+                (string seedNftId, long seedEntityId) = (ValueTuple<string, long>)actionData;
+                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, (toolCid, seedNftId, seedEntityId));
             }
             else if (action == eAction.Manure)
             {
@@ -89,5 +110,70 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     public void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
         SoilEvent.OnBeHit?.Invoke(skillId);
+    }
+
+    private void OnFunctionSeedRipe(GameMessageCore.SeedFunctionType type)
+    {
+        GameObject entityRoot = GameObjectUtil.CreateGameObject("FunctionEntityRoot", LogicRoot.transform);
+        //实体id 如果是数据服分配的id 就用数据服分配的id 如果没有就用土地id
+        long entityId = SoilData.SaveData.SeedData.SeedEntityId > 0 ? SoilData.SaveData.SeedData.SeedEntityId : (long)SoilData.SaveData.Id;
+        SeedEntityCore entity = HomeModuleCore.SeedEntityMgr.AddEntity(entityId, type, entityRoot);
+        SetSeedEntity(entity);
+
+        entity.Init(this);
+    }
+
+    /// <summary>
+    /// 设置土地上的实体 建立关联关系
+    /// </summary>
+    /// <param name="entity"></param>
+    private void SetSeedEntity(SeedEntityCore entity)
+    {
+        if (SeedEntity != null && entity != null)
+        {
+            Log.Error("土地上已经有实体了");
+            SetSeedEntity(null);
+            return;
+        }
+
+        if (entity != null)//添加实体关系
+        {
+            SeedEntity = entity;
+            entity.EntityEvent.OnEntityRemoved += OnEntityRemoved;
+        }
+        else//移除实体关系
+        {
+            if (SeedEntity != null)
+            {
+                SeedEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
+                SeedEntity = null;
+            }
+        }
+    }
+
+    private void OnEntityRemoved()
+    {
+        SetSeedEntity(null);
+
+        SoilEvent.OnFunctionSeedEntityRemoved?.Invoke();
+    }
+
+    /// <summary>
+    /// 生成一份用来传输的种子实体数据 上面会由具体实体上的特殊数据
+    /// </summary>
+    /// <returns></returns>
+    public ProxySeedEntityData ToProxySeedEntityData()
+    {
+        ProxySeedEntityData proxyData = new()
+        {
+            SoilData = SoilData.SaveData.ToProxySoilData(),
+        };
+
+        if (SeedEntity != null && SeedEntity.TryGetComponent(out ISeedEntitySpecialData specialData))
+        {
+            specialData.FillProxyData(proxyData);
+        }
+
+        return proxyData;
     }
 }

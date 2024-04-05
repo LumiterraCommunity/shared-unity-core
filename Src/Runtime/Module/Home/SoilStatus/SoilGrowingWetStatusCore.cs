@@ -8,7 +8,7 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
 {
     public override eSoilStatus StatusFlag => eSoilStatus.GrowingWet;
 
-    public override eAction SupportAction => eAction.Eradicate;
+    public override eAction SupportAction => HomeUtilCore.JudgeSeedCanDestroy(SoilData) ? eAction.Eradicate : eAction.None;
 
     protected override float AutoEnterNextStatusTime => SoilData.SeedEveryGrowStageTime;
 
@@ -32,11 +32,11 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
     {
         if (SoilData.SaveData.SeedData.NeedPerish)
         {
-            ChangeState(eSoilStatus.HarvestPerish);
+            ChangeState(eSoilStatus.RipePerish);
         }
         else
         {
-            ChangeState(eSoilStatus.Harvest);
+            ChangeState(eSoilStatus.Ripe);
         }
     }
 

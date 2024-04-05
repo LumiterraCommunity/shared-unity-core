@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using GameMessageCore;
 /// <summary>
 /// 家园工具core
 /// </summary>
@@ -36,5 +38,50 @@ public static class HomeUtilCore
                 totalHappyUsed += animal.Data.SaveData.Happiness;
         }
         return totalHappyUsed;
+    }
+
+    /// <summary>
+    /// 判断种子是否可以被摧毁 不能摧毁的往往体现在如何如果这个种子也要长成熟
+    /// </summary>
+    /// <param name="soilData"></param>
+    /// <returns></returns>
+    public static bool JudgeSeedCanDestroy(SoilData soilData)
+    {
+        if (soilData == null)
+        {
+            return false;
+        }
+
+        if (soilData.DRSeed == null)
+        {
+            return false;
+        }
+
+        if (soilData.DRSeed.FunctionType == (int)SeedFunctionType.Totem)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    /// <summary>
+    /// 判断种子是否是功能性实体类型
+    /// </summary>
+    /// <param name="soilData"></param>
+    /// <returns></returns>
+    public static bool JudgeSeedIsFunctionEntityType(SoilData soilData)
+    {
+        if (soilData == null)
+        {
+            return false;
+        }
+
+        if (soilData.DRSeed == null)
+        {
+            return false;
+        }
+
+        return soilData.DRSeed.FunctionType != (int)SeedFunctionType.None;
     }
 }

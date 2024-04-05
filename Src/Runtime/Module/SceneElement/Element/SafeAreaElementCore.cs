@@ -41,6 +41,11 @@ public class SafeAreaElementCore : SceneElementCore
     public float MinPortalCoefficient = 10f;
     [Header("最大传送门数量系数")]
     public float MaxPortalCoefficient = 5f;
+
+    [Header("最小结算传送门数量系数")]
+    public float MinSettlePortalCoefficient = 10f;
+    [Header("最大结算传送门数量系数")]
+    public float MaxSettlePortalCoefficient = 5f;
     private int _curIndex = 0;
     private float _waitTime = 0;
     private long _startTime = 0;
