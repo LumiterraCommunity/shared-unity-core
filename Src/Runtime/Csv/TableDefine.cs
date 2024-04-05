@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -29,6 +29,8 @@ public static class TableDefine
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
+
+    public const int DECIMALS_INT = 10;
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
