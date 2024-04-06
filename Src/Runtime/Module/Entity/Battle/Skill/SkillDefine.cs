@@ -22,7 +22,8 @@ public enum eSkillGroupType : int
     Rescue = 4,     // 救援
     Harvest = 5,    // 收获
     Talent = 6,     // 天赋技能
-    Item = 7,       // 道具
+    InHandItem = 7,     // 手持道具技能组
     Extend = 8,     // 扩展技能组
     Pet = 9,        // 宠物技能组
+    Item,           //道具技能组
 }
