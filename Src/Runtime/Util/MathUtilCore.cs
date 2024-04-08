@@ -197,7 +197,13 @@ public static class MathUtilCore
         bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
         return bigSlippage;
     }
-
+    public static System.Numerics.BigInteger Double2BigInteger(double num, int exponent, int decimals)
+    {
+        double value = num * Math.Pow(10, decimals);
+        System.Numerics.BigInteger bigSlippage = new(value);
+        bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
+        return bigSlippage;
+    }
     /// <summary>
     /// 判断一个数是否是2的幂 0返回false
     /// </summary>
