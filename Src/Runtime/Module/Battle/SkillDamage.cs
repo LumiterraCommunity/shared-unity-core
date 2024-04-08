@@ -87,7 +87,7 @@ public class SkillDamage
         float res = coreDamage * (1 + toAttribute.GetRealValue(attributeClassify.Vulnerable));
 
         //PVP伤害有额外系数
-        if (EntityUtilCore.EntityTypeIsPlayer(fromAttribute.RefEntity.BaseData.Type) && EntityUtilCore.EntityTypeIsPlayer(toAttribute.RefEntity.BaseData.Type))
+        if (EntityUtilCore.EntityTypeIsPlayerUnit(fromAttribute.RefEntity.BaseData.Type) && EntityUtilCore.EntityTypeIsPlayerUnit(toAttribute.RefEntity.BaseData.Type))
         {
             res *= TableUtil.GetGameValue(eGameValueID.PVPDamageRate).Value * TableDefine.THOUSANDTH_2_FLOAT;
         }
