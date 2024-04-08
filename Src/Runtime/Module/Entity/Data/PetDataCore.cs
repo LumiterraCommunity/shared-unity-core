@@ -60,6 +60,8 @@ public class PetDataCore : EntityBaseComponent
         AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
         IsFollowing = petData.Status;
         SetPetCfgId(petData.Cid);
+
+        OnInited();
     }
 
     public void InitFromProxyPetData(ProxyAnimalBaseData proxyData)
@@ -70,6 +72,15 @@ public class PetDataCore : EntityBaseComponent
         AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
         IsFollowing = proxyData.Status;
         SetPetCfgId(proxyData.Cid);
+
+        OnInited();
+    }
+
+    /// <summary>
+    /// 初始化完成
+    /// </summary>
+    protected virtual void OnInited()
+    {
     }
 
     /// <summary>
