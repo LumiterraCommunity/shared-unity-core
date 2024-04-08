@@ -97,18 +97,24 @@ public static class TableUtil
         }
     }
 
-    public static string GetLanguage(int id)
+    /// <summary>
+    /// 获取配置表中的语言
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="defaultStr">默认字符串，如果传入了该参数，读取不到目标语言的时候返回该值</param>
+    /// <returns></returns>
+    public static string GetLanguage(int id, string defaultStr = "")
     {
         DRLanguage drLanguage = GFEntryCore.DataTable.GetDataTable<DRLanguage>().GetDataRow(id);
         if (drLanguage == null)
         {
             Log.Error($"GetLanguage DRLanguage is null id = {id}");
-            return $"#{id}";
+            return string.IsNullOrEmpty(defaultStr) ? $"#{id}" : defaultStr;
         }
 
         if (string.IsNullOrEmpty(drLanguage.Value))//如果没有翻译为空
         {
-            return $"#{id} empty";
+            return string.IsNullOrEmpty(defaultStr) ? $"#{id} empty" : defaultStr;
         }
 
         return drLanguage.Value;
