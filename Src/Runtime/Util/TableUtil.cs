@@ -114,7 +114,7 @@ public static class TableUtil
 
         if (string.IsNullOrEmpty(drLanguage.Value))//如果没有翻译为空
         {
-            return string.IsNullOrEmpty(defaultStr) ? $"#{id}" : defaultStr;
+            return string.IsNullOrEmpty(defaultStr) ? $"#{id} empty" : defaultStr;
         }
 
         return drLanguage.Value;
