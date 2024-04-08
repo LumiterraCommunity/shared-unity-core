@@ -15,6 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,Versi aplikasi telah diperbarui. Silakan restart aplikasi.
 ,10001010,通用,Permainan dimulai
 ,10001011,通用,Diperoleh{0}
+,10001012,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -189,6 +190,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Bahan
 ,20110020,nft 关键字 在配置中的类型,Bangunan
 ,20110021,nft 关键字 在配置中的类型,Telur Hewan Peliharaan
+,20110022,,
 ,20120005,登录,Mulai menghubungkan dompet
 ,20120006,登录,Pembaruan menghubungkan dompet
 ,20120007,登录,Selesai menghubungkan dompet
@@ -293,7 +295,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Tantangan [color=#FF9F2F]{name=Abyss canyon}[/color] gagal
 ,20220018,战报详情,[color=#F7CE3D]Anda[/color] mendapatkan hadiah karena menyelesaikan level
 ,20220019,战报详情,"[color=#F7CE3D]Anda[/color] mendapatkan Bonus Totem sebesar <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
-,20220020,战报详情,"[color=#F7CE3D]Anda[/color] mendapatkan Bonus Tiket sebesar <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
 ,20230000,宠物,Hewan peliharaan mengikuti.
 ,20230001,宠物,Hewan peliharaan berhenti mengikuti.
 ,20230002,宠物,Pencucian sumsum hewan peliharaan berhasil.
@@ -303,6 +304,10 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,Anda telah melepaskan hewan peliharaan Anda.
 ,20230007,宠物,Penggantian nama hewan peliharaan selesai.
 ,20240001,图腾,Berhasil mencapai
+,"20240002
+",,
+,20240003,,
+,20240004,,
 ,20250000,仓库,Harap perpanjang sewa penyimpanan sebelum menyimpan.
 ,20250001,仓库,Harap perpanjang sewa penyimpanan sebelum mengambilnya.
 ,20250002,,Penyimpanan penuh.

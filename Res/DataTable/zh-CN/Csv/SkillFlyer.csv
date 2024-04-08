@@ -14,11 +14,11 @@ Skill_Laser,2000,10000,0,4,13
 Skill_EmptyFlyer,3000,0,2000,5,14
 Skill_Push_flyer,10000,5000,0,1,15
 Skill_Bomb_flyer,10000,1500,0,5,16
-Skill_Snowball_flyer,2000,1500,0,5,17
+Skill_Snowball_flyer,,1500,0,5,17
 Skill_SnowStorm_empty,2000,0,1000,5,18
 Skill_SkeletonArrow,2000,2000,0,1,19
 Skill_SkeletonArrowRain,2000,0,1000,5,20
-Skill_fireball1,2000,1000,0,1,21
+Skill_fireball,2000,1000,0,1,21
 Skill_TreeBoss,2000,0,1000,5,22
 Skill_ArcticBoss,2000,0,3000,5,23
 Skill_SoulBoss,2000,0,2000,5,24
@@ -36,3 +36,5 @@ Skill_iceworld,1000,0,300,5,34
 Projectile_bluebullet,1000,1000,500,1,36
 Skill_fireball1,2000,1000,0,1,37
 Skill_spear2,1000,3000,,1,38
+Skill_blackfireball,1000,,10,5,39
+Skill_darkfireball,1500,,300,1,40

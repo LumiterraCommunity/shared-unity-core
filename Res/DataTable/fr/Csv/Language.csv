@@ -15,6 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,La version de l'application a été mise à jour. Veuillez redémarrer l'application.
 ,10001010,通用,Début du jeu
 ,10001011,通用,Obtenu{0}
+,10001012,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -189,6 +190,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Matériau 
 ,20110020,nft 关键字 在配置中的类型,Construction 
 ,20110021,nft 关键字 在配置中的类型,Œuf d'animal de compagnie
+,20110022,,
 ,20120005,登录,Connexion au portefeuille démarrée 
 ,20120006,登录,Mise à jour de la connexion au portefeuille 
 ,20120007,登录,Connexion au portefeuille terminée 
@@ -293,7 +295,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Échec du défi du [color=#FF9F2F]{name=Abyss canyon}[/color]
 ,20220018,战报详情,[color=#F7CE3D]Vous[/color] avez été récompensé(e) pour avoir terminé le niveau
 ,20220019,战报详情,"[color=#F7CE3D]Vous[/color] avez obtenu un bonus Totem <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
-,20220020,战报详情,"[color=#F7CE3D]Vous[/color] avez obtenu un bonus de billet <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
 ,20230000,宠物,L'animal de compagnie vous suit.
 ,20230001,宠物,L'animal de compagnie ne vous suit plus.
 ,20230002,宠物,Le lavage de moelle de l'animal de compagnie a réussi.
@@ -303,6 +304,10 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,Vous avez libéré votre animal de compagnie.
 ,20230007,宠物,Le changement de nom de l'animal de compagnie est terminé.
 ,20240001,图腾,Succès accompli.
+,"20240002
+",,
+,20240003,,
+,20240004,,
 ,20250000,仓库,Veuillez renouveler le bail de stockage avant de le ranger.
 ,20250001,仓库,Veuillez renouveler le bail de stockage avant de le retirer.
 ,20250002,,Le stockage est plein.

@@ -9,9 +9,9 @@ Slice_12,27,15,0,6,Slice_12,5,1,750,['Kayu Biasa Tingkat 1'],0,100,1,100
 Slice_11,32,15,100,5,Slice_11,14,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
 2D_caijiziyuan_bingyuanzhiwu,33,21.21320344,200,5,2D_caijiziyuan_bingyuanzhiwu,15,2,1500,['Cendawan Beku Tingkat 2'],0,200,2,0
 2D_caijiziyuan_anheimucai,29,30,0,6,2D_caijiziyuan_anheimucai,16,3,2250,Lv 3 Kayu Gelap Tingkat 3,0,300,3,300
-homeresource-19,0,15,100,5,2D_caijiziyuan_cao2 ,19,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
+homeresource-19,0,0,100,5,2D_caijiziyuan_cao2 ,19,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
 homeresource-20,0,0,100,5,2D_caijiziyuan_cao1,20,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
-2D_caijiziyuan_cao3,0,15,100,5,2D_caijiziyuan_cao3,21,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
+2D_caijiziyuan_cao3,0,0,100,5,2D_caijiziyuan_cao3,21,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
 homeresource-22,0,0,100,5,2D_caijiziyuan_zhuangshicaoye_4,22,1,750,,0,100,1,0
 homeresource-24,0,0,100,5,2D_caijiziyuan_zhuangshicaoye_3,24,1,750,,0,100,1,0
 homeresource-25,0,0,100,5,2D_caijiziyuan_zhuangshicaoye_2,25,1,750,,0,100,1,0
@@ -22,7 +22,7 @@ homeresource-29,0,0,0,6,2D_caijiziyuan_kushu_1,29,1,750,['Kayu Biasa Tingkat 1']
 homeresource-30,0,0,100,5,2D_caijiziyuan_kucao1,30,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
 homeresource-31,0,0,100,5,2D_caijiziyuan_kucao2,31,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
 homeresource-32,0,0,100,5,2D_caijiziyuan_kucao3,32,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
-homeresource-33,32,0,100,5,2D_caijiziyuan_kucao4,33,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
+homeresource-33,32,15,100,5,2D_caijiziyuan_kucao4,33,1,750,['Serat Tumbuhan Tingkat 1'],0,100,1,0
 2D_caijiziyuan_shikuai_4,26,15,0,7,2D_caijiziyuan_shikuai_4,34,1,750,['Mineral Tingkat 1'],100,100,1,0
 homeresource-35,27,15,0,6,2d_shu_06,35,1,750,['Kayu Biasa Tingkat 1'],0,100,1,100
 homeresource-36,28,21.21320344,0,6,2d_shu_07,36,2,1500,['Kayu Pokok Gurun Tingkat 2'],0,200,2,200
@@ -65,7 +65,7 @@ homeresource-75,57,42.42640687,0,6,图层 30,75,4,3000,Lv 4  Bunga Kaktus,0,400,
 homeresource-76,58,42.42640687,0,7,图层 17,76,4,3000,Lv 4  Racso,400,400,4,0
 homeresource-77,59,60,500,5,homeresource-77,77,5,3750,Lv 5  Intan Serat,0,500,5,0
 homeresource-78,60,60,0,6,未标题-2,78,5,3750,Lv 5  Intan Bentuk Nota,0,500,5,500
-homeresource-79,61,60,0,7,图层 36,79,5,3750,Lv 5  Intan Bentuk Beruang,500,500,5,0
+homeresource-79,61,60,0,7,图层 85,79,5,3750,Lv 5  Intan Bentuk Beruang,500,500,5,0
 homeresource-80,62,84.85281374,600,5,仙女草变异,80,6,4500,Lv 6  Bunga Elf,0,600,6,0
 homeresource-81,63,84.85281374,0,6,图层 20,81,6,4500,Lv 6  Bintang Kaleng,0,600,6,600
 homeresource-82,64,84.85281374,0,7,星星矿石,82,6,4500,Lv 6  Meteorit,600,600,6,0
