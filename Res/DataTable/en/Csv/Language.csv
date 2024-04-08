@@ -15,6 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,The application version has been updated. Please restart the application.
 ,10001010,通用,Game starting
 ,10001011,通用,Obtained{0}
+,10001012,通用,Lack of Items.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,HP Recovery
 ,10004023,装备属性-攻击点数,Attack Points
@@ -196,6 +197,7 @@ Sprite due to insufficient space"
 ,20110019,nft 关键字 在配置中的类型,Material
 ,20110020,nft 关键字 在配置中的类型,Building
 ,20110021,nft 关键字 在配置中的类型,Pet egg
+,20110022,,Totem
 ,20120005,登录,Connect wallet started
 ,20120006,登录,Connect wallet Updated
 ,20120007,登录,Connect wallet finished
@@ -300,7 +302,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] failed
 ,20220018,战报详情,[color=#F7CE3D]You[/color] was rewarded for clearing the level
 ,20220019,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus"
-,20220020,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Ticket Bonus"
 ,20230000,宠物,Pet  followed.
 ,20230001,宠物,Pet un-followed.
 ,20230002,宠物,Pet marrow washing success.
@@ -310,6 +311,10 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,You've released your pet.
 ,20230007,宠物,Pet rename completed.
 ,20240001,图腾,Achieve success
+,"20240002
+",,Investment Successful
+,20240003,,Withdrawal Successful
+,20240004,,"Calculating, please wait"
 ,20250000,仓库,Please renew the storage lease before storing.
 ,20250001,仓库,Please renew the lease of the storage before taking it out.
 ,20250002,,The storage is full.

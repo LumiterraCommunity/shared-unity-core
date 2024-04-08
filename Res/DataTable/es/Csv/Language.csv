@@ -15,6 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,"La versión de la aplicación ha sido actualizada. Por favor, reinicie la aplicación."
 ,10001010,通用,Iniciando el juego
 ,10001011,通用,Obtenido{0}
+,10001012,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Recuperación de HP
 ,10004023,装备属性-攻击点数,Puntos de Ataque
@@ -189,6 +190,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Material
 ,20110020,nft 关键字 在配置中的类型,Edificio
 ,20110021,nft 关键字 在配置中的类型,Huevo de mascota
+,20110022,,
 ,20120005,登录,Inicio de conexión de billetera
 ,20120006,登录,Actualización de conexión de billetera
 ,20120007,登录,Finalización de conexión de billetera
@@ -293,7 +295,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Desafiar el [color=#FF9F2F]{name=Abyss canyon}[/color] fallido
 ,20220018,战报详情,[color=#F7CE3D]Has[/color] sido recompensado por completar el nivel
 ,20220019,战报详情,"[color=#F7CE3D]Has[/color] obtenido un <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Bono de Tótem"
-,20220020,战报详情,"[color=#F7CE3D]Has[/color] obtenido un <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Bono de Boletos"
 ,20230000,宠物,Mascota seguida.
 ,20230001,宠物,Mascota dejó de seguir.
 ,20230002,宠物,Éxito en el lavado de médula de mascota.
@@ -303,6 +304,10 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,Has liberado a tu mascota.
 ,20230007,宠物,Renombrado de mascota completado.
 ,20240001,图腾,Logro alcanzado.
+,"20240002
+",,
+,20240003,,
+,20240004,,
 ,20250000,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de almacenar."
 ,20250001,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de sacarlo."
 ,20250002,,El almacenamiento está lleno.
