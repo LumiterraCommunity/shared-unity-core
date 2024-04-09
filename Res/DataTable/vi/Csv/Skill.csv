@@ -28,7 +28,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,,0,44,0,1,0,1,0,0,0,0,,,,,100,1,-1,Xây dựng sự kháng cự với chói mắt và tránh những rủi ro chiến đấu tiềm ẩn. ,,2,0,kiểm tra chóng mặt,,,1,0,,,,34,,,,,,0,,,,,,
 0,0,0,0,0,23,,0,45,0,1,0,1,0,0,0,0,attack,,,,0,1,1000,Xem xét và tối ưu hóa các kỹ năng liên quan đến máu trong bộ sưu tập của bạn. ,1,2,0,Kiểm tra kỹ năng chảy máu,,,1,0,1,,,,,,,,,,,,,,,
 0,0,0,0,0,36,,150,46,0,1,0,1,0,0,0,0,skill_sword_attack1,skill_sword_attack1,knife01,14,670,1,-1,Nâng cao khả năng chạy nhanh của bạn thông qua đánh giá kỹ năng tinh vi. ,45,2,0,Kiểm tra kỹ năng chạy nước rút,"4,300,300,27000,0",,1,0,1,,,,,,,,,,,,,,,
-0,0,0,0,0,,"41,42",0,47,0,1,0,1,0,0,0,0,A-skill-chongci,,playerroll,,400,1,-1,Luyện tập và cải thiện khả năng chạy nhanh của bạn trong quá trình chơi game. ,,2,0,Tấn công không vũ trang Kích hoạt tấn công bằng kiếm Bị động,"1,200,500,100,0",,1,0,1,,,,,,,,,,,,,,,
+0,0,0,0,0,,"41,42",0,47,0,1,0,1,0,0,0,0,A-skill-chongci,,playerroll,,400,1,-1,Luyện tập và cải thiện khả năng chạy nhanh của bạn trong quá trình chơi game. ,,2,0,Tấn công không vũ trang Kích hoạt tấn công bằng kiếm Bị động,"1,200,500,100,0",,1,0,,,,,,,,,,,,,,,,
 0,0,0,0,0,,,0,48,0,1,0,1,0,0,0,0,,,,,0,1,-1,Thực hiện một cuộc tấn công tay không có thể kích hoạt các kỹ năng bị động liên quan đến kiếm. ,,1,0,Kiểm tra kỹ năng cá nhân liên tục,,,1,0,,,,,,,,,,,43,,,,,
 0,0,0,0,0,,,180,49,0,1,0,1,0,0,0,0,skill_attack1,,Punch,,670,1,-1,Phát triển và hoàn thiện một loạt các khả năng cá nhân trong bộ kỹ năng của nhân vật của bạn. ,,2,0,Kiểm tra kỹ năng nhóm liên tục,"4,800,300,36000,0",,1,0,,,,44,,,,,,,,,,,,
 0,0,0,0,0,,,180,50,0,1,0,1,0,0,0,0,skill_attack1,,Punch,,670,1,-1,Mài dũng khí và khả năng hợp tác của bạn bằng cách kiểm tra một chuỗi các kỹ năng liên quan đến nhóm. ,,2,0,Hòm chiến đấu cấp 1,"4,800,300,36000,0",,1,0,,,,45,,,,,,,,,,,,
@@ -436,9 +436,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"15,238",22,600,397,1,1,0,1,0,0,0,1,attack,skill_DarkEye_Attack,Skill_ShadowBehemoth_Attack,,1333,1,4000,"Trống
 ",500,2,0,"Tấn công bình thường của Shadow Behemoth
 ","2,300,0",,1,0,1,,1000,,,,,top_down_Normal_3,,,451,,,,,
-1,0,0,,0,"15,9",414,400,398,1,1,0,1,0,1,0,1,attack,,Skill_DarkSnowSprite_Attack,,1000,1,4000,"Trống
+1,0,0,,0,"15,9",414,400,398,1,1,0,1,0,1,0,0,attack,,Skill_DarkSnowSprite_Attack,,1000,1,4000,"Trống
 ",1500,2,17,"Dark Snow Sprite Snow Ball
-","2,200,0",,1,0,1,,1000,,skill-icon-398,,,top_down_bomb_1,1,,452,,,,,
+",,,1,0,1,,1000,,skill-icon-398,,,,1,,452,,,,,
 0,0,0,,0,,22,333,399,1,1,0,1,0,0,0,1,attack2,,Skill_IceShellGiant_Attack,,2167,1,4000,"Trống
 ",500,2,0,"Tấn công bình thường của Ice Shell Giant
 ",,,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,453,,,,,
