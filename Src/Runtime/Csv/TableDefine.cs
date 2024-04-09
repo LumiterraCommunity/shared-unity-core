@@ -29,6 +29,7 @@ public static class TableDefine
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
+    public const int TOKEN_DECIMALS = 18; // 代币小数位数
 
     public const int DECIMALS_INT = 10;
 
@@ -81,6 +82,8 @@ public enum eGameValueID
     PetProduceHungerRate = 47,//生产时的宠物饥饿度消耗倍率
     KillCostEnergy = 50,//击杀行为消耗精力 千分位
     PetAbilityDisplays = 52,//宠物特性对外名称显示
+
+    InstancingRewardsRateRange = 55, // 副本奖励倍率范围
 }
 
 // public static class GameValueID

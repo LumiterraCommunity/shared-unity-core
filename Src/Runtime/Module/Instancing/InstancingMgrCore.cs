@@ -15,12 +15,13 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
 {
     public bool IsInit { get; set; } = false; //是否初始化
     public eInstancingStatusType StatusType = eInstancingStatusType.InstancingInactive;       //副本状态
-
     public List<TLevel> LevelList = new(); //关卡列表
+    public ListMap<long, PlayerInstancingData> PlayerInstancingData = new(); //玩家副本数据
     public int CurLevelIndex = 0; //当前关卡
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
     public bool IsMatchComplete = false; //是否匹配完成
+    public InstancingTotemData TotemData = new(); //副本图腾数据
     public static GameObject Root { get; private set; }
     private void Awake()
     {
@@ -136,4 +137,57 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
 
     }
 
+    public virtual PlayerInstancingData GetOrAddPlayerData(long playerId)
+    {
+        if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
+        {
+            return playerData;
+        }
+
+        playerData = new();
+        playerData.SetData(playerId);
+        _ = PlayerInstancingData.Add(playerId, playerData);
+        return playerData;
+    }
+
+
+    public PlayerInstancingData GetPlayerData(long playerId)
+    {
+        if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
+        {
+            return playerData;
+        }
+        return null;
+    }
+    public float ScoreToRewards(float score)
+    {
+        if (TotemData.TotalScore <= 0)
+        {
+            return 0;
+        }
+        return score * TotemData.BaseRewards / TotemData.TotalScore;
+    }
+    public float RandomRewardsRate(int areaLevel)
+    {
+        if (TotemData.BaseRewards <= 0)
+        {
+            return 0;
+        }
+        float curRate = TotemData.TotalRewards / TotemData.BaseRewards;
+        float mimRateRange = 0.66f;
+        float maxRateRange = 0.83f;
+        if (TableUtil.TryGetGameValue(eGameValueID.InstancingRewardsRateRange, out DRGameValue drGameValue))
+        {
+            mimRateRange = drGameValue.ValueArray[0] * TableDefine.THOUSANDTH_2_FLOAT;
+            maxRateRange = drGameValue.ValueArray[1] * TableDefine.THOUSANDTH_2_FLOAT;
+        }
+        //根据区域等级调整奖励倍率, 3级区域不调整, 2级区域调整66%-83%, 1级区域调整66%-83%
+        int level = Math.Max(0, InstancingDefine.MAX_AREA_LEVEL - areaLevel);
+        for (int i = 0; i < level; i++)
+        {
+            float rate = UnityEngine.Random.Range(mimRateRange, maxRateRange);
+            curRate *= rate;
+        }
+        return curRate;
+    }
 }
