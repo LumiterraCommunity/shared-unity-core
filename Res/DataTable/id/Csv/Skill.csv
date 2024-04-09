@@ -28,7 +28,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,,0,44,0,1,0,1,0,0,0,0,,,,,100,1,-1,Membangun ketahanan terhadap pusing dan menghindari jebakan pertempuran potensial. ,,2,0,tes vertigo,,,1,0,,,,34,,,,,,0,,,,,,
 0,0,0,0,0,23,,0,45,0,1,0,1,0,0,0,0,attack,,,,0,1,1000,Memeriksa dan mengoptimalkan keterampilan terkait darah dalam gudang senjata Anda. ,1,2,0,Tes Keterampilan Pendarahan,,,1,0,1,,,,,,,,,,,,,,,
 0,0,0,0,0,36,,150,46,0,1,0,1,0,0,0,0,skill_sword_attack1,skill_sword_attack1,knife01,14,670,1,-1,Meningkatkan kemampuan berlari Anda dengan evaluasi keterampilan yang disempurnakan. ,45,2,0,Tes Keterampilan Sprint,"4,300,300,27000,0",,1,0,1,,,,,,,,,,,,,,,
-0,0,0,0,0,,"41,42",0,47,0,1,0,1,0,0,0,0,A-skill-chongci,,playerroll,,400,1,-1,Berlatih dan meningkatkan kemampuan berlari Anda selama bermain. ,,2,0,Serangan Tak Bersenjata Memicu Serangan Pedang Secara Pasif,"1,200,500,100,0",,1,0,1,,,,,,,,,,,,,,,
+0,0,0,0,0,,"41,42",0,47,0,1,0,1,0,0,0,0,A-skill-chongci,,playerroll,,400,1,-1,Berlatih dan meningkatkan kemampuan berlari Anda selama bermain. ,,2,0,Serangan Tak Bersenjata Memicu Serangan Pedang Secara Pasif,"1,200,500,100,0",,1,0,,,,,,,,,,,,,,,,
 0,0,0,0,0,,,0,48,0,1,0,1,0,0,0,0,,,,,0,1,-1,Melakukan serangan tangan kosong yang juga dapat mengaktifkan keterampilan pasif terkait pedang. ,,1,0,Tes keterampilan individu berkelanjutan,,,1,0,,,,,,,,,,,43,,,,,
 0,0,0,0,0,,,180,49,0,1,0,1,0,0,0,0,skill_attack1,,Punch,,670,1,-1,Mengembangkan dan menyempurnakan serangkaian kemampuan individu dalam set keterampilan karakter Anda. ,,2,0,Pengujian Keterampilan Kelompok Berkelanjutan,"4,800,300,36000,0",,1,0,,,,44,,,,,,,,,,,,
 0,0,0,0,0,,,180,50,0,1,0,1,0,0,0,0,skill_attack1,,Punch,,670,1,-1,Mengasah kemampuan kerja sama dan kolaborasi Anda dengan menguji serangkaian keterampilan terkait kelompok. ,,2,0,Batang Pertempuran Lv 1,"4,800,300,36000,0",,1,0,,,,45,,,,,,,,,,,,
@@ -381,8 +381,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",300,2,0, Serangan normal Skeleton Captain,"4,300,300,9000,0",,1,0,1,,1000,,,,,,,,450,,,,,
 0,0,0,,0,"15,238",22,600,397,1,1,0,1,0,0,0,1,attack,skill_DarkEye_Attack,Skill_ShadowBehemoth_Attack,,1333,1,4000,"Kosong
 ",500,2,0, Serangan normal Shadow Behemoth,"2,300,0",,1,0,1,,1000,,,,,top_down_Normal_3,,,451,,,,,
-1,0,0,,0,"15,9",414,400,398,1,1,0,1,0,1,0,1,attack,,Skill_DarkSnowSprite_Attack,,1000,1,4000,"Kosong
-",1500,2,17, Snow Ball Dark Snow Sprite,"2,200,0",,1,0,1,,1000,,skill-icon-398,,,top_down_bomb_1,1,,452,,,,,
+1,0,0,,0,"15,9",414,400,398,1,1,0,1,0,1,0,0,attack,,Skill_DarkSnowSprite_Attack,,1000,1,4000,"Kosong
+",1500,2,17, Snow Ball Dark Snow Sprite,,,1,0,1,,1000,,skill-icon-398,,,,1,,452,,,,,
 0,0,0,,0,,22,333,399,1,1,0,1,0,0,0,1,attack2,,Skill_IceShellGiant_Attack,,2167,1,4000,"Kosong
 ",500,2,0, Serangan normal Ice Shell Giant,,,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,453,,,,,
 1,0,0,,0,15,,1400,400,1,1,0,1,0,1,0,1,attack,,Skill_SkeletonArcher_Attack,,2000,1,-1,"Kosong
