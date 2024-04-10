@@ -68,8 +68,8 @@ public class EntityPortalCore : EntityBaseComponent
         if (WaitTriggerTime <= 0)
         {
             TriggerPortalElement();
-            WaitTriggerTime = 0;
-            StatusType = ePortalStatusType.Finish;
+            StopRunning(ePortalStatusType.Finish);
+            return;
         }
         UpdateRunning();
     }
@@ -115,10 +115,10 @@ public class EntityPortalCore : EntityBaseComponent
         WaitTriggerTime = PortalElement.TriggerPortalTime;
         StatusType = ePortalStatusType.Running;
     }
-    protected virtual void StopRunning()
+    protected virtual void StopRunning(ePortalStatusType nextStatus = ePortalStatusType.Activate)
     {
         WaitTriggerTime = 0;
-        StatusType = ePortalStatusType.Activate;
+        StatusType = nextStatus;
     }
 
     protected virtual void UpdateRunning()
