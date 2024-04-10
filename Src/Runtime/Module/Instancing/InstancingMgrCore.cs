@@ -78,6 +78,8 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
             return false;
         }
         LevelStatusChange(index);
+
+        Log.Info($"InstancingMgr CompleteLevel: index = {index}, isSuccess = {isSuccess}, isReward = {isReward}");
         MessageCore.LevelStatusUpdate?.Invoke(index, LevelList[index].StatusType);
         return true;
     }
