@@ -34,6 +34,10 @@ public static class MathUtilCore
     /// </summary>
     public static readonly float PC = 1 / 100f;
     /// <summary>
+    /// 二进制KB转B
+    /// </summary>
+    public static readonly float KB2B = 1024f;
+    /// <summary>
     /// 两个int转成一个ulong 方便将二维坐标转成一个key 类似对之前egret中的r_c的字符串优化
     /// </summary>
     public static ulong TwoIntToUlong(int a, int b)
