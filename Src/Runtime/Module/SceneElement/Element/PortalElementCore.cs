@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-10-24 15:14:29
  * @Description: 传送门组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/Element/PortalElementCore.cs
  * 
  */
 using UnityEngine;
@@ -32,14 +32,11 @@ public class PortalElementCore : SceneElementCore
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
 
-    [Serializable]
-    public struct PortalEffectInfo
-    {
-        public ePortalStatusType StatusType;
-        public GameObject PortalElementEffect;
-    }
-    [Header("特效列表")]
-    public List<PortalEffectInfo> PortalElementEffect;
+    [Header("特效动画")]
+    public Animator PortalAnimator;
+
+    [Header("特效动画类型")]
+    public int PortalAnimatorType;
 
     [Header("传送门激活时间(s)")]
     public float ActivateTime = 0;
@@ -249,23 +246,10 @@ public class PortalElementCore : SceneElementCore
 
     protected void UpdatePortalElementEffect()
     {
-        int index = -1;
-        for (int i = 0; i < PortalElementEffect.Count; i++)
+        if (PortalAnimator != null)
         {
-            PortalEffectInfo effectInfo = PortalElementEffect[i];
-            if (effectInfo.PortalElementEffect != null)
-            {
-                effectInfo.PortalElementEffect.SetActive(false);
-                if (effectInfo.StatusType == StatusType)
-                {
-                    index = i;
-                }
-            }
-        }
-
-        if (index >= 0)
-        {
-            PortalElementEffect[index].PortalElementEffect.SetActive(true);
+            PortalAnimator.SetInteger("State", (int)StatusType);
+            PortalAnimator.SetInteger("Type", PortalAnimatorType);
         }
 
     }
