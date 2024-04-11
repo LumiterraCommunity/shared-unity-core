@@ -13,16 +13,23 @@ public class SeedEntityMgrCore<TFactory> : MonoBehaviour, ISeedEntityMgrCore whe
 
     private readonly TFactory _factory = new();
 
+    /// <summary>
+    /// 确保实体类型在map中存在List分配
+    /// </summary>
+    /// <param name="type"></param>
+    private void EnsureEntityType(SeedFunctionType type)
+    {
+        if (!TypeMap.ContainsKey(type))
+        {
+            TypeMap.Add(type, new());
+        }
+    }
+
     public List<SeedEntityCore> GetEntities(SeedFunctionType type)
     {
-        if (TypeMap.TryGetValue(type, out List<SeedEntityCore> list))
-        {
-            return list;
-        }
+        EnsureEntityType(type);
 
-        list = new();
-        TypeMap.Add(type, list);
-        return list;
+        return TypeMap[type];
     }
 
     public SeedEntityCore AddEntity(long id, SeedFunctionType type, GameObject root)
@@ -38,12 +45,8 @@ public class SeedEntityMgrCore<TFactory> : MonoBehaviour, ISeedEntityMgrCore whe
 
         EntityMap.Add(id, entity);
 
-        if (!TypeMap.TryGetValue(type, out List<SeedEntityCore> list))
-        {
-            list = new();
-            TypeMap.Add(type, list);
-        }
-        list.Add(entity);
+        EnsureEntityType(type);
+        TypeMap[type].Add(entity);
 
         return entity;
     }
