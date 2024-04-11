@@ -35,7 +35,7 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
     /// <returns></returns>
     public bool IsHavePrizeLp()
     {
-        return !string.IsNullOrEmpty(PrizeLp) && PrizeLp != "0";//后端约定0或者空表示没有份额
+        return IsValidNumString(PrizeLp);
     }
 
     /// <summary>
@@ -44,7 +44,17 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
     /// <returns></returns>
     public bool IsHaveReward()
     {
-        return !string.IsNullOrEmpty(RewardToken) && RewardToken != "0";//后端约定0或者空表示没有
+        return IsValidNumString(RewardToken);
+    }
+
+    /// <summary>
+    /// 判断一个数字字符串是否有效 和后端的特殊约定
+    /// </summary>
+    /// <param name="numStr"></param>
+    /// <returns></returns>
+    private bool IsValidNumString(string numStr)
+    {
+        return !string.IsNullOrEmpty(numStr) && numStr != "0";//后端约定可能出现"0" 只在这里使用 特殊约定
     }
 
     /// <summary>
