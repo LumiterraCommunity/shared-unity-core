@@ -35,9 +35,6 @@ public class PortalElementCore : SceneElementCore
     [Header("特效动画")]
     public Animator PortalAnimator;
 
-    [Header("特效动画类型")]
-    public int PortalAnimatorType;
-
     [Header("传送门激活时间(s)")]
     public float ActivateTime = 0;
 
@@ -249,8 +246,19 @@ public class PortalElementCore : SceneElementCore
         if (PortalAnimator != null)
         {
             PortalAnimator.SetInteger("State", (int)StatusType);
-            PortalAnimator.SetInteger("Type", PortalAnimatorType);
+            PortalAnimator.SetInteger("Type", (int)GetPortalAnimatorType());
         }
 
+    }
+
+    private ePortalAnimType GetPortalAnimatorType()
+    {
+        if (ElementType == eSceneElementType.SettlePortal)
+        {
+            return ePortalAnimType.Area;
+        }
+
+        PortalTypeInfo portalTypeInfo = PortalTypeList[CurTypeIndex];
+        return portalTypeInfo.PortalType == ePortalType.Exit ? ePortalAnimType.Exit : ePortalAnimType.Area;
     }
 }
