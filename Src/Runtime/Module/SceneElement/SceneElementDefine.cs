@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-01-29 11:11:32
  * @Description: 
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
  * 
  */
 
@@ -37,4 +37,11 @@ public enum eSEAreaTriggerType
     Enter, //进入触发
     Exit, //退出触发
     Interval, //间隔触发
+}
+
+public enum ePortalAnimType
+{
+    Area = 1, //区域传送门
+    Exit = 2,     //退出传送门
+    Settle = 3, //结算传送门
 }
