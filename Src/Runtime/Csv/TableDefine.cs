@@ -31,7 +31,7 @@ public static class TableDefine
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
     public const int TOKEN_DECIMALS = 18; // 代币小数位数
 
-    public const int DECIMALS_INT = 10;
+    public const int DECIMALS_INT = 10; // 链上通用整数小数位数 
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},

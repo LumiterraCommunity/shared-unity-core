@@ -9,7 +9,7 @@ public static class InstancingDefine
     public const string INSTANCING_MIN_PLAYER_NUM_VARIABLE = "MinPlayerNum";
     public const string INSTANCING_MAX_PLAYER_NUM_VARIABLE = "MaxPlayerNum";
 
-    public const int MAX_AREA_LEVEL = 3;
+    public const int MAX_AREA_LEVEL = 3; //最大区域等级
 
 }
 
