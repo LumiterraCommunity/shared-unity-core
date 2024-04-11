@@ -13,7 +13,7 @@ using UnityEngine;
 public class EntityPortalCore : EntityBaseComponent
 {
     protected PortalElementCore PortalElement;
-    protected bool IsTrigger;
+    protected ePortalStatusType StatusType;
     protected float WaitTriggerTime;
     protected virtual void Start()
     {
@@ -33,31 +33,45 @@ public class EntityPortalCore : EntityBaseComponent
         {
             return;
         }
+        UpdateStatusActivate();
+        UpdateStatusRunning();
+    }
 
-        if (IsTrigger)
+    protected virtual void UpdateStatusActivate()
+    {
+        if (StatusType != ePortalStatusType.Activate)
         {
-            if (CheckStartTrigger())
-            {
-                WaitTriggerTime -= Time.deltaTime;
-                if (WaitTriggerTime <= 0)
-                {
-                    TriggerPortalElement();
-                    EndTrigger();
+            return;
+        }
 
-                }
-            }
-            else
-            {
-                EndTrigger();
-            }
-        }
-        else
+        if (!CheckIsTrigger())
         {
-            if (CheckStartTrigger())
-            {
-                StartTrigger();
-            }
+            return;
         }
+        StartRunning();
+    }
+
+    protected virtual void UpdateStatusRunning()
+    {
+        if (StatusType != ePortalStatusType.Running)
+        {
+            return;
+        }
+
+        if (!CheckIsTrigger())
+        {
+            StopRunning();
+            return;
+        }
+
+        WaitTriggerTime -= Time.deltaTime;
+        if (WaitTriggerTime <= 0)
+        {
+            TriggerPortalElement();
+            StopRunning(ePortalStatusType.Finish);
+            return;
+        }
+        UpdateRunning();
     }
 
     private void EnterPortalElement(PortalElementCore portalElementCore)
@@ -76,26 +90,14 @@ public class EntityPortalCore : EntityBaseComponent
             return;
         }
         PortalElement = null;
-        EndTrigger();
+        StopRunning();
     }
-    protected virtual void StartTrigger()
-    {
-        WaitTriggerTime = PortalElement.TriggerPortalTime;
-        IsTrigger = true;
-    }
-
-    protected virtual void EndTrigger()
-    {
-        WaitTriggerTime = 0;
-        IsTrigger = false;
-    }
-
     protected virtual void TriggerPortalElement()
     {
-        PortalElement.TriggerPortalElement(RefEntity);
+
     }
 
-    private bool CheckStartTrigger()
+    private bool CheckIsTrigger()
     {
         if (PortalElement == null || PortalElement.StatusType != ePortalStatusType.Running)
         {
@@ -106,5 +108,21 @@ public class EntityPortalCore : EntityBaseComponent
             return false;
         }
         return true;
+    }
+
+    protected virtual void StartRunning()
+    {
+        WaitTriggerTime = PortalElement.TriggerPortalTime;
+        StatusType = ePortalStatusType.Running;
+    }
+    protected virtual void StopRunning(ePortalStatusType nextStatus = ePortalStatusType.Activate)
+    {
+        WaitTriggerTime = 0;
+        StatusType = nextStatus;
+    }
+
+    protected virtual void UpdateRunning()
+    {
+
     }
 }

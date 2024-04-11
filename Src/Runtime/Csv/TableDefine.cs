@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -29,6 +29,9 @@ public static class TableDefine
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
+    public const int TOKEN_DECIMALS = 18; // 代币小数位数
+
+    public const int DECIMALS_INT = 10; // 链上通用整数小数位数 
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
@@ -80,6 +83,7 @@ public enum eGameValueID
     KillCostEnergy = 50,//击杀行为消耗精力 千分位
     PetAbilityDisplays = 52,//宠物特性对外名称显示
     offlineTimeout = 53, // 离线超时时间
+    InstancingRewardsRateRange = 55, // 副本奖励倍率范围
 }
 
 // public static class GameValueID

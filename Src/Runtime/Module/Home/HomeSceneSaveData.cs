@@ -1,8 +1,8 @@
 /// <summary>
-/// 畜牧场景存档数据
+/// 家园场景存档数据
 /// </summary>
 [System.Serializable]
-public class AnimalSceneSaveData
+public class HomeSceneSaveData
 {
     public AnimalBowlSaveData[] BowlSaveDataList;
 }

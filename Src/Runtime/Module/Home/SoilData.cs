@@ -1,4 +1,4 @@
-using System;
+using GameMessageCore;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -75,14 +75,18 @@ public class SoilData : MonoBehaviour
     /// 设置当前种子配置id 如果是要清除种子 则传入0
     /// </summary>
     /// <param name="seedCid">0代表清除</param>
-    internal void SetSeedCid(int seedCid)
+    /// <param name="seedNftId">种子nftId</param>
+    /// <param name="seedEntityId">种子实体id 一般是0 只有特殊种子 还是播种就由数据服分配了id的才有值</param>
+    internal void SetSeedCid(int seedCid, string seedNftId, long seedEntityId)
     {
-        if (SaveData.SeedData.SeedCid == seedCid)
+        if (SaveData.SeedData.SeedCid == seedCid && SaveData.SeedData.SeedNftId == seedNftId)
         {
             return;
         }
 
         SaveData.SeedData.SeedCid = seedCid;
+        SaveData.SeedData.SeedNftId = seedNftId;
+        SaveData.SeedData.SeedEntityId = seedEntityId;
 
         DRSeed = GFEntryCore.DataTable.GetDataTable<DRSeed>().GetDataRow(seedCid);
         if (DRSeed == null)

@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-01-29 11:11:32
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
  * 
  */
 
@@ -15,9 +15,8 @@ public enum eSceneElementType
     SafeArea = 1, //安全区
     Portal = 2, //传送门
     SEArea = 3, //技能效果区域
-
+    SettlePortal = 4, //结算传送门
 }
-
 public enum ePortalStatusType
 {
     Hide, //隐藏

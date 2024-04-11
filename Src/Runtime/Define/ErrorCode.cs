@@ -52,9 +52,22 @@ public enum eErrorCode : int
     InstancingNotCompleteMatch = 0007005, //副本未完成匹配
     changePlayerCampFailed = 0008001, //切换阵营失败
 
+    #region 家园
+    NotInHome = 0009001, //不在家园中
+    #endregion
+
+    #region  图腾
+    TotemNotFind = 0010001, //图腾未找到
+    TotemHavePrizeLp = 0010002,//图腾有还有投资数据
+    TotemOwnerInvalid = 0010003,//图腾所有者无效
+    TotemSysErr = 0010004,//图腾系统错误
+    TotemNotHaveReward = 0010005,//图腾没有收益
+    #endregion
+
     #endregion
 
     #region  S2S错误码
-    notFindUserData = 1001404
+    notFindUserData = 1001404,
+
     #endregion
 }

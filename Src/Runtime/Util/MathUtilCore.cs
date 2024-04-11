@@ -176,13 +176,20 @@ public static class MathUtilCore
         float y = 4 * ((-height * t * t) + (height * t)) + Mathf.Lerp(start.y, end.y, t);
         return new Vector3(mid.x, y, mid.z);
     }
-    public static float BigInteger2Float(System.Numerics.BigInteger bigInteger, int exponent, int decimals)
+    public static float BigInteger2Float(System.Numerics.BigInteger bigInteger, int exponent, int decimals = 4)
     {
         double num = (double)(bigInteger / System.Numerics.BigInteger.Pow(10, exponent - decimals));
         float numValue = (float)(num / Math.Pow(10, decimals));
         return numValue;
     }
 
+    public static float BigInteger2Float(string bigIntegerStr, int exponent, int decimals = 4)
+    {
+        _ = System.Numerics.BigInteger.TryParse(bigIntegerStr, out System.Numerics.BigInteger bigInteger);
+        double num = (double)(bigInteger / System.Numerics.BigInteger.Pow(10, exponent - decimals));
+        float numValue = (float)(num / Math.Pow(10, decimals));
+        return numValue;
+    }
     public static System.Numerics.BigInteger Float2BigInteger(float num, int exponent, int decimals)
     {
         double value = num * Math.Pow(10, decimals);
@@ -190,7 +197,13 @@ public static class MathUtilCore
         bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
         return bigSlippage;
     }
-
+    public static System.Numerics.BigInteger Double2BigInteger(double num, int exponent, int decimals)
+    {
+        double value = num * Math.Pow(10, decimals);
+        System.Numerics.BigInteger bigSlippage = new(value);
+        bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
+        return bigSlippage;
+    }
     /// <summary>
     /// 判断一个数是否是2的幂 0返回false
     /// </summary>

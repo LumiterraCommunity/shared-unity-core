@@ -16,6 +16,10 @@ public class SeedSaveData
     /// </summary>
     public int SeedCid;
     /// <summary>
+    /// 当前种子的nftId,比如图腾等需要明确当时种植的nftId
+    /// </summary>
+    public string SeedNftId = string.Empty;
+    /// <summary>
     /// 施的肥料配置ID
     /// </summary>
     public int ManureCid;
@@ -31,6 +35,10 @@ public class SeedSaveData
     /// 是否需要腐败收获
     /// </summary>
     public bool NeedPerish;
+    /// <summary>
+    /// 种子实体id 一般是0 只有特殊种子 还是播种就由数据服分配了id的才有值
+    /// </summary>
+    public long SeedEntityId;
 
     public SeedSaveData()
     {
@@ -44,6 +52,8 @@ public class SeedSaveData
         ExtraWateringNum = data.ExtraWateringNum;
         CurProficiency = data.CurProficiency;
         NeedPerish = data.NeedPerish;
+        SeedNftId = data.SeedNftId;
+        SeedEntityId = data.SeedEntityId;
     }
 
     internal ProxySeedData ToProxySeedData()
@@ -56,6 +66,8 @@ public class SeedSaveData
             ExtraWateringNum = ExtraWateringNum,
             CurProficiency = CurProficiency,
             NeedPerish = NeedPerish,
+            SeedNftId = SeedNftId ?? string.Empty,
+            SeedEntityId = SeedEntityId,
         };
     }
 }

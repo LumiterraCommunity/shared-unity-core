@@ -31,8 +31,15 @@ public class PortalElementCore : SceneElementCore
 
     [Header("传送门状态")]
     public ePortalStatusType StatusType = ePortalStatusType.Inactive;
-    [Header("传送门特效")]
-    public GameObject PortalElementEffect;
+
+    [Serializable]
+    public struct PortalEffectInfo
+    {
+        public ePortalStatusType StatusType;
+        public GameObject PortalElementEffect;
+    }
+    [Header("特效列表")]
+    public List<PortalEffectInfo> PortalElementEffect;
 
     [Header("传送门激活时间(s)")]
     public float ActivateTime = 0;
@@ -46,20 +53,25 @@ public class PortalElementCore : SceneElementCore
     [Header("最大使用次数")]
     public int MaxUseNum = 0;
 
+    [Header("奖励倍率")]
+    public float RewardRate = 1;
+
+    public bool IsRun = false;
     private long _startTime = long.MaxValue;
     private float _curActivateTime = 0;
     private readonly ListMap<Collider, EntityBase> _playerList = new();
     protected override void Update()
     {
         base.Update();
+        if (!IsRun)
+        {
+            return;
+        }
+
         UpdateStatusHide();
         UpdateStatusInactive();
         UpdateStatusActivate(Time.deltaTime);
         UpdateStatusRunning();
-        if (PortalElementEffect != null)
-        {
-            PortalElementEffect.SetActive(StatusType != ePortalStatusType.Hide);
-        }
     }
     public override void UpdateElementData()
     {
@@ -72,6 +84,7 @@ public class PortalElementCore : SceneElementCore
         SceneElementData.Portal.StatusType = (int)StatusType;
         SceneElementData.Portal.CurUseNum = CurUseNum;
         SceneElementData.Portal.CurTypeIndex = CurTypeIndex;
+        SceneElementData.Portal.RewardRate = RewardRate;
     }
 
     public void StartElement(long startTime, ePortalStatusType statusType, int curUseNum, int curTypeIndex)
@@ -80,13 +93,16 @@ public class PortalElementCore : SceneElementCore
         StatusType = statusType;
         CurUseNum = curUseNum;
         CurTypeIndex = curTypeIndex;
+        IsRun = true;
         UpdateElementData();
+        UpdatePortalElementEffect();
     }
 
     public override void InitElementData(SceneElementData netData)
     {
         PortalElementData portal = netData.Portal;
         StartElement(portal.StartTime, (ePortalStatusType)portal.StatusType, portal.CurUseNum, portal.CurTypeIndex);
+        SetRewardRate(portal.RewardRate);
     }
 
     private void UpdateStatusHide()
@@ -100,7 +116,7 @@ public class PortalElementCore : SceneElementCore
         {
             return;
         }
-        StatusType = ePortalStatusType.Inactive;
+        SetStatusType(ePortalStatusType.Inactive);
     }
     private void UpdateStatusInactive()
     {
@@ -110,7 +126,7 @@ public class PortalElementCore : SceneElementCore
         }
         if (CheckHasActivate())
         {
-            StatusType = ePortalStatusType.Activate;
+            SetStatusType(ePortalStatusType.Activate);
             _curActivateTime = 0;
         }
     }
@@ -124,15 +140,14 @@ public class PortalElementCore : SceneElementCore
         }
         if (!CheckHasActivate())
         {
-            StatusType = ePortalStatusType.Inactive;
+            SetStatusType(ePortalStatusType.Inactive);
         }
         else
         {
             _curActivateTime += deltaTime;
             if (_curActivateTime >= ActivateTime)
             {
-                StatusType = ePortalStatusType.Running;
-                UpdateElementData();
+                SetStatusType(ePortalStatusType.Running);
             }
         }
     }
@@ -146,8 +161,7 @@ public class PortalElementCore : SceneElementCore
 
         if (CurUseNum >= MaxUseNum)
         {
-            StatusType = ePortalStatusType.Finish;
-            UpdateElementData();
+            SetStatusType(ePortalStatusType.Finish);
         }
     }
 
@@ -212,5 +226,47 @@ public class PortalElementCore : SceneElementCore
     {
         CurUseNum++;
         UpdateElementData();
+        BroadcastElementData();
+    }
+
+    public virtual string GetPortalTips()
+    {
+        return $"{CurUseNum}/{MaxUseNum}";
+    }
+
+    public void SetRewardRate(float rate)
+    {
+        RewardRate = rate;
+        UpdateElementData();
+    }
+
+    public void SetStatusType(ePortalStatusType statusType)
+    {
+        StatusType = statusType;
+        UpdateElementData();
+        UpdatePortalElementEffect();
+    }
+
+    protected void UpdatePortalElementEffect()
+    {
+        int index = -1;
+        for (int i = 0; i < PortalElementEffect.Count; i++)
+        {
+            PortalEffectInfo effectInfo = PortalElementEffect[i];
+            if (effectInfo.PortalElementEffect != null)
+            {
+                effectInfo.PortalElementEffect.SetActive(false);
+                if (effectInfo.StatusType == StatusType)
+                {
+                    index = i;
+                }
+            }
+        }
+
+        if (index >= 0)
+        {
+            PortalElementEffect[index].PortalElementEffect.SetActive(true);
+        }
+
     }
 }

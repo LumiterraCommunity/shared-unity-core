@@ -143,13 +143,21 @@ public static class HomeDefine
         /// </summary>
         Withered = 1 << 5,
         /// <summary>
-        /// 等待收获
+        /// 成熟 (普通种子可以开始收获)
         /// </summary>
-        Harvest = 1 << 6,
+        Ripe = 1 << 6,
         /// <summary>
-        /// 腐败收获 不会有产出
+        /// 腐败的成熟了 不会有产出
         /// </summary>
-        HarvestPerish = 1 << 7,
+        RipePerish = 1 << 7,
+        /// <summary>
+        /// 特殊功能状态 比如图腾等成熟后所在状态
+        /// </summary>
+        SpecialFunction = 1 << 8,
+        /// <summary>
+        /// 可收获状态
+        /// </summary>
+        Harvest = 1 << 9,
     }
 
     /// <summary>
