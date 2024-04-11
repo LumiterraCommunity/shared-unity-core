@@ -124,36 +124,44 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     }
 
     /// <summary>
+    /// 清理土地上的种子实体关系 并不会去销毁实体 销毁由管理器去做
+    /// </summary>
+    private void ClearSeedEntity()
+    {
+        if (SeedEntity == null)
+        {
+            return;
+        }
+
+        SeedEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
+        SeedEntity = null;
+    }
+
+    /// <summary>
     /// 设置土地上的实体 建立关联关系
     /// </summary>
     /// <param name="entity"></param>
     private void SetSeedEntity(SeedEntityCore entity)
     {
-        if (SeedEntity != null && entity != null)
+        if (entity == null)
         {
-            Log.Error("土地上已经有实体了");
-            SetSeedEntity(null);
+            Log.Error("SetSeedEntity entity is null");
             return;
         }
 
-        if (entity != null)//添加实体关系
+        if (SeedEntity != null)
         {
-            SeedEntity = entity;
-            entity.EntityEvent.OnEntityRemoved += OnEntityRemoved;
+            Log.Error("土地上已经有实体了");
+            ClearSeedEntity();
         }
-        else//移除实体关系
-        {
-            if (SeedEntity != null)
-            {
-                SeedEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
-                SeedEntity = null;
-            }
-        }
+
+        SeedEntity = entity;
+        entity.EntityEvent.OnEntityRemoved += OnEntityRemoved;
     }
 
     private void OnEntityRemoved()
     {
-        SetSeedEntity(null);
+        ClearSeedEntity();
 
         SoilEvent.OnFunctionSeedEntityRemoved?.Invoke();
     }
