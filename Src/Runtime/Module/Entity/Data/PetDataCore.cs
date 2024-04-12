@@ -57,8 +57,8 @@ public class PetDataCore : EntityBaseComponent
         Favorability = petData.Favorability;
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
-        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(petData.AbilityList);
         IsFollowing = petData.Status;
+        SetAbilityByBitOffsets(petData.AbilityList);
         SetPetCfgId(petData.Cid);
 
         OnInited();
@@ -69,11 +69,27 @@ public class PetDataCore : EntityBaseComponent
         Favorability = proxyData.FavorAbility;
         CreateMs = proxyData.CreateMs;
         UpdateMs = proxyData.UpdateMs;
-        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(proxyData.AbilityList);
         IsFollowing = proxyData.Status;
+        SetAbilityByBitOffsets(proxyData.AbilityList);
         SetPetCfgId(proxyData.Cid);
 
         OnInited();
+    }
+
+    /// <summary>
+    /// 通过宠物特性位移数组设置宠物特性
+    /// </summary>
+    /// <param name="abilityOffsets"></param>
+    private void SetAbilityByBitOffsets(IEnumerable<PetAbilityType> abilityOffsets)
+    {
+        //没有能力的宠物这个字段可能为空，这个判断一定得加上
+        if (abilityOffsets == null)
+        {
+            AllAbility = ePetAbility.None;
+            return;
+        }
+
+        AllAbility = PetUtilCore.PetAbilityBitArrayToEnum(abilityOffsets);
     }
 
     /// <summary>

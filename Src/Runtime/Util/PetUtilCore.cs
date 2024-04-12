@@ -5,7 +5,6 @@ using Google.Protobuf.Collections;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
 
-
 /// <summary>
 /// 宠物相关工具
 /// </summary>
@@ -19,6 +18,12 @@ public static class PetUtilCore
     public static ePetAbility PetAbilityBitArrayToEnum(IEnumerable<PetAbilityType> abilityBitOffsets)
     {
         ePetAbility result = ePetAbility.None;
+        if (abilityBitOffsets == null)
+        {
+            Log.Error("PetAbilityBitArrayToEnum abilityBitOffsets is null");
+            return result;
+        }
+
         foreach (PetAbilityType ability in abilityBitOffsets)
         {
             result |= PetAbilityBitToEnum(ability);
