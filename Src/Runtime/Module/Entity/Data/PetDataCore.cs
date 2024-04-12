@@ -82,6 +82,7 @@ public class PetDataCore : EntityBaseComponent
     /// <param name="abilityOffsets"></param>
     private void SetAbilityByBitOffsets(IEnumerable<PetAbilityType> abilityOffsets)
     {
+        //没有能力的宠物这个字段可能为空，这个判断一定得加上
         if (abilityOffsets == null)
         {
             AllAbility = ePetAbility.None;
