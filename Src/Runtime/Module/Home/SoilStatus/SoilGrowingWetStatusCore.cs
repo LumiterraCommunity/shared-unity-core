@@ -19,7 +19,7 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
         int growStage = SoilData.SaveData.SeedData.GrowingStage;
         if (growStage >= SoilData.SeedGrowStageNum - 1)//成熟了
         {
-            ChangeToHarvest();
+            ChangeToRipe();
         }
         else
         {
@@ -28,7 +28,7 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
         }
     }
 
-    private void ChangeToHarvest()
+    private void ChangeToRipe()
     {
         if (SoilData.SaveData.SeedData.NeedPerish)
         {
