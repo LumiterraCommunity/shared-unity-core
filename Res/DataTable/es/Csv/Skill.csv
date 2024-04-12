@@ -28,7 +28,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,,0,44,0,1,0,1,0,0,0,0,,,,,100,1,-1,Construye resistencia al mareo y evita posibles obstáculos en el combate. ,,2,0,prueba de vértigo,,,1,0,,,,34,,,,,,0,,,,,,
 0,0,0,0,0,23,,0,45,0,1,0,1,0,0,0,0,attack,,,,0,1,1000,Examina y optimiza las habilidades relacionadas con la sangre en tu arsenal. ,1,2,0,Prueba de habilidades de sangrado,,,1,0,1,,,,,,,,,,,,,,,
 0,0,0,0,0,36,,150,46,0,1,0,1,0,0,0,0,skill_sword_attack1,skill_sword_attack1,knife01,14,670,1,-1,Eleva tus capacidades de sprint con una evaluación refinada de habilidades. ,45,2,0,Prueba de habilidades de sprint,"4,300,300,27000,0",,1,0,1,,,,,,,,,,,,,,,
-0,0,0,0,0,,"41,42",0,47,0,1,0,1,0,0,0,0,A-skill-chongci,,playerroll,,400,1,-1,Practica y mejora tus habilidades de sprint durante el juego. ,,2,0,Los ataques desarmados desencadenan ataques con espada pasiva,"1,200,500,100,0",,1,0,,,,,,,,,,,,,,,,
+0,0,0,0,0,,"41,42",0,47,0,1,0,1,0,0,0,0,A-skill-chongci,,playerroll,,400,1,-1,Practica y mejora tus habilidades de sprint durante el juego. ,,2,0,Los ataques desarmados desencadenan ataques con espada pasiva,"1,200,500,100,0",,1,0,1,,,,,,,,,,,,,,,
 0,0,0,0,0,,,0,48,0,1,0,1,0,0,0,0,,,,,0,1,-1,Realiza un ataque cuerpo a cuerpo que también puede activar habilidades pasivas relacionadas con la espada. ,,1,0,Prueba de habilidad individual continua,,,1,0,,,,,,,,,,,43,,,,,
 0,0,0,0,0,,,180,49,0,1,0,1,0,0,0,0,skill_attack1,,Punch,,670,1,-1,Desarrolla y perfecciona una serie de habilidades individuales en el conjunto de habilidades de tu personaje. ,,2,0,Pruebas continuas de habilidades grupales,"4,800,300,36000,0",,1,0,,,,44,,,,,,,,,,,,
 0,0,0,0,0,,,180,50,0,1,0,1,0,0,0,0,skill_attack1,,Punch,,670,1,-1,Perfecciona tus habilidades de trabajo en equipo y colaboración probando una secuencia de habilidades relacionadas con el grupo. ,,2,0,Baúl de batalla nivel 1,"4,800,300,36000,0",,1,0,,,,45,,,,,,,,,,,,
@@ -373,7 +373,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"15,238",22,1000,395,1,1,0,1,0,0,0,1,attack,,Skill_AngryStumb_Attack,,1866,1,4000,Vacío,500,2,0, [127] Ataque normal de Tronco Enojado,"2,200,0",,1,0,1,,1000,,,,,,,,449,,,,,
 0,0,0,,0,15,22,500,396,1,1,0,1,0,0,0,1,attack,,Skill_SkeletonCaptain_Attack,,933,1,4000,Vacío,300,2,0, [128] Ataque normal de Capitán Esqueleto,"4,300,300,9000,0",,1,0,1,,1000,,,,,,,,450,,,,,
 0,0,0,,0,"15,238",22,600,397,1,1,0,1,0,0,0,1,attack,skill_DarkEye_Attack,Skill_ShadowBehemoth_Attack,,1333,1,4000,Vacío,500,2,0, [130] Ataque normal de Behemoth de las Sombras,"2,300,0",,1,0,1,,1000,,,,,top_down_Normal_3,,,451,,,,,
-1,0,0,,0,"15,9",414,400,398,1,1,0,1,0,1,0,0,attack,,Skill_DarkSnowSprite_Attack,,1000,1,4000,Vacío,1500,2,17, [131] Bola de Nieve de Hada de Nieve Oscura,,,1,0,1,,1000,,skill-icon-398,,,,1,,452,,,,,
+1,0,0,,0,"15,9",414,400,398,1,1,0,1,0,1,0,1,attack,,Skill_DarkSnowSprite_Attack,,1000,1,4000,Vacío,1500,2,17, [131] Bola de Nieve de Hada de Nieve Oscura,"2,200,0",,1,0,1,,1000,,skill-icon-398,,,top_down_bomb_1,1,,452,,,,,
 0,0,0,,0,,22,333,399,1,1,0,1,0,0,0,1,attack2,,Skill_IceShellGiant_Attack,,2167,1,4000,Vacío,500,2,0, [133] Ataque normal de Gigante de Caparazón de Hielo,,,1,0,1,,1000,"467,472,473",,,,top_down_Cuboid,,,453,,,,,
 1,0,0,,0,15,,1400,400,1,1,0,1,0,1,0,1,attack,,Skill_SkeletonArcher_Attack,,2000,1,-1,Vacío,1400,2,19, [134] Flecha Esqueleto Arquero Bloqueada,,,1,0,1,,1000,,,,,,1,,454,,,,,
 0,0,0,,0,465,,2266,401,1,1,0,1,0,0,0,1,attackArea,,Skill_RabbitWizard_Attack,,2433,1,10000,Vacío,1000,2,0, [136] Apoyo de Mago Conejo,"2,900,0",,1,0,2,,1000,465,,,,top_down_Blue_9,,,455,,,,,
@@ -416,9 +416,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,521,553,800,445,0,1,0,0,0,0,0,0,attackArea,Skill_Electromagnetic,Skill_MysticAncient_AttackRange,,2750,1,20000,Centrarse en uno mismo para infligir daño múltiple a una amplia gama de enemigos y aturdirlos,200,2,0, [403]Tormenta electromagnética,"4,800,300,36000,0",CameraShakeGrade_1,1,0,1,,1000,525,,,,top_down_Normal_5,,,,,,,,
 0,0,0,0,0,"386,238",,200,446,0,1,0,1,0,1,0,0,attackArea,,Skill_SparkleTyrant_AttackArea,,1150,1,10000,Invocar hasta tres meteoritos para que caigan,800,2,27, [404]Meteorito (Pequeño Soberano Deslumbrante),"2,200,0",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-446,,,,3,,,,,,,
 0,0,0,0,0,"386,35",,2133,447,0,1,0,1,0,1,0,0,attackArea,,Skill_MysticOwlSage_AttackArea,,3000,1,20000,Invocar hasta cinco meteoritos gigantes para que caigan,1500,2,28, [405]Meteorito Girante (Mago sombrío del bosque),"2,500,0",CameraShakeGrade_1,1,0,1,,1000,,,,,top_down_Normal,5,,,,,,,
-0,0,0,,0,1,,900,448,0,0,0,1,0,0,0,0,attack,,,,1000,1,3000,Habilidad de recolección general para mascotas,100,2,0, [406]Ensamblaje de habilidades de recolección general para mascotas,"4,100,100,9000,0",,1,0,1,"5,6,7",1000,,,,,,,,,,,,,
-0,0,0,,0,,,900,449,0,0,0,1,0,0,0,0,attack,,,,1000,1,3000,Habilidad de plantación general para mascotas,100,2,0, [407]Ensamblaje de habilidades de plantación general para mascotas,"4,100,100,9000,0",,1,0,1,"2,3,1",1000,,,,,,,,,,,,,
-1,0,1,,0,533,,4000,450,0,0,0,1,1,0,1,0,idle,,,,4100,1,30000,Habilidad de rescate,,2,0, [408]Habilidad de rescate,,,2,1,2,,1000,,skill-icon-450,,,,,,,,,,,skill_Rescue_AccuBar
+0,0,0,,0,1,,900,448,0,0,0,1,0,0,0,0,work,,,,1000,1,3000,Habilidad de recolección general para mascotas,100,2,0, [406]Ensamblaje de habilidades de recolección general para mascotas,"4,100,100,9000,0",,1,0,1,"5,6,7",1000,,,,,,,,,,,,,
+0,0,0,,0,,,900,449,0,0,0,1,0,0,0,0,work,,,,1000,1,3000,Habilidad de plantación general para mascotas,100,2,0, [407]Ensamblaje de habilidades de plantación general para mascotas,"4,100,100,9000,0",,1,0,1,"2,3,1",1000,,,,,,,,,,,,,
+1,0,1,,0,533,,4000,450,0,0,0,1,1,0,1,0,work,,,,4100,1,30000,Habilidad de rescate,,2,0, [408]Habilidad de rescate,,,2,1,2,,1000,,skill-icon-450,,,,,,,,,,,skill_Rescue_AccuBar
 0,0,0,,0,532,113,330,452,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_red,Skill_BlazeRidge_AttackRange,,1000,1,15000,Proyección continua de cinco bolas de fuego,2000,2,0, [409]Bola de fuego (Centinela de fuego y roca),"1,200,2000,100,0",,1,0,1,,1000,547,,,,,,,,,,,,
 0,0,0,,0,"386,238",467,610,453,0,1,0,0,0,0,0,0,attackRange,Skill_Earthshock,Skill_DoomLord_AttackRange,,1333,1,15000,Invocar tres picos de tierra hacia adelante,300,2,0, [410]Sacudida de tierra,"1,200,500,100,0",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,553,950,454,0,1,0,0,0,0,0,0,attackRange,Skill_big_windmill,Skill_VerdantFlame_AttackRange,,5000,1,60000,Rotar el cuerpo para causar un alto daño a los alrededores,300,2,0, [411]gran molino de viento,"2,500,0",,1,0,1,,1000,525,,,,,,,,,,,,
@@ -462,7 +462,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,385,,333,476,0,1,0,1,0,0,0,0,attack,,Skill_GlowingGuard_Attack,,1000,1,-1,"Ataque del Centinela Fluorescente
 ",100,2,0, [432]Ataque (Centinela Fluorescente),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
 0,0,0,,0,385,,500,477,0,1,0,1,0,1,0,0,attack,,Skill_MysticOwlSage_Attack,,1166,1,-1,"Ataque del Mago Sombrío del Bosque
-",1000,2,37, [433]Ataque (Mago Sombrío del Bosque),,,1,0,1,,1000,,,,,,,,,,,,,
+",1000,2,21, [433]Ataque (Mago Sombrío del Bosque),,,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,385,,333,478,0,1,0,1,0,0,0,0,attack,,Skill_GuardianOwl_Attack,,1166,1,-1,"Ataque del Guardián del Águila de Ojos Sabios
 ",100,2,0, [434]Ataque (Guardián del Águila de Ojos Sabios),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
 0,0,0,,0,,,333,479,0,1,0,1,0,0,0,0,attack,,Skill_DoomLord_Attack,,1166,1,-1,"Ataque del Señor Demoníaco de la Perdición
@@ -474,7 +474,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,559,,500,485,0,0,0,0,0,0,0,0,A2-respawn-to-base,Skill_health_ring,Skill_HealthRing,,660,1,45000,"Vacío
 ",300,2,0, [438]Ola de curación,"4,100,400,36000,0",,1,0,2,,1000,559,skill-icon-485,,,,,,559,,,,,
 0,0,0,,0,"560,561",,500,486,0,1,0,0,0,1,0,0,A-1diuzhadan,,,,660,1,2000,Vacío,1000,2,38, [439]Ballesta Santa de Plata,,,1,0,1,,1000,,,Flash_ball,,,1,,,,"435,2",,,
-0,0,0,,0,"37,573","568,570",1100,487,0,1,0,1,0,0,0,0,dash,Skill_Linear_impact,Skill_LinearImpactHit,,1500,1,18000,Vacío,800,2,0,"[440]Impacto lineal
+0,0,0,,0,573,"568,570,37",1100,487,0,1,0,1,0,0,0,0,dash,Skill_Linear_impact,Skill_LinearImpactHit,,1500,1,18000,Vacío,800,2,0,"[440]Impacto lineal
 ","1,300,1000,300,100",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-487,Skill_Linear_impact_hit,,,,,,,,,,
 0,0,0,,0,515,,50,489,0,1,0,0,0,0,0,0,,Skill_iceworld,,,5000,1,1000,Vacío,5000,2,0,,"2,600,0",,1,0,1,,1000,577,,,,,,,,,,,,
 0,0,0,,0,,,50,490,0,1,0,0,0,0,0,0,,Skill_health_ring,,,5000,1,1000,Vacío,5000,2,0,,"2,600,0",,1,0,2,,1000,576,,,,,,,,,,,,
@@ -514,3 +514,4 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,601,,650,526,0,1,0,0,0,0,0,0,blade_dual_attack_c,,,,1500,1;2,-1,,700,2,0,,"2,900,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,"608,37",0,528,0,1,0,0,0,0,0,0,dash,,,,333,1;2,2000,,700,2,0,,,,1,0,2,,1000,,,,,,,,,,,,,
 0,0,0,,0,,,0,529,0,0,0,0,1,0,0,0,defense,,,,3000,1;2,5000,,700,2,0,,,,1,0,1,,1000,485,,,,,,,,,,,,
+0,0,0,,0,,,,530,0,0,0,0,0,0,0,0,,,,,,,,,,,0,,,,,0,,,,,,,,,,,,,,,,
