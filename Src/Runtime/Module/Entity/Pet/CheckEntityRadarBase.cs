@@ -52,6 +52,14 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
             _triggerRoot = null;
         }
 
+        ClearEntities();
+    }
+
+    /// <summary>
+    /// 清理掉当前检测到的实体
+    /// </summary>
+    private void ClearEntities()
+    {
         foreach (EntityBase entity in _entityIdMap.Values)
         {
             entity.EntityEvent.UnInitFromScene -= RemoveEntity;
@@ -143,21 +151,27 @@ public abstract class CheckEntityRadarBase : MonoBehaviour
     /// <param name="entity"></param>
     protected abstract void OnRemoveEntity(EntityBase entity);
 
-    /// <summary>
-    /// 启用或者关闭雷达 关闭后触发器会隐藏
-    /// </summary>
-    /// <param name="active"></param>
-    public void SetEnable(bool active)
-    {
-        if (enabled == active)
-        {
-            return;
-        }
-        enabled = active;
+    // 这种方式先不用 子类容易漏处理数据 风险太高 相当于走了对象池 将来看性能需要
+    // /// <summary>
+    // /// 启用或者关闭雷达 关闭后触发器会隐藏
+    // /// </summary>
+    // /// <param name="active"></param>
+    // public void SetEnable(bool active)
+    // {
+    //     if (enabled == active)
+    //     {
+    //         return;
+    //     }
+    //     enabled = active;
 
-        if (_triggerRoot != null)
-        {
-            _triggerRoot.SetActive(active);
-        }
-    }
+    //     if (_triggerRoot != null)
+    //     {
+    //         _triggerRoot.SetActive(active);
+    //     }
+
+    //     if (!active)
+    //     {
+    //         ClearEntities();
+    //     }
+    // }
 }
