@@ -610,15 +610,15 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,2,recipe-icon-895,895,7,"494,2;495,2;496,2",Recette de graine de niveau 7,"623,1,1,1666;641,1,1,1666;642,1,1,1666;643,1,1,1666;644,1,1,1666;645,1,1,1666",3,0,93895,1,10,-,3,0,4,0,0
 0,,2,recipe-icon-896,896,8,"506,2;507,2;508,2",Recette de potion de niveau 8,"646,1,1,1666;647,1,1,1666;648,1,1,1666;649,1,1,1666;650,1,1,1666;651,1,1,1666",3,0,92896,1,10,-,3,0,4,0,0
 0,,2,recipe-icon-897,897,9,"518,2;519,2;520,2",Recette de potion de niveau 9,"652,1,1,1666;653,1,1,1666;654,1,1,1666;655,1,1,1666;656,1,1,1666;657,1,1,1666",3,0,91897,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-902,902,1,"665,1;666,1;667,1", Recette de pouvoir de la nature de niveau 1,"693,1,3,10000",4,0,99902,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-903,903,2,"693,1;669,1;670,1;668,1",Recette de pouvoir de la nature de niveau 2,"694,1,3,10000",4,0,98903,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-904,904,3,"694,1;671,1;673,1;672,1",Recette de Puissance de la Nature de niveau 3,"695,1,3,10000",4,0,97904,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-905,905,4,"695,1;674,1;676,1;675,1",Recette de Puissance de la Nature de niveau 4,"696,1,3,10000",4,0,96905,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-907,907,6,"697,1;682,1;681,1;680,1",Recette de Puissance de la Nature de niveau 6,"698,1,3,10000",4,0,94907,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-906,906,5,"696,1;679,1;678,1;677,1",Recette de Puissance de la Nature de niveau 5,"697,1,3,10000",4,0,95906,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-909,909,8,"699,1;687,1;688,1;686,1",Recette de Puissance de la Nature de niveau 8,"700,1,3,10000",4,0,92909,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-908,908,7,"698,1;683,1;685,1;684,1",Recette de Puissance de la Nature de niveau 7,"699,1,3,10000",4,0,93908,1,10,-,3,0,4,0,0
-0,,2,recipe-icon-910,910,9,"700,1;689,1;691,1;690,1",Recette de Puissance de la Nature de niveau 9,"701,1,3,10000",4,0,91910,1,10,-,3,0,4,0,0
+0,,2,recipe-icon-902,902,1,"665,1;666,1;667,1", Recette de pouvoir de la nature de niveau 1,"693,1,3,10000",4,0,99902,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-903,903,2,"693,1;669,1;670,1;668,1",Recette de pouvoir de la nature de niveau 2,"694,1,3,10000",4,0,98903,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-904,904,3,"694,1;671,1;673,1;672,1",Recette de Puissance de la Nature de niveau 3,"695,1,3,10000",4,0,97904,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-905,905,4,"695,1;674,1;676,1;675,1",Recette de Puissance de la Nature de niveau 4,"696,1,3,10000",4,0,96905,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-907,907,6,"697,1;682,1;681,1;680,1",Recette de Puissance de la Nature de niveau 6,"698,1,3,10000",4,0,94907,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-906,906,5,"696,1;679,1;678,1;677,1",Recette de Puissance de la Nature de niveau 5,"697,1,3,10000",4,0,95906,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-909,909,8,"699,1;687,1;688,1;686,1",Recette de Puissance de la Nature de niveau 8,"700,1,3,10000",4,0,92909,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-908,908,7,"698,1;683,1;685,1;684,1",Recette de Puissance de la Nature de niveau 7,"699,1,3,10000",4,0,93908,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-910,910,9,"700,1;689,1;691,1;690,1",Recette de Puissance de la Nature de niveau 9,"701,1,3,10000",4,0,91910,1,10,-,3,1,1,0,0
 0,,2,recipe-icon-911,911,1,"482,2", Recette de billet d'admission de niveau 1,"468,1,1,3902;659,1,1,3902;467,1,1,975;660,1,1,975;658,1,1,121;661,1,1,121",4,0,99911,1,10,-,2,1,1,0,1
 0,,2,recipe-icon-913,913,3,"484,2",Recette de billet d'admission de niveau 3,"468,1,1,2352;659,1,1,2352;467,1,1,2352;660,1,1,2352;658,1,1,294;661,1,1,294",4,0,97913,1,10,-,2,1,1,0,3
 0,,2,recipe-icon-912,912,2,"483,2",Recette de billet d'admission de niveau 2,"468,1,1,3200;659,1,1,3200;467,1,1,1600;660,1,1,1600;658,1,1,200;661,1,1,200",4,0,98912,1,10,-,2,1,1,0,2
