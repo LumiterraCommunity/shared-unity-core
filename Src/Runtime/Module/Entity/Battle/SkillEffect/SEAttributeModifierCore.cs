@@ -3,7 +3,7 @@ using System.Collections.Generic;
  * @Author: xiang huan
  * @Date: 2023-01-11 19:15:17
  * @Description: 属性修改
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAttributeModifierCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAttributeModifierCore.cs
  * 
  */
 
@@ -39,12 +39,12 @@ public class SEAttributeModifierCore : SkillEffectBase
                             if (addModifierType == eModifierType.PctAdd)
                             {
                                 addValue = RefEntity.EntityAttributeData.GetBaseValue(addType);
-                                value = (int)(addValue * (IntAttribute.PERCENTAGE_FLAG + value) / IntAttribute.PERCENTAGE_FLAG);
+                                value = (int)(addValue * value / IntAttribute.PERCENTAGE_FLAG);
                             }
                             else if (addModifierType == eModifierType.FinalPctAdd)
                             {
                                 addValue = RefEntity.EntityAttributeData.GetValue(addType);
-                                value = (int)(addValue * (IntAttribute.PERCENTAGE_FLAG + value) / IntAttribute.PERCENTAGE_FLAG);
+                                value = (int)(addValue * value / IntAttribute.PERCENTAGE_FLAG);
                             }
                         }
                         //血量做特殊处理，
