@@ -390,4 +390,31 @@ public static class TableUtil
     {
         return GFEntryCore.DataTable.GetDataTable<T>().GetDataRow(cid);
     }
+
+    /// <summary>
+    /// 获取副本关卡时间限制
+    /// </summary>
+    public static float GetInstancingLevelTimeLimit(DRSceneArea drSceneArea, int index)
+    {
+        float timeLimit = 0;
+        if (drSceneArea.SceneSubtype == (int)GameMessageCore.DungeonSubType.Pvp && index == 0)
+        {
+            DRGameValue drGameValue = GetGameValue(eGameValueID.InstancingMatchTime);
+            timeLimit = drGameValue.Value;
+        }
+        else
+        {
+            if (index >= 0 && index < drSceneArea.ChapterTimeLimit.Length)
+            {
+                timeLimit = drSceneArea.ChapterTimeLimit[index];
+            }
+            else
+            {
+                Log.Error($"GetInstancingTimeLimit Error: ChapterTimeLimit:{index} is out of range");
+            }
+        }
+
+        return timeLimit;
+
+    }
 }

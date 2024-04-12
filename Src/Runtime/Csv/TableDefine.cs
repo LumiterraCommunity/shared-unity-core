@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -75,6 +75,7 @@ public enum eGameValueID
     InstancingDailyRewardCount = 37, // 副本每日奖励次数
     InstancingReadyTimeOut = 38, // 副本准备超时时间
     DailyTaskReceiveCD = 39, // 日常任务接取CD
+    InstancingMatchTime = 41, // 副本匹配时间
     PVPDamageRate = 43,//PVP伤害系数
     PlayerCampChangeTime = 44, //玩家切换阵营时间
     HatchPetEggProtectTime = 45,//孵化宠物蛋保护时间，防止用户频繁取消孵化,减轻服务器压力
