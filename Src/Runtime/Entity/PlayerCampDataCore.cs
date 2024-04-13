@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 玩家阵营数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/PlayerCampDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/PlayerCampDataCore.cs
  * 
  */
 
@@ -17,16 +17,16 @@ public class PlayerCampDataCore : EntityCampDataCore
     protected override bool IsEnemy(EntityBase otherOwner)
     {
         //检测目标所在区域
-        if (otherOwner.TryGetComponent(out EntityBattleArea entityBattleArea))
+
+        if (RefEntity.TryGetComponent(out EntityBattleArea myBattleArea) && otherOwner.TryGetComponent(out EntityBattleArea otherBattleArea))
         {
-            //和平区域不可以攻击
-            if (entityBattleArea.CurAreaType == eBattleAreaType.Peace)
+            //我或者目标在和平区域
+            if (myBattleArea.CurAreaType == eBattleAreaType.Peace || otherBattleArea.CurAreaType == eBattleAreaType.Peace)
             {
                 return false;
             }
-
-            //混乱区域可以攻击，无需判断阵营
-            if (entityBattleArea.CurAreaType == eBattleAreaType.Chaos)
+            //目标在混乱区域
+            if (otherBattleArea.CurAreaType == eBattleAreaType.Chaos)
             {
                 return true;
             }
@@ -40,16 +40,16 @@ public class PlayerCampDataCore : EntityCampDataCore
     protected override bool IsFriend(EntityBase otherOwner)
     {
         //检测目标所在区域
-        if (otherOwner.TryGetComponent(out EntityBattleArea entityBattleArea))
+        if (RefEntity.TryGetComponent(out EntityBattleArea myBattleArea) && otherOwner.TryGetComponent(out EntityBattleArea otherBattleArea))
         {
-            //和平区域算友军
-            if (entityBattleArea.CurAreaType == eBattleAreaType.Peace)
+            //我或者目标在和平区域
+            if (myBattleArea.CurAreaType == eBattleAreaType.Peace || otherBattleArea.CurAreaType == eBattleAreaType.Peace)
             {
                 return true;
             }
 
             //混乱区域算敌军
-            if (entityBattleArea.CurAreaType == eBattleAreaType.Chaos)
+            if (otherBattleArea.CurAreaType == eBattleAreaType.Chaos)
             {
                 return false;
             }
