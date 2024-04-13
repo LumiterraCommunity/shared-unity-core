@@ -94,11 +94,6 @@ public class EntityBattleDataCore : EntityBaseComponent
     public EntityStatus Status;
 
     /// <summary>
-    /// 战斗归属ID
-    /// </summary>
-    /// <value></value>
-    public long BattleOwnerId { get; protected set; } = BattleDefine.ENTITY_ID_UNKNOWN;
-    /// <summary>
     /// 死亡原因 只在hp<=0时有效
     /// </summary>
     /// <value></value>
@@ -150,16 +145,6 @@ public class EntityBattleDataCore : EntityBaseComponent
         IsInBattle = isInBattle;
         RefEntity.EntityEvent.ChangeIsBattle?.Invoke(IsInBattle);
         return true;
-    }
-
-    /// <summary>
-    /// 战斗归属ID
-    /// </summary>
-    /// <param name="entityId"></param>
-    public void SetBattleOwnerId(long entityId)
-    {
-        BattleOwnerId = entityId;
-        RefEntity.EntityEvent.BattleOwnerIDUpdate?.Invoke(entityId);
     }
 
     /// <summary>

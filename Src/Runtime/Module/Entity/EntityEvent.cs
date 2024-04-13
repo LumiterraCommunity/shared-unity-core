@@ -189,11 +189,6 @@ public class EntityEvent : EntityBaseComponent
     public Action SeListUpdated;
 
     /// <summary>
-    /// 战斗所属ID更新
-    /// </summary>
-    public Action<long> BattleOwnerIDUpdate;
-
-    /// <summary>
     /// 阵营类型更新
     /// </summary>
     public Action ChangeCamp;
