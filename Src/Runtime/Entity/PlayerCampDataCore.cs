@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 玩家阵营数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/PlayerCampDataCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/PlayerCampDataCore.cs
  * 
  */
 
@@ -54,6 +54,6 @@ public class PlayerCampDataCore : EntityCampDataCore
                 return false;
             }
         }
-        return base.IsEnemy(otherOwner);
+        return base.IsFriend(otherOwner);
     }
 }
