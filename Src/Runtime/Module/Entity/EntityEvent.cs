@@ -25,9 +25,9 @@ public class EntityEvent : EntityBaseComponent
     /// </summary>
     public Action EntityDataInitFinish;
     /// <summary>
-    /// 实体重生
+    /// 实体重生 T0:是否从灵魂状态重生
     /// </summary>
-    public Action EntityBeReborn;
+    public Action<bool> EntityBeReborn;
 
     /// <summary>
     /// 碰撞盒加载完成 T0：碰撞盒所在GameObject

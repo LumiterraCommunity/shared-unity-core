@@ -148,7 +148,7 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
     protected virtual void OnBeReborn()
     {
         ChangeState(OwnerFsm, IdleStatusCore.Name);
-        StatusCtrl.RefEntity.EntityEvent.EntityBeReborn?.Invoke();
+        StatusCtrl.RefEntity.EntityEvent.EntityBeReborn?.Invoke(false);
     }
 
     public bool CheckCanMove()

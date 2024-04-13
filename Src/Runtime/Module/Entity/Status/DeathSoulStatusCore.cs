@@ -83,7 +83,7 @@ public class DeathSoulStatusCore : ListenEventStatusCore, IEntityCanMove, IEntit
     protected virtual void OnBeReborn()
     {
         ChangeState(OwnerFsm, IdleStatusCore.Name);
-        StatusCtrl.RefEntity.EntityEvent.EntityBeReborn?.Invoke();
+        StatusCtrl.RefEntity.EntityEvent.EntityBeReborn?.Invoke(true);
     }
 
     public bool CheckCanMove()
