@@ -17,18 +17,41 @@ public class PlayerCampDataCore : EntityCampDataCore
     protected override bool IsEnemy(EntityBase otherOwner)
     {
         //检测目标所在区域
-        if (otherOwner.TryGetComponent(out EntityBattleArea entityBattleArea))
+
+        if (RefEntity.TryGetComponent(out EntityBattleArea myBattleArea) && otherOwner.TryGetComponent(out EntityBattleArea otherBattleArea))
         {
-            //和平区域不可以攻击
-            if (entityBattleArea.CurAreaType == eBattleAreaType.Peace)
+            //我或者目标在和平区域
+            if (myBattleArea.CurAreaType == eBattleAreaType.Peace || otherBattleArea.CurAreaType == eBattleAreaType.Peace)
             {
                 return false;
             }
-
-            //混乱区域可以攻击，无需判断阵营
-            if (entityBattleArea.CurAreaType == eBattleAreaType.Chaos)
+            //目标在混乱区域
+            if (otherBattleArea.CurAreaType == eBattleAreaType.Chaos)
             {
                 return true;
+            }
+        }
+        return base.IsEnemy(otherOwner);
+    }
+
+    /// <summary>
+    /// 是否是友军
+    /// </summary>
+    protected override bool IsFriend(EntityBase otherOwner)
+    {
+        //检测目标所在区域
+        if (RefEntity.TryGetComponent(out EntityBattleArea myBattleArea) && otherOwner.TryGetComponent(out EntityBattleArea otherBattleArea))
+        {
+            //我或者目标在和平区域
+            if (myBattleArea.CurAreaType == eBattleAreaType.Peace || otherBattleArea.CurAreaType == eBattleAreaType.Peace)
+            {
+                return true;
+            }
+
+            //混乱区域算敌军
+            if (otherBattleArea.CurAreaType == eBattleAreaType.Chaos)
+            {
+                return false;
             }
         }
         return base.IsEnemy(otherOwner);
