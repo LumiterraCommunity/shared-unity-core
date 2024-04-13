@@ -204,6 +204,14 @@ public static class MathUtilCore
         bigSlippage *= System.Numerics.BigInteger.Pow(10, exponent - decimals);
         return bigSlippage;
     }
+
+    public static double BigInteger2Double(string bigIntegerStr, int exponent, int decimals = 4)
+    {
+        _ = System.Numerics.BigInteger.TryParse(bigIntegerStr, out System.Numerics.BigInteger bigInteger);
+        double num = (double)(bigInteger / System.Numerics.BigInteger.Pow(10, exponent - decimals));
+        double numValue = num / Math.Pow(10, decimals);
+        return numValue;
+    }
     /// <summary>
     /// 判断一个数是否是2的幂 0返回false
     /// </summary>
