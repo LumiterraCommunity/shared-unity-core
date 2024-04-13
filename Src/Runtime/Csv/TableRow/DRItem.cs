@@ -24,6 +24,15 @@ public class DRItem : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取canDrop-bool。*/
+    /// </summary>
+    public bool CanDrop
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取canMint-int。*/
     /// </summary>
     public int CanMint
@@ -78,6 +87,15 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取subType-int。*/
+    /// </summary>
+    public int SubType
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -109,6 +127,7 @@ public class DRItem : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        CanDrop = DataTableParseUtil.ParseBool(columnStrings[index++]);
         CanMint = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         GivenSkillId = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -116,6 +135,7 @@ public class DRItem : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Quality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        SubType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UserType = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -130,6 +150,7 @@ public class DRItem : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                CanDrop = binaryReader.ReadBoolean();
                 CanMint = binaryReader.Read7BitEncodedInt32();
                 Desc = binaryReader.ReadString();
                 GivenSkillId = binaryReader.Read7BitEncodedInt32();
@@ -137,6 +158,7 @@ public class DRItem : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 Quality = binaryReader.ReadArray<Int32>();
+                SubType = binaryReader.Read7BitEncodedInt32();
                 Type = binaryReader.Read7BitEncodedInt32();
                 UseLv = binaryReader.Read7BitEncodedInt32();
                 UserType = binaryReader.Read7BitEncodedInt32();

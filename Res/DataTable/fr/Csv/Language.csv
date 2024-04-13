@@ -94,6 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Le serveur est hors ligne
 ,20010006,被T提示,Erreur système
 ,20010007,被T提示,Déconnexion automatique en raison d'une inactivité 
+,20010008,被T提示,
 道具不足,20020001,家园相关,Manque d'objet
 ,20020002,家园相关,Il n'y avait rien dans la boîte de stockage !
 ,20030001,保存技能配置,Enregistré avec succès
@@ -134,9 +135,10 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,En attente : {0}
 ,20070016,登录,Veuillez entrer un code valide
 ,20070017,登录,Échec de la connexion à la scène cible.
-,20070018,,Code d'activation (facultatif) 
-,20070019,,LIGNE #{0} 
-,20070020,,Veuillez d'abord sélectionner le serveur 
+,20070018,登录,Code d'activation (facultatif) 
+,20070019,登录,LIGNE #{0} 
+,20070020,登录,Veuillez d'abord sélectionner le serveur 
+,20070021,登录,
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard

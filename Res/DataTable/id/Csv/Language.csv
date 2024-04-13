@@ -94,6 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Server sedang offline
 ,20010006,被T提示,Kesalahan sistem
 ,20010007,被T提示,Otomatis offline karena tidak aktif
+,20010008,被T提示,
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tidak ada apa-apa di dalam kotak penyimpanan!
 ,20030001,保存技能配置,Berhasil disimpan
@@ -134,9 +135,10 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,Dalam antrian: {0}
 ,20070016,登录,Silakan masukkan kode yang valid
 ,20070017,登录,Gagal masuk ke scene tujuan.
-,20070018,,Kode aktivasi (opsional)
-,20070019,,LINE #{0}
-,20070020,,Harap pilih server terlebih dahulu
+,20070018,登录,Kode aktivasi (opsional)
+,20070019,登录,LINE #{0}
+,20070020,登录,Harap pilih server terlebih dahulu
+,20070021,登录,
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
