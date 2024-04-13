@@ -94,6 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Pelayan dalam talian
 ,20010006,被T提示,Ralat sistem
 ,20010007,被T提示, Automatik offline disebabkan tidak aktif
+,20010008,被T提示,
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tiada apa-apa dalam kotak simpanan!
 ,20030001,保存技能配置,Berjaya disimpan
@@ -134,9 +135,10 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,Dalam antrian: {0}
 ,20070016,登录,Sila masukkan kod yang sah
 ,20070017,登录,Gagal log masuk ke senario sasaran.
-,20070018,, Kod pengaktifan (pilihan)
-,20070019,, LINE #{0}
-,20070020,, Sila pilih pelayan terlebih dahulu
+,20070018,登录, Kod pengaktifan (pilihan)
+,20070019,登录, LINE #{0}
+,20070020,登录, Sila pilih pelayan terlebih dahulu
+,20070021,登录,
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti

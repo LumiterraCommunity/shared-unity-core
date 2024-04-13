@@ -94,6 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Máy chủ đã tắt
 ,20010006,被T提示,Lỗi hệ thống
 ,20010007,被T提示,Tự động ngoại tuyến do không hoạt động
+,20010008,被T提示,
 道具不足,20020001,家园相关,Thiếu vật phẩm
 ,20020002,家园相关,Không có gì trong hộp lưu trữ!
 ,20030001,保存技能配置,Lưu thành công
@@ -134,9 +135,10 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,Trong hàng đợi: {0}
 ,20070016,登录,Vui lòng nhập mã hợp lệ
 ,20070017,登录,Đăng nhập vào cảnh mục tiêu thất bại.
-,20070018,,Mã kích hoạt (tùy chọn)
-,20070019,,LINE #{0}
-,20070020,,Vui lòng chọn máy chủ trước
+,20070018,登录,Mã kích hoạt (tùy chọn)
+,20070019,登录,LINE #{0}
+,20070020,登录,Vui lòng chọn máy chủ trước
+,20070021,登录,
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó

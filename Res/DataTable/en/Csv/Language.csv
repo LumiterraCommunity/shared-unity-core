@@ -98,6 +98,7 @@ The higher the level of crafting the item, the more the increased proficiency."
 ,20010005,被T提示,The server is offline
 ,20010006,被T提示,System error
 ,20010007,被T提示,Automatic offline due to Inactivity
+,20010008,被T提示,Clans rank too low.
 道具不足,20020001,家园相关,Lack of item
 ,20020002,家园相关,There was nothing in the storage box!
 ,20030001,保存技能配置,Save successfully
@@ -141,9 +142,10 @@ Sprite due to insufficient space"
 ,20070015,登录,In queue : {0}
 ,20070016,登录,Please enter a valid code
 ,20070017,登录,Failed to login to the target scene.
-,20070018,,Activation code(optional)
-,20070019,,LINE #{0}
-,20070020,,Please select the server first
+,20070018,登录,Activation code(optional)
+,20070019,登录,LINE #{0}
+,20070020,登录,Please select the server first
+,20070021,登录,Invalid name.
 ,20080001,设置,"To apply the language setting, please restart the app."
 ,20080002,设置,Quit now
 ,20080003,设置,Later

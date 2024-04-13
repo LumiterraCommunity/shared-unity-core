@@ -94,6 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,El servidor está fuera de línea
 ,20010006,被T提示,Error del sistema
 ,20010007,被T提示,Desconexión automática debido a inactividad
+,20010008,被T提示,
 道具不足,20020001,家园相关,Falta de objeto
 ,20020002,家园相关,¡No había nada en la caja de almacenamiento!
 ,20030001,保存技能配置,Guardado exitoso
@@ -134,9 +135,10 @@ describe-string,id-int,module-string,value-string
 ,20070015,登录,En cola: {0}
 ,20070016,登录,Por favor ingrese un código válido
 ,20070017,登录,Error al iniciar sesión en la escena objetivo.
-,20070018,,Código de activación (opcional)
-,20070019,,LÍNEA #{0}
-,20070020,,Por favor selecciona el servidor primero
+,20070018,登录,Código de activación (opcional)
+,20070019,登录,LÍNEA #{0}
+,20070020,登录,Por favor selecciona el servidor primero
+,20070021,登录,
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
