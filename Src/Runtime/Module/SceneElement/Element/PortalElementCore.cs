@@ -255,7 +255,7 @@ public class PortalElementCore : SceneElementCore
     {
         if (ElementType == eSceneElementType.SettlePortal)
         {
-            return ePortalAnimType.Area;
+            return ePortalAnimType.Settle;
         }
 
         PortalTypeInfo portalTypeInfo = PortalTypeList[CurTypeIndex];

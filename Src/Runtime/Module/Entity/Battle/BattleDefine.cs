@@ -25,6 +25,11 @@ public static class BattleDefine
     /// </summary>
     public const long HUNGER_DAMAGE_ENTITY_ID = -899;
 
+    /// <summary>
+    /// 副本退出
+    /// </summary>
+    public const long INSTANCING_EXIT = -444;
+
     public enum eSkillShapeId : int
     {
         IdUnknown = 0,
