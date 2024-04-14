@@ -85,6 +85,7 @@ public enum eGameValueID
     PetAbilityDisplays = 52,//宠物特性对外名称显示
     offlineTimeout = 53, // 离线超时时间
     InstancingRewardsRateRange = 55, // 副本奖励倍率范围
+    PetRecallCD = 56, // 宠物召回CD
 }
 
 // public static class GameValueID

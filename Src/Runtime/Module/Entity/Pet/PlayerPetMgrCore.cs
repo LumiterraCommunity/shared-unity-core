@@ -28,6 +28,11 @@ public class PlayerPetMgrCore : EntityBaseComponent
     /// </summary>
     public EntityBase FollowingPet { get; private set; }
 
+    protected virtual void Start()
+    {
+
+    }
+
     protected virtual void OnDestroy()
     {
         ClearCurFollowingPet(true);

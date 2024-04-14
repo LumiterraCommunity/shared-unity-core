@@ -66,6 +66,12 @@ public enum eErrorCode : int
 
     #endregion
 
+    #region 宠物
+    petSystemErr = 1001001, //宠物系统错误
+    petRecallOnCD = 1001002, //宠物召回CD中
+    petNotFound = 1001003, //宠物未找到
+    #endregion
+
     #region  S2S错误码
     notFindUserData = 1001404,
 
