@@ -17,6 +17,11 @@ public class ListMap<TKey, TValue> : IEnumerator, IEnumerable
     public int Count => _list.Count;
 
     /// <summary>
+    /// 返回字典中的Keys 这个和字典一样无法保证顺序
+    /// </summary>
+    public Dictionary<TKey, TValue>.KeyCollection Keys => _dic.Keys;
+
+    /// <summary>
     /// 添加一个数据 key为id之类的唯一值 内部字典会采用该值作为key
     /// </summary>
     /// <param name="key"></param>
