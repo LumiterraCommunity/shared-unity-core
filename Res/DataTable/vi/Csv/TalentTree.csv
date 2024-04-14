@@ -179,9 +179,9 @@ Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
 ","89,10000","1,3",talentTree-32,32,1,9,1,Tập hợp chiến đấu 9,3,115200,8,8,31
 -3,"Mở khóa Công thức Bộ Lv 1
-",70#74#201#267;111#178;177#179#180#605,2,talentTree-33,33,0,1,3,Tập hợp các công thức nấu ăn,3,"131,131,131",0,"0,0,0",
+",70#74#201#267;111#178;177#179#180,2,talentTree-33,33,0,1,3,Tập hợp các công thức nấu ăn,3,"131,131,131",0,"0,0,0",
 -3,"Mở khóa Công thức Bộ Lv 2
-",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474#606,2,talentTree-34,34,0,2,3,Tập hợp các công thức nấu ăn,3,"262,262,262",0,"0,0,0",33
+",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Tập hợp các công thức nấu ăn,3,"262,262,262",0,"0,0,0",33
 -1,"Chạm nhẹ đáng yêu
 ",415,0,talentTree-45,45,0,3,1,Chạm đáng yêu,1,420,0,2,23
 -1,"Kỹ năng Hiệu suất - Cuốc nhóm
@@ -207,22 +207,22 @@ Năng lượng tối đa + 10
 -3,"Làm cho kẻ địch hoa mắt trong một khoảng cách nhất định, không thể đánh trúng trong khi kỹ năng được phát hành
 ",485,0,talentTree-61,61,0,4,1, Đạp nát chiến tranh,2,646,0,3,52
 -3,"Mở khóa Công thức Bộ Lv 3
-",72#76#204#585;113#186;185#187#188#483#485#491#486#503#484#504#607,2,talentTree-62,62,0,3,3,Tập hợp các công thức nấu ăn,3,"525,525,525",0,"0,0,0",34
+",72#76#204#585;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Tập hợp các công thức nấu ăn,3,"525,525,525",0,"0,0,0",34
 -1,"Mở khóa công thức thuốc
 Mở khóa công thức thuốc Năng lượng
-",95#902,2,talentTree-65,65,0,1,1,Nhà sưu tập điên cấp 1,3,131,0,0,
+",95#902#605,2,talentTree-65,65,0,1,1,Nhà sưu tập điên cấp 1,3,131,0,0,
 -1,"Mở khóa công thức thuốc
 Mở khóa công thức thuốc Năng lượng
-",96#903,2,talentTree-66,66,0,2,1,Người được chọn cấp 1,3,262,0,0,65
+",96#903#606,2,talentTree-66,66,0,2,1,Người được chọn cấp 1,3,262,0,0,65
 -1,"Mở khóa công thức thuốc
 Mở khóa công thức thuốc Năng lượng
-",132#904,2,talentTree-67,67,0,3,1,Bí quyết đạo cụ ma thuật,3,525,0,0,66
+",132#904#607,2,talentTree-67,67,0,3,1,Bí quyết đạo cụ ma thuật,3,525,0,0,66
 -1,"Mở khóa công thức thuốc
 Mở khóa công thức thuốc Năng lượng
-",346#905,2,talentTree-68,68,0,4,1, Các công thức phụ kiện ma thuật,3,1050,0,10,67
+",346#905#608,2,talentTree-68,68,0,4,1, Các công thức phụ kiện ma thuật,3,1050,0,10,67
 -1,"Mở khóa công thức thuốc
 Mở khóa công thức thuốc Năng lượng
-",347#906,2,talentTree-69,69,0,5,1,Người được chọn cấp 2,3,2100,0,15,68
+",347#906#609,2,talentTree-69,69,0,5,1,Người được chọn cấp 2,3,2100,0,15,68
 -1,"Giảm tốc độ di chuyển của kẻ địch.
 ",340,1,talentTree-70,70,0,4,1, Nhẹ nhàng - Tăng cường,2,646,0,3,60
 -3,"Tăng thời gian choáng đối thủ.
@@ -416,25 +416,25 @@ Mở khóa công thức thuốc Năng lượng
 ",316,1,talentTree-202,202,0,5,1,Thu thập - Khai thác,3,2100,0,4,199
 -1,"Mở khóa công thức thuốc
 Mở khóa công thức thuốc Năng lượng
-",348#907,2,talentTree-204,204,0,6,1,Bí quyết đạo cụ ma thuật,3,4200,0,20,69
+",348#907#610,2,talentTree-204,204,0,6,1,Bí quyết đạo cụ ma thuật,3,4200,0,20,69
 1,"Sức tấn công cỏ thu thập ++ Trình độ thu thập ++
 ",299,1,talentTree-205,205,0,6,1,Thu thập - Giá trị cỏ,3,4200,0,5,200
 2,"Sức tấn công cây thu thập ++ Trình độ thu thập ++
 ",308,1,talentTree-206,206,0,6,1,Tập hợp - Cây cối,3,4200,0,5,201
 3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",317,1,talentTree-207,207,0,6,1,Thu thập giá trị - Khai thác,3,4200,0,5,202
--1, Chưa mở,895#908,2,talentTree-209,209,0,7,1,Nhà sưu tập điên cấp 3(Đang khóa),3,8400,0,0,204
+-1, Chưa mở,895#908#611,2,talentTree-209,209,0,7,1,Nhà sưu tập điên cấp 3(Đang khóa),3,8400,0,0,204
 1," Tăng sức tấn công cỏ khi thu thập +++
 Tăng trình độ nhặt cỏ +++",300,1,talentTree-210,210,0,7,1,Tập Hợp - Cỏ,3,8400,0,6,205
 2," Tăng sức tấn công cây khi thu thập +++
 Tăng trình độ chặt cây +++",309,1,talentTree-211,211,0,7,1,Tập hợp - Cây cối,3,8400,0,6,206
 3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",318,1,talentTree-212,212,0,7,1,Thu thập - Khai thác,3,8400,0,6,207
--1, Chưa mở,896#909,2,talentTree-214,214,0,8,1,Người được chọn cấp 3(Đang khóa),3,16800,0,0,209
+-1, Chưa mở,896#909#612,2,talentTree-214,214,0,8,1,Người được chọn cấp 3(Đang khóa),3,16800,0,0,209
 2," Tăng sức tấn công cây khi thu thập +++
 Tăng trình độ chặt cây +++",310,1,talentTree-215,215,0,8,1,Tập hợp - Cây cối,3,16800,0,7,211
 1," Tăng sức tấn công cỏ khi thu thập +++
 Tăng trình độ nhặt cỏ +++",301,1,talentTree-216,216,0,8,1,Tập Hợp - Cỏ,3,16800,0,7,210
 3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",319,1,talentTree-217,217,0,8,1,Thu thập - Khai thác,3,16800,0,7,212
--1, Chưa mở,897#910,2,talentTree-219,219,0,9,1,Bí quyết đạo cụ ma thuật(Đang khóa),3,33600,0,0,214
+-1, Chưa mở,897#910#613,2,talentTree-219,219,0,9,1,Bí quyết đạo cụ ma thuật(Đang khóa),3,33600,0,0,214
 1," Tăng sức tấn công cỏ khi thu thập +++
 Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp - Cỏ,3,33600,0,8,216
 2,Tăng tấn công cây cối khi thu thập ++ Tăng trình độ thu thập ++,311,1,talentTree-221,221,0,9,1,Tập hợp - Cây cối,3,33600,0,8,215
@@ -472,15 +472,15 @@ Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp -
 -4,"Mở khóa công thức tinh chất Lv 6
 ",342,2,talentTree-261,261,0,6,1, Công thức Tinh chất Chiến đấu,2,2584,0,20,259
 -3,"Mở khóa Công thức Bộ Lv 4
-",276#277#278#382;279#280;281#288#289#515#516#525#524#576#514#519#529#608,2,talentTree-262,262,0,4,3, Các công thức bộ trang bị thu thập,3,"1050,1050,1050",0,"10,10,10",62
+",276#277#278#382;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3, Các công thức bộ trang bị thu thập,3,"1050,1050,1050",0,"10,10,10",62
 -2,"Mở khóa Công thức Tinh chất Lv 4
 ",343,2,talentTree-263,263,0,4,1, Các công thức tinh chất thu thập,3,1050,0,10,247
 -3,"Mở khóa công thức bộ trang phục Lv 5
-",298#299#300#383;301#302;303#304#305#537#539#538#577#544#543#542#552#609,2,talentTree-264,264,0,5,3, Các công thức bộ trang bị thu thập,3,"2100,2100,2100",0,"15,15,15",262
+",298#299#300#383;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3, Các công thức bộ trang bị thu thập,3,"2100,2100,2100",0,"15,15,15",262
 -2,"Mở khóa công thức tinh chất Lv 5
 ",344,2,talentTree-265,265,0,5,1, Công thức Tinh chất Thu thập,3,2100,0,15,263
 -3,"Mở khóa công thức bộ trang phục Lv 6
-",319#320#321#384;322#323;324#325#326#557#554#565#556#578#566#562#558#610,2,talentTree-266,266,0,6,3, Công thức Bộ Trang bị Thu thập,3,"4200,4200,4200",0,"20,20,20",264
+",319#320#321#384;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3, Công thức Bộ Trang bị Thu thập,3,"4200,4200,4200",0,"20,20,20",264
 -2,"Mở khóa công thức tinh chất Lv 6
 ",345,2,talentTree-267,267,0,6,1, Công thức Tinh chất Thu thập,3,4200,0,20,265
 -4,"Mở khóa Công thức Bộ Lv 4
@@ -510,14 +510,14 @@ Mở khóa công thức nước năng lượng Lv 7
 ",632,2,talentTree-279,279,0,7,1, Công thức Tinh chất Chăn nuôi (Chưa mở) (Đang khóa),1,6720,0,0,276
 -4," Mở khóa công thức bộ Lv 8
 Mở khóa công thức Nước lượng Lv 8
-",678#679#680#615;681#682;683#684#685#846#847#848#849#850#851#852#853#612,2,talentTree-280,280,0,8,3, Công thức Bộ Trang trại (Chưa mở) (Đang khóa),1,"13440,13440,13440",0,"30,30,30",277
+",678#679#680#615;681#682;683#684#685#846#847#848#849#850#851#852#853,2,talentTree-280,280,0,8,3, Công thức Bộ Trang trại (Chưa mở) (Đang khóa),1,"13440,13440,13440",0,"30,30,30",277
 -3," Mở khóa công thức Tinh chất Trồng trọt Lv 8
 ",636,2,,281,0,8,1, Công thức Tinh chất Trồng trọt (Chưa mở)(Đang khóa),1,13440,0,0,278
 -2," Mở khóa công thức Tinh chất Chăn nuôi Lv 8
 ",633,2,talentTree-282,282,0,8,1,Công thức Tinh chất chăn nuôi(Chưa mở) (Đang khóa),1,13440,0,0,279
 -4," Mở khóa công thức bộ Lv 9
 Mở khóa công thức Nước lực Lv 9
-",702#703#704#619;705#706;707#708#709#870#871#872#873#874#875#876#877#613,2,talentTree-283,283,0,9,3,Công thức bộ trang trại(Chưa mở) (Đang khóa),1,"26880,26880,26880",0,"35,35,35",280
+",702#703#704#619;705#706;707#708#709#870#871#872#873#874#875#876#877,2,talentTree-283,283,0,9,3,Công thức bộ trang trại(Chưa mở) (Đang khóa),1,"26880,26880,26880",0,"35,35,35",280
 -3," Mở khóa công thức Tinh chất Trồng trọt Lv 9
 ",637,2,,284,0,9,1,Công thức Tinh chất trồng trọt(Chưa mở)(Đang khóa),1,26880,0,0,281
 -2," Mở khóa công thức Tinh chất Chăn nuôi Lv 9
@@ -539,7 +539,7 @@ Mở khóa công thức Nước lực Lv 9
 ",628,2,,291,0,9,1,(Chưa mở) (Đang khóa),2,24436,0,0,289
 -3," Mở khóa công thức bộ Lv 7
 Mở khóa công thức nước năng lượng Lv 7
-",646#647#648#614;649#650;651#652#653#821#822#823#824#825#826#827#828#611,2,talentTree-292,292,0,7,3, (Chưa mở) (Đang khóa),3,"8400,8400,8400",0,"25,25,25",266
+",646#647#648#614;649#650;651#652#653#821#822#823#824#825#826#827#828,2,talentTree-292,292,0,7,3, (Chưa mở) (Đang khóa),3,"8400,8400,8400",0,"25,25,25",266
 -2," Mở khóa công thức tinh chất Lv 7
 ",629,2,talentTree-293,293,0,7,1, (Chưa mở) (Đang khóa),3,8400,0,0,267
 -3," Mở khóa công thức bộ Lv 8

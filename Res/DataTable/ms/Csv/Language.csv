@@ -15,7 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用, Versi aplikasi telah dikemaskini. Sila mulakan semula aplikasi.
 ,10001010,通用, Permainan bermula
 ,10001011,通用,Diperolehi{0}
-,10001012,通用,
+,10001012,通用,Kekurangan Item.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -94,7 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Pelayan dalam talian
 ,20010006,被T提示,Ralat sistem
 ,20010007,被T提示, Automatik offline disebabkan tidak aktif
-,20010008,被T提示,
+,20010008,被T提示,Peringkat klan terlalu rendah
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tiada apa-apa dalam kotak simpanan!
 ,20030001,保存技能配置,Berjaya disimpan
@@ -138,7 +138,7 @@ describe-string,id-int,module-string,value-string
 ,20070018,登录, Kod pengaktifan (pilihan)
 ,20070019,登录, LINE #{0}
 ,20070020,登录, Sila pilih pelayan terlebih dahulu
-,20070021,登录,
+,20070021,登录,Nama tidak sah.
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -192,7 +192,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Bahan
 ,20110020,nft 关键字 在配置中的类型,Pembinaan
 ,20110021,nft 关键字 在配置中的类型,Sambungan dompet dimulakan
-,20110022,,
+,20110022,,Totem
 ,20120005,登录,Sambungan dompet dimulakan
 ,20120006,登录,Sambungan dompet dikemaskini
 ,20120007,登录,Sambungan dompet selesai
@@ -305,12 +305,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230005,宠物,Adakah anda pasti untuk melepaskan {0}? Anda akan kehilangan haiwan peliharaan selepas melepaskannya.
 ,20230006,宠物,Anda telah melepaskan haiwan peliharaan anda.
 ,20230007,宠物,Penukaran nama haiwan peliharaan selesai.
-,20230008,,
+,20230008,,Haiwan Peliharaan {0}
 ,20240001,图腾,Berjaya mencapai.
 ,"20240002
-",,
-,20240003,,
-,20240004,,
+",,Pelaburan Berjaya
+,20240003,,Pengeluaran Berjaya
+,20240004,,"Mengira, sila tunggu"
 ,20250000,仓库,Sila perbaharui sewa storan sebelum menyimpan.
 ,20250001,仓库,Sila perbaharui sewa storan sebelum mengeluarkannya.
 ,20250002,,Storan penuh.

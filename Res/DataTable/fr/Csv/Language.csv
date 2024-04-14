@@ -15,7 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,La version de l'application a été mise à jour. Veuillez redémarrer l'application.
 ,10001010,通用,Début du jeu
 ,10001011,通用,Obtenu{0}
-,10001012,通用,
+,10001012,通用,Manque d'objets.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -94,7 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Le serveur est hors ligne
 ,20010006,被T提示,Erreur système
 ,20010007,被T提示,Déconnexion automatique en raison d'une inactivité 
-,20010008,被T提示,
+,20010008,被T提示,Le classement des clans est trop bas.
 道具不足,20020001,家园相关,Manque d'objet
 ,20020002,家园相关,Il n'y avait rien dans la boîte de stockage !
 ,20030001,保存技能配置,Enregistré avec succès
@@ -138,7 +138,7 @@ describe-string,id-int,module-string,value-string
 ,20070018,登录,Code d'activation (facultatif) 
 ,20070019,登录,LIGNE #{0} 
 ,20070020,登录,Veuillez d'abord sélectionner le serveur 
-,20070021,登录,
+,20070021,登录,Nom invalide.
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -192,7 +192,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Matériau 
 ,20110020,nft 关键字 在配置中的类型,Construction 
 ,20110021,nft 关键字 在配置中的类型,Œuf d'animal de compagnie
-,20110022,,
+,20110022,,Totem 
 ,20120005,登录,Connexion au portefeuille démarrée 
 ,20120006,登录,Mise à jour de la connexion au portefeuille 
 ,20120007,登录,Connexion au portefeuille terminée 
@@ -305,12 +305,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230005,宠物,Êtes-vous sûr(e) de vouloir libérer {0} ? Vous perdrez l'animal de compagnie après la libération.
 ,20230006,宠物,Vous avez libéré votre animal de compagnie.
 ,20230007,宠物,Le changement de nom de l'animal de compagnie est terminé.
-,20230008,,
+,20230008,,Animal de compagnie de {0}
 ,20240001,图腾,Succès accompli.
 ,"20240002
-",,
-,20240003,,
-,20240004,,
+",,Investissement réussi 
+,20240003,,Retrait réussi 
+,20240004,,"Calcul en cours, veuillez patienter "
 ,20250000,仓库,Veuillez renouveler le bail de stockage avant de le ranger.
 ,20250001,仓库,Veuillez renouveler le bail de stockage avant de le retirer.
 ,20250002,,Le stockage est plein.

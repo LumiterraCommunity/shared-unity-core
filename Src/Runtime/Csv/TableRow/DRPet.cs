@@ -60,15 +60,6 @@ public class DRPet : DataRowBase
     }
 
     /// <summary>
-  /**获取extendSkill-int[]。*/
-    /// </summary>
-    public int[] ExtendSkill
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取harvestAction-int。*/
     /// </summary>
     public int HarvestAction
@@ -185,6 +176,15 @@ public class DRPet : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取extendSkill-int[]。*/
+    /// </summary>
+    public int[] ExtendSkill
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -194,7 +194,6 @@ public class DRPet : DataRowBase
         AutoHarvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         BreedingDifficulty = DataTableParseUtil.ParseInt(columnStrings[index++]);
         EggItemId = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        ExtendSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         HarvestAction = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestDropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -209,6 +208,7 @@ public class DRPet : DataRowBase
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ToEggProbability = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UpgradeEXP = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ExtendSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -224,7 +224,6 @@ public class DRPet : DataRowBase
                 AutoHarvest = binaryReader.ReadBoolean();
                 BreedingDifficulty = binaryReader.Read7BitEncodedInt32();
                 EggItemId = binaryReader.Read7BitEncodedInt32();
-                ExtendSkill = binaryReader.ReadArray<Int32>();
                 HarvestAction = binaryReader.Read7BitEncodedInt32();
                 HarvestDropId = binaryReader.Read7BitEncodedInt32();
                 HarvestTime = binaryReader.Read7BitEncodedInt32();
@@ -239,6 +238,7 @@ public class DRPet : DataRowBase
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
                 ToEggProbability = binaryReader.Read7BitEncodedInt32();
                 UpgradeEXP = binaryReader.ReadArray<Int32>();
+                ExtendSkill = binaryReader.ReadArray<Int32>();
             }
         }
 

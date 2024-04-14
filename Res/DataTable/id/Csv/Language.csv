@@ -15,7 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,Versi aplikasi telah diperbarui. Silakan restart aplikasi.
 ,10001010,通用,Permainan dimulai
 ,10001011,通用,Diperoleh{0}
-,10001012,通用,
+,10001012,通用,Kekurangan Barang.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -94,7 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Server sedang offline
 ,20010006,被T提示,Kesalahan sistem
 ,20010007,被T提示,Otomatis offline karena tidak aktif
-,20010008,被T提示,
+,20010008,被T提示,Peringkat klan terlalu rendah
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tidak ada apa-apa di dalam kotak penyimpanan!
 ,20030001,保存技能配置,Berhasil disimpan
@@ -138,7 +138,7 @@ describe-string,id-int,module-string,value-string
 ,20070018,登录,Kode aktivasi (opsional)
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Harap pilih server terlebih dahulu
-,20070021,登录,
+,20070021,登录,Nama tidak valid.
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -192,7 +192,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Bahan
 ,20110020,nft 关键字 在配置中的类型,Bangunan
 ,20110021,nft 关键字 在配置中的类型,Telur Hewan Peliharaan
-,20110022,,
+,20110022,,Totem
 ,20120005,登录,Mulai menghubungkan dompet
 ,20120006,登录,Pembaruan menghubungkan dompet
 ,20120007,登录,Selesai menghubungkan dompet
@@ -305,12 +305,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230005,宠物,Apakah Anda yakin ingin melepaskan {0}? Anda akan kehilangan hewan peliharaan setelah melepaskannya.
 ,20230006,宠物,Anda telah melepaskan hewan peliharaan Anda.
 ,20230007,宠物,Penggantian nama hewan peliharaan selesai.
-,20230008,,
+,20230008,,Hewan Peliharaan {0}
 ,20240001,图腾,Berhasil mencapai
 ,"20240002
-",,
-,20240003,,
-,20240004,,
+",,Investasi Berhasil
+,20240003,,Penarikan Berhasil
+,20240004,,"Menghitung, harap tunggu"
 ,20250000,仓库,Harap perpanjang sewa penyimpanan sebelum menyimpan.
 ,20250001,仓库,Harap perpanjang sewa penyimpanan sebelum mengambilnya.
 ,20250002,,Penyimpanan penuh.
