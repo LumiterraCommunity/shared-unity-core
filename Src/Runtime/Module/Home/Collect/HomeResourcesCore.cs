@@ -133,11 +133,21 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
 
     protected virtual void OnExecuteAction(eAction action, long playerId, long entityId, int skillId)
     {
+        if (action == eAction.Pick)//捡东西没有进度伤害 也必须给个最大伤害 否则掉落分配有问题
+        {
+            RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(entityId, int.MaxValue);
+        }
     }
 
     public virtual void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {
+        if (deltaProgress <= 0)
+        {
+            Log.Error($"家园采集资源进度变化值无效id: {Id} deltaProgress: {deltaProgress}");
+            return;
+        }
 
+        RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(triggerEntityId, deltaProgress);
     }
 
     /// <summary>

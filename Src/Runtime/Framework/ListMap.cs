@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityGameFramework.Runtime;
@@ -45,6 +46,21 @@ public class ListMap<TKey, TValue> : IEnumerator, IEnumerable
         _ = _dic.Remove(key);
         _ = _list.Remove(value);
         return true;
+    }
+
+    /// <summary>
+    /// 设置一个数据 List的顺序会变化 以为value可能是值类型数据
+    /// </summary>
+    /// <param name="key"></param>
+    /// <param name="value"></param>
+    public void Set(TKey key, TValue value)
+    {
+        if (_dic.ContainsKey(key))
+        {
+            _ = Remove(key);
+        }
+
+        _ = Add(key, value);
     }
 
     public bool ContainsKey(TKey key)
