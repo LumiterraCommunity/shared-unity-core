@@ -423,7 +423,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 1,0,0,,0,213,,0,427,1,1,0,1,0,0,0,1,attack,,Skill_SoulLord_AttackArea,,100,1,0,"空
 ",10000,2,0,陷阱怪物_Buff,"2,900,0",,1,0,2,,1000,,,,,top_down_Blue_9,,,500,,,,,
 0,0,0,,0,,,200,431,0,0,0,1,0,0,0,0,happy,,,,660,1,15000,,0,2,0,治疗喷涌,"2,666,0",CameraShakeGrade_1,1,0,2,,1000,513,skill-icon-431,,,,,,,,,,,
-0,0,0,,0,563,467,566,432,0,0,0,1,0,0,0,0,A-1baoqi,Skill_inspire,Skill_Inspire,,2000,1,45000,,0,2,0,鼓舞,"2,666,0",,1,0,2,,1000,"508,563",skill-icon-432,,,,,,,,,,,
+0,0,0,,0,564,467,566,432,0,0,0,1,0,0,0,0,A-1baoqi,Skill_inspire,Skill_Inspire,,2000,1,45000,,0,2,0,鼓舞,"2,666,0",,1,0,2,,1000,"508,563",skill-icon-432,,,,,,,,,,,
 0,0,0,,0,1,,1000,433,0,1,0,1,0,1,0,1,A-1diuzhadan,Skill_seeding_2,A-chuisanlianji-3-NEW,,2833,1,30000,,600,2,25,黑洞,"2,300,0",,1,1,1,,1000,"489,490",,,,top_down_Normal_3,1,,,,,,,
 0,0,0,,0,493,,1000,434,0,0,0,1,0,0,0,0,,Skill_HealRing,,,2833,1,30000,,0,2,0,治疗圈,"2,200,0",,1,0,2,,1000,493,,,,,,,,,,,,
 0,0,0,0,0,532,,500,435,0,1,0,1,0,0,0,0,attackArea,Skill_Fire_Breath_NoSmoke,Skill_StardustWhelpling_AttackRange,,3000,1,15000,喷射火焰，对范围内敌人造成多段伤害,800,2,0,火焰吐息（星辰幼龙）,"4,150,800,4500,0",CameraShakeGrade_1,1,0,1,,1000,"518,521",skill-icon-435,,,,,,,,,,,

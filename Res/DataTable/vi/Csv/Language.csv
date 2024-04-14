@@ -15,7 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,Phiên bản ứng dụng đã được cập nhật. Vui lòng khởi động lại ứng dụng.
 ,10001010,通用,Trò chơi bắt đầu
 ,10001011,通用,Đã nhận được{0}
-,10001012,通用,
+,10001012,通用,Thiếu vật phẩm.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -94,7 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,Máy chủ đã tắt
 ,20010006,被T提示,Lỗi hệ thống
 ,20010007,被T提示,Tự động ngoại tuyến do không hoạt động
-,20010008,被T提示,
+,20010008,被T提示,Xếp hạng của các gia tộc quá thấp
 道具不足,20020001,家园相关,Thiếu vật phẩm
 ,20020002,家园相关,Không có gì trong hộp lưu trữ!
 ,20030001,保存技能配置,Lưu thành công
@@ -138,7 +138,7 @@ describe-string,id-int,module-string,value-string
 ,20070018,登录,Mã kích hoạt (tùy chọn)
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Vui lòng chọn máy chủ trước
-,20070021,登录,
+,20070021,登录,Tên không hợp lệ.
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó
@@ -192,7 +192,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Nguyên liệu
 ,20110020,nft 关键字 在配置中的类型,Công trình
 ,20110021,nft 关键字 在配置中的类型,Trứng thú cưng
-,20110022,,
+,20110022,,Trụ
 ,20120005,登录,Bắt đầu kết nối ví
 ,20120006,登录,Cập nhật kết nối ví
 ,20120007,登录,Hoàn thành kết nối ví
@@ -305,12 +305,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20230005,宠物,Bạn có chắc chắn muốn thả {0}? Bạn sẽ mất thú cưng sau khi thả.
 ,20230006,宠物,Bạn đã thả thú cưng của bạn.
 ,20230007,宠物,Đổi tên thú cưng thành công.
-,20230008,,
+,20230008,,Thú cưng của {0}
 ,20240001,图腾,Đạt được thành công
 ,"20240002
-",,
-,20240003,,
-,20240004,,
+",,Đầu tư thành công
+,20240003,,Rút tiền thành công
+,20240004,,"Đang tính toán, vui lòng đợi"
 ,20250000,仓库,Vui lòng gia hạn thuê kho trước khi lưu trữ.
 ,20250001,仓库,Vui lòng gia hạn thuê kho trước khi lấy ra.
 ,20250002,,Kho đã đầy.

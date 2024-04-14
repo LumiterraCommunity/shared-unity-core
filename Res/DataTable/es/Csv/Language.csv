@@ -15,7 +15,7 @@ describe-string,id-int,module-string,value-string
 ,10001009,通用,"La versión de la aplicación ha sido actualizada. Por favor, reinicie la aplicación."
 ,10001010,通用,Iniciando el juego
 ,10001011,通用,Obtenido{0}
-,10001012,通用,
+,10001012,通用,Falta de objetos.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Recuperación de HP
 ,10004023,装备属性-攻击点数,Puntos de Ataque
@@ -94,7 +94,7 @@ describe-string,id-int,module-string,value-string
 ,20010005,被T提示,El servidor está fuera de línea
 ,20010006,被T提示,Error del sistema
 ,20010007,被T提示,Desconexión automática debido a inactividad
-,20010008,被T提示,
+,20010008,被T提示,Clanes con rango demasiado bajo
 道具不足,20020001,家园相关,Falta de objeto
 ,20020002,家园相关,¡No había nada en la caja de almacenamiento!
 ,20030001,保存技能配置,Guardado exitoso
@@ -138,7 +138,7 @@ describe-string,id-int,module-string,value-string
 ,20070018,登录,Código de activación (opcional)
 ,20070019,登录,LÍNEA #{0}
 ,20070020,登录,Por favor selecciona el servidor primero
-,20070021,登录,
+,20070021,登录,Nombre no válido.
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -192,7 +192,7 @@ describe-string,id-int,module-string,value-string
 ,20110019,nft 关键字 在配置中的类型,Material
 ,20110020,nft 关键字 在配置中的类型,Edificio
 ,20110021,nft 关键字 在配置中的类型,Huevo de mascota
-,20110022,,
+,20110022,,Tótem
 ,20120005,登录,Inicio de conexión de billetera
 ,20120006,登录,Actualización de conexión de billetera
 ,20120007,登录,Finalización de conexión de billetera
@@ -305,12 +305,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230005,宠物,¿Estás seguro de liberar a {0}? Perderás a la mascota después de liberarla.
 ,20230006,宠物,Has liberado a tu mascota.
 ,20230007,宠物,Renombrado de mascota completado.
-,20230008,,
+,20230008,,Mascota de {0}
 ,20240001,图腾,Logro alcanzado.
 ,"20240002
-",,
-,20240003,,
-,20240004,,
+",,Inversión exitosa
+,20240003,,Retiro exitoso
+,20240004,,"Calculando, por favor espera"
 ,20250000,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de almacenar."
 ,20250001,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de sacarlo."
 ,20250002,,El almacenamiento está lleno.
