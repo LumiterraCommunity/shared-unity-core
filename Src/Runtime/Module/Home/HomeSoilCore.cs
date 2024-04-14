@@ -133,7 +133,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
             return;
         }
 
-        SeedEntity.EntityEvent.OnEntityRemoved -= OnEntityRemoved;
+        SeedEntity.EventCore.OnEntityRemoved -= OnEntityRemoved;
         SeedEntity = null;
     }
 
@@ -156,7 +156,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         }
 
         SeedEntity = entity;
-        entity.EntityEvent.OnEntityRemoved += OnEntityRemoved;
+        entity.EventCore.OnEntityRemoved += OnEntityRemoved;
     }
 
     private void OnEntityRemoved()

@@ -28,7 +28,7 @@ public abstract class SeedEntityCore : MonoBehaviour
     /// 实体自身的消息事件
     /// </summary>
     /// <value></value>
-    public SeedEntityEventCore EntityEvent { get; protected set; }
+    public SeedEntityEventCore EventCore { get; protected set; }
 
     /// <summary>
     /// 初始化工作
@@ -59,14 +59,14 @@ public abstract class SeedEntityCore : MonoBehaviour
             }
         }
 
-        EntityEvent.OnInitFinished?.Invoke();
+        EventCore.OnInitFinished?.Invoke();
     }
 
     internal void Dispose()
     {
         try
         {
-            EntityEvent.OnEntityRemoved?.Invoke();
+            EventCore.OnEntityRemoved?.Invoke();
 
             OnDispose();
         }
