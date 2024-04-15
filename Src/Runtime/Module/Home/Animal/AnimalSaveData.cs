@@ -14,7 +14,7 @@ public class AnimalSaveData
     /// <summary>
     /// 饥饿进度 0代表完全饿了 具体值 不是100进度值 有配置最大饥饿度配套
     /// </summary>
-    public float HungerProgress { get; private set; } = 0;
+    public float HungerProgress = 0;
     /// <summary>
     /// 上次完全饥饿的时间戳 >0说明正在饥饿中
     /// </summary>
