@@ -5,7 +5,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 0,"100,20,10",3,"100,10,5",4,Zone de combat PvE,2
 0,"0,0,0",2,"0,0,0",5,Maison,1
 0,"0,0,0",2,"0,0,0",6,Plage,1
-0,"100,20,10",3,"100,10,5",7,Forêt rouge,1
+0,"100,20,10",3,"100,10,5",7,Forêt rouge,2
 0,"100,20,10",3,"100,10,5",8,Forêt noire,2
 0,"100,20,10",3,"100,10,5",9,Désert tempétueux,2
 0,"100,20,10",3,"100,10,5",10,Canyon,2
@@ -13,7 +13,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 0,"100,20,15",5,"100,10,5",12,Cimetière,3
 0,"100,20,10",3,"100,10,5",13,Repos de l'âme,2
 0,"100,20,10",3,"100,10,5",14,Montagne du lac céleste,2
-0,"0,0,0",2,"0,0,0",15,Autel central,1
+0,"100,20,10",3,"100,10,5",15,Autel central,1
 0,"100,20,10",3,"100,10,5",16,Autel environnant,2
 0,"100,20,10",3,"100,10,5",17,Plaine de glace,2
 0,"100,20,15",5,"100,10,5",18,Profondeurs de la plaine de glace,3
@@ -28,11 +28,11 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 2,"100,20,25",7,"100,10,5",27, Arène avancée 2/3,3
 3,"100,20,25",7,"100,10,5",28, Arène avancée 3/3,3
 0,"0,0,0",2,"0,0,0",29, Camp de matchmaking,1
-0,"0,0,0",2,"0,0,0",30,,1
-0,"100,20,10",3,"100,10,5",31,,2
-0,"100,20,10",3,"100,10,5",32,,2
-0,"100,20,10",3,"100,10,5",33,,2
-0,"100,20,10",3,"100,10,5",34,,2
-0,"100,20,10",3,"100,10,5",35,,2
-0,"0,0,0",2,"0,0,0",36,,1
-0,"100,20,15",5,"100,10,5",37,,3
+0,"100,20,10",3,"100,10,5",30,Autel de résurrection,1
+0,"100,20,10",3,"100,10,5",31,Défi,2
+0,"100,20,10",3,"100,10,5",32,Domaine ancien - Volcan,2
+0,"100,20,10",3,"100,10,5",33,Domaine ancien - Creux,2
+0,"100,20,10",3,"100,10,5",34,Domaine ancien - Relique,2
+0,"100,20,10",3,"100,10,5",35,Sauvage,2
+0,"0,0,0",2,"0,0,0",36,Le Pont,1
+0,"100,20,15",5,"100,10,5",37,Colisée,3
