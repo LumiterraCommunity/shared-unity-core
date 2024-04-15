@@ -1,10 +1,10 @@
 flyAvatar-string,flyDistance-int,flySpeed-int,flyTime-int,flyerType-int,id-int
-Skill_Arrow,2000,3000,0,1,1
+Skill_Arrow,1200,3000,0,1,1
 Projectile_ball,2000,1000,0,5,2
 CaptureRope,2000,2000,0,2,3
 Resource_ball,2000,1500,0,3,4
 Skill_dark_ejection,2000,1000,0,5,5
-Skill_Arrow_big,2000,3000,0,1,7
+Skill_Arrow_big,1200,3000,0,1,7
 Skill_Bee_flyer,2000,800,0,1,8
 Skill_Bomb_flyer,1500,1500,0,5,9
 Skill_Stun_flyer,1500,1500,0,5,10
@@ -18,7 +18,7 @@ Skill_Snowball_flyer,0,1500,0,5,17
 Skill_SnowStorm_empty,2000,0,1000,5,18
 Skill_SkeletonArrow,2000,2000,0,1,19
 Skill_SkeletonArrowRain,2000,0,1000,5,20
-Skill_fireball,5000,1000,0,1,21
+Skill_fireball,5000,1500,0,1,21
 Skill_TreeBoss,2000,0,1000,5,22
 Skill_ArcticBoss,2000,0,3000,5,23
 Skill_SoulBoss,2000,0,2000,5,24
@@ -37,3 +37,4 @@ Skill_fireball1,2000,1000,0,1,37
 Skill_spear2,1000,3000,0,1,38
 Skill_blackfireball,1000,0,10,5,39
 Skill_darkfireball,1500,0,300,1,40
+Skill_greenfire,3000,2000,0,5,41
