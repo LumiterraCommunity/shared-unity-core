@@ -569,7 +569,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",100,2,0, [425]Serangan (Dewa Perang Api),"4,300,150,16000,0",,1,0,1,,1000,549,,,,,,,635,,,,,
 0,0,0,,0,385,,333,470,0,1,0,1,0,0,0,0,attack,,SKill_VerdantStoneling_Attack,,1000,1,-1,"Serangan Roh Batu Hijau
 ",200,2,0, [426]Serangan (Roh Batu Hijau),"1,200,400,200,0",,1,0,1,,1000,,,hiteffect,,,,,632,,,,,
-0,0,0,,0,,553,666,471,0,1,0,1,0,0,0,0,attack,Skill_Hit2,Skill_VerdantFlame_Attack,,3666,1,-1,"Serangan Penguasa Perang Api Hijau
+0,0,0,,0,,553,666,471,0,1,0,0,0,0,0,0,attack,Skill_Hit2,Skill_VerdantFlame_Attack,,3666,1,-1,"Serangan Penguasa Perang Api Hijau
 ",300,2,0, [427]Serangan (Panglima Perang Api Hijau),"1,300,600,300,0",,1,0,1,,1000,550,,,,,,,638,,,,,
 0,0,0,,0,,,500,472,0,1,0,1,0,0,0,0,attack,,Skill_MysticAncient_Attack,,1500,1,-1,"Serangan Roh Cahaya Misteri
 ",100,2,0, [428]Serangan (Roh Cahaya Misterius),"4,200,200,4500,0",,1,0,1,,1000,551,,hiteffect,,,,,631,,,,,
