@@ -2,8 +2,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,"1,239",214,150,14,0,1,0,1,0,0,0,1,skill_attack1,Skill_punch_attack1,Punch,14,550,1,-1,Serangan Tanpa Senjata - Gerakan 1. ,350,2,0,Serangan tanpa senjata,"4,300,150,16000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 0,0,0,0,0,"15,239",214,150,15,0,1,0,1,0,0,0,1,skill_attack2,Skill_punch_attack2,Punch,14,550,1,-1,Serangan Tanpa Senjata - Gerakan 2. ,350,2,0,Serangan tanpa senjata,"4,300,150,16000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 0,0,0,0,0,"21,227,386",214,150,16,0,1,0,1,0,0,0,1,skill_attack3,Skill_punch_attack3,Punch2,14,550,1,-1,Serangan Tanpa Senjata - Gerakan 3. ,350,2,0,Serangan tanpa senjata,"4,300,150,16000,0",CameraShakeGrade_2,1,0,1,,,,,,,,,,,,,,,
-0,0,0,0,0,"239,385",31,150,17,0,1,0,1,0,0,0,1,skill_sword_attack1,skill_sword_attack1,knife01,14,620,1,-1,Serangan Pedang - Gerakan 1. ,400,2,0,serangan pedang,"4,300,300,27000,0",CameraShakeGrade_1,1,0,1,5,333,,,,,,,,,,,,,
-0,0,0,0,0,"15,239",31,150,18,0,1,0,1,0,0,0,1,skill_sword_attack2,skill_sword_attack2,knife02,14,620,1,-1,Serangan Pedang - Gerakan 2. ,400,2,0,serangan pedang,"4,300,300,27000,0",CameraShakeGrade_1,1,0,1,5,333,,,,,,,,,,,,,
+0,0,0,0,0,"239,385,567",31,150,17,0,1,0,1,0,0,0,1,skill_sword_attack1,skill_sword_attack1,knife01,14,620,1,-1,Serangan Pedang - Gerakan 1. ,400,2,0,serangan pedang,"4,300,300,27000,0",CameraShakeGrade_1,1,0,1,5,333,,,,,,,,,,,,,
+0,0,0,0,0,"15,239,567",31,150,18,0,1,0,1,0,0,0,1,skill_sword_attack2,skill_sword_attack2,knife02,14,620,1,-1,Serangan Pedang - Gerakan 2. ,400,2,0,serangan pedang,"4,300,300,27000,0",CameraShakeGrade_1,1,0,1,5,333,,,,,,,,,,,,,
 0,0,0,0,0,"21,227,386,567",31,150,19,0,1,0,1,0,0,0,1,skill_sword_attack3,skill_sword_attack3,knife03,14,670,1,-1,Serangan Pedang - Gerakan 3. ,400,2,0,serangan pedang,"4,300,300,27000,0",CameraShakeGrade_2,1,0,1,5,333,,,,,,,,,,,,,
 0,0,0,0,0,,18,0,20,0,1,0,1,0,0,0,0,jump_roll,,playerroll,,400,1,2000,Berguling dengan cepat untuk menghindari serangan atau bergerak dengan cepat. ,,2,0,Lahan pertanian kelompok Lv 3,,,1,0,,,,19,skill-icon-20,,,,,,,,,,,
 0,0,0,0,0,15,,300,21,0,1,0,1,0,0,0,0,normal_chudi,,ranged_RPG_attack2_audio,37,500,1,-1,Menggunakan cangkul tunggal untuk serangan normal pada musuh yang ditargetkan. ,,2,0,Penyiraman individu,,,1,0,1,1,1000,,,skill_rock_hurt,,,,,,,,,,
@@ -164,7 +164,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,15,,200,164,1,1,0,1,0,0,0,1,hit,,,,950,1,0,Serangan Hopper. ,100,2,0,menangkap perangkap menangkap,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 1,1,1,,0,176,,2000,166,0,0,0,1,1,0,0,0,A-jinai-NEW,,A-CaptureTrap,,2000,1,3000,Keterampilan penangkapan. ,,2,0,peran jarak jauh,"2,300,0",,1,0,1,,1000,,skill-icon-166,skill_rock_hurt,,,,,,"167,168,226","3,4",,,
 0,0,0,,0,176,,0,167,0,1,0,1,0,1,1,0,A3-buzhuo,,A3-buzhuo,,300,1,300,Menangkap monster dengan grappling hook. ,,2,3,Lv 1 Luka Laserasi,"2,100,0",,1,0,1,,,,skill-icon-167,,,,1,,,,,5,,
-0,0,0,,0,"177,17",,0,168,0,0,0,1,0,1,1,0,A3-buzhuo,,A3-buzhuo,,300,3,300,Menangkap dan memberi makan dengan tali. ,,2,4,Lv 2 Luka Robek,,,2,1,1,,,,skill-icon-168,,,,1,,,,"3,4",10,,
+0,0,0,,0,"177,17",,0,168,0,0,0,1,0,1,1,0,A3-buzhuo,,A3-buzhuo,,300,3,500,Menangkap dan memberi makan dengan tali. ,,2,4,Lv 2 Luka Robek,,,2,1,1,,,,skill-icon-168,,,,1,,,,"3,4",10,,
 0,0,0,,0,"177,17",,730,169,0,0,0,1,0,0,0,0,attack,,A-CaptureTrap,,1030,1,2000,Keterampilan umum serangan balik monster. ,100,2,0,Lv 3 Luka Robek,"4,300,200,12000,0",,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,15,,1000,171,0,1,0,1,0,1,0,0,A-gongjian-NEW,,monsterattack,,2000,1,-1,Karakter jarak jauh. ,1500,2,5,Peningkatan kerusakan Lv 1,,,1,1,1,,,,,,0,top_down_bomb,1,,,,,,,
 0,0,0,,0,,,,172,0,0,0,1,0,0,0,0,,,,,,1,-1,"Senjata menyebabkan luka, 1% kerusakan serangan setiap 0,5 detik selama 5 detik, dapat ditumpuk 5 kali. ",,1,0,Peningkatan kerusakan Lv 2,,,1,0,,,,,skill-icon-172,,,,,,184,,,,,
@@ -200,7 +200,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,"227,21,15","236,22,516",500,202,0,1,0,1,0,0,0,1,A-chuisanlianji-1-NEW,Skill_Hammer_attack1,A-chuisanlianji-1-NEW,14,900,1,-1,Serangan Palu - Gerakan 1. ,400,2,0,gulungan pemain,"4,300,300,27000,0",CameraShakeGrade_2,1,0,1,7,333,,,,,,,,,,,,,
 0,0,0,0,0,"227,21,386","236,22,516",500,203,0,1,0,1,0,0,0,1,A-chuisanlianji-2-NEW,Skill_Hammer_attack2,A-chuisanlianji-2-NEW,14,900,1,-1,Serangan Palu - Gerakan 2. ,400,2,0,Pencangkulan monolitik,"4,300,300,27000,0",CameraShakeGrade_2,1,0,1,7,333,,,,,,,,,,,,,
 0,0,0,0,0,"227,21,388","236,22,516",500,204,0,1,0,1,0,0,0,1,A-chuisanlianji-3-NEW,Skill_Hammer_attack3,A-chuisanlianji-3-NEW,14,900,1,-1,Serangan Palu - Gerakan 3. ,400,2,0,Lahan pertanian kelompok Lv 1,"4,300,300,27000,0",CameraShakeGrade_3,1,0,1,7,333,,,,,,,,,,,,,
-0,0,0,0,0,"387,404",,250,205,0,1,0,1,0,1,0,0,gongjian_attack1,,A-gongjian-NEW_audio,14,500,1,1500,Meluncurkan serangan busur yang kuat kepada musuh-musuh Anda. ,2000,2,1,Lahan pertanian kelompok Lv 2,,,1,1,1,,,,,,0,,1,,,,,,,
+0,0,0,0,0,"387,404",,250,205,0,1,0,1,0,1,0,0,gongjian_attack1,,A-gongjian-NEW_audio,14,500,1,-1,Meluncurkan serangan busur yang kuat kepada musuh-musuh Anda. ,1200,2,1,Lahan pertanian kelompok Lv 2,,,1,1,1,,,,,,0,,1,,,,,,,
 1,0,0,,0,15,"218,222",700,206,0,1,0,1,0,0,0,0,attack,,Chaos_Wraith_Attack,,1000,1,0,Serangan Chaos Wraith. ,350,2,0,Serangan jarak jauh busur 3,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,
 1,0,1,0,0,385,,500,207,0,1,0,1,0,1,0,1,attackArea,,monsterattack,,1000,1,2000,Monster melee hitam. ,1000,2,5,Ramuan Kecepatan Lebih Rendah,"2,200,0",,1,1,1,,1000,,skill-icon-207,,,top_down_bomb_2,3,,,,,,,
 0,0,0,,0,15,"222,219",950,208,0,1,0,1,0,0,0,0,attack,,Crimson_Gnasher_Attack,,1500,1,0,Serangan Crimson Gnasher. ,400,2,0,Serangan Chaos Wraith,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,
@@ -328,8 +328,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,341,0,0,0,1,0,0,0,0,,,,,,1,-1,Mengurangi kecepatan bergerak musuh. ,,1,0,Lv3 Hiu Terburu-buru,,,1,0,,,1000,,skill-icon-341,,,,,,375,,,,,
 0,0,0,,0,,,,342,0,0,0,1,0,0,0,0,,,,,,1,-1,Mengurangi kecepatan bergerak musuh. ,,1,0,Meningkatkan efek perlambatan,,,1,0,,,1000,,skill-icon-342,,,,,,377,,,,,
 0,0,0,,0,,,,343,0,0,0,1,0,0,0,0,,,,,,1,-1,Mengurangi kecepatan bergerak musuh. ,,1,0,Meningkatkan efek perlambatan,,,1,0,,,1000,,skill-icon-343,,,,,,379,,,,,
-0,0,0,0,0,"404,387",,250,344,0,1,0,1,0,1,0,0,gongjian_attack2,,A-gongjian-NEW_audio,14,550,1,-1,Karakter jarak jauh. ,2000,2,1,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
-0,0,0,0,0,"15,404",414,550,345,0,1,0,1,0,1,0,0,gongjian_attack3,,A-gongjian-NEW_audio,14,800,1,-1,Karakter jarak jauh. ,2000,2,7,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
+0,0,0,0,0,"404,387",,250,344,0,1,0,1,0,1,0,0,gongjian_attack2,,A-gongjian-NEW_audio,14,550,1,-1,Karakter jarak jauh. ,1200,2,1,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
+0,0,0,0,0,"15,404",414,550,345,0,1,0,1,0,1,0,0,gongjian_attack3,,A-gongjian-NEW_audio,14,800,1,-1,Karakter jarak jauh. ,1200,2,7,Meningkatkan efek perlambatan,,,1,1,1,,,,,,0,,1,,,,,,,
 1,0,0,0,0,"404,385",,300,346,0,1,0,1,0,1,0,0,attack,,Skill_Bee_attack,,1000,1,2000,Serangan Jauh Buzz Buddy ,1000,2,8,lebah terpencil,,,1,1,1,,1000,,,,,,1,,,,,,,
 0,0,0,,0,"227,388",,200,347,0,1,0,1,0,1,0,1,A-1diuzhadan,,playerroll,,660,1,5000,Melempar Bom ,1000,2,9,melempar botol peledak,"2,200,0",,1,1,1,,1000,,,skill_tree_hurt,,top_down_bomb_blue,1,,,,,,"232,1",
 0,0,0,,0,"15,35",,200,348,0,1,0,1,0,1,0,1,A-1diuzhadan,,playerroll,,660,1,5000,Melempar Ramuan Setrum ,1000,2,10,melempar botol setrum,"2,200,0",,1,1,1,,1000,,,skill_tree_hurt,,top_down_bomb_blue,1,,,,,,"233,1",
@@ -447,11 +447,11 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","4,100,400,36000,0",CameraShakeGrade_1,1,0,1,,1000,523,,,,,,,,,,,,
 0,0,0,,0,35,553,500,438,0,1,0,0,0,0,0,0,attackRange,Skill_earthfire,Skill_MysticOwlSage_AttackRange,,4333,1,35000,Memberikan kerusakan petir kepada musuh di sekitar,100,2,0,"Api Bumi (Penyihir Hutan Gelap)
 ","2,500,0",CameraShakeGrade_1,1,0,1,,1000,523,,,,top_down_Normal,5,,,,,,,
-0,0,0,,0,"509,1",,1666,439,0,1,0,1,0,1,0,0,attackRange,,Skill_AquilaDominator_AttackRange,,2666,1,55000,"Memanggil pusaran angin di area target, menyebabkan kerusakan yang luas dan multi segmen, dan menarik target ke pusat",1000,2,30,"Puting Beliung
+0,0,0,,0,"509,1",553,1666,439,0,1,0,1,0,1,0,0,attackRange,,Skill_AquilaDominator_AttackRange,,2666,1;2,55000,"Memanggil pusaran angin di area target, menyebabkan kerusakan yang luas dan multi segmen, dan menarik target ke pusat",1000,2,30,"Puting Beliung
 ","4,800,300,36000,0",,1,0,1,,1000,525,,,,top_down_Normal_5,1,,,,,,,
 0,0,0,,0,509,553,1400,440,0,1,0,0,0,0,0,0,attackArea,Skill_Eye_of_the_storm,Skill_AquilaDominator_AttackArea,,3666,1,45000,Mengambil diri sendiri sebagai pusat untuk memberikan kerusakan ganda kepada musuh dalam area besar dan menarik mereka ke arah diri sendiri,300,2,0,"Mata Badai
 ","2,900,0",CameraShakeGrade_1,1,0,1,,1000,525,,,,top_down_Normal_6,,,,,,,,
-0,0,0,,0,"532,385",,600,441,0,1,0,1,0,1,0,1,attackArea,,Skill_GraniteGuardian_AttackArea,,1000,1,15000,"Semprotkan ke arah target dan tinggalkan jejak magma di sepanjang jalannya, menyebabkan kerusakan terus-menerus",800,2,33,"Lava Meletus
+0,0,0,,0,"532,385",,600,441,0,1,0,1,0,1,0,1,attackArea,,Skill_GraniteGuardian_AttackArea,,1000,1;2,15000,"Semprotkan ke arah target dan tinggalkan jejak magma di sepanjang jalannya, menyebabkan kerusakan terus-menerus",800,2,33,"Lava Meletus
 ","2,200,0",,1,0,1,,1000,489,skill-icon-441,,,,1,,,,,,,
 0,0,0,,0,386,467,800,443,0,1,0,0,0,0,0,0,attackRange,Skill_Earth_Splitter,Skill_DoomLord_AttackArea,,2200,1,25000,Menyebabkan kerusakan tinggi ke area target,500,2,0,"Pemisah Bumi
 ","1,800,200,200,0",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,
@@ -459,9 +459,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","4,200,600,6000,0",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,521,553,800,445,0,1,0,0,0,0,0,0,attackArea,Skill_Electromagnetic,Skill_MysticAncient_AttackRange,,2750,1,20000,Berpusat pada diri sendiri untuk memberikan kerusakan ganda kepada musuh dalam jangkauan yang luas dan membiarkan mereka terpaku,200,2,0,"Badai Elektromagnetik
 ","4,800,300,36000,0",CameraShakeGrade_1,1,0,1,,1000,525,,,,top_down_Normal_5,,,,,,,,
-0,0,0,0,0,"386,238",,200,446,0,1,0,1,0,1,0,0,attackArea,,Skill_SparkleTyrant_AttackArea,,1150,1,10000,Memanggil hingga tiga meteor jatuh,800,2,27,"Meteorit (Penguasa Kecil yang Menakjubkan)
+0,0,0,0,0,"386,238",,200,446,0,1,0,1,0,1,0,0,attackArea,,Skill_SparkleTyrant_AttackArea,,1150,1;2,10000,Memanggil hingga tiga meteor jatuh,800,2,27,"Meteorit (Penguasa Kecil yang Menakjubkan)
 ","2,200,0",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-446,,,,3,,,,,,,
-0,0,0,0,0,"386,35",,2133,447,0,1,0,1,0,1,0,0,attackArea,,Skill_MysticOwlSage_AttackArea,,3000,1,20000,Memanggil hingga lima meteor raksasa jatuh,1500,2,28,"Meteorit Raksasa (Penyihir Hutan Gelap)
+0,0,0,0,0,"386,35",,2133,447,0,1,0,1,0,1,0,0,attackArea,,Skill_MysticOwlSage_AttackArea,,3000,1;2,20000,Memanggil hingga lima meteor raksasa jatuh,1500,2,28,"Meteorit Raksasa (Penyihir Hutan Gelap)
 ","2,500,0",CameraShakeGrade_1,1,0,1,,1000,,,,,top_down_Normal,5,,,,,,,
 0,0,0,,0,1,,900,448,0,0,0,1,1,0,0,0,work,,,,1000,1,3000,Keterampilan pengumpulan umum untuk hewan peliharaan,100,2,0,"Keterampilan pengumpulan umum untuk hewan peliharaan
 ","4,100,100,9000,0",,1,0,1,"5,6,7",1000,,,,,,,,,,,,,
@@ -493,35 +493,35 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,538,,400,464,0,1,0,1,0,1,0,0,attackArea,,Skill_SpikeguardSmiler_AttackRange,,1000,1,5000,"Proyeksi senjata keluar
 ",1000,2,38,Tombak Terbang (Perisai Spike Senyum),,,1,0,1,,1000,,skill-icon-464,,,,1,,,,,,,
 0,0,0,,0,,,500,465,0,1,0,1,0,0,0,0,attack,,Skill_AquilaDominator_Attack,,1500,1,-1,"Serangan Penguasa yang Melayang
-",100,2,0,Serangan (Penguasa yang Terbang Tinggi),"4,300,150,16000,0",,1,0,1,,1000,548,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Penguasa yang Terbang Tinggi),"4,300,150,16000,0",,1,0,1,,1000,548,,hiteffect,,,,,636,,,,,
 0,0,0,,0,385,,350,466,0,1,0,1,0,0,0,0,attack,,Skill_StripeBoulder_Attack,,1050,1,-1,"Serangan Raksasa Batu Bergaris Kuning
-",100,2,0,Serangan (Binatang Batu Bergaris Kuning),"4,200,200,4500,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Binatang Batu Bergaris Kuning),"4,200,200,4500,0",,1,0,1,,1000,,,hiteffect,,,,,628,,,,,
 0,0,0,,0,385,,333,467,0,1,0,1,0,0,0,0,attack,,Skill_BlazeRidge_Attack,,1000,1,-1,"Serangan Penjaga Batu Api
-",100,2,0,Serangan (Penjaga Batu Api),"4,200,200,4500,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Penjaga Batu Api),"4,200,200,4500,0",,1,0,1,,1000,,,hiteffect,,,,,626,,,,,
 0,0,0,,0,385,,333,468,0,1,0,1,0,0,0,0,attack,,Skill_GraniteGuardian_Attack,,1000,1,-1,"Serangan Raksasa Penjaga Batu
-",100,2,0,Serangan (Penjaga Batu Raksasa),"4,200,200,4500,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Penjaga Batu Raksasa),"4,200,200,4500,0",,1,0,1,,1000,,,hiteffect,,,,,627,,,,,
 0,0,0,,0,,,333,469,0,1,0,1,0,0,0,0,attack,Skill_Hit6,Skill_InfernoWarrior_Attack,,2333,1,-1,"Serangan Dewa Perang Api
-",100,2,0,Serangan (Dewa Perang Api),"4,300,150,16000,0",,1,0,1,,1000,549,,,,,,,,,,,,
+",100,2,0,Serangan (Dewa Perang Api),"4,300,150,16000,0",,1,0,1,,1000,549,,,,,,,635,,,,,
 0,0,0,,0,385,,333,470,0,1,0,1,0,0,0,0,attack,,SKill_VerdantStoneling_Attack,,1000,1,-1,"Serangan Roh Batu Hijau
-",200,2,0,Serangan (Roh Batu Hijau yang Diukir),"1,200,400,200,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",200,2,0,Serangan (Roh Batu Hijau yang Diukir),"1,200,400,200,0",,1,0,1,,1000,,,hiteffect,,,,,632,,,,,
 0,0,0,,0,,553,666,471,0,1,0,1,0,0,0,0,attack,Skill_Hit2,Skill_VerdantFlame_Attack,,3666,1,-1,"Serangan Penguasa Perang Api Hijau
-",300,2,0,Serangan (Penguasa Perang Api Hijau),"1,300,600,300,0",,1,0,1,,1000,550,,,,,,,,,,,,
+",300,2,0,Serangan (Penguasa Perang Api Hijau),"1,300,600,300,0",,1,0,1,,1000,550,,,,,,,638,,,,,
 0,0,0,,0,,,500,472,0,1,0,1,0,0,0,0,attack,,Skill_MysticAncient_Attack,,1500,1,-1,"Serangan Roh Cahaya Misterius
-",100,2,0,Serangan (Roh Cahaya Misterius),"4,200,200,4500,0",,1,0,1,,1000,551,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Roh Cahaya Misterius),"4,200,200,4500,0",,1,0,1,,1000,551,,hiteffect,,,,,631,,,,,
 0,0,0,,0,385,,333,473,0,1,0,1,0,0,0,0,attack,,Skill_SPikeguardSmiler_Attack,,1000,1,-1,"Serangan Perisai Duri Tersenyum
-",200,2,0,Serangan (Perisai Spike Senyum),"1,200,400,200,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",200,2,0,Serangan (Perisai Spike Senyum),"1,200,400,200,0",,1,0,1,,1000,,,hiteffect,,,,,633,,,,,
 0,0,0,,0,385,,333,474,0,1,0,1,0,1,0,0,attack,,Skill_StardustWhelpling_Attack,,1000,1,-1,"Serangan Naga Muda Bercahaya Bintang
-",1000,2,21,Serangan (Naga Muda Bercahaya Bintang),,,1,0,1,,1000,,,,,,1,,,,,,,
+",1000,2,21,Serangan (Naga Muda Bercahaya Bintang),,,1,0,1,,1000,,,,,,1,,630,,,,,
 0,0,0,,0,385,,333,475,0,1,0,1,0,1,0,0,attack,,Skill_SparkleTyrant_Attack,,1000,1,-1,"Serangan Penguasa Kecil yang Menakjubkan
-",1000,2,21,Serangan (Penguasa Kecil yang Menakjubkan),,,1,0,1,,1000,,,,,,1,,,,,,,
+",1000,2,21,Serangan (Penguasa Kecil yang Menakjubkan),,,1,0,1,,1000,,,,,,1,,625,,,,,
 0,0,0,,0,385,,333,476,0,1,0,1,0,0,0,0,attack,,Skill_GlowingGuard_Attack,,1000,1,-1,"Serangan Penjaga Bercahaya
-",100,2,0,Serangan (Penjaga Bercahaya),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Penjaga Bercahaya),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,639,,,,,
 0,0,0,,0,385,,500,477,0,1,0,1,0,1,0,0,attack,,Skill_MysticOwlSage_Attack,,1166,1,-1,"Serangan Penyihir Hutan yang Gelap
-",1000,2,21,Serangan (Penyihir Hutan yang Gelap),,,1,0,1,,1000,,,,,,,,,,,,,
+",1000,2,21,Serangan (Penyihir Hutan yang Gelap),,,1,0,1,,1000,,,,,,,,637,,,,,
 0,0,0,,0,385,,333,478,0,1,0,1,0,0,0,0,attack,,Skill_GuardianOwl_Attack,,1166,1,-1,"Serangan Penjaga Elang Berwawasan Bijaksana
-",100,2,0,Serangan (Penjaga Elang Berwawasan Bijak),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,,,,,,
+",100,2,0,Serangan (Penjaga Elang Berwawasan Bijak),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,629,,,,,
 0,0,0,,0,,,333,479,0,1,0,1,0,0,0,0,attack,,Skill_DoomLord_Attack,,1166,1,-1,"Serangan Penguasa Iblis Perdition
-",300,2,0,Serangan (Tuan Iblis Perdition),"4,300,500,12000,0",,1,0,1,,1000,552,,Skill_HitBoss,,,,,,,,,,
+",300,2,0,Serangan (Tuan Iblis Perdition),"4,300,500,12000,0",,1,0,1,,1000,552,,Skill_HitBoss,,,,,634,,,,,
 0,0,0,0,0,515,,500,482,0,1,0,1,0,0,0,0,,Skill_ice_Breath,,,1450,1,15000,"Kosong
 ",800,2,0,Napas Dingin,"4,150,800,4500,0",,1,0,1,,1000,"518,521",skill-icon-482,,,,,,,,,,,
 0,0,0,,0,"385,238",557,350,484,0,1,0,1,0,0,0,0,A1-gaozi-AOE-NEW,Skill_AOE_ring,Skill_AoeRing_Part2,,666,1,6000,"Kosong
@@ -560,13 +560,13 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,597,,666,511,0,1,0,0,0,0,0,0,A-chuisanlianji-2-NEW,Skill_Bladestorm,,,1466,1,1000,,700,2,0,,"4,300,700,9000,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,388,,500,512,0,1,0,0,0,0,0,0,A-chuisanlianji-3-NEW,Skill_Great_sword_strike,,,900,1;2,1000,,1000,2,0,,"1,200,1200,300,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,,100,513,0,0,0,0,0,0,0,0,,,,,100,1,-1,,,1,0,,,,1,0,2,,,,,,,,,,600,,,,,
-0,0,0,,0,601,,666,514,0,1,0,0,0,0,0,0,attack,,,,1950,1;2,2000,,800,2,0,,"4,500,1000,12000,-10",,1,0,1,,1000,,,,,,,,,,,,,
-0,0,0,,0,601,,0,515,0,1,0,0,0,0,0,0,attack-impact,,,,1000,1;2,1000,,800,2,0,,"4,500,1000,12000,-10",,1,0,1,,1000,,,,,,,,,,,,,
-0,0,0,,0,"532,602",,300,516,0,1,0,0,0,1,0,0,hurt-front,,,,500,1;2,500,,1000,2,39,,"2,300,0",,1,0,1,,1000,,,,,,5,,,,,,,
-0,0,0,,0,"532,602",,666,518,0,1,0,0,0,1,0,0,projectile,,,,1500,1;2,2000,,1200,2,40,,"2,200,0",,1,1,1,,1000,,,,,,5,,,,,,,
-0,0,0,,0,,,1333,519,0,0,0,1,0,0,0,0,summon,,,,2500,1;2,600000,,1000,1,0,,"2,600,0",,1,0,1,,1000,606,,,,,,,,,,,,
-0,0,0,,0,,"604,4",0,520,0,0,0,0,0,0,0,0,teleport,,,,1222,1,1500,,,2,0,,,,1,0,2,,1000,,,,,,,,,,,,,
-0,0,0,,0,"532,603",,2000,521,0,1,0,0,0,1,0,0,projectile-big,,,,3000,1;2,5000,,1200,2,40,,"2,300,0",,1,1,1,,1000,,,,,,10,,,,,,,
+0,0,0,,0,"601,620",,666,514,0,1,0,0,0,0,0,0,attack,,,,1950,1;2,2000,,400,2,0,,"4,500,500,12000,-10",,1,0,1,,1000,,,,,,,,,,,,,
+0,0,0,,0,"601,620",,0,515,0,1,0,0,0,0,0,0,attack-impact,,,,1100,1;2,1000,,400,2,0,,"4,500,500,12000,-10",,1,0,1,,1000,,,,,,,,,,,,,
+0,0,0,,0,"532,602,620",,300,516,0,1,0,0,0,1,0,0,hurt-front,,,,500,1;2,500,,1000,2,39,,"2,300,0",,1,0,1,,1000,,,,,,5,,,,,,,
+0,0,0,,0,"532,602,620",,666,518,0,1,0,0,0,1,0,0,projectile,,,,1500,1;2,2000,,1200,2,40,,"2,200,0",,1,1,1,,1000,,,,,,5,,,,,,,
+0,0,0,,0,,,1333,519,0,0,0,1,0,0,0,0,summon,,,,2500,1;2,600000,,1000,2,0,,"2,600,0",,1,0,1,,1000,606,,,,,,,,,,,,
+0,0,0,,0,,"604,4",0,520,0,0,0,0,0,0,0,0,teleport,,,,1222,1;2,1500,,,2,0,,,,1,0,2,,1000,,,,,,,,,,,,,
+0,0,0,,0,"532,603,620",,2000,521,0,1,0,0,0,1,0,0,projectile-big,,,,3000,1;2,5000,,1200,2,40,,"2,300,0",,1,1,1,,1000,,,,,,10,,,,,,,
 0,0,0,,0,,"605,4",0,522,0,0,0,0,0,0,0,0,teleport,,,,1222,1;2,5000,,,2,0,,,,1,0,2,,1000,,,,,,,,,,,,,
 0,0,0,,0,602,,433,523,0,1,0,0,0,0,0,0,blade_dual_attack_a,,,,733,1;2,-1,,700,2,0,,"4,500,700,12000,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,602,,199,524,0,1,0,0,0,0,0,0,blade_dual_attack_b,,,,666,1;2,-1,,700,2,0,,"4,500,700,12000,0",,1,0,1,,1000,,,,,,,,,,,,,
@@ -575,3 +575,5 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,0,529,0,0,0,0,1,0,0,0,defense,,,,3000,1;2,5000,,700,2,0,,,,1,0,1,,1000,485,,,,,,,,,,,,
 0,0,0,,0,,,,530,0,0,0,0,0,0,0,0,,,,,,1,0,,,1,0,,,,1,0,2,,1000,,,,,,,,"611,613,614",,,,,
 0,0,0,,0,,,,531,0,0,0,0,0,0,0,0,,,,,,1,0,,,1,0,,,,1,0,2,,1000,,,,,,,,"615,616,618",,,,,
+0,0,0,,0,601,467,800,532,0,1,0,0,0,0,0,0,ready_attack,Skill_Detonate,,,1000,1,5000,,200,2,0,,"2,600,0",CameraShakeGrade_1,1,0,1,,1000,621,,,,,,,,,,,,
+0,0,0,,0,,467,2150,534,0,0,0,0,0,1,0,0,attack,,,,3000,1;2,5000,,3000,2,41,,"2,300,0",,1,0,1,,1000,622,,,,,10,,,,,,,
