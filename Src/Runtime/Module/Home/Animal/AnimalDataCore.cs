@@ -77,7 +77,7 @@ public class AnimalDataCore : EntityBaseComponent
         else
         {
             _saveData = new AnimalSaveData(entityId);
-            _saveData.SetHungerProgress(_petCfg.MaxHunger);
+            _saveData.SetHungerProgress(0);//初始化饥饿度
         }
 
         SetHappiness(_saveData.Happiness);
