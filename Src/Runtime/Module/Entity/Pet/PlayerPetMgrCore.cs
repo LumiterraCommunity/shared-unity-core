@@ -5,7 +5,7 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /// 玩家的宠物数据管理组件 挂在玩家实体上
 /// </summary>
-public class PlayerPetDataCore : EntityBaseComponent
+public class PlayerPetMgrCore : EntityBaseComponent
 {
     /// <summary>
     /// 宠物跟随事件
@@ -27,6 +27,11 @@ public class PlayerPetDataCore : EntityBaseComponent
     /// 当前跟随的宠物，null表示没有跟随宠物
     /// </summary>
     public EntityBase FollowingPet { get; private set; }
+
+    protected virtual void Start()
+    {
+
+    }
 
     protected virtual void OnDestroy()
     {

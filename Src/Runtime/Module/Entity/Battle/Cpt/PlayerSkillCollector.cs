@@ -29,7 +29,7 @@ public class PlayerSkillCollector : EntitySkillCollector
         RefEntity.EntityEvent.TalentSkillInited += OnTalentSkillInited;
 
         //宠物跟随技能
-        if (RefEntity.TryGetComponent(out PlayerPetDataCore playerPetData))
+        if (RefEntity.TryGetComponent(out PlayerPetMgrCore playerPetData))
         {
             playerPetData.PetFollow += OnPetFollow;
             playerPetData.PetUnFollow += OnPetUnFollow;
@@ -52,7 +52,7 @@ public class PlayerSkillCollector : EntitySkillCollector
             RefEntity.EntityEvent.TalentSkillUpdated -= OnTalentSkillUpdated;
             RefEntity.EntityEvent.TalentSkillInited -= OnTalentSkillInited;
 
-            if (RefEntity.TryGetComponent(out PlayerPetDataCore playerPetData))
+            if (RefEntity.TryGetComponent(out PlayerPetMgrCore playerPetData))
             {
                 playerPetData.PetFollow -= OnPetFollow;
                 playerPetData.PetUnFollow -= OnPetUnFollow;
@@ -204,7 +204,7 @@ public class PlayerSkillCollector : EntitySkillCollector
     private void CheckPetSkill()
     {
         EntitySkillDataCore.RemoveSkillGroupIDList(eSkillGroupType.Pet);
-        PlayerPetDataCore petMgr = RefEntity.GetComponent<PlayerPetDataCore>();
+        PlayerPetMgrCore petMgr = RefEntity.GetComponent<PlayerPetMgrCore>();
         if (petMgr == null)
         {
             Log.Error($"CollectSkillFromPet error, petMgr is null");

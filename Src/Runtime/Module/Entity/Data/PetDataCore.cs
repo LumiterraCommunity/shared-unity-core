@@ -51,6 +51,10 @@ public class PetDataCore : EntityBaseComponent
     /// 动物最近更新时间戳
     /// </summary>
     public long UpdateMs;
+    /// <summary>
+    /// 饥饿度 临时给跟随宠UI用 其他地方不要用 家园中动物饥饿时这个不会更新 将来正式写再弄
+    /// </summary>
+    public int Hunger;
 
     public void InitFromNetData(GrpcPetData petData)
     {
@@ -58,6 +62,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
         IsFollowing = petData.Status;
+        Hunger = petData.Hunger;
         SetAbilityByBitOffsets(petData.AbilityList);
         SetPetCfgId(petData.Cid);
 
@@ -70,6 +75,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = proxyData.CreateMs;
         UpdateMs = proxyData.UpdateMs;
         IsFollowing = proxyData.Status;
+        Hunger = proxyData.Hunger;
         SetAbilityByBitOffsets(proxyData.AbilityList);
         SetPetCfgId(proxyData.Cid);
 
@@ -110,6 +116,7 @@ public class PetDataCore : EntityBaseComponent
         proxyData.UpdateMs = UpdateMs;
         proxyData.Cid = PetCfgId;
         proxyData.Status = IsFollowing;
+        proxyData.Hunger = Hunger;
         PetUtilCore.PetAbilityEnumToBitProtoRepeated(AllAbility, proxyData.AbilityList);
     }
 
