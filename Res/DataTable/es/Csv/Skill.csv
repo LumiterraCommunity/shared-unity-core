@@ -449,7 +449,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",100,2,0, [425]Ataque (Dios de la Guerra de Llamas),"4,300,150,16000,0",,1,0,1,,1000,549,,,,,,,635,,,,,
 0,0,0,,0,385,,333,470,0,1,0,1,0,0,0,0,attack,,SKill_VerdantStoneling_Attack,,1000,1,-1,"Ataque del Espíritu Tallado en Piedra Verde
 ",200,2,0, [426]Ataque (Espíritu Tallado de Piedra Verde),"1,200,400,200,0",,1,0,1,,1000,,,hiteffect,,,,,632,,,,,
-0,0,0,,0,,553,666,471,0,1,0,1,0,0,0,0,attack,Skill_Hit2,Skill_VerdantFlame_Attack,,3666,1,-1,"Ataque del Señor de la Guerra de Llamas Verdes
+0,0,0,,0,,553,666,471,0,1,0,0,0,0,0,0,attack,Skill_Hit2,Skill_VerdantFlame_Attack,,3666,1,-1,"Ataque del Señor de la Guerra de Llamas Verdes
 ",300,2,0, [427]Ataque (Señor de Guerra de Llamas Verdeante),"1,300,600,300,0",,1,0,1,,1000,550,,,,,,,638,,,,,
 0,0,0,,0,,,500,472,0,1,0,1,0,0,0,0,attack,,Skill_MysticAncient_Attack,,1500,1,-1,"Ataque del Espíritu de Luz Enigmático
 ",100,2,0, [428]Ataque (Espíritu de Luz Enigmático),"4,200,200,4500,0",,1,0,1,,1000,551,,hiteffect,,,,,631,,,,,
