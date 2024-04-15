@@ -5,7 +5,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 0,"100,20,10",3,"100,10,5",4,Área de Combate PvE,2
 0,"0,0,0",2,"0,0,0",5,Hogar,1
 0,"0,0,0",2,"0,0,0",6,Playa,1
-0,"100,20,10",3,"100,10,5",7,Bosque Rojo,1
+0,"100,20,10",3,"100,10,5",7,Bosque Rojo,2
 0,"100,20,10",3,"100,10,5",8,Bosque Negro,2
 0,"100,20,10",3,"100,10,5",9,Desierto Tormentoso,2
 0,"100,20,10",3,"100,10,5",10,Cañón,2
@@ -13,7 +13,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 0,"100,20,15",5,"100,10,5",12,Cementerio,3
 0,"100,20,10",3,"100,10,5",13,Descanso del Alma,2
 0,"100,20,10",3,"100,10,5",14,Montaña del Lago Celestial,2
-0,"0,0,0",2,"0,0,0",15,Altar Central,1
+0,"100,20,10",3,"100,10,5",15,Altar Central,1
 0,"100,20,10",3,"100,10,5",16,Altar Circundante,2
 0,"100,20,10",3,"100,10,5",17,Llanura de Hielo,2
 0,"100,20,15",5,"100,10,5",18,Profundidades de la Llanura de Hielo,3
@@ -28,11 +28,11 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 2,"100,20,25",7,"100,10,5",27, Arena Avanzada 2/3,3
 3,"100,20,25",7,"100,10,5",28, Arena Avanzada 3/3,3
 0,"0,0,0",2,"0,0,0",29, Campamento de Emparejamiento,1
-0,"0,0,0",2,"0,0,0",30,,1
-0,"100,20,10",3,"100,10,5",31,,2
-0,"100,20,10",3,"100,10,5",32,,2
-0,"100,20,10",3,"100,10,5",33,,2
-0,"100,20,10",3,"100,10,5",34,,2
-0,"100,20,10",3,"100,10,5",35,,2
-0,"0,0,0",2,"0,0,0",36,,1
-0,"100,20,15",5,"100,10,5",37,,3
+0,"100,20,10",3,"100,10,5",30,Altar de Respawn,1
+0,"100,20,10",3,"100,10,5",31,Desafío,2
+0,"100,20,10",3,"100,10,5",32,Dominio Antiguo - Volcán,2
+0,"100,20,10",3,"100,10,5",33,Dominio Antiguo - Hueco,2
+0,"100,20,10",3,"100,10,5",34,Dominio Antiguo - Reliquia,2
+0,"100,20,10",3,"100,10,5",35,Salvaje,2
+0,"0,0,0",2,"0,0,0",36,El Puente,1
+0,"100,20,15",5,"100,10,5",37,Coliseo,3

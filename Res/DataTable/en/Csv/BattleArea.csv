@@ -5,7 +5,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 0,"100,20,10",3,"100,10,5",4,PvEP Fight Area,2
 0,"0,0,0",2,"0,0,0",5,Home,1
 0,"0,0,0",2,"0,0,0",6,Beach,1
-0,"100,20,10",3,"100,10,5",7,Red Forest,1
+0,"100,20,10",3,"100,10,5",7,Red Forest,2
 0,"100,20,10",3,"100,10,5",8,Black Forest,2
 0,"100,20,10",3,"100,10,5",9,Stormy Desert,2
 0,"100,20,10",3,"100,10,5",10,Canyon,2
@@ -13,7 +13,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 0,"100,20,15",5,"100,10,5",12,Cemetery,3
 0,"100,20,10",3,"100,10,5",13,Soul's Rest,2
 0,"100,20,10",3,"100,10,5",14,Celestial Lake Mountain,2
-0,"0,0,0",2,"0,0,0",15,Central Altar,1
+0,"100,20,10",3,"100,10,5",15,Central Altar,1
 0,"100,20,10",3,"100,10,5",16,Surrounding Altar,2
 0,"100,20,10",3,"100,10,5",17,Ice Plain,2
 0,"100,20,15",5,"100,10,5",18,Depths of Ice Plain,3
@@ -28,11 +28,11 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],id-int,name-st
 2,"100,20,25",7,"100,10,5",27,Advanced Arena 2/3,3
 3,"100,20,25",7,"100,10,5",28,Advanced Arena 3/3,3
 0,"0,0,0",2,"0,0,0",29,Matchmaking Camp,1
-0,"0,0,0",2,"0,0,0",30,,1
-0,"100,20,10",3,"100,10,5",31,,2
-0,"100,20,10",3,"100,10,5",32,,2
-0,"100,20,10",3,"100,10,5",33,,2
-0,"100,20,10",3,"100,10,5",34,,2
-0,"100,20,10",3,"100,10,5",35,,2
-0,"0,0,0",2,"0,0,0",36,,1
-0,"100,20,15",5,"100,10,5",37,,3
+0,"100,20,10",3,"100,10,5",30,Respawn Altar,1
+0,"100,20,10",3,"100,10,5",31,Challenge,2
+0,"100,20,10",3,"100,10,5",32,Ancient Domain - Volcano,2
+0,"100,20,10",3,"100,10,5",33,Ancient Domain - Hollow,2
+0,"100,20,10",3,"100,10,5",34,Ancient Domain - Relic,2
+0,"100,20,10",3,"100,10,5",35,Wild,2
+0,"0,0,0",2,"0,0,0",36,The Bridge,1
+0,"100,20,15",5,"100,10,5",37,Colosseum,3

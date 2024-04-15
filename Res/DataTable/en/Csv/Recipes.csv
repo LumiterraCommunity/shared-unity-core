@@ -226,8 +226,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Open World Lottery Ticket Recipe - Lv 1 (Farm Mat),0,recipe-icon-393,393,0,"70,10;71,10;72,10;177,10",Lv 1 Open World Lottery Ticket (Farm Mat),"466,1,3,10000",4,0,100393,1,10,-,0,0,4,0,0
 0,Open World Lottery Ticket Recipe - Lv 2 (Farm Mat),0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",Lv 2 Open World Lottery Ticket (Farm Mat),"466,1,12,10000",4,0,100394,1,10,-,0,0,4,0,0
 0,Open World Lottery Ticket Recipe - Lv 3 (Farm Mat),0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",Lv 3 Open World Lottery Ticket (Farm Mat),"466,1,27,10000",4,0,100395,1,10,-,0,0,4,0,0
-0,Floating Realm Admission Ticket Recipe,0,recipe-icon-396,396,0,"30,5;31,5;32,5",Floating Realm Admission Ticket Recipe,"467,1,1,10000",4,0,100396,1,10,-,0,1,1,0,3
-0,Dungeon Admission Ticket Exchange,0,recipe-icon-397,397,0,"469,2",Dungeon Admission Ticket Exchange,"468,1,1,8500;467,1,1,1500",4,0,100397,1,5,-,0,1,1,0,0
+0,Dungeon Admission Ticket Exchange,0,recipe-icon-397,397,0,"469,2",Dungeon Admission Ticket Exchange,"468,1,1,8767;467,1,1,1095;658,1,1,136",4,0,100397,1,5,-,0,1,1,0,0
 0,Crafting Lv 0 Wooden Sickle,2,recipe-icon-404,404,0,"62,10;58,10",Lv 1 Copper Sickle Recipe,"225,1,1,10000",1,0,100404,1,10,-,3,1,1,0,0
 0,Wheat Seed Recipe,2,recipe-icon-405,405,4,"383,1",Lv 4 Wheat Seed Recipe,"413,1,1,8350;416,1,1,1649",3,0,96405,1,10,-,1,0,4,0,0
 0,Peas Seed Recipe,2,recipe-icon-406,406,4,"384,1",Lv 4 Peas Seed Recipe,"414,1,1,8350;417,1,1,1649",3,0,96406,1,10,-,1,0,4,0,0
@@ -498,7 +497,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,"You may receive the following rewards:
 300 LUAG 20%
 200 LUAG 30%
-100 LUAG 50%",2,recipe-icon-604,604,0,"480,5",Broken LUAG Exchanging,"478,1,6,5000;478,1,10,3000;478,1,20,2000",4,0,100604,1,3,80,0,1,1,0,160
+100 LUAG 50%",2,recipe-icon-604,604,0,"480,5",Broken LUAG Exchanging,"478,1,6,6250;478,1,10,3750;478,1,20,",4,0,100604,1,3,80,0,1,1,0,160
 0,Energy Restoration Potion Recipe Lv 1,2,recipe-icon-605,605,1,"482,1;479,3",Energy Restoration Potion Recipe Lv 1,"709,1,3,10000",3,0,99605,1,3,-,3,0,4,0,0
 0,Energy Restoration Potion Recipe Lv 2,2,recipe-icon-606,606,2,"483,1;479,3",Energy Restoration Potion Recipe Lv 2,"710,1,3,10000",3,0,98606,1,3,-,3,0,4,0,0
 0,Energy Restoration Potion Recipe Lv 3,2,recipe-icon-607,607,3,"484,1;479,3",Energy Restoration Potion Recipe Lv 3,"711,1,3,10000",3,0,97607,1,3,-,3,0,4,0,0
@@ -697,12 +696,12 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Lv 8 Power of Nature Recipe,2,recipe-icon-909,909,8,"699,1;687,1;688,1;686,1",Lv 8 Power of Nature Recipe,"700,1,3,10000",4,0,92909,1,10,-,3,1,1,0,0
 0,Lv 7 Power of Nature Recipe,2,recipe-icon-908,908,7,"698,1;683,1;685,1;684,1",Lv 7 Power of Nature Recipe,"699,1,3,10000",4,0,93908,1,10,-,3,1,1,0,0
 0,Lv 9 Power of Nature Recipe,2,recipe-icon-910,910,9,"700,1;689,1;691,1;690,1",Lv 9 Power of Nature Recipe,"701,1,3,10000",4,0,91910,1,10,-,3,1,1,0,0
-0,"Randomly generate a PVEP Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-913,913,4,"485,2",Lv 4 PVE Ticket Recipe,"468,1,1,1009;467,1,1,7981;658,1,1,1009",4,0,96913,1,10,-,2,1,1,0,5
-0,"Randomly generate a PVE Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-912,912,1,"482,2",Lv 1 PVE Ticket Recipe,"468,1,1,8787;467,1,1,1111;658,1,1,101",4,0,99912,1,10,-,2,1,1,0,2
-0,"Randomly generate a PVEP Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-916,916,1,"482,2",Lv 1 PVEP Ticket Recipe,"659,1,1,8787;660,1,1,1111;661,1,1,101",4,0,99916,1,10,-,2,1,1,0,15
-0,"Randomly generate a PVE Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-915,915,7,"488,2",Lv 7 PVE Ticket Recipe,"468,1,1,101;467,1,1,1111;658,1,1,8787",4,0,93915,1,10,-,2,1,1,0,10
-0,"Randomly generate a PVE Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-918,918,4,"485,2",Lv 4 PVEP Ticket Recipe,"659,1,1,1009;660,1,1,7981;661,1,1,1009",4,0,96918,1,10,-,2,1,1,0,60
-0,"Randomly generate a PVEP Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-919,919,7,"488,2",Lv 7 PVEP Ticket Recipe,"659,1,1,101;660,1,1,1111;661,1,1,8787",4,0,93919,1,10,-,2,1,1,0,150
+0,"Randomly generate a PVEP Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-913,913,4,"485,1",Lv 4 PVE Ticket Recipe,"468,1,1,1009;467,1,1,7981;658,1,1,1009",4,0,96913,1,10,-,2,1,1,0,5
+0,"Randomly generate a PVE Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-912,912,1,"482,1",Lv 1 PVE Ticket Recipe,"468,1,1,8787;467,1,1,1111;658,1,1,101",4,0,99912,1,10,-,2,1,1,0,2
+0,"Randomly generate a PVEP Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-916,916,1,"482,1",Lv 1 PVEP Ticket Recipe,"659,1,1,8787;660,1,1,1111;661,1,1,101",4,0,99916,1,10,-,2,1,1,0,15
+0,"Randomly generate a PVE Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-915,915,7,"488,1",Lv 7 PVE Ticket Recipe,"468,1,1,101;467,1,1,1111;658,1,1,8787",4,0,93915,1,10,-,2,1,1,0,10
+0,"Randomly generate a PVE Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-918,918,4,"485,1",Lv 4 PVEP Ticket Recipe,"659,1,1,1009;660,1,1,7981;661,1,1,1009",4,0,96918,1,10,-,2,1,1,0,60
+0,"Randomly generate a PVEP Dungeon Admission Ticket, the higher the cost of materials, the greater the chance of producing a premium ticket",2,recipe-icon-919,919,7,"488,1",Lv 7 PVEP Ticket Recipe,"659,1,1,101;660,1,1,1111;661,1,1,8787",4,0,93919,1,10,-,2,1,1,0,150
 0,Lv 3 Feed Recipe,2,recipe-icon-920,920,3,"484,1",Lv 3 Feed Recipe,"702,1,1,10000",3,0,97920,1,10,-,1,0,4,0,0
 0,Lv 4 Feed Recipe,2,recipe-icon-921,921,4,"485,1",Lv 4 Feed Recipe,"703,1,1,10000",3,0,96921,1,10,-,1,0,4,0,0
 0,Lv 5 Feed Recipe,2,recipe-icon-922,922,5,"486,1",Lv 5 Feed Recipe,"704,1,1,10000",3,0,95922,1,10,-,1,0,4,0,0
@@ -710,4 +709,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Lv 7 Feed Recipe,2,recipe-icon-924,924,7,"488,1",Lv 7 Feed Recipe,"706,1,1,10000",3,0,93924,1,10,-,1,0,4,0,0
 0,Lv 8 Feed Recipe,2,recipe-icon-925,925,8,"489,1",Lv 8 Feed Recipe,"707,1,1,10000",3,0,92925,1,10,-,1,0,4,0,0
 0,Lv 9 Feed Recipe,2,recipe-icon-926,926,9,"490,1",Lv 9 Feed Recipe,"708,1,1,10000",3,0,91926,1,10,-,1,0,4,0,0
-0,LUAG (1) to LUAG(100) Exchanging,2,recipe-icon-927,927,1,"718,100",LUAG (1) to LUAG(100) Exchanging,"478,1,1,10000",4,0,99927,1,3,-,0,1,1,0,1
+0,"You may receive the following rewards:
+10000 LUAG 5%
+6000 LUAG 15%
+4000 LUAG 30%
+2500 LUAG 50%",2,recipe-icon-927,927,1,"718,5",LUAG (1) to LUAG(100) Exchanging,"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,99927,1,3,480,0,1,1,0,12
