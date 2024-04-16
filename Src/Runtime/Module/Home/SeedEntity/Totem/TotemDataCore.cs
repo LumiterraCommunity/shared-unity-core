@@ -100,7 +100,7 @@ public class TotemDataCore : SeedEntityComponentCore<SeedEntityCore>, ISeedEntit
         RewardLp = proxyData.RewardLp;
         RewardToken = proxyData.RewardToken;
 
-        RefEntity.EntityEvent.OnTotemDataUpdated?.Invoke();
+        RefEntity.EventCore.OnTotemDataUpdated?.Invoke();
     }
 
     public void FillProxyData(ProxySeedEntityData proxyData)
