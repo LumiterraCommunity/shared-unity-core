@@ -1854,15 +1854,15 @@ Se sugiere usar como moda
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda",0,item-icon-475,475, Zapatos del Núcleo de la Pandilla,5,0,1,4,1
-1,1,"LUAG Future(100) está vinculado a una relación de 1:100 con el token LUAG.
+0,1,"LUAG Future(100) está vinculado a una relación de 1:100 con el token LUAG.
 ",0,item-icon-478,478,LUAG Futuro(100),1,0,4,0,1
 1,1,"Apareciendo en el Reino Flotante, Apareciendo en la Cima de las Flores.
 Se puede usar para fabricar equipo o objetos.
 -------
 Se puede usar para fabricar Poción de Energía.
 ",0,item-icon-479,479,Botella vacía,1,0,4,0,1
-1,1,LUAG Futuro Roto,0,item-icon-480,480,LUAG Futuro (N),1,0,4,0,1
-1,1,Se puede usar para intercambiar LUAG Futuro(100).,0,item-icon-481,481,LUAG Estrella,1,0,4,0,1
+0,1,LUAG Futuro Roto,0,item-icon-480,480,LUAG Futuro (N),1,0,4,0,1
+0,1,Se puede usar para intercambiar LUAG Futuro(100).,0,item-icon-481,481,LUAG Estrella,1,0,4,0,1
 1,1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -2783,20 +2783,60 @@ Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
 ",27,item-icon-708,708,Nivel 9 Alimento,1,0,3,0,1
-1,1,,0,item-icon-709,709,,1,0,3,0,1
-1,1,,0,item-icon-710,710,,1,0,3,0,1
-1,1,,0,item-icon-711,711,,1,0,3,0,1
-1,1,,0,item-icon-712,712,,1,0,3,0,1
-1,1,,0,item-icon-713,713,,1,0,3,0,1
-1,1,,0,item-icon-714,714,,1,0,3,0,1
-1,1,,0,item-icon-715,715,,1,0,3,0,1
-1,1,,0,item-icon-716,716,,1,0,3,0,1
-1,1,,0,item-icon-717,717,,1,0,3,0,1
-0,1,,0,item-icon-718,718,,1,0,4,0,1
-0,0,,97,item-icon-719,719,,1,1,3,0,1
-0,0,,97,item-icon-720,720,,1,1,3,0,1
-0,0,,97,item-icon-721,721,,1,1,3,0,1
-0,0,,97,item-icon-722,722,,1,1,3,0,1
-0,0,,97,item-icon-723,723,,1,1,3,0,1
-1,1,,0,item-icon-725,725,,1,0,4,0,1
-1,1,,0,item-icon-726,726,,1,0,4,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 4.
+",0,item-icon-709,709,Poción de Restauración de Energía Lv 1 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 10.
+",0,item-icon-710,710,Poción de Restauración de Energía Lv 2 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 17.
+",0,item-icon-711,711,Poción de Restauración de Energía Lv 3 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 25.
+",0,item-icon-712,712,Poción de Restauración de Energía Lv 4 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 34.
+",0,item-icon-713,713,Poción de Restauración de Energía Lv 5 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 44.
+",0,item-icon-714,714,Poción de Restauración de Energía Lv 6 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 55.
+",0,item-icon-715,715,Poción de Restauración de Energía Lv 7 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 67.
+",0,item-icon-716,716,Poción de Restauración de Energía Lv 8 2.0,1,0,3,0,1
+1,1," Puedes obtener este objeto a través de la síntesis.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía - 80.
+",0,item-icon-717,717,Poción de Restauración de Energía Lv 9 2.0,1,0,3,0,1
+0,1," Aparece en Flower Peak, Aparece en Floating Realm, Aparece en Ancient Domain.
+Se puede usar para fabricar equipo o objetos.
+-------
+",0,item-icon-718,718,Medalla del Valiente,1,0,4,0,1
+0,0,,97,item-icon-719,719,Semilla del Tótem A,1,1,3,0,1
+0,0,,97,item-icon-720,720,Semilla del Tótem B,1,1,3,0,1
+0,0,,97,item-icon-721,721,Semilla del Tótem C,1,1,3,0,1
+0,0,,97,item-icon-722,722,Semilla del Tótem D,1,1,3,0,1
+0,0,,97,item-icon-723,723,Semilla del Tótem E,1,1,3,0,1
+1,1," Un recuerdo obtenido al derrotar al Samurai de la Espada Errante.
+",0,item-icon-725,725,Medalla del Samurai de la Espada Errante,1,0,4,0,1
+1,1, Un recuerdo obtenido al derrotar al Obispo Espectro.,0,item-icon-726,726,Medalla del Obispo Espectro,1,0,4,0,1

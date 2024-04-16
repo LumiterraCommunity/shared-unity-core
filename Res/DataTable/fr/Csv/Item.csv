@@ -2038,15 +2038,15 @@ Suggère de porter comme mode
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode",0,item-icon-475,475,Chaussures de noyau de gang,5,0,1,4,1
-1,1,"LUAG Future(100) est fixé à un ratio de 1:100 par rapport au jeton LUAG.
+0,1,"LUAG Future(100) est fixé à un ratio de 1:100 par rapport au jeton LUAG.
 ",0,item-icon-478,478,Avenir de LUAG(100),1,0,4,0,1
 1,1,"Apparaissant dans le Royaume Flottant, Apparaissant dans le Pic des Fleurs.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Il peut être utilisé pour fabriquer une Potion d'Énergie.
 ",0,item-icon-479,479,Bouteille vide,1,0,4,0,1
-1,1,LUAG Futur Brisé,0,item-icon-480,480,LUAG Futur(N),1,0,4,0,1
-1,1,Il peut être utilisé pour échanger LUAG Future(100).,0,item-icon-481,481,LUAG Étoile,1,0,4,0,1
+0,1,LUAG Futur Brisé,0,item-icon-480,480,LUAG Futur(N),1,0,4,0,1
+0,1,Il peut être utilisé pour échanger LUAG Future(100).,0,item-icon-481,481,LUAG Étoile,1,0,4,0,1
 1,1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -3017,20 +3017,76 @@ Son utilisation peut déclencher des effets spéciaux.
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-708,708,"Niveau 9 Alimentation
 ",1,0,3,0,1
-1,1,,0,item-icon-709,709,,1,0,3,0,1
-1,1,,0,item-icon-710,710,,1,0,3,0,1
-1,1,,0,item-icon-711,711,,1,0,3,0,1
-1,1,,0,item-icon-712,712,,1,0,3,0,1
-1,1,,0,item-icon-713,713,,1,0,3,0,1
-1,1,,0,item-icon-714,714,,1,0,3,0,1
-1,1,,0,item-icon-715,715,,1,0,3,0,1
-1,1,,0,item-icon-716,716,,1,0,3,0,1
-1,1,,0,item-icon-717,717,,1,0,3,0,1
-0,1,,0,item-icon-718,718,,1,0,4,0,1
-0,0,,97,item-icon-719,719,,1,1,3,0,1
-0,0,,97,item-icon-720,720,,1,1,3,0,1
-0,0,,97,item-icon-721,721,,1,1,3,0,1
-0,0,,97,item-icon-722,722,,1,1,3,0,1
-0,0,,97,item-icon-723,723,,1,1,3,0,1
-1,1,,0,item-icon-725,725,,1,0,4,0,1
-1,1,,0,item-icon-726,726,,1,0,4,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 4.
+",0,item-icon-709,709,"Potion de restauration d'énergie de niveau 1 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 10.
+",0,item-icon-710,710,"Potion de restauration d'énergie de niveau 2 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 17.
+",0,item-icon-711,711,"Potion de restauration d'énergie de niveau 3 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 25.
+",0,item-icon-712,712,"Potion de restauration d'énergie de niveau 4 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 34.
+",0,item-icon-713,713,"Potion de restauration d'énergie de niveau 5 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 44.
+",0,item-icon-714,714,"Potion de restauration d'énergie de niveau 6 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 55.
+",0,item-icon-715,715,"Potion de restauration d'énergie de niveau 7 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 67.
+",0,item-icon-716,716,"Potion de restauration d'énergie de niveau 8 2.0 
+",1,0,3,0,1
+1,1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaure l'énergie - 80.
+",0,item-icon-717,717,"Potion de restauration d'énergie de niveau 9 2.0 
+",1,0,3,0,1
+0,1,"Apparaissant dans Flower Peak, Apparaissant dans Floating Realm, Apparaissant dans Ancient Domain.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+",0,item-icon-718,718,"Médaille du Brave 
+",1,0,4,0,1
+0,0,,97,item-icon-719,719,"Graine du Totem A 
+",1,1,3,0,1
+0,0,,97,item-icon-720,720,"Graine du Totem B 
+",1,1,3,0,1
+0,0,,97,item-icon-721,721,"Graine du Totem C 
+",1,1,3,0,1
+0,0,,97,item-icon-722,722,"Graine du Totem D 
+",1,1,3,0,1
+0,0,,97,item-icon-723,723,"Graine du Totem E 
+",1,1,3,0,1
+1,1,"Un souvenir obtenu en vainquant le Samouraï Errant de la Lame.
+",0,item-icon-725,725,"Médaille du Samouraï Lame Errante 
+",1,0,4,0,1
+1,1,Un souvenir obtenu en vainquant l'Évêque Spectre.,0,item-icon-726,726,Médaille de l'Évêque Spectre,1,0,4,0,1
