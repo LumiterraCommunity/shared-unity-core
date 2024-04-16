@@ -180,10 +180,10 @@ Compétence minière + 5
 ","89,10000","1,3",talentTree-32,32,1,9,1,Gather Combat 9,3,115200,8,8,31
 -3,"Débloquer les recettes de l'ensemble Niveau 1
 Débloquer la recette de Slime d'énergie Niveau 1
-",70#74#201#267;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"131,131,131",0,"0,0,0",
+",70#74#201#588;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"131,131,131",0,"0,0,0",
 -3,"Débloquer les recettes d'ensemble niveau 2
 Débloquer la recette de slime d'énergie niveau 2
-",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Gather Set Recipes,3,"262,262,262",0,"0,0,0",33
+",71#75#203#585;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Gather Set Recipes,3,"262,262,262",0,"0,0,0",33
 -1,"Toucher adorable
 ",415,0,talentTree-45,45,0,3,1,Lovely Touch,1,420,0,2,23
 -1,"Compétence d'efficacité - Binage en groupe
@@ -210,7 +210,7 @@ Débloquer la recette de slime d'énergie niveau 2
 ",485,0,talentTree-61,61,0,4,1,War Trampling,2,646,0,3,52
 -3,"Débloquer les recettes d'ensemble niveau 3
 Débloquer la recette de slime d'énergie niveau 3
-",72#76#204#585;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"525,525,525",0,"0,0,0",34
+",72#76#204#592;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"525,525,525",0,"0,0,0",34
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
 ",95#902#605,2,talentTree-65,65,0,1,1,Lv 1 Crazy Collector,3,131,0,0,
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
@@ -236,11 +236,11 @@ Débloquer la recette de slime d'énergie niveau 3
 -4,"Débloquer les recettes de l'ensemble Niveau 1
 Débloquer la recette de Slime d'énergie Niveau 1
 Débloquer la recette de refonte
-",62#376#66#123#125#124#205#588;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,1,"95,95,95",0,"0,0,0",
+",62#376#66#123#125#124#205#267;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,1,"95,95,95",0,"0,0,0",
 -4,"Débloquer les recettes d'ensemble niveau 2
 Débloquer la recette de slime d'énergie niveau 2
 Débloquer la recette de refonte
-",63#377#67#127#128#126#206#269;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"210,210,210",0,"0,0,0",78
+",63#377#67#127#128#126#206#268;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"210,210,210",0,"0,0,0",78
 1,"Capacité de fertilité + 1
 ",229,1,talentTree-80,80,0,2,1,Ferme - Rendement de fertilité par unité de terre,1,210,0,1,22
 2,Compétence de plantation + 4,245,1,talentTree-81,81,0,2,1,Ferme - Compétence de récolte,1,210,0,1,73
@@ -252,7 +252,7 @@ Débloquer la recette de refonte
 -4,"Débloquer les recettes d'ensemble niveau 3
 Débloquer la recette de slime d'énergie niveau 3
 Débloquer la recette de refonte
-",64#378#68#131#130#129#592#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"420,420,420",0,"0,0,0",79
+",64#378#68#131#130#129#920#269;110#173;174#175#176#487#506#505#501#490#499#500#580#488,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"420,420,420",0,"0,0,0",79
 3,Capacité de Bonheur des Animaux de Compagnie +1,282,1,talentTree-89,89,0,4,1,Ferme - Indice de bonheur de combat des animaux de compagnie,1,840,0,3,92
 4,Compétence en reproduction + 4,288,1,talentTree-90,90,0,4,1,Ferme - Compétence de récolte,1,840,0,3,91
 4,Compétence en reproduction + 4,248,1,talentTree-91,91,0,3,1,Ferme - Compétence de récolte,1,420,0,2,83
@@ -477,23 +477,23 @@ Débloquer la recette de refonte
 ",342,2,talentTree-261,261,0,6,1,Recettes d'essence de combat ,2,2584,0,20,259
 -3,"Débloquer les recettes d'ensemble Niveau 4
 Débloquer la recette de Slime d'énergie Niveau 4
-",276#277#278#382;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3, Recettes d'ensemble de collecte,3,"1050,1050,1050",0,"10,10,10",62
+",276#277#278#590;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3, Recettes d'ensemble de collecte,3,"1050,1050,1050",0,"10,10,10",62
 -2,"Débloquer les recettes d'essence niveau 4
 ",343,2,talentTree-263,263,0,4,1, Recettes d'essence de collecte,3,1050,0,10,247
 -3,"Débloquer les recettes de set niveau 5
 Débloquer la recette de slime d'énergie niveau 5
-",298#299#300#383;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3, Recettes d'ensemble de collecte,3,"2100,2100,2100",0,"15,15,15",262
+",298#299#300#589;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3, Recettes d'ensemble de collecte,3,"2100,2100,2100",0,"15,15,15",262
 -2,"Débloquer les recettes d'essence niveau 5 
 ",344,2,talentTree-265,265,0,5,1, Recettes d'essence de collecte,3,2100,0,15,263
 -3,"Débloquer les recettes d'ensemble Lv 6
 Débloquer la recette de Slime d'énergie Lv 6
-",319#320#321#384;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3,Recettes d'ensemble de collecte ,3,"4200,4200,4200",0,"20,20,20",264
+",319#320#321#595;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3,Recettes d'ensemble de collecte ,3,"4200,4200,4200",0,"20,20,20",264
 -2,"Débloquer les recettes d'essence niveau 6 
 ",345,2,talentTree-267,267,0,6,1,Recettes d'essence de collecte ,3,4200,0,20,265
 -4,"Débloquer les recettes d'ensemble Niveau 4
 Débloquer la recette de Slime d'énergie Niveau 4
 Débloquer la recette de refonte
-",282#379#416#405#406#407#590#921;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3, Recettes d'ensemble d'agriculture,1,"840,840,840",0,"10,10,10",88
+",282#379#416#405#406#407#921#382;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3, Recettes d'ensemble d'agriculture,1,"840,840,840",0,"10,10,10",88
 -3,"Débloquer les recettes d'essence niveau 4
 ",334,2,talentTree-269,269,0,4,1, Recettes d'essence de plantation,1,840,0,5,229
 -2,"Débloquer les recettes d'essence niveau 4
@@ -501,7 +501,7 @@ Débloquer la recette de refonte
 -4,"Débloquer les recettes de set niveau 5
 Débloquer la recette de slime d'énergie niveau 5
 Débloquer la recette de refonte
-",306#380#417#410#411#412#589#922;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3, Recettes d'ensemble d'agriculture,1,"1680,1680,1680",0,"15,15,15",268
+",306#380#417#410#411#412#922#383;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3, Recettes d'ensemble d'agriculture,1,"1680,1680,1680",0,"15,15,15",268
 -3,"Débloquer les recettes d'essence niveau 5 
 ",335,2,talentTree-272,272,0,5,1, Recettes d'essence de plantation,1,1680,0,8,269
 -2,"Débloquer les recettes d'essence niveau 5 
@@ -509,7 +509,7 @@ Débloquer la recette de refonte
 -4,"Débloquer les recettes d'ensemble Lv 6
 Débloquer la recette de Slime d'énergie Lv 6
 Débloquer la recette de refonte
-",327#381#418#413#414#415#595#923;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3,Recettes d'ensemble d'agriculture ,1,"3360,3360,3360",0,"20,20,20",271
+",327#381#418#413#414#415#923#384;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3,Recettes d'ensemble d'agriculture ,1,"3360,3360,3360",0,"20,20,20",271
 -3,"Débloquer les recettes d'essence niveau 6 
 ",336,2,talentTree-275,275,0,6,1,Recettes d'essence de plantation ,1,3360,0,10,272
 -2,"Débloquer les recettes d'essence niveau 6 
@@ -533,7 +533,7 @@ Débloquer la recette de refonte
 -4,"Débloquer les recettes de set Niveau 9
 Débloquer la recette de Slime d'énergie Niveau 9
 Débloquer la recette de refonte
-",702#703#704#619;705#706;707#708#709#870#871#872#873#874#875#876#877,2,talentTree-283,283,0,9,3,Recettes d'ensemble agricole (Pas encore ouvert),1,"26880,26880,26880",0,"35,35,35",280
+",702#703#704#622;705#706;707#708#709#870#871#872#873#874#875#876#877,2,talentTree-283,283,0,9,3,Recettes d'ensemble agricole (Pas encore ouvert),1,"26880,26880,26880",0,"35,35,35",280
 -3,"Débloquer les recettes d'essence de plantation de niveau 9
 ",637,2,talentTree-284,284,0,9,1,Recettes d'essence de plantation (Pas encore ouvert),1,26880,0,0,281
 -2,"Débloquer les recettes d'essence d'élevage de niveau 9
@@ -553,7 +553,7 @@ Débloquer la recette de refonte
 -5,"Débloquer les recettes de set Niveau 9
 Débloquer la recette de potion d'énergie Niveau 9
 Débloquer la recette de refonte
-",686#687#688#894#892#893#622#926;689#690;691#692#693#878#879#880#881#882#883#884#885,2,talentTree-290,290,0,9,3,(Pas encore ouvert),2,"24436,24436,24436",0,"35,35,35",288
+",686#687#688#894#892#893#926#616#625;689#690;691#692#693#878#879#880#881#882#883#884#885,2,talentTree-290,290,0,9,3,(Pas encore ouvert),2,"24436,24436,24436",0,"35,35,35",288
 -4,"Débloquer les recettes d'essence de niveau 9
 ",628,2,talentTree-291,291,0,9,1,(Pas encore ouvert),2,24436,0,0,289
 -3,"Débloquer les recettes de set Nv 7
@@ -568,7 +568,7 @@ Débloquer la recette de Slime d'énergie Lv 6
 ",630,2,talentTree-295,295,0,8,1,(Pas encore ouvert),3,16800,0,0,293
 -3,"Débloquer les recettes de set Niveau 9
 Débloquer la recette de Slime d'énergie Niveau 6
-",694#695#696#616#625;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-296,296,0,9,3,,3,"33600,33600,33600",0,"35,35,35",294
+",694#695#696#619;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-296,296,0,9,3,,3,"33600,33600,33600",0,"35,35,35",294
 -2,"Débloquer les recettes d'essence de niveau 9
 ",631,2,talentTree-297,297,0,9,1,,3,33600,0,0,295
 -1,,460,0,talentTree-298,298,0,7,1,,1,6720,0,6,169

@@ -148,9 +148,9 @@ TreeProficiency + 5
 OreProficiency + 5
 MaxEnergy + 10","89,10000","1,3",talentTree-32,32,1,9,1,Gather Mastery  9,3,115200,8,8,31
 -3,"Unlock Set Recipes Lv 1
-Unlock Energy Slime Recipe Lv 1",70#74#201#267;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"131,131,131",0,"0,0,0",
+Unlock Energy Slime Recipe Lv 1",70#74#201#588;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,3,"131,131,131",0,"0,0,0",
 -3,"Unlock Set Recipes Lv 2
-Unlock Energy Slime Recipe Lv 2",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Gather Set Recipes,3,"262,262,262",0,"0,0,0",33
+Unlock Energy Slime Recipe Lv 2",71#75#203#585;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Gather Set Recipes,3,"262,262,262",0,"0,0,0",33
 -1,,415,0,talentTree-45,45,0,3,1,,1,420,0,2,23
 -1,Efficiency Skills - Group Hoe,103,0,talentTree-46,46,0,4,1,Earth Splitter,1,840,0,3,45
 2,PlantingProficiency + 4,246,1,talentTree-48,48,0,3,1,Farm - PlantingProficiency ,1,420,0,2,81
@@ -164,7 +164,7 @@ Unlock Energy Slime Recipe Lv 2",71#75#203#268;112#182;181#183#184#480#468#477#4
 -1,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,2,323,0,2,
 -3,Temporarily increase HP Recovery of battle withdrawal based on the percentage of MaxHP,485,0,talentTree-61,61,0,4,1,Healing Wave,2,646,0,3,52
 -3,"Unlock Set Recipes Lv 3
-Unlock Energy Slime Recipe Lv 3",72#76#204#585;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"525,525,525",0,"0,0,0",34
+Unlock Energy Slime Recipe Lv 3",72#76#204#592;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"525,525,525",0,"0,0,0",34
 -1,Unlock Potion Recipe. Unlock Energy Potion Recipe,95#902#605,2,talentTree-65,65,0,1,1,Magic Props Recipes,3,131,0,0,
 -1,Unlock Potion Recipe. Unlock Energy Potion Recipe,96#903#606,2,talentTree-66,66,0,2,1,Magic Props Recipes,3,262,0,10,65
 -1,Unlock Potion Recipe. Unlock Energy Potion Recipe,132#904#607,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,525,0,20,66
@@ -179,10 +179,10 @@ Unlock Energy Slime Recipe Lv 3",72#76#204#585;113#186;185#187#188#483#485#491#4
 -1,Efficiency Skills - Group Hoe,102,0,talentTree-77,77,0,1,1,Earth Splitter,1,95,0,0,
 -4,"Unlock Set Recipes Lv 1
 Unlock Energy Slime Recipe Lv 1
-Unlock Recasting Recipe",62#376#66#123#125#124#205#588;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,1,"95,95,95",0,"0,0,0",
+Unlock Recasting Recipe",62#376#66#123#125#124#205#267;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,1,"95,95,95",0,"0,0,0",
 -4,"Unlock Set Recipes Lv 2
 Unlock Energy Slime Recipe Lv 2
-Unlock Recasting Recipe",63#377#67#127#128#126#206#269;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"210,210,210",0,"0,0,0",78
+Unlock Recasting Recipe",63#377#67#127#128#126#206#268;109#169;170#171#172#462#460#463#472#466#481#475#473,2,talentTree-79,79,0,2,3,Farming Set Recipes,1,"210,210,210",0,"0,0,0",78
 1,FertilityCapacity + 1,229,1,talentTree-80,80,0,2,1,Farm - Fertility output per unit of land,1,210,0,1,22
 2,PlantingProficiency + 4,245,1,talentTree-81,81,0,2,1,Farm - PlantingProficiency ,1,210,0,1,73
 3,PetHappinessCapacity + 1,232,1,talentTree-82,82,0,2,1,Farm - Harvest proficiency,1,210,0,1,74
@@ -191,7 +191,7 @@ Unlock Recasting Recipe",63#377#67#127#128#126#206#269;109#169;170#171#172#462#4
 4,BreedingProficiency + 4,289,1,talentTree-85,85,0,5,1,Farm - BreedingProficiency,1,1680,0,4,90
 -4,"Unlock Set Recipes Lv 3
 Unlock Energy Slime Recipe Lv 3
-Unlock Recasting Recipe",64#378#68#131#130#129#592#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"420,420,420",0,"0,0,0",79
+Unlock Recasting Recipe",64#378#68#131#130#129#920#269;110#173;174#175#176#487#506#505#501#490#499#500#580#488,2,talentTree-88,88,0,3,3,Farming Set Recipes,1,"420,420,420",0,"0,0,0",79
 3,PetHappinessCapacity + 1,282,1,talentTree-89,89,0,4,1,Farm - PetHappinessCapacity ,1,840,0,3,92
 4,BreedingProficiency + 4,288,1,talentTree-90,90,0,4,1,Farm - BreedingProficiency,1,840,0,3,91
 4,BreedingProficiency + 4,248,1,talentTree-91,91,0,3,1,Farm - BreedingProficiency,1,420,0,2,83
@@ -329,27 +329,27 @@ Unlock Energy Slime Recipe Lv 6
 Unlock Recasting Recipe",313#369#375#602#586;314#315;316#317#318#561#570#555#559#569#572#571#583,2,talentTree-260,260,0,6,3,Combat Set Recipes,2,"2584,2584,2584",0,"20,20,20",258
 -4,Unlock Essence Recipes Lv 6,342,2,talentTree-261,261,0,6,1,Combat Essence Recipes,2,2584,0,20,259
 -3,"Unlock Set Recipes Lv 4
-Unlock Energy Slime Recipe Lv 4",276#277#278#382;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3,Gather Set Recipes,3,"1050,1050,1050",0,"10,10,10",62
+Unlock Energy Slime Recipe Lv 4",276#277#278#590;279#280;281#288#289#515#516#525#524#576#514#519#529,2,talentTree-262,262,0,4,3,Gather Set Recipes,3,"1050,1050,1050",0,"10,10,10",62
 -2,Unlock Essence Recipes Lv 4,343,2,talentTree-263,263,0,4,1,Gather Essence Recipes,3,1050,0,10,247
 -3,"Unlock Set Recipes Lv 5
-Unlock Energy Slime Recipe Lv 5",298#299#300#383;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3,Gather Set Recipes,3,"2100,2100,2100",0,"15,15,15",262
+Unlock Energy Slime Recipe Lv 5",298#299#300#589;301#302;303#304#305#537#539#538#577#544#543#542#552,2,talentTree-264,264,0,5,3,Gather Set Recipes,3,"2100,2100,2100",0,"15,15,15",262
 -2,Unlock Essence Recipes Lv 5,344,2,talentTree-265,265,0,5,1,Gather Essence Recipes,3,2100,0,15,263
 -3,"Unlock Set Recipes Lv 6
-Unlock Energy Slime Recipe Lv 6",319#320#321#384;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3,Gather Set Recipes,3,"4200,4200,4200",0,"20,20,20",264
+Unlock Energy Slime Recipe Lv 6",319#320#321#595;322#323;324#325#326#557#554#565#556#578#566#562#558,2,talentTree-266,266,0,6,3,Gather Set Recipes,3,"4200,4200,4200",0,"20,20,20",264
 -2,Unlock Essence Recipes Lv 6,345,2,talentTree-267,267,0,6,1,Gather Essence Recipes,3,4200,0,20,265
 -4,"Unlock Set Recipes Lv 4
 Unlock Energy Slime Recipe Lv 4
-Unlock Recasting Recipe",282#379#416#405#406#407#590#921;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3,Farming Set Recipes,1,"840,840,840",0,"10,10,10",88
+Unlock Recasting Recipe",282#379#416#405#406#407#921#382;284#285;286#287#291#526#520#528#510#507#522#509#523,2,talentTree-268,268,0,4,3,Farming Set Recipes,1,"840,840,840",0,"10,10,10",88
 -3,Unlock Planting Essence Recipes Lv 4,334,2,talentTree-269,269,0,4,1,Planting Essence Recipes,1,840,0,5,229
 -2,Unlock Livestock Essence Recipes Lv 4,337,2,talentTree-270,270,0,4,1,Livestock Essence Recipes,1,840,0,5,94
 -4,"Unlock Set Recipes Lv 5
 Unlock Energy Slime Recipe Lv 5
-Unlock Recasting Recipe",306#380#417#410#411#412#589#922;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3,Farming Set Recipes,1,"1680,1680,1680",0,"15,15,15",268
+Unlock Recasting Recipe",306#380#417#410#411#412#922#383;308#309;310#311#312#548#533#545#549#551#530#547#532,2,talentTree-271,271,0,5,3,Farming Set Recipes,1,"1680,1680,1680",0,"15,15,15",268
 -3,Unlock Planting Essence Recipes Lv 5,335,2,talentTree-272,272,0,5,1,Planting Essence Recipes,1,1680,0,8,269
 -2,Unlock Livestock Essence Recipes Lv 5,338,2,talentTree-273,273,0,5,1,Livestock Essence Recipes,1,1680,0,8,270
 -4,"Unlock Set Recipes Lv 6
 Unlock Energy Slime Recipe Lv 6
-Unlock Recasting Recipe",327#381#418#413#414#415#595#923;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3,Farming Set Recipes,1,"3360,3360,3360",0,"20,20,20",271
+Unlock Recasting Recipe",327#381#418#413#414#415#923#384;329#330;331#332#333#568#573#560#563#564#553#575#574,2,talentTree-274,274,0,6,3,Farming Set Recipes,1,"3360,3360,3360",0,"20,20,20",271
 -3,Unlock Planting Essence Recipes Lv 6,336,2,talentTree-275,275,0,6,1,Planting Essence Recipes,1,3360,0,10,272
 -2,Unlock Livestock Essence Recipes Lv 6,339,2,talentTree-276,276,0,6,1,Livestock Essence Recipes,1,3360,0,10,273
 -4,"Unlock Set Recipes Lv 7
@@ -364,7 +364,7 @@ Unlock Recasting Recipe",678#679#680#618;681#682;683#684#685#846#847#848#849#850
 -2,Unlock Livestock Essence Recipes Lv 8,633,2,talentTree-282,282,0,8,1,Livestock Essence Recipes,1,13440,0,0,279
 -4,"Unlock Set Recipes Lv 9
 Unlock Energy Slime Recipe Lv 9
-Unlock Recasting Recipe",702#703#704#619;705#706;707#708#709#870#871#872#873#874#875#876#877,2,talentTree-283,283,0,9,3,Farming Set Recipes,1,"26880,26880,26880",0,"35,35,35",280
+Unlock Recasting Recipe",702#703#704#622;705#706;707#708#709#870#871#872#873#874#875#876#877,2,talentTree-283,283,0,9,3,Farming Set Recipes,1,"26880,26880,26880",0,"35,35,35",280
 -3,Unlock Planting Essence Recipes Lv 9,637,2,talentTree-284,284,0,9,1,Planting Essence Recipes,1,26880,0,0,281
 -2,Unlock Livestock Essence Recipes Lv 9,634,2,talentTree-285,285,0,9,1,Livestock Essence Recipes,1,26880,0,0,282
 -5,"Unlock Set Recipes Lv 7
@@ -377,7 +377,7 @@ Unlock Recasting Recipe",662#663#664#889#891#890#925#624#621;665#666;667#668#669
 -4,Unlock Essence Recipes Lv 8,627,2,talentTree-289,289,0,8,1,Combat Essence Recipes,2,11200,0,0,287
 -5,"Unlock Set Recipes Lv 9
 Unlock Energy Slime Recipe Lv 9
-Unlock Recasting Recipe",686#687#688#894#892#893#622#926;689#690;691#692#693#878#879#880#881#882#883#884#885,2,talentTree-290,290,0,9,3,Combat Set Recipes,2,"24436,24436,24436",0,"35,35,35",288
+Unlock Recasting Recipe",686#687#688#894#892#893#926#616#625;689#690;691#692#693#878#879#880#881#882#883#884#885,2,talentTree-290,290,0,9,3,Combat Set Recipes,2,"24436,24436,24436",0,"35,35,35",288
 -4,Unlock Essence Recipes Lv 9,628,2,talentTree-291,291,0,9,1,Combat Essence Recipes,2,24436,0,0,289
 -3,"Unlock Set Recipes Lv 7
 Unlock Energy Slime Recipe Lv 7",646#647#648#614;649#650;651#652#653#821#822#823#824#825#826#827#828,2,talentTree-292,292,0,7,3,Gather Set Recipes,3,"8400,8400,8400",0,"25,25,25",266
@@ -386,6 +386,6 @@ Unlock Energy Slime Recipe Lv 7",646#647#648#614;649#650;651#652#653#821#822#823
 Unlock Energy Slime Recipe Lv 6",670#671#672#615;675#676#677#838#839#840#841#842#843#844#845;673#674,2,talentTree-294,294,0,8,3,Gather Set Recipes,3,"16800,16800,16800",0,"30,30,30",292
 -2,Unlock Essence Recipes Lv 8,630,2,talentTree-295,295,0,8,1,Gather Essence Recipes,3,16800,0,0,293
 -3,"Unlock Set Recipes Lv 9
-Unlock Energy Slime Recipe Lv 6",694#695#696#616#625;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-296,296,0,9,3,Gather Set Recipes,3,"33600,33600,33600",0,"35,35,35",294
+Unlock Energy Slime Recipe Lv 6",694#695#696#619;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-296,296,0,9,3,Gather Set Recipes,3,"33600,33600,33600",0,"35,35,35",294
 -2,Unlock Essence Recipes Lv 9,631,2,talentTree-297,297,0,9,1,Gather Essence Recipes,3,33600,0,0,295
 -1,Increase movement speed for oneself and allies for 10 seconds,460,0,talentTree-298,298,0,7,1,Wind up,1,6720,0,6,169
