@@ -166,10 +166,10 @@ Unlock Energy Slime Recipe Lv 2",71#75#203#268;112#182;181#183#184#480#468#477#4
 -3,"Unlock Set Recipes Lv 3
 Unlock Energy Slime Recipe Lv 3",72#76#204#585;113#186;185#187#188#483#485#491#486#503#484#504,2,talentTree-62,62,0,3,3,Gather Set Recipes,3,"525,525,525",0,"0,0,0",34
 -1,Unlock Potion Recipe. Unlock Energy Potion Recipe,95#902#605,2,talentTree-65,65,0,1,1,Magic Props Recipes,3,131,0,0,
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,96#903#606,2,talentTree-66,66,0,2,1,Magic Props Recipes,3,262,0,0,65
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,132#904#607,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,525,0,0,66
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,346#905#608,2,talentTree-68,68,0,4,1,Magic Props Recipes,3,1050,0,10,67
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,347#906#609,2,talentTree-69,69,0,5,1,Magic Props Recipes,3,2100,0,15,68
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,96#903#606,2,talentTree-66,66,0,2,1,Magic Props Recipes,3,262,0,10,65
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,132#904#607,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,525,0,20,66
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,346#905#608,2,talentTree-68,68,0,4,1,Magic Props Recipes,3,1050,0,30,67
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,347#906#609,2,talentTree-69,69,0,5,1,Magic Props Recipes,3,2100,0,40,68
 -1,Reduce the enemy's movement speed.,340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,2,646,0,3,60
 -3,Increase the enemy's stun duration.,334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,2,1292,0,4,61
 -2,Unlock Livestock Essence Recipes Lv 1,155,2,talentTree-72,72,0,1,1,Livestock Essence Recipes,1,95,0,0,
@@ -290,19 +290,19 @@ Unlock Recasting Recipe",46#366#372#599#596;135#138;141#144#147#497#495#494#498#
 1,Gather Grass Atk ++  Proficiency ++,298,1,talentTree-200,200,0,5,1,Gather - Grass,3,2100,0,4,197
 2,Gather Tree Atk ++  Proficiency ++,307,1,talentTree-201,201,0,5,1,Gather value - Trees,3,2100,0,4,198
 3,Gather Ore Atk ++  Proficiency ++,316,1,talentTree-202,202,0,5,1,Gather - Mining,3,2100,0,4,199
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,348#907#610,2,talentTree-204,204,0,6,1,Magic Props Recipes,3,4200,0,20,69
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,348#907#610,2,talentTree-204,204,0,6,1,Magic Props Recipes,3,4200,0,50,69
 1,Gather Grass Atk ++  Proficiency ++,299,1,talentTree-205,205,0,6,1,Gather - Grass value,3,4200,0,5,200
 2,Gather Tree Atk ++  Proficiency ++,308,1,talentTree-206,206,0,6,1,Gather - Trees,3,4200,0,5,201
 3,Gather Ore Atk ++  Proficiency ++,317,1,talentTree-207,207,0,6,1,Gather value - Mining,3,4200,0,5,202
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,895#908#611,2,talentTree-209,209,0,7,1,Not yet open,3,8400,0,0,204
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,895#908#611,2,talentTree-209,209,0,7,1,Not yet open,3,8400,0,60,204
 1,Gather Grass Atk ++  Proficiency ++,300,1,talentTree-210,210,0,7,1,Gather - Grass,3,8400,0,6,205
 2,Gather Tree Atk ++  Proficiency ++,309,1,talentTree-211,211,0,7,1,Gather - Trees,3,8400,0,6,206
 3,Gather Ore Atk ++  Proficiency ++,318,1,talentTree-212,212,0,7,1,Gather - Mining,3,8400,0,6,207
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,896#909#612,2,talentTree-214,214,0,8,1,Not yet open,3,16800,0,0,209
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,896#909#612,2,talentTree-214,214,0,8,1,Not yet open,3,16800,0,70,209
 2,Gather Tree Atk ++  Proficiency ++,310,1,talentTree-215,215,0,8,1,Gather - Trees,3,16800,0,7,211
 1,Gather Grass Atk ++  Proficiency ++,301,1,talentTree-216,216,0,8,1,Gather - Grass,3,16800,0,7,210
 3,Gather Ore Atk ++  Proficiency ++,319,1,talentTree-217,217,0,8,1,Gather - Mining,3,16800,0,7,212
--1,Unlock Potion Recipe. Unlock Energy Potion Recipe,897#910#613,2,talentTree-219,219,0,9,1,Not yet open,3,33600,0,0,214
+-1,Unlock Potion Recipe. Unlock Energy Potion Recipe,897#910#613,2,talentTree-219,219,0,9,1,Not yet open,3,33600,0,80,214
 1,Gather Grass Atk ++  Proficiency ++,302,1,talentTree-220,220,0,9,1,Gather - Grass,3,33600,0,8,216
 2,Gather Tree Atk ++  Proficiency ++,311,1,talentTree-221,221,0,9,1,Gather - Trees,3,33600,0,8,215
 3,Gather Ore Atk ++  Proficiency ++,320,1,talentTree-222,222,0,9,1,Gather - Mining,3,33600,0,8,217

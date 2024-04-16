@@ -214,13 +214,13 @@ Débloquer la recette de slime d'énergie niveau 3
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
 ",95#902#605,2,talentTree-65,65,0,1,1,Lv 1 Crazy Collector,3,131,0,0,
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
-",96#903#606,2,talentTree-66,66,0,2,1,Lv 1 Chosen Person,3,262,0,0,65
+",96#903#606,2,talentTree-66,66,0,2,1,Lv 1 Chosen Person,3,262,0,10,65
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie.
-",132#904#607,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,525,0,0,66
+",132#904#607,2,talentTree-67,67,0,3,1,Magic Props Recipes,3,525,0,20,66
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
-",346#905#608,2,talentTree-68,68,0,4,1,Lv 2 Crazy Collector,3,1050,0,10,67
+",346#905#608,2,talentTree-68,68,0,4,1,Lv 2 Crazy Collector,3,1050,0,30,67
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie.
-",347#906#609,2,talentTree-69,69,0,5,1,Lv 2 Chosen Person,3,2100,0,15,68
+",347#906#609,2,talentTree-69,69,0,5,1,Lv 2 Chosen Person,3,2100,0,40,68
 -1,"Réduire la vitesse de déplacement de l'ennemi
 ",340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,2,646,0,3,60
 -3,"Augmenter la durée de l'étourdissement de l'ennemi. 
@@ -415,7 +415,7 @@ Débloquer la recette de refonte
 3,"Attaque sur le minerai + + Compétence ++ 
 ",316,1,talentTree-202,202,0,5,1,Collecte - Minage,3,2100,0,4,199
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
-",348#907#610,2,talentTree-204,204,0,6,1,Magic Props Recipes,3,4200,0,20,69
+",348#907#610,2,talentTree-204,204,0,6,1,Magic Props Recipes,3,4200,0,50,69
 1,"Attaque sur l'herbe + + Compétence ++ 
 ",299,1,talentTree-205,205,0,6,1,Valeur de la récolte - Herbe,3,4200,0,5,200
 2,"Attaque sur les arbres + + Compétence ++ 
@@ -423,17 +423,17 @@ Débloquer la recette de refonte
 3, Récolte de minerai Atk ++ Compétence ++,317,1,talentTree-207,207,0,6,1,Valeur de la collecte - Minage,3,4200,0,5,202
 -1,"Débloquer la recette de potion
 Débloquer la recette de potion d'énergie
-",895#908#611,2,talentTree-209,209,0,7,1,Lv 3 Crazy Collector,3,8400,0,0,204
+",895#908#611,2,talentTree-209,209,0,7,1,Lv 3 Crazy Collector,3,8400,0,60,204
 1, Récolte d'herbe Atk ++ Compétence ++,300,1,talentTree-210,210,0,7,1,Récolte - Herbe,3,8400,0,6,205
 2, Récolte d'arbre Atk ++ Compétence ++,309,1,talentTree-211,211,0,7,1,Collecte - Arbres,3,8400,0,6,206
 3, Récolte de minerai Atk ++ Compétence ++,318,1,talentTree-212,212,0,7,1,Collecte - Minage,3,8400,0,6,207
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
-",896#909#612,2,talentTree-214,214,0,8,1,Lv 3 Chosen Person,3,16800,0,0,209
+",896#909#612,2,talentTree-214,214,0,8,1,Lv 3 Chosen Person,3,16800,0,70,209
 2, Récolte d'arbre Atk ++ Compétence ++,310,1,talentTree-215,215,0,8,1,Collecte - Arbres,3,16800,0,7,211
 1, Récolte d'herbe Atk ++ Compétence ++,301,1,talentTree-216,216,0,8,1,Récolte - Herbe,3,16800,0,7,210
 3, Récolte de minerai Atk ++ Compétence ++,319,1,talentTree-217,217,0,8,1,Collecte - Minage,3,16800,0,7,212
 -1,"Débloquer la recette de potion. Débloquer la recette de potion d'énergie
-",897#910#613,2,talentTree-219,219,0,9,1,Magic Props Recipes,3,33600,0,0,214
+",897#910#613,2,talentTree-219,219,0,9,1,Magic Props Recipes,3,33600,0,80,214
 1, Récolte d'herbe Atk ++ Compétence ++,302,1,talentTree-220,220,0,9,1,Récolte - Herbe,3,33600,0,8,216
 2,Récolte d'attaque d'arbre ++ Compétence ++,311,1,talentTree-221,221,0,9,1,Collecte - Arbres,3,33600,0,8,215
 3,Récolte d'attaque de minerai ++ Compétence ++,320,1,talentTree-222,222,0,9,1,Collecte - Minage,3,33600,0,8,217
