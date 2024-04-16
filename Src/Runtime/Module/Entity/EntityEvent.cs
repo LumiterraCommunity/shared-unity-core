@@ -308,4 +308,9 @@ public class EntityEvent : EntityBaseComponent
     /// <nwe name>
     /// </summary>
     public Action<string> NameUpdate;
+
+    /// <summary>
+    /// 宠物召回
+    /// </summary>
+    public Action OnPetRecalled;
 }
