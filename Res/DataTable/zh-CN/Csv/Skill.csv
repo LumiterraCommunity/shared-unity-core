@@ -449,7 +449,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,"113,547",500,457,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_green,Skill_GlowingGuard_AttackRange,,2900,1,20000,向前方突刺,2000,2,0,直线冲击（荧光守卫）,"1,200,2000,100,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,"538,541",,500,458,0,1,0,1,0,1,0,0,attackArea,,Skill_GlowingGuard_AttackArea,,1500,1,5000,将武器投射出去,1000,2,32,飞矛（荧光守卫）,,,1,0,1,,1000,,skill-icon-458,,,,2,,,,,,,
 0,0,0,,1,"554,457,385",22,500,459,0,0,0,0,0,0,0,0,A-1baoqi,Skill_ice_ring,Skill_IceExplosion,,660,1,15000,击退附近敌人，并将靠近自身周围的敌人减速，持续较长时间,200,2,0,冰天雪地,"2,600,0",,1,0,1,,1000,,skill-icon-459,,,,,,,,,,,
-0,0,0,,1,598,,500,460,0,0,0,0,0,0,0,0,A-1baoqi,Skill_speed_ring,SKill_Windup,,660,1,20000,召唤一片清风，提升自己和友军的移动速度,300,2,0,唤风术,"2,600,0",,1,0,2,,1000,565,skill-icon-460,,,,,,353,,,,,
+0,0,0,,1,598,,500,460,0,0,0,0,0,0,0,0,A-1baoqi,Skill_speed_ring,SKill_Windup,,660,1,20000,召唤一片清风，提升自己和友军的移动速度,300,2,0,唤风术,"2,600,0",,1,0,2,,1000,565,skill-icon-460,,,,,,,,,,,
 0,0,0,,0,,113,500,462,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_blue,Skill_GuardianOwl_AttackRange,,1333,1,8000,向前方突刺,1000,2,0,飞扑（智眸鹰守）,"1,200,1000,200,0",,1,0,1,,1000,108,,,,,,,,,,,,
 0,0,0,,0,,"113,547",333,463,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_plus,Skill_StripeBoulder_AttackRange,,2000,1,12000,向前方突刺,2000,2,0,撞击（黄纹岩怪）,"1,200,2000,100,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,538,,400,464,0,1,0,1,0,1,0,0,attackArea,,Skill_SpikeguardSmiler_AttackRange,,1000,1,5000,将武器投射出去,1000,2,38,飞矛（笑面刺盾）,,,1,0,1,,1000,,skill-icon-464,,,,1,,,,,,,

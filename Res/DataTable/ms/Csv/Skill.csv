@@ -550,7 +550,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,1,"554,457,385",22,500,459,0,0,0,0,0,0,0,0,A-1baoqi,Skill_ice_ring,Skill_IceExplosion,,660,1,15000,"Melambatkan musuh yang berdekatan untuk jangka masa yang lebih lama
 ",200,2,0, [416]Dunia Ais,"2,600,0",,1,0,1,,1000,,skill-icon-459,,,,,,,,,,,
 0,0,0,,1,598,,500,460,0,0,0,0,0,0,0,0,A-1baoqi,Skill_speed_ring,SKill_Windup,,660,1,20000,"Memanggil angin segar untuk meningkatkan kelajuan pergerakan
-",300,2,0, [417]Menggelinding,"2,600,0",,1,0,2,,1000,565,skill-icon-460,,,,,,353,,,,,
+",300,2,0, [417]Menggelinding,"2,600,0",,1,0,2,,1000,565,skill-icon-460,,,,,,,,,,,
 0,0,0,,0,,113,500,462,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_blue,Skill_GuardianOwl_AttackRange,,1333,1,8000,"Tolakan ke hadapan
 ",1000,2,0, [418]Terjun (Penjaga Elang Berwawasan Bijak),"1,200,1000,200,0",,1,0,1,,1000,108,,,,,,,,,,,,
 0,0,0,,0,,"113,547",333,463,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_plus,Skill_StripeBoulder_AttackRange,,2000,1,12000,"Tolakan ke hadapan

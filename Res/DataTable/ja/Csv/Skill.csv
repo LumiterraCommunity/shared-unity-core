@@ -537,7 +537,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,1,"554,457,385",22,500,459,0,0,0,0,0,0,0,0,A-1baoqi,Skill_ice_ring,Skill_IceExplosion,,660,1,15000, [416]自分に近づいた敵を長時間遅くする,200,2,0,"氷の世界
 ","2,600,0",,1,0,1,,1000,,skill-icon-459,,,,,,,,,,,
 0,0,0,,1,598,,500,460,0,0,0,0,0,0,0,0,A-1baoqi,Skill_speed_ring,SKill_Windup,,660,1,20000, [417]爽やかな風を呼び起こして移動速度を上げる,300,2,0,"巻き上げる
-","2,600,0",,1,0,2,,1000,565,skill-icon-460,,,,,,353,,,,,
+","2,600,0",,1,0,2,,1000,565,skill-icon-460,,,,,,,,,,,
 0,0,0,,0,,113,500,462,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_blue,Skill_GuardianOwl_AttackRange,,1333,1,8000, [418]前方への突進,1000,2,0,"急降下（賢眼の鷲守護者）
 ","1,200,1000,200,0",,1,0,1,,1000,108,,,,,,,,,,,,
 0,0,0,,0,,"113,547",333,463,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_plus,Skill_StripeBoulder_AttackRange,,2000,1,12000, [419]前方への突進,2000,2,0,"衝突（黄色いストライプの岩獣）
