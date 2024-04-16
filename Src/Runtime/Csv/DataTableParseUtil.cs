@@ -37,7 +37,6 @@ public static class DataTableParseUtil
 
     public static string ParseString(string value)
     {
-        value = ValidString(value);
         return value;
     }
 
