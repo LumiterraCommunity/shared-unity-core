@@ -65,7 +65,7 @@ Kemahiran Menanam + 4
 Kapasiti Kebahagiaan Haiwan Peliharaan + 1
 Kemahiran Membiak + 4
 Tenaga Maksimum + 10
-","68,10000","1,3",talentTree-15,15,1,3,1,Penguasaan Penanaman 3,1,1800,2,2,14
+","68531,10000","1,3",talentTree-15,15,1,3,1,Penguasaan Penanaman 3,1,1800,2,2,14
 0," Kapasiti Kesuburan + 1
 Kemahiran Menanam + 4
 Kapasiti Kebahagiaan Haiwan Peliharaan + 1
@@ -137,7 +137,7 @@ Kemahiran Memetik Rumput + 5
 Kemahiran Memotong Pokok + 5
 Kemahiran Perlombongan + 5
 Tenaga Maksimum + 10
-","84,10000","1,3",talentTree-27,27,1,4,1,Kumpulkan Pertempuran 4,3,3600,3,3,26
+","84530,10000","1,3",talentTree-27,27,1,4,1,Kumpulkan Pertempuran 4,3,3600,3,3,26
 0," Serangan Rumput + 5
 Serangan Pokok + 5
 Serangan Bijih + 5
@@ -185,7 +185,7 @@ Buka Resipi Slime Tenaga Tahap 1
 Buka Resipi Slime Tenaga Tahap 2
 ",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3,Menginjak - Tingkatkan,3,"262,262,262",0,"0,0,0",33
 -1,"Sentuhan Yang Menarik
-",531,1,talentTree-45,45,0,3,1,Pemisah Bumi,1,420,0,2,23
+",415,0,talentTree-45,45,0,3,1,Pemisah Bumi,1,420,0,2,23
 -1,"Kemahiran Kecekapan - Cangkul Berkumpulan
 ",103,0,talentTree-46,46,0,4,1,Hujan Salji Ringan,1,840,0,3,45
 2,"Kemahiran Penanaman + 4
@@ -399,7 +399,7 @@ Buka Resipi Penyulihan
 4,"Kemahiran Membiak + 4
 ",291,1,talentTree-173,173,0,7,1,Pertanian - Kemahiran menuai,1,6720,0,6,166
 -1," Menyiram bidang kecil di sekeliling anda
-",101,0,talentTree-176,176,0,8,1,Sentuhan Menarik,1,13440,0,7,169
+",101,0,talentTree-176,176,0,8,1,Sentuhan Menarik,1,13440,0,7,298
 2,"Kemahiran Menanam +4 
 ",280,1,talentTree-177,177,0,8,1,Pertanian - Kemahiran menuai,1,13440,0,7,171
 1,"Kapasiti Kesuburan + 1
@@ -429,7 +429,7 @@ Buka Resipi Penyulihan
 3," Serangan Bijih Berkumpul ++ Kemahiran ++
 ",313,1,talentTree-193,193,0,2,1,Kumpulkan - Perlombongan,3,262,0,1,190
 1,"Serangan Rumput Mengumpul ++ Kemahiran ++
-",296530,1,talentTree-194,194,0,3,1,Kumpulkan - Rumput,3,525,0,2,191
+",296,1,talentTree-194,194,0,3,1,Kumpulkan - Rumput,3,525,0,2,191
 2,"Serangan Pokok Mengumpul ++ Kemahiran ++
 ",305,1,talentTree-195,195,0,3,1,Kumpulkan - Pokok,3,525,0,2,192
 3,"Serangan Bijih Mengumpul ++ Kemahiran ++
@@ -611,3 +611,4 @@ Buka Resipi Slime Tenaga Tahap 6
 ",694#695#696#616#625;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-296,296,0,9,3,,3,"33600,33600,33600",0,"35,35,35",294
 -2,"Buka Resipi Intipati Tahap 9
 ",631,2,talentTree-297,297,0,9,1,,3,33600,0,0,295
+-1,,460,0,talentTree-298,298,0,7,1,,1,6720,0,6,169
