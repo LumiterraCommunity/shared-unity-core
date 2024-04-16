@@ -214,13 +214,13 @@ Desbloquear Receta de Slime de Energía Nivel 3
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
 ",95#902#605,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,3,131,0,0,
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",96#903#606,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,3,262,0,0,65
+",96#903#606,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,3,262,0,10,65
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",132#904#607,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,3,525,0,0,66
+",132#904#607,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,3,525,0,20,66
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",346#905#608,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,3,1050,0,10,67
+",346#905#608,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,3,1050,0,30,67
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",347#906#609,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,3,2100,0,15,68
+",347#906#609,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,3,2100,0,40,68
 -1,"Reducir la velocidad de movimiento del enemigo
 ",340,1,talentTree-70,70,0,4,1, Tormenta Ligera - Mejora ,2,646,0,3,60
 -3,"Aumentar la duración de aturdimiento del enemigo.
@@ -423,7 +423,7 @@ Desbloquear Receta de Recasting
 3,"Ataque de mineral de recolección ++ Competencia ++
 ",316,1,talentTree-202,202,0,5,1, Recolectar - Minería ,3,2100,0,4,199
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",348#907#610,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,3,4200,0,20,69
+",348#907#610,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,3,4200,0,50,69
 1,"Ataque de hierba de recolección ++ Competencia ++
 ",299,1,talentTree-205,205,0,6,1, Valor de Recolectar - Hierba ,3,4200,0,5,200
 2,"Ataque de árbol de recolección ++ Competencia ++
@@ -431,7 +431,7 @@ Desbloquear Receta de Recasting
 3,"Recolectar Mineral Atq ++ Competencia ++
 ",317,1,talentTree-207,207,0,6,1, Recolectar - Minería ,3,4200,0,5,202
 -1,"Desbloquear receta de poción. Desbloquear receta de poción de energía
-",895#908#611,2,talentTree-209,209,0,7,1, Lv 3 Coleccionista Loco ,3,8400,0,0,204
+",895#908#611,2,talentTree-209,209,0,7,1, Lv 3 Coleccionista Loco ,3,8400,0,60,204
 1,"Recolectar Hierba Atq ++ Competencia ++
 ",300,1,talentTree-210,210,0,7,1, Recolectar - Hierba ,3,8400,0,6,205
 2,"Recolectar Árbol Atq ++ Competencia ++
@@ -439,7 +439,7 @@ Desbloquear Receta de Recasting
 3,"Recolectar Mineral Atq ++ Competencia ++
 ",318,1,talentTree-212,212,0,7,1, Recolectar - Minería ,3,8400,0,6,207
 -1,"Desbloquear receta de poción. Desbloquear receta de poción de energía
-",896#909#612,2,talentTree-214,214,0,8,1, Lv 3 Persona Elegida ,3,16800,0,0,209
+",896#909#612,2,talentTree-214,214,0,8,1, Lv 3 Persona Elegida ,3,16800,0,70,209
 2,"Recolectar Árbol Atq ++ Competencia ++
 ",310,1,talentTree-215,215,0,8,1, Recolectar - Árboles ,3,16800,0,7,211
 1,"Recolectar Hierba Atq ++ Competencia ++
@@ -447,7 +447,7 @@ Desbloquear Receta de Recasting
 3,"Recolectar Mineral Atq ++ Competencia ++
 ",319,1,talentTree-217,217,0,8,1, Recolectar - Minería ,3,16800,0,7,212
 -1,"Desbloquear receta de poción. Desbloquear receta de poción de energía
-",897#910#613,2,talentTree-219,219,0,9,1, Recetas de Accesorios Mágicos ,3,33600,0,0,214
+",897#910#613,2,talentTree-219,219,0,9,1, Recetas de Accesorios Mágicos ,3,33600,0,80,214
 1,"Recolectar Hierba Atq ++ Competencia ++
 ",302,1,talentTree-220,220,0,9,1, Recolectar - Hierba ,3,33600,0,8,216
 2,Ataque a los árboles de recolección ++ Competencia ++,311,1,talentTree-221,221,0,9,1, Recolectar - Árboles ,3,33600,0,8,215
