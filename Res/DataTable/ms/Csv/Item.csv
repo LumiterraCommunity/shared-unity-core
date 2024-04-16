@@ -2106,19 +2106,19 @@ Cadangkan memakainya sebagai fesyen
 Penampilan bergaya tanpa atribut
 -------
 Cadangkan memakainya sebagai fesyen",0,item-icon-475,475,Kasut Inti Gang,5,0,1,4,1
-1,1,"LUAG Future(100) dipegang pada nisbah 1:100 dengan Token LUAG.
+0,1,"LUAG Future(100) dipegang pada nisbah 1:100 dengan Token LUAG.
 ",0,item-icon-478,478,LUAG Masa Depan(100),1,0,4,0,1
 1,1,"Muncul di Floating Realm, Muncul di Flower Peak.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Ia boleh digunakan untuk membuat Ramuan Tenaga.
 ",0,item-icon-479,479,Botol Kosong,1,0,4,0,1
-1,1,"Muncul di Floating Realm.
+0,1,"Muncul di Floating Realm.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Ia boleh digunakan untuk menukar LUAG Future(100).
 ",0,item-icon-480,480,LUAG Masa Depan (N),1,0,4,0,1
-1,1,Ia boleh digunakan untuk menukar LUAG Future(100).,0,item-icon-481,481,LUAG Bintang,1,0,4,0,1
+0,1,Ia boleh digunakan untuk menukar LUAG Future(100).,0,item-icon-481,481,LUAG Bintang,1,0,4,0,1
 1,1,"Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -3214,20 +3214,76 @@ Menggunakannya boleh memicu kesan khas.
 Makanan haiwan peliharaan adalah item yang boleh dikonsumsi yang sesuai untuk haiwan peliharaan tahap 0, dan boleh meningkatkan kenyang dan nilai pertumbuhan haiwan peliharaan. Ia diperbuat daripada tumbuhan semulajadi dan nutrien, dengan rasa yang menyegarkan dan mudah dicerna dan diserap. Setiap bungkusan makanan haiwan peliharaan adalah ringan dan mudah dibawa, menjadikannya item wajib bagi pemilik haiwan peliharaan.
 ",27,item-icon-708,708,"Tahap 9 Suapan
 ",1,0,3,0,1
-1,1,,0,item-icon-709,709,,1,0,3,0,1
-1,1,,0,item-icon-710,710,,1,0,3,0,1
-1,1,,0,item-icon-711,711,,1,0,3,0,1
-1,1,,0,item-icon-712,712,,1,0,3,0,1
-1,1,,0,item-icon-713,713,,1,0,3,0,1
-1,1,,0,item-icon-714,714,,1,0,3,0,1
-1,1,,0,item-icon-715,715,,1,0,3,0,1
-1,1,,0,item-icon-716,716,,1,0,3,0,1
-1,1,,0,item-icon-717,717,,1,0,3,0,1
-0,1,,0,item-icon-718,718,,1,0,4,0,1
-0,0,,97,item-icon-719,719,,1,1,3,0,1
-0,0,,97,item-icon-720,720,,1,1,3,0,1
-0,0,,97,item-icon-721,721,,1,1,3,0,1
-0,0,,97,item-icon-722,722,,1,1,3,0,1
-0,0,,97,item-icon-723,723,,1,1,3,0,1
-1,1,,0,item-icon-725,725,,1,0,4,0,1
-1,1,,0,item-icon-726,726,,1,0,4,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 4.
+",0,item-icon-709,709,"Tongkat Pemulihan Tenaga Lv 1 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 10.
+",0,item-icon-710,710,"Tongkat Pemulihan Tenaga Lv 2 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 17.
+",0,item-icon-711,711,"Tongkat Pemulihan Tenaga Lv 3 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 25.
+",0,item-icon-712,712,"Tongkat Pemulihan Tenaga Lv 4 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 34.
+",0,item-icon-713,713,"Tongkat Pemulihan Tenaga Lv 5 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 44.
+",0,item-icon-714,714,"Tongkat Pemulihan Tenaga Lv 6 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 55.
+",0,item-icon-715,715,"Tongkat Pemulihan Tenaga Lv 7 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 67.
+",0,item-icon-716,716,"Tongkat Pemulihan Tenaga Lv 8 2.0
+",1,0,3,0,1
+1,1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pulihkan tenaga - 80.
+",0,item-icon-717,717,"Tongkat Pemulihan Tenaga Lv 9 2.0
+",1,0,3,0,1
+0,1," Muncul di Puncak Bunga, Muncul di Alam Terapung, Muncul di Domain Kuno.
+Ia boleh digunakan untuk membuat peralatan atau item.
+-------
+",0,item-icon-718,718,"Pingat Pahlawan
+",1,0,4,0,1
+0,0,,97,item-icon-719,719,"Biji Totem A
+",1,1,3,0,1
+0,0,,97,item-icon-720,720,"Biji Totem B
+",1,1,3,0,1
+0,0,,97,item-icon-721,721,"Biji Totem C
+",1,1,3,0,1
+0,0,,97,item-icon-722,722,"Biji Totem D
+",1,1,3,0,1
+0,0,,97,item-icon-723,723,"Biji Totem E
+",1,1,3,0,1
+1,1," Suvenir yang diperoleh dengan mengalahkan Samurai Pedang Mengembara.
+",0,item-icon-725,725,"Pingat Samurai Pedang Mengembara
+",1,0,4,0,1
+1,1, Suvenir yang diperoleh dengan mengalahkan Uskup Hantu.,0,item-icon-726,726,Pingat Uskup Hantu,1,0,4,0,1

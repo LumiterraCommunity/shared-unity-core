@@ -408,7 +408,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"35,388",467,0,414,1,1,0,1,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,1,60000,"空
 ",1000,2,24,我手搓闪电,"2,300,0",,1,0,1,,1000,"497,485",,,,top_down_Normal_3,4,,478,,,,,
 0,0,0,,0,,,200,415,0,0,0,1,1,0,0,0,happy,,Skil_LovelyTouch,,660,1,30000,短暂提高单位宠物输出幸福指数,,2,0,可爱的触感,,,1,0,,,1000,470,skill-icon-415,,,,,,,,,,,
-0,0,0,,0,"15,456,446",463,1700,417,1,1,0,1,0,0,0,1,attackArea,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,1,4000,"空
+0,0,0,,0,"15,456,446",463,1700,417,1,1,0,1,0,0,0,1,skill,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,1,4000,"空
 ",500,2,0,蓄力击飞,"4,300,400,18000,0",,1,0,1,,1000,,,,,top_down_Normal_Half_4,,,,,,,,
 0,0,0,,0,1,467,1000,422,1,1,0,1,0,1,0,1,attackArea,,Skill_FroestLord_AttackArea,,2833,1,12000,"空
 ",1000,2,22,看好你屁屁(小),"2,300,0",,1,0,1,,1000,"489,490",,,,top_down_Normal_3,2,,,,,,,
