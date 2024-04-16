@@ -39,10 +39,10 @@ public class SEAddEntityCore : SkillEffectBase
             targetPos = inputData.TargetPosList[0];
         }
 
-        //实体类型,实体ID,刷新间隔,刷新数量,刷新半径
+        //实体类型,实体ID,刷新间隔,刷新数量,刷新半径,最小等级,最大等级
         for (int i = 0; i < EffectCfg.Parameters2.Length; i++)
         {
-            if (EffectCfg.Parameters2[i].Length < 5)
+            if (EffectCfg.Parameters2[i].Length < 7)
             {
                 Log.Error($"SEAddEntityCore Parameters2 Error EffectID = {EffectID}");
                 continue;
@@ -54,6 +54,11 @@ public class SEAddEntityCore : SkillEffectBase
             resourcesPointData.UpdateInterval = EffectCfg.Parameters2[i][2];
             resourcesPointData.UpdateNum = EffectCfg.Parameters2[i][3];
             resourcesPointData.Radius = EffectCfg.Parameters2[i][4];
+
+            resourcesPointData.LevelRange = new int[2];
+            resourcesPointData.LevelRange[0] = EffectCfg.Parameters2[i][5];
+            resourcesPointData.LevelRange[1] = EffectCfg.Parameters2[i][6];
+
             resourcesPointData.X = targetPos.x;
             resourcesPointData.Y = targetPos.y;
             resourcesPointData.Z = targetPos.z;
