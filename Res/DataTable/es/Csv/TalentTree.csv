@@ -65,7 +65,7 @@ Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
 Competencia de Reproducción + 4
 Energía Máxima + 10
-","68,10000","1,3",talentTree-15,15,1,3,1, Maestría en Agricultura 3 ,1,1800,2,2,14
+","68531,10000","1,3",talentTree-15,15,1,3,1, Maestría en Agricultura 3 ,1,1800,2,2,14
 0,"Capacidad de Fertilidad + 1
 Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
@@ -137,7 +137,7 @@ Competencia de Hierba + 5
 Competencia de Árbol + 5
 Competencia de Mineral + 5
 Energía Máxima + 10
-","84,10000","1,3",talentTree-27,27,1,4,1, Recolectar Combate 4 ,3,3600,3,3,26
+","84530,10000","1,3",talentTree-27,27,1,4,1, Recolectar Combate 4 ,3,3600,3,3,26
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5
@@ -185,7 +185,7 @@ Desbloquear Receta de Slime de Energía Nv 1
 Desbloquear Receta de Slime de Energía Nivel 2
 ",71#75#203#268;112#182;181#183#184#480#468#477#461#478#465#476#474,2,talentTree-34,34,0,2,3, Recetas de Conjunto de Recolectar ,3,"262,262,262",0,"0,0,0",33
 -1,"Toque Encantador
-",531,1,talentTree-45,45,0,3,1, Toque Encantador ,1,420,0,2,23
+",415,0,talentTree-45,45,0,3,1, Toque Encantador ,1,420,0,2,23
 -1,"Habilidades de Eficiencia - Azada en Grupo
 ",103,0,talentTree-46,46,0,4,1, Separador de Tierra ,1,840,0,3,45
 2,"Competencia en plantación + 4.
@@ -382,7 +382,7 @@ Desbloquear Receta de Recasting
 3,Capacidad de Felicidad de Mascotas +1,285,1,talentTree-172,172,0,7,1, Agricultura - Índice de Felicidad de Salida de Unidad de Mascotas ,1,6720,0,6,164
 4,Competencia reproductiva + 4,291,1,talentTree-173,173,0,7,1, Agricultura - Maestría en Cosecha ,1,6720,0,6,166
 -1,"Regar campos pequeños a tu alrededor
-",101,0,talentTree-176,176,0,8,1, Maestría en Regadera ,1,13440,0,7,169
+",101,0,talentTree-176,176,0,8,1, Maestría en Regadera ,1,13440,0,7,298
 2,Competencia en Plantación +4,280,1,talentTree-177,177,0,8,1, Agricultura - Maestría en Cosecha ,1,13440,0,7,171
 1,"Capacidad de fertilidad + 1.
 ",240,1,talentTree-178,178,0,8,1, Agricultura - Producción de fertilidad por unidad de tierra ,1,13440,0,7,170
@@ -406,7 +406,7 @@ Desbloquear Receta de Recasting
 3,"Ataque de Mineral ++ Competencia ++
 ",313,1,talentTree-193,193,0,2,1, Recolectar - Minería ,3,262,0,1,190
 1,"Ataque de Hierba en Recolecta ++ Competencia ++
-",296530,1,talentTree-194,194,0,3,1, Recolectar - Hierba ,3,525,0,2,191
+",296,1,talentTree-194,194,0,3,1, Recolectar - Hierba ,3,525,0,2,191
 2,"Ataque de Árbol en Recolecta ++ Competencia ++
 ",305,1,talentTree-195,195,0,3,1, Recolectar - Árboles ,3,525,0,2,192
 3,"Ataque de Mineral en Recolecta ++ Competencia ++
@@ -586,3 +586,4 @@ Desbloquear receta de Slime de energía Lv 6
 ",694#695#696#616#625;699#700#701#862#863#864#865#866#867#868#869;697#698,2,talentTree-296,296,0,9,3,,3,"33600,33600,33600",0,"35,35,35",294
 -2,"Desbloquear Recetas de Esencia Nivel 9
 ",631,2,talentTree-297,297,0,9,1,,3,33600,0,0,295
+-1,,460,0,talentTree-298,298,0,7,1,,1,6720,0,6,169
