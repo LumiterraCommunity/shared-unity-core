@@ -60,6 +60,15 @@ public class DRBattleArea : DataRowBase
     }
 
     /// <summary>
+  /**获取desc-string。*/
+    /// </summary>
+    public string Desc
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取name-string。*/
     /// </summary>
     public string Name
@@ -86,6 +95,7 @@ public class DRBattleArea : DataRowBase
         DeathDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         DeathEXPDrop = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DeathTaxation = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -104,6 +114,7 @@ public class DRBattleArea : DataRowBase
                 DeathDrop = binaryReader.ReadArray<Int32>();
                 DeathEXPDrop = binaryReader.Read7BitEncodedInt32();
                 DeathTaxation = binaryReader.ReadArray<Int32>();
+                Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 Type = binaryReader.Read7BitEncodedInt32();
