@@ -116,9 +116,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Trống,2,recipe-icon-216,216,0,"32,3;70,3", Cấp 0 Công thức Chai Choáng ,"236,1,1,10000",3,0,100216,1,10,-,3,1,1,0,0
 0,Trống,2,recipe-icon-217,217,0,"31,3;71,3", Cấp 0 Công thức Chai Giảm Tốc Độ ,"237,1,1,10000",3,0,100217,1,10,-,3,1,1,0,0
 0,Trống,2,recipe-icon-218,218,0,"30,3;72,3", Cấp 0 Công thức Chai Đốt ,"238,1,1,10000",3,0,100218,1,10,-,3,1,1,0,0
-0,,2,recipe-icon-267,267,1,"58,4;62,4;66,4",Công thức Slime Năng Lượng Nông Nghiệp cấp độ 1,"482,1,1,10000",4,0,99267,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-268,268,2,"482,1;63,4;59,4;67,4",Công thức Slime Năng Lượng Nông Nghiệp cấp độ 2,"483,1,1,10000",4,0,98268,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-269,269,3,"483,1;60,4;68,4;64,4",Công thức Slime Năng Lượng Nông Nghiệp cấp độ 3,"484,1,1,10000",4,0,97269,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 1 Nông Nghiệp,2,recipe-icon-267,267,1,"58,4;62,4;66,4",Công thức Slime Năng Lượng Nông Nghiệp cấp độ 1,"482,1,1,10000",4,0,99267,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 2 Nông Nghiệp,2,recipe-icon-268,268,2,"482,1;63,4;59,4;67,4",Công thức Slime Năng Lượng Nông Nghiệp cấp độ 2,"483,1,1,10000",4,0,98268,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 3 Nông Nghiệp,2,recipe-icon-269,269,3,"483,1;60,4;68,4;64,4",Công thức Slime Năng Lượng Nông Nghiệp cấp độ 3,"484,1,1,10000",4,0,97269,1,3,-,1,0,4,0,0
 0,Công thức Kiếm Vàng,2,recipe-icon-270,270,4,"209,2;407,1;410,1", Công thức Kiếm Vàng ,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",1,0,96270,1,30,-,2,0,4,0,10
 0,Công thức Mũ Chiến binh Vàng,2,recipe-icon-271,271,4,"209,2;407,1;410,1", Công thức Mũ Chiến binh Vàng ,"335,1,1,4090;335,2,1,2727;335,3,1,1818;335,4,1,1212;471,5,1,151",1,0,96271,1,30,-,2,0,4,0,10
 0,Công thức Áo Chiến binh Vàng,2,recipe-icon-272,272,4,"209,2;407,1;410,1", Công thức Áo Chiến binh Vàng ,"336,1,1,4090;336,2,1,2727;336,3,1,1818;336,4,1,1212;472,5,1,151",1,0,96272,1,30,-,2,0,4,0,10
@@ -212,9 +212,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Công thức Cọ Vàng cấp độ 4,2,recipe-icon-379,379,4,"218,2;404,2",Công thức Bàn Chải Vàng cấp độ 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",1,0,96379,1,30,-,1,0,4,0,10
 0,Công thức Cọ Kim Cương cấp độ 5,2,recipe-icon-380,380,5,"401,2;405,2",Công thức Bàn Chải Kim Cương cấp độ 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",1,0,95380,1,90,-,1,0,4,0,15
 0,Công thức Cọ Ánh Sáng Sao cấp độ 6,2,recipe-icon-381,381,6,"402,2;406,2",Công thức Bàn Chải Ánh Sáng Sao cấp độ 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",1,0,94381,1,270,-,1,0,4,0,20
-0,,2,recipe-icon-382,382,4,"484,1;376,4;374,4;375,4",Công thức Slime Năng lượng Nông nghiệp cấp độ 4 ,"485,1,1,10000",4,0,96382,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-383,383,5,"485,1;378,4;379,4;377,4",Công thức Slime Năng lượng Nông nghiệp cấp độ 5 ,"486,1,1,10000",4,0,95383,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-384,384,6,"486,1;380,4;381,4;382,4",Công thức Slime Năng lượng Nông nghiệp cấp độ 6 ,"487,1,1,10000",4,0,94384,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 4 Nông Nghiệp,2,recipe-icon-382,382,4,"484,1;376,4;374,4;375,4",Công thức Slime Năng lượng Nông nghiệp cấp độ 4 ,"485,1,1,10000",4,0,96382,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 5 Nông Nghiệp,2,recipe-icon-383,383,5,"485,1;378,4;379,4;377,4",Công thức Slime Năng lượng Nông nghiệp cấp độ 5 ,"486,1,1,10000",4,0,95383,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 6 Nông Nghiệp,2,recipe-icon-384,384,6,"486,1;380,4;381,4;382,4",Công thức Slime Năng lượng Nông nghiệp cấp độ 6 ,"487,1,1,10000",4,0,94384,1,3,-,1,0,4,0,0
 0,Công thức Vé Xổ Số Vùng Trôi - Cấp độ 4,0,recipe-icon-385,385,0,"365,8;366,8;367,8", Công thức Vé xổ số Kiến thiết Vùng Động - Cấp độ 4,"464,1,3,10000",4,0,100385,1,10,-,0,0,4,0,1
 0,Công thức Vé Xổ Số Vùng Trôi - Cấp độ 5,0,recipe-icon-386,386,0,"368,3;369,3;370,3", Công thức Vé xổ số Kiến thiết Vùng Động - Cấp độ 5,"464,1,12,10000",4,0,100386,1,10,-,0,0,4,0,1
 0,Công thức Vé Xổ Số Vùng Trôi - Cấp độ 6,0,recipe-icon-387,387,0,"371,1;372,1;373,1", Công thức Vé xổ số Kiến thiết Vùng Động - Cấp độ 6,"464,1,18,10000",4,0,100387,1,10,-,0,0,4,0,1
@@ -400,24 +400,24 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Tái tạo Golden Sword của bạn,2,recipe-icon-581,581,4,"317,1;215,1;212,1",Lv 4 Đúc lại Kiếm vàng,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",1,0,96581,1,10,-,2,0,4,0,10
 0,Tái tạo Kiếm Kim Cương của bạn,2,recipe-icon-582,582,5,"318,1;410,1;407,1",Lv 5 Thanh kiếm kim cương Tái tạo,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",1,0,95582,1,10,-,2,0,4,0,15
 0,Tái tạo Búa Ánh Sáng của bạn,2,recipe-icon-583,583,6,"446,1;411,1;408,1",Tái tạo Búa Ánh Sáng 6 Sao cấp độ,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",1,0,94583,1,10,-,2,0,4,0,20
-0,,2,recipe-icon-595,595,6,"486,1;371,4;373,4;372,4",Công thức Slime Năng Lượng Thu Thập cấp độ 6,"487,1,1,10000",4,0,94595,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-589,589,5,"485,1;370,4;368,4;369,4",Công thức Slime Năng Lượng Thu Thập cấp độ 5,"486,1,1,10000",4,0,95589,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-592,592,3,"483,1;38,4;37,4;36,4",Công thức Slime Năng Lượng Thu Thập cấp độ 3,"484,1,1,10000",4,0,97592,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-590,590,4,"484,1;365,4;366,4;367,4",Công thức Slime Năng Lượng Thu Thập cấp độ 4,"485,1,1,10000",4,0,96590,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-588,588,1,"30,4;31,4;32,4",Công thức Slime Năng Lượng Thu Thập cấp độ 1,"482,1,1,10000",4,0,99588,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-585,585,2,"482,1;33,4;34,4;35,4",Công thức Slime Năng Lượng Thu Thập cấp độ 2,"483,1,1,10000",4,0,98585,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-586,586,6,"486,1;400,4;399,4;390,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 6,"487,1,1,10000",4,0,94586,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-587,587,5,"485,1;386,4;397,4;387,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 5,"486,1,1,10000",4,0,95587,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-596,596,3,"483,1;78,4;183,4;185,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 3,"484,1,1,10000",4,0,97596,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-594,594,4,"484,1;392,4;394,4;385,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 4,"485,1,1,10000",4,0,96594,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-591,591,1,"177,4;178,4;179,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 1,"482,1,1,10000",4,0,99591,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-593,593,2,"482,1;180,4;75,4;181,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 2,"483,1,1,10000",4,0,98593,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-597,597,1,"70,4;72,4;71,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 1,"482,1,1,10000",4,0,99597,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-598,598,2,"482,1;73,4;182,4;74,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 2,"483,1,1,10000",4,0,98598,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-599,599,3,"483,1;77,4;184,4;76,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 3,"484,1,1,10000",4,0,97599,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-600,600,4,"484,1;383,4;384,4;393,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 4,"485,1,1,10000",4,0,96600,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-601,601,5,"485,1;396,4;388,4;395,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 5,"486,1,1,10000",4,0,95601,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-602,602,6,"486,1;398,4;389,4;391,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 6,"487,1,1,10000",4,0,94602,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 6 Thu Thập,2,recipe-icon-595,595,6,"486,1;371,4;373,4;372,4",Công thức Slime Năng Lượng Thu Thập cấp độ 6,"487,1,1,10000",4,0,94595,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 5 Thu Thập,2,recipe-icon-589,589,5,"485,1;370,4;368,4;369,4",Công thức Slime Năng Lượng Thu Thập cấp độ 5,"486,1,1,10000",4,0,95589,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 3 Thu Thập,2,recipe-icon-592,592,3,"483,1;38,4;37,4;36,4",Công thức Slime Năng Lượng Thu Thập cấp độ 3,"484,1,1,10000",4,0,97592,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 4 Thu Thập,2,recipe-icon-590,590,4,"484,1;365,4;366,4;367,4",Công thức Slime Năng Lượng Thu Thập cấp độ 4,"485,1,1,10000",4,0,96590,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 1 Thu Thập,2,recipe-icon-588,588,1,"30,4;31,4;32,4",Công thức Slime Năng Lượng Thu Thập cấp độ 1,"482,1,1,10000",4,0,99588,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 2 Thu Thập,2,recipe-icon-585,585,2,"482,1;33,4;34,4;35,4",Công thức Slime Năng Lượng Thu Thập cấp độ 2,"483,1,1,10000",4,0,98585,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 6,2,recipe-icon-586,586,6,"486,1;400,4;399,4;390,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 6,"487,1,1,10000",4,0,94586,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 5,2,recipe-icon-587,587,5,"485,1;386,4;397,4;387,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 5,"486,1,1,10000",4,0,95587,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 3,2,recipe-icon-596,596,3,"483,1;78,4;183,4;185,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 3,"484,1,1,10000",4,0,97596,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 4,2,recipe-icon-594,594,4,"484,1;392,4;394,4;385,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 4,"485,1,1,10000",4,0,96594,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 1,2,recipe-icon-591,591,1,"177,4;178,4;179,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 1,"482,1,1,10000",4,0,99591,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 2,2,recipe-icon-593,593,2,"482,1;180,4;75,4;181,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 2,"483,1,1,10000",4,0,98593,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 1,2,recipe-icon-597,597,1,"70,4;72,4;71,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 1,"482,1,1,10000",4,0,99597,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 2,2,recipe-icon-598,598,2,"482,1;73,4;182,4;74,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 2,"483,1,1,10000",4,0,98598,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 3,2,recipe-icon-599,599,3,"483,1;77,4;184,4;76,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 3,"484,1,1,10000",4,0,97599,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 4,2,recipe-icon-600,600,4,"484,1;383,4;384,4;393,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 4,"485,1,1,10000",4,0,96600,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 5,2,recipe-icon-601,601,5,"485,1;396,4;388,4;395,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 5,"486,1,1,10000",4,0,95601,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 6,2,recipe-icon-602,602,6,"486,1;398,4;389,4;391,4",Công thức Slime Năng Lượng Chiến Đấu cấp độ 6,"487,1,1,10000",4,0,94602,1,3,-,2,0,4,0,0
 0,Bạn có thể nhận được các phần thưởng sau:300 LUAG 20%200 LUAG 30%100 LUAG 50%,2,recipe-icon-604,604,0,"480,5",Đổi LUAG,"478,1,6,6250;478,1,10,3750;478,1,20,",4,0,100604,1,3,80,0,1,1,0,160
 0,,2,recipe-icon-605,605,1,"482,1;479,3",Công thức Thuốc Phục Hồi Năng Lượng cấp độ 1,"709,1,3,10000",3,0,99605,1,3,-,3,0,4,0,0
 0,,2,recipe-icon-606,606,2,"483,1;479,3",Công thức Thuốc Phục Hồi Năng Lượng cấp độ 2,"710,1,3,10000",3,0,98606,1,3,-,3,0,4,0,0
@@ -428,18 +428,18 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,2,recipe-icon-611,611,7,"488,1;479,1", Công thức Thuốc phục hồi Năng lượng cấp độ 7,"715,1,3,10000",3,0,93611,1,3,-,3,0,4,0,0
 0,,2,recipe-icon-612,612,8,"489,1;479,1", Công thức Thuốc phục hồi Năng lượng cấp độ 8,"716,1,3,10000",3,0,92612,1,3,-,3,0,4,0,0
 0,,2,recipe-icon-613,613,9,"490,1;479,1", Công thức Thuốc phục hồi Năng lượng cấp độ 9,"717,1,3,10000",3,0,91613,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-614,614,7,"487,1;491,4;492,4;493,4", Công thức Slime Năng lượng Thu thập cấp độ 7,"488,1,1,10000",4,0,93614,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-615,615,8,"488,1;503,4;504,4;505,4", Công thức Slime Năng lượng Thu thập cấp độ 8,"489,1,1,10000",4,0,92615,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-616,616,9,"489,1;521,4;522,4;524,4", Công thức Slime Năng lượng Chiến đấu cấp độ 9,"490,1,1,10000",4,0,91616,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-617,617,7,"487,1;498,4;497,4;499,4", Công thức Slime Năng lượng Chiến đấu cấp độ 7,"488,1,1,10000",4,0,93617,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-618,618,8,"488,1;506,4;508,4;507,4", Công thức Slime Năng lượng Nông nghiệp cấp độ 8,"489,1,1,10000",4,0,92618,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-619,619,9,"489,1;515,4;516,4;517,4", Công thức Slime Năng lượng Thu thập cấp độ 9,"490,1,1,10000",4,0,91619,1,3,-,3,0,4,0,0
-0,,2,recipe-icon-621,621,8,"488,1;509,4;510,4;511,4", Công thức Slime Năng lượng Chiến đấu cấp độ 8,"489,1,1,10000",4,0,92621,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-620,620,7,"487,1;500,4;501,4;502,4", Công thức Slime Năng lượng Chiến đấu cấp độ 7,"488,1,1,10000",4,0,93620,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-622,622,9,"489,1;518,4;519,4;520,4", Công thức Slime Năng lượng Nông nghiệp cấp độ 9,"490,1,1,10000",4,0,91622,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-623,623,7,"487,1;494,4;495,4;496,4", Công thức Slime Năng lượng Nông nghiệp cấp độ 7,"488,1,1,10000",4,0,93623,1,3,-,1,0,4,0,0
-0,,2,recipe-icon-624,624,8,"488,1;513,4;512,4;514,4", Công thức Slime Năng lượng Chiến đấu cấp độ 8,"489,1,1,10000",4,0,92624,1,3,-,2,0,4,0,0
-0,,2,recipe-icon-625,625,9,"489,1;523,4;525,4;526,4", Công thức Slime Năng lượng Chiến đấu cấp độ 9,"490,1,1,10000",4,0,91625,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 7 Thu Thập,2,recipe-icon-614,614,7,"487,1;491,4;492,4;493,4", Công thức Slime Năng lượng Thu thập cấp độ 7,"488,1,1,10000",4,0,93614,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 8 Thu Thập,2,recipe-icon-615,615,8,"488,1;503,4;504,4;505,4", Công thức Slime Năng lượng Thu thập cấp độ 8,"489,1,1,10000",4,0,92615,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 9,2,recipe-icon-616,616,9,"489,1;521,4;522,4;524,4", Công thức Slime Năng lượng Chiến đấu cấp độ 9,"490,1,1,10000",4,0,91616,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 7,2,recipe-icon-617,617,7,"487,1;498,4;497,4;499,4", Công thức Slime Năng lượng Chiến đấu cấp độ 7,"488,1,1,10000",4,0,93617,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 8 Nông Nghiệp,2,recipe-icon-618,618,8,"488,1;506,4;508,4;507,4", Công thức Slime Năng lượng Nông nghiệp cấp độ 8,"489,1,1,10000",4,0,92618,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 9 Thu Thập,2,recipe-icon-619,619,9,"489,1;515,4;516,4;517,4", Công thức Slime Năng lượng Thu thập cấp độ 9,"490,1,1,10000",4,0,91619,1,3,-,3,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 8,2,recipe-icon-621,621,8,"488,1;509,4;510,4;511,4", Công thức Slime Năng lượng Chiến đấu cấp độ 8,"489,1,1,10000",4,0,92621,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 7,2,recipe-icon-620,620,7,"487,1;500,4;501,4;502,4", Công thức Slime Năng lượng Chiến đấu cấp độ 7,"488,1,1,10000",4,0,93620,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 9 Nông Nghiệp,2,recipe-icon-622,622,9,"489,1;518,4;519,4;520,4", Công thức Slime Năng lượng Nông nghiệp cấp độ 9,"490,1,1,10000",4,0,91622,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Cấp 7 Nông Nghiệp,2,recipe-icon-623,623,7,"487,1;494,4;495,4;496,4", Công thức Slime Năng lượng Nông nghiệp cấp độ 7,"488,1,1,10000",4,0,93623,1,3,-,1,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 8,2,recipe-icon-624,624,8,"488,1;513,4;512,4;514,4", Công thức Slime Năng lượng Chiến đấu cấp độ 8,"489,1,1,10000",4,0,92624,1,3,-,2,0,4,0,0
+0,Công thức Slime Năng Lượng Chiến Đấu cấp 9,2,recipe-icon-625,625,9,"489,1;523,4;525,4;526,4", Công thức Slime Năng lượng Chiến đấu cấp độ 9,"490,1,1,10000",4,0,91625,1,3,-,2,0,4,0,0
 0,,2,recipe-icon-626,626,7,"491,5;492,5;493,5;403,2",Công thức Tinh chất Chiến đấu cấp độ 7,"602,1,1,10000",4,0,93626,1,10,-,2,0,4,0,0
 0,,2,recipe-icon-627,627,8,"602,2;503,5;504,5;505,5",Công thức Tinh chất Chiến đấu cấp độ 8,"603,1,1,10000",4,0,92627,1,10,-,2,0,4,0,0
 0,,2,recipe-icon-628,628,9,"603,2;515,5;516,5;517,5",Công thức Tinh chất Chiến đấu cấp độ 9,"604,1,1,10000",4,0,91628,1,10,-,2,0,4,0,0
@@ -617,12 +617,12 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,2,recipe-icon-909,909,8,"699,1;687,1;688,1;686,1",,"700,1,3,10000",4,0,92909,1,10,-,3,1,1,0,0
 0,,2,recipe-icon-908,908,7,"698,1;683,1;685,1;684,1",,"699,1,3,10000",4,0,93908,1,10,-,3,1,1,0,0
 0,,2,recipe-icon-910,910,9,"700,1;689,1;691,1;690,1",,"701,1,3,10000",4,0,91910,1,10,-,3,1,1,0,0
-0,,2,recipe-icon-913,913,4,"365,1;366,1;367,1",,"468,1,1,1009;467,1,1,7981;658,1,1,1009",4,0,96913,1,10,-,2,1,1,0,5
-0,,2,recipe-icon-912,912,1,"30,1;31,1;32,1",Công thức Vé vào cấp độ 2,"468,1,1,8787;467,1,1,1111;658,1,1,101",4,0,99912,1,10,-,2,1,1,0,2
-0,,2,recipe-icon-916,916,1,"30,1;31,1;32,1", Công thức Vé nhập cấp độ 6,"659,1,1,8787;660,1,1,1111;661,1,1,101",4,0,99916,1,10,-,2,1,1,0,18
-0,,2,recipe-icon-915,915,7,"491,1;492,1;493,1", Công thức Vé nhập cấp độ 5,"468,1,1,101;467,1,1,1111;658,1,1,8787",4,0,93915,1,10,-,2,1,1,0,10
-0,,2,recipe-icon-918,918,4,"365,1;366,1;367,1", Công thức Vé nhập cấp độ 8,"659,1,1,1111;660,1,1,8787;661,1,1,101",4,0,96918,1,10,-,2,1,1,0,56
-0,,2,recipe-icon-919,919,7,"491,1;492,1;493,1", Công thức Vé nhập cấp độ 9,"659,1,1,100;660,1,1,350;661,1,1,9550",4,0,93919,1,10,-,2,1,1,0,139
+0,Ngẫu nhiên tạo ra một vé vào Hang PvE:Vé vào Đỉnh Hoa - 11%Vé vào Vùng Trôi Nổi - 88%Vé vào Vùng Cổ Đại - 1%,2,recipe-icon-913,913,4,"365,1;366,1;367,1",,"468,1,1,1100;467,1,1,8800;658,1,1,100",4,0,96913,1,10,-,2,1,1,0,5
+0,Ngẫu nhiên tạo ra một vé vào Hang PvE:Vé vào Đỉnh Hoa - 95.5%Vé vào Vùng Trôi Nổi - 3.5%Vé vào Vùng Cổ Đại - 1%,2,recipe-icon-912,912,1,"30,1;31,1;32,1",Công thức Vé vào cấp độ 2,"468,1,1,9550;467,1,1,350;658,1,1,100",4,0,99912,1,10,-,2,1,1,0,2
+0,Ngẫu nhiên tạo ra một vé vào Hang PvEP:Vé vào Đấu Trường Trẻ - 95.5%Vé vào Đấu Trường Trung Cấp - 3.5%Vé vào Đấu Trường Nâng Cao - 1%,2,recipe-icon-916,916,1,"30,1;31,1;32,1", Công thức Vé nhập cấp độ 6,"659,1,1,9550;660,1,1,350;661,1,1,100",4,0,99916,1,10,-,2,1,1,0,18
+0,Ngẫu nhiên tạo ra một vé vào Hang PvEP:Vé vào Đấu Trường Trẻ - 1%Vé vào Đấu Trường Trung Cấp - 11%Vé vào Đấu Trường Nâng Cao - 88%,2,recipe-icon-915,915,7,"491,1;492,1;493,1", Công thức Vé nhập cấp độ 5,"468,1,1,100;467,1,1,1100;658,1,1,8800",4,0,93915,1,10,-,2,1,1,0,10
+0,Ngẫu nhiên tạo ra một vé vào Hang PvEP:Vé vào Đấu Trường Trẻ - 11%Vé vào Đấu Trường Trung Cấp - 88%Vé vào Đấu Trường Nâng Cao - 1%,2,recipe-icon-918,918,4,"365,1;366,1;367,1", Công thức Vé nhập cấp độ 8,"659,1,1,1100;660,1,1,8800;661,1,1,100",4,0,96918,1,10,-,2,1,1,0,56
+0,Ngẫu nhiên tạo ra một vé vào Hang PvE:Vé vào Đỉnh Hoa - 1%Vé vào Vùng Trôi Nổi - 11%Vé vào Vùng Cổ Đại - 88%,2,recipe-icon-919,919,7,"491,1;492,1;493,1", Công thức Vé nhập cấp độ 9,"659,1,1,100;660,1,1,1100;661,1,1,8800",4,0,93919,1,10,-,2,1,1,0,139
 0,,2,recipe-icon-920,920,3,"484,1", Công thức Thức ăn cấp độ 3,"702,1,1,10000",3,0,97920,1,10,-,1,0,4,0,0
 0,,2,recipe-icon-921,921,4,"485,1", Công thức Thức ăn cấp độ 4,"703,1,1,10000",3,0,96921,1,10,-,1,0,4,0,0
 0,,2,recipe-icon-922,922,5,"486,1", Công thức Thức ăn cấp độ 5,"704,1,1,10000",3,0,95922,1,10,-,1,0,4,0,0
