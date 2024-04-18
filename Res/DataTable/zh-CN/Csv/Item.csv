@@ -2392,7 +2392,7 @@ canDrop-bool,canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-st
 使用它可以触发特殊效果
 -------
 恢复你的当前精力值 80",0,item-icon-717,717,Lv 9 精力药水2.0,1,0,3,0,1
-0,1,"产自花岚峰, 产自浮空之地, 产自远古灵域.
+1,1,"产自花岚峰, 产自浮空之地, 产自远古灵域.
 可以用于合成装备或道具
 -------
 [629]出现在花峰，出现在浮游境，出现在古老领域。
@@ -2405,3 +2405,7 @@ canDrop-bool,canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-st
 0,0,,97,item-icon-723,723,图腾E种子,1,1,3,0,1
 1,1,击败浪刃武士获得的纪念品,0,item-icon-725,725,浪刃武士的勋章,1,0,4,0,1
 1,1,击败幽魂主教获得的纪念品,0,item-icon-726,726,幽魂主教的勋章,1,0,4,0,1
+1,1,"产自竞技场副本.
+可以用于合成装备或道具
+-------
+击杀副本Boss获得的掉落奖励",0,item-icon-727,727,杀戮者的勋章,1,0,4,0,1
