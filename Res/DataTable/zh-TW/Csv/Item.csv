@@ -2757,7 +2757,7 @@ canDrop-bool,canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-st
 恢复能量 - 80.
 ",0,item-icon-717,717,"等級 9 能量恢復藥水 2.0
 ",1,0,3,0,1
-0,1,"出现在花峰，出现在浮游境，出现在古老领域。
+1,1,"出现在花峰，出现在浮游境，出现在古老领域。
 它可以用来制作装备或物品。
 -------
  
@@ -2782,3 +2782,4 @@ canDrop-bool,canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-st
 ",0,item-icon-725,725,"流浪刀劍武士勳章
 ",1,0,4,0,1
 1,1,击败幽灵主教获得的纪念品。,0,item-icon-726,726,幽靈主教勳章,1,0,4,0,1
+1,1,,0,item-icon-727,727,,1,0,4,0,1
