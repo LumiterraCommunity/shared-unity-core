@@ -22,7 +22,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Junior,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-","659,1","8,24",134,"120,180;360,420"
+","659,1","8,24",172,"120,180;360,420"
 21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -35,7 +35,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Intermédiaire,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-","660,1","8,24",134,"120,180;360,420"
+","660,1","8,24",172,"120,180;360,420"
 21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -48,7 +48,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-","661,1","8,24",134,"120,180;360,420"
+","661,1","8,24",172,"120,180;360,420"
 22001,"2,4",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -61,7 +61,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Solo Junior,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-","659,1","3,24",134,"120,180;360,420"
+","659,1","3,24",172,"120,180;360,420"
 22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -74,7 +74,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Solo Intermédiaire,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-","660,1","3,24",134,"120,180;360,420"
+","660,1","3,24",172,"120,180;360,420"
 22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -85,4 +85,4 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
 - **Trois types de portes**:
   - **Porte de défi**: Pour les courageux, cette porte mène au niveau suivant de l'aventure.
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
-  - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.",Arène Solo Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.","661,1","3,24",134,"120,180;360,420"
+  - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.",Arène Solo Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.","661,1","3,24",172,"120,180;360,420"
