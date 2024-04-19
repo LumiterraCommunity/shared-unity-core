@@ -1,22 +1,22 @@
-id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterLuckyReward-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,tickets-int[][],campLimit-int[],releaseTime-int[][]
+id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterLuckyReward-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,tickets-int[][],campLimit-int[],dropRewardShow-int[],releaseTime-int[][]
 10001,"0,999",HomeSceneLoading.jpg,0,WorldScene,1,1,,,,,,,,,"Vacío
 ",Vacío,"Vacío
-",,,
+",,,,
 10002,"0,999",HomeSceneLoading.jpg,0,HomeScene,1,2,,,,,,,,,"Vacío
 ",Vacío,"Vacío
-",,,
+",,,,
 10003,"0,999",HomeSceneLoading.jpg,0,WorldScene02,1,1,,,,,,,,,Vacío,Vacío,"Vacío
-",,,
-20000,"0,6",DungeonSceneLoading_1_3.jpg,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","61,62,63","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","Anidado dentro de la exuberante vegetación de la selva, es como un milagro en la tierra. Sus picos rocosos se asemejan a una fila de afiladas hojas de espada, pero también se asemejan a pétalos.
+",,,,
+20000,"1,6",DungeonSceneLoading_1_3.jpg,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","61,62,63","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","Anidado dentro de la exuberante vegetación de la selva, es como un milagro en la tierra. Sus picos rocosos se asemejan a una fila de afiladas hojas de espada, pero también se asemejan a pétalos.
 ",Pico de Flores,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","468,1",,
-20001,"4,9",DungeonSceneLoading_4_6.jpg,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","4752,48,49,50,51","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","600,600,600,600,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","En ese dominio destrozado, una oscura fortaleza se alza con orgullo, sus bordes suspendidos en el vacío, sin ningún soporte físico. Está lleno de una gran cantidad de peligrosos monstruos, cultivando muchos coleccionables raros que nunca antes se han visto.
+","468,1",,,
+20001,"4,9",DungeonSceneLoading_4_6.jpg,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","47,48,49,50,51","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","600,600,600,600,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","En ese dominio destrozado, una oscura fortaleza se alza con orgullo, sus bordes suspendidos en el vacío, sin ningún soporte físico. Está lleno de una gran cantidad de peligrosos monstruos, cultivando muchos coleccionables raros que nunca antes se han visto.
 Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","467,1",,
+","467,1",,,
 20002,"7,9",DungeonSceneLoading_7_9.jpg,5,DungeonSCeneLv7-9,1,3,"10000,20000,30000","61,71,66",2,"82,83,84","85,86,87","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3","Lucha contra criaturas ardientes; pelea en un entorno oscuro y espeluznante, protegiéndote de los ataques de seres del vacío; adéntrate en ruinas antiguas para desenterrar secretos y tesoros ocultos en lo más profundo. Valientes aventureros, ¿están listos para enfrentar este desafío?
 ",Dominio Antiguo,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","658,1",,
-21001,"1,3",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
+","658,1",,,
+21001,"2,4",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
 - **Derrotar monstruos o recolectar**: Los jugadores recibirán recompensas **LUAUSD** invertidas por los tótems.
 - **Eliminar a otros jugadores**: Los jugadores pueden reclamar las recompensas **LUASUD** no resueltas de sus oponentes derrotados.
 - **Derrotar jefes**: Los jugadores pueden obtener **materiales especiales misteriosos** esenciales para la progresión del juego.
@@ -28,8 +28,8 @@ Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres,
   - **Puerta de escape**: Salir de la mazmorra y renunciar a cualquier recompensa **LUAUSD** no resuelta.
   - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.
 ",Arena Junior,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","659,1","8,24","540,1440"
-21002,"4,6",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
+","659,1","8,24",134,"120,180;360,420"
+21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
 - **Derrotar monstruos o recolectar**: Los jugadores recibirán recompensas **LUAUSD** invertidas por los tótems.
 - **Eliminar a otros jugadores**: Los jugadores pueden reclamar las recompensas **LUASUD** no resueltas de sus oponentes derrotados.
 - **Derrotar jefes**: Los jugadores pueden obtener **materiales especiales misteriosos** esenciales para la progresión del juego.
@@ -41,8 +41,8 @@ Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres,
   - **Puerta de escape**: Salir de la mazmorra y renunciar a cualquier recompensa **LUAUSD** no resuelta.
   - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.
 ",Arena Intermedia,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","660,1","8,24","540,1440"
-21003,"7,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
+","660,1","8,24",134,"120,180;360,420"
+21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
 - **Derrotar monstruos o recolectar**: Los jugadores recibirán recompensas **LUAUSD** invertidas por los tótems.
 - **Eliminar a otros jugadores**: Los jugadores pueden reclamar las recompensas **LUASUD** no resueltas de sus oponentes derrotados.
 - **Derrotar jefes**: Los jugadores pueden obtener **materiales especiales misteriosos** esenciales para la progresión del juego.
@@ -54,8 +54,8 @@ Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres,
   - **Puerta de escape**: Salir de la mazmorra y renunciar a cualquier recompensa **LUAUSD** no resuelta.
   - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.
 ",Arena Avanzada,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","661,1","8,24","540,1440"
-22001,"1,3",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
+","661,1","8,24",134,"120,180;360,420"
+22001,"2,4",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
 - **Derrotar monstruos o recolectar**: Los jugadores recibirán recompensas **LUAUSD** invertidas por los tótems.
 - **Eliminar a otros jugadores**: Los jugadores pueden reclamar las recompensas **LUASUD** no resueltas de sus oponentes derrotados.
 - **Derrotar jefes**: Los jugadores pueden obtener **materiales especiales misteriosos** esenciales para la progresión del juego.
@@ -67,8 +67,8 @@ Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres,
   - **Puerta de escape**: Salir de la mazmorra y renunciar a cualquier recompensa **LUAUSD** no resuelta.
   - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.
 ",Arena Individual Junior,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","659,1","3,24","540,1440"
-22002,"4,6",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
+","659,1","3,24",134,"120,180;360,420"
+22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
 - **Derrotar monstruos o recolectar**: Los jugadores recibirán recompensas **LUAUSD** invertidas por los tótems.
 - **Eliminar a otros jugadores**: Los jugadores pueden reclamar las recompensas **LUASUD** no resueltas de sus oponentes derrotados.
 - **Derrotar jefes**: Los jugadores pueden obtener **materiales especiales misteriosos** esenciales para la progresión del juego.
@@ -80,8 +80,8 @@ Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres,
   - **Puerta de escape**: Salir de la mazmorra y renunciar a cualquier recompensa **LUAUSD** no resuelta.
   - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.
 ",Arena Individual Intermedia,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.
-","660,1","3,24","540,1440"
-22003,"7,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
+","660,1","3,24",134,"120,180;360,420"
+22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Recompensas
 - **Derrotar monstruos o recolectar**: Los jugadores recibirán recompensas **LUAUSD** invertidas por los tótems.
 - **Eliminar a otros jugadores**: Los jugadores pueden reclamar las recompensas **LUASUD** no resueltas de sus oponentes derrotados.
 - **Derrotar jefes**: Los jugadores pueden obtener **materiales especiales misteriosos** esenciales para la progresión del juego.
@@ -91,4 +91,4 @@ Equipo recomendado: 3 guerreros, 1 coleccionista",Reino Flotante,"Cuando mueres,
 - **Tres tipos de puertas**:
   - **Puerta de desafío**: Para los valientes, esta puerta conduce al siguiente nivel de aventura.
   - **Puerta de escape**: Salir de la mazmorra y renunciar a cualquier recompensa **LUAUSD** no resuelta.
-  - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.",Arena Individual Avanzada,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.","661,1","3,24","540,1440"
+  - **Puerta de asentamiento**: Establecerse y recolectar recompensas **LUAUSD** en una cierta proporción.",Arena Individual Avanzada,"Cuando mueres, hay una posibilidad de que se caigan los objetos de tu mochila.","661,1","3,24",134,"120,180;360,420"
