@@ -2113,12 +2113,12 @@ Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Ia boleh digunakan untuk membuat Ramuan Tenaga.
 ",0,item-icon-479,479,Botol Kosong,1,0,4,0,1
-0,1,"Muncul di Floating Realm.
+1,1,"Muncul di Floating Realm.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Ia boleh digunakan untuk menukar LUAG Future(100).
 ",0,item-icon-480,480,LUAG Masa Depan (N),1,0,4,0,1
-0,1,Ia boleh digunakan untuk menukar LUAG Future(100).,0,item-icon-481,481,LUAG Bintang,1,0,4,0,1
+1,1,Ia boleh digunakan untuk menukar LUAG Future(100).,0,item-icon-481,481,LUAG Bintang,1,0,4,0,1
 1,1,"Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -3273,18 +3273,46 @@ Ia boleh digunakan untuk membuat peralatan atau item.
 -------
 ",0,item-icon-718,718,"Pingat Pahlawan
 ",1,0,4,0,1
-0,0,,97,item-icon-719,719,"Biji Totem A
+1,0,"Kosong
+",97,item-icon-719,719,"Biji Totem A
 ",1,1,3,0,1
-0,0,,97,item-icon-720,720,"Biji Totem B
+1,0,"Kosong
+",97,item-icon-720,720,"Biji Totem B
 ",1,1,3,0,1
-0,0,,97,item-icon-721,721,"Biji Totem C
+1,0,"Kosong
+",97,item-icon-721,721,"Biji Totem C
 ",1,1,3,0,1
-0,0,,97,item-icon-722,722,"Biji Totem D
+1,0,"Kosong
+",97,item-icon-722,722,"Biji Totem D
 ",1,1,3,0,1
-0,0,,97,item-icon-723,723,"Biji Totem E
+1,0,"Kosong
+",97,item-icon-723,723,"Biji Totem E
 ",1,1,3,0,1
 1,1," Suvenir yang diperoleh dengan mengalahkan Samurai Pedang Mengembara.
 ",0,item-icon-725,725,"Pingat Samurai Pedang Mengembara
 ",1,0,4,0,1
 1,1, Suvenir yang diperoleh dengan mengalahkan Uskup Hantu.,0,item-icon-726,726,Pingat Uskup Hantu,1,0,4,0,1
-1,1,,0,item-icon-727,727,,1,0,4,0,1
+1,1,"Muncul dalam Arena Dungeon.
+Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Ganjaran jatuh yang diperoleh dengan membunuh Bos Arena Dungeon.
+",0,item-icon-727,727,,1,0,4,0,1
+1,1,"Muncul dalam Floating Realm.
+Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Ganjaran jatuh yang diperoleh dengan membunuh Monster Floating Realm.
+",0,item-icon-728,728,,1,0,4,0,1
+1,1,"Muncul dalam Ancient Domain.
+Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Ganjaran jatuh yang diperoleh dengan membunuh Monster Ancient Domain.
+",0,item-icon-729,729,,1,0,4,0,1
+1,1,"Muncul dalam Arena Dungeon.
+Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Ganjaran jatuh yang diperoleh dengan membunuh Bos Arena Dungeon.
+",0,item-icon-730,730,,1,0,4,0,1
+1,1,"Muncul dalam Arena Dungeon.
+Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Ganjaran jatuh yang diperoleh dengan membunuh Bos Arena Dungeon.",0,item-icon-731,731,,1,0,4,0,1

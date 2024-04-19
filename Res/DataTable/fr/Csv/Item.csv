@@ -2045,8 +2045,8 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Il peut être utilisé pour fabriquer une Potion d'Énergie.
 ",0,item-icon-479,479,Bouteille vide,1,0,4,0,1
-0,1,LUAG Futur Brisé,0,item-icon-480,480,LUAG Futur(N),1,0,4,0,1
-0,1,Il peut être utilisé pour échanger LUAG Future(100).,0,item-icon-481,481,LUAG Étoile,1,0,4,0,1
+1,1,LUAG Futur Brisé,0,item-icon-480,480,LUAG Futur(N),1,0,4,0,1
+1,1,Il peut être utilisé pour échanger LUAG Future(100).,0,item-icon-481,481,LUAG Étoile,1,0,4,0,1
 1,1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -3076,18 +3076,37 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 ",0,item-icon-718,718,"Médaille du Brave 
 ",1,0,4,0,1
-0,0,,97,item-icon-719,719,"Graine du Totem A 
+1,0,Vide,97,item-icon-719,719,"Graine du Totem A 
 ",1,1,3,0,1
-0,0,,97,item-icon-720,720,"Graine du Totem B 
+1,0,Vide,97,item-icon-720,720,"Graine du Totem B 
 ",1,1,3,0,1
-0,0,,97,item-icon-721,721,"Graine du Totem C 
+1,0,Vide,97,item-icon-721,721,"Graine du Totem C 
 ",1,1,3,0,1
-0,0,,97,item-icon-722,722,"Graine du Totem D 
+1,0,Vide,97,item-icon-722,722,"Graine du Totem D 
 ",1,1,3,0,1
-0,0,,97,item-icon-723,723,"Graine du Totem E 
+1,0,Vide,97,item-icon-723,723,"Graine du Totem E 
 ",1,1,3,0,1
 1,1,"Un souvenir obtenu en vainquant le Samouraï Errant de la Lame.
 ",0,item-icon-725,725,"Médaille du Samouraï Lame Errante 
 ",1,0,4,0,1
 1,1,Un souvenir obtenu en vainquant l'Évêque Spectre.,0,item-icon-726,726,Médaille de l'Évêque Spectre,1,0,4,0,1
-1,1,,0,item-icon-727,727,,1,0,4,0,1
+1,1,"Apparaissant dans le donjon de l'arène.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+La récompense obtenue en tuant le boss du donjon de l'arène.",0,item-icon-727,727,,1,0,4,0,1
+1,1,"Apparaissant dans le royaume flottant.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+La récompense obtenue en tuant les monstres du royaume flottant.",0,item-icon-728,728,,1,0,4,0,1
+1,1,"Apparaissant dans le domaine ancien.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+La récompense obtenue en tuant les monstres du domaine ancien.",0,item-icon-729,729,,1,0,4,0,1
+1,1,"Apparaissant dans le donjon de l'arène.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+La récompense obtenue en tuant le boss du donjon de l'arène.",0,item-icon-730,730,,1,0,4,0,1
+1,1,"Apparaissant dans le donjon de l'arène.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+La récompense obtenue en tuant le boss du donjon de l'arène.",0,item-icon-731,731,,1,0,4,0,1

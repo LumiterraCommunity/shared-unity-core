@@ -1861,8 +1861,8 @@ Se puede usar para fabricar equipo o objetos.
 -------
 Se puede usar para fabricar Poción de Energía.
 ",0,item-icon-479,479,Botella vacía,1,0,4,0,1
-0,1,LUAG Futuro Roto,0,item-icon-480,480,LUAG Futuro (N),1,0,4,0,1
-0,1,Se puede usar para intercambiar LUAG Futuro(100).,0,item-icon-481,481,LUAG Estrella,1,0,4,0,1
+1,1,LUAG Futuro Roto,0,item-icon-480,480,LUAG Futuro (N),1,0,4,0,1
+1,1,Se puede usar para intercambiar LUAG Futuro(100).,0,item-icon-481,481,LUAG Estrella,1,0,4,0,1
 1,1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -2832,12 +2832,40 @@ Restaurar energía - 80.
 Se puede usar para fabricar equipo o objetos.
 -------
 ",0,item-icon-718,718,Medalla del Valiente,1,0,4,0,1
-0,0,,97,item-icon-719,719,Semilla del Tótem A,1,1,3,0,1
-0,0,,97,item-icon-720,720,Semilla del Tótem B,1,1,3,0,1
-0,0,,97,item-icon-721,721,Semilla del Tótem C,1,1,3,0,1
-0,0,,97,item-icon-722,722,Semilla del Tótem D,1,1,3,0,1
-0,0,,97,item-icon-723,723,Semilla del Tótem E,1,1,3,0,1
+1,0,"Vacío
+",97,item-icon-719,719,Semilla del Tótem A,1,1,3,0,1
+1,0,"Vacío
+",97,item-icon-720,720,Semilla del Tótem B,1,1,3,0,1
+1,0,"Vacío
+",97,item-icon-721,721,Semilla del Tótem C,1,1,3,0,1
+1,0,"Vacío
+",97,item-icon-722,722,Semilla del Tótem D,1,1,3,0,1
+1,0,"Vacío
+",97,item-icon-723,723,Semilla del Tótem E,1,1,3,0,1
 1,1," Un recuerdo obtenido al derrotar al Samurai de la Espada Errante.
 ",0,item-icon-725,725,Medalla del Samurai de la Espada Errante,1,0,4,0,1
 1,1, Un recuerdo obtenido al derrotar al Obispo Espectro.,0,item-icon-726,726,Medalla del Obispo Espectro,1,0,4,0,1
-1,1,,0,item-icon-727,727,,1,0,4,0,1
+1,1,"Aparece en la Mazmorra de la Arena.
+Se puede usar para fabricar equipo o objetos.
+-------
+La recompensa obtenida al matar al jefe de la Mazmorra de la Arena.
+",0,item-icon-727,727,,1,0,4,0,1
+1,1,"Aparece en el Reino Flotante.
+Se puede usar para fabricar equipo o objetos.
+-------
+La recompensa obtenida al matar a los monstruos del Reino Flotante.
+",0,item-icon-728,728,,1,0,4,0,1
+1,1,"Aparece en el Dominio Antiguo.
+Se puede usar para fabricar equipo o objetos.
+-------
+La recompensa obtenida al matar a los monstruos del Dominio Antiguo.
+",0,item-icon-729,729,,1,0,4,0,1
+1,1,"Aparece en la Mazmorra de la Arena.
+Se puede usar para fabricar equipo o objetos.
+-------
+La recompensa obtenida al matar al jefe de la Mazmorra de la Arena.
+",0,item-icon-730,730,,1,0,4,0,1
+1,1,"Aparece en la Mazmorra de la Arena.
+Se puede usar para fabricar equipo o objetos.
+-------
+La recompensa obtenida al matar al jefe de la Mazmorra de la Arena.",0,item-icon-731,731,,1,0,4,0,1
