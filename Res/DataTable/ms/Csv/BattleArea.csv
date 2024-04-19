@@ -1,38 +1,38 @@
-areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,name-string,type-int,lockBackpack-bool
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,1,Bandar,1,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,2,Bandar Sekitar,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,3,Gunung Salji,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,4,Kawasan Pertempuran PvEP,2,
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,5,Rumah,1,
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,6,Pantai,1,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,7,Hutan Merah,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,8,Hutan Hitam,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,9,Padang Pasir Berangin,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,10,Lembah,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,11,Patung Ikan Pahlawan,2,
-0,"100,20,15",5,"100,10,5",Hukuman Mati Sederhana,12,Kubur,3,True
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,13,Rehat Jiwa,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,14,Gunung Tasik Surgawi,2,
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,15,Altar Pusat,1,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,16,Altar Sekitar,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,17,Tanah Lapang Ais,2,
-0,"100,20,15",5,"100,10,5",Hukuman Mati Sederhana,18,Kedalaman Tanah Lapang Ais,3,True
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,19,Kawasan Liar,1,
-1,"100,20,25",7,"100,10,5",Hukuman Mati Berat,20,Arena Pemula 1/3,3,True
-2,"100,20,25",7,"100,10,5",Hukuman Mati Berat,21,Arena Pemula 2/3,3,True
-3,"100,20,25",7,"100,10,5",Hukuman Mati Berat,22,Arena Pemula 3/3,3,True
-1,"100,20,25",7,"100,10,5",Hukuman Mati Berat,23,Arena Pertengahan 1/3,3,True
-2,"100,20,25",7,"100,10,5",Hukuman Mati Berat,24,Arena Pertengahan 2/3,3,True
-3,"100,20,25",7,"100,10,5",Hukuman Mati Berat,25,Arena Pertengahan 3/3,3,True
-1,"100,20,25",7,"100,10,5",Hukuman Mati Berat,26, Arena Lanjutan 1/3,3,True
-2,"100,20,25",7,"100,10,5",Hukuman Mati Berat,27, Arena Lanjutan 2/3,3,True
-3,"100,20,25",7,"100,10,5",Hukuman Mati Berat,28, Arena Lanjutan 3/3,3,True
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,29, Kem Penjodohan,1,
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,30,Altar Pemulihan ,1,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,31,Cabaran ,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,32,Kawasan Purba - Gunung Berapi ,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,33,Kawasan Purba - Lubang ,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,34,Kawasan Purba - Pusaka ,2,
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,35,Liar ,2,
-0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,36,Jambatan ,1,
-0,"100,20,15",5,"100,10,5",Hukuman Mati Sederhana,37,Koloseum,3,True
+areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,1,0,Bandar,1
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,2,0,Bandar Sekitar,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,3,0,Gunung Salji,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,4,0,Kawasan Pertempuran PvEP,2
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,5,0,Rumah,1
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,6,0,Pantai,1
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,7,0,Hutan Merah,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,8,0,Hutan Hitam,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,9,0,Padang Pasir Berangin,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,10,0,Lembah,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,11,0,Patung Ikan Pahlawan,2
+0,"100,20,15",5,"100,10,5",Hukuman Mati Sederhana,12,1,Kubur,3
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,13,0,Rehat Jiwa,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,14,0,Gunung Tasik Surgawi,2
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,15,0,Altar Pusat,1
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,16,0,Altar Sekitar,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,17,0,Tanah Lapang Ais,2
+0,"100,20,15",5,"100,10,5",Hukuman Mati Sederhana,18,1,Kedalaman Tanah Lapang Ais,3
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,19,0,Kawasan Liar,1
+1,"100,20,25",7,"100,10,5",Hukuman Mati Berat,20,1,Arena Pemula 1/3,3
+2,"100,20,25",7,"100,10,5",Hukuman Mati Berat,21,1,Arena Pemula 2/3,3
+3,"100,20,25",7,"100,10,5",Hukuman Mati Berat,22,1,Arena Pemula 3/3,3
+1,"100,20,25",7,"100,10,5",Hukuman Mati Berat,23,1,Arena Pertengahan 1/3,3
+2,"100,20,25",7,"100,10,5",Hukuman Mati Berat,24,1,Arena Pertengahan 2/3,3
+3,"100,20,25",7,"100,10,5",Hukuman Mati Berat,25,1,Arena Pertengahan 3/3,3
+1,"100,20,25",7,"100,10,5",Hukuman Mati Berat,26,1, Arena Lanjutan 1/3,3
+2,"100,20,25",7,"100,10,5",Hukuman Mati Berat,27,1, Arena Lanjutan 2/3,3
+3,"100,20,25",7,"100,10,5",Hukuman Mati Berat,28,1, Arena Lanjutan 3/3,3
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,29,0, Kem Penjodohan,1
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,30,0,Altar Pemulihan ,1
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,31,0,Cabaran ,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,32,0,Kawasan Purba - Gunung Berapi ,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,33,0,Kawasan Purba - Lubang ,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,34,0,Kawasan Purba - Pusaka ,2
+0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,35,0,Liar ,2
+0,"0,0,0",2,"0,0,0",Tiada Hukuman Mati,36,0,Jambatan ,1
+0,"100,20,15",5,"100,10,5",Hukuman Mati Sederhana,37,1,Koloseum,3

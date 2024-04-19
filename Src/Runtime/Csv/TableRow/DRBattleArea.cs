@@ -69,6 +69,15 @@ public class DRBattleArea : DataRowBase
     }
 
     /// <summary>
+  /**获取lockBackpack-bool。*/
+    /// </summary>
+    public bool LockBackpack
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取name-string。*/
     /// </summary>
     public string Name
@@ -86,15 +95,6 @@ public class DRBattleArea : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取lockBackpack-bool。*/
-    /// </summary>
-    public bool LockBackpack
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -106,9 +106,9 @@ public class DRBattleArea : DataRowBase
         DeathTaxation = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        LockBackpack = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        LockBackpack = DataTableParseUtil.ParseBool(columnStrings[index++]);
 
         return true;
     }
@@ -126,9 +126,9 @@ public class DRBattleArea : DataRowBase
                 DeathTaxation = binaryReader.ReadArray<Int32>();
                 Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
+                LockBackpack = binaryReader.ReadBoolean();
                 Name = binaryReader.ReadString();
                 Type = binaryReader.Read7BitEncodedInt32();
-                LockBackpack = binaryReader.ReadBoolean();
             }
         }
 
