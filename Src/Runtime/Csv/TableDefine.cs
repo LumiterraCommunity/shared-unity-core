@@ -223,3 +223,12 @@ public enum eSkillId : int
     Capture = 166, //捕获
     CaptureShoot = 168, //捕获-> 射怪
 }
+
+/// <summary>
+/// 奖励表中的奖励类型(DrReward.RewardType)
+/// </summary>
+public enum eRewardType
+{
+    Fixed = 1, //固定奖励
+    Random = 2, //随机奖励
+}
