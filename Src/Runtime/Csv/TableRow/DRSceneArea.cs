@@ -195,6 +195,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取dropRewardShow-int[]。*/
+    /// </summary>
+    public int[] DropRewardShow
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取releaseTime-int[][]。*/
     /// </summary>
     public int[][] ReleaseTime
@@ -228,6 +237,7 @@ public class DRSceneArea : DataRowBase
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
@@ -260,6 +270,7 @@ public class DRSceneArea : DataRowBase
                 PunishDesc = binaryReader.ReadString();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
+                DropRewardShow = binaryReader.ReadArray<Int32>();
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
             }
         }
