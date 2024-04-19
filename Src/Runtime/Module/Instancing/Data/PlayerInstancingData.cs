@@ -15,27 +15,36 @@ public class PlayerInstancingData
     public HashSet<int> CompleteLevelList = new(); //已经完成的关卡
     public int Score;                              //副本分数
     public float TotemScore;                       //图腾分数
+    public int LifeCount; //生命数量 
     public bool IsWaitTransfer; //是否等待传送
     public Vector3? TransferPos = null;    //传送位置
     protected GameMessageCore.InstancingPlayerData NetData = new();
-    public void SetData(long playerId, int score = 0, float totemScore = 0)
+    public void SetData(long playerId, int score = 0, float totemScore = 0, int lifeCount = 1)
     {
         PlayerId = playerId;
         Score = score;
         TotemScore = totemScore;
+        LifeCount = lifeCount;
     }
 
+
+    public void SetLifeCount(int lifeCount)
+    {
+        LifeCount = lifeCount;
+    }
     public void SetNetData(GameMessageCore.InstancingPlayerData data)
     {
         PlayerId = data.PlayerId;
         Score = data.Score;
         TotemScore = data.TotemScore;
+        LifeCount = data.LifeCount;
     }
     public GameMessageCore.InstancingPlayerData GetNetData()
     {
         NetData.PlayerId = PlayerId;
         NetData.Score = Score;
         NetData.TotemScore = TotemScore;
+        NetData.LifeCount = LifeCount;
         return NetData;
     }
 }

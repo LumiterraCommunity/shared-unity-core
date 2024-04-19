@@ -11,6 +11,8 @@ public static class InstancingDefine
 
     public const int MAX_AREA_LEVEL = 3; //最大区域等级
 
+    public const int RESOURCES_ADD_LIFE_ID = 103; //增加生命道具ID
+
 }
 
 

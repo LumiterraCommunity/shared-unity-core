@@ -51,6 +51,9 @@ public enum eErrorCode : int
     InstancingNotComplete = 0007004, //副本未完成
     InstancingNotCompleteMatch = 0007005, //副本未完成匹配
     changePlayerCampFailed = 0008001, //切换阵营失败
+    playerReviveNoLifeCount = 0008002, //玩家副本复活次数不足
+
+
 
     #region 家园
     NotInHome = 0009001, //不在家园中
