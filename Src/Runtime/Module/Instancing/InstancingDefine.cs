@@ -13,6 +13,7 @@ public static class InstancingDefine
 
     public const int RESOURCES_ADD_LIFE_ID = 103; //增加生命道具ID
 
+    public const float PLAYER_AUTO_REVIVE_TIME = 30 * 1000; //玩家自动复活时间
 }
 
 
