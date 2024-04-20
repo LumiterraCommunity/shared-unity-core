@@ -145,13 +145,17 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         {
             return playerData;
         }
+        return AddPlayerData(playerId);
+    }
 
-        playerData = new();
+
+    public virtual PlayerInstancingData AddPlayerData(long playerId)
+    {
+        PlayerInstancingData playerData = new();
         playerData.SetData(playerId);
         _ = PlayerInstancingData.Add(playerId, playerData);
         return playerData;
     }
-
 
     public PlayerInstancingData GetPlayerData(long playerId)
     {
