@@ -251,7 +251,7 @@ public class PortalElementCore : SceneElementCore
 
     }
 
-    private ePortalAnimType GetPortalAnimatorType()
+    public ePortalAnimType GetPortalAnimatorType()
     {
         if (ElementType == eSceneElementType.SettlePortal)
         {
