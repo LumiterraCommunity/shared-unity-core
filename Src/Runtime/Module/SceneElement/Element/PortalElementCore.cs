@@ -225,7 +225,7 @@ public class PortalElementCore : SceneElementCore
 
     public virtual string GetPortalTips()
     {
-        return $"{CurUseNum}/{MaxUseNum}";
+        return $"{MaxUseNum - CurUseNum}/{MaxUseNum}";
     }
 
     public void SetRewardRate(float rate)
