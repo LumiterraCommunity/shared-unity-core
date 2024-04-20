@@ -1,39 +1,38 @@
-areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,1,0,Pueblo,1
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,2,0,Pueblo Circundante,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,3,0,Montaña de Nieve,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,4,0,Área de Combate PvE,2
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,5,0,Hogar,1
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,6,0,Playa,1
-0,"0,0,0",2,"0,0,0",Pena de muerte leve,7,0,Bosque Rojo,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,8,0,Bosque Negro,2
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,9,0,Desierto Tormentoso,1
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,10,0,Cañón,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,11,0,Estatua del Pez Héroe,2
-0,"100,20,15",5,"100,10,5",Pena de muerte moderada,12,1,Cementerio,3
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,13,0,Descanso del Alma,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,14,0,Montaña del Lago Celestial,2
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,15,0,Altar Central,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,16,0,Altar Circundante,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,17,0,Llanura de Hielo,2
-0,"100,20,15",5,"100,10,5",Pena de muerte moderada,18,1,Profundidades de la Llanura de Hielo,3
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,19,0,Tierras Salvajes,1
-1,"100,20,25",7,"100,10,5",Pena de muerte severa,20,1,Arena de Novatos 1/3,3
-2,"100,20,25",7,"100,10,5",Pena de muerte severa,21,1,Arena de Novatos 2/3,3
-3,"100,20,25",7,"100,10,5",Pena de muerte severa,22,1,Arena de Novatos 3/3,3
-1,"100,20,25",7,"100,10,5",Pena de muerte severa,23,1,Arena Intermedia 1/3,3
-2,"100,20,25",7,"100,10,5",Pena de muerte severa,24,1,Arena Intermedia 2/3,3
-3,"100,20,25",7,"100,10,5",Pena de muerte severa,25,1,Arena Intermedia 3/3,3
-1,"100,20,25",7,"100,10,5",Pena de muerte severa,26,1, Arena Avanzada 1/3,3
-2,"100,20,25",7,"100,10,5",Pena de muerte severa,27,1, Arena Avanzada 2/3,3
-3,"100,20,25",7,"100,10,5",Pena de muerte severa,28,1, Arena Avanzada 3/3,3
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,29,0, Campamento de Emparejamiento,1
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,30,0,Altar de Respawn,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,31,0,Desafío,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,32,0,Dominio Antiguo - Volcán,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,33,0,Dominio Antiguo - Hueco,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,34,0,Dominio Antiguo - Reliquia,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,35,0,Salvaje,2
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,36,0,El Puente,1
-0,"100,20,15",5,"100,10,5",Pena de muerte moderada,37,1,Coliseo,3
-0,"0,0,0",2,"0,0,0",Sin pena de muerte,38,0, Desafío diario,1
+areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,name-string,type-int,lockBackpack-bool
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,1,Pueblo,1,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,2,Pueblo Circundante,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,3,Montaña de Nieve,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,4,Área de Combate PvE,2,
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,5,Hogar,1,
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,6,Playa,1,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,7,Bosque Rojo,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,8,Bosque Negro,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,9,Desierto Tormentoso,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,10,Cañón,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,11,Estatua del Pez Héroe,2,
+0,"100,20,15",5,"100,10,5",Pena de muerte moderada,12,Cementerio,3,True
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,13,Descanso del Alma,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,14,Montaña del Lago Celestial,2,
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,15,Altar Central,1,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,16,Altar Circundante,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,17,Llanura de Hielo,2,
+0,"100,20,15",5,"100,10,5",Pena de muerte moderada,18,Profundidades de la Llanura de Hielo,3,True
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,19,Tierras Salvajes,1,
+1,"100,20,25",7,"100,10,5",Pena de muerte severa,20,Arena de Novatos 1/3,3,True
+2,"100,20,25",7,"100,10,5",Pena de muerte severa,21,Arena de Novatos 2/3,3,True
+3,"100,20,25",7,"100,10,5",Pena de muerte severa,22,Arena de Novatos 3/3,3,True
+1,"100,20,25",7,"100,10,5",Pena de muerte severa,23,Arena Intermedia 1/3,3,True
+2,"100,20,25",7,"100,10,5",Pena de muerte severa,24,Arena Intermedia 2/3,3,True
+3,"100,20,25",7,"100,10,5",Pena de muerte severa,25,Arena Intermedia 3/3,3,True
+1,"100,20,25",7,"100,10,5",Pena de muerte severa,26, Arena Avanzada 1/3,3,True
+2,"100,20,25",7,"100,10,5",Pena de muerte severa,27, Arena Avanzada 2/3,3,True
+3,"100,20,25",7,"100,10,5",Pena de muerte severa,28, Arena Avanzada 3/3,3,True
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,29, Campamento de Emparejamiento,1,
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,30,Altar de Respawn,1,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,31,Desafío,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,32,Dominio Antiguo - Volcán,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,33,Dominio Antiguo - Hueco,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,34,Dominio Antiguo - Reliquia,2,
+0,"100,20,10",3,"100,10,5",Pena de muerte leve,35,Salvaje,2,
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,36,El Puente,1,
+0,"100,20,15",5,"100,10,5",Pena de muerte moderada,37,Coliseo,3,True
