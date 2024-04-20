@@ -192,4 +192,13 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         }
         return curRate;
     }
+
+    public int GetPlayerLifeCount(long playerId)
+    {
+        if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
+        {
+            return playerData.LifeCount;
+        }
+        return 0;
+    }
 }
