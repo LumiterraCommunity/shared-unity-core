@@ -95,15 +95,6 @@ public class DRBattleArea : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取lockBackpack-bool。*/
-    /// </summary>
-    public bool LockBackpack
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -118,7 +109,6 @@ public class DRBattleArea : DataRowBase
         LockBackpack = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        LockBackpack = DataTableParseUtil.ParseBool(columnStrings[index++]);
 
         return true;
     }
@@ -139,7 +129,6 @@ public class DRBattleArea : DataRowBase
                 LockBackpack = binaryReader.ReadBoolean();
                 Name = binaryReader.ReadString();
                 Type = binaryReader.Read7BitEncodedInt32();
-                LockBackpack = binaryReader.ReadBoolean();
             }
         }
 
