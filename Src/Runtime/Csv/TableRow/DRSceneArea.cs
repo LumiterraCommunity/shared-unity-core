@@ -186,6 +186,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取releaseTime-int[][]。*/
+    /// </summary>
+    public int[][] ReleaseTime
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取tickets-int[][]。*/
     /// </summary>
     public int[][] Tickets
@@ -207,15 +216,6 @@ public class DRSceneArea : DataRowBase
   /**获取dropRewardShow-int[]。*/
     /// </summary>
     public int[] DropRewardShow
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取releaseTime-int[][]。*/
-    /// </summary>
-    public int[][] ReleaseTime
     {
         get;
         private set;
@@ -245,10 +245,10 @@ public class DRSceneArea : DataRowBase
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -279,10 +279,10 @@ public class DRSceneArea : DataRowBase
                 Desc = binaryReader.ReadString();
                 Name = binaryReader.ReadString();
                 PunishDesc = binaryReader.ReadString();
+                ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
                 DropRewardShow = binaryReader.ReadArray<Int32>();
-                ReleaseTime = binaryReader.ReadArrayList<Int32>();
             }
         }
 
