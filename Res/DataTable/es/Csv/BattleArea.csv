@@ -1,14 +1,14 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0",Sin pena de muerte,1,0,Pueblo,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,2,0,Pueblo Circundante,2
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,2,0,Pueblo Circundante,1
 0,"100,20,10",3,"100,10,5",Pena de muerte leve,3,0,Montaña de Nieve,2
 0,"100,20,10",3,"100,10,5",Pena de muerte leve,4,0,Área de Combate PvE,2
 0,"0,0,0",2,"0,0,0",Sin pena de muerte,5,0,Hogar,1
 0,"0,0,0",2,"0,0,0",Sin pena de muerte,6,0,Playa,1
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,7,0,Bosque Rojo,2
+0,"0,0,0",2,"0,0,0",Pena de muerte leve,7,0,Bosque Rojo,1
 0,"100,20,10",3,"100,10,5",Pena de muerte leve,8,0,Bosque Negro,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,9,0,Desierto Tormentoso,2
-0,"100,20,10",3,"100,10,5",Pena de muerte leve,10,0,Cañón,2
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,9,0,Desierto Tormentoso,1
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,10,0,Cañón,1
 0,"100,20,10",3,"100,10,5",Pena de muerte leve,11,0,Estatua del Pez Héroe,2
 0,"100,20,15",5,"100,10,5",Pena de muerte moderada,12,1,Cementerio,3
 0,"100,20,10",3,"100,10,5",Pena de muerte leve,13,0,Descanso del Alma,2
@@ -36,3 +36,4 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id
 0,"100,20,10",3,"100,10,5",Pena de muerte leve,35,0,Salvaje,2
 0,"0,0,0",2,"0,0,0",Sin pena de muerte,36,0,El Puente,1
 0,"100,20,15",5,"100,10,5",Pena de muerte moderada,37,1,Coliseo,3
+0,"0,0,0",2,"0,0,0",Sin pena de muerte,38,0, Desafío diario,1

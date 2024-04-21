@@ -42,6 +42,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取respawnTimes-int。*/
+    /// </summary>
+    public int RespawnTimes
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取rewardFrequency-int。*/
     /// </summary>
     public int RewardFrequency
@@ -220,6 +229,7 @@ public class DRSceneArea : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
+        RespawnTimes = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RewardFrequency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneName = DataTableParseUtil.ParseString(columnStrings[index++]);
         SceneSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -253,6 +263,7 @@ public class DRSceneArea : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
+                RespawnTimes = binaryReader.Read7BitEncodedInt32();
                 RewardFrequency = binaryReader.Read7BitEncodedInt32();
                 SceneName = binaryReader.ReadString();
                 SceneSubtype = binaryReader.Read7BitEncodedInt32();

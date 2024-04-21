@@ -1,14 +1,14 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0",Không án tử hình,1,0,Thị trấn,1
-0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,2,0,Thị trấn xung quanh,2
+0,"0,0,0",2,"0,0,0",Không án tử hình,2,0,Thị trấn xung quanh,1
 0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,3,0,Núi tuyết,2
 0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,4,0,Khu vực chiến đấu PvEP,2
 0,"0,0,0",2,"0,0,0",Không án tử hình,5,0,Nhà,1
 0,"0,0,0",2,"0,0,0",Không án tử hình,6,0,Bãi biển,1
-0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,7,0,Rừng đỏ,2
+0,"0,0,0",2,"0,0,0",Án tử hình nhẹ,7,0,Rừng đỏ,1
 0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,8,0,Rừng đen,2
-0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,9,0,Sa mạc bão,2
-0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,10,0,Hẻm núi,2
+0,"0,0,0",2,"0,0,0",Không án tử hình,9,0,Sa mạc bão,1
+0,"0,0,0",2,"0,0,0",Không án tử hình,10,0,Hẻm núi,1
 0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,11,0,Tượng cá anh hùng,2
 0,"100,20,15",5,"100,10,5",Án tử hình vừa,12,1,Nghĩa trang,3
 0,"100,20,10",3,"100,10,5",Án tử hình nhẹ,13,0,Nghỉ ngơi linh hồn,2
@@ -36,3 +36,4 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id
 0,"100,20,10",3,"100,10,5",Hình phạt tử hình nhẹ,35,0,Hoang dã,2
 0,"0,0,0",2,"0,0,0",Không có hình phạt tử hình,36,0,Cây cầu,1
 0,"100,20,15",5,"100,10,5",Hình phạt tử hình vừa phải,37,1,Đấu trường,3
+0,"0,0,0",2,"0,0,0",Không có hình phạt tử hình,38,0, Thử thách hàng ngày,1

@@ -1,18 +1,18 @@
-id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterLuckyReward-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,tickets-int[][],campLimit-int[],dropRewardShow-int[],releaseTime-int[][]
-10001,"0,999",HomeSceneLoading.jpg,0,WorldScene,1,1,,,,,,,,,"空
+id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterLuckyReward-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,tickets-int[][],campLimit-int[],dropRewardShow-int[],releaseTime-int[][]
+10001,"0,999",HomeSceneLoading.jpg,0,0,WorldScene,1,1,,,,,,,,,"空
 ",空白,"空
 ",,,,
-10002,"0,999",HomeSceneLoading.jpg,0,HomeScene,1,2,,,,,,,,,"空
+10002,"0,999",HomeSceneLoading.jpg,0,0,HomeScene,1,2,,,,,,,,,"空
 ",空白,"空
 ",,,,
-10003,"0,999",HomeSceneLoading.jpg,0,WorldScene02,1,1,,,,,,,,,空,空白,"空
+10003,"0,999",HomeSceneLoading.jpg,0,0,WorldScene02,1,1,,,,,,,,,空,空白,"空
 ",,,,
-20000,"1,6",DungeonSceneLoading_1_3.jpg,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","61,62,63","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","隐藏在茂密的丛林中，它就像地球上的奇迹。它的岩峰看起来像一排锋利的剑刃，又像花瓣一样。
+20000,"1,6",DungeonSceneLoading_1_3.jpg,0,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","61,62,63","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","隐藏在茂密的丛林中，它就像地球上的奇迹。它的岩峰看起来像一排锋利的剑刃，又像花瓣一样。
 ",花峰,死亡時有幾率掉落背包中的道具,"468,1",,,
-20001,"4,9",DungeonSceneLoading_4_6.jpg,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","47,48,49,50,51","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","600,600,600,600,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","在那片破碎的領域中，一座暗黑堡壘傲然屹立，其邊際懸浮於虛無之間，沒有一絲實體支撐。其充斥著大量危險怪物，生長著許多從未見過的珍稀採集物。
+20001,"4,9",DungeonSceneLoading_4_6.jpg,0,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","47,48,49,50,51","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","600,600,600,600,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","在那片破碎的領域中，一座暗黑堡壘傲然屹立，其邊際懸浮於虛無之間，沒有一絲實體支撐。其充斥著大量危險怪物，生長著許多從未見過的珍稀採集物。
 推薦隊伍：3戰士,1採集家",浮游境界,死亡時有幾率掉落背包中的道具,"467,1",,,
-20002,"7,9",DungeonSceneLoading_7_9.jpg,5,DungeonSCeneLv7-9,1,3,"10000,20000,30000","61,71,66",2,"82,83,84","85,86,87","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3",與熾熱的火焰生物搏鬥；在黑暗和詭異的環境中戰鬥，防備虛空生物的襲擊；進入遠古遺跡，挖掘隱藏在古老遺跡深處的秘密和寶藏。勇敢的冒險者，你準備好面對這場挑戰了嗎？,遠古靈域,死亡時有幾率掉落背包中的道具,"658,1",,,
-21001,"2,4",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
+20002,"7,9",DungeonSceneLoading_7_9.jpg,0,5,DungeonSCeneLv7-9,1,3,"10000,20000,30000","61,71,66",2,"82,83,84","85,86,87","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3",與熾熱的火焰生物搏鬥；在黑暗和詭異的環境中戰鬥，防備虛空生物的襲擊；進入遠古遺跡，挖掘隱藏在古老遺跡深處的秘密和寶藏。勇敢的冒險者，你準備好面對這場挑戰了嗎？,遠古靈域,死亡時有幾率掉落背包中的道具,"658,1",,,
+21001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
 - 击败怪物或采集: 玩家将获得由图腾投资的LUAUSD奖励。
 - 消灭其他玩家: 玩家可以领取被击败对手的未结算LUASUD奖励。
 - 击败Boss: 玩家可以获得游戏进展所必需的神秘特殊材料。
@@ -23,7 +23,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
  - 挑战之门: 勇敢者可以通过这扇门进入下一个冒险关卡。
  - 逃离之门: 退出地下城并放弃任何未结算的LUAUSD奖励。
  - 定居之门: 在一定比例下定居并收集LUAUSD奖励。",初級競技場,死亡時有幾率掉落背包中的道具,"659,1","8,24",172,"120,180;360,420"
-21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
+21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
 - 击败怪物或采集: 玩家将获得由图腾投资的LUAUSD奖励。
 - 消灭其他玩家: 玩家可以领取被击败对手的未结算LUASUD奖励。
 - 击败Boss: 玩家可以获得游戏进展所必需的神秘特殊材料。
@@ -34,7 +34,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
  - 挑战之门: 勇敢者可以通过这扇门进入下一个冒险关卡。
  - 逃离之门: 退出地下城并放弃任何未结算的LUAUSD奖励。
  - 定居之门: 在一定比例下定居并收集LUAUSD奖励。",中級競技場,死亡時有幾率掉落背包中的道具,"660,1","8,24",173,"120,180;360,420"
-21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
+21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
 - 击败怪物或采集: 玩家将获得由图腾投资的LUAUSD奖励。
 - 消灭其他玩家: 玩家可以领取被击败对手的未结算LUASUD奖励。
 - 击败Boss: 玩家可以获得游戏进展所必需的神秘特殊材料。
@@ -45,7 +45,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
  - 挑战之门: 勇敢者可以通过这扇门进入下一个冒险关卡。
  - 逃离之门: 退出地下城并放弃任何未结算的LUAUSD奖励。
  - 定居之门: 在一定比例下定居并收集LUAUSD奖励。",高級競技場,死亡時有幾率掉落背包中的道具,"661,1","8,24",174,"120,180;360,420"
-22001,"2,4",DungeonSceneLoading_7_9.jpg,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
+22001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
 - 击败怪物或采集: 玩家将获得由图腾投资的LUAUSD奖励。
 - 消灭其他玩家: 玩家可以领取被击败对手的未结算LUASUD奖励。
 - 击败Boss: 玩家可以获得游戏进展所必需的神秘特殊材料。
@@ -56,7 +56,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
  - 挑战之门: 勇敢者可以通过这扇门进入下一个冒险关卡。
  - 逃离之门: 退出地下城并放弃任何未结算的LUAUSD奖励。
  - 定居之门: 在一定比例下定居并收集LUAUSD奖励。",初級角鬥場,死亡時有幾率掉落背包中的道具,"659,1","3,24",172,"120,180;360,420"
-22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
+22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
 - 击败怪物或采集: 玩家将获得由图腾投资的LUAUSD奖励。
 - 消灭其他玩家: 玩家可以领取被击败对手的未结算LUASUD奖励。
 - 击败Boss: 玩家可以获得游戏进展所必需的神秘特殊材料。
@@ -67,7 +67,7 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
  - 挑战之门: 勇敢者可以通过这扇门进入下一个冒险关卡。
  - 逃离之门: 退出地下城并放弃任何未结算的LUAUSD奖励。
  - 定居之门: 在一定比例下定居并收集LUAUSD奖励。",中級角鬥場,死亡時有幾率掉落背包中的道具,"660,1","3,24",173,"120,180;360,420"
-22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
+22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",",",","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励
 - 击败怪物或采集: 玩家将获得由图腾投资的LUAUSD奖励。
 - 消灭其他玩家: 玩家可以领取被击败对手的未结算LUASUD奖励。
 - 击败Boss: 玩家可以获得游戏进展所必需的神秘特殊材料。
@@ -78,3 +78,4 @@ id-int,level-int[],loadingBg-string,rewardFrequency-int,sceneName-string,sceneSu
  - 挑战之门: 勇敢者可以通过这扇门进入下一个冒险关卡。
  - 逃离之门: 退出地下城并放弃任何未结算的LUAUSD奖励。
  - 定居之门: 在一定比例下定居并收集LUAUSD奖励。",高級角鬥場,死亡時有幾率掉落背包中的道具,"661,1","3,24",174,"120,180;360,420"
+30001,"1,9",DungeonSceneLoading_1_3.jpg,0,2,DailyDungeon,1,3,"10000,20000,30000,40000,50000,60000,70000,80000,90000",,1,"102,103,104,105,106,107,108,109,110","120,121,122,123,124,125,126,127,128","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9",,,,"32,1",,,
