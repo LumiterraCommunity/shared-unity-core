@@ -5,6 +5,7 @@
  * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/Data/PlayerInstancingData.cs
  * 
  */
+using System;
 using System.Collections.Generic;
 using System.Numerics;
 public class PlayerInstancingData
@@ -30,7 +31,7 @@ public class PlayerInstancingData
 
     public void SetLifeCount(int lifeCount)
     {
-        LifeCount = lifeCount;
+        LifeCount = Math.Min(lifeCount, InstancingDefine.MAX_ADD_LIFE_COUNT);
     }
     public void SetNetData(GameMessageCore.InstancingPlayerData data)
     {
