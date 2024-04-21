@@ -20,7 +20,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,為了愛與和平，請給我這些。,0,"3,84",19,1,24,收集,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
 ,為了愛與和平，請給我這些。,0,"3,84",20,1,24,收集,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101}]}","當怪物的生命值少於一半時，它會進入被魔法包圍的憤怒狀態。此時，怪物將獲得一些強大的增益效果。但是，如果你能讓它進入被黑煙籠罩的虛弱狀態，你就可以更容易地擊敗它。
-幫助剛納爾擊敗一只金屬狗。",0,"2,160",21,0,12,初來乍到,,,,30001
+幫助剛納爾擊敗一只金屬狗。",0,"2,160",21,0,12,初來乍到,,,,
 "{""options"":[{""optionType"":4,""value"":""6,5"",""guiderPoint"":2101},{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101}]}","打開你的背包，裝備上你的劍，然後殺死5只金屬狗。
 進入城鎮，找到納什。",0,"2,117",22,0,11,情報,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- 按下[Esc]鍵打開天賦樹介面
@@ -300,3 +300,4 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,,0,"3,1176",205,1,0,懸賞-採集-7,,,"{""options"":[{""optionType"":1,""value"":""488,1,200;488,2,200;488,1,200""}]}",
 ,,0,"3,1663",206,1,0,懸賞-採集-8,,,"{""options"":[{""optionType"":1,""value"":""489,1,200;489,2,200;489,1,200""}]}",
 ,,0,"3,2352",207,1,0,懸賞-採集-9,,,"{""options"":[{""optionType"":1,""value"":""490,1,200;490,2,200;490,1,200""}]}",
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",208,0,0,,,21,,30001
