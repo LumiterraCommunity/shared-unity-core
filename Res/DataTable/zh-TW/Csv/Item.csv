@@ -2763,19 +2763,19 @@ canDrop-bool,canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-st
  
 ",0,item-icon-718,718,"勇者勳章
 ",1,0,4,0,1
-1,0,"空
+0,0,"空
 ",97,item-icon-719,719,"圖騰 A 種子
 ",1,1,3,0,1
-1,0,"空
+0,0,"空
 ",97,item-icon-720,720,"圖騰 B 種子
 ",1,1,3,0,1
-1,0,"空
+0,0,"空
 ",97,item-icon-721,721,"圖騰 C 種子
 ",1,1,3,0,1
-1,0,"空
+0,0,"空
 ",97,item-icon-722,722,"圖騰 D 種子
 ",1,1,3,0,1
-1,0,"空
+0,0,"空
 ",97,item-icon-723,723,"圖騰 E 種子
 ",1,1,3,0,1
 1,1,"击败流浪刀侍获得的纪念品。
@@ -2806,3 +2806,5 @@ canDrop-bool,canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-st
 可以用来制作装备或物品。
 -------
 通过击败竞技场地下城的Boss获得的掉落奖励。",0,item-icon-731,731,,1,0,4,0,1
+0,1,,0,item-icon-732,732,,1,0,4,0,1
+0,0,,0,item-icon-733,733,,1,0,4,0,1
