@@ -24,9 +24,9 @@ public class DRItem : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取canDrop-bool。*/
+  /**获取canDropScene-int[]。*/
     /// </summary>
-    public bool CanDrop
+    public int[] CanDropScene
     {
         get;
         private set;
@@ -127,7 +127,7 @@ public class DRItem : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        CanDrop = DataTableParseUtil.ParseBool(columnStrings[index++]);
+        CanDropScene = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         CanMint = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         GivenSkillId = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -150,7 +150,7 @@ public class DRItem : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                CanDrop = binaryReader.ReadBoolean();
+                CanDropScene = binaryReader.ReadArray<Int32>();
                 CanMint = binaryReader.Read7BitEncodedInt32();
                 Desc = binaryReader.ReadString();
                 GivenSkillId = binaryReader.Read7BitEncodedInt32();
