@@ -1,14 +1,14 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0",No Death Penalty,1,0,Town,1
-0,"100,20,10",3,"100,10,5",Slight Death Penalty,2,0,Surrounding Town,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,2,0,Surrounding Town,1
 0,"100,20,10",3,"100,10,5",Slight Death Penalty,3,0,Snow Moutain,2
 0,"100,20,10",3,"100,10,5",Slight Death Penalty,4,0,PvEP Fight Area,2
 0,"0,0,0",2,"0,0,0",No Death Penalty,5,0,Home,1
 0,"0,0,0",2,"0,0,0",No Death Penalty,6,0,Beach,1
-0,"100,20,10",3,"100,10,5",Slight Death Penalty,7,0,Red Forest,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,7,0,Red Forest,1
 0,"100,20,10",3,"100,10,5",Slight Death Penalty,8,0,Black Forest,2
-0,"100,20,10",3,"100,10,5",Slight Death Penalty,9,0,Stormy Desert,2
-0,"100,20,10",3,"100,10,5",Slight Death Penalty,10,0,Canyon,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,9,0,Stormy Desert,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,10,0,Canyon,1
 0,"100,20,10",3,"100,10,5",Slight Death Penalty,11,0,Hero Fish Statue,2
 0,"100,20,15",5,"100,10,5",Moderate Death Penalty,12,1,Cemetery,3
 0,"100,20,10",3,"100,10,5",Slight Death Penalty,13,0,Soul's Rest,2
@@ -36,3 +36,4 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id
 0,"100,20,10",3,"100,10,5",Slight Death Penalty,35,0,Wild,2
 0,"0,0,0",2,"0,0,0",No Death Penalty,36,0,The Bridge,1
 0,"100,20,15",5,"100,10,5",Moderate Death Penalty,37,1,Colosseum,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,38,0,Daily Challenge,1

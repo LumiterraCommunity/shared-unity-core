@@ -1,14 +1,14 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,1,0,Kota,1
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,2,0,Kota Sekitar,2
+0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,2,0,Kota Sekitar,1
 0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,3,0,Gunung Salju,2
 0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,4,0,Area Pertarungan PvEP,2
 0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,5,0,Rumah,1
 0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,6,0,Pantai,1
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,7,0,Hutan Merah,2
+0,"0,0,0",2,"0,0,0",Hukuman Mati Ringan,7,0,Hutan Merah,1
 0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,8,0,Hutan Hitam,2
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,9,0,Padang Pasir Berbadai,2
-0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,10,0,Kanyon,2
+0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,9,0,Padang Pasir Berbadai,1
+0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,10,0,Kanyon,1
 0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,11,0,Patung Ikan Pahlawan,2
 0,"100,20,15",5,"100,10,5",Hukuman Mati Sedang,12,1,Kuburan,3
 0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,13,0,Istirahat Jiwa,2
@@ -36,3 +36,4 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id
 0,"100,20,10",3,"100,10,5",Hukuman Mati Ringan,35,0,Liar,2
 0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,36,0,Jembatan,1
 0,"100,20,15",5,"100,10,5",Hukuman Mati Sedang,37,1,Koloseum,3
+0,"0,0,0",2,"0,0,0",Tidak Ada Hukuman Mati,38,0, Tantangan Harian,1

@@ -1,14 +1,14 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0",Pas de peine de mort,1,0,Ville,1
-0,"100,20,10",3,"100,10,5",Légère peine de mort,2,0,Ville environnante,2
+0,"0,0,0",2,"0,0,0",Pas de peine de mort,2,0,Ville environnante,1
 0,"100,20,10",3,"100,10,5",Légère peine de mort,3,0,Montagne enneigée,2
 0,"100,20,10",3,"100,10,5",Légère peine de mort,4,0,Zone de combat PvE,2
 0,"0,0,0",2,"0,0,0",Pas de peine de mort,5,0,Maison,1
 0,"0,0,0",2,"0,0,0",Pas de peine de mort,6,0,Plage,1
-0,"100,20,10",3,"100,10,5",Légère peine de mort,7,0,Forêt rouge,2
+0,"0,0,0",2,"0,0,0",Légère peine de mort,7,0,Forêt rouge,1
 0,"100,20,10",3,"100,10,5",Légère peine de mort,8,0,Forêt noire,2
-0,"100,20,10",3,"100,10,5",Légère peine de mort,9,0,Désert tempétueux,2
-0,"100,20,10",3,"100,10,5",Légère peine de mort,10,0,Canyon,2
+0,"0,0,0",2,"0,0,0",Pas de peine de mort,9,0,Désert tempétueux,1
+0,"0,0,0",2,"0,0,0",Pas de peine de mort,10,0,Canyon,1
 0,"100,20,10",3,"100,10,5",Légère peine de mort,11,0,Statue du poisson héroïque,2
 0,"100,20,15",5,"100,10,5",Peine de mort modérée,12,1,Cimetière,3
 0,"100,20,10",3,"100,10,5",Légère peine de mort,13,0,Repos de l'âme,2
@@ -36,3 +36,4 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id
 0,"100,20,10",3,"100,10,5",Peine de mort légère,35,0,Sauvage,2
 0,"0,0,0",2,"0,0,0",Pas de peine de mort,36,0,Le Pont,1
 0,"100,20,15",5,"100,10,5",Peine de mort modérée,37,1,Colisée,3
+0,"0,0,0",2,"0,0,0",Pas de peine de mort,38,0, Défi quotidien,1
