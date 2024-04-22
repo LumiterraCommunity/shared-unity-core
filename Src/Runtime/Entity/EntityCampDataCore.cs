@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体阵营数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCampDataCore.cs
  * 
  */
 
@@ -36,22 +36,38 @@ public class EntityCampDataCore : EntityBaseComponent
     }
     public virtual bool CheckIsEnemy(EntityBase other)
     {
-        //归属相同
-        if (RefOwner.BaseData.Id == other.EntityCampDataCore.RefOwner.BaseData.Id)
+        try
         {
+            //归属相同
+            if (RefOwner.BaseData.Id == other.EntityCampDataCore.RefOwner.BaseData.Id)
+            {
+                return false;
+            }
+            return IsEnemy(other.EntityCampDataCore.RefOwner);
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"CheckIsEnemy Error:{e}");
             return false;
         }
-        return IsEnemy(other.EntityCampDataCore.RefOwner);
     }
 
     public virtual bool CheckIsFriend(EntityBase other)
     {
         //归属相同
-        if (RefOwner.BaseData.Id == other.EntityCampDataCore.RefOwner.BaseData.Id)
+        try
         {
-            return true;
+            if (RefOwner.BaseData.Id == other.EntityCampDataCore.RefOwner.BaseData.Id)
+            {
+                return true;
+            }
+            return IsFriend(other.EntityCampDataCore.RefOwner);
         }
-        return IsFriend(other.EntityCampDataCore.RefOwner);
+        catch (System.Exception e)
+        {
+            Log.Error($"CheckIsFriend Error:{e}");
+            return false;
+        }
     }
     /// <summary>
     /// 是否是敌人
