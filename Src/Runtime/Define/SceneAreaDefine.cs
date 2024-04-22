@@ -26,6 +26,7 @@ public enum eSceneArea : int
     PVPDungeonSceneSoloLv4_6 = 22002,  //4-6级副本
     PVPDungeonSceneSoloLv7_9 = 22003,  //4-6级副本
     DailyDungeon = 30001,  //每日副本
+    PVPTrainingDungeon = 30002,  //每日PVP副本
 }
 
 /// <summary>
