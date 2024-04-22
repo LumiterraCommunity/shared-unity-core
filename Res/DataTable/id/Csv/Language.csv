@@ -16,6 +16,7 @@ describe-string,id-int,module-string,value-string
 ,10001010,通用,Permainan dimulai
 ,10001011,通用,Diperoleh{0}
 ,10001012,通用,Kekurangan Barang.
+,10001013,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -139,6 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Harap pilih server terlebih dahulu
 ,20070021,登录,Nama tidak valid.
+,20070022,,
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -282,7 +284,7 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
 xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
 家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Kelaparan[/color]
-,20220005,战报名称,Dipesan
+离开副本,20220005,战报名称,Dipesan
 ,20220006,战报概要,Anda dibunuh oleh {att=unknown}
 ,20220007,战报概要,{def=unknown} Anda dibunuh oleh {att=unknown}
 ,20220008,战报概要,Unit Anda berpartisipasi dalam pembunuhan {def=unknown}
