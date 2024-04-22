@@ -225,7 +225,7 @@ public class PortalElementCore : SceneElementCore
 
     public virtual string GetPortalTips()
     {
-        return $"{CurUseNum}/{MaxUseNum}";
+        return $"{MaxUseNum - CurUseNum}/{MaxUseNum}";
     }
 
     public void SetRewardRate(float rate)
@@ -251,7 +251,7 @@ public class PortalElementCore : SceneElementCore
 
     }
 
-    private ePortalAnimType GetPortalAnimatorType()
+    public ePortalAnimType GetPortalAnimatorType()
     {
         if (ElementType == eSceneElementType.SettlePortal)
         {

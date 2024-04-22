@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-10-09 10:43:29
  * @Description: 实体传送组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/EntityPortalCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/EntityPortalCore.cs
  * 
  */
 using UnityEngine;
@@ -104,6 +104,11 @@ public class EntityPortalCore : EntityBaseComponent
             return false;
         }
         if (PortalElement.CurUseNum >= PortalElement.MaxUseNum)
+        {
+            return false;
+        }
+        //非活着的实体不触发  
+        if (!RefEntity.BattleDataCore.IsLive())
         {
             return false;
         }

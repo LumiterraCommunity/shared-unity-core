@@ -11,6 +11,9 @@ public static class InstancingDefine
 
     public const int MAX_AREA_LEVEL = 3; //最大区域等级
 
+    public const int RESOURCES_ADD_LIFE_ID = 103; //增加生命道具ID
+    public const int MAX_ADD_LIFE_COUNT = 2;   //最大增加生命数量
+    public const float PLAYER_AUTO_REVIVE_TIME = 30 * 1000; //玩家自动复活时间
 }
 
 
