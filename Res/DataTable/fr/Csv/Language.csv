@@ -16,6 +16,7 @@ describe-string,id-int,module-string,value-string
 ,10001010,通用,Début du jeu
 ,10001011,通用,Obtenu{0}
 ,10001012,通用,Manque d'objets.
+,10001013,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -139,6 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LIGNE #{0} 
 ,20070020,登录,Veuillez d'abord sélectionner le serveur 
 ,20070021,登录,Nom invalide.
+,20070022,,
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -282,7 +284,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
 xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color]
 家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Faim[/color]
-,20220005,战报名称,Réservé
+离开副本,20220005,战报名称,Réservé
 ,20220006,战报概要,Vous avez été tué par {att=unknown}
 ,20220007,战报概要,Vos {def=unknown} ont été tués par {att=unknown}
 ,20220008,战报概要,Votre unité a participé à la mort de {def=unknown}
