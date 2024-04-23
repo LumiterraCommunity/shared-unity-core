@@ -24,6 +24,15 @@ public class DRSceneArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取isHideInvest-bool。*/
+    /// </summary>
+    public bool IsHideInvest
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取level-int[]。*/
     /// </summary>
     public int[] Level
@@ -227,6 +236,7 @@ public class DRSceneArea : DataRowBase
 
         int index = 0;
         _id = int.Parse(columnStrings[index++]);
+        IsHideInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
         RespawnTimes = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -261,6 +271,7 @@ public class DRSceneArea : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 _id = binaryReader.Read7BitEncodedInt32();
+                IsHideInvest = binaryReader.ReadBoolean();
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
                 RespawnTimes = binaryReader.Read7BitEncodedInt32();
