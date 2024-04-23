@@ -221,6 +221,15 @@ public class DRSceneArea : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取dropRewardShow-int[]。*/
+    /// </summary>
+    public int[] DropRewardShow
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -249,6 +258,7 @@ public class DRSceneArea : DataRowBase
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -283,6 +293,7 @@ public class DRSceneArea : DataRowBase
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
+                DropRewardShow = binaryReader.ReadArray<Int32>();
             }
         }
 
