@@ -16,7 +16,7 @@ describe-string,id-int,module-string,value-string
 ,10001010,通用,Permainan dimulai
 ,10001011,通用,Diperoleh{0}
 ,10001012,通用,Kekurangan Barang.
-,10001013,通用,
+,10001013,通用,Aset Anda tidak dapat dijual di area pvp.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Harap pilih server terlebih dahulu
 ,20070021,登录,Nama tidak valid.
-,20070022,,
+,20070022,,Kosong
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti

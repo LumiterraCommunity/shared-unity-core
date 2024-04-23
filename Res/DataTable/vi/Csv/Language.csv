@@ -16,7 +16,7 @@ describe-string,id-int,module-string,value-string
 ,10001010,通用,Trò chơi bắt đầu
 ,10001011,通用,Đã nhận được{0}
 ,10001012,通用,Thiếu vật phẩm.
-,10001013,通用,
+,10001013,通用,Tài sản của bạn sẽ không thể được bán trong khu vực pvp.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Vui lòng chọn máy chủ trước
 ,20070021,登录,Tên không hợp lệ.
-,20070022,,
+,20070022,,Trống
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó

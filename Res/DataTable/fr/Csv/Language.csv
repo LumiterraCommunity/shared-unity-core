@@ -16,7 +16,7 @@ describe-string,id-int,module-string,value-string
 ,10001010,通用,Début du jeu
 ,10001011,通用,Obtenu{0}
 ,10001012,通用,Manque d'objets.
-,10001013,通用,
+,10001013,通用, Vos actifs ne pourront pas être vendus dans la zone PvP.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LIGNE #{0} 
 ,20070020,登录,Veuillez d'abord sélectionner le serveur 
 ,20070021,登录,Nom invalide.
-,20070022,,
+,20070022,,Vide
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard

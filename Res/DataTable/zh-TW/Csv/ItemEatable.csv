@@ -115,15 +115,15 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 -,Feed,0,0,706,equipItem
 -,Feed,0,0,707,equipItem
 -,Feed,0,0,708,equipItem
-4,Restore Energy,0,0,709,usePotion
-10,Restore Energy,0,0,710,usePotion
-17,Restore Energy,0,0,711,usePotion
-25,Restore Energy,0,0,712,usePotion
-34,Restore Energy,0,0,713,usePotion
-44,Restore Energy,0,0,714,usePotion
-55,Restore Energy,0,0,715,usePotion
-67,Restore Energy,0,0,716,usePotion
-80,Restore Energy,0,0,717,usePotion
+4,Restore Energy,1000,0,709,usePotion
+10,Restore Energy,1000,0,710,usePotion
+17,Restore Energy,1000,0,711,usePotion
+25,Restore Energy,1000,0,712,usePotion
+34,Restore Energy,1000,0,713,usePotion
+44,Restore Energy,1000,0,714,usePotion
+55,Restore Energy,1000,0,715,usePotion
+67,Restore Energy,1000,0,716,usePotion
+80,Restore Energy,1000,0,717,usePotion
 -,Sow Seeds,0,0,719,equipItem
 -,Sow Seeds,0,0,720,equipItem
 -,Sow Seeds,0,0,721,equipItem
