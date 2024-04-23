@@ -24,9 +24,9 @@ public class DRSceneArea : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取isHideInvest-bool。*/
+  /**获取canInvest-bool。*/
     /// </summary>
-    public bool IsHideInvest
+    public bool CanInvest
     {
         get;
         private set;
@@ -221,22 +221,13 @@ public class DRSceneArea : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取dropRewardShow-int[]。*/
-    /// </summary>
-    public int[] DropRewardShow
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        CanInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
-        IsHideInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
         RespawnTimes = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -258,7 +249,6 @@ public class DRSceneArea : DataRowBase
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -270,8 +260,8 @@ public class DRSceneArea : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                CanInvest = binaryReader.ReadBoolean();
                 _id = binaryReader.Read7BitEncodedInt32();
-                IsHideInvest = binaryReader.ReadBoolean();
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
                 RespawnTimes = binaryReader.Read7BitEncodedInt32();
@@ -293,7 +283,6 @@ public class DRSceneArea : DataRowBase
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
-                DropRewardShow = binaryReader.ReadArray<Int32>();
             }
         }
 
