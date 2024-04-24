@@ -311,16 +311,4 @@ public class EntityBattleDataCore : EntityBaseComponent
         RefEntity.EntityEvent.ChangeEntityStatus?.Invoke();
         return true;
     }
-    /// <summary>
-    /// 根据潜力计算最终数值
-    /// </summary>
-    /// <param name="baseValue"></param>
-    /// <param name="potential"></param>
-    /// <param name="lv"></param>
-    /// <returns></returns>
-    protected int CalcFinalValueByPotentiality(int baseValue, float potential, int lv)
-    {
-        //提升公式：当前属性数值 = 基础数值 +（基础数值 * 潜力值）* （等级-1）
-        return baseValue + (int)(baseValue * potential * Math.Max(lv - 1, 0));
-    }
 }
