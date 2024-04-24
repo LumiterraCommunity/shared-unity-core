@@ -81,6 +81,7 @@ public class EntityPortalCore : EntityBaseComponent
             return;
         }
         PortalElement = portalElementCore;
+        StopRunning();
     }
 
     private void ExitPortalElement(PortalElementCore portalElementCore)
