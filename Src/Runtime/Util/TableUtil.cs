@@ -358,11 +358,17 @@ public static class TableUtil
     /// 遍历属性数组
     /// </summary>
     /// <param name="attr">属性二维数组</param>
-    /// <param name="cb">T0:属性类型，T1:属性值，T2:属性是否受潜力值影响</param>
-    public static void ForeachAttribute(int[][] attr, Action<eAttributeType, int, bool> cb)
+    /// <param name="cb">T0:属性类型，T1:属性值，T2:属性是否受潜力值影响,返回值：是否停止遍历</param>
+    public static void ForeachAttribute(int[][] attr, Func<eAttributeType, int, bool, bool> cb)
     {
         if (attr == null || attr.Length == 0)
         {
+            return;
+        }
+
+        if (cb == null)
+        {
+            Log.Error($"ForeachAttribute cb is null");
             return;
         }
 
@@ -376,7 +382,10 @@ public static class TableUtil
             eAttributeType type = (eAttributeType)item[0];
             int value = item[1];
             bool affectByPotential = item[2] > 0;
-            cb?.Invoke(type, value, affectByPotential);
+            if (cb.Invoke(type, value, affectByPotential))
+            {
+                break;
+            }
         }
     }
 
