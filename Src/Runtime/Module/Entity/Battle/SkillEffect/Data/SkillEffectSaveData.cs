@@ -6,6 +6,7 @@
  * 
  */
 
+[System.Serializable]
 public class SkillEffectSaveData
 {
     /// <summary>
