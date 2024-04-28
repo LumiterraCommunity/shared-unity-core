@@ -424,6 +424,34 @@ public static class TableUtil
         }
 
         return timeLimit;
+    }
 
+    /// <summary>
+    /// 获取宠物原始属性信息
+    /// </summary>
+    /// <returns>(属性值，是否受到潜力值影响)</returns>
+    public static (int, bool) GetPetRawAttrInfo(int petCid, eAttributeType attrType)
+    {
+        DRPet cfg = GetConfig<DRPet>(petCid);
+        if (cfg == null)
+        {
+            Log.Error($"GetPetRawAttr: pet config is null, petId={petCid}");
+            return (0, false);
+        }
+        int value = 0;
+        bool resAffectByPotential = false;
+        ForeachAttribute(cfg.InitialAttribute, (type, val, affectByPotential) =>
+        {
+            if (type == attrType)
+            {
+                value = val;
+                resAffectByPotential = affectByPotential;
+                return true;
+            }
+
+            return false;
+        });
+
+        return (value, resAffectByPotential);
     }
 }

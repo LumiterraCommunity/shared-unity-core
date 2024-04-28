@@ -6,6 +6,7 @@
  * 
  */
 using System.Collections.Generic;
+using GameMessageCore;
 
 public static class AttributeDefine
 {
@@ -17,6 +18,26 @@ public static class AttributeDefine
         eAttributeType.CombatPotentiality,
         eAttributeType.GatherPotentiality,
         eAttributeType.FarmPotentiality,
+    };
+
+    /// <summary>
+    /// 天赋类型对应的潜力属性类型
+    /// </summary>
+    public static readonly Dictionary<TalentType, eAttributeType> TalentType2PotentialAttr = new()
+    {
+        {TalentType.Battle,eAttributeType.CombatPotentiality},
+        {TalentType.Gather,eAttributeType.GatherPotentiality},
+        {TalentType.Farming,eAttributeType.FarmPotentiality},
+    };
+
+    /// <summary>
+    /// 天赋类型对应的属性等级属性类型
+    /// </summary>
+    public static readonly Dictionary<TalentType, eAttributeType> TalentType2TalentLvAttr = new()
+    {
+        {TalentType.Battle,eAttributeType.CombatLv},
+        {TalentType.Gather,eAttributeType.CollectionLv},
+        {TalentType.Farming,eAttributeType.FarmingLv},
     };
 }
 /// <summary>
