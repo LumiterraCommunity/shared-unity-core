@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using GameMessageCore;
 /// <summary>
 /// Avatar related define
@@ -32,4 +33,10 @@ public static class AvatarDefineCore
         AvatarPosition.Hand,
         AvatarPosition.Weapon,
     };
+
+    /// <summary>
+    /// 所有部位合集，包括外观和装备，外观部位必须在装备部位之后，外观显示优先级高于装备
+    /// </summary>
+    /// <returns></returns>
+    public static readonly List<AvatarPosition> AllPartList = EquipmentPartList.Concat(AppearancePartList).ToList();
 }
