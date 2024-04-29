@@ -1,8 +1,17 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 
 public class EntityAvatarDataCore : EntityBaseComponent
 {
+    /// <summary>
+    /// 所有装备等级平均值 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
+    /// </summary>
+    /// <value></value>
+    public float AllEquipmentsLevelAvg { get; protected set; } = 0;
+
     /// <summary>
     /// 角色穿着数据
     /// 用字典方便业务层使用
@@ -31,7 +40,7 @@ public class EntityAvatarDataCore : EntityBaseComponent
             }
             AvatarList.AddRange(AvatarDic.Values);
         }
-        RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
+        OnAvatarUpdate();
     }
 
     public void InitFromNet(IEnumerable<AvatarAttribute> avatars)
@@ -43,7 +52,41 @@ public class EntityAvatarDataCore : EntityBaseComponent
         {
             AvatarDic.Add(avatar.Position, avatar);
         }
+        OnAvatarUpdate();
+    }
+
+    /// <summary>
+    /// 更新了avatar 单个和全部都需要调用这里
+    /// </summary>
+    private void OnAvatarUpdate()
+    {
+        CalculateAllEquipmentsLevelAvg();
+
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
+    }
+
+    private void CalculateAllEquipmentsLevelAvg()
+    {
+        if (AvatarList == null || AvatarList.Count == 0)
+        {
+            AllEquipmentsLevelAvg = 0;
+            return;
+        }
+
+        float allLv = 0;
+        foreach (AvatarAttribute avatar in AvatarList)
+        {
+            DRItem drItem = TableUtil.GetConfig<DRItem>(avatar.ObjectId);
+            if (drItem == null)
+            {
+                Log.Error($"CalculateAllEquipmentsLevelAvg drItem is null,avatar cid:{avatar.ObjectId}");
+                continue;
+            }
+
+            allLv += drItem.UseLv;
+        }
+
+        AllEquipmentsLevelAvg = allLv / AvatarDefineCore.EquipmentPartList.Count;
     }
 
     /// <summary>

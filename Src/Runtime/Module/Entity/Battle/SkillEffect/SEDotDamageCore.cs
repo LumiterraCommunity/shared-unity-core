@@ -56,7 +56,7 @@ public class SEDotDamageCore : SkillEffectBase
 
         if (damageType == eDotDamageType.Normal)
         {
-            damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, fromEntity.BattleDataCore.Level, targetEntity.BattleDataCore.Level, damageValue);
+            damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, damageValue);
         }
         else if (damageType == eDotDamageType.Fixed)
         {

@@ -14,7 +14,27 @@ public static class EntityUtilCore
     /// <returns></returns>
     public static bool EntityTypeIsPlayerUnit(EntityType entityType)
     {
-        return entityType is EntityType.Player or EntityType.MainPlayer or EntityType.Pet or EntityType.HomeAnimal;
+        return EntityTypeIsPlayer(entityType) || EntityTypeIsPet(entityType);
+    }
+
+    /// <summary>
+    /// 判断实体类型是玩家
+    /// </summary>
+    /// <param name="entityType"></param>
+    /// <returns></returns>
+    public static bool EntityTypeIsPlayer(EntityType entityType)
+    {
+        return entityType is EntityType.Player or EntityType.MainPlayer;
+    }
+
+    /// <summary>
+    /// 判断实体类型是宠物 包括了家园动物
+    /// </summary>
+    /// <param name="entityType"></param>
+    /// <returns></returns>
+    public static bool EntityTypeIsPet(EntityType entityType)
+    {
+        return entityType is EntityType.Pet or EntityType.HomeAnimal;
     }
 
     /// <summary>
