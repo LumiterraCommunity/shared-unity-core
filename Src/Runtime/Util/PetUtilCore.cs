@@ -133,7 +133,7 @@ public static class PetUtilCore
         TalentType attrTalentType = (TalentType)cfg.TalentType;
         eAttributeType potentialAttrType = AttributeDefine.TalentType2PotentialAttr[attrTalentType];
         int potential = GetPetProfileByType(attrs, potentialAttrType);
-        return potential * MathUtilCore.I2T;
+        return potential * TableUtil.GetAttributeCoefficient(potentialAttrType);
     }
 
     /// <summary>
