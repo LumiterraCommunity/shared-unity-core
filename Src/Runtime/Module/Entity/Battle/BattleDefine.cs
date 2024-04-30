@@ -161,3 +161,15 @@ public enum eSearchTargetType : int
     RangeRandomPos = 2,  //范围内随机位置
     CaptureTarget = 3,  //捕获目标
 }
+
+public enum eLockPathMoveDirType : int
+{
+    Forward = 1, //靠拢
+    Reverse = -1, //远离
+}
+//锁定路径移动方式
+public enum eLockPathMoveTargetType : int
+{
+    InputTarget = 1,    //输入目标
+    CastTarget = 2,     //释放者目标
+}
