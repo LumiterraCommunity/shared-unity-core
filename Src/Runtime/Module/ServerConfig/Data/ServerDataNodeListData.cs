@@ -5,6 +5,9 @@
  * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/ServerConfig/Data/ServerDataNodeList.cs
  * 
  */
+using System;
+
+[Serializable]
 public class ServerDataNodeListData<T>
 {
     public T[] DataList;
