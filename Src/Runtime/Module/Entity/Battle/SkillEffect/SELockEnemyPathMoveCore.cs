@@ -27,36 +27,68 @@ public class SELockEnemyPathMoveCore : SEPathMoveCore
         {
             delayTime = EffectCfg.Parameters[2];
         }
-        int dir = 1;
+        eLockPathMoveDirType dir = eLockPathMoveDirType.Forward;
         if (EffectCfg.Parameters.Length > 3)
         {
-            dir = EffectCfg.Parameters[3];
+            dir = (eLockPathMoveDirType)EffectCfg.Parameters[3];
         }
-        float moveDist = minDist;
-
-        //根据目标位置计算移动距离，无目标位置则移动最小距离
-        if (inputData.TargetPosList != null && inputData.TargetPosList.Length > 0)
+        eLockPathMoveTargetType moveType = eLockPathMoveTargetType.InputTarget;
+        if (EffectCfg.Parameters.Length > 4)
         {
-            float dist = UnityEngine.Vector3.Distance(targetEntity.Position, inputData.TargetPosList[0]);
+            moveType = (eLockPathMoveTargetType)EffectCfg.Parameters[4];
+        }
+
+        //计算目标位置和移动方向
+        UnityEngine.Vector3 targetPos = targetEntity.Position;
+        UnityEngine.Vector3 moveDir;
+        if (moveType == eLockPathMoveTargetType.InputTarget)
+        {
+            if (inputData.TargetPosList != null && inputData.TargetPosList.Length > 0)
+            {
+                targetPos = inputData.TargetPosList[0];
+            }
+            moveDir = inputData.Dir * (int)dir;
+        }
+        else
+        {
+            targetPos = fromEntity.Position;
+            moveDir = (fromEntity.Position - targetEntity.Position) * (int)dir;
+        }
+
+        //计算移动距离
+        float moveDist = 0;
+        if (dir == eLockPathMoveDirType.Forward)
+        {
+            //靠拢
+            float dist = UnityEngine.Vector3.Distance(targetEntity.Position, targetPos);
             if (dist > minDist)
             {
                 moveDist = MathF.Min(dist - minDist, maxDist);
             }
-            else
+
+        }
+        else
+        {
+            //远离
+            float dist = UnityEngine.Vector3.Distance(targetEntity.Position, targetPos);
+            if (dist < minDist)
             {
-                moveDist = 0;
+                moveDist = minDist - dist;
             }
         }
+
+
+
+        //不做Y轴移动  
+        moveDir.Set(moveDir.x, 0, moveDir.z);
         UnityEngine.Vector3 curPos = targetEntity.Position;
-        UnityEngine.Vector3 moveDir = inputData.Dir;
-        moveDir.Set(moveDir.x * dir, 0, moveDir.z * dir);
-        UnityEngine.Vector3 targetPos = curPos + (moveDir.normalized * moveDist);
+        UnityEngine.Vector3 movePos = curPos + (moveDir.normalized * moveDist);
         DamageEffect effect = new()
         {
             BeatBackValue = new()
             {
                 CurLoc = NetUtilCore.LocToNet(curPos),
-                BackToPos = NetUtilCore.LocToNet(targetPos),
+                BackToPos = NetUtilCore.LocToNet(movePos),
                 DelayTime = delayTime
             }
         };
