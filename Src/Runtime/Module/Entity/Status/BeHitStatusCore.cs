@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-25 15:56:56
  * @Description: 受击状态 理论上受击状态只有表现,服务器用不到
- * @FilePath: /Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/BeHitStatusCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/BeHitStatusCore.cs
  * 
  */
 using System;
@@ -22,9 +22,11 @@ public abstract class BeHitStatusCore : ListenEventStatusCore, IEntityCanMove, I
      };
 
     public override string StatusName => Name;
+    private EntityInputData _inputData;
     protected override void OnEnter(IFsm<EntityStatusCtrl> fsm)
     {
         base.OnEnter(fsm);
+        _inputData = StatusCtrl.GetComponent<EntityInputData>();
     }
 
     protected override void OnLeave(IFsm<EntityStatusCtrl> fsm, bool isShutdown)
@@ -43,6 +45,24 @@ public abstract class BeHitStatusCore : ListenEventStatusCore, IEntityCanMove, I
         {
             ChangeState(fsm, DeathStatusCore.Name);
             return;
+        }
+
+        if (StatusCtrl.RefEntity.MoveData != null && !StatusCtrl.RefEntity.MoveData.IsGrounded)
+        {
+            ChangeState(fsm, FloatInAirStatusCore.Name);
+            return;
+        }
+
+        if (CheckCanMove())
+        {
+            if (_inputData.InputMoveDirection != null)
+            {
+                ChangeState(fsm, DirectionMoveStatusCore.Name);
+            }
+            else if (_inputData.InputMovePath.Count > 0)
+            {
+                ChangeState(fsm, PathMoveStatusCore.Name);
+            }
         }
     }
     public bool CheckCanMove()
