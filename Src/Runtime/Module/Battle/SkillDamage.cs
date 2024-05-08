@@ -48,7 +48,7 @@ public class SkillDamage
     /// </summary>
     /// <param name="coefficient">伤害系数</param>
     /// <returns>DamageData</returns>
-    public static DamageData DamageCalculation(EntityAttributeData fromAttribute, EntityAttributeData toAttribute, int fromLevel, int toLevel, float coefficient = 1, InputRandomData inputRandom = null)
+    public static DamageData DamageCalculation(EntityAttributeData fromAttribute, EntityAttributeData toAttribute, float coefficient = 1, InputRandomData inputRandom = null)
     {
         float defHp = toAttribute.GetRealValue(eAttributeType.HP);
 
@@ -58,7 +58,7 @@ public class SkillDamage
             return MakeDamageData(DamageState.Normal, (int)defHp, 0);
         }
 
-        (float damage, bool crit) = CalculateEnemyDamage(fromAttribute, toAttribute, fromLevel, toLevel, inputRandom);
+        (float damage, bool crit) = CalculateEnemyDamage(fromAttribute, toAttribute, inputRandom);
 
         float realDamage = damage * coefficient;
         return MakeDamageData(crit ? DamageState.Crit : DamageState.Normal, (int)defHp, -UnityEngine.Mathf.RoundToInt(realDamage));
@@ -70,13 +70,16 @@ public class SkillDamage
     /// <param name="fromAttribute"></param>
     /// <param name="toAttribute"></param>
     /// <returns></returns>
-    public static (float damage, bool crit) CalculateEnemyDamage(EntityAttributeData fromAttribute, EntityAttributeData toAttribute, int fromLevel, int toLevel, InputRandomData inputRandom = null)
+    public static (float damage, bool crit) CalculateEnemyDamage(EntityAttributeData fromAttribute, EntityAttributeData toAttribute, InputRandomData inputRandom = null)
     {
         if (fromAttribute == null || toAttribute == null)
         {
             Log.Error($"CalculateEnemyDamage fromAttribute or toAttribute is null,form:{fromAttribute}");
             return (0, false);
         }
+
+        float fromLevel = CalculateEntityDamageLevel(fromAttribute.RefEntity);
+        float toLevel = CalculateEntityDamageLevel(toAttribute.RefEntity);
 
         TableEnemyDamageAttribute attributeClassify = EntityAttributeTable.Inst.GetDamageAttributeClassify<TableEnemyDamageAttribute>(HomeDefine.eAction.AttackEnemy);
 
@@ -97,6 +100,26 @@ public class SkillDamage
         return (res, crit);
     }
 
+    //计算实体伤害等级 这里只处理Enemy中的计算 不参与家园 这些等级会根据实体类型不同获取 返回小数用于精确计算
+    private static float CalculateEntityDamageLevel(EntityBase entity)
+    {
+        if (entity == null)
+        {
+            Log.Error($"CalculateEntityDamageLevel entity is null");
+            return 0;
+        }
+
+        //角色和宠物取装备等级平均值
+        if (EntityUtilCore.EntityTypeIsPlayer(entity.BaseData.Type) || EntityUtilCore.EntityTypeIsPet(entity.BaseData.Type))
+        {
+            return entity.GetComponent<EntityAvatarDataCore>().AllEquipmentsLevelAvg;
+        }
+        else
+        {
+            return entity.BattleDataCore.Level;
+        }
+    }
+
     /// <summary>
     /// 计算家园动作的伤害 砍树 挖矿等
     /// </summary>
@@ -105,7 +128,7 @@ public class SkillDamage
     /// <param name="toAttribute">防御方属性 为空时代表没有防御相关属性</param>
     /// <param name="skillDamageRate">技能伤害倍率 由技能决定的</param>
     /// <returns></returns>
-    public static (float damage, bool crit) CalculateHomeDamage(HomeDefine.eAction action, EntityAttributeData fromAttribute, EntityAttributeData toAttribute, float skillDamageRate, InputRandomData seedData, int fromLevel, int toLevel)
+    public static (float damage, bool crit) CalculateHomeDamage(HomeDefine.eAction action, EntityAttributeData fromAttribute, EntityAttributeData toAttribute, float skillDamageRate, InputRandomData seedData, float fromLevel, float toLevel)
     {
         if (fromAttribute == null)
         {
@@ -138,17 +161,17 @@ public class SkillDamage
     /// </summary>
     /// <param name="atk">战斗或者对草树的攻击力</param>
     /// <param name="def">战斗或者采集物防御</param>
-    /// <param name="levelAtk">攻击者等级</param>
+    /// <param name="levelAtk">攻击者等级 不一定是人物最高等级 要看上层如何计算</param>
     /// <param name="levelDef">防御方等级</param>
     /// <returns></returns>
-    private static float CalculateBaseDamage(float atk, float def, int levelAtk, int levelDef)
+    private static float CalculateBaseDamage(float atk, float def, float levelAtk, float levelDef)
     {
         if (atk.ApproximatelyEquals(0) && def.ApproximatelyEquals(0))//待会分母不能为0
         {
             return 0;
         }
 
-        float res = Mathf.Pow(atk, 2) * (levelAtk + 10) / ((atk * (levelAtk + 10)) + (def * (levelDef + 10))) * atk / def;
+        float res = Mathf.Pow(atk, 2) / (atk + def) * Mathf.Pow(2, (levelAtk - levelDef) / 2);
         if (res < 0)
         {
             Log.Error($"Calculate Base Damage error, res:{res} atk:{atk} def:{def} levelAtk:{levelAtk} levelDef:{levelDef}");

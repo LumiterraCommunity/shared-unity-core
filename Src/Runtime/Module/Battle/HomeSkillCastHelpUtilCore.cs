@@ -36,7 +36,7 @@ public static class HomeSkillCastHelpUtilCore
     /// <param name="drSkill"></param>
     /// <param name="seedData">随机数据 默认null</param>
     /// <returns></returns>
-    public static (float damage, bool isCrit) CalculateSegmentProgressDamage(EntityBase fromEntity, ICollectResourceCore targetObject, eAction targetCurAction, DRSkill drSkill, int fromEntityLevel, InputRandomData seedData = null)
+    public static (float damage, bool isCrit) CalculateSegmentProgressDamage(EntityBase fromEntity, ICollectResourceCore targetObject, eAction targetCurAction, DRSkill drSkill, float fromEntityLevel, InputRandomData seedData = null)
     {
         float damage;
         bool isCrit = false;

@@ -78,7 +78,7 @@ public class SENormalDamageCore : SkillEffectBase
             damageCoefficient = EffectCfg.Parameters[0] * MathUtilCore.I2T;
         }
         DamageEffect effect = new();
-        DamageData damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, fromEntity.BattleDataCore.Level, targetEntity.BattleDataCore.Level, damageCoefficient, inputData.InputRandom);
+        DamageData damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, damageCoefficient, inputData.InputRandom);
         effect.DamageValue = damage;
         effect.DamageValue.CurrentInt = targetEntity.BattleDataCore.HP + damage.DeltaInt;
         return effect;
