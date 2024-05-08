@@ -26,12 +26,12 @@ public class SEPathMoveCore : SkillEffectBase
             Log.Error($"SEPathMoveCore not find CharacterMoveCtrl cpt");
             return;
         }
-        if (RefEntity.EntityCheckPosCore != null)
-        {
-            ///给2倍的位移误差
-            float distance = EffectCfg.Parameters[0] * MathUtilCore.CM2M * 2;
-            RefEntity.EntityCheckPosCore.AddErrorDist(distance);
-        }
+        // if (RefEntity.EntityCheckPosCore != null)
+        // {
+        //     ///给2倍的位移误差
+        //     float distance = EffectCfg.Parameters[0] * MathUtilCore.CM2M * 2;
+        //     RefEntity.EntityCheckPosCore.AddErrorDist(distance);
+        // }
         TimerMgr.AddTimer(GetHashCode(), EffectData.BeatBackValue.DelayTime, Move);
     }
 
@@ -41,13 +41,13 @@ public class SEPathMoveCore : SkillEffectBase
         RefEntity.GetComponent<EntityEvent>().SpecialMoveStartNotMoveStatus?.Invoke();
         //实际位置
         Vector3 realPos = RefEntity.Position;
-        Vector3 curLoc = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
+        // Vector3 curLoc = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
         Vector3 targetPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.BackToPos);
-        // 检测从当前位置和预计位置是否有效，无效则走预计位置
-        if (RefEntity.EntityCheckPosCore != null && !RefEntity.EntityCheckPosCore.CheckPositionValid(realPos, curLoc))
-        {
-            realPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
-        }
+        // // 检测从当前位置和预计位置是否有效，无效则走预计位置
+        // if (RefEntity.EntityCheckPosCore != null && !RefEntity.EntityCheckPosCore.CheckPositionValid(realPos, curLoc))
+        // {
+        //     realPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
+        // }
         Vector3 offset = targetPos - realPos;
         float distance = offset.magnitude;
         if (distance.ApproximatelyEquals(0) || offset.ApproximatelyEquals(Vector3.zero))

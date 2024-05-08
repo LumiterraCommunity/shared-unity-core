@@ -105,11 +105,11 @@ public class EntityBase
     /// <value></value>
     public EntityBaseNetDataCore NetData { get; set; }
 
-    /// <summary>
-    /// 网络数据
-    /// </summary>
-    /// <value></value>
-    public EntityCheckPosCore EntityCheckPosCore { get; set; }
+    // /// <summary>
+    // /// 网络数据
+    // /// </summary>
+    // /// <value></value>
+    // public EntityCheckPosCore EntityCheckPosCore { get; set; }
 
     /// <summary>
     /// 阵营数据
