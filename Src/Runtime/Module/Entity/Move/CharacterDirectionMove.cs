@@ -37,6 +37,10 @@ public sealed class CharacterDirectionMove : DirectionMove
             transform.forward = moveDir;
             _controller.UpdateMove(MoveModifier, MoveSpeed * moveDir, Vector3.zero);
         }
+        else
+        {
+            _controller.UpdateMove(MoveModifier, Vector3.zero, Vector3.zero);
+        }
     }
 
     public override void StopMove()
