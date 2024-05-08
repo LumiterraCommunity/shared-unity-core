@@ -4,7 +4,7 @@
 public static class MoveDefine
 {
     /// <summary>
-    /// 走直线时的最大请求间隔时间 s
+    /// 移动最大请求间隔时间 s
     /// </summary>
     public const float MOVE_MAX_SYNC_INTERVAL_TIME = 1f;//TODO:0.5效果最好 目前为了解决服务器网络性能暂时改成1s
     public const float MOVE_MAX_SYNC_INTERVAL_TIME_INSTANCE = 0.2f;//副本走直线
@@ -16,7 +16,7 @@ public static class MoveDefine
     /// <summary>
     /// 允许的网络延迟时间 s
     /// </summary>
-    public const float MOVE_ALLOW_NETWORK_DELAY_TIME = 0.1f;
+    public const float MOVE_ALLOW_NETWORK_DELAY_TIME = 0.2f;
     /// <summary>
     /// 空中允许的网络延迟时间 s
     /// </summary>
@@ -36,5 +36,5 @@ public static class MoveDefine
     /// <summary>
     /// 是否启用空中移动特性
     /// </summary>
-    public const bool ENABLE_MOVE_IN_AIR = true;
+    public const bool ENABLE_MOVE_IN_AIR = false;//暂时不开 开了后移动同步有点问题 还要时间解决 目前将空中摩擦力加上后体验还行
 }

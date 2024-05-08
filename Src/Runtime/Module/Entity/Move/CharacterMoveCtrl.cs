@@ -187,6 +187,11 @@ public class CharacterMoveCtrl : EntityBaseComponent
             //加上水平摩擦力
             velocity -= AIR_HORIZONTAL_FRICTION * Time.deltaTime * velocity.OnlyXZ();
         }
+        else
+        {
+            //不开启空中也需要空中摩擦力 而且摩擦力加大 因为不像空中移动时立即减少水平速度 体验更好
+            velocity -= AIR_HORIZONTAL_FRICTION * 2 * Time.deltaTime * velocity.OnlyXZ();
+        }
         CurSpeed = velocity;
     }
 
