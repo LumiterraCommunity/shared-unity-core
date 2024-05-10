@@ -116,6 +116,27 @@ public static class PetUtilCore
     }
 
     /// <summary>
+    /// 通过任意属性获获取该属性对应的潜力值
+    /// </summary>
+    /// <param name="attrs"></param>
+    /// <param name="attrType"></param>
+    /// <returns></returns>
+    public static float GetPotentialityByAnyAttr(IEnumerable<AttributeData> attrs, eAttributeType attrType)
+    {
+        DREntityAttribute cfg = TableUtil.GetConfig<DREntityAttribute>((int)attrType);
+        if (cfg == null)
+        {
+            Log.Error($"GetPotentialityByAnyAttr cfg is null,attrType:{attrType}");
+            return 0;
+        }
+
+        TalentType attrTalentType = (TalentType)cfg.TalentType;
+        eAttributeType potentialAttrType = AttributeDefine.TalentType2PotentialAttr[attrTalentType];
+        int potential = GetPetProfileByType(attrs, potentialAttrType);
+        return potential * TableUtil.GetAttributeCoefficient(potentialAttrType);
+    }
+
+    /// <summary>
     /// 判断宠物是否可以采集
     /// </summary>
     /// <returns></returns>
