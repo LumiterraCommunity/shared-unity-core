@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,El recurso no existe
 操作不支持,5002,家园错误码,Operación no compatible
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
@@ -140,7 +141,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LÍNEA #{0}
 ,20070020,登录,Por favor selecciona el servidor primero
 ,20070021,登录,Nombre no válido.
-,20070022,,Vacío
+,20070022,,
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -163,6 +164,8 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Desconocido
 ,20090016,任务,Diario
 ,20090017,任务,Recompensa
+,20090018,任务,
+,20090019,任务,
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
@@ -272,7 +275,8 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20190000,天赋树,El nodo previo debe desbloquearse primero.
 ,20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.
 ,20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.
-,20190003,,Nivel de árbol de talentos insuficiente
+,20190003,天赋树,Nivel de árbol de talentos insuficiente
+,20190004,,
 ,20200000,活动, reclamar premio exitoso
 ,20200001,活动, reclamar premio fallido
 ,20200002,活动, acuñar boleto exitoso

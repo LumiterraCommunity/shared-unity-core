@@ -24,6 +24,15 @@ public class DRMonster : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取belongtoLv-int。*/
+    /// </summary>
+    public int BelongtoLv
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取bodyCapacity-int。*/
     /// </summary>
     public int BodyCapacity
@@ -208,6 +217,7 @@ public class DRMonster : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        BelongtoLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         BodyCapacity = DataTableParseUtil.ParseInt(columnStrings[index++]);
         CaptureHp = DataTableParseUtil.ParseInt(columnStrings[index++]);
         CaptureSkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -240,6 +250,7 @@ public class DRMonster : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                BelongtoLv = binaryReader.Read7BitEncodedInt32();
                 BodyCapacity = binaryReader.Read7BitEncodedInt32();
                 CaptureHp = binaryReader.Read7BitEncodedInt32();
                 CaptureSkillCastPool = binaryReader.ReadArrayList<Int32>();

@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,La ressource n'existe pas
 操作不支持,5002,家园错误码,Opération non prise en charge
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
@@ -140,7 +141,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LIGNE #{0} 
 ,20070020,登录,Veuillez d'abord sélectionner le serveur 
 ,20070021,登录,Nom invalide.
-,20070022,,Vide
+,20070022,,
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -163,6 +164,8 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Inconnu 
 ,20090016,任务,Quotidien 
 ,20090017,任务,Prime
+,20090018,任务,
+,20090019,任务,
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -272,7 +275,8 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20190000,天赋树,Le pré-nœud doit d'abord être déverrouillé.
 ,20190001,天赋树,Le niveau total de l'arbre de talent doit atteindre {0}.
 ,20190002,天赋树,Le nœud principal de la même couche doit d'abord être déverrouillé.
-,20190003,,Niveau d'arbre de talents insuffisant
+,20190003,天赋树,Niveau d'arbre de talents insuffisant
+,20190004,,
 ,20200000,活动,Réclamation du prix réussie
 ,20200001,活动,Échec de la réclamation du prix
 ,20200002,活动,Création du ticket réussie

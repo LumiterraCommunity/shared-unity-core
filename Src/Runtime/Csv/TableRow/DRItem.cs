@@ -96,6 +96,15 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取talentId-int[]。*/
+    /// </summary>
+    public int[] TalentId
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -136,6 +145,7 @@ public class DRItem : DataRowBase
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Quality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SubType = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        TalentId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UserType = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -159,6 +169,7 @@ public class DRItem : DataRowBase
                 Name = binaryReader.ReadString();
                 Quality = binaryReader.ReadArray<Int32>();
                 SubType = binaryReader.Read7BitEncodedInt32();
+                TalentId = binaryReader.ReadArray<Int32>();
                 Type = binaryReader.Read7BitEncodedInt32();
                 UseLv = binaryReader.Read7BitEncodedInt32();
                 UserType = binaryReader.Read7BitEncodedInt32();
