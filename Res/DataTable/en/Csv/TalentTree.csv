@@ -41,7 +41,8 @@ MaxEnergy + 10","59,10000","1,3",talentTree-9,9,1,9,1,Combat Mastery 9,2,115200,
 PlantingProficiency + 4
 PetHappinessCapacity + 1
 BreedingProficiency + 4
-MaxEnergy + 10","66,10000","1,3",talentTree-13,13,1,1,1,Farming Mastery 1,1,450,0,0,
+MaxEnergy + 10
+Farming Fitness: Converts farming proficiency to combat defense and health caps in proportion to a certain percentage, effective when wearing farming tools","66#531,10000","1,3",talentTree-13,13,1,1,1,Farming Mastery 1,1,450,0,0,
 0,"FertilityCapacity + 1
 PlantingProficiency + 4
 PetHappinessCapacity + 1
@@ -56,8 +57,7 @@ MaxEnergy + 10","68,10000","1,3",talentTree-15,15,1,3,1,Farming Mastery 3,1,1800
 PlantingProficiency + 4
 PetHappinessCapacity + 1
 BreedingProficiency + 4
-MaxEnergy + 10
-Farming Fitness: Converts farming proficiency to combat defense and health caps in proportion to a certain percentage, effective when wearing farming tools","69#531,10000","1,3",talentTree-16,16,1,4,1,Farming Mastery 4,1,3600,3,3,15
+MaxEnergy + 10","69,10000","1,3",talentTree-16,16,1,4,1,Farming Mastery 4,1,3600,3,3,15
 0,"FertilityCapacity + 1
 PlantingProficiency + 4
 PetHappinessCapacity + 1
@@ -91,7 +91,8 @@ OreAtt + 5
 GrassProficiency + 5
 TreeProficiency + 5
 OreProficiency + 5
-MaxEnergy + 10","81,10000","1,3",talentTree-24,24,1,1,1,Gather Mastery 1,3,450,0,0,
+MaxEnergy + 10
+Acquisition Physique: Converts acquisition proficiency to combat defense and health in a certain proportion, effective when wearing the acquisition tool","81#530,10000","1,3",talentTree-24,24,1,1,1,Gather Mastery 1,3,450,0,0,
 0,"GrassAtt + 5
 TreeAtt + 5
 OreAtt + 5
@@ -112,8 +113,7 @@ OreAtt + 5
 GrassProficiency + 5
 TreeProficiency + 5
 OreProficiency + 5
-MaxEnergy + 10
-Acquisition Physique: Converts acquisition proficiency to combat defense and health in a certain proportion, effective when wearing the acquisition tool","84#530,10000","1,3",talentTree-27,27,1,4,1,Gather Mastery  4,3,3600,3,3,26
+MaxEnergy + 10","84,10000","1,3",talentTree-27,27,1,4,1,Gather Mastery  4,3,3600,3,3,26
 0,"GrassAtt + 5
 TreeAtt + 5
 OreAtt + 5

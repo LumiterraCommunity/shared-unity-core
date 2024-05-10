@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,Sumber daya tidak ada
 操作不支持,5002,家园错误码,Operasi tidak didukung
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
@@ -140,7 +141,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Harap pilih server terlebih dahulu
 ,20070021,登录,Nama tidak valid.
-,20070022,,Kosong
+,20070022,,
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -163,6 +164,8 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Tidak Diketahui
 ,20090016,任务,Harian
 ,20090017,任务,Tugas Harian
+,20090018,任务,
+,20090019,任务,
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Bertani 
@@ -272,7 +275,8 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20190000,天赋树,Pre-node harus terlebih dahulu terbuka.
 ,20190001,天赋树,Total level dari pohon bakat harus mencapai {0}.
 ,20190002,天赋树,Node batang dari lapisan yang sama harus terlebih dahulu terbuka.
-,20190003,,Tingkat pohon bakat tidak mencukupi
+,20190003,天赋树,Tingkat pohon bakat tidak mencukupi
+,20190004,,
 ,20200000,活动, klaim hadiah berhasil
 ,20200001,活动, klaim hadiah gagal
 ,20200002,活动, cetak tiket berhasil

@@ -1,4 +1,5 @@
 describe-string,id-int,module-string,value-string
+,,,
 资源不存在,5001,家园错误码,Resource does not exist
 操作不支持,5002,家园错误码,Operation not supported
 家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
@@ -147,7 +148,7 @@ Sprite due to insufficient space"
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Please select the server first
 ,20070021,登录,Invalid name.
-,20070022,,
+,20070022,,Loading services
 ,20080001,设置,"To apply the language setting, please restart the app."
 ,20080002,设置,Quit now
 ,20080003,设置,Later
@@ -170,6 +171,8 @@ Sprite due to insufficient space"
 ,20090015,任务,Unknown
 ,20090016,任务,Daily
 ,20090017,任务,Bounty
+,20090018,任务,Harvest
+,20090019,任务,Task not completed
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming
@@ -279,7 +282,11 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20190000,天赋树,The pre-node must be unlocked first.
 ,20190001,天赋树,Total level of talent tree needs reach to {0}.
 ,20190002,天赋树,The trunk node of the same layer must be unlocked first.
-,20190003,,Not enough talent tree level
+,20190003,天赋树,Not enough talent tree level
+,20190004,,"Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> to deactivate this level?
+ - Enabled skills will be reset.
+ - Recipes will be reset.
+ - Experience will be gone."
 ,20200000,活动,claim prize success
 ,20200001,活动,claim prize failed
 ,20200002,活动,mint ticket success
