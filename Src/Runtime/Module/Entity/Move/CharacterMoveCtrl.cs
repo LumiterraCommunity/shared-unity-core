@@ -184,14 +184,9 @@ public class CharacterMoveCtrl : EntityBaseComponent
 
             Vector3 horizontalVelocity = Vector3.MoveTowards(velocity.OnlyXZ(), MoveSpeed.OnlyXZ(), AIR_CONTROL * Time.deltaTime);
             velocity = horizontalVelocity + velocity.OnlyY();
-            //加上水平摩擦力
-            velocity -= AIR_HORIZONTAL_FRICTION * Time.deltaTime * velocity.OnlyXZ();
         }
-        else
-        {
-            //不开启空中也需要空中摩擦力 而且摩擦力加大 因为不像空中移动时立即减少水平速度 体验更好
-            velocity -= AIR_HORIZONTAL_FRICTION * 2 * Time.deltaTime * velocity.OnlyXZ();
-        }
+        //加上水平摩擦力
+        velocity -= AIR_HORIZONTAL_FRICTION * Time.deltaTime * velocity.OnlyXZ();
         CurSpeed = velocity;
     }
 

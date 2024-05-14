@@ -36,5 +36,5 @@ public static class MoveDefine
     /// <summary>
     /// 是否启用空中移动特性
     /// </summary>
-    public const bool ENABLE_MOVE_IN_AIR = false;//暂时不开 开了后移动同步有点问题 还要时间解决 目前将空中摩擦力加上后体验还行
+    public const bool ENABLE_MOVE_IN_AIR = true;//暂时不开 开了后移动同步有点问题 还要时间解决 目前将空中摩擦力加上后体验还行
 }
