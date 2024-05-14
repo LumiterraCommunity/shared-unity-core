@@ -42,15 +42,6 @@ public class DRGameValue : DataRowBase
     }
 
     /// <summary>
-  /**获取valueArray2-int[][]。*/
-    /// </summary>
-    public int[][] ValueArray2
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取strValue-string。*/
     /// </summary>
     public string StrValue
@@ -77,6 +68,15 @@ public class DRGameValue : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取valueArray2-int[][]。*/
+    /// </summary>
+    public int[][] ValueArray2
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -85,10 +85,10 @@ public class DRGameValue : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         Note = DataTableParseUtil.ParseString(columnStrings[index++]);
         Value = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        ValueArray2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         StrValue = DataTableParseUtil.ParseString(columnStrings[index++]);
         ValueArray = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         StrValueArray = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
+        ValueArray2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -103,10 +103,10 @@ public class DRGameValue : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 Note = binaryReader.ReadString();
                 Value = binaryReader.Read7BitEncodedInt32();
-                ValueArray2 = binaryReader.ReadArrayList<Int32>();
                 StrValue = binaryReader.ReadString();
                 ValueArray = binaryReader.ReadArray<Int32>();
                 StrValueArray = binaryReader.ReadArray<String>();
+                ValueArray2 = binaryReader.ReadArrayList<Int32>();
             }
         }
 
