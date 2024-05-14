@@ -3,17 +3,17 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta baba verde es un material crudo raro que se puede utilizar para fabricar varios equipos de combate. Tiene una adhesión extremadamente fuerte y puede unirse a una variedad de materiales.
-",0,item-icon-30,30,Slime verde de nivel 1,1,0,2,1,1,4,1,1
+",0,item-icon-30,30,Slime verde de nivel 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Las enredaderas de calabaza son un material crudo que se puede utilizar para fabricar armas y armaduras. Tienen una textura resistente y una excelente resistencia, proporcionando una protección confiable y poder de ataque en el combate.
-",0,item-icon-31,31,Vides de calabaza de nivel 1,1,0,2,1,1,4,1,1
+",0,item-icon-31,31,Vides de calabaza de nivel 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este tipo de alambre de espino es un material crudo utilizado para el combate, que se puede utilizar para fabricar estructuras defensivas o equipos con alta resistencia y durabilidad.
-",0,item-icon-32,32,Malla de alambre de nivel 1,1,0,2,1,1,4,1,1
+",0,item-icon-32,32,Malla de alambre de nivel 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material en el desierto.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -143,7 +143,7 @@ Estos zapatos están elaborados con un diseño único de piedra de cristal, agre
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta piedra es de primera calidad y se puede utilizar para recolectar materiales en bruto como árboles.
-",0,item-icon-58,58,Mineral de nivel 1,1,0,3,1,1,4,1,1
+",0,item-icon-58,58,Mineral de nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material en el cañón.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -157,7 +157,7 @@ Este es un mineral de cristal rojo de tercer nivel que se puede recolectar en el
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
-Este tipo de madera se utiliza generalmente para hacer muebles simples o materiales de construcción. Su textura es relativamente suave, lo que facilita su procesamiento y tallado.",0,item-icon-62,62,Madera ordinaria de nivel 1,1,0,3,1,1,4,1,1
+Este tipo de madera se utiliza generalmente para hacer muebles simples o materiales de construcción. Su textura es relativamente suave, lo que facilita su procesamiento y tallado.",0,item-icon-62,62,Madera ordinaria de nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Alguien una vez vio este material en el desierto.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -172,17 +172,17 @@ La madera oscura es un tipo premium de madera con texturas negras y una textura 
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este tipo de bambú es un producto agrícola y una planta utilizada para fabricar diversos materiales agrícolas. Es muy común en la agricultura y puede crecer muy rápido.
-",0,item-icon-70,70,Bambú de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-70,70,Bambú de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este artículo es un material en bruto producido en la agricultura, generalmente se puede cosechar en el nivel 1. Su forma se asemeja a tres hojas, por lo que se le llama trébol. Se puede utilizar para fabricar muchos objetos diferentes y es un recurso muy útil.
-",0,item-icon-71,71,Trébol de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-71,71,Trébol de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta zanahoria es un producto agrícola de nivel 1 que se puede obtener en el campo agrícola. Es una materia prima importante.
-",0,item-icon-72,72,Zanahoria de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-72,72,Zanahoria de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -362,39 +362,39 @@ Esta fórmula rica en nutrientes nutre profundamente las plantas, promoviendo un
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción se puede usar durante las batallas y proporciona un efecto de curación menor.
-",0,item-icon-134,134,Poción de curación secundaria de nivel 0,1,0,2,1,1,3,1,1
+",0,item-icon-134,134,Poción de curación secundaria de nivel 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción puede mejorar tu poder de ataque.
-",0,item-icon-135,135,Poción de ataque secundaria de nivel 0,1,0,2,1,1,3,1,1
+",0,item-icon-135,135,Poción de ataque secundaria de nivel 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tu agilidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Te brinda un impulso temporal de velocidad, convirtiéndote en una fuerza formidable en el campo de batalla. Úsala estratégicamente para superar a tus oponentes y obtener ventaja en el combate.
-",0,item-icon-136,136,Poción de velocidad de movimiento secundaria de nivel 0,1,0,2,1,1,3,1,1
+",0,item-icon-136,136,Poción de velocidad de movimiento secundaria de nivel 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tu probabilidad de golpe crítico, permitiéndote infligir golpes devastadores a tus enemigos. Es imprescindible para cualquier jugador que busque maximizar su producción de daño. Úsala sabiamente y observa cómo tus enemigos se desmoronan ante ti.
-",0,item-icon-137,137,Poción de golpe crítico secundaria de nivel 0,1,0,2,1,1,3,1,1
+",0,item-icon-137,137,Poción de golpe crítico secundaria de nivel 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción es un salvavidas en el juego, proporcionando un impulso muy necesario a la salud de tu personaje. Restaura instantáneamente una cantidad significativa de HP, permitiéndote continuar tu aventura sin interrupciones. Con su color vibrante y sabor refrescante, es el remedio perfecto para cualquier situación desesperada.
-",0,item-icon-138,138,Poción de vida secundaria de nivel 0,1,0,2,1,1,3,1,1
+",0,item-icon-138,138,Poción de vida secundaria de nivel 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción puede proporcionar un efecto defensivo temporal, adecuado para situaciones de emergencia en batalla.
-",0,item-icon-139,139,Poción de defensa secundaria de nivel 0,1,0,2,1,1,3,1,1
+",0,item-icon-139,139,Poción de defensa secundaria de nivel 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
-",97,item-icon-146,146,Semilla de bambú de nivel 1,1,0,1,1,1,3,1,1
+",97,item-icon-146,146,Semilla de bambú de nivel 1,1,0,1,"1,0",1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Las semillas de trébol son consumibles agrícolas utilizados para plantar trébol y son adecuados para su uso en tierras de baja calidad. Pueden crecer rápidamente y producir un alto valor nutricional en entornos adecuados.
-",97,item-icon-147,147,Semilla de trébol de nivel 1,1,0,1,1,1,3,1,1
+",97,item-icon-147,147,Semilla de trébol de nivel 1,1,0,1,"1,0",1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este tipo de semillas de zanahoria se pueden usar para cultivar zanahorias frescas y deliciosas. Son adecuadas para su uso en jardines caseros o pequeñas granjas y se pueden plantar en primavera y otoño. Las zanahorias cultivadas a partir de estas semillas son sabrosas y nutritivas.
-",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,0,1,1,1,3,1,1
+",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,0,1,"1,0",1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Las semillas de planta de jarra son un consumible agrícola que se puede usar para cultivar plantas de jarra. Esta planta es una planta carnívora que puede absorber nutrientes de los insectos. Después de plantar, se necesita suficiente luz solar y agua para un crecimiento suave.
@@ -463,7 +463,7 @@ La arcilla es un suelo altamente maleable que se utiliza comúnmente para hacer 
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta resina es un líquido altamente viscoso que se puede utilizar para fabricar adhesivos, recubrimientos y selladores, entre otras cosas. Por lo general, se recolecta de los árboles y requiere herramientas especiales para su recolección.
-",0,item-icon-65,65,Resina de nivel 1,1,0,3,1,1,4,1,1
+",0,item-icon-65,65,Resina de nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Alguien una vez vio este material en el cañón.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -473,7 +473,7 @@ Una planta herbácea perenne que crece en la naturaleza, con una fuerte resisten
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta fibra vegetal es un material en bruto recolectado que generalmente se obtiene de los árboles. Se puede utilizar para fabricar una variedad de objetos diferentes, como cuerdas, telas y papel.
-",0,item-icon-66,66,Fibra vegetal de nivel 1,1,0,3,1,1,4,1,1
+",0,item-icon-66,66,Fibra vegetal de nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Alguien una vez vio este material en la Montaña de Nieve.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -483,7 +483,7 @@ Estos hongos crecen en las regiones polares frías y tienen un color azul claro.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material en bruto que se puede utilizar para fabricar diversos objetos.
-",0,item-icon-69,69,Telaraña de nivel 1,1,0,3,1,1,4,1,1
+",0,item-icon-69,69,Telaraña de nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
 ",0,item-icon-171,171,Boleto #1 de nivel 0,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
@@ -507,19 +507,19 @@ Este artículo es una sustancia orgánica que actúa como fertilizante y se pued
 -------
 
 Este brote tierno se cosecha de los cactus y tiene un color verde claro y una textura suave. Es una materia prima agrícola importante que se puede utilizar para hacer medicinas, alimentos y productos de belleza, entre otros.
-",0,item-icon-177,177,Brote de cactus de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-177,177,Brote de cactus de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este tornillo se obtuvo de la cría de monstruos y se puede utilizar como materia prima para la agricultura.
-",0,item-icon-178,178,Tornillo de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-178,178,Tornillo de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Los brotes de calabaza son materia prima agrícola producida a partir de la cría de monstruos, presentando una apariencia verde tierna y siendo ricos en nutrientes. Se pueden utilizar para hacer una variedad de alimentos y medicinas.
-",0,item-icon-179,179,Brote de calabaza de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-179,179,Brote de calabaza de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
@@ -656,12 +656,12 @@ Estos zapatos agrícolas están hechos de materiales de alta calidad, son ligero
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un artículo consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, lo que lo convierte en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,0,1,1,1,3,0,1
+",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,0,1,"1,0",1,3,0,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para animales es un producto consumible que proporciona los nutrientes necesarios para que los animales mantengan un crecimiento saludable. Es adecuado para diversos animales de granja y mascotas, y puede aumentar su productividad y esperanza de vida.
-",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,0,1,1,1,3,0,1
+",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,0,1,"1,0",1,3,0,1
 "1,3,4",0,"La EXP de agricultura es un valor de experiencia en el juego que se puede obtener a través de actividades agrícolas como el cultivo de cultivos y la cría de animales. Es un factor clave para mejorar las habilidades y niveles agrícolas, y también es una condición necesaria para desbloquear herramientas y equipos agrícolas de nivel superior.
 ",0,item-icon-188,188,EXP de agricultura,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0,"La EXP de combate se refiere a la experiencia obtenida en las batallas. Puede ayudar a los jugadores a subir de nivel y mejorar sus habilidades, mejorando las habilidades de su personaje. En muchos juegos, la EXP de combate es una de las formas importantes en las que los jugadores pueden mejorar su fuerza.
@@ -681,7 +681,7 @@ El alimento para animales es un producto consumible que proporciona los nutrient
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 ",0,item-icon-197,197,Poción de defensa cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.
-",0,item-icon-207,207,Esencia de recolección de nivel 1,1,0,3,1,1,4,1,1
+",0,item-icon-207,207,Esencia de recolección de nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.,0,item-icon-208,208,Esencia de recolección de nivel 2,1,0,3,2,1,4,2,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
@@ -692,7 +692,7 @@ Este objeto es una esencia utilizada para recolectar materias primas para la sí
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de plantación agrícola se sintetiza cuidadosamente a partir de materias primas agrícolas de alta calidad y es adecuada para la plantación agrícola desde el primer grado. Puede mejorar la tasa de crecimiento y rendimiento de los cultivos, así como aumentar la calidad y el sabor de los mismos. Su uso puede hacer que tus cultivos sean más saludables y prósperos, y hacer que tu producción agrícola sea más eficiente y estable.
-",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -707,7 +707,7 @@ Esta esencia de agricultura y ganadería es una mezcla de varias esencias natura
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia se extrae de la agricultura y la ganadería y se puede utilizar para sintetizar otras materias primas agrícolas.
-",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,0,1,1,1,4,1,1
+",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -722,7 +722,7 @@ Esta esencia de combate es una materia prima utilizada para sintetizar equipos d
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de combate se utiliza para sintetizar equipos de nivel 2, lo que puede mejorar los atributos de combate del equipo. Se sintetiza a partir de materias primas obtenidas durante el combate y es un elemento indispensable en la batalla.
-",0,item-icon-216,216,Esencia de combate de nivel 1,1,0,2,1,1,4,1,1
+",0,item-icon-216,216,Esencia de combate de nivel 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -1071,7 +1071,7 @@ Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, pued
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura un poco de energía
-",0,item-icon-295,295,Poción de Restauración de Energía - Pequeña,1,0,3,1,1,3,1,1
+",0,item-icon-295,295,Poción de Restauración de Energía - Pequeña,1,0,3,"1,0",1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura más energía
@@ -1867,7 +1867,7 @@ Se puede usar para fabricar Poción de Energía.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-482,482,Nv 1 Slime de Energía,1,0,3,1,1,4,1,1
+",0,item-icon-482,482,Nv 1 Slime de Energía,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -2712,7 +2712,7 @@ Este es un tipo de semilla que se puede plantar para cultivar bambú, que es ade
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-693,693,Poder de la Naturaleza Nivel 1,1,0,3,1,1,4,1,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-693,693,Poder de la Naturaleza Nivel 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
@@ -2787,7 +2787,7 @@ El alimento para mascotas es un objeto consumible adecuado para mascotas de nive
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 4.
-",0,item-icon-709,709,Poción de Restauración de Energía Lv 1 2.0,1,0,3,1,1,3,0,1
+",0,item-icon-709,709,Poción de Restauración de Energía Lv 1 2.0,1,0,3,"1,0",1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------

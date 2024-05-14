@@ -2,15 +2,15 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This green slime is a rare raw material that can be used to make various combat equipment. It has extremely strong adhesion and can bond with a variety of materials.",0,item-icon-30,30,Green Slime,1,0,2,1,1,4,1,1
+This green slime is a rare raw material that can be used to make various combat equipment. It has extremely strong adhesion and can bond with a variety of materials.",0,item-icon-30,30,Green Slime,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-Pumpkin vines are a raw material that can be used to make weapons and armor. They have a tough texture and excellent toughness, providing reliable protection and attack power in combat.",0,item-icon-31,31,Pumpkin Vines,1,0,2,1,1,4,1,1
+Pumpkin vines are a raw material that can be used to make weapons and armor. They have a tough texture and excellent toughness, providing reliable protection and attack power in combat.",0,item-icon-31,31,Pumpkin Vines,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This type of wire mesh is a raw material used for combat, which can be used to manufacture defensive structures or equipment with high strength and durability.",0,item-icon-32,32,Wire Mesh ,1,0,2,1,1,4,1,1
+This type of wire mesh is a raw material used for combat, which can be used to manufacture defensive structures or equipment with high strength and durability.",0,item-icon-32,32,Wire Mesh ,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material in the desert.
 It can be used to craft equipment or items.
 -------
@@ -114,7 +114,7 @@ These shoes are crafted with a unique crystal stone design, adding a touch of el
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This stone is of first grade and can be used for collecting raw materials such as trees.",0,item-icon-58,58,Mineral,1,0,3,1,1,4,1,1
+This stone is of first grade and can be used for collecting raw materials such as trees.",0,item-icon-58,58,Mineral,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material in the canyon.
 It can be used to craft equipment or items.
 -------
@@ -126,7 +126,7 @@ This is a tier-three red crystal ore that can be collected in the forest. It is 
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This type of wood is usually used for making simple furniture or building materials. Its texture is relatively soft, making it easy to process and carve.",0,item-icon-62,62,Ordinary Wood,1,0,3,1,1,4,1,1
+This type of wood is usually used for making simple furniture or building materials. Its texture is relatively soft, making it easy to process and carve.",0,item-icon-62,62,Ordinary Wood,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material in the desert.
 It can be used to craft equipment or items.
 -------
@@ -138,15 +138,15 @@ Dark wood is a premium type of wood with black textures and a hard texture, suit
 "1,3,4",1,"You can obtain this type of material through planting.
 It can be used to craft equipment or items.
 -------
-This type of bamboo is an agricultural output and a plant used for making various agricultural raw materials. It is very common in agriculture and can grow very quickly.",0,item-icon-70,70,Bamboo,1,0,1,1,1,4,1,1
+This type of bamboo is an agricultural output and a plant used for making various agricultural raw materials. It is very common in agriculture and can grow very quickly.",0,item-icon-70,70,Bamboo,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this type of material through planting.
 It can be used to craft equipment or items.
 -------
-This item is a raw material produced in agriculture, usually harvestable at Lv 1. Its shape resembles three leaves, hence it is called a clover. It can be used to make many different items and is a very useful resource.",0,item-icon-71,71,Trifolium,1,0,1,1,1,4,1,1
+This item is a raw material produced in agriculture, usually harvestable at Lv 1. Its shape resembles three leaves, hence it is called a clover. It can be used to make many different items and is a very useful resource.",0,item-icon-71,71,Trifolium,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this type of material through planting.
 It can be used to craft equipment or items.
 -------
-This carrot is a level 1 agricultural output that can be obtained in the agricultural field. It is an important raw material.",0,item-icon-72,72,Carrot,1,0,1,1,1,4,1,1
+This carrot is a level 1 agricultural output that can be obtained in the agricultural field. It is an important raw material.",0,item-icon-72,72,Carrot,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this type of material through planting.
 It can be used to craft equipment or items.
 -------
@@ -310,39 +310,39 @@ This nutrient-rich formula deeply nourishes plants, promoting healthy growth and
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-This potion can be used during battles and provides a minor healing effect.",0,item-icon-134,134,Secondary Healing Potion,1,0,2,1,1,3,1,1
+This potion can be used during battles and provides a minor healing effect.",0,item-icon-134,134,Secondary Healing Potion,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-This potion can enhance your attack power.",0,item-icon-135,135,Secondary Attack Potion,1,0,2,1,1,3,1,1
+This potion can enhance your attack power.",0,item-icon-135,135,Secondary Attack Potion,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-This potion enhances your agility, allowing you to move swiftly and dodge attacks with ease. It gives you a temporary burst of speed, making you a formidable force on the battlefield. Use it strategically to outmaneuver your opponents and gain the upper hand in combat.",0,item-icon-136,136,Secondary Movement Speed Potion,1,0,2,1,1,3,1,1
+This potion enhances your agility, allowing you to move swiftly and dodge attacks with ease. It gives you a temporary burst of speed, making you a formidable force on the battlefield. Use it strategically to outmaneuver your opponents and gain the upper hand in combat.",0,item-icon-136,136,Secondary Movement Speed Potion,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-This potion enhances your critical strike chance, allowing you to deal devastating blows to your enemies. It's a must-have for any player looking to maximize their damage output. Use it wisely and watch your foes crumble before you.",0,item-icon-137,137,Secondary Critical Strike Potion,1,0,2,1,1,3,1,1
+This potion enhances your critical strike chance, allowing you to deal devastating blows to your enemies. It's a must-have for any player looking to maximize their damage output. Use it wisely and watch your foes crumble before you.",0,item-icon-137,137,Secondary Critical Strike Potion,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-This potion is a lifeline in the game, providing a much-needed boost to your character's health. It instantly restores a significant amount of HP, allowing you to continue your adventure without interruption. With its vibrant color and refreshing taste, it's the perfect remedy for any dire situation.",0,item-icon-138,138,Secondary Life Potion,1,0,2,1,1,3,1,1
+This potion is a lifeline in the game, providing a much-needed boost to your character's health. It instantly restores a significant amount of HP, allowing you to continue your adventure without interruption. With its vibrant color and refreshing taste, it's the perfect remedy for any dire situation.",0,item-icon-138,138,Secondary Life Potion,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-This potion can provide a temporary defensive effect, suitable for emergency situations in battle.",0,item-icon-139,139,Secondary Defense Potion,1,0,2,1,1,3,1,1
+This potion can provide a temporary defensive effect, suitable for emergency situations in battle.",0,item-icon-139,139,Secondary Defense Potion,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
-This is a type of seed that can be planted to grow bamboo, which is suitable for use in the agricultural field.",97,item-icon-146,146,Bamboo Seed,1,0,1,1,1,3,1,1
+This is a type of seed that can be planted to grow bamboo, which is suitable for use in the agricultural field.",97,item-icon-146,146,Bamboo Seed,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
-Trifolium seeds are agricultural consumables used to plant trifolium and are suitable for use on low-grade land. They can grow rapidly and produce rich nutritional value in suitable environments.",97,item-icon-147,147,Trifolium Seed,1,0,1,1,1,3,1,1
+Trifolium seeds are agricultural consumables used to plant trifolium and are suitable for use on low-grade land. They can grow rapidly and produce rich nutritional value in suitable environments.",97,item-icon-147,147,Trifolium Seed,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
-This type of carrot seeds can be used to grow fresh and delicious carrots. It is suitable for use in home gardens or small farms and can be planted in spring and autumn. The carrots grown from these seeds are tasty and nutritious.",97,item-icon-148,148,Carrot Seed,1,0,1,1,1,3,1,1
+This type of carrot seeds can be used to grow fresh and delicious carrots. It is suitable for use in home gardens or small farms and can be planted in spring and autumn. The carrots grown from these seeds are tasty and nutritious.",97,item-icon-148,148,Carrot Seed,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
@@ -410,7 +410,7 @@ Clay is a highly malleable soil commonly used to make pottery, bricks, and other
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This resin is a highly viscous liquid that can be used to make adhesives, coatings, and sealants, among other things. It is usually collected from trees and requires special tools for collection.",0,item-icon-65,65,Resin,1,0,3,1,1,4,1,1
+This resin is a highly viscous liquid that can be used to make adhesives, coatings, and sealants, among other things. It is usually collected from trees and requires special tools for collection.",0,item-icon-65,65,Resin,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material in the canyon.
 It can be used to craft equipment or items.
 -------
@@ -418,7 +418,7 @@ A perennial herbaceous plant that grows in the wilderness, with strong drought r
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This plant fiber is a collected raw material that is usually obtained from trees. It can be used to make a variety of different items, such as ropes, fabrics, and paper.",0,item-icon-66,66,Plant Fibre,1,0,3,1,1,4,1,1
+This plant fiber is a collected raw material that is usually obtained from trees. It can be used to make a variety of different items, such as ropes, fabrics, and paper.",0,item-icon-66,66,Plant Fibre,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Someone once saw this material on the Snow Mountain.
 It can be used to craft equipment or items.
 -------
@@ -426,7 +426,7 @@ These mushrooms grow in the cold polar regions and have a light blue color. They
 "1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This spider web is level 1 and can be collected in the forest. It is a raw material that can be used to make various items.",0,item-icon-69,69,Cobweb,1,0,3,1,1,4,1,1
+This spider web is level 1 and can be collected in the forest. It is a raw material that can be used to make various items.",0,item-icon-69,69,Cobweb,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime.,0,item-icon-171,171,Ticket #1,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime.,0,item-icon-172,172,Ticket #2,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime,0,item-icon-173,173,Ticket #3,1,0,"1,2,3",999,0,4,0,1
@@ -441,15 +441,15 @@ This item is an organic substance that acts as a fertilizer and can be used in a
 "1,3,4",1,"You can obtain this type of material through breeding.
 It can be used to craft equipment or items.
 -------
-This tender shoot is harvested from cactus and has a light green color and soft texture. It is an important agricultural raw material that can be used to make medicines, food, and beauty products, among others.",0,item-icon-177,177,Cactus Sprout,1,0,1,1,1,4,1,1
+This tender shoot is harvested from cactus and has a light green color and soft texture. It is an important agricultural raw material that can be used to make medicines, food, and beauty products, among others.",0,item-icon-177,177,Cactus Sprout,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this type of material through breeding.
 It can be used to craft equipment or items.
 -------
-This screw was obtained from monster husbandry and can be used as a raw material for agriculture.",0,item-icon-178,178,Screw,1,0,1,1,1,4,1,1
+This screw was obtained from monster husbandry and can be used as a raw material for agriculture.",0,item-icon-178,178,Screw,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this type of material through breeding.
 It can be used to craft equipment or items.
 -------
-Pumpkin sprouts are agricultural raw materials produced from monster breeding, presenting a tender green appearance and being rich in nutrients. They can be used to make a variety of foods and medicines.",0,item-icon-179,179,Pumpkin Sprout,1,0,1,1,1,4,1,1
+Pumpkin sprouts are agricultural raw materials produced from monster breeding, presenting a tender green appearance and being rich in nutrients. They can be used to make a variety of foods and medicines.",0,item-icon-179,179,Pumpkin Sprout,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this type of material through breeding.
 It can be used to craft equipment or items.
 -------
@@ -553,11 +553,11 @@ This agricultural shoe is made of high-quality materials, lightweight and comfor
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-Pet feed is a consumable item that is suitable for level 0 pets, and can increase the pet's satiety and growth value. It is made from natural plants and nutrients, with a refreshing taste and easy digestion and absorption. Each pack of pet feed is lightweight and easy to carry, making it a must-have item for pet owners.",27,item-icon-28,28,Feed - Small,1,0,1,1,1,3,0,1
+Pet feed is a consumable item that is suitable for level 0 pets, and can increase the pet's satiety and growth value. It is made from natural plants and nutrients, with a refreshing taste and easy digestion and absorption. Each pack of pet feed is lightweight and easy to carry, making it a must-have item for pet owners.",27,item-icon-28,28,Feed - Small,1,0,1,"1,0",1,3,0,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-Animal feed is a consumable product that provides the necessary nutrients for animals to maintain healthy growth. It is suitable for various livestock and pets, and can increase their productivity and lifespan.",27,item-icon-29,29,Feed - Big,1,0,1,1,1,3,0,1
+Animal feed is a consumable product that provides the necessary nutrients for animals to maintain healthy growth. It is suitable for various livestock and pets, and can increase their productivity and lifespan.",27,item-icon-29,29,Feed - Big,1,0,1,"1,0",1,3,0,1
 "1,3,4",0,"Farming EXP is an experience value in the game that can be obtained through agricultural activities such as planting crops and raising animals. It is a key factor in improving agricultural skills and levels, and is also a necessary condition for unlocking higher-level agricultural tools and equipment.",0,item-icon-188,188,Farming EXP,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0,"Combat EXP refers to the experience gained in battles. It can help players level up and improve their skills, enhancing their character's abilities. In many games, Combat EXP is one of the important ways for players to improve their strength.",0,item-icon-189,189,Combat EXP,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0,"Gathering EXP is a key resource in the game, playing a vital role in boosting resource collection efficiency and character capabilities. Players accumulate experience through activities such as logging and mining to increase gathering skill levels. Skill levels determine collection speed, rare resource acquisition probability, and unlocking of higher-level skills. As the game progresses, character needs become more complex, making high gathering skills essential for support. Additionally, elevated gathering experience also contributes to enhanced attack abilities. Players should continuously learn skills and improve gathering experience to bravely face challenges and rise among the strongest",0,item-icon-190,190,Gathering EXP,1,0,"1,2,3",999,0,4,0,0
@@ -588,7 +588,7 @@ This potion can add a layer of crystalline protection to your defense, making yo
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
-This essence is collected from trees and can be used to produce various raw materials and synthetic substances.",0,item-icon-207,207,Lv 1 Gather Essence,1,0,3,1,1,4,1,1
+This essence is collected from trees and can be used to produce various raw materials and synthetic substances.",0,item-icon-207,207,Lv 1 Gather Essence,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
@@ -600,7 +600,7 @@ This item is an essence used to collect raw materials for synthesis, and require
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
-This agricultural planting essence is carefully synthesized from high-quality agricultural raw materials and is suitable for agricultural planting from grade one. It can improve the growth rate and yield of crops, as well as increase the quality and taste of crops. Using it can make your crops healthier and more prosperous, and make your agricultural production more efficient and stable.",0,item-icon-210,210,Lv 1 Agricultural Planting Essence,1,0,1,1,1,4,1,1
+This agricultural planting essence is carefully synthesized from high-quality agricultural raw materials and is suitable for agricultural planting from grade one. It can improve the growth rate and yield of crops, as well as increase the quality and taste of crops. Using it can make your crops healthier and more prosperous, and make your agricultural production more efficient and stable.",0,item-icon-210,210,Lv 1 Agricultural Planting Essence,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
@@ -612,7 +612,7 @@ This agricultural planting essence is a mixture of various precious plant essenc
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
-This agricultural and animal husbandry essence is a mixture of various natural plant and animal essences, which can improve the production efficiency and yield of agriculture and animal husbandry. It is rich in nutritional components and bioactive substances, which can promote the healthy growth of crops and livestock.",0,item-icon-213,213,Lv 1 Agricultural Livestock Essence,1,0,1,1,1,4,1,1
+This agricultural and animal husbandry essence is a mixture of various natural plant and animal essences, which can improve the production efficiency and yield of agriculture and animal husbandry. It is rich in nutritional components and bioactive substances, which can promote the healthy growth of crops and livestock.",0,item-icon-213,213,Lv 1 Agricultural Livestock Essence,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
@@ -624,7 +624,7 @@ This essence is extracted from high-quality agricultural and livestock products,
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
-This essence of combat is a raw material used to synthesize higher level equipment, possessing powerful combat abilities and suitable for battles at level 1.",0,item-icon-216,216,Lv 1 Combat Essence,1,0,2,1,1,4,1,1
+This essence of combat is a raw material used to synthesize higher level equipment, possessing powerful combat abilities and suitable for battles at level 1.",0,item-icon-216,216,Lv 1 Combat Essence,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
@@ -904,7 +904,7 @@ If you are worried about being chased by monsters, this bow is perfect for you, 
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-Restore a little energy",0,item-icon-295,295,Energy Restoration Potion - Small,1,0,3,1,1,3,1,1
+Restore a little energy",0,item-icon-295,295,Energy Restoration Potion - Small,1,0,3,"1,0",1,3,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
@@ -1612,7 +1612,7 @@ It can be used to exchange LUAG Future(100).",0,item-icon-480,480,LUAG Future(N)
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
-Made from various materials and containing strong energy fluctuations, it can be reprocessed into various props",0,item-icon-482,482,Lv 1 Energy Slime,1,0,3,1,1,4,1,1
+Made from various materials and containing strong energy fluctuations, it can be reprocessed into various props",0,item-icon-482,482,Lv 1 Energy Slime,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
@@ -2295,7 +2295,7 @@ Lv 1 Totem Test Seed: A small seed infused with ancient magic, ready to be plant
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
-It contains a strong natural force. Can be used on pets.",0,item-icon-693,693,Lv 1 Power of Nature,1,0,3,1,1,4,1,1
+It contains a strong natural force. Can be used on pets.",0,item-icon-693,693,Lv 1 Power of Nature,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"You can obtain this item through synthesis.
 It can be used to craft equipment or items.
 -------
@@ -2359,7 +2359,7 @@ Pet feed is a consumable item that is suitable for level 0 pets, and can increas
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-Restore energy - 4.",0,item-icon-709,709,Lv 1 Energy Restoration Potion 2.0 ,1,0,3,1,1,3,0,1
+Restore energy - 4.",0,item-icon-709,709,Lv 1 Energy Restoration Potion 2.0 ,1,0,3,"1,0",1,3,0,1
 "1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------

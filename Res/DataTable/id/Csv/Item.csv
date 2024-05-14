@@ -3,17 +3,17 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Lendir hijau ini adalah bahan mentah langka yang dapat digunakan untuk membuat berbagai peralatan tempur. Ia memiliki daya rekat yang sangat kuat dan dapat melekat pada berbagai bahan.
-",0,item-icon-30,30,lendir hijau,1,0,2,1,1,4,1,1
+",0,item-icon-30,30,lendir hijau,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Tanaman merambat labu adalah bahan mentah yang dapat digunakan untuk membuat senjata dan baju besi. Mereka memiliki tekstur yang kuat dan keuletan yang baik, memberikan perlindungan dan kekuatan serangan yang handal dalam pertempuran.
-",0,item-icon-31,31,tanaman merambat labu,1,0,2,1,1,4,1,1
+",0,item-icon-31,31,tanaman merambat labu,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Jaring kawat ini adalah bahan mentah yang digunakan untuk pertempuran, yang dapat digunakan untuk memproduksi struktur pertahanan atau peralatan dengan kekuatan dan daya tahan tinggi.
-",0,item-icon-32,32,kawat berduri,1,0,2,1,1,4,1,1
+",0,item-icon-32,32,kawat berduri,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di gurun.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
@@ -144,7 +144,7 @@ Bahan ini dapat digunakan untuk membuat peralatan atau item.
 
 -------
 Batu ini adalah batu kelas satu dan dapat digunakan untuk mengumpulkan bahan mentah seperti pohon.
-",0,item-icon-58,58,Batu,1,0,3,1,1,4,1,1
+",0,item-icon-58,58,Batu,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Seseorang pernah melihat bahan ini di kanyon.
 Bahan ini dapat digunakan untuk membuat peralatan atau item.
 
@@ -161,7 +161,7 @@ Ini adalah bijih kristal merah tingkat tiga yang dapat dikumpulkan di hutan. Ini
 Bahan ini dapat digunakan untuk membuat peralatan atau item.
 
 -------
-Jenis kayu ini biasanya digunakan untuk membuat perabotan sederhana atau bahan bangunan. Teksturnya relatif lunak, sehingga mudah untuk diproses dan diukir.",0,item-icon-62,62,kayu biasa,1,0,3,1,1,4,1,1
+Jenis kayu ini biasanya digunakan untuk membuat perabotan sederhana atau bahan bangunan. Teksturnya relatif lunak, sehingga mudah untuk diproses dan diukir.",0,item-icon-62,62,kayu biasa,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di gurun.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
@@ -176,17 +176,17 @@ Kayu gelap adalah jenis kayu premium dengan tekstur hitam dan tekstur yang keras
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
 Bambu ini adalah hasil pertanian dan tanaman yang digunakan untuk membuat berbagai bahan mentah pertanian. Ini sangat umum dalam pertanian dan dapat tumbuh dengan sangat cepat.
-",0,item-icon-70,70,bambu,1,0,1,1,1,4,1,1
+",0,item-icon-70,70,bambu,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
 Ini adalah bahan mentah yang diproduksi dalam pertanian, biasanya dapat dipanen pada Lv 1. Bentuknya menyerupai tiga daun, oleh karena itu disebut semanggi. Ini dapat digunakan untuk membuat banyak barang yang berbeda dan merupakan sumber daya yang sangat berguna.
-",0,item-icon-71,71,semanggi,1,0,1,1,1,4,1,1
+",0,item-icon-71,71,semanggi,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
 Wortel ini adalah hasil pertanian level 1 yang dapat diperoleh di lapangan pertanian. Ini adalah bahan baku penting.
-",0,item-icon-72,72,wortel,1,0,1,1,1,4,1,1
+",0,item-icon-72,72,wortel,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui penanaman.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
@@ -394,47 +394,47 @@ Formula kaya nutrisi ini memberi makan tanaman secara mendalam, mempromosikan pe
 Menggunakannya dapat memicu efek khusus.
 -------
 Ramuan ini dapat digunakan selama pertempuran dan memberikan efek penyembuhan yang kecil.
-",0,item-icon-134,134,Ramuan Penyembuhan Kecil,1,0,2,1,1,3,1,1
+",0,item-icon-134,134,Ramuan Penyembuhan Kecil,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Ramuan ini dapat meningkatkan kekuatan serangan Anda.
-",0,item-icon-135,135,Ramuan Serangan Kedua,1,0,2,1,1,3,1,1
+",0,item-icon-135,135,Ramuan Serangan Kedua,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Ramuan ini meningkatkan kecepatan dan ketangkasan Anda, memungkinkan Anda bergerak dengan cepat dan menghindari serangan dengan mudah. Ini memberikan lonjakan kecepatan sementara, membuat Anda menjadi kekuatan yang tangguh di medan perang. Gunakan dengan strategi untuk mengalahkan lawan dan mendapatkan keunggulan dalam pertempuran.
-",0,item-icon-136,136,Ramuan Kecepatan,1,0,2,1,1,3,1,1
+",0,item-icon-136,136,Ramuan Kecepatan,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Ramuan ini meningkatkan peluang serangan kritis Anda, memungkinkan Anda memberikan serangan yang menghancurkan kepada musuh. Ini adalah keharusan bagi setiap pemain yang ingin memaksimalkan output kerusakan mereka. Gunakan dengan bijak dan saksikan musuh Anda hancur di hadapan Anda.
-",0,item-icon-137,137,Ramuan serangan kritis kedua,1,0,2,1,1,3,1,1
+",0,item-icon-137,137,Ramuan serangan kritis kedua,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Ramuan ini adalah penyelamat dalam permainan, memberikan dorongan yang sangat dibutuhkan pada kesehatan karakter Anda. Ini dengan cepat mengembalikan sejumlah besar HP, memungkinkan Anda melanjutkan petualangan tanpa gangguan. Dengan warna yang cerah dan rasa yang menyegarkan, ini adalah obat yang sempurna untuk situasi yang genting.
-",0,item-icon-138,138,Ramuan Kehidupan Kedua,1,0,2,1,1,3,1,1
+",0,item-icon-138,138,Ramuan Kehidupan Kedua,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Ramuan ini dapat memberikan efek pertahanan sementara, cocok untuk situasi darurat dalam pertempuran.
-",0,item-icon-139,139,Ramuan Pertahanan Kecil,1,0,2,1,1,3,1,1
+",0,item-icon-139,139,Ramuan Pertahanan Kecil,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
 Menggunakannya dapat memicu efek khusus.
 -------
 Ini adalah jenis benih yang dapat ditanam untuk tumbuh menjadi bambu, yang cocok untuk digunakan di bidang pertanian.
-",97,item-icon-146,146,benih bambu,1,0,1,1,1,3,1,1
+",97,item-icon-146,146,benih bambu,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
 Menggunakannya dapat memicu efek khusus.
 -------
 Benih trifolium adalah bahan pertanian yang digunakan untuk menanam trifolium dan cocok untuk digunakan di lahan kelas rendah. Mereka dapat tumbuh dengan cepat dan menghasilkan nilai gizi yang kaya dalam lingkungan yang sesuai.
-",97,item-icon-147,147,biji semanggi,1,0,1,1,1,3,1,1
+",97,item-icon-147,147,biji semanggi,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
 Menggunakannya dapat memicu efek khusus.
 -------
 Benih wortel ini dapat digunakan untuk menanam wortel segar dan lezat. Cocok untuk digunakan di kebun rumah atau peternakan kecil dan dapat ditanam pada musim semi dan musim gugur. Wortel yang tumbuh dari benih ini enak dan bergizi.
-",97,item-icon-148,148,biji wortel,1,0,1,1,1,3,1,1
+",97,item-icon-148,148,biji wortel,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"Mengumpulkan bahan dengan tingkat yang sama dapat menghasilkan benih tambahan, Membunuh monster dengan tingkat yang sama dapat menghasilkan item ini.
 Menggunakannya dapat memicu efek khusus.
 -------
@@ -521,7 +521,7 @@ Tanah liat adalah tanah yang sangat mudah dibentuk yang biasa digunakan untuk me
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
 Resin ini adalah cairan kental yang sangat viskos yang dapat digunakan untuk membuat perekat, lapisan, dan sealant, antara lain. Biasanya dikumpulkan dari pohon dan membutuhkan alat khusus untuk pengumpulan.
-",0,item-icon-65,65,Damar,1,0,3,1,1,4,1,1
+",0,item-icon-65,65,Damar,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di kanyon.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
@@ -531,7 +531,7 @@ Tanaman tahunan yang tumbuh di alam liar, dengan ketahanan kekeringan yang kuat.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
 Serat tanaman ini adalah bahan mentah yang dikumpulkan yang biasanya diperoleh dari pohon. Ini dapat digunakan untuk membuat berbagai macam barang, seperti tali, kain, dan kertas.
-",0,item-icon-66,66,serat tumbuhan,1,0,3,1,1,4,1,1
+",0,item-icon-66,66,serat tumbuhan,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di Gunung Salju.
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
@@ -541,7 +541,7 @@ Jamur ini tumbuh di daerah kutub yang dingin dan memiliki warna biru terang. Mer
 Bahan ini dapat digunakan untuk membuat peralatan atau barang.
 -------
 Jaring laba-laba ini level 1 dan dapat dikumpulkan di hutan. Ini adalah bahan mentah yang dapat digunakan untuk membuat berbagai macam barang.
-",0,item-icon-69,69,jaring laba-laba,1,0,3,1,1,4,1,1
+",0,item-icon-69,69,jaring laba-laba,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Tiket ini memberi Anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
 ",0,item-icon-171,171,Tiket #1,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1," Tiket ini memberi Anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
@@ -565,19 +565,19 @@ Ini dapat digunakan untuk membuat peralatan atau item.
 
 -------
 Tunas yang lembut ini dipanen dari kaktus dan memiliki warna hijau muda dan tekstur lembut. Ini adalah bahan baku pertanian penting yang dapat digunakan untuk membuat obat-obatan, makanan, dan produk kecantikan, antara lain.
-",0,item-icon-177,177,kecambah kaktus,1,0,1,1,1,4,1,1
+",0,item-icon-177,177,kecambah kaktus,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis material ini melalui perkawinan.
 Ini dapat digunakan untuk membuat peralatan atau item.
 
 -------
 Baut ini diperoleh dari pemeliharaan monster dan dapat digunakan sebagai bahan baku untuk pertanian.
-",0,item-icon-178,178,baut,1,0,1,1,1,4,1,1
+",0,item-icon-178,178,baut,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis material ini melalui perkawinan.
 Ini dapat digunakan untuk membuat peralatan atau item.
 
 -------
 Kecambah labu adalah bahan baku pertanian yang dihasilkan dari perkawinan monster, memiliki penampilan hijau lembut dan kaya akan nutrisi. Mereka dapat digunakan untuk membuat berbagai makanan dan obat-obatan.
-",0,item-icon-179,179,kecambah labu,1,0,1,1,1,4,1,1
+",0,item-icon-179,179,kecambah labu,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis material ini melalui perkawinan.
 Ini dapat digunakan untuk membuat peralatan atau item.
 
@@ -660,12 +660,12 @@ Tanaman ini tampaknya telah membusuk dan tidak lagi dapat dimakan. Ini mungkin d
 Menggunakannya dapat memicu efek khusus.
 -------
 Pakan hewan peliharaan adalah item habis pakai yang cocok untuk hewan peliharaan level 0, dan dapat meningkatkan kenyang dan nilai pertumbuhan hewan peliharaan. Terbuat dari tanaman alami dan nutrisi, dengan rasa yang segar dan mudah dicerna dan diserap. Setiap bungkus pakan hewan peliharaan ringan dan mudah dibawa, menjadikannya item yang wajib dimiliki oleh pemilik hewan peliharaan.
-",27,item-icon-28,28,pakan kecil,1,0,1,1,1,3,0,1
+",27,item-icon-28,28,pakan kecil,1,0,1,"1,0",1,3,0,1
 "1,3,4",1," Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Pakan hewan adalah produk habis pakai yang menyediakan nutrisi yang diperlukan bagi hewan untuk menjaga pertumbuhan yang sehat. Cocok untuk berbagai ternak dan hewan peliharaan, dan dapat meningkatkan produktivitas dan umur panjang mereka.
-",27,item-icon-29,29,pakan besar,1,0,1,1,1,3,0,1
+",27,item-icon-29,29,pakan besar,1,0,1,"1,0",1,3,0,1
 "1,3,4",0," Farming EXP adalah nilai pengalaman dalam permainan yang dapat diperoleh melalui kegiatan pertanian seperti menanam tanaman dan memelihara hewan. Ini adalah faktor kunci dalam meningkatkan keterampilan dan tingkat pertanian, dan juga merupakan syarat yang diperlukan untuk membuka alat dan peralatan pertanian tingkat lebih tinggi.
 ",0,item-icon-188,188,EXP Pertanian,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0," Combat EXP mengacu pada pengalaman yang diperoleh dalam pertempuran. Ini dapat membantu pemain naik level dan meningkatkan keterampilan mereka, meningkatkan kemampuan karakter mereka. Dalam banyak permainan, Combat EXP adalah salah satu cara penting bagi pemain untuk meningkatkan kekuatan mereka.
@@ -690,7 +690,7 @@ Menggunakannya dapat memicu efek khusus.
 "1,3,4",1," Elixir yang kuat ini mengembalikan vitalitas dan menyegarkan petualang yang lelah, memberikan lonjakan energi dan sifat penyembuhan. Ramuan berharga ini adalah tali pengaman dalam situasi yang sulit, menawarkan dorongan cepat dan menyegarkan untuk terus maju di tengah bahaya.
 ",0,item-icon-197,197,Ramuan Pertahanan Kristal,1,0,2,3,1,3,3,1
 "1,3,4",1," Potion ini dapat menambahkan lapisan perlindungan kristal pada pertahanan Anda, membuat Anda lebih tak terkalahkan dalam pertempuran.
-",0,item-icon-207,207,Kumpulkan Esensi,1,0,3,1,1,4,1,1
+",0,item-icon-207,207,Kumpulkan Esensi,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Esensi ini dikumpulkan dari pohon dan dapat digunakan untuk menghasilkan berbagai bahan baku dan zat sintetis.
 
 ",0,item-icon-208,208,Kumpulkan Esensi,1,0,3,2,1,4,2,1
@@ -703,7 +703,7 @@ Item ini adalah esensi yang digunakan untuk mengumpulkan bahan baku untuk sintes
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Esensi penanaman pertanian ini disintesis dengan hati-hati dari bahan baku pertanian berkualitas tinggi dan cocok untuk penanaman pertanian dari tingkat satu. Ini dapat meningkatkan tingkat pertumbuhan dan hasil panen tanaman, serta meningkatkan kualitas dan rasa tanaman. Menggunakannya dapat membuat tanaman Anda lebih sehat dan makmur, dan membuat produksi pertanian Anda lebih efisien dan stabil.
-",0,item-icon-210,210,Esensi Penanaman Pertanian,1,0,1,1,1,4,1,1
+",0,item-icon-210,210,Esensi Penanaman Pertanian,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
@@ -718,7 +718,7 @@ Esensi penanaman pertanian ini adalah campuran dari berbagai esensi tanaman berh
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Esensi pertanian dan peternakan ini adalah campuran dari berbagai esensi tanaman dan hewan alami, yang dapat meningkatkan efisiensi produksi dan hasil pertanian dan peternakan. Kaya akan komponen nutrisi dan zat bioaktif, yang dapat mempromosikan pertumbuhan yang sehat pada tanaman dan hewan ternak.
-",0,item-icon-213,213,Esensi Peternakan Pertanian,1,0,1,1,1,4,1,1
+",0,item-icon-213,213,Esensi Peternakan Pertanian,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
@@ -733,7 +733,7 @@ Esensi ini diekstraksi dari produk pertanian dan peternakan berkualitas tinggi, 
 Menggunakannya dapat memicu efek khusus.
 -------
 Esensi pertempuran ini adalah bahan baku yang digunakan untuk mensintesis peralatan level yang lebih tinggi, memiliki kemampuan pertempuran yang kuat dan cocok untuk pertempuran level 1.
-",0,item-icon-216,216,esensi pejuang,1,0,2,1,1,4,1,1
+",0,item-icon-216,216,esensi pejuang,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
@@ -1086,7 +1086,7 @@ Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan sedikit energi
 ",0,item-icon-295,295,"Ramuan Restorasi Energi - Kecil
-",1,0,3,1,1,3,1,1
+",1,0,3,"1,0",1,3,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
@@ -2070,7 +2070,7 @@ Ini dapat digunakan untuk membuat Energy Potion.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Terbuat dari berbagai bahan dan mengandung fluktuasi energi yang kuat, dapat diolah menjadi berbagai properti.
-",0,item-icon-482,482,Lv 1 Slime Energi,1,0,3,1,1,4,1,1
+",0,item-icon-482,482,Lv 1 Slime Energi,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
@@ -2929,7 +2929,7 @@ Ini adalah jenis benih yang dapat ditanam untuk tumbuh menjadi bambu, yang cocok
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
 Ini mengandung kekuatan alam yang kuat. Dapat digunakan pada hewan peliharaan.
-",0,item-icon-693,693,Kekuatan Alam Lv 1,1,0,3,1,1,4,1,1
+",0,item-icon-693,693,Kekuatan Alam Lv 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh item ini melalui sintesis.
 Ini dapat digunakan untuk membuat peralatan atau item.
 -------
@@ -3020,7 +3020,7 @@ Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan energi - 4.
 ",0,item-icon-709,709,"Lv 1 Minuman Pemulihan Energi 2.0
-",1,0,3,1,1,3,0,1
+",1,0,3,"1,0",1,3,0,1
 "1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------

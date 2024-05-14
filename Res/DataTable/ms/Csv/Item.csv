@@ -3,17 +3,17 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 Ia boleh digunakan untuk membuat peralatan atau item.
 -------
 Slime hijau ini adalah bahan mentah yang jarang dan boleh digunakan untuk membuat pelbagai peralatan pertempuran. Ia mempunyai kelekat yang sangat kuat dan boleh melekat dengan pelbagai bahan.
-",0,item-icon-30,30,Slime Hijau Tingkat 1,1,0,2,1,1,4,1,1
+",0,item-icon-30,30,Slime Hijau Tingkat 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
 Ia boleh digunakan untuk membuat peralatan atau item.
 -------
 Pokok labu adalah bahan mentah yang boleh digunakan untuk membuat senjata dan baju zirah. Ia mempunyai tekstur yang kuat dan kekuatan yang sangat baik, memberikan perlindungan dan kekuatan serangan yang boleh diandalkan dalam pertempuran.
-",0,item-icon-31,31,Pokok Labu Tingkat 1,1,0,2,1,1,4,1,1
+",0,item-icon-31,31,Pokok Labu Tingkat 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
 Ia boleh digunakan untuk membuat peralatan atau item.
 -------
 Wire Mesh jenis ini adalah bahan mentah yang digunakan untuk pertempuran, yang boleh digunakan untuk membuat struktur pertahanan atau peralatan dengan kekuatan dan ketahanan yang tinggi.
-",0,item-icon-32,32,Rangka Kawat Tingkat 1,1,0,2,1,1,4,1,1
+",0,item-icon-32,32,Rangka Kawat Tingkat 1,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di padang pasir.
 Ia boleh digunakan untuk membuat peralatan atau item.
 -------
@@ -144,7 +144,7 @@ Ia boleh digunakan untuk membuat peralatan atau barang.
 
 -------
 Batu ini adalah darjah pertama dan boleh digunakan untuk mengumpul bahan mentah seperti pokok.
-",0,item-icon-58,58,Mineral Tingkat 1,1,0,3,1,1,4,1,1
+",0,item-icon-58,58,Mineral Tingkat 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di ngarai.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 
@@ -161,7 +161,7 @@ Ini adalah bijih kristal merah peringkat tiga yang boleh dikumpul di hutan. Ia a
 Ia boleh digunakan untuk membuat peralatan atau barang.
 
 -------
-Jenis kayu ini biasanya digunakan untuk membuat perabot atau bahan binaan yang mudah. Teksturnya agak lembut, menjadikannya mudah untuk diproses dan diukir.",0,item-icon-62,62,Kayu Biasa Tingkat 1,1,0,3,1,1,4,1,1
+Jenis kayu ini biasanya digunakan untuk membuat perabot atau bahan binaan yang mudah. Teksturnya agak lembut, menjadikannya mudah untuk diproses dan diukir.",0,item-icon-62,62,Kayu Biasa Tingkat 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di padang pasir. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Pokok padang pasir adalah jenis pokok yang tumbuh di padang pasir. Biasanya mereka rendah, dengan batang yang tebal dan daun hijau terang. Mereka boleh digunakan untuk mengumpul bahan mentah dan sesuai untuk membuat beberapa barang istimewa.
@@ -173,15 +173,15 @@ Kayu gelap adalah jenis kayu premium dengan tekstur hitam dan tekstur yang keras
 "1,3,4",1," Anda boleh mendapatkan jenis bahan ini melalui penanaman. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Jenis buluh ini adalah hasil pertanian dan tumbuhan yang digunakan untuk membuat pelbagai bahan mentah pertanian. Ia sangat biasa dalam pertanian dan boleh tumbuh dengan sangat cepat.
-",0,item-icon-70,70,Buluh Tingkat 1,1,0,1,1,1,4,1,1
+",0,item-icon-70,70,Buluh Tingkat 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda boleh mendapatkan jenis bahan ini melalui penanaman. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Item ini adalah bahan mentah yang dihasilkan dalam pertanian, biasanya boleh dituai pada Lv 1. Bentuknya menyerupai tiga daun, oleh itu ia dipanggil semanggi. Ia boleh digunakan untuk membuat pelbagai barang dan merupakan sumber yang sangat berguna.
-",0,item-icon-71,71,Trifolium Tingkat 1,1,0,1,1,1,4,1,1
+",0,item-icon-71,71,Trifolium Tingkat 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda boleh mendapatkan jenis bahan ini melalui penanaman. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Lobak merah ini adalah hasil pertanian peringkat 1 yang boleh diperoleh di ladang pertanian. Ia adalah bahan mentah penting.
-",0,item-icon-72,72,Lobak Tingkat 1,1,0,1,1,1,4,1,1
+",0,item-icon-72,72,Lobak Tingkat 1,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda boleh mendapatkan jenis bahan ini melalui penanaman. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Pokok bekas air adalah jenis tumbuhan yang unik yang boleh menarik dan menangkap serangga sebagai sumber makanan. Ia dianggap sebagai salah satu hasil pertanian dan boleh digunakan sebagai bahan mentah dalam bidang pertanian.
@@ -383,47 +383,47 @@ Formula yang kaya dengan nutrien ini memberi makan tanaman dengan mendalam, meng
 Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini boleh digunakan semasa pertempuran dan memberikan kesan penyembuhan yang kecil.
-",0,item-icon-134,134,Potion Kehidupan Sekunder Tingkat 0,1,0,2,1,1,3,1,1
+",0,item-icon-134,134,Potion Kehidupan Sekunder Tingkat 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini dapat meningkatkan kekuatan serangan anda.
-",0,item-icon-135,135,Potion Pertahanan Sekunder Tingkat 0,1,0,2,1,1,3,1,1
+",0,item-icon-135,135,Potion Pertahanan Sekunder Tingkat 0,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini meningkatkan kecekapan anda, membolehkan anda bergerak dengan cepat dan mengelak serangan dengan mudah. Ia memberikan lonjakan kelajuan sementara, menjadikan anda kuat di medan perang. Gunakannya secara strategik untuk mengalahkan lawan anda dan mendapatkan kelebihan dalam pertempuran.
-",0,item-icon-136,136,Potion Rawatan Tingkat 1,1,0,2,1,1,3,1,1
+",0,item-icon-136,136,Potion Rawatan Tingkat 1,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini meningkatkan peluang serangan kritikal anda, membolehkan anda memberikan pukulan yang dahsyat kepada musuh anda. Ia adalah keperluan untuk mana-mana pemain yang ingin memaksimumkan output kerosakan mereka. Gunakannya dengan bijak dan saksikan musuh anda hancur di hadapan anda.
-",0,item-icon-137,137,Potion Serangan Tingkat 1,1,0,2,1,1,3,1,1
+",0,item-icon-137,137,Potion Serangan Tingkat 1,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini adalah penyelamat dalam permainan, memberikan peningkatan yang sangat diperlukan kepada kesihatan watak anda. Ia dengan serta-merta mengembalikan jumlah HP yang signifikan, membolehkan anda meneruskan pengembaraan anda tanpa gangguan. Dengan warna yang mencolok dan rasa yang menyegarkan, ia adalah ubat yang sempurna untuk situasi yang genting.
-",0,item-icon-138,138,Potion Kelajuan Tingkat 1,1,0,2,1,1,3,1,1
+",0,item-icon-138,138,Potion Kelajuan Tingkat 1,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini dapat memberikan kesan pertahanan sementara, sesuai untuk situasi kecemasan dalam pertempuran.
-",0,item-icon-139,139,Potion Serangan Kritikal Tingkat 1,1,0,2,1,1,3,1,1
+",0,item-icon-139,139,Potion Serangan Kritikal Tingkat 1,1,0,2,"1,0",1,3,1,1
 "1,3,4",1," Mengumpul bahan-bahan pada tahap yang sama boleh menghasilkan biji tambahan, membunuh raksasa pada tahap yang sama boleh menghasilkan item ini.
 Menggunakannya boleh memicu kesan khas.
 -------
 Ini adalah jenis biji yang boleh ditanam untuk menanam buluh, yang sesuai untuk digunakan dalam bidang pertanian.
-",97,item-icon-146,146,Biji Kapas Tingkat 2,1,0,1,1,1,3,1,1
+",97,item-icon-146,146,Biji Kapas Tingkat 2,1,0,1,"1,0",1,3,1,1
 "1,3,4",1," Mengumpul bahan-bahan pada tahap yang sama boleh menghasilkan biji tambahan, membunuh raksasa pada tahap yang sama boleh menghasilkan item ini.
 Menggunakannya boleh memicu kesan khas.
 -------
 Biji trifolium adalah bahan pertanian yang digunakan untuk menanam trifolium dan sesuai untuk digunakan di tanah gred rendah. Ia boleh tumbuh dengan cepat dan menghasilkan nilai pemakanan yang kaya dalam persekitaran yang sesuai.
-",97,item-icon-147,147,Biji Kaktus Tingkat 2,1,0,1,1,1,3,1,1
+",97,item-icon-147,147,Biji Kaktus Tingkat 2,1,0,1,"1,0",1,3,1,1
 "1,3,4",1," Mengumpul bahan-bahan pada tahap yang sama boleh menghasilkan biji tambahan, membunuh raksasa pada tahap yang sama boleh menghasilkan item ini.
 Menggunakannya boleh memicu kesan khas.
 -------
 Jenis biji lobak merah ini boleh digunakan untuk menanam lobak yang segar dan lazat. Ia sesuai untuk digunakan dalam taman rumah atau ladang kecil dan boleh ditanam pada musim bunga dan musim luruh. Lobak yang tumbuh dari biji ini adalah lazat dan berkhasiat.
-",97,item-icon-148,148,Biji Cili Pedas Meletup Tingkat 3,1,0,1,1,1,3,1,1
+",97,item-icon-148,148,Biji Cili Pedas Meletup Tingkat 3,1,0,1,"1,0",1,3,1,1
 "1,3,4",1," Mengumpul bahan-bahan pada tahap yang sama boleh menghasilkan biji tambahan, membunuh raksasa pada tahap yang sama boleh menghasilkan item ini.
 Menggunakannya boleh memicu kesan khas.
 -------
@@ -509,7 +509,7 @@ Tanah liat adalah tanah yang sangat boleh dibentuk yang biasanya digunakan untuk
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Resin ini adalah cecair yang sangat pekat yang boleh digunakan untuk membuat pelekat, lapisan, dan pengekalan, antara lain. Biasanya dikumpul dari pokok dan memerlukan alat khusus untuk pengumpulan.
-",0,item-icon-65,65,Resin Tingkat 1,1,0,3,1,1,4,1,1
+",0,item-icon-65,65,Resin Tingkat 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di ngarai. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Tumbuhan herba tahunan ini tumbuh di kawasan liar, dengan ketahanan kekeringan yang kuat. Daunnya yang tebal mengandungi air dan nutrien yang mencukupi, menjadikannya bahan mentah penting untuk membuat minuman keras dan ubat-ubatan.
@@ -517,7 +517,7 @@ Tumbuhan herba tahunan ini tumbuh di kawasan liar, dengan ketahanan kekeringan y
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Serat tumbuhan ini adalah bahan mentah yang dikumpul biasanya dari pokok. Ia boleh digunakan untuk membuat pelbagai jenis barang, seperti tali, kain, dan kertas.
-",0,item-icon-66,66,Serat Tumbuhan Tingkat 1,1,0,3,1,1,4,1,1
+",0,item-icon-66,66,Serat Tumbuhan Tingkat 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Seseorang pernah melihat bahan ini di Gunung Salji. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Cendawan biru ini tumbuh di kawasan kutub yang sejuk dan mempunyai warna biru terang. Ia mempunyai rasa yang lazat dan sesuai untuk dimasak.
@@ -525,7 +525,7 @@ Cendawan biru ini tumbuh di kawasan kutub yang sejuk dan mempunyai warna biru te
 "1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Rangkaian labah-labah ini adalah tahap 1 dan boleh dikumpul di hutan. Ia adalah bahan mentah yang boleh digunakan untuk membuat pelbagai barang.
-",0,item-icon-69,69,Jaring Labah-Labah Tingkat 1,1,0,3,1,1,4,1,1
+",0,item-icon-69,69,Jaring Labah-Labah Tingkat 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1," Tiket ini memberi anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
 ",0,item-icon-171,171,Tanaman Lapuk Tingkat 0,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1," Tiket ini memberi anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
@@ -549,19 +549,19 @@ Bahan ini adalah zat organik yang berfungsi sebagai baja dan dapat digunakan dal
 -------
 
 Pucuk yang lembut ini dipanen dari kaktus dan memiliki warna hijau muda dan tekstur lembut. Ini adalah bahan baku pertanian penting yang dapat digunakan untuk membuat obat-obatan, makanan, dan produk kecantikan, antara lain.
-",0,item-icon-177,177,Daun Raksasa Rumput Tingkat 2,1,0,1,1,1,4,1,1
+",0,item-icon-177,177,Daun Raksasa Rumput Tingkat 2,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui pembiakan. Ini dapat digunakan untuk membuat peralatan atau barang.
 
 -------
 
 Skru ini diperoleh dari pemeliharaan monster dan dapat digunakan sebagai bahan baku untuk pertanian.
-",0,item-icon-178,178,Madu Tingkat 2,1,0,1,1,1,4,1,1
+",0,item-icon-178,178,Madu Tingkat 2,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui pembiakan. Ini dapat digunakan untuk membuat peralatan atau barang.
 
 -------
 
 Pucuk labu adalah bahan baku pertanian yang dihasilkan dari pembiakan monster, memiliki penampilan hijau lembut dan kaya akan nutrisi. Mereka dapat digunakan untuk membuat berbagai makanan dan obat-obatan.
-",0,item-icon-179,179,Bulu Bayangan Tingkat 3,1,0,1,1,1,4,1,1
+",0,item-icon-179,179,Bulu Bayangan Tingkat 3,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui pembiakan. Ini dapat digunakan untuk membuat peralatan atau barang.
 
 -------
@@ -644,12 +644,12 @@ Tanaman ini tampaknya telah membusuk dan tidak lagi dapat dimakan. Ini mungkin d
 Menggunakannya boleh mencetuskan kesan khas.
 -------
 Makanan haiwan peliharaan adalah item yang boleh dikonsumsi yang sesuai untuk haiwan peliharaan tahap 0, dan boleh meningkatkan kenyang dan nilai pertumbuhan haiwan peliharaan. Ia diperbuat daripada tumbuhan semulajadi dan nutrien, dengan rasa yang menyegarkan dan pencernaan serta penyerapan yang mudah. Setiap pek makanan haiwan peliharaan adalah ringan dan mudah dibawa, menjadikannya item wajib bagi pemilik haiwan peliharaan.
-",27,item-icon-28,28,Makanan Tingkat 0 - Kecil,1,0,1,1,1,3,0,1
+",27,item-icon-28,28,Makanan Tingkat 0 - Kecil,1,0,1,"1,0",1,3,0,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh mencetuskan kesan khas.
 -------
 Makanan haiwan adalah produk yang boleh dikonsumsi yang menyediakan nutrien yang diperlukan untuk haiwan menjaga pertumbuhan yang sihat. Ia sesuai untuk pelbagai ternakan dan haiwan peliharaan, dan boleh meningkatkan produktiviti dan jangka hayat mereka.
-",27,item-icon-29,29,Makanan Tingkat 0 - Besar,1,0,1,1,1,3,0,1
+",27,item-icon-29,29,Makanan Tingkat 0 - Besar,1,0,1,"1,0",1,3,0,1
 "1,3,4",0," EXP Pertanian adalah nilai pengalaman dalam permainan yang dapat diperoleh melalui kegiatan pertanian seperti menanam tanaman dan memelihara hewan. Ini adalah faktor kunci dalam meningkatkan keterampilan dan tingkat pertanian, dan juga merupakan syarat yang diperlukan untuk membuka alat dan peralatan pertanian tingkat lebih tinggi.
 ",0,item-icon-188,188,Potion Serangan Kristal Tingkat 2,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0," EXP Pertempuran merujuk pada pengalaman yang diperoleh dalam pertempuran. Ini dapat membantu pemain naik level dan meningkatkan keterampilan mereka, meningkatkan kemampuan karakter mereka. Dalam banyak permainan, EXP Pertempuran adalah salah satu cara penting bagi pemain untuk meningkatkan kekuatan mereka.
@@ -669,7 +669,7 @@ Makanan haiwan adalah produk yang boleh dikonsumsi yang menyediakan nutrien yang
 "1,3,4",1," Anda dapat memperoleh item ini melalui sintesis. Menggunakannya dapat memicu efek khusus.
 ",0,item-icon-197,197,Mengumpul Esensi Penanaman Pertanian Tingkat 1,1,0,2,3,1,3,3,1
 "1,3,4",1," Anda dapat memperoleh item ini melalui sintesis. Ini dapat digunakan untuk membuat peralatan atau barang.
-",0,item-icon-207,207,Mengumpul Esensi Penanaman Pertanian Tingkat 2,1,0,3,1,1,4,1,1
+",0,item-icon-207,207,Mengumpul Esensi Penanaman Pertanian Tingkat 2,1,0,3,"1,0",1,4,1,1
 "1,3,4",1, Anda dapat memperoleh item ini melalui sintesis. Ini dapat digunakan untuk membuat peralatan atau barang.,0,item-icon-208,208,Mengumpul Esensi Penanaman Pertanian Tingkat 3,1,0,3,2,1,4,2,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
@@ -680,7 +680,7 @@ Item ini adalah esen yang digunakan untuk mengumpul bahan mentah untuk sintesis,
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Esen penanaman pertanian ini disintesis dengan teliti dari bahan mentah pertanian berkualiti tinggi dan sesuai untuk penanaman pertanian dari gred satu. Ia dapat meningkatkan kadar pertumbuhan dan hasil tanaman, serta meningkatkan kualiti dan rasa tanaman. Menggunakannya dapat menjadikan tanaman anda lebih sihat dan berkembang dengan baik, dan menjadikan pengeluaran pertanian anda lebih efisien dan stabil.
-",0,item-icon-210,210,Mengumpul Esensi Penternakan Pertanian Tingkat 2,1,0,1,1,1,4,1,1
+",0,item-icon-210,210,Mengumpul Esensi Penternakan Pertanian Tingkat 2,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -695,7 +695,7 @@ Esen penanaman pertanian ini adalah campuran dari pelbagai esen tumbuhan berharg
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Esen pertanian dan penternakan ini adalah campuran dari pelbagai esen tumbuhan dan haiwan semula jadi, yang dapat meningkatkan kecekapan pengeluaran pertanian dan penternakan. Ia kaya dengan komponen nutrisi dan bahan bioaktif, yang dapat mempromosikan pertumbuhan yang sihat bagi tanaman dan ternakan.
-",0,item-icon-213,213,Mengumpul Esensi Pertempuran Tingkat 2,1,0,1,1,1,4,1,1
+",0,item-icon-213,213,Mengumpul Esensi Pertempuran Tingkat 2,1,0,1,"1,0",1,4,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -710,7 +710,7 @@ Esen ini diekstrak dari produk pertanian dan penternakan berkualiti tinggi, deng
 Menggunakannya dapat memicu kesan khas.
 -------
 Pupuk ini dapat meningkatkan kadar pertumbuhan tanaman dan sesuai untuk tanaman perantara.
-",0,item-icon-216,216,Pemupukan Peningkatan Hasil yang Lebih Baik Tingkat 0,1,0,2,1,1,4,1,1
+",0,item-icon-216,216,Pemupukan Peningkatan Hasil yang Lebih Baik Tingkat 0,1,0,2,"1,0",1,4,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya dapat memicu kesan khas.
 -------
@@ -1195,7 +1195,7 @@ Menggunakannya boleh memicu kesan khas.
 -------
 Pulihkan sedikit tenaga
 ",0,item-icon-295,295,"Ramuan Pemulihan Tenaga - Kecil
-",1,0,3,1,1,3,1,1
+",1,0,3,"1,0",1,3,1,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
@@ -2123,7 +2123,7 @@ Ia boleh digunakan untuk menukar LUAG Future(100).
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Diperbuat daripada pelbagai bahan dan mengandungi gangguan tenaga yang kuat, ia boleh diproses semula menjadi pelbagai aksesori
-",0,item-icon-482,482, Tahap 1 Slime Tenaga,1,0,3,1,1,4,1,1
+",0,item-icon-482,482, Tahap 1 Slime Tenaga,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -3135,7 +3135,7 @@ Ini adalah jenis biji yang boleh ditanam untuk menanam buluh, yang sesuai untuk 
 "1,3,4",1,"Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
-Ia mengandungi daya semula jadi yang kuat. Boleh digunakan pada haiwan peliharaan.",0,item-icon-693,693,Kuasa Alam Tahap 1,1,0,3,1,1,4,1,1
+Ia mengandungi daya semula jadi yang kuat. Boleh digunakan pada haiwan peliharaan.",0,item-icon-693,693,Kuasa Alam Tahap 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Anda boleh mendapatkan item ini melalui sintesis.
 Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -3219,7 +3219,7 @@ Menggunakannya boleh memicu kesan khas.
 -------
 Pulihkan tenaga - 4.
 ",0,item-icon-709,709,"Tongkat Pemulihan Tenaga Lv 1 2.0
-",1,0,3,1,1,3,0,1
+",1,0,3,"1,0",1,3,0,1
 "1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------

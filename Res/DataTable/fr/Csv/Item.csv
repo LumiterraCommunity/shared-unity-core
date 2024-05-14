@@ -3,17 +3,17 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce limon vert est une matière première rare qui peut être utilisée pour fabriquer divers équipements de combat. Il a une adhérence extrêmement forte et peut se lier à une variété de matériaux.
-",0,item-icon-30,30,Lv 1 Slime vert,1,0,2,1,1,4,1,1
+",0,item-icon-30,30,Lv 1 Slime vert,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Les vignes de citrouille sont une matière première qui peut être utilisée pour fabriquer des armes et des armures. Elles ont une texture résistante et une excellente résistance, offrant une protection fiable et une puissance d'attaque lors des combats.
-",0,item-icon-31,31,Lv 1 Vignes de citrouille,1,0,2,1,1,4,1,1
+",0,item-icon-31,31,Lv 1 Vignes de citrouille,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce treillis métallique est une matière première utilisée pour le combat, qui peut être utilisée pour fabriquer des structures défensives ou des équipements à haute résistance et durabilité.
-",0,item-icon-32,32,Lv 1 Treillis métallique,1,0,2,1,1,4,1,1
+",0,item-icon-32,32,Lv 1 Treillis métallique,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le désert.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -143,7 +143,7 @@ Ces chaussures sont fabriquées avec un design unique en pierre de cristal, ajou
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette pierre est de première qualité et peut être utilisée pour collecter des matières premières telles que les arbres.
-",0,item-icon-58,58,Lv 1 Minéral,1,0,3,1,1,4,1,1
+",0,item-icon-58,58,Lv 1 Minéral,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le canyon.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -157,7 +157,7 @@ Il s'agit d'un minerai de cristal rouge de troisième niveau qui peut être coll
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
-Ce type de bois est généralement utilisé pour fabriquer des meubles simples ou des matériaux de construction. Sa texture est relativement douce, ce qui facilite le traitement et la sculpture.",0,item-icon-62,62,Lv 1 Bois ordinaire,1,0,3,1,1,4,1,1
+Ce type de bois est généralement utilisé pour fabriquer des meubles simples ou des matériaux de construction. Sa texture est relativement douce, ce qui facilite le traitement et la sculpture.",0,item-icon-62,62,Lv 1 Bois ordinaire,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le désert.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -172,17 +172,17 @@ Le bois sombre est un type de bois de qualité supérieure avec des textures noi
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce type de bambou est une production agricole et une plante utilisée pour fabriquer diverses matières premières agricoles. Il est très courant en agriculture et peut pousser très rapidement.
-",0,item-icon-70,70,Lv 1 Bambou,1,0,1,1,1,4,1,1
+",0,item-icon-70,70,Lv 1 Bambou,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cet article est une matière première produite en agriculture, généralement récoltable au niveau 1. Sa forme ressemble à trois feuilles, d'où son nom de trèfle. Il peut être utilisé pour fabriquer de nombreux objets différents et est une ressource très utile.
-",0,item-icon-71,71,Lv 1 Trèfle,1,0,1,1,1,4,1,1
+",0,item-icon-71,71,Lv 1 Trèfle,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette carotte est une production agricole de niveau 1 qui peut être obtenue dans le champ agricole. C'est une matière première importante.
-",0,item-icon-72,72,Lv 1 Carotte,1,0,1,1,1,4,1,1
+",0,item-icon-72,72,Lv 1 Carotte,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -387,47 +387,47 @@ Cette formule riche en nutriments nourrit en profondeur les plantes, favorisant 
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion peut être utilisée pendant les combats et procure un léger effet de guérison.
-",0,item-icon-134,134,Lv 0 Potion de guérison secondaire,1,0,2,1,1,3,1,1
+",0,item-icon-134,134,Lv 0 Potion de guérison secondaire,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion peut améliorer votre puissance d'attaque.
-",0,item-icon-135,135,Lv 0 Potion d'attaque secondaire,1,0,2,1,1,3,1,1
+",0,item-icon-135,135,Lv 0 Potion d'attaque secondaire,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion améliore votre agilité, vous permettant de vous déplacer rapidement et d'esquiver les attaques avec facilité. Elle vous donne une poussée temporaire de vitesse, faisant de vous une force redoutable sur le champ de bataille. Utilisez-la stratégiquement pour surpasser vos adversaires et prendre l'avantage en combat.
-",0,item-icon-136,136,Lv 0 Potion de vitesse de déplacement secondaire,1,0,2,1,1,3,1,1
+",0,item-icon-136,136,Lv 0 Potion de vitesse de déplacement secondaire,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion améliore vos chances de coup critique, vous permettant d'infliger des coups dévastateurs à vos ennemis. C'est un must pour tout joueur cherchant à maximiser ses dégâts. Utilisez-la judicieusement et regardez vos ennemis s'effondrer devant vous.
-",0,item-icon-137,137,Lv 0 Potion de coup critique secondaire,1,0,2,1,1,3,1,1
+",0,item-icon-137,137,Lv 0 Potion de coup critique secondaire,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion est une bouée de sauvetage dans le jeu, offrant un coup de pouce bien nécessaire à la santé de votre personnage. Elle restaure instantanément une quantité significative de points de vie, vous permettant de poursuivre votre aventure sans interruption. Avec sa couleur vibrante et son goût rafraîchissant, c'est le remède parfait pour toute situation désespérée.
-",0,item-icon-138,138,Lv 0 Potion de vie secondaire,1,0,2,1,1,3,1,1
+",0,item-icon-138,138,Lv 0 Potion de vie secondaire,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion peut fournir un effet défensif temporaire, adapté aux situations d'urgence en combat.
-",0,item-icon-139,139,Lv 0 Potion de défense secondaire,1,0,2,1,1,3,1,1
+",0,item-icon-139,139,Lv 0 Potion de défense secondaire,1,0,2,"1,0",1,3,1,1
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Il s'agit d'un type de graine qui peut être plantée pour faire pousser du bambou, ce qui est adapté à une utilisation dans le domaine agricole.
-",97,item-icon-146,146,Lv 1 Graine de bambou,1,0,1,1,1,3,1,1
+",97,item-icon-146,146,Lv 1 Graine de bambou,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Les graines de trèfle sont des consommables agricoles utilisés pour planter du trèfle et sont adaptées à une utilisation sur des terres de bas grade. Elles peuvent pousser rapidement et produire une valeur nutritionnelle riche dans des environnements adaptés.
-",97,item-icon-147,147,Lv 1 Graine de trèfle,1,0,1,1,1,3,1,1
+",97,item-icon-147,147,Lv 1 Graine de trèfle,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Ce type de graines de carotte peut être utilisé pour faire pousser des carottes fraîches et délicieuses. Elles conviennent à une utilisation dans les jardins domestiques ou les petites fermes et peuvent être plantées au printemps et en automne. Les carottes cultivées à partir de ces graines sont savoureuses et nutritives.
-",97,item-icon-148,148,Lv 1 Graine de carotte,1,0,1,1,1,3,1,1
+",97,item-icon-148,148,Lv 1 Graine de carotte,1,0,1,"1,0",1,3,1,1
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -511,7 +511,7 @@ L'argile est un sol très malléable couramment utilisé pour fabriquer de la po
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette résine est un liquide très visqueux qui peut être utilisé pour fabriquer des adhésifs, des revêtements et des mastics, entre autres. Elle est généralement collectée à partir d'arbres et nécessite des outils spéciaux pour la collecte.
-",0,item-icon-65,65,Lv 1 Résine,1,0,3,1,1,4,1,1
+",0,item-icon-65,65,Lv 1 Résine,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le canyon.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -521,7 +521,7 @@ Une plante herbacée vivace qui pousse à l'état sauvage, avec une forte résis
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette fibre végétale est une matière première collectée qui est généralement obtenue à partir d'arbres. Elle peut être utilisée pour fabriquer une variété d'objets différents, tels que des cordes, des tissus et du papier.
-",0,item-icon-66,66,Lv 1 Fibre végétale,1,0,3,1,1,4,1,1
+",0,item-icon-66,66,Lv 1 Fibre végétale,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau sur la montagne enneigée.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -531,7 +531,7 @@ Ces champignons poussent dans les régions polaires froides et ont une couleur b
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette toile d'araignée est de niveau 1 et peut être collectée dans la forêt. C'est une matière première qui peut être utilisée pour fabriquer divers objets.
-",0,item-icon-69,69,Lv 1 Toile d'araignée,1,0,3,1,1,4,1,1
+",0,item-icon-69,69,Lv 1 Toile d'araignée,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Ce billet vous donne accès à un événement exclusif rempli d'aventures palpitantes et d'expériences inoubliables. Préparez-vous à vous embarquer dans un voyage unique en son genre et à créer des souvenirs qui resteront à jamais.
 ",0,item-icon-171,171,Lv 0 Ticket #1,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1,"Ce billet vous donne accès à un événement exclusif rempli d'aventures palpitantes et d'expériences inoubliables. Préparez-vous à vous embarquer dans un voyage unique en son genre et à créer des souvenirs qui resteront à jamais.
@@ -555,19 +555,19 @@ Cet article est une substance organique qui agit comme un engrais et peut être 
 -------
 
 Cette pousse tendre est récoltée à partir de cactus et a une couleur vert clair et une texture douce. C'est une matière première agricole importante qui peut être utilisée pour fabriquer des médicaments, de la nourriture et des produits de beauté, entre autres.
-",0,item-icon-177,177,Lv 1 Pousse de cactus,1,0,1,1,1,4,1,1
+",0,item-icon-177,177,Lv 1 Pousse de cactus,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Cette vis a été obtenue grâce à l'élevage de monstres et peut être utilisée comme matière première pour l'agriculture.
-",0,item-icon-178,178,Lv 1 Vis,1,0,1,1,1,4,1,1
+",0,item-icon-178,178,Lv 1 Vis,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Les pousses de citrouille sont des matières premières agricoles produites par l'élevage de monstres, présentant une apparence verte tendre et étant riches en nutriments. Elles peuvent être utilisées pour fabriquer une variété de produits alimentaires et médicinaux.
-",0,item-icon-179,179,Lv 1 Pousse de citrouille,1,0,1,1,1,4,1,1
+",0,item-icon-179,179,Lv 1 Pousse de citrouille,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
@@ -704,12 +704,12 @@ Ces chaussures agricoles sont fabriquées à partir de matériaux de haute quali
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un produit consommable adapté aux animaux de compagnie de niveau 0, et peut augmenter la satiété et la valeur de croissance de l'animal de compagnie. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
-",27,item-icon-28,28,Lv 0 Nourriture - Petite,1,0,1,1,1,3,0,1
+",27,item-icon-28,28,Lv 0 Nourriture - Petite,1,0,1,"1,0",1,3,0,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux est un produit consommable qui fournit les nutriments nécessaires aux animaux pour maintenir une croissance saine. Elle convient à divers animaux d'élevage et animaux de compagnie, et peut augmenter leur productivité et leur durée de vie.
-",27,item-icon-29,29,Lv 0 Nourriture - Grande,1,0,1,1,1,3,0,1
+",27,item-icon-29,29,Lv 0 Nourriture - Grande,1,0,1,"1,0",1,3,0,1
 "1,3,4",0,"L'EXP agricole est une valeur d'expérience dans le jeu qui peut être obtenue grâce à des activités agricoles telles que la plantation de cultures et l'élevage d'animaux. C'est un facteur clé pour améliorer les compétences et les niveaux agricoles, et c'est également une condition nécessaire pour débloquer des outils et équipements agricoles de niveau supérieur.
 ",0,item-icon-188,188,EXP agricole,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0,"L'EXP de combat fait référence à l'expérience acquise lors des combats. Elle peut aider les joueurs à monter de niveau et à améliorer leurs compétences, renforçant les capacités de leur personnage. Dans de nombreux jeux, l'EXP de combat est l'un des moyens importants pour les joueurs d'améliorer leur force.
@@ -757,7 +757,7 @@ Cette potion peut ajouter une couche de protection cristalline à votre défense
 -------
 
 Cette essence est collectée à partir des arbres et peut être utilisée pour produire diverses matières premières et substances synthétiques.
-",0,item-icon-207,207,Lv 1 Essence de récolte,1,0,3,1,1,4,1,1
+",0,item-icon-207,207,Lv 1 Essence de récolte,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,Vous pouvez obtenir cet objet par synthèse. Il peut être utilisé pour fabriquer des équipements ou des objets.,0,item-icon-208,208,Lv 2 Essence de récolte,1,0,3,2,1,4,2,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
@@ -768,7 +768,7 @@ Cet objet est une essence utilisée pour collecter des matières premières pour
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence de plantation agricole est soigneusement synthétisée à partir de matières premières agricoles de haute qualité et convient à la plantation agricole à partir du niveau un. Elle peut améliorer le taux de croissance et le rendement des cultures, ainsi que la qualité et le goût des récoltes. Son utilisation peut rendre vos cultures plus saines et prospères, et rendre votre production agricole plus efficace et stable.
-",0,item-icon-210,210,Lv 1 Essence de plantation agricole,1,0,1,1,1,4,1,1
+",0,item-icon-210,210,Lv 1 Essence de plantation agricole,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -783,7 +783,7 @@ Cette essence de plantation agricole est un mélange de diverses essences végé
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence d'agriculture et d'élevage est un mélange de diverses essences végétales et animales naturelles, qui peut améliorer l'efficacité de la production agricole et animale. Elle est riche en composants nutritionnels et en substances bioactives, ce qui peut favoriser la croissance saine des cultures et du bétail.
-",0,item-icon-213,213,Lv 1 Essence d'élevage agricole,1,0,1,1,1,4,1,1
+",0,item-icon-213,213,Lv 1 Essence d'élevage agricole,1,0,1,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -798,7 +798,7 @@ Cette essence est extraite de produits agricoles et d'élevage de haute qualité
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence de combat est une matière première utilisée pour synthétiser des équipements de niveau supérieur, possédant de puissantes capacités de combat et adaptée aux combats de niveau 1.
-",0,item-icon-216,216,Lv 1 Essence de combat,1,0,2,1,1,4,1,1
+",0,item-icon-216,216,Lv 1 Essence de combat,1,0,2,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -1149,7 +1149,7 @@ Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure un peu d'énergie
 ",0,item-icon-295,295,"Potion de restauration d'énergie - Petite
-",1,0,3,1,1,3,1,1
+",1,0,3,"1,0",1,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -2051,7 +2051,7 @@ Il peut être utilisé pour fabriquer une Potion d'Énergie.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Fabriqué à partir de divers matériaux et contenant de fortes fluctuations d'énergie, il peut être retraité en divers accessoires.
-",0,item-icon-482,482,Niveau 1 Slime d'énergie,1,0,3,1,1,4,1,1
+",0,item-icon-482,482,Niveau 1 Slime d'énergie,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -2933,7 +2933,7 @@ Il s'agit d'un type de graine qui peut être plantée pour faire pousser du bamb
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Il contient une force naturelle puissante. Peut être utilisé sur les animaux de compagnie.
-",0,item-icon-693,693,Puissance de la nature niveau 1,1,0,3,1,1,4,1,1
+",0,item-icon-693,693,Puissance de la nature niveau 1,1,0,3,"1,0",1,4,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -3022,7 +3022,7 @@ Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure l'énergie - 4.
 ",0,item-icon-709,709,"Potion de restauration d'énergie de niveau 1 2.0 
-",1,0,3,1,1,3,0,1
+",1,0,3,"1,0",1,3,0,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
