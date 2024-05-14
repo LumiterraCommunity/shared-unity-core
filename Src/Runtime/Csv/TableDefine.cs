@@ -86,6 +86,7 @@ public enum eGameValueID
     offlineTimeout = 53, // 离线超时时间
     InstancingRewardsRateRange = 55, // 副本奖励倍率范围
     PetRecallCD = 56, // 宠物召回CD,单位秒
+    EnergyCraftBuilding = 59, //精力合成建筑id
 }
 
 // public static class GameValueID
@@ -231,4 +232,13 @@ public enum eRewardType
 {
     Fixed = 1, //固定奖励
     Random = 2, //随机奖励
+}
+
+/// <summary>
+/// 奖励表中的奖励子类型(DrCraftBuilding.Type)
+/// </summary>
+public enum eCraftBuildingDisplayType
+{
+    General = 1,//通用展示类型
+    Energy = 2,//精力展示类型
 }
