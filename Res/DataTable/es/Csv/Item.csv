@@ -3,17 +3,17 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta baba verde es un material crudo raro que se puede utilizar para fabricar varios equipos de combate. Tiene una adhesión extremadamente fuerte y puede unirse a una variedad de materiales.
-",0,item-icon-30,30,Slime verde de nivel 1,1,0,2,"1,0",1,4,1,1
+",0,item-icon-30,30,Slime verde de nivel 1,1,0,2,1,1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Las enredaderas de calabaza son un material crudo que se puede utilizar para fabricar armas y armaduras. Tienen una textura resistente y una excelente resistencia, proporcionando una protección confiable y poder de ataque en el combate.
-",0,item-icon-31,31,Vides de calabaza de nivel 1,1,0,2,"1,0",1,4,1,1
+",0,item-icon-31,31,Vides de calabaza de nivel 1,1,0,2,1,1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este tipo de alambre de espino es un material crudo utilizado para el combate, que se puede utilizar para fabricar estructuras defensivas o equipos con alta resistencia y durabilidad.
-",0,item-icon-32,32,Malla de alambre de nivel 1,1,0,2,"1,0",1,4,1,1
+",0,item-icon-32,32,Malla de alambre de nivel 1,1,0,2,1,1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material en el desierto.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -143,7 +143,7 @@ Estos zapatos están elaborados con un diseño único de piedra de cristal, agre
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta piedra es de primera calidad y se puede utilizar para recolectar materiales en bruto como árboles.
-",0,item-icon-58,58,Mineral de nivel 1,1,0,3,"1,0",1,4,1,1
+",0,item-icon-58,58,Mineral de nivel 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Alguien vio una vez este material en el cañón.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -157,7 +157,7 @@ Este es un mineral de cristal rojo de tercer nivel que se puede recolectar en el
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
-Este tipo de madera se utiliza generalmente para hacer muebles simples o materiales de construcción. Su textura es relativamente suave, lo que facilita su procesamiento y tallado.",0,item-icon-62,62,Madera ordinaria de nivel 1,1,0,3,"1,0",1,4,1,1
+Este tipo de madera se utiliza generalmente para hacer muebles simples o materiales de construcción. Su textura es relativamente suave, lo que facilita su procesamiento y tallado.",0,item-icon-62,62,Madera ordinaria de nivel 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Alguien una vez vio este material en el desierto.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -172,17 +172,17 @@ La madera oscura es un tipo premium de madera con texturas negras y una textura 
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este tipo de bambú es un producto agrícola y una planta utilizada para fabricar diversos materiales agrícolas. Es muy común en la agricultura y puede crecer muy rápido.
-",0,item-icon-70,70,Bambú de nivel 1,1,0,1,"1,0",1,4,1,1
+",0,item-icon-70,70,Bambú de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este artículo es un material en bruto producido en la agricultura, generalmente se puede cosechar en el nivel 1. Su forma se asemeja a tres hojas, por lo que se le llama trébol. Se puede utilizar para fabricar muchos objetos diferentes y es un recurso muy útil.
-",0,item-icon-71,71,Trébol de nivel 1,1,0,1,"1,0",1,4,1,1
+",0,item-icon-71,71,Trébol de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta zanahoria es un producto agrícola de nivel 1 que se puede obtener en el campo agrícola. Es una materia prima importante.
-",0,item-icon-72,72,Zanahoria de nivel 1,1,0,1,"1,0",1,4,1,1
+",0,item-icon-72,72,Zanahoria de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -362,39 +362,39 @@ Esta fórmula rica en nutrientes nutre profundamente las plantas, promoviendo un
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción se puede usar durante las batallas y proporciona un efecto de curación menor.
-",0,item-icon-134,134,Poción de curación secundaria de nivel 0,1,0,2,"1,0",0,3,1,1
+",0,item-icon-134,134,Poción de curación secundaria de nivel 0,1,0,2,1,1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción puede mejorar tu poder de ataque.
-",0,item-icon-135,135,Poción de ataque secundaria de nivel 0,1,0,2,"1,0",0,3,1,1
+",0,item-icon-135,135,Poción de ataque secundaria de nivel 0,1,0,2,1,1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tu agilidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Te brinda un impulso temporal de velocidad, convirtiéndote en una fuerza formidable en el campo de batalla. Úsala estratégicamente para superar a tus oponentes y obtener ventaja en el combate.
-",0,item-icon-136,136,Poción de velocidad de movimiento secundaria de nivel 0,1,0,2,"1,0",0,3,1,1
+",0,item-icon-136,136,Poción de velocidad de movimiento secundaria de nivel 0,1,0,2,1,1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tu probabilidad de golpe crítico, permitiéndote infligir golpes devastadores a tus enemigos. Es imprescindible para cualquier jugador que busque maximizar su producción de daño. Úsala sabiamente y observa cómo tus enemigos se desmoronan ante ti.
-",0,item-icon-137,137,Poción de golpe crítico secundaria de nivel 0,1,0,2,"1,0",0,3,1,1
+",0,item-icon-137,137,Poción de golpe crítico secundaria de nivel 0,1,0,2,1,1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción es un salvavidas en el juego, proporcionando un impulso muy necesario a la salud de tu personaje. Restaura instantáneamente una cantidad significativa de HP, permitiéndote continuar tu aventura sin interrupciones. Con su color vibrante y sabor refrescante, es el remedio perfecto para cualquier situación desesperada.
-",0,item-icon-138,138,Poción de vida secundaria de nivel 0,1,0,2,"1,0",0,3,1,1
+",0,item-icon-138,138,Poción de vida secundaria de nivel 0,1,0,2,1,1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción puede proporcionar un efecto defensivo temporal, adecuado para situaciones de emergencia en batalla.
-",0,item-icon-139,139,Poción de defensa secundaria de nivel 0,1,0,2,"1,0",0,3,1,1
+",0,item-icon-139,139,Poción de defensa secundaria de nivel 0,1,0,2,1,1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
-",97,item-icon-146,146,Semilla de bambú de nivel 1,1,0,1,"1,0",1,3,1,1
+",97,item-icon-146,146,Semilla de bambú de nivel 1,1,0,1,1,1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Las semillas de trébol son consumibles agrícolas utilizados para plantar trébol y son adecuados para su uso en tierras de baja calidad. Pueden crecer rápidamente y producir un alto valor nutricional en entornos adecuados.
-",97,item-icon-147,147,Semilla de trébol de nivel 1,1,0,1,"1,0",1,3,1,1
+",97,item-icon-147,147,Semilla de trébol de nivel 1,1,0,1,1,1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este tipo de semillas de zanahoria se pueden usar para cultivar zanahorias frescas y deliciosas. Son adecuadas para su uso en jardines caseros o pequeñas granjas y se pueden plantar en primavera y otoño. Las zanahorias cultivadas a partir de estas semillas son sabrosas y nutritivas.
-",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,0,1,"1,0",1,3,1,1
+",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,0,1,1,1,3,1,1
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Las semillas de planta de jarra son un consumible agrícola que se puede usar para cultivar plantas de jarra. Esta planta es una planta carnívora que puede absorber nutrientes de los insectos. Después de plantar, se necesita suficiente luz solar y agua para un crecimiento suave.
@@ -433,27 +433,27 @@ Este fertilizante está especialmente formulado para proporcionar una hidrataci�
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción se puede usar en batalla y puede curar tus heridas.
-",0,item-icon-140,140,Poción de tratamiento de nivel 1,1,0,2,2,0,3,2,1
+",0,item-icon-140,140,Poción de tratamiento de nivel 1,1,0,2,2,1,3,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tus habilidades de combate, aumentando tu poder de ataque durante un tiempo limitado. Es imprescindible para cualquier aventurero que busque infligir golpes devastadores a sus enemigos. Úsala sabiamente y observa cómo tus enemigos tiemblan ante ti.
-",0,item-icon-141,141,Poción de ataque de nivel 1,1,0,2,2,0,3,2,1
+",0,item-icon-141,141,Poción de ataque de nivel 1,1,0,2,2,1,3,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tu velocidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Es imprescindible para cualquier aventurero que busque obtener una ventaja en las batallas.
-",0,item-icon-142,142,Poción de rapidez de nivel 1,1,0,2,2,0,3,2,1
+",0,item-icon-142,142,Poción de rapidez de nivel 1,1,0,2,2,1,3,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción mejora tus habilidades de combate, aumentando tus posibilidades de infligir golpes devastadores a tus enemigos. Aumenta tu tasa de golpes críticos, permitiéndote infligir un daño masivo en las batallas. Con esta poción, la victoria está a tu alcance.
-",0,item-icon-143,143,Poción de golpe crítico de nivel 1,1,0,2,2,0,3,2,1
+",0,item-icon-143,143,Poción de golpe crítico de nivel 1,1,0,2,2,1,3,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción puede restaurar tus puntos de salud. Funciona mejor cuando se usa durante las batallas.
-",0,item-icon-144,144,Poción de vida de nivel 1,1,0,2,2,0,3,2,1
+",0,item-icon-144,144,Poción de vida de nivel 1,1,0,2,2,1,3,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Un poderoso elixir que mejora tus capacidades defensivas, proporcionando un escudo temporal contra los ataques enemigos. Esta poción aumenta tu armadura y resistencia, permitiéndote resistir incluso las batallas más difíciles. Úsala sabiamente para cambiar el rumbo a tu favor y salir victorioso.
-",0,item-icon-145,145,Poción de defensa de nivel 1,1,0,2,2,0,3,2,1
+",0,item-icon-145,145,Poción de defensa de nivel 1,1,0,2,2,1,3,2,1
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -463,7 +463,7 @@ La arcilla es un suelo altamente maleable que se utiliza comúnmente para hacer 
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta resina es un líquido altamente viscoso que se puede utilizar para fabricar adhesivos, recubrimientos y selladores, entre otras cosas. Por lo general, se recolecta de los árboles y requiere herramientas especiales para su recolección.
-",0,item-icon-65,65,Resina de nivel 1,1,0,3,"1,0",1,4,1,1
+",0,item-icon-65,65,Resina de nivel 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Alguien una vez vio este material en el cañón.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -473,7 +473,7 @@ Una planta herbácea perenne que crece en la naturaleza, con una fuerte resisten
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta fibra vegetal es un material en bruto recolectado que generalmente se obtiene de los árboles. Se puede utilizar para fabricar una variedad de objetos diferentes, como cuerdas, telas y papel.
-",0,item-icon-66,66,Fibra vegetal de nivel 1,1,0,3,"1,0",1,4,1,1
+",0,item-icon-66,66,Fibra vegetal de nivel 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Alguien una vez vio este material en la Montaña de Nieve.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -483,7 +483,7 @@ Estos hongos crecen en las regiones polares frías y tienen un color azul claro.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material en bruto que se puede utilizar para fabricar diversos objetos.
-",0,item-icon-69,69,Telaraña de nivel 1,1,0,3,"1,0",1,4,1,1
+",0,item-icon-69,69,Telaraña de nivel 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
 ",0,item-icon-171,171,Boleto #1 de nivel 0,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
@@ -507,19 +507,19 @@ Este artículo es una sustancia orgánica que actúa como fertilizante y se pued
 -------
 
 Este brote tierno se cosecha de los cactus y tiene un color verde claro y una textura suave. Es una materia prima agrícola importante que se puede utilizar para hacer medicinas, alimentos y productos de belleza, entre otros.
-",0,item-icon-177,177,Brote de cactus de nivel 1,1,0,1,"1,0",1,4,1,1
+",0,item-icon-177,177,Brote de cactus de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este tornillo se obtuvo de la cría de monstruos y se puede utilizar como materia prima para la agricultura.
-",0,item-icon-178,178,Tornillo de nivel 1,1,0,1,"1,0",1,4,1,1
+",0,item-icon-178,178,Tornillo de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Los brotes de calabaza son materia prima agrícola producida a partir de la cría de monstruos, presentando una apariencia verde tierna y siendo ricos en nutrientes. Se pueden utilizar para hacer una variedad de alimentos y medicinas.
-",0,item-icon-179,179,Brote de calabaza de nivel 1,1,0,1,"1,0",1,4,1,1
+",0,item-icon-179,179,Brote de calabaza de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
@@ -656,12 +656,12 @@ Estos zapatos agrícolas están hechos de materiales de alta calidad, son ligero
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un artículo consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, lo que lo convierte en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,0,1,"1,0",0,3,0,1
+",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,0,1,1,1,3,0,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para animales es un producto consumible que proporciona los nutrientes necesarios para que los animales mantengan un crecimiento saludable. Es adecuado para diversos animales de granja y mascotas, y puede aumentar su productividad y esperanza de vida.
-",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,0,1,"1,0",0,3,0,1
+",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,0,1,1,1,3,0,1
 "1,3,4",0,"La EXP de agricultura es un valor de experiencia en el juego que se puede obtener a través de actividades agrícolas como el cultivo de cultivos y la cría de animales. Es un factor clave para mejorar las habilidades y niveles agrícolas, y también es una condición necesaria para desbloquear herramientas y equipos agrícolas de nivel superior.
 ",0,item-icon-188,188,EXP de agricultura,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0,"La EXP de combate se refiere a la experiencia obtenida en las batallas. Puede ayudar a los jugadores a subir de nivel y mejorar sus habilidades, mejorando las habilidades de su personaje. En muchos juegos, la EXP de combate es una de las formas importantes en las que los jugadores pueden mejorar su fuerza.
@@ -669,70 +669,70 @@ El alimento para animales es un producto consumible que proporciona los nutrient
 "1,3,4",0,"La EXP de recolección es un recurso clave en el juego, desempeñando un papel vital en el aumento de la eficiencia de recolección de recursos y las capacidades del personaje. Los jugadores acumulan experiencia a través de actividades como talar y minar para aumentar los niveles de habilidad de recolección. Los niveles de habilidad determinan la velocidad de recolección, la probabilidad de adquisición de recursos raros y el desbloqueo de habilidades de nivel superior. A medida que avanza el juego, las necesidades del personaje se vuelven más complejas, lo que hace que las habilidades de recolección altas sean esenciales para el apoyo. Además, una experiencia de recolección elevada también contribuye a mejorar las habilidades de ataque. Los jugadores deben aprender continuamente habilidades y mejorar la experiencia de recolección para enfrentar valientemente los desafíos y destacar entre los más fuertes.
 ",0,item-icon-190,190,EXP de recolección,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
-",0,item-icon-191,191,Poción de curación cristalizada de nivel 2,1,0,2,3,0,3,3,1
+",0,item-icon-191,191,Poción de curación cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
-",0,item-icon-192,192,Poción de ataque cristalizada de nivel 2,1,0,2,3,0,3,3,1
+",0,item-icon-192,192,Poción de ataque cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
-",0,item-icon-194,194,Poción de velocidad cristalizada de nivel 2,1,0,2,3,0,3,3,1
+",0,item-icon-194,194,Poción de velocidad cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
-",0,item-icon-195,195,Poción de golpe crítico cristalizada de nivel 2,1,0,2,3,0,3,3,1
+",0,item-icon-195,195,Poción de golpe crítico cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Un elixir potente que restaura la vitalidad y rejuvenece al aventurero cansado, proporcionando una oleada de energía y propiedades curativas. Esta preciosa poción es una línea de vida en situaciones desesperadas, ofreciendo un impulso rápido y refrescante para seguir adelante frente al peligro.
-",0,item-icon-196,196,Poción de vida cristalizada de nivel 2,1,0,2,3,0,3,3,1
+",0,item-icon-196,196,Poción de vida cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
-",0,item-icon-197,197,Poción de defensa cristalizada de nivel 2,1,0,2,3,0,3,3,1
+",0,item-icon-197,197,Poción de defensa cristalizada de nivel 2,1,0,2,3,1,3,3,1
 "1,3,4",1,"Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.
-",0,item-icon-207,207,Esencia de recolección de nivel 1,1,0,3,"1,0",0,4,1,1
-"1,3,4",1,Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.,0,item-icon-208,208,Esencia de recolección de nivel 2,1,0,3,2,0,4,2,1
+",0,item-icon-207,207,Esencia de recolección de nivel 1,1,0,3,1,1,4,1,1
+"1,3,4",1,Puedes obtener este artículo a través de la síntesis. Se puede utilizar para fabricar equipos o artículos.,0,item-icon-208,208,Esencia de recolección de nivel 2,1,0,3,2,1,4,2,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este objeto es una esencia utilizada para recolectar materias primas para la síntesis y requiere un nivel 3 para su uso. Se puede obtener recolectando de los árboles y es un recurso muy importante.
-",0,item-icon-209,209,Esencia de recolección de nivel 3,1,0,3,3,0,4,3,1
+",0,item-icon-209,209,Esencia de recolección de nivel 3,1,0,3,3,1,4,3,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de plantación agrícola se sintetiza cuidadosamente a partir de materias primas agrícolas de alta calidad y es adecuada para la plantación agrícola desde el primer grado. Puede mejorar la tasa de crecimiento y rendimiento de los cultivos, así como aumentar la calidad y el sabor de los mismos. Su uso puede hacer que tus cultivos sean más saludables y prósperos, y hacer que tu producción agrícola sea más eficiente y estable.
-",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,0,1,"1,0",0,4,1,1
+",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de plantación agrícola es una mezcla de varias esencias vegetales preciosas, que tiene un efecto milagroso en la promoción del crecimiento de los cultivos y el aumento del rendimiento. Es uno de los materiales básicos indispensables en el campo agrícola y es adecuado para varios tipos de cultivos.
-",0,item-icon-211,211,Esencia de siembra agrícola de nivel 2,1,0,1,2,0,4,2,1
+",0,item-icon-211,211,Esencia de siembra agrícola de nivel 2,1,0,1,2,1,4,2,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de agricultura y ganadería es una mezcla de varias esencias naturales de plantas y animales, que puede mejorar la eficiencia de producción y el rendimiento de la agricultura y la ganadería. Es rica en componentes nutricionales y sustancias bioactivas, que pueden promover el crecimiento saludable de los cultivos y el ganado.
-",0,item-icon-212,212,Esencia de siembra agrícola de nivel 3,1,0,1,3,0,4,3,1
+",0,item-icon-212,212,Esencia de siembra agrícola de nivel 3,1,0,1,3,1,4,3,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia se extrae de la agricultura y la ganadería y se puede utilizar para sintetizar otras materias primas agrícolas.
-",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,0,1,"1,0",0,4,1,1
+",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,0,1,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia se extrae de productos agrícolas y ganaderos de alta calidad, con un valor nutricional y medicinal extremadamente alto. Se puede utilizar para fabricar diversos medicamentos y condimentos relacionados con la agricultura y la ganadería.
-",0,item-icon-214,214,Esencia de ganado agrícola de nivel 2,1,0,1,2,0,4,2,1
+",0,item-icon-214,214,Esencia de ganado agrícola de nivel 2,1,0,1,2,1,4,2,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de combate es una materia prima utilizada para sintetizar equipos de nivel superior, posee poderosas habilidades de combate y es adecuada para batallas de nivel 1.
-",0,item-icon-215,215,Esencia de ganado agrícola de nivel 3,1,0,1,3,0,4,3,1
+",0,item-icon-215,215,Esencia de ganado agrícola de nivel 3,1,0,1,3,1,4,3,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de combate se utiliza para sintetizar equipos de nivel 2, lo que puede mejorar los atributos de combate del equipo. Se sintetiza a partir de materias primas obtenidas durante el combate y es un elemento indispensable en la batalla.
-",0,item-icon-216,216,Esencia de combate de nivel 1,1,0,2,"1,0",0,4,1,1
+",0,item-icon-216,216,Esencia de combate de nivel 1,1,0,2,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este es un material básico utilizado para sintetizar equipos de combate, que tiene una alta capacidad de combate y puede mejorar el nivel y los atributos del equipo.
-",0,item-icon-217,217,Esencia de combate de nivel 2,1,0,2,2,0,4,2,1
+",0,item-icon-217,217,Esencia de combate de nivel 2,1,0,2,2,1,4,2,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede desencadenar efectos especiales.
 -------
 Este fertilizante puede promover la tasa de crecimiento de los cultivos y es adecuado para cultivos intermedios.
-",0,item-icon-218,218,Esencia de combate de nivel 3,1,0,2,3,0,4,3,1
+",0,item-icon-218,218,Esencia de combate de nivel 3,1,0,2,3,1,4,3,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede desencadenar efectos especiales.
 -------
@@ -1071,15 +1071,15 @@ Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, pued
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura un poco de energía
-",0,item-icon-295,295,Poción de Restauración de Energía - Pequeña,1,0,3,"1,0",0,3,1,1
+",0,item-icon-295,295,Poción de Restauración de Energía - Pequeña,1,0,3,1,1,3,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura más energía
-",0,item-icon-296,296,Poción de Restauración de Energía - Mediana,1,0,3,2,0,3,2,1
+",0,item-icon-296,296,Poción de Restauración de Energía - Mediana,1,0,3,2,1,3,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura mucha energía
-",0,item-icon-297,297,Poción de Restauración de Energía - Grande,1,0,3,3,0,3,3,1
+",0,item-icon-297,297,Poción de Restauración de Energía - Grande,1,0,3,3,1,3,3,1
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
@@ -1563,51 +1563,51 @@ Agradable y cálido, seguramente haría buena ropa.
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
-",0,item-icon-401,401,Esencia de combate nivel 4,1,0,2,4,0,4,4,1
+",0,item-icon-401,401,Esencia de combate nivel 4,1,0,2,4,1,4,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
-",0,item-icon-402,402,Esencia de combate nivel 5,1,0,2,5,0,4,5,1
+",0,item-icon-402,402,Esencia de combate nivel 5,1,0,2,5,1,4,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
-",0,item-icon-403,403,Esencia de combate nivel 6,1,0,2,6,0,4,6,1
+",0,item-icon-403,403,Esencia de combate nivel 6,1,0,2,6,1,4,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Recolecta, útil para sintetizar varios equipos.
-",0,item-icon-404,404,Esencia de recolección nivel 4,1,0,3,4,0,4,4,1
+",0,item-icon-404,404,Esencia de recolección nivel 4,1,0,3,4,1,4,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Recolecta, útil para sintetizar varios equipos.
-",0,item-icon-405,405,Esencia de recolección nivel 5,1,0,3,5,0,4,5,1
+",0,item-icon-405,405,Esencia de recolección nivel 5,1,0,3,5,1,4,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Recolecta, útil para sintetizar varios equipos.
-",0,item-icon-406,406,Esencia de recolección nivel 6,1,0,3,6,0,4,6,1
+",0,item-icon-406,406,Esencia de recolección nivel 6,1,0,3,6,1,4,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-407,407,Esencia de plantación agrícola nivel 4,1,0,1,4,0,4,4,1
+",0,item-icon-407,407,Esencia de plantación agrícola nivel 4,1,0,1,4,1,4,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-408,408,Esencia de plantación agrícola nivel 5,1,0,1,5,0,4,5,1
+",0,item-icon-408,408,Esencia de plantación agrícola nivel 5,1,0,1,5,1,4,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-409,409,Esencia de plantación agrícola nivel 6,1,0,1,6,0,4,6,1
+",0,item-icon-409,409,Esencia de plantación agrícola nivel 6,1,0,1,6,1,4,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-410,410,Esencia de ganadería agrícola nivel 4,1,0,1,4,0,4,4,1
+",0,item-icon-410,410,Esencia de ganadería agrícola nivel 4,1,0,1,4,1,4,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-411,411,Esencia de ganadería agrícola nivel 5,1,0,1,5,0,4,5,1
+",0,item-icon-411,411,Esencia de ganadería agrícola nivel 5,1,0,1,5,1,4,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-412,412,Esencia de ganadería agrícola nivel 6,1,0,1,6,0,4,6,1
+",0,item-icon-412,412,Esencia de ganadería agrícola nivel 6,1,0,1,6,1,4,6,1
 "1,3,4",1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar trigo.
@@ -1646,78 +1646,78 @@ Semillas para cultivar yuca
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 HP actual +320
-",0,item-icon-422,422,Poción de curación dorada nivel 4,1,0,2,4,0,3,4,1
+",0,item-icon-422,422,Poción de curación dorada nivel 4,1,0,2,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Ataque de combate +50
-",0,item-icon-423,423,Poción de ataque dorada nivel 4,1,0,2,4,0,3,4,1
+",0,item-icon-423,423,Poción de ataque dorada nivel 4,1,0,2,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Velocidad de movimiento +200
-",0,item-icon-424,424,Poción de velocidad dorada nivel 4,1,0,2,4,0,3,4,1
+",0,item-icon-424,424,Poción de velocidad dorada nivel 4,1,0,2,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Daño crítico contra monstruos +120
-",0,item-icon-425,425,Poción de golpe crítico dorada nivel 4,1,0,2,4,0,3,4,1
+",0,item-icon-425,425,Poción de golpe crítico dorada nivel 4,1,0,2,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 HP máximo +200
-",0,item-icon-426,426,Poción de vida dorada nivel 4,1,0,2,4,0,3,4,1
+",0,item-icon-426,426,Poción de vida dorada nivel 4,1,0,2,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Defensa de combate +20
-",0,item-icon-427,427,Poción de defensa dorada nivel 4,1,0,2,4,0,3,4,1
+",0,item-icon-427,427,Poción de defensa dorada nivel 4,1,0,2,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 HP actual +400
-",0,item-icon-429,429,Poción de curación de diamante nivel 5,1,0,2,5,0,3,5,1
+",0,item-icon-429,429,Poción de curación de diamante nivel 5,1,0,2,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Ataque de combate +60
-",0,item-icon-430,430,Poción de ataque de diamante nivel 5,1,0,2,5,0,3,5,1
+",0,item-icon-430,430,Poción de ataque de diamante nivel 5,1,0,2,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Velocidad de movimiento +240
-",0,item-icon-431,431,Poción de velocidad de diamante nivel 5,1,0,2,5,0,3,5,1
+",0,item-icon-431,431,Poción de velocidad de diamante nivel 5,1,0,2,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Daño crítico contra monstruos +150
-",0,item-icon-432,432,Poción de golpe crítico de diamante nivel 5,1,0,2,5,0,3,5,1
+",0,item-icon-432,432,Poción de golpe crítico de diamante nivel 5,1,0,2,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 HP máximo +240
-",0,item-icon-433,433,Poción de vida de diamante nivel 5,1,0,2,5,0,3,5,1
+",0,item-icon-433,433,Poción de vida de diamante nivel 5,1,0,2,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Defensa de combate +25
-",0,item-icon-434,434,Poción de defensa de diamante nivel 5,1,0,2,5,0,3,5,1
+",0,item-icon-434,434,Poción de defensa de diamante nivel 5,1,0,2,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 HP actual +480
-",0,item-icon-435,435,Poción de curación estelar nivel 6,1,0,2,6,0,3,6,1
+",0,item-icon-435,435,Poción de curación estelar nivel 6,1,0,2,6,1,3,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
-Ataque de combate +70",0,item-icon-436,436,Poción de ataque estelar nivel 6,1,0,2,6,0,3,6,1
+Ataque de combate +70",0,item-icon-436,436,Poción de ataque estelar nivel 6,1,0,2,6,1,3,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 Velocidad de movimiento +280
-",0,item-icon-437,437,Poción de velocidad estelar nivel 6,1,0,2,6,0,3,6,1
+",0,item-icon-437,437,Poción de velocidad estelar nivel 6,1,0,2,6,1,3,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 Daño crítico contra monstruos +180
-",0,item-icon-438,438,Poción de golpe crítico estelar nivel 6,1,0,2,6,0,3,6,1
+",0,item-icon-438,438,Poción de golpe crítico estelar nivel 6,1,0,2,6,1,3,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 HP máximo +280
-",0,item-icon-439,439,Poción de vida estelar nivel 6,1,0,2,6,0,3,6,1
+",0,item-icon-439,439,Poción de vida estelar nivel 6,1,0,2,6,1,3,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 Defensa de combate +30
-",0,item-icon-440,440,Poción de defensa estelar nivel 6,1,0,2,6,0,3,6,1
+",0,item-icon-440,440,Poción de defensa estelar nivel 6,1,0,2,6,1,3,6,1
 0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 ",0,item-icon-441,441,Martillo de cobre nivel 1,1,0,2,999,0,1,1,1
 0,1," El martillo puede quitar la armadura de ciertos monstruos, toma el martillo y aplástalos.
@@ -1787,16 +1787,16 @@ Restaura Energía +30
 Usarlo puede activar efectos especiales.
 -------
 Restaura Energía +30.
-",0,item-icon-459,459,Nivel 4 Poción de Restauración de Energía,1,0,3,4,0,3,4,1
+",0,item-icon-459,459,Nivel 4 Poción de Restauración de Energía,1,0,3,4,1,3,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaura Energía +37.
-",0,item-icon-460,460,Nivel 5 Poción de Restauración de Energía,1,0,3,5,0,3,5,1
+",0,item-icon-460,460,Nivel 5 Poción de Restauración de Energía,1,0,3,5,1,3,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
-Restaura Energía +45.",0,item-icon-461,461,Nivel 6 Poción de Restauración de Energía,1,0,3,6,0,3,6,1
+Restaura Energía +45.",0,item-icon-461,461,Nivel 6 Poción de Restauración de Energía,1,0,3,6,1,3,6,1
 "1,3,4",1,"Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
 Se puede utilizar para fabricar equipo o objetos.
 -------
@@ -1867,47 +1867,47 @@ Se puede usar para fabricar Poción de Energía.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-482,482,Nv 1 Slime de Energía,1,0,3,"1,0",0,4,1,1
+",0,item-icon-482,482,Nv 1 Slime de Energía,1,0,3,1,1,4,1,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-483,483,Nv 2 Slime de Energía,1,0,3,2,0,4,2,1
+",0,item-icon-483,483,Nv 2 Slime de Energía,1,0,3,2,1,4,2,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-484,484,Nv 3 Slime de Energía,1,0,3,3,0,4,3,1
+",0,item-icon-484,484,Nv 3 Slime de Energía,1,0,3,3,1,4,3,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-485,485,Nv 4 Slime de Energía,1,0,3,4,0,4,4,1
+",0,item-icon-485,485,Nv 4 Slime de Energía,1,0,3,4,1,4,4,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-486,486,Nv 5 Slime de Energía,1,0,3,5,0,4,5,1
+",0,item-icon-486,486,Nv 5 Slime de Energía,1,0,3,5,1,4,5,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-487,487,Nv 6 Slime de Energía,1,0,3,6,0,4,6,1
+",0,item-icon-487,487,Nv 6 Slime de Energía,1,0,3,6,1,4,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-488,488,Nv 7 Slime de Energía,1,0,3,7,0,4,7,1
+",0,item-icon-488,488,Nv 7 Slime de Energía,1,0,3,7,1,4,7,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-489,489,Nv 8 Slime de Energía,1,0,3,8,0,4,8,1
+",0,item-icon-489,489,Nv 8 Slime de Energía,1,0,3,8,1,4,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Hecho de varios materiales y con fuertes fluctuaciones de energía, se puede reprocesar en varios accesorios.
-",0,item-icon-490,490,Nv 9 Slime de Energía,1,0,3,9,0,4,9,1
+",0,item-icon-490,490,Nv 9 Slime de Energía,1,0,3,9,1,4,9,1
 "1,3,4",1," Aparece en Ancient Domain.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -2429,69 +2429,69 @@ Calzado resistente para agricultores dedicados, que proporciona comodidad y prot
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
-",0,item-icon-599,599,Poción de Restauración de Energía,1,0,3,7,0,3,7,1
+",0,item-icon-599,599,Poción de Restauración de Energía,1,0,3,7,1,3,7,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
-",0,item-icon-600,600,Poción de Restauración de Energía,1,0,3,8,0,3,8,1
+",0,item-icon-600,600,Poción de Restauración de Energía,1,0,3,8,1,3,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
-",0,item-icon-601,601,Poción de Restauración de Energía,1,0,3,9,0,3,9,1
+",0,item-icon-601,601,Poción de Restauración de Energía,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
-",0,item-icon-602,602,Esencia de Combate Nivel 7,1,0,2,7,0,4,7,1
+",0,item-icon-602,602,Esencia de Combate Nivel 7,1,0,2,7,1,4,7,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
-",0,item-icon-603,603,Esencia de Combate Nivel 8,1,0,2,8,0,4,8,1
+",0,item-icon-603,603,Esencia de Combate Nivel 8,1,0,2,8,1,4,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
-",0,item-icon-604,604,Esencia de Combate Nivel 9,1,0,2,9,0,4,9,1
+",0,item-icon-604,604,Esencia de Combate Nivel 9,1,0,2,9,1,4,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
 -------
 Esencia de Recolección, útil para sintetizar varios equipos.
-",0,item-icon-605,605,Esencia de Recolección Nivel 7,1,0,3,7,0,4,7,1
+",0,item-icon-605,605,Esencia de Recolección Nivel 7,1,0,3,7,1,4,7,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede usar para fabricar equipos o objetos.
 -------
-Esencia de Recolección, útil para sintetizar varios equipos.",0,item-icon-606,606,Esencia de Recolección Nivel 8,1,0,3,8,0,4,8,1
+Esencia de Recolección, útil para sintetizar varios equipos.",0,item-icon-606,606,Esencia de Recolección Nivel 8,1,0,3,8,1,4,8,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de recolección, útil para sintetizar varios equipos
-",0,item-icon-607,607,Nv 9 Reunir Esencia,1,0,3,9,0,4,9,1
+",0,item-icon-607,607,Nv 9 Reunir Esencia,1,0,3,9,1,4,9,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de plantación agrícola, útil para sintetizar varios equipos
-",0,item-icon-608,608,Nv 7 Esencia de Plantación Agrícola,1,0,1,7,0,4,7,1
+",0,item-icon-608,608,Nv 7 Esencia de Plantación Agrícola,1,0,1,7,1,4,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de plantación agrícola, útil para sintetizar varios equipos
-",0,item-icon-609,609,Nv 8 Esencia de Plantación Agrícola,1,0,1,8,0,4,8,1
+",0,item-icon-609,609,Nv 8 Esencia de Plantación Agrícola,1,0,1,8,1,4,8,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de plantación agrícola, útil para sintetizar varios equipos
-",0,item-icon-610,610,Nv 9 Esencia de Plantación Agrícola,1,0,1,9,0,4,9,1
+",0,item-icon-610,610,Nv 9 Esencia de Plantación Agrícola,1,0,1,9,1,4,9,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de ganadería agrícola, útil para sintetizar varios equipos
-",0,item-icon-611,611,Nv 7 Esencia de Ganadería Agrícola,1,0,1,7,0,4,7,1
+",0,item-icon-611,611,Nv 7 Esencia de Ganadería Agrícola,1,0,1,7,1,4,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de ganadería agrícola, útil para sintetizar varios equipos
-",0,item-icon-612,612,Nv 8 Esencia de Ganadería Agrícola,1,0,1,8,0,4,8,1
+",0,item-icon-612,612,Nv 8 Esencia de Ganadería Agrícola,1,0,1,8,1,4,8,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de ganadería agrícola, útil para sintetizar varios equipos
-",0,item-icon-613,613,Nv 9 Esencia de Ganadería Agrícola,1,0,1,9,0,4,9,1
+",0,item-icon-613,613,Nv 9 Esencia de Ganadería Agrícola,1,0,1,9,1,4,9,1
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
@@ -2541,91 +2541,91 @@ Semilla para cultivar Verdura Psicodélica
 Usarlo puede activar efectos especiales.
 -------
 HP actual +320
-",0,item-icon-623,623,Poción de Curación Caliente,1,0,3,7,0,3,7,1
+",0,item-icon-623,623,Poción de Curación Caliente,1,0,3,7,1,3,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Ataque de combate +50
-",0,item-icon-641,641,Poción de Ataque Caliente,1,0,3,7,0,3,7,1
+",0,item-icon-641,641,Poción de Ataque Caliente,1,0,3,7,1,3,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Velocidad de movimiento +200
-",0,item-icon-642,642,Poción de Velocidad Caliente,1,0,3,7,0,3,7,1
+",0,item-icon-642,642,Poción de Velocidad Caliente,1,0,3,7,1,3,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Daño crítico contra monstruos +120
-",0,item-icon-643,643,Poción de Golpe Crítico Caliente,1,0,3,7,0,3,7,1
+",0,item-icon-643,643,Poción de Golpe Crítico Caliente,1,0,3,7,1,3,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 HP máximo +200
-",0,item-icon-644,644,Poción de Vida Caliente,1,0,3,7,0,3,7,1
+",0,item-icon-644,644,Poción de Vida Caliente,1,0,3,7,1,3,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Defensa de combate +20
-",0,item-icon-645,645,Poción de Defensa Caliente,1,0,3,7,0,3,7,1
+",0,item-icon-645,645,Poción de Defensa Caliente,1,0,3,7,1,3,7,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 HP actual +400
-",0,item-icon-646,646,Poción de Curación Hueca,1,0,3,8,0,3,8,1
+",0,item-icon-646,646,Poción de Curación Hueca,1,0,3,8,1,3,8,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Ataque de combate +60
-",0,item-icon-647,647,Poción de Ataque Hueca,1,0,3,8,0,3,8,1
+",0,item-icon-647,647,Poción de Ataque Hueca,1,0,3,8,1,3,8,1
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
-Velocidad de movimiento +240",0,item-icon-648,648,Poción de Velocidad Hueca,1,0,3,8,0,3,8,1
+Velocidad de movimiento +240",0,item-icon-648,648,Poción de Velocidad Hueca,1,0,3,8,1,3,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Daño crítico contra monstruos +150
-",0,item-icon-649,649,Poción Crítica Hueca,1,0,3,8,0,3,8,1
+",0,item-icon-649,649,Poción Crítica Hueca,1,0,3,8,1,3,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 HP máximo +240
-",0,item-icon-650,650,Poción de Vida Hueca,1,0,3,8,0,3,8,1
+",0,item-icon-650,650,Poción de Vida Hueca,1,0,3,8,1,3,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Defensa de combate +25
-",0,item-icon-651,651,Poción de Defensa Hueca,1,0,3,8,0,3,8,1
+",0,item-icon-651,651,Poción de Defensa Hueca,1,0,3,8,1,3,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 HP actual +480
-",0,item-icon-652,652,Poción Curativa de Bronce,1,0,3,9,0,3,9,1
+",0,item-icon-652,652,Poción Curativa de Bronce,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Ataque de combate +70
-",0,item-icon-653,653,Poción de Ataque de Bronce,1,0,3,9,0,3,9,1
+",0,item-icon-653,653,Poción de Ataque de Bronce,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Velocidad de movimiento +280
-",0,item-icon-654,654,Poción de Velocidad de Bronce,1,0,3,9,0,3,9,1
+",0,item-icon-654,654,Poción de Velocidad de Bronce,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Daño crítico contra monstruos +180
-",0,item-icon-655,655,Poción Crítica de Bronce,1,0,3,9,0,3,9,1
+",0,item-icon-655,655,Poción Crítica de Bronce,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 HP máximo +280
-",0,item-icon-656,656,Poción de Vida de Bronce,1,0,3,9,0,3,9,1
+",0,item-icon-656,656,Poción de Vida de Bronce,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Defensa de combate +30
-",0,item-icon-657,657,Poción de Defensa de Bronce,1,0,3,9,0,3,9,1
+",0,item-icon-657,657,Poción de Defensa de Bronce,1,0,3,9,1,3,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede usar para fabricar equipos o objetos.
 -------
@@ -2712,122 +2712,122 @@ Este es un tipo de semilla que se puede plantar para cultivar bambú, que es ade
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-693,693,Poder de la Naturaleza Nivel 1,1,0,3,"1,0",0,4,1,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-693,693,Poder de la Naturaleza Nivel 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-694,694,Poder de la Naturaleza Nivel 2,1,0,3,2,0,4,2,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-694,694,Poder de la Naturaleza Nivel 2,1,0,3,2,1,4,2,1
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-695,695,Poder de la Naturaleza Nivel 3,1,0,3,3,0,4,3,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-695,695,Poder de la Naturaleza Nivel 3,1,0,3,3,1,4,3,1
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-696,696,Poder de la Naturaleza Nivel 4,1,0,3,4,0,4,4,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-696,696,Poder de la Naturaleza Nivel 4,1,0,3,4,1,4,4,1
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-697,697,Poder de la Naturaleza Nivel 5,1,0,3,5,0,4,5,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-697,697,Poder de la Naturaleza Nivel 5,1,0,3,5,1,4,5,1
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
-Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-698,698,Poder de la Naturaleza Nivel 6,1,0,3,6,0,4,6,1
+Contiene una fuerte fuerza natural. Puede usarse en mascotas.",0,item-icon-698,698,Poder de la Naturaleza Nivel 6,1,0,3,6,1,4,6,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
-",0,item-icon-699,699,Poder de la Naturaleza Nivel 7,1,0,3,7,0,4,7,1
+",0,item-icon-699,699,Poder de la Naturaleza Nivel 7,1,0,3,7,1,4,7,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
-",0,item-icon-700,700,Nivel 8 Poder de la Naturaleza,1,0,3,8,0,4,8,1
+",0,item-icon-700,700,Nivel 8 Poder de la Naturaleza,1,0,3,8,1,4,8,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
-",0,item-icon-701,701,Nivel 9 Poder de la Naturaleza,1,0,3,9,0,4,9,1
+",0,item-icon-701,701,Nivel 9 Poder de la Naturaleza,1,0,3,9,1,4,9,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-702,702,Nivel 3 Alimento,1,0,1,3,0,3,0,1
+",27,item-icon-702,702,Nivel 3 Alimento,1,0,1,3,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-703,703,Nivel 4 Alimento,1,0,1,4,0,3,0,1
+",27,item-icon-703,703,Nivel 4 Alimento,1,0,1,4,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-704,704,Nivel 5 Alimento,1,0,1,5,0,3,0,1
+",27,item-icon-704,704,Nivel 5 Alimento,1,0,1,5,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-705,705,Nivel 6 Alimento,1,0,1,6,0,3,0,1
+",27,item-icon-705,705,Nivel 6 Alimento,1,0,1,6,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-706,706,Nivel 7 Alimento,1,0,1,7,0,3,0,1
+",27,item-icon-706,706,Nivel 7 Alimento,1,0,1,7,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-707,707,Nivel 8 Alimento,1,0,1,8,0,3,0,1
+",27,item-icon-707,707,Nivel 8 Alimento,1,0,1,8,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-708,708,Nivel 9 Alimento,1,0,1,9,0,3,0,1
+",27,item-icon-708,708,Nivel 9 Alimento,1,0,1,9,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 4.
-",0,item-icon-709,709,Poción de Restauración de Energía Lv 1 2.0,1,0,3,"1,0",0,3,0,1
+",0,item-icon-709,709,Poción de Restauración de Energía Lv 1 2.0,1,0,3,1,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 10.
-",0,item-icon-710,710,Poción de Restauración de Energía Lv 2 2.0,1,0,3,2,0,3,0,1
+",0,item-icon-710,710,Poción de Restauración de Energía Lv 2 2.0,1,0,3,2,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 17.
-",0,item-icon-711,711,Poción de Restauración de Energía Lv 3 2.0,1,0,3,3,0,3,0,1
+",0,item-icon-711,711,Poción de Restauración de Energía Lv 3 2.0,1,0,3,3,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 25.
-",0,item-icon-712,712,Poción de Restauración de Energía Lv 4 2.0,1,0,3,4,0,3,0,1
+",0,item-icon-712,712,Poción de Restauración de Energía Lv 4 2.0,1,0,3,4,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 34.
-",0,item-icon-713,713,Poción de Restauración de Energía Lv 5 2.0,1,0,3,5,0,3,0,1
+",0,item-icon-713,713,Poción de Restauración de Energía Lv 5 2.0,1,0,3,5,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 44.
-",0,item-icon-714,714,Poción de Restauración de Energía Lv 6 2.0,1,0,3,6,0,3,0,1
+",0,item-icon-714,714,Poción de Restauración de Energía Lv 6 2.0,1,0,3,6,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 55.
-",0,item-icon-715,715,Poción de Restauración de Energía Lv 7 2.0,1,0,3,7,0,3,0,1
+",0,item-icon-715,715,Poción de Restauración de Energía Lv 7 2.0,1,0,3,7,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 67.
-",0,item-icon-716,716,Poción de Restauración de Energía Lv 8 2.0,1,0,3,8,0,3,0,1
+",0,item-icon-716,716,Poción de Restauración de Energía Lv 8 2.0,1,0,3,8,1,3,0,1
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaurar energía - 80.
-",0,item-icon-717,717,Poción de Restauración de Energía Lv 9 2.0,1,0,3,9,0,3,0,1
+",0,item-icon-717,717,Poción de Restauración de Energía Lv 9 2.0,1,0,3,9,1,3,0,1
 "1,3,4",1," Aparece en Flower Peak, Aparece en Floating Realm, Aparece en Ancient Domain.
 Se puede usar para fabricar equipo o objetos.
 -------
@@ -2872,33 +2872,6 @@ La recompensa obtenida al matar al jefe de la Mazmorra de la Arena.",0,item-icon
 "1,3,4",1,,0,item-icon-732,732,,1,0,2,999,0,4,0,1
 0,1,,0,item-icon-733,733,,1,0,2,999,0,4,0,1
 "1,3,4",1,,0,item-icon-734,734,,1,0,"1,2,3",999,0,4,0,1
-"1,3,4",1,,0,item-icon-735,735,,1,0,"1,2,3",999,2,7,0,1
-"1,3,4",1,,0,item-icon-736,736,,1,0,"1,2,3",999,2,7,0,1
-"1,3,4",1,,0,item-icon-737,737,,1,0,"1,2,3",999,2,7,0,1
-"1,3,4",1,,0,item-icon-738,738,,1,0,2,999,0,4,1,1
-"1,3,4",1,,0,item-icon-739,739,,1,0,2,999,0,4,2,1
-"1,3,4",1,,0,item-icon-740,740,,1,0,2,999,0,4,3,1
-"1,3,4",1,,0,item-icon-741,741,,1,0,2,999,0,4,4,1
-"1,3,4",1,,0,item-icon-742,742,,1,0,2,999,0,4,5,1
-"1,3,4",1,,0,item-icon-743,743,,1,0,2,999,0,4,6,1
-"1,3,4",1,,0,item-icon-744,744,,1,0,2,999,0,4,7,1
-"1,3,4",1,,0,item-icon-745,745,,1,0,2,999,0,4,8,1
-"1,3,4",1,,0,item-icon-746,746,,1,0,2,999,0,4,9,1
-"1,3,4",1,,0,item-icon-747,747,,1,0,1,1,0,4,1,1
-"1,3,4",1,,0,item-icon-748,748,,1,0,1,2,0,4,2,1
-"1,3,4",1,,0,item-icon-749,749,,1,0,1,3,0,4,3,1
-"1,3,4",1,,0,item-icon-750,750,,1,0,1,4,0,4,4,1
-"1,3,4",1,,0,item-icon-751,751,,1,0,1,5,0,4,5,1
-"1,3,4",1,,0,item-icon-752,752,,1,0,1,6,0,4,6,1
-"1,3,4",1,,0,item-icon-753,753,,1,0,1,7,0,4,7,1
-"1,3,4",1,,0,item-icon-754,754,,1,0,1,8,0,4,8,1
-"1,3,4",1,,0,item-icon-755,755,,1,0,1,9,0,4,9,1
-"1,3,4",1,,0,item-icon-756,756,,1,0,3,1,0,4,1,1
-"1,3,4",1,,0,item-icon-757,757,,1,0,3,2,0,4,2,1
-"1,3,4",1,,0,item-icon-758,758,,1,0,3,3,0,4,3,1
-"1,3,4",1,,0,item-icon-759,759,,1,0,3,4,0,4,4,1
-"1,3,4",1,,0,item-icon-760,760,,1,0,3,5,0,4,5,1
-"1,3,4",1,,0,item-icon-761,761,,1,0,3,6,0,4,6,1
-"1,3,4",1,,0,item-icon-762,762,,1,0,3,7,0,4,7,1
-"1,3,4",1,,0,item-icon-763,763,,1,0,3,8,0,4,8,1
-"1,3,4",1,,0,item-icon-764,764,,1,0,3,9,0,4,9,1
+"1,3,4",1,,0,item-icon-735,735,,1,0,"1,2,3",999,2,4,0,1
+"1,3,4",1,,0,item-icon-736,736,,1,0,"1,2,3",999,2,4,0,1
+"1,3,4",1,,0,item-icon-737,737,,1,0,"1,2,3",999,2,4,0,1

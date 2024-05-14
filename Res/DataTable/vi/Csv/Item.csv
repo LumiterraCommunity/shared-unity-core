@@ -3,17 +3,17 @@ canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,n
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Chất nhờn màu xanh lá cây này là một nguyên liệu thô hiếm có thể được sử dụng để chế tạo các trang bị chiến đấu khác nhau. Nó có khả năng dính mạnh mẽ và có thể kết dính với nhiều vật liệu khác nhau.
-",0,item-icon-30,30,Lv 1 Slime Xanh,1,0,2,"1,0",1,4,1,1
+",0,item-icon-30,30,Lv 1 Slime Xanh,1,0,2,1,1,4,1,1
 "1,3,4",1,"Một người từng thấy vật liệu này bên bờ biển.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Dây bí ngô là một nguyên liệu thô có thể được sử dụng để chế tạo vũ khí và áo giáp. Chúng có cấu trúc cứng và độ bền tuyệt vời, mang lại sự bảo vệ đáng tin cậy và sức tấn công trong chiến đấu.
-",0,item-icon-31,31,Lv 1 Cây bí ngô,1,0,2,"1,0",1,4,1,1
+",0,item-icon-31,31,Lv 1 Cây bí ngô,1,0,2,1,1,4,1,1
 "1,3,4",1,"Một người từng thấy vật liệu này bên bờ biển.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Loại lưới dây thép này là một nguyên liệu thô được sử dụng cho chiến đấu, có thể được sử dụng để chế tạo cấu trúc phòng thủ hoặc trang bị với sức mạnh và độ bền cao.
-",0,item-icon-32,32,Lv 1 Lưới dây,1,0,2,"1,0",1,4,1,1
+",0,item-icon-32,32,Lv 1 Lưới dây,1,0,2,1,1,4,1,1
 "1,3,4",1,"Một người từng thấy vật liệu này trong sa mạc.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -143,7 +143,7 @@ Nó có thể được sử dụng để chế tạo thiết bị hoặc vật p
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
 Đá này là loại đầu tiên và có thể được sử dụng để thu thập nguyên liệu thô như cây cối.
-",0,item-icon-58,58,Lv 1 Khoáng sản,1,0,3,"1,0",1,4,1,1
+",0,item-icon-58,58,Lv 1 Khoáng sản,1,0,3,1,1,4,1,1
 "1,3,4",1,"Có người từng thấy vật liệu này trong hẻm núi.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
@@ -157,7 +157,7 @@ Nó có thể được sử dụng để chế tạo thiết bị hoặc vật p
 "1,3,4",1,"Có người từng thấy vật liệu này bên bờ biển.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
-Loại gỗ này thường được sử dụng để làm đồ nội thất đơn giản hoặc vật liệu xây dựng. Cấu trúc của nó tương đối mềm, dễ dàng xử lý và khắc.",0,item-icon-62,62,Lv 1 Gỗ thông thường,1,0,3,"1,0",1,4,1,1
+Loại gỗ này thường được sử dụng để làm đồ nội thất đơn giản hoặc vật liệu xây dựng. Cấu trúc của nó tương đối mềm, dễ dàng xử lý và khắc.",0,item-icon-62,62,Lv 1 Gỗ thông thường,1,0,3,1,1,4,1,1
 "1,3,4",1," Một người từng thấy vật liệu này ở sa mạc.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -172,17 +172,17 @@ Gỗ tối màu là một loại gỗ cao cấp với vân đen và cấu trúc 
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Loại tre này là sản phẩm nông nghiệp và là một loại cây được sử dụng để chế tạo nhiều nguyên liệu nông nghiệp khác nhau. Nó rất phổ biến trong nông nghiệp và có thể phát triển rất nhanh.
-",0,item-icon-70,70,Lv 1 Tre,1,0,1,"1,0",1,4,1,1
+",0,item-icon-70,70,Lv 1 Tre,1,0,1,1,1,4,1,1
 "1,3,4",1," Bạn có thể thu được loại vật liệu này thông qua việc trồng trọt.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Mục này là một nguyên liệu nông nghiệp, thường có thể thu hoạch ở cấp độ Lv 1. Hình dạng của nó giống như ba chiếc lá, do đó nó được gọi là ba lá. Nó có thể được sử dụng để chế tạo nhiều vật phẩm khác nhau và là một nguồn tài nguyên rất hữu ích.
-",0,item-icon-71,71,Lv 1 Cỏ ba lá,1,0,1,"1,0",1,4,1,1
+",0,item-icon-71,71,Lv 1 Cỏ ba lá,1,0,1,1,1,4,1,1
 "1,3,4",1," Bạn có thể thu được loại vật liệu này thông qua việc trồng trọt.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Cà rốt này là một sản phẩm nông nghiệp cấp độ 1 có thể thu được trong lĩnh vực nông nghiệp. Đây là một nguyên liệu quan trọng.
-",0,item-icon-72,72,Lv 1 Cà rốt,1,0,1,"1,0",1,4,1,1
+",0,item-icon-72,72,Lv 1 Cà rốt,1,0,1,1,1,4,1,1
 "1,3,4",1," Bạn có thể thu được loại vật liệu này thông qua việc trồng trọt.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -387,47 +387,47 @@ Công thức giàu chất dinh dưỡng này nuôi dưỡng sâu vào cây trồ
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này có thể được sử dụng trong trận đấu và mang lại hiệu ứng chữa trị nhỏ.
-",0,item-icon-134,134,Lv 0 Thuốc hồi phục phụ,1,0,2,"1,0",0,3,1,1
+",0,item-icon-134,134,Lv 0 Thuốc hồi phục phụ,1,0,2,1,1,3,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này có thể tăng cường sức mạnh tấn công của bạn.
-",0,item-icon-135,135,Lv 0 Thuốc tăng công kích,1,0,2,"1,0",0,3,1,1
+",0,item-icon-135,135,Lv 0 Thuốc tăng công kích,1,0,2,1,1,3,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này tăng cường sự linh hoạt của bạn, cho phép bạn di chuyển nhanh chóng và né tránh các cuộc tấn công dễ dàng. Nó mang lại một cú hích tạm thời về tốc độ, biến bạn trở thành một lực lượng đáng gờm trên chiến trường. Sử dụng nó một cách chiến lược để vượt qua đối thủ và giành ưu thế trong chiến đấu.
-",0,item-icon-136,136,Lv 0 Thuốc tăng tốc di chuyển,1,0,2,"1,0",0,3,1,1
+",0,item-icon-136,136,Lv 0 Thuốc tăng tốc di chuyển,1,0,2,1,1,3,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này tăng cường khả năng gây chí mạng của bạn, cho phép bạn gây sát thương tàn phá cho kẻ thù. Đây là một món đồ không thể thiếu đối với bất kỳ người chơi nào muốn tối đa hóa sức mạnh tấn công của mình. Sử dụng nó một cách khôn ngoan và quan sát kẻ thù của bạn sụp đổ trước mặt bạn.
-",0,item-icon-137,137,Lv 0 Thuốc tăng đòn kích,1,0,2,"1,0",0,3,1,1
+",0,item-icon-137,137,Lv 0 Thuốc tăng đòn kích,1,0,2,1,1,3,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này là một sợi dây cứu cánh trong trò chơi, cung cấp một sự tăng cường cần thiết cho sức khỏe của nhân vật của bạn. Nó ngay lập tức khôi phục một lượng lớn HP, cho phép bạn tiếp tục cuộc phiêu lưu mà không bị gián đoạn. Với màu sắc tươi sáng và hương vị sảng khoái, đây là biện pháp chữa trị hoàn hảo cho bất kỳ tình huống khó khăn nào.
-",0,item-icon-138,138,Lv 0 Thuốc hồi sinh,1,0,2,"1,0",0,3,1,1
+",0,item-icon-138,138,Lv 0 Thuốc hồi sinh,1,0,2,1,1,3,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này có thể cung cấp hiệu ứng phòng thủ tạm thời, phù hợp cho tình huống khẩn cấp trong trận đấu.
-",0,item-icon-139,139,Lv 0 Thuốc tăng phòng thủ,1,0,2,"1,0",0,3,1,1
+",0,item-icon-139,139,Lv 0 Thuốc tăng phòng thủ,1,0,2,1,1,3,1,1
 "1,3,4",1,"Thu thập vật liệu cùng cấp có thể dẫn đến việc thu được hạt giống bổ sung, giết quái vật cùng cấp có thể dẫn đến việc thu được mục này.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Đây là một loại hạt giống có thể trồng để mọc cây tre, phù hợp để sử dụng trong lĩnh vực nông nghiệp.
-",97,item-icon-146,146,Lv 1 Hạt tre,1,0,1,"1,0",1,3,1,1
+",97,item-icon-146,146,Lv 1 Hạt tre,1,0,1,1,1,3,1,1
 "1,3,4",1,"Thu thập vật liệu cùng cấp có thể dẫn đến việc thu được hạt giống bổ sung, giết quái vật cùng cấp có thể dẫn đến việc thu được mục này.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Hạt giống trifolium là loại hạt giống nông nghiệp được sử dụng để trồng trifolium và phù hợp để sử dụng trên đất cấp thấp. Chúng có thể phát triển nhanh chóng và sản xuất giá trị dinh dưỡng phong phú trong môi trường phù hợp.
-",97,item-icon-147,147,Lv 1 Hạt ba lá,1,0,1,"1,0",1,3,1,1
+",97,item-icon-147,147,Lv 1 Hạt ba lá,1,0,1,1,1,3,1,1
 "1,3,4",1,"Thu thập vật liệu cùng cấp có thể dẫn đến việc thu được hạt giống bổ sung, giết quái vật cùng cấp có thể dẫn đến việc thu được mục này.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Loại hạt giống cà rốt này có thể được sử dụng để trồng cà rốt tươi ngon. Nó phù hợp để sử dụng trong vườn nhà hoặc trang trại nhỏ và có thể trồng vào mùa xuân và mùa thu. Cà rốt được trồng từ những hạt giống này có vị ngon và giàu dinh dưỡng.
-",97,item-icon-148,148,Lv 1 Hạt cà rốt,1,0,1,"1,0",1,3,1,1
+",97,item-icon-148,148,Lv 1 Hạt cà rốt,1,0,1,1,1,3,1,1
 "1,3,4",1,"Thu thập vật liệu cùng cấp có thể dẫn đến việc thu được hạt giống bổ sung, giết quái vật cùng cấp có thể dẫn đến việc thu được mục này.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
@@ -476,29 +476,29 @@ Phân bón này được công thức đặc biệt để cung cấp độ ẩm 
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này có thể được sử dụng trong trận đấu và có thể chữa lành những vết thương của bạn.
-",0,item-icon-140,140,Lv 1 Thuốc điều trị,1,0,2,2,0,3,2,1
+",0,item-icon-140,140,Lv 1 Thuốc điều trị,1,0,2,2,1,3,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này tăng cường khả năng chiến đấu của bạn, tăng sức mạnh tấn công của bạn trong một khoảng thời gian giới hạn. Đây là một món đồ không thể thiếu đối với bất kỳ nhà thám hiểm nào muốn gây sát thương tàn phá cho kẻ thù của mình. Sử dụng nó một cách khôn ngoan và quan sát kẻ thù của bạn run rẩy trước mặt bạn.
-",0,item-icon-141,141,Lv 1 Thuốc tăng công kích,1,0,2,2,0,3,2,1
+",0,item-icon-141,141,Lv 1 Thuốc tăng công kích,1,0,2,2,1,3,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này tăng cường tốc độ của bạn, cho phép bạn di chuyển nhanh chóng và né tránh các cuộc tấn công dễ dàng. Đây là một món đồ không thể thiếu đối với bất kỳ nhà thám hiểm nào muốn có lợi thế trong trận đấu.
-",0,item-icon-142,142,Lv 1 Thuốc tăng tốc di chuyển,1,0,2,2,0,3,2,1
+",0,item-icon-142,142,Lv 1 Thuốc tăng tốc di chuyển,1,0,2,2,1,3,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này tăng cường khả năng chiến đấu của bạn, tăng khả năng gây chí mạng của bạn, cho phép bạn gây sát thương lớn trong trận đấu. Với thuốc này, chiến thắng nằm trong tầm tay của bạn.
-",0,item-icon-143,143,Lv 1 Thuốc tăng đòn kích,1,0,2,2,0,3,2,1
+",0,item-icon-143,143,Lv 1 Thuốc tăng đòn kích,1,0,2,2,1,3,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này có thể khôi phục điểm máu của bạn. Nó hoạt động tốt hơn khi được sử dụng trong trận đấu.
-",0,item-icon-144,144,Lv 1 Thuốc hồi sinh,1,0,2,2,0,3,2,1
+",0,item-icon-144,144,Lv 1 Thuốc hồi sinh,1,0,2,2,1,3,2,1
 "1,3,4",1,"Một loại thuốc tăng cường mạnh mẽ, tăng khả năng phòng thủ của bạn, cung cấp một lớp bảo vệ tạm thời chống lại cuộc tấn công của kẻ thù. Thuốc này tăng cường giá trị giáp và sự bền bỉ, cho phép bạn chịu đựng ngay cả những trận đánh khó khăn nhất. Sử dụng nó một cách khôn ngoan để đảo ngược tình thế và nổi lên thắng lợi.
-",0,item-icon-145,145,Lv 1 Thuốc tăng phòng thủ,1,0,2,2,0,3,2,1
+",0,item-icon-145,145,Lv 1 Thuốc tăng phòng thủ,1,0,2,2,1,3,2,1
 "1,3,4",1,"Có người từng thấy vật liệu này bên bờ biển.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
@@ -508,7 +508,7 @@ Nó có thể được sử dụng để chế tạo thiết bị hoặc vật p
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nhựa này là một chất lỏng nhớt cao có thể được sử dụng để làm keo dán, lớp phủ và chất kết dính khác. Thông thường, nó được thu thập từ cây và yêu cầu công cụ đặc biệt để thu thập.
-",0,item-icon-65,65,Lv 1 Nhựa,1,0,3,"1,0",1,4,1,1
+",0,item-icon-65,65,Lv 1 Nhựa,1,0,3,1,1,4,1,1
 "1,3,4",1," Một người từng thấy vật liệu này trong hẻm núi.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -518,7 +518,7 @@ Một loại cây thảo dược lâu năm mọc hoang dã, có khả năng ch�
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Sợi thực vật này là một nguyên liệu thu thập được thông thường thường được lấy từ cây. Nó có thể được sử dụng để làm nhiều loại vật phẩm khác nhau, như dây thừng, vải và giấy.
-",0,item-icon-66,66,Lv 1 Sợi thực vật,1,0,3,"1,0",1,4,1,1
+",0,item-icon-66,66,Lv 1 Sợi thực vật,1,0,3,1,1,4,1,1
 "1,3,4",1," Một người từng thấy vật liệu này trên Núi Tuyết.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -528,7 +528,7 @@ Những loại nấm này mọc ở vùng cực lạnh và có màu xanh nhạt.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Mạng nhện này là cấp độ 1 và có thể thu thập trong rừng. Đây là một nguyên liệu thô có thể được sử dụng để chế tạo nhiều vật phẩm khác nhau.
-",0,item-icon-69,69,Lv 1 Mạng nhện,1,0,3,"1,0",1,4,1,1
+",0,item-icon-69,69,Lv 1 Mạng nhện,1,0,3,1,1,4,1,1
 "1,3,4",1,"Vé này cho bạn quyền truy cập vào một sự kiện độc quyền đầy phiêu lưu và trải nghiệm khó quên. Hãy sẵn sàng bắt đầu một cuộc hành trình không giống ai và tạo ra những kỷ niệm vĩnh cửu.
 ",0,item-icon-171,171,Lv 0 Vé #1,1,0,"1,2,3",999,0,4,0,1
 "1,3,4",1,"Vé này cho bạn quyền truy cập vào một sự kiện độc quyền đầy phiêu lưu và trải nghiệm khó quên. Hãy sẵn sàng bắt đầu một cuộc hành trình không giống ai và tạo ra những kỷ niệm vĩnh cửu.
@@ -552,19 +552,19 @@ Vật liệu này là một chất hữu cơ có tác dụng như phân bón và
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
 Mầm tre này được thu hoạch từ cây xương rồng và có màu xanh nhạt và kết cấu mềm mại. Đây là một nguyên liệu nông nghiệp quan trọng có thể được sử dụng để làm thuốc, thực phẩm và các sản phẩm làm đẹp khác.
-",0,item-icon-177,177,Lv 1 Mầm cây xương rồng,1,0,1,"1,0",1,4,1,1
+",0,item-icon-177,177,Lv 1 Mầm cây xương rồng,1,0,1,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được loại vật liệu này thông qua việc chăn nuôi.
 
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
 Đinh ốc này được thu được từ chăn nuôi quái vật và có thể được sử dụng làm nguyên liệu nông nghiệp.
-",0,item-icon-178,178,Lv 1 Ốc vít,1,0,1,"1,0",1,4,1,1
+",0,item-icon-178,178,Lv 1 Ốc vít,1,0,1,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được loại vật liệu này thông qua việc chăn nuôi.
 
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
 Mầm bí ngô là nguyên liệu nông nghiệp được sản xuất từ chăn nuôi quái vật, có màu xanh nhạt và giàu dinh dưỡng. Chúng có thể được sử dụng để làm nhiều loại thực phẩm và thuốc.
-",0,item-icon-179,179,Lv 1 Mầm bí ngô,1,0,1,"1,0",1,4,1,1
+",0,item-icon-179,179,Lv 1 Mầm bí ngô,1,0,1,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được loại vật liệu này thông qua việc chăn nuôi.
 
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
@@ -647,12 +647,12 @@ Vụn cây này có vẻ đã mục rồi và không còn ăn được nữa. Đ
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một mục tiêu tiêu thụ phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị phát triển của thú cưng. Nó được làm từ cây cỏ tự nhiên và chất dinh dưỡng, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một mục tiêu không thể thiếu cho chủ nuôi thú cưng.
-",27,item-icon-28,28,Lv 0 Thức ăn - Nhỏ,1,0,1,"1,0",0,3,0,1
+",27,item-icon-28,28,Lv 0 Thức ăn - Nhỏ,1,0,1,1,1,3,0,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho động vật là một sản phẩm tiêu thụ cung cấp các chất dinh dưỡng cần thiết để động vật duy trì sự phát triển khỏe mạnh. Nó phù hợp cho nhiều loại gia súc và thú cưng, và có thể tăng năng suất và tuổi thọ của chúng.
-",27,item-icon-29,29,Lv 0 Thức ăn - Lớn,1,0,1,"1,0",0,3,0,1
+",27,item-icon-29,29,Lv 0 Thức ăn - Lớn,1,0,1,1,1,3,0,1
 "1,3,4",0,"EXP Nông nghiệp là giá trị kinh nghiệm trong trò chơi có thể thu được thông qua các hoạt động nông nghiệp như trồng cây và nuôi động vật. Đây là yếu tố quan trọng để cải thiện kỹ năng và cấp độ nông nghiệp, và cũng là điều kiện cần thiết để mở khóa các công cụ và thiết bị nông nghiệp cấp cao hơn.
 ",0,item-icon-188,188,Kỹ năng nông nghiệp,1,0,"1,2,3",999,0,4,0,0
 "1,3,4",0,"EXP Chiến đấu là kinh nghiệm thu được trong các trận chiến. Nó có thể giúp người chơi lên cấp và cải thiện kỹ năng, nâng cao khả năng của nhân vật. Trong nhiều trò chơi, EXP Chiến đấu là một trong những cách quan trọng để người chơi nâng cao sức mạnh của mình.
@@ -663,91 +663,91 @@ Thức ăn cho động vật là một sản phẩm tiêu thụ cung cấp các 
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Loại thuốc này có thể được sử dụng trong trận chiến để chữa lành vết thương và khôi phục khả năng chiến đấu của bạn.
-",0,item-icon-191,191,Lv 2 Thuốc hồi phục pha lê,1,0,2,3,0,3,3,1
+",0,item-icon-191,191,Lv 2 Thuốc hồi phục pha lê,1,0,2,3,1,3,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Loại thuốc này có thể tăng sức mạnh tấn công của bạn và làm cho đòn tấn công của bạn sắc bén hơn. Sử dụng nó trong trận chiến có thể mang lại lợi thế lớn hơn cho bạn.
-",0,item-icon-192,192,Lv 2 Thuốc tăng công kích pha lê,1,0,2,3,0,3,3,1
+",0,item-icon-192,192,Lv 2 Thuốc tăng công kích pha lê,1,0,2,3,1,3,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Loại thuốc này có thể tăng tốc độ di chuyển của bạn và hỗ trợ lớn cho bạn trong các trận chiến.
-",0,item-icon-194,194,Lv 2 Thuốc tăng tốc di chuyển pha lê,1,0,2,3,0,3,3,1
+",0,item-icon-194,194,Lv 2 Thuốc tăng tốc di chuyển pha lê,1,0,2,3,1,3,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Loại thuốc này có thể tăng tỷ lệ đánh chí mạng của bạn, làm cho bạn nguy hiểm hơn trong trận chiến.
-",0,item-icon-195,195,Lv 2 Thuốc tăng đòn kích pha lê,1,0,2,3,0,3,3,1
+",0,item-icon-195,195,Lv 2 Thuốc tăng đòn kích pha lê,1,0,2,3,1,3,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Một loại thuốc thần mạnh, khôi phục sức sống và làm trẻ lại những nhà thám hiểm mệt mỏi, mang lại sự sống mới và tính chất chữa lành. Loại thuốc quý giá này là một sợi dây cứu cánh trong những tình huống khó khăn, mang lại sự bổ sung nhanh chóng và sảng khoái để giữ bạn tiếp tục trong mối nguy hiểm.
-",0,item-icon-196,196,Lv 2 Thuốc hồi sinh pha lê,1,0,2,3,0,3,3,1
+",0,item-icon-196,196,Lv 2 Thuốc hồi sinh pha lê,1,0,2,3,1,3,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Loại thuốc này có thể tạo ra một lớp bảo vệ tinh thể cho phòng thủ của bạn, làm cho bạn càng trở nên bất khả xâm phạm hơn trong trận chiến.
-",0,item-icon-197,197,Lv 2 Thuốc tăng phòng thủ pha lê,1,0,2,3,0,3,3,1
+",0,item-icon-197,197,Lv 2 Thuốc tăng phòng thủ pha lê,1,0,2,3,1,3,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
 Loại tinh chất này được thu thập từ cây và có thể được sử dụng để sản xuất các nguyên liệu và chất tổng hợp khác.
-",0,item-icon-207,207,Lv 1 Thu thập tinh chất,1,0,3,"1,0",0,4,1,1
+",0,item-icon-207,207,Lv 1 Thu thập tinh chất,1,0,3,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
-Loại tinh chất này có thể được thu thập bằng cách thu hoạch từ cây và là nguyên liệu cần thiết để chế tạo các hợp chất nguyên liệu khác.",0,item-icon-208,208,Lv 2 Thu thập tinh chất,1,0,3,2,0,4,2,1
+Loại tinh chất này có thể được thu thập bằng cách thu hoạch từ cây và là nguyên liệu cần thiết để chế tạo các hợp chất nguyên liệu khác.",0,item-icon-208,208,Lv 2 Thu thập tinh chất,1,0,3,2,1,4,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Mục này là một tinh chất được sử dụng để thu thập nguyên liệu thô cho tổng hợp và yêu cầu cấp độ 3 để sử dụng. Nó có thể được thu thập từ cây và là một nguồn tài nguyên rất quan trọng.
-",0,item-icon-209,209,Lv 3 Thu thập tinh chất,1,0,3,3,0,4,3,1
+",0,item-icon-209,209,Lv 3 Thu thập tinh chất,1,0,3,3,1,4,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất trồng trọt nông nghiệp này được tổng hợp cẩn thận từ nguyên liệu nông nghiệp chất lượng cao và phù hợp cho việc trồng trọt từ cấp độ một. Nó có thể cải thiện tốc độ và năng suất sinh trưởng của cây trồng, cũng như tăng chất lượng và hương vị của cây trồng. Sử dụng nó có thể làm cho cây trồng của bạn khỏe mạnh và phát triển, và làm cho sản xuất nông nghiệp của bạn hiệu quả và ổn định hơn.
-",0,item-icon-210,210,Lv 1 Tinh chất trồng trọt,1,0,1,"1,0",0,4,1,1
+",0,item-icon-210,210,Lv 1 Tinh chất trồng trọt,1,0,1,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Đây là một tinh chất được thiết kế đặc biệt cho việc trồng trọt nông nghiệp, có thể cải thiện tốc độ và năng suất sinh trưởng của cây trồng và giúp cải thiện hiệu suất sản xuất nông nghiệp. Nó được tổng hợp từ nhiều nguyên liệu nông nghiệp và là một mục không thể thiếu quan trọng trong sản xuất nông nghiệp.
-",0,item-icon-211,211,Lv 2 Tinh chất trồng trọt,1,0,1,2,0,4,2,1
+",0,item-icon-211,211,Lv 2 Tinh chất trồng trọt,1,0,1,2,1,4,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất trồng trọt nông nghiệp này là sự kết hợp của nhiều tinh chất cây quý giá, có hiệu quả kỳ diệu trong việc thúc đẩy sự phát triển và tăng năng suất của cây trồng. Nó là một trong những nguyên liệu không thể thiếu trong lĩnh vực nông nghiệp và phù hợp cho nhiều loại cây trồng.
-",0,item-icon-212,212,Lv 3 Tinh chất trồng trọt,1,0,1,3,0,4,3,1
+",0,item-icon-212,212,Lv 3 Tinh chất trồng trọt,1,0,1,3,1,4,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất nông nghiệp và chăn nuôi này là sự kết hợp của nhiều tinh chất cây và động vật tự nhiên, có thể cải thiện hiệu suất sản xuất và năng suất của nông nghiệp và chăn nuôi. Nó giàu chất dinh dưỡng và chất hoạt hóa sinh học, có thể thúc đẩy sự phát triển khỏe mạnh của cây trồng và động vật chăn nuôi.
-",0,item-icon-213,213,Lv 1 Tinh chất chăn nuôi,1,0,1,"1,0",0,4,1,1
+",0,item-icon-213,213,Lv 1 Tinh chất chăn nuôi,1,0,1,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Đây là một tinh chất được chiết xuất từ nông nghiệp và chăn nuôi, có thể được sử dụng để tổng hợp các nguyên liệu nông nghiệp khác.
-",0,item-icon-214,214,Lv 2 Tinh chất chăn nuôi,1,0,1,2,0,4,2,1
+",0,item-icon-214,214,Lv 2 Tinh chất chăn nuôi,1,0,1,2,1,4,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất này được chiết xuất từ các sản phẩm nông nghiệp và chăn nuôi chất lượng cao, có giá trị dinh dưỡng và y học cực kỳ cao. Nó có thể được sử dụng để làm các loại thuốc và gia vị liên quan đến nông nghiệp và chăn nuôi.
-",0,item-icon-215,215,Lv 3 Tinh chất chăn nuôi,1,0,1,3,0,4,3,1
+",0,item-icon-215,215,Lv 3 Tinh chất chăn nuôi,1,0,1,3,1,4,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phân bón này có thể thúc đẩy tốc độ sinh trưởng của cây trồng và phù hợp cho cây trồng trung cấp.
-",0,item-icon-216,216,Lv 1 Tinh chất chiến đấu,1,0,2,"1,0",0,4,1,1
+",0,item-icon-216,216,Lv 1 Tinh chất chiến đấu,1,0,2,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Những loại phân bón này được đặc biệt thiết kế để tăng năng suất cây trồng, mang lại mùa thu bội thu. Chúng cung cấp chất dinh dưỡng cần thiết và thúc đẩy sự phát triển khỏe mạnh của cây trồng, đảm bảo năng suất tối ưu cho nông dân. Nâng cao năng suất với những loại phân bón chất lượng cao này.
-",0,item-icon-217,217,Lv 2 Tinh chất chiến đấu,1,0,2,2,0,4,2,1
+",0,item-icon-217,217,Lv 2 Tinh chất chiến đấu,1,0,2,2,1,4,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phân bón này cung cấp khả năng giữ ẩm nâng cao cho cây trồng, đảm bảo cây trồng luôn được cung cấp đủ nước và khỏe mạnh. Nó thúc đẩy sự phát triển và cung cấp dinh dưỡng tối ưu mà không cần tưới nước liên tục. Chăm sóc cây trồng của bạn tốt nhất với phân bón dưỡng ẩm tiên tiến này.
-",0,item-icon-218,218,Lv 3 Tinh chất chiến đấu,1,0,2,3,0,4,3,1
+",0,item-icon-218,218,Lv 3 Tinh chất chiến đấu,1,0,2,3,1,4,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể cải thiện thuộc tính.
 -------
@@ -1088,19 +1088,19 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục một ít năng lượng
 ",0,item-icon-295,295,"Thuốc phục hồi năng lượng - Nhỏ
-",1,0,3,"1,0",0,3,1,1
+",1,0,3,1,1,3,1,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục nhiều năng lượng
 ",0,item-icon-296,296,"Thuốc phục hồi năng lượng - Trung bình
-",1,0,3,2,0,3,2,1
+",1,0,3,2,1,3,2,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục rất nhiều năng lượng
 ",0,item-icon-297,297,"Thuốc phục hồi năng lượng - Lớn
-",1,0,3,3,0,3,3,1
+",1,0,3,3,1,3,3,1
 0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể cải thiện thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn
 -------
@@ -1713,73 +1713,73 @@ Nó có thể được sử dụng để chế tạo trang bị hoặc vật ph�
 -------
 Tinh chất Chiến đấu, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-401,401," Tinh chất chiến đấu cấp 4
-",1,0,2,4,0,4,4,1
+",1,0,2,4,1,4,4,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chiến đấu, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-402,402," Tinh chất chiến đấu cấp 5
-",1,0,2,5,0,4,5,1
+",1,0,2,5,1,4,5,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chiến đấu, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-403,403," Tinh chất chiến đấu cấp 6
-",1,0,2,6,0,4,6,1
+",1,0,2,6,1,4,6,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Thu thập, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-404,404," Tinh chất thu thập cấp 4
-",1,0,3,4,0,4,4,1
+",1,0,3,4,1,4,4,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Thu thập, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-405,405," Tinh chất thu thập cấp 5
-",1,0,3,5,0,4,5,1
+",1,0,3,5,1,4,5,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Thu thập, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-406,406," Tinh chất thu thập cấp 6
-",1,0,3,6,0,4,6,1
+",1,0,3,6,1,4,6,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Trồng trọt Nông nghiệp, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-407,407," Tinh chất trồng trọt nông nghiệp cấp 4
-",1,0,1,4,0,4,4,1
+",1,0,1,4,1,4,4,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Trồng trọt Nông nghiệp, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-408,408," Tinh chất trồng trọt nông nghiệp cấp 5
-",1,0,1,5,0,4,5,1
+",1,0,1,5,1,4,5,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Trồng trọt Nông nghiệp, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-409,409," Tinh chất trồng trọt nông nghiệp cấp 6
-",1,0,1,6,0,4,6,1
+",1,0,1,6,1,4,6,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chăn nuôi Nông nghiệp, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-410,410," Tinh chất chăn nuôi nông nghiệp cấp 4
-",1,0,1,4,0,4,4,1
+",1,0,1,4,1,4,4,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chăn nuôi Nông nghiệp, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-411,411," Tinh chất chăn nuôi nông nghiệp cấp 5
-",1,0,1,5,0,4,5,1
+",1,0,1,5,1,4,5,1
 "1,3,4",1,"Bạn có thể thu được vật phẩm này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chăn nuôi Nông nghiệp, hữu ích để tổng hợp các trang bị khác nhau
 ",0,item-icon-412,412," Tinh chất chăn nuôi nông nghiệp cấp 6
-",1,0,1,6,0,4,6,1
+",1,0,1,6,1,4,6,1
 "1,3,4",1,"Thu thập vật liệu cùng cấp có thể dẫn đến hạt giống bổ sung, giết quái vật cùng cấp có thể dẫn đến việc thu được vật phẩm này.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
@@ -1838,108 +1838,108 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP hiện tại +320
 ",0,item-icon-422,422," Thuốc chữa bệnh vàng cấp 4
-",1,0,2,4,0,3,4,1
+",1,0,2,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tấn công chiến đấu +50
 ",0,item-icon-423,423," Thuốc tấn công vàng cấp 4
-",1,0,2,4,0,3,4,1
+",1,0,2,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tốc độ di chuyển +200
 ",0,item-icon-424,424," Thuốc tăng tốc vàng cấp 4
-",1,0,2,4,0,3,4,1
+",1,0,2,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sát thương chí mạng đối với quái vật +120
 ",0,item-icon-425,425," Thuốc tấn công chí mạng vàng cấp 4
-",1,0,2,4,0,3,4,1
+",1,0,2,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP tối đa +200
 ",0,item-icon-426,426," Thuốc cứu mạng vàng cấp 4
-",1,0,2,4,0,3,4,1
+",1,0,2,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phòng thủ chiến đấu +20
 ",0,item-icon-427,427," Thuốc phòng thủ vàng cấp 4
-",1,0,2,4,0,3,4,1
+",1,0,2,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP hiện tại +400
 ",0,item-icon-429,429," Thuốc chữa bệnh kim cương cấp 5
-",1,0,2,5,0,3,5,1
+",1,0,2,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tấn công chiến đấu +60
 ",0,item-icon-430,430," Thuốc tấn công kim cương cấp 5
-",1,0,2,5,0,3,5,1
+",1,0,2,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tốc độ di chuyển +240
 ",0,item-icon-431,431," Thuốc tăng tốc kim cương cấp 5
-",1,0,2,5,0,3,5,1
+",1,0,2,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sát thương chí mạng đối với quái vật +150
 ",0,item-icon-432,432," Thuốc tấn công chí mạng kim cương cấp 5
-",1,0,2,5,0,3,5,1
+",1,0,2,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP tối đa +240
 ",0,item-icon-433,433," Thuốc cứu mạng kim cương cấp 5
-",1,0,2,5,0,3,5,1
+",1,0,2,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phòng thủ chiến đấu +25
 ",0,item-icon-434,434," Thuốc phòng thủ kim cương cấp 5
-",1,0,2,5,0,3,5,1
+",1,0,2,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP hiện tại +480
 ",0,item-icon-435,435," Thuốc chữa bệnh sao cấp 6
-",1,0,2,6,0,3,6,1
+",1,0,2,6,1,3,6,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tấn công chiến đấu +70",0,item-icon-436,436," Thuốc tấn công sao cấp 6
-",1,0,2,6,0,3,6,1
+",1,0,2,6,1,3,6,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tốc độ di chuyển +280
 ",0,item-icon-437,437," Thuốc tăng tốc sao cấp 6
-",1,0,2,6,0,3,6,1
+",1,0,2,6,1,3,6,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sát thương chí mạng chống lại quái vật +180
 ",0,item-icon-438,438," Thuốc tấn công chí mạng sao cấp 6
-",1,0,2,6,0,3,6,1
+",1,0,2,6,1,3,6,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP tối đa +280
 ",0,item-icon-439,439," Thuốc cứu mạng sao cấp 6
-",1,0,2,6,0,3,6,1
+",1,0,2,6,1,3,6,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phòng thủ chiến đấu +30
 ",0,item-icon-440,440," Thuốc phòng thủ sao cấp 6
-",1,0,2,6,0,3,6,1
+",1,0,2,6,1,3,6,1
 0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể cải thiện thuộc tính. Nâng cao sức mạnh tấn công chiến đấu của bạn
 -------
@@ -2034,17 +2034,17 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục Năng lượng +30
 ",0,item-icon-459,459,"Thuốc phục hồi năng lượng cấp 4
-",1,0,3,4,0,3,4,1
+",1,0,3,4,1,3,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục Năng lượng +37
 ",0,item-icon-460,460,"Thuốc phục hồi năng lượng cấp 5
-",1,0,3,5,0,3,5,1
+",1,0,3,5,1,3,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
-Khôi phục Năng lượng +45",0,item-icon-461,461,Thuốc phục hồi năng lượng cấp 6,1,0,3,6,0,3,6,1
+Khôi phục Năng lượng +45",0,item-icon-461,461,Thuốc phục hồi năng lượng cấp 6,1,0,3,6,1,3,6,1
 "1,3,4",1,"Giết quái vật cùng cấp có thể nhận được mục này.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -2120,55 +2120,55 @@ Nó có thể được sử dụng để chế tạo trang bị hoặc vật ph�
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-482,482,"Lv 1 Slime Năng Lượng
-",1,0,3,"1,0",0,4,1,1
+",1,0,3,1,1,4,1,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-483,483,"Lv 2 Slime Năng Lượng
-",1,0,3,2,0,4,2,1
+",1,0,3,2,1,4,2,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-484,484,"Lv 3 Slime Năng Lượng
-",1,0,3,3,0,4,3,1
+",1,0,3,3,1,4,3,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-485,485,"Lv 4 Slime Năng Lượng
-",1,0,3,4,0,4,4,1
+",1,0,3,4,1,4,4,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-486,486,"Lv 5 Slime Năng Lượng
-",1,0,3,5,0,4,5,1
+",1,0,3,5,1,4,5,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-487,487,"Lv 6 Slime Năng Lượng
-",1,0,3,6,0,4,6,1
+",1,0,3,6,1,4,6,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-488,488,"Lv 7 Slime Năng Lượng
-",1,0,3,7,0,4,7,1
+",1,0,3,7,1,4,7,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-489,489,"Lv 8 Slime Năng Lượng
-",1,0,3,8,0,4,8,1
+",1,0,3,8,1,4,8,1
 "1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Được làm từ các vật liệu khác nhau và chứa đựng sự dao động năng lượng mạnh mẽ, nó có thể được tái chế thành các phụ kiện khác nhau.
 ",0,item-icon-490,490,"Lv 9 Slime Năng Lượng
-",1,0,3,9,0,4,9,1
+",1,0,3,9,1,4,9,1
 "1,3,4",1,"Xuất hiện trong Vùng Cổ Đại.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -2881,83 +2881,83 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng của bạn và làm bạn tràn đầy sức sống trở lại.
 ",0,item-icon-599,599,"Thuốc phục hồi năng lượng 
-",1,0,3,7,0,3,7,1
+",1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 
 -------
 Khôi phục năng lượng của bạn và làm bạn tràn đầy sức sống trở lại.
 ",0,item-icon-600,600,"Thuốc phục hồi năng lượng 
-",1,0,3,8,0,3,8,1
+",1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 ",0,item-icon-601,601,"Thuốc phục hồi năng lượng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 
 -------
 Tinh chất Chiến đấu, hữu ích để tổng hợp các thiết bị khác nhau
 ",0,item-icon-602,602,"Tinh chất chiến đấu cấp 7 
-",1,0,2,7,0,4,7,1
+",1,0,2,7,1,4,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 
 -------
 Tinh chất Chiến đấu, hữu ích để tổng hợp các thiết bị khác nhau
 ",0,item-icon-603,603,"Tinh chất chiến đấu cấp 8 
-",1,0,2,8,0,4,8,1
+",1,0,2,8,1,4,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 ",0,item-icon-604,604,"Tinh chất chiến đấu cấp 9 
-",1,0,2,9,0,4,9,1
+",1,0,2,9,1,4,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 
 -------
 Tinh chất Thu thập, hữu ích để tổng hợp các thiết bị khác nhau
 ",0,item-icon-605,605,"Tinh chất thu thập cấp 7 
-",1,0,3,7,0,4,7,1
+",1,0,3,7,1,4,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 
 -------
-Tinh chất Thu thập, hữu ích để tổng hợp các thiết bị khác nhau",0,item-icon-606,606,Tinh chất thu thập cấp 8,1,0,3,8,0,4,8,1
+Tinh chất Thu thập, hữu ích để tổng hợp các thiết bị khác nhau",0,item-icon-606,606,Tinh chất thu thập cấp 8,1,0,3,8,1,4,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Thu thập, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-607,607,Cấp độ 9 Thu thập tinh chất,1,0,3,9,0,4,9,1
+",0,item-icon-607,607,Cấp độ 9 Thu thập tinh chất,1,0,3,9,1,4,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Trồng trọt Nông nghiệp, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-608,608,Cấp độ 7 Tinh chất trồng trọt nông nghiệp,1,0,1,7,0,4,7,1
+",0,item-icon-608,608,Cấp độ 7 Tinh chất trồng trọt nông nghiệp,1,0,1,7,1,4,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Trồng trọt Nông nghiệp, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-609,609,Cấp độ 8 Tinh chất trồng trọt nông nghiệp,1,0,1,8,0,4,8,1
+",0,item-icon-609,609,Cấp độ 8 Tinh chất trồng trọt nông nghiệp,1,0,1,8,1,4,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Trồng trọt Nông nghiệp, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-610,610,Cấp độ 9 Tinh chất trồng trọt nông nghiệp,1,0,1,9,0,4,9,1
+",0,item-icon-610,610,Cấp độ 9 Tinh chất trồng trọt nông nghiệp,1,0,1,9,1,4,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chăn nuôi Nông nghiệp, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-611,611,Cấp độ 7 Tinh chất chăn nuôi nông nghiệp,1,0,1,7,0,4,7,1
+",0,item-icon-611,611,Cấp độ 7 Tinh chất chăn nuôi nông nghiệp,1,0,1,7,1,4,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chăn nuôi Nông nghiệp, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-612,612,Cấp độ 8 Tinh chất chăn nuôi nông nghiệp,1,0,1,8,0,4,8,1
+",0,item-icon-612,612,Cấp độ 8 Tinh chất chăn nuôi nông nghiệp,1,0,1,8,1,4,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Tinh chất Chăn nuôi Nông nghiệp, hữu ích để tổng hợp các trang bị khác
-",0,item-icon-613,613,Cấp độ 9 Tinh chất chăn nuôi nông nghiệp,1,0,1,9,0,4,9,1
+",0,item-icon-613,613,Cấp độ 9 Tinh chất chăn nuôi nông nghiệp,1,0,1,9,1,4,9,1
 "1,3,4",1,"Xuất hiện trong Vùng cổ đại.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
@@ -3007,100 +3007,100 @@ Hạt giống để trồng Rau Thuốc
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP hiện tại +320
-",0,item-icon-623,623,Thuốc Chữa Bệnh Nóng,1,0,3,7,0,3,7,1
+",0,item-icon-623,623,Thuốc Chữa Bệnh Nóng,1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sức tấn công chiến đấu +50
-",0,item-icon-641,641,Thuốc Tấn Công Nóng,1,0,3,7,0,3,7,1
+",0,item-icon-641,641,Thuốc Tấn Công Nóng,1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tốc độ di chuyển +200
-",0,item-icon-642,642,Thuốc Tăng Tốc Nóng,1,0,3,7,0,3,7,1
+",0,item-icon-642,642,Thuốc Tăng Tốc Nóng,1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sát thương chí mạng chống lại quái vật +120
-",0,item-icon-643,643,Thuốc Tấn Công Chí Mạng Nóng,1,0,3,7,0,3,7,1
+",0,item-icon-643,643,Thuốc Tấn Công Chí Mạng Nóng,1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP tối đa +200
-",0,item-icon-644,644,Thuốc Sống Nóng,1,0,3,7,0,3,7,1
+",0,item-icon-644,644,Thuốc Sống Nóng,1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phòng thủ chiến đấu +20
-",0,item-icon-645,645,Thuốc Phòng Thủ Nóng,1,0,3,7,0,3,7,1
+",0,item-icon-645,645,Thuốc Phòng Thủ Nóng,1,0,3,7,1,3,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP hiện tại +400
-",0,item-icon-646,646,Thuốc Chữa Bệnh Rỗng,1,0,3,8,0,3,8,1
+",0,item-icon-646,646,Thuốc Chữa Bệnh Rỗng,1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sức tấn công chiến đấu +60
-",0,item-icon-647,647,Thuốc Tấn Công Rỗng,1,0,3,8,0,3,8,1
+",0,item-icon-647,647,Thuốc Tấn Công Rỗng,1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
-Tốc độ di chuyển +240",0,item-icon-648,648,Thuốc Tăng Tốc Rỗng,1,0,3,8,0,3,8,1
+Tốc độ di chuyển +240",0,item-icon-648,648,Thuốc Tăng Tốc Rỗng,1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sát thương chí mạng chống lại quái vật +150
 ",0,item-icon-649,649,"Thuốc tăng tấn công Hollow 
-",1,0,3,8,0,3,8,1
+",1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP tối đa +240
 ",0,item-icon-650,650,"Thuốc tăng sức sống Hollow 
-",1,0,3,8,0,3,8,1
+",1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phòng thủ chiến đấu +25
 ",0,item-icon-651,651,"Thuốc tăng phòng thủ Hollow 
-",1,0,3,8,0,3,8,1
+",1,0,3,8,1,3,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP hiện tại +480
 ",0,item-icon-652,652,"Thuốc chữa bệnh đồng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tấn công chiến đấu +70
 ",0,item-icon-653,653,"Thuốc tăng tấn công đồng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Tốc độ di chuyển +280
 ",0,item-icon-654,654,"Thuốc tăng tốc độ đồng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Sát thương chí mạng chống lại quái vật +180
 ",0,item-icon-655,655,"Thuốc tăng chí mạng đồng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 HP tối đa +280
 ",0,item-icon-656,656,"Thuốc tăng sức sống đồng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Phòng thủ chiến đấu +30
 ",0,item-icon-657,657,"Thuốc tăng phòng thủ đồng 
-",1,0,3,9,0,3,9,1
+",1,0,3,9,1,3,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -3219,144 +3219,144 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
-",0,item-icon-693,693,Lv 1 Power of Nature: Sức mạnh tự nhiên cấp độ 1,1,0,3,"1,0",0,4,1,1
+",0,item-icon-693,693,Lv 1 Power of Nature: Sức mạnh tự nhiên cấp độ 1,1,0,3,1,1,4,1,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
-",0,item-icon-694,694,Lv 2 Power of Nature: Sức mạnh tự nhiên cấp độ 2,1,0,3,2,0,4,2,1
+",0,item-icon-694,694,Lv 2 Power of Nature: Sức mạnh tự nhiên cấp độ 2,1,0,3,2,1,4,2,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
-",0,item-icon-695,695,Lv 3 Power of Nature: Sức mạnh tự nhiên cấp độ 3,1,0,3,3,0,4,3,1
+",0,item-icon-695,695,Lv 3 Power of Nature: Sức mạnh tự nhiên cấp độ 3,1,0,3,3,1,4,3,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
-",0,item-icon-696,696,Lv 4 Power of Nature: Sức mạnh tự nhiên cấp độ 4,1,0,3,4,0,4,4,1
+",0,item-icon-696,696,Lv 4 Power of Nature: Sức mạnh tự nhiên cấp độ 4,1,0,3,4,1,4,4,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
-",0,item-icon-697,697,Lv 5 Power of Nature: Sức mạnh tự nhiên cấp độ 5,1,0,3,5,0,4,5,1
+",0,item-icon-697,697,Lv 5 Power of Nature: Sức mạnh tự nhiên cấp độ 5,1,0,3,5,1,4,5,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
-Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.",0,item-icon-698,698,Lv 6 Power of Nature: Sức mạnh tự nhiên cấp độ 6,1,0,3,6,0,4,6,1
+Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.",0,item-icon-698,698,Lv 6 Power of Nature: Sức mạnh tự nhiên cấp độ 6,1,0,3,6,1,4,6,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
-",0,item-icon-699,699,Lv 7 Power of Nature: Sức mạnh tự nhiên cấp độ 7,1,0,3,7,0,4,7,1
+",0,item-icon-699,699,Lv 7 Power of Nature: Sức mạnh tự nhiên cấp độ 7,1,0,3,7,1,4,7,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
 ",0,item-icon-700,700,"Cấp độ 8 Sức mạnh của Thiên nhiên
-",1,0,3,8,0,4,8,1
+",1,0,3,8,1,4,8,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
 Nó chứa một lực lượng tự nhiên mạnh mẽ. Có thể sử dụng cho thú cưng.
 ",0,item-icon-701,701,"Cấp độ 9 Sức mạnh của Thiên nhiên
-",1,0,3,9,0,4,9,1
+",1,0,3,9,1,4,9,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-702,702,"Cấp độ 3 Thức ăn
-",1,0,1,3,0,3,0,1
+",1,0,1,3,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-703,703,"Cấp độ 4 Thức ăn
-",1,0,1,4,0,3,0,1
+",1,0,1,4,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-704,704,"Cấp độ 5 Thức ăn
-",1,0,1,5,0,3,0,1
+",1,0,1,5,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-705,705,"Cấp độ 6 Thức ăn
-",1,0,1,6,0,3,0,1
+",1,0,1,6,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-706,706,"Cấp độ 7 Thức ăn
-",1,0,1,7,0,3,0,1
+",1,0,1,7,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-707,707,"Cấp độ 8 Thức ăn
-",1,0,1,8,0,3,0,1
+",1,0,1,8,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thức ăn cho thú cưng là một vật phẩm tiêu hao phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị tăng trưởng của thú cưng. Nó được làm từ cây cỏ và chất dinh dưỡng tự nhiên, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một vật phẩm không thể thiếu cho chủ nuôi thú cưng.
 ",27,item-icon-708,708,"Cấp độ 9 Thức ăn
-",1,0,1,9,0,3,0,1
+",1,0,1,9,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 4.
 ",0,item-icon-709,709,"Lọ thuốc phục hồi năng lượng cấp 1 2.0
-",1,0,3,"1,0",0,3,0,1
+",1,0,3,1,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 10.
 ",0,item-icon-710,710,"Lọ thuốc phục hồi năng lượng cấp 2 2.0
-",1,0,3,2,0,3,0,1
+",1,0,3,2,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 17.
 ",0,item-icon-711,711,"Lọ thuốc phục hồi năng lượng cấp 3 2.0
-",1,0,3,3,0,3,0,1
+",1,0,3,3,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 25.
 ",0,item-icon-712,712,"Lọ thuốc phục hồi năng lượng cấp 4 2.0
-",1,0,3,4,0,3,0,1
+",1,0,3,4,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 34.
 ",0,item-icon-713,713,"Lọ thuốc phục hồi năng lượng cấp 5 2.0
-",1,0,3,5,0,3,0,1
+",1,0,3,5,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 44.
 ",0,item-icon-714,714,"Lọ thuốc phục hồi năng lượng cấp 6 2.0
-",1,0,3,6,0,3,0,1
+",1,0,3,6,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 55.
 ",0,item-icon-715,715,"Lọ thuốc phục hồi năng lượng cấp 7 2.0
-",1,0,3,7,0,3,0,1
+",1,0,3,7,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 67.
 ",0,item-icon-716,716,"Lọ thuốc phục hồi năng lượng cấp 8 2.0
-",1,0,3,8,0,3,0,1
+",1,0,3,8,1,3,0,1
 "1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục năng lượng - 80.
 ",0,item-icon-717,717,"Lọ thuốc phục hồi năng lượng cấp 9 2.0
-",1,0,3,9,0,3,0,1
+",1,0,3,9,1,3,0,1
 "1,3,4",1,"Xuất hiện ở Đỉnh Hoa, Xuất hiện ở Vùng Trôi, Xuất hiện ở Vùng Cổ xưa.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -3409,33 +3409,6 @@ Phần thưởng nhận được sau khi giết Boss Hang đấu trường.",0,i
 "1,3,4",1,,0,item-icon-732,732,,1,0,2,999,0,4,0,1
 0,1,,0,item-icon-733,733,,1,0,2,999,0,4,0,1
 "1,3,4",1,,0,item-icon-734,734,,1,0,"1,2,3",999,0,4,0,1
-"1,3,4",1,,0,item-icon-735,735,,1,0,"1,2,3",999,2,7,0,1
-"1,3,4",1,,0,item-icon-736,736,,1,0,"1,2,3",999,2,7,0,1
-"1,3,4",1,,0,item-icon-737,737,,1,0,"1,2,3",999,2,7,0,1
-"1,3,4",1,,0,item-icon-738,738,,1,0,2,999,0,4,1,1
-"1,3,4",1,,0,item-icon-739,739,,1,0,2,999,0,4,2,1
-"1,3,4",1,,0,item-icon-740,740,,1,0,2,999,0,4,3,1
-"1,3,4",1,,0,item-icon-741,741,,1,0,2,999,0,4,4,1
-"1,3,4",1,,0,item-icon-742,742,,1,0,2,999,0,4,5,1
-"1,3,4",1,,0,item-icon-743,743,,1,0,2,999,0,4,6,1
-"1,3,4",1,,0,item-icon-744,744,,1,0,2,999,0,4,7,1
-"1,3,4",1,,0,item-icon-745,745,,1,0,2,999,0,4,8,1
-"1,3,4",1,,0,item-icon-746,746,,1,0,2,999,0,4,9,1
-"1,3,4",1,,0,item-icon-747,747,,1,0,1,1,0,4,1,1
-"1,3,4",1,,0,item-icon-748,748,,1,0,1,2,0,4,2,1
-"1,3,4",1,,0,item-icon-749,749,,1,0,1,3,0,4,3,1
-"1,3,4",1,,0,item-icon-750,750,,1,0,1,4,0,4,4,1
-"1,3,4",1,,0,item-icon-751,751,,1,0,1,5,0,4,5,1
-"1,3,4",1,,0,item-icon-752,752,,1,0,1,6,0,4,6,1
-"1,3,4",1,,0,item-icon-753,753,,1,0,1,7,0,4,7,1
-"1,3,4",1,,0,item-icon-754,754,,1,0,1,8,0,4,8,1
-"1,3,4",1,,0,item-icon-755,755,,1,0,1,9,0,4,9,1
-"1,3,4",1,,0,item-icon-756,756,,1,0,3,1,0,4,1,1
-"1,3,4",1,,0,item-icon-757,757,,1,0,3,2,0,4,2,1
-"1,3,4",1,,0,item-icon-758,758,,1,0,3,3,0,4,3,1
-"1,3,4",1,,0,item-icon-759,759,,1,0,3,4,0,4,4,1
-"1,3,4",1,,0,item-icon-760,760,,1,0,3,5,0,4,5,1
-"1,3,4",1,,0,item-icon-761,761,,1,0,3,6,0,4,6,1
-"1,3,4",1,,0,item-icon-762,762,,1,0,3,7,0,4,7,1
-"1,3,4",1,,0,item-icon-763,763,,1,0,3,8,0,4,8,1
-"1,3,4",1,,0,item-icon-764,764,,1,0,3,9,0,4,9,1
+"1,3,4",1,,0,item-icon-735,735,,1,0,"1,2,3",999,2,4,0,1
+"1,3,4",1,,0,item-icon-736,736,,1,0,"1,2,3",999,2,4,0,1
+"1,3,4",1,,0,item-icon-737,737,,1,0,"1,2,3",999,2,4,0,1
