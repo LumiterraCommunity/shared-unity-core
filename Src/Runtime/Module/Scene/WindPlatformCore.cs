@@ -79,6 +79,11 @@ public class WindPlatformCore : SharedCoreComponent
         //风力移动设置
         MoveModifier modifier = characterMoveCtrl.AddMove(WindSpeed, acc);
         _moveModifiers.Add(rigidbody, modifier);
+
+        if (characterMoveCtrl.TryGetComponent(out EntitySkyMoveArea entitySkyMoveArea))
+        {
+            entitySkyMoveArea.AddSkyArea(this);
+        }
     }
 
     private void TriggerExitRigidbody(Rigidbody rigidbody)
@@ -92,6 +97,11 @@ public class WindPlatformCore : SharedCoreComponent
         {
             characterMoveCtrl.RemoveMove(moveModifier);
             _ = _moveModifiers.Remove(rigidbody);
+
+            if (characterMoveCtrl.TryGetComponent(out EntitySkyMoveArea entitySkyMoveArea))
+            {
+                entitySkyMoveArea.RemoveSkyArea(this);
+            }
         }
     }
 
