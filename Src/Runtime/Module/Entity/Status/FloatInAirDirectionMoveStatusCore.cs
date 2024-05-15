@@ -1,4 +1,3 @@
-using System;
 using GameFramework.Fsm;
 using UnityGameFramework.Runtime;
 /// <summary>
@@ -32,9 +31,9 @@ public class FloatInAirDirectionMoveStatusCore : FloatInAirStatusCore
 
     protected override void OnUpdate(IFsm<EntityStatusCtrl> fsm, float elapseSeconds, float realElapseSeconds)
     {
-        base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);
-
         CheckInputMoveStatus();
+
+        base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);//这里会切状态leave 放后面执行
     }
 
     private void CheckInputMoveStatus()
