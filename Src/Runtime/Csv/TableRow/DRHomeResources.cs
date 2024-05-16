@@ -114,6 +114,15 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
+  /**获取rankScore-int。*/
+    /// </summary>
+    public int RankScore
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取requiredProficiency-int。*/
     /// </summary>
     public int RequiredProficiency
@@ -156,6 +165,7 @@ public class DRHomeResources : DataRowBase
         MaxActionValue = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         OreDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TreeDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -181,6 +191,7 @@ public class DRHomeResources : DataRowBase
                 MaxActionValue = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 OreDef = binaryReader.Read7BitEncodedInt32();
+                RankScore = binaryReader.Read7BitEncodedInt32();
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
                 TreeDef = binaryReader.Read7BitEncodedInt32();
