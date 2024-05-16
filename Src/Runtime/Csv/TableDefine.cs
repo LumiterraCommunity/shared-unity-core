@@ -66,6 +66,7 @@ public enum eGameValueID
     SoilGrowTimeRate = 26,
     AnimalHarvestTimeRate = 27,
     TeamMemberMaxNum = 28,//最大队伍成员
+    EnergyRestorePerDay = 30,//每日精力恢复量 千分位 
     EnergyDropCostRate = 31,//精力掉落扣除系数 千分位
     EnergyRecoverSpeed = 32,//精力每分钟恢复量 千分位 和属性表中一致
     TeamDropRadius = 33, // 队伍掉落有效半径
