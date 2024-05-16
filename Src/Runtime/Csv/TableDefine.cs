@@ -88,6 +88,7 @@ public enum eGameValueID
     InstancingRewardsRateRange = 55, // 副本奖励倍率范围
     PetRecallCD = 56, // 宠物召回CD,单位秒
     EnergyCraftBuilding = 59, //精力合成建筑id
+    AllEnergyItemIds = 80, //所有精力道具列表
 }
 
 // public static class GameValueID
