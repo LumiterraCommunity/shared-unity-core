@@ -5,7 +5,7 @@
 public class EntityMoveData : EntityBaseComponent
 {
     /// <summary>
-    /// 移动速度 m/s
+    /// 移动速度 m/s 决定了角色自身移动的快慢 即使不输入移动也不会为0 代表自身的一种属性
     /// </summary>
     public float Speed = 1;
 

@@ -112,6 +112,11 @@ public class JumpPlatformCore : SharedCoreComponent
 
         MoveModifier modifier = characterMoveCtrl.AddMove(JumpSpeed, Vector3.zero);
         _moveModifiers.Add(rigidbody, modifier);
+
+        if (characterMoveCtrl.TryGetComponent(out EntitySkyMoveArea entitySkyMoveArea))
+        {
+            entitySkyMoveArea.AddSkyArea(this);
+        }
     }
 
     private void TriggerExitRigidbody(Rigidbody rigidbody)
@@ -125,6 +130,11 @@ public class JumpPlatformCore : SharedCoreComponent
         {
             characterMoveCtrl.RemoveMove(moveModifier);
             _ = _moveModifiers.Remove(rigidbody);
+
+            if (characterMoveCtrl.TryGetComponent(out EntitySkyMoveArea entitySkyMoveArea))
+            {
+                entitySkyMoveArea.RemoveSkyArea(this);
+            }
         }
     }
 }

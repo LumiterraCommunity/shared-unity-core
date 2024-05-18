@@ -6,8 +6,11 @@ using UnityEngine;
 public sealed class CharacterDirectionMove : DirectionMove
 {
     private CharacterMoveCtrl _controller;
-    private MoveModifier _moveModifier;
-
+    /// <summary>
+    /// 当前移动速度修改器 为空时说明没有修改移动
+    /// </summary>
+    /// <value></value>
+    public MoveModifier MoveModifier { get; private set; }
 
     protected override void Start()
     {
@@ -23,7 +26,7 @@ public sealed class CharacterDirectionMove : DirectionMove
 
     private void Update()
     {
-        if (_controller == null || _moveModifier == null)
+        if (_controller == null || MoveModifier == null)
         {
             return;
         }
@@ -32,9 +35,10 @@ public sealed class CharacterDirectionMove : DirectionMove
             Vector3 moveDir = InputData.InputMoveDirection.Value;
             moveDir.Normalize();
             transform.forward = moveDir;
-            _controller.UpdateMove(_moveModifier, MoveSpeed * moveDir, Vector3.zero);
+            _controller.UpdateMove(MoveModifier, MoveSpeed * moveDir, Vector3.zero);
         }
     }
+
     public override void StopMove()
     {
         RemoveMoveModifier();
@@ -61,7 +65,7 @@ public sealed class CharacterDirectionMove : DirectionMove
             moveDir.Normalize();
             speed = MoveSpeed * moveDir;
         }
-        _moveModifier = _controller.AddMove(speed, Vector3.zero);
+        MoveModifier = _controller.AddMove(speed, Vector3.zero);
     }
 
     /// <summary>
@@ -69,10 +73,10 @@ public sealed class CharacterDirectionMove : DirectionMove
     /// </summary>
     private void RemoveMoveModifier()
     {
-        if (_moveModifier != null)
+        if (MoveModifier != null)
         {
-            _controller.RemoveMove(_moveModifier);
-            _moveModifier = null;
+            _controller.RemoveMove(MoveModifier);
+            MoveModifier = null;
         }
     }
 }

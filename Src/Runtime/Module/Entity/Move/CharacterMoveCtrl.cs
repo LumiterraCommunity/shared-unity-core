@@ -14,19 +14,19 @@ public class CharacterMoveCtrl : EntityBaseComponent
     private Mover _mover;
 
     /// <summary>
-    /// 地面固定移动速度
+    /// 业务层控制的地面固定移动速度 由业务层的各种速度modifier来控制
     /// </summary>
     /// <value></value>
     public Vector3 MoveSpeed { get; private set; }
 
     /// <summary>
-    /// 移动加速度
+    /// 业务层控制移动加速度 由业务层的各种速度modifier来控制 目前只用在空中
     /// </summary>
     /// <value></value>
     public Vector3 MoveAccSpeed { get; private set; }
 
     /// <summary>
-    /// 当前移动速度
+    /// 当前时刻移动速度 给到刚体的最终速度
     /// </summary>
     public Vector3 CurSpeed = Vector3.zero;  //当前移动速度
 
@@ -184,9 +184,9 @@ public class CharacterMoveCtrl : EntityBaseComponent
 
             Vector3 horizontalVelocity = Vector3.MoveTowards(velocity.OnlyXZ(), MoveSpeed.OnlyXZ(), AIR_CONTROL * Time.deltaTime);
             velocity = horizontalVelocity + velocity.OnlyY();
-            //加上水平摩擦力
-            velocity -= AIR_HORIZONTAL_FRICTION * Time.deltaTime * velocity.OnlyXZ();
         }
+        //加上水平摩擦力
+        velocity -= AIR_HORIZONTAL_FRICTION * Time.deltaTime * velocity.OnlyXZ();
         CurSpeed = velocity;
     }
 
