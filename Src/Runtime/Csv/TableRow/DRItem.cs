@@ -105,6 +105,24 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取tokenTaskLevel-int[]。*/
+    /// </summary>
+    public int[] TokenTaskLevel
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取tokenTaskRefreshType-int。*/
+    /// </summary>
+    public int TokenTaskRefreshType
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -146,6 +164,8 @@ public class DRItem : DataRowBase
         Quality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SubType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TalentId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        TokenTaskRefreshType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UserType = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -170,6 +190,8 @@ public class DRItem : DataRowBase
                 Quality = binaryReader.ReadArray<Int32>();
                 SubType = binaryReader.Read7BitEncodedInt32();
                 TalentId = binaryReader.ReadArray<Int32>();
+                TokenTaskLevel = binaryReader.ReadArray<Int32>();
+                TokenTaskRefreshType = binaryReader.Read7BitEncodedInt32();
                 Type = binaryReader.Read7BitEncodedInt32();
                 UseLv = binaryReader.Read7BitEncodedInt32();
                 UserType = binaryReader.Read7BitEncodedInt32();
