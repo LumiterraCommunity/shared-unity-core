@@ -1,7 +1,7 @@
 /* 
  * @Author XQ
  * @Date 2022-08-15 11:15:06
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/EntityEvent.cs
  */
 using System;
 using System.Collections.Generic;
@@ -84,10 +84,10 @@ public class EntityEvent : EntityBaseComponent
     public Action<long, int> EntityBattleAddDamage;
 
     /// <summary>
-    /// 实体造成伤害
+    /// 实体造成伤害记录
     /// T0：伤害值
     /// </summary>
-    public Action<int> EntityGiveBattleAddDamage;
+    public Action<int> EntityBattleAddDamageRecord;
 
     /// <summary>
     /// 实体伤害记录改变

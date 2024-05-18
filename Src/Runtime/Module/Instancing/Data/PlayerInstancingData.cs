@@ -15,6 +15,7 @@ public class PlayerInstancingData
     public bool IsDeductTicket; //是否扣除门票
     public HashSet<int> CompleteLevelList = new(); //已经完成的关卡
     public int Score;                              //副本分数
+    public int LastLevelDamage;                    //上一关卡的伤害
     public float TotemScore;                       //图腾分数
     public int LifeCount; //生命数量 
     public bool IsWaitTransfer; //是否等待传送
