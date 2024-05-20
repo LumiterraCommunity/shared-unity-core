@@ -39,15 +39,21 @@ public class SELockEnemyPathMoveCore : SEPathMoveCore
         }
 
         //计算目标位置和移动方向
-        UnityEngine.Vector3 targetPos = targetEntity.Position;
+        UnityEngine.Vector3 targetPos;
         UnityEngine.Vector3 moveDir;
         if (moveType == eLockPathMoveTargetType.InputTarget)
         {
+            moveDir = inputData.Dir * (int)dir;
             if (inputData.TargetPosList != null && inputData.TargetPosList.Length > 0)
             {
                 targetPos = inputData.TargetPosList[0];
             }
-            moveDir = inputData.Dir * (int)dir;
+            else
+            {
+                //没有目标位置就向前移动
+                targetPos = targetEntity.Position + (moveDir.normalized * (minDist * 2));
+            }
+
         }
         else
         {
@@ -76,8 +82,6 @@ public class SELockEnemyPathMoveCore : SEPathMoveCore
                 moveDist = minDist - dist;
             }
         }
-
-
 
         //不做Y轴移动  
         moveDir.Set(moveDir.x, 0, moveDir.z);
