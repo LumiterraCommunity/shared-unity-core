@@ -87,6 +87,15 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取resourceInstructions-int[]。*/
+    /// </summary>
+    public int[] ResourceInstructions
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取subType-int。*/
     /// </summary>
     public int SubType
@@ -162,6 +171,7 @@ public class DRItem : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Quality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ResourceInstructions = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SubType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TalentId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -188,6 +198,7 @@ public class DRItem : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 Quality = binaryReader.ReadArray<Int32>();
+                ResourceInstructions = binaryReader.ReadArray<Int32>();
                 SubType = binaryReader.Read7BitEncodedInt32();
                 TalentId = binaryReader.ReadArray<Int32>();
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();
