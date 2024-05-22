@@ -1,5 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
 资源不存在,5001,家园错误码,La ressource n'existe pas
 操作不支持,5002,家园错误码,Opération non prise en charge
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
@@ -166,6 +165,7 @@ describe-string,id-int,module-string,value-string
 ,20090017,任务,Prime
 ,20090018,任务,
 ,20090019,任务,
+,20090020,任务,
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -324,3 +324,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250002,,Le stockage est plein.
 ,20260001,精力,Énergie insuffisante.
 ,20260002,精力,L'énergie de [color=#F7CE3D]{0}[/color] est insuffisante.
+,20270001,排行榜,

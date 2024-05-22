@@ -1,5 +1,4 @@
 describe-string,id-int,module-string,value-string
-,,,
 资源不存在,5001,家园错误码,Sumber daya tidak ada
 操作不支持,5002,家园错误码,Operasi tidak didukung
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
@@ -166,6 +165,7 @@ describe-string,id-int,module-string,value-string
 ,20090017,任务,Tugas Harian
 ,20090018,任务,
 ,20090019,任务,
+,20090020,任务,
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Bertani 
@@ -324,3 +324,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250002,,Penyimpanan penuh.
 ,20260001,精力,Energi tidak cukup.
 ,20260002,精力,Energi {0} tidak cukup.
+,20270001,排行榜,
