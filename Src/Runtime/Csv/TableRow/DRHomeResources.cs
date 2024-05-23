@@ -132,6 +132,15 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
+  /**获取tokenTaskLevel-int[]。*/
+    /// </summary>
+    public int[] TokenTaskLevel
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取totemScore-int。*/
     /// </summary>
     public int TotemScore
@@ -167,6 +176,7 @@ public class DRHomeResources : DataRowBase
         OreDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TreeDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
@@ -193,6 +203,7 @@ public class DRHomeResources : DataRowBase
                 OreDef = binaryReader.Read7BitEncodedInt32();
                 RankScore = binaryReader.Read7BitEncodedInt32();
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
+                TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
                 TreeDef = binaryReader.Read7BitEncodedInt32();
             }
