@@ -267,4 +267,20 @@ public static class HomeDefine
         empty,    //空地
         farmland, //农田
     }
+
+    /// <summary>
+    /// 家园类型
+    /// </summary>
+    public enum eHomeType
+    {
+        Unknown = 0,
+        /// <summary>
+        /// 自己个人家园
+        /// </summary>
+        Personal = 1,
+        /// <summary>
+        /// 副本家园
+        /// </summary>
+        Instancing = 2,
+    }
 }

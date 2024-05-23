@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityGameFramework.Runtime;
+using static HomeDefine;
 
 /// <summary>
 /// 家园数据core
@@ -13,6 +13,12 @@ public class HomeDataCore : MonoBehaviour
     public long OwnerPlayerId { get; private set; }
     public string OwnerPlayerName { get; private set; } = "-";
 
+    /// <summary>
+    /// 家园类型
+    /// </summary>
+    /// <value></value>
+    public eHomeType HomeType { get; private set; }
+
     public int UsedSoilFertileValue { get; private set; }
     public int MaxSoilFertileValue { get; private set; }
     public int UsedAnimalHappyValue { get; private set; }
@@ -20,6 +26,11 @@ public class HomeDataCore : MonoBehaviour
 
     protected bool SoilFertileIsInit { get; private set; }
     protected bool AnimalHappyIsInit { get; private set; }
+
+    public void SetHomeType(eHomeType homeType)
+    {
+        HomeType = homeType;
+    }
 
     public void SetOwnerInfo(long ownerUserId, string ownerName)
     {
