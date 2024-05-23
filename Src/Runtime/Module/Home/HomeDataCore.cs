@@ -27,6 +27,11 @@ public class HomeDataCore : MonoBehaviour
     protected bool SoilFertileIsInit { get; private set; }
     protected bool AnimalHappyIsInit { get; private set; }
 
+    /// <summary>
+    /// 是否自己私人家园
+    /// </summary>
+    public bool IsPersonalHome => HomeType == eHomeType.Personal;
+
     public void SetHomeType(eHomeType homeType)
     {
         HomeType = homeType;
