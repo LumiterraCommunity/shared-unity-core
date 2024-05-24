@@ -67,7 +67,7 @@ public class InitHomeLogicCore : MonoBehaviour
     }
 
     /// <summary>
-    /// 从家园保存数据中恢复土地状态
+    /// 从家园保存数据中恢复土地状态 有数据需要恢复才调用 否则都是初始状态
     /// </summary>
     /// <param name="saveData"></param>
     public void RestoreSoilStatus(HomeSaveData saveData)
