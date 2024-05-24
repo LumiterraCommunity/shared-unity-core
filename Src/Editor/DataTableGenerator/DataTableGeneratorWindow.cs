@@ -26,7 +26,7 @@ namespace Custom.Editor.DataTableTools
                 {
                     _configPath = preFolderPath;
                 }
-                DataTableGeneratorUtil.SetPath(_configPath);
+                DataTableGeneratorUtil.SetPath(_configPath, "/csv");
                 if (GUILayout.Button("浏览", GUILayout.Width(50f)))
                 {
                     _configPath = EditorUtility.OpenFolderPanel("select path", _configPath, "");
@@ -35,13 +35,14 @@ namespace Custom.Editor.DataTableTools
                         PlayerPrefs.SetString(Constant.ePlayerPrefsKey.SVN_CONFING_FOLDER_PATH.ToString(), _configPath);
                         PlayerPrefs.Save();
                     }
-                    DataTableGeneratorUtil.SetPath(_configPath);
+                    DataTableGeneratorUtil.SetPath(_configPath, "/csv");
                 }
 
             }
             GUILayout.EndHorizontal();
             if (GUILayout.Button("生成配置"))
             {
+                DataTableGeneratorUtil.SetPath(_configPath , "/csv");
                 DataTableGeneratorUtil.UpdateCsv();
                 DataTableGeneratorUtil.GenerateDataTables();
                 DataTableGeneratorUtil.GenerateAttributeTypeFile();
@@ -51,20 +52,34 @@ namespace Custom.Editor.DataTableTools
 
             if (GUILayout.Button("生成配置脚本"))
             {
+                DataTableGeneratorUtil.SetPath(_configPath , "/csv");
                 DataTableGeneratorUtil.GenerateDataTableCodes();
                 SharedCoresVersionTool.UpdateCsvVersion();
                 AssetDatabase.Refresh();
             }
 
-            if (GUILayout.Button("一键生成"))
+            if (GUILayout.Button("一键生成") )
             {
-                DataTableGeneratorUtil.UpdateCsv();
-                DataTableGeneratorUtil.GenerateDataTables();
-                DataTableGeneratorUtil.GenerateAttributeTypeFile();
-                DataTableGeneratorUtil.GenerateDataTableCodes();
-                SharedCoresVersionTool.UpdateCsvVersion();
-                AssetDatabase.Refresh();
+                DataTableGeneratorUtil.SetPath(_configPath , "/csv");
+                RefreshAll();
             }
+
+            if (GUILayout.Button("一键生成-Sonic"))
+            {
+                DataTableGeneratorUtil.SetPath(_configPath , "/csv-Sonic");
+                RefreshAll();
+            }
+
+        }
+
+        private void RefreshAll()
+        {
+            DataTableGeneratorUtil.UpdateCsv();
+            DataTableGeneratorUtil.GenerateDataTables();
+            DataTableGeneratorUtil.GenerateAttributeTypeFile();
+            DataTableGeneratorUtil.GenerateDataTableCodes();
+            SharedCoresVersionTool.UpdateCsvVersion();
+            AssetDatabase.Refresh();
         }
     }
 }
