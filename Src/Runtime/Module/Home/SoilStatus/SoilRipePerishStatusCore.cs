@@ -16,6 +16,6 @@ public class SoilRipePerishStatusCore : SoilStatusCore
         base.OnExecuteHomeAction(action, actionData);
 
         SoilData.ClearSeedData();
-        ChangeState(eSoilStatus.Loose);
+        ChangeState(eSoilStatus.Idle);
     }
 }

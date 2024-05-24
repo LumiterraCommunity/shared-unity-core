@@ -38,11 +38,11 @@ public class SoilSpecialFunctionStatusCore : SoilStatusCore
     }
 
     /// <summary>
-    /// 当特殊功能状态下业务完结需要重新进入到空白土地时调用
+    /// 当特殊功能状态下业务完结需要重新进入到空白土地时状态
     /// </summary>
     protected virtual void OnFinishStatus()
     {
         SoilData.ClearSeedData();
-        ChangeState(eSoilStatus.Loose);
+        ChangeState(eSoilStatus.Idle);
     }
 }
