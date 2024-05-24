@@ -75,6 +75,12 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
     public bool CheckSupportAction(eAction action)
     {
+        //地块上有采集物
+        if (HomeModuleCore.SoilResourceRelation.HaveResourceOnSoil(Id))
+        {
+            return false;
+        }
+
         //副本家园不让铲除
         if (!HomeModuleCore.HomeData.IsPersonalHome && action == eAction.Eradicate)
         {
@@ -86,10 +92,25 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
     public bool CheckPlayerAction(long playerId, eAction action)
     {
-        //副本家园不让玩家播种 但是副本自己可以播种
-        if (!HomeModuleCore.HomeData.IsPersonalHome && action == eAction.Sowing)
+
+        //播种
+        if (action == eAction.Sowing)
         {
-            return false;
+            //副本家园不让玩家播种 但是副本自己可以播种
+            if (!HomeModuleCore.HomeData.IsPersonalHome)
+            {
+                return false;
+            }
+        }
+
+        //铲除
+        if (action == eAction.Eradicate)
+        {
+            //不能铲除农场主的植物
+            if (SoilData.SaveData.SeedData.SeedCid > 0 && HomeModuleCore.HomeData.OwnerPlayerId != playerId)
+            {
+                return false;
+            }
         }
 
         return CheckSupportAction(action);
