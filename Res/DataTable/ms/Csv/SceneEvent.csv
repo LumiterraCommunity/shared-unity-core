@@ -1,4 +1,4 @@
-desc-string,id-int,name-string,parameters_1-int[],parameters_2-int[][],type-int
-下雨了,1,下雨了,"['1,1']","1,1;12,12",1
-打雷了,2,打雷了,"['12,12']","12,12;123,123",2
-窜稀了,3,窜稀了,"['123,123']","123,123;1,1",3
+actions-int[],conditionType-int,conditions-int[],desc-string,id-int,name-string,type-int
+1,1,1,下雨了,1,下雨了,1
+2,2,"2,3",打雷了,2,打雷了,2
+3,2,"2,3",窜稀了,3,窜稀了,3

@@ -14,7 +14,7 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /** __DATA_TABLE_COMMENT__*/
 /// </summary>
-public class DRSceneEvent : DataRowBase
+public class DRSceneEventAction : DataRowBase
 {
     private int _id = 0;
 
@@ -24,45 +24,18 @@ public class DRSceneEvent : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取actions-int[]。*/
+  /**获取parameters_1-int[]。*/
     /// </summary>
-    public int[] Actions
+    public int[] Parameters_1
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取conditionType-int。*/
+  /**获取parameters_2-int[][]。*/
     /// </summary>
-    public int ConditionType
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取conditions-int[]。*/
-    /// </summary>
-    public int[] Conditions
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取desc-string。*/
-    /// </summary>
-    public string Desc
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取name-string。*/
-    /// </summary>
-    public string Name
+    public int[][] Parameters_2
     {
         get;
         private set;
@@ -82,12 +55,9 @@ public class DRSceneEvent : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        Actions = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        ConditionType = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        Conditions = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
-        Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Parameters_1 = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        Parameters_2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
@@ -100,12 +70,9 @@ public class DRSceneEvent : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                Actions = binaryReader.ReadArray<Int32>();
-                ConditionType = binaryReader.Read7BitEncodedInt32();
-                Conditions = binaryReader.ReadArray<Int32>();
-                Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
-                Name = binaryReader.ReadString();
+                Parameters_1 = binaryReader.ReadArray<Int32>();
+                Parameters_2 = binaryReader.ReadArrayList<Int32>();
                 Type = binaryReader.Read7BitEncodedInt32();
             }
         }
