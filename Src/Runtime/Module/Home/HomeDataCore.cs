@@ -28,7 +28,7 @@ public class HomeDataCore : MonoBehaviour
     protected bool AnimalHappyIsInit { get; private set; }
 
     /// <summary>
-    /// 是否自己私人家园
+    /// 是否自己个人家园 个人家园不是一定是自己的家园
     /// </summary>
     public bool IsPersonalHome => HomeType == eHomeType.Personal;
 

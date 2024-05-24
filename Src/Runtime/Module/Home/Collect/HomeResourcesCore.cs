@@ -117,9 +117,14 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         return (SupportAction & action) != 0;
     }
 
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        return CheckSupportAction(action);
+    }
+
     public void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)
     {
-        if (!CheckSupportAction(action))
+        if (!CheckPlayerAction(playerId, action))
         {
             Log.Error($"家园采集资源 action {action} not support,isDead:{IsDead}");
             return;

@@ -279,6 +279,11 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
     }
 
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        return CheckSupportAction(action);
+    }
+
     public void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)
     {
         if (action == eAction.Appease)//安抚
