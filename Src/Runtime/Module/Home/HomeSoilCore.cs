@@ -75,7 +75,24 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
     public bool CheckSupportAction(eAction action)
     {
+        //副本家园不让铲除
+        if (!HomeModuleCore.HomeData.IsPersonalHome && action == eAction.Eradicate)
+        {
+            return false;
+        }
+
         return GetCurStatus().CheckSupportAction(action);
+    }
+
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        //副本家园不让玩家播种 但是副本自己可以播种
+        if (!HomeModuleCore.HomeData.IsPersonalHome && action == eAction.Sowing)
+        {
+            return false;
+        }
+
+        return CheckSupportAction(action);
     }
 
     public void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)

@@ -23,11 +23,18 @@ public interface ICollectResourceCore
     /// <value></value>
     Vector3 Position { get; }
 
-    /// 检查是否支持当前复合动作 不支持也能选中 只是不会执行和发出去
+    /// 检查是否支持当前单一动作执行 只关注动作本身 不支持也能选中 只是不会执行和发出去
     /// </summary>
-    /// <param name="action">复合动作</param>
+    /// <param name="action">单一动作</param>
     /// <returns></returns>
     bool CheckSupportAction(eAction action);
+    /// <summary>
+    /// 检查某个玩家是否能够执行单一动作 关注玩家的权限 也会检查动作本身
+    /// </summary>
+    /// <param name="playerId">准备执行的玩家id 不是实体id</param>
+    /// <param name="action">单一动作</param>
+    /// <returns></returns>
+    bool CheckPlayerAction(long playerId, eAction action);
     /// <summary>
     /// 获取当前支持的复合动作
     /// </summary>
