@@ -58,27 +58,28 @@ namespace Custom.Editor.DataTableTools
                 AssetDatabase.Refresh();
             }
 
-            if (GUILayout.Button("一键生成"))
+            if (GUILayout.Button("一键生成") )
             {
                 DataTableGeneratorUtil.SetPath(_configPath , "/csv");
-                DataTableGeneratorUtil.UpdateCsv();
-                DataTableGeneratorUtil.GenerateDataTables();
-                DataTableGeneratorUtil.GenerateAttributeTypeFile();
-                DataTableGeneratorUtil.GenerateDataTableCodes();
-                SharedCoresVersionTool.UpdateCsvVersion();
-                AssetDatabase.Refresh();
+                RefreshAll();
             }
 
             if (GUILayout.Button("一键生成-Sonic"))
             {
                 DataTableGeneratorUtil.SetPath(_configPath , "/csv-Sonic");
-                DataTableGeneratorUtil.UpdateCsv();
-                DataTableGeneratorUtil.GenerateDataTables();
-                DataTableGeneratorUtil.GenerateAttributeTypeFile();
-                DataTableGeneratorUtil.GenerateDataTableCodes();
-                SharedCoresVersionTool.UpdateCsvVersion();
-                AssetDatabase.Refresh();
+                RefreshAll();
             }
+
+        }
+
+        private void RefreshAll()
+        {
+            DataTableGeneratorUtil.UpdateCsv();
+            DataTableGeneratorUtil.GenerateDataTables();
+            DataTableGeneratorUtil.GenerateAttributeTypeFile();
+            DataTableGeneratorUtil.GenerateDataTableCodes();
+            SharedCoresVersionTool.UpdateCsvVersion();
+            AssetDatabase.Refresh();
         }
     }
 }
