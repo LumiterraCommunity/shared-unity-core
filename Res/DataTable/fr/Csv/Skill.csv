@@ -435,9 +435,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","2,200,0",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-446,,,,3,,,,,,,
 0,0,0,0,0,"386,35",,2133,447,0,1,0,1,0,1,0,0,attackArea,,Skill_MysticOwlSage_AttackArea,,3000,1;2,20000,Invoquer jusqu'à cinq météorites géantes pour atterrir,1500,2,28,"Météorite girante (Mage de la forêt ombragée)
 ","2,500,0",CameraShakeGrade_1,1,0,1,,1000,,,,,top_down_Normal,5,,,,,,,
-0,0,0,,0,1,,900,448,0,0,0,1,1,0,0,0,work,,,,1000,1,3000,Assemblage de compétences de collecte générale pour les animaux de compagnie,100,2,0,"Assemblage de compétences de collecte générale pour les animaux de compagnie
+0,0,0,,0,1,,900,448,0,0,0,1,1,0,0,0,work,,,,1000,1,1200,Assemblage de compétences de collecte générale pour les animaux de compagnie,100,2,0,"Assemblage de compétences de collecte générale pour les animaux de compagnie
 ","4,100,100,9000,0",,1,0,1,"5,6,7",1000,,,,,,,,,,,,,
-0,0,0,,0,,,900,449,0,0,0,1,1,0,0,0,work,,,,1000,1,3000,Assemblage de compétences de plantation générale pour les animaux de compagnie,100,2,0,"Assemblage de compétences de plantation générale pour les animaux de compagnie
+0,0,0,,0,,,900,449,0,0,0,1,1,0,0,0,work,,,,1000,1,1200,Assemblage de compétences de plantation générale pour les animaux de compagnie,100,2,0,"Assemblage de compétences de plantation générale pour les animaux de compagnie
 ","4,100,100,9000,0",,1,0,1,"2,3,1",1000,,,,,,,,,,,,,
 1,0,1,,0,533,,4000,450,0,0,0,1,1,0,1,0,work,,,,4100,1,30000,Compétence de sauvetage,,2,0,"Compétence de sauvetage
 ",,,2,1,2,,1000,,skill-icon-450,,,,,,,,,,,skill_Rescue_AccuBar

@@ -41,6 +41,15 @@ public class DRCraftBuilding : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取type-int。*/
+    /// </summary>
+    public int Type
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -49,6 +58,7 @@ public class DRCraftBuilding : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         QueueLimit = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RecipeId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -63,6 +73,7 @@ public class DRCraftBuilding : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 QueueLimit = binaryReader.Read7BitEncodedInt32();
                 RecipeId = binaryReader.ReadArray<Int32>();
+                Type = binaryReader.Read7BitEncodedInt32();
             }
         }
 
