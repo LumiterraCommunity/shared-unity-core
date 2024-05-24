@@ -22,14 +22,14 @@ namespace Custom.Editor.DataTableTools
         public static string SVNCsvPath { get; private set; }
         public static string SVNConfigPath { get; private set; }
 
-        public static void SetPath(string configPath)
+        public static void SetPath(string configPath,string suffix)
         {
             if (configPath is null)
             {
                 return;
             }
             SVNConfigPath = configPath;
-            SVNCsvPath = configPath + "/csv";
+            SVNCsvPath = configPath + suffix;
         }
 
         public static void UpdateCsv()
