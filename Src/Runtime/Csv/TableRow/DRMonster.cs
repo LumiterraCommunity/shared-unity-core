@@ -159,6 +159,15 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取progressScore-int。*/
+    /// </summary>
+    public int ProgressScore
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取pushDist-int。*/
     /// </summary>
     public int PushDist
@@ -189,6 +198,15 @@ public class DRMonster : DataRowBase
   /**获取skillCastPool-int[][]。*/
     /// </summary>
     public int[][] SkillCastPool
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取tokenTaskLevel-int[]。*/
+    /// </summary>
+    public int[] TokenTaskLevel
     {
         get;
         private set;
@@ -233,10 +251,12 @@ public class DRMonster : DataRowBase
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         LockEnemyRange = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PushDist = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PushDmg = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
@@ -266,10 +286,12 @@ public class DRMonster : DataRowBase
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 LockEnemyRange = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
+                ProgressScore = binaryReader.Read7BitEncodedInt32();
                 PushDist = binaryReader.Read7BitEncodedInt32();
                 PushDmg = binaryReader.Read7BitEncodedInt32();
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();
                 SkillCastPool = binaryReader.ReadArrayList<Int32>();
+                TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
                 DropId = binaryReader.Read7BitEncodedInt32();
             }

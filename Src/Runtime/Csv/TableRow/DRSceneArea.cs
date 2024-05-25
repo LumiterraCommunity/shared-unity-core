@@ -150,6 +150,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取chapterProgress-int[]。*/
+    /// </summary>
+    public int[] ChapterProgress
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取chapterPunish-int[][]。*/
     /// </summary>
     public int[][] ChapterPunish
@@ -259,6 +268,7 @@ public class DRSceneArea : DataRowBase
         ChapterBaseReward = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterEvents = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         ChapterLuckyReward = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ChapterProgress = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterPunish = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         ChapterTimeLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Chapters = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
@@ -295,6 +305,7 @@ public class DRSceneArea : DataRowBase
                 ChapterBaseReward = binaryReader.ReadArray<Int32>();
                 ChapterEvents = binaryReader.ReadArrayList<Int32>();
                 ChapterLuckyReward = binaryReader.ReadArray<Int32>();
+                ChapterProgress = binaryReader.ReadArray<Int32>();
                 ChapterPunish = binaryReader.ReadArrayList<Int32>();
                 ChapterTimeLimit = binaryReader.ReadArray<Int32>();
                 Chapters = binaryReader.ReadArray<String>();

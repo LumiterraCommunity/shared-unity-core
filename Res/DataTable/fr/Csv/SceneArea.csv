@@ -1,16 +1,16 @@
-canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[]
-0,10001,"0,999",HomeSceneLoading.jpg,0,0,WorldScene,1,1,,,,,,,,,,Vide,Vide,Vide,,,,
-0,10002,"0,999",HomeSceneLoading.jpg,0,0,HomeScene,1,2,,,,,,,,,,Vide,Vide,Vide,,,,
-0,10003,"0,999",HomeSceneLoading.jpg,0,0,WorldScene02,1,1,,,,,,,,,,Vide,Vide,Vide,,,,
-0,20000,"1,6",DungeonSceneLoading_1_3.jpg,0,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","1,2,3;1,2,3;1,2,3","61,62,63","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","Niché au cœur de la végétation luxuriante de la jungle, c'est comme un miracle sur terre. Ses sommets rocheux ressemblent à une rangée de lames d'épée tranchantes, mais ils ressemblent aussi à des pétales.
+canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[]
+0,10001,"0,999",HomeSceneLoading.jpg,0,0,WorldScene,1,1,,,,,,,,,,,Vide,Vide,Vide,,,,
+0,10002,"0,999",HomeSceneLoading.jpg,0,0,HomeScene,1,2,,,,,,,,,,,Vide,Vide,Vide,,,,
+0,10003,"0,999",HomeSceneLoading.jpg,0,0,WorldScene02,1,1,,,,,,,,,,,Vide,Vide,Vide,,,,
+0,20000,"1,6",DungeonSceneLoading_1_3.jpg,0,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","1,2,3;1,2,3;1,2,3","61,62,63","20,40,80","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","Niché au cœur de la végétation luxuriante de la jungle, c'est comme un miracle sur terre. Ses sommets rocheux ressemblent à une rangée de lames d'épée tranchantes, mais ils ressemblent aussi à des pétales.
 ",Pic des Fleurs,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","0,1440","468,1",,
-0,20001,"4,9",DungeonSceneLoading_4_6.jpg,0,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","1,2,3;1,2,3;1,2,3;1,2,3;1,2,3","47,48,49,50,51","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","450,450,450,450,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","Dans ce domaine dévasté, une sombre forteresse se dresse fièrement, ses contours suspendus dans le vide, dépourvus de tout soutien physique. Elle est peuplée d'un grand nombre de monstres dangereux, abritant de nombreux objets de collection rares jamais vus auparavant.
+0,20001,"4,9",DungeonSceneLoading_4_6.jpg,0,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","1,2,3;1,2,3;1,2,3;1,2,3;1,2,3","47,48,49,50,51","160,160,320,320,640","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","450,450,450,450,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","Dans ce domaine dévasté, une sombre forteresse se dresse fièrement, ses contours suspendus dans le vide, dépourvus de tout soutien physique. Elle est peuplée d'un grand nombre de monstres dangereux, abritant de nombreux objets de collection rares jamais vus auparavant.
 Équipe recommandée : 3 guerriers, 1 collectionneur",Royaume Flottant,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","0,1440","467,1",,
-0,20002,"7,9",DungeonSceneLoading_7_9.jpg,0,5,DungeonSCeneLv7-9,1,3,"10000,20000,30000","61,71,66",2,"82,83,84","1,2,3;1,2,3;1,2,3","85,86,87","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3","Affrontez des créatures enflammées ; combattez dans un environnement sombre et sinistre, vous protégeant des attaques des êtres du vide ; plongez dans des ruines anciennes pour découvrir des secrets et des trésors cachés en profondeur. Braves aventuriers, êtes-vous prêts à relever ce défi ?",Domaine Ancien,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
+0,20002,"7,9",DungeonSceneLoading_7_9.jpg,0,5,DungeonSCeneLv7-9,1,3,"10000,20000,30000","61,71,66",2,"82,83,84","1,2,3;1,2,3;1,2,3","85,86,87","1280,5120,10240","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3","Affrontez des créatures enflammées ; combattez dans un environnement sombre et sinistre, vous protégeant des attaques des êtres du vide ; plongez dans des ruines anciennes pour découvrir des secrets et des trésors cachés en profondeur. Braves aventuriers, êtes-vous prêts à relever ce défi ?",Domaine Ancien,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","0,1440","658,1",,
-1,21001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
+1,21001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
 - **Vaincre des boss**: Les joueurs peuvent obtenir des **matériaux spéciaux mystérieux** essentiels à la progression du jeu.
@@ -23,7 +23,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Junior,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","120,180;360,420","659,1","8,24",172
-1,21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
+1,21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
 - **Vaincre des boss**: Les joueurs peuvent obtenir des **matériaux spéciaux mystérieux** essentiels à la progression du jeu.
@@ -36,7 +36,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Intermédiaire,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","120,180;360,420","660,1","8,24",173
-1,21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
+1,21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
 - **Vaincre des boss**: Les joueurs peuvent obtenir des **matériaux spéciaux mystérieux** essentiels à la progression du jeu.
@@ -49,7 +49,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","120,180;360,420","661,1","8,24",174
-1,22001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
+1,22001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
 - **Vaincre des boss**: Les joueurs peuvent obtenir des **matériaux spéciaux mystérieux** essentiels à la progression du jeu.
@@ -62,7 +62,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Solo Junior,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","120,180;360,420","659,1","3,24",172
-1,22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
+1,22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
 - **Vaincre des boss**: Les joueurs peuvent obtenir des **matériaux spéciaux mystérieux** essentiels à la progression du jeu.
@@ -75,7 +75,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.
 ",Arène Solo Intermédiaire,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
 ","120,180;360,420","660,1","3,24",173
-1,22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
+1,22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses LUAUSD** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
 - **Vaincre des boss**: Les joueurs peuvent obtenir des **matériaux spéciaux mystérieux** essentiels à la progression du jeu.
@@ -86,5 +86,5 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Porte de défi**: Pour les courageux, cette porte mène au niveau suivant de l'aventure.
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses LUAUSD** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses LUAUSD** selon un certain ratio.",Arène Solo Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.","120,180;360,420","661,1","3,24",174
-0,30001,"1,9",DungeonSceneLoading_1_3.jpg,0,1,DailyDungeon,1,3,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110","1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3","120,121,122,123,124,125,126,127,128","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9",Défi quotidien,Défi quotidien,,"0,1440","733,1",,
-0,30002,"1,9",PVPDungeonSceneLoading_4_6.jpg,1,1,PVPTrainingDungeon,2,3,"0,10000","54,55",1,",","1,2,3;1,2,3",",","3500,13500;3500,13500","120,1800","Matching,Challenging","Terrain d'entraînement PVEP - Soutient des batailles de 12 à 24 joueurs, la mort n'entraînera aucune perte, tickets obtenus à partir des missions quotidiennes.",Terrain d'entraînement,,"60,120;300,360","733,1","12,24",
+0,30001,"1,9",DungeonSceneLoading_1_3.jpg,0,1,DailyDungeon,1,3,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110","1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3;1,2,3","120,121,122,123,124,125,126,127,128","3,6,9,12,15,18,21,24,27","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9",Défi quotidien,Défi quotidien,,"0,1440","733,1",,
+0,30002,"1,9",PVPDungeonSceneLoading_4_6.jpg,1,1,PVPTrainingDungeon,2,3,"0,10000","54,55",1,",","1,2,3;1,2,3",",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","Terrain d'entraînement PVEP - Soutient des batailles de 12 à 24 joueurs, la mort n'entraînera aucune perte, tickets obtenus à partir des missions quotidiennes.",Terrain d'entraînement,,"60,120;300,360","733,1","12,24",
