@@ -170,8 +170,9 @@ Sprite due to insufficient space"
 ,20090015,任务,Unknown
 ,20090016,任务,Daily
 ,20090017,任务,Bounty
-,20090018,任务,Harvest
+,20090018,任务,Harvest {0}
 ,20090019,任务,Task not completed
+,20090020,任务,Gather {0}
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming
@@ -333,3 +334,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250002,,The storage is full.
 ,20260001,精力,Energy not enough
 ,20260002,精力,[color=#F7CE3D]{0}[/color]'s Energy not enough
+,20270001,排行榜,Not Ranked

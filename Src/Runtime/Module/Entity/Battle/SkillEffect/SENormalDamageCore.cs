@@ -59,11 +59,6 @@ public class SENormalDamageCore : SkillEffectBase
             if (EffectData.DamageValue.DeltaInt < 0 && isLive)
             {
                 RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(FromID, -EffectData.DamageValue.DeltaInt);
-
-                if (GFEntryCore.GetModule<IEntityMgr>().TryGetEntity(FromID, out EntityBase fromEntity))
-                {
-                    fromEntity.EntityEvent.EntityGiveBattleAddDamage?.Invoke(-EffectData.DamageValue.DeltaInt);
-                };
             }
 
         }

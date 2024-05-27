@@ -195,6 +195,15 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取tokenTaskLevel-int[]。*/
+    /// </summary>
+    public int[] TokenTaskLevel
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取totemScore-int。*/
     /// </summary>
     public int TotemScore
@@ -237,6 +246,7 @@ public class DRMonster : DataRowBase
         PushDmg = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
@@ -270,6 +280,7 @@ public class DRMonster : DataRowBase
                 PushDmg = binaryReader.Read7BitEncodedInt32();
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();
                 SkillCastPool = binaryReader.ReadArrayList<Int32>();
+                TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
                 DropId = binaryReader.Read7BitEncodedInt32();
             }
