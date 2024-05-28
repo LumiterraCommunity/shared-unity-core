@@ -454,4 +454,36 @@ public static class TableUtil
 
         return (value, resAffectByPotential);
     }
+
+    /// <summary>
+    /// 获取属性值显示
+    /// </summary>
+    /// <param name="type"></param>
+    /// <param name="value"></param>
+    /// <param name="displayDecimal"></param>
+    /// <returns></returns>
+    public static string GetAttrDisplay(eAttributeType type, int value, bool displayDecimal = true)
+    {
+        DREntityAttribute cfg = GetConfig<DREntityAttribute>((int)type);
+        if (cfg == null)
+        {
+            return "";
+        }
+
+        float coefficient = GetAttributeCoefficient(type);
+        if (cfg.ValueType == (int)eAttributeValueType.ThousandthPct)
+        {
+            return (value * coefficient * MathUtilCore.PC).ToString("F2") + "%";
+        }
+        else if (cfg.ValueType == (int)eAttributeValueType.Thousandth)
+        {
+            return (value * coefficient).ToString(displayDecimal ? "F2" : "F0");
+        }
+        else if (cfg.ValueType == (int)eAttributeValueType.Int)
+        {
+            return value.ToString();
+        }
+
+        return value.ToString();
+    }
 }

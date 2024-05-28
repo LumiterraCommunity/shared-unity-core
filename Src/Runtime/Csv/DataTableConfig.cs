@@ -21,6 +21,8 @@ public static class DataTableConfig
         "HomeManure",
         "HomeResourceArea",
         "HomeResources",
+        "InstructionPage",
+        "Instructions",
         "Item",
         "ItemEatable",
         "Language",
