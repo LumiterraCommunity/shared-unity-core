@@ -21,7 +21,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,為了愛與和平，請給我這些。,0,"3,84",20,1,24,收集,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101}]}","當怪物的生命值少於一半時，它會進入被魔法包圍的憤怒狀態。此時，怪物將獲得一些強大的增益效果。但是，如果你能讓它進入被黑煙籠罩的虛弱狀態，你就可以更容易地擊敗它。
 幫助剛納爾擊敗一只金屬狗。",0,"2,160",21,0,12,初來乍到,,,,
-"{""options"":[{""optionType"":4,""value"":""6,5"",""guiderPoint"":2101},{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101}]}","打開你的背包，裝備上你的劍，然後殺死5只金屬狗。
+"{""options"":[{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":2101}]}","打開你的背包，裝備上你的劍，然後殺死5只金屬狗。
 進入城鎮，找到納什。",0,"2,117",22,0,11,情報,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- 按下[Esc]鍵打開天賦樹介面
 - 選擇升級主分支
@@ -63,7 +63,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,追捕它們並帶回一些戰利品。,0,"2,118",42,1,139,日常-戰鬥-2,,,"{""options"":[{""optionType"":4,""value"":""9,1,100;11,1,100;10,1,100""},{""optionType"":1,""value"":""33,1,200;34,1,200;35,1,200""}]}",
 ,追捕他們並帶回一些戰利品。,0,"2,168",43,1,140,日常-戰鬥-3,,,"{""options"":[{""optionType"":4,""value"":""12,1,100;14,1,100;13,1,100""},{""optionType"":1,""value"":""36,1,200;37,1,200;38,1,200""}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所買點東西。,0,"1,117;2,117;3,117",44,0,0,交易2,,37,,
-"{""options"":[{""optionType"":1,""value"":""32,10"",""guiderPoint"":2101}]}",特蘭斯可能在鎮上，我們去找他，並給他帶些鐵絲網。,0,"1,117",45,0,17,農夫特蘭斯,,23,,
+"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}",特蘭斯可能在鎮上，我們去找他，並給他帶些鐵絲網。,0,"1,117",45,0,17,農夫特蘭斯,,23,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","[18]空的
 ",0,"1,117",46,0,0,捕捉罐頭狗和產出,,45,,
 ,給我這些。,0,"2,84",47,1,138,日常-戰鬥-1,,,"{""options"":[{""optionType"":1,""value"":""30,2,200;31,2,200;32,2,200""}]}",
