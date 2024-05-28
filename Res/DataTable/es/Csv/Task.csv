@@ -41,7 +41,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,"3,84",20,1,24,Coleccionando,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101}]}","Cuando la salud del monstruo sea inferior a la mitad, entrará en un estado de ira rodeado de magia. En este punto, el monstruo obtendrá algunos beneficios poderosos. Pero si puedes ponerlo en un estado débil con humo negro, podrás derrotarlo más fácilmente.
 Ayuda al Tirador a matar a un Perro de Metal.",0,"2,160",21,0,12,Nuevo comienzo,,,,
-"{""options"":[{""optionType"":4,""value"":""6,5"",""guiderPoint"":2101},{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101}]}","Abre tu mochila y equipa tu espada para matar a 5 Perros de Metal.
+"{""options"":[{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":2101}]}","Abre tu mochila y equipa tu espada para matar a 5 Perros de Metal.
 Entra en la ciudad y encuentra a Nash.",0,"2,117",22,0,11,Inteligencia,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," [25]- Presiona [Esc] para abrir la interfaz de tu árbol de talentos
 - selecciona mejorar rama principal
@@ -85,7 +85,7 @@ Planta semillas de Fruta de Resistencia.",0,"1,117",36,0,39,Desafío de agricult
 ,Cázalos y trae de vuelta algo de botín.,0,"2,118",42,1,139,Batalla diaria - Nivel 2,,,"{""options"":[{""optionType"":4,""value"":""9,1,100;11,1,100;10,1,100""},{""optionType"":1,""value"":""33,1,200;34,1,200;35,1,200""}]}",
 ,Cázalos y trae de vuelta algo de botín,0,"2,168",43,1,140,Batalla diaria - Nivel 3,,,"{""options"":[{""optionType"":4,""value"":""12,1,100;14,1,100;13,1,100""},{""optionType"":1,""value"":""36,1,200;37,1,200;38,1,200""}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Ve a la tienda y compra algo.,0,"1,117;2,117;3,117",44,0,0,Transacción 2,,37,,
-"{""options"":[{""optionType"":1,""value"":""32,10"",""guiderPoint"":2101}]}","Terrance probablemente esté en la ciudad, vamos a buscarlo y llevarle una malla de alambre.",0,"1,117",45,0,17,Granjero Terrance,,23,,
+"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}","Terrance probablemente esté en la ciudad, vamos a buscarlo y llevarle una malla de alambre.",0,"1,117",45,0,17,Granjero Terrance,,23,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","[18] Vacío
 ",0,"1,117",46,0,0,Capturar perros y producir,,45,,
 ,Dame esto.,0,"2,84",47,1,138,Batalla diaria - Nivel 1,,,"{""options"":[{""optionType"":1,""value"":""30,2,200;31,2,200;32,2,200""}]}",

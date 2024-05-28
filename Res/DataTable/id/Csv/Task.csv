@@ -41,7 +41,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,"3,84",20,1,24,Collecting,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101}]}","Ketika kesehatan monster kurang dari setengah, ia akan masuk ke dalam keadaan marah yang dikelilingi oleh sihir. Pada saat ini, monster akan mendapatkan beberapa buff yang kuat. Tetapi jika Anda dapat membuatnya masuk ke dalam Keadaan Lemah dengan asap hitam, Anda dapat mengalahkannya dengan lebih mudah.
 Bantu Gunner untuk membunuh Metal mutt.",0,"2,160",21,0,12,Fresh Start,,,,
-"{""options"":[{""optionType"":4,""value"":""6,5"",""guiderPoint"":2101},{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101}]}","Buka ransel Anda dan persenjatai pedang Anda dan bunuh 5 Metal mutt.
+"{""options"":[{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":2101}]}","Buka ransel Anda dan persenjatai pedang Anda dan bunuh 5 Metal mutt.
 Masuk ke kota dan temukan Nash.",0,"2,117",22,0,11,Intelligence,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," [25]- Tekan [Esc] untuk membuka antarmuka pohon bakat Anda
 - pilih upgrade cabang utama
@@ -84,7 +84,7 @@ Tanam biji Endurance Fruit.",0,"1,117",36,0,39,Advanced Farming Challenge,,46,,
 ,Kejar mereka dan bawa kembali beberapa jarahan.,0,"2,118",42,1,139,Daily-Lv2-Battle,,,"{""options"":[{""optionType"":4,""value"":""9,1,100;11,1,100;10,1,100""},{""optionType"":1,""value"":""33,1,200;34,1,200;35,1,200""}]}",
 ,Kejar mereka dan bawa kembali beberapa jarahan,0,"2,168",43,1,140,Daily-Lv3-Battle,,,"{""options"":[{""optionType"":4,""value"":""12,1,100;14,1,100;13,1,100""},{""optionType"":1,""value"":""36,1,200;37,1,200;38,1,200""}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Pergi ke pertukaran dan beli sesuatu.,0,"1,117;2,117;3,117",44,0,0,Transaction 2,,37,,
-"{""options"":[{""optionType"":1,""value"":""32,10"",""guiderPoint"":2101}]}","Terrance mungkin berada di kota, mari kita pergi dan mencarinya dan bawa beberapa kawat kasa untuknya.",0,"1,117",45,0,17,Farmer Terrance,,23,,
+"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}","Terrance mungkin berada di kota, mari kita pergi dan mencarinya dan bawa beberapa kawat kasa untuknya.",0,"1,117",45,0,17,Farmer Terrance,,23,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","[18]Kosong
 ",0,"1,117",46,0,0,Capture can dog and output,,45,,
 ,Berikan ini padaku.,0,"2,84",47,1,138,Daily-Lv1-Battle,,,"{""options"":[{""optionType"":1,""value"":""30,2,200;31,2,200;32,2,200""}]}",
