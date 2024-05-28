@@ -1,111 +1,111 @@
-col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,upgradeToken-int[],preNode-int[]
+col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,resetCost-int,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,upgradeToken-int[],preNode-int[]
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","51,10000","1,3",talentTree-1,1,1,1,1,Tinh thông chiến đấu 1,2,450,0,0,
+","51,10000","1,3",talentTree-1,1,1,1,1,Tinh thông chiến đấu 1,10,2,450,0,0,
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","52,10000","1,3",talentTree-2,2,1,2,1,Tinh thông chiến đấu 2,2,900,1,1,1
+","52,10000","1,3",talentTree-2,2,1,2,1,Tinh thông chiến đấu 2,20,2,900,1,1,1
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","53,10000","1,3",talentTree-3,3,1,3,1,Tinh thông chiến đấu 3,2,1800,2,2,2
+","53,10000","1,3",talentTree-3,3,1,3,1,Tinh thông chiến đấu 3,30,2,1800,2,2,2
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","54,10000","1,3",talentTree-4,4,1,4,1,Tinh thông chiến đấu 4,2,3600,3,3,3
+","54,10000","1,3",talentTree-4,4,1,4,1,Tinh thông chiến đấu 4,40,2,3600,3,3,3
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","55,10000","1,3",talentTree-5,5,1,5,1, Chiến đấu - Thạo nghiệp 5,2,7200,4,4,4
+","55,10000","1,3",talentTree-5,5,1,5,1, Chiến đấu - Thạo nghiệp 5,50,2,7200,4,4,4
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","56,10000","1,3",talentTree-6,6,1,6,1,Tinh thông chiến đấu 6,2,14400,5,5,5
+","56,10000","1,3",talentTree-6,6,1,6,1,Tinh thông chiến đấu 6,60,2,14400,5,5,5
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","57,10000","1,3",talentTree-7,7,1,7,1,Tinh thông chiến đấu 7,2,28800,6,6,6
+","57,10000","1,3",talentTree-7,7,1,7,1,Tinh thông chiến đấu 7,70,2,28800,6,6,6
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","58,10000","1,3",talentTree-8,8,1,8,1,Tinh thông chiến đấu 8,2,57600,7,7,7
+","58,10000","1,3",talentTree-8,8,1,8,1,Tinh thông chiến đấu 8,80,2,57600,7,7,7
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","59,10000","1,3",talentTree-9,9,1,9,1,Tinh thông chiến đấu 9,2,115200,8,8,8
+","59,10000","1,3",talentTree-9,9,1,9,1,Tinh thông chiến đấu 9,90,2,115200,8,8,8
 -3,"Giảm tốc độ di chuyển của kẻ địch
-",332,1,talentTree-10,10,0,2,1,Chà đạp - Tăng cường,2,175,0,1,11
+",332,1,talentTree-10,10,0,2,1,Chà đạp - Tăng cường,0,2,175,0,1,11
 -3,"Choáng kẻ địch xung quanh bạn.
-",63,0,talentTree-11,11,0,1,1,giẫm đạp,2,95,0,0,
+",63,0,talentTree-11,11,0,1,1,giẫm đạp,0,2,95,0,0,
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","66#531,10000","1,3",talentTree-13,13,1,1,1,Làm chủ nông nghiệp 1,1,450,0,0,
+","66#531,10000","1,3",talentTree-13,13,1,1,1,Làm chủ nông nghiệp 1,10,1,450,0,0,
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","67,10000","1,3",talentTree-14,14,1,2,1,Làm chủ nông nghiệp 2,1,900,1,1,13
+","67,10000","1,3",talentTree-14,14,1,2,1,Làm chủ nông nghiệp 2,20,1,900,1,1,13
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","68,10000","1,3",talentTree-15,15,1,3,1,Làm chủ nông nghiệp 3,1,1800,2,2,14
+","68,10000","1,3",talentTree-15,15,1,3,1,Làm chủ nông nghiệp 3,30,1,1800,2,2,14
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","69,10000","1,3",talentTree-16,16,1,4,1,Làm chủ nông nghiệp 4,1,3600,3,3,15
+","69,10000","1,3",talentTree-16,16,1,4,1,Làm chủ nông nghiệp 4,40,1,3600,3,3,15
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","70,10000","1,3",talentTree-17,17,1,5,1, Nông nghiệp - Thạo nghiệp 5,1,7200,4,4,16
+","70,10000","1,3",talentTree-17,17,1,5,1, Nông nghiệp - Thạo nghiệp 5,50,1,7200,4,4,16
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","71,10000","1,3",talentTree-18,18,1,6,1,Làm chủ nông nghiệp 6,1,14400,5,5,17
+","71,10000","1,3",talentTree-18,18,1,6,1,Làm chủ nông nghiệp 6,60,1,14400,5,5,17
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","72,10000","1,3",talentTree-19,19,1,7,1,Làm chủ trang trại 7,1,28800,6,6,18
+","72,10000","1,3",talentTree-19,19,1,7,1,Làm chủ trang trại 7,70,1,28800,6,6,18
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","73,10000","1,3",talentTree-20,20,1,8,1,Làm chủ nông nghiệp 8,1,57600,7,7,19
+","73,10000","1,3",talentTree-20,20,1,8,1,Làm chủ nông nghiệp 8,80,1,57600,7,7,19
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","74,10000","1,3",talentTree-21,21,1,9,1,Làm chủ nông nghiệp 9,1,115200,8,8,20
+","74,10000","1,3",talentTree-21,21,1,9,1,Làm chủ nông nghiệp 9,90,1,115200,8,8,20
 1,"FertilityCapacity + 1
-",228,1,talentTree-22,22,0,1,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,95,0,0,
+",228,1,talentTree-22,22,0,1,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,95,0,0,
 -1,"Tưới nước cho các cánh đồng nhỏ xung quanh bạn
-",99,0,talentTree-23,23,0,2,1,Làm chủ bình tưới nước,1,210,0,1,77
+",99,0,talentTree-23,23,0,2,1,Làm chủ bình tưới nước,0,1,210,0,1,77
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -113,7 +113,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","81#530,10000","1,3",talentTree-24,24,1,1,1,Thu thập thành thạo 1,3,450,0,0,
+","81#530,10000","1,3",talentTree-24,24,1,1,1,Thu thập thành thạo 1,10,3,450,0,0,
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -121,7 +121,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","82,10000","1,3",talentTree-25,25,1,2,1,Tập hợp chiến đấu 2,3,900,1,1,24
+","82,10000","1,3",talentTree-25,25,1,2,1,Tập hợp chiến đấu 2,20,3,900,1,1,24
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -129,7 +129,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","83,10000","1,3",talentTree-26,26,1,3,1,Tập hợp chiến đấu 3,3,1800,2,2,25
+","83,10000","1,3",talentTree-26,26,1,3,1,Tập hợp chiến đấu 3,30,3,1800,2,2,25
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -137,7 +137,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","84,10000","1,3",talentTree-27,27,1,4,1,Tập hợp chiến đấu 4,3,3600,3,3,26
+","84,10000","1,3",talentTree-27,27,1,4,1,Tập hợp chiến đấu 4,40,3,3600,3,3,26
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -145,7 +145,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","85,10000","1,3",talentTree-28,28,1,5,1, Thu thập - Thạo nghiệp 5,3,7200,4,4,27
+","85,10000","1,3",talentTree-28,28,1,5,1, Thu thập - Thạo nghiệp 5,50,3,7200,4,4,27
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -153,7 +153,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","86,10000","1,3",talentTree-29,29,1,6,1,Tập hợp chiến đấu 6,3,14400,5,5,28
+","86,10000","1,3",talentTree-29,29,1,6,1,Tập hợp chiến đấu 6,60,3,14400,5,5,28
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -161,7 +161,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","87,10000","1,3",talentTree-30,30,1,7,1,Tập hợp chiến đấu 7,3,28800,6,6,29
+","87,10000","1,3",talentTree-30,30,1,7,1,Tập hợp chiến đấu 7,70,3,28800,6,6,29
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -169,7 +169,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","88,10000","1,3",talentTree-31,31,1,8,1,Tập hợp chiến đấu 8,3,57600,7,7,30
+","88,10000","1,3",talentTree-31,31,1,8,1,Tập hợp chiến đấu 8,80,3,57600,7,7,30
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -177,413 +177,413 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","89,10000","1,3",talentTree-32,32,1,9,1,Tập hợp chiến đấu 9,3,115200,8,8,31
+","89,10000","1,3",talentTree-32,32,1,9,1,Tập hợp chiến đấu 9,90,3,115200,8,8,31
 -3," Mở khóa công thức bộ Lv 1
 Mở khóa công thức Slime Năng lượng Lv 1
-",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Tập hợp các công thức nấu ăn,3,"131,131,131",0,"0,0,0",
+",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Tập hợp các công thức nấu ăn,0,3,"131,131,131",0,"0,0,0",
 -3," Mở khóa công thức bộ Lv 2
 Mở khóa công thức Slime năng lượng Lv 2
-",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Tập hợp các công thức nấu ăn,3,"262,262,262",0,"0,0,0",33
+",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Tập hợp các công thức nấu ăn,0,3,"262,262,262",0,"0,0,0",33
 -1,"Chạm nhẹ đáng yêu
-",415,0,talentTree-45,45,0,3,1,Chạm đáng yêu,1,420,0,2,23
+",415,0,talentTree-45,45,0,3,1,Chạm đáng yêu,0,1,420,0,2,23
 -1,"Kỹ năng Hiệu suất - Cuốc nhóm
-",103,0,talentTree-46,46,0,4,1, Chia cắt trái đất,1,840,0,3,45
+",103,0,talentTree-46,46,0,4,1, Chia cắt trái đất,0,1,840,0,3,45
 2,"PlantingProficiency + 4
-",246,1,talentTree-48,48,0,3,1,Trang trại - Thành thạo thu hoạch,1,420,0,2,81
+",246,1,talentTree-48,48,0,3,1,Trang trại - Thành thạo thu hoạch,0,1,420,0,2,81
 -2,"Mở khóa Công thức Tinh chất Thú cưng Lv 2
-",156,2,talentTree-49,49,0,2,1,Công thức tinh chất thú cưng,1,210,0,0,72
+",156,2,talentTree-49,49,0,2,1,Công thức tinh chất thú cưng,0,1,210,0,0,72
 2,"PlantingProficiency + 4
-",249,1,talentTree-50,50,0,4,1, Nông nghiệp - Chuyên môn thu hoạch,1,840,0,3,48
+",249,1,talentTree-50,50,0,4,1, Nông nghiệp - Chuyên môn thu hoạch,0,1,840,0,3,48
 -3,"Tăng thời gian choáng của kẻ địch.
-",333,1,talentTree-52,52,0,3,1,Chà đạp - Tăng cường,2,323,0,2,10
+",333,1,talentTree-52,52,0,3,1,Chà đạp - Tăng cường,0,2,323,0,2,10
 -2,"Tấn công, đẩy kẻ địch lại, gây 50% sát thương
-",122,0,talentTree-54,54,0,2,1,Cuộc đua bò,2,175,0,1,
+",122,0,talentTree-54,54,0,2,1,Cuộc đua bò,0,2,175,0,1,
 -2,"Giảm tốc độ di chuyển của kẻ địch.
-",336,1,talentTree-55,55,0,3,1,Bull Rush - Tăng cường,2,323,0,2,54
+",336,1,talentTree-55,55,0,3,1,Bull Rush - Tăng cường,0,2,323,0,2,54
 -2,"Giảm tốc độ di chuyển của kẻ địch.
-",337,1,talentTree-56,56,0,4,1, Cuồng phong - Tăng cường,2,646,0,3,55
+",337,1,talentTree-56,56,0,4,1, Cuồng phong - Tăng cường,0,2,646,0,3,55
 -2,"Đẩy lùi kẻ địch trong một khu vực nhỏ phía trước bạn và lật ngược lại
-",123,0,talentTree-57,57,0,5,1,Trốn thoát,2,1292,0,4,56
+",123,0,talentTree-57,57,0,5,1,Trốn thoát,0,2,1292,0,4,56
 -1,"Gây sát thương cao cho 5 con quái vật xung quanh
-",137,0,talentTree-60,60,0,3,1,rung chuyển nhẹ,2,323,0,2,
+",137,0,talentTree-60,60,0,3,1,rung chuyển nhẹ,0,2,323,0,2,
 -3,"Làm cho kẻ địch hoa mắt trong một khoảng cách nhất định, không thể đánh trúng trong khi kỹ năng được phát hành
-",485,0,talentTree-61,61,0,4,1, Đạp nát chiến tranh,2,646,0,3,52
+",485,0,talentTree-61,61,0,4,1, Đạp nát chiến tranh,0,2,646,0,3,52
 -3," Mở khóa công thức bộ đồ cấp 3
 Mở khóa công thức Slime Năng lượng cấp 3
-",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998,2,talentTree-62,62,0,3,3,Tập hợp các công thức nấu ăn,3,"525,525,525",0,"0,0,0",34
+",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998,2,talentTree-62,62,0,3,3,Tập hợp các công thức nấu ăn,0,3,"525,525,525",0,"0,0,0",34
 -1," Mở khóa công thức Thuốc. Mở khóa công thức Thuốc Năng lượng
-",95#902,2,talentTree-65,65,0,1,1,Nhà sưu tập điên cấp 1,3,131,0,0,
+",95#902,2,talentTree-65,65,0,1,1,Nhà sưu tập điên cấp 1,0,3,131,0,0,
 -1," Mở khóa công thức Thuốc. Mở khóa công thức Nước lọc năng lượng
-",96#903,2,talentTree-66,66,0,2,1,Người được chọn cấp 1,3,262,0,10,65
+",96#903,2,talentTree-66,66,0,2,1,Người được chọn cấp 1,0,3,262,0,10,65
 -1," Mở khóa công thức Thuốc. Mở khóa công thức Nước lực
-",132#904,2,talentTree-67,67,0,3,1,Bí quyết đạo cụ ma thuật,3,525,0,20,66
+",132#904,2,talentTree-67,67,0,3,1,Bí quyết đạo cụ ma thuật,0,3,525,0,20,66
 -1,"Mở khóa công thức thuốc. Mở khóa công thức nước lọc năng lượng
-",346#905,2,talentTree-68,68,0,4,1, Các công thức phụ kiện ma thuật,3,1050,0,30,67
+",346#905,2,talentTree-68,68,0,4,1, Các công thức phụ kiện ma thuật,0,3,1050,0,30,67
 -1,"Mở khóa công thức thuốc. Mở khóa công thức thuốc năng lượng
-",347#906,2,talentTree-69,69,0,5,1,Người được chọn cấp 2,3,2100,0,40,68
+",347#906,2,talentTree-69,69,0,5,1,Người được chọn cấp 2,0,3,2100,0,40,68
 -1,"Giảm tốc độ di chuyển của kẻ địch.
-",340,1,talentTree-70,70,0,4,1, Nhẹ nhàng - Tăng cường,2,646,0,3,60
+",340,1,talentTree-70,70,0,4,1, Nhẹ nhàng - Tăng cường,0,2,646,0,3,60
 -3,"Tăng thời gian choáng đối thủ.
-",334,1,talentTree-71,71,0,5,1, Đạp nát chiến tranh - Tăng cường,2,1292,0,4,61
+",334,1,talentTree-71,71,0,5,1, Đạp nát chiến tranh - Tăng cường,0,2,1292,0,4,61
 -2,"Mở khóa Công thức Tinh chất Thú cưng Lv 1
-",155,2,talentTree-72,72,0,1,1,Công thức tinh chất thú cưng,1,95,0,0,
+",155,2,talentTree-72,72,0,1,1,Công thức tinh chất thú cưng,0,1,95,0,0,
 2,"PlantingProficiency + 4
-",230,1,talentTree-73,73,0,1,1,Trang trại - Thành thạo thu hoạch,1,95,0,0,
-3,Dung lượng hạnh phúc thú cưng +1,231,1,talentTree-74,74,0,1,1,Trang trại - Chỉ số Hạnh phúc Chiến đấu của Thú cưng,1,95,0,0,
+",230,1,talentTree-73,73,0,1,1,Trang trại - Thành thạo thu hoạch,0,1,95,0,0,
+3,Dung lượng hạnh phúc thú cưng +1,231,1,talentTree-74,74,0,1,1,Trang trại - Chỉ số Hạnh phúc Chiến đấu của Thú cưng,0,1,95,0,0,
 4,"Trình độ chăn nuôi + 4 
-",233,1,talentTree-76,76,0,1,1,Trang trại - Thành thạo thu hoạch,1,95,0,0,
+",233,1,talentTree-76,76,0,1,1,Trang trại - Thành thạo thu hoạch,0,1,95,0,0,
 -1,"Kỹ năng Hiệu suất - Cuốc nhóm
-",102,0,talentTree-77,77,0,1,1,Bộ chia đất,1,95,0,0,
+",102,0,talentTree-77,77,0,1,1,Bộ chia đất,0,1,95,0,0,
 -4," Mở khóa công thức bộ Lv 1
 Mở khóa công thức Slime Năng lượng Lv 1
 Mở khóa công thức Tái chế
-",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Bộ công thức trồng trọt,1,"95,95,95",0,"0,0,0",
+",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Bộ công thức trồng trọt,0,1,"95,95,95",0,"0,0,0",
 -4," Mở khóa công thức bộ Lv 2
 Mở khóa công thức Slime năng lượng Lv 2
 Mở khóa công thức Tái chế
-",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Bộ công thức trồng trọt,1,"210,210,210",0,"0,0,0",78
+",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Bộ công thức trồng trọt,0,1,"210,210,210",0,"0,0,0",78
 1,"FertilityCapacity + 1
-",229,1,talentTree-80,80,0,2,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,210,0,1,22
-2,PlantingProficiency + 4,245,1,talentTree-81,81,0,2,1,Trang trại - Thành thạo thu hoạch,1,210,0,1,73
-3,Dung lượng hạnh phúc thú cưng +1,232,1,talentTree-82,82,0,2,1,Trang trại - Chỉ số Hạnh phúc Chiến đấu của Thú cưng,1,210,0,1,74
+",229,1,talentTree-80,80,0,2,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,210,0,1,22
+2,PlantingProficiency + 4,245,1,talentTree-81,81,0,2,1,Trang trại - Thành thạo thu hoạch,0,1,210,0,1,73
+3,Dung lượng hạnh phúc thú cưng +1,232,1,talentTree-82,82,0,2,1,Trang trại - Chỉ số Hạnh phúc Chiến đấu của Thú cưng,0,1,210,0,1,74
 4,"Trình độ chăn nuôi + 4 
-",247,1,talentTree-83,83,0,2,1,Trang trại - Thành thạo thu hoạch,1,210,0,1,76
+",247,1,talentTree-83,83,0,2,1,Trang trại - Thành thạo thu hoạch,0,1,210,0,1,76
 1,"FertilityCapacity + 1
-",236,1,talentTree-84,84,0,4,1, Giá trị nông trại - Sản lượng sinh sản trên mỗi đơn vị đất,1,840,0,3,93
+",236,1,talentTree-84,84,0,4,1, Giá trị nông trại - Sản lượng sinh sản trên mỗi đơn vị đất,0,1,840,0,3,93
 4,"Trình độ chăn nuôi + 4 
-",289,1,talentTree-85,85,0,5,1,Trang trại - Thành thạo thu hoạch,1,1680,0,4,90
+",289,1,talentTree-85,85,0,5,1,Trang trại - Thành thạo thu hoạch,0,1,1680,0,4,90
 -4," Mở khóa công thức bộ đồ cấp 3
 Mở khóa công thức Slime Năng lượng cấp 3
 Mở khóa công thức Tái tạo
-",64#378#68#131#130#129#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488#982#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Bộ công thức trồng trọt,1,"420,420,420",0,"0,0,0",79
-3,Dung lượng hạnh phúc thú cưng +1,282,1,talentTree-89,89,0,4,1, Nông nghiệp - Chỉ số hạnh phúc chiến đấu của thú cưng,1,840,0,3,92
+",64#378#68#131#130#129#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488#982#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Bộ công thức trồng trọt,0,1,"420,420,420",0,"0,0,0",79
+3,Dung lượng hạnh phúc thú cưng +1,282,1,talentTree-89,89,0,4,1, Nông nghiệp - Chỉ số hạnh phúc chiến đấu của thú cưng,0,1,840,0,3,92
 4,"Trình độ chăn nuôi + 4 
-",288,1,talentTree-90,90,0,4,1, Nông nghiệp - Chuyên môn thu hoạch,1,840,0,3,91
+",288,1,talentTree-90,90,0,4,1, Nông nghiệp - Chuyên môn thu hoạch,0,1,840,0,3,91
 4,"Trình độ chăn nuôi + 4 
-",248,1,talentTree-91,91,0,3,1,Trang trại - Thành thạo thu hoạch,1,420,0,2,83
-3,Dung lượng hạnh phúc thú cưng +1,244,1,talentTree-92,92,0,3,1,Trang trại - Chỉ số Hạnh phúc Chiến đấu của Thú cưng,1,420,0,2,82
+",248,1,talentTree-91,91,0,3,1,Trang trại - Thành thạo thu hoạch,0,1,420,0,2,83
+3,Dung lượng hạnh phúc thú cưng +1,244,1,talentTree-92,92,0,3,1,Trang trại - Chỉ số Hạnh phúc Chiến đấu của Thú cưng,0,1,420,0,2,82
 1,"FertilityCapacity + 1
-",235,1,talentTree-93,93,0,3,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,420,0,2,80
+",235,1,talentTree-93,93,0,3,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,420,0,2,80
 -2,"Mở khóa Công thức Tinh chất Thú cưng Lv 3
-",157,2,talentTree-94,94,0,3,1,Công thức tinh chất thú cưng,1,420,0,0,49
+",157,2,talentTree-94,94,0,3,1,Công thức tinh chất thú cưng,0,1,420,0,0,49
 -5," Mở khóa công thức bộ Lv 1
 Mở khóa công thức Slime Năng lượng Lv 1
-",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Bí quyết chiến đấu,2,"95,95,95",0,"0,0,0",
+",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Bí quyết chiến đấu,0,2,"95,95,95",0,"0,0,0",
 4," Chiến đấu MaxHP +20
-",264,1,talentTree-96,96,0,1,1,Chiến đấu - HP,2,95,0,0,
+",264,1,talentTree-96,96,0,1,1,Chiến đấu - HP,0,2,95,0,0,
 3," Chiến đấu DEF +5
-",258,1,talentTree-97,97,0,1,1,Chiến đấu - Phòng thủ,2,95,0,0,
+",258,1,talentTree-97,97,0,1,1,Chiến đấu - Phòng thủ,0,2,95,0,0,
 2," Chiến đấu ATK +5
-",252,1,talentTree-98,98,0,1,1,Chiến đấu - Sức mạnh tấn công,2,95,0,0,
+",252,1,talentTree-98,98,0,1,1,Chiến đấu - Sức mạnh tấn công,0,2,95,0,0,
 1,"Tăng tốc độ di chuyển 10%/20%/30%.
-",116;117;118,1,talentTree-99,99,0,1,3,Chuyên gia,2,"95,95,95",0,"0,0,0",
+",116;117;118,1,talentTree-99,99,0,1,3,Chuyên gia,0,2,"95,95,95",0,"0,0,0",
 4," Chiến đấu MaxHP +20
-",265,1,talentTree-100,100,0,2,1,Chiến đấu - HP,2,175,0,1,96
+",265,1,talentTree-100,100,0,2,1,Chiến đấu - HP,0,2,175,0,1,96
 -5," Mở khóa công thức bộ Lv 2
 Mở khóa công thức Nước lọc năng lượng Lv 2
 Mở khóa công thức Tái chế
-",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Bí quyết chiến đấu,2,"175,175,175",0,"0,0,0",95
+",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Bí quyết chiến đấu,0,2,"175,175,175",0,"0,0,0",95
 3," Chiến đấu DEF +5
-",259,1,talentTree-102,102,0,2,1,Chiến đấu - Phòng thủ,2,175,0,1,97
+",259,1,talentTree-102,102,0,2,1,Chiến đấu - Phòng thủ,0,2,175,0,1,97
 2," Chiến đấu ATK +5
-",253,1,talentTree-103,103,0,2,1,Chiến đấu - Sức mạnh tấn công,2,175,0,1,98
-1,Tăng +2/4/6% tỷ lệ trúng đòn chiến đấu,134;135;136,1,talentTree-104,104,0,2,3,Chuyên gia,2,"175,175,175",0,"1,1,1",99
+",253,1,talentTree-103,103,0,2,1,Chiến đấu - Sức mạnh tấn công,0,2,175,0,1,98
+1,Tăng +2/4/6% tỷ lệ trúng đòn chiến đấu,134;135;136,1,talentTree-104,104,0,2,3,Chuyên gia,0,2,"175,175,175",0,"1,1,1",99
 -5," Mở khóa công thức bộ đồ cấp 3
 Mở khóa công thức Nước lực cấp 3
 Mở khóa công thức Tái tạo
-",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Bí quyết chiến đấu,2,"323,323,323",0,"0,0,0",101
+",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Bí quyết chiến đấu,0,2,"323,323,323",0,"0,0,0",101
 3," Chiến đấu DEF +5
-",260,1,talentTree-106,106,0,3,1,Chiến đấu - Phòng thủ,2,323,0,2,102
+",260,1,talentTree-106,106,0,3,1,Chiến đấu - Phòng thủ,0,2,323,0,2,102
 2," Chiến đấu ATK +5
-",254,1,talentTree-107,107,0,3,1,Chiến đấu - Sức mạnh tấn công,2,323,0,2,103
+",254,1,talentTree-107,107,0,3,1,Chiến đấu - Sức mạnh tấn công,0,2,323,0,2,103
 1,"Tăng tỷ lệ né tránh 2/4/6%
-",125;126;127,1,talentTree-108,108,0,3,3,Chuyên gia,2,"323,323,323",0,"2,2,2",104
+",125;126;127,1,talentTree-108,108,0,3,3,Chuyên gia,0,2,"323,323,323",0,"2,2,2",104
 4," Chiến đấu MaxHP +20
-",266,1,talentTree-109,109,0,3,1,Chiến đấu - HP,2,323,0,2,100
+",266,1,talentTree-109,109,0,3,1,Chiến đấu - HP,0,2,323,0,2,100
 3," Chiến đấu DEF +5
-",261,1,talentTree-111,111,0,4,1, Chiến đấu - Phòng thủ,2,646,0,3,106
+",261,1,talentTree-111,111,0,4,1, Chiến đấu - Phòng thủ,0,2,646,0,3,106
 1,"Mỗi 20/10/5 giây, nếu bạn không nhận sát thương, bạn sẽ nhận được tăng sát thương 10%.
-",119;120;121,1,talentTree-112,112,0,4,3, Chuyên gia,2,"646,646,646",0,"3,3,3",108
+",119;120;121,1,talentTree-112,112,0,4,3, Chuyên gia,0,2,"646,646,646",0,"3,3,3",108
 2," Chiến đấu ATK +5
-",255,1,talentTree-113,113,0,4,1, Chiến đấu - Sức mạnh tấn công,2,646,0,3,107
+",255,1,talentTree-113,113,0,4,1, Chiến đấu - Sức mạnh tấn công,0,2,646,0,3,107
 4," Chiến đấu MaxHP +20
-",267,1,talentTree-114,114,0,4,1, Chiến đấu - Máu,2,646,0,3,109
+",267,1,talentTree-114,114,0,4,1, Chiến đấu - Máu,0,2,646,0,3,109
 3," Chiến đấu DEF +5
-",262,1,talentTree-116,116,0,5,1,Chiến đấu - Phòng thủ,2,1292,0,4,111
+",262,1,talentTree-116,116,0,5,1,Chiến đấu - Phòng thủ,0,2,1292,0,4,111
 2," Chiến đấu ATK +5
-",256,1,talentTree-117,117,0,5,1,Chiến đấu - Sức mạnh tấn công,2,1292,0,4,113
+",256,1,talentTree-117,117,0,5,1,Chiến đấu - Sức mạnh tấn công,0,2,1292,0,4,113
 1,"Tăng xác suất đánh chí mạng lên 5/10/15%
-",60;61;62,1,talentTree-118,118,0,5,3,Chuyên gia,2,"1292,1292,1292",0,"4,4,4",112
+",60;61;62,1,talentTree-118,118,0,5,3,Chuyên gia,0,2,"1292,1292,1292",0,"4,4,4",112
 -1,"Giảm tốc độ di chuyển của kẻ địch.
-",341,1,talentTree-119,119,0,5,1,Nhẹ nhàng - Tăng cường,2,1292,0,4,70
+",341,1,talentTree-119,119,0,5,1,Nhẹ nhàng - Tăng cường,0,2,1292,0,4,70
 4," Chiến đấu MaxHP +20
-",268,1,talentTree-120,120,0,5,1,Chiến đấu - HP,2,1292,0,4,114
+",268,1,talentTree-120,120,0,5,1,Chiến đấu - HP,0,2,1292,0,4,114
 -3,"Giảm tốc độ di chuyển của kẻ địch.
-",335,1,talentTree-122,122,0,6,1,Sự đạp nát chiến tranh - Tăng cường,2,2584,0,5,71
+",335,1,talentTree-122,122,0,6,1,Sự đạp nát chiến tranh - Tăng cường,0,2,2584,0,5,71
 -2,"Giảm tốc độ di chuyển của kẻ địch.
-",338,1,talentTree-123,123,0,6,1,,2,2584,0,5,57
+",338,1,talentTree-123,123,0,6,1,,0,2,2584,0,5,57
 1,"Tăng sát thương chí mạng lên quái vật 10/20/30%.
-",113;114;115,1,talentTree-124,124,0,6,3,Chuyên gia,2,"2584,2584,2584",0,"5,5,5",118
+",113;114;115,1,talentTree-124,124,0,6,3,Chuyên gia,0,2,"2584,2584,2584",0,"5,5,5",118
 -1,"Ném bom và gây sát thương cao cho kẻ địch trong phạm vi vụ nổ
-",487,0,talentTree-125,125,0,6,1,,2,2584,0,5,119
+",487,0,talentTree-125,125,0,6,1,,0,2,2584,0,5,119
 -3,"Đánh bại một khu vực lớn của kẻ địch phía trước bạn và gây choáng tạm thời
-",459,0,talentTree-127,127,0,7,1,,2,5169,0,6,122
--2, Giảm tốc độ di chuyển của kẻ địch,339,1,talentTree-128,128,0,7,1, Nâng cấp - Trốn thoát ,2,5169,0,6,123
--1, Giảm tốc độ di chuyển của kẻ địch,342,1,talentTree-129,129,0,7,1, Nâng cấp - Nghệ thuật nổ ,2,5169,0,6,125
-1, Tăng tốc độ tấn công lên 10/20/30%,131;132;133,1,talentTree-130,130,0,7,3,Chuyên gia,2,"5169,5169,5169",0,"6,6,6",124
+",459,0,talentTree-127,127,0,7,1,,0,2,5169,0,6,122
+-2, Giảm tốc độ di chuyển của kẻ địch,339,1,talentTree-128,128,0,7,1, Nâng cấp - Trốn thoát ,0,2,5169,0,6,123
+-1, Giảm tốc độ di chuyển của kẻ địch,342,1,talentTree-129,129,0,7,1, Nâng cấp - Nghệ thuật nổ ,0,2,5169,0,6,125
+1, Tăng tốc độ tấn công lên 10/20/30%,131;132;133,1,talentTree-130,130,0,7,3,Chuyên gia,0,2,"5169,5169,5169",0,"6,6,6",124
 2," Chiến đấu ATK +5
-",257,1,talentTree-131,131,0,6,1,Chiến đấu - Sức mạnh tấn công,2,2584,0,5,117
+",257,1,talentTree-131,131,0,6,1,Chiến đấu - Sức mạnh tấn công,0,2,2584,0,5,117
 3," Chiến đấu DEF +5
-",263,1,talentTree-132,132,0,6,1,Chiến đấu - Phòng thủ,2,2584,0,5,116
+",263,1,talentTree-132,132,0,6,1,Chiến đấu - Phòng thủ,0,2,2584,0,5,116
 4," Chiến đấu MaxHP +20
-",269,1,talentTree-133,133,0,6,1,Chiến đấu - HP,2,2584,0,5,120
+",269,1,talentTree-133,133,0,6,1,Chiến đấu - HP,0,2,2584,0,5,120
 2," Chiến đấu ATK +5
-",270,1,talentTree-134,134,0,7,1,Chiến đấu - Sức mạnh tấn công,2,5169,0,6,131
+",270,1,talentTree-134,134,0,7,1,Chiến đấu - Sức mạnh tấn công,0,2,5169,0,6,131
 3," Chiến đấu DEF +5
-",273,1,talentTree-135,135,0,7,1,Chiến đấu - Phòng thủ,2,5169,0,6,132
+",273,1,talentTree-135,135,0,7,1,Chiến đấu - Phòng thủ,0,2,5169,0,6,132
 4," Chiến đấu MaxHP +20
-",276,1,talentTree-136,136,0,7,1,Chiến đấu - HP,2,5169,0,6,133
+",276,1,talentTree-136,136,0,7,1,Chiến đấu - HP,0,2,5169,0,6,133
 -2,"Nhảy về phía một kẻ địch gần và gây choáng và sát thương trong phạm vi đáp xuống
-",484,0,talentTree-139,139,0,8,1,Theo đuổi ,2,11200,0,7,128
--1, Giảm tốc độ di chuyển của kẻ địch,343,1,talentTree-140,140,0,8,1,Nghệ thuật nổ - Tăng cường ,2,11200,0,7,129
-1, Tăng 0.1/0.2/0.3% sát thương cho mỗi 1% máu mất,128;129;130,1,talentTree-141,141,0,8,3,Chuyên gia,2,"11200,11200,11200",0,"7,7,7",130
+",484,0,talentTree-139,139,0,8,1,Theo đuổi ,0,2,11200,0,7,128
+-1, Giảm tốc độ di chuyển của kẻ địch,343,1,talentTree-140,140,0,8,1,Nghệ thuật nổ - Tăng cường ,0,2,11200,0,7,129
+1, Tăng 0.1/0.2/0.3% sát thương cho mỗi 1% máu mất,128;129;130,1,talentTree-141,141,0,8,3,Chuyên gia,0,2,"11200,11200,11200",0,"7,7,7",130
 2," Chiến đấu ATK +5
-",271,1,talentTree-142,142,0,8,1,Chiến đấu - Sức mạnh tấn công,2,11200,0,7,134
+",271,1,talentTree-142,142,0,8,1,Chiến đấu - Sức mạnh tấn công,0,2,11200,0,7,134
 3," Chiến đấu DEF +5
-",274,1,talentTree-143,143,0,8,1,Chiến đấu - Phòng thủ,2,11200,0,7,135
+",274,1,talentTree-143,143,0,8,1,Chiến đấu - Phòng thủ,0,2,11200,0,7,135
 4," Chiến đấu MaxHP +20
-",277,1,talentTree-144,144,0,8,1,Chiến đấu - Sức khỏe,2,11200,0,7,136
+",277,1,talentTree-144,144,0,8,1,Chiến đấu - Sức khỏe,0,2,11200,0,7,136
 -1,"Sau một thời gian ngắn tích lũy năng lượng, phóng năng lượng bên trong cơ thể, gây sát thương cao liên tục cho kẻ địch trong một khoảng cách nhất định. Trong quá trình phát hành kỹ năng, vẫn ở trạng thái không thể đánh trúng.
-",432,0,talentTree-149,149,0,9,1,,2,24436,0,8,140
+",432,0,talentTree-149,149,0,9,1,,0,2,24436,0,8,140
 2," Chiến đấu ATK +5
-",272,1,talentTree-150,150,0,9,1,Chiến đấu - Sức mạnh tấn công,2,24436,0,8,142
-1," Vũ khí tấn công để lại vết thương, gây 1%/2%/3% sát thương tấn công mỗi 0.5 giây trong 5 giây, và có thể chồng lên đến 5 lớp",172;173;174,1,talentTree-151,151,0,9,3,Chuyên gia,2,"24436,24436,24436",0,"8,8,8",141
+",272,1,talentTree-150,150,0,9,1,Chiến đấu - Sức mạnh tấn công,0,2,24436,0,8,142
+1," Vũ khí tấn công để lại vết thương, gây 1%/2%/3% sát thương tấn công mỗi 0.5 giây trong 5 giây, và có thể chồng lên đến 5 lớp",172;173;174,1,talentTree-151,151,0,9,3,Chuyên gia,0,2,"24436,24436,24436",0,"8,8,8",141
 3," Chiến đấu DEF +5
-",275,1,talentTree-152,152,0,9,1,Chiến đấu - Phòng thủ,2,24436,0,8,143
+",275,1,talentTree-152,152,0,9,1,Chiến đấu - Phòng thủ,0,2,24436,0,8,143
 4," Chiến đấu MaxHP +20
-",278,1,talentTree-153,153,0,9,1,Chiến đấu - HP,2,24436,0,8,144
+",278,1,talentTree-153,153,0,9,1,Chiến đấu - HP,0,2,24436,0,8,144
 -1,"Tưới nước cho các cánh đồng nhỏ xung quanh bạn.
-",100,0,talentTree-157,157,0,5,1,Làm chủ bình tưới nước,1,1680,0,4,46
+",100,0,talentTree-157,157,0,5,1,Làm chủ bình tưới nước,0,1,1680,0,4,46
 1,"FertilityCapacity + 1
-",237,1,talentTree-158,158,0,5,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,1680,0,4,84
-2,Trình độ trồng trọt +4,250,1,talentTree-159,159,0,5,1,Trang trại - Thu thập thành thạo,1,1680,0,4,50
-3,Dung lượng hạnh phúc thú cưng +1,283,1,talentTree-160,160,0,5,1,Trang trại - Chỉ số hạnh phúc đầu ra của thú cưng,1,1680,0,4,89
+",237,1,talentTree-158,158,0,5,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,1680,0,4,84
+2,Trình độ trồng trọt +4,250,1,talentTree-159,159,0,5,1,Trang trại - Thu thập thành thạo,0,1,1680,0,4,50
+3,Dung lượng hạnh phúc thú cưng +1,283,1,talentTree-160,160,0,5,1,Trang trại - Chỉ số hạnh phúc đầu ra của thú cưng,0,1,1680,0,4,89
 1,"FertilityCapacity + 1
-",238,1,talentTree-163,163,0,6,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,3360,0,5,158
-3,Dung lượng hạnh phúc thú cưng +1,284,1,talentTree-164,164,0,6,1,Trang trại - Chỉ số hạnh phúc đầu ra của thú cưng,1,3360,0,5,160
-2,Trình độ trồng trọt +4,251,1,talentTree-165,165,0,6,1,Trang trại - Thu thập thành thạo,1,3360,0,5,159
+",238,1,talentTree-163,163,0,6,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,3360,0,5,158
+3,Dung lượng hạnh phúc thú cưng +1,284,1,talentTree-164,164,0,6,1,Trang trại - Chỉ số hạnh phúc đầu ra của thú cưng,0,1,3360,0,5,160
+2,Trình độ trồng trọt +4,251,1,talentTree-165,165,0,6,1,Trang trại - Thu thập thành thạo,0,1,3360,0,5,159
 4,"Trình độ chăn nuôi + 4 
-",290,1,talentTree-166,166,0,6,1,Trang trại - Thành thạo thu hoạch,1,3360,0,5,85
--1, Kỹ năng hiệu quả - Cuốc nhóm,104,0,talentTree-169,169,0,6,1,Bộ chia đất,1,3360,0,5,157
+",290,1,talentTree-166,166,0,6,1,Trang trại - Thành thạo thu hoạch,0,1,3360,0,5,85
+-1, Kỹ năng hiệu quả - Cuốc nhóm,104,0,talentTree-169,169,0,6,1,Bộ chia đất,0,1,3360,0,5,157
 1,"FertilityCapacity + 1
-",239,1,talentTree-170,170,0,7,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,6720,0,6,163
-2,Trình độ trồng trọt +4,279,1,talentTree-171,171,0,7,1,Trang trại - Thu thập thành thạo,1,6720,0,6,165
-3,Dung lượng hạnh phúc thú cưng +1,285,1,talentTree-172,172,0,7,1,Trang trại - Chỉ số hạnh phúc đầu ra của đơn vị thú cưng,1,6720,0,6,164
+",239,1,talentTree-170,170,0,7,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,6720,0,6,163
+2,Trình độ trồng trọt +4,279,1,talentTree-171,171,0,7,1,Trang trại - Thu thập thành thạo,0,1,6720,0,6,165
+3,Dung lượng hạnh phúc thú cưng +1,285,1,talentTree-172,172,0,7,1,Trang trại - Chỉ số hạnh phúc đầu ra của đơn vị thú cưng,0,1,6720,0,6,164
 4,"Trình độ chăn nuôi + 4 
-",291,1,talentTree-173,173,0,7,1,Trang trại - Thành thạo thu hoạch,1,6720,0,6,166
--1, Tưới nước cho các cánh đồng nhỏ xung quanh bạn,101,0,talentTree-176,176,0,8,1,Làm chủ bình tưới nước,1,13440,0,7,298
-2,Trình độ trồng trọt +4,280,1,talentTree-177,177,0,8,1,Trang trại - Thành thạo thu hoạch,1,13440,0,7,171
+",291,1,talentTree-173,173,0,7,1,Trang trại - Thành thạo thu hoạch,0,1,6720,0,6,166
+-1, Tưới nước cho các cánh đồng nhỏ xung quanh bạn,101,0,talentTree-176,176,0,8,1,Làm chủ bình tưới nước,0,1,13440,0,7,298
+2,Trình độ trồng trọt +4,280,1,talentTree-177,177,0,8,1,Trang trại - Thành thạo thu hoạch,0,1,13440,0,7,171
 1,"FertilityCapacity + 1
-",240,1,talentTree-178,178,0,8,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,13440,0,7,170
-3,Dung lượng hạnh phúc thú cưng +1,286,1,talentTree-179,179,0,8,1,Trang trại - Chỉ số hạnh phúc đầu ra của đơn vị thú cưng,1,13440,0,7,172
+",240,1,talentTree-178,178,0,8,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,13440,0,7,170
+3,Dung lượng hạnh phúc thú cưng +1,286,1,talentTree-179,179,0,8,1,Trang trại - Chỉ số hạnh phúc đầu ra của đơn vị thú cưng,0,1,13440,0,7,172
 4,"Trình độ chăn nuôi + 4 
-",292,1,talentTree-180,180,0,8,1,Trang trại - Thành thạo thu hoạch,1,13440,0,7,173
+",292,1,talentTree-180,180,0,8,1,Trang trại - Thành thạo thu hoạch,0,1,13440,0,7,173
 1,"FertilityCapacity + 1
-",241,1,talentTree-184,184,0,9,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,1,26880,0,8,178
-2,Trình độ trồng trọt +4,281,1,talentTree-185,185,0,9,1,Trang trại - Thành thạo thu hoạch,1,26880,0,8,177
-3,Dung lượng hạnh phúc thú cưng +1,287,1,talentTree-186,186,0,9,1,Trang trại - Chỉ số hạnh phúc đầu ra của thú cưng,1,26880,0,8,179
+",241,1,talentTree-184,184,0,9,1,Trang trại - Sản lượng sinh sản trên một đơn vị đất đai,0,1,26880,0,8,178
+2,Trình độ trồng trọt +4,281,1,talentTree-185,185,0,9,1,Trang trại - Thành thạo thu hoạch,0,1,26880,0,8,177
+3,Dung lượng hạnh phúc thú cưng +1,287,1,talentTree-186,186,0,9,1,Trang trại - Chỉ số hạnh phúc đầu ra của thú cưng,0,1,26880,0,8,179
 4,"Trình độ chăn nuôi + 4 
-",293,1,talentTree-187,187,0,9,1,Trang trại - Thành thạo thu hoạch,1,26880,0,8,180
+",293,1,talentTree-187,187,0,9,1,Trang trại - Thành thạo thu hoạch,0,1,26880,0,8,180
 1,"Tấn công Cỏ ++ Chuyên môn Cỏ ++
-",294,1,talentTree-188,188,0,1,1,Tập hợp - Cỏ,3,131,0,0,
+",294,1,talentTree-188,188,0,1,1,Tập hợp - Cỏ,0,3,131,0,0,
 2,"Tấn công Cây ++ Chuyên môn Cây ++
-",303,1,talentTree-189,189,0,1,1,Thu thập giá trị - Cây,3,131,0,0,
+",303,1,talentTree-189,189,0,1,1,Thu thập giá trị - Cây,0,3,131,0,0,
 3,"Tấn công Quặng ++ Chuyên môn Quặng ++
-",312,1,talentTree-190,190,0,1,1,Thu thập giá trị - Khai thác,3,131,0,0,
+",312,1,talentTree-190,190,0,1,1,Thu thập giá trị - Khai thác,0,3,131,0,0,
 1,"Tấn công Cỏ ++ Chuyên môn Cỏ ++
-",295,1,talentTree-191,191,0,2,1,Tập Hợp - Cỏ,3,262,0,1,188
+",295,1,talentTree-191,191,0,2,1,Tập Hợp - Cỏ,0,3,262,0,1,188
 2,"Tấn công Cây ++ Chuyên môn Cây ++
-",304,1,talentTree-192,192,0,2,1,Tập hợp - Cây cối,3,262,0,1,189
+",304,1,talentTree-192,192,0,2,1,Tập hợp - Cây cối,0,3,262,0,1,189
 3,"Tấn công Quặng ++ Chuyên môn Quặng ++
-",313,1,talentTree-193,193,0,2,1,Thu thập giá trị - Khai thác,3,262,0,1,190
+",313,1,talentTree-193,193,0,2,1,Thu thập giá trị - Khai thác,0,3,262,0,1,190
 1,"Tấn công Cỏ ++ Chuyên môn ++
-",296,1,talentTree-194,194,0,3,1,Tập Hợp - Cỏ,3,525,0,2,191
+",296,1,talentTree-194,194,0,3,1,Tập Hợp - Cỏ,0,3,525,0,2,191
 2,"Tấn công Cây ++ Chuyên môn ++
-",305,1,talentTree-195,195,0,3,1,Tập hợp - Cây cối,3,525,0,2,192
+",305,1,talentTree-195,195,0,3,1,Tập hợp - Cây cối,0,3,525,0,2,192
 3,"Tấn công Quặng ++ Chuyên môn ++
-",314,1,talentTree-196,196,0,3,1,Thu thập - Khai thác,3,525,0,2,193
+",314,1,talentTree-196,196,0,3,1,Thu thập - Khai thác,0,3,525,0,2,193
 1,"Tấn công Cỏ ++ Chuyên môn ++
-",297,1,talentTree-197,197,0,4,1, Thu thập - Cỏ,3,1050,0,3,194
+",297,1,talentTree-197,197,0,4,1, Thu thập - Cỏ,0,3,1050,0,3,194
 2,"Tấn công Cây ++ Chuyên môn ++
-",306,1,talentTree-198,198,0,4,1, Thu thập - Cây cối,3,1050,0,3,195
-3,Tấn công Quặng ++ Chuyên môn ++,315,1,talentTree-199,199,0,4,1, Giá trị thu thập - Khai thác,3,1050,0,3,196
+",306,1,talentTree-198,198,0,4,1, Thu thập - Cây cối,0,3,1050,0,3,195
+3,Tấn công Quặng ++ Chuyên môn ++,315,1,talentTree-199,199,0,4,1, Giá trị thu thập - Khai thác,0,3,1050,0,3,196
 1,"Sức tấn công cỏ thu thập ++ Trình độ thu thập ++
-",298,1,talentTree-200,200,0,5,1,Tập hợp - Cỏ,3,2100,0,4,197
+",298,1,talentTree-200,200,0,5,1,Tập hợp - Cỏ,0,3,2100,0,4,197
 2,"Sức tấn công cây thu thập ++ Trình độ thu thập ++
-",307,1,talentTree-201,201,0,5,1,Thu thập giá trị - Cây,3,2100,0,4,198
+",307,1,talentTree-201,201,0,5,1,Thu thập giá trị - Cây,0,3,2100,0,4,198
 3,"Sức tấn công quặng thu thập ++ Trình độ thu thập ++
-",316,1,talentTree-202,202,0,5,1,Thu thập - Khai thác,3,2100,0,4,199
+",316,1,talentTree-202,202,0,5,1,Thu thập - Khai thác,0,3,2100,0,4,199
 -1,"Mở khóa công thức thuốc. Mở khóa công thức thuốc năng lượng
-",348#907,2,talentTree-204,204,0,6,1,Bí quyết đạo cụ ma thuật,3,4200,0,50,69
+",348#907,2,talentTree-204,204,0,6,1,Bí quyết đạo cụ ma thuật,0,3,4200,0,50,69
 1,"Sức tấn công cỏ thu thập ++ Trình độ thu thập ++
-",299,1,talentTree-205,205,0,6,1,Thu thập - Giá trị cỏ,3,4200,0,5,200
+",299,1,talentTree-205,205,0,6,1,Thu thập - Giá trị cỏ,0,3,4200,0,5,200
 2,"Sức tấn công cây thu thập ++ Trình độ thu thập ++
-",308,1,talentTree-206,206,0,6,1,Tập hợp - Cây cối,3,4200,0,5,201
-3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",317,1,talentTree-207,207,0,6,1,Thu thập giá trị - Khai thác,3,4200,0,5,202
+",308,1,talentTree-206,206,0,6,1,Tập hợp - Cây cối,0,3,4200,0,5,201
+3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",317,1,talentTree-207,207,0,6,1,Thu thập giá trị - Khai thác,0,3,4200,0,5,202
 -1,"Mở khóa công thức thuốc. Mở khóa công thức nước lọc năng lượng
-",895#908,2,talentTree-209,209,0,7,1,Nhà sưu tập điên cấp 3,3,8400,0,60,204
+",895#908,2,talentTree-209,209,0,7,1,Nhà sưu tập điên cấp 3,0,3,8400,0,60,204
 1," Tăng sức tấn công cỏ khi thu thập +++
-Tăng trình độ nhặt cỏ +++",300,1,talentTree-210,210,0,7,1,Tập Hợp - Cỏ,3,8400,0,6,205
+Tăng trình độ nhặt cỏ +++",300,1,talentTree-210,210,0,7,1,Tập Hợp - Cỏ,0,3,8400,0,6,205
 2," Tăng sức tấn công cây khi thu thập +++
-Tăng trình độ chặt cây +++",309,1,talentTree-211,211,0,7,1,Tập hợp - Cây cối,3,8400,0,6,206
-3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",318,1,talentTree-212,212,0,7,1,Thu thập - Khai thác,3,8400,0,6,207
+Tăng trình độ chặt cây +++",309,1,talentTree-211,211,0,7,1,Tập hợp - Cây cối,0,3,8400,0,6,206
+3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",318,1,talentTree-212,212,0,7,1,Thu thập - Khai thác,0,3,8400,0,6,207
 -1,"Mở khóa công thức thuốc. Mở khóa công thức nước năng lượng
-",896#909,2,talentTree-214,214,0,8,1,Người được chọn cấp 3,3,16800,0,70,209
+",896#909,2,talentTree-214,214,0,8,1,Người được chọn cấp 3,0,3,16800,0,70,209
 2," Tăng sức tấn công cây khi thu thập +++
-Tăng trình độ chặt cây +++",310,1,talentTree-215,215,0,8,1,Tập hợp - Cây cối,3,16800,0,7,211
+Tăng trình độ chặt cây +++",310,1,talentTree-215,215,0,8,1,Tập hợp - Cây cối,0,3,16800,0,7,211
 1," Tăng sức tấn công cỏ khi thu thập +++
-Tăng trình độ nhặt cỏ +++",301,1,talentTree-216,216,0,8,1,Tập Hợp - Cỏ,3,16800,0,7,210
-3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",319,1,talentTree-217,217,0,8,1,Thu thập - Khai thác,3,16800,0,7,212
+Tăng trình độ nhặt cỏ +++",301,1,talentTree-216,216,0,8,1,Tập Hợp - Cỏ,0,3,16800,0,7,210
+3," Tăng sức tấn công khai thác quặng ++, Tăng trình độ khai thác quặng ++",319,1,talentTree-217,217,0,8,1,Thu thập - Khai thác,0,3,16800,0,7,212
 -1,"Mở khóa công thức thuốc. Mở khóa công thức nước lọc năng lượng
-",897#910,2,talentTree-219,219,0,9,1,Bí quyết đạo cụ ma thuật,3,33600,0,80,214
+",897#910,2,talentTree-219,219,0,9,1,Bí quyết đạo cụ ma thuật,0,3,33600,0,80,214
 1," Tăng sức tấn công cỏ khi thu thập +++
-Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp - Cỏ,3,33600,0,8,216
-2,Tăng tấn công cây cối khi thu thập ++ Tăng trình độ thu thập ++,311,1,talentTree-221,221,0,9,1,Tập hợp - Cây cối,3,33600,0,8,215
-3,Tăng tấn công quặng khi thu thập ++ Tăng trình độ thu thập ++,320,1,talentTree-222,222,0,9,1,Thu thập - Khai thác,3,33600,0,8,217
+Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp - Cỏ,0,3,33600,0,8,216
+2,Tăng tấn công cây cối khi thu thập ++ Tăng trình độ thu thập ++,311,1,talentTree-221,221,0,9,1,Tập hợp - Cây cối,0,3,33600,0,8,215
+3,Tăng tấn công quặng khi thu thập ++ Tăng trình độ thu thập ++,320,1,talentTree-222,222,0,9,1,Thu thập - Khai thác,0,3,33600,0,8,217
 -3,"Mở khóa Công thức Tinh chất Trồng trọt Lv 1
-",152,2,talentTree-227,227,0,1,1,Bí quyết trồng tinh chất,1,95,0,0,
+",152,2,talentTree-227,227,0,1,1,Bí quyết trồng tinh chất,0,1,95,0,0,
 -3,"Mở khóa Công thức Tinh chất Trồng trọt Lv 2
-",153,2,talentTree-228,228,0,2,1,Bí quyết trồng tinh chất,1,210,0,0,227
+",153,2,talentTree-228,228,0,2,1,Bí quyết trồng tinh chất,0,1,210,0,0,227
 -3,"Mở khóa Công thức Tinh chất Trồng trọt Lv 3
-",154,2,talentTree-229,229,0,3,1,Bí quyết trồng tinh chất,1,420,0,0,228
+",154,2,talentTree-229,229,0,3,1,Bí quyết trồng tinh chất,0,1,420,0,0,228
 -4,"Mở khóa Công thức Tinh chất Lv 1
-",149,2,talentTree-236,236,0,1,1,Bí quyết tinh chất chiến đấu,2,95,0,0,
+",149,2,talentTree-236,236,0,1,1,Bí quyết tinh chất chiến đấu,0,2,95,0,0,
 -4,"Mở khóa Công thức Tinh chất Lv 2
-",150,2,talentTree-237,237,0,2,1,Bí quyết tinh chất chiến đấu,2,175,0,0,236
+",150,2,talentTree-237,237,0,2,1,Bí quyết tinh chất chiến đấu,0,2,175,0,0,236
 -4,"Mở khóa Công thức Tinh chất Lv 3
-",151,2,talentTree-238,238,0,3,1,Bí quyết tinh chất chiến đấu,2,323,0,0,237
+",151,2,talentTree-238,238,0,3,1,Bí quyết tinh chất chiến đấu,0,2,323,0,0,237
 -2,"Mở khóa Công thức Tinh chất Lv 1
-",158,2,talentTree-245,245,0,1,1,Thu thập Bí quyết Tinh chất,3,131,0,0,
+",158,2,talentTree-245,245,0,1,1,Thu thập Bí quyết Tinh chất,0,3,131,0,0,
 -2,"Mở khóa Công thức Tinh chất Lv 2
-",159,2,talentTree-246,246,0,2,1,Thu thập Bí quyết Tinh chất,3,262,0,0,245
+",159,2,talentTree-246,246,0,2,1,Thu thập Bí quyết Tinh chất,0,3,262,0,0,245
 -2,"Mở khóa Công thức Tinh chất Lv 3
-",160,2,talentTree-247,247,0,3,1,Thu thập Bí quyết Tinh chất,3,525,0,0,246
+",160,2,talentTree-247,247,0,3,1,Thu thập Bí quyết Tinh chất,0,3,525,0,0,246
 5,"Bắt động vật làm thú cưng của bạn
-",166,0,talentTree-254,254,0,1,1,Chiếm lấy,1,95,0,0,
+",166,0,talentTree-254,254,0,1,1,Chiếm lấy,0,1,95,0,0,
 -5,"Mở khóa công thức bộ Lv 4
 Mở khóa công thức nước lọc năng lượng Lv 4
 Mở khóa công thức tái tạo
-",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3, Các công thức bộ trang bị chiến đấu,2,"646,646,646",0,"10,10,10",105
+",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3, Các công thức bộ trang bị chiến đấu,0,2,"646,646,646",0,"10,10,10",105
 -4,"Mở khóa Công thức Tinh chất Lv 4
-",340,2,talentTree-257,257,0,4,1, Các công thức tinh chất chiến đấu,2,646,0,10,238
+",340,2,talentTree-257,257,0,4,1, Các công thức tinh chất chiến đấu,0,2,646,0,10,238
 -5,"Mở khóa công thức bộ đồ cấp 5
 Mở khóa công thức thuốc năng lượng cấp 5
 Mở khóa công thức tái tạo
-",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3, Các công thức bộ trang bị chiến đấu,2,"1292,1292,1292",0,"15,15,15",256
+",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3, Các công thức bộ trang bị chiến đấu,0,2,"1292,1292,1292",0,"15,15,15",256
 -4,"Mở khóa công thức tinh chất Lv 5
-",341,2,talentTree-259,259,0,5,1, Các công thức tinh chất chiến đấu,2,1292,0,15,257
+",341,2,talentTree-259,259,0,5,1, Các công thức tinh chất chiến đấu,0,2,1292,0,15,257
 -5,"Mở khóa công thức bộ Lv 6
 Mở khóa công thức thuốc năng lượng Lv 6
 Mở khóa công thức tái tạo
-",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3, Công thức Bộ Trang bị Chiến đấu,2,"2584,2584,2584",0,"20,20,20",258
+",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3, Công thức Bộ Trang bị Chiến đấu,0,2,"2584,2584,2584",0,"20,20,20",258
 -4,"Mở khóa công thức tinh chất Lv 6
-",342,2,talentTree-261,261,0,6,1, Công thức Tinh chất Chiến đấu,2,2584,0,20,259
+",342,2,talentTree-261,261,0,6,1, Công thức Tinh chất Chiến đấu,0,2,2584,0,20,259
 -3,"Mở khóa công thức bộ Lv 4
 Mở khóa công thức Slime Năng lượng Lv 4
-",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3, Các công thức bộ trang bị thu thập,3,"1050,1050,1050",0,"10,10,10",62
+",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3, Các công thức bộ trang bị thu thập,0,3,"1050,1050,1050",0,"10,10,10",62
 -2,"Mở khóa Công thức Tinh chất Lv 4
-",343,2,talentTree-263,263,0,4,1, Các công thức tinh chất thu thập,3,1050,0,10,247
+",343,2,talentTree-263,263,0,4,1, Các công thức tinh chất thu thập,0,3,1050,0,10,247
 -3,"Mở khóa công thức bộ đồ cấp 5
 Mở khóa công thức Slime Năng lượng cấp 5
-",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3, Các công thức bộ trang bị thu thập,3,"2100,2100,2100",0,"15,15,15",262
+",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3, Các công thức bộ trang bị thu thập,0,3,"2100,2100,2100",0,"15,15,15",262
 -2,"Mở khóa công thức tinh chất Lv 5
-",344,2,talentTree-265,265,0,5,1, Công thức Tinh chất Thu thập,3,2100,0,15,263
+",344,2,talentTree-265,265,0,5,1, Công thức Tinh chất Thu thập,0,3,2100,0,15,263
 -3,"Mở khóa công thức bộ Lv 6
 Mở khóa công thức Slime Năng lượng Lv 6
-",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3, Công thức Bộ Trang bị Thu thập,3,"4200,4200,4200",0,"20,20,20",264
+",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3, Công thức Bộ Trang bị Thu thập,0,3,"4200,4200,4200",0,"20,20,20",264
 -2,"Mở khóa công thức tinh chất Lv 6
-",345,2,talentTree-267,267,0,6,1, Công thức Tinh chất Thu thập,3,4200,0,20,265
+",345,2,talentTree-267,267,0,6,1, Công thức Tinh chất Thu thập,0,3,4200,0,20,265
 -4,"Mở khóa công thức bộ Lv 4
 Mở khóa công thức Slime Năng lượng Lv 4
 Mở khóa công thức tái tạo
-",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3, Các công thức bộ trang bị nông nghiệp,1,"840,840,840",0,"10,10,10",88
+",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3, Các công thức bộ trang bị nông nghiệp,0,1,"840,840,840",0,"10,10,10",88
 -3,"Mở khóa Công thức Tinh chất Lv 4
-",334,2,talentTree-269,269,0,4,1, Các công thức tinh chất trồng trọt,1,840,0,5,229
+",334,2,talentTree-269,269,0,4,1, Các công thức tinh chất trồng trọt,0,1,840,0,5,229
 -2,"Mở khóa Công thức Tinh chất Lv 4
-",337,2,talentTree-270,270,0,4,1, Các công thức tinh chất chăn nuôi nông nghiệp,1,840,0,5,94
+",337,2,talentTree-270,270,0,4,1, Các công thức tinh chất chăn nuôi nông nghiệp,0,1,840,0,5,94
 -4,"Mở khóa công thức bộ đồ cấp 5
 Mở khóa công thức Slime Năng lượng cấp 5
 Mở khóa công thức tái tạo
-",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3, Các công thức bộ trang bị nông nghiệp,1,"1680,1680,1680",0,"15,15,15",268
+",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3, Các công thức bộ trang bị nông nghiệp,0,1,"1680,1680,1680",0,"15,15,15",268
 -3,"Mở khóa công thức tinh chất Lv 5
-",335,2,talentTree-272,272,0,5,1, Các công thức tinh chất trồng trọt,1,1680,0,8,269
+",335,2,talentTree-272,272,0,5,1, Các công thức tinh chất trồng trọt,0,1,1680,0,8,269
 -2,"Mở khóa công thức tinh chất Lv 5
-",338,2,talentTree-273,273,0,5,1, Công thức Tinh chất Chăn nuôi Nông nghiệp,1,1680,0,8,270
+",338,2,talentTree-273,273,0,5,1, Công thức Tinh chất Chăn nuôi Nông nghiệp,0,1,1680,0,8,270
 -4,"Mở khóa công thức bộ Lv 6
 Mở khóa công thức Slime Năng lượng Lv 6
 Mở khóa công thức tái tạo
-",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3, Công thức Bộ Trang bị Nông trại,1,"3360,3360,3360",0,"20,20,20",271
+",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3, Công thức Bộ Trang bị Nông trại,0,1,"3360,3360,3360",0,"20,20,20",271
 -3,"Mở khóa công thức tinh chất Lv 6
-",336,2,talentTree-275,275,0,6,1, Công thức Tinh chất Trồng trọt,1,3360,0,10,272
+",336,2,talentTree-275,275,0,6,1, Công thức Tinh chất Trồng trọt,0,1,3360,0,10,272
 -2,"Mở khóa công thức tinh chất Lv 6
-",339,2,talentTree-276,276,0,6,1, Công thức Tinh chất Chăn nuôi Nông nghiệp,1,3360,0,10,273
+",339,2,talentTree-276,276,0,6,1, Công thức Tinh chất Chăn nuôi Nông nghiệp,0,1,3360,0,10,273
 -4,"Mở khóa công thức bộ Lv 7
 Mở khóa công thức Slime Năng lượng Lv 7
 Mở khóa công thức tái chế
-",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1090#1091#1092#1093#1094#1095#1096#1097,2,talentTree-277,277,0,7,3,,1,"6720,6720,6720",0,"25,25,25",274
+",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1090#1091#1092#1093#1094#1095#1096#1097,2,talentTree-277,277,0,7,3,,0,1,"6720,6720,6720",0,"25,25,25",274
 -3," Mở khóa công thức trồng trọt tinh chất Lv 7
-",635,2,talentTree-278,278,0,7,1, Công thức Tinh chất Trồng trọt (Chưa mở) ,1,6720,0,0,275
+",635,2,talentTree-278,278,0,7,1, Công thức Tinh chất Trồng trọt (Chưa mở) ,0,1,6720,0,0,275
 -2," Mở khóa công thức chăn nuôi tinh chất Lv 7
-",632,2,talentTree-279,279,0,7,1, Công thức Tinh chất Chăn nuôi (Chưa mở) ,1,6720,0,0,276
+",632,2,talentTree-279,279,0,7,1, Công thức Tinh chất Chăn nuôi (Chưa mở) ,0,1,6720,0,0,276
 -4,"Mở khóa công thức bộ Lv 8
 Mở khóa công thức Slime Năng lượng Lv 8
 Mở khóa công thức tái chế
-",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1107#1108#1109#1110#1111#1112#1113#1114,2,talentTree-280,280,0,8,3, Công thức Bộ Trang trại (Chưa mở) ,1,"13440,13440,13440",0,"30,30,30",277
+",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1107#1108#1109#1110#1111#1112#1113#1114,2,talentTree-280,280,0,8,3, Công thức Bộ Trang trại (Chưa mở) ,0,1,"13440,13440,13440",0,"30,30,30",277
 -3," Mở khóa công thức Tinh chất Trồng trọt Lv 8
-",636,2,talentTree-281,281,0,8,1, Công thức Tinh chất Trồng trọt (Chưa mở),1,13440,0,0,278
+",636,2,talentTree-281,281,0,8,1, Công thức Tinh chất Trồng trọt (Chưa mở),0,1,13440,0,0,278
 -2," Mở khóa công thức Tinh chất Chăn nuôi Lv 8
-",633,2,talentTree-282,282,0,8,1,Công thức Tinh chất chăn nuôi(Chưa mở) ,1,13440,0,0,279
+",633,2,talentTree-282,282,0,8,1,Công thức Tinh chất chăn nuôi(Chưa mở) ,0,1,13440,0,0,279
 -4,"Mở khóa công thức bộ Lv 9
 Mở khóa công thức Slime Năng lượng Lv 9
 Mở khóa công thức tái tạo
-",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1131#1132#1133#1134#1135#1136#1137#1138,2,talentTree-283,283,0,9,3,Công thức bộ trang trại(Chưa mở) ,1,"26880,26880,26880",0,"35,35,35",280
+",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1131#1132#1133#1134#1135#1136#1137#1138,2,talentTree-283,283,0,9,3,Công thức bộ trang trại(Chưa mở) ,0,1,"26880,26880,26880",0,"35,35,35",280
 -3," Mở khóa công thức Tinh chất Trồng trọt Lv 9
-",637,2,talentTree-284,284,0,9,1,Công thức Tinh chất trồng trọt(Chưa mở),1,26880,0,0,281
+",637,2,talentTree-284,284,0,9,1,Công thức Tinh chất trồng trọt(Chưa mở),0,1,26880,0,0,281
 -2," Mở khóa công thức Tinh chất Chăn nuôi Lv 9
-",634,2,talentTree-285,285,0,9,1,,1,26880,0,0,282
+",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,0,282
 -5,"Mở khóa công thức bộ Lv 7
 Mở khóa công thức nước lọc năng lượng Lv 7
 Mở khóa công thức tái chế
-",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1098,2,talentTree-286,286,0,7,3,,2,"5169,5169,5169",0,"25,25,25",260
+",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1098,2,talentTree-286,286,0,7,3,,0,2,"5169,5169,5169",0,"25,25,25",260
 -4," Mở khóa công thức tinh chất Lv 7
-",626,2,talentTree-287,287,0,7,1,,2,5169,0,0,261
+",626,2,talentTree-287,287,0,7,1,,0,2,5169,0,0,261
 -5,"Mở khóa công thức bộ Lv 8
 Mở khóa công thức nước năng lượng Lv 8
 Mở khóa công thức tái chế
-",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-288,288,0,8,3, (Chưa mở) ,2,"11200,11200,11200",0,"30,30,30",286
+",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-288,288,0,8,3, (Chưa mở) ,0,2,"11200,11200,11200",0,"30,30,30",286
 -4," Mở khóa công thức Tinh chất Lv 8
-",627,2,talentTree-289,289,0,8,1, (Chưa mở) ,2,11200,0,0,287
+",627,2,talentTree-289,289,0,8,1, (Chưa mở) ,0,2,11200,0,0,287
 -5,"Mở khóa công thức bộ Lv 9
 Mở khóa công thức nước lọc năng lượng Lv 9
 Mở khóa công thức tái tạo
-",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-290,290,0,9,3,(Chưa mở) ,2,"24436,24436,24436",0,"35,35,35",288
+",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-290,290,0,9,3,(Chưa mở) ,0,2,"24436,24436,24436",0,"35,35,35",288
 -4," Mở khóa công thức Tinh chất Lv 9
-",628,2,talentTree-291,291,0,9,1,(Chưa mở) ,2,24436,0,0,289
+",628,2,talentTree-291,291,0,9,1,(Chưa mở) ,0,2,24436,0,0,289
 -3,"Mở khóa công thức bộ Lv 7
 Mở khóa công thức Slime Năng lượng Lv 7
-",646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1082#1083#1084#1085#1086#1087#1088#1089,2,talentTree-292,292,0,7,3, (Chưa mở) ,3,"8400,8400,8400",0,"25,25,25",266
+",646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1082#1083#1084#1085#1086#1087#1088#1089,2,talentTree-292,292,0,7,3, (Chưa mở) ,0,3,"8400,8400,8400",0,"25,25,25",266
 -2," Mở khóa công thức tinh chất Lv 7
-",629,2,talentTree-293,293,0,7,1, (Chưa mở) ,3,8400,0,0,267
+",629,2,talentTree-293,293,0,7,1, (Chưa mở) ,0,3,8400,0,0,267
 -3,"Mở khóa công thức bộ Lv 8
 Mở khóa công thức Slime Năng lượng Lv 6
-",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1099#1100#1101#1102#1103#1104#1105#1106;673#674,2,talentTree-294,294,0,8,3,(Chưa mở) ,3,"16800,16800,16800",0,"30,30,30",292
+",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1099#1100#1101#1102#1103#1104#1105#1106;673#674,2,talentTree-294,294,0,8,3,(Chưa mở) ,0,3,"16800,16800,16800",0,"30,30,30",292
 -2," Mở khóa công thức Tinh chất Lv 8
-",630,2,talentTree-295,295,0,8,1,(Chưa mở) ,3,16800,0,0,293
+",630,2,talentTree-295,295,0,8,1,(Chưa mở) ,0,3,16800,0,0,293
 -3,"Mở khóa công thức bộ Lv 9
 Mở khóa công thức Slime Năng lượng Lv 6
-",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1123#1124#1125#1126#1127#1128#1129#1130;697#698,2,talentTree-296,296,0,9,3,,3,"33600,33600,33600",0,"35,35,35",294
+",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1123#1124#1125#1126#1127#1128#1129#1130;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,"35,35,35",294
 -2," Mở khóa công thức Tinh chất Lv 9
-",631,2,talentTree-297,297,0,9,1,,3,33600,0,0,295
--1,,460,0,talentTree-298,298,0,7,1,,1,6720,0,6,169
-4,,541,0,talentTree-299,299,0,3,1,,3,525,0,2,
-4,,540,0,talentTree-300,300,0,6,1,,3,4200,0,5,299
+",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,0,295
+-1,,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6,169
+4,,541,0,talentTree-299,299,0,3,1,,0,3,525,0,2,
+4,,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,5,299

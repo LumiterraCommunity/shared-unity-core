@@ -48,43 +48,43 @@ id-int,name-string,pageIds-int[]
 47,Gather,"51,52"
 48,Dungeon Challenge,429
 49,Gather,"53,54,55"
-50,Dismantling,
+50,Dismantling Farming Equipment,430
 51,Gather,"56,57"
-52,Dismantling,
+52,Dismantling Combat Equipment,431
 53,Gather,"58,59"
-54,Dismantling,
+54,Dismantling Gather Equipment,432
 55,Gather,"60,61"
-56,Dismantling,
+56,Crafting,433
 57,Gather,"62,63"
-58,Dismantling,
+58,Crafting,434
 59,Gather,"64,65"
-60,Dismantling,
+60,Crafting,435
 61,Gather,"66,67"
-62,Dismantling,
+62,Crafting,436
 63,Gather,"68,69"
-64,Dismantling,
+64,Crafting,437
 65,Gather,"70,71"
-66,Dismantling,
+66,Crafting,438
 67,Item Resource,72
-68,Dismantling,
+68,Crafting,439
 69,Gather,"73,74,72"
-70,Dismantling,
+70,Crafting,440
 71,Gather,"75,76"
-72,Dismantling,
+72,Crafting,441
 73,Gather,"77,78"
-74,Dismantling,
+74,Crafting,442
 75,Gather,"79,80"
-76,Dismantling,
+76,Crafting,443
 77,Gather,"81,82"
-78,Dismantling,
+78,Crafting,444
 79,Gather,"83,84"
-80,Dismantling,
+80,Crafting,445
 81,Gather,"85,86"
-82,Dismantling,
+82,Crafting,446
 83,Gather,"87,88"
-84,Dismantling,
+84,Crafting,447
 85,Gather,"89,90"
-86,Dismantling,
+86,Crafting,448
 87,Planting,384
 88,Planting,385
 89,Planting,386
@@ -412,3 +412,98 @@ id-int,name-string,pageIds-int[]
 411,Gather Ranking,424
 412,Gather Ranking,425
 413,Daily Task,426
+414,Crafting,449
+415,Crafting,450
+416,Crafting,"451,460,469,478"
+417,Crafting,"452,461,470,479"
+418,Crafting,"453,462,471,480"
+419,Crafting,"454,463,472,481"
+420,Crafting,"455,464,473,482"
+421,Crafting,"456,465,474,483"
+422,Crafting,"457,466,475,484"
+423,Crafting,"458,467,476,485"
+424,Crafting,"459,468,477,486"
+425,Crafting,487
+426,Crafting,488
+427,Crafting,489
+428,Crafting,490
+429,Crafting,491
+430,Crafting,492
+431,Crafting,493
+432,Crafting,494
+433,Crafting,495
+434,Crafting,496
+435,Crafting,497
+436,Crafting,498
+437,Crafting,499
+438,Crafting,500
+439,Crafting,501
+440,Crafting,502
+441,Crafting,503
+442,Crafting,504
+443,Capture,505
+444,Capture,506
+445,Capture,507
+446,Capture,508
+447,Capture,509
+448,Capture,510
+449,Capture,511
+450,Capture,512
+451,Capture,513
+452,Capture,514
+453,Capture,515
+454,Capture,516
+455,Capture,517
+456,Capture,518
+457,Capture,519
+458,Capture,520
+459,Capture,521
+460,Capture,522
+461,Capture,523
+462,Capture,524
+463,Capture,525
+464,Capture,526
+465,Capture,527
+466,Capture,528
+467,Capture,529
+468,Capture,530
+469,Capture,531
+470,PvEP Dungeon Challenge,532
+471,PvEP Dungeon Challenge,533
+472,PvEP Dungeon Challenge,534
+473,Crafting,"535,536,537,538,539,540,541,542,543"
+474,Crafting,"544,545,546"
+475,Killing World Boss,
+476,Killing World Boss,
+477,,
+478,,
+479,,
+480,,
+481,,
+482,Extra Drop,"7,53,54,55"
+483,Extra Drop,"8,72,73,74"
+484,Extra Drop,"9,35,36"
+485,Extra Drop,"10,56,57"
+486,Extra Drop,"11,37,38"
+487,Extra Drop,"12,75,76"
+488,Extra Drop,"16,58,59"
+489,Extra Drop,"14,77,78"
+490,Extra Drop,"13,39,40"
+491,Extra Drop,"19,79,80"
+492,Extra Drop,"18,60,61"
+493,Extra Drop,"17,41,42"
+494,Extra Drop,"22,62,63"
+495,Extra Drop,"20,81,82"
+496,Extra Drop,"21,43,44"
+497,Extra Drop,"24,83,84"
+498,Extra Drop,"25,45,46"
+499,Extra Drop,"23,64,65"
+500,Extra Drop,"27,47,48"
+501,Extra Drop,"26,66,67"
+502,Extra Drop,"28,85,86"
+503,Extra Drop,"30,87,88"
+504,Extra Drop,"31,68,69"
+505,Extra Drop,"29,49,50"
+506,Extra Drop,"34,89,90"
+507,Extra Drop,"33,70,71"
+508,Extra Drop,"32,51,52"

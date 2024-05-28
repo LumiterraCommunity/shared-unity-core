@@ -24,6 +24,15 @@ public class DREquipment : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取dismantlingMats-int[][]。*/
+    /// </summary>
+    public int[][] DismantlingMats
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取gearAttribute-int[][]。*/
     /// </summary>
     public int[][] GearAttribute
@@ -109,6 +118,7 @@ public class DREquipment : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        DismantlingMats = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         GearAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         GearAvatar = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GearDurabilityMax = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -130,6 +140,7 @@ public class DREquipment : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                DismantlingMats = binaryReader.ReadArrayList<Int32>();
                 GearAttribute = binaryReader.ReadArrayList<Int32>();
                 GearAvatar = binaryReader.Read7BitEncodedInt32();
                 GearDurabilityMax = binaryReader.Read7BitEncodedInt32();
