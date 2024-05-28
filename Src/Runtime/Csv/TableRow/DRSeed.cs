@@ -105,6 +105,15 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
+  /**获取progressScore-int。*/
+    /// </summary>
+    public int ProgressScore
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取rankScore-int。*/
     /// </summary>
     public int RankScore
@@ -164,6 +173,7 @@ public class DRSeed : DataRowBase
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         NeedWaterValue = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PlantingDifficulty = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredFertilizer = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequirementProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -190,6 +200,7 @@ public class DRSeed : DataRowBase
                 Lv = binaryReader.Read7BitEncodedInt32();
                 NeedWaterValue = binaryReader.Read7BitEncodedInt32();
                 PlantingDifficulty = binaryReader.Read7BitEncodedInt32();
+                ProgressScore = binaryReader.Read7BitEncodedInt32();
                 RankScore = binaryReader.Read7BitEncodedInt32();
                 RequiredFertilizer = binaryReader.Read7BitEncodedInt32();
                 RequirementProficiency = binaryReader.Read7BitEncodedInt32();

@@ -114,6 +114,15 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
+  /**获取progressScore-int。*/
+    /// </summary>
+    public int ProgressScore
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取rankScore-int。*/
     /// </summary>
     public int RankScore
@@ -174,6 +183,7 @@ public class DRHomeResources : DataRowBase
         MaxActionValue = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         OreDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -201,6 +211,7 @@ public class DRHomeResources : DataRowBase
                 MaxActionValue = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 OreDef = binaryReader.Read7BitEncodedInt32();
+                ProgressScore = binaryReader.Read7BitEncodedInt32();
                 RankScore = binaryReader.Read7BitEncodedInt32();
                 RequiredProficiency = binaryReader.Read7BitEncodedInt32();
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();

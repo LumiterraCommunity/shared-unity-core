@@ -132,9 +132,27 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取chapterEvents-int[][]。*/
+    /// </summary>
+    public int[][] ChapterEvents
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取chapterLuckyReward-int[]。*/
     /// </summary>
     public int[] ChapterLuckyReward
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取chapterProgress-int[]。*/
+    /// </summary>
+    public int[] ChapterProgress
     {
         get;
         private set;
@@ -248,7 +266,9 @@ public class DRSceneArea : DataRowBase
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChallengeMode = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterBaseReward = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ChapterEvents = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         ChapterLuckyReward = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ChapterProgress = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterPunish = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         ChapterTimeLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Chapters = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
@@ -283,7 +303,9 @@ public class DRSceneArea : DataRowBase
                 BossCovers = binaryReader.ReadArray<Int32>();
                 ChallengeMode = binaryReader.ReadArray<Int32>();
                 ChapterBaseReward = binaryReader.ReadArray<Int32>();
+                ChapterEvents = binaryReader.ReadArrayList<Int32>();
                 ChapterLuckyReward = binaryReader.ReadArray<Int32>();
+                ChapterProgress = binaryReader.ReadArray<Int32>();
                 ChapterPunish = binaryReader.ReadArrayList<Int32>();
                 ChapterTimeLimit = binaryReader.ReadArray<Int32>();
                 Chapters = binaryReader.ReadArray<String>();
