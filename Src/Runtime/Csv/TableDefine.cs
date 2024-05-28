@@ -135,6 +135,7 @@ public enum ePropItemType
     Consumable = 3,
     Material = 4,
     Building = 5,
+    TaskTicket = 7,
 }
 
 /// <summary>
