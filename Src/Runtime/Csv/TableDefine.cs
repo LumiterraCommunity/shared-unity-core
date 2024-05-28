@@ -66,6 +66,7 @@ public enum eGameValueID
     SoilGrowTimeRate = 26,
     AnimalHarvestTimeRate = 27,
     TeamMemberMaxNum = 28,//最大队伍成员
+    EnergyRestorePerDay = 30,//每日精力恢复量 千分位 
     EnergyDropCostRate = 31,//精力掉落扣除系数 千分位
     EnergyRecoverSpeed = 32,//精力每分钟恢复量 千分位 和属性表中一致
     TeamDropRadius = 33, // 队伍掉落有效半径
@@ -86,6 +87,8 @@ public enum eGameValueID
     offlineTimeout = 53, // 离线超时时间
     InstancingRewardsRateRange = 55, // 副本奖励倍率范围
     PetRecallCD = 56, // 宠物召回CD,单位秒
+    EnergyCraftBuilding = 59, //精力合成建筑id
+    AllEnergyItemIds = 80, //所有精力道具列表
 }
 
 // public static class GameValueID
@@ -231,4 +234,13 @@ public enum eRewardType
 {
     Fixed = 1, //固定奖励
     Random = 2, //随机奖励
+}
+
+/// <summary>
+/// 奖励表中的奖励子类型(DrCraftBuilding.Type)
+/// </summary>
+public enum eCraftBuildingDisplayType
+{
+    General = 1,//通用展示类型
+    Energy = 2,//精力展示类型
 }
