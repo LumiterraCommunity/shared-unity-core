@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LIGNE #{0} 
 ,20070020,登录,Veuillez d'abord sélectionner le serveur 
 ,20070021,登录,Nom invalide.
-,20070022,,
+,20070022,,Chargement des services
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -163,9 +163,9 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Inconnu 
 ,20090016,任务,Quotidien 
 ,20090017,任务,Prime
-,20090018,任务,
-,20090019,任务,
-,20090020,任务,
+,20090018,任务,Récolter {0}
+,20090019,任务,Tâche non terminée
+,20090020,任务,Collecter {0}
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -276,7 +276,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20190001,天赋树,Le niveau total de l'arbre de talent doit atteindre {0}.
 ,20190002,天赋树,Le nœud principal de la même couche doit d'abord être déverrouillé.
 ,20190003,天赋树,Niveau d'arbre de talents insuffisant
-,20190004,,
+,20190004,,Continuer à dépenser [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> pour désactiver ce niveau ? - Les compétences activées seront réinitialisées. - Les recettes seront réinitialisées. - L'expérience sera perdue.
 ,20200000,活动,Réclamation du prix réussie
 ,20200001,活动,Échec de la réclamation du prix
 ,20200002,活动,Création du ticket réussie
@@ -312,8 +312,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,Vous avez libéré votre animal de compagnie.
 ,20230007,宠物,Le changement de nom de l'animal de compagnie est terminé.
 ,20230008,宠物,Animal de compagnie de {0}
-,20230009,宠物,
-,20230010,宠物,
+,20230009,宠物, Animal de compagnie rappelé.
+,20230010,宠物, L'animal de compagnie est mort !
 ,20240001,图腾,Succès accompli.
 ,"20240002
 ",,Investissement réussi 
@@ -324,4 +324,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250002,,Le stockage est plein.
 ,20260001,精力,Énergie insuffisante.
 ,20260002,精力,L'énergie de [color=#F7CE3D]{0}[/color] est insuffisante.
-,20270001,排行榜,
+,20270001,排行榜,Non classé.
