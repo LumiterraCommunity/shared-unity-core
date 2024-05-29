@@ -134,9 +134,10 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
                 SoilEvent.MsgExecuteAction?.Invoke(action, actionData);
             }
         }
-        catch (System.Exception)
+        catch (System.Exception e)
         {
-            Log.Error($"土地执行动作失败 action:{action} toolCid:{toolCid} skillId:{skillId} actionData:{JsonConvert.SerializeObject(actionData)}");
+            Log.Error($"土地执行动作失败 action:{action} toolCid:{toolCid} skillId:{skillId} actionData:{JsonConvert.SerializeObject(actionData)} e:{e}");
+            throw e;
         }
 
         if ((action & PROGRESS_ACTION_MASK) == 0)//非进度的动作 因为进度动作 在执行动作前会执行进度动作 已经触发过了
