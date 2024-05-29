@@ -13,6 +13,8 @@ public static class TimeUtil
     /// 秒转毫秒
     /// </summary>
     public static readonly float S2MS = 1000;
+    public static readonly int S2MSInt = 1000;
+    public static readonly long S2MSLong = 1000;
     /// <summary>
     /// 毫秒转秒
     /// </summary>
@@ -212,12 +214,18 @@ public static class TimeUtil
         }
     }
 
-    public static string GetTimeHHMMSS(long ms)
+    public static string GetTimeHHMMSS(long ms, string splitSymbol = ":")
     {
         long seconds = (long)(ms * (double)MS2S);
         long hour = seconds / SecondsOfHour;
         long minute = seconds % SecondsOfHour / SecondsOfMinute;
         long second = seconds % SecondsOfMinute;
-        return $"{hour:D2}:{minute:D2}:{second:D2}";
+        return $"{hour:D2}{splitSymbol}{minute:D2}{splitSymbol}{second:D2}";
+    }
+
+    public static string GetTimeYYMMDD(long ms, string splitSymbol = "")
+    {
+        DateTime dateTime = TimeStamp2DataTime(ms);
+        return $"{dateTime.Year:D4}{splitSymbol}{dateTime.Month:D2}{splitSymbol}{dateTime.Day:D2}";
     }
 }
