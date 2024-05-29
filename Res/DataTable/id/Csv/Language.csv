@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Harap pilih server terlebih dahulu
 ,20070021,登录,Nama tidak valid.
-,20070022,,
+,20070022,,Memuat layanan
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -163,9 +163,9 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Tidak Diketahui
 ,20090016,任务,Harian
 ,20090017,任务,Tugas Harian
-,20090018,任务,
-,20090019,任务,
-,20090020,任务,
+,20090018,任务,Panen {0}
+,20090019,任务,Tugas belum selesai
+,20090020,任务,Mengumpulkan {0}
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Bertani 
@@ -276,7 +276,7 @@ NPC 不存在,20150018,副本,"NPC tidak ditemukan, silakan hubungi administrato
 ,20190001,天赋树,Total level dari pohon bakat harus mencapai {0}.
 ,20190002,天赋树,Node batang dari lapisan yang sama harus terlebih dahulu terbuka.
 ,20190003,天赋树,Tingkat pohon bakat tidak mencukupi
-,20190004,,
+,20190004,,Lanjutkan menghabiskan [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> untuk menonaktifkan level ini? - Kemampuan yang diaktifkan akan direset. - Resep akan direset. - Pengalaman akan hilang.
 ,20200000,活动, klaim hadiah berhasil
 ,20200001,活动, klaim hadiah gagal
 ,20200002,活动, cetak tiket berhasil
@@ -312,8 +312,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,Anda telah melepaskan hewan peliharaan Anda.
 ,20230007,宠物,Penggantian nama hewan peliharaan selesai.
 ,20230008,宠物,Hewan Peliharaan {0}
-,20230009,宠物,
-,20230010,宠物,
+,20230009,宠物, Hewan peliharaan dipanggil kembali.
+,20230010,宠物, Hewan peliharaan telah mati!
 ,20240001,图腾,Berhasil mencapai
 ,"20240002
 ",,Investasi Berhasil
@@ -324,4 +324,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250002,,Penyimpanan penuh.
 ,20260001,精力,Energi tidak cukup.
 ,20260002,精力,Energi {0} tidak cukup.
-,20270001,排行榜,
+,20270001,排行榜,Tidak Terdaftar.

@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LÍNEA #{0}
 ,20070020,登录,Por favor selecciona el servidor primero
 ,20070021,登录,Nombre no válido.
-,20070022,,
+,20070022,,Cargando servicios
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -163,9 +163,9 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Desconocido
 ,20090016,任务,Diario
 ,20090017,任务,Recompensa
-,20090018,任务,
-,20090019,任务,
-,20090020,任务,
+,20090018,任务,Cosechar {0}
+,20090019,任务,Tarea no completada
+,20090020,任务,Recolectar {0}
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
@@ -276,7 +276,7 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20190001,天赋树,El nivel total del árbol de talentos debe alcanzar {0}.
 ,20190002,天赋树,El nodo principal de la misma capa debe desbloquearse primero.
 ,20190003,天赋树,Nivel de árbol de talentos insuficiente
-,20190004,,
+,20190004,,¿Continuar gastando [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> para desactivar este nivel?- Las habilidades habilitadas se restablecerán.- Las recetas se restablecerán.- La experiencia se perderá.
 ,20200000,活动, reclamar premio exitoso
 ,20200001,活动, reclamar premio fallido
 ,20200002,活动, acuñar boleto exitoso
@@ -312,8 +312,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230006,宠物,Has liberado a tu mascota.
 ,20230007,宠物,Renombrado de mascota completado.
 ,20230008,宠物,Mascota de {0}
-,20230009,宠物,
-,20230010,宠物,
+,20230009,宠物,Mascota llamada de vuelta.
+,20230010,宠物,¡La mascota ha muerto!
 ,20240001,图腾,Logro alcanzado.
 ,"20240002
 ",,Inversión exitosa
@@ -324,4 +324,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250002,,El almacenamiento está lleno.
 ,20260001,精力,Energía insuficiente.
 ,20260002,精力,La energía de [color=#F7CE3D]{0}[/color] no es suficiente.
-,20270001,排行榜,
+,20270001,排行榜,Sin clasificación.

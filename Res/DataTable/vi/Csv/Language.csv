@@ -140,7 +140,7 @@ describe-string,id-int,module-string,value-string
 ,20070019,登录,LINE #{0}
 ,20070020,登录,Vui lòng chọn máy chủ trước
 ,20070021,登录,Tên không hợp lệ.
-,20070022,,
+,20070022,,Đang tải dịch vụ
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó
@@ -163,9 +163,9 @@ describe-string,id-int,module-string,value-string
 ,20090015,任务,Không rõ
 ,20090016,任务,Hàng ngày
 ,20090017,任务,Nhiệm vụ thưởng
-,20090018,任务,
-,20090019,任务,
-,20090020,任务,
+,20090018,任务,Thu hoạch {0}
+,20090019,任务,Nhiệm vụ chưa hoàn thành
+,20090020,任务,Thu thập {0}
 ,"20100000
 ",专精,Chung 
 ,20100001,专精,Nông nghiệp 
@@ -276,7 +276,7 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20190001,天赋树,Tổng cấp độ của cây tài năng cần đạt đến {0}.
 ,20190002,天赋树,Phải mở khóa nút gốc cùng tầng trước.
 ,20190003,天赋树,Không đủ cấp độ cây tài năng
-,20190004,,
+,20190004,,Tiếp tục tiêu [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> để tắt cấp độ này? - Kỹ năng đã được kích hoạt sẽ được đặt lại. - Công thức sẽ được đặt lại. - Kinh nghiệm sẽ mất đi.
 ,20200000,活动,Nhận giải thưởng thành công
 ,20200001,活动,Nhận giải thưởng không thành công
 ,20200002,活动,Tạo vé thành công
@@ -312,8 +312,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20230006,宠物,Bạn đã thả thú cưng của bạn.
 ,20230007,宠物,Đổi tên thú cưng thành công.
 ,20230008,宠物,Thú cưng của {0}
-,20230009,宠物,
-,20230010,宠物,
+,20230009,宠物,Thú cưng đã được triệu hồi.
+,20230010,宠物,Thú cưng đã chết!
 ,20240001,图腾,Đạt được thành công
 ,"20240002
 ",,Đầu tư thành công
@@ -324,4 +324,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20250002,,Kho đã đầy.
 ,20260001,精力,Năng lượng không đủ.
 ,20260002,精力,Năng lượng của [color=#F7CE3D]{0}[/color] không đủ.
-,20270001,排行榜,
+,20270001,排行榜,Không xếp hạng.
