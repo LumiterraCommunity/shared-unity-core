@@ -111,6 +111,24 @@ public class AttributeDataCpt : MonoBehaviour
     }
 
     /// <summary>
+    /// 网络数据批量设置属性基础值
+    /// </summary>
+    /// <param name="profiles"></param>
+    public void NetBatchSetBaseValue(IEnumerable<AttributeData> profiles)
+    {
+        if (profiles == null)
+        {
+            Log.Error($"NetBatchSetBaseValue error profiles is null");
+            return;
+        }
+
+        foreach (AttributeData profile in profiles)
+        {
+            SetBaseValue((eAttributeType)profile.Id, profile.Value);
+        }
+    }
+
+    /// <summary>
     /// 设置Real方式下属性基础值
     /// </summary>
     /// <param name="type"></param>
