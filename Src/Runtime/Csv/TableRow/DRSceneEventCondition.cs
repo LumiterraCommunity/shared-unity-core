@@ -33,15 +33,6 @@ public class DRSceneEventCondition : DataRowBase
     }
 
     /// <summary>
-  /**获取parameters_2-int[][]。*/
-    /// </summary>
-    public int[][] Parameters_2
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -57,7 +48,6 @@ public class DRSceneEventCondition : DataRowBase
         int index = 0;
         _id = int.Parse(columnStrings[index++]);
         Parameters_1 = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        Parameters_2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
@@ -72,7 +62,6 @@ public class DRSceneEventCondition : DataRowBase
             {
                 _id = binaryReader.Read7BitEncodedInt32();
                 Parameters_1 = binaryReader.ReadArray<Int32>();
-                Parameters_2 = binaryReader.ReadArrayList<Int32>();
                 Type = binaryReader.Read7BitEncodedInt32();
             }
         }
