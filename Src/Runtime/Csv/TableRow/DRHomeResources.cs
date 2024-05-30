@@ -51,15 +51,6 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
-  /**获取grassDef-int。*/
-    /// </summary>
-    public int GrassDef
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取homeAction-int。*/
     /// </summary>
     public int HomeAction
@@ -96,27 +87,9 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
-  /**获取maxActionValue-int。*/
-    /// </summary>
-    public int MaxActionValue
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取name-string。*/
     /// </summary>
     public string Name
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取oreDef-int。*/
-    /// </summary>
-    public int OreDef
     {
         get;
         private set;
@@ -141,15 +114,6 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
-  /**获取requiredProficiency-int。*/
-    /// </summary>
-    public int RequiredProficiency
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取tokenTaskLevel-int[]。*/
     /// </summary>
     public int[] TokenTaskLevel
@@ -167,15 +131,6 @@ public class DRHomeResources : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取treeDef-int。*/
-    /// </summary>
-    public int TreeDef
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -184,21 +139,16 @@ public class DRHomeResources : DataRowBase
         AssetRes = DataTableParseUtil.ParseString(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        GrassDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HomeAction = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        MaxActionValue = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
-        OreDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        RequiredProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        TreeDef = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -213,21 +163,16 @@ public class DRHomeResources : DataRowBase
                 AssetRes = binaryReader.ReadString();
                 DropId = binaryReader.Read7BitEncodedInt32();
                 Exp = binaryReader.Read7BitEncodedInt32();
-                GrassDef = binaryReader.Read7BitEncodedInt32();
                 HomeAction = binaryReader.Read7BitEncodedInt32();
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 Lv = binaryReader.Read7BitEncodedInt32();
-                MaxActionValue = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
-                OreDef = binaryReader.Read7BitEncodedInt32();
                 ProgressScore = binaryReader.Read7BitEncodedInt32();
                 RankScore = binaryReader.Read7BitEncodedInt32();
-                RequiredProficiency = binaryReader.Read7BitEncodedInt32();
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
-                TreeDef = binaryReader.Read7BitEncodedInt32();
             }
         }
 

@@ -76,6 +76,7 @@ public enum eAttributeType : int
     requirementProficiency = 73,
     plantingDifficulty = 74,
     witherTime = 75,
+    maxActionValue = 76,
 
 }
 
