@@ -15,14 +15,20 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     public InstancingLevelData LevelData;                                           //关卡数据
     public eInstancingStatusType StatusType = eInstancingStatusType.InstancingInactive;       //关卡状态
     public bool IsReward = true;                                                      //是否关卡奖励
+    public int[] EventList;                                                         //关卡事件列表
+    public int LevelScore;                                                          //关卡评分
+    public int MaxLevelScore;                                                       //最大关卡评分
     /// <summary>
     /// 初始化关卡数据
     /// </summary>
-    public virtual void InitData(int index, InstancingLevelData levelData, eInstancingStatusType statusType)
+    public virtual void InitData(int index, InstancingLevelData levelData, eInstancingStatusType statusType, int[] eventList, int maxLevelScore)
     {
         LevelIndex = index;
         LevelData = levelData;
         StatusType = statusType;
+        EventList = eventList;
+        LevelScore = 0;
+        MaxLevelScore = maxLevelScore;
     }
     /// <summary>
     /// 运行关卡
@@ -60,6 +66,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     public virtual bool ResetLevel()
     {
         StatusType = eInstancingStatusType.InstancingInactive;
+        LevelScore = 0;
         return true;
     }
 
@@ -70,6 +77,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     public virtual bool SyncLevelUpdate(GameMessageCore.InstancingLevelData levelData)
     {
         StatusType = levelData.Status;
+        LevelScore = levelData.LevelScore;
         return true;
     }
 }

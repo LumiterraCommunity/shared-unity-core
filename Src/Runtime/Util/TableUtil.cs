@@ -448,6 +448,32 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 获取副本关卡事件
+    /// </summary>
+    public static int[] GetInstancingLevelEventList(DRSceneArea drSceneArea, int index)
+    {
+        int[] eventList = null;
+        if (index >= 0 && index < drSceneArea.ChapterEvents.Length)
+        {
+            eventList = drSceneArea.ChapterEvents[index];
+        }
+        return eventList;
+    }
+
+    /// <summary>
+    /// 获取副本关卡最大评分
+    /// </summary>
+    public static int GetInstancingLevelMaxScore(DRSceneArea drSceneArea, int index)
+    {
+        int maxScore = 0;
+        if (index >= 0 && index < drSceneArea.ChapterProgress.Length)
+        {
+            maxScore = drSceneArea.ChapterProgress[index];
+        }
+        return maxScore;
+    }
+
+    /// <summary>
     /// 获取宠物原始属性信息
     /// </summary>
     /// <returns>(属性值，是否受到潜力值影响)</returns>
