@@ -71,12 +71,12 @@ public enum eAttributeType : int
     GatherPotentiality = 67,
     FarmPotentiality = 68,
     ExtraGrassRate = 69,
-    needWaterValue = 71,
-    requiredFertilizer = 72,
-    requirementProficiency = 73,
-    plantingDifficulty = 74,
-    witherTime = 75,
-    maxActionValue = 76,
+    NeedWaterValue = 71,
+    RequiredFertilizer = 72,
+    RequirementProficiency = 73,
+    PlantingDifficulty = 74,
+    WitherTime = 75,
+    MaxActionValue = 76,
 
 }
 
