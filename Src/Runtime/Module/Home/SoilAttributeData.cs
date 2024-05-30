@@ -16,7 +16,10 @@ public class SoilAttributeData : AttributeDataCpt
     {
         base.OnAttributeUpdate(type, attribute);
 
-        _soilEvent.OnAttributeUpdated?.Invoke(type, attribute.Value);
+        if (_soilEvent != null)//初始化时不需要广播
+        {
+            _soilEvent.OnAttributeUpdated?.Invoke(type, attribute.Value);
+        }
     }
 
     protected override AttributeData GenerateOneNetAttribute(eAttributeType type, IntAttribute attribute)
