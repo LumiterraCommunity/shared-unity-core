@@ -355,6 +355,26 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 用配置表中的初始化属性来设置属性组件 这里不会考虑潜力值
+    /// </summary>
+    /// <param name="attributeCpt"></param>
+    /// <param name="attr"></param>
+    public static void SetTableInitAttribute(AttributeDataCpt attributeCpt, int[][] attr)
+    {
+        if (attributeCpt == null)
+        {
+            return;
+        }
+
+        //遍历属性数组
+        ForeachAttribute(attr, (type, baseValue, affectByPotential) =>
+        {
+            attributeCpt.SetBaseValue(type, baseValue);
+            return false;
+        });
+    }
+
+    /// <summary>
     /// 遍历属性数组
     /// </summary>
     /// <param name="attr">属性二维数组</param>
