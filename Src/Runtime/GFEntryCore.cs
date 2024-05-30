@@ -4,7 +4,7 @@ using System;
  * @Author: xiang huan
  * @Date: 2022-07-26 15:38:17
  * @Description: 共享库GFEntry引用
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/GFEntryCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/GFEntryCore.cs
  * 
  */
 using System.Collections.Generic;
@@ -83,6 +83,20 @@ public static class GFEntryCore
             }
 
             return s_homeResourcesAreaMgrCore;
+        }
+    }
+
+    private static SceneTriggerEventMgrCore s_sceneTriggerEventMgrCore = null;
+    public static SceneTriggerEventMgrCore SceneTriggerEventMgr
+    {
+        get
+        {
+            if (s_sceneTriggerEventMgrCore == null)
+            {
+                s_sceneTriggerEventMgrCore = GetModule<SceneTriggerEventMgrCore>();
+            }
+
+            return s_sceneTriggerEventMgrCore;
         }
     }
     public static void AddModule(object module)
