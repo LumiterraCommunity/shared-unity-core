@@ -28,10 +28,7 @@ public class ResourceDataCore : EntityBaseComponent
         }
         else
         {
-            EntityAttributeData attributeData = GetComponent<EntityAttributeData>();
-            attributeData.SetBaseValue(eAttributeType.GrassDef, DRHomeResources.GrassDef);
-            attributeData.SetBaseValue(eAttributeType.TreeDef, DRHomeResources.TreeDef);
-            attributeData.SetBaseValue(eAttributeType.OreDef, DRHomeResources.OreDef);
+            TableUtil.SetTableInitAttribute(RefEntity.EntityAttributeData, DRHomeResources.InitialAttribute);
         }
     }
 

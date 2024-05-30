@@ -363,6 +363,7 @@ public static class TableUtil
     {
         if (attributeCpt == null)
         {
+            Log.Error($"SetTableInitAttribute attributeCpt is null");
             return;
         }
 

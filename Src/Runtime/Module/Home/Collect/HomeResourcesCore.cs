@@ -71,7 +71,8 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         }
         else if ((PROGRESS_ACTION_MASK & SupportAction) != 0)
         {
-            GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, dr.MaxActionValue);
+            float maxActionValue = RefEntity.EntityAttributeData.GetRealValue(eAttributeType.MaxActionValue);
+            GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, maxActionValue);
         }
     }
 
