@@ -32,4 +32,8 @@ public class SoilEvent : MonoBehaviour
     /// 当功能性种子实体被移除后
     /// </summary>
     public Action OnFunctionSeedEntityRemoved;
+    /// <summary>
+    /// 属性更新  T0:属性类型 T1:更新后到属性值
+    /// </summary>
+    public Action<eAttributeType, int> OnAttributeUpdated;
 }
