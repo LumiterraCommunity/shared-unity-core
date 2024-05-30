@@ -24,7 +24,7 @@ public static class DRSeedExtension
             int requiredFertilizer = 0;
             TableUtil.ForeachAttribute(drSeed.InitialAttribute, (type, baseValue, affectByPotential) =>
             {
-                if (type == eAttributeType.requiredFertilizer)
+                if (type == eAttributeType.RequiredFertilizer)
                 {
                     requiredFertilizer = baseValue;
                 }

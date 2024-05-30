@@ -41,9 +41,9 @@ public class SoilData : MonoBehaviour
                 return 0;
             }
 
-            float remainFertile = SaveData.Fertile - GetAttribute(eAttributeType.requiredFertilizer);
+            float remainFertile = SaveData.Fertile - GetAttribute(eAttributeType.RequiredFertilizer);
             remainFertile = Mathf.Max(remainFertile, 1);
-            float totalGrowTime = GetAttribute(eAttributeType.plantingDifficulty) / remainFertile * TableUtil.GetGameValue(eGameValueID.SoilGrowTimeRate).Value;
+            float totalGrowTime = GetAttribute(eAttributeType.PlantingDifficulty) / remainFertile * TableUtil.GetGameValue(eGameValueID.SoilGrowTimeRate).Value;
             return totalGrowTime / SeedGrowStageNum;
         }
     }
