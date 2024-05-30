@@ -24,6 +24,15 @@ public class DRSceneEventAction : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取desc-string。*/
+    /// </summary>
+    public string Desc
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取parameters_1-int[]。*/
     /// </summary>
     public int[] Parameters_1
@@ -55,6 +64,7 @@ public class DRSceneEventAction : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Parameters_1 = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Parameters_2 = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -70,6 +80,7 @@ public class DRSceneEventAction : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Parameters_1 = binaryReader.ReadArray<Int32>();
                 Parameters_2 = binaryReader.ReadArrayList<Int32>();
