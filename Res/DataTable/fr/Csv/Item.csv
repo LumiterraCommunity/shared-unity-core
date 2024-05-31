@@ -1149,19 +1149,19 @@ Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure un peu d'énergie
 ",0,item-icon-295,295,"Potion de restauration d'énergie - Petite
-",1,,0,3,"1,0",0,3,1,1
+",1,,0,3,999,0,3,1,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure plus d'énergie
 ",0,item-icon-296,296,"Potion de restauration d'énergie - Moyenne
-",1,,0,3,2,0,3,2,1
+",1,,0,3,999,0,3,2,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure beaucoup d'énergie
 ",0,item-icon-297,297,"Potion de restauration d'énergie - Grande
-",1,,0,3,3,0,3,3,1
+",1,,0,3,999,0,3,3,1
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
 -------
@@ -1967,17 +1967,17 @@ Restaure 37 points d'énergie
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure 30 points d'énergie.",0,item-icon-459,459,"Niveau 4 Potion de restauration d'énergie
-",1,,0,3,4,0,3,4,1
+",1,,0,3,999,0,3,4,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure 37 points d'énergie.
 ",0,item-icon-460,460,"Niveau 5 Potion de restauration d'énergie
-",1,,0,3,5,0,3,5,1
+",1,,0,3,999,0,3,5,1
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
-Restaure 45 points d'énergie.",0,item-icon-461,461,Niveau 6 Potion de restauration d'énergie,1,,0,3,6,0,3,6,1
+Restaure 45 points d'énergie.",0,item-icon-461,461,Niveau 6 Potion de restauration d'énergie,1,,0,3,999,0,3,6,1
 "1,3,4",1,"Tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
