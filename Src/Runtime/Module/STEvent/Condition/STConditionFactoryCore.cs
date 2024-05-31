@@ -27,7 +27,7 @@ public class STConditionFactoryCore
     /// 创建触发器条件
     /// </summary>
     /// <param name="cid">条件配置ID</param> 
-    public STConditionBase CreateSTCondition(int cid)
+    public STConditionBase CreateSTCondition(int cid, SceneTriggerEvent sceneEvent)
     {
         if (STConditionMap == null)
         {
@@ -48,7 +48,7 @@ public class STConditionFactoryCore
         }
         Type stClass = STConditionMap[type];
         STConditionBase stConditionBase = STConditionBase.Create(stClass);
-        stConditionBase.Init(drCondition);
+        stConditionBase.Init(drCondition, sceneEvent);
         return stConditionBase;
     }
 }

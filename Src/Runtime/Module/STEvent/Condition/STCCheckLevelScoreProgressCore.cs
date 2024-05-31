@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-05-24 13:56:20
  * @Description: 检测关卡分进度
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/Condition/STCCheckLevelScoreProgressCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/Condition/STCCheckLevelScoreProgressCore.cs
  * 
  */
 
@@ -20,9 +20,9 @@ public class STCCheckLevelScoreProgressCore : STConditionBase
 
     protected eSTCCheckLevelScoreType CheckType = eSTCCheckLevelScoreType.Normal;
     protected eSTConditionComparison Operation = eSTConditionComparison.Equal;
-    public override void Init(DRSceneEventCondition cfg)
+    public override void Init(DRSceneEventCondition cfg, SceneTriggerEvent sceneEvent)
     {
-        base.Init(cfg);
+        base.Init(cfg, sceneEvent);
         NetData.ProgressValue = new();
         if (DRSceneEventCondition.Parameters_1.Length < 3)
         {

@@ -27,7 +27,7 @@ public class STActionFactoryCore
     /// </summary>
     /// <param name="cid">行为配置ID</param>
     /// <returns></returns>
-    public STActionBase CreateSTAction(int cid)
+    public STActionBase CreateSTAction(int cid, SceneTriggerEvent sceneEvent)
     {
         if (STActionMap == null)
         {
@@ -48,7 +48,7 @@ public class STActionFactoryCore
         }
         Type actionType = STActionMap[type];
         STActionBase action = STActionBase.Create(actionType);
-        action.Init(drAction);
+        action.Init(drAction, sceneEvent);
         return action;
     }
 }

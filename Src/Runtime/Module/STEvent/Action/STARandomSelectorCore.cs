@@ -15,9 +15,9 @@ public class STARandomSelectorCore : STActionBase
 {
     protected List<STActionBase> ChildActions = new();  //子行为列表
     protected List<int> WeightList = new(); //权重列表
-    public override void Init(DRSceneEventAction cfg)
+    public override void Init(DRSceneEventAction cfg, SceneTriggerEvent sceneEvent)
     {
-        base.Init(cfg);
+        base.Init(cfg, sceneEvent);
         InitChildActions();
     }
 
@@ -28,7 +28,7 @@ public class STARandomSelectorCore : STActionBase
         {
             int weight = DRSceneEventAction.Parameters_2[i][0];
             int actionCid = DRSceneEventAction.Parameters_2[i][1];
-            STActionBase action = GFEntryCore.SceneTriggerEventMgr.CreateSTAction(actionCid);
+            STActionBase action = GFEntryCore.SceneTriggerEventMgr.CreateSTAction(actionCid, SceneEvent);
             ChildActions.Add(action);
             WeightList.Add(weight);
         }
