@@ -13,20 +13,6 @@ using UnityGameFramework.Runtime;
 
 public class STActionFactoryCore
 {
-    private static STActionFactoryCore s_instance;
-    public static STActionFactoryCore Inst
-    {
-        get
-        {
-            if (s_instance == null)
-            {
-                s_instance = new STActionFactoryCore();
-                s_instance.InitSTActionMap();
-            }
-            return s_instance;
-        }
-    }
-
     protected Dictionary<eSTActionType, Type> STActionMap;
     /// <summary>
     /// 初始化场景触发器行为工厂Map

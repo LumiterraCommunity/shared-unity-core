@@ -13,20 +13,6 @@ using UnityGameFramework.Runtime;
 
 public class STConditionFactoryCore
 {
-    private static STConditionFactoryCore s_instance;
-    public static STConditionFactoryCore Inst
-    {
-        get
-        {
-            if (s_instance == null)
-            {
-                s_instance = new STConditionFactoryCore();
-                s_instance.InitSTConditionMap();
-            }
-            return s_instance;
-        }
-    }
-
     protected Dictionary<eSTConditionType, Type> STConditionMap;
 
     /// <summary>
