@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 场景触发器事件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvent.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvent.cs
  * 
  */
 using System;
@@ -14,6 +14,8 @@ using UnityGameFramework.Runtime;
 public class SceneTriggerEvent : IReference
 {
     public long Id; //事件ID
+
+    public eSTEventType EventType = eSTEventType.Main; //事件类型
     public DRSceneEvent DRSceneEvent; //场景事件配置
     public eSceneEventStatusType StatusType = eSceneEventStatusType.SceneEventActivate;
     public eSTConditionCheckType CheckConditionType = eSTConditionCheckType.And;
@@ -156,6 +158,7 @@ public class SceneTriggerEvent : IReference
         Id = 0;
         StatusType = eSceneEventStatusType.SceneEventActivate;
         CheckConditionType = eSTConditionCheckType.And;
+        EventType = eSTEventType.Main;
     }
 
     /// <summary>
@@ -176,6 +179,7 @@ public class SceneTriggerEvent : IReference
             Log.Error($"InitSceneEvent Error: drSceneEvent is null cid = {cid}");
             return;
         }
+        EventType = (eSTEventType)DRSceneEvent.Type;
         InitConditions();
         InitActions();
     }
@@ -269,4 +273,5 @@ public class SceneTriggerEvent : IReference
         }
         return NetData;
     }
+
 }

@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-05-24 13:57:19
  * @Description: 
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvenDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvenDefine.cs
  * 
  */
 
@@ -13,7 +13,10 @@ public static class SceneTriggerEvenDefine
 }
 
 
-
+public enum eSTEventType : int
+{
+    Main = 1, //主事件
+}
 public enum eSTConditionType : int
 {
     None = 0,
