@@ -12,13 +12,13 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
 
     public override eAction SupportAction => eAction.Watering | (HomeUtilCore.JudgeSeedCanDestroy(SoilData) ? eAction.Eradicate : eAction.None);
 
-    protected override float AutoEnterNextStatusTime => SoilData.DRSeed.WitherTime;
+    protected override float AutoEnterNextStatusTime => SoilData.GetAttribute(eAttributeType.WitherTime);
 
     protected override void OnEnter(IFsm<SoilStatusCtrl> fsm)
     {
         base.OnEnter(fsm);
 
-        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.DRSeed.NeedWaterValue : ACTION_MAX_PROGRESS_PROTECT);
+        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
