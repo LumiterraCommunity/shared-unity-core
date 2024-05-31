@@ -5,6 +5,7 @@
  * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingLevelBase.cs
  * 
  */
+using System.Collections.Generic;
 using GameMessageCore;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -15,9 +16,11 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     public InstancingLevelData LevelData;                                           //关卡数据
     public eInstancingStatusType StatusType = eInstancingStatusType.InstancingInactive;       //关卡状态
     public bool IsReward = true;                                                      //是否关卡奖励
-    public int[] EventList;                                                         //关卡事件列表
+    public int[] EventList;                                                         //关卡事件ID列表
     public int LevelScore;                                                          //关卡评分
     public int MaxLevelScore;                                                       //最大关卡评分
+    public List<SceneTriggerEvent> SceneTriggerEvents = new();                      //场景触发器事件列表
+
     /// <summary>
     /// 初始化关卡数据
     /// </summary>
@@ -41,6 +44,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
             return false;
         }
         StatusType = eInstancingStatusType.InstancingRunning;
+        AddSceneTriggerEvent();
         return true;
     }
 
@@ -57,6 +61,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
         }
         StatusType = isSuccess ? eInstancingStatusType.InstancingSuccess : eInstancingStatusType.InstancingFailure;
         IsReward = isReward;
+        RemoveSceneTriggerEvent();
         return true;
     }
 
@@ -78,6 +83,52 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     {
         StatusType = levelData.Status;
         LevelScore = levelData.LevelScore;
+        SyncSceneTriggerEvent(levelData);
         return true;
+    }
+
+    /// <summary>
+    /// 同步场景触发器事件
+    /// </summary>
+    protected void SyncSceneTriggerEvent(GameMessageCore.InstancingLevelData levelData)
+    {
+        RemoveSceneTriggerEvent();
+        for (int i = 0; i < levelData.SceneEventList.Count; i++)
+        {
+            SceneTriggerEvent sceneEvent = GFEntryCore.SceneTriggerEventMgr.SyncSceneTriggerEvent(levelData.SceneEventList[i]);
+            SceneTriggerEvents.Add(sceneEvent);
+        }
+    }
+    /// <summary>
+    /// 添加场景触发器事件
+    /// </summary>
+    protected void AddSceneTriggerEvent()
+    {
+        if (EventList == null || EventList.Length == 0)
+        {
+            return;
+        }
+        RemoveSceneTriggerEvent();
+        for (int i = 0; i < EventList.Length; i++)
+        {
+            SceneTriggerEvent sceneEvent = GFEntryCore.SceneTriggerEventMgr.AddSceneTriggerEvent(EventList[i]);
+            SceneTriggerEvents.Add(sceneEvent);
+        }
+    }
+
+    /// <summary>
+    /// 移除场景触发器事件
+    /// </summary> 
+    protected void RemoveSceneTriggerEvent()
+    {
+        if (SceneTriggerEvents == null || SceneTriggerEvents.Count == 0)
+        {
+            return;
+        }
+        for (int i = 0; i < SceneTriggerEvents.Count; i++)
+        {
+            GFEntryCore.SceneTriggerEventMgr.RemoveSceneTriggerEvent(SceneTriggerEvents[i].Id);
+        }
+        SceneTriggerEvents.Clear();
     }
 }
