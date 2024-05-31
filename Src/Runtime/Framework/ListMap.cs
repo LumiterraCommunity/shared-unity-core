@@ -16,6 +16,8 @@ public class ListMap<TKey, TValue> : IEnumerator, IEnumerable
 
     public int Count => _list.Count;
 
+    public List<TValue> Values => _list;
+
     /// <summary>
     /// 返回字典中的Keys 这个和字典一样无法保证顺序
     /// </summary>
