@@ -27,10 +27,10 @@ public class SceneTriggerEventMgrCore : MonoBehaviour
     }
 
     /// <summary>
-    /// 同步场景触发器事件
+    /// 同步添加场景触发器事件
     /// </summary>
     /// <param name="cid">触发器ID</param> 
-    public SceneTriggerEvent SyncSceneTriggerEvent(SceneEventData sceneEventData)
+    public SceneTriggerEvent SyncAddSceneTriggerEvent(SceneEventData sceneEventData)
     {
         if (!SceneTriggerEvents.TryGetValueFromKey(sceneEventData.Id, out SceneTriggerEvent sceneEvent))
         {

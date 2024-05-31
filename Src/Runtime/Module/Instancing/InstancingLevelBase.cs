@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本关卡
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingLevelBase.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingLevelBase.cs
  * 
  */
 using System.Collections.Generic;
@@ -44,7 +44,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
             return false;
         }
         StatusType = eInstancingStatusType.InstancingRunning;
-        AddSceneTriggerEvent();
+        AddLevelEvent();
         return true;
     }
 
@@ -61,7 +61,7 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
         }
         StatusType = isSuccess ? eInstancingStatusType.InstancingSuccess : eInstancingStatusType.InstancingFailure;
         IsReward = isReward;
-        RemoveSceneTriggerEvent();
+        RemoveLevelEvent();
         return true;
     }
 
@@ -83,32 +83,32 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     {
         StatusType = levelData.Status;
         LevelScore = levelData.LevelScore;
-        SyncSceneTriggerEvent(levelData);
+        SyncAddLevelEvent(levelData);
         return true;
     }
 
     /// <summary>
-    /// 同步场景触发器事件
+    /// 同步添加关卡事件，客户端不会真正运行关卡，所以关卡事件在同步时直接创建和删除
     /// </summary>
-    protected void SyncSceneTriggerEvent(GameMessageCore.InstancingLevelData levelData)
+    protected void SyncAddLevelEvent(GameMessageCore.InstancingLevelData levelData)
     {
-        RemoveSceneTriggerEvent();
+        RemoveLevelEvent();
         for (int i = 0; i < levelData.SceneEventList.Count; i++)
         {
-            SceneTriggerEvent sceneEvent = GFEntryCore.SceneTriggerEventMgr.SyncSceneTriggerEvent(levelData.SceneEventList[i]);
+            SceneTriggerEvent sceneEvent = GFEntryCore.SceneTriggerEventMgr.SyncAddSceneTriggerEvent(levelData.SceneEventList[i]);
             SceneTriggerEvents.Add(sceneEvent);
         }
     }
     /// <summary>
-    /// 添加场景触发器事件
+    /// 添加关卡事件
     /// </summary>
-    protected void AddSceneTriggerEvent()
+    protected void AddLevelEvent()
     {
         if (EventList == null || EventList.Length == 0)
         {
             return;
         }
-        RemoveSceneTriggerEvent();
+        RemoveLevelEvent();
         for (int i = 0; i < EventList.Length; i++)
         {
             SceneTriggerEvent sceneEvent = GFEntryCore.SceneTriggerEventMgr.AddSceneTriggerEvent(EventList[i]);
@@ -117,9 +117,9 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
     }
 
     /// <summary>
-    /// 移除场景触发器事件
+    /// 删除关卡事件
     /// </summary> 
-    protected void RemoveSceneTriggerEvent()
+    protected void RemoveLevelEvent()
     {
         if (SceneTriggerEvents == null || SceneTriggerEvents.Count == 0)
         {
@@ -130,5 +130,20 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
             GFEntryCore.SceneTriggerEventMgr.RemoveSceneTriggerEvent(SceneTriggerEvents[i].Id);
         }
         SceneTriggerEvents.Clear();
+    }
+    /// <summary>
+    /// 获取主事件列表
+    /// </summary>
+
+    public void GetMainEventList(List<SceneTriggerEvent> mainEventList)
+    {
+        mainEventList.Clear();
+        for (int i = 0; i < SceneTriggerEvents.Count; i++)
+        {
+            if (SceneTriggerEvents[i].EventType == eSTEventType.Main)
+            {
+                mainEventList.Add(SceneTriggerEvents[i]);
+            }
+        }
     }
 }
