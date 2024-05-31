@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 场景触发器事件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvent.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvent.cs
  * 
  */
 using System;
@@ -193,8 +193,7 @@ public class SceneTriggerEvent : IReference
 
         for (int i = 0; i < DRSceneEvent.Conditions.Length; i++)
         {
-            STConditionBase condition = GFEntryCore.SceneTriggerEventMgr.CreateSTCondition(DRSceneEvent.Conditions[i]);
-            condition.SetSceneEvent(this);
+            STConditionBase condition = GFEntryCore.SceneTriggerEventMgr.CreateSTCondition(DRSceneEvent.Conditions[i], this);
             Conditions.Add(condition);
         }
     }
@@ -208,8 +207,7 @@ public class SceneTriggerEvent : IReference
 
         for (int i = 0; i < DRSceneEvent.Actions.Length; i++)
         {
-            STActionBase action = GFEntryCore.SceneTriggerEventMgr.CreateSTAction(DRSceneEvent.Actions[i]);
-            action.SetSceneEvent(this);
+            STActionBase action = GFEntryCore.SceneTriggerEventMgr.CreateSTAction(DRSceneEvent.Actions[i], this);
             Actions.Add(action);
         }
     }

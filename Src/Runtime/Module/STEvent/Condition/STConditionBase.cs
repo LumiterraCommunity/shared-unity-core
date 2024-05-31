@@ -26,13 +26,10 @@ public class STConditionBase : IReference
 
     protected SceneEventConditionData NetData = new();
 
-    public void SetSceneEvent(SceneTriggerEvent sceneEvent)
-    {
-        SceneEvent = sceneEvent;
-    }
-    public virtual void Init(DRSceneEventCondition cfg)
+    public virtual void Init(DRSceneEventCondition cfg, SceneTriggerEvent sceneEvent)
     {
         DRSceneEventCondition = cfg;
+        SceneEvent = sceneEvent;
         Type = (eSTConditionType)cfg.Type;
         OnAddEvent();
     }

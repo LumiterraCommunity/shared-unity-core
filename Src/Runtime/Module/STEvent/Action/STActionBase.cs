@@ -22,17 +22,14 @@ public class STActionBase : IReference
     /// 场景事件行为类型
     /// </summary>
     public eSTActionType Type { get; private set; }
-    public void SetSceneEvent(SceneTriggerEvent sceneEvent)
-    {
-        SceneEvent = sceneEvent;
-    }
 
     /// <summary>
     /// 初始化
     /// </summary>
-    public virtual void Init(DRSceneEventAction cfg)
+    public virtual void Init(DRSceneEventAction cfg, SceneTriggerEvent sceneEvent)
     {
         DRSceneEventAction = cfg;
+        SceneEvent = sceneEvent;
         Type = (eSTActionType)cfg.Type;
         OnAddEvent();
     }
