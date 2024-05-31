@@ -13,8 +13,8 @@ using System.Collections.Generic;
 /// </summary>
 public class STARandomSelectorCore : STActionBase
 {
-    protected List<STActionBase> ChildActions;  //子行为列表
-    protected List<int> WeightList; //权重列表
+    protected List<STActionBase> ChildActions = new();  //子行为列表
+    protected List<int> WeightList = new(); //权重列表
     public override void Init(DRSceneEventAction cfg)
     {
         base.Init(cfg);
@@ -46,6 +46,7 @@ public class STARandomSelectorCore : STActionBase
     public override void Clear()
     {
         ClearChildActions();
+        WeightList.Clear();
         base.Clear();
     }
 
