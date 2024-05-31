@@ -28,11 +28,11 @@ public class SeedSaveData
     /// </summary>
     public int ExtraWateringNum;
     /// <summary>
-    /// 当前积累的熟练度值
+    /// 当前积累的熟练度值 不要在这里直接设置 这里只读
     /// </summary>
     public int CurProficiency;
     /// <summary>
-    /// 是否需要腐败收获
+    /// 是否需要腐败收获 不要在这里直接设置 这里只读
     /// </summary>
     public bool NeedPerish;
     /// <summary>

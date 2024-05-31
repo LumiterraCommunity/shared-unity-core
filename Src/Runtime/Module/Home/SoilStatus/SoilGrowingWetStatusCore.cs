@@ -1,4 +1,5 @@
 using System;
+using GameFramework.Fsm;
 using static HomeDefine;
 
 /// <summary>
@@ -24,6 +25,51 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
         else
         {
             SoilData.SetGrowStage(growStage + 1);
+            ChangeState(eSoilStatus.GrowingThirsty);
+        }
+    }
+
+    protected override void OnEnter(IFsm<SoilStatusCtrl> fsm)
+    {
+        base.OnEnter(fsm);
+
+        StatusCtrl.SoilEvent.TryChangeGrowStage += OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus += OnTryChangeWaterStatus;
+    }
+
+    protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
+    {
+        StatusCtrl.SoilEvent.TryChangeGrowStage -= OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus -= OnTryChangeWaterStatus;
+
+        base.OnLeave(fsm, isShutdown);
+    }
+
+    private void OnTryChangeGrowStage(int offsetStage)
+    {
+        SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+        if (!ctrl.ChangeGrowStage(offsetStage, out int newStage))
+        {
+            return;
+        }
+
+        if (newStage == 0)
+        {
+            ChangeState(eSoilStatus.SeedWet);
+        }
+        else
+        {
+            ChangeState(eSoilStatus.GrowingWet);
+        }
+    }
+
+    protected virtual void OnTryChangeWaterStatus(bool isWatering)
+    {
+        if (!isWatering)
+        {
+            SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+            ctrl.ChangeWaterData(false);
+
             ChangeState(eSoilStatus.GrowingThirsty);
         }
     }

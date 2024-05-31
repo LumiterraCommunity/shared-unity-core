@@ -18,14 +18,49 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
     {
         base.OnEnter(fsm);
 
+        StatusCtrl.SoilEvent.TryChangeGrowStage += OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus += OnTryChangeWaterStatus;
+
         StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
     {
+        StatusCtrl.SoilEvent.TryChangeGrowStage -= OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus -= OnTryChangeWaterStatus;
+
         StatusCtrl.GetComponent<HomeActionProgressData>().EndProgressAction();
 
         base.OnLeave(fsm, isShutdown);
+    }
+
+    private void OnTryChangeGrowStage(int offsetStage)
+    {
+        SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+        if (!ctrl.ChangeGrowStage(offsetStage, out int newStage))
+        {
+            return;
+        }
+
+        if (newStage == 0)
+        {
+            ChangeState(eSoilStatus.SeedThirsty);
+        }
+        else
+        {
+            ChangeState(eSoilStatus.GrowingThirsty);
+        }
+    }
+
+    private void OnTryChangeWaterStatus(bool isWatering)
+    {
+        if (isWatering)
+        {
+            SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+            ctrl.ChangeWaterData(true);
+
+            ChangeState(eSoilStatus.GrowingWet);
+        }
     }
 
     protected override void OnEnterInitStatus(IFsm<SoilStatusCtrl> fsm)
@@ -80,8 +115,8 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
                 {
                     SoilData.SaveData.SeedData.ExtraWateringNum = extraWateringNum;
                 }
-                SoilData.SaveData.SeedData.CurProficiency = wateringResult.CurProficiency;
-                SoilData.SaveData.SeedData.NeedPerish = wateringResult.NeedPerish;
+                SoilData.SetCurProficiency(wateringResult.CurProficiency);
+                SoilData.SetNeedPerish(wateringResult.NeedPerish);
                 if (wateringResult.NeedPerish)
                 {
                     Log.Info($"在生长干涸浇水时种子被标记成腐败收获 id={SoilData.SaveData.Id} cid={SoilData.SaveData.SeedData.SeedCid} curStage={SoilData.SaveData.SeedData.GrowingStage} maxStage={SoilData.SeedGrowStageNum - 1}");

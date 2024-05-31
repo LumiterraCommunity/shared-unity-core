@@ -22,6 +22,17 @@ public class SoilSeedWetStatusCore : SoilGrowingWetStatusCore
         }
     }
 
+    protected override void OnTryChangeWaterStatus(bool isWatering)
+    {
+        if (!isWatering)
+        {
+            SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+            ctrl.ChangeWaterData(false);
+
+            ChangeState(eSoilStatus.SeedThirsty);
+        }
+    }
+
     protected override void OnExecuteHomeAction(eAction action, object actionData)
     {
         base.OnExecuteHomeAction(action, actionData);
