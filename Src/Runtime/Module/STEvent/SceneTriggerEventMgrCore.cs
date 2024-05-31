@@ -93,11 +93,11 @@ public class SceneTriggerEventMgrCore : MonoBehaviour
 
     public virtual STConditionBase CreateSTCondition(int cid)
     {
-        return STConditionFactoryCore.Inst.CreateSTCondition(cid);
+        return STConditionBase.Create(typeof(STConditionBase));
     }
 
     public virtual STActionBase CreateSTAction(int cid)
     {
-        return STActionFactoryCore.Inst.CreateSTAction(cid);
+        return STActionBase.Create(typeof(STActionBase));
     }
 }
