@@ -86,10 +86,11 @@ public class SceneTriggerEventMgrCore : MonoBehaviour
     /// <summary>
     /// 广播场景触发器事件数据
     /// </summary>
-    public virtual void BroadcastSceneTriggerEventActionExecute(int actionCid)
+    public virtual void BroadcastSceneTriggerEventActionExecute(int actionCid, bool isAsync = true)
     {
 
     }
+
 
     public virtual STConditionBase CreateSTCondition(int cid, SceneTriggerEvent sceneEvent)
     {
