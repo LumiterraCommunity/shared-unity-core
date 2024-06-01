@@ -52,7 +52,8 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
         {
             return;
         }
-
+        //设置初始化标记不会重置进入当前状态时间戳 会持续保持当前生长倒计时 类似让土地初始化到在这个状态 而不是正常跳转重新计时
+        OwnerFsm.SetData<UnityGameFramework.Runtime.VarBoolean>(SoilStatusDataName.IS_INIT_STATUS, true);
         if (newStage == 0)
         {
             ChangeState(eSoilStatus.SeedWet);
