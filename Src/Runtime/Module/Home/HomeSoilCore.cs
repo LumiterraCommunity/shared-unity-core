@@ -145,7 +145,17 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         {
             SoilEvent.OnBeHit?.Invoke(skillId);
         }
+
+        OnExecuteActionFinish(action, playerId, entityId);
     }
+
+    /// <summary>
+    /// 某个动作完成了
+    /// </summary>
+    /// <param name="action"></param>
+    /// <param name="playerId">归属玩家</param>
+    /// <param name="entityId">操作实体</param>
+    protected virtual void OnExecuteActionFinish(eAction action, long playerId, long entityId) { }
 
     public void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {

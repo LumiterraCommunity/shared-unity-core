@@ -283,4 +283,21 @@ public static class HomeDefine
         /// </summary>
         Instancing = 2,
     }
+
+    /// <summary>
+    /// 副本去执行动作的特殊玩家ID
+    /// </summary>
+    public static long INSTANCING_PLAYER = -9001;
+    /// <summary>
+    /// 副本去执行动作的特殊实体ID
+    /// </summary>
+    public static long INSTANCING_ENTITY = -9009001;
+    /// <summary>
+    /// 副本去播种的特殊技能ID
+    /// </summary>
+    public static int INSTANCING_SOWING_SKILL = -9001;
+    /// <summary>
+    /// 副本去播种的特殊种子NFT ID
+    /// </summary>
+    public static string INSTANCING_SOWING_NFT_ID = "instance seed";
 }
