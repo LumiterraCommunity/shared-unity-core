@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -26,7 +27,7 @@ public class SoilData : MonoBehaviour
     public DRSeed DRSeed { get; private set; }
 
     /// <summary>
-    /// 种子生长阶段数量 无效时为0
+    /// 种子生长阶段数量 无效时为0 可以像数组的长度一样使用 种子当前从0开始 到了SeedGrowStageNum就需要收获了
     /// </summary>
     public int SeedGrowStageNum => DRSeed == null ? 0 : DRSeed.GrowRes.Length;
     /// <summary>
@@ -251,5 +252,22 @@ public class SoilData : MonoBehaviour
         lostTimeMs = Mathf.Max(lostTimeMs, 0);
         float remain = SeedEveryGrowStageTime - (lostTimeMs * TimeUtil.MS2S);
         return Mathf.Max(remain, 0);
+    }
+
+    /// <summary>
+    /// 设置当前熟练度 内部会保护范围
+    /// </summary>
+    public void SetCurProficiency(int newProficiency)
+    {
+        SaveData.SeedData.CurProficiency = Mathf.Clamp(newProficiency, 0, (int)GetAttribute(eAttributeType.RequirementProficiency));
+    }
+
+    /// <summary>
+    /// 设置是否需要腐败
+    /// </summary>
+    /// <param name="v"></param>
+    public void SetNeedPerish(bool v)
+    {
+        SaveData.SeedData.NeedPerish = v;
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using GameFramework.Fsm;
 using static HomeDefine;
 
 /// <summary>
@@ -24,6 +25,52 @@ public class SoilGrowingWetStatusCore : SoilStatusCore
         else
         {
             SoilData.SetGrowStage(growStage + 1);
+            ChangeState(eSoilStatus.GrowingThirsty);
+        }
+    }
+
+    protected override void OnEnter(IFsm<SoilStatusCtrl> fsm)
+    {
+        base.OnEnter(fsm);
+
+        StatusCtrl.SoilEvent.TryChangeGrowStage += OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus += OnTryChangeWaterStatus;
+    }
+
+    protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
+    {
+        StatusCtrl.SoilEvent.TryChangeGrowStage -= OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus -= OnTryChangeWaterStatus;
+
+        base.OnLeave(fsm, isShutdown);
+    }
+
+    private void OnTryChangeGrowStage(int offsetStage)
+    {
+        SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+        if (!ctrl.ChangeGrowStage(offsetStage, out int newStage))
+        {
+            return;
+        }
+        //设置初始化标记不会重置进入当前状态时间戳 会持续保持当前生长倒计时 类似让土地初始化到在这个状态 而不是正常跳转重新计时
+        OwnerFsm.SetData<UnityGameFramework.Runtime.VarBoolean>(SoilStatusDataName.IS_INIT_STATUS, true);
+        if (newStage == 0)
+        {
+            ChangeState(eSoilStatus.SeedWet);
+        }
+        else
+        {
+            ChangeState(eSoilStatus.GrowingWet);
+        }
+    }
+
+    protected virtual void OnTryChangeWaterStatus(bool isWatering)
+    {
+        if (!isWatering)
+        {
+            SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+            ctrl.ChangeWaterData(false);
+
             ChangeState(eSoilStatus.GrowingThirsty);
         }
     }

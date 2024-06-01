@@ -36,4 +36,15 @@ public class SoilEvent : MonoBehaviour
     /// 属性更新  T0:属性类型 T1:更新后到属性值
     /// </summary>
     public Action<eAttributeType, int> OnAttributeUpdated;
+
+    #region  外部控制事件
+    /// <summary>
+    /// 尝试改变生长阶段 T0:offset生长阶段，+-都可以
+    /// </summary>
+    public Action<int> TryChangeGrowStage;
+    /// <summary>
+    /// 尝试改变浇水状态 T0:是否浇水状态，false反而会取消浇水
+    /// </summary>
+    public Action<bool> TryChangeWaterStatus;
+    #endregion
 }
