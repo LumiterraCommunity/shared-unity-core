@@ -109,4 +109,9 @@ public class HomeSoilMgrCore<TSoil> : MonoBehaviour, IHomeSoilMgr where TSoil : 
     {
         return GetSoil(id);
     }
+
+    IEnumerable<HomeSoilCore> IHomeSoilMgr.GetAllSoil()
+    {
+        return SoilList;
+    }
 }
