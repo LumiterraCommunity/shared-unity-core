@@ -1,4 +1,4 @@
-canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],resourceInstructions-int[],subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int,boothFees-int
+canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],resourceInstructions-int[],subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int,boothFees-int[][]
 "1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -172,87 +172,87 @@ La madera oscura es un tipo premium de madera con texturas negras y una textura 
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este tipo de bambú es un producto agrícola y una planta utilizada para fabricar diversos materiales agrícolas. Es muy común en la agricultura y puede crecer muy rápido.
-",0,item-icon-70,70,Bambú de nivel 1,1,87,0,1,"1,0",1,4,1,1,718
+",0,item-icon-70,70,Bambú de nivel 1,1,87,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este artículo es un material en bruto producido en la agricultura, generalmente se puede cosechar en el nivel 1. Su forma se asemeja a tres hojas, por lo que se le llama trébol. Se puede utilizar para fabricar muchos objetos diferentes y es un recurso muy útil.
-",0,item-icon-71,71,Trébol de nivel 1,1,88,0,1,"1,0",1,4,1,1,718
+",0,item-icon-71,71,Trébol de nivel 1,1,88,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta zanahoria es un producto agrícola de nivel 1 que se puede obtener en el campo agrícola. Es una materia prima importante.
-",0,item-icon-72,72,Zanahoria de nivel 1,1,89,0,1,"1,0",1,4,1,1,718
+",0,item-icon-72,72,Zanahoria de nivel 1,1,89,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Las plantas carnívoras son un tipo único de planta que puede atraer y capturar insectos como fuente de alimento. Se consideran uno de los productos agrícolas y se pueden utilizar como materia prima en el campo agrícola.
-",0,item-icon-73,73,Planta carnívora de nivel 2,1,90,0,1,2,1,4,2,1,718
+",0,item-icon-73,73,Planta carnívora de nivel 2,1,90,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este algodón es de segunda calidad y es adecuado para fabricar textiles.
-",0,item-icon-74,74,Algodón de nivel 2,1,91,0,1,2,1,4,2,1,718
+",0,item-icon-74,74,Algodón de nivel 2,1,91,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este fruto de la paciencia es un material en bruto producido en la agricultura, que se puede plantar en una granja de nivel 2 y produce de 2 a 3 frutas cada vez. Tiene las características de una gran durabilidad y un largo tiempo de conservación, y es un material importante para fabricar diversos alimentos y medicinas.
-",0,item-icon-75,75,Fruta de resistencia de nivel 2,1,92,0,1,2,1,4,2,1,718
+",0,item-icon-75,75,Fruta de resistencia de nivel 2,1,92,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este chile picante es de nivel 3 y extremadamente picante, adecuado para aquellos a quienes les gusta la comida picante. Se produce mediante la agricultura y se puede cultivar en campos. Como materia prima agrícola, se puede utilizar para fabricar diversos productos de chile, como salsa de chile y aceite de chile.
-",0,item-icon-76,76,Pimiento picante de nivel 3,1,93,0,1,3,1,4,3,1,718
+",0,item-icon-76,76,Pimiento picante de nivel 3,1,93,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este fruto duro es un material agrícola de alto rendimiento que se puede utilizar para fabricar diversos alimentos y medicinas. Tiene una textura dura y componentes nutricionales ricos, lo que lo convierte en una parte indispensable de la producción agrícola.
-",0,item-icon-77,77,Fruta dura de nivel 3,1,94,0,1,3,1,4,3,1,718
+",0,item-icon-77,77,Fruta dura de nivel 3,1,94,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Este hongo azul es una especie de hongo premium que generalmente se produce en el sector agrícola. Es un material en bruto de gran valor que se puede utilizar para fabricar medicamentos y alimentos gourmet.
-",0,item-icon-78,78,Seta azul de nivel 3,1,95,0,1,3,1,4,3,1,718
+",0,item-icon-78,78,Seta azul de nivel 3,1,95,0,1,3,1,4,3,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Esta es una herramienta para la agricultura que puede ayudarte a arar el suelo y eliminar las malas hierbas fácilmente. Es adecuada para principiantes.
-",0,item-icon-79,79,Azada de madera de nivel 0,1,180,0,1,999,0,1,0,1,718
+",0,item-icon-79,79,Azada de madera de nivel 0,1,180,0,1,999,0,1,0,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 La Azada de Hierro es una herramienta de agricultura duradera hecha de hierro resistente. Es esencial para arar el suelo y cultivar cultivos de manera eficiente en el juego.
-",0,item-icon-80,80,Azada de hierro de nivel 1,1,187,0,1,999,0,1,1,1,718
+",0,item-icon-80,80,Azada de hierro de nivel 1,1,187,0,1,999,0,1,1,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Esta azada puede ayudar a los agricultores a cultivar la tierra más fácilmente, pero al mismo tiempo también trae algunas maldiciones misteriosas.
-",0,item-icon-81,81,Azada maldita de nivel 2,"1,2",190,0,1,999,0,1,2,1,718
+",0,item-icon-81,81,Azada maldita de nivel 2,"1,2",190,0,1,999,0,1,2,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 La Azada Bendita es una herramienta poderosa que mejora la eficiencia agrícola y aumenta los rendimientos de los cultivos. Irradia un aura divina, infundiendo cada golpe con bendiciones que promueven un crecimiento saludable y cosechas abundantes. Con esta azada encantada en mano, los jugadores pueden cultivar su tierra con facilidad y experimentar la alegría de cosechar las recompensas de su arduo trabajo.
-",0,item-icon-82,82,Azada bendita de nivel 3,"1,2,3",198,0,1,999,0,1,3,1,718
+",0,item-icon-82,82,Azada bendita de nivel 3,"1,2,3",198,0,1,999,0,1,3,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Esta tetera de madera es un equipo adecuado para uso agrícola, que se puede utilizar para contener agua limpia o agua de riego.
-",0,item-icon-83,83,Caldera de madera de nivel 0,1,181,0,1,999,0,1,0,1,718
+",0,item-icon-83,83,Caldera de madera de nivel 0,1,181,0,1,999,0,1,0,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Un utensilio de cocina resistente y confiable hecho de hierro duradero. Se calienta rápidamente y de manera uniforme, lo que permite una cocción eficiente. Su mango ergonómico garantiza un agarre cómodo al verter.
-",0,item-icon-84,84,Caldera de hierro de nivel 1,1,188,0,1,999,0,1,1,1,718
+",0,item-icon-84,84,Caldera de hierro de nivel 1,1,188,0,1,999,0,1,1,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una tetera misteriosa que trae desgracia a aquellos que la poseen, causando caos y desesperación. Su aura oscura emana una presencia espeluznante, tentando al destino con cada infusión. Ten cuidado, ya que su poder maldito puede convertir incluso a los más afortunados en víctimas de su propia perdición.
-",0,item-icon-85,85,Caldera maldita de nivel 2,"1,2",191,0,1,999,0,1,2,1,718
+",0,item-icon-85,85,Caldera maldita de nivel 2,"1,2",191,0,1,999,0,1,2,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Un artefacto sagrado que trae bendiciones y buena fortuna a su dueño, mejorando su suerte y otorgándole oportunidades inesperadas. Se dice que esta tetera mística irradia energía positiva, atrayendo prosperidad y felicidad dondequiera que vaya. Una posesión apreciada para aquellos que buscan un toque de intervención divina en sus vidas.
-",0,item-icon-86,86,Caldera bendita de nivel 3,"1,2,3",199,0,1,999,0,1,3,1,718
+",0,item-icon-86,86,Caldera bendita de nivel 3,"1,2,3",199,0,1,999,0,1,3,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -290,51 +290,51 @@ Un arma poderosa otorgada con bendiciones divinas, capaz de cortar cualquier obs
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este sombrero elegante trae buena suerte a quien lo lleva, añadiendo un toque de encanto a cualquier atuendo. Sus colores vibrantes y diseño intrincado lo convierten en un accesorio imprescindible para los jugadores a la moda. ¡Póntelo y que la suerte esté de tu lado!
-",0,item-icon-98,98,Sombrero de trébol de la suerte de nivel 1,1,189,0,1,999,0,1,1,1,718
+",0,item-icon-98,98,Sombrero de trébol de la suerte de nivel 1,1,189,0,1,999,0,1,1,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este sombrero elegante está hecho de algodón suave y cómodo, trayendo suerte a quien lo lleva. Sus colores vibrantes y diseño intrincado lo convierten en un accesorio de moda para cualquier atuendo. Con este sombrero, te sentirás seguro y listo para enfrentar cualquier aventura.
-",0,item-icon-99,99,Sombrero de algodón de la suerte de nivel 2,"1,2",197,0,1,999,0,1,2,1,718
+",0,item-icon-99,99,Sombrero de algodón de la suerte de nivel 2,"1,2",197,0,1,999,0,1,2,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este resistente casco de seguridad trae buena suerte a quien lo lleva, proporcionando protección adicional y aumentando sus posibilidades de encontrar tesoros valiosos. Sus colores vibrantes y construcción duradera lo convierten en un favorito entre los jugadores aventureros.
-",0,item-icon-100,100,Casco duro de la suerte de nivel 3,"1,2,3",205,0,1,999,0,1,3,1,718
+",0,item-icon-100,100,Casco duro de la suerte de nivel 3,"1,2,3",205,0,1,999,0,1,3,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una chaqueta elegante perfecta para aventuras al aire libre, que proporciona calor y protección contra los elementos. Su material duradero y diseño práctico la convierten en un accesorio imprescindible para cualquier aventurero. Mantente cómodo y a la moda con esta chaqueta de cosecha.
-",0,item-icon-101,101,Chaqueta de agricultura de nivel 1,1,184,0,1,999,0,1,1,1,718
+",0,item-icon-101,101,Chaqueta de agricultura de nivel 1,1,184,0,1,999,0,1,1,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una chaqueta duradera diseñada para agricultores, que proporciona protección contra los elementos y terrenos difíciles. Sus costuras reforzadas y tejido resistente la hacen ideal para el trabajo al aire libre. Mantente cómodo y enfocado en tus tareas con esta prenda confiable.
-",0,item-icon-102,102,Chaqueta de agricultura de nivel 2,"1,2",193,0,1,999,0,1,2,1,718
+",0,item-icon-102,102,Chaqueta de agricultura de nivel 2,"1,2",193,0,1,999,0,1,2,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Esta chaqueta está especialmente diseñada para personas que trabajan en agricultura. Cuenta con protección, transpirabilidad y durabilidad, lo que hace que tu trabajo en los campos sea más cómodo y seguro.
-",0,item-icon-103,103,Chaqueta de agricultura de nivel 3,"1,2,3",202,0,1,999,0,1,3,1,718
+",0,item-icon-103,103,Chaqueta de agricultura de nivel 3,"1,2,3",202,0,1,999,0,1,3,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Estos pantalones están diseñados para agricultores, proporcionando comodidad y durabilidad durante largas horas de trabajo en los campos. Hechos con materiales de alta calidad, ofrecen una excelente protección contra la suciedad y las manchas. Con su diseño práctico y ajuste adaptable, estos pantalones son imprescindibles para cualquier agricultor dedicado.
-",0,item-icon-104,104,Pantalones de agricultura de nivel 1,1,185,0,1,999,0,1,1,1,718
+",0,item-icon-104,104,Pantalones de agricultura de nivel 1,1,185,0,1,999,0,1,1,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Estos pantalones agrícolas están diseñados específicamente para el trabajo agrícola, con características como resistencia al agua y a la abrasión, lo que hace que tu trabajo en el campo sea más cómodo y seguro.
-",0,item-icon-105,105,Pantalones de agricultura de nivel 2,"1,2",194,0,1,999,0,1,2,1,718
+",0,item-icon-105,105,Pantalones de agricultura de nivel 2,"1,2",194,0,1,999,0,1,2,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este par de pantalones está diseñado específicamente para los trabajadores agrícolas, hecho con materiales de alta calidad que son cómodos y duraderos. Cuenta con funciones como resistencia al agua, resistencia a las manchas y resistencia a los pinchazos, protegiendo eficazmente el cuerpo y la ropa del trabajador. Además, tiene múltiples bolsillos y diseños detallados para facilitar el transporte de herramientas y mejorar la eficiencia del trabajo.
-",0,item-icon-106,106,Pantalones de agricultura de nivel 3,"1,2,3",203,0,1,999,0,1,3,1,718
+",0,item-icon-106,106,Pantalones de agricultura de nivel 3,"1,2,3",203,0,1,999,0,1,3,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este guante es adecuado para su uso en los campos y puede proteger las manos de espinas, suciedad y otros objetos afilados. También tiene una función antideslizante, lo que te hace más estable en suelos mojados.
-",0,item-icon-107,107,Guantes de agricultura de nivel 1,1,183,0,1,999,0,1,1,1,718
+",0,item-icon-107,107,Guantes de agricultura de nivel 1,1,183,0,1,999,0,1,1,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Estos guantes están diseñados específicamente para tareas agrícolas, proporcionando un excelente agarre y protección contra espinas y superficies rugosas. Están hechos con materiales duraderos para resistir largas horas de trabajo en los campos. Con estos guantes, puedes manejar cualquier tarea agrícola con facilidad y comodidad.
-",0,item-icon-108,108,Guantes de agricultura de nivel 2,"1,2",192,0,1,999,0,1,2,1,718
+",0,item-icon-108,108,Guantes de agricultura de nivel 2,"1,2",192,0,1,999,0,1,2,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este guante es adecuado para el trabajo agrícola, proporcionando un agarre cómodo y protección para ayudar a los agricultores a completar diversas actividades agrícolas.
-",0,item-icon-109,109,Guantes de agricultura de nivel 3,"1,2,3",201,0,1,999,0,1,3,1,718
+",0,item-icon-109,109,Guantes de agricultura de nivel 3,"1,2,3",201,0,1,999,0,1,3,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior al recolectar.
 -------
 Estos zapatos de recolección están especialmente diseñados para la recolección. Al usarlos, te vuelves más ágil al caminar por el bosque y puedes recolectar fácilmente los recursos que necesitas.
@@ -350,15 +350,15 @@ Estos zapatos están diseñados para recolectores ávidos, proporcionando agilid
 "1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Aumenta el crecimiento de tus cultivos con esta fórmula potente, asegurando una cosecha abundante en poco tiempo. Mejora tu eficiencia agrícola y observa cómo tus plantas prosperan con este poderoso fertilizante.
-",98,item-icon-128,128,Fertilizante acelerado de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-128,128,Fertilizante acelerado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 El fertilizante para aumentar los rendimientos de los cultivos es un consumible diseñado específicamente para la producción agrícola en el nivel LV0 y superior. Puede proporcionar nutrientes suficientes para los cultivos, promover su crecimiento y desarrollo, y mejorar su rendimiento y calidad.
-",98,item-icon-129,129,Fertilizante potenciador de rendimiento de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-129,129,Fertilizante potenciador de rendimiento de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Esta fórmula rica en nutrientes nutre profundamente las plantas, promoviendo un crecimiento saludable y flores vibrantes. Mejora la retención de humedad del suelo, asegurando que las plantas se mantengan hidratadas durante períodos más largos. Impulsa la vitalidad de tu jardín con este fertilizante esencial.
-",98,item-icon-130,130,Fertilizante hidratante de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-130,130,Fertilizante hidratante de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción se puede usar durante las batallas y proporciona un efecto de curación menor.
@@ -386,50 +386,50 @@ Esta poción puede proporcionar un efecto defensivo temporal, adecuado para situ
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
-",97,item-icon-146,146,Semilla de bambú de nivel 1,1,482,0,1,"1,0",1,3,1,1,718
+",97,item-icon-146,146,Semilla de bambú de nivel 1,1,482,0,1,"1,0",1,3,1,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Las semillas de trébol son consumibles agrícolas utilizados para plantar trébol y son adecuados para su uso en tierras de baja calidad. Pueden crecer rápidamente y producir un alto valor nutricional en entornos adecuados.
-",97,item-icon-147,147,Semilla de trébol de nivel 1,1,484,0,1,"1,0",1,3,1,1,718
+",97,item-icon-147,147,Semilla de trébol de nivel 1,1,484,0,1,"1,0",1,3,1,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este tipo de semillas de zanahoria se pueden usar para cultivar zanahorias frescas y deliciosas. Son adecuadas para su uso en jardines caseros o pequeñas granjas y se pueden plantar en primavera y otoño. Las zanahorias cultivadas a partir de estas semillas son sabrosas y nutritivas.
-",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,483,0,1,"1,0",1,3,1,1,718
+",97,item-icon-148,148,Semilla de zanahoria de nivel 1,1,483,0,1,"1,0",1,3,1,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Las semillas de planta de jarra son un consumible agrícola que se puede usar para cultivar plantas de jarra. Esta planta es una planta carnívora que puede absorber nutrientes de los insectos. Después de plantar, se necesita suficiente luz solar y agua para un crecimiento suave.
-",97,item-icon-149,149,Semilla de Drosera pigmea de nivel 2,1,487,0,1,2,1,3,2,1,718
+",97,item-icon-149,149,Semilla de Drosera pigmea de nivel 2,1,487,0,1,2,1,3,2,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este tipo de semilla de algodón se puede plantar en campos y cosechar para obtener algodón que se utilizará en la producción textil.
-",97,item-icon-150,150,Semilla de algodón de nivel 2,1,486,0,1,2,1,3,2,1,718
+",97,item-icon-150,150,Semilla de algodón de nivel 2,1,486,0,1,2,1,3,2,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Esta semilla tiene el potencial de hacer crecer una planta espinosa y resistente. Promete un toque de belleza desértica en tu jardín. Plántala y observa cómo se despliegan las maravillas de la naturaleza.
-",97,item-icon-151,151,Semilla de cactus de nivel 2,1,485,0,1,2,1,3,2,1,718
+",97,item-icon-151,151,Semilla de cactus de nivel 2,1,485,0,1,2,1,3,2,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Esta semilla es adecuada para plantar en ambientes cálidos, crece rápidamente y tiene una excelente calidad. Su sabor es extremadamente picante, lo que puede agregar un sabor único a los alimentos, convirtiéndola en la mejor opción para los amantes del chile.
-",97,item-icon-152,152,Semilla de pimiento picante explosivo de nivel 3,1,489,0,1,3,1,3,3,1,718
+",97,item-icon-152,152,Semilla de pimiento picante explosivo de nivel 3,1,489,0,1,3,1,3,3,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Una semilla resistente y duradera que cuenta con una fuerte cáscara externa, perfecta para la protección y longevidad. Su naturaleza robusta garantiza que pueda resistir condiciones adversas y prosperar en cualquier entorno. Esta semilla es un símbolo de resistencia y fortaleza.
-",97,item-icon-153,153,Semilla de fruta de cáscara dura de nivel 3,1,490,0,1,3,1,3,3,1,718
+",97,item-icon-153,153,Semilla de fruta de cáscara dura de nivel 3,1,490,0,1,3,1,3,3,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Esta semilla promete un vibrante hongo azul, listo para dar un toque de color a tu jardín. Plántala y observa cómo crece en un hongo fascinante que cautivará tus sentidos.
-",97,item-icon-154,154,Semilla de seta azul de nivel 3,1,488,0,1,3,1,3,3,1,718
+",97,item-icon-154,154,Semilla de seta azul de nivel 3,1,488,0,1,3,1,3,3,1,"718,1"
 "1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Este poderoso fertilizante mejora el crecimiento de las plantas y aumenta los rendimientos, permitiendo que los cultivos florezcan en poco tiempo. Proporciona nutrientes esenciales y promueve un desarrollo de raíces fuertes, lo que resulta en cosechas más saludables y abundantes. Experimenta un crecimiento acelerado como nunca antes con esta fórmula avanzada.
-",98,item-icon-131,131,Fertilizante acelerado avanzado de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-131,131,Fertilizante acelerado avanzado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
-Este poderoso fertilizante aumenta significativamente los rendimientos de los cultivos, resultando en cosechas abundantes. Mejora el crecimiento de las plantas y maximiza la absorción de nutrientes, asegurando cultivos más saludables y robustos. Con este fertilizante avanzado, los agricultores pueden esperar mejoras impresionantes en su productividad agrícola.",98,item-icon-132,132,Fertilizante potenciador de rendimiento avanzado de nivel 0,1,,0,1,999,0,3,0,1,718
+Este poderoso fertilizante aumenta significativamente los rendimientos de los cultivos, resultando en cosechas abundantes. Mejora el crecimiento de las plantas y maximiza la absorción de nutrientes, asegurando cultivos más saludables y robustos. Con este fertilizante avanzado, los agricultores pueden esperar mejoras impresionantes en su productividad agrícola.",98,item-icon-132,132,Fertilizante potenciador de rendimiento avanzado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Este fertilizante está especialmente formulado para proporcionar una hidratación profunda y nutrición a las plantas, lo que resulta en un crecimiento más saludable y vibrante. Su fórmula avanzada garantiza una retención óptima de la humedad en el suelo, promoviendo raíces fuertes y follaje exuberante. Dale a tus plantas el impulso definitivo de hidratación con este fertilizante avanzado de hidratación.
-",98,item-icon-133,133,Fertilizante hidratante avanzado de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-133,133,Fertilizante hidratante avanzado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción se puede usar en batalla y puede curar tus heridas.
@@ -495,88 +495,88 @@ Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material 
 -------
 
 Esta planta marchita puede ser causada por falta de agua o nutrientes. Se puede utilizar para hacer fertilizantes o hierbas medicinales, y también se puede utilizar como alimento para animales.
-",0,item-icon-174,174,Planta marchita de nivel 0,1,,0,1,999,0,4,0,1,718
+",0,item-icon-174,174,Planta marchita de nivel 0,1,,0,1,999,0,4,0,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este artículo es una sustancia orgánica que actúa como fertilizante y se puede utilizar en la producción agrícola. Se obtiene mediante la fermentación y descomposición de excrementos animales y contiene nutrientes ricos como nitrógeno, fósforo, potasio, etc.
-",0,item-icon-176,176,Heces de nivel 0,1,,0,1,999,0,4,0,1,718
+",0,item-icon-176,176,Heces de nivel 0,1,,0,1,999,0,4,0,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este brote tierno se cosecha de los cactus y tiene un color verde claro y una textura suave. Es una materia prima agrícola importante que se puede utilizar para hacer medicinas, alimentos y productos de belleza, entre otros.
-",0,item-icon-177,177,Brote de cactus de nivel 1,1,116,0,1,"1,0",1,4,1,1,718
+",0,item-icon-177,177,Brote de cactus de nivel 1,1,116,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este tornillo se obtuvo de la cría de monstruos y se puede utilizar como materia prima para la agricultura.
-",0,item-icon-178,178,Tornillo de nivel 1,1,114,0,1,"1,0",1,4,1,1,718
+",0,item-icon-178,178,Tornillo de nivel 1,1,114,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Los brotes de calabaza son materia prima agrícola producida a partir de la cría de monstruos, presentando una apariencia verde tierna y siendo ricos en nutrientes. Se pueden utilizar para hacer una variedad de alimentos y medicinas.
-",0,item-icon-179,179,Brote de calabaza de nivel 1,1,115,0,1,"1,0",1,4,1,1,718
+",0,item-icon-179,179,Brote de calabaza de nivel 1,1,115,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 La piedra de cristal azul es una materia prima agrícola rara que proviene de la cría de monstruos. Puede ayudar a los agricultores a mejorar la tasa de crecimiento y el rendimiento de los cultivos y es una parte indispensable de la producción agrícola.
-",0,item-icon-180,180,Piedra de cristal azul de nivel 2,1,117,0,1,2,1,4,2,1,718
+",0,item-icon-180,180,Piedra de cristal azul de nivel 2,1,117,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este monstruo de tipo hierba, Broadleaf, es una criatura linda que es una producción ganadera en la producción agrícola, proporcionando abundantes materias primas.
-",0,item-icon-181,181,Hoja de monstruo de hierba de nivel 2,1,119,0,1,2,1,4,2,1,718
+",0,item-icon-181,181,Hoja de monstruo de hierba de nivel 2,1,119,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Esta miel se produce en las granjas de monstruos y se puede utilizar como materia prima agrícola.
-",0,item-icon-182,182,Miel de nivel 2,1,118,0,1,2,1,4,2,1,718
+",0,item-icon-182,182,Miel de nivel 2,1,118,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este artículo se produce a partir del rancho de monstruos y es una materia prima utilizada en la agricultura. Es una pluma oscura de nivel 3.
-",0,item-icon-183,183,Pluma de sombra de nivel 3,1,120,0,1,3,1,4,3,1,718
+",0,item-icon-183,183,Pluma de sombra de nivel 3,1,120,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este magma solidificado se produce mediante la cría de monstruos y se puede utilizar para la producción de materias primas agrícolas. Tiene alta viscosidad y resistencia a altas temperaturas, lo que lo hace adecuado para su uso en condiciones extremas.
-",0,item-icon-184,184,Lava solidificada de nivel 3,1,121,0,1,3,1,4,3,1,718
+",0,item-icon-184,184,Lava solidificada de nivel 3,1,121,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este fragmento de escarcha se obtiene de la cría de monstruos y es un material utilizado en la agricultura. Tiene tres niveles de calidad y se puede utilizar para hacer varios objetos a base de hielo.
-",0,item-icon-185,185,Fragmento de escarcha de nivel 3,1,122,0,1,3,1,4,3,1,718
+",0,item-icon-185,185,Fragmento de escarcha de nivel 3,1,122,0,1,3,1,4,3,1,"718,1"
 0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 
 -------
 Este cepillo es una herramienta diseñada específicamente para la agricultura, que puede limpiar fácilmente cultivos y tierras.
-",0,item-icon-95,95,Cepillo de nivel 0,1,177,0,1,999,0,1,0,1,718
+",0,item-icon-95,95,Cepillo de nivel 0,1,177,0,1,999,0,1,0,1,"718,1"
 0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 
 -------
 Este cortapelos puede ayudar a los agricultores a esquilar lana de manera rápida y fácil, mejorando la eficiencia de esquila. Es adecuado para diferentes tipos de ovejas.
-",0,item-icon-96,96,Cortadora de pelo de nivel 0,1,178,0,1,999,0,1,0,1,718
+",0,item-icon-96,96,Cortadora de pelo de nivel 0,1,178,0,1,999,0,1,0,1,"718,1"
 0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 
 -------
 Un dispositivo portátil utilizado por los agricultores para extraer leche de las vacas de manera eficiente. Cuenta con un agarre cómodo y un mecanismo de succión que garantiza un proceso de ordeño suave y sin problemas.
-",0,item-icon-97,97,Ordeñadora de nivel 0,1,179,0,1,999,0,1,0,1,718
+",0,item-icon-97,97,Ordeñadora de nivel 0,1,179,0,1,999,0,1,0,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
 
 Este cultivo parece haberse podrido y ya no es comestible. Puede haber sido causado por un riego excesivo o una infestación de plagas. Estos cultivos se pueden utilizar como fertilizantes o enterrarlos.
-",0,item-icon-175,175,Cultivo en descomposición de nivel 0,1,,0,1,999,0,4,0,1,718
+",0,item-icon-175,175,Cultivo en descomposición de nivel 0,1,,0,1,999,0,4,0,1,"718,1"
 4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
 
 -------
@@ -641,27 +641,27 @@ Un sombrero elegante que mejora tus habilidades de recolección, permitiéndote 
 
 -------
 Estos zapatos agrícolas están diseñados específicamente para trabajadores agrícolas. Cuentan con características antideslizantes, resistentes al desgaste y transpirables, que pueden proteger los pies y mejorar la eficiencia del trabajo.
-",0,item-icon-112,112,Zapatos de agricultura de nivel 3,"1,2,3",204,0,1,999,0,1,3,1,718
+",0,item-icon-112,112,Zapatos de agricultura de nivel 3,"1,2,3",204,0,1,999,0,1,3,1,"718,1"
 4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 
 -------
 Estos zapatos agrícolas están diseñados específicamente para actividades agrícolas como arar y plantar. Están hechos de materiales de alta calidad que son duraderos, transpirables y cómodos, brindando protección para los pies de los agricultores.
-",0,item-icon-111,111,Zapatos de agricultura de nivel 2,"1,2",195,0,1,999,0,1,2,1,718
+",0,item-icon-111,111,Zapatos de agricultura de nivel 2,"1,2",195,0,1,999,0,1,2,1,"718,1"
 4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 
 -------
 Estos zapatos agrícolas están hechos de materiales de alta calidad, son ligeros y cómodos, adecuados para usar durante mucho tiempo. La suela es antideslizante y adecuada para diversos campos agrícolas, lo que facilita tu trabajo.
-",0,item-icon-110,110,Zapatos de agricultura de nivel 1,1,186,0,1,999,0,1,1,1,718
+",0,item-icon-110,110,Zapatos de agricultura de nivel 1,1,186,0,1,999,0,1,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un artículo consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, lo que lo convierte en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,434,0,1,"1,0",0,3,0,1,718
+",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,1,434,0,1,"1,0",0,3,0,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para animales es un producto consumible que proporciona los nutrientes necesarios para que los animales mantengan un crecimiento saludable. Es adecuado para diversos animales de granja y mascotas, y puede aumentar su productividad y esperanza de vida.
-",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,435,0,1,"1,0",0,3,0,1,718
+",27,item-icon-29,29,Alimentación de nivel 0 - Grande,1,435,0,1,"1,0",0,3,0,1,"718,1"
 "1,3,4",0,"La EXP de agricultura es un valor de experiencia en el juego que se puede obtener a través de actividades agrícolas como el cultivo de cultivos y la cría de animales. Es un factor clave para mejorar las habilidades y niveles agrícolas, y también es una condición necesaria para desbloquear herramientas y equipos agrícolas de nivel superior.
 ",0,item-icon-188,188,EXP de agricultura,1,,0,"1,2,3",999,0,4,0,0,
 "1,3,4",0,"La EXP de combate se refiere a la experiencia obtenida en las batallas. Puede ayudar a los jugadores a subir de nivel y mejorar sus habilidades, mejorando las habilidades de su personaje. En muchos juegos, la EXP de combate es una de las formas importantes en las que los jugadores pueden mejorar su fuerza.
@@ -692,32 +692,32 @@ Este objeto es una esencia utilizada para recolectar materias primas para la sí
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de plantación agrícola se sintetiza cuidadosamente a partir de materias primas agrícolas de alta calidad y es adecuada para la plantación agrícola desde el primer grado. Puede mejorar la tasa de crecimiento y rendimiento de los cultivos, así como aumentar la calidad y el sabor de los mismos. Su uso puede hacer que tus cultivos sean más saludables y prósperos, y hacer que tu producción agrícola sea más eficiente y estable.
-",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,141,0,1,"1,0",0,4,1,1,718
+",0,item-icon-210,210,Esencia de siembra agrícola de nivel 1,1,141,0,1,"1,0",0,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de plantación agrícola es una mezcla de varias esencias vegetales preciosas, que tiene un efecto milagroso en la promoción del crecimiento de los cultivos y el aumento del rendimiento. Es uno de los materiales básicos indispensables en el campo agrícola y es adecuado para varios tipos de cultivos.
-",0,item-icon-211,211,Esencia de siembra agrícola de nivel 2,1,142,0,1,2,0,4,2,1,718
+",0,item-icon-211,211,Esencia de siembra agrícola de nivel 2,1,142,0,1,2,0,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de agricultura y ganadería es una mezcla de varias esencias naturales de plantas y animales, que puede mejorar la eficiencia de producción y el rendimiento de la agricultura y la ganadería. Es rica en componentes nutricionales y sustancias bioactivas, que pueden promover el crecimiento saludable de los cultivos y el ganado.
-",0,item-icon-212,212,Esencia de siembra agrícola de nivel 3,1,143,0,1,3,0,4,3,1,718
+",0,item-icon-212,212,Esencia de siembra agrícola de nivel 3,1,143,0,1,3,0,4,3,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia se extrae de la agricultura y la ganadería y se puede utilizar para sintetizar otras materias primas agrícolas.
-",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,144,0,1,"1,0",0,4,1,1,718
+",0,item-icon-213,213,Esencia de ganado agrícola de nivel 1,1,144,0,1,"1,0",0,4,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia se extrae de productos agrícolas y ganaderos de alta calidad, con un valor nutricional y medicinal extremadamente alto. Se puede utilizar para fabricar diversos medicamentos y condimentos relacionados con la agricultura y la ganadería.
-",0,item-icon-214,214,Esencia de ganado agrícola de nivel 2,1,145,0,1,2,0,4,2,1,718
+",0,item-icon-214,214,Esencia de ganado agrícola de nivel 2,1,145,0,1,2,0,4,2,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta esencia de combate es una materia prima utilizada para sintetizar equipos de nivel superior, posee poderosas habilidades de combate y es adecuada para batallas de nivel 1.
-",0,item-icon-215,215,Esencia de ganado agrícola de nivel 3,1,146,0,1,3,0,4,3,1,718
+",0,item-icon-215,215,Esencia de ganado agrícola de nivel 3,1,146,0,1,3,0,4,3,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -737,17 +737,17 @@ Este fertilizante puede promover la tasa de crecimiento de los cultivos y es ade
 Usarlo puede desencadenar efectos especiales.
 -------
 Estos fertilizantes están especialmente formulados para mejorar el rendimiento de los cultivos, lo que resulta en cosechas abundantes. Proporcionan nutrientes esenciales y promueven un crecimiento saludable de las plantas, asegurando una productividad óptima para los agricultores. Aumenta tus rendimientos con estos fertilizantes de alta calidad.
-",98,item-icon-219,219,Fertilizante acelerado mejorado de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-219,219,Fertilizante acelerado mejorado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede desencadenar efectos especiales.
 -------
 Este fertilizante proporciona una mayor retención de humedad para las plantas, asegurando que se mantengan hidratadas y saludables. Promueve un crecimiento y nutrición óptimos sin necesidad de riego constante. Brinda el mejor cuidado a tus plantas con este fertilizante avanzado de hidratación.
-",98,item-icon-220,220,Fertilizante potenciador de rendimiento mejorado de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-220,220,Fertilizante potenciador de rendimiento mejorado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede desencadenar efectos especiales.
 -------
 Esta esencia de combate es un material utilizado para sintetizar equipos de nivel superior, posee poderosas habilidades de combate y es adecuada para batallas de nivel 1.
-",98,item-icon-221,221,Fertilizante hidratante mejorado de nivel 0,1,,0,1,999,0,3,0,1,718
+",98,item-icon-221,221,Fertilizante hidratante mejorado de nivel 0,1,,0,1,999,0,3,0,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en combate.
 -------
@@ -907,52 +907,52 @@ Se sugiere usar como moda
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-257,257,Cabello de Chico Elegante,5,,0,1,999,0,1,0,1,718
+",0,item-icon-257,257,Cabello de Chico Elegante,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-258,258,Camiseta de Chico Elegante,5,,0,1,999,0,1,0,1,718
+",0,item-icon-258,258,Camiseta de Chico Elegante,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-259,259,Guantes de Chico Elegante,5,,0,1,999,0,1,0,1,718
+",0,item-icon-259,259,Guantes de Chico Elegante,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-260,260,Pantalones de Chico Elegante,5,,0,1,999,0,1,0,1,718
+",0,item-icon-260,260,Pantalones de Chico Elegante,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-261,261,Zapatos de Chico Elegante,5,,0,1,999,0,1,0,1,718
+",0,item-icon-261,261,Zapatos de Chico Elegante,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-262,262,Cabello de Velocista,5,,0,1,999,0,1,1,1,718
+",0,item-icon-262,262,Cabello de Velocista,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-263,263,Camiseta de Velocista,5,,0,1,999,0,1,1,1,718
+",0,item-icon-263,263,Camiseta de Velocista,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-264,264,Guantes de Velocista,5,,0,1,999,0,1,1,1,718
+",0,item-icon-264,264,Guantes de Velocista,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-265,265,Pantalones de Velocista,5,,0,1,999,0,1,1,1,718
+",0,item-icon-265,265,Pantalones de Velocista,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-266,266,Zapatos de Velocista,5,,0,1,999,0,1,1,1,718
+",0,item-icon-266,266,Zapatos de Velocista,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
@@ -1007,27 +1007,27 @@ Se sugiere usar como moda
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-277,277,Cabello del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-277,277,Cabello del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-278,278,Camiseta del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-278,278,Camiseta del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-279,279,Guantes del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-279,279,Guantes del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-280,280,Pantalones del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-280,280,Pantalones del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
 Se sugiere usar como moda
-",0,item-icon-281,281,Zapatos del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-281,281,Zapatos del Conjunto Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Hay una oportunidad de obtener al sintetizar equipo.
 Apariencia de moda sin atributos
 -------
@@ -1084,7 +1084,7 @@ Restaura mucha energía
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una brillante azada dorada, extraordinariamente afilada y duradera. Utilizada para la agricultura, te permite aprovechar fácilmente el poder de la tierra, cultivando cultivos fuertes. También es el orgullo de los agricultores, simbolizando su arduo trabajo y esperanzas de una cosecha abundante.
-",0,item-icon-299,299,Azada Dorada Nivel 4,"1,2,3,4",212,0,1,999,0,1,4,1,718
+",0,item-icon-299,299,Azada Dorada Nivel 4,"1,2,3,4",212,0,1,999,0,1,4,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -1099,7 +1099,7 @@ Una herramienta radiante de recolección diseñada para recolectar. Su material 
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Unas tijeras brillantes como gemas, excepcionalmente afiladas, que cortan sin esfuerzo diversos materiales, ya sea tela, papel o plantas delicadas. Es una herramienta imprescindible para cada agricultor y artesano, utilizada para podar plantas, cortar tela o realizar trabajos manuales intrincados. Ya sea en los campos o talleres, las Tijeras Doradas son un símbolo de exquisita artesanía y buen gusto.
-",0,item-icon-302,302,Tijeras Doradas Nivel 4,"1,2,3,4",,0,1,999,0,1,4,1,718
+",0,item-icon-302,302,Tijeras Doradas Nivel 4,"1,2,3,4",,0,1,999,0,1,4,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -1109,12 +1109,12 @@ Una guadaña que brilla con un resplandor dorado, con una hoja increíblemente a
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una tetera dorada magnífica hecha completamente de oro puro. No solo tiene una apariencia deslumbrante, sino que también posee propiedades mágicas. Cuando usas la Tetera Dorada, repone rápidamente tu salud y maná, manteniéndote lleno de energía en las batallas. Ya sea en intensas peleas o en campos ocupados, la Tetera Dorada es tu compañera más fiel.
-",0,item-icon-304,304,Tetera Dorada Nivel 4,"1,2,3,4",213,0,1,999,0,1,4,1,718
+",0,item-icon-304,304,Tetera Dorada Nivel 4,"1,2,3,4",213,0,1,999,0,1,4,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una azada brillante como una gema, extraordinaria en afilado y durabilidad. Usarla para la agricultura te permite cultivar fácilmente tierras fértiles, obteniendo una cosecha abundante de cultivos.
-",0,item-icon-305,305,Azada de Diamante Nivel 5,"1,2,3,4,5",220,0,1,999,0,1,5,1,718
+",0,item-icon-305,305,Azada de Diamante Nivel 5,"1,2,3,4,5",220,0,1,999,0,1,5,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -1129,7 +1129,7 @@ Una herramienta radiante como una gema diseñada para recolectar. Su cabeza de p
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Brillando con el resplandor de las gemas, estas tijeras increíblemente afiladas cortan sin esfuerzo cualquier material, ya sea metal duro o tela gruesa, realizando tareas de manera rápida y precisa. En los campos, son una herramienta eficiente para los agricultores para recortar cultivos y podar árboles. En el mundo de la exploración, es una herramienta esencial para los valientes aventureros, recolectando rápidamente recursos valiosos. Ya sea un agricultor o un explorador, las Tijeras de Diamante son su compañero más confiable.
-",0,item-icon-308,308,Tijeras de Diamante Nivel 5,"1,2,3,4,5",,0,1,999,0,1,5,1,718
+",0,item-icon-308,308,Tijeras de Diamante Nivel 5,"1,2,3,4,5",,0,1,999,0,1,5,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -1139,12 +1139,12 @@ Brillando con el resplandor de las gemas, esta guadaña posee una hoja increíbl
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una magnífica tetera dorada hecha completamente de oro puro. No solo tiene una apariencia deslumbrante, sino que también posee propiedades mágicas. Cuando usas la Tetera de Diamante, repone rápidamente tu salud y maná, manteniéndote lleno de energía en las batallas. Ya sea en intensas peleas o en largos viajes de aventuras, la Tetera de Diamante es tu compañera más confiable.
-",0,item-icon-310,310,Tetera de Diamante Nivel 5,"1,2,3,4,5",221,0,1,999,0,1,5,1,718
+",0,item-icon-310,310,Tetera de Diamante Nivel 5,"1,2,3,4,5",221,0,1,999,0,1,5,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una azada que brilla con la luz de las estrellas, su afilado ara sin esfuerzo el suelo, infundiendo vida en las tierras de cultivo.
-",0,item-icon-311,311,Azada Estelar Nivel 6,"1,2,3,4,5",227,0,1,999,0,1,6,1,718
+",0,item-icon-311,311,Azada Estelar Nivel 6,"1,2,3,4,5",227,0,1,999,0,1,6,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -1159,7 +1159,7 @@ Un pico que brilla con la luz de las estrellas, su hoja en forma de hoz afilada 
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Brillando con la luz de las estrellas, estas tijeras ligeras y afiladas son utilizadas por los agricultores para recortar hojas y ramas, rejuveneciendo las plantas con vitalidad. Ya sea recortando flores en jardines o organizando cultivos en los campos, las Tijeras de Luz Estelar son la herramienta más efectiva para los agricultores.
-",0,item-icon-314,314,Tijeras Estelares Nivel 6,"1,2,3,4,5",,0,1,999,0,1,6,1,718
+",0,item-icon-314,314,Tijeras Estelares Nivel 6,"1,2,3,4,5",,0,1,999,0,1,6,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu eficiencia de recolección.
 -------
@@ -1169,7 +1169,7 @@ Brillando con la luz de las estrellas, su hoja es como una estrella fugaz en el 
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
 -------
 Una hermosa tetera, brillando con un resplandor similar al de las gemas. Es una de las herramientas favoritas de los agricultores, utilizada para regar los cultivos en los campos, nutriendo su crecimiento. Cada gota que fluye de la Tetera de Luz Estelar está llena de vitalidad, brindando esperanza de una cosecha abundante a los cultivos. Ya sea trigo, verduras o frutas, una vez nutridos por la Tetera de Luz Estelar, florecen en colores vibrantes bajo el sol, brindando alegría y satisfacción infinitas a los agricultores.
-",0,item-icon-316,316,Tetera Estelar Nivel 6,"1,2,3,4,5",228,0,1,999,0,1,6,1,718
+",0,item-icon-316,316,Tetera Estelar Nivel 6,"1,2,3,4,5",228,0,1,999,0,1,6,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en combate.
 -------
@@ -1330,63 +1330,63 @@ Diseñados específicamente para valientes guerreros, estos zapatos están impre
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este es un manojo de cabello dorado radiante, que simboliza el honor y la riqueza de los agricultores. Los agricultores que lo usan obtendrán rendimientos agrícolas adicionales, permitiendo que sus cultivos crezcan fuertes y tengan cosechas ilimitadas. Esto es un símbolo de orgullo para los agricultores, que representa su arduo trabajo.
-",0,item-icon-350,350, Sombrero de granjero dorado de nivel 4,"1,2,3,4",209,0,1,999,0,1,4,1,718
+",0,item-icon-350,350, Sombrero de granjero dorado de nivel 4,"1,2,3,4",209,0,1,999,0,1,4,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Diseñada específicamente para los dueños de granjas que aman los campos, está hecha de seda dorada de alta calidad, ligera y duradera, permitiendo un movimiento libre por los campos de cultivo. Ofrece una excelente protección y también otorga una sensación de dignidad y nobleza a los agricultores. Ya sea arando, plantando o cosechando, la Camisa del Granjero Dorado es tu compañera más confiable.
-",0,item-icon-351,351, Abrigo de granjero dorado de nivel 4,"1,2,3,4",207,0,1,999,0,1,4,1,718
+",0,item-icon-351,351, Abrigo de granjero dorado de nivel 4,"1,2,3,4",207,0,1,999,0,1,4,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hechos a medida para los dueños de granjas, hechos de oro, estos guantes brindan una durabilidad y comodidad excepcionales, permitiendo que los agricultores experimenten una destreza y precisión sin igual durante la siembra y la cosecha. Ya sea en temporadas de siembra o tiempos de cosecha, los Guantes del Granjero Dorado son los compañeros más confiables para los dueños de granjas.
-",0,item-icon-352,352, Guantes de granjero dorado de nivel 4,"1,2,3,4",208,0,1,999,0,1,4,1,718
+",0,item-icon-352,352, Guantes de granjero dorado de nivel 4,"1,2,3,4",208,0,1,999,0,1,4,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Diseñados específicamente para los dueños de granjas, hechos de seda dorada premium, estos pantalones son ligeros y cómodos. Ofrecen una durabilidad y protección robustas, permitiendo que los dueños de granjas trabajen con alegría en los campos. Ya sea arando, plantando o cosechando, estos pantalones brindan la mejor flexibilidad y protección, haciéndote el verdadero maestro de la granja.
-",0,item-icon-353,353, Pantalones de granjero dorado de nivel 4,"1,2,3,4",210,0,1,999,0,1,4,1,718
+",0,item-icon-353,353, Pantalones de granjero dorado de nivel 4,"1,2,3,4",210,0,1,999,0,1,4,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hechos a medida para los dueños de granjas y hechos de material dorado de primera calidad, estos zapatos son ligeros, cómodos, duraderos y antideslizantes, permitiendo que los dueños de granjas caminen de manera más estable y segura en los campos. Estos zapatos no solo simbolizan el estatus y la riqueza de los dueños de granjas, sino que también les otorgan una mayor eficiencia agrícola y una experiencia de cultivo alegre. Ya sea arando, cosechando o cuidando los cultivos, los Zapatos del Granjero Dorado son una herramienta indispensable.
-",0,item-icon-354,354, Zapatos de granjero dorado de nivel 4,"1,2,3,4",211,0,1,999,0,1,4,1,718
+",0,item-icon-354,354, Zapatos de granjero dorado de nivel 4,"1,2,3,4",211,0,1,999,0,1,4,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Un cabello brillante similar a un diamante que irradia un aura de lujo. Este peinado exclusivo para los agricultores simboliza su arduo trabajo y cosechas exitosas en los campos. Ya sea en la siembra, la cosecha o las ocupadas tareas agrícolas, este cabello de diamante llena a los agricultores de confianza y encanto.
-",0,item-icon-355,355, Sombrero de granjero de diamante de nivel 5,"1,2,3,4,5",217,0,1,999,0,1,5,1,718
+",0,item-icon-355,355, Sombrero de granjero de diamante de nivel 5,"1,2,3,4,5",217,0,1,999,0,1,5,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hecha a medida para los agricultores que aman la vida agrícola, está hecha de material de fibra de diamante de alta calidad, ligera, cómoda y extremadamente duradera. Esta camisa ofrece un rendimiento de protección excepcional y tiene propiedades que absorben la humedad, asegurando que te mantengas seco y cómodo mientras trabajas en los campos. Ya sea arando, plantando o cosechando, la Camisa del Granjero de Diamante es tu compañera más confiable.
-",0,item-icon-356,356, Abrigo de granjero de diamante de nivel 5,"1,2,3,4,5",215,0,1,999,0,1,5,1,718
+",0,item-icon-356,356, Abrigo de granjero de diamante de nivel 5,"1,2,3,4,5",215,0,1,999,0,1,5,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Diseñados específicamente para los agricultores, adornados con diamantes, mostrando una combinación perfecta de lujo y practicidad. Fabricados con materiales premium, estos guantes ofrecen una excelente protección y comodidad. Mejoran la agilidad y eficiencia del agricultor durante el proceso de cultivo, permitiendo una cultivación más rápida y cosechas abundantes. Ya sea sembrando semillas o cosechando las recompensas, estos guantes son el fiel ayudante de un agricultor, convirtiéndolo en un verdadero magnate agrícola.
-",0,item-icon-357,357, Guantes de granjero de diamante de nivel 5,"1,2,3,4,5",216,0,1,999,0,1,5,1,718
+",0,item-icon-357,357, Guantes de granjero de diamante de nivel 5,"1,2,3,4,5",216,0,1,999,0,1,5,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hechos a medida para los entusiastas de la agricultura, hechos de materiales de alta calidad, cómodos y duraderos. Adornados con diamantes brillantes, mostrando el estatus y la riqueza del agricultor. Al usarlos, experimentarás una alegría agrícola sin igual, haciéndote más eficiente y seguro en el trabajo agrícola. Ya sea en la siembra, la siembra o la cosecha, estos pantalones serán tu compañero más confiable.
-",0,item-icon-358,358, Pantalones de granjero de diamante de nivel 5,"1,2,3,4,5",218,0,1,999,0,1,5,1,718
+",0,item-icon-358,358, Pantalones de granjero de diamante de nivel 5,"1,2,3,4,5",218,0,1,999,0,1,5,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hechos a medida para los agricultores y fabricados con materiales premium, estos zapatos son duraderos, cómodos, antideslizantes y proporcionan a los agricultores facilidad durante largas horas en los campos. Las suelas de los zapatos están reforzadas para evitar que objetos afilados los atraviesen, al tiempo que ofrecen una excelente tracción, asegurando estabilidad en terrenos húmedos y resbaladizos. Estos zapatos también tienen algunas incrustaciones de diamantes ocultas, reflejando el gusto único y el estatus exitoso del agricultor. Ya sea arando, cosechando o cuidando los cultivos, los Zapatos del Granjero de Diamante son una herramienta indispensable.
-",0,item-icon-359,359, Zapatos de granjero de diamante de nivel 5,"1,2,3,4,5",219,0,1,999,0,1,5,1,718
+",0,item-icon-359,359, Zapatos de granjero de diamante de nivel 5,"1,2,3,4,5",219,0,1,999,0,1,5,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Un elegante accesorio para el cabello perfecto para los agricultores trabajadores. Emitiendo un resplandor similar a una estrella, te permite brillar intensamente en los campos. Ya sea sembrando, cosechando o cuidando los cultivos, este cabello te trae suerte y el orgullo de ser un agricultor, ¡convirtiéndote en una estrella en la comunidad agrícola!
-",0,item-icon-360,360, Sombrero de granjero estelar de nivel 6,"1,2,3,4,5",224,0,1,999,0,1,6,1,718
+",0,item-icon-360,360, Sombrero de granjero estelar de nivel 6,"1,2,3,4,5",224,0,1,999,0,1,6,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hecha a medida para los agricultores y inspirada en la luz estelar, emana una atmósfera alegre. Hecha de materiales ligeros, es cómoda y duradera, permitiendo que los agricultores se mantengan cómodos y ágiles durante las ocupadas actividades agrícolas. Ya sea arando, cosechando o alimentando animales, esta camisa brinda a los agricultores una protección y comodidad amplias, ¡haciendo que cada día en la granja sea animado y alegre!
-",0,item-icon-361,361, Abrigo de granjero estelar de nivel 6,"1,2,3,4,5",222,0,1,999,0,1,6,1,718
+",0,item-icon-361,361, Abrigo de granjero estelar de nivel 6,"1,2,3,4,5",222,0,1,999,0,1,6,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Impregnados con el poder de la luz estelar y diseñados específicamente para los agricultores, ofrecen una excelente protección y destreza, permitiendo a los agricultores cultivar fácilmente los cultivos en los campos. Los delicados patrones en los guantes mejoran las sensaciones táctiles del agricultor, permitiéndole operar azadas y cepillos con mayor precisión, creando hermosos paisajes agrícolas. Ya sea arando, sembrando o cosechando, los Guantes del Granjero de la Luz Estelar son el compañero más confiable para los agricultores.
-",0,item-icon-362,362, Guantes de granjero estelar de nivel 6,"1,2,3,4,5",223,0,1,999,0,1,6,1,718
+",0,item-icon-362,362, Guantes de granjero estelar de nivel 6,"1,2,3,4,5",223,0,1,999,0,1,6,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Hechos a medida para los agricultores y fabricados con materiales suaves y cómodos, estos pantalones ofrecen una excelente durabilidad y transpirabilidad, manteniendo a los agricultores cómodos y flexibles durante el trabajo en el campo. El intrincado patrón de luz estelar en los pantalones simboliza el arduo trabajo y las esperanzas del agricultor, brindándoles suerte y cosechas abundantes. Ya sea sembrando, sembrando o cosechando, estos pantalones son el compañero más confiable del agricultor.
-",0,item-icon-363,363, Pantalones de granjero estelar de nivel 6,"1,2,3,4,5",225,0,1,999,0,1,6,1,718
+",0,item-icon-363,363, Pantalones de granjero estelar de nivel 6,"1,2,3,4,5",225,0,1,999,0,1,6,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Diseñados específicamente para los agricultores y fabricados con materiales ligeros y duraderos. Ofrecen una excelente resistencia al deslizamiento, asegurando estabilidad para los agricultores al caminar en los campos. El intrincado patrón de luz estelar en los zapatos simboliza la sabiduría y la diligencia del agricultor. Ya sea cultivando, sembrando o cosechando, estos zapatos brindan comodidad y protección, dejando las huellas del agricultor en los campos.
-",0,item-icon-364,364, Zapatos de granjero estelar de nivel 6,"1,2,3,4,5",226,0,1,999,0,1,6,1,718
+",0,item-icon-364,364, Zapatos de granjero estelar de nivel 6,"1,2,3,4,5",226,0,1,999,0,1,6,1,"718,1"
 "1,3,4",1," Matar monstruos del mismo nivel puede resultar en la obtención de este objeto.
 Se puede usar para fabricar equipos o objetos.
 -------
@@ -1480,86 +1480,86 @@ Una piedra tan hermosa, como un cometa del espacio exterior
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Uno de los alimentos básicos más comunes en el mundo 
-",0,item-icon-383,383, Trigo,1,96,0,1,4,1,4,4,1,718
+",0,item-icon-383,383, Trigo,1,96,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Recuerdo un juego en el que esta cosa disparaba balas 
-",0,item-icon-384,384, Guisantes,1,98,0,1,4,1,4,4,1,718
+",0,item-icon-384,384, Guisantes,1,98,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Incluso a través de la pantalla, puedo oler el aroma 
-",0,item-icon-385,385, Ajo,1,97,0,1,4,1,4,4,1,718
+",0,item-icon-385,385, Ajo,1,97,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Algunas personas fríen el núcleo de esta flor como un bocadillo, sabe bien 
-",0,item-icon-386,386, Girasol,1,99,0,1,5,1,4,5,1,718
+",0,item-icon-386,386, Girasol,1,99,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esta cosa es más adecuada para un viñedo 
-",0,item-icon-387,387, Uva,1,100,0,1,5,1,4,5,1,718
+",0,item-icon-387,387, Uva,1,100,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Otro de los alimentos básicos más comunes en el mundo 
-",0,item-icon-388,388, Patata,1,101,0,1,5,1,4,5,1,718
+",0,item-icon-388,388, Patata,1,101,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Me asusté 
-",0,item-icon-389,389, Chomper,1,102,0,1,6,1,4,6,1,718
+",0,item-icon-389,389, Chomper,1,102,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Parece una trompeta 
-",0,item-icon-390,390, Flor de gloria de la mañana,1,103,0,1,6,1,4,6,1,718
+",0,item-icon-390,390, Flor de gloria de la mañana,1,103,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una raíz de yuca 
-",0,item-icon-391,391, Yuca,1,104,0,1,6,1,4,6,1,718
+",0,item-icon-391,391, Yuca,1,104,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la reproducción.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 En cierto juego, esta cosa puede promover el crecimiento de las plantas, pero parece que no aquí 
-",0,item-icon-392,392, Harina de hueso,1,123,0,1,4,1,4,4,1,718
+",0,item-icon-392,392, Harina de hueso,1,123,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la reproducción.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Muy flexible, se puede amasar en una cuerda o hilo 
-",0,item-icon-393,393, Vid resistente,1,125,0,1,4,1,4,4,1,718
+",0,item-icon-393,393, Vid resistente,1,125,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la reproducción.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una hoja enorme 
-",0,item-icon-394,394, Hoja de naranja,1,124,0,1,4,1,4,4,1,718
+",0,item-icon-394,394, Hoja de naranja,1,124,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Puedes obtener este tipo de material mediante la reproducción.
 Se puede utilizar para fabricar equipos o objetos.
 -------
-No te asustes por su apariencia, esta cosa es tan buena como cualquier especia en el mundo",0,item-icon-395,395, Especia oscura,1,128,0,1,5,1,4,5,1,718
+No te asustes por su apariencia, esta cosa es tan buena como cualquier especia en el mundo",0,item-icon-395,395, Especia oscura,1,128,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
 -------
 Emite una luz tenue.
-",0,item-icon-396,396,Polvo de hueso luminiscente,1,127,0,1,5,1,4,5,1,718
+",0,item-icon-396,396,Polvo de hueso luminiscente,1,127,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
 -------
 Oye, ¿te gustan las peleas de bolas de nieve?
-",0,item-icon-397,397,Bola de nieve elfa,1,126,0,1,5,1,4,5,1,718
+",0,item-icon-397,397,Bola de nieve elfa,1,126,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
 -------
 Escamas caídas del caparazón de la tortuga, realmente hermosas.
-",0,item-icon-398,398,Escama de concha,1,131,0,1,6,1,4,6,1,718
+",0,item-icon-398,398,Escama de concha,1,131,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
 -------
 Una flecha delicada.
-",0,item-icon-399,399,Flecha refinada,1,129,0,1,6,1,4,6,1,718
+",0,item-icon-399,399,Flecha refinada,1,129,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material a través de la reproducción. Se puede utilizar para fabricar equipos o objetos.
 -------
 Agradable y cálido, seguramente haría buena ropa.
-",0,item-icon-400,400,Pelusa de conejo de nieve,1,130,0,1,6,1,4,6,1,718
+",0,item-icon-400,400,Pelusa de conejo de nieve,1,130,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Combate, útil para sintetizar varios equipos.
@@ -1587,62 +1587,62 @@ Esencia de Recolecta, útil para sintetizar varios equipos.
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-407,407,Esencia de plantación agrícola nivel 4,1,147,0,1,4,0,4,4,1,718
+",0,item-icon-407,407,Esencia de plantación agrícola nivel 4,1,147,0,1,4,0,4,4,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-408,408,Esencia de plantación agrícola nivel 5,1,148,0,1,5,0,4,5,1,718
+",0,item-icon-408,408,Esencia de plantación agrícola nivel 5,1,148,0,1,5,0,4,5,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Plantación Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-409,409,Esencia de plantación agrícola nivel 6,1,149,0,1,6,0,4,6,1,718
+",0,item-icon-409,409,Esencia de plantación agrícola nivel 6,1,149,0,1,6,0,4,6,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-410,410,Esencia de ganadería agrícola nivel 4,1,150,0,1,4,0,4,4,1,718
+",0,item-icon-410,410,Esencia de ganadería agrícola nivel 4,1,150,0,1,4,0,4,4,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-411,411,Esencia de ganadería agrícola nivel 5,1,151,0,1,5,0,4,5,1,718
+",0,item-icon-411,411,Esencia de ganadería agrícola nivel 5,1,151,0,1,5,0,4,5,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de Ganadería Agrícola, útil para sintetizar varios equipos.
-",0,item-icon-412,412,Esencia de ganadería agrícola nivel 6,1,152,0,1,6,0,4,6,1,718
+",0,item-icon-412,412,Esencia de ganadería agrícola nivel 6,1,152,0,1,6,0,4,6,1,"718,1"
 "1,3,4",1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar trigo.
-",97,item-icon-413,413,Semilla de trigo,1,493,0,1,4,1,3,4,1,718
+",97,item-icon-413,413,Semilla de trigo,1,493,0,1,4,1,3,4,1,"718,1"
 "1,3,4",1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar guisantes.
-",97,item-icon-414,414,Semilla de guisante,1,492,0,1,4,1,3,4,1,718
+",97,item-icon-414,414,Semilla de guisante,1,492,0,1,4,1,3,4,1,"718,1"
 "1,3,4",1," Recolectar materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
-Semillas para cultivar ajo.",97,item-icon-415,415,Semilla de ajo,1,491,0,1,4,1,3,4,1,718
+Semillas para cultivar ajo.",97,item-icon-415,415,Semilla de ajo,1,491,0,1,4,1,3,4,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar girasoles
-",97,item-icon-416,416,Semilla de girasol,1,496,0,1,5,1,3,5,1,718
+",97,item-icon-416,416,Semilla de girasol,1,496,0,1,5,1,3,5,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar uvas
-",97,item-icon-417,417,Semilla de uva,1,494,0,1,5,1,3,5,1,718
+",97,item-icon-417,417,Semilla de uva,1,494,0,1,5,1,3,5,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar papas
-",97,item-icon-418,418,Semilla de patata,1,495,0,1,5,1,3,5,1,718
+",97,item-icon-418,418,Semilla de patata,1,495,0,1,5,1,3,5,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar flores cadáver
-",97,item-icon-419,419,Semilla de Chomper,1,498,0,1,6,1,3,6,1,718
+",97,item-icon-419,419,Semilla de Chomper,1,498,0,1,6,1,3,6,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar gloria de la mañana
-",97,item-icon-420,420,Semilla de gloria de la mañana,1,499,0,1,6,1,3,6,1,718
+",97,item-icon-420,420,Semilla de gloria de la mañana,1,499,0,1,6,1,3,6,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales. Matar monstruos del mismo nivel puede resultar en obtener este objeto. Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar yuca
-",97,item-icon-421,421,Semilla de yuca,1,497,0,1,6,1,3,6,1,718
+",97,item-icon-421,421,Semilla de yuca,1,497,0,1,6,1,3,6,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 HP actual +320
@@ -1757,32 +1757,32 @@ Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, pued
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior
 -------
 Se utiliza para calmar a tu mascota, permitiéndole producir en paz
-",0,item-icon-453,453,Nivel 1 Cepillo de Cobre,1,182,0,1,999,0,1,1,1,718
+",0,item-icon-453,453,Nivel 1 Cepillo de Cobre,1,182,0,1,999,0,1,1,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior
 -------
 Se utiliza para calmar a tu mascota, permitiéndole producir en paz
-",0,item-icon-454,454,Nivel 2 Cepillo de Hierro,"1,2",196,0,1,999,0,1,2,1,718
+",0,item-icon-454,454,Nivel 2 Cepillo de Hierro,"1,2",196,0,1,999,0,1,2,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior
 -------
 Se utiliza para calmar a tu mascota, permitiéndole producir en paz
-",0,item-icon-455,455,Nivel 3 Cepillo de Cristal,"1,2,3",200,0,1,999,0,1,3,1,718
+",0,item-icon-455,455,Nivel 3 Cepillo de Cristal,"1,2,3",200,0,1,999,0,1,3,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior
 -------
 Se utiliza para calmar a tu mascota, permitiéndole producir en paz
-",0,item-icon-456,456,Nivel 4 Cepillo Dorado,"1,2,3,4",206,0,1,999,0,1,4,1,718
+",0,item-icon-456,456,Nivel 4 Cepillo Dorado,"1,2,3,4",206,0,1,999,0,1,4,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior
 -------
 Se utiliza para calmar a tu mascota, permitiéndole producir en paz
-",0,item-icon-457,457,Nivel 5 Cepillo de Diamante,"1,2,3,4,5",214,0,1,999,0,1,5,1,718
+",0,item-icon-457,457,Nivel 5 Cepillo de Diamante,"1,2,3,4,5",214,0,1,999,0,1,5,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Al usarlo, puede activar efectos especiales.
 -------
 Restaura Energía +30
-",0,item-icon-458,458,Nivel 6 Cepillo de Luz Estelar,"1,2,3,4,5",229,0,1,999,0,1,6,1,718
+",0,item-icon-458,458,Nivel 6 Cepillo de Luz Estelar,"1,2,3,4,5",229,0,1,999,0,1,6,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
@@ -1942,32 +1942,32 @@ El recuento de palabras para cada descripción está dentro del límite especifi
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una flor vibrante que irradia calidez y belleza, simbolizando pasión y vitalidad.
-",0,item-icon-497,497,Crisantemo Rojo Ardiente,1,105,0,1,7,1,4,7,1,718
+",0,item-icon-497,497,Crisantemo Rojo Ardiente,1,105,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 La traducción proporcionada anteriormente se basa en la suposición de que ""Heard of Fire"" se refiere al nombre del juego o a un concepto específico dentro del juego. Si tiene un significado diferente, por favor avíseme para que pueda ajustar las traducciones en consecuencia.
-",0,item-icon-498,498,Oído de Fuego,1,106,0,1,7,1,4,7,1,718
+",0,item-icon-498,498,Oído de Fuego,1,106,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una calabaza ardiente que desata llamas abrasadoras sobre los enemigos, causando daño generalizado.
-",0,item-icon-499,499,Calabaza Caliente,1,107,0,1,7,1,4,7,1,718
+",0,item-icon-499,499,Calabaza Caliente,1,107,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una piedra masiva imbuida de poder antiguo, capaz de dar forma a la tierra misma.
-",0,item-icon-500,500,Piedra Gigante,1,134,0,1,7,1,4,7,1,718
+",0,item-icon-500,500,Piedra Gigante,1,134,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Partículas brillantes que brillan y bailan, arrojando un resplandor fascinante dondequiera que vayan.
-",0,item-icon-501,501,Polvo Deslumbrante,1,132,0,1,7,1,4,7,1,718
+",0,item-icon-501,501,Polvo Deslumbrante,1,132,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una piedra poderosa que aprovecha la esencia ardiente, capaz de desatar llamas devastadoras.
-",0,item-icon-502,502,Piedra de Fuego,1,133,0,1,7,1,4,7,1,718
+",0,item-icon-502,502,Piedra de Fuego,1,133,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1," Aparece en Ancient Domain.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -2001,32 +2001,32 @@ Una piedra misteriosa con un núcleo vacío, irradiando energía antigua.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una hoja delicada imbuida de energía misteriosa, capaz de mejorar las habilidades mágicas.
-",0,item-icon-509,509,Hoja Hueca,1,108,0,1,8,1,4,8,1,718
+",0,item-icon-509,509,Hoja Hueca,1,108,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una fruta misteriosa con un núcleo vacío, se dice que posee poderes ocultos.
-",0,item-icon-510,510,Fruta Hueca,1,109,0,1,8,1,4,8,1,718
+",0,item-icon-510,510,Fruta Hueca,1,109,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una flor delicada con un centro hueco, irradiando un aura calmante.
-",0,item-icon-511,511,Flor Hueca,1,110,0,1,8,1,4,8,1,718
+",0,item-icon-511,511,Flor Hueca,1,110,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Un huevo raro y precioso, incubado por águilas majestuosas.
-",0,item-icon-512,512,Huevo de Águila,1,136,0,1,8,1,4,8,1,718
+",0,item-icon-512,512,Huevo de Águila,1,136,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una gema rara y poderosa, se dice que contiene la esencia de los dragones.
-",0,item-icon-513,513,Lágrima de Dragón,1,137,0,1,8,1,4,8,1,718
+",0,item-icon-513,513,Lágrima de Dragón,1,137,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una poción potente que induce risa incontrolable, haciendo que los enemigos pierdan el enfoque y tropiecen.
-",0,item-icon-514,514,Vómito de Rayas Amarillas,1,135,0,1,8,1,4,8,1,718
+",0,item-icon-514,514,Vómito de Rayas Amarillas,1,135,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1,"Apareciendo en el Dominio Antiguo.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -2060,32 +2060,32 @@ Una piedra resistente con un tono de bronce, perfecta para la fabricación y con
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
-Una fruta rara que mejora el proceso de fundición, aumentando la calidad de los objetos fabricados.",0,item-icon-521,521,Fruta de Fundición,1,111,0,1,9,1,4,9,1,718
+Una fruta rara que mejora el proceso de fundición, aumentando la calidad de los objetos fabricados.",0,item-icon-521,521,Fruta de Fundición,1,111,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una planta vibrante y alucinógena que mejora la percepción y otorga habilidades mágicas temporales.
-",0,item-icon-522,522,Vegetal Psicodélico,1,112,0,1,9,1,4,9,1,718
+",0,item-icon-522,522,Vegetal Psicodélico,1,112,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Una flor potente que otorga aumentos temporales a las habilidades mágicas.
-",0,item-icon-523,523,Flor de Poder,1,113,0,1,9,1,4,9,1,718
+",0,item-icon-523,523,Flor de Poder,1,113,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Polvo explosivo que crea púas afiladas, infligiendo daño perforante a los enemigos.
-",0,item-icon-524,524,Polvo de Púa,1,140,0,1,9,1,4,9,1,718
+",0,item-icon-524,524,Polvo de Púa,1,140,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Un ladrillo resistente utilizado para construir estatuas, añadiendo durabilidad y fuerza.
-",0,item-icon-525,525,Ladrillo de Estatua,1,139,0,1,9,1,4,9,1,718
+",0,item-icon-525,525,Ladrillo de Estatua,1,139,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1," Puedes obtener este tipo de material mediante la cría.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Polvo brillante que emite una luz vibrante, iluminando los rincones más oscuros.
-",0,item-icon-526,526,Polvo Fluorescente,1,138,0,1,9,1,4,9,1,718
+",0,item-icon-526,526,Polvo Fluorescente,1,138,0,1,9,1,4,9,1,"718,1"
 0,1,"Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
 -------
@@ -2169,42 +2169,42 @@ Estos zapatos especializados están diseñados para recolectores valientes que s
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una tetera ardiente que aprovecha el poder de la lava, capaz de hervir agua al instante.
-",0,item-icon-543,543,Lv7 Tetera de Lava,"1,2,3,4,5",237,0,1,999,0,1,7,1,718
+",0,item-icon-543,543,Lv7 Tetera de Lava,"1,2,3,4,5",237,0,1,999,0,1,7,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una herramienta ardiente que aprovecha el poder de la lava fundida para una agricultura eficiente.
-",0,item-icon-544,544,Lv7 Azada de Lava,"1,2,3,4,5",236,0,1,999,0,1,7,1,718
+",0,item-icon-544,544,Lv7 Azada de Lava,"1,2,3,4,5",236,0,1,999,0,1,7,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Un cepillo ardiente que aprovecha el poder de la lava para mejorar las habilidades de agricultura.
-",0,item-icon-545,545,Lv7 Cepillo de Lava,"1,2,3,4,5",230,0,1,999,0,1,7,1,718
+",0,item-icon-545,545,Lv7 Cepillo de Lava,"1,2,3,4,5",230,0,1,999,0,1,7,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una cabeza ardiente que protege a los agricultores del calor abrasador.
-",0,item-icon-546,546,Lv7 Sombrero de Agricultura de Lava,"1,2,3,4,5",233,0,1,999,0,1,7,1,718
+",0,item-icon-546,546,Lv7 Sombrero de Agricultura de Lava,"1,2,3,4,5",233,0,1,999,0,1,7,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Proporciona una resistencia superior al calor para los agricultores que trabajan en entornos volcánicos.
-",0,item-icon-547,547,Lv7 Abrigo de Agricultura de Lava,"1,2,3,4,5",231,0,1,999,0,1,7,1,718
+",0,item-icon-547,547,Lv7 Abrigo de Agricultura de Lava,"1,2,3,4,5",231,0,1,999,0,1,7,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Pantalones resistentes al fuego para valientes agricultores que cuidan cultivos ardientes.
-",0,item-icon-548,548,Lv7 Pantalones de Agricultura de Lava,"1,2,3,4,5",234,0,1,999,0,1,7,1,718
+",0,item-icon-548,548,Lv7 Pantalones de Agricultura de Lava,"1,2,3,4,5",234,0,1,999,0,1,7,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Guantes resistentes al calor para valientes agricultores que cuidan cultivos ardientes.
-",0,item-icon-549,549,Lv7 Guantes de Agricultura de Lava,"1,2,3,4,5",232,0,1,999,0,1,7,1,718
+",0,item-icon-549,549,Lv7 Guantes de Agricultura de Lava,"1,2,3,4,5",232,0,1,999,0,1,7,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Calzado resistente al calor para valientes agricultores que cuidan cultivos ardientes.
-",0,item-icon-550,550,Lv7 Zapatos de Agricultura de Lava,"1,2,3,4,5",235,0,1,999,0,1,7,1,718
+",0,item-icon-550,550,Lv7 Zapatos de Agricultura de Lava,"1,2,3,4,5",235,0,1,999,0,1,7,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en las batallas.
 -------
@@ -2288,42 +2288,42 @@ Calzado ligero diseñado para la recolección eficiente. Mejora la velocidad de 
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una tetera ligera con un diseño hueco, perfecta para preparar pociones y brebajes.
-",0,item-icon-567,567,Tetera hueca de nivel 8,"1,2,3,4,5",245,0,1,999,0,1,8,1,718
+",0,item-icon-567,567,Tetera hueca de nivel 8,"1,2,3,4,5",245,0,1,999,0,1,8,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Una herramienta agrícola ligera con una hoja ahuecada, perfecta para labrar el suelo de manera eficiente.
-",0,item-icon-568,568,Azada hueca de nivel 8,"1,2,3,4,5",244,0,1,999,0,1,8,1,718
+",0,item-icon-568,568,Azada hueca de nivel 8,"1,2,3,4,5",244,0,1,999,0,1,8,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Un cepillo ligero con cerdas huecas, perfecto para trazos delicados y detalles precisos.
-",0,item-icon-569,569,Cepillo hueco de nivel 8,"1,2,3,4,5",238,0,1,999,0,1,8,1,718
+",0,item-icon-569,569,Cepillo hueco de nivel 8,"1,2,3,4,5",238,0,1,999,0,1,8,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Un sombrero ligero con diseño ahuecado, perfecto para agricultores.
-",0,item-icon-570,570,Sombrero de agricultura hueco de nivel 8,"1,2,3,4,5",241,0,1,999,0,1,8,1,718
+",0,item-icon-570,570,Sombrero de agricultura hueco de nivel 8,"1,2,3,4,5",241,0,1,999,0,1,8,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Un abrigo ligero y transpirable diseñado para agricultores diligentes. Proporciona una excelente protección contra la suciedad y las espinas.
-",0,item-icon-571,571,Abrigo de agricultura hueco de nivel 8,"1,2,3,4,5",239,0,1,999,0,1,8,1,718
+",0,item-icon-571,571,Abrigo de agricultura hueco de nivel 8,"1,2,3,4,5",239,0,1,999,0,1,8,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Pantalones ligeros y transpirables diseñados para agricultores dedicados.
-",0,item-icon-572,572,Pantalones de agricultura huecos de nivel 8,"1,2,3,4,5",242,0,1,999,0,1,8,1,718
+",0,item-icon-572,572,Pantalones de agricultura huecos de nivel 8,"1,2,3,4,5",242,0,1,999,0,1,8,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Guantes ligeros diseñados para la agricultura eficiente. Proporciona un mejor agarre y destreza para tareas delicadas.
-",0,item-icon-573,573,Guantes de agricultura huecos de nivel 8,"1,2,3,4,5",240,0,1,999,0,1,8,1,718
+",0,item-icon-573,573,Guantes de agricultura huecos de nivel 8,"1,2,3,4,5",240,0,1,999,0,1,8,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Calzado ligero diseñado para la agricultura eficiente. Mejora la velocidad de movimiento y reduce la fatiga.
-",0,item-icon-574,574,Zapatos de agricultura huecos de nivel 8,"1,2,3,4,5",243,0,1,999,0,1,8,1,718
+",0,item-icon-574,574,Zapatos de agricultura huecos de nivel 8,"1,2,3,4,5",243,0,1,999,0,1,8,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar atributos. Aumenta tu probabilidad de supervivencia en batallas.
 -------
@@ -2397,35 +2397,35 @@ Calzado resistente para recolectores dedicados, que proporciona movilidad y prot
 0,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Una tetera de bronce resistente, perfecta para preparar pociones y brebajes.
-",0,item-icon-591,591,Tetera de Bronce,"1,2,3,4,5",253,0,1,999,0,1,9,1,718
+",0,item-icon-591,591,Tetera de Bronce,"1,2,3,4,5",253,0,1,999,0,1,9,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Una azada de bronce resistente, perfecta para labrar el suelo y cultivar cultivos de manera eficiente.
-",0,item-icon-592,592,Azada de Bronce,"1,2,3,4,5",252,0,1,999,0,1,9,1,718
+",0,item-icon-592,592,Azada de Bronce,"1,2,3,4,5",252,0,1,999,0,1,9,1,"718,1"
 0,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Un cepillo de bronce resistente para agricultores, perfecto para cuidar los cultivos y mantener una granja próspera.
-",0,item-icon-593,593,Cepillo de Bronce,"1,2,3,4,5",246,0,1,999,0,1,9,1,718
+",0,item-icon-593,593,Cepillo de Bronce,"1,2,3,4,5",246,0,1,999,0,1,9,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Un sombrero resistente para agricultores, que proporciona protección y estilo.
-",0,item-icon-594,594,Sombrero de Agricultura de Bronce,"1,2,3,4,5",249,0,1,999,0,1,9,1,718
+",0,item-icon-594,594,Sombrero de Agricultura de Bronce,"1,2,3,4,5",249,0,1,999,0,1,9,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Un abrigo duradero para agricultores, que proporciona protección y comodidad durante largas horas de cuidado de cultivos.
-",0,item-icon-595,595,Abrigo de Agricultura de Bronce,"1,2,3,4,5",247,0,1,999,0,1,9,1,718
+",0,item-icon-595,595,Abrigo de Agricultura de Bronce,"1,2,3,4,5",247,0,1,999,0,1,9,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Pantalones duraderos hechos de bronce, perfectos para agricultores trabajadores de nivel 9.
-",0,item-icon-596,596,Pantalones de Agricultura de Bronce,"1,2,3,4,5",250,0,1,999,0,1,9,1,718
+",0,item-icon-596,596,Pantalones de Agricultura de Bronce,"1,2,3,4,5",250,0,1,999,0,1,9,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Guantes duraderos para una agricultura eficiente, que proporcionan un agarre y protección mejorados.
-",0,item-icon-597,597,Guantes de Agricultura de Bronce,"1,2,3,4,5",248,0,1,999,0,1,9,1,718
+",0,item-icon-597,597,Guantes de Agricultura de Bronce,"1,2,3,4,5",248,0,1,999,0,1,9,1,"718,1"
 4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Reduce la probabilidad de que tus cultivos se marchiten.
 -------
 Calzado resistente para agricultores dedicados, que proporciona comodidad y protección durante largas horas de cuidado de cultivos.
-",0,item-icon-598,598,Zapatos de Agricultura de Bronce,"1,2,3,4,5",251,0,1,999,0,1,9,1,718
+",0,item-icon-598,598,Zapatos de Agricultura de Bronce,"1,2,3,4,5",251,0,1,999,0,1,9,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
@@ -2466,77 +2466,77 @@ Esencia de recolección, útil para sintetizar varios equipos
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de plantación agrícola, útil para sintetizar varios equipos
-",0,item-icon-608,608,Nv 7 Esencia de Plantación Agrícola,1,153,0,1,7,0,4,7,1,718
+",0,item-icon-608,608,Nv 7 Esencia de Plantación Agrícola,1,153,0,1,7,0,4,7,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de plantación agrícola, útil para sintetizar varios equipos
-",0,item-icon-609,609,Nv 8 Esencia de Plantación Agrícola,1,154,0,1,8,0,4,8,1,718
+",0,item-icon-609,609,Nv 8 Esencia de Plantación Agrícola,1,154,0,1,8,0,4,8,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de plantación agrícola, útil para sintetizar varios equipos
-",0,item-icon-610,610,Nv 9 Esencia de Plantación Agrícola,1,155,0,1,9,0,4,9,1,718
+",0,item-icon-610,610,Nv 9 Esencia de Plantación Agrícola,1,155,0,1,9,0,4,9,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de ganadería agrícola, útil para sintetizar varios equipos
-",0,item-icon-611,611,Nv 7 Esencia de Ganadería Agrícola,1,156,0,1,7,0,4,7,1,718
+",0,item-icon-611,611,Nv 7 Esencia de Ganadería Agrícola,1,156,0,1,7,0,4,7,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de ganadería agrícola, útil para sintetizar varios equipos
-",0,item-icon-612,612,Nv 8 Esencia de Ganadería Agrícola,1,157,0,1,8,0,4,8,1,718
+",0,item-icon-612,612,Nv 8 Esencia de Ganadería Agrícola,1,157,0,1,8,0,4,8,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Se puede utilizar para fabricar equipos o objetos.
 -------
 Esencia de ganadería agrícola, útil para sintetizar varios equipos
-",0,item-icon-613,613,Nv 9 Esencia de Ganadería Agrícola,1,158,0,1,9,0,4,9,1,718
+",0,item-icon-613,613,Nv 9 Esencia de Ganadería Agrícola,1,158,0,1,9,0,4,9,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semillas para cultivar trigo
-",97,item-icon-614,614,Semilla de Crisantemo Rojo Ardiente,1,500,0,1,7,1,3,7,1,718
+",97,item-icon-614,614,Semilla de Crisantemo Rojo Ardiente,1,500,0,1,7,1,3,7,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Crisantemo Rojo Ardiente
-",97,item-icon-615,615,Semilla de Oído de Fuego,1,501,0,1,7,1,3,7,1,718
+",97,item-icon-615,615,Semilla de Oído de Fuego,1,501,0,1,7,1,3,7,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Manada de Fuego
-",97,item-icon-616,616,Semilla de Calabaza Picante,1,502,0,1,7,1,3,7,1,718
+",97,item-icon-616,616,Semilla de Calabaza Picante,1,502,0,1,7,1,3,7,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Calabaza Caliente
-",97,item-icon-617,617,Semilla de Hoja Hueca,1,505,0,1,8,1,3,8,1,718
+",97,item-icon-617,617,Semilla de Hoja Hueca,1,505,0,1,8,1,3,8,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Hoja Hueca
-",97,item-icon-618,618,Semilla de Fruto Hueco,1,504,0,1,8,1,3,8,1,718
+",97,item-icon-618,618,Semilla de Fruto Hueco,1,504,0,1,8,1,3,8,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Fruta Hueca
-",97,item-icon-619,619,Semilla de Flor Hueca,1,503,0,1,8,1,3,8,1,718
+",97,item-icon-619,619,Semilla de Flor Hueca,1,503,0,1,8,1,3,8,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Flor Hueca
-",97,item-icon-620,620,Semilla de Fruto de Fundición,1,508,0,1,9,1,3,9,1,718
+",97,item-icon-620,620,Semilla de Fruto de Fundición,1,508,0,1,9,1,3,9,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Fruta de Fundición
-",97,item-icon-621,621,Semilla de Verdura Psicodélica,1,507,0,1,9,1,3,9,1,718
+",97,item-icon-621,621,Semilla de Verdura Psicodélica,1,507,0,1,9,1,3,9,1,"718,1"
 "1,3,4",1,"Aparece en Ancient Domain.
 Usarlo puede activar efectos especiales.
 -------
 Semilla para cultivar Verdura Psicodélica
-",97,item-icon-622,622,Semilla de Flor de Poder,1,506,0,1,9,1,3,9,1,718
+",97,item-icon-622,622,Semilla de Flor de Poder,1,506,0,1,9,1,3,9,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
@@ -2647,22 +2647,22 @@ Se puede usar para fabricar equipos o objetos.
 Boleto de admisión al Advanced Arena
 ",0,item-icon-661,661,Boleto de Admisión a la Arena Avanzada,1,474,0,2,999,0,4,0,1,
 0,1," Puede eclosionar una mascota: Metal Mutt
-",0,item-icon-665,665,Perro de Metal,1,444,0,1,999,0,6,1,1,718
+",0,item-icon-665,665,Perro de Metal,1,444,0,1,999,0,6,1,1,"718,1"
 0,1," Puede eclosionar una mascota: Pumpkin Fiend
-",0,item-icon-666,666,Demonio de Calabaza,1,445,0,1,999,0,6,1,1,718
+",0,item-icon-666,666,Demonio de Calabaza,1,445,0,1,999,0,6,1,1,"718,1"
 0,1," Puede eclosionar una mascota: Cactus Warrior
-",0,item-icon-667,667,Guerrero de Cactus,1,443,0,1,999,0,6,1,1,718
+",0,item-icon-667,667,Guerrero de Cactus,1,443,0,1,999,0,6,1,1,"718,1"
 0,1," Puede eclosionar una mascota: Buzz Buddy
-",0,item-icon-668,668,Amigo Zumbador,1,446,0,1,999,0,6,2,1,718
+",0,item-icon-668,668,Amigo Zumbador,1,446,0,1,999,0,6,2,1,"718,1"
 0,1," Puede eclosionar una mascota: Leafy Lurker
-",0,item-icon-669,669,Acechador de Hojas,1,447,0,1,999,0,6,2,1,718
+",0,item-icon-669,669,Acechador de Hojas,1,447,0,1,999,0,6,2,1,"718,1"
 0,1," Puede eclosionar una mascota: Mine Cat
-",0,item-icon-670,670,Gato Minero,1,448,0,1,999,0,6,2,1,718
+",0,item-icon-670,670,Gato Minero,1,448,0,1,999,0,6,2,1,"718,1"
 0,1," Puede eclosionar una mascota: Chaos Wraith
-",0,item-icon-671,671,Espectro del Caos,1,449,0,1,999,0,6,3,1,718
+",0,item-icon-671,671,Espectro del Caos,1,449,0,1,999,0,6,3,1,"718,1"
 0,1," Puede eclosionar una mascota: Crimson Gnasher
-",0,item-icon-672,672,Mordedor Carmesí,1,450,0,1,999,0,6,3,1,718
-0,1, Puede eclosionar una mascota: Frosty Paw,0,item-icon-673,673,Pata Helada,1,451,0,1,999,0,6,3,1,718
+",0,item-icon-672,672,Mordedor Carmesí,1,450,0,1,999,0,6,3,1,"718,1"
+0,1, Puede eclosionar una mascota: Frosty Paw,0,item-icon-673,673,Pata Helada,1,451,0,1,999,0,6,3,1,"718,1"
 0,1,Puede eclosionar mascota - Tronco Enojado,0,item-icon-674,674,"Tronco Enojado
 [583]Cabeza de Huevo de Hoja Naranja
 [584]Soldado Esqueleto
@@ -2687,28 +2687,28 @@ Boleto de admisión al Advanced Arena
 [603]Poder de la Naturaleza Nivel 3
 [604]Poder de la Naturaleza Nivel 4
 [605]Poder de la Naturaleza Nivel 5
-[606]Poder de la Naturaleza Nivel 6",1,452,0,1,999,0,6,4,1,718
-0,1,Puede eclosionar mascota - Cabeza de Huevo de Hoja Naranja,0,item-icon-675,675,Cabeza de Huevo de Hoja Naranja,1,453,0,1,999,0,6,4,1,718
-0,1,Puede eclosionar mascota - Soldado Esqueleto,0,item-icon-676,676,Soldado Esqueleto,1,454,0,1,999,0,6,4,1,718
-0,1,Puede eclosionar mascota - Espíritu Oscuro de Nieve,0,item-icon-677,677,Espíritu Oscuro de Nieve,1,455,0,1,999,0,6,5,1,718
-0,1,Puede eclosionar mascota - Behemoth de las Sombras,0,item-icon-678,678,Behemoth de las Sombras,1,456,0,1,999,0,6,5,1,718
-0,1,Puede eclosionar mascota - Capitán Esqueleto,0,item-icon-679,679,Capitán Esqueleto,1,457,0,1,999,0,6,5,1,718
-0,1,Puede eclosionar mascota - Gigante de Concha de Hielo,0,item-icon-680,680,Gigante de Caparazón de Hielo,1,458,0,1,999,0,6,6,1,718
-0,1,Puede eclosionar mascota - Conejo Mago,0,item-icon-681,681,Mago Conejo,1,459,0,1,999,0,6,6,1,718
-0,1,Puede eclosionar mascota - Arquero Esqueleto,0,item-icon-682,682,Arquero Esqueleto,1,460,0,1,999,0,6,6,1,718
-0,1,Puede eclosionar mascota - Pequeño Señor Supremo Deslumbrante,0,item-icon-683,683,Pequeño Señor Supremo Deslumbrante,1,461,0,1,999,0,6,7,1,718
-0,1,Puede eclosionar mascota - Centinela de Fuego y Roca,0,item-icon-684,684,Centinela de Fuego y Roca,1,462,0,1,999,0,6,7,1,718
-0,1,Puede eclosionar mascota - Centinela de Roca Gigante,0,item-icon-685,685,Centinela de Roca Gigante,1,463,0,1,999,0,6,7,1,718
-0,1,Puede eclosionar mascota - Bestia de Roca con Rayas Amarillas,0,item-icon-686,686,Bestia de Roca de Rayas Amarillas,1,466,0,1,999,0,6,8,1,718
-0,1,Puede eclosionar mascota - Guardián de Águila de Ojos Sabios,0,item-icon-687,687,Guardián de Águila de Ojos Sabios,1,465,0,1,999,0,6,8,1,718
-0,1,Puede eclosionar mascota - Joven Dragón de Luz Estelar,0,item-icon-688,688,Joven Dragón de Luz Estelar,1,464,0,1,999,0,6,8,1,718
-0,1,Puede eclosionar mascota - Espíritu de Luz Enigmático,0,item-icon-689,689,Espíritu de Luz Enigmático,1,467,0,1,999,0,6,9,1,718
-0,1,Puede eclosionar mascota - Espíritu Tallado de Piedra Verde,0,item-icon-690,690,Espíritu Tallado de Piedra Verde,1,468,0,1,999,0,6,9,1,718
-0,1,Puede eclosionar mascota - Escudo de Púas Sonriente,0,item-icon-691,691,Escudo Sonriente de Púas,1,469,0,1,999,0,6,9,1,718
+[606]Poder de la Naturaleza Nivel 6",1,452,0,1,999,0,6,4,1,"718,1"
+0,1,Puede eclosionar mascota - Cabeza de Huevo de Hoja Naranja,0,item-icon-675,675,Cabeza de Huevo de Hoja Naranja,1,453,0,1,999,0,6,4,1,"718,1"
+0,1,Puede eclosionar mascota - Soldado Esqueleto,0,item-icon-676,676,Soldado Esqueleto,1,454,0,1,999,0,6,4,1,"718,1"
+0,1,Puede eclosionar mascota - Espíritu Oscuro de Nieve,0,item-icon-677,677,Espíritu Oscuro de Nieve,1,455,0,1,999,0,6,5,1,"718,1"
+0,1,Puede eclosionar mascota - Behemoth de las Sombras,0,item-icon-678,678,Behemoth de las Sombras,1,456,0,1,999,0,6,5,1,"718,1"
+0,1,Puede eclosionar mascota - Capitán Esqueleto,0,item-icon-679,679,Capitán Esqueleto,1,457,0,1,999,0,6,5,1,"718,1"
+0,1,Puede eclosionar mascota - Gigante de Concha de Hielo,0,item-icon-680,680,Gigante de Caparazón de Hielo,1,458,0,1,999,0,6,6,1,"718,1"
+0,1,Puede eclosionar mascota - Conejo Mago,0,item-icon-681,681,Mago Conejo,1,459,0,1,999,0,6,6,1,"718,1"
+0,1,Puede eclosionar mascota - Arquero Esqueleto,0,item-icon-682,682,Arquero Esqueleto,1,460,0,1,999,0,6,6,1,"718,1"
+0,1,Puede eclosionar mascota - Pequeño Señor Supremo Deslumbrante,0,item-icon-683,683,Pequeño Señor Supremo Deslumbrante,1,461,0,1,999,0,6,7,1,"718,1"
+0,1,Puede eclosionar mascota - Centinela de Fuego y Roca,0,item-icon-684,684,Centinela de Fuego y Roca,1,462,0,1,999,0,6,7,1,"718,1"
+0,1,Puede eclosionar mascota - Centinela de Roca Gigante,0,item-icon-685,685,Centinela de Roca Gigante,1,463,0,1,999,0,6,7,1,"718,1"
+0,1,Puede eclosionar mascota - Bestia de Roca con Rayas Amarillas,0,item-icon-686,686,Bestia de Roca de Rayas Amarillas,1,466,0,1,999,0,6,8,1,"718,1"
+0,1,Puede eclosionar mascota - Guardián de Águila de Ojos Sabios,0,item-icon-687,687,Guardián de Águila de Ojos Sabios,1,465,0,1,999,0,6,8,1,"718,1"
+0,1,Puede eclosionar mascota - Joven Dragón de Luz Estelar,0,item-icon-688,688,Joven Dragón de Luz Estelar,1,464,0,1,999,0,6,8,1,"718,1"
+0,1,Puede eclosionar mascota - Espíritu de Luz Enigmático,0,item-icon-689,689,Espíritu de Luz Enigmático,1,467,0,1,999,0,6,9,1,"718,1"
+0,1,Puede eclosionar mascota - Espíritu Tallado de Piedra Verde,0,item-icon-690,690,Espíritu Tallado de Piedra Verde,1,468,0,1,999,0,6,9,1,"718,1"
+0,1,Puede eclosionar mascota - Escudo de Púas Sonriente,0,item-icon-691,691,Escudo Sonriente de Púas,1,469,0,1,999,0,6,9,1,"718,1"
 "1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
-",97,item-icon-692,692,Semilla de bambú de nivel 1,1,,0,1,999,0,3,1,1,718
+",97,item-icon-692,692,Semilla de bambú de nivel 1,1,,0,1,999,0,3,1,1,"718,1"
 "1,3,4",1,"Puedes obtener este objeto a través de síntesis.
 Se puede usar para fabricar equipo o objetos.
 -------
@@ -2752,37 +2752,37 @@ Contiene una fuerte fuerza natural. Puede ser utilizado en mascotas.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-702,702,Nivel 3 Alimento,1,436,0,1,3,0,3,0,1,718
+",27,item-icon-702,702,Nivel 3 Alimento,1,436,0,1,3,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-703,703,Nivel 4 Alimento,1,437,0,1,4,0,3,0,1,718
+",27,item-icon-703,703,Nivel 4 Alimento,1,437,0,1,4,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-704,704,Nivel 5 Alimento,1,438,0,1,5,0,3,0,1,718
+",27,item-icon-704,704,Nivel 5 Alimento,1,438,0,1,5,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-705,705,Nivel 6 Alimento,1,439,0,1,6,0,3,0,1,718
+",27,item-icon-705,705,Nivel 6 Alimento,1,439,0,1,6,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-706,706,Nivel 7 Alimento,1,440,0,1,7,0,3,0,1,718
+",27,item-icon-706,706,Nivel 7 Alimento,1,440,0,1,7,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-707,707,Nivel 8 Alimento,1,441,0,1,8,0,3,0,1,718
+",27,item-icon-707,707,Nivel 8 Alimento,1,441,0,1,8,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Su uso puede desencadenar efectos especiales.
 -------
 El alimento para mascotas es un objeto consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, convirtiéndolo en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-708,708,Nivel 9 Alimento,1,442,0,1,9,0,3,0,1,718
+",27,item-icon-708,708,Nivel 9 Alimento,1,442,0,1,9,0,3,0,1,"718,1"
 "1,3,4",1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
@@ -2833,15 +2833,15 @@ Se puede usar para fabricar equipo o objetos.
 -------
 ",0,item-icon-718,718,Medalla del Valiente,1,38,0,2,999,0,4,0,1,
 0,0,"Vacío
-",97,item-icon-719,719,Semilla del Tótem A,1,,1,1,999,0,3,0,1,718
+",97,item-icon-719,719,Semilla del Tótem A,1,,1,1,999,0,3,0,1,"718,1"
 0,0,"Vacío
-",97,item-icon-720,720,Semilla del Tótem B,1,,1,1,999,0,3,0,1,718
+",97,item-icon-720,720,Semilla del Tótem B,1,,1,1,999,0,3,0,1,"718,1"
 0,0,"Vacío
-",97,item-icon-721,721,Semilla del Tótem C,1,,1,1,999,0,3,0,1,718
+",97,item-icon-721,721,Semilla del Tótem C,1,,1,1,999,0,3,0,1,"718,1"
 0,0,"Vacío
-",97,item-icon-722,722,Semilla del Tótem D,1,,1,1,999,0,3,0,1,718
+",97,item-icon-722,722,Semilla del Tótem D,1,,1,1,999,0,3,0,1,"718,1"
 0,0,"Vacío
-",97,item-icon-723,723,Semilla del Tótem E,1,,1,1,999,0,3,0,1,718
+",97,item-icon-723,723,Semilla del Tótem E,1,,1,1,999,0,3,0,1,"718,1"
 "1,3,4",1," Un recuerdo obtenido al derrotar al Samurai de la Espada Errante.
 ",0,item-icon-725,725,Medalla del Samurai de la Espada Errante,1,476,0,2,999,0,4,0,1,
 "1,3,4",1, Un recuerdo obtenido al derrotar al Obispo Espectro.,0,item-icon-726,726,Medalla del Obispo Espectro,1,475,0,2,999,0,4,0,1,
@@ -2890,15 +2890,15 @@ Crear inmediatamente una tarea de fichas.",0,item-icon-737,737,Combate 7-9,1,409
 "1,3,4",1, Vacío,0,item-icon-744,744,Fragmento de Equipo de Combate de Nivel 7,1,52,0,2,999,0,4,7,1,
 "1,3,4",1, Vacío,0,item-icon-745,745,Fragmento de Equipo de Combate de Nivel 8,1,52,0,2,999,0,4,8,1,
 "1,3,4",1, Vacío,0,item-icon-746,746,Fragmento de Equipo de Combate de Nivel 9,1,52,0,2,999,0,4,9,1,
-"1,3,4",1, Vacío,0,item-icon-747,747,Fragmento de Equipo de Agricultura de Nivel 1,1,50,0,1,999,0,4,1,1,718
-"1,3,4",1, Vacío,0,item-icon-748,748,Fragmento de Equipo de Agricultura de Nivel 2,1,50,0,1,999,0,4,2,1,718
-"1,3,4",1, Vacío,0,item-icon-749,749,Fragmento de Equipo de Agricultura de Nivel 3,1,50,0,1,999,0,4,3,1,718
-"1,3,4",1, Vacío,0,item-icon-750,750,Fragmento de Equipo de Agricultura de Nivel 4,1,50,0,1,999,0,4,4,1,718
-"1,3,4",1, Vacío,0,item-icon-751,751,Fragmento de Equipo de Agricultura de Nivel 5,1,50,0,1,999,0,4,5,1,718
-"1,3,4",1, Vacío,0,item-icon-752,752, Fragmento de equipo de agricultura de nivel 6,1,50,0,1,999,0,4,6,1,718
-"1,3,4",1, Vacío,0,item-icon-753,753, Fragmento de equipo de agricultura de nivel 7,1,50,0,1,999,0,4,7,1,718
-"1,3,4",1, Vacío,0,item-icon-754,754, Fragmento de equipo de agricultura de nivel 8,1,50,0,1,999,0,4,8,1,718
-"1,3,4",1, Vacío,0,item-icon-755,755, Fragmento de equipo de agricultura de nivel 9,1,50,0,1,999,0,4,9,1,718
+"1,3,4",1, Vacío,0,item-icon-747,747,Fragmento de Equipo de Agricultura de Nivel 1,1,50,0,1,999,0,4,1,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-748,748,Fragmento de Equipo de Agricultura de Nivel 2,1,50,0,1,999,0,4,2,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-749,749,Fragmento de Equipo de Agricultura de Nivel 3,1,50,0,1,999,0,4,3,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-750,750,Fragmento de Equipo de Agricultura de Nivel 4,1,50,0,1,999,0,4,4,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-751,751,Fragmento de Equipo de Agricultura de Nivel 5,1,50,0,1,999,0,4,5,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-752,752, Fragmento de equipo de agricultura de nivel 6,1,50,0,1,999,0,4,6,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-753,753, Fragmento de equipo de agricultura de nivel 7,1,50,0,1,999,0,4,7,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-754,754, Fragmento de equipo de agricultura de nivel 8,1,50,0,1,999,0,4,8,1,"718,1"
+"1,3,4",1, Vacío,0,item-icon-755,755, Fragmento de equipo de agricultura de nivel 9,1,50,0,1,999,0,4,9,1,"718,1"
 "1,3,4",1, Vacío,0,item-icon-756,756, Fragmento de equipo de recolección de nivel 1,1,54,0,3,999,0,4,1,1,
 "1,3,4",1,Vacío,0,item-icon-757,757, Fragmento de equipo de recolección de nivel 2,1,54,0,3,999,0,4,2,1,
 "1,3,4",1,Vacío,0,item-icon-758,758, Fragmento de equipo de recolección de nivel 3,1,54,0,3,999,0,4,3,1,
@@ -2920,13 +2920,13 @@ Crear inmediatamente una tarea de token.",0,item-icon-767,767, Recolectar 4-6,1,
 Crear inmediatamente una tarea de token.",0,item-icon-768,768, Recolectar 7-9,1,412,0,3,999,2,7,0,1,
 "1,3,4",1,"Recompensa diaria de clasificación...
 -------
-Crear inmediatamente una tarea de token.",0,item-icon-769,769, Agricultura 0-3,1,404,0,1,999,2,7,0,1,718
+Crear inmediatamente una tarea de token.",0,item-icon-769,769, Agricultura 0-3,1,404,0,1,999,2,7,0,1,"718,1"
 "1,3,4",1,"Recompensa diaria de clasificación...
 -------
-Crear inmediatamente una tarea de token.",0,item-icon-770,770, Agricultura 4-6,1,405,0,1,999,2,7,0,1,718
+Crear inmediatamente una tarea de token.",0,item-icon-770,770, Agricultura 4-6,1,405,0,1,999,2,7,0,1,"718,1"
 "1,3,4",1,"Recompensa diaria de clasificación...
 -------
-Crear inmediatamente una tarea de token.",0,item-icon-771,771, Agricultura 7-9,1,406,0,1,999,2,7,0,1,718
+Crear inmediatamente una tarea de token.",0,item-icon-771,771, Agricultura 7-9,1,406,0,1,999,2,7,0,1,"718,1"
 "1,3,4",1,Se puede intercambiar por tokens $SONIC.,0,item-icon-772,772, Punto de Odisea Sónica,1,,0,"1,2,3",999,0,4,0,1,
 0,0,,0,item-icon-773,773,,1,,0,"1,2,3",999,0,4,0,1,
 0,0,,0,item-icon-774,774,,1,,0,"1,2,3",999,0,4,0,1,

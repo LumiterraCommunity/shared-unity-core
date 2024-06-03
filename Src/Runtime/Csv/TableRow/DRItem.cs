@@ -159,9 +159,9 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
-  /**获取boothFees-int。*/
+  /**获取boothFees-int[][]。*/
     /// </summary>
-    public int BoothFees
+    public int[][] BoothFees
     {
         get;
         private set;
@@ -188,7 +188,7 @@ public class DRItem : DataRowBase
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UserType = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        BoothFees = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        BoothFees = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -216,7 +216,7 @@ public class DRItem : DataRowBase
                 Type = binaryReader.Read7BitEncodedInt32();
                 UseLv = binaryReader.Read7BitEncodedInt32();
                 UserType = binaryReader.Read7BitEncodedInt32();
-                BoothFees = binaryReader.Read7BitEncodedInt32();
+                BoothFees = binaryReader.ReadArrayList<Int32>();
             }
         }
 
