@@ -40,43 +40,43 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,"Por amor y paz, por favor, dame esto.
 ",0,"3,84",20,1,24,Coleccionando,,,"{""options"":[{""optionType"":1,""value"":""30,1,100;58,3,200""},{""optionType"":1,""value"":""30,1,100""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101}]}","Cuando la salud del monstruo sea inferior a la mitad, entrará en un estado de ira rodeado de magia. En este punto, el monstruo obtendrá algunos beneficios poderosos. Pero si puedes ponerlo en un estado débil con humo negro, podrás derrotarlo más fácilmente.
-Ayuda al Tirador a matar a un Perro de Metal.",0,"2,160",21,0,12,Nuevo comienzo,,,,
+Ayuda al Tirador a matar a un Perro de Metal.",0,"2,200",21,0,12,Nuevo comienzo,,,,
 "{""options"":[{""optionType"":13,""value"":""657,80,512,10"",""guiderPoint"":30101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":2101}]}","Abre tu mochila y equipa tu espada para matar a 5 Perros de Metal.
-Entra en la ciudad y encuentra a Nash.",0,"2,117",22,0,11,Inteligencia,,21,,
+Entra en la ciudad y encuentra a Nash.",0,"2,200",22,0,11,Inteligencia,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," [25]- Presiona [Esc] para abrir la interfaz de tu árbol de talentos
 - selecciona mejorar rama principal
 - selecciona mejorar habilidad de Pisotón de Guerra
-- coloca la habilidad en la ranura rápida",0,"2,117",23,0,0,Echar una mano,,22,,
+- coloca la habilidad en la ranura rápida",0,"2,200",23,0,0,Echar una mano,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Usa una azada para aflojar la tierra en el campo y luego usa semillas para sembrar en la tierra aflojada.
-Planta 5 Semillas de Bambú, 5 Semillas de Trébol y 5 Semillas de Zanahoria en el campo.",0,"1,117",24,0,31,Labrar y sembrar,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,5"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,5"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"1,117",25,0,13,Regar y cosechar con paciencia,,24,,
-"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Abre la recolección de artesanía y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,117",26,0,32,Esencia de una profesión,,210,,
-"{""options"":[{""optionType"":3,""value"":""58,5"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,5"",""guiderPoint"":3501}]}","Obtén 5 Maderas Ordinarias.
-Obtén 5 Piedras.",0,"3,117",27,0,43,Recolectar algunas cosas buenas,,25,,
-"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Obtén 5 Maderas Ordinarias y 5 Fibras para hacer un Pico de Hierro.,0,"3,117",28,0,44,Creando un pico de hierro,,211,,
+Planta 5 Semillas de Bambú, 5 Semillas de Trébol y 5 Semillas de Zanahoria en el campo.",0,"1,200",24,0,31,Labrar y sembrar,,45,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"1,200",25,0,13,Regar y cosechar con paciencia,,24,,
+"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Abre la recolección de artesanía y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,200",26,0,32,Esencia de una profesión,,210,,
+"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501}]}","Obtén 5 Maderas Ordinarias.
+Obtén 5 Piedras.",0,"3,200",27,0,43,Recolectar algunas cosas buenas,,25,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Obtén 5 Maderas Ordinarias y 5 Fibras para hacer un Pico de Hierro.,0,"3,200",28,0,44,Creando un pico de hierro,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta obtener algunos materiales más avanzados:
 Obtén un Mineral de Hierro Oscuro.
 Obtén un Árbol del Desierto.
-Obtén un Hongo de Gorro de Hielo.",0,"3,117",29,0,42,Desafío de recolección avanzada,,28,,
-"{""options"":[{""optionType"":4,""value"":""8,5"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,5"",""guiderPoint"":3401}]}","Basado en la última inteligencia:
+Obtén un Hongo de Gorro de Hielo.",0,"3,200",29,0,42,Desafío de recolección avanzada,,28,,
+"{""options"":[{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}","Basado en la última inteligencia:
 Guerreros Cactus: Tienen una alta defensa, usando ataques pesados se puede romper su defensa.
-Demonios Calabaza: Poseen habilidades a distancia, usando Pisoteo se les impide usar habilidades a distancia.",0,"2,117",30,0,40,Darles una lección,,211,,
+Demonios Calabaza: Poseen habilidades a distancia, usando Pisoteo se les impide usar habilidades a distancia.",0,"2,200",30,0,40,Darles una lección,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}","Intenta hacer una Espada de Piedra en la Artesanía de Combate, armas más fuertes te harán sentir más relajado en la batalla.
-Antes de eso, necesitas desbloquear la receta de la Espada de Piedra en el árbol de talentos.",0,"2,117",32,0,30,Creando una espada de piedra,,30,,
+Antes de eso, necesitas desbloquear la receta de la Espada de Piedra en el árbol de talentos.",0,"2,200",32,0,30,Creando una espada de piedra,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta derrotar a monstruos más fuertes:
 Mata a un Amigo Zumbador.
 Mata a un Gato Minero.
-Mata a un Acechador Hojoso.",0,"2,117",33,0,41,Desafío de combate avanzado,,32,,
-"{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Abre tu árbol de talentos y cambia al árbol de agricultura. Mejora tu habilidad de Captura en el nodo más a la derecha.,0,"1,117",34,0,35,Dominar la captura,,211,,
+Mata a un Acechador Hojoso.",0,"2,200",33,0,41,Desafío de combate avanzado,,32,,
+"{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Abre tu árbol de talentos y cambia al árbol de agricultura. Mejora tu habilidad de Captura en el nodo más a la derecha.,0,"1,200",34,0,35,Dominar la captura,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}"," [64]Captura a Metal Mutt y Pumpkin Fiend usando habilidades de captura.
 Regresa a casa y usa un cepillo para acariciar a tu mascota y obtener suficientes tornillos y brotes de calabaza.
-",0,"1,117",162,0,34,"[64]Aprender a criar
+",0,"1,200",162,0,34,"[64]Aprender a criar
 ",,34,,
-"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":3,""value"":""80,1"",""guiderPoint"":0}]}","Si quieres que tus cultivos crezcan más rápido, necesitas una azada más avanzada. Intenta fabricar una Azada de Hierro.",0,"1,117",35,0,0,Creando una azada de hierro,,162,,
+"{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":3,""value"":""80,1"",""guiderPoint"":0}]}","Si quieres que tus cultivos crezcan más rápido, necesitas una azada más avanzada. Intenta fabricar una Azada de Hierro.",0,"1,200",35,0,0,Creando una azada de hierro,,162,,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta plantar semillas más avanzadas:
 Planta semillas de Algodón.
 Planta semillas de Planta Jarra.
-Planta semillas de Fruta de Resistencia.",0,"1,117",36,0,39,Desafío de agricultura avanzada,,46,,
+Planta semillas de Fruta de Resistencia.",0,"1,200",36,0,39,Desafío de agricultura avanzada,,46,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Ve a la tienda y compra algo.,0,"1,117;2,117;3,117",37,0,0,Transacción 1,,"33,29,36",,
 ,Los monstruos están desenfrenados. Ve y extermina a ellos.,0,"2,84",38,1,138,Batalla diaria - Nivel 1,,,"{""options"":[{""optionType"":4,""value"":""6,2,100;8,2,100;7,2,100""}]}",
 ,Los monstruos están desenfrenados. Ve y extermina a ellos.,0,"2,118",39,1,139,Batalla diaria - Nivel 2,,,"{""options"":[{""optionType"":4,""value"":""9,2,100;10,2,100;11,2,100""}]}",
@@ -85,9 +85,9 @@ Planta semillas de Fruta de Resistencia.",0,"1,117",36,0,39,Desafío de agricult
 ,Cázalos y trae de vuelta algo de botín.,0,"2,118",42,1,139,Batalla diaria - Nivel 2,,,"{""options"":[{""optionType"":4,""value"":""9,1,100;11,1,100;10,1,100""},{""optionType"":1,""value"":""33,1,200;34,1,200;35,1,200""}]}",
 ,Cázalos y trae de vuelta algo de botín,0,"2,168",43,1,140,Batalla diaria - Nivel 3,,,"{""options"":[{""optionType"":4,""value"":""12,1,100;14,1,100;13,1,100""},{""optionType"":1,""value"":""36,1,200;37,1,200;38,1,200""}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Ve a la tienda y compra algo.,0,"1,117;2,117;3,117",44,0,0,Transacción 2,,37,,
-"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}","Terrance probablemente esté en la ciudad, vamos a buscarlo y llevarle una malla de alambre.",0,"1,117",45,0,17,Granjero Terrance,,23,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}","Terrance probablemente esté en la ciudad, vamos a buscarlo y llevarle una malla de alambre.",0,"1,200",45,0,17,Granjero Terrance,,23,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","[18] Vacío
-",0,"1,117",46,0,0,Capturar perros y producir,,45,,
+",0,"1,200",46,0,0,Capturar perros y producir,,45,,
 ,Dame esto.,0,"2,84",47,1,138,Batalla diaria - Nivel 1,,,"{""options"":[{""optionType"":1,""value"":""30,2,200;31,2,200;32,2,200""}]}",
 ,Dame esto.,0,"2,118",48,1,139,Batalla diaria - Nivel 2,,,"{""options"":[{""optionType"":1,""value"":""33,2,200;34,2,200;35,2,200""}]}",
 ,Dame esto.,0,"2,168",49,1,140,Batalla diaria - Nivel 3,,,"{""options"":[{""optionType"":1,""value"":""36,2,200;37,2,200;38,2,200""}]}",
@@ -241,7 +241,7 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}"," [162]Demuestra aún más tu fuerza matando a los siguientes monstruos. Después de completarlo, se desbloqueará la arena.
 ",0,"2,672",168,0,0," [70]Matar monstruos en el Dominio Antiguo 
 ",,165,,21003
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}"," [163]Entrega estos objetos y se desbloqueará la arena individual.
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}"," [163]Entrega estos objetos y se desbloqueará la arena individual.
 ",0,"2,84",169,0,0," [163]Solista #1
 ",,163,,22001
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}"," [164]Entrega estos objetos y se desbloqueará la arena individual.
@@ -301,11 +301,11 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 ,,0,"3,2352",207,1,0, [201]Recompensa-Recolectar-9,,,"{""options"":[{""optionType"":1,""value"":""490,1,200;490,2,200;490,1,200""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",208,0,0,,,21,,30001
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",209,0,0,,,21,,30002
-"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}",,0,"2,117",210,0,0,,,27,,
-"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105},{""optionType"":13,""value"":""696,83,1345,10"",""guiderPoint"":30106}]}",,0,"2,117",211,0,0,,,216,,
-"{""options"":[{""optionType"":3,""value"":""482,1"",""guiderPoint"":30101}]}",,0,"2,117",212,0,0,,,26,,
-"{""options"":[{""optionType"":2,""value"":""709,1"",""guiderPoint"":30101}]}",,0,"2,117",213,0,0,,,212,,
-"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}",,0,"2,117",214,0,0,,,213,,
-"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}",,0,"2,117",215,0,0,,,214,,
-"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}",,0,"2,117",216,0,0,,,215,,
-"{""options"":[{""optionType"":1,""value"":""32,2"",""guiderPoint"":30102}]}",,0,"2,117",217,0,0,,,211,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",210,0,0,,,27,,
+"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105},{""optionType"":13,""value"":""696,83,1345,10"",""guiderPoint"":30106}]}",,0,"3,200",211,0,0,,,216,,
+"{""options"":[{""optionType"":3,""value"":""482,1"",""guiderPoint"":30101}]}",,0,"2,200",212,0,157,,,26,,
+"{""options"":[{""optionType"":2,""value"":""709,1"",""guiderPoint"":30101}]}",,0,"2,200",213,0,158,,,212,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",214,0,0,,,213,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",215,0,0,,,214,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",216,0,0,,,215,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"1,200",217,0,0,,,211,,
