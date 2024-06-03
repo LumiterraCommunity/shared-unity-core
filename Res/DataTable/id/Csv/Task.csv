@@ -49,8 +49,8 @@ Masuk ke kota dan temukan Nash.",0,"2,200",22,0,11,Intelligence,,21,,
 - letakkan keterampilan tersebut di slot cepat",0,"2,200",23,0,0,Lend a Hand,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Gunakan cangkul untuk melonggarkan tanah di ladang, lalu gunakan biji untuk menabur di tanah yang telah dilonggarkan.
 Tanam 5 Biji Bambu, 5 Biji Trifolium, dan 5 Biji Wortel di ladang.",0,"1,200",24,0,31,Hoeing and Seeding,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"1,200",25,0,13,Patient Watering and Harvesting,,24,,
-"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Buka Gather Crafting dan rafinasi Gather Essence. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,200",26,0,32,Essence of a Profession,,210,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"3,200",25,0,13,Patient Watering and Harvesting,,24,,
+"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Buka Gather Crafting dan rafinasi Gather Essence. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,200",26,0,32,Essence of a Profession,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501}]}","Dapatkan 5 Kayu Biasa.
 Dapatkan 5 Batu.",0,"3,200",27,0,43,Gather Some Goodies,,25,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,200",28,0,44,Crafting an Iron Pickaxe,,217,,
@@ -316,7 +316,7 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Dom
 ,,0,"3,2352",207,1,0, [201]Reward-Gather-9: Hadiah Pengumpulan-9,,,"{""options"":[{""optionType"":1,""value"":""490,1,200;490,2,200;490,1,200""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",208,0,0,,,21,,30001
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",209,0,0,,,21,,30002
-"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",210,0,0,,,27,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"3,200",210,0,0,,,26,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105},{""optionType"":13,""value"":""696,83,1345,10"",""guiderPoint"":30106}]}",,0,"3,200",211,0,0,,,216,,
 "{""options"":[{""optionType"":3,""value"":""482,1"",""guiderPoint"":30101}]}",,0,"2,200",212,0,157,,,26,,
 "{""options"":[{""optionType"":2,""value"":""709,1"",""guiderPoint"":30101}]}",,0,"2,200",213,0,158,,,212,,

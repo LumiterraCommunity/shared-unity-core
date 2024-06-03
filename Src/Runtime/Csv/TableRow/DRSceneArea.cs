@@ -213,6 +213,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取randomSeeds-string[][]。*/
+    /// </summary>
+    public string[][] RandomSeeds
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取releaseTime-int[][]。*/
     /// </summary>
     public int[][] ReleaseTime
@@ -275,6 +284,7 @@ public class DRSceneArea : DataRowBase
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        RandomSeeds = DataTableParseUtil.ParseArrayList<string>(columnStrings[index++]);
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -312,6 +322,7 @@ public class DRSceneArea : DataRowBase
                 Desc = binaryReader.ReadString();
                 Name = binaryReader.ReadString();
                 PunishDesc = binaryReader.ReadString();
+                RandomSeeds = binaryReader.ReadArrayList<String>();
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
