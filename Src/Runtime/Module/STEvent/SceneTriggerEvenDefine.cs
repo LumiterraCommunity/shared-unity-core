@@ -29,7 +29,8 @@ public enum eSTActionType : int
     None = 0,
     STARandomSelector = 1, //权重随机选择
     STAAddSKillEffect = 2, //实体添加技能效果
-
+    STAHomeAttributeModify = 3, //家园对象属性修改
+    STASoilBehavior = 4, //作物行为
 }
 
 public enum eSTConditionCheckType : int

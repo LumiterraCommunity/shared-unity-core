@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -24,4 +25,9 @@ public interface IHomeSoilMgr
     /// <param name="id"></param>
     /// <returns></returns>
     public HomeSoilCore GetSoil(ulong id);
+    /// <summary>
+    /// 获取所有的土地 不要修改内部结构 没有分配GC
+    /// </summary>
+    /// <returns></returns>
+    IEnumerable<HomeSoilCore> GetAllSoil();
 }
