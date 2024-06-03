@@ -1,4 +1,4 @@
-canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],resourceInstructions-int[],subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int,boothFees-int
+canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,quality-int[],resourceInstructions-int[],subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int,boothFees-int[][]
 "1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -172,87 +172,87 @@ Le bois sombre est un type de bois de qualité supérieure avec des textures noi
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce type de bambou est une production agricole et une plante utilisée pour fabriquer diverses matières premières agricoles. Il est très courant en agriculture et peut pousser très rapidement.
-",0,item-icon-70,70,Lv 1 Bambou,1,87,0,1,"1,0",1,4,1,1,718
+",0,item-icon-70,70,Lv 1 Bambou,1,87,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cet article est une matière première produite en agriculture, généralement récoltable au niveau 1. Sa forme ressemble à trois feuilles, d'où son nom de trèfle. Il peut être utilisé pour fabriquer de nombreux objets différents et est une ressource très utile.
-",0,item-icon-71,71,Lv 1 Trèfle,1,88,0,1,"1,0",1,4,1,1,718
+",0,item-icon-71,71,Lv 1 Trèfle,1,88,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette carotte est une production agricole de niveau 1 qui peut être obtenue dans le champ agricole. C'est une matière première importante.
-",0,item-icon-72,72,Lv 1 Carotte,1,89,0,1,"1,0",1,4,1,1,718
+",0,item-icon-72,72,Lv 1 Carotte,1,89,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Les plantes carnivores sont un type de plante unique qui peut attirer et capturer des insectes comme source de nourriture. Elles sont considérées comme l'une des productions agricoles et peuvent être utilisées comme matières premières dans le domaine agricole.
-",0,item-icon-73,73,Lv 2 Plante carnivore,1,90,0,1,2,1,4,2,1,718
+",0,item-icon-73,73,Lv 2 Plante carnivore,1,90,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce coton est de qualité de deuxième classe et convient à la fabrication de textiles.
-",0,item-icon-74,74,Lv 2 Coton,1,91,0,1,2,1,4,2,1,718
+",0,item-icon-74,74,Lv 2 Coton,1,91,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce fruit de la patience est une matière première produite en agriculture, qui peut être plantée dans une ferme de niveau 2 et donne 2 à 3 fruits à chaque fois. Il présente les caractéristiques d'une grande durabilité et d'une longue durée de conservation, et est un matériau important pour la fabrication de divers aliments et médicaments.
-",0,item-icon-75,75,Lv 2 Fruit d'endurance,1,92,0,1,2,1,4,2,1,718
+",0,item-icon-75,75,Lv 2 Fruit d'endurance,1,92,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce piment fort est de niveau 3 et extrêmement épicé, adapté à ceux qui aiment la cuisine épicée. Il est produit par l'agriculture et peut être cultivé dans les champs. En tant que matière première agricole, il peut être utilisé pour fabriquer divers produits à base de piment, tels que la sauce piquante et l'huile de piment.
-",0,item-icon-76,76,Lv 3 Piment fort,1,93,0,1,3,1,4,3,1,718
+",0,item-icon-76,76,Lv 3 Piment fort,1,93,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce fruit dur est une matière première agricole à haut rendement qui peut être utilisée pour fabriquer divers aliments et médicaments. Il a une texture dure et des composants nutritionnels riches, ce qui en fait une partie indispensable de la production agricole.
-",0,item-icon-77,77,Lv 3 Fruit dur,1,94,0,1,3,1,4,3,1,718
+",0,item-icon-77,77,Lv 3 Fruit dur,1,94,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ce champignon bleu est une espèce de champignon de qualité supérieure qui est généralement produite dans le secteur agricole. C'est une matière première très précieuse qui peut être utilisée pour fabriquer des médicaments et des plats gastronomiques.
-",0,item-icon-78,78,Lv 3 Champignon bleu,1,95,0,1,3,1,4,3,1,718
+",0,item-icon-78,78,Lv 3 Champignon bleu,1,95,0,1,3,1,4,3,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Cet outil de jardinage peut vous aider à labourer le sol et à désherber facilement. Il convient aux débutants.
-",0,item-icon-79,79,Lv 0 Houe en bois,1,180,0,1,999,0,1,0,1,718
+",0,item-icon-79,79,Lv 0 Houe en bois,1,180,0,1,999,0,1,0,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 La Houe en Fer est un outil de jardinage durable fabriqué en fer solide. Il est essentiel pour labourer le sol et cultiver les cultures efficacement dans le jeu.
-",0,item-icon-80,80,Lv 1 Houe en fer,1,187,0,1,999,0,1,1,1,718
+",0,item-icon-80,80,Lv 1 Houe en fer,1,187,0,1,999,0,1,1,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Cette houe peut aider les agriculteurs à cultiver la terre plus facilement, mais en même temps, elle apporte également quelques malédictions mystérieuses.
-",0,item-icon-81,81,Lv 2 Houe maudite,"1,2",190,0,1,999,0,1,2,1,718
+",0,item-icon-81,81,Lv 2 Houe maudite,"1,2",190,0,1,999,0,1,2,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 La Houe Bénie est un outil puissant qui améliore l'efficacité agricole et augmente les rendements des cultures. Elle rayonne d'une aura divine, imprégnant chaque coup de bénédictions qui favorisent une croissance saine et des récoltes abondantes. Avec cette houe enchantée en main, les joueurs peuvent cultiver leur terre avec facilité et ressentir la joie de récolter les fruits de leur travail acharné.
-",0,item-icon-82,82,Lv 3 Houe bénie,"1,2,3",198,0,1,999,0,1,3,1,718
+",0,item-icon-82,82,Lv 3 Houe bénie,"1,2,3",198,0,1,999,0,1,3,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Cette bouilloire en bois est un équipement adapté à une utilisation agricole, qui peut être utilisée pour contenir de l'eau propre ou de l'eau d'irrigation.
-",0,item-icon-83,83,Lv 0 Bouilloire en bois,1,181,0,1,999,0,1,0,1,718
+",0,item-icon-83,83,Lv 0 Bouilloire en bois,1,181,0,1,999,0,1,0,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Un ustensile de cuisine solide et fiable en fer durable. Il chauffe rapidement et uniformément, permettant une cuisson efficace. Sa poignée ergonomique assure une prise en main confortable lors du versement.
-",0,item-icon-84,84,Lv 1 Bouilloire en fer,1,188,0,1,999,0,1,1,1,718
+",0,item-icon-84,84,Lv 1 Bouilloire en fer,1,188,0,1,999,0,1,1,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Une bouilloire mystérieuse qui apporte le malheur à ceux qui la possèdent, causant le chaos et le désespoir. Son aura sombre émane d'une présence sinistre, tentant le destin à chaque infusion. Soyez prudent, car son pouvoir maudit peut transformer même les plus chanceux en victimes de leur propre destin.
-",0,item-icon-85,85,Lv 2 Bouilloire maudite,"1,2",191,0,1,999,0,1,2,1,718
+",0,item-icon-85,85,Lv 2 Bouilloire maudite,"1,2",191,0,1,999,0,1,2,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Un artefact sacré qui apporte des bénédictions et de la bonne fortune à son propriétaire, améliorant sa chance et lui offrant des opportunités inattendues. Cette bouilloire mystique est censée rayonner une énergie positive, attirant la prospérité et le bonheur partout où elle va. Une possession chérie pour ceux qui recherchent une touche d'intervention divine dans leur vie.
-",0,item-icon-86,86,Lv 3 Bouilloire bénie,"1,2,3",199,0,1,999,0,1,3,1,718
+",0,item-icon-86,86,Lv 3 Bouilloire bénie,"1,2,3",199,0,1,999,0,1,3,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte
 -------
@@ -297,62 +297,62 @@ Une arme puissante dotée de bénédictions divines, capable de fendre n'importe
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce chapeau élégant apporte de la chance à celui qui le porte, ajoutant une touche de charme à n'importe quelle tenue. Ses couleurs vives et son design complexe en font un accessoire indispensable pour les joueurs à la pointe de la mode. Portez-le et que la chance soit de votre côté !
-",0,item-icon-98,98,Lv 1 Chapeau trèfle chanceux,1,189,0,1,999,0,1,1,1,718
+",0,item-icon-98,98,Lv 1 Chapeau trèfle chanceux,1,189,0,1,999,0,1,1,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce chapeau élégant est fait de coton doux et confortable, apportant de la chance à celui qui le porte. Ses couleurs vives et son design complexe en font un accessoire à la mode pour n'importe quelle tenue. Avec ce chapeau, vous vous sentirez confiant et prêt à affronter n'importe quelle aventure.
-",0,item-icon-99,99,Lv 2 Chapeau en coton chanceux,"1,2",197,0,1,999,0,1,2,1,718
+",0,item-icon-99,99,Lv 2 Chapeau en coton chanceux,"1,2",197,0,1,999,0,1,2,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce solide casque de sécurité apporte de la chance à celui qui le porte, offrant une protection supplémentaire et augmentant ses chances de trouver des trésors précieux. Ses couleurs vives et sa construction robuste en font un favori parmi les joueurs aventureux.
-",0,item-icon-100,100,Lv 3 Casque dur chanceux,"1,2,3",205,0,1,999,0,1,3,1,718
+",0,item-icon-100,100,Lv 3 Casque dur chanceux,"1,2,3",205,0,1,999,0,1,3,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Une veste élégante parfaite pour les aventures en plein air, offrant chaleur et protection contre les éléments. Son matériau durable et son design pratique en font un accessoire indispensable pour tout aventurier. Restez confortable et élégant avec cette veste de récolte.
-",0,item-icon-101,101,Lv 1 Veste de fermier,1,184,0,1,999,0,1,1,1,718
+",0,item-icon-101,101,Lv 1 Veste de fermier,1,184,0,1,999,0,1,1,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Une veste durable conçue pour les agriculteurs, offrant une protection contre les éléments et les terrains accidentés. Ses coutures renforcées et son tissu robuste en font un choix idéal pour le travail en extérieur. Restez confortable et concentré sur vos tâches avec ce vêtement fiable.
-",0,item-icon-102,102,Lv 2 Veste de fermier,"1,2",193,0,1,999,0,1,2,1,718
+",0,item-icon-102,102,Lv 2 Veste de fermier,"1,2",193,0,1,999,0,1,2,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce pantalon est conçu pour les agriculteurs, offrant confort et durabilité pendant de longues heures de travail dans les champs. Fabriqué à partir de matériaux de haute qualité, il offre une excellente protection contre la saleté et les taches. Avec son design pratique et sa coupe ajustable, ce pantalon est un incontournable pour tout agriculteur dévoué.
-",0,item-icon-103,103,Lv 3 Veste de fermier,"1,2,3",202,0,1,999,0,1,3,1,718
+",0,item-icon-103,103,Lv 3 Veste de fermier,"1,2,3",202,0,1,999,0,1,3,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce pantalon agricole est spécialement conçu pour le travail agricole, avec des caractéristiques telles que l'imperméabilité et la résistance à l'abrasion, rendant votre travail sur le terrain plus confortable et sûr.
-",0,item-icon-104,104,Lv 1 Pantalon de fermier,1,185,0,1,999,0,1,1,1,718
+",0,item-icon-104,104,Lv 1 Pantalon de fermier,1,185,0,1,999,0,1,1,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce pantalon est spécialement conçu pour les travailleurs agricoles, fabriqué avec des matériaux de haute qualité qui sont confortables et durables. Il présente des fonctions telles que l'imperméabilité, la résistance aux taches et la résistance aux perforations, protégeant efficacement le corps et les vêtements du travailleur. De plus, il dispose de multiples poches et de designs détaillés pour faciliter le transport des outils et améliorer l'efficacité du travail.
-",0,item-icon-105,105,Lv 2 Pantalon de fermier,"1,2",194,0,1,999,0,1,2,1,718
+",0,item-icon-105,105,Lv 2 Pantalon de fermier,"1,2",194,0,1,999,0,1,2,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce gant est adapté à une utilisation dans les champs et peut protéger les mains des épines, de la saleté et d'autres objets pointus. Il a également une fonction antidérapante, vous rendant plus stable sur un sol humide.
-",0,item-icon-106,106,Lv 3 Pantalon de fermier,"1,2,3",203,0,1,999,0,1,3,1,718
+",0,item-icon-106,106,Lv 3 Pantalon de fermier,"1,2,3",203,0,1,999,0,1,3,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ces gants sont conçus spécialement pour les tâches agricoles, offrant une excellente adhérence et une protection contre les épines et les surfaces rugueuses. Ils sont fabriqués avec des matériaux durables pour résister aux longues heures de travail dans les champs. Avec ces gants, vous pouvez effectuer n'importe quel travail agricole avec facilité et confort.
-",0,item-icon-107,107,Lv 1 Gants de fermier,1,183,0,1,999,0,1,1,1,718
+",0,item-icon-107,107,Lv 1 Gants de fermier,1,183,0,1,999,0,1,1,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Ce gant est adapté au travail agricole, offrant une prise confortable et une protection pour aider les agriculteurs à accomplir diverses activités agricoles.
-",0,item-icon-108,108,Lv 2 Gants de fermier,"1,2",192,0,1,999,0,1,2,1,718
+",0,item-icon-108,108,Lv 2 Gants de fermier,"1,2",192,0,1,999,0,1,2,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
 Cette chaussure agricole est fabriquée à partir de matériaux de haute qualité, légers et confortables, adaptée à un port prolongé. La semelle est antidérapante et convient à différents champs agricoles, rendant votre travail plus facile.
-",0,item-icon-109,109,Lv 3 Gants de fermier,"1,2,3",201,0,1,999,0,1,3,1,718
+",0,item-icon-109,109,Lv 3 Gants de fermier,"1,2,3",201,0,1,999,0,1,3,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Augmentez la probabilité de collecter des ressources de niveau supérieur.
 -------
@@ -372,17 +372,17 @@ Ces chaussures sont conçues pour les collectionneurs passionnés, offrant une a
 Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
 Boostez la croissance de vos cultures avec cette formule puissante, garantissant une récolte abondante en un rien de temps. Améliorez votre efficacité agricole et observez vos plantes prospérer avec cet engrais puissant.
-",98,item-icon-128,128,Lv 0 Engrais accéléré,1,,0,1,999,0,3,0,1,718
+",98,item-icon-128,128,Lv 0 Engrais accéléré,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
 Un engrais pour augmenter les rendements des cultures, conçu spécifiquement pour la production agricole au niveau LV0 et supérieur. Il peut fournir des nutriments suffisants aux cultures, favoriser leur croissance et leur développement, et améliorer leur rendement et leur qualité.
-",98,item-icon-129,129,Lv 0 Engrais augmentant le rendement,1,,0,1,999,0,3,0,1,718
+",98,item-icon-129,129,Lv 0 Engrais augmentant le rendement,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
 Cette formule riche en nutriments nourrit en profondeur les plantes, favorisant une croissance saine et des floraisons vibrantes. Elle améliore la rétention d'humidité du sol, garantissant une hydratation prolongée des plantes. Boostez la vitalité de votre jardin avec cet engrais essentiel.
-",98,item-icon-130,130,Lv 0 Engrais hydratant,1,,0,1,999,0,3,0,1,718
+",98,item-icon-130,130,Lv 0 Engrais hydratant,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -417,61 +417,61 @@ Cette potion peut fournir un effet défensif temporaire, adapté aux situations 
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Il s'agit d'un type de graine qui peut être plantée pour faire pousser du bambou, ce qui est adapté à une utilisation dans le domaine agricole.
-",97,item-icon-146,146,Lv 1 Graine de bambou,1,482,0,1,"1,0",1,3,1,1,718
+",97,item-icon-146,146,Lv 1 Graine de bambou,1,482,0,1,"1,0",1,3,1,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Les graines de trèfle sont des consommables agricoles utilisés pour planter du trèfle et sont adaptées à une utilisation sur des terres de bas grade. Elles peuvent pousser rapidement et produire une valeur nutritionnelle riche dans des environnements adaptés.
-",97,item-icon-147,147,Lv 1 Graine de trèfle,1,484,0,1,"1,0",1,3,1,1,718
+",97,item-icon-147,147,Lv 1 Graine de trèfle,1,484,0,1,"1,0",1,3,1,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Ce type de graines de carotte peut être utilisé pour faire pousser des carottes fraîches et délicieuses. Elles conviennent à une utilisation dans les jardins domestiques ou les petites fermes et peuvent être plantées au printemps et en automne. Les carottes cultivées à partir de ces graines sont savoureuses et nutritives.
-",97,item-icon-148,148,Lv 1 Graine de carotte,1,483,0,1,"1,0",1,3,1,1,718
+",97,item-icon-148,148,Lv 1 Graine de carotte,1,483,0,1,"1,0",1,3,1,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Les graines de plante carnivore sont un consommable agricole qui peut être utilisé pour faire pousser des plantes carnivores. Cette plante est une plante carnivore qui peut absorber les nutriments des insectes. Après la plantation, un ensoleillement et un arrosage suffisants sont nécessaires pour une croissance harmonieuse.
-",97,item-icon-149,149,Lv 2 Graine de droséra pigmée,1,487,0,1,2,1,3,2,1,718
+",97,item-icon-149,149,Lv 2 Graine de droséra pigmée,1,487,0,1,2,1,3,2,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Ce type de graines de coton peut être planté dans les champs et récolté pour obtenir du coton utilisé dans la production textile.
-",97,item-icon-150,150,Lv 2 Graine de coton,1,486,0,1,2,1,3,2,1,718
+",97,item-icon-150,150,Lv 2 Graine de coton,1,486,0,1,2,1,3,2,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette graine renferme le potentiel de faire pousser une plante épineuse et résistante. Elle promet une touche de beauté désertique dans votre jardin. Plantez-la et observez les merveilles de la nature se déployer.
-",97,item-icon-151,151,Lv 2 Graine de cactus,1,485,0,1,2,1,3,2,1,718
+",97,item-icon-151,151,Lv 2 Graine de cactus,1,485,0,1,2,1,3,2,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette graine est adaptée à la plantation dans des environnements chauds, elle pousse rapidement et a une excellente qualité. Son goût est extrêmement épicé, ce qui peut ajouter une saveur unique aux aliments, en faisant le meilleur choix pour les amateurs de piment.
-",97,item-icon-152,152,Lv 3 Graine de piment fort explosif,1,489,0,1,3,1,3,3,1,718
+",97,item-icon-152,152,Lv 3 Graine de piment fort explosif,1,489,0,1,3,1,3,3,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Une graine solide et durable qui possède une coque externe solide, parfaite pour la protection et la longévité. Sa nature robuste lui permet de résister aux conditions difficiles et de prospérer dans n'importe quel environnement. Cette graine est le symbole de la résilience et de la force.
-",97,item-icon-153,153,Lv 3 Graine de fruit à coque dure,1,490,0,1,3,1,3,3,1,718
+",97,item-icon-153,153,Lv 3 Graine de fruit à coque dure,1,490,0,1,3,1,3,3,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette graine promet la croissance d'un champignon bleu vibrant, prêt à apporter une touche de couleur à votre jardin. Plantez-la et observez-la grandir en un champignon fascinant qui captivera vos sens.
-",97,item-icon-154,154,Lv 3 Graine de champignon bleu,1,488,0,1,3,1,3,3,1,718
+",97,item-icon-154,154,Lv 3 Graine de champignon bleu,1,488,0,1,3,1,3,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
 Cet engrais puissant améliore la croissance des plantes et augmente les rendements, permettant aux cultures de prospérer en un temps record. Il fournit des nutriments essentiels et favorise le développement racinaire solide, ce qui se traduit par des récoltes plus saines et plus abondantes. Vivez une croissance accélérée comme jamais auparavant avec cette formule avancée.
-",98,item-icon-131,131,Lv 0 Engrais accéléré avancé,1,,0,1,999,0,3,0,1,718
+",98,item-icon-131,131,Lv 0 Engrais accéléré avancé,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
-Cet engrais puissant augmente considérablement les rendements des cultures, donnant lieu à des récoltes abondantes. Il favorise la croissance des plantes et maximise l'absorption des nutriments, garantissant des cultures plus saines et plus robustes. Avec cet engrais avancé, les agriculteurs peuvent s'attendre à des améliorations impressionnantes de leur productivité agricole.",98,item-icon-132,132,Lv 0 Engrais augmentant le rendement avancé,1,,0,1,999,0,3,0,1,718
+Cet engrais puissant augmente considérablement les rendements des cultures, donnant lieu à des récoltes abondantes. Il favorise la croissance des plantes et maximise l'absorption des nutriments, garantissant des cultures plus saines et plus robustes. Avec cet engrais avancé, les agriculteurs peuvent s'attendre à des améliorations impressionnantes de leur productivité agricole.",98,item-icon-132,132,Lv 0 Engrais augmentant le rendement avancé,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cet engrais est spécialement formulé pour fournir une hydratation profonde et une nutrition aux plantes, ce qui favorise une croissance plus saine et plus vibrante. Sa formule avancée assure une rétention optimale de l'humidité dans le sol, favorisant des racines solides et un feuillage luxuriant. Donnez à vos plantes un coup de boost ultime d'hydratation avec cet engrais hydratant avancé.
-",98,item-icon-133,133,Lv 0 Engrais hydratant avancé,1,,0,1,999,0,3,0,1,718
+",98,item-icon-133,133,Lv 0 Engrais hydratant avancé,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -543,88 +543,88 @@ Cette toile d'araignée est de niveau 1 et peut être collectée dans la forêt.
 -------
 
 Cette plante fanée peut être causée par un manque d'eau ou de nutriments. Elle peut être utilisée pour fabriquer de l'engrais ou des herbes médicinales, et peut également être utilisée comme aliment pour animaux.
-",0,item-icon-174,174,Lv 0 Plante flétrie,1,,0,1,999,0,4,0,1,718
+",0,item-icon-174,174,Lv 0 Plante flétrie,1,,0,1,999,0,4,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Cet article est une substance organique qui agit comme un engrais et peut être utilisé dans la production agricole. Il est obtenu par fermentation et décomposition des excréments animaux et contient des nutriments riches tels que l'azote, le phosphore, le potassium, etc.
-",0,item-icon-176,176,Lv 0 Fèces,1,,0,1,999,0,4,0,1,718
+",0,item-icon-176,176,Lv 0 Fèces,1,,0,1,999,0,4,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Cette pousse tendre est récoltée à partir de cactus et a une couleur vert clair et une texture douce. C'est une matière première agricole importante qui peut être utilisée pour fabriquer des médicaments, de la nourriture et des produits de beauté, entre autres.
-",0,item-icon-177,177,Lv 1 Pousse de cactus,1,116,0,1,"1,0",1,4,1,1,718
+",0,item-icon-177,177,Lv 1 Pousse de cactus,1,116,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Cette vis a été obtenue grâce à l'élevage de monstres et peut être utilisée comme matière première pour l'agriculture.
-",0,item-icon-178,178,Lv 1 Vis,1,114,0,1,"1,0",1,4,1,1,718
+",0,item-icon-178,178,Lv 1 Vis,1,114,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Les pousses de citrouille sont des matières premières agricoles produites par l'élevage de monstres, présentant une apparence verte tendre et étant riches en nutriments. Elles peuvent être utilisées pour fabriquer une variété de produits alimentaires et médicinaux.
-",0,item-icon-179,179,Lv 1 Pousse de citrouille,1,115,0,1,"1,0",1,4,1,1,718
+",0,item-icon-179,179,Lv 1 Pousse de citrouille,1,115,0,1,"1,0",1,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Le cristal bleu est une matière première agricole rare provenant de l'élevage de monstres. Il peut aider les agriculteurs à améliorer le taux de croissance et le rendement des cultures et est indispensable à la production agricole.
-",0,item-icon-180,180,Lv 2 Pierre de cristal bleu,1,117,0,1,2,1,4,2,1,718
+",0,item-icon-180,180,Lv 2 Pierre de cristal bleu,1,117,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Ce monstre de type herbe, Broadleaf, est une créature mignonne qui est un produit d'élevage dans la production agricole, fournissant des matières premières abondantes.
-",0,item-icon-181,181,Lv 2 Feuille de monstre d'herbe,1,119,0,1,2,1,4,2,1,718
+",0,item-icon-181,181,Lv 2 Feuille de monstre d'herbe,1,119,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Ce miel est produit à partir d'élevages de monstres et peut être utilisé comme matière première agricole.
-",0,item-icon-182,182,Lv 2 Miel,1,118,0,1,2,1,4,2,1,718
+",0,item-icon-182,182,Lv 2 Miel,1,118,0,1,2,1,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Cet article est produit à partir de la ferme de monstres et est une matière première utilisée en agriculture. Il s'agit d'une plume sombre de niveau 3.
-",0,item-icon-183,183,Lv 3 Plume d'ombre,1,120,0,1,3,1,4,3,1,718
+",0,item-icon-183,183,Lv 3 Plume d'ombre,1,120,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Ce magma solidifié est produit par l'élevage de monstres et peut être utilisé pour la production de matières premières agricoles. Il a une viscosité élevée et une résistance élevée à la température, ce qui le rend adapté à une utilisation dans des conditions extrêmes.
-",0,item-icon-184,184,Lv 3 Lave solidifiée,1,121,0,1,3,1,4,3,1,718
+",0,item-icon-184,184,Lv 3 Lave solidifiée,1,121,0,1,3,1,4,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Ce fragment de givre est obtenu grâce à l'élevage de monstres et est un matériau utilisé en agriculture. Il a trois niveaux de qualité et peut être utilisé pour fabriquer divers objets à base de glace.
-",0,item-icon-185,185,Lv 3 Éclat de givre,1,122,0,1,3,1,4,3,1,718
+",0,item-icon-185,185,Lv 3 Éclat de givre,1,122,0,1,3,1,4,3,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
 
 -------
 Cette brosse est un outil spécialement conçu pour l'agriculture, qui permet de nettoyer facilement les cultures et les terres.
-",0,item-icon-95,95,Lv 0 Brosse,1,177,0,1,999,0,1,0,1,718
+",0,item-icon-95,95,Lv 0 Brosse,1,177,0,1,999,0,1,0,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
 
 -------
 Cette tondeuse peut aider les agriculteurs à tondre rapidement et facilement la laine, améliorant ainsi l'efficacité de la tonte. Elle convient à différents types de moutons.
-",0,item-icon-96,96,Lv 0 Tondeuse à cheveux,1,178,0,1,999,0,1,0,1,718
+",0,item-icon-96,96,Lv 0 Tondeuse à cheveux,1,178,0,1,999,0,1,0,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
 
 -------
 Une machine portative utilisée par les agriculteurs pour extraire efficacement le lait des vaches. Elle est dotée d'une poignée confortable et d'un mécanisme d'aspiration qui garantit un processus de traite fluide et doux.
-",0,item-icon-97,97,Lv 0 Trayeuse,1,179,0,1,999,0,1,0,1,718
+",0,item-icon-97,97,Lv 0 Trayeuse,1,179,0,1,999,0,1,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
 
 Cette récolte semble avoir pourri et n'est plus comestible. Cela peut être dû à un excès d'arrosage ou à une infestation de parasites. Ces récoltes peuvent être utilisées comme engrais ou éliminées par l'enterrement.
-",0,item-icon-175,175,Lv 0 Récolte en décomposition,1,,0,1,999,0,4,0,1,718
+",0,item-icon-175,175,Lv 0 Récolte en décomposition,1,,0,1,999,0,4,0,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
 
 -------
@@ -689,27 +689,27 @@ Un chapeau élégant qui améliore vos capacités de collecte, vous permettant d
 
 -------
 Ces chaussures agricoles sont spécialement conçues pour les travailleurs agricoles. Elles présentent des caractéristiques antidérapantes, résistantes à l'usure et respirantes, qui peuvent protéger les pieds et améliorer l'efficacité du travail.
-",0,item-icon-112,112,Lv 3 Chaussures de fermier,"1,2,3",204,0,1,999,0,1,3,1,718
+",0,item-icon-112,112,Lv 3 Chaussures de fermier,"1,2,3",204,0,1,999,0,1,3,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 
 -------
 Ces chaussures agricoles sont spécialement conçues pour les activités agricoles telles que le labourage et la plantation. Elles sont fabriquées à partir de matériaux de haute qualité qui sont durables, respirants et confortables, offrant une protection pour les pieds des agriculteurs.
-",0,item-icon-111,111,Lv 2 Chaussures de fermier,"1,2",195,0,1,999,0,1,2,1,718
+",0,item-icon-111,111,Lv 2 Chaussures de fermier,"1,2",195,0,1,999,0,1,2,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 
 -------
 Ces chaussures agricoles sont fabriquées à partir de matériaux de haute qualité, légères et confortables, adaptées à un port prolongé. La semelle est antidérapante et convient à différents champs agricoles, rendant votre travail plus facile.
-",0,item-icon-110,110,Lv 1 Chaussures de fermier,1,186,0,1,999,0,1,1,1,718
+",0,item-icon-110,110,Lv 1 Chaussures de fermier,1,186,0,1,999,0,1,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un produit consommable adapté aux animaux de compagnie de niveau 0, et peut augmenter la satiété et la valeur de croissance de l'animal de compagnie. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
-",27,item-icon-28,28,Lv 0 Nourriture - Petite,1,434,0,1,"1,0",0,3,0,1,718
+",27,item-icon-28,28,Lv 0 Nourriture - Petite,1,434,0,1,"1,0",0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux est un produit consommable qui fournit les nutriments nécessaires aux animaux pour maintenir une croissance saine. Elle convient à divers animaux d'élevage et animaux de compagnie, et peut augmenter leur productivité et leur durée de vie.
-",27,item-icon-29,29,Lv 0 Nourriture - Grande,1,435,0,1,"1,0",0,3,0,1,718
+",27,item-icon-29,29,Lv 0 Nourriture - Grande,1,435,0,1,"1,0",0,3,0,1,"718,1"
 "1,3,4",0,"L'EXP agricole est une valeur d'expérience dans le jeu qui peut être obtenue grâce à des activités agricoles telles que la plantation de cultures et l'élevage d'animaux. C'est un facteur clé pour améliorer les compétences et les niveaux agricoles, et c'est également une condition nécessaire pour débloquer des outils et équipements agricoles de niveau supérieur.
 ",0,item-icon-188,188,EXP agricole,1,,0,"1,2,3",999,0,4,0,0,
 "1,3,4",0,"L'EXP de combat fait référence à l'expérience acquise lors des combats. Elle peut aider les joueurs à monter de niveau et à améliorer leurs compétences, renforçant les capacités de leur personnage. Dans de nombreux jeux, l'EXP de combat est l'un des moyens importants pour les joueurs d'améliorer leur force.
@@ -768,32 +768,32 @@ Cet objet est une essence utilisée pour collecter des matières premières pour
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence de plantation agricole est soigneusement synthétisée à partir de matières premières agricoles de haute qualité et convient à la plantation agricole à partir du niveau un. Elle peut améliorer le taux de croissance et le rendement des cultures, ainsi que la qualité et le goût des récoltes. Son utilisation peut rendre vos cultures plus saines et prospères, et rendre votre production agricole plus efficace et stable.
-",0,item-icon-210,210,Lv 1 Essence de plantation agricole,1,141,0,1,"1,0",0,4,1,1,718
+",0,item-icon-210,210,Lv 1 Essence de plantation agricole,1,141,0,1,"1,0",0,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Il s'agit d'une essence spécialement conçue pour la plantation agricole, qui peut améliorer le taux de croissance et le rendement des cultures et aider à améliorer l'efficacité de la production agricole. Elle est synthétisée à partir de diverses matières premières agricoles et est un élément indispensable dans la production agricole.
-",0,item-icon-211,211,Lv 2 Essence de plantation agricole,1,142,0,1,2,0,4,2,1,718
+",0,item-icon-211,211,Lv 2 Essence de plantation agricole,1,142,0,1,2,0,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence de plantation agricole est un mélange de diverses essences végétales précieuses, qui a un effet miraculeux sur la promotion de la croissance des cultures et l'augmentation du rendement. Elle est l'une des matières premières indispensables dans le domaine agricole et convient à différents types de cultures.
-",0,item-icon-212,212,Lv 3 Essence de plantation agricole,1,143,0,1,3,0,4,3,1,718
+",0,item-icon-212,212,Lv 3 Essence de plantation agricole,1,143,0,1,3,0,4,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence d'agriculture et d'élevage est un mélange de diverses essences végétales et animales naturelles, qui peut améliorer l'efficacité de la production agricole et animale. Elle est riche en composants nutritionnels et en substances bioactives, ce qui peut favoriser la croissance saine des cultures et du bétail.
-",0,item-icon-213,213,Lv 1 Essence d'élevage agricole,1,144,0,1,"1,0",0,4,1,1,718
+",0,item-icon-213,213,Lv 1 Essence d'élevage agricole,1,144,0,1,"1,0",0,4,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Il s'agit d'une essence extraite de l'agriculture et de l'élevage, qui peut être utilisée pour synthétiser d'autres matières premières agricoles.
-",0,item-icon-214,214,Lv 2 Essence d'élevage agricole,1,145,0,1,2,0,4,2,1,718
+",0,item-icon-214,214,Lv 2 Essence d'élevage agricole,1,145,0,1,2,0,4,2,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette essence est extraite de produits agricoles et d'élevage de haute qualité, avec une valeur nutritionnelle et médicinale extrêmement élevée. Elle peut être utilisée pour fabriquer divers médicaments et assaisonnements liés à l'agriculture et à l'élevage.
-",0,item-icon-215,215,Lv 3 Essence d'élevage agricole,1,146,0,1,3,0,4,3,1,718
+",0,item-icon-215,215,Lv 3 Essence d'élevage agricole,1,146,0,1,3,0,4,3,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -813,17 +813,17 @@ Il s'agit d'une matière première utilisée pour la synthèse d'équipements de
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cet engrais peut favoriser le taux de croissance des cultures et convient aux cultures intermédiaires.
-",98,item-icon-219,219,Lv 0 Meilleur engrais accéléré,1,,0,1,999,0,3,0,1,718
+",98,item-icon-219,219,Lv 0 Meilleur engrais accéléré,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Ces engrais sont spécialement formulés pour améliorer le rendement des cultures, ce qui se traduit par des récoltes abondantes. Ils fournissent des nutriments essentiels et favorisent une croissance saine des plantes, garantissant une productivité optimale pour les agriculteurs. Augmentez vos rendements avec ces engrais de haute qualité.
-",98,item-icon-220,220,Lv 0 Meilleur engrais augmentant le rendement,1,,0,1,999,0,3,0,1,718
+",98,item-icon-220,220,Lv 0 Meilleur engrais augmentant le rendement,1,,0,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Cet engrais permet une meilleure rétention de l'humidité pour les plantes, garantissant qu'elles restent hydratées et en bonne santé. Il favorise une croissance et une nutrition optimales sans nécessiter un arrosage constant. Offrez à vos plantes les meilleurs soins avec cet engrais hydratant avancé.
-",98,item-icon-221,221,Lv 0 Meilleur engrais hydratant,1,,0,1,999,0,3,0,1,718
+",98,item-icon-221,221,Lv 0 Meilleur engrais hydratant,1,,0,1,999,0,3,0,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puissance d'attaque en combat.
 -------
@@ -983,52 +983,52 @@ Suggère de porter comme mode
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-257,257,Cheveux de Lad Élégant,5,,0,1,999,0,1,0,1,718
+",0,item-icon-257,257,Cheveux de Lad Élégant,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-258,258,Haut de Lad Élégant,5,,0,1,999,0,1,0,1,718
+",0,item-icon-258,258,Haut de Lad Élégant,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-259,259,Gants de Lad Élégant,5,,0,1,999,0,1,0,1,718
+",0,item-icon-259,259,Gants de Lad Élégant,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-260,260,Pantalon de Lad Élégant,5,,0,1,999,0,1,0,1,718
+",0,item-icon-260,260,Pantalon de Lad Élégant,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-261,261,Chaussures de Lad Élégant,5,,0,1,999,0,1,0,1,718
+",0,item-icon-261,261,Chaussures de Lad Élégant,5,,0,1,999,0,1,0,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-262,262,Cheveux du Coureur Rapide,5,,0,1,999,0,1,1,1,718
+",0,item-icon-262,262,Cheveux du Coureur Rapide,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-263,263,Haut du Coureur Rapide,5,,0,1,999,0,1,1,1,718
+",0,item-icon-263,263,Haut du Coureur Rapide,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-264,264,Gants du Coureur Rapide,5,,0,1,999,0,1,1,1,718
+",0,item-icon-264,264,Gants du Coureur Rapide,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-265,265,Pantalon du Coureur Rapide,5,,0,1,999,0,1,1,1,718
+",0,item-icon-265,265,Pantalon du Coureur Rapide,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-266,266,Chaussures du Coureur Rapide,5,,0,1,999,0,1,1,1,718
+",0,item-icon-266,266,Chaussures du Coureur Rapide,5,,0,1,999,0,1,1,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
@@ -1083,27 +1083,27 @@ Suggère de porter comme mode
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-277,277,Cheveux de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-277,277,Cheveux de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-278,278,Haut de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-278,278,Haut de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-279,279,Gants de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-279,279,Gants de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-280,280,Pantalon de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-280,280,Pantalon de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
 Suggère de porter comme mode
-",0,item-icon-281,281,Chaussures de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,718
+",0,item-icon-281,281,Chaussures de l'Ensemble Woof Woof,5,,0,1,999,0,1,5,1,"718,1"
 4,1," Il y a une chance d'obtenir lors de la synthèse d'équipement.
 Apparence à la mode sans attributs
 -------
@@ -1167,7 +1167,7 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Une houe dorée étincelante, extraordinairement tranchante et durable. Utilisée pour l'agriculture, elle vous permet de maîtriser facilement le pouvoir de la terre, favorisant une culture vigoureuse. C'est aussi la fierté des agriculteurs, symbolisant leur travail acharné et leurs espoirs d'une récolte abondante.
 ",0,item-icon-299,299,"Houe en or de niveau 4
-","1,2,3,4",212,0,1,999,0,1,4,1,718
+","1,2,3,4",212,0,1,999,0,1,4,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte.
 -------
@@ -1185,7 +1185,7 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Des ciseaux éblouissants en or, exceptionnellement tranchants, coupant sans effort divers matériaux, que ce soit du tissu, du papier ou des plantes délicates. C'est un outil indispensable pour chaque agriculteur et artisan, utilisé pour tailler les plantes, couper le tissu ou réaliser des travaux d'artisanat complexes. Que ce soit dans les champs ou les ateliers, les ciseaux en or sont le symbole d'un savoir-faire exquis et d'un goût raffiné.
 ",0,item-icon-302,302,"Ciseaux en or de niveau 4
-","1,2,3,4",,0,1,999,0,1,4,1,718
+","1,2,3,4",,0,1,999,0,1,4,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte.
 -------
@@ -1197,13 +1197,13 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Une bouilloire magnifique entièrement en or pur. Non seulement elle a une apparence éblouissante, mais elle possède également des propriétés magiques. Lorsque vous utilisez la bouilloire en or, elle restaure rapidement votre santé et votre mana, vous maintenant énergique lors des combats. Que ce soit dans des combats intenses ou des travaux acharnés dans les champs, la bouilloire en or est votre compagnon le plus fidèle.
 ",0,item-icon-304,304,"Bouilloire en or de niveau 4
-","1,2,3,4",213,0,1,999,0,1,4,1,718
+","1,2,3,4",213,0,1,999,0,1,4,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
 -------
 Un joyau étincelant en forme de houe, extraordinaire par sa netteté et sa durabilité. En l'utilisant pour l'agriculture, vous pouvez facilement cultiver des terres fertiles et récolter une abondance de cultures.
 ",0,item-icon-305,305,"Houe en diamant de niveau 5
-","1,2,3,4,5",220,0,1,999,0,1,5,1,718
+","1,2,3,4,5",220,0,1,999,0,1,5,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte.
 -------
@@ -1221,7 +1221,7 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Étincelant de la lumière des gemmes, ce magnifique couteau est d'une netteté exceptionnelle, coupant sans effort tous les matériaux, qu'il s'agisse de métal dur, de tissu épais ou de plantes délicates. Dans les champs, c'est un outil efficace pour tailler les cultures et élaguer les arbres. Dans le domaine de l'exploration, c'est un outil essentiel pour les aventuriers courageux, collectant rapidement des ressources précieuses. Que vous soyez agriculteur ou explorateur, les ciseaux en diamant sont votre partenaire le plus fiable.
 ",0,item-icon-308,308,"Ciseaux en diamant de niveau 5
-","1,2,3,4,5",,0,1,999,0,1,5,1,718
+","1,2,3,4,5",,0,1,999,0,1,5,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte.
 -------
@@ -1233,13 +1233,13 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Un magnifique bouilloire en or pur, brillant comme une gemme. Non seulement elle a une apparence éblouissante, mais elle possède également des propriétés magiques. Lorsque vous utilisez la bouilloire en diamant, elle restaure rapidement votre santé et votre mana, vous permettant de rester énergique lors des combats. Que ce soit dans des combats intenses ou de longs voyages d'aventure, la bouilloire en diamant est votre compagnon le plus fiable.
 ",0,item-icon-310,310,"Bouilloire en diamant de niveau 5
-","1,2,3,4,5",221,0,1,999,0,1,5,1,718
+","1,2,3,4,5",221,0,1,999,0,1,5,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
 -------
 Une houe étincelante de la lumière des étoiles, sa netteté laboure sans effort le sol, insufflant la vie dans les terres agricoles.
 ",0,item-icon-311,311,"Houe étoile de niveau 6
-","1,2,3,4,5",227,0,1,999,0,1,6,1,718
+","1,2,3,4,5",227,0,1,999,0,1,6,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte.
 -------
@@ -1257,7 +1257,7 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Étincelante de la lumière des gemmes, cette paire de ciseaux légère et tranchante est utilisée par les agriculteurs pour tailler précisément les feuilles et les branches, redonnant vie aux plantes avec vitalité. Que vous tailliez des fleurs dans les jardins ou organisiez des cultures dans les champs, les ciseaux en lumière d'étoile sont l'outil le plus efficace pour les agriculteurs.
 ",0,item-icon-314,314,"Ciseaux étoile de niveau 6
-","1,2,3,4,5",,0,1,999,0,1,6,1,718
+","1,2,3,4,5",,0,1,999,0,1,6,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre efficacité de collecte.
 -------
@@ -1269,7 +1269,7 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Une bouilloire magnifiquement conçue, étincelant de la lumière des gemmes. C'est l'un des outils préférés des agriculteurs, utilisé pour irriguer les cultures dans les champs, favorisant leur croissance. Chaque goutte qui coule de la bouilloire en lumière d'étoile est pleine de vitalité, apportant l'espoir d'une récolte abondante aux cultures. Que ce soit du blé, des légumes ou des fruits, une fois nourris par la bouilloire en lumière d'étoile, ils fleurissent de couleurs vives sous le soleil, apportant une joie et une satisfaction infinies aux agriculteurs.
 ",0,item-icon-316,316,"Bouilloire étoile de niveau 6
-","1,2,3,4,5",228,0,1,999,0,1,6,1,718
+","1,2,3,4,5",228,0,1,999,0,1,6,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puissance d'attaque en combat.
 -------
@@ -1466,77 +1466,77 @@ Spécialement conçues pour les guerriers courageux, ces chaussures sont imprég
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Il s'agit d'une touffe de cheveux dorés et rayonnants, symbolisant l'honneur et la richesse des agriculteurs. Les agriculteurs qui le portent obtiendront des rendements agricoles supplémentaires, permettant à leurs cultures de pousser vigoureusement, conduisant à des récoltes illimitées. C'est un symbole de fierté pour les agriculteurs, signifiant leur travail acharné.
-",0,item-icon-350,350,Chapeau de fermier doré de niveau 4,"1,2,3,4",209,0,1,999,0,1,4,1,718
+",0,item-icon-350,350,Chapeau de fermier doré de niveau 4,"1,2,3,4",209,0,1,999,0,1,4,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Conçu spécialement pour les propriétaires de fermes qui aiment les champs, il est fabriqué à partir de soie dorée de haute qualité, léger et durable, permettant une liberté de mouvement dans les terres agricoles. Offrant une excellente protection, il confère également un sentiment de dignité et de noblesse aux agriculteurs. Que ce soit pour labourer, planter ou récolter, la chemise du fermier doré est votre compagnon le plus fiable.
-",0,item-icon-351,351,Manteau de fermier doré de niveau 4,"1,2,3,4",207,0,1,999,0,1,4,1,718
+",0,item-icon-351,351,Manteau de fermier doré de niveau 4,"1,2,3,4",207,0,1,999,0,1,4,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçus pour les propriétaires de fermes, fabriqués en or, ces gants offrent une durabilité et un confort exceptionnels, permettant aux agriculteurs de bénéficier d'une dextérité et d'une précision inégalées lors de la plantation et de la récolte. Que ce soit pendant les saisons de semis ou les périodes de récolte, les gants du fermier doré sont les compagnons les plus fiables des propriétaires de fermes.
-",0,item-icon-352,352,Gant de fermier doré de niveau 4,"1,2,3,4",208,0,1,999,0,1,4,1,718
+",0,item-icon-352,352,Gant de fermier doré de niveau 4,"1,2,3,4",208,0,1,999,0,1,4,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçu pour les propriétaires de fermes, fait de soie dorée de première qualité, ce pantalon est léger et confortable. Il offre une durabilité et une protection robustes, permettant aux propriétaires de fermes de travailler joyeusement dans les champs. Que ce soit pour labourer, planter ou récolter, ce pantalon offre la meilleure flexibilité et protection, vous rendant le véritable maître de la ferme.
-",0,item-icon-353,353,Pantalon de fermier doré de niveau 4,"1,2,3,4",210,0,1,999,0,1,4,1,718
+",0,item-icon-353,353,Pantalon de fermier doré de niveau 4,"1,2,3,4",210,0,1,999,0,1,4,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçues pour les propriétaires de fermes et fabriquées à partir de matériaux en or de première qualité, ces chaussures sont légères, confortables, durables et antidérapantes, permettant aux propriétaires de fermes de marcher de manière plus stable et confiante dans les champs. Ces chaussures ne symbolisent pas seulement le statut et la richesse des propriétaires de fermes, mais leur confèrent également une efficacité agricole accrue et une expérience agricole joyeuse. Que ce soit pour labourer, récolter ou s'occuper des cultures, les chaussures du fermier doré sont un outil indispensable.
-",0,item-icon-354,354,Chaussures de fermier doré de niveau 4,"1,2,3,4",211,0,1,999,0,1,4,1,718
+",0,item-icon-354,354,Chaussures de fermier doré de niveau 4,"1,2,3,4",211,0,1,999,0,1,4,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Une tête de cheveux éblouissante, semblable à un diamant, dégage une aura de luxe et de richesse. Cette coiffure exclusive pour les agriculteurs symbolise leur travail acharné et leurs récoltes réussies dans les champs. Que ce soit pour planter, récolter ou s'occuper des cultures, ces cheveux en diamant vous remplissent de confiance et de charme en tant qu'agriculteur.
-",0,item-icon-355,355,Chapeau de fermier en diamant de niveau 5,"1,2,3,4,5",217,0,1,999,0,1,5,1,718
+",0,item-icon-355,355,Chapeau de fermier en diamant de niveau 5,"1,2,3,4,5",217,0,1,999,0,1,5,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçu pour les agriculteurs qui aiment la vie agricole, il est fabriqué à partir de fibres de diamant de haute qualité, léger, confortable et extrêmement durable. Cette chemise offre une performance de protection exceptionnelle et possède des propriétés d'évacuation de l'humidité, vous assurant de rester sec et à l'aise pendant que vous travaillez dans les champs. Que ce soit pour labourer, planter ou récolter, la chemise du fermier en diamant est votre compagnon le plus fiable.
-",0,item-icon-356,356,Manteau de fermier en diamant de niveau 5,"1,2,3,4,5",215,0,1,999,0,1,5,1,718
+",0,item-icon-356,356,Manteau de fermier en diamant de niveau 5,"1,2,3,4,5",215,0,1,999,0,1,5,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçus pour les agriculteurs, ornés de diamants, alliant parfaitement luxe et praticité. Fabriqués à partir de matériaux de première qualité, ces gants offrent une excellente protection et un grand confort. Ils améliorent l'agilité et l'efficacité de l'agriculteur pendant le processus agricole, permettant une culture plus rapide et des récoltes abondantes. Que ce soit pour semer des graines ou récolter les récompenses, ces gants sont un fidèle allié de l'agriculteur, faisant de lui un véritable magnat de l'agriculture.
-",0,item-icon-357,357,Gant de fermier en diamant de niveau 5,"1,2,3,4,5",216,0,1,999,0,1,5,1,718
+",0,item-icon-357,357,Gant de fermier en diamant de niveau 5,"1,2,3,4,5",216,0,1,999,0,1,5,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçu pour les amateurs d'agriculture, fabriqué à partir de matériaux de haute qualité, confortable et durable. Ornées de diamants scintillants, reflétant le statut et la richesse de l'agriculteur. Lorsque vous les portez, vous vivrez une joie agricole inégalée, vous rendant plus efficace et confiant dans votre travail agricole. Que ce soit pour planter, semer ou récolter, ces pantalons seront votre partenaire le plus fiable.
-",0,item-icon-358,358,Pantalon de fermier en diamant de niveau 5,"1,2,3,4,5",218,0,1,999,0,1,5,1,718
+",0,item-icon-358,358,Pantalon de fermier en diamant de niveau 5,"1,2,3,4,5",218,0,1,999,0,1,5,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçues pour les agriculteurs et fabriquées à partir de matériaux de première qualité, ces chaussures sont durables, confortables, antidérapantes et offrent aux agriculteurs une facilité lors de longues heures passées dans les champs. Les semelles des chaussures sont renforcées pour empêcher les objets pointus de les percer tout en offrant une excellente adhérence, assurant ainsi une stabilité sur les terrains humides et glissants. Ces chaussures sont également ornées de quelques embellissements en diamant cachés, reflétant le goût unique de l'agriculteur et son statut réussi. Que ce soit pour labourer, récolter ou s'occuper des cultures, les chaussures du fermier en diamant sont un outil indispensable.
-",0,item-icon-359,359,Chaussures de fermier en diamant de niveau 5,"1,2,3,4,5",219,0,1,999,0,1,5,1,718
+",0,item-icon-359,359,Chaussures de fermier en diamant de niveau 5,"1,2,3,4,5",219,0,1,999,0,1,5,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Un accessoire capillaire élégant parfait pour les agriculteurs travailleurs. Émettant une radiance semblable à une étoile, il vous permet de briller brillamment dans les champs. Que ce soit pour planter, récolter ou s'occuper des cultures, ces cheveux vous apportent chance et fierté d'agriculteur, vous faisant briller dans la communauté agricole !
-",0,item-icon-360,360,Chapeau de fermier étoile de niveau 6,"1,2,3,4,5",224,0,1,999,0,1,6,1,718
+",0,item-icon-360,360,Chapeau de fermier étoile de niveau 6,"1,2,3,4,5",224,0,1,999,0,1,6,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçu pour les agriculteurs et inspiré par la lumière des étoiles, dégageant une atmosphère joyeuse. Fabriqué à partir de matériaux légers, il est confortable et durable, permettant aux agriculteurs de rester à l'aise et agiles pendant les activités agricoles chargées. Que ce soit pour labourer, récolter ou nourrir les animaux, cette chemise offre aux agriculteurs une protection et une commodité suffisantes, rendant chaque jour de travail à la ferme animé et joyeux !
-",0,item-icon-361,361,Manteau de fermier étoile de niveau 6,"1,2,3,4,5",222,0,1,999,0,1,6,1,718
+",0,item-icon-361,361,Manteau de fermier étoile de niveau 6,"1,2,3,4,5",222,0,1,999,0,1,6,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Imprégnés du pouvoir de la lumière des étoiles et spécialement conçus pour les agriculteurs, ils offrent une excellente protection et dextérité, permettant aux agriculteurs de cultiver facilement les cultures dans les champs. Les motifs délicats sur les gants améliorent les sensations tactiles de l'agriculteur, lui permettant de manier les houes et les brosses avec plus de précision, créant de beaux paysages agricoles. Que ce soit pour labourer, semer ou récolter, les gants du fermier de la lumière des étoiles sont le compagnon le plus fiable des agriculteurs.
-",0,item-icon-362,362,Gant de fermier étoile de niveau 6,"1,2,3,4,5",223,0,1,999,0,1,6,1,718
+",0,item-icon-362,362,Gant de fermier étoile de niveau 6,"1,2,3,4,5",223,0,1,999,0,1,6,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçu pour les agriculteurs et fabriqué à partir de matériaux doux et confortables, ce pantalon offre une excellente durabilité et respirabilité, permettant aux agriculteurs de rester à l'aise et flexibles pendant les travaux de terrain chargés. Le motif étoilé délicat sur le pantalon symbolise le travail acharné et les espoirs de l'agriculteur, lui apportant chance et récoltes abondantes. Que ce soit pour planter, semer ou récolter, ce pantalon est le partenaire le plus fiable de l'agriculteur.
-",0,item-icon-363,363,Pantalon de fermier étoile de niveau 6,"1,2,3,4,5",225,0,1,999,0,1,6,1,718
+",0,item-icon-363,363,Pantalon de fermier étoile de niveau 6,"1,2,3,4,5",225,0,1,999,0,1,6,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduisez les risques de flétrissement de vos cultures.
 -------
 Spécialement conçues pour les agriculteurs et fabriquées à partir de matériaux légers et durables. Elles offrent une excellente résistance au glissement, assurant la stabilité des agriculteurs lorsqu'ils marchent dans les champs. Le motif étoilé délicat sur les chaussures symbolise la sagesse et la diligence de l'agriculteur. Que ce soit pour l'agriculture, la plantation ou la récolte, ces chaussures offrent confort et protection, laissant les empreintes de l'agriculteur dans les champs.
-",0,item-icon-364,364,Chaussures de fermier étoile de niveau 6,"1,2,3,4,5",226,0,1,999,0,1,6,1,718
+",0,item-icon-364,364,Chaussures de fermier étoile de niveau 6,"1,2,3,4,5",226,0,1,999,0,1,6,1,"718,1"
 "1,3,4",1," Tuer des monstres du même niveau peut permettre d'obtenir cet objet.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -1630,91 +1630,91 @@ Une si belle pierre, comme une comète de l'espace
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 L'un des aliments de base les plus courants dans le monde 
-",0,item-icon-383,383,Blé,1,96,0,1,4,1,4,4,1,718
+",0,item-icon-383,383,Blé,1,96,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Je me souviens d'un jeu où cette chose tire des balles 
-",0,item-icon-384,384,Pois,1,98,0,1,4,1,4,4,1,718
+",0,item-icon-384,384,Pois,1,98,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Même à travers l'écran, je peux sentir l'arôme 
-",0,item-icon-385,385,Ail,1,97,0,1,4,1,4,4,1,718
+",0,item-icon-385,385,Ail,1,97,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Certaines personnes font frire le cœur de cette fleur en collation, c'est bon 
-",0,item-icon-386,386,Tournesol,1,99,0,1,5,1,4,5,1,718
+",0,item-icon-386,386,Tournesol,1,99,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Cette chose convient davantage à une vigne 
-",0,item-icon-387,387,Raisin,1,100,0,1,5,1,4,5,1,718
+",0,item-icon-387,387,Raisin,1,100,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Un autre des aliments de base les plus courants dans le monde 
-",0,item-icon-388,388,Pomme de terre,1,101,0,1,5,1,4,5,1,718
+",0,item-icon-388,388,Pomme de terre,1,101,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 J'ai été surpris 
-",0,item-icon-389,389,Chomper,1,102,0,1,6,1,4,6,1,718
+",0,item-icon-389,389,Chomper,1,102,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 On dirait une trompette 
-",0,item-icon-390,390,Fleur de volubilis,1,103,0,1,6,1,4,6,1,718
+",0,item-icon-390,390,Fleur de volubilis,1,103,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une racine de manioc 
-",0,item-icon-391,391,Manioc,1,104,0,1,6,1,4,6,1,718
+",0,item-icon-391,391,Manioc,1,104,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Dans un certain jeu, cette chose peut favoriser la croissance des plantes, mais cela ne semble pas être le cas ici 
-",0,item-icon-392,392,Farine d'os,1,123,0,1,4,1,4,4,1,718
+",0,item-icon-392,392,Farine d'os,1,123,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Très flexible, peut être façonné en corde ou en fil 
-",0,item-icon-393,393,Vigne résistante,1,125,0,1,4,1,4,4,1,718
+",0,item-icon-393,393,Vigne résistante,1,125,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une énorme feuille 
-",0,item-icon-394,394,Feuille orange,1,124,0,1,4,1,4,4,1,718
+",0,item-icon-394,394,Feuille orange,1,124,0,1,4,1,4,4,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Ne soyez pas effrayé par son apparence, cette chose est aussi bonne que n'importe quelle épice au monde 
-",0,item-icon-395,395,Épice sombre,1,128,0,1,5,1,4,5,1,718
+",0,item-icon-395,395,Épice sombre,1,128,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Il émet une légère lumière 
-",0,item-icon-396,396,Poudre d'os luminescente,1,127,0,1,5,1,4,5,1,718
+",0,item-icon-396,396,Poudre d'os luminescente,1,127,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Hé, tu aimes les batailles de boules de neige ? 
-",0,item-icon-397,397,Boule de neige elfique,1,126,0,1,5,1,4,5,1,718
+",0,item-icon-397,397,Boule de neige elfique,1,126,0,1,5,1,4,5,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevage.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
-Des écailles tombées de la carapace de tortue, vraiment magnifiques",0,item-icon-398,398,Écaille de coquillage,1,131,0,1,6,1,4,6,1,718
+Des écailles tombées de la carapace de tortue, vraiment magnifiques",0,item-icon-398,398,Écaille de coquillage,1,131,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir ce type de matériau par reproduction.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une flèche délicate
-",0,item-icon-399,399,Flèche raffinée,1,129,0,1,6,1,4,6,1,718
+",0,item-icon-399,399,Flèche raffinée,1,129,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir ce type de matériau par reproduction.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Agréable et chaud, cela ferait sûrement de bons vêtements !
-",0,item-icon-400,400,Peluche de lapin des neiges,1,130,0,1,6,1,4,6,1,718
+",0,item-icon-400,400,Peluche de lapin des neiges,1,130,0,1,6,1,4,6,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -1749,73 +1749,73 @@ Essence de collecte, utile pour la synthèse de divers équipements
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence de plantation agricole, utile pour la synthèse de divers équipements
-",0,item-icon-407,407,Essence de plantation agricole de niveau 4,1,147,0,1,4,0,4,4,1,718
+",0,item-icon-407,407,Essence de plantation agricole de niveau 4,1,147,0,1,4,0,4,4,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence de plantation agricole, utile pour la synthèse de divers équipements
-",0,item-icon-408,408,Essence de plantation agricole de niveau 5,1,148,0,1,5,0,4,5,1,718
+",0,item-icon-408,408,Essence de plantation agricole de niveau 5,1,148,0,1,5,0,4,5,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence de plantation agricole, utile pour la synthèse de divers équipements
-",0,item-icon-409,409,Essence de plantation agricole de niveau 6,1,149,0,1,6,0,4,6,1,718
+",0,item-icon-409,409,Essence de plantation agricole de niveau 6,1,149,0,1,6,0,4,6,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence d'élevage agricole, utile pour la synthèse de divers équipements
-",0,item-icon-410,410,Essence d'élevage agricole de niveau 4,1,150,0,1,4,0,4,4,1,718
+",0,item-icon-410,410,Essence d'élevage agricole de niveau 4,1,150,0,1,4,0,4,4,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence d'élevage agricole, utile pour la synthèse de divers équipements
-",0,item-icon-411,411,Essence d'élevage agricole de niveau 5,1,151,0,1,5,0,4,5,1,718
+",0,item-icon-411,411,Essence d'élevage agricole de niveau 5,1,151,0,1,5,0,4,5,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence d'élevage agricole, utile pour la synthèse de divers équipements
-",0,item-icon-412,412,Essence d'élevage agricole de niveau 6,1,152,0,1,6,0,4,6,1,718
+",0,item-icon-412,412,Essence d'élevage agricole de niveau 6,1,152,0,1,6,0,4,6,1,"718,1"
 "1,3,4",1," Collecter des matériaux du même niveau peut entraîner des graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser du blé
-",97,item-icon-413,413,Graine de blé,1,493,0,1,4,1,3,4,1,718
+",97,item-icon-413,413,Graine de blé,1,493,0,1,4,1,3,4,1,"718,1"
 "1,3,4",1," Collecter des matériaux du même niveau peut entraîner des graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser des pois
-",97,item-icon-414,414,Graine de pois,1,492,0,1,4,1,3,4,1,718
+",97,item-icon-414,414,Graine de pois,1,492,0,1,4,1,3,4,1,"718,1"
 "1,3,4",1," Collecter des matériaux du même niveau peut entraîner des graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser de l'ail
-",97,item-icon-415,415,Graine d'ail,1,491,0,1,4,1,3,4,1,718
+",97,item-icon-415,415,Graine d'ail,1,491,0,1,4,1,3,4,1,"718,1"
 "1,3,4",1," Collecter des matériaux du même niveau peut entraîner des graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser des tournesols
-",97,item-icon-416,416,Graine de tournesol,1,496,0,1,5,1,3,5,1,718
+",97,item-icon-416,416,Graine de tournesol,1,496,0,1,5,1,3,5,1,"718,1"
 "1,3,4",1," Collecter des matériaux du même niveau peut entraîner des graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser des raisins
-",97,item-icon-417,417,Graine de raisin,1,494,0,1,5,1,3,5,1,718
+",97,item-icon-417,417,Graine de raisin,1,494,0,1,5,1,3,5,1,"718,1"
 "1,3,4",1," Collecter des matériaux du même niveau peut entraîner des graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
-Graines pour faire pousser des pommes de terre",97,item-icon-418,418,Graine de pomme de terre,1,495,0,1,5,1,3,5,1,718
+Graines pour faire pousser des pommes de terre",97,item-icon-418,418,Graine de pomme de terre,1,495,0,1,5,1,3,5,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires. Tuer des monstres du même niveau peut entraîner l'obtention de cet objet. Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser des fleurs cadavres
-",97,item-icon-419,419,Graine de Chomper,1,498,0,1,6,1,3,6,1,718
+",97,item-icon-419,419,Graine de Chomper,1,498,0,1,6,1,3,6,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires. Tuer des monstres du même niveau peut entraîner l'obtention de cet objet. Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser des volubilis
-",97,item-icon-420,420,Graine de fleur de volubilis,1,499,0,1,6,1,3,6,1,718
+",97,item-icon-420,420,Graine de fleur de volubilis,1,499,0,1,6,1,3,6,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires. Tuer des monstres du même niveau peut entraîner l'obtention de cet objet. Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser du manioc
-",97,item-icon-421,421,Graine de manioc,1,497,0,1,6,1,3,6,1,718
+",97,item-icon-421,421,Graine de manioc,1,497,0,1,6,1,3,6,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse. Son utilisation peut déclencher des effets spéciaux.
 -------
 HP actuel +320
@@ -1932,37 +1932,37 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produit
 -------
 Utilisé pour calmer votre animal de compagnie, lui permettant de produire en paix
 ",0,item-icon-453,453,"Niveau 1 Brosse en cuivre
-",1,182,0,1,999,0,1,1,1,718
+",1,182,0,1,999,0,1,1,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Utilisé pour calmer votre animal de compagnie, lui permettant de produire en paix
 ",0,item-icon-454,454,"Niveau 2 Brosse en fer
-","1,2",196,0,1,999,0,1,2,1,718
+","1,2",196,0,1,999,0,1,2,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Utilisé pour calmer votre animal de compagnie, lui permettant de produire en paix
 ",0,item-icon-455,455,"Niveau 3 Brosse en cristal
-","1,2,3",200,0,1,999,0,1,3,1,718
+","1,2,3",200,0,1,999,0,1,3,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur
 -------
 Utilisé pour calmer votre animal de compagnie, lui permettant de produire en paix
 ",0,item-icon-456,456,"Niveau 4 Brosse en or
-","1,2,3,4",206,0,1,999,0,1,4,1,718
+","1,2,3,4",206,0,1,999,0,1,4,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est utilisé, il peut déclencher des effets spéciaux.
 -------
 Restaure 30 points d'énergie
 ",0,item-icon-457,457,"Niveau 5 Brosse en diamant
-","1,2,3,4,5",214,0,1,999,0,1,5,1,718
+","1,2,3,4,5",214,0,1,999,0,1,5,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est utilisé, il peut déclencher des effets spéciaux.
 -------
 Restaure 37 points d'énergie
 ",0,item-icon-458,458,"Niveau 6 Brosse en lumière des étoiles
-","1,2,3,4,5",229,0,1,999,0,1,6,1,718
+","1,2,3,4,5",229,0,1,999,0,1,6,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -2126,32 +2126,32 @@ Le nombre de mots pour chaque description est dans la limite spécifiée de 20 m
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une fleur vibrante qui rayonne de chaleur et de beauté, symbolisant la passion et la vitalité.
-",0,item-icon-497,497,Chrysanthème rouge flamboyant,1,105,0,1,7,1,4,7,1,718
+",0,item-icon-497,497,Chrysanthème rouge flamboyant,1,105,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 La traduction fournie ci-dessus est basée sur l'hypothèse que ""Heard of Fire"" fait référence au nom du jeu ou à un concept spécifique dans le jeu. Si cela a une signification différente, veuillez me le faire savoir afin que je puisse ajuster les traductions en conséquence.
-",0,item-icon-498,498,Son du feu,1,106,0,1,7,1,4,7,1,718
+",0,item-icon-498,498,Son du feu,1,106,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une citrouille enflammée qui déchaîne des flammes brûlantes sur les ennemis, causant des dégâts considérables.
-",0,item-icon-499,499,Citrouille chaude,1,107,0,1,7,1,4,7,1,718
+",0,item-icon-499,499,Citrouille chaude,1,107,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une énorme pierre imprégnée d'une puissance ancienne, capable de façonner la terre elle-même.
-",0,item-icon-500,500,Pierre géante,1,134,0,1,7,1,4,7,1,718
+",0,item-icon-500,500,Pierre géante,1,134,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Des particules scintillantes qui scintillent et dansent, projetant une lueur envoûtante partout où elles vont.
-",0,item-icon-501,501,Poussière éblouissante,1,132,0,1,7,1,4,7,1,718
+",0,item-icon-501,501,Poussière éblouissante,1,132,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une pierre puissante qui exploite l'essence ardente, capable de déchaîner des flammes dévastatrices.
-",0,item-icon-502,502,Pierre de feu,1,133,0,1,7,1,4,7,1,718
+",0,item-icon-502,502,Pierre de feu,1,133,0,1,7,1,4,7,1,"718,1"
 "1,3,4",1,"Apparaissant dans le Domaine Ancien.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -2185,32 +2185,32 @@ Une pierre mystérieuse avec un noyau vide, rayonnant une énergie ancienne.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une feuille délicate imprégnée d'une énergie mystérieuse, capable d'améliorer les capacités magiques.
-",0,item-icon-509,509,Feuille Creuse,1,108,0,1,8,1,4,8,1,718
+",0,item-icon-509,509,Feuille Creuse,1,108,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Un fruit mystérieux avec un noyau vide, dit posséder des pouvoirs cachés.
-",0,item-icon-510,510,Fruit Creux,1,109,0,1,8,1,4,8,1,718
+",0,item-icon-510,510,Fruit Creux,1,109,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une fleur délicate avec un centre creux, rayonnant d'une aura apaisante.
-",0,item-icon-511,511,Fleur Creuse,1,110,0,1,8,1,4,8,1,718
+",0,item-icon-511,511,Fleur Creuse,1,110,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Un œuf rare et précieux, éclos par des aigles majestueux.
-",0,item-icon-512,512,Œuf d'Aigle,1,136,0,1,8,1,4,8,1,718
+",0,item-icon-512,512,Œuf d'Aigle,1,136,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une gemme rare et puissante, dit contenir l'essence des dragons.
-",0,item-icon-513,513,Larme de Dragon,1,137,0,1,8,1,4,8,1,718
+",0,item-icon-513,513,Larme de Dragon,1,137,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une potion puissante qui provoque un rire incontrôlable, faisant perdre aux ennemis leur concentration et les faisant trébucher.
-",0,item-icon-514,514,Vomi à Rayures Jaunes,1,135,0,1,8,1,4,8,1,718
+",0,item-icon-514,514,Vomi à Rayures Jaunes,1,135,0,1,8,1,4,8,1,"718,1"
 "1,3,4",1," Apparaissant dans l'Ancien Domaine.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -2244,32 +2244,32 @@ Une pierre solide avec une teinte bronze, parfaite pour la fabrication et la con
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
-Un fruit rare qui améliore le processus de fusion, augmentant la qualité des objets fabriqués.",0,item-icon-521,521,Fruit de Fusion,1,111,0,1,9,1,4,9,1,718
+Un fruit rare qui améliore le processus de fusion, augmentant la qualité des objets fabriqués.",0,item-icon-521,521,Fruit de Fusion,1,111,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une plante vibrante et hallucinogène qui améliore la perception et confère des capacités magiques temporaires.
-",0,item-icon-522,522,Légume Psychédélique,1,112,0,1,9,1,4,9,1,718
+",0,item-icon-522,522,Légume Psychédélique,1,112,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une fleur puissante qui confère des améliorations temporaires aux capacités magiques.
-",0,item-icon-523,523,Fleur de Puissance,1,113,0,1,9,1,4,9,1,718
+",0,item-icon-523,523,Fleur de Puissance,1,113,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une poudre explosive qui crée des pointes acérées, infligeant des dégâts perforants aux ennemis.
-",0,item-icon-524,524,Poudre de Pique,1,140,0,1,9,1,4,9,1,718
+",0,item-icon-524,524,Poudre de Pique,1,140,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une brique solide utilisée pour construire des statues, ajoutant durabilité et résistance.
-",0,item-icon-525,525,Brique de Statue,1,139,0,1,9,1,4,9,1,718
+",0,item-icon-525,525,Brique de Statue,1,139,0,1,9,1,4,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir ce type de matériau en élevant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Une poudre lumineuse qui émet une lumière vibrante, illuminant les coins les plus sombres.
-",0,item-icon-526,526,Poudre Fluorescente,1,138,0,1,9,1,4,9,1,718
+",0,item-icon-526,526,Poudre Fluorescente,1,138,0,1,9,1,4,9,1,"718,1"
 0,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Augmente votre probabilité de survie lors des combats.
 -------
@@ -2353,42 +2353,42 @@ Ces chaussures spécialisées sont conçues pour les collecteurs intrépides s'a
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Une bouilloire enflammée qui exploite la puissance de la lave, capable de faire bouillir l'eau instantanément.
-",0,item-icon-543,543, Bouilloire en lave de niveau 7,"1,2,3,4,5",237,0,1,999,0,1,7,1,718
+",0,item-icon-543,543, Bouilloire en lave de niveau 7,"1,2,3,4,5",237,0,1,999,0,1,7,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Un outil enflammé qui exploite la puissance de la lave en fusion pour une agriculture efficace.
-",0,item-icon-544,544, Houe en lave de niveau 7,"1,2,3,4,5",236,0,1,999,0,1,7,1,718
+",0,item-icon-544,544, Houe en lave de niveau 7,"1,2,3,4,5",236,0,1,999,0,1,7,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Une brosse enflammée qui exploite la puissance de la lave pour améliorer les capacités agricoles.
-",0,item-icon-545,545, Brosse en lave de niveau 7,"1,2,3,4,5",230,0,1,999,0,1,7,1,718
+",0,item-icon-545,545, Brosse en lave de niveau 7,"1,2,3,4,5",230,0,1,999,0,1,7,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Un couvre-chef enflammé qui protège les agriculteurs de la chaleur torride.
-",0,item-icon-546,546, Chapeau d'agriculture en lave de niveau 7,"1,2,3,4,5",233,0,1,999,0,1,7,1,718
+",0,item-icon-546,546, Chapeau d'agriculture en lave de niveau 7,"1,2,3,4,5",233,0,1,999,0,1,7,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Fournit une résistance supérieure à la chaleur pour les agriculteurs travaillant dans des environnements volcaniques.
-",0,item-icon-547,547, Manteau d'agriculture en lave de niveau 7,"1,2,3,4,5",231,0,1,999,0,1,7,1,718
+",0,item-icon-547,547, Manteau d'agriculture en lave de niveau 7,"1,2,3,4,5",231,0,1,999,0,1,7,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Des pantalons ignifuges pour les agriculteurs intrépides s'occupant de cultures enflammées.
-",0,item-icon-548,548, Pantalon d'agriculture en lave de niveau 7,"1,2,3,4,5",234,0,1,999,0,1,7,1,718
+",0,item-icon-548,548, Pantalon d'agriculture en lave de niveau 7,"1,2,3,4,5",234,0,1,999,0,1,7,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Des gants résistants à la chaleur pour les agriculteurs intrépides s'occupant de cultures enflammées.
-",0,item-icon-549,549, Gants d'agriculture en lave de niveau 7,"1,2,3,4,5",232,0,1,999,0,1,7,1,718
+",0,item-icon-549,549, Gants d'agriculture en lave de niveau 7,"1,2,3,4,5",232,0,1,999,0,1,7,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Des chaussures résistantes à la chaleur pour les agriculteurs intrépides s'occupant de cultures enflammées.
-",0,item-icon-550,550, Chaussures d'agriculture en lave de niveau 7,"1,2,3,4,5",235,0,1,999,0,1,7,1,718
+",0,item-icon-550,550, Chaussures d'agriculture en lave de niveau 7,"1,2,3,4,5",235,0,1,999,0,1,7,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Augmente votre probabilité de survie lors des combats.
 -------
@@ -2472,42 +2472,42 @@ Des chaussures légères conçues pour la collecte efficace. Améliore la vitess
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Une bouilloire légère avec une conception creuse, parfaite pour préparer des potions et des concoctions.
-",0,item-icon-567,567,Bouilloire creuse de niveau 8,"1,2,3,4,5",245,0,1,999,0,1,8,1,718
+",0,item-icon-567,567,Bouilloire creuse de niveau 8,"1,2,3,4,5",245,0,1,999,0,1,8,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Un outil agricole léger avec une lame évidée, parfait pour labourer le sol efficacement.
-",0,item-icon-568,568,Houe creuse de niveau 8,"1,2,3,4,5",244,0,1,999,0,1,8,1,718
+",0,item-icon-568,568,Houe creuse de niveau 8,"1,2,3,4,5",244,0,1,999,0,1,8,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Une brosse légère avec des poils creux, parfaite pour les traits délicats et les détails précis.
-",0,item-icon-569,569,Brosse creuse de niveau 8,"1,2,3,4,5",238,0,1,999,0,1,8,1,718
+",0,item-icon-569,569,Brosse creuse de niveau 8,"1,2,3,4,5",238,0,1,999,0,1,8,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Un chapeau léger avec une conception évidée, parfait pour les agriculteurs.
-",0,item-icon-570,570,Chapeau de culture creux de niveau 8,"1,2,3,4,5",241,0,1,999,0,1,8,1,718
+",0,item-icon-570,570,Chapeau de culture creux de niveau 8,"1,2,3,4,5",241,0,1,999,0,1,8,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Un manteau léger et respirant conçu pour les agriculteurs diligents. Offre une excellente protection contre la saleté et les épines.
-",0,item-icon-571,571,Manteau de culture creux de niveau 8,"1,2,3,4,5",239,0,1,999,0,1,8,1,718
+",0,item-icon-571,571,Manteau de culture creux de niveau 8,"1,2,3,4,5",239,0,1,999,0,1,8,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Un pantalon léger et respirant conçu pour les agriculteurs dévoués.
-",0,item-icon-572,572,Pantalon de culture creux de niveau 8,"1,2,3,4,5",242,0,1,999,0,1,8,1,718
+",0,item-icon-572,572,Pantalon de culture creux de niveau 8,"1,2,3,4,5",242,0,1,999,0,1,8,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Des gants légers conçus pour l'agriculture efficace. Offre une prise améliorée et une dextérité pour les tâches délicates.
-",0,item-icon-573,573,Gants de culture creux de niveau 8,"1,2,3,4,5",240,0,1,999,0,1,8,1,718
+",0,item-icon-573,573,Gants de culture creux de niveau 8,"1,2,3,4,5",240,0,1,999,0,1,8,1,"718,1"
 4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
 -------
 Des chaussures légères conçues pour l'agriculture efficace. Améliore la vitesse de déplacement et réduit la fatigue.
-",0,item-icon-574,574,Chaussures de culture creuses de niveau 8,"1,2,3,4,5",243,0,1,999,0,1,8,1,718
+",0,item-icon-574,574,Chaussures de culture creuses de niveau 8,"1,2,3,4,5",243,0,1,999,0,1,8,1,"718,1"
 0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Augmente votre probabilité de survie lors des combats.
 -------
@@ -2592,49 +2592,49 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilit�
 
 -------
 Une bouilloire en bronze solide, parfaite pour préparer des potions et des concoctions.
-",0,item-icon-591,591, Bouilloire en bronze,"1,2,3,4,5",253,0,1,999,0,1,9,1,718
+",0,item-icon-591,591, Bouilloire en bronze,"1,2,3,4,5",253,0,1,999,0,1,9,1,"718,1"
 0,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Une houe en bronze solide, parfaite pour labourer le sol et cultiver les cultures efficacement.
-",0,item-icon-592,592, Houe en bronze,"1,2,3,4,5",252,0,1,999,0,1,9,1,718
+",0,item-icon-592,592, Houe en bronze,"1,2,3,4,5",252,0,1,999,0,1,9,1,"718,1"
 0,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Une brosse en bronze solide pour les agriculteurs, parfaite pour prendre soin des cultures et maintenir une ferme prospère.
-",0,item-icon-593,593, Brosse en bronze,"1,2,3,4,5",246,0,1,999,0,1,9,1,718
+",0,item-icon-593,593, Brosse en bronze,"1,2,3,4,5",246,0,1,999,0,1,9,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Un chapeau solide pour les agriculteurs, offrant protection et style.
-",0,item-icon-594,594, Chapeau de ferme en bronze,"1,2,3,4,5",249,0,1,999,0,1,9,1,718
+",0,item-icon-594,594, Chapeau de ferme en bronze,"1,2,3,4,5",249,0,1,999,0,1,9,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Un manteau durable pour les agriculteurs, offrant protection et confort pendant de longues heures de soin des cultures.
-",0,item-icon-595,595, Manteau de ferme en bronze,"1,2,3,4,5",247,0,1,999,0,1,9,1,718
+",0,item-icon-595,595, Manteau de ferme en bronze,"1,2,3,4,5",247,0,1,999,0,1,9,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Un pantalon durable en bronze, parfait pour les agriculteurs travailleurs au niveau 9.
-",0,item-icon-596,596, Pantalon de ferme en bronze,"1,2,3,4,5",250,0,1,999,0,1,9,1,718
+",0,item-icon-596,596, Pantalon de ferme en bronze,"1,2,3,4,5",250,0,1,999,0,1,9,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Des gants durables pour une agriculture efficace, offrant une prise améliorée et une protection renforcée.
-",0,item-icon-597,597, Gants de ferme en bronze,"1,2,3,4,5",248,0,1,999,0,1,9,1,718
+",0,item-icon-597,597, Gants de ferme en bronze,"1,2,3,4,5",248,0,1,999,0,1,9,1,"718,1"
 4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilité de flétrissement de vos cultures.
 
 -------
 Des chaussures solides pour les agriculteurs dévoués, offrant confort et protection pendant de longues heures de soin des cultures.
-",0,item-icon-598,598, Chaussures de ferme en bronze,"1,2,3,4,5",251,0,1,999,0,1,9,1,718
+",0,item-icon-598,598, Chaussures de ferme en bronze,"1,2,3,4,5",251,0,1,999,0,1,9,1,"718,1"
 "1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 
@@ -2691,77 +2691,77 @@ Essence de collecte, utile pour la synthèse de divers équipements
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence de plantation agricole, utile pour la synthèse de divers équipements
-",0,item-icon-608,608,Niveau 7 Essence de plantation agricole,1,153,0,1,7,0,4,7,1,718
+",0,item-icon-608,608,Niveau 7 Essence de plantation agricole,1,153,0,1,7,0,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence de plantation agricole, utile pour la synthèse de divers équipements
-",0,item-icon-609,609,Niveau 8 Essence de plantation agricole,1,154,0,1,8,0,4,8,1,718
+",0,item-icon-609,609,Niveau 8 Essence de plantation agricole,1,154,0,1,8,0,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence de plantation agricole, utile pour la synthèse de divers équipements
-",0,item-icon-610,610,Niveau 9 Essence de plantation agricole,1,155,0,1,9,0,4,9,1,718
+",0,item-icon-610,610,Niveau 9 Essence de plantation agricole,1,155,0,1,9,0,4,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence d'élevage agricole, utile pour la synthèse de divers équipements
-",0,item-icon-611,611,Niveau 7 Essence d'élevage agricole,1,156,0,1,7,0,4,7,1,718
+",0,item-icon-611,611,Niveau 7 Essence d'élevage agricole,1,156,0,1,7,0,4,7,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence d'élevage agricole, utile pour la synthèse de divers équipements
-",0,item-icon-612,612,Niveau 8 Essence d'élevage agricole,1,157,0,1,8,0,4,8,1,718
+",0,item-icon-612,612,Niveau 8 Essence d'élevage agricole,1,157,0,1,8,0,4,8,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Essence d'élevage agricole, utile pour la synthèse de divers équipements
-",0,item-icon-613,613,Niveau 9 Essence d'élevage agricole,1,158,0,1,9,0,4,9,1,718
+",0,item-icon-613,613,Niveau 9 Essence d'élevage agricole,1,158,0,1,9,0,4,9,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graines pour faire pousser du blé
-",97,item-icon-614,614,Graine de chrysanthème rouge flamboyant,1,500,0,1,7,1,3,7,1,718
+",97,item-icon-614,614,Graine de chrysanthème rouge flamboyant,1,500,0,1,7,1,3,7,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser des chrysanthèmes rouges flamboyants
-",97,item-icon-615,615,Graine de feu entendue,1,501,0,1,7,1,3,7,1,718
+",97,item-icon-615,615,Graine de feu entendue,1,501,0,1,7,1,3,7,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser un troupeau de feu
-",97,item-icon-616,616,Graine de citrouille épicée,1,502,0,1,7,1,3,7,1,718
+",97,item-icon-616,616,Graine de citrouille épicée,1,502,0,1,7,1,3,7,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser une citrouille chaude
-",97,item-icon-617,617,Graine de feuille creuse,1,505,0,1,8,1,3,8,1,718
+",97,item-icon-617,617,Graine de feuille creuse,1,505,0,1,8,1,3,8,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser une feuille creuse
-",97,item-icon-618,618,Graine de fruit creux,1,504,0,1,8,1,3,8,1,718
+",97,item-icon-618,618,Graine de fruit creux,1,504,0,1,8,1,3,8,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser un fruit creux
-",97,item-icon-619,619,Graine de fleur creuse,1,503,0,1,8,1,3,8,1,718
+",97,item-icon-619,619,Graine de fleur creuse,1,503,0,1,8,1,3,8,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser une fleur creuse
-",97,item-icon-620,620,Graine de fruit de fusion,1,508,0,1,9,1,3,9,1,718
+",97,item-icon-620,620,Graine de fruit de fusion,1,508,0,1,9,1,3,9,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser un fruit de fusion
-",97,item-icon-621,621,Graine de légume psychédélique,1,507,0,1,9,1,3,9,1,718
+",97,item-icon-621,621,Graine de légume psychédélique,1,507,0,1,9,1,3,9,1,"718,1"
 "1,3,4",1,"Apparaissant dans le domaine ancien.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Graine pour faire pousser un légume psychédélique
-",97,item-icon-622,622,Graine de fleur de puissance,1,506,0,1,9,1,3,9,1,718
+",97,item-icon-622,622,Graine de fleur de puissance,1,506,0,1,9,1,3,9,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -2872,63 +2872,63 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 Billet d'admission à l'Arène Avancée
 ",0,item-icon-661,661,Billet d'Admission à l'Arena Avancée,1,474,0,2,999,0,4,0,1,
 0,1,"Peut faire éclore un animal de compagnie - Chien de métal
-",0,item-icon-665,665,Chien de Métal,1,444,0,1,999,0,6,1,1,718
+",0,item-icon-665,665,Chien de Métal,1,444,0,1,999,0,6,1,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Diable citrouille
-",0,item-icon-666,666,Démon Citrouille,1,445,0,1,999,0,6,1,1,718
+",0,item-icon-666,666,Démon Citrouille,1,445,0,1,999,0,6,1,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Guerrier cactus
-",0,item-icon-667,667,Guerrier Cactus,1,443,0,1,999,0,6,1,1,718
+",0,item-icon-667,667,Guerrier Cactus,1,443,0,1,999,0,6,1,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Abeille bourdonnante
-",0,item-icon-668,668,Abeille Bourdonnante,1,446,0,1,999,0,6,2,1,718
+",0,item-icon-668,668,Abeille Bourdonnante,1,446,0,1,999,0,6,2,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Rôdeur de feuilles
-",0,item-icon-669,669,Rôdeur Feuillu,1,447,0,1,999,0,6,2,1,718
+",0,item-icon-669,669,Rôdeur Feuillu,1,447,0,1,999,0,6,2,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Chat de mine
-",0,item-icon-670,670,Chat de Mine,1,448,0,1,999,0,6,2,1,718
+",0,item-icon-670,670,Chat de Mine,1,448,0,1,999,0,6,2,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Spectre du chaos
-",0,item-icon-671,671,Spectre du Chaos,1,449,0,1,999,0,6,3,1,718
+",0,item-icon-671,671,Spectre du Chaos,1,449,0,1,999,0,6,3,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Cogneur cramoisi
-",0,item-icon-672,672,Cogneur Cramoisi,1,450,0,1,999,0,6,3,1,718
-0,1,Peut faire éclore un animal de compagnie - Patte givrée,0,item-icon-673,673,Patte Givrée,1,451,0,1,999,0,6,3,1,718
+",0,item-icon-672,672,Cogneur Cramoisi,1,450,0,1,999,0,6,3,1,"718,1"
+0,1,Peut faire éclore un animal de compagnie - Patte givrée,0,item-icon-673,673,Patte Givrée,1,451,0,1,999,0,6,3,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Souche en colère
-",0,item-icon-674,674,Souche en colère,1,452,0,1,999,0,6,4,1,718
+",0,item-icon-674,674,Souche en colère,1,452,0,1,999,0,6,4,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Tête d'œuf OrangeLeaf
-",0,item-icon-675,675,Tête d'œuf OrangeLeaf,1,453,0,1,999,0,6,4,1,718
+",0,item-icon-675,675,Tête d'œuf OrangeLeaf,1,453,0,1,999,0,6,4,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Soldat squelette
-",0,item-icon-676,676,Soldat squelette,1,454,0,1,999,0,6,4,1,718
+",0,item-icon-676,676,Soldat squelette,1,454,0,1,999,0,6,4,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Esprit sombre de neige
-",0,item-icon-677,677,Esprit sombre de neige,1,455,0,1,999,0,6,5,1,718
+",0,item-icon-677,677,Esprit sombre de neige,1,455,0,1,999,0,6,5,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Béhémoth des ombres
-",0,item-icon-678,678,Béhémoth des ombres,1,456,0,1,999,0,6,5,1,718
+",0,item-icon-678,678,Béhémoth des ombres,1,456,0,1,999,0,6,5,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Capitaine squelette
-",0,item-icon-679,679,Capitaine squelette,1,457,0,1,999,0,6,5,1,718
+",0,item-icon-679,679,Capitaine squelette,1,457,0,1,999,0,6,5,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Géant de coquille de glace
-",0,item-icon-680,680,Géant de coquille de glace,1,458,0,1,999,0,6,6,1,718
+",0,item-icon-680,680,Géant de coquille de glace,1,458,0,1,999,0,6,6,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Magicien lapin
-",0,item-icon-681,681,Sorcier lapin,1,459,0,1,999,0,6,6,1,718
+",0,item-icon-681,681,Sorcier lapin,1,459,0,1,999,0,6,6,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Archer squelette
-",0,item-icon-682,682,Archer squelette,1,460,0,1,999,0,6,6,1,718
+",0,item-icon-682,682,Archer squelette,1,460,0,1,999,0,6,6,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Petit seigneur éblouissant
-",0,item-icon-683,683,Petit seigneur éblouissant,1,461,0,1,999,0,6,7,1,718
+",0,item-icon-683,683,Petit seigneur éblouissant,1,461,0,1,999,0,6,7,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Sentinelle de feu-roche
-",0,item-icon-684,684,Sentinelle de feu et de roche,1,462,0,1,999,0,6,7,1,718
+",0,item-icon-684,684,Sentinelle de feu et de roche,1,462,0,1,999,0,6,7,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Géant de roche sentinelle
-",0,item-icon-685,685,Sentinelle géante de roche,1,463,0,1,999,0,6,7,1,718
+",0,item-icon-685,685,Sentinelle géante de roche,1,463,0,1,999,0,6,7,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Bête de roche à rayures jaunes
-",0,item-icon-686,686,Bête de roche à rayures jaunes,1,466,0,1,999,0,6,8,1,718
+",0,item-icon-686,686,Bête de roche à rayures jaunes,1,466,0,1,999,0,6,8,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Gardien aigle aux yeux sages
-",0,item-icon-687,687,Gardien aigle aux yeux sages,1,465,0,1,999,0,6,8,1,718
+",0,item-icon-687,687,Gardien aigle aux yeux sages,1,465,0,1,999,0,6,8,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Jeune dragon étoilé
-",0,item-icon-688,688,Jeune dragon étoilé,1,464,0,1,999,0,6,8,1,718
+",0,item-icon-688,688,Jeune dragon étoilé,1,464,0,1,999,0,6,8,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Esprit de lumière énigmatique
-",0,item-icon-689,689,Esprit de lumière énigmatique,1,467,0,1,999,0,6,9,1,718
+",0,item-icon-689,689,Esprit de lumière énigmatique,1,467,0,1,999,0,6,9,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Esprit sculpté en pierre verte
-",0,item-icon-690,690,Esprit sculpté en pierre verte,1,468,0,1,999,0,6,9,1,718
+",0,item-icon-690,690,Esprit sculpté en pierre verte,1,468,0,1,999,0,6,9,1,"718,1"
 0,1,"Peut faire éclore un animal de compagnie - Bouclier à pointes souriant
-",0,item-icon-691,691,Bouclier à pointes souriant,1,469,0,1,999,0,6,9,1,718
+",0,item-icon-691,691,Bouclier à pointes souriant,1,469,0,1,999,0,6,9,1,"718,1"
 "1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Il s'agit d'un type de graine qui peut être plantée pour faire pousser du bambou, ce qui est adapté à une utilisation dans le domaine agricole.
-",97,item-icon-692,692,Lv 1 Graine de bambou,1,,0,1,999,0,3,1,1,718
+",97,item-icon-692,692,Lv 1 Graine de bambou,1,,0,1,999,0,3,1,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -2980,43 +2980,43 @@ Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-702,702,"Niveau 3 Alimentation
-",1,436,0,1,3,0,3,0,1,718
+",1,436,0,1,3,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-703,703,"Niveau 4 Alimentation
-",1,437,0,1,4,0,3,0,1,718
+",1,437,0,1,4,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-704,704,"Niveau 5 Alimentation
-",1,438,0,1,5,0,3,0,1,718
+",1,438,0,1,5,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-705,705,"Niveau 6 Alimentation
-",1,439,0,1,6,0,3,0,1,718
+",1,439,0,1,6,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-706,706,"Niveau 7 Alimentation
-",1,440,0,1,7,0,3,0,1,718
+",1,440,0,1,7,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-707,707,"Niveau 8 Alimentation
-",1,441,0,1,8,0,3,0,1,718
+",1,441,0,1,8,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 La nourriture pour animaux de compagnie est un objet consommable adapté aux animaux de niveau 0, et peut augmenter leur satiété et leur valeur de croissance. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
 ",27,item-icon-708,708,"Niveau 9 Alimentation
-",1,442,0,1,9,0,3,0,1,718
+",1,442,0,1,9,0,3,0,1,"718,1"
 "1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -3077,15 +3077,15 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 ",0,item-icon-718,718,"Médaille du Brave 
 ",1,38,0,2,999,0,4,0,1,
 0,0,Vide,97,item-icon-719,719,"Graine du Totem A 
-",1,,1,1,999,0,3,0,1,718
+",1,,1,1,999,0,3,0,1,"718,1"
 0,0,Vide,97,item-icon-720,720,"Graine du Totem B 
-",1,,1,1,999,0,3,0,1,718
+",1,,1,1,999,0,3,0,1,"718,1"
 0,0,Vide,97,item-icon-721,721,"Graine du Totem C 
-",1,,1,1,999,0,3,0,1,718
+",1,,1,1,999,0,3,0,1,"718,1"
 0,0,Vide,97,item-icon-722,722,"Graine du Totem D 
-",1,,1,1,999,0,3,0,1,718
+",1,,1,1,999,0,3,0,1,"718,1"
 0,0,Vide,97,item-icon-723,723,"Graine du Totem E 
-",1,,1,1,999,0,3,0,1,718
+",1,,1,1,999,0,3,0,1,"718,1"
 "1,3,4",1,"Un souvenir obtenu en vainquant le Samouraï Errant de la Lame.
 ",0,item-icon-725,725,"Médaille du Samouraï Lame Errante 
 ",1,476,0,2,999,0,4,0,1,
@@ -3131,15 +3131,15 @@ Créez immédiatement une tâche de jeton.",0,item-icon-737,737,Combat 7-9,1,409
 "1,3,4",1, Vide,0,item-icon-744,744,Fragment d'Équipement de Combat Niveau 7,1,52,0,2,999,0,4,7,1,
 "1,3,4",1, Vide,0,item-icon-745,745,Fragment d'Équipement de Combat Niveau 8,1,52,0,2,999,0,4,8,1,
 "1,3,4",1, Vide,0,item-icon-746,746,Fragment d'Équipement de Combat Niveau 9,1,52,0,2,999,0,4,9,1,
-"1,3,4",1, Vide,0,item-icon-747,747,Fragment d'Équipement Agricole Niveau 1,1,50,0,1,999,0,4,1,1,718
-"1,3,4",1, Vide,0,item-icon-748,748,Fragment d'Équipement Agricole Niveau 2,1,50,0,1,999,0,4,2,1,718
-"1,3,4",1, Vide,0,item-icon-749,749,Fragment d'Équipement Agricole Niveau 3,1,50,0,1,999,0,4,3,1,718
-"1,3,4",1, Vide,0,item-icon-750,750,Fragment d'Équipement Agricole Niveau 4,1,50,0,1,999,0,4,4,1,718
-"1,3,4",1, Vide,0,item-icon-751,751,Fragment d'Équipement Agricole Niveau 5,1,50,0,1,999,0,4,5,1,718
-"1,3,4",1, Vide,0,item-icon-752,752, Fragment d'équipement agricole de niveau 6,1,50,0,1,999,0,4,6,1,718
-"1,3,4",1, Vide,0,item-icon-753,753, Fragment d'équipement agricole de niveau 7,1,50,0,1,999,0,4,7,1,718
-"1,3,4",1, Vide,0,item-icon-754,754, Fragment d'équipement agricole de niveau 8,1,50,0,1,999,0,4,8,1,718
-"1,3,4",1, Vide,0,item-icon-755,755, Fragment d'équipement agricole de niveau 9,1,50,0,1,999,0,4,9,1,718
+"1,3,4",1, Vide,0,item-icon-747,747,Fragment d'Équipement Agricole Niveau 1,1,50,0,1,999,0,4,1,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-748,748,Fragment d'Équipement Agricole Niveau 2,1,50,0,1,999,0,4,2,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-749,749,Fragment d'Équipement Agricole Niveau 3,1,50,0,1,999,0,4,3,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-750,750,Fragment d'Équipement Agricole Niveau 4,1,50,0,1,999,0,4,4,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-751,751,Fragment d'Équipement Agricole Niveau 5,1,50,0,1,999,0,4,5,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-752,752, Fragment d'équipement agricole de niveau 6,1,50,0,1,999,0,4,6,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-753,753, Fragment d'équipement agricole de niveau 7,1,50,0,1,999,0,4,7,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-754,754, Fragment d'équipement agricole de niveau 8,1,50,0,1,999,0,4,8,1,"718,1"
+"1,3,4",1, Vide,0,item-icon-755,755, Fragment d'équipement agricole de niveau 9,1,50,0,1,999,0,4,9,1,"718,1"
 "1,3,4",1, Vide,0,item-icon-756,756, Fragment d'équipement de collecte de niveau 1,1,54,0,3,999,0,4,1,1,
 "1,3,4",1,Vide,0,item-icon-757,757, Fragment d'équipement de collecte de niveau 2,1,54,0,3,999,0,4,2,1,
 "1,3,4",1,Vide,0,item-icon-758,758, Fragment d'équipement de collecte de niveau 3,1,54,0,3,999,0,4,3,1,
@@ -3161,13 +3161,13 @@ Créez immédiatement une tâche de jeton.",0,item-icon-767,767, Collecte 4-6,1,
 Créez immédiatement une tâche de jeton.",0,item-icon-768,768, Collecte 7-9,1,412,0,3,999,2,7,0,1,
 "1,3,4",1,"Récompense du classement quotidien...
 -------
-Créez immédiatement une tâche de jeton.",0,item-icon-769,769, Agriculture 0-3,1,404,0,1,999,2,7,0,1,718
+Créez immédiatement une tâche de jeton.",0,item-icon-769,769, Agriculture 0-3,1,404,0,1,999,2,7,0,1,"718,1"
 "1,3,4",1,"Récompense du classement quotidien...
 -------
-Créez immédiatement une tâche de jeton.",0,item-icon-770,770, Agriculture 4-6,1,405,0,1,999,2,7,0,1,718
+Créez immédiatement une tâche de jeton.",0,item-icon-770,770, Agriculture 4-6,1,405,0,1,999,2,7,0,1,"718,1"
 "1,3,4",1,"Récompense du classement quotidien...
 -------
-Créez immédiatement une tâche de jeton.",0,item-icon-771,771, Agriculture 7-9,1,406,0,1,999,2,7,0,1,718
+Créez immédiatement une tâche de jeton.",0,item-icon-771,771, Agriculture 7-9,1,406,0,1,999,2,7,0,1,"718,1"
 "1,3,4",1,Il peut être échangé contre des jetons $SONIC.,0,item-icon-772,772, Point d'odyssée sonique,1,,0,"1,2,3",999,0,4,0,1,
 0,0,,0,item-icon-773,773,,1,,0,"1,2,3",999,0,4,0,1,
 0,0,,0,item-icon-774,774,,1,,0,"1,2,3",999,0,4,0,1,
