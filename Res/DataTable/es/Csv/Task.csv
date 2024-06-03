@@ -49,8 +49,8 @@ Entra en la ciudad y encuentra a Nash.",0,"2,200",22,0,11,Inteligencia,,21,,
 - coloca la habilidad en la ranura rápida",0,"2,200",23,0,0,Echar una mano,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Usa una azada para aflojar la tierra en el campo y luego usa semillas para sembrar en la tierra aflojada.
 Planta 5 Semillas de Bambú, 5 Semillas de Trébol y 5 Semillas de Zanahoria en el campo.",0,"1,200",24,0,31,Labrar y sembrar,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"1,200",25,0,13,Regar y cosechar con paciencia,,24,,
-"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Abre la recolección de artesanía y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,200",26,0,32,Esencia de una profesión,,210,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"3,200",25,0,13,Regar y cosechar con paciencia,,24,,
+"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}","Abre la recolección de artesanía y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,200",26,0,32,Esencia de una profesión,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501}]}","Obtén 5 Maderas Ordinarias.
 Obtén 5 Piedras.",0,"3,200",27,0,43,Recolectar algunas cosas buenas,,25,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Obtén 5 Maderas Ordinarias y 5 Fibras para hacer un Pico de Hierro.,0,"3,200",28,0,44,Creando un pico de hierro,,217,,
@@ -301,7 +301,7 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 ,,0,"3,2352",207,1,0, [201]Recompensa-Recolectar-9,,,"{""options"":[{""optionType"":1,""value"":""490,1,200;490,2,200;490,1,200""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",208,0,0,,,21,,30001
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",209,0,0,,,21,,30002
-"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",210,0,0,,,27,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"3,200",210,0,0,,,26,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105},{""optionType"":13,""value"":""696,83,1345,10"",""guiderPoint"":30106}]}",,0,"3,200",211,0,0,,,216,,
 "{""options"":[{""optionType"":3,""value"":""482,1"",""guiderPoint"":30101}]}",,0,"2,200",212,0,157,,,26,,
 "{""options"":[{""optionType"":2,""value"":""709,1"",""guiderPoint"":30101}]}",,0,"2,200",213,0,158,,,212,,

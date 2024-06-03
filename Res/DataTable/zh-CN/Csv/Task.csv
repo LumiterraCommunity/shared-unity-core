@@ -29,8 +29,8 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 - 将技能放置在快捷栏中",0,"2,200",23,0,0,帮忙,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","使用锄头松土，然后在松土的土壤上播种种子。
 在田地里种植5颗竹子种子，5颗三叶草种子和5颗胡萝卜种子。",0,"1,200",24,0,31,锄地和播种,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}",在种下种子之后，需要耐心地浇水三到四次，直到它们成熟。一旦它们准备好了，你可以靠近它们进行收获。之后，去找西拉斯。他需要那些东西。,0,"1,200",25,0,13,耐心浇灌和收获,,24,,
-"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}",打开采集制作界面并提炼一瓶采集精华。在此之前，你需要获得足够的材料。,0,"3,200",26,0,32,职业的精华,,210,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}",在种下种子之后，需要耐心地浇水三到四次，直到它们成熟。一旦它们准备好了，你可以靠近它们进行收获。之后，去找西拉斯。他需要那些东西。,0,"3,200",25,0,13,耐心浇灌和收获,,24,,
+"{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}",打开采集制作界面并提炼一瓶采集精华。在此之前，你需要获得足够的材料。,0,"3,200",26,0,32,职业的精华,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501}]}","获取1个普通木材。
 获取1块石头。",0,"3,200",27,0,43,多采点东西,,25,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}","获得足够的普通木材
@@ -232,7 +232,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,,0,"3,2352",207,1,0,悬赏-采集-9,,,"{""options"":[{""optionType"":1,""value"":""490,1,200;490,2,200;490,1,200""}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",完成任务将解锁日常挑战地图,0,"2,147",208,0,0,日常挑战,,21,,30001
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",完成任务将解锁日常训练地图,0,"2,147",209,0,0,PVEP训练,,21,,30002
-"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"2,200",210,0,0,奖券正确的使用方式,,27,,
+"{""options"":[{""optionType"":1,""value"":""32,1"",""guiderPoint"":30102}]}",,0,"3,200",210,0,0,奖券正确的使用方式,,26,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105},{""optionType"":13,""value"":""696,83,1345,10"",""guiderPoint"":30106}]}",,0,"3,200",211,0,0,世界区域的划分,,216,,
 "{""options"":[{""optionType"":3,""value"":""482,1"",""guiderPoint"":30101}]}",,0,"2,200",212,0,157,精力溶液的制作,,26,,
 "{""options"":[{""optionType"":2,""value"":""709,1"",""guiderPoint"":30101}]}",,0,"2,200",213,0,158,精力药水的制作,,212,,
