@@ -24,6 +24,15 @@ public class DRItem : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取boothFees-int[][]。*/
+    /// </summary>
+    public int[][] BoothFees
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取canDropScene-int[]。*/
     /// </summary>
     public int[] CanDropScene
@@ -158,20 +167,12 @@ public class DRItem : DataRowBase
         private set;
     }
 
-    /// <summary>
-  /**获取boothFees-int[][]。*/
-    /// </summary>
-    public int[][] BoothFees
-    {
-        get;
-        private set;
-    }
-
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        BoothFees = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CanDropScene = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         CanMint = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -188,7 +189,6 @@ public class DRItem : DataRowBase
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UserType = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        BoothFees = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -200,6 +200,7 @@ public class DRItem : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                BoothFees = binaryReader.ReadArrayList<Int32>();
                 CanDropScene = binaryReader.ReadArray<Int32>();
                 CanMint = binaryReader.Read7BitEncodedInt32();
                 Desc = binaryReader.ReadString();
@@ -216,7 +217,6 @@ public class DRItem : DataRowBase
                 Type = binaryReader.Read7BitEncodedInt32();
                 UseLv = binaryReader.Read7BitEncodedInt32();
                 UserType = binaryReader.Read7BitEncodedInt32();
-                BoothFees = binaryReader.ReadArrayList<Int32>();
             }
         }
 
