@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -32,6 +32,10 @@ public static class TableDefine
     public const int TOKEN_DECIMALS = 18; // 代币小数位数
 
     public const int DECIMALS_INT = 10; // 链上通用整数小数位数 
+
+    public const int LUAUSD_ITEM_ID = 773; // LuaUSD道具ID
+    public const int LUA_G_ITEM_ID = 765; // LuaG道具ID
+    public const int TALENT_TASK_SCORE_ITEM_ID = 774; // 任务积分道具ID
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
