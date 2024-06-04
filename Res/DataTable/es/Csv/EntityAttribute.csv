@@ -60,8 +60,14 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 150,Defensa de los minerales,62,0,OreDef,3,1,1,
 300,Proficiencia requerida,63,0,RequiredProficiency,3,1,1,
 100000,Energía,64,1,Energy,2,1,3,attribute-icon-64
-100000,Energía Máxima,65,1,MaxEnergy,2,1,3,attribute-icon-65
+200000,Energía Máxima,65,1,MaxEnergy,2,1,3,attribute-icon-65
 0,Potencial de Combate,66,0,CombatPotentiality,2,1,3,
-0,Potencial de Recolecta,67,0,GatherPotentiality,1,1,3,
-0,Potencial de Granja,68,0,FarmPotentiality,3,1,3,
-0,Tasa Extra de Hierba,69,0,ExtraGrassRate,3,,2,
+0,Potencial de Granja,67,0,GatherPotentiality,3,1,3,
+0,Potencial de Recolecta,68,0,FarmPotentiality,1,1,3,
+0,Tasa Extra de Hierba,69,0,ExtraGrassRate,3,1,2,
+0,,71,0,NeedWaterValue,1,1,1,
+0,,72,0,RequiredFertilizer,1,1,1,
+0,,73,0,RequirementProficiency,1,1,1,
+0,,74,0,PlantingDifficulty,1,1,1,
+0,,75,0,WitherTime,1,1,1,
+0,,76,0,MaxActionValue,3,1,1,
