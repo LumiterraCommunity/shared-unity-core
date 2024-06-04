@@ -285,10 +285,6 @@ public static class HomeDefine
     }
 
     /// <summary>
-    /// 无效的种子实体id
-    /// </summary>
-    public static long INVALID_SEED_ENTITY_ID = 0;
-    /// <summary>
     /// 副本去执行动作的特殊玩家ID
     /// </summary>
     public static long INSTANCING_PLAYER = -9001;
