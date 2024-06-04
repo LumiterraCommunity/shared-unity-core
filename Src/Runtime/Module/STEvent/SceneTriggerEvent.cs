@@ -239,10 +239,11 @@ public class SceneTriggerEvent : IReference
 
     /// <summary>
     /// 广播执行行为，有些行为执行需要客户端感知
+    /// <param name="isAsync">是否异步执行 异步代表会等时间同步发送到客户端</param>
     /// </summary>
-    public void BroadcastActionExecute(STActionBase actionBase)
+    public void BroadcastActionExecute(STActionBase actionBase, bool isAsync = true)
     {
-        GFEntryCore.SceneTriggerEventMgr.BroadcastSceneTriggerEventActionExecute(actionBase.DRSceneEventAction.Id);
+        GFEntryCore.SceneTriggerEventMgr.BroadcastSceneTriggerEventActionExecute(actionBase.DRSceneEventAction.Id, isAsync);
     }
 
     /// <summary>
