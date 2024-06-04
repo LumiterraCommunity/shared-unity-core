@@ -1,26 +1,26 @@
-canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[],seedMaxLimit-int[]
-0,10001,"0,999",HomeSceneLoading.jpg,0,0,WorldScene,1,1,,,,,,,,,,,,"Trống
+canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[]
+0,10001,"0,999",HomeSceneLoading.jpg,0,0,WorldScene,1,1,,,,,,,,,,,"Trống
 ","Trống
 ","Trống
-",,,,,,
-0,10002,"0,999",HomeSceneLoading.jpg,0,0,HomeScene,1,2,3,,,,,,,,,,,"Trống
+",,,,,
+0,10002,"0,999",HomeSceneLoading.jpg,0,0,HomeScene,1,2,,,,,,,,,,,"Trống
 ","Trống
 ","Trống
-",,,,,,
-0,10003,"0,999",HomeSceneLoading.jpg,0,0,WorldScene02,1,1,,,,,,,,,,,,Trống,Trống,"Trống
-",,,,,,
-0,20000,"1,4",DungeonSceneLoading_1_3.jpg,0,5,DungeonSceneLv1-3,1,3,1,"10000,20000,30000","55,0,54",2,"58,59,60","16,17;16,17;16,17","61,62,63","50,100,200","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","Nằm trong tán lá xanh của rừng rậm, nó giống như một phép màu trên trái đất. Đỉnh đá của nó giống như một hàng lưỡi kiếm sắc nhọn, nhưng cũng giống như những cánh hoa.
+",,,,,
+0,10003,"0,999",HomeSceneLoading.jpg,0,0,WorldScene02,1,1,,,,,,,,,,,Trống,Trống,"Trống
+",,,,,
+0,20000,"1,4",DungeonSceneLoading_1_3.jpg,0,5,DungeonSceneLv1-3,1,3,"10000,20000,30000","55,0,54",2,"58,59,60","16,17;16,17;16,17","61,62,63","20,40,80","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3","Nằm trong tán lá xanh của rừng rậm, nó giống như một phép màu trên trái đất. Đỉnh đá của nó giống như một hàng lưỡi kiếm sắc nhọn, nhưng cũng giống như những cánh hoa.
 ","Đỉnh hoa
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0;0,"0,1440","468,1",,,
-0,20001,"4,7",DungeonSceneLoading_4_6.jpg,0,5,DungeonSceneLv4-6,1,3,1,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","16,17;16,17;16,17;16,17;16,17","47,48,49,50,51","400,400,800,800,1600","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","450,450,450,450,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","Trong vùng đất tan vỡ đó, một thành trì tối tăm đứng tự hào, các cạnh của nó treo giữa không gian, không có bất kỳ sự hỗ trợ vật lý nào. Nó chứa đầy một số lượng lớn quái vật nguy hiểm, trồng nhiều vật phẩm hiếm chưa từng thấy trước đây.
+",0;0;0,"0,1440","468,1",,
+0,20001,"4,7",DungeonSceneLoading_4_6.jpg,0,5,DungeonSceneLv4-6,1,3,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","16,17;16,17;16,17;16,17;16,17","47,48,49,50,51","160,160,320,320,640","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","450,450,450,450,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","Trong vùng đất tan vỡ đó, một thành trì tối tăm đứng tự hào, các cạnh của nó treo giữa không gian, không có bất kỳ sự hỗ trợ vật lý nào. Nó chứa đầy một số lượng lớn quái vật nguy hiểm, trồng nhiều vật phẩm hiếm chưa từng thấy trước đây.
 Đội hình đề xuất: 3 chiến binh, 1 người thu thập",Thế giới động lực,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0;0;0;0,"0,1440","467,1",,,
-0,20002,"7,9",DungeonSceneLoading_7_9.jpg,0,5,DungeonSCeneLv7-9,1,3,1,"10000,20000,30000","61,71,66",2,"82,83,84","16,17;16,17;16,17","85,86,87","3200,6400,12800","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3","Chiến đấu với những sinh vật đỏ lửa; chiến đấu trong môi trường tối tăm và đáng sợ, phòng thủ chống lại những sinh vật hư không; khám phá những di tích cổ để khám phá bí mật và kho báu ẩn sâu trong lòng đất. Những nhà thám hiểm dũng cảm, bạn đã sẵn sàng đối mặt với thách thức này chưa?
+",0;0;0;0;0,"0,1440","467,1",,
+0,20002,"7,9",DungeonSceneLoading_7_9.jpg,0,5,DungeonSCeneLv7-9,1,3,"10000,20000,30000","61,71,66",2,"82,83,84","16,17;16,17;16,17","85,86,87","1280,5120,10240","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3","Chiến đấu với những sinh vật đỏ lửa; chiến đấu trong môi trường tối tăm và đáng sợ, phòng thủ chống lại những sinh vật hư không; khám phá những di tích cổ để khám phá bí mật và kho báu ẩn sâu trong lòng đất. Những nhà thám hiểm dũng cảm, bạn đã sẵn sàng đối mặt với thách thức này chưa?
 ","Vùng cổ xưa
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0;0,"0,1440","658,1",,,
-1,21001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneLv1-3,2,3,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
+",0;0;0,"0,1440","658,1",,
+1,21001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneLv1-3,2,3,"0,10000","55,0,54",2,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
 - **Đánh bại Boss**: Người chơi có thể thu được **vật liệu đặc biệt bí ẩn** quan trọng cho tiến trình trò chơi.
@@ -33,8 +33,8 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường hạng nhẹ
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","659,1","8,24",172,
-1,21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv4-6,2,3,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
+",0;0,"120,180;360,420","659,1","8,24",172
+1,21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv4-6,2,3,"0,10000","37,39,38",2,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
 - **Đánh bại Boss**: Người chơi có thể thu được **vật liệu đặc biệt bí ẩn** quan trọng cho tiến trình trò chơi.
@@ -47,8 +47,8 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường hạng trung
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","660,1","8,24",173,
-1,21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv7-9,2,3,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
+",0;0,"120,180;360,420","660,1","8,24",173
+1,21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv7-9,2,3,"0,10000","61,71,66",2,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
 - **Đánh bại Boss**: Người chơi có thể thu được **vật liệu đặc biệt bí ẩn** quan trọng cho tiến trình trò chơi.
@@ -61,8 +61,8 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường hạng cao
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","661,1","8,24",174,
-1,22001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneSoloLv1-3,2,3,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
+",0;0,"120,180;360,420","661,1","8,24",174
+1,22001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneSoloLv1-3,2,3,"0,10000","55,0,54",1,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
 - **Đánh bại Boss**: Người chơi có thể thu được **vật liệu đặc biệt bí ẩn** quan trọng cho tiến trình trò chơi.
@@ -75,8 +75,8 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường đơn hạng nhẹ
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","659,1","3,24",172,
-1,22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv4-6,2,3,"1,2","0,10000","37,39,38",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
+",0;0,"120,180;360,420","659,1","3,24",172
+1,22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv4-6,2,3,"0,10000","37,39,38",1,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
 - **Đánh bại Boss**: Người chơi có thể thu được **vật liệu đặc biệt bí ẩn** quan trọng cho tiến trình trò chơi.
@@ -89,8 +89,8 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường đơn hạng trung
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","660,1","3,24",173,
-1,22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv7-9,2,3,"1,2","0,10000","61,71,66",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
+",0;0,"120,180;360,420","660,1","3,24",173
+1,22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv7-9,2,3,"0,10000","61,71,66",1,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
 - **Đánh bại Boss**: Người chơi có thể thu được **vật liệu đặc biệt bí ẩn** quan trọng cho tiến trình trò chơi.
@@ -101,12 +101,12 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
   - **Cổng Thách thức**: Dành cho những người dũng cảm, cổng này dẫn đến cấp độ phiêu lưu tiếp theo.
   - **Cổng Thoát**: Thoát khỏi hang động và từ bỏ bất kỳ phần thưởng chưa được giải quyết **LUAUSD**.
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định.","Đấu trường đơn hạng cao
-","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"120,180;360,420","661,1","3,24",174,
-0,30001,"1,9",DungeonSceneLoading_1_3.jpg,0,1,DailyDungeon,1,3,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9", Thử thách hàng ngày, Thử thách hàng ngày,,0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
-0,30002,"1,9",PVPDungeonSceneLoading_4_6.jpg,1,1,PVPTrainingDungeon,2,3,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","Địa điểm Huấn luyện PVEP - Hỗ trợ trận đấu 12-24 người chơi, khi chết sẽ không có bất kỳ mục rơi, vé từ nhiệm vụ hàng ngày.",Sân tập,,0;0,"60,120;300,360","733,1","12,24",,
-0,40001,"1,4",HomeSceneLoading.jpg,0,5,GatherDungeon1-3,1,3,1,"10000,20000,30000","55,0,54",2,"102,103,104","22,18,19;18,19;18,19",",,","32,64,128","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","468,1",,,
-0,40002,"4,7",HomeSceneLoading.jpg,0,5,GatherDungeon4-6,1,3,1,"10000,20000,30000","37,39,38",2,"105,106,107","22,18,19;18,19;18,19",",,","256,512,1024","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","467,1",,,
-0,40003,"7,9",HomeSceneLoading.jpg,0,5,GatherDungeon7-9,1,3,1,"10000,20000,30000","61,71,66",2,"108,109,110","22,18,19;18,19;18,19",",,","2048,4096,8192","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","658,1",,,
-0,50001,"1,4",HomeSceneLoading.jpg,0,5,FarmingDungeon1-3,1,3,"1,3","10000,20000,30000","55,0,54",1,"102,103,104","20,21;20,21;20,21",",,","32,64,128","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"146#1000,147#1000,148#1000;149#1000,150#1000,151#1000;152#1000,153#1000,154#1000","0,1440","468,1",,,"20,20,20"
-0,50002,"4,7",HomeSceneLoading.jpg,0,5,FarmingDungeon4-6,1,3,"1,3","10000,20000,30000","37,39,38",1,"105,106,107","20,21;20,21;20,21",",,","256,512,1024","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"413#1000,414#1000,415#1000;416#1000,417#1000,418#1000;419#1000,420#1000,421#1000","0,1440","467,1",,,"20,20,20"
-0,50003,"7,9",HomeSceneLoading.jpg,0,5,FarmingDungeon7-9,1,3,"1,3","10000,20000,30000","61,71,66",1,"108,109,110","20,21;20,21;20,21",",,","2048,4096,8192","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"614#1000,615#1000,616#1000;617#1000,618#1000,619#1000;620#1000,621#1000,622#1000","0,1440","658,1",,,"20,20,20"
+","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"120,180;360,420","661,1","3,24",174
+0,30001,"1,9",DungeonSceneLoading_1_3.jpg,0,1,DailyDungeon,1,3,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","3,6,9,12,15,18,21,24,27","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9", Thử thách hàng ngày, Thử thách hàng ngày,,0;0;0;0;0;0;0;0;0,"0,1440","733,1",,
+0,30002,"1,9",PVPDungeonSceneLoading_4_6.jpg,1,1,PVPTrainingDungeon,2,3,"0,10000","55,0,54",1,",",;,",",,"3500,13500;3500,13500","120,1800","Matching,Challenging","Địa điểm Huấn luyện PVEP - Hỗ trợ trận đấu 12-24 người chơi, khi chết sẽ không có bất kỳ mục rơi, vé từ nhiệm vụ hàng ngày.",Sân tập,,0;0,"60,120;300,360","733,1","12,24",
+0,40001,"1,4",HomeSceneLoading.jpg,0,5,GatherDungeon1-3,1,3,"10000,20000,30000","55,0,54",2,"102,103,104","22,18,19;22,18,19;22,18,19",",,","20,40,80","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","468,1",,
+0,40002,"4,7",HomeSceneLoading.jpg,0,5,GatherDungeon4-6,1,3,"10000,20000,30000","37,39,38",2,"105,106,107","22,18,19;22,18,19;22,18,19",",,","160,320,640","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","467,1",,
+0,40003,"7,9",HomeSceneLoading.jpg,0,5,GatherDungeon7-9,1,3,"10000,20000,30000","61,71,66",2,"108,109,110","22,18,19;22,18,19;22,18,19",",,","1280,5120,10240","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","658,1",,
+0,50001,"1,4",HomeSceneLoading.jpg,0,5,FarmingDungeon1-3,2,3,"10000,20000,30000","55,0,54",1,"102,103,104","20,21;20,21;20,21",",,","20,40,80","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"146#1000,147#1000,148#1000;149#1000,150#1000,151#1000;152#1000,153#1000,154#1000","0,1440","468,1",,
+0,50002,"4,7",HomeSceneLoading.jpg,0,5,FarmingDungeon4-6,2,3,"10000,20000,30000","37,39,38",1,"105,106,107","20,21;20,21;20,21",",,","160,320,640","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"413#1000,414#1000,415#1000;416#1000,417#1000,418#1000;419#1000,420#1000,421#1000","0,1440","467,1",,
+0,50003,"7,9",HomeSceneLoading.jpg,0,5,FarmingDungeon7-9,2,3,"10000,20000,30000","61,71,66",1,"108,109,110","20,21;20,21;20,21",",,","1280,5120,10240","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"614#1000,615#1000,616#1000;617#1000,618#1000,619#1000;620#1000,621#1000,622#1000","0,1440","658,1",,
