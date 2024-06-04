@@ -2,6 +2,7 @@ using static HomeDefine;
 using GameFramework.Fsm;
 using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
+using System;
 
 /// <summary>
 /// 土地种子发苗后的生长干涸状态
@@ -20,18 +21,33 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
 
         StatusCtrl.SoilEvent.TryChangeGrowStage += OnTryChangeGrowStage;
         StatusCtrl.SoilEvent.TryChangeWaterStatus += OnTryChangeWaterStatus;
-
-        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
+        StatusCtrl.SoilEvent.OnAttributeUpdated += OnAttributeUpdated;
+        UpdateNeedWaterProgress();
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
     {
         StatusCtrl.SoilEvent.TryChangeGrowStage -= OnTryChangeGrowStage;
         StatusCtrl.SoilEvent.TryChangeWaterStatus -= OnTryChangeWaterStatus;
+        StatusCtrl.SoilEvent.OnAttributeUpdated -= OnAttributeUpdated;
 
         StatusCtrl.GetComponent<HomeActionProgressData>().EndProgressAction();
 
         base.OnLeave(fsm, isShutdown);
+    }
+
+
+    private void UpdateNeedWaterProgress()
+    {
+        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
+    }
+
+    private void OnAttributeUpdated(eAttributeType type, int value)
+    {
+        if (type == eAttributeType.NeedWaterValue)
+        {
+            UpdateNeedWaterProgress();
+        }
     }
 
     private void OnTryChangeGrowStage(int offsetStage)

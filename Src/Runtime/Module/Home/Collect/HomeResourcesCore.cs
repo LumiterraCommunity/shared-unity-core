@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
@@ -53,6 +54,32 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
                 Log.Error($"家园采集资源 Data 组件 is null");
             }
         }
+
+        RefEntity.EntityEvent.EntityAttributeUpdate += OnEntityAttributeUpdate;
+    }
+
+    protected virtual void OnDestroy()
+    {
+        if (_addedSoilResourceRelation)
+        {
+            _addedSoilResourceRelation.RemoveResourceOnSoil((long)Id);
+            _addedSoilResourceRelation = null;
+        }
+
+        GetComponent<HomeActionProgressData>().EndProgressAction();
+
+        RefEntity.EntityEvent.EntityAttributeUpdate -= OnEntityAttributeUpdate;
+    }
+
+    private void OnEntityAttributeUpdate(eAttributeType type, int value)
+    {
+        if (type == eAttributeType.MaxActionValue)
+        {
+            if ((PROGRESS_ACTION_MASK & SupportAction) != 0)
+            {
+                UpdateProgressActionProgress();
+            }
+        }
     }
 
     /// <summary>
@@ -71,20 +98,14 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         }
         else if ((PROGRESS_ACTION_MASK & SupportAction) != 0)
         {
-            float maxActionValue = RefEntity.EntityAttributeData.GetRealValue(eAttributeType.MaxActionValue);
-            GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, maxActionValue);
+            UpdateProgressActionProgress();
         }
     }
 
-    protected virtual void OnDestroy()
+    private void UpdateProgressActionProgress()
     {
-        if (_addedSoilResourceRelation)
-        {
-            _addedSoilResourceRelation.RemoveResourceOnSoil((long)Id);
-            _addedSoilResourceRelation = null;
-        }
-
-        GetComponent<HomeActionProgressData>().EndProgressAction();
+        float maxActionValue = RefEntity.EntityAttributeData.GetRealValue(eAttributeType.MaxActionValue);
+        GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, maxActionValue);
     }
 
     /// <summary>

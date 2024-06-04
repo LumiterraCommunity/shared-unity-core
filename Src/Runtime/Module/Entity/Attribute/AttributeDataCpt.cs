@@ -166,6 +166,8 @@ public class AttributeDataCpt : MonoBehaviour
             AttributeMap.Add(type, attribute);
         }
         IntAttributeModifier modifier = attribute.AddModifier(type, modifierType, value);
+        IsNetDirty = true;
+
         OnAttributeUpdate(type, attribute);
         return modifier;
     }
@@ -180,13 +182,17 @@ public class AttributeDataCpt : MonoBehaviour
             return;
         }
 
-        if (!AttributeMap.TryGetValue(modifier.AttributeType, out IntAttribute attribute))
+        eAttributeType type = modifier.AttributeType;
+
+        if (!AttributeMap.TryGetValue(type, out IntAttribute attribute))
         {
             Log.Error($"EntityAttributeData RemoveModifier Not Find Attribute Type = {modifier.AttributeType}");
             return;
         }
         attribute.RemoveModifier(modifier);
-        OnAttributeUpdate(modifier.AttributeType, attribute);
+        IsNetDirty = true;
+
+        OnAttributeUpdate(type, attribute);
     }
 
     private IntAttribute CreateAttribute(eAttributeType type)

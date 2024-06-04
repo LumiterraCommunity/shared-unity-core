@@ -33,18 +33,33 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
 
         StatusCtrl.SoilEvent.TryChangeGrowStage += OnTryChangeGrowStage;
         StatusCtrl.SoilEvent.TryChangeWaterStatus += OnTryChangeWaterStatus;
+        StatusCtrl.SoilEvent.OnAttributeUpdated += OnAttributeUpdated;
 
-        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
+        UpdateNeedWaterProgress();
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
     {
         StatusCtrl.SoilEvent.TryChangeGrowStage -= OnTryChangeGrowStage;
         StatusCtrl.SoilEvent.TryChangeWaterStatus -= OnTryChangeWaterStatus;
+        StatusCtrl.SoilEvent.OnAttributeUpdated -= OnAttributeUpdated;
 
         StatusCtrl.GetComponent<HomeActionProgressData>().EndProgressAction();
 
         base.OnLeave(fsm, isShutdown);
+    }
+
+    private void OnAttributeUpdated(eAttributeType type, int value)
+    {
+        if (type == eAttributeType.NeedWaterValue)
+        {
+            UpdateNeedWaterProgress();
+        }
+    }
+
+    private void UpdateNeedWaterProgress()
+    {
+        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
     }
 
     private void OnTryChangeGrowStage(int offsetStage)

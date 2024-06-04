@@ -94,12 +94,12 @@ public class STASoilBehaviorCore : STActionBase
     //执行浇水
     private void ExecuteWatering(HomeSoilCore soil, bool isWatering)
     {
-        soil.SoilEvent.TryChangeWaterStatus(isWatering);
+        soil.SoilEvent.TryChangeWaterStatus?.Invoke(isWatering);
     }
 
     //执行修改生长阶段
     private void ExecuteModifyGrowStage(HomeSoilCore soil, int offset)
     {
-        soil.SoilEvent.TryChangeGrowStage(offset);
+        soil.SoilEvent.TryChangeGrowStage?.Invoke(offset);
     }
 }
