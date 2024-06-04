@@ -81,11 +81,6 @@ public class STASoilBehaviorCore : STActionBase
         }
     }
 
-    public override void Clear()
-    {
-        base.Clear();
-    }
-
     /// <summary>
     /// 行为类型
     /// </summary>

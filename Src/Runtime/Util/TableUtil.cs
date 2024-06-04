@@ -501,4 +501,65 @@ public static class TableUtil
 
         return (value, resAffectByPotential);
     }
+
+    /// <summary>
+    /// 根据配置中的int[][]生成某个属性组件上的属性修改器列表 配置为可同时修改多个属性
+    /// </summary>
+    /// <param name="attributeCpt">对应实体的属性组件</param>
+    /// <param name="parameters">二维int参数 eg:"15,4,200,15,4;13,4,100,13,4"</param>
+    /// <param name="excludeType">被排除的修改器类型 某些类型不能直接设置属性组件获取修改器 需要外部自己处理 比如HP 但是给到外面解析出来的值方便外部处理</param>
+    /// <param name="excludeValue">被排除的修改类型对应的值</param>
+    /// <returns></returns>
+    public static List<IntAttributeModifier> GenerateAttributeModify(AttributeDataCpt attributeCpt, int[][] parameters, out eAttributeType excludeType, out int excludeValue)
+    {
+        List<IntAttributeModifier> list = new();
+        excludeType = eAttributeType.Unknown;
+        excludeValue = 0;
+
+        for (int index = 0; index < parameters.Length; index++)
+        {
+            try
+            {
+                eAttributeType attributeType = (eAttributeType)parameters[index][0];
+                eModifierType modifierType = (eModifierType)parameters[index][1];
+                int value = parameters[index][2];
+                //基于其它属性进行加成计算
+                if (parameters[index].Length > 4)
+                {
+                    eAttributeType addType = (eAttributeType)parameters[index][3]; //加成属性类型
+                    eModifierType addModifierType = (eModifierType)parameters[index][4]; //加成类型
+                    int addValue;
+                    if (addModifierType == eModifierType.PctAdd)
+                    {
+                        addValue = attributeCpt.GetBaseValue(addType);
+                        value = (int)(addValue * value / IntAttribute.PERCENTAGE_FLAG);
+                    }
+                    else if (addModifierType == eModifierType.FinalPctAdd)
+                    {
+                        addValue = attributeCpt.GetValue(addType);
+                        value = (int)(addValue * value / IntAttribute.PERCENTAGE_FLAG);
+                    }
+                }
+
+                //血量做特殊处理，这里不添加修改器 给外部处理
+                if (attributeType == eAttributeType.HP)
+                {
+                    excludeType = attributeType;
+                    excludeValue = value;
+                }
+                else
+                {
+                    IntAttributeModifier modifier = attributeCpt.AddModifier(attributeType, modifierType, value);
+                    list.Add(modifier);
+                }
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"GenerateAttributeModify error from table index = {index} e = {e}");
+                continue;
+            }
+        }
+
+        return list;
+    }
 }
