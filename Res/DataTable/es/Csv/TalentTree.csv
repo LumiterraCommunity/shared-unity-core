@@ -45,7 +45,7 @@ Combate MaxHP + 20
 MaxEnergy + 10 
 ","59,619#1198,10000","1,2,3",talentTree-9,9,1,9,1, Maestría en Combate 9 ,90,2,115200,8,8,8
 -3,"Reduce la velocidad de movimiento del enemigo
-",332,1,talentTree-10,10,0,2,1, Pisotear - Mejora ,0,2,175,0,1,11
+",332,1,talentTree-10,10,0,2,1, Pisotear - Mejora ,0,2,175,0,0,11
 -3,"Aturdir a los enemigos a tu alrededor
 ",63,0,talentTree-11,11,0,1,1, Pisotear ,0,2,95,0,0,
 0,"Capacidad de Fertilidad + 1
@@ -105,7 +105,7 @@ Energía Máxima + 10
 1,"Capacidad de fertilidad + 1.
 ",228,1,talentTree-22,22,0,1,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,95,0,0,
 -1,"Riega los campos pequeños a tu alrededor
-",99,0,talentTree-23,23,0,2,1, Maestría en Regadera ,0,1,210,0,1,77
+",99,0,talentTree-23,23,0,2,1, Maestría en Regadera ,0,1,210,0,0,77
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5
@@ -185,27 +185,27 @@ Desbloquear Receta de Slime de Energía Nv 1
 Desbloquear Receta de Slime de Energía Nivel 2
 ",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3, Recetas de Conjunto de Recolectar ,0,3,"262,262,262",0,"0,0,0",33
 -1,"Toque Encantador
-",415,0,talentTree-45,45,0,3,1, Toque Encantador ,0,1,420,0,2,23
+",415,0,talentTree-45,45,0,3,1, Toque Encantador ,0,1,420,0,0,23
 -1,"Habilidades de Eficiencia - Azada en Grupo
 ",103,0,talentTree-46,46,0,4,1, Separador de Tierra ,0,1,840,0,3,45
 2,"Competencia en plantación + 4.
-",246,1,talentTree-48,48,0,3,1, Agricultura - Maestría en Cosecha ,0,1,420,0,2,81
+",246,1,talentTree-48,48,0,3,1, Agricultura - Maestría en Cosecha ,0,1,420,0,0,81
 -2,"Desbloquear Recetas de Esencia de Mascotas Nivel 2
 ",156,2,talentTree-49,49,0,2,1, Recetas de Esencia de Mascota ,0,1,210,0,0,72
 2,"Competencia en plantación + 4.
 ",249,1,talentTree-50,50,0,4,1, Agricultura - Maestría en Cosecha ,0,1,840,0,3,48
 -3,"Aumentar la duración de aturdimiento del enemigo
-",333,1,talentTree-52,52,0,3,1, Pisotear - Mejora ,0,2,323,0,2,10
+",333,1,talentTree-52,52,0,3,1, Pisotear - Mejora ,0,2,323,0,0,10
 -2,"Carga, empuja a los enemigos hacia atrás, 50% de daño
-",122,0,talentTree-54,54,0,2,1, Carrera de Toros ,0,2,175,0,1,
+",122,0,talentTree-54,54,0,2,1, Carrera de Toros ,0,2,175,0,0,
 -2,"Reducir la velocidad de movimiento del enemigo
-",336,1,talentTree-55,55,0,3,1, Carrera de Toros - Mejora ,0,2,323,0,2,54
+",336,1,talentTree-55,55,0,3,1, Carrera de Toros - Mejora ,0,2,323,0,0,54
 -2,"Reducir la velocidad de movimiento del enemigo
 ",337,1,talentTree-56,56,0,4,1, Carrera de Toros - Mejora ,0,2,646,0,3,55
 -2,"Repela al enemigo en un área pequeña frente a ti y da un salto hacia atrás.
 ",123,0,talentTree-57,57,0,5,1,Escape: Escape,0,2,1292,0,4,56
 -1,"Infligir un alto daño a 5 monstruos circundantes
-",137,0,talentTree-60,60,0,3,1, Tormenta Ligera ,0,2,323,0,2,
+",137,0,talentTree-60,60,0,3,1, Tormenta Ligera ,0,2,323,0,0,
 -3,"Aturde a los enemigos dentro de un rango determinado, incapaces de golpear durante la liberación de habilidades.
 ",485,0,talentTree-61,61,0,4,1, Pisotear de Guerra ,0,2,646,0,3,52
 -3,"Desbloquear Recetas de Conjunto Nivel 3
@@ -214,9 +214,9 @@ Desbloquear Receta de Slime de Energía Nivel 3
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
 ",95#902,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,0,3,131,0,0,
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",96#903,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,0,3,262,0,1,65
+",96#903,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,0,3,262,0,0,65
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",132#904,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,0,3,525,0,2,66
+",132#904,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,0,3,525,0,0,66
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
 ",346#905,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,0,3,1050,0,3,67
 -1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
@@ -242,10 +242,10 @@ Desbloquear Receta de Slime de Energía Nivel 2
 Desbloquear Receta de Recasting
 ",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3, Recetas de Conjunto de Agricultura ,0,1,"210,210,210",0,"0,0,0",78
 1,"Capacidad de fertilidad + 1.
-",229,1,talentTree-80,80,0,2,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,210,0,1,22
-2,Competencia en plantación + 4.,245,1,talentTree-81,81,0,2,1, Agricultura - Maestría en Cosecha ,0,1,210,0,1,73
-3,Capacidad de Felicidad de Mascotas +1,232,1,talentTree-82,82,0,2,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,0,1,210,0,1,74
-4,Competencia reproductiva + 4,247,1,talentTree-83,83,0,2,1, Agricultura - Maestría en Cosecha ,0,1,210,0,1,76
+",229,1,talentTree-80,80,0,2,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,210,0,0,22
+2,Competencia en plantación + 4.,245,1,talentTree-81,81,0,2,1, Agricultura - Maestría en Cosecha ,0,1,210,0,0,73
+3,Capacidad de Felicidad de Mascotas +1,232,1,talentTree-82,82,0,2,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,0,1,210,0,0,74
+4,Competencia reproductiva + 4,247,1,talentTree-83,83,0,2,1, Agricultura - Maestría en Cosecha ,0,1,210,0,0,76
 1,"Capacidad de fertilidad + 1.
 ",236,1,talentTree-84,84,0,4,1, Valor de Agricultura - Producción de fertilidad por unidad de tierra ,0,1,840,0,3,93
 4,Competencia reproductiva + 4,289,1,talentTree-85,85,0,5,1, Agricultura - Maestría en Cosecha ,0,1,1680,0,4,90
@@ -255,10 +255,10 @@ Desbloquear Receta de Recasting
 ",64#378#68#131#130#129#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488#982#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3, Recetas de Conjunto de Agricultura ,0,1,"420,420,420",0,"0,0,0",79
 3,Capacidad de Felicidad de Mascotas +1,282,1,talentTree-89,89,0,4,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,0,1,840,0,3,92
 4,Competencia reproductiva + 4,288,1,talentTree-90,90,0,4,1, Agricultura - Maestría en Cosecha ,0,1,840,0,3,91
-4,Competencia reproductiva + 4,248,1,talentTree-91,91,0,3,1, Agricultura - Maestría en Cosecha ,0,1,420,0,2,83
-3,Capacidad de Felicidad de Mascotas +1,244,1,talentTree-92,92,0,3,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,0,1,420,0,2,82
+4,Competencia reproductiva + 4,248,1,talentTree-91,91,0,3,1, Agricultura - Maestría en Cosecha ,0,1,420,0,0,83
+3,Capacidad de Felicidad de Mascotas +1,244,1,talentTree-92,92,0,3,1, Agricultura - Índice de Felicidad de Combate de Mascotas ,0,1,420,0,0,82
 1,"Capacidad de fertilidad + 1.
-",235,1,talentTree-93,93,0,3,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,420,0,2,80
+",235,1,talentTree-93,93,0,3,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,420,0,0,80
 -2,"Desbloquear Recetas de Esencia de Mascotas Nivel 3
 ",157,2,talentTree-94,94,0,3,1, Recetas de Esencia de Mascota ,0,1,420,0,0,49
 -5,"Desbloquear Recetas de Conjunto Nv 1
@@ -273,28 +273,28 @@ Desbloquear Receta de Slime de Energía Nv 1
 1,"Aumenta la velocidad en un 10%/20%/30%
 ",116;117;118,1,talentTree-99,99,0,1,3, Experto ,0,2,"95,95,95",0,"0,0,0",
 4," Combate MaxHP +20
-",265,1,talentTree-100,100,0,2,1, Combate - HP ,0,2,175,0,1,96
+",265,1,talentTree-100,100,0,2,1, Combate - HP ,0,2,175,0,0,96
 -5,"Desbloquear Recetas de Conjunto Nivel 2
 Desbloquear Receta de Poción de Energía Nivel 2
 Desbloquear Receta de Recasting
 ",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3, Recetas de Conjunto de Combate ,0,2,"175,175,175",0,"0,0,0",95
 3," Combate DEF +5
-",259,1,talentTree-102,102,0,2,1, Combate - Defensa ,0,2,175,0,1,97
+",259,1,talentTree-102,102,0,2,1, Combate - Defensa ,0,2,175,0,0,97
 2," Combate ATK +5
-",253,1,talentTree-103,103,0,2,1, Combate - Poder de Ataque ,0,2,175,0,1,98
-1,Golpe de combate + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3, Experto ,0,2,"175,175,175",0,"1,1,1",99
+",253,1,talentTree-103,103,0,2,1, Combate - Poder de Ataque ,0,2,175,0,0,98
+1,Golpe de combate + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3, Experto ,0,2,"175,175,175",0,"0,0,0",99
 -5,"Desbloquear Recetas de Conjunto Nivel 3
 Desbloquear Receta de Poción de Energía Nivel 3
 Desbloquear Receta de Recasting
 ",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3, Recetas de Conjunto de Combate ,0,2,"323,323,323",0,"0,0,0",101
 3," Combate DEF +5
-",260,1,talentTree-106,106,0,3,1, Combate - Defensa ,0,2,323,0,2,102
+",260,1,talentTree-106,106,0,3,1, Combate - Defensa ,0,2,323,0,0,102
 2," Combate ATK +5
-",254,1,talentTree-107,107,0,3,1, Combate - Poder de Ataque ,0,2,323,0,2,103
+",254,1,talentTree-107,107,0,3,1, Combate - Poder de Ataque ,0,2,323,0,0,103
 1,"Obtener una tasa de esquiva del 2%/4%/6%
-",125;126;127,1,talentTree-108,108,0,3,3, Experto ,0,2,"323,323,323",0,"2,2,2",104
+",125;126;127,1,talentTree-108,108,0,3,3, Experto ,0,2,"323,323,323",0,"0,0,0",104
 4," Combate MaxHP +20
-",266,1,talentTree-109,109,0,3,1, Combate - HP ,0,2,323,0,2,100
+",266,1,talentTree-109,109,0,3,1, Combate - HP ,0,2,323,0,0,100
 3," Combate DEF +5
 ",261,1,talentTree-111,111,0,4,1, Combate - Defensa ,0,2,646,0,3,106
 1,"Cada 20/10/5 segundos, si no has recibido daño, obtienes un aumento de daño del 10%
@@ -400,17 +400,17 @@ Desbloquear Receta de Recasting
 3,"Ataque de Mineral ++ Competencia ++
 ",312,1,talentTree-190,190,0,1,1, Recolectar - Minería ,0,3,131,0,0,
 1,"Ataque de Hierba ++ Competencia ++
-",295,1,talentTree-191,191,0,2,1, Recolectar - Hierba ,0,3,262,0,1,188
+",295,1,talentTree-191,191,0,2,1, Recolectar - Hierba ,0,3,262,0,0,188
 2,"Ataque de Árbol ++ Competencia ++
-",304,1,talentTree-192,192,0,2,1, Recolectar - Árboles ,0,3,262,0,1,189
+",304,1,talentTree-192,192,0,2,1, Recolectar - Árboles ,0,3,262,0,0,189
 3,"Ataque de Mineral ++ Competencia ++
-",313,1,talentTree-193,193,0,2,1, Recolectar - Minería ,0,3,262,0,1,190
+",313,1,talentTree-193,193,0,2,1, Recolectar - Minería ,0,3,262,0,0,190
 1,"Ataque de Hierba en Recolecta ++ Competencia ++
-",296,1,talentTree-194,194,0,3,1, Recolectar - Hierba ,0,3,525,0,2,191
+",296,1,talentTree-194,194,0,3,1, Recolectar - Hierba ,0,3,525,0,0,191
 2,"Ataque de Árbol en Recolecta ++ Competencia ++
-",305,1,talentTree-195,195,0,3,1, Recolectar - Árboles ,0,3,525,0,2,192
+",305,1,talentTree-195,195,0,3,1, Recolectar - Árboles ,0,3,525,0,0,192
 3,"Ataque de Mineral en Recolecta ++ Competencia ++
-",314,1,talentTree-196,196,0,3,1, Recolectar - Minería ,0,3,525,0,2,193
+",314,1,talentTree-196,196,0,3,1, Recolectar - Minería ,0,3,525,0,0,193
 1,"Ataque de Hierba en Recolecta ++ Competencia ++
 ",297,1,talentTree-197,197,0,4,1, Recolectar - Hierba ,0,3,1050,0,3,194
 2,"Ataque de Árbol en Recolecta ++ Competencia ++
@@ -587,5 +587,5 @@ Desbloquear receta de Slime de energía Lv 6
 -2,"Desbloquear Recetas de Esencia Nivel 9
 ",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,0,295
 -1,,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6,169
-4,,541,0,talentTree-299,299,0,3,1,,0,3,525,0,2,
+4,,541,0,talentTree-299,299,0,3,1,,0,3,525,0,0,
 4,,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,5,299
