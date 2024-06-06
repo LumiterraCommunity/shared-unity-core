@@ -106,6 +106,29 @@ public static class HomeUtilCore
     }
 
     /// <summary>
+    /// 判断种子是否可以播种
+    /// </summary>
+    /// <param name="seedCid"></param>
+    /// <param name="homeType"></param>
+    /// <returns></returns>
+    public static bool JudgeSeedCanSowing(int seedCid, eHomeType homeType, bool isOwner)
+    {
+        DRSeed drSeed = TableUtil.GetConfig<DRSeed>(seedCid);
+        if (drSeed == null)
+        {
+            return false;
+        }
+
+        //图腾不能乱播种 只有自己家园才能播种
+        if (drSeed.FunctionType == (int)SeedFunctionType.Totem)
+        {
+            return homeType == eHomeType.Personal && isOwner;
+        }
+
+        return true;
+    }
+
+    /// <summary>
     /// 判断种子是否是功能性实体类型
     /// </summary>
     /// <param name="soilData"></param>

@@ -82,28 +82,11 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
             return false;
         }
 
-        //副本家园不让铲除
-        if (!HomeModuleCore.HomeData.IsPersonalHome && action == eAction.Eradicate)
-        {
-            return false;
-        }
-
         return GetCurStatus().CheckSupportAction(action);
     }
 
     public bool CheckPlayerAction(long playerId, eAction action)
     {
-
-        //播种
-        if (action == eAction.Sowing)
-        {
-            //副本家园不让玩家播种 但是副本自己可以播种
-            if (!HomeModuleCore.HomeData.IsPersonalHome)
-            {
-                return false;
-            }
-        }
-
         //铲除
         if (action == eAction.Eradicate)
         {
