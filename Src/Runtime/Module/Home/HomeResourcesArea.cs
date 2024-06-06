@@ -22,6 +22,8 @@ public class HomeResourcesArea : SharedCoreComponent
     [Header("配置ID")]
     public int ConfigId;
 
+    [Header("刷新关卡,控制资源刷新的关卡等级，0为不限制")]
+    public int RefreshLevel = 0;
 
     public Bounds AreaBounds { get; private set; }
     public HomeResourcesAreaSaveData SaveData { get; private set; }  //保存数据
