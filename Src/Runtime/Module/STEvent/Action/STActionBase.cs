@@ -11,7 +11,7 @@ using GameFramework;
 public class STActionBase : IReference
 {
     /// <summary>
-    /// 场景事件
+    /// 场景事件, 可能为空
     /// </summary>
     public SceneTriggerEvent SceneEvent { get; private set; }
     /// <summary>
@@ -24,6 +24,16 @@ public class STActionBase : IReference
     public eSTActionType Type { get; private set; }
 
     /// <summary>
+    /// 是否广播客户端
+    /// </summary>
+    public virtual bool IsBroadcast => true;
+
+    /// <summary>
+    /// 是否异步广播
+    /// </summary>
+    public virtual bool IsAsync => true;
+
+    /// <summary>
     /// 初始化
     /// </summary>
     public virtual void Init(DRSceneEventAction cfg, SceneTriggerEvent sceneEvent)
@@ -34,6 +44,18 @@ public class STActionBase : IReference
         OnAddEvent();
     }
 
+    /// <summary>
+    /// 执行行为
+    /// </summary>
+    public void MExecute()
+    {
+        Execute();
+        if (IsBroadcast)
+        {
+            SceneEvent?.BroadcastActionExecute(this, IsAsync);
+        }
+        MessageCore.STActionExecute?.Invoke(this);
+    }
     /// <summary>
     /// 执行行为
     /// </summary>

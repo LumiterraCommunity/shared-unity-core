@@ -33,4 +33,9 @@ public static class MessageCore
     /// 副本关卡玩家数据更新
     /// </summary>
     public static Action InstancingPlayerDataUpdate = delegate { };
+
+    /// <summary>
+    /// 场景事件行为执行
+    /// </summary>
+    public static Action<STActionBase> STActionExecute = delegate { };
 }

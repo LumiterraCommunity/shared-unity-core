@@ -13,6 +13,7 @@ using System.Collections.Generic;
 /// </summary>
 public class STARandomSelectorCore : STActionBase
 {
+    public override bool IsBroadcast => false;
     protected List<STActionBase> ChildActions = new();  //子行为列表
     protected List<int> WeightList = new(); //权重列表
     public override void Init(DRSceneEventAction cfg, SceneTriggerEvent sceneEvent)
@@ -39,7 +40,7 @@ public class STARandomSelectorCore : STActionBase
         int index = MathUtilCore.RandomWeightListIndex(WeightList);
         if (index >= 0 && index < ChildActions.Count)
         {
-            ChildActions[index].Execute();
+            ChildActions[index].MExecute();
         }
     }
 

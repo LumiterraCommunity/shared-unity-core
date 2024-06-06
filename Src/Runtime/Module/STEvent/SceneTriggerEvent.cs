@@ -113,7 +113,7 @@ public class SceneTriggerEvent : IReference
         {
             try
             {
-                Actions[i].Execute();
+                Actions[i].MExecute();
             }
             catch (Exception e)
             {

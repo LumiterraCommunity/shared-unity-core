@@ -9,6 +9,7 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class STASoilBehaviorCore : STActionBase
 {
+    public override bool IsAsync => false;
     public override void Init(DRSceneEventAction cfg, SceneTriggerEvent sceneEvent)
     {
         base.Init(cfg, sceneEvent);
