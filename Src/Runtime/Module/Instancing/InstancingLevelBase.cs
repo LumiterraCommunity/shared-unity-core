@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本关卡
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingLevelBase.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingLevelBase.cs
  * 
  */
 using System.Collections.Generic;
@@ -144,6 +144,15 @@ public class InstancingLevelBase : MonoBehaviour, IInstancingLevel
             {
                 mainEventList.Add(SceneTriggerEvents[i]);
             }
+        }
+    }
+
+    public void AddLevelScore(int score)
+    {
+        LevelScore += score;
+        if (LevelScore > MaxLevelScore)
+        {
+            LevelScore = MaxLevelScore;
         }
     }
 }
