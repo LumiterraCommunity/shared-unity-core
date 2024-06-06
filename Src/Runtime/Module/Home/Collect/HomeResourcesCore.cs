@@ -90,7 +90,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         Id = (ulong)RefEntity.BaseData.Id;
         Data = GetComponent<ResourceDataCore>();
         DRHomeResources dr = Data.DRHomeResources;
-        SupportAction = TableUtil.ToHomeAction(dr.HomeAction);
+        SupportAction = TableUtil.ConvertToBitEnum<eAction>(dr.HomeAction);
 
         if ((SupportAction & eAction.Pick) != 0)//捡东西很特殊 没有进度但是需要选中显示进度icon 所以只能特殊处理一下 https://linear.app/project-linco/issue/LNCO-4361/砍树挖矿采草时，需要显示名字和提示等信息
         {

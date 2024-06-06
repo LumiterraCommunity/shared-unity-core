@@ -79,7 +79,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
         if (PetData.PetCfg != null)
         {
-            HarvestAction = TableUtil.ToHomeAction(PetData.PetCfg.HarvestAction);
+            HarvestAction = TableUtil.ConvertToBitEnum<eAction>(PetData.PetCfg.HarvestAction);
             SupportAction |= HarvestAction;//收获动作添加到支持列表
 
             if (PetData.PetCfg.AutoHarvest)

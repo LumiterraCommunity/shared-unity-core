@@ -251,3 +251,14 @@ public enum eCraftBuildingDisplayType
     General = 1,//通用展示类型
     Energy = 2,//精力展示类型
 }
+
+/// <summary>
+/// 场景功能模块类型 按位运算 配置表中代表位移量
+/// </summary>
+public enum eSceneFunctionModuleType
+{
+    Unknown = 0,
+    Pve = 1 << 1,
+    Pvp = 1 << 2,
+    Home = 1 << 3,
+}

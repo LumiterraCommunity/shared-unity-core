@@ -23,7 +23,7 @@ public static class DRSkillExtension
         }
         else
         {
-            HomeDefine.eAction homeAction = TableUtil.ToHomeAction(skill.HomeAction);
+            HomeDefine.eAction homeAction = TableUtil.ConvertToBitEnum<HomeDefine.eAction>(skill.HomeAction);
             s_homeActionMap.Add(skill.Id, homeAction);
             return homeAction;
         }

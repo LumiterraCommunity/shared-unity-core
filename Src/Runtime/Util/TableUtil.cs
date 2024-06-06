@@ -8,76 +8,6 @@ using GameFramework.DataTable;
 public static class TableUtil
 {
     /// <summary>
-    /// 配置中的家园动作数组转实际枚举 配置中的是左移位数
-    /// </summary>
-    /// <param name="drAction"></param>
-    /// <returns></returns>
-    public static HomeDefine.eAction ToHomeAction(int[] drAction)
-    {
-        if (drAction == null || drAction.Length == 0)
-        {
-            return HomeDefine.eAction.None;
-        }
-
-        HomeDefine.eAction action = HomeDefine.eAction.None;
-        foreach (int item in drAction)
-        {
-            action |= ToHomeAction(item);
-        }
-        return action;
-    }
-
-    /// <summary>
-    /// 配置中的家园动作转实际枚举 配置中的是左移位数
-    /// </summary>
-    /// <param name="drAction"></param>
-    /// <returns></returns>
-    public static HomeDefine.eAction ToHomeAction(int drAction)
-    {
-        if (drAction == 0)
-        {
-            return HomeDefine.eAction.None;
-        }
-
-        return (HomeDefine.eAction)(1 << drAction);
-    }
-
-    // /// <summary>
-    // /// 配置中的宠物特性数组转实际枚举 配置中的是左移位数
-    // /// </summary>
-    // /// <param name="drFeatures"></param>
-    // /// <returns></returns>
-    // public static ePetAbility ToPetFeature(int[] drFeatures)
-    // {
-    //     if (drFeatures == null || drFeatures.Length == 0)
-    //     {
-    //         return ePetAbility.None;
-    //     }
-
-    //     ePetAbility feature = ePetAbility.None;
-    //     foreach (int item in drFeatures)
-    //     {
-    //         feature |= ToPetFeature(item);
-    //     }
-    //     return feature;
-    // }
-
-    // /// <summary>
-    // /// 配置中的宠物特性转实际枚举 配置中的是左移位数
-    // /// </summary>
-    // /// <param name="drFeature"></param>
-    // /// <returns></returns>
-    // public static ePetAbility ToPetFeature(int drFeature)
-    // {
-    //     if (drFeature == 0)
-    //     {
-    //         return ePetAbility.None;
-    //     }
-
-    //     return (ePetAbility)(1 << drFeature);
-    // }
-
-    /// <summary>
     /// 配置表中的字符串格式化输入 xxx{0}bbbb{1}
     /// </summary>
     /// <param name="format"></param>
@@ -592,5 +522,39 @@ public static class TableUtil
         }
 
         return list;
+    }
+
+    /// <summary>
+    /// 配置表中的枚举偏移量数组转换成一个枚举值
+    /// </summary>
+    /// <returns></returns>
+    public static T ConvertToBitEnum<T>(int[] multiBit) where T : Enum
+    {
+        if (multiBit == null || multiBit.Length == 0)
+        {
+            return (T)Enum.ToObject(typeof(T), 0);
+        }
+
+        int res = 0;
+        foreach (int item in multiBit)
+        {
+            res |= 1 << item;
+        }
+        return (T)Enum.ToObject(typeof(T), res);
+    }
+
+    /// <summary>
+    /// 配置中单个代表枚举偏移量的配置转换成实际枚举值 如果参数为0则返回枚举0比较特殊 代表空
+    /// </summary>
+    /// <param name="bit"></param>
+    /// <returns></returns>
+    public static T ConvertToBitEnum<T>(int bit) where T : Enum
+    {
+        if (bit == 0)
+        {
+            return (T)Enum.ToObject(typeof(T), 0);
+        }
+
+        return (T)Enum.ToObject(typeof(T), 1 << bit);
     }
 }

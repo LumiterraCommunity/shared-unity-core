@@ -27,10 +27,18 @@ public static class HomeUtilCore
             homeType = eHomeType.Personal;
             return true;
         }
-        // else if (dRSceneArea.SceneType == (int)eSceneType.Instancing && dRSceneArea.SceneSubtype == (int)DungeonSubType.Home)
-        else if (dRSceneArea.Id is 50001 or 50002 or 50003)//TODO: home 需要等产品配置规则 上面的已经不能这样写
+
+        eSceneFunctionModuleType modules = TableUtil.ConvertToBitEnum<eSceneFunctionModuleType>(dRSceneArea.FunctionModule);
+        if ((modules & eSceneFunctionModuleType.Home) != 0)
         {
-            homeType = eHomeType.Instancing;
+            if (dRSceneArea.SceneType == (int)eSceneType.Instancing)
+            {
+                homeType = eHomeType.Instancing;
+            }
+            else
+            {
+                homeType = eHomeType.Unknown;
+            }
             return true;
         }
 
