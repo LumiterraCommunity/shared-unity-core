@@ -105,6 +105,15 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取sellable-bool。*/
+    /// </summary>
+    public bool Sellable
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取subType-int。*/
     /// </summary>
     public int SubType
@@ -182,6 +191,7 @@ public class DRItem : DataRowBase
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         Quality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ResourceInstructions = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        Sellable = DataTableParseUtil.ParseBool(columnStrings[index++]);
         SubType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TalentId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -210,6 +220,7 @@ public class DRItem : DataRowBase
                 Name = binaryReader.ReadString();
                 Quality = binaryReader.ReadArray<Int32>();
                 ResourceInstructions = binaryReader.ReadArray<Int32>();
+                Sellable = binaryReader.ReadBoolean();
                 SubType = binaryReader.Read7BitEncodedInt32();
                 TalentId = binaryReader.ReadArray<Int32>();
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();
