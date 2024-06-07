@@ -96,6 +96,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取functionModule-int[]。*/
+    /// </summary>
+    public int[] FunctionModule
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取baseScore-int[]。*/
     /// </summary>
     public int[] BaseScore
@@ -257,6 +266,15 @@ public class DRSceneArea : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取seedMaxLimit-int[]。*/
+    /// </summary>
+    public int[] SeedMaxLimit
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -271,6 +289,7 @@ public class DRSceneArea : DataRowBase
         SceneName = DataTableParseUtil.ParseString(columnStrings[index++]);
         SceneSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneType = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        FunctionModule = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BaseScore = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChallengeMode = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -289,6 +308,7 @@ public class DRSceneArea : DataRowBase
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -309,6 +329,7 @@ public class DRSceneArea : DataRowBase
                 SceneName = binaryReader.ReadString();
                 SceneSubtype = binaryReader.Read7BitEncodedInt32();
                 SceneType = binaryReader.Read7BitEncodedInt32();
+                FunctionModule = binaryReader.ReadArray<Int32>();
                 BaseScore = binaryReader.ReadArray<Int32>();
                 BossCovers = binaryReader.ReadArray<Int32>();
                 ChallengeMode = binaryReader.ReadArray<Int32>();
@@ -327,6 +348,7 @@ public class DRSceneArea : DataRowBase
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
                 DropRewardShow = binaryReader.ReadArray<Int32>();
+                SeedMaxLimit = binaryReader.ReadArray<Int32>();
             }
         }
 
