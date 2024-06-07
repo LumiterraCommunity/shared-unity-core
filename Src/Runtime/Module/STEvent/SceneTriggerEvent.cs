@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 场景触发器事件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvent.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvent.cs
  * 
  */
 using System;
@@ -167,6 +167,7 @@ public class SceneTriggerEvent : IReference
     public void Reset()
     {
         StatusType = eSceneEventStatusType.SceneEventActivate;
+        BroadcastSceneTriggerEventUpdate();
     }
 
 
@@ -180,6 +181,7 @@ public class SceneTriggerEvent : IReference
             return;
         }
         EventType = (eSTEventType)DRSceneEvent.Type;
+        CheckConditionType = (eSTConditionCheckType)DRSceneEvent.ConditionType;
         InitConditions();
         InitActions();
     }

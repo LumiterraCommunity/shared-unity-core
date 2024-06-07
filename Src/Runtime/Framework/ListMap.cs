@@ -16,6 +16,9 @@ public class ListMap<TKey, TValue> : IEnumerator, IEnumerable
 
     public int Count => _list.Count;
 
+    /// <summary>
+    /// 无GC，不要改变列表值
+    /// </summary>
     public List<TValue> Values => _list;
 
     /// <summary>
