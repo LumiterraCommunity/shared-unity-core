@@ -166,15 +166,22 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Thu hoạch {0}
 ,20090019,任务,Nhiệm vụ chưa hoàn thành
 ,20090020,任务,Thu thập {0}
+,20090021,任务,
+,20090022,任务,
+,20090023,,
+,20090024,,
+,20090025,,
 ,"20100000
 ",专精,Chung 
 ,20100001,专精,Nông nghiệp 
 ,20100002,专精,Chiến đấu 
 ,20100003,专精,Thu thập 
-,20100004,,Thú cưng
-,20100005,,Cấp độ tối đa 
-,20100006,,Thiếu kinh nghiệm {0} 
-,20100007,nft 关键字,Thiếu Token 
+,20100004,专精,Thú cưng
+,20100005,专精,Cấp độ tối đa 
+,20100006,专精,Thiếu kinh nghiệm {0} 
+,20100007,专精,Thiếu Token 
+,20100008,专精,
+,20100009,,
 ,20110000,nft 关键字,Khôi phục HP 
 ,20110001,nft 关键字,Thêm Buff 
 ,20110002,nft 关键字,Học công thức 
@@ -325,3 +332,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20260001,精力,Năng lượng không đủ.
 ,20260002,精力,Năng lượng của [color=#F7CE3D]{0}[/color] không đủ.
 ,20270001,排行榜,Không xếp hạng.
+,20280001,装备拆解,
+,20290001,背包,
+,20290002,背包,
+,20290003,,

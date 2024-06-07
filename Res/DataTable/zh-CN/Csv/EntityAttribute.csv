@@ -59,8 +59,8 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 150,砍树防御值,61,0,TreeDef,3,1,1,
 150,挖矿防御值,62,0,OreDef,3,1,1,
 300,需求熟练度,63,0,RequiredProficiency,3,1,1,
-100000,精力,64,1,Energy,2,1,3,attribute-icon-64
-200000,最大精力,65,1,MaxEnergy,2,1,3,attribute-icon-65
+150000,精力,64,1,Energy,2,1,3,attribute-icon-64
+150000,最大精力,65,1,MaxEnergy,2,1,3,attribute-icon-65
 0,战斗潜力值,66,0,CombatPotentiality,2,1,3,
 0,采集潜力值,67,0,GatherPotentiality,3,1,3,
 0,农牧潜力值,68,0,FarmPotentiality,1,1,3,

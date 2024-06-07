@@ -166,15 +166,22 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Panen {0}
 ,20090019,任务,Tugas belum selesai
 ,20090020,任务,Mengumpulkan {0}
+,20090021,任务,
+,20090022,任务,
+,20090023,,
+,20090024,,
+,20090025,,
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Bertani 
 ,20100002,专精,Pertempuran 
 ,20100003,专精,Mengumpulkan 
-,20100004,,Hewan peliharaan
-,20100005,,Level Maksimum 
-,20100006,,Kekurangan EXP {0} 
-,20100007,nft 关键字,Kekurangan Token 
+,20100004,专精,Hewan peliharaan
+,20100005,专精,Level Maksimum 
+,20100006,专精,Kekurangan EXP {0} 
+,20100007,专精,Kekurangan Token 
+,20100008,专精,
+,20100009,,
 ,20110000,nft 关键字,Memulihkan HP 
 ,20110001,nft 关键字,Menambah Buff 
 ,20110002,nft 关键字,Belajar Resep 
@@ -325,3 +332,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Energi tidak cukup.
 ,20260002,精力,Energi {0} tidak cukup.
 ,20270001,排行榜,Tidak Terdaftar.
+,20280001,装备拆解,
+,20290001,背包,
+,20290002,背包,
+,20290003,,

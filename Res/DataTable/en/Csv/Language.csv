@@ -173,15 +173,22 @@ Sprite due to insufficient space"
 ,20090018,任务,Harvest {0}
 ,20090019,任务,Task not completed
 ,20090020,任务,Gather {0}
+,20090021,任务,There's an ongoing task
+,20090022,任务,The number of manual refreshes has reached the upper limit
+,20090023,,Communicate with {0}
+,20090024,,Capture {0} 
+,20090025,,Complete the chapter {0} of {1} 
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming
 ,20100002,专精,Battle
 ,20100003,专精,Gather
-,20100004,,Pet
-,20100005,,Level is Max
-,20100006,,Lack of {0} EXP
-,20100007,nft 关键字,Lack of Token
+,20100004,专精,Pet
+,20100005,专精,Level is Max
+,20100006,专精,Lack of {0} EXP
+,20100007,专精,Lack of Token
+,20100008,专精,Reset successfully!
+,20100009,,Talents cannot be upgraded during dungeon combat.
 ,20110000,nft 关键字,Restore HP
 ,20110001,nft 关键字,Add Buff
 ,20110002,nft 关键字,Learn Recipe
@@ -335,3 +342,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Energy not enough
 ,20260002,精力,[color=#F7CE3D]{0}[/color]'s Energy not enough
 ,20270001,排行榜,Not Ranked
+,20280001,装备拆解,"Equipment cannot be restored after being disassembled, please confirm."
+,20290001,背包,Item has been removed.
+,20290002,背包,Item can't be converted.
+,20290003,,All unlocked.
