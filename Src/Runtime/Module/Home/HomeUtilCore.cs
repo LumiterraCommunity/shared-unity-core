@@ -116,6 +116,7 @@ public static class HomeUtilCore
         DRSeed drSeed = TableUtil.GetConfig<DRSeed>(seedCid);
         if (drSeed == null)
         {
+            Log.Error("HomeUtilCore JudgeSeedCanSowing drSeed is null.");
             return false;
         }
 
