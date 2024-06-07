@@ -166,15 +166,22 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Récolter {0}
 ,20090019,任务,Tâche non terminée
 ,20090020,任务,Collecter {0}
+,20090021,任务,
+,20090022,任务,
+,20090023,,
+,20090024,,
+,20090025,,
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
 ,20100002,专精, Combat
 ,20100003,专精, Collecte
-,20100004,,Animal de compagnie
-,20100005,, Niveau maximum
-,20100006,, Manque d'EXP {0}
-,20100007,nft 关键字, Manque de jeton
+,20100004,专精,Animal de compagnie
+,20100005,专精, Niveau maximum
+,20100006,专精, Manque d'EXP {0}
+,20100007,专精, Manque de jeton
+,20100008,专精,
+,20100009,,
 ,20110000,nft 关键字, Restaurer les PV
 ,20110001,nft 关键字, Ajouter un buff
 ,20110002,nft 关键字, Apprendre la recette
@@ -325,3 +332,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Énergie insuffisante.
 ,20260002,精力,L'énergie de [color=#F7CE3D]{0}[/color] est insuffisante.
 ,20270001,排行榜,Non classé.
+,20280001,装备拆解,
+,20290001,背包,
+,20290002,背包,
+,20290003,,

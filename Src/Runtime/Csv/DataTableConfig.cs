@@ -36,6 +36,9 @@ public static class DataTableConfig
         "Role",
         "RoleAsset",
         "SceneArea",
+        "SceneEvent",
+        "SceneEventAction",
+        "SceneEventCondition",
         "Seed",
         "Skill",
         "SkillEffect",
@@ -43,9 +46,6 @@ public static class DataTableConfig
         "TalentTree",
         "Task",
         "TaskList",
-        "SceneEvent",
-        "SceneEventCondition",
-        "SceneEventAction",
     };
 
 }

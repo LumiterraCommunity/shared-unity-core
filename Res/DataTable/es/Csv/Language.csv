@@ -166,15 +166,22 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Cosechar {0}
 ,20090019,任务,Tarea no completada
 ,20090020,任务,Recolectar {0}
+,20090021,任务,
+,20090022,任务,
+,20090023,,
+,20090024,,
+,20090025,,
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
 ,20100002,专精,Batalla
 ,20100003,专精,Recolectar
-,20100004,,Mascota.
-,20100005,,El nivel es máximo
-,20100006,,Falta de EXP {0}
-,20100007,nft 关键字,Falta de fichas
+,20100004,专精,Mascota.
+,20100005,专精,El nivel es máximo
+,20100006,专精,Falta de EXP {0}
+,20100007,专精,Falta de fichas
+,20100008,专精,
+,20100009,,
 ,20110000,nft 关键字,Restaurar HP
 ,20110001,nft 关键字,Agregar buff
 ,20110002,nft 关键字,Aprender receta
@@ -325,3 +332,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Energía insuficiente.
 ,20260002,精力,La energía de [color=#F7CE3D]{0}[/color] no es suficiente.
 ,20270001,排行榜,Sin clasificación.
+,20280001,装备拆解,
+,20290001,背包,
+,20290002,背包,
+,20290003,,
