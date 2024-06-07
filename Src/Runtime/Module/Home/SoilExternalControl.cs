@@ -32,7 +32,6 @@ public class SoilExternalControl : MonoBehaviour
         int offsetProficiency = CalculateUnitProficiency() * realOffset;
 
         _soilData.SetCurProficiency(_soilData.SaveData.SeedData.CurProficiency + offsetProficiency);
-        _soilData.SetNeedPerish(false);//TODO: home 暂定不腐败
         _soilData.SetGrowStage(newStage);
         return true;
     }
@@ -45,11 +44,6 @@ public class SoilExternalControl : MonoBehaviour
     {
         int offset = isWatering ? 1 : -1;
         _soilData.SetCurProficiency(_soilData.SaveData.SeedData.CurProficiency + offset * CalculateUnitProficiency());
-
-        if (isWatering)
-        {
-            _soilData.SetNeedPerish(false);//TODO: home 暂定不腐败
-        }
     }
 
     /// <summary>
@@ -60,5 +54,26 @@ public class SoilExternalControl : MonoBehaviour
     {
         float allNeedProficiency = _soilData.GetAttribute(eAttributeType.RequirementProficiency);
         return Mathf.CeilToInt(allNeedProficiency / _soilData.SeedGrowStageNum);
+    }
+
+    /// <summary>
+    /// 判断外部是否能浇水 这里只处理外部控制的额外条件判断 基础能否浇水不在这里判断 这里也不管
+    /// eg: 为什么有这个需求 因为计算腐败需要用到玩家属性 所以最后一次浇水只能由玩家来浇水 产品暂时这样定的
+    /// </summary>
+    /// <returns></returns>
+    internal bool JudgeExternalCanWatering()
+    {
+        if (_soilData.SaveData.SeedData.SeedCid <= 0)
+        {
+            return false;
+        }
+
+        //最后一个阶段只能玩家人工浇水 因为涉及到计算腐败 需要玩家属性
+        if (_soilData.SaveData.SeedData.GrowingStage >= _soilData.SeedGrowStageNum - 1)
+        {
+            return false;
+        }
+
+        return true;
     }
 }
