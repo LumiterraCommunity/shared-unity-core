@@ -101,6 +101,10 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
         if (SoilData.SaveData.SeedData.ExtraWateringNum > 0)
         {
             SoilData.SaveData.SeedData.ExtraWateringNum--;
+
+            SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+            ctrl.ChangeWaterData(true);
+
             ChangeState(eSoilStatus.GrowingWet);
         }
     }
