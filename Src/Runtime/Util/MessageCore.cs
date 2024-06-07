@@ -25,7 +25,17 @@ public static class MessageCore
     public static Action<int, eInstancingStatusType> LevelStatusUpdate = delegate { };
 
     /// <summary>
+    /// 场景触发器事件数据更新
+    /// </summary>
+    public static Action SceneTriggerEventUpdate = delegate { };
+
+    /// <summary>
     /// 副本关卡玩家数据更新
     /// </summary>
     public static Action InstancingPlayerDataUpdate = delegate { };
+
+    /// <summary>
+    /// 场景事件行为执行
+    /// </summary>
+    public static Action<STActionBase> STActionExecute = delegate { };
 }

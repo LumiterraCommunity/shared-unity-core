@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// </summary>
 public static class DRSkillExtension
 {
-    private static Dictionary<int, HomeDefine.eAction> _homeActionMap;
+    private static Dictionary<int, HomeDefine.eAction> s_homeActionMap;
 
     /// <summary>
     /// 获取表中对应的家园动作 已经完成了解析
@@ -15,16 +15,16 @@ public static class DRSkillExtension
     /// <returns></returns>
     public static HomeDefine.eAction GetHomeAction(this DRSkill skill)
     {
-        _homeActionMap ??= new Dictionary<int, HomeDefine.eAction>();
+        s_homeActionMap ??= new Dictionary<int, HomeDefine.eAction>();
 
-        if (_homeActionMap.TryGetValue(skill.Id, out HomeDefine.eAction action))
+        if (s_homeActionMap.TryGetValue(skill.Id, out HomeDefine.eAction action))
         {
             return action;
         }
         else
         {
-            HomeDefine.eAction homeAction = TableUtil.ToHomeAction(skill.HomeAction);
-            _homeActionMap.Add(skill.Id, homeAction);
+            HomeDefine.eAction homeAction = TableUtil.ConvertToBitEnum<HomeDefine.eAction>(skill.HomeAction);
+            s_homeActionMap.Add(skill.Id, homeAction);
             return homeAction;
         }
     }

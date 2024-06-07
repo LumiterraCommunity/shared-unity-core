@@ -1,4 +1,4 @@
-using GameMessageCore;
+using System;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -7,6 +7,12 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class SoilData : MonoBehaviour
 {
+    /// <summary>
+    /// 属性数据 目前只有有种子时才不为空 为了节省数据和通信 将来如果需要播种前就有属性加成时可以直接初始化土地添加
+    /// </summary>
+    /// <value></value>
+    public SoilAttributeData AttributeData { get; private set; }
+
     [SerializeField]
     private SoilSaveData _saveData;
     /// <summary>
@@ -21,7 +27,7 @@ public class SoilData : MonoBehaviour
     public DRSeed DRSeed { get; private set; }
 
     /// <summary>
-    /// 种子生长阶段数量 无效时为0
+    /// 种子生长阶段数量 无效时为0 可以像数组的长度一样使用 种子当前从0开始 到了SeedGrowStageNum就需要收获了
     /// </summary>
     public int SeedGrowStageNum => DRSeed == null ? 0 : DRSeed.GrowRes.Length;
     /// <summary>
@@ -36,9 +42,9 @@ public class SoilData : MonoBehaviour
                 return 0;
             }
 
-            int remainFertile = SaveData.Fertile - DRSeed.RequiredFertilizer;
+            float remainFertile = SaveData.Fertile - GetAttribute(eAttributeType.RequiredFertilizer);
             remainFertile = Mathf.Max(remainFertile, 1);
-            float totalGrowTime = (float)DRSeed.PlantingDifficulty / remainFertile * TableUtil.GetGameValue(eGameValueID.SoilGrowTimeRate).Value;
+            float totalGrowTime = GetAttribute(eAttributeType.PlantingDifficulty) / remainFertile * TableUtil.GetGameValue(eGameValueID.SoilGrowTimeRate).Value;
             return totalGrowTime / SeedGrowStageNum;
         }
     }
@@ -46,6 +52,57 @@ public class SoilData : MonoBehaviour
     private void Awake()
     {
         _saveData = new SoilSaveData();
+    }
+
+    /// <summary>
+    /// 获取某个属性的值 只有有种子时才有效 否则返回-1
+    /// </summary>
+    /// <param name="type"></param>
+    /// <returns></returns>
+    public float GetAttribute(eAttributeType type)
+    {
+        if (AttributeData == null)
+        {
+            Log.Error($"土地上没有种子属性,seed cid={SaveData.SeedData.SeedCid}");
+            return -1;
+        }
+
+        return AttributeData.GetRealValue(type);
+    }
+
+    /// <summary>
+    /// 初始种子属性
+    /// </summary>
+    private void InitSeedAttribute()
+    {
+        if (AttributeData != null)
+        {
+            Log.Error("土地上已经有属性了");
+            ClearSeedAttribute();
+        }
+
+        if (DRSeed == null)
+        {
+            Log.Error("没有种子配置");
+            return;
+        }
+
+        AttributeData = gameObject.AddComponent<SoilAttributeData>();
+        TableUtil.SetTableInitAttribute(AttributeData, DRSeed.InitialAttribute);
+    }
+
+    /// <summary>
+    /// 清理种子属性
+    /// </summary>
+    private void ClearSeedAttribute()
+    {
+        if (AttributeData == null)
+        {
+            return;
+        }
+
+        Destroy(AttributeData);
+        AttributeData = null;
     }
 
     internal void SetId(ulong id)
@@ -67,6 +124,10 @@ public class SoilData : MonoBehaviour
             if (DRSeed == null)
             {
                 Log.Error($"初始化土地数据时种子配置表里没有找到cid为 {saveData.SeedData.SeedCid} 的种子");
+            }
+            else
+            {
+                InitSeedAttribute();
             }
         }
     }
@@ -93,6 +154,10 @@ public class SoilData : MonoBehaviour
         {
             Log.Error($"种子配置表里没有找到cid为 {seedCid} 的种子");
         }
+        else
+        {
+            InitSeedAttribute();
+        }
         SetGrowStage(0);
     }
 
@@ -112,6 +177,8 @@ public class SoilData : MonoBehaviour
     {
         DRSeed = null;
         _saveData.ClearSeedData();
+
+        ClearSeedAttribute();
     }
 
     /// <summary>
@@ -185,5 +252,22 @@ public class SoilData : MonoBehaviour
         lostTimeMs = Mathf.Max(lostTimeMs, 0);
         float remain = SeedEveryGrowStageTime - (lostTimeMs * TimeUtil.MS2S);
         return Mathf.Max(remain, 0);
+    }
+
+    /// <summary>
+    /// 设置当前熟练度 内部会保护范围
+    /// </summary>
+    public void SetCurProficiency(int newProficiency)
+    {
+        SaveData.SeedData.CurProficiency = Mathf.Clamp(newProficiency, 0, (int)GetAttribute(eAttributeType.RequirementProficiency));
+    }
+
+    /// <summary>
+    /// 设置是否需要腐败
+    /// </summary>
+    /// <param name="v"></param>
+    public void SetNeedPerish(bool v)
+    {
+        SaveData.SeedData.NeedPerish = v;
     }
 }

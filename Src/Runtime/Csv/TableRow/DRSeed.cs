@@ -60,15 +60,6 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
-  /**获取growTotalTime-int。*/
-    /// </summary>
-    public int GrowTotalTime
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取harvestRes-string。*/
     /// </summary>
     public string HarvestRes
@@ -78,27 +69,18 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
+  /**获取initialAttribute-int[][]。*/
+    /// </summary>
+    public int[][] InitialAttribute
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取lv-int。*/
     /// </summary>
     public int Lv
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取needWaterValue-int。*/
-    /// </summary>
-    public int NeedWaterValue
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取plantingDifficulty-int。*/
-    /// </summary>
-    public int PlantingDifficulty
     {
         get;
         private set;
@@ -123,33 +105,6 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
-  /**获取requiredFertilizer-int。*/
-    /// </summary>
-    public int RequiredFertilizer
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取requirementProficiency-int。*/
-    /// </summary>
-    public int RequirementProficiency
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
-  /**获取witherTime-int。*/
-    /// </summary>
-    public int WitherTime
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取functionAvatar-string。*/
     /// </summary>
     public string FunctionAvatar
@@ -167,17 +122,12 @@ public class DRSeed : DataRowBase
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FunctionType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GrowRes = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
-        GrowTotalTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestRes = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        NeedWaterValue = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        PlantingDifficulty = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        RequiredFertilizer = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        RequirementProficiency = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        WitherTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FunctionAvatar = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
@@ -194,17 +144,12 @@ public class DRSeed : DataRowBase
                 Exp = binaryReader.Read7BitEncodedInt32();
                 FunctionType = binaryReader.Read7BitEncodedInt32();
                 GrowRes = binaryReader.ReadArray<String>();
-                GrowTotalTime = binaryReader.Read7BitEncodedInt32();
                 HarvestRes = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
+                InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 Lv = binaryReader.Read7BitEncodedInt32();
-                NeedWaterValue = binaryReader.Read7BitEncodedInt32();
-                PlantingDifficulty = binaryReader.Read7BitEncodedInt32();
                 ProgressScore = binaryReader.Read7BitEncodedInt32();
                 RankScore = binaryReader.Read7BitEncodedInt32();
-                RequiredFertilizer = binaryReader.Read7BitEncodedInt32();
-                RequirementProficiency = binaryReader.Read7BitEncodedInt32();
-                WitherTime = binaryReader.Read7BitEncodedInt32();
                 FunctionAvatar = binaryReader.ReadString();
             }
         }

@@ -44,6 +44,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         StatusCtrl = gameObject.AddComponent<SoilStatusCtrl>();
         SoilData = gameObject.AddComponent<SoilData>();
         _ = gameObject.AddComponent<SoilSeedEntityProxyDataProcess>();
+        _ = gameObject.AddComponent<SoilExternalControl>();
 
         InitStatus(StatusCtrl);
     }
@@ -75,7 +76,28 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
     public bool CheckSupportAction(eAction action)
     {
+        //地块上有采集物
+        if (HomeModuleCore.SoilResourceRelation.HaveResourceOnSoil(Id))
+        {
+            return false;
+        }
+
         return GetCurStatus().CheckSupportAction(action);
+    }
+
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        //铲除
+        if (action == eAction.Eradicate)
+        {
+            //不能铲除农场主的植物
+            if (SoilData.SaveData.SeedData.SeedCid > 0 && HomeModuleCore.HomeData.OwnerPlayerId != playerId)
+            {
+                return false;
+            }
+        }
+
+        return CheckSupportAction(action);
     }
 
     public void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)
@@ -96,16 +118,27 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
                 SoilEvent.MsgExecuteAction?.Invoke(action, actionData);
             }
         }
-        catch (System.Exception)
+        catch (System.Exception e)
         {
-            Log.Error($"土地执行动作失败 action:{action} toolCid:{toolCid} skillId:{skillId} actionData:{JsonConvert.SerializeObject(actionData)}");
+            Log.Error($"土地执行动作失败 action:{action} toolCid:{toolCid} skillId:{skillId} actionData:{JsonConvert.SerializeObject(actionData)} e:{e}");
+            throw e;
         }
 
         if ((action & PROGRESS_ACTION_MASK) == 0)//非进度的动作 因为进度动作 在执行动作前会执行进度动作 已经触发过了
         {
             SoilEvent.OnBeHit?.Invoke(skillId);
         }
+
+        OnExecuteActionFinish(action, playerId, entityId);
     }
+
+    /// <summary>
+    /// 某个动作完成了
+    /// </summary>
+    /// <param name="action"></param>
+    /// <param name="playerId">归属玩家</param>
+    /// <param name="entityId">操作实体</param>
+    protected virtual void OnExecuteActionFinish(eAction action, long playerId, long entityId) { }
 
     public void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect)
     {

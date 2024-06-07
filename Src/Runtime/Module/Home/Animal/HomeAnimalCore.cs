@@ -79,7 +79,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
         if (PetData.PetCfg != null)
         {
-            HarvestAction = TableUtil.ToHomeAction(PetData.PetCfg.HarvestAction);
+            HarvestAction = TableUtil.ConvertToBitEnum<eAction>(PetData.PetCfg.HarvestAction);
             SupportAction |= HarvestAction;//收获动作添加到支持列表
 
             if (PetData.PetCfg.AutoHarvest)
@@ -277,6 +277,11 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
             //收获动作
             return Data.IsCanHarvest;
         }
+    }
+
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        return CheckSupportAction(action);
     }
 
     public void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)

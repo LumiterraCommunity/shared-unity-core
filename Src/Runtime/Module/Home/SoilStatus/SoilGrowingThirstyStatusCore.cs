@@ -2,6 +2,7 @@ using static HomeDefine;
 using GameFramework.Fsm;
 using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
+using System;
 
 /// <summary>
 /// 土地种子发苗后的生长干涸状态
@@ -12,20 +13,70 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
 
     public override eAction SupportAction => eAction.Watering | (HomeUtilCore.JudgeSeedCanDestroy(SoilData) ? eAction.Eradicate : eAction.None);
 
-    protected override float AutoEnterNextStatusTime => SoilData.DRSeed.WitherTime;
+    protected override float AutoEnterNextStatusTime => SoilData.GetAttribute(eAttributeType.WitherTime);
 
     protected override void OnEnter(IFsm<SoilStatusCtrl> fsm)
     {
         base.OnEnter(fsm);
 
-        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.DRSeed.NeedWaterValue : ACTION_MAX_PROGRESS_PROTECT);
+        StatusCtrl.SoilEvent.TryChangeGrowStage += OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus += OnTryChangeWaterStatus;
+        StatusCtrl.SoilEvent.OnAttributeUpdated += OnAttributeUpdated;
+        UpdateNeedWaterProgress();
     }
 
     protected override void OnLeave(IFsm<SoilStatusCtrl> fsm, bool isShutdown)
     {
+        StatusCtrl.SoilEvent.TryChangeGrowStage -= OnTryChangeGrowStage;
+        StatusCtrl.SoilEvent.TryChangeWaterStatus -= OnTryChangeWaterStatus;
+        StatusCtrl.SoilEvent.OnAttributeUpdated -= OnAttributeUpdated;
+
         StatusCtrl.GetComponent<HomeActionProgressData>().EndProgressAction();
 
         base.OnLeave(fsm, isShutdown);
+    }
+
+
+    private void UpdateNeedWaterProgress()
+    {
+        StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Watering, SoilData.DRSeed != null ? SoilData.GetAttribute(eAttributeType.NeedWaterValue) : ACTION_MAX_PROGRESS_PROTECT);
+    }
+
+    private void OnAttributeUpdated(eAttributeType type, int value)
+    {
+        if (type == eAttributeType.NeedWaterValue)
+        {
+            UpdateNeedWaterProgress();
+        }
+    }
+
+    private void OnTryChangeGrowStage(int offsetStage)
+    {
+        SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+        if (!ctrl.ChangeGrowStage(offsetStage, out int newStage))
+        {
+            return;
+        }
+
+        if (newStage == 0)
+        {
+            ChangeState(eSoilStatus.SeedThirsty);
+        }
+        else
+        {
+            ChangeState(eSoilStatus.GrowingThirsty);
+        }
+    }
+
+    private void OnTryChangeWaterStatus(bool isWatering)
+    {
+        if (isWatering)
+        {
+            SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+            ctrl.ChangeWaterData(true);
+
+            ChangeState(eSoilStatus.GrowingWet);
+        }
     }
 
     protected override void OnEnterInitStatus(IFsm<SoilStatusCtrl> fsm)
@@ -80,8 +131,8 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
                 {
                     SoilData.SaveData.SeedData.ExtraWateringNum = extraWateringNum;
                 }
-                SoilData.SaveData.SeedData.CurProficiency = wateringResult.CurProficiency;
-                SoilData.SaveData.SeedData.NeedPerish = wateringResult.NeedPerish;
+                SoilData.SetCurProficiency(wateringResult.CurProficiency);
+                SoilData.SetNeedPerish(wateringResult.NeedPerish);
                 if (wateringResult.NeedPerish)
                 {
                     Log.Info($"在生长干涸浇水时种子被标记成腐败收获 id={SoilData.SaveData.Id} cid={SoilData.SaveData.SeedData.SeedCid} curStage={SoilData.SaveData.SeedData.GrowingStage} maxStage={SoilData.SeedGrowStageNum - 1}");

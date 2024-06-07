@@ -17,6 +17,11 @@ public class ListMap<TKey, TValue> : IEnumerator, IEnumerable
     public int Count => _list.Count;
 
     /// <summary>
+    /// 无GC，不要改变列表值
+    /// </summary>
+    public List<TValue> Values => _list;
+
+    /// <summary>
     /// 返回字典中的Keys 这个和字典一样无法保证顺序
     /// </summary>
     public Dictionary<TKey, TValue>.KeyCollection Keys => _dic.Keys;

@@ -96,6 +96,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取talentType-int。*/
+    /// </summary>
+    public int TalentType
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取functionModule-int[]。*/
     /// </summary>
     public int[] FunctionModule
@@ -289,6 +298,7 @@ public class DRSceneArea : DataRowBase
         SceneName = DataTableParseUtil.ParseString(columnStrings[index++]);
         SceneSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneType = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        TalentType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FunctionModule = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BaseScore = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -329,6 +339,7 @@ public class DRSceneArea : DataRowBase
                 SceneName = binaryReader.ReadString();
                 SceneSubtype = binaryReader.Read7BitEncodedInt32();
                 SceneType = binaryReader.Read7BitEncodedInt32();
+                TalentType = binaryReader.Read7BitEncodedInt32();
                 FunctionModule = binaryReader.ReadArray<Int32>();
                 BaseScore = binaryReader.ReadArray<Int32>();
                 BossCovers = binaryReader.ReadArray<Int32>();

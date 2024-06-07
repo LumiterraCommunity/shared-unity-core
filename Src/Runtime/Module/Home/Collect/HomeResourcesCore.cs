@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
@@ -53,26 +54,8 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
                 Log.Error($"家园采集资源 Data 组件 is null");
             }
         }
-    }
 
-    /// <summary>
-    /// 初始化基础的ResourceData之后调用  用来第一次初始化基础的内容
-    /// </summary>
-    public void OnInitedResourceData()
-    {
-        Id = (ulong)RefEntity.BaseData.Id;
-        Data = GetComponent<ResourceDataCore>();
-        DRHomeResources dr = Data.DRHomeResources;
-        SupportAction = TableUtil.ToHomeAction(dr.HomeAction);
-
-        if ((SupportAction & eAction.Pick) != 0)//捡东西很特殊 没有进度但是需要选中显示进度icon 所以只能特殊处理一下 https://linear.app/project-linco/issue/LNCO-4361/砍树挖矿采草时，需要显示名字和提示等信息
-        {
-            GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, 1);//最大进度给1点 不要给0点 也加不了进度 所以给1没关系
-        }
-        else if ((PROGRESS_ACTION_MASK & SupportAction) != 0)
-        {
-            GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, dr.MaxActionValue);
-        }
+        RefEntity.EntityEvent.EntityAttributeUpdate += OnEntityAttributeUpdate;
     }
 
     protected virtual void OnDestroy()
@@ -84,6 +67,45 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         }
 
         GetComponent<HomeActionProgressData>().EndProgressAction();
+
+        RefEntity.EntityEvent.EntityAttributeUpdate -= OnEntityAttributeUpdate;
+    }
+
+    private void OnEntityAttributeUpdate(eAttributeType type, int value)
+    {
+        if (type == eAttributeType.MaxActionValue)
+        {
+            if ((PROGRESS_ACTION_MASK & SupportAction) != 0)
+            {
+                UpdateProgressActionProgress();
+            }
+        }
+    }
+
+    /// <summary>
+    /// 初始化基础的ResourceData之后调用  用来第一次初始化基础的内容
+    /// </summary>
+    public void OnInitedResourceData()
+    {
+        Id = (ulong)RefEntity.BaseData.Id;
+        Data = GetComponent<ResourceDataCore>();
+        DRHomeResources dr = Data.DRHomeResources;
+        SupportAction = TableUtil.ConvertToBitEnum<eAction>(dr.HomeAction);
+
+        if ((SupportAction & eAction.Pick) != 0)//捡东西很特殊 没有进度但是需要选中显示进度icon 所以只能特殊处理一下 https://linear.app/project-linco/issue/LNCO-4361/砍树挖矿采草时，需要显示名字和提示等信息
+        {
+            GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, 1);//最大进度给1点 不要给0点 也加不了进度 所以给1没关系
+        }
+        else if ((PROGRESS_ACTION_MASK & SupportAction) != 0)
+        {
+            UpdateProgressActionProgress();
+        }
+    }
+
+    private void UpdateProgressActionProgress()
+    {
+        float maxActionValue = RefEntity.EntityAttributeData.GetRealValue(eAttributeType.MaxActionValue);
+        GetComponent<HomeActionProgressData>().StartProgressAction(SupportAction, maxActionValue);
     }
 
     /// <summary>
@@ -117,9 +139,14 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         return (SupportAction & action) != 0;
     }
 
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        return CheckSupportAction(action);
+    }
+
     public void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)
     {
-        if (!CheckSupportAction(action))
+        if (!CheckPlayerAction(playerId, action))
         {
             Log.Error($"家园采集资源 action {action} not support,isDead:{IsDead}");
             return;

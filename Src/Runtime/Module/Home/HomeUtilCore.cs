@@ -1,11 +1,51 @@
-using System;
 using System.Collections.Generic;
 using GameMessageCore;
+using UnityGameFramework.Runtime;
+using static HomeDefine;
 /// <summary>
 /// 家园工具core
 /// </summary>
 public static class HomeUtilCore
 {
+    /// <summary>
+    /// 检查某个场景配置是否是家园模块 out家园类型
+    /// </summary>
+    /// <param name="dRSceneArea"></param>
+    /// <param name="homeType"></param>
+    /// <returns></returns>
+    public static bool CheckIsHomeModuleScene(DRSceneArea dRSceneArea, out eHomeType homeType)
+    {
+        if (dRSceneArea == null)
+        {
+            Log.Error("HomeUtilCore CheckIsHomeModuleScene dRSceneArea is null.");
+            homeType = eHomeType.Unknown;
+            return false;
+        }
+
+        if (dRSceneArea.SceneType == (int)eSceneType.Home)
+        {
+            homeType = eHomeType.Personal;
+            return true;
+        }
+
+        eSceneFunctionModuleType modules = TableUtil.ConvertToBitEnum<eSceneFunctionModuleType>(dRSceneArea.FunctionModule);
+        if ((modules & eSceneFunctionModuleType.Home) != 0)
+        {
+            if (dRSceneArea.SceneType == (int)eSceneType.Instancing)
+            {
+                homeType = eHomeType.Instancing;
+            }
+            else
+            {
+                homeType = eHomeType.Unknown;
+            }
+            return true;
+        }
+
+        homeType = eHomeType.Unknown;
+        return false;
+    }
+
     /// <summary>
     /// 计算土地的所有已使用肥沃值
     /// </summary>
@@ -60,6 +100,30 @@ public static class HomeUtilCore
         if (soilData.DRSeed.FunctionType == (int)SeedFunctionType.Totem)
         {
             return false;
+        }
+
+        return true;
+    }
+
+    /// <summary>
+    /// 判断种子是否可以播种
+    /// </summary>
+    /// <param name="seedCid"></param>
+    /// <param name="homeType"></param>
+    /// <returns></returns>
+    public static bool JudgeSeedCanSowing(int seedCid, eHomeType homeType, bool isOwner)
+    {
+        DRSeed drSeed = TableUtil.GetConfig<DRSeed>(seedCid);
+        if (drSeed == null)
+        {
+            Log.Error("HomeUtilCore JudgeSeedCanSowing drSeed is null.");
+            return false;
+        }
+
+        //图腾不能乱播种 只有自己家园才能播种
+        if (drSeed.FunctionType == (int)SeedFunctionType.Totem)
+        {
+            return homeType == eHomeType.Personal && isOwner;
         }
 
         return true;

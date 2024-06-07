@@ -52,6 +52,16 @@ public class AnimalBowlCore : MonoBehaviour, ICollectResourceCore
         return (SupportAction & action) != 0 && !Data.IsHaveFood;
     }
 
+    public bool CheckPlayerAction(long playerId, eAction action)
+    {
+        if (!HomeModuleCore.HomeData.IsPersonalHome)
+        {
+            return false;
+        }
+
+        return CheckSupportAction(action);
+    }
+
     public virtual void ExecuteAction(eAction action, int toolCid, long playerId, long entityId, int skillId, object actionData)
     {
         DRAnimalFood drAnimalFood = GFEntryCore.DataTable.GetDataTable<DRAnimalFood>().GetDataRow(toolCid);

@@ -8,76 +8,6 @@ using GameFramework.DataTable;
 public static class TableUtil
 {
     /// <summary>
-    /// 配置中的家园动作数组转实际枚举 配置中的是左移位数
-    /// </summary>
-    /// <param name="drAction"></param>
-    /// <returns></returns>
-    public static HomeDefine.eAction ToHomeAction(int[] drAction)
-    {
-        if (drAction == null || drAction.Length == 0)
-        {
-            return HomeDefine.eAction.None;
-        }
-
-        HomeDefine.eAction action = HomeDefine.eAction.None;
-        foreach (int item in drAction)
-        {
-            action |= ToHomeAction(item);
-        }
-        return action;
-    }
-
-    /// <summary>
-    /// 配置中的家园动作转实际枚举 配置中的是左移位数
-    /// </summary>
-    /// <param name="drAction"></param>
-    /// <returns></returns>
-    public static HomeDefine.eAction ToHomeAction(int drAction)
-    {
-        if (drAction == 0)
-        {
-            return HomeDefine.eAction.None;
-        }
-
-        return (HomeDefine.eAction)(1 << drAction);
-    }
-
-    // /// <summary>
-    // /// 配置中的宠物特性数组转实际枚举 配置中的是左移位数
-    // /// </summary>
-    // /// <param name="drFeatures"></param>
-    // /// <returns></returns>
-    // public static ePetAbility ToPetFeature(int[] drFeatures)
-    // {
-    //     if (drFeatures == null || drFeatures.Length == 0)
-    //     {
-    //         return ePetAbility.None;
-    //     }
-
-    //     ePetAbility feature = ePetAbility.None;
-    //     foreach (int item in drFeatures)
-    //     {
-    //         feature |= ToPetFeature(item);
-    //     }
-    //     return feature;
-    // }
-
-    // /// <summary>
-    // /// 配置中的宠物特性转实际枚举 配置中的是左移位数
-    // /// </summary>
-    // /// <param name="drFeature"></param>
-    // /// <returns></returns>
-    // public static ePetAbility ToPetFeature(int drFeature)
-    // {
-    //     if (drFeature == 0)
-    //     {
-    //         return ePetAbility.None;
-    //     }
-
-    //     return (ePetAbility)(1 << drFeature);
-    // }
-
-    /// <summary>
     /// 配置表中的字符串格式化输入 xxx{0}bbbb{1}
     /// </summary>
     /// <param name="format"></param>
@@ -355,6 +285,27 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 用配置表中的初始化属性来设置属性组件 这里不会考虑潜力值
+    /// </summary>
+    /// <param name="attributeCpt"></param>
+    /// <param name="attr"></param>
+    public static void SetTableInitAttribute(AttributeDataCpt attributeCpt, int[][] attr)
+    {
+        if (attributeCpt == null)
+        {
+            Log.Error($"SetTableInitAttribute attributeCpt is null");
+            return;
+        }
+
+        //遍历属性数组
+        ForeachAttribute(attr, (type, baseValue, affectByPotential) =>
+        {
+            attributeCpt.SetBaseValue(type, baseValue);
+            return false;
+        });
+    }
+
+    /// <summary>
     /// 遍历属性数组
     /// </summary>
     /// <param name="attr">属性二维数组</param>
@@ -427,6 +378,32 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 获取副本关卡事件
+    /// </summary>
+    public static int[] GetInstancingLevelEventList(DRSceneArea drSceneArea, int index)
+    {
+        int[] eventList = null;
+        if (index >= 0 && index < drSceneArea.ChapterEvents.Length)
+        {
+            eventList = drSceneArea.ChapterEvents[index];
+        }
+        return eventList;
+    }
+
+    /// <summary>
+    /// 获取副本关卡最大评分
+    /// </summary>
+    public static int GetInstancingLevelMaxScore(DRSceneArea drSceneArea, int index)
+    {
+        int maxScore = 0;
+        if (index >= 0 && index < drSceneArea.ChapterProgress.Length)
+        {
+            maxScore = drSceneArea.ChapterProgress[index];
+        }
+        return maxScore;
+    }
+
+    /// <summary>
     /// 获取宠物原始属性信息
     /// </summary>
     /// <returns>(属性值，是否受到潜力值影响)</returns>
@@ -485,5 +462,99 @@ public static class TableUtil
         }
 
         return value.ToString();
+    }
+    /// <summary>
+    /// 根据配置中的int[][]生成某个属性组件上的属性修改器列表 配置为可同时修改多个属性
+    /// </summary>
+    /// <param name="attributeCpt">对应实体的属性组件</param>
+    /// <param name="parameters">二维int参数 eg:"15,4,200,15,4;13,4,100,13,4"</param>
+    /// <param name="excludeType">被排除的修改器类型 某些类型不能直接设置属性组件获取修改器 需要外部自己处理 比如HP 但是给到外面解析出来的值方便外部处理</param>
+    /// <param name="excludeValue">被排除的修改类型对应的值</param>
+    /// <returns></returns>
+    public static List<IntAttributeModifier> GenerateAttributeModify(AttributeDataCpt attributeCpt, int[][] parameters, out eAttributeType excludeType, out int excludeValue)
+    {
+        List<IntAttributeModifier> list = new();
+        excludeType = eAttributeType.Unknown;
+        excludeValue = 0;
+
+        for (int index = 0; index < parameters.Length; index++)
+        {
+            try
+            {
+                eAttributeType attributeType = (eAttributeType)parameters[index][0];
+                eModifierType modifierType = (eModifierType)parameters[index][1];
+                int value = parameters[index][2];
+                //基于其它属性进行加成计算
+                if (parameters[index].Length > 4)
+                {
+                    eAttributeType addType = (eAttributeType)parameters[index][3]; //加成属性类型
+                    eModifierType addModifierType = (eModifierType)parameters[index][4]; //加成类型
+                    int addValue;
+                    if (addModifierType == eModifierType.PctAdd)
+                    {
+                        addValue = attributeCpt.GetBaseValue(addType);
+                        value = (int)(addValue * value / IntAttribute.PERCENTAGE_FLAG);
+                    }
+                    else if (addModifierType == eModifierType.FinalPctAdd)
+                    {
+                        addValue = attributeCpt.GetValue(addType);
+                        value = (int)(addValue * value / IntAttribute.PERCENTAGE_FLAG);
+                    }
+                }
+
+                //血量做特殊处理，这里不添加修改器 给外部处理
+                if (attributeType == eAttributeType.HP)
+                {
+                    excludeType = attributeType;
+                    excludeValue = value;
+                }
+                else
+                {
+                    IntAttributeModifier modifier = attributeCpt.AddModifier(attributeType, modifierType, value);
+                    list.Add(modifier);
+                }
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"GenerateAttributeModify error from table index = {index} e = {e}");
+                continue;
+            }
+        }
+
+        return list;
+    }
+
+    /// <summary>
+    /// 配置表中的枚举偏移量数组转换成一个枚举值
+    /// </summary>
+    /// <returns></returns>
+    public static T ConvertToBitEnum<T>(int[] multiBit) where T : Enum
+    {
+        if (multiBit == null || multiBit.Length == 0)
+        {
+            return (T)Enum.ToObject(typeof(T), 0);
+        }
+
+        int res = 0;
+        foreach (int item in multiBit)
+        {
+            res |= 1 << item;
+        }
+        return (T)Enum.ToObject(typeof(T), res);
+    }
+
+    /// <summary>
+    /// 配置中单个代表枚举偏移量的配置转换成实际枚举值 如果参数为0则返回枚举0比较特殊 代表空
+    /// </summary>
+    /// <param name="bit"></param>
+    /// <returns></returns>
+    public static T ConvertToBitEnum<T>(int bit) where T : Enum
+    {
+        if (bit == 0)
+        {
+            return (T)Enum.ToObject(typeof(T), 0);
+        }
+
+        return (T)Enum.ToObject(typeof(T), 1 << bit);
     }
 }

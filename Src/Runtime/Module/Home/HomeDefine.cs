@@ -267,4 +267,41 @@ public static class HomeDefine
         empty,    //空地
         farmland, //农田
     }
+
+    /// <summary>
+    /// 家园类型
+    /// </summary>
+    public enum eHomeType
+    {
+        Unknown = 0,
+        /// <summary>
+        /// 自己个人家园
+        /// </summary>
+        Personal = 1,
+        /// <summary>
+        /// 副本家园
+        /// </summary>
+        Instancing = 2,
+    }
+
+    /// <summary>
+    /// 无效的种子实体id
+    /// </summary>
+    public static long INVALID_SEED_ENTITY_ID = 0;
+    /// <summary>
+    /// 副本去执行动作的特殊玩家ID
+    /// </summary>
+    public static long INSTANCING_PLAYER = -9001;
+    /// <summary>
+    /// 副本去执行动作的特殊实体ID
+    /// </summary>
+    public static long INSTANCING_ENTITY = -9009001;
+    /// <summary>
+    /// 副本去播种的特殊技能ID
+    /// </summary>
+    public static int INSTANCING_SOWING_SKILL = -9001;
+    /// <summary>
+    /// 副本去播种的特殊种子NFT ID
+    /// </summary>
+    public static string INSTANCING_SOWING_NFT_ID = "instance seed";
 }
