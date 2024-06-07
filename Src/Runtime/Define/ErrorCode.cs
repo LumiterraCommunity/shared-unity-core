@@ -79,4 +79,9 @@ public enum eErrorCode : int
     notFindUserData = 1001404,
 
     #endregion
+
+    #region  任务
+    npcNotFound = 1002001, //npc未找到
+    npcTooFar = 1002002, //npc太远
+    #endregion
 }
