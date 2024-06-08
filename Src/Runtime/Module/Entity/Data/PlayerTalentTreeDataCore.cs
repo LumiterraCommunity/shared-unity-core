@@ -49,20 +49,33 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
         AllTalentTreeDic = new();
         TalentTreeLvList = new();
 
-        try
+        if (talentData.Levels != null)
         {
             TalentTreeLvList.AddRange(talentData.Levels);//天赋树等级列表
+        }
+
+        if (talentData.Trees == null)
+        {
+            RefEntity.EntityEvent.TalentSkillInited?.Invoke(new List<int>());
+            //整棵树为空，直接返回成功
+            return true;
+        }
+
+        try
+        {
             int treeCount = talentData.Trees.Length;
             for (int treeIndex = 0; treeIndex < treeCount; treeIndex++)
             {
                 GrpcTalentTree tree = talentData.Trees[treeIndex];
-                AllTalentTreeList.Add(tree.TalentType, new(tree.Nodes));
-                AllTalentTreeDic.Add(tree.TalentType, new());
-                int nodeCount = tree.Nodes.Length;
-                for (int nodeIndex = 0; nodeIndex < nodeCount; nodeIndex++)
+                List<GrpcTalentNodeData> treeList = new();
+                Dictionary<int, GrpcTalentNodeData> treeDic = new();
+                AllTalentTreeList.Add(tree.TalentType, treeList);
+                AllTalentTreeDic.Add(tree.TalentType, treeDic);
+
+                if (tree.Nodes != null)
                 {
-                    GrpcTalentNodeData node = tree.Nodes[nodeIndex];
-                    AllTalentTreeDic[tree.TalentType].Add(node.NodeId, node);
+                    treeList.AddRange(tree.Nodes);
+                    treeDic = treeList.ToDictionary(node => node.NodeId);
                 }
             }
 
@@ -359,7 +372,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
             }
         }
 
-        Log.Error($"GetPlayerTypeLevel error, type:{type}");
+        //新用户，天赋树等级列表为空，正常返回0
         return 0;
     }
 }
