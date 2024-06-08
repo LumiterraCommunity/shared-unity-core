@@ -178,10 +178,10 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,Vide,0,"3,831",161,1,0,"Récompense-Récolte-6
 ",,,"{""options"":[{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3401}]}"," Tuez ces monstres pour prouver votre force.Après avoir terminé la tâche, le champ d'essai spécial Flower Peak sera déverrouillé.",0,"2,84",163,0,0,"Test de Victor
-",,,,20000
+",,215,,20000
 "{""options"":[{""optionType"":4,""value"":""12,1"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,1"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,1"",""guiderPoint"":20204}]}"," Tuez ces monstres pour prouver que vous êtes une personne forte.Après avoir terminé la tâche, le champ d'essai spécial Floating Realm sera déverrouillé.",0,"2,237",164,0,0,"Test de Magnus
-",,,,20001
-"{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","Tuez ces monstres dans Floating Realm pour prouver votre force.Après avoir terminé la tâche, le champ d'essai spécial sera déverrouillé - Ancient Domain.",0,"2,672",165,0,0,Aide pour le Sprite,,,,20002
+",,215,,20001
+"{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","Tuez ces monstres dans Floating Realm pour prouver votre force.Après avoir terminé la tâche, le champ d'essai spécial sera déverrouillé - Ancient Domain.",0,"2,672",165,0,0,Aide pour le Sprite,,215,,20002
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Prouvez davantage votre force en tuant les monstres suivants. Après avoir terminé, l'arène sera déverrouillée.",0,"2,84",166,0,0,"Tuer le monstre du pic de la Fleur 
 ",,163,,21001
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Prouvez davantage votre force en tuant les monstres suivants. Après avoir terminé, l'arène sera déverrouillée.",0,"2,237",167,0,0,"Tuer le monstre du Royaume Flottant 
@@ -263,22 +263,23 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,,0,"3,1663",206,1,0,"Récompense-Récolte-8 
 ",,,"{""options"":[{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0}]}",
 ,,0,"3,2352",207,1,0,Récompense-Récolte-9,,,"{""options"":[{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",208,0,0,,,21,,30001
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",209,0,0,,,21,,30002
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",208,0,0,,,21,,
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",,0,"2,147",209,0,0,,,215,,30002
 "{""options"":[{""optionType"":5,""value"":""21,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",210,0,0,,,26,,
-"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105},{""optionType"":13,""value"":""696,83,1345,10"",""guiderPoint"":30106}]}",,0,"2,50;3,50;1,50",211,0,0,,,216,,
+"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}",,0,"2,50;3,50;1,50",211,0,0,,,216,,
 "{""options"":[{""optionType"":3,""value"":""482,1"",""guiderPoint"":30101}]}",,0,"2,50;3,50;1,50",212,0,157,,,26,,
 "{""options"":[{""optionType"":2,""value"":""709,1"",""guiderPoint"":30101}]}",,0,"2,50;3,50;1,50",213,0,158,,,212,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",214,0,0,,,213,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",214,0,177,,,213,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",,0,"2,50;3,50;1,50",215,0,0,,,214,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",216,0,0,,,215,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",217,0,0,,,211,,
-"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",,0,"3,117",218,0,0,,,,,40001
-"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",,0,"3,117",219,0,0,,,,,40002
-"{""options"":[{""optionType"":3,""value"":""494,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""495,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""496,1"",""guiderPoint"":30104}]}",,0,"3,117",220,0,0,,,,,40003
-"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",,0,"1,117",221,0,0,,,,,50001
-"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",,0,"1,117",222,0,0,,,,,50002
-"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",,0,"1,117",223,0,0,,,,,50003
+"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",,0,"3,117",218,0,0,,,215,,40001
+"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",,0,"3,117",219,0,0,,,215,,40002
+"{""options"":[{""optionType"":3,""value"":""494,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""495,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""496,1"",""guiderPoint"":30104}]}",,0,"3,117",220,0,0,,,215,,40003
+"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",,0,"1,117",221,0,0,,,215,,50001
+"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",,0,"1,117",222,0,0,,,215,,50002
+"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",,0,"1,117",223,0,0,,,215,,50003
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",,0,"2,50;3,50;1,50",224,0,0,,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",,0,"2,50;3,50;1,50",225,0,0,,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",,0,"2,50;3,50;1,50",226,0,0,,,,,
+,,0,,227,0,0,,,,,
