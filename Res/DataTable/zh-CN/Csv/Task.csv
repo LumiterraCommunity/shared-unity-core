@@ -183,11 +183,11 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,,0,"3,588",160,1,0,悬赏-采集-5,,,"{""options"":[{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0}]}",
 ,,0,"3,831",161,1,0,悬赏-采集-6,,,"{""options"":[{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3401}]}","杀死这些怪物，证明你的实力。
-完成任务后将解锁特殊试炼场 - 花岚锋。",0,"2,84",163,0,0,维克托的考验,,,,20000
+完成任务后将解锁特殊试炼场 - 花岚锋。",0,"2,84",163,0,0,维克托的考验,,215,,20000
 "{""options"":[{""optionType"":4,""value"":""12,1"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,1"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,1"",""guiderPoint"":20204}]}","杀死这些怪物，证明你是个独当一面的强者。
-完成任务后将解锁特殊试炼场 - 浮空之地。",0,"2,237",164,0,0,马格努斯的考验,,,,20001
+完成任务后将解锁特殊试炼场 - 浮空之地。",0,"2,237",164,0,0,马格努斯的考验,,215,,20001
 "{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","杀死这些怪物，证明你有足够的能力帮助谜光古灵。
-完成任务后将解锁特殊试炼场 - 远古灵域",0,"2,672",165,0,0,谜光古灵的求助,,,,20002
+完成任务后将解锁特殊试炼场 - 远古灵域",0,"2,672",165,0,0,谜光古灵的求助,,215,,20002
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}",在特殊试炼场 - 花岚峰中击杀以下怪物，获取初级竞技场的入场资格。,0,"2,84",166,0,0,杀死花岚峰的怪物,,163,,21001
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}",在特殊试炼场 - 浮空之地中击杀以下怪物，获取中级竞技场的入场资格。,0,"2,237",167,0,0,杀死浮空之地的怪物,,164,,21002
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}",在特殊试炼场 - 远古灵域中击杀以下怪物，获取高级竞技场的入场资格。,0,"2,672",168,0,0,杀死远古灵域的怪物,,165,,21003
@@ -240,12 +240,12 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",,0,"2,50;3,50;1,50",215,0,0,完成一次日常副本,,214,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",216,0,0,活跃起来,,215,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",217,0,0,宠物的正确使用方式,,211,,
-"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",,0,"3,117",218,0,0,初级采集挑战,,,,40001
-"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",,0,"3,117",219,0,0,中级采集挑战,,,,40002
-"{""options"":[{""optionType"":3,""value"":""494,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""495,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""496,1"",""guiderPoint"":30104}]}",,0,"3,117",220,0,0,高级采集挑战,,,,40003
-"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",,0,"1,117",221,0,0,初级种田挑战,,,,50001
-"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",,0,"1,117",222,0,0,中级种田挑战,,,,50002
-"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",,0,"1,117",223,0,0,高级种田挑战,,,,50003
+"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",,0,"3,117",218,0,0,初级采集挑战,,215,,40001
+"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",,0,"3,117",219,0,0,中级采集挑战,,215,,40002
+"{""options"":[{""optionType"":3,""value"":""494,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""495,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""496,1"",""guiderPoint"":30104}]}",,0,"3,117",220,0,0,高级采集挑战,,215,,40003
+"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",,0,"1,117",221,0,0,初级种田挑战,,215,,50001
+"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",,0,"1,117",222,0,0,中级种田挑战,,215,,50002
+"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",,0,"1,117",223,0,0,高级种田挑战,,215,,50003
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",,0,"2,50;3,50;1,50",224,0,0,测试对话任务,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",,0,"2,50;3,50;1,50",225,0,0,测试副本章节任务,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",,0,"2,50;3,50;1,50",226,0,0,测试捕捉任务,,,,

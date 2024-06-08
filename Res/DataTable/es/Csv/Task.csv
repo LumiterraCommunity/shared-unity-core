@@ -224,14 +224,14 @@ Planta semillas de Fruta de Resistencia.",0,"1,261",36,0,39,Desafío de agricult
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3401}]}"," [65]Mata a estos monstruos para demostrar tu fuerza.
 Después de completar la tarea, se desbloqueará el campo de prueba especial: Pico de las Flores.
 ",0,"2,84",163,0,0," [65]Prueba de Victor
-",,,,20000
+",,215,,20000
 "{""options"":[{""optionType"":4,""value"":""12,1"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,1"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,1"",""guiderPoint"":20204}]}"," [66]Mata a estos monstruos para demostrar que eres una persona fuerte.
 Después de completar la tarea, se desbloqueará el campo de prueba especial: Reino Flotante.
 ",0,"2,237",164,0,0," [66]Prueba de Magnus
-",,,,20001
+",,215,,20001
 "{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}"," [159]Mata a estos monstruos en el Reino Flotante para demostrar tu fuerza.
 Después de completar la tarea, se desbloqueará el campo de prueba especial: Dominio Antiguo.
-",0,"2,672",165,0,0, [159]Ayuda para el Sprite,,,,20002
+",0,"2,672",165,0,0, [159]Ayuda para el Sprite,,215,,20002
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}"," [160]Demuestra aún más tu fuerza matando a los siguientes monstruos. Después de completarlo, se desbloqueará la arena.
 ",0,"2,84",166,0,0,"[68]Matar monstruos en el Pico de la Flor 
 ",,163,,21001
@@ -309,12 +309,12 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",,0,"2,50;3,50;1,50",215,0,0,,,214,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",216,0,0,,,215,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",217,0,0,,,211,,
-"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",,0,"3,117",218,0,0,,,,,40001
-"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",,0,"3,117",219,0,0,,,,,40002
-"{""options"":[{""optionType"":3,""value"":""494,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""495,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""496,1"",""guiderPoint"":30104}]}",,0,"3,117",220,0,0,,,,,40003
-"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",,0,"1,117",221,0,0,,,,,50001
-"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",,0,"1,117",222,0,0,,,,,50002
-"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",,0,"1,117",223,0,0,,,,,50003
+"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",,0,"3,117",218,0,0,,,215,,40001
+"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",,0,"3,117",219,0,0,,,215,,40002
+"{""options"":[{""optionType"":3,""value"":""494,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""495,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""496,1"",""guiderPoint"":30104}]}",,0,"3,117",220,0,0,,,215,,40003
+"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",,0,"1,117",221,0,0,,,215,,50001
+"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",,0,"1,117",222,0,0,,,215,,50002
+"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",,0,"1,117",223,0,0,,,215,,50003
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",,0,"2,50;3,50;1,50",224,0,0,,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",,0,"2,50;3,50;1,50",225,0,0,,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",,0,"2,50;3,50;1,50",226,0,0,,,,,
