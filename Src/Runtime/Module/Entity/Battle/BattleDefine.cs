@@ -79,6 +79,7 @@ public static class BattleDefine
 
     public const int PLAYER_DEATH_STATUS_TIME = 60000;  // 玩家死亡状态时间
     public const int PEACE_AREA_ID = 1;  // 和平区域ID
+    public const float INPUT_SKILL_VERIFICATION_DISTANCE = 3;  //服务器校验客户端输入技能的有效距离
 
     public static readonly Dictionary<eEntityCampType, HashSet<eEntityCampType>> EntityCampFriend = new()
     {
