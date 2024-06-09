@@ -3169,30 +3169,74 @@ Créez immédiatement une tâche de jeton.",0,item-icon-770,770, Agriculture 4-6
 -------
 Créez immédiatement une tâche de jeton.",0,item-icon-771,771, Agriculture 7-9,1,406,1,0,1,999,2,7,0,1
 -,"1,3,4",1,Il peut être échangé contre des jetons $SONIC.,0,item-icon-772,772, Point d'odyssée sonique,1,,0,0,"1,2,3",999,0,4,0,1
--,0,0,,0,item-icon-773,773,,1,,0,0,"1,2,3",999,0,4,0,1
--,0,0,,0,item-icon-774,774,,1,,0,0,"1,2,3",999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-775,775,,1,,1,0,3,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-776,776,,1,,1,0,3,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-777,777,,1,,1,0,3,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-778,778,,1,,1,0,1,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-779,779,,1,,1,0,1,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-780,780,,1,,1,0,1,999,0,4,0,1
--,"1,3,4",1,,0,item-icon-783,783,,1,,1,0,"1,2,3",999,0,4,1,1
--,"1,3,4",1,,0,item-icon-784,784,,1,,1,0,"1,2,3",999,0,4,2,1
--,"1,3,4",1,,0,item-icon-785,785,,1,,1,0,"1,2,3",999,0,4,3,1
--,"1,3,4",1,,0,item-icon-786,786,,1,,1,0,"1,2,3",999,0,4,4,1
--,"1,3,4",1,,0,item-icon-787,787,,1,,1,0,"1,2,3",999,0,4,5,1
--,"1,3,4",1,,0,item-icon-788,788,,1,,1,0,"1,2,3",999,0,4,6,1
--,"1,3,4",1,,0,item-icon-789,789,,1,,1,0,"1,2,3",999,0,4,7,1
--,"1,3,4",1,,0,item-icon-790,790,,1,,1,0,"1,2,3",999,0,4,8,1
--,"1,3,4",1,,0,item-icon-791,791,,1,,1,0,"1,2,3",999,0,4,9,1
--,"1,3,4",1,,0,item-icon-792,792,,1,,1,0,"1,2,3",999,0,4,1,1
--,"1,3,4",1,,0,item-icon-793,793,,1,,1,0,"1,2,3",999,0,4,2,1
--,"1,3,4",1,,0,item-icon-794,794,,1,,1,0,"1,2,3",999,0,4,3,1
--,"1,3,4",1,,0,item-icon-795,795,,1,,1,0,"1,2,3",999,0,4,4,1
--,"1,3,4",1,,0,item-icon-796,796,,1,,1,0,"1,2,3",999,0,4,5,1
--,"1,3,4",1,,0,item-icon-797,797,,1,,1,0,"1,2,3",999,0,4,6,1
--,"1,3,4",1,,0,item-icon-798,798,,1,,1,0,"1,2,3",999,0,4,7,1
--,"1,3,4",1,,0,item-icon-799,799,,1,,1,0,"1,2,3",999,0,4,8,1
--,"1,3,4",1,,0,item-icon-800,800,,1,,1,0,"1,2,3",999,0,4,9,1
-"793,1","1,3,4",1,,0,item-icon-801,801,,1,,1,0,"1,2,3",999,0,4,2,1
+-,0,0,"Monnaie du jeu
+1 LUAUSD = 1 USDT
+",0,item-icon-773,773,LUAUSD: LUAUSD,1,,0,0,"1,2,3",999,0,4,0,1
+-,0,0,"Plus de points de chance, plus de chances de tâche de jeton
+",0,item-icon-774,774,Lucky Point: Point de chance,1,,0,0,"1,2,3",999,0,4,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Billets requis pour participer au défi de collecte junior
+",0,item-icon-775,775,Junior Gather Admission Ticket: Billet d'admission pour la collecte junior,1,,1,0,3,999,0,4,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Billets requis pour participer au défi de collecte intermédiaire
+",0,item-icon-776,776,Intermediate Gather Admission Ticket: Billet d'admission pour la collecte intermédiaire,1,,1,0,3,999,0,4,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Billets requis pour participer au défi de collecte avancé
+",0,item-icon-777,777,Advance Gather Admission Ticket: Billet d'admission pour la collecte avancée,1,,1,0,3,999,0,4,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Billets requis pour participer au défi de culture junior
+",0,item-icon-778,778,Junior Farming Admission Ticket: Billet d'admission pour l'agriculture junior,1,,1,0,1,999,0,4,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Billets requis pour participer au défi de culture intermédiaire
+",0,item-icon-779,779,Intermediate Farming Admission Ticket: Billet d'admission pour l'agriculture intermédiaire,1,,1,0,1,999,0,4,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Billets requis pour participer au défi de culture avancé
+",0,item-icon-780,780,Advance Farming Admission Ticket: Billet d'admission pour l'agriculture avancée,1,,1,0,1,999,0,4,0,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 1
+",0,item-icon-783,783,Lv 1 Packaging Paper: Papier d'emballage de niveau 1,1,,1,0,"1,2,3",999,0,4,1,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 2
+",0,item-icon-784,784,Lv 2 Packaging Paper: Papier d'emballage de niveau 2,1,,1,0,"1,2,3",999,0,4,2,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 3
+",0,item-icon-785,785,Lv 3 Packaging Paper: Papier d'emballage de niveau 3,1,,1,0,"1,2,3",999,0,4,3,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 4
+",0,item-icon-786,786,Lv 4 Packaging Paper: Papier d'emballage de niveau 4,1,,1,0,"1,2,3",999,0,4,4,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 5
+",0,item-icon-787,787,Lv 5 Packaging Paper: Papier d'emballage de niveau 5,1,,1,0,"1,2,3",999,0,4,5,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 6
+",0,item-icon-788,788,Lv 6 Packaging Paper: Papier d'emballage de niveau 6,1,,1,0,"1,2,3",999,0,4,6,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 7
+",0,item-icon-789,789,Lv 7 Packaging Paper: Papier d'emballage de niveau 7,1,,1,0,"1,2,3",999,0,4,7,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 8
+",0,item-icon-790,790,Lv 8 Packaging Paper: Papier d'emballage de niveau 8,1,,1,0,"1,2,3",999,0,4,8,1
+-,"1,3,4",1,"Fabriquez une boîte d'emballage de niveau 9
+",0,item-icon-791,791,Lv 9 Packaging Paper: Papier d'emballage de niveau 9,1,,1,0,"1,2,3",999,0,4,9,1
+-,"1,3,4",1,"Emballage d'objet de niveau 1 à vendre
+",0,item-icon-792,792,Lv 1 Packaging box: Boîte d'emballage de niveau 1,1,,1,0,"1,2,3",999,0,4,1,1
+-,"1,3,4",1,"Emballage d'objet de niveau 2 à vendre
+",0,item-icon-793,793,Lv 2 Packaging box: Boîte d'emballage de niveau 2,1,,1,0,"1,2,3",999,0,4,2,1
+-,"1,3,4",1,"Emballage d'objet de niveau 3 à vendre
+",0,item-icon-794,794,Lv 3 Packaging box: Boîte d'emballage de niveau 3,1,,1,0,"1,2,3",999,0,4,3,1
+-,"1,3,4",1,"Emballage d'objet de niveau 4 à vendre
+",0,item-icon-795,795,Lv 4 Packaging box: Boîte d'emballage de niveau 4,1,,1,0,"1,2,3",999,0,4,4,1
+-,"1,3,4",1,"Emballage d'objet de niveau 5 à vendre
+",0,item-icon-796,796,Lv 5 Packaging box: Boîte d'emballage de niveau 5,1,,1,0,"1,2,3",999,0,4,5,1
+-,"1,3,4",1,"Emballage d'objet de niveau 6 à vendre
+",0,item-icon-797,797,Lv 6 Packaging box: Boîte d'emballage de niveau 6,1,,1,0,"1,2,3",999,0,4,6,1
+-,"1,3,4",1,"Emballage d'objet de niveau 7 à vendre
+",0,item-icon-798,798,Lv 7 Packaging box: Boîte d'emballage de niveau 7,1,,1,0,"1,2,3",999,0,4,7,1
+-,"1,3,4",1,Emballage d'objet de niveau 8 à vendre,0,item-icon-799,799,Lv 8 Packaging box: Boîte d'emballage de niveau 8,1,,1,0,"1,2,3",999,0,4,8,1
+-,"1,3,4",1,"Niveau 9 du paquet d'articles à vendre
+",0,item-icon-800,800,Niveau 9 Boîte d'emballage,1,,1,0,"1,2,3",999,0,4,9,1
+"793,1","1,3,4",1,"Les fragments éternels peuvent former soit une liste blanche garantie éternelle, soit une liste blanche chanceuse.",0,item-icon-801,801,Fragment éternel,1,,1,0,"1,2,3",999,0,4,2,1
