@@ -1,19 +1,19 @@
-canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[],seedMaxLimit-int[]
-0,10001,"0,999",HomeSceneLoading.jpg,0,0,WorldScene,1,1,0,,,,,,,,,,,,"空
+canInvest-bool,id-int,level-int[],loadingBg-string,refreshRatio-int[],respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[],seedMaxLimit-int[]
+0,10001,"0,999",HomeSceneLoading.jpg,"1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000",0,0,WorldScene,1,1,0,,,,,,,,,,,,"空
 ","空
 ","空
 ",,,,,,
-0,10002,"0,999",HomeSceneLoading.jpg,0,0,HomeScene,1,2,0,3,,,,,,,,,,,"空
+0,10002,"0,999",HomeSceneLoading.jpg,,0,0,HomeScene,1,2,0,3,,,,,,,,,,,"空
 ","空
 ","空
 ",,,,,,
-0,10003,"0,999",HomeSceneLoading.jpg,0,0,WorldScene02,1,1,0,,,,,,,,,,,,空,空,"空
+0,10003,"0,999",HomeSceneLoading.jpg,,0,0,WorldScene02,1,1,0,,,,,,,,,,,,空,空,"空
 ",,,,,,
-0,20000,"1,4",DungeonSceneLoading_1_3.jpg,0,5,DungeonSceneLv1-3,1,3,2,1,"10000,20000,30000","55,0,54",2,"58,59,60","16,17;16,17;16,17","61,62,63","40,80,160","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3",潜藏于蓊郁的丛林之中，宛如大地的一抹奇迹。其山石如同一排锋利的剑刃，又好似花瓣一样。,花岚峰,死亡时有几率掉落背包中的道具,0;0;0,"0,1440","468,1",,,
-0,20001,"4,7",DungeonSceneLoading_4_6.jpg,0,5,DungeonSceneLv4-6,1,3,2,1,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","16,17;16,17;16,17;16,17;16,17","47,48,49,50,51","80,120,160,240,800","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","450,450,450,450,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","在那片破碎的领域中，一座暗黑堡垒傲然屹立，其边际悬浮于虚无之间，没有一丝实体支撑。其充斥着大量危险怪物，生长着许多从未见过的珍稀采集物。
+0,20000,"1,4",DungeonSceneLoading_1_3.jpg,,0,5,DungeonSceneLv1-3,1,3,2,1,"10000,20000,30000","55,0,54",2,"58,59,60","16,17;16,17;16,17","61,62,63","30,80,160","3500,13500;3500,13500;3500,13500","450,450,450","Chapter 1/3,Chapter 2/3,Chapter 3/3",潜藏于蓊郁的丛林之中，宛如大地的一抹奇迹。其山石如同一排锋利的剑刃，又好似花瓣一样。,花岚峰,死亡时有几率掉落背包中的道具,0;0;0,"0,1440","468,1",,,
+0,20001,"4,7",DungeonSceneLoading_4_6.jpg,,0,5,DungeonSceneLv4-6,1,3,2,1,"10000,20000,30000,40000,50000","37,39,38",2,"52,53,54,55,56","16,17;16,17;16,17;16,17;16,17","47,48,49,50,51","128,192,256,384,1280","3500,13500;3500,13500;3500,13500;3500,13500;3500,13500","450,450,450,450,900","Chapter 1/5,Chapter 2/5,Chapter 3/5,Chapter 4/5,Chapter 5/5","在那片破碎的领域中，一座暗黑堡垒傲然屹立，其边际悬浮于虚无之间，没有一丝实体支撑。其充斥着大量危险怪物，生长着许多从未见过的珍稀采集物。
 推荐队伍：3战士,1采集家",浮空之地,死亡时有几率掉落背包中的道具,0;0;0;0;0,"0,1440","467,1",,,
-0,20002,"7,9",DungeonSceneLoading_7_9.jpg,0,5,DungeonSCeneLv7-9,1,3,2,1,"10000,20000,30000","61,71,66",2,"82,83,84","16,17;16,17;16,17","85,86,87","1600,3200,6400","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3",与炽热的火焰生物搏斗；在黑暗和诡异的环境中战斗，防备虚空生物的袭击；进入远古遗迹，挖掘隐藏在古老遗迹深处的秘密和宝藏。勇敢的冒险者，你准备好面对这场挑战了吗？,远古灵域,死亡时有几率掉落背包中的道具,0;0;0,"0,1440","658,1",,,
-1,21001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneLv1-3,2,3,0,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
+0,20002,"7,9",DungeonSceneLoading_7_9.jpg,,0,5,DungeonSCeneLv7-9,1,3,2,1,"10000,20000,30000","61,71,66",2,"82,83,84","16,17;16,17;16,17","85,86,87","2560,5120,10240","3500,13500;3500,13500;3500,13500","900,900,1200","Chapter 1/3,Chapter 2/3,Chapter 3/3",与炽热的火焰生物搏斗；在黑暗和诡异的环境中战斗，防备虚空生物的袭击；进入远古遗迹，挖掘隐藏在古老遗迹深处的秘密和宝藏。勇敢的冒险者，你准备好面对这场挑战了吗？,远古灵域,死亡时有几率掉落背包中的道具,0;0;0,"0,1440","658,1",,,
+1,21001,"2,4",DungeonSceneLoading_7_9.jpg,,1,5,PVPDungeonSceneLv1-3,2,3,0,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
 - 击杀怪物或采集：玩家将获得图腾投资的LUAUSD奖励。
 - 击杀其他玩家：玩家可以收获其他玩家未结算的LUASUD奖励。
 - 击杀Boss：有机会获得神秘特殊材料。
@@ -24,7 +24,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
  - 挑战门：勇敢的玩家可以选择进入下一层关卡，继续冒险。
  - 逃生门：选择退出副本，但需放弃所有未结算的LUAUSD奖励。
  - 结算门：玩家可以选择结算并领取按照一定比例计算的LUAUSD奖励。",初级竞技场,死亡时有几率掉落背包中的道具,0;0,"120,180;360,420","659,1","8,24",172,
-1,21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv4-6,2,3,0,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
+1,21002,"5,7",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneLv4-6,2,3,0,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
 - 击杀怪物或采集：玩家将获得图腾投资的LUAUSD奖励。
 - 击杀其他玩家：玩家可以收获其他玩家未结算的LUASUD奖励。
 - 击杀Boss：有机会获得神秘特殊材料。
@@ -35,7 +35,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
  - 挑战门：勇敢的玩家可以选择进入下一层关卡，继续冒险。
  - 逃生门：选择退出副本，但需放弃所有未结算的LUAUSD奖励。
  - 结算门：玩家可以选择结算并领取按照一定比例计算的LUAUSD奖励。",中级竞技场,死亡时有几率掉落背包中的道具,0;0,"120,180;360,420","660,1","8,24",173,
-1,21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneLv7-9,2,3,0,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
+1,21003,"8,9",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneLv7-9,2,3,0,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
 - 击杀怪物或采集：玩家将获得图腾投资的LUAUSD奖励。
 - 击杀其他玩家：玩家可以收获其他玩家未结算的LUASUD奖励。
 - 击杀Boss：有机会获得神秘特殊材料。
@@ -46,7 +46,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
  - 挑战门：勇敢的玩家可以选择进入下一层关卡，继续冒险。
  - 逃生门：选择退出副本，但需放弃所有未结算的LUAUSD奖励。
  - 结算门：玩家可以选择结算并领取按照一定比例计算的LUAUSD奖励。",高级竞技场,死亡时有几率掉落背包中的道具,0;0,"120,180;360,420","661,1","8,24",174,
-1,22001,"2,4",DungeonSceneLoading_7_9.jpg,1,5,PVPDungeonSceneSoloLv1-3,2,3,0,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
+1,22001,"2,4",DungeonSceneLoading_7_9.jpg,,1,5,PVPDungeonSceneSoloLv1-3,2,3,0,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
 - 击杀怪物或采集：玩家将获得图腾投资的LUAUSD奖励。
 - 击杀其他玩家：玩家可以收获其他玩家未结算的LUASUD奖励。
 - 击杀Boss：有机会获得神秘特殊材料。
@@ -57,7 +57,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
  - 挑战门：勇敢的玩家可以选择进入下一层关卡，继续冒险。
  - 逃生门：选择退出副本，但需放弃所有未结算的LUAUSD奖励。
  - 结算门：玩家可以选择结算并领取按照一定比例计算的LUAUSD奖励。",初级角斗场,死亡时有几率掉落背包中的道具,0;0,"120,180;360,420","659,1","3,24",172,
-1,22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv4-6,2,3,0,"1,2","0,10000","37,39,38",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
+1,22002,"5,7",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneSoloLv4-6,2,3,0,"1,2","0,10000","37,39,38",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
 - 击杀怪物或采集：玩家将获得图腾投资的LUAUSD奖励。
 - 击杀其他玩家：玩家可以收获其他玩家未结算的LUASUD奖励。
 - 击杀Boss：有机会获得神秘特殊材料。
@@ -68,7 +68,7 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
  - 挑战门：勇敢的玩家可以选择进入下一层关卡，继续冒险。
  - 逃生门：选择退出副本，但需放弃所有未结算的LUAUSD奖励。
  - 结算门：玩家可以选择结算并领取按照一定比例计算的LUAUSD奖励。",中级角斗场,死亡时有几率掉落背包中的道具,0;0,"120,180;360,420","660,1","3,24",173,
-1,22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,1,5,PVPDungeonSceneSoloLv7-9,2,3,0,"1,2","0,10000","61,71,66",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
+1,22003,"8,9",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneSoloLv7-9,2,3,0,"1,2","0,10000","61,71,66",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","奖励机制
 - 击杀怪物或采集：玩家将获得图腾投资的LUAUSD奖励。
 - 击杀其他玩家：玩家可以收获其他玩家未结算的LUASUD奖励。
 - 击杀Boss：有机会获得神秘特殊材料。
@@ -79,11 +79,11 @@ canInvest-bool,id-int,level-int[],loadingBg-string,respawnTimes-int,rewardFreque
  - 挑战门：勇敢的玩家可以选择进入下一层关卡，继续冒险。
  - 逃生门：选择退出副本，但需放弃所有未结算的LUAUSD奖励。
  - 结算门：玩家可以选择结算并领取按照一定比例计算的LUAUSD奖励。",高级角斗场,死亡时有几率掉落背包中的道具,0;0,"120,180;360,420","661,1","3,24",174,
-0,30001,"1,9",DungeonSceneLoading_1_3.jpg,0,1,DailyDungeon,1,3,0,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9",每日挑战-每日挑战副本分为九层，每层分别对应每个等级的怪物，完成挑战后将获得关卡奖励，死亡不会有任何掉落，副本门票来源于每日任务,每日挑战,无失败惩罚,0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
-0,30002,"1,9",PVPDungeonSceneLoading_4_6.jpg,1,1,PVPTrainingDungeon,2,3,0,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging",PVEP 训练场-支持12-24人对战，死亡不会有任何掉落，门票来源于每日任务,训练场,无死亡惩罚,0;0,"60,120;300,360","733,1","12,24",,
-0,40001,"1,4",HomeSceneLoading.jpg,0,5,GatherDungeon1-3,1,3,3,1,"10000,20000,30000","55,0,54",2,"102,103,104","22,18,19;18,19;18,19","178,179,180","24,48,96","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","775,1",,,
-0,40002,"4,7",HomeSceneLoading.jpg,0,5,GatherDungeon4-6,1,3,3,1,"10000,20000,30000","37,39,38",2,"105,106,107","22,18,19;18,19;18,19","181,182,183","192,384,768","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","776,1",,,
-0,40003,"7,9",HomeSceneLoading.jpg,0,5,GatherDungeon7-9,1,3,3,1,"10000,20000,30000","61,71,66",2,"108,109,110","22,18,19;18,19;18,19","184,185,186","1536,3072,6144","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","777,1",,,
-0,50001,"1,4",HomeSceneLoading.jpg,0,5,FarmingDungeon1-3,1,3,1,"1,3","10000,20000,30000","55,0,54",1,"102,103,104","20,21;20,21;20,21","187,188,189","24,48,96","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"146#1000,147#1000,148#1000;149#1000,150#1000,151#1000;152#1000,153#1000,154#1000","0,1440","778,1",,,"15,15,15"
-0,50002,"4,7",HomeSceneLoading.jpg,0,5,FarmingDungeon4-6,1,3,1,"1,3","10000,20000,30000","37,39,38",1,"105,106,107","20,21;20,21;20,21","190,191,192","192,384,768","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"413#1000,414#1000,415#1000;416#1000,417#1000,418#1000;419#1000,420#1000,421#1000","0,1440","779,1",,,"15,15,15"
-0,50003,"7,9",HomeSceneLoading.jpg,0,5,FarmingDungeon7-9,1,3,1,"1,3","10000,20000,30000","61,71,66",1,"108,109,110","20,21;20,21;20,21","193,194,195","1536,3072,6144","0,0;0,0;0,0","450,450,450","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"614#1000,615#1000,616#1000;617#1000,618#1000,619#1000;620#1000,621#1000,622#1000","0,1440","780,1",,,"15,15,15"
+0,30001,"1,9",DungeonSceneLoading_1_3.jpg,,0,1,DailyDungeon,1,3,0,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9",每日挑战-每日挑战副本分为九层，每层分别对应每个等级的怪物，完成挑战后将获得关卡奖励，死亡不会有任何掉落，副本门票来源于每日任务,每日挑战,无失败惩罚,0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
+0,30002,"1,9",PVPDungeonSceneLoading_4_6.jpg,,1,1,PVPTrainingDungeon,2,3,0,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging",PVEP 训练场-支持12-24人对战，死亡不会有任何掉落，门票来源于每日任务,训练场,无死亡惩罚,0;0,"60,120;300,360","733,1","12,24",,
+0,40001,"1,4",HomeSceneLoading.jpg,,0,5,GatherDungeon1-3,1,3,3,1,"10000,20000,30000","55,0,54",2,"102,103,104","22,18,19;18,19;18,19","178,179,180","24,48,96","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","775,1",,,
+0,40002,"4,7",HomeSceneLoading.jpg,,0,5,GatherDungeon4-6,1,3,3,1,"10000,20000,30000","123,122,121",2,"105,106,107","22,18,19;18,19;18,19","181,182,183","192,384,768","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","776,1",,,
+0,40003,"7,9",HomeSceneLoading.jpg,,0,5,GatherDungeon7-9,1,3,3,1,"10000,20000,30000","123,122,121",2,"108,109,110","22,18,19;18,19;18,19","184,185,186","1536,3072,6144","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3",,,,0;0;0,"0,1440","777,1",,,
+0,50001,"1,4",HomeSceneLoading.jpg,,0,5,FarmingDungeon1-3,1,3,1,"1,3","10000,20000,30000","55,0,54",1,"102,103,104","20,21;20,21;20,21","187,188,189","6.4,12.8,25.6","0,0;0,0;0,0","90,180,320","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"146#1000,147#1000,148#1000;149#1000,150#1000,151#1000;152#1000,153#1000,154#1000","0,1440","778,1",,,"4,4,4"
+0,50002,"4,7",HomeSceneLoading.jpg,,0,5,FarmingDungeon4-6,1,3,1,"1,3","10000,20000,30000","123,122,121",1,"105,106,107","20,21;20,21;20,21","190,191,192","51.2,102.4,204.8","0,0;0,0;0,0","480,520,680","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"413#1000,414#1000,415#1000;416#1000,417#1000,418#1000;419#1000,420#1000,421#1000","0,1440","779,1",,,"4,4,4"
+0,50003,"7,9",HomeSceneLoading.jpg,,0,5,FarmingDungeon7-9,1,3,1,"1,3","10000,20000,30000","123,122,121",1,"108,109,110","20,21;20,21;20,21","193,194,195","409.6,819.2,1638.4","0,0;0,0;0,0","720,950,1000","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",,,,"614#1000,615#1000,616#1000;617#1000,618#1000,619#1000;620#1000,621#1000,622#1000","0,1440","780,1",,,"4,4,4"
