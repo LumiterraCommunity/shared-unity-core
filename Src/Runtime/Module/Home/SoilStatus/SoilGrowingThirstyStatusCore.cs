@@ -73,9 +73,12 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
         if (isWatering)
         {
             SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
-            ctrl.ChangeWaterData(true);
+            if (ctrl.JudgeExternalCanWatering())
+            {
+                ctrl.ChangeWaterData(true);
 
-            ChangeState(eSoilStatus.GrowingWet);
+                ChangeState(eSoilStatus.GrowingWet);
+            }
         }
     }
 
@@ -98,9 +101,13 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
         }
 
         //自动进入湿润状态
-        if (SoilData.SaveData.SeedData.ExtraWateringNum > 0)
+        SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
+        if (SoilData.SaveData.SeedData.ExtraWateringNum > 0 && ctrl.JudgeExternalCanWatering())
         {
             SoilData.SaveData.SeedData.ExtraWateringNum--;
+
+            ctrl.ChangeWaterData(true);
+
             ChangeState(eSoilStatus.GrowingWet);
         }
     }

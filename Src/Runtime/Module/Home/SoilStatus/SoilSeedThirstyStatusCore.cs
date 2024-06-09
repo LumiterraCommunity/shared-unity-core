@@ -90,9 +90,12 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
         if (isWatering)
         {
             SoilExternalControl ctrl = StatusCtrl.GetComponent<SoilExternalControl>();
-            ctrl.ChangeWaterData(true);
+            if (ctrl.JudgeExternalCanWatering())
+            {
+                ctrl.ChangeWaterData(true);
 
-            ChangeState(eSoilStatus.SeedWet);
+                ChangeState(eSoilStatus.SeedWet);
+            }
         }
     }
 
