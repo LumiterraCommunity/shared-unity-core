@@ -33,6 +33,15 @@ public class DRHomeResourceArea : DataRowBase
     }
 
     /// <summary>
+  /**获取level-int。*/
+    /// </summary>
+    public int Level
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -66,6 +75,7 @@ public class DRHomeResourceArea : DataRowBase
         int index = 0;
         _id = int.Parse(columnStrings[index++]);
         IsUpdateNow = DataTableParseUtil.ParseBool(columnStrings[index++]);
+        Level = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PointList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         UpdateInterval = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -82,6 +92,7 @@ public class DRHomeResourceArea : DataRowBase
             {
                 _id = binaryReader.Read7BitEncodedInt32();
                 IsUpdateNow = binaryReader.ReadBoolean();
+                Level = binaryReader.Read7BitEncodedInt32();
                 Type = binaryReader.Read7BitEncodedInt32();
                 PointList = binaryReader.ReadArrayList<Int32>();
                 UpdateInterval = binaryReader.Read7BitEncodedInt32();
