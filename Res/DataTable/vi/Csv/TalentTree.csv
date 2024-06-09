@@ -3,12 +3,12 @@ col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1,Tinh thông chiến đấu 1,10,2,450,0,0,
+","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1,Tinh thông chiến đấu 1,0,2,450,0,0,
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
 MaxEnergy + 10
-","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1,Tinh thông chiến đấu 2,20,2,900,1,0,1
+","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1,Tinh thông chiến đấu 2,0,2,900,1,0,1
 0,"Chiến đấu ATK + 5
 Chiến đấu DEF + 5
 Chiến đấu MaxHP + 20
@@ -53,13 +53,13 @@ Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1,Làm chủ nông nghiệp 1,10,1,450,0,0,
+","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1,Làm chủ nông nghiệp 1,0,1,450,0,0,
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
 Trình độ chăn nuôi + 4
 Năng lượng tối đa + 10
-","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1,Làm chủ nông nghiệp 2,20,1,900,1,0,13
+","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1,Làm chủ nông nghiệp 2,0,1,900,1,0,13
 0,"Khả năng sinh sản đất + 1
 Trình độ trồng trọt + 4
 Khả năng hạnh phúc của thú cưng + 1
@@ -113,7 +113,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1,Thu thập thành thạo 1,10,3,450,0,0,
+","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1,Thu thập thành thạo 1,0,3,450,0,0,
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5
@@ -121,7 +121,7 @@ Kỹ năng nhặt cỏ + 5
 Kỹ năng chặt cây + 5
 Kỹ năng khai thác quặng + 5
 Năng lượng tối đa + 10
-","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1,Tập hợp chiến đấu 2,20,3,900,1,0,24
+","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1,Tập hợp chiến đấu 2,0,3,900,1,0,24
 0,"Sức tấn công cỏ + 5
 Sức tấn công cây + 5
 Sức tấn công quặng + 5

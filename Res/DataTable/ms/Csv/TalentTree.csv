@@ -3,12 +3,12 @@ col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-
 Pertahanan Tempur + 5
 HP Maksimum Tempur + 20
 Tenaga Maksimum + 10
-","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1,Penguasaan Pertempuran 1,10,2,450,0,0,
+","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1,Penguasaan Pertempuran 1,0,2,450,0,0,
 0," Serangan Tempur + 5
 Pertahanan Tempur + 5
 HP Maksimum Tempur + 20
 Tenaga Maksimum + 10
-","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1,Penguasaan Pertempuran 2,20,2,900,1,0,1
+","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1,Penguasaan Pertempuran 2,0,2,900,1,0,1
 0," Serangan Tempur + 5
 Pertahanan Tempur + 5
 HP Maksimum Tempur + 20
@@ -53,13 +53,13 @@ Kemahiran Menanam + 4
 Kapasiti Kebahagiaan Haiwan Peliharaan + 1
 Kemahiran Membiak + 4
 Tenaga Maksimum + 10
-","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1,Penguasaan Penanaman 1,10,1,450,0,0,
+","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1,Penguasaan Penanaman 1,0,1,450,0,0,
 0," Kapasiti Kesuburan + 1
 Kemahiran Menanam + 4
 Kapasiti Kebahagiaan Haiwan Peliharaan + 1
 Kemahiran Membiak + 4
 Tenaga Maksimum + 10
-","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1,Penguasaan Penanaman 2,20,1,900,1,0,13
+","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1,Penguasaan Penanaman 2,0,1,900,1,0,13
 0," Kapasiti Kesuburan + 1
 Kemahiran Menanam + 4
 Kapasiti Kebahagiaan Haiwan Peliharaan + 1
@@ -113,7 +113,7 @@ Kemahiran Memetik Rumput + 5
 Kemahiran Memotong Pokok + 5
 Kemahiran Perlombongan + 5
 Tenaga Maksimum + 10
-","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1,Penguasaan Kumpulan 1,10,3,450,0,0,
+","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1,Penguasaan Kumpulan 1,0,3,450,0,0,
 0," Serangan Rumput + 5
 Serangan Pokok + 5
 Serangan Bijih + 5
@@ -121,7 +121,7 @@ Kemahiran Memetik Rumput + 5
 Kemahiran Memotong Pokok + 5
 Kemahiran Perlombongan + 5
 Tenaga Maksimum + 10
-","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1,Kumpulkan Pertempuran 2,20,3,900,1,0,24
+","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1,Kumpulkan Pertempuran 2,0,3,900,1,0,24
 0," Serangan Rumput + 5
 Serangan Pokok + 5
 Serangan Bijih + 5
