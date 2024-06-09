@@ -3,12 +3,12 @@ col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-
 Combate DEF + 5
 Combate MaxHP + 20
 MaxEnergy + 10 
-","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1, Maestría en Combate 1 ,10,2,450,0,0,
+","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1, Maestría en Combate 1 ,0,2,450,0,0,
 0,"Combate ATK + 5
 Combate DEF + 5
 Combate MaxHP + 20
 MaxEnergy + 10 
-","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1, Maestría en Combate 2 ,20,2,900,1,0,1
+","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1, Maestría en Combate 2 ,0,2,900,1,0,1
 0,"Combate ATK + 5
 Combate DEF + 5
 Combate MaxHP + 20
@@ -53,13 +53,13 @@ Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
 Competencia de Reproducción + 4
 Energía Máxima + 10
-","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1, Maestría en Agricultura 1 ,10,1,450,0,0,
+","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1, Maestría en Agricultura 1 ,0,1,450,0,0,
 0,"Capacidad de Fertilidad + 1
 Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
 Competencia de Reproducción + 4
 Energía Máxima + 10
-","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1, Maestría en Agricultura 2 ,20,1,900,1,0,13
+","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1, Maestría en Agricultura 2 ,0,1,900,1,0,13
 0,"Capacidad de Fertilidad + 1
 Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
@@ -113,7 +113,7 @@ Competencia de Hierba + 5
 Competencia de Árbol + 5
 Competencia de Mineral + 5
 Energía Máxima + 10
-","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1, Maestría en Recolectar 1 ,10,3,450,0,0,
+","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1, Maestría en Recolectar 1 ,0,3,450,0,0,
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5
@@ -121,7 +121,7 @@ Competencia de Hierba + 5
 Competencia de Árbol + 5
 Competencia de Mineral + 5
 Energía Máxima + 10
-","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1, Recolectar Combate 2 ,20,3,900,1,0,24
+","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1, Recolectar Combate 2 ,0,3,900,1,0,24
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5

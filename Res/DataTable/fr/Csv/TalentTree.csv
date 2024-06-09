@@ -3,12 +3,12 @@ col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-
 Combat DEF + 5
 Combat MaxHP + 20
 MaxEnergy + 10 
-","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1,Combat Mastery 1,10,2,450,0,0,
+","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1,Combat Mastery 1,0,2,450,0,0,
 0,"Combat ATK + 5
 Combat DEF + 5
 Combat MaxHP + 20
 MaxEnergy + 10 
-","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1,Combat Mastery 2,20,2,900,1,0,1
+","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1,Combat Mastery 2,0,2,900,1,0,1
 0,"Combat ATK + 5
 Combat DEF + 5
 Combat MaxHP + 20
@@ -53,13 +53,13 @@ Compétence de plantation + 4
 Capacité de bonheur des animaux de compagnie + 1
 Compétence d'élevage + 4
 Énergie maximale + 10
-","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1,Farming Mastery 1,10,1,450,0,0,
+","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1,Farming Mastery 1,0,1,450,0,0,
 0,"Capacité de fertilité + 1
 Compétence de plantation + 4
 Capacité de bonheur des animaux de compagnie + 1
 Compétence d'élevage + 4
 Énergie maximale + 10
-","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1,Farming Mastery 2,20,1,900,1,0,13
+","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1,Farming Mastery 2,0,1,900,1,0,13
 0,"Capacité de fertilité + 1
 Compétence de plantation + 4
 Capacité de bonheur des animaux de compagnie + 1
@@ -113,7 +113,7 @@ Compétence de cueillette d'herbe + 5
 Compétence de coupe d'arbre + 5
 Compétence minière + 5
 Énergie maximale + 10
-","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1,Gather Mastery 1,10,3,450,0,0,
+","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1,Gather Mastery 1,0,3,450,0,0,
 0,"Puissance de coupe d'herbe + 5
 Puissance de coupe d'arbre + 5
 Puissance de coupe de minerai + 5
@@ -121,7 +121,7 @@ Compétence de cueillette d'herbe + 5
 Compétence de coupe d'arbre + 5
 Compétence minière + 5
 Énergie maximale + 10
-","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1,Gather Combat 2,20,3,900,1,0,24
+","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1,Gather Combat 2,0,3,900,1,0,24
 0,"Puissance de coupe d'herbe + 5
 Puissance de coupe d'arbre + 5
 Puissance de coupe de minerai + 5
