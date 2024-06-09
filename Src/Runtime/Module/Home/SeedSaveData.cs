@@ -40,6 +40,16 @@ public class SeedSaveData
     /// </summary>
     public long SeedEntityId;
 
+
+    /// <summary>
+    /// 是否有种子
+    /// </summary>
+    /// <returns></returns>
+    public bool HaveSeed()
+    {
+        return SeedCid > 0;
+    }
+
     public SeedSaveData()
     {
     }

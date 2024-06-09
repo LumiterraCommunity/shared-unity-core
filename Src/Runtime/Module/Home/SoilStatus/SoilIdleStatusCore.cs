@@ -20,6 +20,9 @@ public class SoilIdleStatusCore : SoilStatusCore
 
         StatusCtrl.SoilEvent.MsgInitStatus += OnMsgInitStatus;
 
+        SoilData.SetSoilFertile(0);
+        SoilData.ClearSeedData();
+
         // StatusCtrl.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Hoeing, TableUtil.GetGameValue(eGameValueID.hoeingMaxActionValue).Value);
     }
 

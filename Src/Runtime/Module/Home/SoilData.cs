@@ -175,6 +175,11 @@ public class SoilData : MonoBehaviour
     /// </summary>
     internal void ClearSeedData()
     {
+        if (!_saveData.SeedData.HaveSeed())
+        {
+            return;
+        }
+
         DRSeed = null;
         _saveData.ClearSeedData();
 
@@ -228,6 +233,11 @@ public class SoilData : MonoBehaviour
     /// <param name="soilFertile"></param>
     internal void SetSoilFertile(int soilFertile)
     {
+        if (SaveData.Fertile == soilFertile)
+        {
+            return;
+        }
+
         SaveData.Fertile = soilFertile;
         MessageCore.HomeOneSoilUsedFertileChanged.Invoke(SaveData.Id);
     }
