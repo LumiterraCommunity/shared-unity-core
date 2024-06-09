@@ -1,4 +1,5 @@
 using System;
+using GameFramework.Fsm;
 using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
@@ -14,11 +15,18 @@ public class SoilLooseStatusCore : SoilStatusCore
 
     protected override float AutoEnterNextStatusTime => TableUtil.GetGameValue(eGameValueID.soilFromLooseToIdleTime).Value;
 
+    protected override void OnEnter(IFsm<SoilStatusCtrl> fsm)
+    {
+        base.OnEnter(fsm);
+
+        // 不能这样清除 可能是初始化过来的状态 会先设置好数据再跳转的状态  不过将来可以考虑使用初始化标记位来参考 目前先不乱动
+        // SoilData.ClearSeedData();
+    }
+
     protected override void OnAutoEnterNextStatus()
     {
         base.OnAutoEnterNextStatus();
 
-        SoilData.SetSoilFertile(0);
         ChangeState(eSoilStatus.Idle);
     }
     protected override void OnExecuteHomeAction(eAction action, object actionData)
@@ -35,7 +43,6 @@ public class SoilLooseStatusCore : SoilStatusCore
             }
             else if (action == eAction.Eradicate)
             {
-                SoilData.SetSoilFertile(0);
                 ChangeState(eSoilStatus.Idle);
             }
         }
