@@ -22,6 +22,10 @@ public interface IInstancingMgr
     /// 当前关卡时间
     /// <summary>
     long CurLevelStartTime { get; set; }
+    /// <summary>
+    /// 当前关卡索引
+    /// </summary>
+    int CurLevelIndex { get; set; }
     /// 设置当前关卡
     /// </summary>
     /// <param name="index"></param>

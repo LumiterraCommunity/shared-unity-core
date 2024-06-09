@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2024-05-24 13:57:19
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvenDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/STEvent/SceneTriggerEvenDefine.cs
  * 
  */
 
@@ -21,6 +21,8 @@ public enum eSTConditionType : int
 {
     None = 0,
     STCCheckLevelScoreProgress = 1, //检测关卡分进度
+    STCCheckLevelTime = 2, //检测关卡时间
+    STCCheckLevelEntityDeath = 3, //检测关卡实体死亡
 
 }
 

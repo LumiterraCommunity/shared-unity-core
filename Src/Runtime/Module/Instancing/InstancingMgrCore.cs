@@ -17,7 +17,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public eInstancingStatusType StatusType = eInstancingStatusType.InstancingInactive;       //副本状态
     public List<TLevel> LevelList = new(); //关卡列表
     public ListMap<long, PlayerInstancingData> PlayerInstancingData = new(); //玩家副本数据
-    public int CurLevelIndex = 0; //当前关卡
+    public int CurLevelIndex { get; set; } = 0; //当前关卡
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
     public bool IsMatchComplete = false; //是否匹配完成
