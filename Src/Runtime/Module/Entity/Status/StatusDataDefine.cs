@@ -4,6 +4,7 @@
 public static class StatusDataDefine
 {
     public const string SKILL_INPUT = "SKILL_INPUT";
+    public const string SKILL_START_POS = "SKILL_START_POS";
     public const string BE_HIT_MOVE_TIME = "BE_HIT_MOVE_TIME";
     public const string CAPTURE_FROM_ID = "CAPTURE_FROM_ID";
 

@@ -88,19 +88,6 @@ public class SkillCpt : EntityBaseComponent
         if (!SkillMap.TryGetValue(skillID, out SkillBase skill))
         {
             Log.Warning($"CanUseSkill Skill Is Null! skillId ={skillID}");
-
-            //TODO: home 因为现在服务器没有装备道具和技能的逻辑 但是现在只有播种和放饲料 施肥等道具技能需要用到 可以单独判断不让校验 因为没有道具即使客户端发播种技能也没用
-            //先注释这个特殊逻辑
-            // DRSkill dRSkill = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(skillID);
-            // if (dRSkill != null && dRSkill.HomeAction != null && dRSkill.HomeAction.Length > 0)
-            // {
-            //     HomeDefine.eAction action = dRSkill.GetHomeAction();
-            //     if ((action & (HomeDefine.eAction.Sowing | HomeDefine.eAction.PutAnimalFood | HomeDefine.eAction.Manure)) != 0)
-            //     {
-            //         return true;
-            //     }
-            // }
-
             return false;
         }
 

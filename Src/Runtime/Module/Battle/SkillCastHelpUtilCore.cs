@@ -165,9 +165,10 @@ public static class SkillCastHelpUtilCore
     /// 输入数据
     /// </summary>
     /// <param name="castEntity">释放实体</param>
+    /// <param name="castPos">释放位置</param>
     /// <param name="inputData">输入数据</param>
     /// <returns></returns>
-    public static List<EntityDamage> SkillCastExecute(EntityBase castEntity, InputSkillReleaseData inputData)
+    public static List<EntityDamage> SkillCastExecute(EntityBase castEntity, UnityEngine.Vector3 castPos, InputSkillReleaseData inputData)
     {
         List<EntityDamage> damages = new();
         if (inputData.DRSkill == null)
@@ -201,7 +202,7 @@ public static class SkillCastHelpUtilCore
         }
         else //无目标
         {
-            enemyDamages = ApplyRangeEffect(inputData, castEntity, SkillUtil.GetSkillEffect(castEntity, inputData.DRSkill, eSkillEffectApplyType.CastEnemy), castEntity.RoleBaseDataCore.CenterPos);
+            enemyDamages = ApplyRangeEffect(inputData, castEntity, SkillUtil.GetSkillEffect(castEntity, inputData.DRSkill, eSkillEffectApplyType.CastEnemy), castPos);
         }
         damages.AddRange(enemyDamages);
         return damages;

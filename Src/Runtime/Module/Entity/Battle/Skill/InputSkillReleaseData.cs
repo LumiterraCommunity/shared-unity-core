@@ -30,6 +30,11 @@ public class InputSkillReleaseData
     /// </summary>
     public DRSkillFlyer DRSkillFlyer { get; private set; }
     /// <summary>
+    /// 输入技能的位置 如果是玩家输入技能代表客户端请求的输入位置
+    /// </summary>
+    /// <value></value>
+    public Vector3 Pos { get; private set; }
+    /// <summary>
     /// 目标方向
     /// </summary>
     public Vector3 Dir { get; private set; }
@@ -77,12 +82,14 @@ public class InputSkillReleaseData
     /// </summary>
     /// <param name="skillID">技能ID</param>
     /// <param name="dir">技能方向</param>
+    /// <param name="pos">输入技能的位置</param>
     /// <param name="targets">技能目标列表</param>
     /// <param name="targetPosList">技能目标位置列表</param>
     /// <param name="skillTimeScale">释放速率</param>
-    public InputSkillReleaseData(int skillID, Vector3 dir, long[] targets = null, Vector3[] targetPosList = null, double skillTimeScale = 1, GameMessageCore.UseSkillCostItem costItem = null, float accumulateTime = 0)
+    public InputSkillReleaseData(int skillID, Vector3 dir, Vector3 pos, long[] targets = null, Vector3[] targetPosList = null, double skillTimeScale = 1, GameMessageCore.UseSkillCostItem costItem = null, float accumulateTime = 0)
     {
         SkillID = skillID;
+        Pos = pos;
         Dir = dir;
         Targets = targets;
         TargetPosList = targetPosList;

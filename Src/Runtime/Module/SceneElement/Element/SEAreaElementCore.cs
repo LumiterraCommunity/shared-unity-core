@@ -36,7 +36,7 @@ public class SEAreaElementCore : SceneElementCore
         TriggerHelper.OnAddEntity += OnAddEntity;
         TriggerHelper.OnRemoveEntity += OnRemoveEntity;
 
-        InputData = new(SkillID, transform.forward);
+        InputData = new(SkillID, transform.forward, transform.position);
         InputData.SetInputRandomSeed(0); // 固定随机值
     }
     protected override void Update()

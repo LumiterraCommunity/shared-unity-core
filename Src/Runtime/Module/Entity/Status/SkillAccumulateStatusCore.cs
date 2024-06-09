@@ -53,6 +53,7 @@ public class SkillAccumulateStatusCore : ListenEventStatusCore, IEntityCanMove, 
         Targets = InputSkillData.Targets;
         SkillTimeScale = InputSkillData.SkillTimeScale;
         CurSkillCfg = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(SkillID);
+        fsm.SetData<VarVector3>(StatusDataDefine.SKILL_START_POS, StatusCtrl.RefEntity.Position);
 
         if (CurSkillCfg == null)
         {

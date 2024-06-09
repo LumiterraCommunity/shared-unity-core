@@ -195,7 +195,7 @@ public class SkillBase : IReference
 
         if (newList != null && newList.Length > 0)
         {
-            InputSkillReleaseData inputData = new(SkillID, Vector3.zero);
+            InputSkillReleaseData inputData = new(SkillID, Vector3.zero, RefEntity.Position);
             _ = SkillUtil.EntitySkillEffectExecute(inputData, newList, RefEntity, RefEntity);
         }
 

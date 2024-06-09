@@ -67,7 +67,7 @@ namespace SharedCore.Editor
                             targetPosList = skillSearchTarget.TargetPosList;
                             dir = skillSearchTarget.TargetDir;
                         }
-                        InputSkillReleaseData inputData = new(value, dir, enemyList.ToArray(), targetPosList.ToArray());
+                        InputSkillReleaseData inputData = new(value, dir, skillCpt.RefEntity.Position, enemyList.ToArray(), targetPosList.ToArray());
                         skillCpt.RefEntity.EntityEvent.InputSkillRelease?.Invoke(inputData);
                     }
                 }
