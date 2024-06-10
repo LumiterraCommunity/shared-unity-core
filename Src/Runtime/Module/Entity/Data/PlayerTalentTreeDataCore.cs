@@ -44,7 +44,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// <param name="talentData"></param>
     public bool Init(GrpcTalentData talentData)
     {
-        Log.Info("start init talent tree");
+        Log.Info($"player:{RefEntity.BaseData.Id} start init talent tree");
         AllTalentTreeList = new();
         AllTalentTreeDic = new();
         TalentTreeLvList = new();
@@ -75,7 +75,11 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
                 if (tree.Nodes != null)
                 {
                     treeList.AddRange(tree.Nodes);
-                    treeDic = treeList.ToDictionary(node => node.NodeId);
+                    for (int i = 0; i < tree.Nodes.Length; i++)
+                    {
+                        GrpcTalentNodeData node = tree.Nodes[i];
+                        treeDic.Add(node.NodeId, node);
+                    }
                 }
             }
 
@@ -238,7 +242,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
         Log.Info($"remove talent node, node id: {nodeID}");
         if (!talentTreeDic.Remove(nodeID, out GrpcTalentNodeData removedNode))
         {
-            Log.Error("remove talent node failed, can not find node, node id: {nodeID}");
+            Log.Error($"remove talent node failed, can not find node, node id: {nodeID}");
             return;
         }
 
