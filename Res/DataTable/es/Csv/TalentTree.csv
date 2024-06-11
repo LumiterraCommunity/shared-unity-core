@@ -1,107 +1,108 @@
 col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,resetCost-int,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,upgradeToken-int[],preNode-int[]
+0,"ATK de Combate + 5
+DEF de Combate + 5
+MaxHP de Combate + 20
+MaxEnergy + 10
+Desbloquear Recetas de Energía","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1, Maestría en Combate 1 ,0,2,450,0,0,
+0,"ATK de Combate + 5
+DEF de Combate + 5
+MaxHP de Combate + 20
+MaxEnergy + 10
+Desbloquear Recetas de Energía","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1, Maestría en Combate 2 ,0,2,900,1,0,1
+0,"ATK de Combate + 5
+DEF de Combate + 5
+MaxHP de Combate + 20
+MaxEnergy + 10
+Desbloquear Recetas de Energía","53,592#1192,10000","1,2,3",talentTree-3,3,1,3,1, Maestría en Combate 3 ,30,2,1800,2,0,2
+0,"Combate ATK +5
+Combate DEF +5
+Combate MaxHP +20
+MaxEnergy +10
+Desbloquear recetas de energía","54,590#1197,10000","1,2,3",talentTree-4,4,1,4,1, Maestría en Combate 4 ,40,2,3600,3,3,3
+0,"Combate Atq + 5
+Combate DEF + 5
+Combate HP Máx + 20
+Energía Máx + 10
+Desbloquear Recetas de Energía","55,589#1196,10000","1,2,3",talentTree-5,5,1,5,1, Maestría en Combate 5 ,50,2,7200,4,4,4
 0,"Combate ATK + 5
 Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","51,588#1199,10000","1,2,3",talentTree-1,1,1,1,1, Maestría en Combate 1 ,0,2,450,0,0,
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","52,585#1194,10000","1,2,3",talentTree-2,2,1,2,1, Maestría en Combate 2 ,0,2,900,1,0,1
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","53,592#1192,10000","1,2,3",talentTree-3,3,1,3,1, Maestría en Combate 3 ,30,2,1800,2,0,2
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","54,590#1197,10000","1,2,3",talentTree-4,4,1,4,1, Maestría en Combate 4 ,40,2,3600,3,3,3
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","55,589#1196,10000","1,2,3",talentTree-5,5,1,5,1, Maestría en Combate 5 ,50,2,7200,4,4,4
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","56,595#1195,10000","1,2,3",talentTree-6,6,1,6,1, Maestría en Combate 6 ,60,2,14400,5,5,5
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","57,614#1200,10000","1,2,3",talentTree-7,7,1,7,1, Maestría en Combate 7 ,70,2,28800,6,6,6
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","58,615#1193,10000","1,2,3",talentTree-8,8,1,8,1, Maestría en Combate 8 ,80,2,57600,7,7,7
-0,"Combate ATK + 5
-Combate DEF + 5
-Combate MaxHP + 20
-MaxEnergy + 10 
-","59,619#1198,10000","1,2,3",talentTree-9,9,1,9,1, Maestría en Combate 9 ,90,2,115200,8,8,8
+Combate HP Máx + 20
+Energía Máx + 10
+Desbloquear Recetas de Energía","56,595#1195,10000","1,2,3",talentTree-6,6,1,6,1, Maestría en Combate 6 ,60,2,14400,5,5,5
+0,"ATK de combate +5
+DEF de combate +5
+MaxHP de combate +20
+MaxEnergy +10
+Desbloquear recetas de energía","57,614#1200,10000","1,2,3",talentTree-7,7,1,7,1, Maestría en Combate 7 ,70,2,28800,6,6,6
+0,"ATK de Combate + 5
+DEF de Combate + 5
+HP Máximo de Combate + 20
+Energía Máxima + 10
+Desbloquear Recetas de Energía","58,615#1193,10000","1,2,3",talentTree-8,8,1,8,1, Maestría en Combate 8 ,80,2,57600,7,7,7
+0,"ATK de Combate + 5
+DEF de Combate + 5
+HP Máximo de Combate + 20
+Energía Máxima + 10
+Desbloquear Recetas de Energía","59,619#1198,10000","1,2,3",talentTree-9,9,1,9,1, Maestría en Combate 9 ,90,2,115200,8,8,8
 -3,"Reduce la velocidad de movimiento del enemigo
 ",332,1,talentTree-10,10,0,2,1, Pisotear - Mejora ,0,2,175,0,0,11
 -3,"Aturdir a los enemigos a tu alrededor
 ",63,0,talentTree-11,11,0,1,1, Pisotear ,0,2,95,0,0,
 0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
+Competencia en Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
-Energía Máxima + 10
-","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1, Maestría en Agricultura 1 ,0,1,450,0,0,
+Competencia en Cría + 4
+MaxEnergy + 10
+Aptitud Agrícola: Convierte la competencia en agricultura en defensa de combate y límites de salud en proporción a un cierto porcentaje, efectivo al usar herramientas agrícolas
+Desbloquear Recetas de Energía","66#531,591#597#1183,10000","1,2,3",talentTree-13,13,1,1,1, Maestría en Agricultura 1 ,0,1,450,0,0,
+0,"Capacidad de Fertilidad + 1
+Competencia en Plantación + 4
+Capacidad de Felicidad de Mascotas + 1
+Competencia en Cría + 4
+MaxEnergy + 10
+Desbloquear Recetas de Energía","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1, Maestría en Agricultura 2 ,0,1,900,1,0,13
+0,"Capacidad de Fertilidad + 1
+Competencia en Plantación + 4
+Capacidad de Felicidad de Mascotas + 1
+Competencia en Reproducción + 4
+MaxEnergy + 10
+Desbloquear Recetas de Energía","68,596#599#1188,10000","1,2,3",talentTree-15,15,1,3,1, Maestría en Agricultura 3 ,30,1,1800,2,0,14
+0,"FertilityCapacity +1
+PlantingProficiency +4
+PetHappinessCapacity +1
+BreedingProficiency +4
+MaxEnergy +10
+Desbloquear recetas de energía","69,594#600#1190,10000","1,2,3",talentTree-16,16,1,4,1, Maestría en Agricultura 4 ,40,1,3600,3,3,15
 0,"Capacidad de Fertilidad + 1
 Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
 Competencia de Reproducción + 4
-Energía Máxima + 10
-","67,593#598#1184,10000","1,2,3",talentTree-14,14,1,2,1, Maestría en Agricultura 2 ,0,1,900,1,0,13
+Energía Máx + 10
+Desbloquear Recetas de Energía","70,601#587#1185,10000","1,2,3",talentTree-17,17,1,5,1, Maestría en Agricultura 5 ,50,1,7200,4,4,16
 0,"Capacidad de Fertilidad + 1
 Competencia de Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
 Competencia de Reproducción + 4
-Energía Máxima + 10
-","68,596#599#1188,10000","1,2,3",talentTree-15,15,1,3,1, Maestría en Agricultura 3 ,30,1,1800,2,0,14
+Energía Máx + 10
+Desbloquear Recetas de Energía","71,602#586#1189,10000","1,2,3",talentTree-18,18,1,6,1, Maestría en Agricultura 6 ,60,1,14400,5,5,17
+0,"Capacidad de fertilidad +1
+Competencia de plantación +4
+Capacidad de felicidad de mascota +1
+Competencia de reproducción +4
+MaxEnergy +10
+Desbloquear recetas de energía","72,620#617#1187,10000","1,2,3",talentTree-19,19,1,7,1, Maestría en Agricultura 7 ,70,1,28800,6,6,18
 0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
+Competencia en Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
+Competencia en Reproducción + 4
 Energía Máxima + 10
-","69,594#600#1190,10000","1,2,3",talentTree-16,16,1,4,1, Maestría en Agricultura 4 ,40,1,3600,3,3,15
+Desbloquear Recetas de Energía","73,624#621#1186,10000","1,2,3",talentTree-20,20,1,8,1, Maestría en Agricultura 8 ,80,1,57600,7,7,19
 0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
+Competencia en Plantación + 4
 Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
+Competencia en Reproducción + 4
 Energía Máxima + 10
-","70,601#587#1185,10000","1,2,3",talentTree-17,17,1,5,1, Maestría en Agricultura 5 ,50,1,7200,4,4,16
-0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
-Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
-Energía Máxima + 10
-","71,602#586#1189,10000","1,2,3",talentTree-18,18,1,6,1, Maestría en Agricultura 6 ,60,1,14400,5,5,17
-0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
-Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
-Energía Máxima + 10
-","72,620#617#1187,10000","1,2,3",talentTree-19,19,1,7,1, Maestría en Agricultura 7 ,70,1,28800,6,6,18
-0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
-Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
-Energía Máxima + 10
-","73,624#621#1186,10000","1,2,3",talentTree-20,20,1,8,1, Maestría en Agricultura 8 ,80,1,57600,7,7,19
-0,"Capacidad de Fertilidad + 1
-Competencia de Plantación + 4
-Capacidad de Felicidad de Mascotas + 1
-Competencia de Reproducción + 4
-Energía Máxima + 10
-","74,625#616#1191,10000","1,2,3",talentTree-21,21,1,9,1, Maestría en Agricultura 9 ,90,1,115200,8,8,20
+Desbloquear Recetas de Energía","74,625#616#1191,10000","1,2,3",talentTree-21,21,1,9,1, Maestría en Agricultura 9 ,90,1,115200,8,8,20
 1,"Capacidad de fertilidad + 1.
 ",228,1,talentTree-22,22,0,1,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,95,0,0,
 -1,"Riega los campos pequeños a tu alrededor
@@ -109,75 +110,76 @@ Energía Máxima + 10
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
-Energía Máxima + 10
-","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1, Maestría en Recolectar 1 ,0,3,450,0,0,
+Competencia en Hierba + 5
+Competencia en Árbol + 5
+Competencia en Mineral + 5
+MaxEnergy + 10
+Aptitud de Recolecta: Convierte la competencia en recolección en defensa de combate y salud en una cierta proporción, efectivo al usar herramientas de recolección
+Desbloquear Recetas de Energía","81#530,267#605,10000","1,2,3",talentTree-24,24,1,1,1, Maestría en Recolectar 1 ,0,3,450,0,0,
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
-Energía Máxima + 10
-","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1, Recolectar Combate 2 ,0,3,900,1,0,24
+Competencia en Hierba + 5
+Competencia en Árbol + 5
+Competencia en Mineral + 5
+MaxEnergy + 10
+Desbloquear Recetas de Energía","82,268#606,10000","1,2,3",talentTree-25,25,1,2,1, Recolectar Combate 2 ,0,3,900,1,0,24
 0,"Ataque de Hierba + 5
 Ataque de Árbol + 5
 Ataque de Mineral + 5
+Competencia en Hierba + 5
+Competencia en Árbol + 5
+Competencia en Mineral + 5
+MaxEnergy + 10
+Desbloquear Recetas de Energía","83,269#607,10000","1,2,3",talentTree-26,26,1,3,1, Recolectar Combate 3 ,30,3,1800,2,0,25
+0,"GrassAtt +5
+TreeAtt +5
+OreAtt +5
+GrassProficiency +5
+TreeProficiency +5
+OreProficiency +5
+MaxEnergy +10
+Desbloquear recetas de energía","84,382#608,10000","1,2,3",talentTree-27,27,1,4,1, Recolectar Combate 4 ,40,3,3600,3,3,26
+0,"Atq Hierba + 5
+Atq Árbol + 5
+Atq Mineral + 5
+Competencia Hierba + 5
+Competencia Árbol + 5
+Competencia Mineral + 5
+Energía Máx + 10
+Desbloquear Recetas de Energía","85,383#609,10000","1,2,3",talentTree-28,28,1,5,1, Recolectar Combate 5 ,50,3,7200,4,4,27
+0,"Atq de Hierba + 5
+Atq de Árbol + 5
+Atq de Mineral + 5
 Competencia de Hierba + 5
 Competencia de Árbol + 5
 Competencia de Mineral + 5
-Energía Máxima + 10
-","83,269#607,10000","1,2,3",talentTree-26,26,1,3,1, Recolectar Combate 3 ,30,3,1800,2,0,25
+Energía Máx + 10
+Desbloquear Recetas de Energía","86,384#610,10000","1,2,3",talentTree-29,29,1,6,1,Recolectar Combate 6 ,60,3,14400,5,5,28
+0,"Ataque a la hierba +5
+Ataque a los árboles +5
+Ataque a los minerales +5
+Competencia de hierba +5
+Competencia de árboles +5
+Competencia de minerales +5
+MaxEnergy +10
+Desbloquear recetas de energía","87,623#611,10000","1,2,3",talentTree-30,30,1,7,1, Recolectar Combate 7 ,70,3,28800,6,6,29
 0,"Ataque de Hierba + 5
-Ataque de Árbol + 5
-Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
+Ataque de Árboles + 5
+Ataque de Minerales + 5
+Competencia en Hierba + 5
+Competencia en Árboles + 5
+Competencia en Minerales + 5
 Energía Máxima + 10
-","84,382#608,10000","1,2,3",talentTree-27,27,1,4,1, Recolectar Combate 4 ,40,3,3600,3,3,26
-0,"Ataque de Hierba + 5
-Ataque de Árbol + 5
-Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
+Desbloquear Recetas de Energía","88,618#612,10000","1,2,3",talentTree-31,31,1,8,1, Recolectar Combate 8 ,80,3,57600,7,7,30
+0,"Ataque a Hierba + 5
+Ataque a Árboles + 5
+Ataque a Minerales + 5
+Competencia en Hierba + 5
+Competencia en Árboles + 5
+Competencia en Minerales + 5
 Energía Máxima + 10
-","85,383#609,10000","1,2,3",talentTree-28,28,1,5,1, Recolectar Combate 5 ,50,3,7200,4,4,27
-0,"Ataque de Hierba + 5
-Ataque de Árbol + 5
-Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
-Energía Máxima + 10
-","86,384#610,10000","1,2,3",talentTree-29,29,1,6,1,Recolectar Combate 6 ,60,3,14400,5,5,28
-0,"Ataque de Hierba + 5
-Ataque de Árbol + 5
-Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
-Energía Máxima + 10
-","87,623#611,10000","1,2,3",talentTree-30,30,1,7,1, Recolectar Combate 7 ,70,3,28800,6,6,29
-0,"Ataque de Hierba + 5
-Ataque de Árbol + 5
-Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
-Energía Máxima + 10
-","88,618#612,10000","1,2,3",talentTree-31,31,1,8,1, Recolectar Combate 8 ,80,3,57600,7,7,30
-0,"Ataque de Hierba + 5
-Ataque de Árbol + 5
-Ataque de Mineral + 5
-Competencia de Hierba + 5
-Competencia de Árbol + 5
-Competencia de Mineral + 5
-Energía Máxima + 10
-","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1, Recolectar Combate 9 ,90,3,115200,8,8,31
+Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1, Recolectar Combate 9 ,90,3,115200,8,8,31
 -3,"Desbloquear Recetas de Conjunto Nv 1
 Desbloquear Receta de Slime de Energía Nv 1
 ",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3, Recetas de Conjunto de Recolectar ,0,3,"131,131,131",0,"0,0,0",
@@ -211,16 +213,11 @@ Desbloquear Receta de Slime de Energía Nivel 2
 -3,"Desbloquear Recetas de Conjunto Nivel 3
 Desbloquear Receta de Slime de Energía Nivel 3
 ",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998,2,talentTree-62,62,0,3,3, Recetas de Conjunto de Recolectar ,0,3,"525,525,525",0,"3,3,3",34
--1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",95#902,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,0,3,131,0,0,
--1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",96#903,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,0,3,262,0,0,65
--1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",132#904,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,0,3,525,0,3,66
--1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",346#905,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,0,3,1050,0,3,67
--1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",347#906,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,0,3,2100,0,4,68
+-1,Desbloquear Receta de Poción,95#902,2,talentTree-65,65,0,1,1, Lv 1 Coleccionista Loco ,0,3,131,0,0,
+-1,Desbloquear Receta de Poción.,96#903,2,talentTree-66,66,0,2,1, Lv 1 Persona Elegida ,0,3,262,0,0,65
+-1,Desbloquear Receta de Poción.,132#904,2,talentTree-67,67,0,3,1, Recetas de Accesorios Mágicos ,0,3,525,0,3,66
+-1,Desbloquear receta de poción.,346#905,2,talentTree-68,68,0,4,1, Lv 2 Coleccionista Loco ,0,3,1050,0,3,67
+-1,Desbloquear Receta de Poción.,347#906,2,talentTree-69,69,0,5,1, Lv 2 Persona Elegida ,0,3,2100,0,4,68
 -1,"Reducir la velocidad de movimiento del enemigo
 ",340,1,talentTree-70,70,0,4,1, Tormenta Ligera - Mejora ,0,2,646,0,3,60
 -3,"Aumentar la duración de aturdimiento del enemigo.
@@ -422,32 +419,28 @@ Desbloquear Receta de Recasting
 ",307,1,talentTree-201,201,0,5,1, Recolectar - Árboles ,0,3,2100,0,4,198
 3,"Ataque de mineral de recolección ++ Competencia ++
 ",316,1,talentTree-202,202,0,5,1, Recolectar - Minería ,0,3,2100,0,4,199
--1,"Desbloquear Receta de Poción. Desbloquear Receta de Poción de Energía
-",348#907,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,0,3,4200,0,5,69
+-1,Desbloquear Receta de Poción.,348#907,2,talentTree-204,204,0,6,1, Recetas de Accesorios Mágicos ,0,3,4200,0,5,69
 1,"Ataque de hierba de recolección ++ Competencia ++
 ",299,1,talentTree-205,205,0,6,1, Valor de Recolectar - Hierba ,0,3,4200,0,5,200
 2,"Ataque de árbol de recolección ++ Competencia ++
 ",308,1,talentTree-206,206,0,6,1, Recolectar - Árboles ,0,3,4200,0,5,201
 3,"Recolectar Mineral Atq ++ Competencia ++
 ",317,1,talentTree-207,207,0,6,1, Recolectar - Minería ,0,3,4200,0,5,202
--1,"Desbloquear receta de poción. Desbloquear receta de poción de energía
-",895#908,2,talentTree-209,209,0,7,1, Lv 3 Coleccionista Loco ,0,3,8400,0,6,204
+-1,Desbloquear receta de poción.,895#908,2,talentTree-209,209,0,7,1, Lv 3 Coleccionista Loco ,0,3,8400,0,6,204
 1,"Recolectar Hierba Atq ++ Competencia ++
 ",300,1,talentTree-210,210,0,7,1, Recolectar - Hierba ,0,3,8400,0,6,205
 2,"Recolectar Árbol Atq ++ Competencia ++
 ",309,1,talentTree-211,211,0,7,1, Recolectar - Árboles ,0,3,8400,0,6,206
 3,"Recolectar Mineral Atq ++ Competencia ++
 ",318,1,talentTree-212,212,0,7,1, Recolectar - Minería ,0,3,8400,0,6,207
--1,"Desbloquear receta de poción. Desbloquear receta de poción de energía
-",896#909,2,talentTree-214,214,0,8,1, Lv 3 Persona Elegida ,0,3,16800,0,7,209
+-1,Desbloquear Receta de Poción.,896#909,2,talentTree-214,214,0,8,1, Lv 3 Persona Elegida ,0,3,16800,0,7,209
 2,"Recolectar Árbol Atq ++ Competencia ++
 ",310,1,talentTree-215,215,0,8,1, Recolectar - Árboles ,0,3,16800,0,7,211
 1,"Recolectar Hierba Atq ++ Competencia ++
 ",301,1,talentTree-216,216,0,8,1, Recolectar - Hierba ,0,3,16800,0,7,210
 3,"Recolectar Mineral Atq ++ Competencia ++
 ",319,1,talentTree-217,217,0,8,1, Recolectar - Minería ,0,3,16800,0,7,212
--1,"Desbloquear receta de poción. Desbloquear receta de poción de energía
-",897#910,2,talentTree-219,219,0,9,1, Recetas de Accesorios Mágicos ,0,3,33600,0,8,214
+-1,Desbloquear Receta de Poción,897#910,2,talentTree-219,219,0,9,1, Recetas de Accesorios Mágicos ,0,3,33600,0,8,214
 1,"Recolectar Hierba Atq ++ Competencia ++
 ",302,1,talentTree-220,220,0,9,1, Recolectar - Hierba ,0,3,33600,0,8,216
 2,Ataque a los árboles de recolección ++ Competencia ++,311,1,talentTree-221,221,0,9,1, Recolectar - Árboles ,0,3,33600,0,8,215
@@ -586,6 +579,6 @@ Desbloquear receta de Slime de energía Lv 6
 ",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1123#1124#1125#1126#1127#1128#1129#1130;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,"35,35,35",294
 -2,"Desbloquear Recetas de Esencia Nivel 9
 ",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,0,295
--1,,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6,169
-4,,541,0,talentTree-299,299,0,3,1,,0,3,525,0,0,
-4,,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,5,299
+-1,Aumenta la velocidad de movimiento propia y de los aliados durante 10 segundos.,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6,169
+4,Aumenta tu velocidad de movimiento en un 20% durante 30 segundos,541,0,talentTree-299,299,0,3,1,,0,3,525,0,0,
+4,Inflige un poderoso efecto de repulsión al enemigo frente a ti,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,5,299
