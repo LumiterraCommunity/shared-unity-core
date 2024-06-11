@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-12 14:36:36
  * @Description: 受击路径移动效果
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/HotFix/Module/Entity/Battle/SkillEffect/SEBeHitPathMoveCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEBeHitPathMoveCore.cs
  * 
  */
 
@@ -20,14 +20,7 @@ public class SEBeHitPathMoveCore : SEPathMoveCore
 
     private void ChangeBeHitMoveStatus()
     {
-        if (RefEntity.BattleDataCore != null)
-        {
-            //霸体状态不应该进入击退状态
-            if (RefEntity.BattleDataCore.HasBattleState(BattleDefine.eBattleState.Endure))
-            {
-                return;
-            }
-        }
+
         RefEntity.EntityEvent.EntityBeHitMove?.Invoke(EffectCfg.Duration);
 
     }
@@ -47,6 +40,12 @@ public class SEBeHitPathMoveCore : SEPathMoveCore
             {
                 return false;
             }
+
+            if (targetEntity.BattleDataCore.HasBattleState(BattleDefine.eBattleState.Endure))
+            {
+                return false;
+            }
+
         }
         return true;
     }

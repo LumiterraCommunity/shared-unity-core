@@ -16,6 +16,13 @@ public class BeHitEventFunc : EntityStatusEventFunctionBase
 
     private void OnEntityBeHit(int damage)
     {
+        if (StatusCtrl.RefEntity.BattleDataCore != null)
+        {
+            if (StatusCtrl.RefEntity.BattleDataCore.HasBattleState(BattleDefine.eBattleState.Endure))
+            {
+                return;
+            }
+        }
         // 技能阶段 需要判断 是否被打中断技能
         if (EntityStatus.StatusName == SkillAccumulateStatusCore.Name
             || EntityStatus.StatusName == SkillForwardStatusCore.Name
