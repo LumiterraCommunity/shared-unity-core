@@ -180,12 +180,8 @@ Compétence en coupe d'arbre + 5
 Compétence minière + 5
 Énergie maximale + 10
 Débloquer les recettes d'énergie","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather Combat 9,90,3,115200,8,8,31
--3,"Débloquer les recettes de l'ensemble Niveau 1
-Débloquer la recette de Slime d'énergie Niveau 1
-",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,3,"131,131,131",0,"0,0,0",
--3,"Débloquer les recettes d'ensemble niveau 2
-Débloquer la recette de slime d'énergie niveau 2
-",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Gather Set Recipes,0,3,"262,262,262",0,"0,0,0",33
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 1, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,3,"131,131,131",0,"0,0,0",
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 2, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque le niveau maximum est atteint.",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Gather Set Recipes,0,3,"262,262,262",0,"0,0,0",33
 -1,"Toucher adorable
 ",415,0,talentTree-45,45,0,3,1,Lovely Touch,0,1,420,0,0,23
 -1,"Compétence d'efficacité - Binage en groupe
@@ -210,9 +206,7 @@ Débloquer la recette de slime d'énergie niveau 2
 ",137,0,talentTree-60,60,0,3,1,Slight Flurry,0,2,323,0,0,
 -3," Étourdit les ennemis dans une certaine portée, les empêchant de frapper pendant la libération de compétence
 ",485,0,talentTree-61,61,0,4,1,War Trampling,0,2,646,0,3,52
--3,"Débloquer les recettes d'ensemble niveau 3
-Débloquer la recette de slime d'énergie niveau 3
-",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998,2,talentTree-62,62,0,3,3,Gather Set Recipes,0,3,"525,525,525",0,"3,3,3",34
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 3, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque le niveau maximum est atteint.",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998,2,talentTree-62,62,0,3,3,Gather Set Recipes,0,3,"525,525,525",0,"3,3,3",34
 -1,Débloquer la recette de potion.,95#902,2,talentTree-65,65,0,1,1,Lv 1 Crazy Collector,0,3,131,0,0,
 -1,Débloquer la recette de potion.,96#903,2,talentTree-66,66,0,2,1,Lv 1 Chosen Person,0,3,262,0,0,65
 -1,Débloquer la recette de potion.,132#904,2,talentTree-67,67,0,3,1,Magic Props Recipes,0,3,525,0,3,66
@@ -230,14 +224,8 @@ Débloquer la recette de slime d'énergie niveau 3
 4,Compétence en reproduction + 4,233,1,talentTree-76,76,0,1,1,Ferme - Compétence de récolte,0,1,95,0,0,
 -1," Compétences d'efficacité - Binage en groupe
 ",102,0,talentTree-77,77,0,1,1,Earth Splitter,0,1,95,0,0,
--4,"Débloquer les recettes de l'ensemble Niveau 1
-Débloquer la recette de Slime d'énergie Niveau 1
-Débloquer la recette de refonte
-",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,1,"95,95,95",0,"0,0,0",
--4,"Débloquer les recettes d'ensemble niveau 2
-Débloquer la recette de slime d'énergie niveau 2
-Débloquer la recette de refonte
-",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Farming Set Recipes,0,1,"210,210,210",0,"0,0,0",78
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 1, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,1,"95,95,95",0,"0,0,0",
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 2, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Farming Set Recipes,0,1,"210,210,210",0,"0,0,0",78
 1,"Capacité de fertilité + 1
 ",229,1,talentTree-80,80,0,2,1,Ferme - Rendement de fertilité par unité de terre,0,1,210,0,0,22
 2,Compétence de plantation + 4,245,1,talentTree-81,81,0,2,1,Ferme - Compétence de récolte,0,1,210,0,0,73
@@ -246,10 +234,7 @@ Débloquer la recette de refonte
 1,"Capacité de fertilité + 1
 ",236,1,talentTree-84,84,0,4,1,Valeur de la ferme - Rendement de fertilité par unité de terre,0,1,840,0,3,93
 4,Compétence en reproduction + 4,289,1,talentTree-85,85,0,5,1,Ferme - Compétence de récolte,0,1,1680,0,4,90
--4,"Débloquer les recettes d'ensemble niveau 3
-Débloquer la recette de slime d'énergie niveau 3
-Débloquer la recette de refonte
-",64#378#68#131#130#129#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488#982#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Farming Set Recipes,0,1,"420,420,420",0,"3,3,3",79
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 3, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque le niveau maximum est atteint.",64#378#68#131#130#129#920;110#173;174#175#176#487#506#505#501#490#499#500#580#488#982#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Farming Set Recipes,0,1,"420,420,420",0,"3,3,3",79
 3,Capacité de Bonheur des Animaux de Compagnie +1,282,1,talentTree-89,89,0,4,1,Ferme - Indice de bonheur de combat des animaux de compagnie,0,1,840,0,3,92
 4,Compétence en reproduction + 4,288,1,talentTree-90,90,0,4,1,Ferme - Compétence de récolte,0,1,840,0,3,91
 4,Compétence en reproduction + 4,248,1,talentTree-91,91,0,3,1,Ferme - Compétence de récolte,0,1,420,0,0,83
@@ -258,9 +243,7 @@ Débloquer la recette de refonte
 ",235,1,talentTree-93,93,0,3,1,Ferme - Rendement de fertilité par unité de terre,0,1,420,0,0,80
 -2,"Débloquer les recettes d'essence pour animaux de compagnie niveau 3
 ",157,2,talentTree-94,94,0,3,1,Pet Essence Recipes,0,1,420,0,3,49
--5,"Débloquer les recettes de l'ensemble Niveau 1
-Débloquer la recette de Slime d'énergie Niveau 1
-",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,2,"95,95,95",0,"0,0,0",
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 1, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,2,"95,95,95",0,"0,0,0",
 4," Combat MaxHP +20
 ",264,1,talentTree-96,96,0,1,1,Combat - HP,0,2,95,0,0,
 3," Combat DEF +5
@@ -271,19 +254,13 @@ Débloquer la recette de Slime d'énergie Niveau 1
 ",116;117;118,1,talentTree-99,99,0,1,3,Expert,0,2,"95,95,95",0,"0,0,0",
 4," Combat MaxHP +20
 ",265,1,talentTree-100,100,0,2,1,Combat - HP,0,2,175,0,0,96
--5,"Débloquer les recettes d'ensemble niveau 2
-Débloquer la recette de potion d'énergie niveau 2
-Débloquer la recette de refonte
-",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Combat Set Recipes,0,2,"175,175,175",0,"0,0,0",95
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 2, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Combat Set Recipes,0,2,"175,175,175",0,"0,0,0",95
 3," Combat DEF +5
 ",259,1,talentTree-102,102,0,2,1,Combat - Défense,0,2,175,0,0,97
 2," Combat ATK +5
 ",253,1,talentTree-103,103,0,2,1,Combat - Puissance d'attaque,0,2,175,0,0,98
 1,Coup de combat + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3,Expert,0,2,"175,175,175",0,"0,0,0",99
--5,"Débloquer les recettes d'ensemble niveau 3
-Débloquer la recette de potion d'énergie niveau 3
-Débloquer la recette de refonte
-",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Combat Set Recipes,0,2,"323,323,323",0,"3,3,3",101
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 3, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque le niveau maximum est atteint.",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Combat Set Recipes,0,2,"323,323,323",0,"3,3,3",101
 3," Combat DEF +5
 ",260,1,talentTree-106,106,0,3,1,Combat - Défense,0,2,323,0,0,102
 2," Combat ATK +5
@@ -449,118 +426,70 @@ Débloquer la recette de refonte
 ",160,2,talentTree-247,247,0,3,1,Gather Essence Recipes,0,3,525,0,3,246
 5," Capturer des animaux comme vos animaux de compagnie
 ",166,0,talentTree-254,254,0,1,1,Capture,0,1,95,0,0,
--5,"Débloquer les recettes d'ensemble Niveau 4
-Débloquer la recette de potion d'énergie Niveau 4
-Débloquer la recette de refonte
-",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3, Recettes d'ensemble de combat,0,2,"646,646,646",0,"10,10,10",105
+-5," Débloquer les recettes d'ensemble d'équipement de niveau 4, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3, Recettes d'ensemble de combat,0,2,"646,646,646",0,"10,10,10",105
 -4,"Débloquer les recettes d'essence niveau 4
 ",340,2,talentTree-257,257,0,4,1, Recettes d'essence de combat,0,2,646,0,10,238
--5,"Débloquer les recettes de set niveau 5
-Débloquer la recette de potion d'énergie niveau 5
-Débloquer la recette de refonte
-",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3, Recettes d'ensemble de combat,0,2,"1292,1292,1292",0,"15,15,15",256
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 5, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3, Recettes d'ensemble de combat,0,2,"1292,1292,1292",0,"15,15,15",256
 -4,"Débloquer les recettes d'essence niveau 5 
 ",341,2,talentTree-259,259,0,5,1, Recettes d'essence de combat,0,2,1292,0,15,257
--5,"Débloquer les recettes d'ensemble Lv 6
-Débloquer la recette de potion d'énergie Lv 6
-Débloquer la recette de refonte
-",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3,Recettes d'ensemble de combat ,0,2,"2584,2584,2584",0,"20,20,20",258
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 6, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3,Recettes d'ensemble de combat ,0,2,"2584,2584,2584",0,"20,20,20",258
 -4,"Débloquer les recettes d'essence niveau 6 
 ",342,2,talentTree-261,261,0,6,1,Recettes d'essence de combat ,0,2,2584,0,20,259
--3,"Débloquer les recettes d'ensemble Niveau 4
-Débloquer la recette de Slime d'énergie Niveau 4
-",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3, Recettes d'ensemble de collecte,0,3,"1050,1050,1050",0,"10,10,10",62
+-3," Débloquer les recettes d'ensemble d'équipement de niveau 4, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3, Recettes d'ensemble de collecte,0,3,"1050,1050,1050",0,"10,10,10",62
 -2,"Débloquer les recettes d'essence niveau 4
 ",343,2,talentTree-263,263,0,4,1, Recettes d'essence de collecte,0,3,1050,0,10,247
--3,"Débloquer les recettes de set niveau 5
-Débloquer la recette de slime d'énergie niveau 5
-",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3, Recettes d'ensemble de collecte,0,3,"2100,2100,2100",0,"15,15,15",262
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 5, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3, Recettes d'ensemble de collecte,0,3,"2100,2100,2100",0,"15,15,15",262
 -2,"Débloquer les recettes d'essence niveau 5 
 ",344,2,talentTree-265,265,0,5,1, Recettes d'essence de collecte,0,3,2100,0,15,263
--3,"Débloquer les recettes d'ensemble Lv 6
-Débloquer la recette de Slime d'énergie Lv 6
-",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3,Recettes d'ensemble de collecte ,0,3,"4200,4200,4200",0,"20,20,20",264
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 6, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3,Recettes d'ensemble de collecte ,0,3,"4200,4200,4200",0,"20,20,20",264
 -2,"Débloquer les recettes d'essence niveau 6 
 ",345,2,talentTree-267,267,0,6,1,Recettes d'essence de collecte ,0,3,4200,0,20,265
--4,"Débloquer les recettes d'ensemble Niveau 4
-Débloquer la recette de Slime d'énergie Niveau 4
-Débloquer la recette de refonte
-",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3, Recettes d'ensemble d'agriculture,0,1,"840,840,840",0,"10,10,10",88
+-4," Débloquer les recettes d'ensemble d'équipement de niveau 4, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3, Recettes d'ensemble d'agriculture,0,1,"840,840,840",0,"10,10,10",88
 -3,"Débloquer les recettes d'essence niveau 4
 ",334,2,talentTree-269,269,0,4,1, Recettes d'essence de plantation,0,1,840,0,5,229
 -2,"Débloquer les recettes d'essence niveau 4
 ",337,2,talentTree-270,270,0,4,1, Recettes d'essence d'élevage agricole,0,1,840,0,5,94
--4,"Débloquer les recettes de set niveau 5
-Débloquer la recette de slime d'énergie niveau 5
-Débloquer la recette de refonte
-",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3, Recettes d'ensemble d'agriculture,0,1,"1680,1680,1680",0,"15,15,15",268
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 5, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3, Recettes d'ensemble d'agriculture,0,1,"1680,1680,1680",0,"15,15,15",268
 -3,"Débloquer les recettes d'essence niveau 5 
 ",335,2,talentTree-272,272,0,5,1, Recettes d'essence de plantation,0,1,1680,0,8,269
 -2,"Débloquer les recettes d'essence niveau 5 
 ",338,2,talentTree-273,273,0,5,1, Recettes d'essence d'élevage agricole,0,1,1680,0,8,270
--4,"Débloquer les recettes d'ensemble Lv 6
-Débloquer la recette de Slime d'énergie Lv 6
-Débloquer la recette de refonte
-",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Recettes d'ensemble d'agriculture ,0,1,"3360,3360,3360",0,"20,20,20",271
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 6, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Recettes d'ensemble d'agriculture ,0,1,"3360,3360,3360",0,"20,20,20",271
 -3,"Débloquer les recettes d'essence niveau 6 
 ",336,2,talentTree-275,275,0,6,1,Recettes d'essence de plantation ,0,1,3360,0,10,272
 -2,"Débloquer les recettes d'essence niveau 6 
 ",339,2,talentTree-276,276,0,6,1,Recettes d'essence d'élevage agricole ,0,1,3360,0,10,273
--4,"Débloquer les recettes de set Nv 7
-Débloquer la recette de slime d'énergie Nv 7
-Débloquer la recette de refonte
-",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1090#1091#1092#1093#1094#1095#1096#1097,2,talentTree-277,277,0,7,3, Recettes d'ensemble de ferme (Pas encore ouvert),0,1,"6720,6720,6720",0,"25,25,25",274
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 7, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1090#1091#1092#1093#1094#1095#1096#1097,2,talentTree-277,277,0,7,3, Recettes d'ensemble de ferme (Pas encore ouvert),0,1,"6720,6720,6720",0,"25,25,25",274
 -3,"Débloquer les recettes d'essence de plantation Niveau 7
 ",635,2,talentTree-278,278,0,7,1, Recettes d'essence de plantation (Pas encore ouvert),0,1,6720,0,0,275
 -2,"Débloquer les recettes d'essence d'élevage Niveau 7
 ",632,2,talentTree-279,279,0,7,1, Recettes d'essence d'élevage (Pas encore ouvert),0,1,6720,0,0,276
--4,"Débloquer les recettes de set Lv 8
-Débloquer la recette de Slime d'énergie Lv 8
-Débloquer la recette de refonte
-",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1107#1108#1109#1110#1111#1112#1113#1114,2,talentTree-280,280,0,8,3, Recettes d'ensemble de ferme (Pas encore ouvert),0,1,"13440,13440,13440",0,"30,30,30",277
+-4,"Débloquer les recettes d'ensemble d'équipement de niveau 8, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1107#1108#1109#1110#1111#1112#1113#1114,2,talentTree-280,280,0,8,3, Recettes d'ensemble de ferme (Pas encore ouvert),0,1,"13440,13440,13440",0,"30,30,30",277
 -3,"Débloquer les recettes d'essence de plantation Niveau 8
 ",636,2,talentTree-281,281,0,8,1, Recettes d'essence de plantation (Pas encore ouvert),0,1,13440,0,0,278
 -2,"Débloquer les recettes d'essence d'élevage Niveau 8
 ",633,2,talentTree-282,282,0,8,1,Recettes d'essence d'élevage (Pas encore ouvert),0,1,13440,0,0,279
--4,"Débloquer les recettes de set Niveau 9
-Débloquer la recette de Slime d'énergie Niveau 9
-Débloquer la recette de refonte
-",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1131#1132#1133#1134#1135#1136#1137#1138,2,talentTree-283,283,0,9,3,Recettes d'ensemble agricole (Pas encore ouvert),0,1,"26880,26880,26880",0,"35,35,35",280
+-4,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level. : [211]Débloquer Recettes d'Ensemble d'Équipement LV 9, débloquer Recettes de Refonte et Recettes d'Artisanat de Fragments lorsque le niveau maximum est atteint.",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1131#1132#1133#1134#1135#1136#1137#1138,2,talentTree-283,283,0,9,3,Recettes d'ensemble agricole (Pas encore ouvert),0,1,"26880,26880,26880",0,"35,35,35",280
 -3,"Débloquer les recettes d'essence de plantation de niveau 9
 ",637,2,talentTree-284,284,0,9,1,Recettes d'essence de plantation (Pas encore ouvert),0,1,26880,0,0,281
 -2,"Débloquer les recettes d'essence d'élevage de niveau 9
 ",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,0,282
--5,"Débloquer les recettes de set Nv 7
-Débloquer la recette de potion d'énergie Nv 7
-Débloquer la recette de refonte
-",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1098,2,talentTree-286,286,0,7,3, (Pas encore ouvert),0,2,"5169,5169,5169",0,"25,25,25",260
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 7, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1098,2,talentTree-286,286,0,7,3, (Pas encore ouvert),0,2,"5169,5169,5169",0,"25,25,25",260
 -4,"Débloquer les recettes d'essence Niveau 7
 ",626,2,talentTree-287,287,0,7,1, (Pas encore ouvert),0,2,5169,0,0,261
--5,"Débloquer les recettes de set Lv 8
-Débloquer la recette de potion d'énergie Lv 8
-Débloquer la recette de refonte
-",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-288,288,0,8,3, (Pas encore ouvert),0,2,"11200,11200,11200",0,"30,30,30",286
+-5,"Débloquer les recettes d'ensemble d'équipement de niveau 8, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-288,288,0,8,3, (Pas encore ouvert),0,2,"11200,11200,11200",0,"30,30,30",286
 -4,"Débloquer les recettes d'essence Niveau 8
 ",627,2,talentTree-289,289,0,8,1, (Pas encore ouvert),0,2,11200,0,0,287
--5,"Débloquer les recettes de set Niveau 9
-Débloquer la recette de potion d'énergie Niveau 9
-Débloquer la recette de refonte
-",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-290,290,0,9,3,(Pas encore ouvert),0,2,"24436,24436,24436",0,"35,35,35",288
+-5,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level. : [210]Débloquer Recettes d'Ensemble d'Équipement LV 9, débloquer Recettes de Refonte et Recettes d'Artisanat de Fragments lorsque le niveau maximum est atteint.",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-290,290,0,9,3,(Pas encore ouvert),0,2,"24436,24436,24436",0,"35,35,35",288
 -4,"Débloquer les recettes d'essence de niveau 9
 ",628,2,talentTree-291,291,0,9,1,(Pas encore ouvert),0,2,24436,0,0,289
--3,"Débloquer les recettes de set Nv 7
-Débloquer la recette de slime d'énergie Nv 7
-",646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1082#1083#1084#1085#1086#1087#1088#1089,2,talentTree-292,292,0,7,3, (Pas encore ouvert),0,3,"8400,8400,8400",0,"25,25,25",266
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 7, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1082#1083#1084#1085#1086#1087#1088#1089,2,talentTree-292,292,0,7,3, (Pas encore ouvert),0,3,"8400,8400,8400",0,"25,25,25",266
 -2,"Débloquer les recettes d'essence Niveau 7
 ",629,2,talentTree-293,293,0,7,1, (Pas encore ouvert),0,3,8400,0,0,267
--3,"Débloquer les recettes de set Lv 8
-Débloquer la recette de Slime d'énergie Lv 6
-",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1099#1100#1101#1102#1103#1104#1105#1106;673#674,2,talentTree-294,294,0,8,3,(Pas encore ouvert),0,3,"16800,16800,16800",0,"30,30,30",292
+-3,"Débloquer les recettes d'ensemble d'équipement de niveau 8, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1099#1100#1101#1102#1103#1104#1105#1106;673#674,2,talentTree-294,294,0,8,3,(Pas encore ouvert),0,3,"16800,16800,16800",0,"30,30,30",292
 -2,"Débloquer les recettes d'essence Niveau 8
 ",630,2,talentTree-295,295,0,8,1,(Pas encore ouvert),0,3,16800,0,0,293
--3,"Débloquer les recettes de set Niveau 9
-Débloquer la recette de Slime d'énergie Niveau 6
-",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1123#1124#1125#1126#1127#1128#1129#1130;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,"35,35,35",294
+-3,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level. : [214]Débloquer Recettes d'Ensemble d'Équipement LV 9, débloquer Recettes de Refonte et Recettes d'Artisanat de Fragments lorsque le niveau maximum est atteint.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1123#1124#1125#1126#1127#1128#1129#1130;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,"35,35,35",294
 -2,"Débloquer les recettes d'essence de niveau 9
 ",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,0,295
 -1,Increase movement speed for oneself and allies for 10 seconds: Augmenter la vitesse de déplacement pour soi-même et les alliés pendant 10 secondes,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6,169
