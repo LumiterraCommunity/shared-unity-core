@@ -33,6 +33,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取isRanking-bool。*/
+    /// </summary>
+    public bool IsRanking
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取level-int[]。*/
     /// </summary>
     public int[] Level
@@ -300,6 +309,7 @@ public class DRSceneArea : DataRowBase
         int index = 0;
         CanInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        IsRanking = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
         RefreshRatio = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -342,6 +352,7 @@ public class DRSceneArea : DataRowBase
             {
                 CanInvest = binaryReader.ReadBoolean();
                 _id = binaryReader.Read7BitEncodedInt32();
+                IsRanking = binaryReader.ReadBoolean();
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
                 RefreshRatio = binaryReader.ReadArray<Int32>();
