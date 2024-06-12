@@ -76,6 +76,12 @@ public class EntityAvatarDataCore : EntityBaseComponent
         float allLv = 0;
         foreach (AvatarAttribute avatar in AvatarList)
         {
+            //不是装备的不计算 比如外观
+            if (!AvatarDefineCore.EquipmentPartList.Contains(avatar.Position))
+            {
+                continue;
+            }
+
             DRItem drItem = TableUtil.GetConfig<DRItem>(avatar.ObjectId);
             if (drItem == null)
             {
