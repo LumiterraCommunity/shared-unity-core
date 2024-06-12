@@ -249,6 +249,7 @@ public enum eCraftBuildingDisplayType
 {
     General = 1,//通用展示类型
     Energy = 2,//精力展示类型
+    Ticket = 3,//副本门票展示类型
 }
 
 /// <summary>
