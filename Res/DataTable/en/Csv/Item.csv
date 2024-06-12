@@ -331,39 +331,39 @@ This potion is a lifeline in the game, providing a much-needed boost to your cha
 Using it can trigger special effects.
 -------
 This potion can provide a temporary defensive effect, suitable for emergency situations in battle.",0,item-icon-139,139,Secondary Defense Potion,1,56,1,0,2,"1,0",0,3,1,1
-"792,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 This is a type of seed that can be planted to grow bamboo, which is suitable for use in the agricultural field.",97,item-icon-146,146,Bamboo Seed,1,482,1,0,1,"1,0",1,3,1,1
-"792,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Trifolium seeds are agricultural consumables used to plant trifolium and are suitable for use on low-grade land. They can grow rapidly and produce rich nutritional value in suitable environments.",97,item-icon-147,147,Trifolium Seed,1,484,1,0,1,"1,0",1,3,1,1
-"792,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 This type of carrot seeds can be used to grow fresh and delicious carrots. It is suitable for use in home gardens or small farms and can be planted in spring and autumn. The carrots grown from these seeds are tasty and nutritious.",97,item-icon-148,148,Carrot Seed,1,483,1,0,1,"1,0",1,3,1,1
-"793,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Pitcher plant seeds are an agricultural consumable that can be used to grow pitcher plants. This plant is a carnivorous plant that can absorb nutrients from insects. After planting, sufficient sunlight and water are needed for smooth growth.",97,item-icon-149,149,Pigmy Sundew Seed,1,487,1,0,1,2,1,3,2,1
-"793,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 This type of cotton seed can be planted in fields and harvested for cotton to be used in textile production.",97,item-icon-150,150,Cotton Seed,1,486,1,0,1,2,1,3,2,1
-"793,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 This seed holds the potential for a prickly and resilient plant to grow. It promises a touch of desert beauty in your garden. Plant it and watch nature's wonders unfold.",97,item-icon-151,151,Cactus Seed,1,485,1,0,1,2,1,3,2,1
-"794,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 This seed is suitable for planting in warm environments, it grows quickly and has excellent quality. Its taste is extremely spicy, which can add a unique flavor to food, making it the best choice for chili lovers.",97,item-icon-152,152,Explosive Hot Pepper Seed,1,489,1,0,1,3,1,3,3,1
-"794,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 A tough and durable seed that boasts a strong outer shell, perfect for protection and longevity. Its robust nature ensures it can withstand harsh conditions and thrive in any environment. This seed is a symbol of resilience and strength.",97,item-icon-153,153,Hard-shelled Fruit Seed,1,490,1,0,1,3,1,3,3,1
-"794,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 This seed holds the promise of a vibrant blue mushroom, ready to bring a splash of color to your garden. Plant it and watch as it grows into a mesmerizing fungi that will captivate your senses.""",97,item-icon-154,154,Blue Mushroom Seed,1,488,1,0,1,3,1,3,3,1
@@ -410,7 +410,7 @@ Clay is a highly malleable soil commonly used to make pottery, bricks, and other
 "792,1","1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
-This resin is a highly viscous liquid that can be used to make adhesives, coatings, and sealants, among other things. It is usually collected from trees and requires special tools for collection.",0,item-icon-65,65,Resin,1,,1,0,3,"1,0",1,4,1,1
+This resin is a highly viscous liquid that can be used to make adhesives, coatings, and sealants, among other things. It is usually collected from trees and requires special tools for collection.",0,item-icon-65,65,Resin,1,,1,0,3,999,1,4,1,1
 "794,1","1,3,4",1,"Someone once saw this material in the canyon.
 It can be used to craft equipment or items.
 -------
@@ -1369,39 +1369,39 @@ Essence of Agricultural Livestock, useful for synthesizing various equipment",0,
 It can be used to craft equipment or items.
 -------
 Essence of Agricultural Livestock, useful for synthesizing various equipment",0,item-icon-412,412,Lv 6 Agricultural Livestock Essence,1,152,1,0,1,6,0,4,6,1
-"795,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing wheat",97,item-icon-413,413,Wheat Seed,1,493,1,0,1,4,1,3,4,1
-"795,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing peas",97,item-icon-414,414,Peas Seed,1,492,1,0,1,4,1,3,4,1
-"795,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing garlic",97,item-icon-415,415,Garlic Seed,1,491,1,0,1,4,1,3,4,1
-"796,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing sunflowers",97,item-icon-416,416,Sunflower Seed,1,496,1,0,1,5,1,3,5,1
-"796,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing grapes",97,item-icon-417,417,Grape Seed,1,494,1,0,1,5,1,3,5,1
-"796,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing potatoes",97,item-icon-418,418,Potato Seed,1,495,1,0,1,5,1,3,5,1
-"797,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing corpse flowers",97,item-icon-419,419,Chomper Seed,1,498,1,0,1,6,1,3,6,1
-"797,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing morning glories",97,item-icon-420,420,Morning glory flower Seed,1,499,1,0,1,6,1,3,6,1
-"797,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Seeds for growing cassava",97,item-icon-421,421,Cassava Seed,1,497,1,0,1,6,1,3,6,1
@@ -1600,7 +1600,7 @@ Fashionable appearance without attributes
 -------
 Suggest wearing as fashion",0,item-icon-475,475,Gang Core Shoes,5,,1,0,2,999,0,1,4,1
 "795,1",0,1,LUAG Future(100) is pegged at a 1:100 ratio to the LUAG Token,0,item-icon-478,478,LUAG Future(100),1,,1,0,"1,2,3",999,0,4,0,1
-"792,1","1,3,4",1,"Appearing in Floating Realm, Appearing in Flower Peak.
+-,"1,3,4",1,"Appearing in Floating Realm, Appearing in Flower Peak.
 It can be used to craft equipment or items.
 -------
 It can be used to craft Energy Potion.",0,item-icon-479,479,Empty Bottle,1,,1,0,"1,2,3",999,0,4,0,1
@@ -2137,39 +2137,39 @@ Essence of Agricultural Livestock, useful for synthesizing various equipment",0,
 It can be used to craft equipment or items.
 -------
 Essence of Agricultural Livestock, useful for synthesizing various equipment",0,item-icon-613,613,Lv 9 Agricultural Livestock Essence,1,158,1,0,1,9,0,4,9,1
-"798,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seeds for growing wheat",97,item-icon-614,614,Fiery Red Chrysanthemum Seed,1,500,1,0,1,7,1,3,7,1
-"798,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Fiery Red Chrysanthemum ",97,item-icon-615,615,Heard of Fire Seed,1,501,1,0,1,7,1,3,7,1
-"798,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Heard of Fire ",97,item-icon-616,616,Hot Pumpkin Seed,1,502,1,0,1,7,1,3,7,1
-"799,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Hot Pumpkin ",97,item-icon-617,617,Hollow Leaf Seed,1,505,1,0,1,8,1,3,8,1
-"799,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Hollow Leaf ",97,item-icon-618,618,Hollow Fruit Seed,1,504,1,0,1,8,1,3,8,1
-"799,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Hollow Fruit ",97,item-icon-619,619,Hollow Flower Seed,1,503,1,0,1,8,1,3,8,1
-"800,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Hollow Flower ",97,item-icon-620,620,Smelting Fruit Seed,1,508,1,0,1,9,1,3,9,1
-"800,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Smelting Fruit ",97,item-icon-621,621,Psychedelic Vegetable Seed,1,507,1,0,1,9,1,3,9,1
-"800,1","1,3,4",1,"Appearing in Ancient Domain.
+-,"1,3,4",1,"Appearing in Ancient Domain.
 Using it can trigger special effects.
 -------
 Seed for growing Psychedelic Vegetable ",97,item-icon-622,622,Flower of Power Seed,1,506,1,0,1,9,1,3,9,1
@@ -2288,7 +2288,7 @@ Advanced Arena Admission Ticket",0,item-icon-661,661,Advanced Arena Admission Ti
 "800,1",0,1,"An egg infused with ethereal light, exuding an aura of mystery.",0,item-icon-689,689,Enigmatic Light Spirit,1,467,1,0,1,999,0,6,9,1
 "800,1",0,1,"An egg carved from greenstone, with ancient symbols etched deep.",0,item-icon-690,690,Greenstone Carved Spirit,1,468,1,0,1,999,0,6,9,1
 "800,1",0,1,"An egg adorned with smiling spikes, exuding an aura of protection.",0,item-icon-691,691,Smiling Spike Shield,1,469,1,0,1,999,0,6,9,1
-"792,1","1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
+-,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
 Lv 1 Totem Test Seed: A small seed infused with ancient magic, ready to be planted and nurtured.",97,item-icon-692,692,Totem Test Seed,1,,0,0,1,999,0,3,1,1
@@ -2435,33 +2435,33 @@ Immediately create a token task.",0,item-icon-736,736,Combat4-6,1,408,1,0,2,999,
 -,"1,3,4",1,"Daily Ranking reward..
 -------
 Immediately create a token task.",0,item-icon-737,737,Combat7-9,1,409,1,0,2,999,2,7,0,1
-"792,1","1,3,4",1,,0,item-icon-738,738,Lv 1 Combat Equipment fragment,1,52,1,0,2,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-739,739,Lv 2 Combat Equipment fragment,1,52,1,0,2,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-740,740,Lv 3 Combat Equipment fragment,1,52,1,0,2,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-741,741,Lv 4 Combat Equipment fragment,1,52,1,0,2,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-742,742,Lv 5 Combat Equipment fragment,1,52,1,0,2,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-743,743,Lv 6 Combat Equipment fragment,1,52,1,0,2,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-744,744,Lv 7 Combat Equipment fragment,1,52,1,0,2,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-745,745,Lv 8 Combat Equipment fragment,1,52,1,0,2,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-746,746,Lv 9 Combat Equipment fragment,1,52,1,0,2,999,0,4,9,1
-"792,1","1,3,4",1,,0,item-icon-747,747,Lv 1 Farming Equipment fragment,1,50,1,0,1,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-748,748,Lv 2 Farming Equipment fragment,1,50,1,0,1,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-749,749,Lv 3 Farming Equipment fragment,1,50,1,0,1,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-750,750,Lv 4 Farming Equipment fragment,1,50,1,0,1,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-751,751,Lv 5 Farming Equipment fragment,1,50,1,0,1,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-752,752,Lv 6 Farming Equipment fragment,1,50,1,0,1,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-753,753,Lv 7 Farming Equipment fragment,1,50,1,0,1,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-754,754,Lv 8 Farming Equipment fragment,1,50,1,0,1,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-755,755,Lv 9 Farming Equipment fragment,1,50,1,0,1,999,0,4,9,1
-"792,1","1,3,4",1,,0,item-icon-756,756,Lv 1 Gather Equipment fragment,1,54,1,0,3,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-757,757,Lv 2 Gather Equipment fragment,1,54,1,0,3,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-758,758,Lv 3 Gather Equipment fragment,1,54,1,0,3,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-759,759,Lv 4 Gather Equipment fragment,1,54,1,0,3,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-760,760,Lv 5 Gather Equipment fragment,1,54,1,0,3,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-761,761,Lv 6 Gather Equipment fragment,1,54,1,0,3,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-762,762,Lv 7 Gather Equipment fragment,1,54,1,0,3,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-763,763,Lv 8 Gather Equipment fragment,1,54,1,0,3,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-764,764,Lv 9 Gather Equipment fragment,1,54,1,0,3,999,0,4,9,1
+"792,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-738,738,Lv 1 Combat Equipment fragment,1,52,1,0,2,999,0,4,1,1
+"793,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-739,739,Lv 2 Combat Equipment fragment,1,52,1,0,2,999,0,4,2,1
+"794,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-740,740,Lv 3 Combat Equipment fragment,1,52,1,0,2,999,0,4,3,1
+"795,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-741,741,Lv 4 Combat Equipment fragment,1,52,1,0,2,999,0,4,4,1
+"796,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-742,742,Lv 5 Combat Equipment fragment,1,52,1,0,2,999,0,4,5,1
+"797,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-743,743,Lv 6 Combat Equipment fragment,1,52,1,0,2,999,0,4,6,1
+"798,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-744,744,Lv 7 Combat Equipment fragment,1,52,1,0,2,999,0,4,7,1
+"799,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-745,745,Lv 8 Combat Equipment fragment,1,52,1,0,2,999,0,4,8,1
+"800,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-746,746,Lv 9 Combat Equipment fragment,1,52,1,0,2,999,0,4,9,1
+"792,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-747,747,Lv 1 Farming Equipment fragment,1,50,1,0,1,999,0,4,1,1
+"793,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-748,748,Lv 2 Farming Equipment fragment,1,50,1,0,1,999,0,4,2,1
+"794,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-749,749,Lv 3 Farming Equipment fragment,1,50,1,0,1,999,0,4,3,1
+"795,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-750,750,Lv 4 Farming Equipment fragment,1,50,1,0,1,999,0,4,4,1
+"796,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-751,751,Lv 5 Farming Equipment fragment,1,50,1,0,1,999,0,4,5,1
+"797,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-752,752,Lv 6 Farming Equipment fragment,1,50,1,0,1,999,0,4,6,1
+"798,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-753,753,Lv 7 Farming Equipment fragment,1,50,1,0,1,999,0,4,7,1
+"799,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-754,754,Lv 8 Farming Equipment fragment,1,50,1,0,1,999,0,4,8,1
+"800,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-755,755,Lv 9 Farming Equipment fragment,1,50,1,0,1,999,0,4,9,1
+"792,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-756,756,Lv 1 Gather Equipment fragment,1,54,1,0,3,999,0,4,1,1
+"793,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-757,757,Lv 2 Gather Equipment fragment,1,54,1,0,3,999,0,4,2,1
+"794,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-758,758,Lv 3 Gather Equipment fragment,1,54,1,0,3,999,0,4,3,1
+"795,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-759,759,Lv 4 Gather Equipment fragment,1,54,1,0,3,999,0,4,4,1
+"796,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-760,760,Lv 5 Gather Equipment fragment,1,54,1,0,3,999,0,4,5,1
+"797,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-761,761,Lv 6 Gather Equipment fragment,1,54,1,0,3,999,0,4,6,1
+"798,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-762,762,Lv 7 Gather Equipment fragment,1,54,1,0,3,999,0,4,7,1
+"799,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-763,763,Lv 8 Gather Equipment fragment,1,54,1,0,3,999,0,4,8,1
+"800,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,item-icon-764,764,Lv 9 Gather Equipment fragment,1,54,1,0,3,999,0,4,9,1
 -,0,1,"100 x LUAG Future(1) = 1 x LUAG Future(100)
 Unsellable and untransferable in close beta, remember to come back in TGE :-)",0,item-icon-765,765,LUAG Future(1),1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Daily Ranking reward..
