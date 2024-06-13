@@ -49,7 +49,8 @@ public static class MoveUtilCore
     }
 
     /// <summary>
-    /// 强行应用网络移动数据恢复当前移动状态 不会处理目标位置 不会更改业务状态 仅仅处理移动底层数据
+    /// 强行应用网络移动数据恢复当前移动状态 不会更改业务状态 仅仅处理移动底层数据
+    /// 相当于完全还原后端状态 还会设置当前即时速度 因为场景中的modify都还存在只需要更新下即时速度即可和后端完全同步
     /// </summary>
     /// <param name="entity"></param>
     /// <param name="movement"></param>
