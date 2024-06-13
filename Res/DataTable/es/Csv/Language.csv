@@ -4,6 +4,7 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
 捕捉动物请求异常,6001,畜牧错误码,Excepción en la solicitud de captura de animales
 捕捉动物无效,6002,畜牧错误码,La captura de animales no es válida
+,2010000,,Vacío
 ,10001001,通用, OK
 ,10001002,通用, Cancelar
 ,10001003,通用, Confirmar
@@ -166,11 +167,11 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Cosechar {0}
 ,20090019,任务,Tarea no completada
 ,20090020,任务,Recolectar {0}
-,20090021,任务,
-,20090022,任务,
-,20090023,,
-,20090024,,
-,20090025,,
+,20090021,任务,Hay una tarea en curso
+,20090022,任务,El número de actualizaciones manuales ha alcanzado el límite máximo
+,20090023,,Habla con {0}
+,20090024,,Captura {0}
+,20090025,,Completa el capítulo {0} de {1}
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
@@ -180,8 +181,8 @@ describe-string,id-int,module-string,value-string
 ,20100005,专精,El nivel es máximo
 ,20100006,专精,Falta de EXP {0}
 ,20100007,专精,Falta de fichas
-,20100008,专精,
-,20100009,,
+,20100008,专精,¡Restablecimiento exitoso!
+,20100009,,Los talentos no se pueden mejorar durante el combate en la mazmorra.
 ,20110000,nft 关键字,Restaurar HP
 ,20110001,nft 关键字,Agregar buff
 ,20110002,nft 关键字,Aprender receta
@@ -321,6 +322,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230008,宠物,Mascota de {0}
 ,20230009,宠物,Mascota llamada de vuelta.
 ,20230010,宠物,¡La mascota ha muerto!
+,20230011,,Nivel de mascota insuficiente.
 ,20240001,图腾,Logro alcanzado.
 ,"20240002
 ",,Inversión exitosa
@@ -332,9 +334,9 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Energía insuficiente.
 ,20260002,精力,La energía de [color=#F7CE3D]{0}[/color] no es suficiente.
 ,20270001,排行榜,Sin clasificación.
-,20280001,装备拆解,
-,20290001,背包,
-,20290002,背包,
-,20290003,,
-,20290004,,
-,20290005,,
+,20280001,装备拆解," El equipo no se puede restaurar después de ser desmontado, por favor confirme."
+,20290001,背包, El objeto ha sido eliminado.
+,20290002,背包, El objeto no se puede convertir.
+,20290003,, Todo convertido.
+,20290004,, Este objeto no se puede convertir.
+,20290005,, Objetos ordenados.

@@ -4,6 +4,7 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Lỗi trừ điểm vật phẩm nhà
 捕捉动物请求异常,6001,畜牧错误码,Yêu cầu bắt động vật bị lỗi
 捕捉动物无效,6002,畜牧错误码,Yêu cầu bắt động vật không hợp lệ
+,2010000,,Trống
 ,10001001,通用, Đồng ý
 ,10001002,通用, Hủy bỏ
 ,10001003,通用, Xác nhận
@@ -166,11 +167,11 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Thu hoạch {0}
 ,20090019,任务,Nhiệm vụ chưa hoàn thành
 ,20090020,任务,Thu thập {0}
-,20090021,任务,
-,20090022,任务,
-,20090023,,
-,20090024,,
-,20090025,,
+,20090021,任务,Có một nhiệm vụ đang diễn ra
+,20090022,任务,Số lần làm mới thủ công đã đạt đến giới hạn tối đa
+,20090023,,Nói chuyện với {0}
+,20090024,,Bắt {0}
+,20090025,,Hoàn thành chương {0} trong {1}
 ,"20100000
 ",专精,Chung 
 ,20100001,专精,Nông nghiệp 
@@ -180,8 +181,8 @@ describe-string,id-int,module-string,value-string
 ,20100005,专精,Cấp độ tối đa 
 ,20100006,专精,Thiếu kinh nghiệm {0} 
 ,20100007,专精,Thiếu Token 
-,20100008,专精,
-,20100009,,
+,20100008,专精,Đặt lại thành công!
+,20100009,,Không thể nâng cấp tài năng trong khi chiến đấu ở hang động.
 ,20110000,nft 关键字,Khôi phục HP 
 ,20110001,nft 关键字,Thêm Buff 
 ,20110002,nft 关键字,Học công thức 
@@ -321,6 +322,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20230008,宠物,Thú cưng của {0}
 ,20230009,宠物,Thú cưng đã được triệu hồi.
 ,20230010,宠物,Thú cưng đã chết!
+,20230011,,Cấp độ thú cưng không đủ 
 ,20240001,图腾,Đạt được thành công
 ,"20240002
 ",,Đầu tư thành công
@@ -332,9 +334,9 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20260001,精力,Năng lượng không đủ.
 ,20260002,精力,Năng lượng của [color=#F7CE3D]{0}[/color] không đủ.
 ,20270001,排行榜,Không xếp hạng.
-,20280001,装备拆解,
-,20290001,背包,
-,20290002,背包,
-,20290003,,
-,20290004,,
-,20290005,,
+,20280001,装备拆解,"Trang bị không thể khôi phục sau khi tháo rời, vui lòng xác nhận."
+,20290001,背包,Vật phẩm đã được loại bỏ.
+,20290002,背包,Vật phẩm không thể chuyển đổi.
+,20290003,,Đã chuyển đổi tất cả.
+,20290004,,Vật phẩm này không thể chuyển đổi.
+,20290005,,Vật phẩm đã được sắp xếp.
