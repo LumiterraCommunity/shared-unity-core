@@ -16,10 +16,6 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     public GameObject LogicRoot => RefEntity.EntityRoot;
 
     public Vector3 Position => RefEntity.Position;
-    /// <summary>
-    /// 这里取的是三种专精的最大等级
-    /// </summary>
-    public int Lv => PetUtilCore.GetPetLv(RefEntity.EntityAttributeData);
 
     public int GetActionLevel(eAction action)
     {
