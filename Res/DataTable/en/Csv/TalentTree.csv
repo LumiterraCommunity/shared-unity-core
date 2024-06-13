@@ -176,7 +176,7 @@ TreeProficiency + 5
 OreProficiency + 5
 MaxEnergy + 10
 Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather Mastery  9,90,3,115200,8,8,31
--3,"Unlock LV 1 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,3,"131,131,131",0,"0,0,0",
+-3,Unlock LV 1 Equipment Set Recipes,70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,3,"131,131,131",0,"0,0,0",
 -3,"Unlock LV 2 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Gather Set Recipes,0,3,"262,262,262",0,"0,0,0",33
 -1,,415,0,talentTree-45,45,0,3,1,,0,1,420,0,0,23
 -1,Efficiency Skills - Group Hoe,103,0,talentTree-46,46,0,4,1,Earth Splitter,0,1,840,0,3,45
@@ -203,7 +203,7 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 3,PetHappinessCapacity + 1,231,1,talentTree-74,74,0,1,1,Farm - PetHappinessCapacity ,0,1,95,0,0,
 4,BreedingProficiency + 4,233,1,talentTree-76,76,0,1,1,Farm - BreedingProficiency,0,1,95,0,0,
 -1,Efficiency Skills - Group Hoe,102,0,talentTree-77,77,0,1,1,Earth Splitter,0,1,95,0,0,
--4,"Unlock LV 1 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,1,"95,95,95",0,"0,0,0",
+-4,Unlock LV 1 Equipment Set Recipes,62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,1,"95,95,95",0,"0,0,0",
 -4,"Unlock LV 2 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Farming Set Recipes,0,1,"210,210,210",0,"0,0,0",78
 1,FertilityCapacity + 1,229,1,talentTree-80,80,0,2,1,Farm - Fertility output per unit of land,0,1,210,0,0,22
 2,PlantingProficiency + 4,245,1,talentTree-81,81,0,2,1,Farm - PlantingProficiency ,0,1,210,0,0,73
@@ -218,7 +218,7 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 3,PetHappinessCapacity + 1,244,1,talentTree-92,92,0,3,1,Farm - PetHappinessCapacity ,0,1,420,0,0,82
 1,FertilityCapacity + 1,235,1,talentTree-93,93,0,3,1,Farm - FertilityCapacity ,0,1,420,0,0,80
 -2,Unlock Livestock Essence Recipes Lv 3,157,2,talentTree-94,94,0,3,1,Livestock Essence Recipes,0,1,420,0,3,49
--5,"Unlock LV 1 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,2,"95,95,95",0,"0,0,0",
+-5,Unlock LV 1 Equipment Set Recipes,44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,2,"95,95,95",0,"0,0,0",
 4,Combat MaxHP +20,264,1,talentTree-96,96,0,1,1,Combat - HP,0,2,95,0,0,
 3,Combat DEF +5,258,1,talentTree-97,97,0,1,1,Combat - Defense,0,2,95,0,0,
 2,Combat ATK +5,252,1,talentTree-98,98,0,1,1,Combat - Attack Power,0,2,95,0,0,

@@ -4,6 +4,7 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Anomalie de déduction de l'objet domestique
 捕捉动物请求异常,6001,畜牧错误码,Exception de demande de capture d'animaux
 捕捉动物无效,6002,畜牧错误码,La capture d'animaux est invalide
+,2010000,,Vide
 ,10001001,通用,OK 
 ,10001002,通用,Annuler 
 ,10001003,通用,Confirmer 
@@ -166,11 +167,11 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Récolter {0}
 ,20090019,任务,Tâche non terminée
 ,20090020,任务,Collecter {0}
-,20090021,任务,
-,20090022,任务,
-,20090023,,
-,20090024,,
-,20090025,,
+,20090021,任务,Il y a une tâche en cours
+,20090022,任务,Le nombre de rafraîchissements manuels a atteint la limite supérieure
+,20090023,,Parlez à {0}
+,20090024,,Capturez {0}
+,20090025,,Terminez le chapitre {0} de {1}
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -180,8 +181,8 @@ describe-string,id-int,module-string,value-string
 ,20100005,专精, Niveau maximum
 ,20100006,专精, Manque d'EXP {0}
 ,20100007,专精, Manque de jeton
-,20100008,专精,
-,20100009,,
+,20100008,专精,Réinitialisation réussie !
+,20100009,,Les talents ne peuvent pas être améliorés pendant le combat en donjon.
 ,20110000,nft 关键字, Restaurer les PV
 ,20110001,nft 关键字, Ajouter un buff
 ,20110002,nft 关键字, Apprendre la recette
@@ -321,6 +322,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230008,宠物,Animal de compagnie de {0}
 ,20230009,宠物, Animal de compagnie rappelé.
 ,20230010,宠物, L'animal de compagnie est mort !
+,20230011,,Niveau d'animal de compagnie insuffisant 
 ,20240001,图腾,Succès accompli.
 ,"20240002
 ",,Investissement réussi 
@@ -332,9 +334,9 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Énergie insuffisante.
 ,20260002,精力,L'énergie de [color=#F7CE3D]{0}[/color] est insuffisante.
 ,20270001,排行榜,Non classé.
-,20280001,装备拆解,
-,20290001,背包,
-,20290002,背包,
-,20290003,,
-,20290004,,
-,20290005,,
+,20280001,装备拆解,"L'équipement ne peut pas être restauré après avoir été désassemblé, veuillez confirmer."
+,20290001,背包,L'objet a été supprimé.
+,20290002,背包,L'objet ne peut pas être converti.
+,20290003,,Tout a été converti.
+,20290004,,Cet objet ne peut pas être converti.
+,20290005,,Objets triés.

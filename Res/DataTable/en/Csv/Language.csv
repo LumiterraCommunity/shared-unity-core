@@ -4,6 +4,7 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
 捕捉动物请求异常,6001,畜牧错误码,Capture animals request exception
 捕捉动物无效,6002,畜牧错误码,Capture animals is invalid
+,2010000,,
 ,10001001,通用,OK
 ,10001002,通用,Cancel
 ,10001003,通用,Confirm
@@ -331,6 +332,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230008,宠物,{0}'s Pet
 ,20230009,宠物,Pet recalled.
 ,20230010,宠物,Pet has died!
+,20230011,,Insufficient pet level
 ,20240001,图腾,Achieve success
 ,"20240002
 ",,Investment Successful

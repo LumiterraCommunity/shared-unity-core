@@ -4,6 +4,7 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
 捕捉动物请求异常,6001,畜牧错误码,Permintaan menangkap hewan exception
 捕捉动物无效,6002,畜牧错误码,Menangkap hewan tidak valid
+,2010000,,Kosong
 ,10001001,通用,OK
 ,10001002,通用,Batal
 ,10001003,通用,Konfirmasi
@@ -166,11 +167,11 @@ describe-string,id-int,module-string,value-string
 ,20090018,任务,Panen {0}
 ,20090019,任务,Tugas belum selesai
 ,20090020,任务,Mengumpulkan {0}
-,20090021,任务,
-,20090022,任务,
-,20090023,,
-,20090024,,
-,20090025,,
+,20090021,任务,Ada tugas yang sedang berlangsung
+,20090022,任务,Jumlah pembaruan manual telah mencapai batas atas
+,20090023,,Bicaralah dengan {0}
+,20090024,,Tangkap {0}
+,20090025,,Selesaikan bab {0} dari {1}
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Bertani 
@@ -180,8 +181,8 @@ describe-string,id-int,module-string,value-string
 ,20100005,专精,Level Maksimum 
 ,20100006,专精,Kekurangan EXP {0} 
 ,20100007,专精,Kekurangan Token 
-,20100008,专精,
-,20100009,,
+,20100008,专精,Berhasil direset!
+,20100009,,Bakat tidak dapat ditingkatkan selama pertempuran dungeon.
 ,20110000,nft 关键字,Memulihkan HP 
 ,20110001,nft 关键字,Menambah Buff 
 ,20110002,nft 关键字,Belajar Resep 
@@ -321,6 +322,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20230008,宠物,Hewan Peliharaan {0}
 ,20230009,宠物, Hewan peliharaan dipanggil kembali.
 ,20230010,宠物, Hewan peliharaan telah mati!
+,20230011,,Level hewan peliharaan tidak mencukupi 
 ,20240001,图腾,Berhasil mencapai
 ,"20240002
 ",,Investasi Berhasil
@@ -332,9 +334,9 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20260001,精力,Energi tidak cukup.
 ,20260002,精力,Energi {0} tidak cukup.
 ,20270001,排行榜,Tidak Terdaftar.
-,20280001,装备拆解,
-,20290001,背包,
-,20290002,背包,
-,20290003,,
-,20290004,,
-,20290005,,
+,20280001,装备拆解,"Peralatan tidak dapat dipulihkan setelah dibongkar, harap konfirmasi."
+,20290001,背包,Item telah dihapus.
+,20290002,背包,Item tidak dapat dikonversi.
+,20290003,,Semua dikonversi.
+,20290004,,Item ini tidak dapat dikonversi.
+,20290005,,Item diurutkan.
