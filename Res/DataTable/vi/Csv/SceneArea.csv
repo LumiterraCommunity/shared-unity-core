@@ -32,7 +32,7 @@ canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-i
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường hạng nhẹ
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","659,1","8,24",172,
+",0;0,"0,0","659,1","8,24",172,
 1,21002,0,"5,7",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneLv4-6,2,3,2,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -46,7 +46,7 @@ canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-i
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường hạng trung
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","660,1","8,24",173,
+",0;0,"0,0","660,1","8,24",173,
 1,21003,0,"8,9",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneLv7-9,2,3,2,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -60,7 +60,7 @@ canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-i
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường hạng cao
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","661,1","8,24",174,
+",0;0,"0,0","661,1","8,24",174,
 1,22001,0,"2,4",DungeonSceneLoading_7_9.jpg,,1,5,PVPDungeonSceneSoloLv1-3,2,3,2,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -74,7 +74,7 @@ canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-i
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường đơn hạng nhẹ
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","659,1","3,24",172,
+",0;0,"0,0","659,1","3,24",172,
 1,22002,0,"5,7",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneSoloLv4-6,2,3,2,"1,2","0,10000","37,39,38",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -88,7 +88,7 @@ canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-i
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định. 
 ","Đấu trường đơn hạng trung
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
-",0;0,"120,180;360,420","660,1","3,24",173,
+",0;0,"0,0","660,1","3,24",173,
 1,22003,0,"8,9",PVPDungeonSceneLoading_4_6.jpg,,1,5,PVPDungeonSceneSoloLv7-9,2,3,2,"1,2","0,10000","61,71,66",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **LUAUSD** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -100,11 +100,11 @@ canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-i
   - **Cổng Thách thức**: Dành cho những người dũng cảm, cổng này dẫn đến cấp độ phiêu lưu tiếp theo.
   - **Cổng Thoát**: Thoát khỏi hang động và từ bỏ bất kỳ phần thưởng chưa được giải quyết **LUAUSD**.
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **LUAUSD** theo tỷ lệ nhất định.","Đấu trường đơn hạng cao
-","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"120,180;360,420","661,1","3,24",174,
+","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"0,0","661,1","3,24",174,
 0,30001,0,"1,9",DungeonSceneLoading_1_3.jpg,,0,1,DailyDungeon,1,3,2,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","60,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9", Thử thách hàng ngày, Thử thách hàng ngày,"Không bị phạt tử hình
 ",0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
 0,30002,0,"1,9",PVPDungeonSceneLoading_4_6.jpg,,1,1,PVPTrainingDungeon,2,3,2,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","Địa điểm Huấn luyện PVEP - Hỗ trợ trận đấu 12-24 người chơi, khi chết sẽ không có bất kỳ mục rơi, vé từ nhiệm vụ hàng ngày.",Sân tập,"Không bị phạt tử hình
-",0;0,"60,120;300,360","733,1","12,24",,
+",0;0,"0,0","733,1","12,24",,
 0,40001,1,"1,4",HomeSceneLoading.jpg,,0,5,GatherDungeon1-3,1,3,3,1,"10000,20000,30000","123,122,121",2,"159,160,161","22,18,19;18,19;18,19","178,179,180","24,48,96","0,0;0,0;0,0","450,450,450","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
 Trong Thử thách Thu thập, sự phòng thủ của Nguồn tài nguyên sẽ được tăng cường. Tương ứng, người chơi sẽ nhận được buff biến đổi trình độ thu thập thành tấn công thu thập.
 ",Thử thách Thu thập,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
