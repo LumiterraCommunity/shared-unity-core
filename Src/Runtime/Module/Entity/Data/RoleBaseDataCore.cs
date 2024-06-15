@@ -50,6 +50,11 @@ public class RoleBaseDataCore : EntityBaseComponent
     /// </summary>
     public int PatrolRadius { get; protected set; }
 
+    /// <summary>
+    /// 地图ID
+    /// </summary>
+    public int MapId { get; protected set; }
+
     public void SetName(string name)
     {
         Name = name;
@@ -99,5 +104,10 @@ public class RoleBaseDataCore : EntityBaseComponent
     public void SetPatrolRadius(int patrolRadius)
     {
         PatrolRadius = patrolRadius;
+    }
+
+    public void SetMapId(int mapId)
+    {
+        MapId = mapId;
     }
 }
