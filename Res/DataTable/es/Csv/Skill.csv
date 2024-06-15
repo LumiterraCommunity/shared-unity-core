@@ -176,7 +176,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,1,0,0,"15,238",190,1000,181,1,1,0,1,0,0,0,1,attackArea,Skill_Cactus_atkar,Catus_Attack,,1500,1,0,Soldado cuerpo a cuerpo de fruta de dragón. ,150,2,0,Poción de golpe crítico menor,"2,200,0",,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,15,"191,217",667,182,1,1,0,1,0,0,0,0,attack,,Skill_Bee_attack,,1000,1,0,Armadura súper abeja. ,450,2,0,Poción de salud menor,"4,300,200,12000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,"227,386",193,667,183,1,1,0,1,0,0,0,0,attack,,,,1000,1,0,Ataque de Acechador de Hojas. ,180,2,0,Poción de defensa menor,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
-0,0,0,,0,"227,386",192,600,184,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,0,Ataque de Mine Cat. ,180,2,0,poción de ataque,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
+0,0,0,,0,"227,15",192,600,184,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,0,Ataque de Mine Cat. ,180,2,0,poción de ataque,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,,,,185,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Aumenta la velocidad de movimiento en 80 puntos, dura 60 segundos. ",,2,0,Poción de velocidad,,,1,0,,,1000,194,,,,,,,,,,,,
 0,0,0,,0,,,,186,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Aumenta la tasa de golpe crítico en un 3%, dura 60s. ",,2,0,Poción de golpe crítico,,,1,0,,,1000,195,,,,,,,,,,,,
 0,0,0,,0,,,,187,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Aumenta el límite de HP en 80 puntos, dura 60 segundos. ",,2,0,poción de vida,,,1,0,,,1000,"196,211",,,,,,,,,,,,

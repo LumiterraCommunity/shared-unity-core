@@ -620,9 +620,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 1," Générer aléatoirement un billet d'admission pour un donjon PVE :Billet d'admission pour Flower Peak - 95,5%Billet d'admission pour Floating Realm - 3,5%Billet d'admission pour Ancient Domain - 1%",2,recipe-icon-912,912,1,"738,30",Recette de billet d'admission de niveau 2,"468,1,1,9550;467,1,1,350;658,1,1,100",4,0,50900912,1,10,-,2,1,1,0,1
 4, Générer aléatoirement un billet d'admission pour un donjon PVE :Billet d'admission pour Flower Peak - 11%Billet d'admission pour Floating Realm - 88%Billet d'admission pour Ancient Domain - 1%,2,recipe-icon-913,913,4,"741,5",Recette de billet d'admission de niveau 3,"468,1,1,1100;467,1,1,8800;658,1,1,100",4,0,50600913,1,10,-,2,1,1,0,3
 7, Générer aléatoirement un billet d'admission pour un donjon PVEP :Billet d'admission pour l'arène junior - 1%Billet d'admission pour l'arène intermédiaire - 11%Billet d'admission pour l'arène avancée - 88%,2,recipe-icon-915,915,7,"744,2",Recette de billet d'admission de niveau 5,"468,1,1,100;467,1,1,1100;658,1,1,8800",4,0,50300915,1,10,-,2,1,1,0,10
-1," Générer aléatoirement un billet d'admission pour un donjon PVEP :Billet d'admission pour l'arène junior - 95,5%Billet d'admission pour l'arène intermédiaire - 3,5%Billet d'admission pour l'arène avancée - 1%",2,recipe-icon-916,916,1,"738,30",Recette de billet d'admission de niveau 6,"659,1,1,9550;660,1,1,350;661,1,1,100",4,0,50900916,1,10,-,2,1,1,0,18
-4, Générer aléatoirement un billet d'admission pour un donjon PVEP :Billet d'admission pour l'arène junior - 11%Billet d'admission pour l'arène intermédiaire - 88%Billet d'admission pour l'arène avancée - 1%,2,recipe-icon-918,918,4,"741,5",Recette de billet d'admission de niveau 8,"659,1,1,1100;660,1,1,8800;661,1,1,100",4,0,50600918,1,10,-,2,1,1,0,56
-7, Générer aléatoirement un billet d'admission pour un donjon PVE :Billet d'admission pour Flower Peak - 1%Billet d'admission pour Floating Realm - 11%Billet d'admission pour Ancient Domain - 88%,2,recipe-icon-919,919,7,"744,2",Recette de billet d'admission de niveau 9,"659,1,1,100;660,1,1,1100;661,1,1,8800",4,0,50300919,1,10,-,2,1,1,0,139
+1," Générer aléatoirement un billet d'admission pour un donjon PVEP :Billet d'admission pour l'arène junior - 95,5%Billet d'admission pour l'arène intermédiaire - 3,5%Billet d'admission pour l'arène avancée - 1%",2,recipe-icon-916,916,1,"738,30",Recette de billet d'admission de niveau 6,"659,1,1,9550;660,1,1,350;661,1,1,100",4,0,50900916,1,5,-,2,1,1,0,6
+4, Générer aléatoirement un billet d'admission pour un donjon PVEP :Billet d'admission pour l'arène junior - 11%Billet d'admission pour l'arène intermédiaire - 88%Billet d'admission pour l'arène avancée - 1%,2,recipe-icon-918,918,4,"741,5",Recette de billet d'admission de niveau 8,"659,1,1,1100;660,1,1,8800;661,1,1,100",4,0,50600918,1,5,-,2,1,1,0,18
+7, Générer aléatoirement un billet d'admission pour un donjon PVE :Billet d'admission pour Flower Peak - 1%Billet d'admission pour Floating Realm - 11%Billet d'admission pour Ancient Domain - 88%,2,recipe-icon-919,919,7,"744,2",Recette de billet d'admission de niveau 9,"659,1,1,100;660,1,1,1100;661,1,1,8800",4,0,50300919,1,5,-,2,1,1,0,46
 0,Recette d'aliment de niveau 3,2,recipe-icon-920,920,3,"484,1",Recette d'aliment de niveau 3,"702,1,1,10000",3,0,40700920,1,10,-,1,0,4,0,0
 0,Recette d'aliment de niveau 4,2,recipe-icon-921,921,4,"485,1",Recette d'aliment de niveau 4,"703,1,1,10000",3,0,40600921,1,10,-,1,0,4,0,0
 0,Recette d'aliment de niveau 5,2,recipe-icon-922,922,5,"486,1",Recette d'aliment de niveau 5,"704,1,1,10000",3,0,40500922,1,10,-,1,0,4,0,0
@@ -630,10 +630,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Recette d'aliment de niveau 7,2,recipe-icon-924,924,7,"488,1",Recette d'aliment de niveau 7,"706,1,1,10000",3,0,40300924,1,10,-,1,0,4,0,0
 0,Recette d'alimentation de niveau 8,2,recipe-icon-925,925,8,"489,1",Recette d'aliment de niveau 8,"707,1,1,10000",3,0,40200925,1,10,-,1,0,4,0,0
 0,Recette d'alimentation de niveau 9,2,recipe-icon-926,926,9,"490,1",Recette d'aliment de niveau 9,"708,1,1,10000",3,0,40100926,1,10,-,1,0,4,0,0
-0, Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-927,927,1,"718,8",Échange de LUAG (1) à LUAG (100),"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900927,1,3,50,0,1,1,0,14
-0,Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-928,928,1,"727,8",LUAG(100) Échange,"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900928,1,3,200,0,1,1,0,14
-0, Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-929,929,1,"728,8",Échange de LUAG (1) à LUAG (100),"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900929,1,3,100,0,1,1,0,14
-0, Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-930,930,1,"729,8",Échange de LUAG (1) à LUAG (100),"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900930,1,3,100,0,1,1,0,14
+0, Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-927,927,1,"718,8",Échange de LUAG (1) à LUAG (100),"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900927,1,3,5,0,1,1,0,14
+0,Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-928,928,1,"727,8",LUAG(100) Échange,"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900928,1,3,5,0,1,1,0,14
+0, Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-929,929,1,"728,8",Échange de LUAG (1) à LUAG (100),"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900929,1,3,0,0,1,1,0,14
+0, Vous pouvez recevoir les récompenses suivantes :1000 LUAG 5%600 LUAG 15%400 LUAG 30%300 LUAG 50%,2,recipe-icon-930,930,1,"729,8",Échange de LUAG (1) à LUAG (100),"478,1,10,500;478,1,6,1500;478,1,4,3000;478,1,3,5000",4,0,50900930,1,3,0,0,1,1,0,14
 0,,2,recipe-icon-931,931,1,"756,100",Recette d'amélioration,"119,1,1,10000",1,0,10900931,1,10,-,3,0,4,0,0
 0,,2,recipe-icon-932,932,1,"756,100",Recette d'amélioration,"92,1,1,10000",1,0,10900932,1,10,-,3,0,4,0,0
 0,,2,recipe-icon-933,933,1,"747,100",Recette d'amélioration,"84,1,1,10000",1,0,10900933,1,10,-,1,0,4,0,0
@@ -850,30 +850,30 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,2,recipe-icon-1144,1144,9,"755,100",Recette d'amélioration,"596,2,1,4426;596,3,1,2950;596,4,1,1967;596,5,1,655",1,0,50101144,1,10,-,1,0,4,0,35
 0,,2,recipe-icon-1145,1145,9,"755,100",Recette d'amélioration,"597,2,1,4426;597,3,1,2950;597,4,1,1967;597,5,1,655",1,0,50101145,1,10,-,1,0,4,0,35
 0,,2,recipe-icon-1146,1146,9,"755,100",Recette d'amélioration,"598,2,1,4426;598,3,1,2950;598,4,1,1967;598,5,1,655",1,0,50101146,1,10,-,1,0,4,0,35
-1,,2,recipe-icon-1147,1147,1,"738,80;483,1", Recette de mise à niveau de fragment de combat de niveau 1,"739,1,40,10000",4,0,30901147,1,10,-,2,1,1,0,0
-2,,2,recipe-icon-1148,1148,2,"739,80;484,1", Recette de mise à niveau de fragment de combat de niveau 2,"740,1,40,10000",4,0,30801148,1,10,-,2,1,1,0,0
-3,,2,recipe-icon-1149,1149,3,"740,80;485,1", Recette de mise à niveau de fragment de combat de niveau 3,"741,1,40,10000",4,0,30701149,1,10,-,2,1,1,0,0
-4,,2,recipe-icon-1150,1150,4,"741,80;486,1", Recette de mise à niveau de fragment de combat de niveau 4,"742,1,40,10000",4,0,30601150,1,10,-,2,1,1,0,0
-5,,2,recipe-icon-1151,1151,5,"742,80;487,1", Recette de mise à niveau de fragment de combat de niveau 5,"743,1,40,10000",4,0,30501151,1,10,-,2,1,1,0,0
-6,,2,recipe-icon-1152,1152,6,"743,80;488,1", Recette de mise à niveau de fragment de combat de niveau 6,"744,1,40,10000",4,0,30401152,1,10,-,2,1,1,0,0
-7,,2,recipe-icon-1153,1153,7,"744,80;489,1", Recette de mise à niveau de fragment de combat de niveau 7,"745,1,40,10000",4,0,30301153,1,10,-,2,1,1,0,0
-8,,2,recipe-icon-1154,1154,8,"745,80;490,1", Recette de mise à niveau de fragment de combat de niveau 8,"746,1,40,10000",4,0,30201154,1,10,-,2,1,1,0,0
-1,,2,recipe-icon-1155,1155,1,"747,80;483,1", Recette de mise à niveau de fragment d'agriculture de niveau 1,"748,1,40,10000",4,0,30901155,1,10,-,3,1,1,0,0
-2,,2,recipe-icon-1156,1156,2,"748,80;484,1", Recette de mise à niveau de fragment d'agriculture de niveau 2,"749,1,40,10000",4,0,30801156,1,10,-,3,1,1,0,0
-3,,2,recipe-icon-1157,1157,3,"749,80;485,1", Recette de mise à niveau de fragment d'agriculture de niveau 3,"750,1,40,10000",4,0,30701157,1,10,-,3,1,1,0,0
-4,,2,recipe-icon-1158,1158,4,"750,80;486,1", Recette de mise à niveau de fragment d'agriculture de niveau 4,"751,1,40,10000",4,0,30601158,1,10,-,3,1,1,0,0
-5,,2,recipe-icon-1159,1159,5,"751,80;487,1", Recette de mise à niveau de fragment d'agriculture de niveau 5,"752,1,40,10000",4,0,30501159,1,10,-,3,1,1,0,0
-6,,2,recipe-icon-1160,1160,6,"752,80;488,1", Recette de mise à niveau de fragment d'agriculture de niveau 6,"753,1,40,10000",4,0,30401160,1,10,-,3,1,1,0,0
-7,,2,recipe-icon-1161,1161,7,"753,80;489,1", Recette de mise à niveau de fragment d'agriculture de niveau 7,"754,1,40,10000",4,0,30301161,1,10,-,3,1,1,0,0
-8,,2,recipe-icon-1162,1162,8,"754,80;490,1", Recette de mise à niveau de fragment d'agriculture de niveau 8,"755,1,40,10000",4,0,30201162,1,10,-,3,1,1,0,0
-1,,2,recipe-icon-1163,1163,1,"756,80;483,1", Recette de mise à niveau de fragment de collecte de niveau 1,"757,1,40,10000",4,0,30901163,1,10,-,1,1,1,0,0
-2,,2,recipe-icon-1164,1164,2,"757,80;484,1", Recette de mise à niveau de fragment de collecte de niveau 2,"758,1,40,10000",4,0,30801164,1,10,-,1,1,1,0,0
-3,,2,recipe-icon-1165,1165,3,"758,80;485,1", Recette de mise à niveau de fragment de collecte de niveau 3,"759,1,40,10000",4,0,30701165,1,10,-,1,1,1,0,0
-4,,2,recipe-icon-1166,1166,4,"759,80;486,1", Recette de mise à niveau de fragment de collecte de niveau 4,"760,1,40,10000",4,0,30601166,1,10,-,1,1,1,0,0
-5,,2,recipe-icon-1167,1167,5,"760,80;487,1", Recette de mise à niveau de fragment de collecte de niveau 5,"761,1,40,10000",4,0,30501167,1,10,-,1,1,1,0,0
-6,,2,recipe-icon-1168,1168,6,"761,80;488,1", Recette de mise à niveau de fragment de collecte de niveau 6,"762,1,40,10000",4,0,30401168,1,10,-,1,1,1,0,0
-7,,2,recipe-icon-1169,1169,7,"762,80;489,1", Recette de mise à niveau de fragment de collecte de niveau 7,"763,1,40,10000",4,0,30301169,1,10,-,1,1,1,0,0
-8,,2,recipe-icon-1170,1170,8,"763,80;490,1", Recette de mise à niveau de fragment de collecte de niveau 8,"764,1,40,10000",4,0,30201170,1,10,-,1,1,1,0,0
+1,,2,recipe-icon-1147,1147,1,"738,80;483,1", Recette de mise à niveau de fragment de combat de niveau 2,"739,1,40,10000",4,0,30901147,1,10,-,2,1,1,0,0
+2,,2,recipe-icon-1148,1148,2,"739,80;484,1", Recette de mise à niveau de fragment de combat de niveau 3,"740,1,40,10000",4,0,30801148,1,10,-,2,1,1,0,0
+3,,2,recipe-icon-1149,1149,3,"740,80;485,1", Recette de mise à niveau de fragment de combat de niveau 4,"741,1,40,10000",4,0,30701149,1,10,-,2,1,1,0,0
+4,,2,recipe-icon-1150,1150,4,"741,80;486,1", Recette de mise à niveau de fragment de combat de niveau 5,"742,1,40,10000",4,0,30601150,1,10,-,2,1,1,0,0
+5,,2,recipe-icon-1151,1151,5,"742,80;487,1", Recette de mise à niveau de fragment de combat de niveau 6,"743,1,40,10000",4,0,30501151,1,10,-,2,1,1,0,0
+6,,2,recipe-icon-1152,1152,6,"743,80;488,1", Recette de mise à niveau de fragment de combat de niveau 7,"744,1,40,10000",4,0,30401152,1,10,-,2,1,1,0,0
+7,,2,recipe-icon-1153,1153,7,"744,80;489,1", Recette de mise à niveau de fragment de combat de niveau 8,"745,1,40,10000",4,0,30301153,1,10,-,2,1,1,0,0
+8,,2,recipe-icon-1154,1154,8,"745,80;490,1", Recette de mise à niveau de fragment de combat de niveau 9,"746,1,40,10000",4,0,30201154,1,10,-,2,1,1,0,0
+1,,2,recipe-icon-1155,1155,1,"747,80;483,1", Recette de mise à niveau de fragment d'agriculture de niveau 2,"748,1,40,10000",4,0,30901155,1,10,-,3,1,1,0,0
+2,,2,recipe-icon-1156,1156,2,"748,80;484,1", Recette de mise à niveau de fragment d'agriculture de niveau 3,"749,1,40,10000",4,0,30801156,1,10,-,3,1,1,0,0
+3,,2,recipe-icon-1157,1157,3,"749,80;485,1", Recette de mise à niveau de fragment d'agriculture de niveau 4,"750,1,40,10000",4,0,30701157,1,10,-,3,1,1,0,0
+4,,2,recipe-icon-1158,1158,4,"750,80;486,1", Recette de mise à niveau de fragment d'agriculture de niveau 5,"751,1,40,10000",4,0,30601158,1,10,-,3,1,1,0,0
+5,,2,recipe-icon-1159,1159,5,"751,80;487,1", Recette de mise à niveau de fragment d'agriculture de niveau 6,"752,1,40,10000",4,0,30501159,1,10,-,3,1,1,0,0
+6,,2,recipe-icon-1160,1160,6,"752,80;488,1", Recette de mise à niveau de fragment d'agriculture de niveau 7,"753,1,40,10000",4,0,30401160,1,10,-,3,1,1,0,0
+7,,2,recipe-icon-1161,1161,7,"753,80;489,1", Recette de mise à niveau de fragment d'agriculture de niveau 8,"754,1,40,10000",4,0,30301161,1,10,-,3,1,1,0,0
+8,,2,recipe-icon-1162,1162,8,"754,80;490,1", Recette de mise à niveau de fragment d'agriculture de niveau 9,"755,1,40,10000",4,0,30201162,1,10,-,3,1,1,0,0
+1,,2,recipe-icon-1163,1163,1,"756,80;483,1", Recette de mise à niveau de fragment de collecte de niveau 2,"757,1,40,10000",4,0,30901163,1,10,-,1,1,1,0,0
+2,,2,recipe-icon-1164,1164,2,"757,80;484,1", Recette de mise à niveau de fragment de collecte de niveau 3,"758,1,40,10000",4,0,30801164,1,10,-,1,1,1,0,0
+3,,2,recipe-icon-1165,1165,3,"758,80;485,1", Recette de mise à niveau de fragment de collecte de niveau 4,"759,1,40,10000",4,0,30701165,1,10,-,1,1,1,0,0
+4,,2,recipe-icon-1166,1166,4,"759,80;486,1", Recette de mise à niveau de fragment de collecte de niveau 5,"760,1,40,10000",4,0,30601166,1,10,-,1,1,1,0,0
+5,,2,recipe-icon-1167,1167,5,"760,80;487,1", Recette de mise à niveau de fragment de collecte de niveau 6,"761,1,40,10000",4,0,30501167,1,10,-,1,1,1,0,0
+6,,2,recipe-icon-1168,1168,6,"761,80;488,1", Recette de mise à niveau de fragment de collecte de niveau 7,"762,1,40,10000",4,0,30401168,1,10,-,1,1,1,0,0
+7,,2,recipe-icon-1169,1169,7,"762,80;489,1", Recette de mise à niveau de fragment de collecte de niveau 8,"763,1,40,10000",4,0,30301169,1,10,-,1,1,1,0,0
+8,,2,recipe-icon-1170,1170,8,"763,80;490,1", Recette de mise à niveau de fragment de collecte de niveau 9,"764,1,40,10000",4,0,30201170,1,10,-,1,1,1,0,0
 2,,2,recipe-icon-1171,1171,2,"739,6",Recette de billet PVE de niveau 2,"468,1,1,9550;467,1,1,350;658,1,1,100",4,0,50801171,1,10,-,2,1,1,0,1
 3,,2,recipe-icon-1172,1172,3,"740,2",Recette de billet PVE de niveau 3,"468,1,1,9550;467,1,1,350;658,1,1,100",4,0,50701172,1,10,-,2,1,1,0,1
 5,,2,recipe-icon-1173,1173,5,"742,2",Recette de billet PVE de niveau 5,"468,1,1,1100;467,1,1,8800;658,1,1,100",4,0,50501173,1,10,-,2,1,1,0,3
