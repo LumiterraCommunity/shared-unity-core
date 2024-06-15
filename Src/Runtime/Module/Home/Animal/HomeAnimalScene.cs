@@ -33,7 +33,10 @@ public class HomeAnimalScene : MonoBehaviour
         AnimalSceneConfig sceneConfig = homeSceneConfigGo == null ? null : homeSceneConfigGo.GetComponent<AnimalSceneConfig>();
         if (sceneConfig == null)
         {
-            Log.Error("场景中没有AnimalSceneConfig");
+            if (HomeModuleCore.IsInited && HomeModuleCore.HomeData.IsPersonalHome)//副本家园暂时没有动物配置 将来也许有 先不报错
+            {
+                Log.Error("场景中没有AnimalSceneConfig");
+            }
             return;
         }
 
