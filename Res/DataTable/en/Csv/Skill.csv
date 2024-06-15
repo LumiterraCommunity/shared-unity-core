@@ -167,7 +167,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,1,0,0,"15,238",190,1000,181,1,1,0,1,0,0,0,1,attackArea,Skill_Cactus_atkar,Catus_Attack,,1500,1,0,Dragon fruit soldier melee.,150,2,0,Dragon Fruit Soldier Dominates,"2,200,0",,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,15,"191,217",667,182,1,1,0,1,0,0,0,0,attack,,Skill_Bee_attack,,1000,1,0,Bee Super Armor.,450,2,0,Buzz Buddy Hyper Armor,"4,300,200,12000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,"227,386",193,667,183,1,1,0,1,0,0,0,0,attack,,,,1000,1,0,Leafy Lurker attack.,180,2,0,叶子怪攻击,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
-0,0,0,,0,"227,386",192,600,184,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,0,Mine Cat attack.,180,2,0,矿石猫攻击,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
+0,0,0,,0,"227,15",192,600,184,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,0,Mine Cat attack.,180,2,0,矿石猫攻击,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,
 0,0,0,,0,,,,185,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Increase move speed by 80 points, lasts 60 seconds.",,2,0,Secondary Speed Potion,,,1,0,,,1000,194,,,,,,,,,,,,
 0,0,0,,0,,,,186,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Increase 3% critical rate, last 60s.",,2,0,Secondary Crit Potion,,,1,0,,,1000,195,,,,,,,,,,,,
 0,0,0,,0,,,,187,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Increase HP limit by 80 points, lasts 60 seconds.",,2,0,Secondary Life Potion,,,1,0,,,1000,"196,211",,,,,,,,,,,,
