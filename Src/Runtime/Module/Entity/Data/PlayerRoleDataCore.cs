@@ -63,6 +63,10 @@ public class PlayerRoleDataCore : EntityBaseComponent
     /// 角色盲盒质押等级，0~4级，0为未质押
     /// </summary>
     public int BoxStakeLv { get; protected set; } = 0;
+    /// <summary>
+    /// 地图ID
+    /// </summary>
+    public int MapId { get; protected set; }
 
     public void SetGender(string gender)
     {
@@ -143,5 +147,10 @@ public class PlayerRoleDataCore : EntityBaseComponent
     public void SetBoxStakeLv(int lv)
     {
         BoxStakeLv = lv;
+    }
+
+    public void SetMapId(int mapId)
+    {
+        MapId = mapId;
     }
 }
