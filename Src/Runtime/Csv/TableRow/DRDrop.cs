@@ -37,8 +37,8 @@ public class DRDrop : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        DropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        DropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -50,8 +50,8 @@ public class DRDrop : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                DropList = binaryReader.ReadArrayList<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
+                DropList = binaryReader.ReadArrayList<Int32>();
             }
         }
 

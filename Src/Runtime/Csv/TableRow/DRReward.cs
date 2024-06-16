@@ -24,15 +24,6 @@ public class DRReward : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取rewardList-int[][]。*/
-    /// </summary>
-    public int[][] RewardList
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取rewardTimes-int[][]。*/
     /// </summary>
     public int[][] RewardTimes
@@ -50,15 +41,24 @@ public class DRReward : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取rewardList-int[][]。*/
+    /// </summary>
+    public int[][] RewardList
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
         _id = int.Parse(columnStrings[index++]);
-        RewardList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         RewardTimes = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         RewardType = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        RewardList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -71,9 +71,9 @@ public class DRReward : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 _id = binaryReader.Read7BitEncodedInt32();
-                RewardList = binaryReader.ReadArrayList<Int32>();
                 RewardTimes = binaryReader.ReadArrayList<Int32>();
                 RewardType = binaryReader.Read7BitEncodedInt32();
+                RewardList = binaryReader.ReadArrayList<Int32>();
             }
         }
 
