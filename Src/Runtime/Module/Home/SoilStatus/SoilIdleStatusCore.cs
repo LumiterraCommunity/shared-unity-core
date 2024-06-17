@@ -58,8 +58,7 @@ public class SoilIdleStatusCore : SoilStatusCore
             int soilFertile = (int)actionData;
             if (soilFertile <= 0)
             {
-                Log.Error($"not should less equal zero from idle to loose status,fertile:{soilFertile}");
-                return;
+                throw new System.Exception($"not should less equal zero from idle to loose status,fertile:{soilFertile}");
             }
 
             SoilData.SetSoilFertile(soilFertile);
@@ -69,6 +68,7 @@ public class SoilIdleStatusCore : SoilStatusCore
         catch (System.Exception e)
         {
             Log.Error($"锄地失败 actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
+            throw e;
         }
     }
 }

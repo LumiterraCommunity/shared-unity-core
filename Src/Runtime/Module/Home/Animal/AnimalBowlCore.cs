@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
@@ -67,8 +68,7 @@ public class AnimalBowlCore : MonoBehaviour, ICollectResourceCore
         DRAnimalFood drAnimalFood = GFEntryCore.DataTable.GetDataTable<DRAnimalFood>().GetDataRow(toolCid);
         if (drAnimalFood == null)
         {
-            Log.Error($"食盆执行动作时食物配置表里没有找到cid为 {toolCid} 的食物");
-            return;
+            throw new Exception($"食盆执行动作时食物配置表里没有找到cid为 {toolCid} 的食物");
         }
 
         Data.UpdateFood(toolCid, drAnimalFood.Capacity);

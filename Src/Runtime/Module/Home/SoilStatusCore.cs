@@ -38,7 +38,7 @@ public abstract class SoilStatusCore : ComponentStatusCore<SoilStatusCtrl>
     /// <value></value>
     public abstract eAction SupportAction { get; }
     /// <summary>
-    /// 设置支持动作时必选 子类实现具体的动作逻辑 如果不支持该动作则不会触发该事件
+    /// 设置支持动作时必选 子类实现具体的动作逻辑 如果不支持该动作则不会触发该事件 内部异常时需要抛出错误
     /// </summary>
     /// <param name="action">当前执行的动作</param>
     /// <param name="actionData">动作数据 比如播种的种子cid</param>
@@ -152,8 +152,7 @@ public abstract class SoilStatusCore : ComponentStatusCore<SoilStatusCtrl>
     {
         if (!CheckSupportAction(action))
         {
-            Log.Error("当前状态不支持该动作，不应该触发该事件");
-            return;
+            throw new System.Exception("当前状态不支持该动作，不应该触发该事件");
         }
 
         OnExecuteHomeAction(action, actionData);

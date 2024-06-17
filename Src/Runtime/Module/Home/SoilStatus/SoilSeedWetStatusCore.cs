@@ -47,6 +47,7 @@ public class SoilSeedWetStatusCore : SoilGrowingWetStatusCore
             catch (System.Exception e)
             {
                 Log.Error($"播种湿润时施肥失败 actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
+                throw e;
             }
         }
     }
