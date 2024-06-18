@@ -292,6 +292,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
             catch (System.Exception e)
             {
                 Log.Error($"安抚动物异常 actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
+                throw e;
             }
         }
         else if (action == HarvestAction)//收获 能执行的都是手动收货的
@@ -356,8 +357,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     {
         if (PetData.PetCfg.AutoHarvest)
         {
-            Log.Error($"动物配置表错误 自动收获的动物不能手动收获 cid:{PetData.PetCfgId}");
-            return;
+            throw new Exception($"动物配置表错误 自动收获的动物不能手动收获 cid:{PetData.PetCfgId}");
         }
 
         Data.ClearDataAfterHarvest();

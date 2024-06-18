@@ -49,6 +49,7 @@ public class SoilLooseStatusCore : SoilStatusCore
         catch (System.Exception e)
         {
             Log.Error($"松土上动作错误 action:{action} actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
+            throw e;
         }
     }
 }

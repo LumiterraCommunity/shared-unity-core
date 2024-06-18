@@ -123,6 +123,7 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
             catch (System.Exception e)
             {
                 Log.Error($"种子干涸时浇水有错误 actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
+                throw e;
             }
 
             ChangeState(eSoilStatus.SeedWet);
@@ -142,6 +143,7 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
             catch (System.Exception e)
             {
                 Log.Error($"播种干涸时施肥失败 actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
+                throw e;
             }
         }
     }

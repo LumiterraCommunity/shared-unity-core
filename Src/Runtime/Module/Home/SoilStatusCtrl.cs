@@ -36,13 +36,22 @@ public class SoilStatusCtrl : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (Fsm != null)
-        {
-            _ = GetFsmManager().DestroyFsm(Fsm);
-            Fsm = null;
-        }
+        ClearFsm();
         _soilEvent = null;
     }
+
+    private void ClearFsm()
+    {
+        if (Fsm == null)
+        {
+            return;
+        }
+
+        _ = GetFsmManager().DestroyFsm(Fsm);
+        Fsm = null;
+    }
+
+
 
     /// <summary>
     /// 初始化状态机 需要给定固定的状态实例
@@ -50,6 +59,11 @@ public class SoilStatusCtrl : MonoBehaviour
     /// <param name="states"></param>
     public void InitFsm(params FsmState<SoilStatusCtrl>[] states)
     {
+        if (Fsm != null)
+        {
+            ClearFsm();
+        }
+
         Fsm = GetFsmManager().CreateFsm(GetHashCode().ToString(), this, states);
     }
 

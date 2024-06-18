@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -116,6 +115,8 @@ public class SoilData : MonoBehaviour
     /// <param name="saveData"></param>
     internal void SetSaveData(SoilSaveData saveData)
     {
+        ClearSeedData();
+
         _saveData = saveData;
 
         if (saveData.SeedData.SeedCid > 0)

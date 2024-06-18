@@ -148,8 +148,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     {
         if (!CheckPlayerAction(playerId, action))
         {
-            Log.Error($"家园采集资源 action {action} not support,isDead:{IsDead}");
-            return;
+            throw new SystemException($"家园采集资源 action {action} not support,isDead:{IsDead}");
         }
 
         OnExecuteAction(action, playerId, entityId, skillId);

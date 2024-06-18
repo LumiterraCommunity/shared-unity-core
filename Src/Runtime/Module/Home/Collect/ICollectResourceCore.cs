@@ -41,7 +41,7 @@ public interface ICollectResourceCore
     /// <value></value>
     eAction SupportAction { get; }
     /// <summary>
-    /// 执行动作
+    /// 执行动作 正常都要成功的 如果异常会抛出异常 业务层应该关注抛出的异常 代表失败 实现接口时如果有异常需要抛出
     /// </summary>
     /// <param name="action"></param>
     /// <param name="toolCid">工具id 可能是种子 肥料 装备</param>
