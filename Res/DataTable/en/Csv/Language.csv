@@ -103,6 +103,7 @@ The higher the level of crafting the item, the more the increased proficiency."
 ,20010008,被T提示,Clans rank too low.
 道具不足,20020001,家园相关,Lack of item
 ,20020002,家园相关,There was nothing in the storage box!
+,20020003,家园相关,Home data anomaly has been restored
 ,20030001,保存技能配置,Save successfully
 超过上限提示,20040001,畜牧,"You can have up to [color=#e08638]{0} sprites[/color]
 
@@ -179,6 +180,7 @@ Sprite due to insufficient space"
 ,20090023,,Talk to {0}
 ,20090024,,Capture {0} 
 ,20090025,,Complete the chapter {0} of {1} 
+,20090026,,You receive a token task
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming

@@ -99,6 +99,7 @@ describe-string,id-int,module-string,value-string
 ,20010008,被T提示,Peringkat klan terlalu rendah
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tidak ada apa-apa di dalam kotak penyimpanan!
+,20020003,家园相关,Anomali data rumah telah dipulihkan
 ,20030001,保存技能配置,Berhasil disimpan
 超过上限提示,20040001,畜牧,{0} sprite[/color]Silakan pilih untuk meninggalkan Sprite ini atau menggantinya dengan Sprite lainkarena ruang tidak mencukupi
 超过上限提示标题,20040002,畜牧,HEWAN PENUH
@@ -172,6 +173,7 @@ describe-string,id-int,module-string,value-string
 ,20090023,,Bicaralah dengan {0}
 ,20090024,,Tangkap {0}
 ,20090025,,Selesaikan bab {0} dari {1}
+,20090026,,Anda menerima tugas token
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Bertani 
