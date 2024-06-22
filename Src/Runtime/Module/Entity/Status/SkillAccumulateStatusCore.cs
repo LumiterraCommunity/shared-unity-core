@@ -60,6 +60,16 @@ public class SkillAccumulateStatusCore : ListenEventStatusCore, IEntityCanMove, 
             Log.Error($"AccumulateStatusCore DRSkill is null skillID = {SkillID}");
             return;
         }
+
+        try
+        {
+            StatusCtrl.RefEntity.EntityEvent.OnSkillStatusStart?.Invoke(InputSkillData);
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"on skill accumulate event OnSkillStatusStart invoke error = {e}");
+        }
+
         if (CurSkillCfg.AccuBreakable)
         {
             _inputData = StatusCtrl.GetComponent<EntityInputData>();
@@ -83,6 +93,18 @@ public class SkillAccumulateStatusCore : ListenEventStatusCore, IEntityCanMove, 
 
     protected override void OnLeave(IFsm<EntityStatusCtrl> fsm, bool isShutdown)
     {
+        if (!IsContinueBattleLeave)//打断技能
+        {
+            try
+            {
+                StatusCtrl.RefEntity.EntityEvent.OnSkillStatusEnd?.Invoke(CurSkillCfg, true);
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"on skill accumulate event invoke error = {e}");
+            }
+        }
+
         CancelTimeAccumulate();
         _inputData = null;
         Targets = null;

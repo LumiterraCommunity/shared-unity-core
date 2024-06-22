@@ -22,6 +22,11 @@ public static class MoveDefine
     /// </summary>
     public const float AIR_MOVE_ALLOW_NETWORK_DELAY_TIME = 0.5f;
     /// <summary>
+    /// 当放技能时 平移到达技能输入位置的时间 秒 目前用在客户端放技能 服务器和其他玩家能平移位置过去对齐
+    /// </summary>
+    public const float ARRIVED_INPUT_POS_TIME_ON_SKILL = 2f;
+
+    /// <summary>
     /// 移动的步高 也就是能移动的直线高度
     /// </summary>
     public const float MOVE_STEP_HEIGHT = 0.3f;

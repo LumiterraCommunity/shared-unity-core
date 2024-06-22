@@ -92,6 +92,18 @@ public abstract class SkillForwardStatusCore : ListenEventStatusCore, IEntityCan
             Log.Error($"skill forward invoke ExitSkillForward error ={e}");
         }
 
+        if (!IsContinueBattleLeave)//打断技能
+        {
+            try
+            {
+                StatusCtrl.RefEntity.EntityEvent.OnSkillStatusEnd?.Invoke(CurSkillCfg, true);
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"on skill forward event invoke error = {e}");
+            }
+        }
+
         CancelTimeForwardFinish();
 
         _inputData = null;
