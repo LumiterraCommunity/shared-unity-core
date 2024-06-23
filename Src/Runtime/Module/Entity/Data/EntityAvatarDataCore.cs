@@ -7,10 +7,15 @@ using UnityGameFramework.Runtime;
 public class EntityAvatarDataCore : EntityBaseComponent
 {
     /// <summary>
-    /// 所有装备等级平均值 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
+    /// 专精能力等级 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
     /// </summary>
     /// <value></value>
-    public float AllEquipmentsLevelAvg { get; protected set; } = 0;
+    public float AbilityLevel { get; protected set; } = 0;
+    /// <summary>
+    /// 当前能力等级的所属天赋类型 由所持武器决定
+    /// </summary>
+    /// <value></value>
+    public eTalentType AbilityLevelTalentType { get; protected set; } = eTalentType.battle;
 
     /// <summary>
     /// 角色穿着数据
@@ -60,17 +65,32 @@ public class EntityAvatarDataCore : EntityBaseComponent
     /// </summary>
     private void OnAvatarUpdate()
     {
-        CalculateAllEquipmentsLevelAvg();
+        CalculateAbilityLevel();
 
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
 
-    private void CalculateAllEquipmentsLevelAvg()
+    private void CalculateAbilityLevel()
     {
+        AbilityLevelTalentType = eTalentType.battle;
+
         if (AvatarList == null || AvatarList.Count == 0)
         {
-            AllEquipmentsLevelAvg = 0;
+            AbilityLevel = 0;
             return;
+        }
+
+        if (AvatarDic.TryGetValue(AvatarPosition.Weapon, out AvatarAttribute weaponAvatar))
+        {
+            DRItem drWeapon = TableUtil.GetConfig<DRItem>(weaponAvatar.ObjectId);
+            if (drWeapon != null && drWeapon.TalentId.Length > 0)
+            {
+                AbilityLevelTalentType = (eTalentType)drWeapon.TalentId[0];
+            }
+            else
+            {
+                Log.Error($"CalculateAbilityLevel drWeapon is null or not have talent,avatar cid:{weaponAvatar.ObjectId}");
+            }
         }
 
         float allLv = 0;
@@ -85,14 +105,17 @@ public class EntityAvatarDataCore : EntityBaseComponent
             DRItem drItem = TableUtil.GetConfig<DRItem>(avatar.ObjectId);
             if (drItem == null)
             {
-                Log.Error($"CalculateAllEquipmentsLevelAvg drItem is null,avatar cid:{avatar.ObjectId}");
+                Log.Error($"CalculateAbilityLevel drItem is null,avatar cid:{avatar.ObjectId}");
                 continue;
             }
 
-            allLv += drItem.UseLv;
+            if (drItem.TalentId?.Length > 0 && drItem.TalentId.Contains((int)AbilityLevelTalentType))
+            {
+                allLv += drItem.UseLv;
+            }
         }
 
-        AllEquipmentsLevelAvg = allLv / AvatarDefineCore.EquipmentPartList.Count;
+        AbilityLevel = allLv / AvatarDefineCore.EquipmentPartList.Count;
     }
 
     /// <summary>
