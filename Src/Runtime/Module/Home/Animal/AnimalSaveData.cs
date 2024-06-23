@@ -39,6 +39,10 @@ public class AnimalSaveData
     /// 如果有自动生产的产品在场景中 这里就有数据
     /// </summary>
     public AnimalProductSaveData ProductSaveData;
+    /// <summary>
+    /// 当前抚摸的熟练度
+    /// </summary>
+    public int Proficiency;
 
     /// <summary>
     /// 是否是生产过程阶段（不是收获阶段的意思，宠物在此阶段就不会执行AI）
@@ -63,6 +67,7 @@ public class AnimalSaveData
         IsComforted = data.IsComforted;
         IsDead = data.IsDead;
         Happiness = data.Happiness;
+        Proficiency = data.Proficiency;
 
         ProductSaveData = data.ProductData == null ? null : new AnimalProductSaveData(data.ProductData);
     }
@@ -77,6 +82,7 @@ public class AnimalSaveData
             IsComforted = IsComforted,
             IsDead = IsDead,
             Happiness = Happiness,
+            Proficiency = Proficiency,
 
             ProductData = ProductSaveData?.ToProxyAnimalData()
         };

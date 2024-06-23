@@ -286,8 +286,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         {
             try
             {
-                int usedHappy = (int)actionData;
-                OnExecuteAppease(Data.SaveData.IsComforted == false, usedHappy, playerId);
+                GameMessageCore.AppeaseResult appeaseResult = (GameMessageCore.AppeaseResult)actionData;
+                OnExecuteAppease(Data.SaveData.IsComforted == false, appeaseResult.AnimalHappyValue, appeaseResult.Proficiency, playerId);
             }
             catch (System.Exception e)
             {
@@ -335,14 +335,16 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     /// <param name="appeaseValid">是否有效抚摸 无效代表一个成熟阶段重复抚摸</param>
     /// <param name="usedHappy">抚摸使用的的幸福值</param>
+    /// <param name="proficiency">抚摸获得的熟练度</param>
     /// <param name="playerId">抚摸的玩家id</param>
-    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy, long playerId)
+    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy, int proficiency, long playerId)
     {
         if (appeaseValid)
         {
             Data.SaveData.IsComforted = true;
             PetData.Favorability += TableUtil.GetGameValue(eGameValueID.animalAddFavorabilityEveryAppease).Value;
             Data.MsgFavorabilityChanged?.Invoke(PetData.Favorability);
+            Data.SetProficiency(proficiency);
         }
         gameObject.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Appease, TableUtil.GetGameValue(eGameValueID.animalAppeaseMaxActionValue).Value);
 

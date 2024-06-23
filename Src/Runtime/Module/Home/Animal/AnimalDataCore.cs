@@ -84,6 +84,20 @@ public class AnimalDataCore : EntityBaseComponent
     }
 
     /// <summary>
+    /// 设置抚摸成熟度 一次抚摸只能设置一次 不能重复设置
+    /// </summary>
+    /// <param name="proficiency"></param>
+    internal void SetProficiency(int proficiency)
+    {
+        if (proficiency != 0 && SaveData.Proficiency > 0)
+        {
+            Log.Error($"SetProficiency 重复设置熟练度 id:{RefEntity.BaseData.Id} Proficiency:{SaveData.Proficiency} new:{proficiency}");
+        }
+
+        SaveData.Proficiency = Mathf.Max(proficiency, 0);
+    }
+
+    /// <summary>
     /// 设置动物快乐值 如果之前有的话 会退回给系统
     /// </summary>
     /// <param name="happiness"></param>
@@ -116,6 +130,7 @@ public class AnimalDataCore : EntityBaseComponent
     public void ClearDataAfterHarvest()
     {
         SetHappiness(0);
+        SetProficiency(0);
         SaveData.SetHarvestProgress(0);
         SaveData.IsComforted = false;
     }

@@ -1,8 +1,8 @@
 using GameMessageCore;
-
 /// <summary>
 /// 自动生产的动物生产下来的产品存档数据
 /// </summary>
+[System.Serializable]
 public class AnimalProductSaveData
 {
     /// <summary>
