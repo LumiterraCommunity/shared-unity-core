@@ -50,7 +50,7 @@ public class PlayerMoveOnSkillStatus : EntityBaseComponent
             return;
         }
 
-        float speed = MoveDefine.ARRIVED_INPUT_POS_TIME_ON_SKILL / offset.magnitude;
+        float speed = offset.magnitude / MoveDefine.ARRIVED_INPUT_POS_TIME_ON_SKILL;
         speed = Mathf.Min(speed, RefEntity.MoveData.Speed);//最大不能超过移动速度 防止作弊
 
         _distanceMove.MoveTo(offset, offset.magnitude, speed, null);//固定方向移动一段距离
