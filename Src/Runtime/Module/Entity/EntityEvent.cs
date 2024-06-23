@@ -127,6 +127,14 @@ public class EntityEvent : EntityBaseComponent
     /// 技能释放命中 技能输入数据
     /// </summary>
     public Action<InputSkillReleaseData> SkillCastHit;
+    /// <summary>
+    /// 整个技能状态开始 T0:当前技能
+    /// </summary>
+    public Action<InputSkillReleaseData> OnSkillStatusStart;
+    /// <summary>
+    /// 整个技能状态离开 在蓄力 前摇 后摇状态离开时触发 T0:当前技能配置 T1:是否是被打断离开
+    /// </summary>
+    public Action<DRSkill, bool> OnSkillStatusEnd;
 
     /// <summary>
     /// 进入死亡态

@@ -96,6 +96,7 @@ public class SkillCastStatusCore : ListenEventStatusCore, IEntityCanSkill
         try
         {
             StatusCtrl.RefEntity.EntityEvent.ExitSkillCast?.Invoke();
+            StatusCtrl.RefEntity.EntityEvent.OnSkillStatusEnd?.Invoke(CurSkillCfg, false);
         }
         catch (Exception e)
         {
