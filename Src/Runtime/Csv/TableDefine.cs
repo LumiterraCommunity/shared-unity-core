@@ -263,3 +263,16 @@ public enum eSceneFunctionModuleType
     Pvp = 1 << 2,
     Home = 1 << 3,
 }
+
+/// <summary>
+/// 天赋专精类型
+/// 对应TalentTree配置表中的type，不可以随意修改
+/// 枚举名字对应UI中的控制页，不可以随意修改
+/// </summary>
+public enum eTalentType
+{
+    general,//通用
+    farming,
+    battle,
+    gather,
+}
