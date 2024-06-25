@@ -125,7 +125,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     private void OnInputSkillRelease(InputSkillReleaseData data)
     {
         int needCostHunger = TableUtil.GetGameValue(eGameValueID.PetCastSkillHungerCost).Value;
-        ModifyHunger(PetData.HungerValue - needCostHunger);
+        PetData.SetHungerValue(PetData.HungerValue - needCostHunger, false);
     }
 
     private void InitStatus()
@@ -189,45 +189,24 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     private void TickHunger()
     {
         AnimalSaveData saveData = Data.SaveData;
-        if (!PetData.IsHunger)
-        {
-            float hungerSpeed = PetData.PetCfg.HungerSpeed;
-            if (saveData.IsProduceStage)
-            {
-                hungerSpeed *= _petProduceHungerRate;
-            }
-            float newHunger = PetData.HungerValue - (hungerSpeed * Time.deltaTime);
-            ModifyHunger(newHunger);
-        }
-        else
-        {
-            if (saveData.LastCompleteHungerStamp > 0)
-            {
-                if ((TimeUtil.GetServerTimeStamp() - saveData.LastCompleteHungerStamp) * TimeUtil.MS2S >= _animalDeadTimeFromHunger)
-                {
-                    saveData.LastCompleteHungerStamp = 0;
-                    OnTimerHungerDead();
-                }
-            }
-        }
-    }
 
-    //正常情况下的修改饥饿度 可以给负数 里面会修正成0 业务层使用这个修改 不直接修改底层数值
-    private void ModifyHunger(float newHunger)
-    {
-        if (newHunger <= 0)//完全饥饿
+        //饥饿度减少
+        float hungerSpeed = PetData.PetCfg.HungerSpeed;
+        if (saveData.IsProduceStage)
         {
-            if (!PetData.IsHunger)//开始没饿 这里代表刚变成完全饥饿状态
-            {
-                Data.SaveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
-            }
-
-            PetData.SetHungerValue(0);
+            hungerSpeed *= _petProduceHungerRate;
         }
-        else
+        float newHunger = PetData.HungerValue - (hungerSpeed * Time.deltaTime);
+        PetData.SetHungerValue(newHunger, false);
+
+        //检查饿死
+        if (PetData.IsHunger && saveData.LastCompleteHungerStamp > 0)
         {
-            PetData.SetHungerValue(newHunger);
-            Data.SaveData.LastCompleteHungerStamp = 0;
+            if ((TimeUtil.GetServerTimeStamp() - saveData.LastCompleteHungerStamp) * TimeUtil.MS2S >= _animalDeadTimeFromHunger)
+            {
+                saveData.LastCompleteHungerStamp = 0;
+                OnTimerHungerDead();
+            }
         }
     }
 
@@ -243,7 +222,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public virtual void EatenSetHunger(float progress)
     {
-        ModifyHunger(progress);
+        PetData.SetHungerValue(progress, false);
     }
 
     public bool CheckSupportAction(eAction action)

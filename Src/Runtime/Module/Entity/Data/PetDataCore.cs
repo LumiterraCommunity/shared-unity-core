@@ -252,11 +252,14 @@ public class PetDataCore : EntityBaseComponent
     }
 
     /// <summary>
-    /// 设置饥饿度 内部会处理成最小为0 这个是最底层直接修改的地方 业务层的不用这个
+    /// 设置饥饿度 内部会处理成最小为0
     /// </summary>
     /// <param name="value"></param>
-    public void SetHungerValue(float value)
+    /// <param name="force">业务侧过来的一般都是false  那种初始化的强行改底层数据的给true</param>
+    public void SetHungerValue(float value, bool force)
     {
         HungerValue = Mathf.Max(0, value);
+
+        RefEntity.EntityEvent.OnPetHungerChanged?.Invoke(HungerValue, force);
     }
 }

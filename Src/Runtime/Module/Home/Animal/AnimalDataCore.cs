@@ -40,6 +40,39 @@ public class AnimalDataCore : EntityBaseComponent
     /// </summary>
     public Action<int> MsgFavorabilityChanged;
 
+    protected virtual void Start()
+    {
+        RefEntity.EntityEvent.OnPetHungerChanged += OnPetHungerChanged;
+    }
+
+    protected virtual void OnDestroy()
+    {
+        RefEntity.EntityEvent.OnPetHungerChanged -= OnPetHungerChanged;
+    }
+
+    private void OnPetHungerChanged(float hungerValue, bool force)
+    {
+        if (force)
+        {
+            return;
+        }
+
+        if (hungerValue > 0)//不饿
+        {
+            if (SaveData.LastCompleteHungerStamp > 0)
+            {
+                SaveData.LastCompleteHungerStamp = 0;
+            }
+        }
+        else//饥饿了
+        {
+            if (SaveData.LastCompleteHungerStamp <= 0)
+            {
+                SaveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
+            }
+        }
+    }
+
     /// <summary>
     /// 初始化数据
     /// </summary>

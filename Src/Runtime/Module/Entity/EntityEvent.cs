@@ -321,4 +321,8 @@ public class EntityEvent : EntityBaseComponent
     /// 宠物召回
     /// </summary>
     public Action OnPetRecalled;
+    /// <summary>
+    /// 宠物饥饿度改变 T0:饥饿度 T1:force设置的值
+    /// </summary>
+    public Action<float, bool> OnPetHungerChanged;
 }
