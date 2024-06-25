@@ -91,9 +91,10 @@ public enum eGameValueID
     offlineTimeout = 53, // 离线超时时间
     InstancingRewardsRateRange = 55, // 副本奖励倍率范围
     PetRecallCD = 56, // 宠物召回CD,单位秒
-    EnergyCraftBuilding = 59, //精力合成建筑id
-    AllEnergyItemIds = 80, //所有精力道具列表
     RefreshTaskNumLimit = 57, // 刷新任务次数限制
+    EnergyCraftBuilding = 59, //精力合成建筑id
+    AllFeedItemIds = 78, //所有饲料道具列表
+    AllEnergyItemIds = 80, //所有精力道具列表
     InstancingTotemScoreTax = 83,     //副本图腾积分扣税
 }
 
