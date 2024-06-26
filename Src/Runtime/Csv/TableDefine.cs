@@ -96,6 +96,7 @@ public enum eGameValueID
     AllFeedItemIds = 78, //所有饲料道具列表
     AllEnergyItemIds = 80, //所有精力道具列表
     InstancingTotemScoreTax = 83,     //副本图腾积分扣税
+    FollowPetCastSkillHungerCost = 84,     //跟随宠释放技能饥饿度消耗
 }
 
 // public static class GameValueID
