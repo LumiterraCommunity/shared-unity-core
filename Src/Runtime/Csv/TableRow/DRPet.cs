@@ -78,6 +78,15 @@ public class DRPet : DataRowBase
     }
 
     /// <summary>
+  /**获取harvestExp-int。*/
+    /// </summary>
+    public int HarvestExp
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取harvestTime-int。*/
     /// </summary>
     public int HarvestTime
@@ -196,6 +205,7 @@ public class DRPet : DataRowBase
         EggItemId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestAction = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestDropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        HarvestExp = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HarvestTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HungerSpeed = DataTableParseUtil.ParseInt(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
@@ -226,6 +236,7 @@ public class DRPet : DataRowBase
                 EggItemId = binaryReader.Read7BitEncodedInt32();
                 HarvestAction = binaryReader.Read7BitEncodedInt32();
                 HarvestDropId = binaryReader.Read7BitEncodedInt32();
+                HarvestExp = binaryReader.Read7BitEncodedInt32();
                 HarvestTime = binaryReader.Read7BitEncodedInt32();
                 HungerSpeed = binaryReader.Read7BitEncodedInt32();
                 _id = binaryReader.Read7BitEncodedInt32();
