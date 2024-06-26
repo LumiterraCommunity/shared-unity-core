@@ -36,14 +36,42 @@ public class AnimalDataCore : EntityBaseComponent
     public bool IsHappyValid => _saveData.Happiness > 0 && _saveData.Happiness >= _petCfg.RequiredHappiness;
 
     /// <summary>
-    /// 是否饥饿状态
-    /// </summary>
-    public bool IsHunger => SaveData.HungerProgress <= 0;
-
-    /// <summary>
     /// 好感度改变事件 T0:更改后好感度
     /// </summary>
     public Action<int> MsgFavorabilityChanged;
+
+    protected virtual void Start()
+    {
+        RefEntity.EntityEvent.OnPetHungerChanged += OnPetHungerChanged;
+    }
+
+    protected virtual void OnDestroy()
+    {
+        RefEntity.EntityEvent.OnPetHungerChanged -= OnPetHungerChanged;
+    }
+
+    private void OnPetHungerChanged(float hungerValue, bool force)
+    {
+        if (force)
+        {
+            return;
+        }
+
+        if (hungerValue > 0)//不饿
+        {
+            if (SaveData.LastCompleteHungerStamp > 0)
+            {
+                SaveData.LastCompleteHungerStamp = 0;
+            }
+        }
+        else//饥饿了
+        {
+            if (SaveData.LastCompleteHungerStamp <= 0)
+            {
+                SaveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
+            }
+        }
+    }
 
     /// <summary>
     /// 初始化数据
@@ -77,7 +105,6 @@ public class AnimalDataCore : EntityBaseComponent
         else
         {
             _saveData = new AnimalSaveData(entityId);
-            _saveData.SetHungerProgress(0);//初始化饥饿度
         }
 
         SetHappiness(_saveData.Happiness);
@@ -133,25 +160,5 @@ public class AnimalDataCore : EntityBaseComponent
         SetProficiency(0);
         SaveData.SetHarvestProgress(0);
         SaveData.IsComforted = false;
-    }
-
-    /// <summary>
-    /// 获取下一次收获的时间 秒 无效时返回-1
-    /// </summary>
-    /// <returns></returns>
-    public float GetNextHarvestTime()
-    {
-        if (IsHunger)
-        {
-            return -1f;
-        }
-
-        if (!IsHappyValid)
-        {
-            return -1f;
-        }
-
-        float remainProgress = 1 - (SaveData.HarvestProgress / HomeDefine.ANIMAL_HARVEST_PROCESS_MAX_UNIT);
-        return Mathf.Max(HarvestMaxTime * remainProgress, 0);
     }
 }

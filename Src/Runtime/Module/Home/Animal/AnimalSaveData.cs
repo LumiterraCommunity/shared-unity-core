@@ -12,10 +12,6 @@ public class AnimalSaveData
     /// </summary>
     public long AnimalId;
     /// <summary>
-    /// 饥饿进度 0代表完全饿了 具体值 不是100进度值 有配置最大饥饿度配套
-    /// </summary>
-    public float HungerProgress = 0;
-    /// <summary>
     /// 上次完全饥饿的时间戳 >0说明正在饥饿中
     /// </summary>
     public long LastCompleteHungerStamp;
@@ -62,7 +58,6 @@ public class AnimalSaveData
     public AnimalSaveData(ProxyAnimalData data)
     {
         AnimalId = data.AnimalId;
-        HungerProgress = data.HungerProgress;
         HarvestProgress = data.HarvestProgress;
         IsComforted = data.IsComforted;
         IsDead = data.IsDead;
@@ -77,7 +72,6 @@ public class AnimalSaveData
         ProxyAnimalData data = new()
         {
             AnimalId = AnimalId,
-            HungerProgress = HungerProgress,
             HarvestProgress = HarvestProgress,
             IsComforted = IsComforted,
             IsDead = IsDead,
@@ -96,14 +90,5 @@ public class AnimalSaveData
     public void SetHarvestProgress(float progress)
     {
         HarvestProgress = Mathf.Clamp(progress, 0, HomeDefine.ANIMAL_HARVEST_PROCESS_MAX_UNIT);
-    }
-
-    /// <summary>
-    /// 设置饥饿度 内部会处理成最小为0
-    /// </summary>
-    /// <param name="value"></param>
-    public void SetHungerProgress(float value)
-    {
-        HungerProgress = Mathf.Max(0, value);
     }
 }

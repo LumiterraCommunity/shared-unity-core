@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using GameMessageCore;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
 
@@ -39,6 +40,7 @@ public class PetDataCore : EntityBaseComponent
     /// 宠物配置
     /// </summary>
     public int PetCfgId => PetCfg == null ? -1 : PetCfg.Id;
+
     /// <summary>
     /// 好感度数值
     /// </summary>
@@ -52,9 +54,14 @@ public class PetDataCore : EntityBaseComponent
     /// </summary>
     public long UpdateMs;
     /// <summary>
-    /// 饥饿度 临时给跟随宠UI用 其他地方不要用 家园中动物饥饿时这个不会更新 将来正式写再弄
+    /// 饥饿度值 需要小数结构 tick会每帧减少
     /// </summary>
-    public int Hunger;
+    public float HungerValue { get; private set; }
+
+    /// <summary>
+    /// 是完全饥饿状态
+    /// </summary>
+    public bool IsHunger => HungerValue <= 0;
 
     public void InitFromNetData(GrpcPetData petData)
     {
@@ -62,7 +69,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
         IsFollowing = petData.Status;
-        Hunger = petData.Hunger;
+        HungerValue = petData.Hunger;
         SetAbilityByBitOffsets(petData.AbilityList);
         SetPetCfgId(petData.Cid);
 
@@ -75,7 +82,7 @@ public class PetDataCore : EntityBaseComponent
         CreateMs = proxyData.CreateMs;
         UpdateMs = proxyData.UpdateMs;
         IsFollowing = proxyData.Status;
-        Hunger = proxyData.Hunger;
+        HungerValue = proxyData.Hunger;
         SetAbilityByBitOffsets(proxyData.AbilityList);
         SetPetCfgId(proxyData.Cid);
 
@@ -116,7 +123,7 @@ public class PetDataCore : EntityBaseComponent
         proxyData.UpdateMs = UpdateMs;
         proxyData.Cid = PetCfgId;
         proxyData.Status = IsFollowing;
-        proxyData.Hunger = Hunger;
+        proxyData.Hunger = (int)HungerValue;
         PetUtilCore.PetAbilityEnumToBitProtoRepeated(AllAbility, proxyData.AbilityList);
     }
 
@@ -242,5 +249,17 @@ public class PetDataCore : EntityBaseComponent
     public bool HasPetAbility(ePetAbility ability)
     {
         return (AllAbility & ability) != 0;
+    }
+
+    /// <summary>
+    /// 设置饥饿度 内部会处理成最小为0
+    /// </summary>
+    /// <param name="value"></param>
+    /// <param name="force">业务侧过来的一般都是false  那种初始化的强行改底层数据的给true</param>
+    public void SetHungerValue(float value, bool force)
+    {
+        HungerValue = Mathf.Max(0, value);
+
+        RefEntity.EntityEvent.OnPetHungerChanged?.Invoke(HungerValue, force);
     }
 }

@@ -125,7 +125,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     private void OnInputSkillRelease(InputSkillReleaseData data)
     {
         int needCostHunger = TableUtil.GetGameValue(eGameValueID.PetCastSkillHungerCost).Value;
-        ModifyHunger(Data.SaveData.HungerProgress - needCostHunger);
+        PetData.SetHungerValue(PetData.HungerValue - needCostHunger, false);
     }
 
     private void InitStatus()
@@ -157,7 +157,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     private void TickHarvest()
     {
         //饥饿
-        if (Data.IsHunger)
+        if (PetData.IsHunger)
         {
             return;
         }
@@ -189,45 +189,24 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     private void TickHunger()
     {
         AnimalSaveData saveData = Data.SaveData;
-        if (saveData.HungerProgress > 0)
-        {
-            float hungerSpeed = PetData.PetCfg.HungerSpeed;
-            if (saveData.IsProduceStage)
-            {
-                hungerSpeed *= _petProduceHungerRate;
-            }
-            float newHunger = saveData.HungerProgress - (hungerSpeed * Time.deltaTime);
-            ModifyHunger(newHunger);
-        }
-        else
-        {
-            if (saveData.LastCompleteHungerStamp > 0)
-            {
-                if ((TimeUtil.GetServerTimeStamp() - saveData.LastCompleteHungerStamp) * TimeUtil.MS2S >= _animalDeadTimeFromHunger)
-                {
-                    saveData.LastCompleteHungerStamp = 0;
-                    OnTimerHungerDead();
-                }
-            }
-        }
-    }
 
-    //正常情况下的修改饥饿度 可以给负数 里面会修正成0
-    private void ModifyHunger(float newHunger)
-    {
-        if (newHunger <= 0)//完全饥饿
+        //饥饿度减少
+        float hungerSpeed = PetData.PetCfg.HungerSpeed;
+        if (saveData.IsProduceStage)
         {
-            if (Data.SaveData.HungerProgress > 0)//开始没饿 这里代表刚变成完全饥饿状态
-            {
-                Data.SaveData.LastCompleteHungerStamp = TimeUtil.GetServerTimeStamp();
-            }
-
-            Data.SaveData.SetHungerProgress(0);
+            hungerSpeed *= _petProduceHungerRate;
         }
-        else
+        float newHunger = PetData.HungerValue - (hungerSpeed * Time.deltaTime);
+        PetData.SetHungerValue(newHunger, false);
+
+        //检查饿死
+        if (PetData.IsHunger && saveData.LastCompleteHungerStamp > 0)
         {
-            Data.SaveData.SetHungerProgress(newHunger);
-            Data.SaveData.LastCompleteHungerStamp = 0;
+            if ((TimeUtil.GetServerTimeStamp() - saveData.LastCompleteHungerStamp) * TimeUtil.MS2S >= _animalDeadTimeFromHunger)
+            {
+                saveData.LastCompleteHungerStamp = 0;
+                OnTimerHungerDead();
+            }
         }
     }
 
@@ -243,7 +222,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     public virtual void EatenSetHunger(float progress)
     {
-        ModifyHunger(progress);
+        PetData.SetHungerValue(progress, false);
     }
 
     public bool CheckSupportAction(eAction action)
@@ -446,5 +425,25 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     {
         RefEntity.RoleBaseDataCore.SetName(data.Name);
         PetData.InitFromProxyPetData(data);
+    }
+
+    /// <summary>
+    /// 获取下一次收获的时间 秒 无效时返回-1
+    /// </summary>
+    /// <returns></returns>
+    public float GetNextHarvestTime()
+    {
+        if (PetData.IsHunger)
+        {
+            return -1f;
+        }
+
+        if (!Data.IsHappyValid)
+        {
+            return -1f;
+        }
+
+        float remainProgress = 1 - (Data.SaveData.HarvestProgress / ANIMAL_HARVEST_PROCESS_MAX_UNIT);
+        return Mathf.Max(Data.HarvestMaxTime * remainProgress, 0);
     }
 }
