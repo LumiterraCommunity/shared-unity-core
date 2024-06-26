@@ -1,14 +1,14 @@
 assetRes-string,dropId-int,exp-int,homeAction-int,icon-string,id-int,initialAttribute-int[][],lv-int,name-string,progressScore-int,rankScore-int,tokenTaskLevel-int[],totemScore-int
 2D_caijiziyuan_shumu01_1,27,15,6,2D_caijiziyuan_shumu01_1,4,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",1,Lv 1 kayu biasa#4,2,14,"0, 1",1
 Slice_12,27,15,6,Slice_12,5,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",1,Lv 1 kayu biasa#5,2,14,999,1
-2D_caijiziyuan_xianrenzhang,28,21.21320344,6,2D_caijiziyuan_xianrenzhang,6,"60,0,0;61,200,0;62,0,0;63,240,0;76,1500,0",2,Lv 2 kayu pohon gurun#6,4,20,2,2
-2D_caijiziyuan_hongguoshi,34,30,5,2D_caijiziyuan_hongguoshi,7,"60,300,0;61,0,0;62,0,0;63,360,0;76,2250,0",3,Lv 3 Tequila#7,8,28,3,3
+2D_caijiziyuan_xianrenzhang,28,21.21320344,6,2D_caijiziyuan_xianrenzhang,6,"60,0,0;61,200,0;62,0,0;63,225,0;76,1500,0",2,Lv 2 kayu pohon gurun#6,4,20,2,2
+2D_caijiziyuan_hongguoshi,34,30,5,2D_caijiziyuan_hongguoshi,7,"60,300,0;61,0,0;62,0,0;63,330,0;76,2250,0",3,Lv 3 Tequila#7,8,28,3,3
 2D_caijiziyuan_shikuai_3,26,15,7,2D_caijiziyuan_shikuai_3,8,"60,0,0;61,0,0;62,100,0;63,120,0;76,750,0",1,Lv 1 Batu#8,2,14,"0, 1",1
-2D_caijiziyuan_heitikuang,30,21.21320344,7,2D_caijiziyuan_heitikuang,9,"60,0,0;61,0,0;62,200,0;63,240,0;76,1500,0",2,Lv 2 bijih besi hitam#9,4,20,2,2
-2D_caijiziyuan_hongbaoshi,31,30,7,2D_caijiziyuan_hongbaoshi,11,"60,0,0;61,0,0;62,300,0;63,360,0;76,2250,0",3,Lv 3 tambang kristal merah#11,8,28,3,3
+2D_caijiziyuan_heitikuang,30,21.21320344,7,2D_caijiziyuan_heitikuang,9,"60,0,0;61,0,0;62,200,0;63,225,0;76,1500,0",2,Lv 2 bijih besi hitam#9,4,20,2,2
+2D_caijiziyuan_hongbaoshi,31,30,7,2D_caijiziyuan_hongbaoshi,11,"60,0,0;61,0,0;62,300,0;63,330,0;76,2250,0",3,Lv 3 tambang kristal merah#11,8,28,3,3
 Slice_11,32,15,5,Slice_11,14,"60,100,0;61,0,0;62,0,0;63,120,0;76,750,0",1,Lv 1 serat tumbuhan#14,2,14,"0, 1",1
-2D_caijiziyuan_bingyuanzhiwu,33,21.21320344,5,2D_caijiziyuan_bingyuanzhiwu,15,"60,200,0;61,0,0;62,0,0;63,240,0;76,1500,0",2,Lv 2 jamur es#15,4,20,2,2
-2D_caijiziyuan_anheimucai,29,30,6,2D_caijiziyuan_anheimucai,16,"60,0,0;61,300,0;62,0,0;63,360,0;76,2250,0",3,Lv 3 kayu gelap#16,8,28,3,3
+2D_caijiziyuan_bingyuanzhiwu,33,21.21320344,5,2D_caijiziyuan_bingyuanzhiwu,15,"60,200,0;61,0,0;62,0,0;63,225,0;76,1500,0",2,Lv 2 jamur es#15,4,20,2,2
+2D_caijiziyuan_anheimucai,29,30,6,2D_caijiziyuan_anheimucai,16,"60,0,0;61,300,0;62,0,0;63,330,0;76,2250,0",3,Lv 3 kayu gelap#16,8,28,3,3
 homeresource-19,0,0,5,homeresource-19,19,"60,100,0;61,0,0;62,0,0;63,120,0;76,750,0",1,Lv 1 serat tumbuhan#19,2,14,999,1
 homeresource-20,32,0,5,homeresource-20,20,"60,100,0;61,0,0;62,0,0;63,120,0;76,750,0",1,Lv 1 serat tumbuhan#20,2,14,"0, 1",1
 2D_caijiziyuan_cao3,0,0,5,2D_caijiziyuan_cao3,21,"60,100,0;61,0,0;62,0,0;63,120,0;76,750,0",1,Lv 1 serat tumbuhan#21,2,14,999,1
@@ -25,13 +25,13 @@ homeresource-32,0,0,5,homeresource-32,32,"60,100,0;61,0,0;62,0,0;63,120,0;76,750
 homeresource-33,0,15,5,homeresource-33,33,"60,100,0;61,0,0;62,0,0;63,120,0;76,750,0",1,Lv 1 serat tumbuhan#33,2,14,999,1
 2D_caijiziyuan_shikuai_4,26,15,7,2D_caijiziyuan_shikuai_4,34,"60,0,0;61,0,0;62,100,0;63,120,0;76,750,0",1,Lv 1 Batu#34,2,14,999,1
 homeresource-35,27,15,6,homeresource-35,35,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",1,Lv 1 kayu biasa#35,2,14,999,1
-homeresource-36,28,21.21320344,6,homeresource-36,36,"60,0,0;61,200,0;62,0,0;63,240,0;76,1500,0",2,Lv 2 kayu pohon gurun#36,4,20,2,2
-homeresource-37,29,30,6,homeresource-37,37,"60,0,0;61,300,0;62,0,0;63,360,0;76,2250,0",3,Lv 3 kayu gelap#37,8,28,3,3
-homeresource-38,31,30,7,homeresource-38,38,"60,0,0;61,0,0;62,300,0;63,360,0;76,2250,0",3,Lv 3 tambang kristal merah#38,8,28,3,3
-homeresource-41,30,21.21320344,7,homeresource-41,41,"60,0,0;61,0,0;62,200,0;63,240,0;76,1500,0",2,Lv 2 bijih besi hitam#41,4,20,2,2
+homeresource-36,28,21.21320344,6,homeresource-36,36,"60,0,0;61,200,0;62,0,0;63,225,0;76,1500,0",2,Lv 2 kayu pohon gurun#36,4,20,2,2
+homeresource-37,29,30,6,homeresource-37,37,"60,0,0;61,300,0;62,0,0;63,330,0;76,2250,0",3,Lv 3 kayu gelap#37,8,28,3,3
+homeresource-38,31,30,7,homeresource-38,38,"60,0,0;61,0,0;62,300,0;63,330,0;76,2250,0",3,Lv 3 tambang kristal merah#38,8,28,3,3
+homeresource-41,30,21.21320344,7,homeresource-41,41,"60,0,0;61,0,0;62,200,0;63,225,0;76,1500,0",2,Lv 2 bijih besi hitam#41,4,20,2,2
 homeresource-42,26,15,7,homeresource-42,42,"60,0,0;61,0,0;62,100,0;63,120,0;76,750,0",1,Lv 1 Batu#42,2,14,"0, 1",1
-homeresource-43,33,21.21320344,5,homeresource-43,43,"60,200,0;61,0,0;62,0,0;63,240,0;76,1500,0",2,Lv 2 jamur es#43,4,20,2,2
-homeresource-44,34,30,5,homeresource-44,44,"60,300,0;61,0,0;62,0,0;63,360,0;76,2250,0",3,Lv 3 Tequila#44,8,28,3,3
+homeresource-43,33,21.21320344,5,homeresource-43,43,"60,200,0;61,0,0;62,0,0;63,225,0;76,1500,0",2,Lv 2 jamur es#43,4,20,2,2
+homeresource-44,34,30,5,homeresource-44,44,"60,300,0;61,0,0;62,0,0;63,330,0;76,2250,0",3,Lv 3 Tequila#44,8,28,3,3
 homeresource-45,0,0,5,homeresource-45,45,"60,100,0;61,0,0;62,0,0;63,120,0;76,750,0",1,Lv 1 serat tumbuhan#45,2,14,999,1
 homeresource-47,9,0,16,homeresource-47,47,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",1,Lv 1 lendir hijau#47,2,14,999,0
 homeresource-48,8,0,16,homeresource-48,48,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",1,Lv 1 tanaman merambat labu#48,2,14,999,0
@@ -51,42 +51,42 @@ homeresource-61,15,0,16,homeresource-61,61,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0"
 homeresource-62,31,0,16,homeresource-62,62,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",3,Lv 3 tambang kristal merah#62,8,28,999,0
 homeresource-63,34,0,16,homeresource-63,63,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",3,Lv 3 Tequila#63,8,28,999,0
 homeresource-64,29,0,16,homeresource-64,64,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",3,Lv 3 kayu gelap#64,8,28,999,0
-homeresource-65,56,42.42640687,5,homeresource-65,65,"60,400,0;61,0,0;62,0,0;63,480,0;76,3000,0",4,Lv 4 Bunga Dandelion Emas#65,16,40,4,4
-homeresource-66,57,42.42640687,6,homeresource-66,66,"60,0,0;61,400,0;62,0,0;63,480,0;76,3000,0",4,Lv 4 Bunga Kaktus#66,16,40,4,4
-homeresource-67,58,42.42640687,7,homeresource-67,67,"60,0,0;61,0,0;62,400,0;63,480,0;76,3000,0",4,Lv 4 Racso#67,16,40,4,4
-homeresource-68,59,60,5,homeresource-68,68,"60,500,0;61,0,0;62,0,0;63,600,0;76,3750,0",5,Lv 5 Intan Serat#68,32,56,5,5
-homeresource-69,60,60,6,homeresource-69,69,"60,0,0;61,500,0;62,0,0;63,600,0;76,3750,0",5,Lv 5 Intan Bentuk Catatan#69,32,56,5,5
-homeresource-70,61,60,7,homeresource-70,70,"60,0,0;61,0,0;62,500,0;63,600,0;76,3750,0",5,Lv 5 Intan Berbentuk Beruang#70,32,56,5,5
-homeresource-71,62,84.85281374,5,homeresource-71,71,"60,600,0;61,0,0;62,0,0;63,720,0;76,4500,0",6,Lv 6 Bunga Elf#71,64,80,6,6
-homeresource-72,63,84.85281374,6,homeresource-72,72,"60,0,0;61,600,0;62,0,0;63,720,0;76,4500,0",6,Lv 6 Bintang Kaleng#72,64,80,6,6
-homeresource-73,64,84.85281374,7,homeresource-73,73,"60,0,0;61,0,0;62,600,0;63,720,0;76,4500,0",6,Lv 6 Meteorit#73,64,80,6,6
-homeresource-74,56,42.42640687,5,homeresource-74,74,"60,400,0;61,0,0;62,0,0;63,480,0;76,3000,0",4,Lv 4 Bunga Dandelion Emas#74,16,40,4,4
-homeresource-75,57,42.42640687,6,homeresource-75,75,"60,0,0;61,400,0;62,0,0;63,480,0;76,3000,0",4,Lv 4 Bunga Kaktus#75,16,40,4,4
-homeresource-76,58,42.42640687,7,homeresource-76,76,"60,0,0;61,0,0;62,400,0;63,480,0;76,3000,0",4,Lv 4 Racso#76,16,40,4,4
-homeresource-77,59,60,5,homeresource-77,77,"60,500,0;61,0,0;62,0,0;63,600,0;76,3750,0",5,Lv 5 Intan Serat#77,32,56,5,5
-homeresource-78,60,60,6,homeresource-78,78,"60,0,0;61,500,0;62,0,0;63,600,0;76,3750,0",5,Lv 5 Intan Bentuk Catatan#78,32,56,5,5
-homeresource-79,61,60,7,homeresource-79,79,"60,0,0;61,0,0;62,500,0;63,600,0;76,3750,0",5,Lv 5 Intan Berbentuk Beruang#79,32,56,5,5
-homeresource-80,62,84.85281374,5,homeresource-80,80,"60,600,0;61,0,0;62,0,0;63,720,0;76,4500,0",6,Lv 6 Bunga Elf#80,64,80,6,6
-homeresource-81,63,84.85281374,6,homeresource-81,81,"60,0,0;61,600,0;62,0,0;63,720,0;76,4500,0",6,Lv 6 Bintang Kaleng#81,64,80,6,6
-homeresource-82,64,84.85281374,7,homeresource-82,82,"60,0,0;61,0,0;62,600,0;63,720,0;76,4500,0",6,Lv 6 Meteorit#82,64,80,6,6
+homeresource-65,56,42.42640687,5,homeresource-65,65,"60,400,0;61,0,0;62,0,0;63,435,0;76,3000,0",4,Lv 4 Bunga Dandelion Emas#65,16,40,4,4
+homeresource-66,57,42.42640687,6,homeresource-66,66,"60,0,0;61,400,0;62,0,0;63,435,0;76,3000,0",4,Lv 4 Bunga Kaktus#66,16,40,4,4
+homeresource-67,58,42.42640687,7,homeresource-67,67,"60,0,0;61,0,0;62,400,0;63,435,0;76,3000,0",4,Lv 4 Racso#67,16,40,4,4
+homeresource-68,59,60,5,homeresource-68,68,"60,500,0;61,0,0;62,0,0;63,540,0;76,3750,0",5,Lv 5 Intan Serat#68,32,56,5,5
+homeresource-69,60,60,6,homeresource-69,69,"60,0,0;61,500,0;62,0,0;63,540,0;76,3750,0",5,Lv 5 Intan Bentuk Catatan#69,32,56,5,5
+homeresource-70,61,60,7,homeresource-70,70,"60,0,0;61,0,0;62,500,0;63,540,0;76,3750,0",5,Lv 5 Intan Berbentuk Beruang#70,32,56,5,5
+homeresource-71,62,84.85281374,5,homeresource-71,71,"60,600,0;61,0,0;62,0,0;63,645,0;76,4500,0",6,Lv 6 Bunga Elf#71,64,80,6,6
+homeresource-72,63,84.85281374,6,homeresource-72,72,"60,0,0;61,600,0;62,0,0;63,645,0;76,4500,0",6,Lv 6 Bintang Kaleng#72,64,80,6,6
+homeresource-73,64,84.85281374,7,homeresource-73,73,"60,0,0;61,0,0;62,600,0;63,645,0;76,4500,0",6,Lv 6 Meteorit#73,64,80,6,6
+homeresource-74,56,42.42640687,5,homeresource-74,74,"60,400,0;61,0,0;62,0,0;63,435,0;76,3000,0",4,Lv 4 Bunga Dandelion Emas#74,16,40,4,4
+homeresource-75,57,42.42640687,6,homeresource-75,75,"60,0,0;61,400,0;62,0,0;63,435,0;76,3000,0",4,Lv 4 Bunga Kaktus#75,16,40,4,4
+homeresource-76,58,42.42640687,7,homeresource-76,76,"60,0,0;61,0,0;62,400,0;63,435,0;76,3000,0",4,Lv 4 Racso#76,16,40,4,4
+homeresource-77,59,60,5,homeresource-77,77,"60,500,0;61,0,0;62,0,0;63,540,0;76,3750,0",5,Lv 5 Intan Serat#77,32,56,5,5
+homeresource-78,60,60,6,homeresource-78,78,"60,0,0;61,500,0;62,0,0;63,540,0;76,3750,0",5,Lv 5 Intan Bentuk Catatan#78,32,56,5,5
+homeresource-79,61,60,7,homeresource-79,79,"60,0,0;61,0,0;62,500,0;63,540,0;76,3750,0",5,Lv 5 Intan Berbentuk Beruang#79,32,56,5,5
+homeresource-80,62,84.85281374,5,homeresource-80,80,"60,600,0;61,0,0;62,0,0;63,645,0;76,4500,0",6,Lv 6 Bunga Elf#80,64,80,6,6
+homeresource-81,63,84.85281374,6,homeresource-81,81,"60,0,0;61,600,0;62,0,0;63,645,0;76,4500,0",6,Lv 6 Bintang Kaleng#81,64,80,6,6
+homeresource-82,64,84.85281374,7,homeresource-82,82,"60,0,0;61,0,0;62,600,0;63,645,0;76,4500,0",6,Lv 6 Meteorit#82,64,80,6,6
 homeresource-83,0,0,6,homeresource-83,83,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",0,#83,0,14,999,
 homeresource-84,88,0,16,homeresource-84,84,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",1,Lv 1 LUAG Masa Depan(N)#84,2,0,999,0
-homeresource-85,92,120,5,homeresource-85,85,"60,700,0;61,0,0;62,0,0;63,840,0;76,5250,0",7,Lv 7 Bunga Lava#85,128,113,7,7
-homeresource-86,92,120,5,homeresource-86,86,"60,700,0;61,0,0;62,0,0;63,840,0;76,5250,0",7,Lv 7 Bunga Lava#86,128,113,7,7
-homeresource-87,93,120,6,homeresource-87,87,"60,0,0;61,700,0;62,0,0;63,840,0;76,5250,0",7,Lv 7 Kayu Api#87,128,113,7,7
-homeresource-88,93,120,6,homeresource-88,88,"60,0,0;61,700,0;62,0,0;63,840,0;76,5250,0",7,Lv 7 Kayu Api#88,128,113,7,7
-homeresource-89,94,120,7,homeresource-89,89,"60,0,0;61,0,0;62,700,0;63,840,0;76,5250,0",7,Lv 7 Lava#89,128,113,7,7
-homeresource-90,94,120,7,homeresource-90,90,"60,0,0;61,0,0;62,700,0;63,840,0;76,5250,0",7,Lv 7 Lava#90,128,113,7,7
-homeresource-91,104,169.7056275,5,homeresource-91,91,"60,800,0;61,0,0;62,0,0;63,960,0;76,6000,0",8,Lv 8 Serat Kosong#91,256,160,8,8
-homeresource-92,104,169.7056275,5,homeresource-92,92,"60,800,0;61,0,0;62,0,0;63,960,0;76,6000,0",8,Lv 8 Serat Kosong#92,256,160,8,8
-homeresource-93,105,169.7056275,6,homeresource-93,93,"60,0,0;61,800,0;62,0,0;63,960,0;76,6000,0",8,Lv 8 Kayu Kosong#93,256,160,8,8
-homeresource-94,105,169.7056275,6,homeresource-94,94,"60,0,0;61,800,0;62,0,0;63,960,0;76,6000,0",8,Lv 8 Kayu Kosong#94,256,160,8,8
-homeresource-95,106,169.7056275,7,homeresource-95,95,"60,0,0;61,0,0;62,800,0;63,960,0;76,6000,0",8,Lv 8 Batu Kosong#95,256,160,8,8
-homeresource-96,106,169.7056275,7,homeresource-96,96,"60,0,0;61,0,0;62,800,0;63,960,0;76,6000,0",8,Lv 8 Batu Kosong#96,256,160,8,8
-homeresource-97,116,240,5,homeresource-97,97,"60,900,0;61,0,0;62,0,0;63,1080,0;76,6750,0",9,Lv 9 Serat Perunggu#97,512,226,9,9
-homeresource-98,116,240,5,homeresource-98,98,"60,900,0;61,0,0;62,0,0;63,1080,0;76,6750,0",9,Lv 9 Serat Perunggu#98,512,226,9,9
-homeresource-99,117,240,6,homeresource-99,99,"60,0,0;61,900,0;62,0,0;63,1080,0;76,6750,0",9,Lv 9 Kayu Perunggu#99,512,226,9,9
-homeresource-100,117,240,6,homeresource-100,100,"60,0,0;61,900,0;62,0,0;63,1080,0;76,6750,0",9,Lv 9 Kayu Perunggu#100,512,226,9,9
-homeresource-101,118,240,7,homeresource-101,101,"60,0,0;61,0,0;62,900,0;63,1080,0;76,6750,0",9,Lv 9 Batu Perunggu#101,512,226,9,9
-homeresource-102,118,240,7,homeresource-102,102,"60,0,0;61,0,0;62,900,0;63,1080,0;76,6750,0",9,Lv 9 Batu Perunggu#102,512,226,9,9
+homeresource-85,92,120,5,homeresource-85,85,"60,700,0;61,0,0;62,0,0;63,750,0;76,5250,0",7,Lv 7 Bunga Lava#85,128,113,7,7
+homeresource-86,92,120,5,homeresource-86,86,"60,700,0;61,0,0;62,0,0;63,750,0;76,5250,0",7,Lv 7 Bunga Lava#86,128,113,7,7
+homeresource-87,93,120,6,homeresource-87,87,"60,0,0;61,700,0;62,0,0;63,750,0;76,5250,0",7,Lv 7 Kayu Api#87,128,113,7,7
+homeresource-88,93,120,6,homeresource-88,88,"60,0,0;61,700,0;62,0,0;63,750,0;76,5250,0",7,Lv 7 Kayu Api#88,128,113,7,7
+homeresource-89,94,120,7,homeresource-89,89,"60,0,0;61,0,0;62,700,0;63,750,0;76,5250,0",7,Lv 7 Lava#89,128,113,7,7
+homeresource-90,94,120,7,homeresource-90,90,"60,0,0;61,0,0;62,700,0;63,750,0;76,5250,0",7,Lv 7 Lava#90,128,113,7,7
+homeresource-91,104,169.7056275,5,homeresource-91,91,"60,800,0;61,0,0;62,0,0;63,855,0;76,6000,0",8,Lv 8 Serat Kosong#91,256,160,8,8
+homeresource-92,104,169.7056275,5,homeresource-92,92,"60,800,0;61,0,0;62,0,0;63,855,0;76,6000,0",8,Lv 8 Serat Kosong#92,256,160,8,8
+homeresource-93,105,169.7056275,6,homeresource-93,93,"60,0,0;61,800,0;62,0,0;63,855,0;76,6000,0",8,Lv 8 Kayu Kosong#93,256,160,8,8
+homeresource-94,105,169.7056275,6,homeresource-94,94,"60,0,0;61,800,0;62,0,0;63,855,0;76,6000,0",8,Lv 8 Kayu Kosong#94,256,160,8,8
+homeresource-95,106,169.7056275,7,homeresource-95,95,"60,0,0;61,0,0;62,800,0;63,855,0;76,6000,0",8,Lv 8 Batu Kosong#95,256,160,8,8
+homeresource-96,106,169.7056275,7,homeresource-96,96,"60,0,0;61,0,0;62,800,0;63,855,0;76,6000,0",8,Lv 8 Batu Kosong#96,256,160,8,8
+homeresource-97,116,240,5,homeresource-97,97,"60,900,0;61,0,0;62,0,0;63,960,0;76,6750,0",9,Lv 9 Serat Perunggu#97,512,226,9,9
+homeresource-98,116,240,5,homeresource-98,98,"60,900,0;61,0,0;62,0,0;63,960,0;76,6750,0",9,Lv 9 Serat Perunggu#98,512,226,9,9
+homeresource-99,117,240,6,homeresource-99,99,"60,0,0;61,900,0;62,0,0;63,960,0;76,6750,0",9,Lv 9 Kayu Perunggu#99,512,226,9,9
+homeresource-100,117,240,6,homeresource-100,100,"60,0,0;61,900,0;62,0,0;63,960,0;76,6750,0",9,Lv 9 Kayu Perunggu#100,512,226,9,9
+homeresource-101,118,240,7,homeresource-101,101,"60,0,0;61,0,0;62,900,0;63,960,0;76,6750,0",9,Lv 9 Batu Perunggu#101,512,226,9,9
+homeresource-102,118,240,7,homeresource-102,102,"60,0,0;61,0,0;62,900,0;63,960,0;76,6750,0",9,Lv 9 Batu Perunggu#102,512,226,9,9
 homeresource-103,0,0,16,homeresource-103,103,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",1,#103,2,0,999,0
