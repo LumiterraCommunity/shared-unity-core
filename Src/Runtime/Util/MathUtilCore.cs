@@ -25,6 +25,12 @@ public static class MathUtilCore
     /// 整形转千分位
     /// </summary>
     public static readonly float I2T = 1f / T2I;
+
+    /// <summary>
+    /// 万分率
+    /// </summary>
+    public static readonly float WM = 1 / 10000f;
+
     /// <summary>
     /// 千分率
     /// </summary>
