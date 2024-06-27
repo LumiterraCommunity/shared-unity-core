@@ -91,6 +91,12 @@ public class SkillEffectBase : IReference
     public bool IsAdd { get; private set; }
 
     /// <summary>
+    /// 状态类型
+    /// </summary> 
+
+    public eSEStatusType StatusType;
+
+    /// <summary>
     /// 设置效果数据
     /// </summary>
     /// <param name="skillID">技能ID</param>
@@ -175,6 +181,7 @@ public class SkillEffectBase : IReference
         NextIntervalTime = 0;
         InputData = null;
         IsAdd = false;
+        StatusType = eSEStatusType.Runtime;
     }
     /// <summary>
     /// 添加后执行第一次

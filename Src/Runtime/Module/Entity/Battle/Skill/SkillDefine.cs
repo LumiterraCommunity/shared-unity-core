@@ -27,3 +27,10 @@ public enum eSkillGroupType : int
     Pet = 9,        // 宠物技能组
     Item,           //道具技能组
 }
+
+public enum eSEStatusType
+{
+    Runtime,
+    Static, //静态效果，不会进行刷新。节省性能开销
+    StaticUpdate, //静态效果，但是需要刷新
+}
