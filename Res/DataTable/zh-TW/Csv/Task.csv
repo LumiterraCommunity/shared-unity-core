@@ -32,12 +32,12 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}",在種下種子之後，需要耐心地澆水三到四次，直到它們成熟。一旦它們準備好了，你可以靠近它們進行收穫。之後，去找西拉斯。他需要那些東西。,0,"3,261",25,0,13,耐心澆灌和收穫,,24,,
 "{""options"":[{""optionType"":15,""value"":""245,1"",""guiderPoint"":0},{""optionType"":3,""value"":""207,1"",""guiderPoint"":0}]}",打開採集製作介面並提煉一瓶採集精華。在此之前，你需要獲得足夠的材料。,0,"3,261",26,0,32,職業的精華,,27,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501}]}","獲取5個普通木材。
-獲取5塊石頭。",0,"3,261",27,0,43,多采點東西,,25,,
+獲取5塊石頭。",0,"3,261",27,0,0,多采點東西,,25,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",獲取5個普通木材和5個纖維，製作一把鐵質鎬子。,0,"3,261",28,0,44,製作一把鐵鎬,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","你已經學會了如何升級天賦樹和製作裝備，嘗試收集一些更高級的材料：
 獲取一塊黑鐵礦石。
 獲取一棵沙漠樹。
-獲取一個冰原菇。",0,"3,261",29,0,42,更高級的挑戰,,28,,
+獲取一個冰原菇。",0,"3,261",29,0,0,更高級的挑戰,,28,,
 "{""options"":[{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}","根據最新情報：
 仙人掌戰士 - 具有很高的防禦力，使用重型攻擊可以突破它的防禦。
 南瓜惡魔 - 擁有遠程技能，使用踐踏技能可以使其無法使用遠程技能。",0,"2,261",30,0,40,教訓一下他們,,217,,
@@ -45,7 +45,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","你已經學會了如何升級天賦樹和製作裝備，嘗試擊敗更強大的怪物：
 擊敗一只嗡嗡蜂。
 擊敗一只礦礦貓。
-擊敗一只葉狀潛伏者。",0,"2,261",33,0,41,更高級的挑戰,,32,,
+擊敗一只葉狀潛伏者。",0,"2,261",33,0,0,更高級的挑戰,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",打開你的天賦樹並切換到農業樹。在最右邊升級你的捕捉技能節點。,0,"1,261",34,0,35,學會捕捉技能,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","[64]透過捕捉技能捕捉金屬狗和南瓜惡魔。
 回到家中，使用刷子撫摸你的寵物，獲得足夠的螺絲和南瓜嫩芽。
@@ -54,7 +54,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","你已經學會了如何升級天賦樹和製作裝備，試著種植更高級的種子吧：
 種植棉花種子。
 種植豬籠草種子。
-種植忍耐果實種子。",0,"1,261",36,0,39,更高級的挑戰,,162,,
+種植忍耐果實種子。",0,"1,261",36,0,0,更高級的挑戰,,162,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所買點東西。,0,"1,117;2,117;3,117",37,0,0,交易1,,"33,29,36",,
 ,怪物正在肆虐。去消滅它們吧。,0,"2,84",38,1,138,日常-戰鬥-1,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,怪物正在肆虐。去消滅它們吧。,0,"2,118",39,1,139,日常-戰鬥-2,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
