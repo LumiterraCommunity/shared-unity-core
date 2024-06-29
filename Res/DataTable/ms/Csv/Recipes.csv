@@ -6,7 +6,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0, Membuat Cangkul Terkutuk Tahap 2 ,2,recipe-icon-63,63,2,"216,2;208,2", Tahap 2 Resipi Cangkul Terkutuk ,"81,1,1,10000",1,0,10800063,1,10,-,1,0,4,0,0
 0, Membuat Cangkul yang Diberkati Tahap 3 ,2,recipe-icon-64,64,3,"217,2;209,2", Tahap 3 Resipi Cangkul yang Diberkati ,"82,1,1,10000",1,0,10700064,1,10,-,1,0,4,0,0
 0, Membuat Cerek Besi Tahap 1 ,2,recipe-icon-66,66,1,"207,2", Tahap 1 Resipi Cerek Besi ,"84,1,1,10000",1,0,10900066,1,10,-,1,0,4,0,0
-0, Membuat Cerek Terkutuk Tahap 2 ,2,recipe-icon-67,67,2,"216,2;208,2", Tahap 2 Resipi Cerek Terkutuk ,"85,2,1,4000;84,1,1,6000",1,0,50800067,1,10,-,1,0,4,0,0
+0, Membuat Cerek Terkutuk Tahap 2 ,2,recipe-icon-67,67,2,"216,2;208,2", Tahap 2 Resipi Cerek Terkutuk ,"85,2,1,4000;85,1,1,6000",1,0,50800067,1,10,-,1,0,4,0,0
 0, Membuat Cerek yang Diberkati Tahap 3 ,2,recipe-icon-68,68,3,"217,2;209,2", Tahap 3 Resipi Cerek yang Diberkati ,"86,1,1,10000",1,0,10700068,1,10,-,1,0,4,0,0
 0, Membuat Beliung Besi Tahap 1 ,2,recipe-icon-70,70,1,"216,2", Tahap 1 Resipi Beliung Besi ,"88,1,1,10000",1,0,10900070,1,10,-,3,0,4,0,0
 0, Membuat Beliung Terkutuk Tahap 2 ,2,recipe-icon-71,71,2,"210,1;213,1;217,2", Tahap 2 Resipi Beliung Terkutuk ,"89,1,1,6000;89,2,1,4000",1,0,50800071,1,10,-,3,0,4,0,0
@@ -401,23 +401,23 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Ubahsuai semula Pedang Berlian Anda,2,recipe-icon-582,582,5,"318,1;410,1;407,1", Pemprosesan Semula Pedang Berlian Tahap 5,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",1,0,50500582,1,10,-,2,0,4,0,15
 0,Ubahsuai semula Palu Cahaya Bintang Anda,2,recipe-icon-583,583,6,"446,1;411,1;408,1", Perubahan semula Tukul Cahaya Bintang Lv 6,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",1,0,50400583,1,10,-,2,0,4,0,20
 2,Resipi Slime Tenaga Pengumpulan Tahap 2,2,recipe-icon-585,585,2,"482,1;33,4;34,4;35,4", Tahap 2 Resipi Slime Tenaga Pertempuran,"483,1,1,10000",4,0,20800585,1,3,-,2,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 6,2,recipe-icon-586,586,6,"486,1;400,4;399,4;390,4", Tahap 6 Resipi Slime Tenaga Pertanian,"487,1,1,10000",4,0,20400586,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 5,2,recipe-icon-587,587,5,"485,1;386,4;397,4;387,4", Tahap 5 Resipi Slime Tenaga Pertanian,"486,1,1,10000",4,0,20500587,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 6,2,recipe-icon-586,586,6,"486,1;400,4;399,4;398,4", Tahap 6 Resipi Slime Tenaga Pertanian,"487,1,1,10000",4,0,20400586,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 5,2,recipe-icon-587,587,5,"485,1;386,4;387,4;388,4", Tahap 5 Resipi Slime Tenaga Pertanian,"486,1,1,10000",4,0,20500587,1,3,-,1,0,4,0,0
 1,Resipi Slime Tenaga Pengumpulan Tahap 1,2,recipe-icon-588,588,1,"30,4;31,4;32,4", Tahap 1 Resipi Slime Tenaga Pertempuran,"482,1,1,10000",4,0,20900588,1,3,-,2,0,4,0,0
 5,Resipi Slime Tenaga Pengumpulan Tahap 5,2,recipe-icon-589,589,5,"485,1;370,4;368,4;369,4", Tahap 5 Resipi Slime Tenaga Pertempuran,"486,1,1,10000",4,0,20500589,1,3,-,2,0,4,0,0
 4,Resipi Slime Tenaga Pengumpulan Tahap 4,2,recipe-icon-590,590,4,"484,1;365,4;366,4;367,4", Tahap 4 Resipi Slime Tenaga Pertempuran,"485,1,1,10000",4,0,20600590,1,3,-,2,0,4,0,0
 0,Resipi Slime Tenaga Tempur Lv 1,2,recipe-icon-591,591,1,"177,4;178,4;179,4", Tahap 1 Resipi Slime Tenaga Pertanian,"482,1,1,10000",4,0,20900591,1,3,-,1,0,4,0,0
 3,Resipi Slime Tenaga Pengumpulan Tahap 3,2,recipe-icon-592,592,3,"483,1;38,4;37,4;36,4", Tahap 3 Resipi Slime Tenaga Pertempuran,"484,1,1,10000",4,0,20700592,1,3,-,2,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 2,2,recipe-icon-593,593,2,"482,1;180,4;75,4;181,4", Tahap 2 Resipi Slime Tenaga Pertanian,"483,1,1,10000",4,0,20800593,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 4,2,recipe-icon-594,594,4,"484,1;392,4;394,4;385,4", Tahap 4 Resipi Slime Tenaga Pertanian,"485,1,1,10000",4,0,20600594,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 2,2,recipe-icon-593,593,2,"482,1;180,4;181,4;182,4", Tahap 2 Resipi Slime Tenaga Pertanian,"483,1,1,10000",4,0,20800593,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 4,2,recipe-icon-594,594,4,"484,1;392,4;394,4;393,4", Tahap 4 Resipi Slime Tenaga Pertanian,"485,1,1,10000",4,0,20600594,1,3,-,1,0,4,0,0
 6,Resipi Slime Tenaga Pengumpulan Tahap 6,2,recipe-icon-595,595,6,"486,1;371,4;373,4;372,4", Tahap 6 Resipi Slime Tenaga Pertempuran,"487,1,1,10000",4,0,20400595,1,3,-,2,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 3,2,recipe-icon-596,596,3,"483,1;78,4;183,4;185,4", Tahap 3 Resipi Slime Tenaga Pertanian,"484,1,1,10000",4,0,20700596,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 3,2,recipe-icon-596,596,3,"483,1;183,4;185,4;184,4", Tahap 3 Resipi Slime Tenaga Pertanian,"484,1,1,10000",4,0,20700596,1,3,-,1,0,4,0,0
 0,Resipi Slime Tenaga Tempur Lv 1,2,recipe-icon-597,597,1,"70,4;72,4;71,4", Tahap 1 Resipi Slime Tenaga Pertanian,"482,1,1,10000",4,0,20900597,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 2,2,recipe-icon-598,598,2,"482,1;73,4;182,4;74,4", Tahap 2 Resipi Slime Tenaga Pertanian,"483,1,1,10000",4,0,20800598,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 3,2,recipe-icon-599,599,3,"483,1;77,4;184,4;76,4", Tahap 3 Resipi Slime Tenaga Pertanian,"484,1,1,10000",4,0,20700599,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 4,2,recipe-icon-600,600,4,"484,1;383,4;384,4;393,4", Tahap 4 Resipi Slime Tenaga Pertanian,"485,1,1,10000",4,0,20600600,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 5,2,recipe-icon-601,601,5,"485,1;396,4;388,4;395,4", Tahap 5 Resipi Slime Tenaga Pertanian,"486,1,1,10000",4,0,20500601,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 6,2,recipe-icon-602,602,6,"486,1;398,4;389,4;391,4", Tahap 6 Resipi Slime Tenaga Pertanian,"487,1,1,10000",4,0,20400602,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 2,2,recipe-icon-598,598,2,"482,1;73,4;74,4;75,4", Tahap 2 Resipi Slime Tenaga Pertanian,"483,1,1,10000",4,0,20800598,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 3,2,recipe-icon-599,599,3,"483,1;77,4;76,4;78,4", Tahap 3 Resipi Slime Tenaga Pertanian,"484,1,1,10000",4,0,20700599,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 4,2,recipe-icon-600,600,4,"484,1;383,4;384,4;385,4", Tahap 4 Resipi Slime Tenaga Pertanian,"485,1,1,10000",4,0,20600600,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 5,2,recipe-icon-601,601,5,"485,1;396,4;395,4;397,4", Tahap 5 Resipi Slime Tenaga Pertanian,"486,1,1,10000",4,0,20500601,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 6,2,recipe-icon-602,602,6,"486,1;389,4;391,4;390,4", Tahap 6 Resipi Slime Tenaga Pertanian,"487,1,1,10000",4,0,20400602,1,3,-,1,0,4,0,0
 0, Anda mungkin akan menerima ganjaran berikut:300 LUAG 20%200 LUAG 30%100 LUAG 50%,2,recipe-icon-604,604,0,"480,5",Pertukaran LUAG,"478,1,6,6250;478,1,10,3750;478,1,20,",4,0,51000604,1,3,80,0,0,4,0,160
 1,Resipi Pemulihan Tenaga Minuman Tahap 1,2,recipe-icon-605,605,1,"482,1;479,1", Resipi Pemulihan Tenaga Potion Tahap 1,"709,1,3,5000;709,1,4,5000",3,0,50900605,1,3,-,3,0,4,0,0
 2,Resipi Pemulihan Tenaga Minuman Tahap 2,2,recipe-icon-606,606,2,"483,1;479,1", Resipi Pemulihan Tenaga Potion Tahap 2,"710,1,3,10000",3,0,40800606,1,3,-,3,0,4,0,0
@@ -430,7 +430,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 9, Resipi Minuman Pemulihan Tenaga Tahap 9,2,recipe-icon-613,613,9,"490,1;479,1", Resipi Minuman Pemulihan Tenaga Tahap 9,"717,1,3,10000",3,0,40100613,1,3,-,3,0,4,0,0
 7,Resipi Slime Tenaga Pengumpulan Tahap 7,2,recipe-icon-614,614,7,"487,1;491,4;492,4;493,4", Tahap 7 Resipi Slime Tenaga Pertempuran,"488,1,1,10000",4,0,20300614,1,3,-,2,0,4,0,0
 8,Resipi Slime Tenaga Pengumpulan Tahap 8,2,recipe-icon-615,615,8,"488,1;503,4;504,4;505,4",Peringkat 8 Resipi Slime Tenaga Pertempuran,"489,1,1,10000",4,0,20200615,1,3,-,2,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 9,2,recipe-icon-616,616,9,"489,1;521,4;522,4;524,4",Peringkat 9 Resipi Slime Tenaga Pertanian,"490,1,1,10000",4,0,20100616,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 9,2,recipe-icon-616,616,9,"489,1;521,4;522,4;523,4",Peringkat 9 Resipi Slime Tenaga Pertanian,"490,1,1,10000",4,0,20100616,1,3,-,1,0,4,0,0
 0,Resipi Slime Tenaga Tempur Lv 7,2,recipe-icon-617,617,7,"487,1;498,4;497,4;499,4",Peringkat 7 Resipi Slime Tenaga Pertanian,"488,1,1,10000",4,0,20300617,1,3,-,1,0,4,0,0
 0,Resipi Slime Tenaga Pertanian Tahap 8,2,recipe-icon-618,618,8,"488,1;506,4;508,4;507,4",Peringkat 8 Resipi Slime Tenaga Pengumpulan,"489,1,1,10000",4,0,20200618,1,3,-,3,0,4,0,0
 9,Resipi Slime Tenaga Pengumpulan Tahap 9,2,recipe-icon-619,619,9,"489,1;515,4;516,4;517,4",Peringkat 9 Resipi Slime Tenaga Pertempuran,"490,1,1,10000",4,0,20100619,1,3,-,2,0,4,0,0
@@ -439,7 +439,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Resipi Slime Tenaga Pertanian Tahap 9,2,recipe-icon-622,622,9,"489,1;518,4;519,4;520,4",Peringkat 9 Resipi Slime Tenaga Pengumpulan,"490,1,1,10000",4,0,20100622,1,3,-,3,0,4,0,0
 0,Resipi Slime Tenaga Pertanian Tahap 7,2,recipe-icon-623,623,7,"487,1;494,4;495,4;496,4",Peringkat 7 Resipi Slime Tenaga Pengumpulan,"488,1,1,10000",4,0,20300623,1,3,-,3,0,4,0,0
 0,Resipi Slime Tenaga Tempur Lv 8,2,recipe-icon-624,624,8,"488,1;513,4;512,4;514,4",Peringkat 8 Resipi Slime Tenaga Pertanian,"489,1,1,10000",4,0,20200624,1,3,-,1,0,4,0,0
-0,Resipi Slime Tenaga Tempur Lv 9,2,recipe-icon-625,625,9,"489,1;523,4;525,4;526,4",Peringkat 9 Resipi Slime Tenaga Pertanian,"490,1,1,10000",4,0,20100625,1,3,-,1,0,4,0,0
+0,Resipi Slime Tenaga Tempur Lv 9,2,recipe-icon-625,625,9,"489,1;525,4;526,4;524,4",Peringkat 9 Resipi Slime Tenaga Pertanian,"490,1,1,10000",4,0,20100625,1,3,-,1,0,4,0,0
 0, Resipi Intipati Pertempuran Tahap 7,2,recipe-icon-626,626,7,"491,5;492,5;493,5;403,2",Peringkat 7 Resipi Pati Pertempuran,"602,1,1,10000",4,0,20300626,1,10,-,2,0,4,0,0
 0, Resipi Intipati Pertempuran Tahap 8,2,recipe-icon-627,627,8,"602,2;503,5;504,5;505,5",Peringkat 8 Resipi Pati Pertempuran,"603,1,1,10000",4,0,20200627,1,10,-,2,0,4,0,0
 0, Resipi Intipati Pertempuran Tahap 9,2,recipe-icon-628,628,9,"603,2;515,5;516,5;517,5",Peringkat 9 Resipi Pati Pertempuran,"604,1,1,10000",4,0,20100628,1,10,-,2,0,4,0,0
