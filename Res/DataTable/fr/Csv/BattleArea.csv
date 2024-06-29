@@ -1,42 +1,42 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,1,0,Ville,1
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,2,0,Ville environnante,1
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),3,0,Montagne enneigée,2
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),4,0,Zone de combat PvE,2
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,5,0,Maison,1
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,6,0,Plage,1
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,7,0,Forêt rouge,1
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),8,0,Forêt noire,2
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,9,0,Désert tempétueux,1
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,10,0,Canyon,1
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),11,0,Statue du poisson héroïque,2
-0,"30,20,15",5,"30,10,5",Peine de mort modérée (pourcentage des objets du sac à dos),12,1,Cimetière,3
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),13,0,Repos de l'âme,2
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),14,0,Montagne du lac céleste,2
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,15,0,Autel central,1
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),16,0,Autel environnant,2
-0,"30,20,10",3,"30,10,5",Légère peine de mort (pourcentage des objets du sac à dos),17,0,Plaine de glace,2
-0,"30,20,15",5,"30,10,5",Peine de mort modérée (pourcentage des objets du sac à dos),18,1,Profondeurs de la plaine de glace,3
-0,"0,0,0",2,"0,0,0",Pas de peine de mort,19,0,Nature sauvage,1
-1,"30,20,25",7,"30,10,5",Peine de mort lourde (pourcentage des objets du sac à dos),20,1,Arène novice 1/3,3
-2,"30,20,25",7,"30,10,5",Peine de mort lourde (pourcentage des objets du sac à dos),21,1,Arène novice 2/3,3
-3,"30,20,25",7,"30,10,5",Peine de mort lourde (pourcentage des objets du sac à dos),22,1,Arène novice 3/3,3
-1,"30,20,25",7,"30,10,5",Peine de mort lourde (pourcentage des objets du sac à dos),23,1,Arène intermédiaire 1/3,3
-2,"30,20,25",7,"30,10,5",Peine de mort lourde (pourcentage des objets du sac à dos),24,1,Arène intermédiaire 2/3,3
-3,"30,20,25",7,"30,10,5",Peine de mort lourde (pourcentage des objets du sac à dos),25,1,Arène intermédiaire 3/3,3
-1,"30,20,25",7,"30,10,5",Lourde Pénalité de Mort (Pourcentage des objets du sac à dos),26,1, Arène avancée 1/3,3
-2,"30,20,25",7,"30,10,5",Lourde Pénalité de Mort (Pourcentage des objets du sac à dos),27,1, Arène avancée 2/3,3
-3,"30,20,25",7,"30,10,5",Lourde Pénalité de Mort (Pourcentage des objets du sac à dos),28,1, Arène avancée 3/3,3
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,29,0, Camp de matchmaking,1
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,30,0,Autel de résurrection,1
-0,"30,20,10",3,"30,10,5",Légère Pénalité de Mort (Pourcentage des objets du sac à dos),31,0,Défi,2
-0,"30,20,10",3,"30,10,5",Légère Pénalité de Mort (Pourcentage des objets du sac à dos),32,0,Domaine ancien - Volcan,2
-0,"30,20,10",3,"30,10,5",Légère Pénalité de Mort (Pourcentage des objets du sac à dos),33,0,Domaine ancien - Creux,2
-0,"30,20,10",3,"30,10,5",Légère Pénalité de Mort (Pourcentage des objets du sac à dos),34,0,Domaine ancien - Relique,2
-0,"30,20,10",3,"30,10,5",Légère Pénalité de Mort (Pourcentage des objets du sac à dos),35,0,Sauvage,2
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,36,0,Le Pont,1
-0,"30,20,15",5,"30,10,5",Pénalité de Mort Modérée (Pourcentage des objets du sac à dos),37,1,Colisée,3
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,38,0, Défi quotidien,1
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,39,1,Terrain d'entraînement 1/3,3
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,40,1,Terrain d'entraînement 2/3,3
-0,"0,0,0",2,"0,0,0",Pas de Pénalité de Mort,41,1,Terrain d'entraînement 3/3,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,1,0,Ville,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,2,0,Ville environnante,1
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),3,0,Montagne enneigée,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),4,0,Zone de combat PvE,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,5,0,Maison,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,6,0,Plage,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,7,0,Forêt rouge,1
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),8,0,Forêt noire,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,9,0,Désert tempétueux,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,10,0,Canyon,1
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),11,0,Statue du poisson héroïque,2
+0,"30,20,15",5,"30,10,5",Moderate Death Penalty(Percentage of backpack items),12,1,Cimetière,3
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),13,0,Repos de l'âme,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),14,0,Montagne du lac céleste,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,15,0,Autel central,1
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),16,0,Autel environnant,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),17,0,Plaine de glace,2
+0,"30,20,15",5,"30,10,5",Moderate Death Penalty(Percentage of backpack items),18,1,Profondeurs de la plaine de glace,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,19,0,Nature sauvage,1
+1,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),20,1,Arène novice 1/3,3
+2,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),21,1,Arène novice 2/3,3
+3,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),22,1,Arène novice 3/3,3
+1,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),23,1,Arène intermédiaire 1/3,3
+2,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),24,1,Arène intermédiaire 2/3,3
+3,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),25,1,Arène intermédiaire 3/3,3
+1,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),26,1, Arène avancée 1/3,3
+2,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),27,1, Arène avancée 2/3,3
+3,"30,20,25",7,"30,10,5",Heavy Death Penalty(Percentage of backpack items),28,1, Arène avancée 3/3,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,29,0, Camp de matchmaking,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,30,0,Autel de résurrection,1
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),31,0,Défi,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),32,0,Domaine ancien - Volcan,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),33,0,Domaine ancien - Creux,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),34,0,Domaine ancien - Relique,2
+0,"30,20,10",3,"30,10,5",Slight Death Penalty(Percentage of backpack items),35,0,Sauvage,2
+0,"0,0,0",2,"0,0,0",No Death Penalty,36,0,Le Pont,1
+0,"30,20,15",5,"30,10,5",Moderate Death Penalty(Percentage of backpack items),37,1,Colisée,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,38,0, Défi quotidien,1
+0,"0,0,0",2,"0,0,0",No Death Penalty,39,1,Terrain d'entraînement 1/3,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,40,1,Terrain d'entraînement 2/3,3
+0,"0,0,0",2,"0,0,0",No Death Penalty,41,1,Terrain d'entraînement 3/3,3
