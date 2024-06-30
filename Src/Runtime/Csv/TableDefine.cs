@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -97,6 +97,7 @@ public enum eGameValueID
     AllEnergyItemIds = 80, //所有精力道具列表
     InstancingTotemScoreTax = 83,     //副本图腾积分扣税
     FollowPetCastSkillHungerCost = 84,     //跟随宠释放技能饥饿度消耗
+    TalentTaskAbilityLvLimit = 89, //天赋任务等级限制
 }
 
 // public static class GameValueID
