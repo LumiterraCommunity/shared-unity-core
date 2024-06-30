@@ -1,5 +1,5 @@
 canInvest-bool,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-int[],respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,worldDropProbability-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],dropRewardShow-int[],seedMaxLimit-int[]
-0,10001,0,"0,999",HomeSceneLoading.jpg,"4000,4000,4000,4000,4000,4000,4000,4000,4000,4000",0,0,WorldScene,1,1,0,2000,,,,,,,,,,,,"空
+0,10001,0,"0,999",HomeSceneLoading.jpg,"4000,4000,4000,4000,4000,4000,4000,4000,4000,4000",0,0,WorldScene,1,1,0,1850,,,,,,,,,,,,"空
 ",空の,"空
 ",,,,,,
 0,10002,0,"0,999",HomeSceneLoading.jpg,,0,0,HomeScene,1,2,0,10000,3,,,,,,,,,,,"空
