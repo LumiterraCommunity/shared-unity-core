@@ -48,7 +48,7 @@ public class SEAddEntityCore : SkillEffectBase
                 continue;
             }
 
-            ResourcesPointData resourcesPointData = new();
+            SummonResourcesPointData resourcesPointData = new();
             resourcesPointData.ResourceType = EffectCfg.Parameters2[i][0];
             resourcesPointData.ConfigId = EffectCfg.Parameters2[i][1];
             resourcesPointData.UpdateInterval = EffectCfg.Parameters2[i][2];
@@ -62,6 +62,7 @@ public class SEAddEntityCore : SkillEffectBase
             resourcesPointData.X = targetPos.x;
             resourcesPointData.Y = targetPos.y;
             resourcesPointData.Z = targetPos.z;
+            resourcesPointData.FromID = fromEntity.BaseData.Id;
             PointDataList.Add(resourcesPointData);
         }
         return effect;
