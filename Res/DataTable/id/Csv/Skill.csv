@@ -403,27 +403,27 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",1000,2,21, Sihir Pendarahan Rabbit Wizard,,,1,0,1,,1000,,,,,,1,,,,,,,
 0,0,0,,0,1,"467,475",1166,408,1,1,0,1,0,0,0,1,attack,skill_TreeFlying,Skill_ForestLord_Attack,,2700,1,0,"Kosong
 ",1000,2,0, Terbangnya Pohon,"2,300,0",,3,0,1,,1000,467,,,,top_down_Normal_3,,,476,,,,,
-0,0,0,,0,1,467,1000,409,1,1,0,1,0,1,0,1,attackArea,,Skill_ForestLord_AttackArea,,2833,1,30000,"Kosong
+0,0,0,,0,1,467,1000,409,1,1,0,1,0,1,0,1,attackArea,,Skill_ForestLord_AttackArea,,2833,1;2,30000,"Kosong
 ",1000,2,22, Hati-hati dengan pantatmu,"2,300,0",,1,0,1,,1000,"489,482,490",,,,top_down_Normal_3,4,,,,,,,
 0,0,0,,0,,467,400,410,1,1,0,1,0,0,0,1,attack,,Skill_ArcticLord_Attack,,1266,1,2000,"Kosong
 ",1000,2,0, Biarkan aku menggigit,,,1,0,1,,1000,"467,472,501",,,,top_down_Cuboid,,,477,,,,,
-0,0,0,,0,"471,388",467,1000,411,1,1,0,1,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,1,60000,"Kosong
+0,0,0,,0,"471,388",467,1000,411,1,1,0,1,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,1;2,60000,"Kosong
 ",1000,2,23, Kemarahan Husky,"4,800,600,36000,0",,1,0,1,,1000,"467,496",,,,top_down_MoonFalling,4,,,,,,,
 0,0,0,,0,,"467,469",0,412,1,1,0,1,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,1,2000,"Kosong
 ",1000,2,0, Menusuk,,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,,,,,,
 0,0,0,,0,"471,386,3",467,1000,413,1,1,0,1,0,0,0,1,attackArea,Skill_GroundEletric_Instancer,Skill_SoulLord_AttackArea,,2000,1,3000,"Kosong
 ",600,2,0, Memasukkan,"2,600,0",,1,0,1,,1000,,,,,top_down_Normal_6,,,,,,,,
-0,0,0,,0,"35,388",467,0,414,1,1,0,1,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,1,60000,"Kosong
+0,0,0,,0,"35,388",467,0,414,1,1,0,1,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,1;2,60000,"Kosong
 ",1000,2,24, Petir dengan menggosok tangan saya.,"2,300,0",,1,0,1,,1000,"497,485",,,,top_down_Normal_3,4,,478,,,,,
 0,0,0,,0,,,200,415,0,0,0,1,1,0,0,0,happy,,Skil_LovelyTouch,,660,1,30000," Sementara meningkatkan Kapasitas Kebahagiaan Hewan Peliharaan.
 ",,2,0,Sentuhan Manis,,,1,0,,,1000,470,skill-icon-415,,,,,,,,,,,
 0,0,0,,0,"15,456,446",463,1700,417,1,1,0,1,0,0,0,1,skill,Skill_SkeletonCap_Attack,Skill_SkeletonCaptain_AttackArea,,2333,1,4000,"Kosong
 ",500,2,0, Serangan jarak jauh Skeleton Captain,"4,300,400,18000,0",,1,0,1,,1000,,,,,top_down_Normal_Half_4,,,,,,,,
-0,0,0,,0,1,467,1000,422,1,1,0,1,0,1,0,1,attackArea,,Skill_FroestLord_AttackArea,,2833,1,12000,"Kosong
+0,0,0,,0,1,467,1000,422,1,1,0,1,0,1,0,1,attackArea,,Skill_FroestLord_AttackArea,,2833,1;2,12000,"Kosong
 ",1000,2,22,Hati-hati dengan pantatmu,"2,300,0",,1,0,1,,1000,"489,490",,,,top_down_Normal_3,2,,,,,,,
-0,0,0,,0,"471,388",467,1000,423,1,1,0,1,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,1,12000,"Kosong
+0,0,0,,0,"471,388",467,1000,423,1,1,0,1,0,1,0,1,attackArea,,Skill_ArcticLord_AttackArea,,2000,1;2,12000,"Kosong
 ",1000,2,23,Kemarahan Husky,"4,800,600,36000,0",,1,0,1,,1000,467,,,,top_down_MoonFalling,2,,,,,,,
-0,0,0,,0,"35,388",467,0,424,1,1,0,1,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,1,12000,"Kosong
+0,0,0,,0,"35,388",467,0,424,1,1,0,1,0,1,0,1,attackRange,,Skill_FrostyLord_Attack,,2800,1;2,12000,"Kosong
 ",1000,2,24,Petir dengan menggosok tanganku,"2,300,0",,1,0,1,,1000,499,,,,top_down_Normal_3,2,,481,,,,,
 0,0,0,,0,,"467,469",0,425,1,1,0,1,0,0,0,1,attack,Skill_Rush_Big,Skill_SoulLord_Attack,,1333,1,4000,"Kosong
 ",1000,2,0,Menyengat,,,1,0,1,,1000,472,,,,top_down_Cuboid_20,,,479,,,,,
@@ -592,5 +592,5 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,608,333,554,0,0,0,1,0,0,0,0,flash,Skillll_flash,,,1333,2,,,,2,0,,,,1,0,2,,1000,,,,,,,,,,,,,
 0,0,0,,0,,22,,555,0,0,0,1,0,0,0,0,A-1baoqi,,,,,1;2,,,,2,0,,,,1,0,2,,1000,678,,,,,,,,,,,,
 0,0,0,,0,,22,,557,0,0,0,1,0,0,0,0,A-1baoqi,,,,,1;2,,,,2,0,,,,1,0,2,,1000,679,,,,,,,,,,,,
-0,0,0,,0,,467,1666,558,0,0,0,1,0,0,0,0,devout,Skill_rain,,,2000,1;2,,,,2,0,,"4,300,1400,36000,0",,1,0,1,,1000,680,,,,,,,,,,,,
-0,0,0,,0,681,570,1400,559,0,0,0,0,0,0,0,0,halfMoonSlash,Skill_halfMoonSlash,,,1666,1;2,,,,2,0,,"4,300,1000,21000,0",,1,0,1,,1000,,,,,,,,,,,,,
+0,0,0,,0,,467,1666,558,0,0,0,1,0,0,0,0,devout,Skill_rain,,,2000,1;2,,,,2,0,,"4,300,700,36000,0",,1,0,1,,1000,680,,,,,,,,,,,,
+0,0,0,,0,681,467,1400,559,0,0,0,0,0,0,0,0,halfMoonSlash,Skill_halfMoonSlash,,,1666,1;2,,,,2,0,,"4,300,1000,21000,0",,1,0,1,,1000,,,,,,,,,,,,,
