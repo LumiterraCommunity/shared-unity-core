@@ -143,7 +143,7 @@ describe-string,id-int,module-string,value-string
 ,20070020,登录,Por favor selecciona el servidor primero
 ,20070021,登录,Nombre no válido.
 ,20070022,,Cargando servicios
-,20070023,,
+,20070023,,Los nombres contienen palabras sensibles.
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -173,9 +173,9 @@ describe-string,id-int,module-string,value-string
 ,20090022,任务,El número de actualizaciones manuales ha alcanzado el límite máximo
 ,20090023,,Habla con {0}
 ,20090024,,Captura {0}
-,20090025,,Completa el capítulo {0} de {1}
+,20090025,,Completar el capítulo {0} en {1}
 ,20090026,,Recibes una tarea de ficha
-,20090027,,
+,20090027,,Nivel de habilidad insuficiente
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
