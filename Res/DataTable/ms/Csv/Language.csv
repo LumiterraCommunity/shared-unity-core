@@ -143,7 +143,7 @@ describe-string,id-int,module-string,value-string
 ,20070020,登录, Sila pilih pelayan terlebih dahulu
 ,20070021,登录,Nama tidak sah.
 ,20070022,,Perkhidmatan Pemuatan
-,20070023,,
+,20070023,,Nama mengandungi perkataan sensitif.
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -173,9 +173,9 @@ describe-string,id-int,module-string,value-string
 ,20090022,任务,Bilangan penyegaran manual telah mencapai had atas
 ,20090023,,Bercakap dengan {0}
 ,20090024,,Menangkap {0}
-,20090025,,Selesaikan bab {0} daripada {1}
+,20090025,,Selesaikan bab {0} dalam {1}
 ,20090026,,Anda menerima tugas token
-,20090027,,
+,20090027,,Tahap Kemahiran Tidak Cukup
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Pertanian 

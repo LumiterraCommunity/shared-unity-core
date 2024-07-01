@@ -143,7 +143,7 @@ describe-string,id-int,module-string,value-string
 ,20070020,登录,Veuillez d'abord sélectionner le serveur 
 ,20070021,登录,Nom invalide.
 ,20070022,,Chargement des services
-,20070023,,
+,20070023,,Les noms contiennent des mots sensibles.
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -173,9 +173,9 @@ describe-string,id-int,module-string,value-string
 ,20090022,任务,Le nombre de rafraîchissements manuels a atteint la limite supérieure
 ,20090023,,Parlez à {0}
 ,20090024,,Capturez {0}
-,20090025,,Terminez le chapitre {0} de {1}
+,20090025,,Terminer le chapitre {0} dans {1}
 ,20090026,,Vous recevez une tâche de jeton
-,20090027,,
+,20090027,,Niveau de compétence insuffisant
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
