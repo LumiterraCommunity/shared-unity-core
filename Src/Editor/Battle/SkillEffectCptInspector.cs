@@ -26,7 +26,7 @@ namespace SharedCore.Editor
             }
 
             SkillEffectCpt skillEffectCpt = (SkillEffectCpt)target;
-            foreach (KeyValuePair<SkillEffectCpt.eStatusType, List<SkillEffectBase>> item in skillEffectCpt.SkillEffectMap)
+            foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in skillEffectCpt.SkillEffectMap)
             {
                 EditorGUILayout.LabelField(item.Key.ToString(), item.Value.Count.ToString());
                 _ = EditorGUILayout.BeginVertical("box");

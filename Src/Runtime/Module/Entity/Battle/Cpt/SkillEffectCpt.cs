@@ -12,16 +12,9 @@ using UnityGameFramework.Runtime;
 public class SkillEffectCpt : EntityBaseComponent
 {
 
-    public enum eStatusType
-    {
-        Runtime,
-        Static, //静态效果，不会进行刷新。节省性能开销
-        StaticUpdate, //静态效果，但是需要刷新
-    }
-    public Dictionary<eStatusType, List<SkillEffectBase>> SkillEffectMap { get; private set; }
-
+    public Dictionary<eSEStatusType, List<SkillEffectBase>> SkillEffectMap { get; private set; }
+    private readonly Queue<SkillEffectBase> _removeEffectQueue = new(); //需要移除的效果队列
     private int _immuneFlag; //免疫标识
-
     private bool _isNetDirty = true;
     private string _netSaveData;
 
@@ -29,9 +22,9 @@ public class SkillEffectCpt : EntityBaseComponent
     {
         SkillEffectMap = new()
         {
-            { eStatusType.Runtime, new() },
-            { eStatusType.Static, new() },
-            { eStatusType.StaticUpdate, new() }
+            { eSEStatusType.Runtime, new() },
+            { eSEStatusType.Static, new() },
+            { eSEStatusType.StaticUpdate, new() }
         };
     }
 
@@ -57,33 +50,26 @@ public class SkillEffectCpt : EntityBaseComponent
     }
     private void Update()
     {
-        List<SkillEffectBase> runList = SkillEffectMap[eStatusType.Runtime];
+        List<SkillEffectBase> runList = SkillEffectMap[eSEStatusType.Runtime];
         if (runList.Count > 0)
         {
             long curTimeStamp = TimeUtil.GetServerTimeStamp();
-            bool isUpdateImmuneFlag = false;
             for (int i = runList.Count - 1; i >= 0; i--)
             {
                 SkillEffectBase effect = runList[i];
                 if ((effect.DestroyTimestamp > 0 && curTimeStamp >= effect.DestroyTimestamp) || !RefEntity.BattleDataCore.IsLive())
                 {
-                    effect.RemoveEffect();
-                    effect.Dispose();
-                    runList.RemoveAt(i);
-                    isUpdateImmuneFlag = true;
+                    _removeEffectQueue.Enqueue(runList[i]);
                 }
                 else
                 {
                     effect.Update();
                 }
             }
-            if (isUpdateImmuneFlag)
-            {
-                OnSeListUpdated();
-            }
+            UpdateRemoveEffectQueue();
         }
         //静态需要刷新的
-        List<SkillEffectBase> staticUpdateList = SkillEffectMap[eStatusType.StaticUpdate];
+        List<SkillEffectBase> staticUpdateList = SkillEffectMap[eSEStatusType.StaticUpdate];
         if (staticUpdateList.Count > 0)
         {
             for (int i = staticUpdateList.Count - 1; i >= 0; i--)
@@ -121,7 +107,7 @@ public class SkillEffectCpt : EntityBaseComponent
             }
             SkillEffectBase skillBase = GFEntryCore.SkillEffectFactory.CreateOneSkillEffect(saveData.SkillID, saveData.EffectID, saveData.FromID, RefEntity.BaseData.Id, skillEffectCfg.Duration, saveData.CurLayer, saveData.NextIntervalTime);
             skillBase.DestroyTimestamp = saveData.DestroyTimestamp;
-            AddEffectList(skillBase, SkillEffectMap[eStatusType.Runtime]);
+            AddEffectList(skillBase, SkillEffectMap[eSEStatusType.Runtime]);
         }
     }
 
@@ -169,17 +155,20 @@ public class SkillEffectCpt : EntityBaseComponent
             effect.DestroyTimestamp = effect.Duration > 0 ? (TimeUtil.GetServerTimeStamp() + effect.Duration) : -1;
             if (effect.Duration > 0)
             {
-                AddEffectList(effect, SkillEffectMap[eStatusType.Runtime]);
+                effect.StatusType = eSEStatusType.Runtime;
+                AddEffectList(effect, SkillEffectMap[eSEStatusType.Runtime]);
             }
             else
             {
                 if (!effect.IsUpdate)
                 {
-                    AddEffectList(effect, SkillEffectMap[eStatusType.Static]);
+                    effect.StatusType = eSEStatusType.Static;
+                    AddEffectList(effect, SkillEffectMap[eSEStatusType.Static]);
                 }
                 else
                 {
-                    AddEffectList(effect, SkillEffectMap[eStatusType.StaticUpdate]);
+                    effect.StatusType = eSEStatusType.StaticUpdate;
+                    AddEffectList(effect, SkillEffectMap[eSEStatusType.StaticUpdate]);
                 }
             }
 
@@ -211,14 +200,12 @@ public class SkillEffectCpt : EntityBaseComponent
                 }
                 else
                 {
-                    effectList[i].RemoveEffect();
-                    effectList[i].Dispose();
-                    effectList.RemoveAt(i);
+                    _removeEffectQueue.Enqueue(effectList[i]);
                     break;
                 }
             }
         }
-
+        UpdateRemoveEffectQueue();
         //相同施法者的相同buff，刷新层数
         if (oldEffect != null)
         {
@@ -242,7 +229,7 @@ public class SkillEffectCpt : EntityBaseComponent
     //取消某种效果
     public void AbolishSkillEffect(int effectID)
     {
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
@@ -250,19 +237,17 @@ public class SkillEffectCpt : EntityBaseComponent
                 SkillEffectBase effect = effectList[i];
                 if (effect.EffectID == effectID)
                 {
-                    effect.RemoveEffect();
-                    effect.Dispose();
-                    effectList.RemoveAt(i);
+                    _removeEffectQueue.Enqueue(effectList[i]);
                 }
             }
         }
-        OnSeListUpdated();
+        UpdateRemoveEffectQueue();
     }
 
     //取消某种效果
     public void AbolishSkillEffect(int effectID, long fromID)
     {
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
@@ -270,29 +255,24 @@ public class SkillEffectCpt : EntityBaseComponent
                 SkillEffectBase effect = effectList[i];
                 if (effect.EffectID == effectID && effect.FromID == fromID)
                 {
-                    effect.RemoveEffect();
-                    effect.Dispose();
-                    effectList.RemoveAt(i);
+                    _removeEffectQueue.Enqueue(effectList[i]);
                 }
             }
         }
-        OnSeListUpdated();
+        UpdateRemoveEffectQueue();
     }
     public void ClearAllSkillEffect()
     {
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
             {
-                SkillEffectBase effect = effectList[i];
-                effect.RemoveEffect();
-                effect.Dispose();
-                effectList.RemoveAt(i);
+                _removeEffectQueue.Enqueue(effectList[i]);
             }
-            item.Value.Clear();
         }
-        OnSeListUpdated();
+
+        UpdateRemoveEffectQueue();
     }
 
     public void OnSeListUpdated(bool isUpdateImmuneFlag = true)
@@ -311,7 +291,7 @@ public class SkillEffectCpt : EntityBaseComponent
     private void UpdateImmuneFlag()
     {
         _immuneFlag = 0;
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
@@ -325,7 +305,7 @@ public class SkillEffectCpt : EntityBaseComponent
     //获取效果
     public SkillEffectBase GetEffect(int effectID)
     {
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
@@ -343,7 +323,7 @@ public class SkillEffectCpt : EntityBaseComponent
     //获取效果
     public SkillEffectBase GetEffect(int effectID, long fromID)
     {
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
@@ -360,7 +340,7 @@ public class SkillEffectCpt : EntityBaseComponent
     //获取效果
     public SkillEffectBase GetEffectByType(int effectType)
     {
-        foreach (KeyValuePair<eStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
         {
             List<SkillEffectBase> effectList = item.Value;
             for (int i = effectList.Count - 1; i >= 0; i--)
@@ -384,9 +364,9 @@ public class SkillEffectCpt : EntityBaseComponent
         {
             SkillEffectSaveDataConfig config = new()
             {
-                RunTimeList = GetSkillEffectSaveDataList(eStatusType.Runtime, true),
-                StaticList = GetSkillEffectSaveDataList(eStatusType.Static, false),
-                StaticUpdateList = GetSkillEffectSaveDataList(eStatusType.StaticUpdate, false)
+                RunTimeList = GetSkillEffectSaveDataList(eSEStatusType.Runtime, true),
+                StaticList = GetSkillEffectSaveDataList(eSEStatusType.Static, false),
+                StaticUpdateList = GetSkillEffectSaveDataList(eSEStatusType.StaticUpdate, false)
             };
             _netSaveData = config.ToJson();
             _isNetDirty = false;
@@ -395,7 +375,7 @@ public class SkillEffectCpt : EntityBaseComponent
         return _netSaveData;
     }
 
-    private List<SkillEffectSaveData> GetSkillEffectSaveDataList(eStatusType statusType, bool isForce)
+    private List<SkillEffectSaveData> GetSkillEffectSaveDataList(eSEStatusType statusType, bool isForce)
     {
         List<SkillEffectSaveData> saveDataList = new();
         List<SkillEffectBase> effectList = SkillEffectMap[statusType];
@@ -407,5 +387,23 @@ public class SkillEffectCpt : EntityBaseComponent
             }
         }
         return saveDataList;
+    }
+
+    private void UpdateRemoveEffectQueue()
+    {
+        if (_removeEffectQueue.Count <= 0)
+        {
+            return;
+        }
+
+        while (_removeEffectQueue.TryDequeue(out SkillEffectBase effect))
+        {
+            List<SkillEffectBase> effectList = SkillEffectMap[effect.StatusType];
+            _ = effectList.Remove(effect);
+
+            effect.RemoveEffect();
+            effect.Dispose();
+        }
+        OnSeListUpdated();
     }
 }
