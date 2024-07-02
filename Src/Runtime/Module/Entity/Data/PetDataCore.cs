@@ -57,6 +57,10 @@ public class PetDataCore : EntityBaseComponent
     /// 饥饿度值 需要小数结构 tick会每帧减少
     /// </summary>
     public float HungerValue { get; private set; }
+    /// <summary>
+    /// 最近一次取消跟随时间戳 目前只给服务器初始化算时间流失扣除饥饿度使用 使用完会被清空 其他业务慎用
+    /// </summary>
+    public long LastUnFollowMs { get; private set; }
 
     /// <summary>
     /// 是完全饥饿状态
@@ -70,6 +74,7 @@ public class PetDataCore : EntityBaseComponent
         UpdateMs = petData.UpdateMs;
         IsFollowing = petData.Status;
         HungerValue = petData.Hunger;
+        LastUnFollowMs = petData.LastUnFollowMs;
         SetAbilityByBitOffsets(petData.AbilityList);
         SetPetCfgId(petData.Cid);
 
@@ -261,5 +266,10 @@ public class PetDataCore : EntityBaseComponent
         HungerValue = Mathf.Max(0, value);
 
         RefEntity.EntityEvent.OnPetHungerChanged?.Invoke(HungerValue, force);
+    }
+
+    public void SetLastUnFollowMs(long ms)
+    {
+        LastUnFollowMs = ms;
     }
 }
