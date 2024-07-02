@@ -271,5 +271,7 @@ public class PetDataCore : EntityBaseComponent
     public void SetLastUnFollowMs(long ms)
     {
         LastUnFollowMs = ms;
+
+        Log.Info($"PetDataCore SetLastUnFollowMs:{ms} petId:{RefEntity.BaseData.Id} IsHome:{HomeModuleCore.IsInited}");
     }
 }
