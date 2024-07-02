@@ -242,7 +242,7 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 1,"Capacidad de fertilidad + 1.
 ",235,1,talentTree-93,93,0,3,1, Agricultura - Producción de fertilidad por unidad de tierra ,0,1,420,0,0,80
 -2,"Desbloquear Recetas de Esencia de Mascotas Nivel 3
-",157,2,talentTree-94,94,0,3,1, Recetas de Esencia de Mascota ,0,1,420,0,3000,49
+",157,2,talentTree-94,94,0,3,1, Recetas de Esencia de Mascota ,0,1,420,0,1500,49
 -5,"Desbloquear recetas de conjuntos de equipos de nivel 1, desbloquear recetas de recasting y recetas de fabricación de fragmentos cuando se alcance el nivel máximo.",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3, Recetas de Conjunto de Combate ,0,2,"95,95,95",0,"0,0,0",
 4," Combate MaxHP +20
 ",264,1,talentTree-96,96,0,1,1, Combate - HP ,0,2,95,0,0,
@@ -427,7 +427,7 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 -3,"Desbloquear Recetas de Esencia de Plantación Nivel 2
 ",153,2,talentTree-228,228,0,2,1, Recetas de Esencia de Plantación ,0,1,210,0,0,227
 -3,"Desbloquear Recetas de Esencia de Plantación Nivel 3
-",154,2,talentTree-229,229,0,3,1, Recetas de Esencia de Plantación ,0,1,420,0,3000,228
+",154,2,talentTree-229,229,0,3,1, Recetas de Esencia de Plantación ,0,1,420,0,1500,228
 -4,"Desbloquear Recetas de Esencia Nivel 1
 ",149,2,talentTree-236,236,0,1,1, Recetas de Esencia de Combate ,0,2,95,0,0,
 -4,"Desbloquear Recetas de Esencia Nivel 2
@@ -467,9 +467,9 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 ",337,2,talentTree-270,270,0,4,1, Recetas de Esencia de Ganadería Agrícola,0,1,840,0,5000,94
 -4,"Desbloquear Recetas de Conjunto de Equipamiento Nivel 5, desbloquear recetas de Recasting y fragmentos cuando alcances el nivel máximo",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3, Recetas de Conjunto de Agricultura,0,1,"1680,1680,1680",0,"15000,15000,15000",268
 -3,"Desbloquear recetas de esencia Lv 5
-",335,2,talentTree-272,272,0,5,1, Recetas de Esencia de Plantación,0,1,1680,0,8000,269
+",335,2,talentTree-272,272,0,5,1, Recetas de Esencia de Plantación,0,1,1680,0,7500,269
 -2,"Desbloquear recetas de esencia Lv 5
-",338,2,talentTree-273,273,0,5,1, Recetas de Esencia de Ganadería Agrícola,0,1,1680,0,8000,270
+",338,2,talentTree-273,273,0,5,1, Recetas de Esencia de Ganadería Agrícola,0,1,1680,0,7500,270
 -4,"Desbloquear recetas de conjunto de equipo de nivel 6, desbloquear recetas de recasting y fragmentos al alcanzar el nivel máximo.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Recetas de Conjunto de Agricultura,0,1,"3360,3360,3360",0,"20000,20000,20000",271
 -3,"Desbloquear recetas de esencia Lv 6
 ",336,2,talentTree-275,275,0,6,1,Recetas de Esencia de Plantación,0,1,3360,0,10000,272
@@ -477,37 +477,37 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 ",339,2,talentTree-276,276,0,6,1,Recetas de Esencia de Ganadería Agrícola,0,1,3360,0,10000,273
 -4,"Desbloquear recetas de conjunto de equipo de nivel 7, desbloquear recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098,2,talentTree-277,277,0,7,3, Recetas de Conjunto de Granja (Aún no disponible),0,1,"6720,6720,6720",0,"25000,25000,25000",274
 -3,"Desbloquear Recetas de Esencia de Plantación Nivel 7
-",632,2,talentTree-278,278,0,7,1,Recetas de Esencia de Plantación (Aún no disponible),0,1,6720,0,0,275
+",632,2,talentTree-278,278,0,7,1,Recetas de Esencia de Plantación (Aún no disponible),0,1,6720,0,12500,275
 -2,"Desbloquear Recetas de Esencia de Ganadería Nivel 7
-",635,2,talentTree-279,279,0,7,1,Recetas de Esencia de Ganadería (Aún no disponible),0,1,6720,0,0,276
+",635,2,talentTree-279,279,0,7,1,Recetas de Esencia de Ganadería (Aún no disponible),0,1,6720,0,12500,276
 -4,"Desbloquea recetas de conjuntos de equipo de nivel 8, desbloquea recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-280,280,0,8,3,Recetas de Conjunto de Granja (Aún no disponible),0,1,"13440,13440,13440",0,"30000,30000,30000",277
 -3,"Desbloquear Recetas de Esencia de Plantación Nivel 8
-",636,2,talentTree-281,281,0,8,1,Recetas de Esencia de Plantación (Aún no disponible),0,1,13440,0,0,278
+",636,2,talentTree-281,281,0,8,1,Recetas de Esencia de Plantación (Aún no disponible),0,1,13440,0,15000,278
 -2,"Desbloquear Recetas de Esencia de Ganadería Nivel 8
-",633,2,talentTree-282,282,0,8,1,Recetas de esencia de ganado (Aún no abierto),0,1,13440,0,0,279
+",633,2,talentTree-282,282,0,8,1,Recetas de esencia de ganado (Aún no abierto),0,1,13440,0,15000,279
 -4," Desbloquear Recetas de Conjunto de Equipamiento de Nivel 9, desbloquear recetas de Recasting y recetas de fabricación de fragmentos al alcanzar el nivel máximo.",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-283,283,0,9,3,Recetas de conjunto de agricultura (Aún no abierto),0,1,"26880,26880,26880",0,"35000,35000,35000",280
 -3,"Desbloquear Recetas de Esencia de Plantación Nivel 9
-",637,2,talentTree-284,284,0,9,1,Recetas de esencia de plantación (Aún no abierto),0,1,26880,0,0,281
+",637,2,talentTree-284,284,0,9,1,Recetas de esencia de plantación (Aún no abierto),0,1,26880,0,17500,281
 -2,"Desbloquear Recetas de Esencia de Ganadería Nivel 9
-",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,0,282
+",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,17500,282
 -5,"Desbloquear recetas de conjunto de equipo de nivel 7, desbloquear recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, (Aún no disponible),0,2,"5169,5169,5169",0,"25000,25000,25000",260
 -4,"Desbloquear Recetas de Esencia Nivel 7
-",626,2,talentTree-287,287,0,7,1, (Aún no disponible),0,2,5169,0,0,261
+",626,2,talentTree-287,287,0,7,1, (Aún no disponible),0,2,5169,0,25000,261
 -5,"Desbloquea recetas de conjuntos de equipo de nivel 8, desbloquea recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1099#1100#1101#1102#1103#1104#1105#1106,2,talentTree-288,288,0,8,3,(Aún no disponible),0,2,"11200,11200,11200",0,"30000,30000,30000",286
 -4,"Desbloquear Recetas de Esencia Nivel 8
-",627,2,talentTree-289,289,0,8,1,(Aún no disponible),0,2,11200,0,0,287
+",627,2,talentTree-289,289,0,8,1,(Aún no disponible),0,2,11200,0,30000,287
 -5," Desbloquear Recetas de Conjunto de Equipamiento de Nivel 9, desbloquear recetas de Recasting y recetas de fabricación de fragmentos al alcanzar el nivel máximo.",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1124#1125#1126#1127#1128#1129#1130#1123,2,talentTree-290,290,0,9,3,(Aún no abierto),0,2,"24436,24436,24436",0,"35000,35000,35000",288
 -4,"Desbloquear Recetas de Esencia Nivel 9
-",628,2,talentTree-291,291,0,9,1,(Aún no abierto),0,2,24436,0,0,289
+",628,2,talentTree-291,291,0,9,1,(Aún no abierto),0,2,24436,0,35000,289
 -3,"Desbloquear recetas de conjunto de equipo de nivel 7, desbloquear recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1083#1084#1085#1086#1087#1088#1089#1090,2,talentTree-292,292,0,7,3,(Aún no disponible),0,3,"8400,8400,8400",0,"25000,25000,25000",266
 -2,"Desbloquear Recetas de Esencia Nivel 7
-",629,2,talentTree-293,293,0,7,1,(Aún no disponible),0,3,8400,0,0,267
+",629,2,talentTree-293,293,0,7,1,(Aún no disponible),0,3,8400,0,25000,267
 -3,"Desbloquea recetas de conjuntos de equipo de nivel 8, desbloquea recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3,(Aún no abierto),0,3,"16800,16800,16800",0,"30000,30000,30000",292
 -2,"Desbloquear Recetas de Esencia Nivel 8
-",630,2,talentTree-295,295,0,8,1,(Aún no abierto),0,3,16800,0,0,293
+",630,2,talentTree-295,295,0,8,1,(Aún no abierto),0,3,16800,0,30000,293
 -3," Desbloquear Recetas de Conjunto de Equipamiento de Nivel 9, desbloquear recetas de Recasting y recetas de fabricación de fragmentos al alcanzar el nivel máximo.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,"35000,35000,35000",294
 -2,"Desbloquear Recetas de Esencia Nivel 9
-",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,0,295
+",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,35000,295
 -1,Aumenta la velocidad de movimiento propia y de los aliados durante 10 segundos.,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6000,169
 4,Aumenta tu velocidad de movimiento en un 20% durante 30 segundos,541,0,talentTree-299,299,0,3,1,,0,3,525,0,0,
 4,Inflige un poderoso efecto de repulsión al enemigo frente a ti,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,5000,299
