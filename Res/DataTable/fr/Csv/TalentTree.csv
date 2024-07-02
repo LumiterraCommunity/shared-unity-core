@@ -242,7 +242,7 @@ Débloquer les recettes d'énergie","89,622#613,10000","1,2,3",talentTree-32,32,
 1,"Capacité de fertilité + 1
 ",235,1,talentTree-93,93,0,3,1,Ferme - Rendement de fertilité par unité de terre,0,1,420,0,0,80
 -2,"Débloquer les recettes d'essence pour animaux de compagnie niveau 3
-",157,2,talentTree-94,94,0,3,1,Pet Essence Recipes,0,1,420,0,3000,49
+",157,2,talentTree-94,94,0,3,1,Pet Essence Recipes,0,1,420,0,1500,49
 -5,"Débloquer les recettes d'ensemble d'équipement de niveau 1, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,2,"95,95,95",0,"0,0,0",
 4," Combat MaxHP +20
 ",264,1,talentTree-96,96,0,1,1,Combat - HP,0,2,95,0,0,
@@ -411,7 +411,7 @@ Débloquer les recettes d'énergie","89,622#613,10000","1,2,3",talentTree-32,32,
 -3," Débloquer les recettes d'essence de plantation niveau 2
 ",153,2,talentTree-228,228,0,2,1,Planting Essence Recipes,0,1,210,0,0,227
 -3,"Débloquer les recettes d'essence de plantation niveau 3
-",154,2,talentTree-229,229,0,3,1,Planting Essence Recipes,0,1,420,0,3000,228
+",154,2,talentTree-229,229,0,3,1,Planting Essence Recipes,0,1,420,0,1500,228
 -4," Débloquer les recettes d'essence niveau 1
 ",149,2,talentTree-236,236,0,1,1,Combat Essence Recipes,0,2,95,0,0,
 -4," Débloquer les recettes d'essence niveau 2
@@ -451,9 +451,9 @@ Débloquer les recettes d'énergie","89,622#613,10000","1,2,3",talentTree-32,32,
 ",337,2,talentTree-270,270,0,4,1, Recettes d'essence d'élevage agricole,0,1,840,0,5000,94
 -4,"Débloquer les recettes d'ensemble d'équipement de niveau 5, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3, Recettes d'ensemble d'agriculture,0,1,"1680,1680,1680",0,"15000,15000,15000",268
 -3,"Débloquer les recettes d'essence niveau 5 
-",335,2,talentTree-272,272,0,5,1, Recettes d'essence de plantation,0,1,1680,0,8000,269
+",335,2,talentTree-272,272,0,5,1, Recettes d'essence de plantation,0,1,1680,0,7500,269
 -2,"Débloquer les recettes d'essence niveau 5 
-",338,2,talentTree-273,273,0,5,1, Recettes d'essence d'élevage agricole,0,1,1680,0,8000,270
+",338,2,talentTree-273,273,0,5,1, Recettes d'essence d'élevage agricole,0,1,1680,0,7500,270
 -4,"Débloquer les recettes d'ensemble d'équipement de niveau 6, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Recettes d'ensemble d'agriculture ,0,1,"3360,3360,3360",0,"20000,20000,20000",271
 -3,"Débloquer les recettes d'essence niveau 6 
 ",336,2,talentTree-275,275,0,6,1,Recettes d'essence de plantation ,0,1,3360,0,10000,272
@@ -461,37 +461,37 @@ Débloquer les recettes d'énergie","89,622#613,10000","1,2,3",talentTree-32,32,
 ",339,2,talentTree-276,276,0,6,1,Recettes d'essence d'élevage agricole ,0,1,3360,0,10000,273
 -4,"Débloquer les recettes d'ensemble d'équipement de niveau 7, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098,2,talentTree-277,277,0,7,3, Recettes d'ensemble de ferme (Pas encore ouvert),0,1,"6720,6720,6720",0,"25000,25000,25000",274
 -3,"Débloquer les recettes d'essence de plantation Niveau 7
-",632,2,talentTree-278,278,0,7,1, Recettes d'essence de plantation (Pas encore ouvert),0,1,6720,0,0,275
+",632,2,talentTree-278,278,0,7,1, Recettes d'essence de plantation (Pas encore ouvert),0,1,6720,0,12500,275
 -2,"Débloquer les recettes d'essence d'élevage Niveau 7
-",635,2,talentTree-279,279,0,7,1, Recettes d'essence d'élevage (Pas encore ouvert),0,1,6720,0,0,276
+",635,2,talentTree-279,279,0,7,1, Recettes d'essence d'élevage (Pas encore ouvert),0,1,6720,0,12500,276
 -4,"Débloquer les recettes d'ensemble d'équipement de niveau 8, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-280,280,0,8,3, Recettes d'ensemble de ferme (Pas encore ouvert),0,1,"13440,13440,13440",0,"30000,30000,30000",277
 -3,"Débloquer les recettes d'essence de plantation Niveau 8
-",636,2,talentTree-281,281,0,8,1, Recettes d'essence de plantation (Pas encore ouvert),0,1,13440,0,0,278
+",636,2,talentTree-281,281,0,8,1, Recettes d'essence de plantation (Pas encore ouvert),0,1,13440,0,15000,278
 -2,"Débloquer les recettes d'essence d'élevage Niveau 8
-",633,2,talentTree-282,282,0,8,1,Recettes d'essence d'élevage (Pas encore ouvert),0,1,13440,0,0,279
+",633,2,talentTree-282,282,0,8,1,Recettes d'essence d'élevage (Pas encore ouvert),0,1,13440,0,15000,279
 -4,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level. : [211]Débloquer Recettes d'Ensemble d'Équipement LV 9, débloquer Recettes de Refonte et Recettes d'Artisanat de Fragments lorsque le niveau maximum est atteint.",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-283,283,0,9,3,Recettes d'ensemble agricole (Pas encore ouvert),0,1,"26880,26880,26880",0,"35000,35000,35000",280
 -3,"Débloquer les recettes d'essence de plantation de niveau 9
-",637,2,talentTree-284,284,0,9,1,Recettes d'essence de plantation (Pas encore ouvert),0,1,26880,0,0,281
+",637,2,talentTree-284,284,0,9,1,Recettes d'essence de plantation (Pas encore ouvert),0,1,26880,0,17500,281
 -2,"Débloquer les recettes d'essence d'élevage de niveau 9
-",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,0,282
+",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,17500,282
 -5,"Débloquer les recettes d'ensemble d'équipement de niveau 7, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, (Pas encore ouvert),0,2,"5169,5169,5169",0,"25000,25000,25000",260
 -4,"Débloquer les recettes d'essence Niveau 7
-",626,2,talentTree-287,287,0,7,1, (Pas encore ouvert),0,2,5169,0,0,261
+",626,2,talentTree-287,287,0,7,1, (Pas encore ouvert),0,2,5169,0,25000,261
 -5,"Débloquer les recettes d'ensemble d'équipement de niveau 8, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1099#1100#1101#1102#1103#1104#1105#1106,2,talentTree-288,288,0,8,3, (Pas encore ouvert),0,2,"11200,11200,11200",0,"30000,30000,30000",286
 -4,"Débloquer les recettes d'essence Niveau 8
-",627,2,talentTree-289,289,0,8,1, (Pas encore ouvert),0,2,11200,0,0,287
+",627,2,talentTree-289,289,0,8,1, (Pas encore ouvert),0,2,11200,0,30000,287
 -5,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level. : [210]Débloquer Recettes d'Ensemble d'Équipement LV 9, débloquer Recettes de Refonte et Recettes d'Artisanat de Fragments lorsque le niveau maximum est atteint.",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1124#1125#1126#1127#1128#1129#1130#1123,2,talentTree-290,290,0,9,3,(Pas encore ouvert),0,2,"24436,24436,24436",0,"35000,35000,35000",288
 -4,"Débloquer les recettes d'essence de niveau 9
-",628,2,talentTree-291,291,0,9,1,(Pas encore ouvert),0,2,24436,0,0,289
+",628,2,talentTree-291,291,0,9,1,(Pas encore ouvert),0,2,24436,0,35000,289
 -3,"Débloquer les recettes d'ensemble d'équipement de niveau 7, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1083#1084#1085#1086#1087#1088#1089#1090,2,talentTree-292,292,0,7,3, (Pas encore ouvert),0,3,"8400,8400,8400",0,"25000,25000,25000",266
 -2,"Débloquer les recettes d'essence Niveau 7
-",629,2,talentTree-293,293,0,7,1, (Pas encore ouvert),0,3,8400,0,0,267
+",629,2,talentTree-293,293,0,7,1, (Pas encore ouvert),0,3,8400,0,25000,267
 -3,"Débloquer les recettes d'ensemble d'équipement de niveau 8, débloquer les recettes de refonte et les recettes d'artisanat de fragments lorsque vous atteignez le niveau maximum.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3,(Pas encore ouvert),0,3,"16800,16800,16800",0,"30000,30000,30000",292
 -2,"Débloquer les recettes d'essence Niveau 8
-",630,2,talentTree-295,295,0,8,1,(Pas encore ouvert),0,3,16800,0,0,293
+",630,2,talentTree-295,295,0,8,1,(Pas encore ouvert),0,3,16800,0,30000,293
 -3,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level. : [214]Débloquer Recettes d'Ensemble d'Équipement LV 9, débloquer Recettes de Refonte et Recettes d'Artisanat de Fragments lorsque le niveau maximum est atteint.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,"35000,35000,35000",294
 -2,"Débloquer les recettes d'essence de niveau 9
-",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,0,295
+",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,35000,295
 -1,Increase movement speed for oneself and allies for 10 seconds: Augmenter la vitesse de déplacement pour soi-même et les alliés pendant 10 secondes,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,6000,169
 4,Increase your movement speed by 20% for 30 seconds: @@ [76]Augmentez votre vitesse de déplacement de 20% pendant 30 secondes,541,0,talentTree-299,299,0,3,1,,0,3,525,0,0,
 4,Deal a powerful repelling effect on the enemy in front of you: Inflige un puissant effet de repoussement à l'ennemi devant vous,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,5000,299
