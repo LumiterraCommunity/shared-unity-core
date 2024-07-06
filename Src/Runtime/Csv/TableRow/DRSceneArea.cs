@@ -33,6 +33,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取extraDropPool-int。*/
+    /// </summary>
+    public int ExtraDropPool
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取isRanking-bool。*/
     /// </summary>
     public bool IsRanking
@@ -317,6 +326,7 @@ public class DRSceneArea : DataRowBase
 
         int index = 0;
         CanInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
+        ExtraDropPool = DataTableParseUtil.ParseInt(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         IsRanking = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -361,6 +371,7 @@ public class DRSceneArea : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 CanInvest = binaryReader.ReadBoolean();
+                ExtraDropPool = binaryReader.Read7BitEncodedInt32();
                 _id = binaryReader.Read7BitEncodedInt32();
                 IsRanking = binaryReader.ReadBoolean();
                 Level = binaryReader.ReadArray<Int32>();
