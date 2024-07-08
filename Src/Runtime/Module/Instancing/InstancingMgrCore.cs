@@ -21,6 +21,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
     public long InstancingStartTime = 0; //副本开始时间
     public bool IsMatchComplete = false; //是否匹配完成
+    public bool IsExtraDrop = false; //是否额外掉落
     public InstancingTotemData TotemData = new(); //副本图腾数据
     public static GameObject Root { get; private set; }
     private void Awake()
