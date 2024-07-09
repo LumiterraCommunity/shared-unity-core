@@ -1,39 +1,39 @@
 desc-string,id-int,parameters_1-int[],parameters_2-int[][],type-int
-The monster's defense has been enhanced.,1,2,650,2
-The monster's attack power has been enhanced.,2,2,651,2
-The player's defense has been weakened.,3,1,652,2
-The player's attack power has been weakened.,4,1,653,2
-The monster's maximum HP has increased.,5,2,654,2
-The monster's defense has been weakened.,6,2,655,2
-The monster's attack power has been weakened.,7,2,656,2
-The player's defense has been enhanced.,8,1,657,2
-The player's attack power has been enhanced.,9,1,658,2
-The monster's maximum HP has decreased.,10,2,659,2
-Triggered a random debuff event in combat.,11,,"10000,1;10000,2;10000,3;10000,4;10000,5",1
-Triggered a random buff event in combat.,12,,"10000,6;10000,7;10000,8;10000,9;10000,10",1
-Triggered a random debuff event during gathering.,13,,"10000,17;10000,18;10000,19;10000,20",1
-Triggered a random buff event during gathering.,14,,"10000,21;10000,18;10000,23;10000,24",1
-Triggered a random debuff event in farming.,15,,"10000,25;10000,26;10000,28;10000,29;10000,30",1
-Triggered a random buff event in farming.,16,,"10000,31;10000,32;10000,34;10000,35;10000,36",1
-The gathering item's defense has been enhanced.,17,5,"60,1,150,60,4;61,1,150,61,4;62,1,150,62,4",3
-The gathering item's maximum progress value has been enhanced.,18,5,"76,1,100,76,4",3
-The player's gathering attack power has been weakened.,19,1,660,2
-The player's movement speed has slowed down.,20,1,661,2
-The gathering item's defense has been weakened.,21,5,"60,1,-150,60,4;61,1,-150,61,4;62,1,-150,62,4",3
-The gathering item's maximum progress value has been weakened.,22,5,"76,1,-100,76,4",3
-The player's gathering attack power has been enhanced.,23,1,662,2
-The player's movement speed has increased.,24,1,663,2
-The water requirement for crops has increased.,25,8,"71,1,100,71,4",3
-The proficiency requirement for crops has increased.,26,8,"73,1,25,73,4",3
-The crops have reverted to the previous growth stage.,27,,"1,-1",4
-The crops need to be watered again.,28,,"2,0",4
-The player's watering speed has slowed down.,29,1,664,2
-The player's planting proficiency has been weakened.,30,1,665,2
-The water requirement for crops has decreased.,31,8,"71,1,-100,71,4",3
-The proficiency requirement for crops has decreased.,32,8,"73,1,-25,73,4",3
-The crops have entered the next growth stage.,33,,"1,1",4
-All crops have been watered.,34,,"2,1",4
-The player's watering speed has increased.,35,1,666,2
-The player's planting proficiency has been enhanced.,36,1,667,2
-Player's gathering stats recalculation.,37,1,668,2
-Gathering item's stats recalculation.,38,5,,3
+Sức phòng thủ của quái vật đã được tăng cường.,1,2,650,2
+ Sức tấn công của quái vật đã được tăng cường.,2,2,651,2
+ Sức phòng thủ của người chơi đã bị suy yếu.,3,1,652,2
+ Sức tấn công của người chơi đã bị suy yếu.,4,1,653,2
+ Máu tối đa của quái vật đã tăng.,5,2,654,2
+ Sức phòng thủ của quái vật đã bị suy yếu.,6,2,655,2
+ Sức tấn công của quái vật đã bị suy yếu.,7,2,656,2
+ Sức phòng thủ của người chơi đã được tăng cường.,8,1,657,2
+ Sức tấn công của người chơi đã được tăng cường.,9,1,658,2
+ Máu tối đa của quái vật đã giảm.,10,2,659,2
+ Kích hoạt sự kiện debuff ngẫu nhiên trong chiến đấu.,11,,"10000,1;10000,2;10000,3;10000,4;10000,5",1
+ Kích hoạt sự kiện buff ngẫu nhiên trong chiến đấu.,12,,"10000,6;10000,7;10000,8;10000,9;10000,10",1
+ Kích hoạt sự kiện debuff ngẫu nhiên trong thu thập.,13,,"10000,17;10000,18;10000,19;10000,20",1
+ Kích hoạt sự kiện buff ngẫu nhiên trong thu thập.,14,,"10000,21;10000,18;10000,23;10000,24",1
+ Kích hoạt sự kiện debuff ngẫu nhiên trong trồng trọt.,15,,"10000,25;10000,26;10000,28;10000,29;10000,30",1
+ Kích hoạt sự kiện buff ngẫu nhiên trong trồng trọt.,16,,"10000,31;10000,32;10000,34;10000,35;10000,36",1
+ Sức phòng thủ của vật phẩm thu thập đã được tăng cường.,17,5,"60,1,150,60,4;61,1,150,61,4;62,1,150,62,4",3
+ Giá trị tiến trình tối đa của vật phẩm thu thập đã được tăng cường.,18,5,"76,1,100,76,4",3
+ Sức tấn công thu thập của người chơi đã bị suy yếu.,19,1,660,2
+ Tốc độ di chuyển của người chơi đã chậm lại.,20,1,661,2
+ Sức phòng thủ của vật phẩm thu thập đã bị suy yếu.,21,5,"60,1,-150,60,4;61,1,-150,61,4;62,1,-150,62,4",3
+ Giá trị tiến trình tối đa của vật phẩm thu thập đã bị suy yếu.,22,5,"76,1,-100,76,4",3
+ Sức tấn công thu thập của người chơi đã được tăng cường.,23,1,662,2
+ Tốc độ di chuyển của người chơi đã tăng.,24,1,663,2
+ Yêu cầu nước cho cây trồng đã tăng.,25,8,"71,1,100,71,4",3
+Yêu cầu trình độ chuyên môn cho cây trồng đã tăng.,26,8,"73,1,25,73,4",3
+ Cây trồng đã quay trở lại giai đoạn mọc trước đó.,27,,"1,-1",4
+ Cây trồng cần được tưới nước lại.,28,,"2,0",4
+ Tốc độ tưới nước của người chơi đã chậm lại.,29,1,664,2
+ Trình độ trồng trọt của người chơi đã bị suy yếu.,30,1,665,2
+ Yêu cầu nước cho cây trồng đã giảm.,31,8,"71,1,-100,71,4",3
+ Yêu cầu trình độ chuyên môn cho cây trồng đã giảm.,32,8,"73,1,-25,73,4",3
+ Cây trồng đã vào giai đoạn mọc tiếp theo.,33,,"1,1",4
+ Tất cả cây trồng đã được tưới nước.,34,,"2,1",4
+ Tốc độ tưới nước của người chơi đã tăng.,35,1,666,2
+ Trình độ trồng trọt của người chơi đã được cải thiện.,36,1,667,2
+ Tính lại số liệu thu thập của người chơi.,37,1,668,2
+ Tính lại số liệu của vật phẩm thu thập.,38,5,,3
