@@ -87,6 +87,15 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取onChainDelay-int。*/
+    /// </summary>
+    public int OnChainDelay
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取quality-int[]。*/
     /// </summary>
     public int[] Quality
@@ -189,6 +198,7 @@ public class DRItem : DataRowBase
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        OnChainDelay = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Quality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ResourceInstructions = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Sellable = DataTableParseUtil.ParseBool(columnStrings[index++]);
@@ -218,6 +228,7 @@ public class DRItem : DataRowBase
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
+                OnChainDelay = binaryReader.Read7BitEncodedInt32();
                 Quality = binaryReader.ReadArray<Int32>();
                 ResourceInstructions = binaryReader.ReadArray<Int32>();
                 Sellable = binaryReader.ReadBoolean();
