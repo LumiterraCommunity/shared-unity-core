@@ -47,8 +47,8 @@ public class DRDrop : DataRowBase
 
         int index = 0;
         DropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
-        ExtraDropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        ExtraDropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -61,8 +61,8 @@ public class DRDrop : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 DropList = binaryReader.ReadArrayList<Int32>();
-                ExtraDropList = binaryReader.ReadArrayList<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
+                ExtraDropList = binaryReader.ReadArrayList<Int32>();
             }
         }
 
