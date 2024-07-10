@@ -87,6 +87,15 @@ public class DRTask : DataRowBase
     }
 
     /// <summary>
+  /**获取type-int。*/
+    /// </summary>
+    public int Type
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取level-int[][]。*/
     /// </summary>
     public int[][] Level
@@ -135,6 +144,7 @@ public class DRTask : DataRowBase
         IsSelfEnd = DataTableParseUtil.ParseBool(columnStrings[index++]);
         ItemReward = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         PreTaskReq = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChanceOptions = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -158,6 +168,7 @@ public class DRTask : DataRowBase
                 IsSelfEnd = binaryReader.ReadBoolean();
                 ItemReward = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
+                Type = binaryReader.Read7BitEncodedInt32();
                 Level = binaryReader.ReadArrayList<Int32>();
                 PreTaskReq = binaryReader.ReadArray<Int32>();
                 ChanceOptions = binaryReader.ReadString();
