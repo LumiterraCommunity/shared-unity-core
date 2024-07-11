@@ -419,9 +419,9 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","4,100,400,36000,0",CameraShakeGrade_1,1,0,1,,1000,523,,,,,,,,,,,,
 0,0,0,,0,35,553,500,438,0,1,0,0,0,0,0,0,attackRange,Skill_earthfire_1,Skill_MysticOwlSage_AttackRange,,4333,1,35000,Infliger des dégâts de foudre aux ennemis proches,100,2,0,"Feu de terre (Mage de la forêt ombragée)
 ","2,500,0",CameraShakeGrade_1,1,0,1,,1000,523,,,,top_down_Normal,5,,,,,,,
-0,0,0,,0,1,553,1666,439,0,1,0,1,0,1,0,0,attackRange,,Skill_AquilaDominator_AttackRange,,2666,1;2,25000,"Invoquer une tornade dans la zone cible, causant des dégâts étendus et en plusieurs segments, et attirant la cible vers le centre",1500,2,30,"Tornade
+0,0,0,,0,"1,509",553,1666,439,0,1,0,1,0,1,0,0,attackRange,,Skill_AquilaDominator_AttackRange,,2666,1;2,25000,"Invoquer une tornade dans la zone cible, causant des dégâts étendus et en plusieurs segments, et attirant la cible vers le centre",1500,2,30,"Tornade
 ","4,800,600,36000,0",,1,0,1,,1000,525,,,,top_down_Normal_5,4,,,,,,,
-0,0,0,,0,,553,1400,440,0,1,0,0,0,0,0,0,attackArea,Skill_Eye_of_the_storm,Skill_AquilaDominator_AttackArea,,3666,1;2,15000,Prendre soi-même comme centre pour infliger des dégâts multiples aux ennemis dans une grande zone et les attirer vers soi-même,1000,2,0,"Œil de la tempête
+0,0,0,,0,,"553,682",1400,440,0,1,0,0,0,0,0,0,attackArea,Skill_Eye_of_the_storm,Skill_AquilaDominator_AttackArea,,3666,1;2,15000,Prendre soi-même comme centre pour infliger des dégâts multiples aux ennemis dans une grande zone et les attirer vers soi-même,1000,2,0,"Œil de la tempête
 ","2,900,0",CameraShakeGrade_1,1,0,1,,1000,525,,,,top_down_Normal_6,,,,,,,,
 1,0,0,,0,"532,387",,600,441,0,1,0,1,0,1,0,1,attackArea,,Skill_GraniteGuardian_AttackArea,,1000,1;2,15000,"Vaporiser vers la cible et laisser une traînée de magma le long du chemin, causant des dégâts continus",800,2,33,"Éjection de magma
 ","2,200,0",,1,0,1,,1000,489,skill-icon-441,,,,1,,,,,,,
@@ -445,7 +445,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ","1,200,1500,100,0",,1,0,1,,1000,547,,,,,,,,,,,,
 0,0,0,,0,"386,238",467,610,453,0,1,0,0,0,0,0,0,attackRange,Skill_Earthshock,Skill_DoomLord_AttackRange,,1333,1,15000,Invoquer trois pointes de terre devant soi,300,2,0,"Choc tellurique
 ","1,200,500,100,0",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,
-0,0,0,,0,,553,950,454,0,1,0,0,0,0,0,0,attackRange,Skill_big_windmill,Skill_VerdantFlame_AttackRange,,5000,1;2,30000,Faire tourner le corps pour causer de gros dégâts à l'environnement,1000,2,0,"Grand moulin à vent
+0,0,0,,0,,"553,682",950,454,0,1,0,0,0,0,0,0,attackRange,Skill_big_windmill,Skill_VerdantFlame_AttackRange,,5000,1;2,30000,Faire tourner le corps pour causer de gros dégâts à l'environnement,1000,2,0,"Grand moulin à vent
 ","2,500,0",,1,0,1,,1000,525,,,,,,,,,,,,
 0,0,0,,0,,553,950,455,0,1,0,0,0,0,0,0,attackArea,Skill_Flurry,SKill_VerdantFlame_AttackArea,,3000,1;2,15000,"Multiples coups au sol, causant des dégâts aux ennemis proches",1000,2,0,"Rafale (Seigneur de guerre de la flamme verdoyante)
 ","2,600,0",CameraShakeGrade_1,1,0,1,,1000,535,,,,,,,,,,,,
@@ -474,8 +474,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,385,,333,478,0,1,0,1,0,0,0,0,attack,,Skill_GuardianOwl_Attack,,1166,1,3000,Attaque du Gardien Aigle aux Yeux Sages,100,2,0,Attaque (Gardien de l'aigle aux yeux sages),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,629,,,,,
 0,0,0,,0,,,333,479,0,1,0,1,0,0,0,0,attack,,Skill_DoomLord_Attack,,1166,1;2,3000,Attaque du Seigneur Démon de la Perdition,800,2,0,Attaque (Seigneur démoniaque de la perdition),"4,300,500,12000,0",,1,0,1,,1000,552,,Skill_HitBoss,,,,,634,,,,,
 0,0,0,0,0,515,,500,482,0,1,0,1,0,0,0,0,,Skill_ice_Breath,,,1450,1,15000,Vide,800,2,0,Souffle froid,"4,150,800,4500,0",,1,0,1,,1000,"518,521",skill-icon-482,,,,,,,,,,,
-0,0,0,,0,"385,238",557,350,484,0,1,0,1,0,0,0,0,A1-gaozi-AOE-NEW,Skill_AOE_ring,Skill_AoeRing_Part2,,666,1,6000,Vide,1000,2,0,Poursuite,"4,100,400,36000,0",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-484,,,,,,,,,,,
-0,0,0,,0,559,,500,485,0,0,0,0,0,0,0,0,A2-respawn-to-base,Skill_health_ring,Skill_HealthRing,,660,1,45000,Vide,300,2,0,Vague de guérison,"4,100,400,36000,0",,1,0,2,,1000,559,skill-icon-485,,,,,,,,,,,
+0,0,0,,0,"385,238",557,350,484,0,1,0,1,0,0,0,0,A1-gaozi-AOE-NEW,Skill_AOE_ring,Skill_AoeRing_Part2,,666,1,6000,Vide,1000,2,0,Poursuite,"4,200,400,36000,0",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-484,,,,,,,,,,,
+0,0,0,,0,559,,500,485,0,0,0,0,0,0,0,0,A2-respawn-to-base,Skill_health_ring,Skill_HealthRing,,660,1,45000,Vide,300,2,0,Vague de guérison,"4,200,400,36000,0",,1,0,2,,1000,559,skill-icon-485,,,,,,,,,,,
 0,0,0,,0,"560,561",,500,486,0,1,0,0,0,1,0,0,A-1diuzhadan,,,,660,1,2000,Vide,1000,2,38,Arbalète sacrée en argent,,,1,0,1,,1000,,,Flash_ball,,,1,,,,"435,2",,,
 0,0,0,,0,573,"568,570",1100,487,0,1,0,1,0,0,0,0,dash,Skill_Linear_impact,Skill_LinearImpactHit,,1500,1,18000,Vide,800,2,0,"Impact linéaire
 ","1,300,1200,300,100",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-487,Skill_Linear_impact_hit,,,,,,,,,,

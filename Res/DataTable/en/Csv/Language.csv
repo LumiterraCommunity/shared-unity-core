@@ -18,6 +18,7 @@ describe-string,id-int,module-string,value-string
 ,10001011,通用,Obtained{0}
 ,10001012,通用,Lack of Items.
 ,10001013,通用,Your assets will not be able to be sold in pvp area.
+,10001014,通用,Wish Pool
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,HP Recovery
 ,10004023,装备属性-攻击点数,Attack Points
@@ -183,6 +184,7 @@ Sprite due to insufficient space"
 ,20090025,,Complete the chapter {0} in {1}       
 ,20090026,,You receive a token task
 ,20090027,,Ability Level Not Enough
+,20090028,,Task Expired
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming
@@ -273,7 +275,12 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20160012,副本,Not yet open.
 ,20160013,副本,Match Failed
 ,20160014,副本,Please try again later or challenge other dungeons
-,20160015,,Level mismatch.
+,20160015,副本,Level mismatch.
+,20160016,副本,Extra Drop
+,20160017,副本,"When entering a dungeon, there is a chance to trigger an ""Extra Drop"" event:
+
+Killing specified monsters, collecting items, or harvesting crops will grant extra drop rewards.
+There is a fixed global maximum limit on the total number of times this event can be triggered."
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -296,10 +303,10 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 ,20190001,天赋树,Total level of talent tree needs reach to {0}.
 ,20190002,天赋树,The trunk node of the same layer must be unlocked first.
 ,20190003,天赋树,Not enough talent tree level
-,20190004,天赋树,"Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> to deactivate this level?
+,20190004,,"""Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> to deactivate this level?
  - Enabled skills will be reset.
  - Recipes will be reset.
- - Experience will be gone."
+ - Experience will be gone."""
 ,20200000,活动,claim prize success
 ,20200001,活动,claim prize failed
 ,20200002,活动,mint ticket success
@@ -325,7 +332,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220016,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] successfully
 ,20220017,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] failed
 ,20220018,战报详情,[color=#F7CE3D]You[/color] was rewarded for clearing the level
-,20220019,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus"
+,20220019,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jo1ifwcm}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus"
 ,20230000,宠物,Pet  followed.
 ,20230001,宠物,Pet un-followed.
 ,20230002,宠物,Pet marrow washing success.
@@ -352,6 +359,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20280001,装备拆解,"Equipment cannot be restored after being disassembled, please confirm."
 ,20290001,背包,Item has been removed.
 ,20290002,背包,Item can't be converted.
-,20290003,,All converted.
-,20290004,,This item can not be converted.
-,20290005,,Items sorted.
+,20290003,背包,All converted.
+,20290004,背包,This item can not be converted.
+,20290005,背包,Items sorted.
+,20290006,,Raw item name copied!

@@ -18,6 +18,7 @@ describe-string,id-int,module-string,value-string
 ,10001011,通用,Obtenu{0}
 ,10001012,通用,Manque d'objets.
 ,10001013,通用, Vos actifs ne pourront pas être vendus dans la zone PvP.
+,10001014,通用,Pozo de Deseos
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -176,6 +177,7 @@ describe-string,id-int,module-string,value-string
 ,20090025,,Terminer le chapitre {0} dans {1}
 ,20090026,,Vous recevez une tâche de jeton
 ,20090027,,Niveau de compétence insuffisant
+,20090028,,Tarea caducada
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -266,7 +268,9 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20160012,副本,Pas encore ouvert.
 ,20160013,副本,Match échoué.
 ,20160014,副本,Veuillez réessayer plus tard ou défier d'autres donjons.
-,20160015,, Niveau incompatible.
+,20160015,副本, Niveau incompatible.
+,20160016,副本,Recompensa adicional.
+,20160017,副本,"Al entrar en una mazmorra, existe la posibilidad de activar un evento de ""Recompensa adicional"":Matar monstruos específicos, recolectar objetos o cosechar cultivos otorgará recompensas adicionales.Existe un límite máximo global fijo en el número total de veces que se puede activar este evento."
 ,20170000,合成,Entrer dans la file d'attente
 ,20170001,合成,La file d'artisanat est pleine.
 ,20170002,合成,La recette d'artisanat n'est pas déverrouillée.
@@ -289,7 +293,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20190001,天赋树,Le niveau total de l'arbre de talent doit atteindre {0}.
 ,20190002,天赋树,Le nœud principal de la même couche doit d'abord être déverrouillé.
 ,20190003,天赋树,Niveau d'arbre de talents insuffisant
-,20190004,天赋树,Continuer à dépenser [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> pour désactiver ce niveau ? - Les compétences activées seront réinitialisées. - Les recettes seront réinitialisées. - L'expérience sera perdue.
+,20190004,,"{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> pour désactiver ce niveau ? - Les compétences activées seront réinitialisées. - Les recettes seront réinitialisées. - L'expérience sera perdue."""
 ,20200000,活动,Réclamation du prix réussie
 ,20200001,活动,Échec de la réclamation du prix
 ,20200002,活动,Création du ticket réussie
@@ -315,7 +319,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220016,战报概要,Défi du [color=#FF9F2F]{name=Abyss canyon}[/color] réussi
 ,20220017,战报概要,Échec du défi du [color=#FF9F2F]{name=Abyss canyon}[/color]
 ,20220018,战报详情,[color=#F7CE3D]Vous[/color] avez été récompensé(e) pour avoir terminé le niveau
-,20220019,战报详情,"[color=#F7CE3D]Vous[/color] avez obtenu un bonus Totem <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20220019,战报详情,"{num=8,000}[/color]."
 ,20230000,宠物,L'animal de compagnie vous suit.
 ,20230001,宠物,L'animal de compagnie ne vous suit plus.
 ,20230002,宠物,Le lavage de moelle de l'animal de compagnie a réussi.
@@ -342,6 +346,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20280001,装备拆解,"L'équipement ne peut pas être restauré après avoir été désassemblé, veuillez confirmer."
 ,20290001,背包,L'objet a été supprimé.
 ,20290002,背包,L'objet ne peut pas être converti.
-,20290003,,Tout a été converti.
-,20290004,,Cet objet ne peut pas être converti.
-,20290005,,Objets triés.
+,20290003,背包,Tout a été converti.
+,20290004,背包,Cet objet ne peut pas être converti.
+,20290005,背包,Objets triés.
+,20290006,,¡Nombre del objeto sin procesar copiado!

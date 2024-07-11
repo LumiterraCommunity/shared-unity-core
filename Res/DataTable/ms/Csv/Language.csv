@@ -18,6 +18,7 @@ describe-string,id-int,module-string,value-string
 ,10001011,通用,Diperolehi{0}
 ,10001012,通用,Kekurangan Item.
 ,10001013,通用, Aset anda tidak dapat dijual di kawasan pvp.
+,10001014,通用,Kolam Harapan
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -176,6 +177,7 @@ describe-string,id-int,module-string,value-string
 ,20090025,,Selesaikan bab {0} dalam {1}
 ,20090026,,Anda menerima tugas token
 ,20090027,,Tahap Kemahiran Tidak Cukup
+,20090028,,Tugas telah tamat tempoh
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Pertanian 
@@ -266,7 +268,9 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20160012,副本, Belum dibuka.
 ,20160013,副本, Perlawanan gagal.
 ,20160014,副本, Sila cuba lagi kemudian atau cabar dungeon lain.
-,20160015,, Tahap tidak sepadan.
+,20160015,副本, Tahap tidak sepadan.
+,20160016,副本,Drop Tambahan
+,20160017,副本,"Apabila memasuki dungeon, terdapat peluang untuk memicu acara ""Drop Tambahan"":Membunuh monster yang ditentukan, mengumpul item, atau menuai tanaman akan memberikan ganjaran drop tambahan.Terdapat had maksimum global yang tetap untuk jumlah keseluruhan kali acara ini boleh dipicu."
 ,20170000,合成,Masuk dalam barisan antrian
 ,20170001,合成, Antrian kraf penuh.
 ,20170002,合成, Resipi kraf tidak terbuka.
@@ -289,7 +293,7 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20190001,天赋树,Jumlah tahap pohon bakat perlu mencapai {0}.
 ,20190002,天赋树,Nod batang pada lapisan yang sama perlu dibuka terlebih dahulu.
 ,20190003,天赋树,Tahap pokok bakat tidak mencukupi
-,20190004,天赋树,Teruskan belanjakan [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> untuk mematikan tahap ini? - Kemahiran yang diaktifkan akan diset semula. - Resipi akan diset semula. - Pengalaman akan hilang.
+,20190004,,{0} <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> untuk mematikan tahap ini?- Kemahiran yang diaktifkan akan diset semula.- Resipi akan diset semula.- Pengalaman akan hilang.
 ,20200000,活动, tuntutan hadiah berjaya
 ,20200001,活动, tuntutan hadiah gagal
 ,20200002,活动, mencetak tiket berjaya
@@ -315,7 +319,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220016,战报概要,Cabaran [color=#FF9F2F]{name=Abyss canyon}[/color] berjaya
 ,20220017,战报概要,Cabaran [color=#FF9F2F]{name=Abyss canyon}[/color] gagal
 ,20220018,战报详情,[color=#F7CE3D]Anda[/color] telah diberi ganjaran kerana menamatkan tahap tersebut
-,20220019,战报详情,"[color=#F7CE3D]Anda[/color] mendapat Bonus Totem <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color]"
+,20220019,战报详情,"{num=8,000}[/color]"
 ,20230000,宠物,Haiwan peliharaan mengikuti.
 ,20230001,宠物,Haiwan peliharaan berhenti mengikuti.
 ,20230002,宠物,Berjaya mencuci sumsum haiwan peliharaan.
@@ -342,6 +346,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20280001,装备拆解,"Peralatan tidak dapat dipulihkan setelah dipecahkan, sila sahkan."
 ,20290001,背包,Item telah dikeluarkan.
 ,20290002,背包,Item tidak boleh ditukar.
-,20290003,,Semua telah ditukar.
-,20290004,,Item ini tidak boleh ditukar.
-,20290005,,Item disusun.
+,20290003,背包,Semua telah ditukar.
+,20290004,背包,Item ini tidak boleh ditukar.
+,20290005,背包,Item disusun.
+,20290006,,Nama item mentah disalin!
