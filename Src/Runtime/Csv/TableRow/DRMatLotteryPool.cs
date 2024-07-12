@@ -51,6 +51,15 @@ public class DRMatLotteryPool : DataRowBase
     }
 
     /// <summary>
+  /**获取lotteryItem-int。*/
+    /// </summary>
+    public int LotteryItem
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取talentType-int。*/
     /// </summary>
     public int TalentType
@@ -68,6 +77,7 @@ public class DRMatLotteryPool : DataRowBase
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         LevelRangeIdx = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        LotteryItem = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TalentType = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
@@ -84,6 +94,7 @@ public class DRMatLotteryPool : DataRowBase
                 Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 LevelRangeIdx = binaryReader.Read7BitEncodedInt32();
+                LotteryItem = binaryReader.Read7BitEncodedInt32();
                 TalentType = binaryReader.Read7BitEncodedInt32();
             }
         }
