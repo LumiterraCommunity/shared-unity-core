@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using GameMessageCore;
 using Newtonsoft.Json;
 
 /// <summary>
@@ -23,11 +24,11 @@ public class HomeSaveData
     /// <summary>
     /// 宠物数据 为null说明没数据
     /// </summary>
-    public GrpcPetData[] PetDataArray;
+    public RpcPetData[] PetDataArray;
     /// <summary>
     /// 图腾数据 为null说明没数据
     /// </summary>
-    public GrpcTotemData[] TotemDataArray;
+    public RpcTotemData[] TotemDataArray;
     /// <summary>
     /// 上次保存的时间戳
     /// </summary>

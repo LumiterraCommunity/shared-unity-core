@@ -10,17 +10,6 @@ public class EntityInHandItemDataCore : EntityBaseComponent
     public int Cid { get; private set; }//道具配置id
     public int Count { get; private set; }//数量
 
-    public void InitFromNetData(GrpcNftBaseData data)
-    {
-        if (data == null)
-        {
-            Log.Error("InitFromNetData data is null");
-            return;
-        }
-
-        Init(data.NftId, data.ItemCid, data.Num);
-    }
-
     public void InitFromNetData(NftBaseInfo data)
     {
         if (data == null)
@@ -31,6 +20,17 @@ public class EntityInHandItemDataCore : EntityBaseComponent
 
         Init(data.NftId, data.Cid, data.Num);
     }
+
+    // public void InitFromNetData(NftBaseInfo data)
+    // {
+    //     if (data == null)
+    //     {
+    //         Log.Error("InitFromNetData data is null");
+    //         return;
+    //     }
+
+    //     Init(data.NftId, data.Cid, data.Num);
+    // }
 
     private void Init(string id, int cid, int count)
     {
