@@ -320,6 +320,15 @@ public class DRSceneArea : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取uniqueSeed-int[]。*/
+    /// </summary>
+    public int[] UniqueSeed
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -359,6 +368,7 @@ public class DRSceneArea : DataRowBase
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        UniqueSeed = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -404,6 +414,7 @@ public class DRSceneArea : DataRowBase
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
                 SeedMaxLimit = binaryReader.ReadArray<Int32>();
+                UniqueSeed = binaryReader.ReadArray<Int32>();
             }
         }
 
