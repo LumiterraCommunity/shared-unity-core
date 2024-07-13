@@ -74,7 +74,7 @@ public class PetDataCore : EntityBaseComponent
         UpdateMs = petData.UpdateMs;
         IsFollowing = petData.Status;
         HungerValue = petData.Hunger;
-        LastUnFollowMs = petData.LastUnFollowMs;
+        LastUnFollowMs = petData.LastUnfollowMs;
         SetAbilityByBitOffsets(petData.AbilityList);
         SetPetCfgId(petData.Cid);
 
