@@ -6,10 +6,11 @@ using UnityGameFramework.Runtime;
 public class EntityInHandItemDataCore : EntityBaseComponent
 {
     public bool HasInHandItem => !string.IsNullOrEmpty(Id);
-    public string Id { get; private set; }//nft id,也是唯一id
+    public string Id { get; private set; } = "";//nft id,也是唯一id
     public int Cid { get; private set; }//道具配置id
     public int Count { get; private set; }//数量
 
+    protected NftBaseInfo NetData = new();
     public void InitFromNetData(NftBaseInfo data)
     {
         if (data == null)
@@ -48,11 +49,9 @@ public class EntityInHandItemDataCore : EntityBaseComponent
 
     public NftBaseInfo ToNetData()
     {
-        return new()
-        {
-            NftId = Id,
-            Cid = Cid,
-            Num = Count
-        };
+        NetData.NftId = Id;
+        NetData.Cid = Cid;
+        NetData.Num = Count;
+        return NetData;
     }
 }
