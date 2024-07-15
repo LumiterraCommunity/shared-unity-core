@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-26 14:25:46
  * @Description: 实体碰撞盒
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/HotFix/Entity/EntityCollisionCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCollisionCore.cs
  * 
  */
 using CMF;
@@ -23,8 +23,9 @@ public abstract class EntityCollisionCore : EntityBaseComponent
     /// <value></value>
     public Collider BodyCollision { get; private set; }  //躯干碰撞盒
 
-    public EntityCollisionTrigger EntityTrigger { get; private set; } //实体触发器
+    public EntityCollisionTriggerCore EntityTrigger { get; private set; } //实体触发器
     public HashSet<long> EntityTriggerSet => EntityTrigger == null ? null : EntityTrigger.EntityTriggerSet; //触碰实体Map
+    public int EntityTriggerActiveCount = 0; //实体触发器激活计数
     /// <summary>
     /// 加载碰撞预制体
     /// </summary>
@@ -102,7 +103,6 @@ public abstract class EntityCollisionCore : EntityBaseComponent
         }
         RefEntity.EntityEvent.ColliderLoadFinish?.Invoke(CollisionObject);
     }
-
     /// <summary>
     /// 添加实体触发器
     /// </summary>
@@ -113,8 +113,8 @@ public abstract class EntityCollisionCore : EntityBaseComponent
         entityTriggerObject.transform.parent = transform;
         entityTriggerObject.transform.localPosition = Vector3.zero;
         entityTriggerObject.transform.localRotation = Quaternion.identity;
-        entityTriggerObject.layer = MLayerMask.ENTITY_TRIGGER;
-        entityTriggerObject.name = "EntityTrigger";
+        entityTriggerObject.layer = MLayerMask.ENTITY_CHECK;
+        entityTriggerObject.name = "EntityCheck";
 
         CapsuleCollider bodyCollider = BodyCollision as CapsuleCollider;
         CapsuleCollider collider = entityTriggerObject.AddComponent<CapsuleCollider>();
@@ -123,8 +123,9 @@ public abstract class EntityCollisionCore : EntityBaseComponent
         collider.center = bodyCollider.center;
         collider.isTrigger = true;
 
-        EntityTrigger = entityTriggerObject.AddComponent<EntityCollisionTrigger>();
+        EntityTrigger = entityTriggerObject.AddComponent<EntityCollisionTriggerCore>();
         EntityTrigger.Init(RefEntity);
+        entityTriggerObject.SetActive(false);
     }
     /// <summary>
     /// 删除实体触发器
@@ -135,6 +136,21 @@ public abstract class EntityCollisionCore : EntityBaseComponent
         {
             Destroy(EntityTrigger.gameObject);
             EntityTrigger = null;
+        }
+    }
+
+    public void SetEntityTriggerActive(bool active)
+    {
+        if (EntityTrigger == null)
+        {
+            return;
+        }
+        EntityTriggerActiveCount = active ? EntityTriggerActiveCount + 1 : EntityTriggerActiveCount - 1;
+        EntityTrigger.gameObject.SetActive(EntityTriggerActiveCount > 0);
+
+        if (EntityTriggerActiveCount <= 0)
+        {
+            EntityTrigger.Clear();
         }
     }
 
