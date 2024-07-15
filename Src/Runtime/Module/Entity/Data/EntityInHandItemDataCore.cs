@@ -15,7 +15,6 @@ public class EntityInHandItemDataCore : EntityBaseComponent
     {
         if (data == null)
         {
-            Log.Error("InitFromNetData data is null");
             return;
         }
 
