@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-26 14:25:46
  * @Description: 实体碰撞盒
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCollisionCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityCollisionCore.cs
  * 
  */
 using CMF;
@@ -125,7 +125,7 @@ public abstract class EntityCollisionCore : EntityBaseComponent
 
         EntityTrigger = entityTriggerObject.AddComponent<EntityCollisionTriggerCore>();
         EntityTrigger.Init(RefEntity);
-        entityTriggerObject.SetActive(false);
+        entityTriggerObject.SetActive(EntityTriggerActiveCount > 0);
     }
     /// <summary>
     /// 删除实体触发器
@@ -141,11 +141,12 @@ public abstract class EntityCollisionCore : EntityBaseComponent
 
     public void SetEntityTriggerActive(bool active)
     {
+        EntityTriggerActiveCount = active ? EntityTriggerActiveCount + 1 : EntityTriggerActiveCount - 1;
+
         if (EntityTrigger == null)
         {
             return;
         }
-        EntityTriggerActiveCount = active ? EntityTriggerActiveCount + 1 : EntityTriggerActiveCount - 1;
         EntityTrigger.gameObject.SetActive(EntityTriggerActiveCount > 0);
 
         if (EntityTriggerActiveCount <= 0)
