@@ -66,6 +66,16 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     protected abstract void InitStatus(SoilStatusCtrl statusCtrl);
 
     /// <summary>
+    /// 重置到idle空白状态
+    /// </summary>
+    public void ResetToIdleStatus()
+    {
+        //状态初始化 老的状态会退出 这里有GC 如果大量使用需要在状态基类中统一切换状态
+        InitStatus(StatusCtrl);
+        StatusCtrl.StartStatus(eSoilStatus.Idle);
+    }
+
+    /// <summary>
     /// 获取当前状态
     /// </summary>
     /// <returns></returns>
