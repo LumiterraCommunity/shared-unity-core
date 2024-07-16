@@ -54,7 +54,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
             TalentTreeLvList.AddRange(talentData.Levels);//天赋树等级列表
         }
 
-        if (talentData.Levels == null)
+        if (talentData.Trees == null)
         {
             RefEntity.EntityEvent.TalentSkillInited?.Invoke(new List<int>());
             //整棵树为空，直接返回成功
@@ -63,7 +63,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
 
         try
         {
-            int treeCount = talentData.Levels.Count;
+            int treeCount = talentData.Trees.Count;
             for (int treeIndex = 0; treeIndex < treeCount; treeIndex++)
             {
                 TalentTree tree = talentData.Trees[treeIndex];
