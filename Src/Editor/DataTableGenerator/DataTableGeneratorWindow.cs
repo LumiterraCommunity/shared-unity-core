@@ -70,6 +70,12 @@ namespace Custom.Editor.DataTableTools
                 RefreshAll();
             }
 
+            if (GUILayout.Button("一键生成-Ronin"))
+            {
+                DataTableGeneratorUtil.SetPath(_configPath , "/csv-Ronin");
+                RefreshAll();
+            }
+
         }
 
         private void RefreshAll()
