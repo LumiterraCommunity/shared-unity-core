@@ -2,7 +2,7 @@
 * @Author: xiang huan
 * @Date: 2022-07-19 16:19:58
 * @Description: 碰撞触发效果
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SECollisionTriggerCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SECollisionTriggerCore.cs
 * 
 */
 
@@ -22,6 +22,10 @@ public class SECollisionTriggerCore : SkillEffectBase
         RefEntity.EntityEvent.EntityTriggerEnter += EntityTriggerEnter;
         TriggerList = new();
         CurSkillCfg = GFEntryCore.DataTable.GetDataTable<DRSkill>().GetDataRow(SkillID);
+        if (RefEntity.TryGetComponent(out EntityCollisionCore entityCollisionCore))
+        {
+            entityCollisionCore.SetEntityTriggerActive(true);
+        }
     }
 
     public override void OnRemove()
@@ -30,6 +34,10 @@ public class SECollisionTriggerCore : SkillEffectBase
         TriggerList = null;
         CurSkillCfg = null;
         EffectIDList = null;
+        if (RefEntity.TryGetComponent(out EntityCollisionCore entityCollisionCore))
+        {
+            entityCollisionCore.SetEntityTriggerActive(false);
+        }
         base.OnRemove();
     }
     protected void EntityTriggerEnter(EntityBase entityBase)

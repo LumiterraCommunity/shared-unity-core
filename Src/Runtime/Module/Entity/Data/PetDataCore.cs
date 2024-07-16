@@ -67,14 +67,14 @@ public class PetDataCore : EntityBaseComponent
     /// </summary>
     public bool IsHunger => HungerValue <= 0;
 
-    public void InitFromNetData(GrpcPetData petData)
+    public void InitFromNetData(RpcPetData petData)
     {
         Favorability = petData.Favorability;
         CreateMs = petData.CreateMs;
         UpdateMs = petData.UpdateMs;
         IsFollowing = petData.Status;
         HungerValue = petData.Hunger;
-        LastUnFollowMs = petData.LastUnFollowMs;
+        LastUnFollowMs = petData.LastUnfollowMs;
         SetAbilityByBitOffsets(petData.AbilityList);
         SetPetCfgId(petData.Cid);
 

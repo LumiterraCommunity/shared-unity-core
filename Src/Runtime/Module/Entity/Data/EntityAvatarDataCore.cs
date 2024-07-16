@@ -32,15 +32,15 @@ public class EntityAvatarDataCore : EntityBaseComponent
     /// 从网络数据初始化
     /// </summary>
     /// <param name="avatars"></param>
-    public void InitFromNet(GrpcAvatarAttribute[] avatars)
+    public void InitFromNet(AvatarAttribute[] avatars)
     {
         AvatarDic.Clear();
         AvatarList.Clear();
         if (avatars != null && avatars.Length > 0)
         {
-            foreach (GrpcAvatarAttribute avatar in avatars)
+            foreach (AvatarAttribute avatar in avatars)
             {
-                AvatarAttribute avatarAttribute = avatar.ToProtoData();
+                AvatarAttribute avatarAttribute = avatar;
                 AvatarDic.Add(avatarAttribute.Position, avatarAttribute);
             }
             AvatarList.AddRange(AvatarDic.Values);

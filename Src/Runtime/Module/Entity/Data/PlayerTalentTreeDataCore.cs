@@ -11,15 +11,15 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// 天赋树等级列表
     /// </summary>
     /// <returns></returns>
-    protected List<GrpcTalentLevel> TalentTreeLvList;
+    protected List<TalentLevel> TalentTreeLvList;
     /// <summary>
     /// 所有类型的天赋树列表，方便遍历
     /// </summary>
-    protected Dictionary<TalentType, List<GrpcTalentNodeData>> AllTalentTreeList;
+    protected Dictionary<TalentType, List<TalentNode>> AllTalentTreeList;
     /// <summary>
     /// 所有类型的天赋树字典，方便查找
     /// </summary>
-    protected Dictionary<TalentType, Dictionary<int, GrpcTalentNodeData>> AllTalentTreeDic;
+    protected Dictionary<TalentType, Dictionary<int, TalentNode>> AllTalentTreeDic;
     /// <summary>
     /// 天赋树配置表引用
     /// </summary>
@@ -42,7 +42,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// 后面的变动通过 UpdateNode,AddNode,RemoveNode 来更新
     /// </summary>
     /// <param name="talentData"></param>
-    public bool Init(GrpcTalentData talentData)
+    public bool Init(RpcTalentData talentData)
     {
         Log.Info($"player:{RefEntity.BaseData.Id} start init talent tree");
         AllTalentTreeList = new();
@@ -63,21 +63,21 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
 
         try
         {
-            int treeCount = talentData.Trees.Length;
+            int treeCount = talentData.Trees.Count;
             for (int treeIndex = 0; treeIndex < treeCount; treeIndex++)
             {
-                GrpcTalentTree tree = talentData.Trees[treeIndex];
-                List<GrpcTalentNodeData> treeList = new();
-                Dictionary<int, GrpcTalentNodeData> treeDic = new();
-                AllTalentTreeList.Add(tree.TalentType, treeList);
-                AllTalentTreeDic.Add(tree.TalentType, treeDic);
+                TalentTree tree = talentData.Trees[treeIndex];
+                List<TalentNode> treeList = new();
+                Dictionary<int, TalentNode> treeDic = new();
+                AllTalentTreeList.Add(tree.Type, treeList);
+                AllTalentTreeDic.Add(tree.Type, treeDic);
 
-                if (tree.Nodes != null)
+                if (tree.UnlockNodes != null)
                 {
-                    treeList.AddRange(tree.Nodes);
-                    for (int i = 0; i < tree.Nodes.Length; i++)
+                    treeList.AddRange(tree.UnlockNodes);
+                    for (int i = 0; i < tree.UnlockNodes.Count; i++)
                     {
-                        GrpcTalentNodeData node = tree.Nodes[i];
+                        TalentNode node = tree.UnlockNodes[i];
                         treeDic.Add(node.NodeId, node);
                     }
                 }
@@ -117,7 +117,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
             return result;
         }
 
-        if (!AllTalentTreeList.TryGetValue(talentType, out List<GrpcTalentNodeData> treeList))
+        if (!AllTalentTreeList.TryGetValue(talentType, out List<TalentNode> treeList))
         {
             return result;
         }
@@ -130,7 +130,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
 
         for (int i = 0; i < treeList.Count; i++)
         {
-            GrpcTalentNodeData node = treeList[i];
+            TalentNode node = treeList[i];
             if (node.Level <= 0)
             {
                 //虽然节点解锁了，但是等级还是0，没有收益，不必计算
@@ -167,9 +167,9 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// </summary>
     /// <param name="newNode"></param>
     /// <param name="talentType"></param>
-    public void UpdateNode(GrpcTalentNodeData newNode, TalentType talentType)
+    public void UpdateNode(TalentNode newNode, TalentType talentType)
     {
-        if (!AllTalentTreeDic.TryGetValue(talentType, out Dictionary<int, GrpcTalentNodeData> talentTreeDic))
+        if (!AllTalentTreeDic.TryGetValue(talentType, out Dictionary<int, TalentNode> talentTreeDic))
         {
             Log.Error($"update talent node failed, can not find talent tree, talent type: {talentType}");
             return;
@@ -182,7 +182,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
         }
 
         Log.Info($"update talent node, node id: {newNode.NodeId}");
-        GrpcTalentNodeData oldNode = talentTreeDic[newNode.NodeId];
+        TalentNode oldNode = talentTreeDic[newNode.NodeId];
         // talentTreeDic[newNode.NodeId] = newNode;
         // List<GrpcTalentNodeData> talentList = _allTalentTreeList[talentType];
         //后面的节点更新的概率更大，所以从后往前遍历
@@ -204,9 +204,9 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// </summary>
     /// <param name="node"></param>
     /// <param name="talentType"></param>
-    public void AddTalentNode(GrpcTalentNodeData node, TalentType talentType)
+    public void AddTalentNode(TalentNode node, TalentType talentType)
     {
-        if (!AllTalentTreeDic.TryGetValue(talentType, out Dictionary<int, GrpcTalentNodeData> talentTreeDic))
+        if (!AllTalentTreeDic.TryGetValue(talentType, out Dictionary<int, TalentNode> talentTreeDic))
         {
             talentTreeDic = new();
             AllTalentTreeList.Add(talentType, new());
@@ -233,20 +233,20 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// <param name="talentType"></param>
     public void RemoveTalentNode(int nodeID, TalentType talentType)
     {
-        if (!AllTalentTreeDic.TryGetValue(talentType, out Dictionary<int, GrpcTalentNodeData> talentTreeDic))
+        if (!AllTalentTreeDic.TryGetValue(talentType, out Dictionary<int, TalentNode> talentTreeDic))
         {
             Log.Error($"update talent node failed, can not find talent tree, talent type: {talentType}");
             return;
         }
 
         Log.Info($"remove talent node, node id: {nodeID}");
-        if (!talentTreeDic.Remove(nodeID, out GrpcTalentNodeData removedNode))
+        if (!talentTreeDic.Remove(nodeID, out TalentNode removedNode))
         {
             Log.Error($"remove talent node failed, can not find node, node id: {nodeID}");
             return;
         }
 
-        List<GrpcTalentNodeData> talentList = AllTalentTreeList[talentType];
+        List<TalentNode> talentList = AllTalentTreeList[talentType];
         //删除节点从后往前找查询命中率会高一点，因为一般情况下，删除的节点都是最后一个
         for (int i = talentList.Count - 1; i >= 0; i--)
         {
@@ -265,7 +265,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// </summary>
     /// <param name="oldNode"></param>
     /// <param name="newNode"></param>
-    private void OnNodeUpdated(GrpcTalentNodeData oldNode, GrpcTalentNodeData newNode)
+    private void OnNodeUpdated(TalentNode oldNode, TalentNode newNode)
     {
         DRTalentTree nodeCfg = _refTalentTreeTable.GetDataRow(newNode.NodeId);
         if (nodeCfg == null)
@@ -291,7 +291,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// 当新增天赋节点
     /// </summary>
     /// <param name="node"></param>
-    private void OnNodeAdded(GrpcTalentNodeData node)
+    private void OnNodeAdded(TalentNode node)
     {
         DRTalentTree nodeCfg = _refTalentTreeTable.GetDataRow(node.NodeId);
         if (nodeCfg == null)
@@ -312,7 +312,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// 当天赋节点被移除时
     /// </summary>
     /// <param name="node"></param>
-    private void OnNodeRemoved(GrpcTalentNodeData node)
+    private void OnNodeRemoved(TalentNode node)
     {
         DRTalentTree nodeCfg = _refTalentTreeTable.GetDataRow(node.NodeId);
         if (nodeCfg == null)
@@ -351,7 +351,7 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     public int GetPlayerLevel()
     {
         int level = 0;
-        foreach (GrpcTalentLevel treeLv in TalentTreeLvList)
+        foreach (TalentLevel treeLv in TalentTreeLvList)
         {
             if (level < treeLv.MasterLevel)
             {
@@ -368,9 +368,9 @@ public class PlayerTalentTreeDataCore : EntityBaseComponent
     /// <returns></returns>
     public int GetPlayerTypeLevel(TalentType type)
     {
-        foreach (GrpcTalentLevel treeLv in TalentTreeLvList)
+        foreach (TalentLevel treeLv in TalentTreeLvList)
         {
-            if (treeLv.TalentType == type)
+            if (treeLv.Type == type)
             {
                 return treeLv.MasterLevel;
             }
