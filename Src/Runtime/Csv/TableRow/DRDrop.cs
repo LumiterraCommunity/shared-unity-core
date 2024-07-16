@@ -32,6 +32,15 @@ public class DRDrop : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取extraDropList-int[][]。*/
+    /// </summary>
+    public int[][] ExtraDropList
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -39,6 +48,7 @@ public class DRDrop : DataRowBase
         int index = 0;
         DropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        ExtraDropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -52,6 +62,7 @@ public class DRDrop : DataRowBase
             {
                 DropList = binaryReader.ReadArrayList<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
+                ExtraDropList = binaryReader.ReadArrayList<Int32>();
             }
         }
 

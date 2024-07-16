@@ -1,39 +1,39 @@
 desc-string,id-int,parameters_1-int[],parameters_2-int[][],type-int
-The monster's defense has been enhanced.,1,2,650,2
-The monster's attack power has been enhanced.,2,2,651,2
-The player's defense has been weakened.,3,1,652,2
-The player's attack power has been weakened.,4,1,653,2
-The monster's maximum HP has increased.,5,2,654,2
-The monster's defense has been weakened.,6,2,655,2
-The monster's attack power has been weakened.,7,2,656,2
-The player's defense has been enhanced.,8,1,657,2
-The player's attack power has been enhanced.,9,1,658,2
-The monster's maximum HP has decreased.,10,2,659,2
-Triggered a random debuff event in combat.,11,,"10000,1;10000,2;10000,3;10000,4;10000,5",1
-Triggered a random buff event in combat.,12,,"10000,6;10000,7;10000,8;10000,9;10000,10",1
-Triggered a random debuff event during gathering.,13,,"10000,17;10000,18;10000,19;10000,20",1
-Triggered a random buff event during gathering.,14,,"10000,21;10000,18;10000,23;10000,24",1
-Triggered a random debuff event in farming.,15,,"10000,25;10000,26;10000,28;10000,29;10000,30",1
-Triggered a random buff event in farming.,16,,"10000,31;10000,32;10000,34;10000,35;10000,36",1
-The gathering item's defense has been enhanced.,17,5,"60,1,150,60,4;61,1,150,61,4;62,1,150,62,4",3
-The gathering item's maximum progress value has been enhanced.,18,5,"76,1,100,76,4",3
-The player's gathering attack power has been weakened.,19,1,660,2
-The player's movement speed has slowed down.,20,1,661,2
-The gathering item's defense has been weakened.,21,5,"60,1,-150,60,4;61,1,-150,61,4;62,1,-150,62,4",3
-The gathering item's maximum progress value has been weakened.,22,5,"76,1,-100,76,4",3
-The player's gathering attack power has been enhanced.,23,1,662,2
-The player's movement speed has increased.,24,1,663,2
-The water requirement for crops has increased.,25,8,"71,1,100,71,4",3
-The proficiency requirement for crops has increased.,26,8,"73,1,25,73,4",3
-The crops have reverted to the previous growth stage.,27,,"1,-1",4
-The crops need to be watered again.,28,,"2,0",4
-The player's watering speed has slowed down.,29,1,664,2
-The player's planting proficiency has been weakened.,30,1,665,2
-The water requirement for crops has decreased.,31,8,"71,1,-100,71,4",3
-The proficiency requirement for crops has decreased.,32,8,"73,1,-25,73,4",3
-The crops have entered the next growth stage.,33,,"1,1",4
-All crops have been watered.,34,,"2,1",4
-The player's watering speed has increased.,35,1,666,2
-The player's planting proficiency has been enhanced.,36,1,667,2
-Player's gathering stats recalculation.,37,1,668,2
-Gathering item's stats recalculation.,38,5,,3
+怪物的防禦力已被增強。,1,2,650,2
+ 怪物的攻擊力已被增強。,2,2,651,2
+ 玩家的防禦力已被削弱。,3,1,652,2
+ 玩家的攻擊力已被削弱。,4,1,653,2
+ 怪物的最大生命值已增加。,5,2,654,2
+ 怪物的防禦力已被削弱。,6,2,655,2
+ 怪物的攻擊力已被削弱。,7,2,656,2
+ 玩家的防禦力已被增強。,8,1,657,2
+ 玩家的攻擊力已被增強。,9,1,658,2
+ 怪物的最大生命值已減少。,10,2,659,2
+ 觸發了一個隨機的戰鬥減益事件。,11,,"10000,1;10000,2;10000,3;10000,4;10000,5",1
+ 觸發了一個隨機的戰鬥增益事件。,12,,"10000,6;10000,7;10000,8;10000,9;10000,10",1
+ 觸發了一個隨機的採集減益事件。,13,,"10000,17;10000,18;10000,19;10000,20",1
+ 觸發了一個隨機的採集增益事件。,14,,"10000,21;10000,18;10000,23;10000,24",1
+ 觸發了一個隨機的農耕減益事件。,15,,"10000,25;10000,26;10000,28;10000,29;10000,30",1
+ 觸發了一個隨機的農耕增益事件。,16,,"10000,31;10000,32;10000,34;10000,35;10000,36",1
+ 採集物品的防禦力已被增強。,17,5,"60,1,150,60,4;61,1,150,61,4;62,1,150,62,4",3
+ 採集物品的最大進度值已被增強。,18,5,"76,1,100,76,4",3
+ 玩家的採集攻擊力已被削弱。,19,1,660,2
+ 玩家的移動速度已減慢。,20,1,661,2
+ 採集物品的防禦力已被削弱。,21,5,"60,1,-150,60,4;61,1,-150,61,4;62,1,-150,62,4",3
+ 採集物品的最大進度值已被削弱。,22,5,"76,1,-100,76,4",3
+ 玩家的採集攻擊力已被增強。,23,1,662,2
+ 玩家的移動速度已增加。,24,1,663,2
+ 作物的澆水需求已增加。,25,8,"71,1,100,71,4",3
+作物的熟練度要求已增加。,26,8,"73,1,25,73,4",3
+ 作物已恢復到先前的生長階段。,27,,"1,-1",4
+ 作物需要再次澆水。,28,,"2,0",4
+ 玩家的澆水速度變慢了。,29,1,664,2
+ 玩家的種植熟練度已減弱。,30,1,665,2
+ 作物的水需求減少了。,31,8,"71,1,-100,71,4",3
+ 作物的熟練度要求減少了。,32,8,"73,1,-25,73,4",3
+ 作物已進入下一個生長階段。,33,,"1,1",4
+ 所有作物已澆水。,34,,"2,1",4
+ 玩家的澆水速度增加了。,35,1,666,2
+ 玩家的種植熟練度已提升。,36,1,667,2
+ 玩家的採集統計數據重新計算。,37,1,668,2
+ 採集物品的統計數據重新計算。,38,5,,3

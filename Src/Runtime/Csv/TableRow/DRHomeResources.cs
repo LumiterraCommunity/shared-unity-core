@@ -51,9 +51,9 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
-  /**获取homeAction-int。*/
+  /**获取homeAction-int[]。*/
     /// </summary>
-    public int HomeAction
+    public int[] HomeAction
     {
         get;
         private set;
@@ -139,7 +139,7 @@ public class DRHomeResources : DataRowBase
         AssetRes = DataTableParseUtil.ParseString(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        HomeAction = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        HomeAction = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -163,7 +163,7 @@ public class DRHomeResources : DataRowBase
                 AssetRes = binaryReader.ReadString();
                 DropId = binaryReader.Read7BitEncodedInt32();
                 Exp = binaryReader.Read7BitEncodedInt32();
-                HomeAction = binaryReader.Read7BitEncodedInt32();
+                HomeAction = binaryReader.ReadArray<Int32>();
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();

@@ -18,6 +18,7 @@ describe-string,id-int,module-string,value-string
 ,10001011,通用,Đã nhận được{0}
 ,10001012,通用,Thiếu vật phẩm.
 ,10001013,通用,Tài sản của bạn sẽ không thể được bán trong khu vực pvp.
+,10001014,通用,Hồ bơi ước nguyện
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -176,6 +177,7 @@ describe-string,id-int,module-string,value-string
 ,20090025,,Hoàn thành chương {0} trong {1}
 ,20090026,,Bạn nhận được một nhiệm vụ token
 ,20090027,,Cấp độ kỹ năng không đủ
+,20090028,,Nhiệm vụ đã hết hạn
 ,"20100000
 ",专精,Chung 
 ,20100001,专精,Nông nghiệp 
@@ -266,7 +268,9 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20160012,副本,Chưa mở.
 ,20160013,副本,Không khớp.
 ,20160014,副本,Vui lòng thử lại sau hoặc thách thức các hang động khác.
-,20160015,, Mức độ không phù hợp.
+,20160015,副本, Mức độ không phù hợp.
+,20160016,副本,Phần thưởng thêm
+,20160017,副本,"Khi vào một hang động, có khả năng kích hoạt sự kiện ""Phần thưởng thêm"":Giết quái vật cụ thể, thu thập vật phẩm hoặc thu hoạch cây trồng sẽ nhận được phần thưởng thêm.Có một giới hạn tối đa toàn cầu cố định về số lần sự kiện này có thể kích hoạt."
 ,20170000,合成,Vào hàng chờ
 ,20170001,合成,Hàng chế tạo đã đầy.
 ,20170002,合成,Công thức chế tạo chưa được mở khóa.
@@ -289,7 +293,7 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20190001,天赋树,Tổng cấp độ của cây tài năng cần đạt đến {0}.
 ,20190002,天赋树,Phải mở khóa nút gốc cùng tầng trước.
 ,20190003,天赋树,Không đủ cấp độ cây tài năng
-,20190004,天赋树,Tiếp tục tiêu [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jjhrfwa6' width='36' height='36'> để tắt cấp độ này? - Kỹ năng đã được kích hoạt sẽ được đặt lại. - Công thức sẽ được đặt lại. - Kinh nghiệm sẽ mất đi.
+,20190004,,{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> để tắt cấp độ này?- Kỹ năng đã được kích hoạt sẽ được đặt lại.- Công thức sẽ được đặt lại.- Kinh nghiệm sẽ mất đi.
 ,20200000,活动,Nhận giải thưởng thành công
 ,20200001,活动,Nhận giải thưởng không thành công
 ,20200002,活动,Tạo vé thành công
@@ -315,7 +319,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20220016,战报概要,Thách thức [color=#FF9F2F]{name=Abyss canyon}[/color] thành công
 ,20220017,战报概要,Thách thức [color=#FF9F2F]{name=Abyss canyon}[/color] thất bại
 ,20220018,战报详情,[color=#F7CE3D]Bạn[/color] đã nhận được phần thưởng sau khi hoàn thành cấp độ
-,20220019,战报详情,"[color=#F7CE3D]Bạn[/color] nhận được <img src='{icon=ui://sulwtp4jjhrfwa6}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Phần thưởng Tượng thần"
+,20220019,战报详情,"{num=8,000}[/color] Phần thưởng Tượng thần"
 ,20230000,宠物,Thú cưng đã theo sau.
 ,20230001,宠物,Thú cưng đã ngừng theo sau.
 ,20230002,宠物,Rửa tủy thú cưng thành công.
@@ -342,6 +346,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20280001,装备拆解,"Trang bị không thể khôi phục sau khi tháo rời, vui lòng xác nhận."
 ,20290001,背包,Vật phẩm đã được loại bỏ.
 ,20290002,背包,Vật phẩm không thể chuyển đổi.
-,20290003,,Đã chuyển đổi tất cả.
-,20290004,,Vật phẩm này không thể chuyển đổi.
-,20290005,,Vật phẩm đã được sắp xếp.
+,20290003,背包,Đã chuyển đổi tất cả.
+,20290004,背包,Vật phẩm này không thể chuyển đổi.
+,20290005,背包,Vật phẩm đã được sắp xếp.
+,20290006,,Tên mục gốc đã được sao chép!

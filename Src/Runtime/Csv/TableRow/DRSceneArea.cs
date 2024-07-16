@@ -249,6 +249,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取dropRewardShow-int[]。*/
+    /// </summary>
+    public int[] DropRewardShow
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取name-string。*/
     /// </summary>
     public string Name
@@ -303,18 +312,18 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取dropRewardShow-int[]。*/
+  /**获取seedMaxLimit-int[]。*/
     /// </summary>
-    public int[] DropRewardShow
+    public int[] SeedMaxLimit
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取seedMaxLimit-int[]。*/
+  /**获取uniqueSeed-int[]。*/
     /// </summary>
-    public int[] SeedMaxLimit
+    public int[] UniqueSeed
     {
         get;
         private set;
@@ -351,14 +360,15 @@ public class DRSceneArea : DataRowBase
         ChapterTimeLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Chapters = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         RandomSeeds = DataTableParseUtil.ParseArrayList<string>(columnStrings[index++]);
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        UniqueSeed = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -396,14 +406,15 @@ public class DRSceneArea : DataRowBase
                 ChapterTimeLimit = binaryReader.ReadArray<Int32>();
                 Chapters = binaryReader.ReadArray<String>();
                 Desc = binaryReader.ReadString();
+                DropRewardShow = binaryReader.ReadArray<Int32>();
                 Name = binaryReader.ReadString();
                 PunishDesc = binaryReader.ReadString();
                 RandomSeeds = binaryReader.ReadArrayList<String>();
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
-                DropRewardShow = binaryReader.ReadArray<Int32>();
                 SeedMaxLimit = binaryReader.ReadArray<Int32>();
+                UniqueSeed = binaryReader.ReadArray<Int32>();
             }
         }
 

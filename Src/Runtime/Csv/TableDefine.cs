@@ -98,6 +98,7 @@ public enum eGameValueID
     InstancingTotemScoreTax = 83,     //副本图腾积分扣税
     FollowPetCastSkillHungerCost = 84,     //跟随宠释放技能饥饿度消耗
     TalentTaskAbilityLvLimit = 89, //天赋任务等级限制
+    ExtraDropInstructionsId = 93, //额外掉落说明ID
 }
 
 // public static class GameValueID

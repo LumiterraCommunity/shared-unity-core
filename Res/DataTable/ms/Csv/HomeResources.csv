@@ -1,4 +1,4 @@
-assetRes-string,dropId-int,exp-int,homeAction-int,icon-string,id-int,initialAttribute-int[][],lv-int,name-string,progressScore-int,rankScore-int,tokenTaskLevel-int[],totemScore-int
+assetRes-string,dropId-int,exp-int,homeAction-int[],icon-string,id-int,initialAttribute-int[][],lv-int,name-string,progressScore-int,rankScore-int,tokenTaskLevel-int[],totemScore-int
 2D_caijiziyuan_shumu01_1,27,15,6,2D_caijiziyuan_shumu01_1,4,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",1,Kayu Biasa Tingkat 1#4,2,14,"0, 1",1
 Slice_12,27,15,6,Slice_12,5,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",1,Kayu Biasa Tingkat 1#5,2,14,999,1
 2D_caijiziyuan_xianrenzhang,28,21.21320344,6,2D_caijiziyuan_xianrenzhang,6,"60,0,0;61,200,0;62,0,0;63,225,0;76,1500,0",2,Kayu Pokok Gurun Tingkat 2#6,4,20,2,2
@@ -69,7 +69,7 @@ homeresource-79,61,60,7,homeresource-79,79,"60,0,0;61,0,0;62,500,0;63,540,0;76,3
 homeresource-80,62,84.85281374,5,homeresource-80,80,"60,600,0;61,0,0;62,0,0;63,645,0;76,4500,0",6,Lv 6  Bunga Elf#80,64,80,6,6
 homeresource-81,63,84.85281374,6,homeresource-81,81,"60,0,0;61,600,0;62,0,0;63,645,0;76,4500,0",6,Lv 6  Bintang Kaleng#81,64,80,6,6
 homeresource-82,64,84.85281374,7,homeresource-82,82,"60,0,0;61,0,0;62,600,0;63,645,0;76,4500,0",6,Lv 6  Meteorit#82,64,80,6,6
-homeresource-83,0,0,6,homeresource-83,83,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",0,#83,0,14,999,
+homeresource-83,0,0,6,homeresource-83,83,"60,0,0;61,100,0;62,0,0;63,120,0;76,750,0",1,#83,2,14,999,1
 homeresource-84,88,0,16,homeresource-84,84,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",1, [413]LUAG Masa Depan (N)#84,2,0,999,0
 homeresource-85,92,120,5,homeresource-85,85,"60,700,0;61,0,0;62,0,0;63,750,0;76,5250,0",7,Lv 7  Bunga Lava#85,128,113,7,7
 homeresource-86,92,120,5,homeresource-86,86,"60,700,0;61,0,0;62,0,0;63,750,0;76,5250,0",7,Lv 7  Bunga Lava#86,128,113,7,7
@@ -90,3 +90,12 @@ homeresource-100,117,240,6,homeresource-100,100,"60,0,0;61,900,0;62,0,0;63,960,0
 homeresource-101,118,240,7,homeresource-101,101,"60,0,0;61,0,0;62,900,0;63,960,0;76,6750,0",9,Lv 9 Batu Perunggu#101,512,226,9,9
 homeresource-102,118,240,7,homeresource-102,102,"60,0,0;61,0,0;62,900,0;63,960,0;76,6750,0",9,Lv 9 Batu Perunggu#102,512,226,9,9
 homeresource-103,0,0,16,homeresource-103,103,"60,0,0;61,0,0;62,0,0;63,10,0;76,0,0",1,#103,2,0,999,0
+homeresource-104,185,15,5,homeresource-104,104,"60,100,0;61,0,0;62,0,0;63,120,0;76,75000,0",1,#104,10,14,999,1
+homeresource-105,186,21.21320344,6,homeresource-105,105,"60,0,0;61,200,0;62,0,0;63,225,0;76,150000,0",2,#105,20,20,999,2
+homeresource-106,187,30,7,homeresource-106,106,"60,0,0;61,0,0;62,300,0;63,330,0;76,225000,0",3,#106,40,28,999,3
+homeresource-107,188,42.42640687,5,homeresource-107,107,"60,400,0;61,0,0;62,0,0;63,435,0;76,300000,0",4,#107,80,40,999,4
+homeresource-108,189,60,6,homeresource-108,108,"60,0,0;61,500,0;62,0,0;63,540,0;76,375000,0",5,#108,160,56,999,5
+homeresource-109,190,84.85281374,5,homeresource-109,109,"60,600,0;61,0,0;62,0,0;63,645,0;76,450000,0",7,#109,640,80,999,7
+homeresource-110,191,120,7,homeresource-110,110,"60,0,0;61,0,0;62,700,0;63,750,0;76,525000,0",6,#110,320,113,999,6
+homeresource-111,192,169.7056275,6,homeresource-111,111,"60,0,0;61,800,0;62,0,0;63,855,0;76,600000,0",8,#111,1280,160,999,8
+homeresource-112,193,240,7,homeresource-112,112,"60,0,0;61,0,0;62,900,0;63,960,0;76,675000,0",9,#112,2560,226,999,9
