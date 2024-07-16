@@ -15,6 +15,7 @@ public class EntityInHandItemDataCore : EntityBaseComponent
     {
         if (data == null)
         {
+            Init(string.Empty, 0, 0);
             return;
         }
 
