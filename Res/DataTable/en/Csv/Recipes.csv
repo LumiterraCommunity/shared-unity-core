@@ -91,14 +91,14 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Crafting Lv 3 Gather Top,2,recipe-icon-186,186,3,"211,1;214,1;218,2",Lv 3 Gathering Jacket Recipe,"121,1,1,4576;121,3,1,2033;121,2,1,3050;247,5,1,169;252,5,1,169",1,0,50700186,1,5,-,3,0,4,0,0
 0,Crafting Lv 3 Gather  Pants,2,recipe-icon-187,187,3,"211,1;214,1;218,2",Lv 3 Gathering Pants Recipe,"124,1,1,4576;124,3,1,2033;124,2,1,3050;249,5,1,169;254,5,1,169",1,0,50700187,1,5,-,3,0,4,0,0
 0,Crafting Lv 3 Gather Gloves,2,recipe-icon-188,188,3,"211,1;214,1;218,2",Lv 3 Gathering Gloves Recipe,"127,1,1,4655;127,2,1,3103;127,3,1,2068;253,5,1,172",1,0,50700188,1,5,-,3,0,4,0,0
-0,Crafting Lv 0 Wooden Sword,2,recipe-icon-189,189,0,"62,10;32,5",Lv 0 Wooden Sword Recipe,"39,1,1,10000",1,0,11000189,1,3,-,2,1,1,0,0
-0,Crafting Lv 0 Wooden Hoe,2,recipe-icon-190,190,0,"62,10;66,10",Lv 0 Wooden Hoe Recipe,"79,1,1,10000",1,0,11000190,1,3,-,1,1,1,0,0
-0,Crafting Lv 0 Brush,2,recipe-icon-191,191,0,"62,10;66,10",Lv 0 Brush Recipe,"95,1,1,10000",1,0,11000191,1,3,-,1,1,1,0,0
-0,Crafting Lv 0 Hair Clipper,2,recipe-icon-192,192,0,"62,10;66,10",Lv 0 Hair Clipper Recipe,"96,1,1,10000",1,0,11000192,1,3,-,1,1,1,0,0
-0,Crafting Lv 0 Milking,2,recipe-icon-193,193,0,"62,10;66,10",Lv 0 Milker Recipe,"97,1,1,10000",1,0,11000193,1,3,-,1,1,1,0,0
-0,Making Lv 0 Wooden Water Bottle,2,recipe-icon-194,194,0,"62,10;66,10",Lv 0 Wooden Kettle Recipe,"83,1,1,10000",1,0,11000194,1,3,-,1,1,1,0,0
-0,Crafting Lv 0 Wooden Axe,2,recipe-icon-195,195,0,"62,10;66,10",Lv 0 Wooden Axe Recipe,"91,1,1,10000",1,0,11000195,1,3,-,3,1,1,0,0
-0,Crafting Lv 0 Wooden Pickaxe,2,recipe-icon-196,196,0,"62,10;66,10",Lv 0 Wooden pickaxe Recipe,"87,1,1,10000",1,0,11000196,1,3,-,3,1,1,0,0
+0,Crafting Lv 0 Wooden Sword,2,recipe-icon-189,189,0,"842,2",Lv 0 Wooden Sword Recipe,"39,1,1,10000",1,0,11000189,1,3,-,2,1,1,0,0
+0,Crafting Lv 0 Wooden Hoe,2,recipe-icon-190,190,0,"844,1;845,1",Lv 0 Wooden Hoe Recipe,"79,1,1,10000",1,0,11000190,1,3,-,1,1,1,0,0
+0,Crafting Lv 0 Brush,2,recipe-icon-191,191,0,"844,1;845,1",Lv 0 Brush Recipe,"95,1,1,10000",1,0,11000191,1,3,-,1,1,1,0,0
+0,Crafting Lv 0 Hair Clipper,2,recipe-icon-192,192,0,"844,1;845,1",Lv 0 Hair Clipper Recipe,"96,1,1,10000",1,0,11000192,1,3,-,1,1,1,0,0
+0,Crafting Lv 0 Milking,2,recipe-icon-193,193,0,"844,1;845,1",Lv 0 Milker Recipe,"97,1,1,10000",1,0,11000193,1,3,-,1,1,1,0,0
+0,Making Lv 0 Wooden Water Bottle,2,recipe-icon-194,194,0,"844,1;845,1",Lv 0 Wooden Kettle Recipe,"83,1,1,10000",1,0,11000194,1,3,-,1,1,1,0,0
+0,Crafting Lv 0 Wooden Axe,2,recipe-icon-195,195,0,"843,2",Lv 0 Wooden Axe Recipe,"91,1,1,10000",1,0,11000195,1,3,-,3,1,1,0,0
+0,Crafting Lv 0 Wooden Pickaxe,2,recipe-icon-196,196,0,"843,2",Lv 0 Wooden pickaxe Recipe,"87,1,1,10000",1,0,11000196,1,3,-,3,1,1,0,0
 0,Crafting Lv 0 Better Accelerated Fertilizer,2,recipe-icon-197,197,2,"69,2;35,2",Lv 0 Better Accelerated Fertilizer Recipe,"219,1,1,10000",3,0,40800197,1,5,-,1,0,4,0,0
 0,Crafting Lv 0 Better Yield-Boosting Fertilizer,2,recipe-icon-198,198,2,"61,2;35,2",Lv 0 Better Yield-Boosting Fertilizer Recipe,"220,1,1,10000",3,0,40800198,1,5,-,1,0,4,0,0
 0,Crafting Lv 0 Better Moist Fertilizer,2,recipe-icon-199,199,2,"65,2;35,2",Lv 0 Better Moisturizing Fertilizer Recipe,"221,1,1,10000",3,0,40800199,1,5,-,1,0,4,0,0
@@ -107,8 +107,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Crafting Lv 3 Iron Sickle,2,recipe-icon-204,204,3,"211,1;214,1;218,2",Lv 3 Crystal Sickle Recipe,"228,1,1,10000",1,0,10700204,1,5,-,3,0,4,0,0
 0,Crafting Lv 0 Small Feed,2,recipe-icon-205,205,1,"482,1",Lv 0 Small Feed Recipe,"28,1,1,10000",3,0,40900205,1,5,-,1,0,4,0,0
 0,Making Lv 0 Large Feed,2,recipe-icon-206,206,2,"483,1",Lv 0 Big Feed Recipe,"29,1,1,10000",3,0,40800206,1,5,-,1,0,4,0,0
-0,Crafting Lv 0 Wooden Bow,2,recipe-icon-207,207,0,"62,20;66,10",Lv 0 Wood Bow Recipe,"223,1,1,10000",1,0,11000207,1,3,-,2,1,1,0,0
-0,Crafting Lv 0 Stone Hammer,2,recipe-icon-208,208,0,"62,20;58,20",Lv 0 Stone Hammer Recipe,"222,1,1,10000",1,0,11000208,1,3,-,2,1,1,0,0
+0,Crafting Lv 0 Wooden Bow,2,recipe-icon-207,207,0,"842,2",Lv 0 Wood Bow Recipe,"223,1,1,10000",1,0,11000207,1,3,-,2,1,1,0,0
+0,Crafting Lv 0 Stone Hammer,2,recipe-icon-208,208,0,"842,2",Lv 0 Stone Hammer Recipe,"222,1,1,10000",1,0,11000208,1,3,-,2,1,1,0,0
 0,Bomb Recipe,2,recipe-icon-212,212,0,"62,3",Bomb Recipe,"232,1,1,10000",3,0,41000212,1,5,-,3,0,4,0,0
 0,Stun Potion Recipe,2,recipe-icon-213,213,0,"58,3",Stun Potion Recipe,"233,1,1,10000",3,0,41000213,1,5,-,3,0,4,0,0
 0,Moderate Potion Recipe,2,recipe-icon-214,214,0,"66,3",Moderate Potion Recipe,"234,1,1,10000",3,0,41000214,1,5,-,3,0,4,0,0
@@ -227,7 +227,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Open World Lottery Ticket Recipe - Lv 2 (Farm Mat),0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10",Lv 2 Open World Lottery Ticket (Farm Mat),"466,1,12,10000",4,0,31000394,1,5,-,0,0,4,0,0
 0,Open World Lottery Ticket Recipe - Lv 3 (Farm Mat),0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10",Lv 3 Open World Lottery Ticket (Farm Mat),"466,1,27,10000",4,0,31000395,1,5,-,0,0,4,0,0
 0,Dungeon Admission Ticket Exchange,2,recipe-icon-397,397,0,"469,2",Dungeon Admission Ticket Exchange,"468,1,1,8767;467,1,1,1095;658,1,1,136",4,0,51000397,1,5,-,2,1,1,0,0
-0,Crafting Lv 0 Wooden Sickle,2,recipe-icon-404,404,0,"62,10;58,10",Lv 1 Copper Sickle Recipe,"225,1,1,10000",1,0,11000404,1,3,-,3,1,1,0,0
+0,Crafting Lv 0 Wooden Sickle,2,recipe-icon-404,404,0,"843,2",Lv 1 Copper Sickle Recipe,"225,1,1,10000",1,0,11000404,1,3,-,3,1,1,0,0
 0,Wheat Seed Recipe,2,recipe-icon-405,405,4,"383,1",Lv 4 Wheat Seed Recipe,"413,1,1,8350;416,1,1,1649",3,0,50600405,1,5,-,1,0,4,0,0
 0,Peas Seed Recipe,2,recipe-icon-406,406,4,"384,1",Lv 4 Peas Seed Recipe,"414,1,1,8350;417,1,1,1649",3,0,50600406,1,5,-,1,0,4,0,0
 0,Garlic Seed Recipe,2,recipe-icon-407,407,4,"385,1",Lv 4 Garlic Seed Recipe,"415,1,1,8350;418,1,1,1649",3,0,50600407,1,5,-,1,0,4,0,0
@@ -1214,5 +1214,5 @@ Product 3 bottles of 3 energy restore potion.",2,recipe-icon-1234,1234,0,"835,4;
 Product 3 bottles of 2 energy restore potion.",2,recipe-icon-1236,1236,0,"840,1",Lv 0  Gather Energy Potion Recipe,"841,1,1,10000",3,0,41001236,1,5,-,3,1,1,0,0
 0,Lv 0 Combat Essence Recipe,2,recipe-icon-1237,1237,0,"833,15",Lv 0 Combat Essence Recipe,"842,1,1,10000",4,0,21001237,1,5,-,2,1,1,0,0
 0,Lv 0 Gather Essence Recipe,2,recipe-icon-1238,1238,0,"835,5;836,5;837,5",Lv 0 Gather Essence Recipe,"843,1,1,10000",4,0,21001238,1,5,-,3,1,1,0,0
-0,Lv 0 Agricultural Planting Essence Recipe,2,recipe-icon-1239,1239,0,,Lv 0 Agricultural Planting Essence Recipe,"844,1,1,10000",4,0,21001239,1,5,-,1,1,1,0,0
-0,Lv 0 Agricultural Livestock Essence Recipe,2,recipe-icon-1240,1240,0,,Lv 0 Agricultural Livestock Essence Recipe,"845,1,1,10000",4,0,21001240,1,5,-,1,1,1,0,0
+0,Lv 0 Agricultural Planting Essence Recipe,2,recipe-icon-1239,1239,0,"835,4;836,4;837,4",Lv 0 Agricultural Planting Essence Recipe,"844,1,1,10000",4,0,21001239,1,5,-,1,1,1,0,0
+0,Lv 0 Agricultural Livestock Essence Recipe,2,recipe-icon-1240,1240,0,"835,4;836,4;837,4",Lv 0 Agricultural Livestock Essence Recipe,"845,1,1,10000",4,0,21001240,1,5,-,1,1,1,0,0
