@@ -91,14 +91,14 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Lên đỉnh thu thập cấp 3,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Cấp 3 Công thức Áo Sưu Tập ,"121,1,1,4576;121,3,1,2033;121,2,1,3050;247,5,1,169;252,5,1,169",1,0,50700186,1,5,-,3,0,4,0,0
 0,Làm quần sưu tập cấp 3,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Cấp 3 Công thức Quần Sưu Tập ,"124,1,1,4576;124,3,1,2033;124,2,1,3050;249,5,1,169;254,5,1,169",1,0,50700187,1,5,-,3,0,4,0,0
 0,Làm găng tay thu thập cấp 3,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Cấp 3 Công thức Găng Tay Sưu Tập ,"127,1,1,4655;127,2,1,3103;127,3,1,2068;253,5,1,172",1,0,50700188,1,5,-,3,0,4,0,0
-0,Chế Tạo Kiếm Gỗ Lv 0,2,recipe-icon-189,189,0,"62,10;32,5", Cấp 1 Công thức Tinh Chất Thu Thập ,"39,1,1,10000",1,0,11000189,1,3,-,2,1,1,0,0
-0,Cuốc gỗ thủ công Lv 0,2,recipe-icon-190,190,0,"62,10;66,10", Cấp 2 Công thức Tinh Chất Thu Thập ,"79,1,1,10000",1,0,11000190,1,3,-,1,1,1,0,0
-0,Bàn chải thủ công Lv 0,2,recipe-icon-191,191,0,"62,10;66,10", Cấp 3 Công thức Tinh Chất Thu Thập ,"95,1,1,10000",1,0,11000191,1,3,-,1,1,1,0,0
-0,Tông đơ cắt tóc Craft Lv 0,2,recipe-icon-192,192,0,"62,10;66,10", Cấp 0 Công thức Kiếm Gỗ ,"96,1,1,10000",1,0,11000192,1,3,-,1,1,1,0,0
-0,Máy vắt sữa thủ công Lv 0,2,recipe-icon-193,193,0,"62,10;66,10", Cấp 0 Công thức Cuốc Gỗ ,"97,1,1,10000",1,0,11000193,1,3,-,1,1,1,0,0
-0,Chai nước bằng gỗ thủ công Lv 0,2,recipe-icon-194,194,0,"62,10;66,10", Cấp 0 Công thức Chải ,"83,1,1,10000",1,0,11000194,1,3,-,1,1,1,0,0
-0,Rìu gỗ thủ công Lv 0,2,recipe-icon-195,195,0,"62,10;66,10", Cấp 0 Công thức Cắt Tóc ,"91,1,1,10000",1,0,11000195,1,3,-,3,1,1,0,0
-0,Cuốc gỗ thủ công Lv 0,2,recipe-icon-196,196,0,"62,10;66,10", Cấp 0 Công thức Máy Vắt Sữa ,"87,1,1,10000",1,0,11000196,1,3,-,3,1,1,0,0
+0,Chế Tạo Kiếm Gỗ Lv 0,2,recipe-icon-189,189,0,"842,2", Cấp 1 Công thức Tinh Chất Thu Thập ,"39,1,1,10000",1,0,11000189,1,3,-,2,1,1,0,0
+0,Cuốc gỗ thủ công Lv 0,2,recipe-icon-190,190,0,"844,1;845,1", Cấp 2 Công thức Tinh Chất Thu Thập ,"79,1,1,10000",1,0,11000190,1,3,-,1,1,1,0,0
+0,Bàn chải thủ công Lv 0,2,recipe-icon-191,191,0,"844,1;845,1", Cấp 3 Công thức Tinh Chất Thu Thập ,"95,1,1,10000",1,0,11000191,1,3,-,1,1,1,0,0
+0,Tông đơ cắt tóc Craft Lv 0,2,recipe-icon-192,192,0,"844,1;845,1", Cấp 0 Công thức Kiếm Gỗ ,"96,1,1,10000",1,0,11000192,1,3,-,1,1,1,0,0
+0,Máy vắt sữa thủ công Lv 0,2,recipe-icon-193,193,0,"844,1;845,1", Cấp 0 Công thức Cuốc Gỗ ,"97,1,1,10000",1,0,11000193,1,3,-,1,1,1,0,0
+0,Chai nước bằng gỗ thủ công Lv 0,2,recipe-icon-194,194,0,"844,1;845,1", Cấp 0 Công thức Chải ,"83,1,1,10000",1,0,11000194,1,3,-,1,1,1,0,0
+0,Rìu gỗ thủ công Lv 0,2,recipe-icon-195,195,0,"843,2", Cấp 0 Công thức Cắt Tóc ,"91,1,1,10000",1,0,11000195,1,3,-,3,1,1,0,0
+0,Cuốc gỗ thủ công Lv 0,2,recipe-icon-196,196,0,"843,2", Cấp 0 Công thức Máy Vắt Sữa ,"87,1,1,10000",1,0,11000196,1,3,-,3,1,1,0,0
 0,Làm phân bón tăng tốc trung cấp Lv 0,2,recipe-icon-197,197,2,"69,2;35,2", Cấp 0 Công thức Phân Bón Tăng Tốc Tốt Hơn ,"219,1,1,10000",3,0,40800197,1,5,-,1,0,4,0,0
 0,Làm phân bón tăng năng suất trung cấp Lv 0,2,recipe-icon-198,198,2,"61,2;35,2", Cấp 0 Công thức Phân Bón Tăng Năng Suất Tốt Hơn ,"220,1,1,10000",3,0,40800198,1,5,-,1,0,4,0,0
 0,Làm phân bón ẩm trung cấp Lv 0,2,recipe-icon-199,199,2,"65,2;35,2", Cấp 0 Công thức Phân Bón Ẩm Tốt Hơn ,"221,1,1,10000",3,0,40800199,1,5,-,1,0,4,0,0
@@ -107,8 +107,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Làm lưỡi hái sắt cấp 3,2,recipe-icon-204,204,3,"211,1;214,1;218,2", Cấp 3 Công thức Liềm Sắt ,"228,1,1,10000",1,0,10700204,1,5,-,3,0,4,0,0
 0,Làm thức ăn gia súc nhỏ cấp 0,2,recipe-icon-205,205,1,"482,1", Cấp 0 Công thức Ấm Đun Nước Gỗ ,"28,1,1,10000",3,0,40900205,1,5,-,1,0,4,0,0
 0,Tạo nguồn cấp dữ liệu lớn cấp 0,2,recipe-icon-206,206,2,"483,1", Cấp 0 Công thức Rìu Gỗ ,"29,1,1,10000",3,0,40800206,1,5,-,1,0,4,0,0
-0,Cung và mũi tên gỗ thủ công Lv 0,2,recipe-icon-207,207,0,"62,20;66,10", Cấp 0 Công thức Cuốc Gỗ ,"223,1,1,10000",1,0,11000207,1,3,-,2,1,1,0,0
-0,Làm búa đá Lv 0,2,recipe-icon-208,208,0,"62,20;58,20", Cấp 0 Công thức Thức Ăn Nhỏ ,"222,1,1,10000",1,0,11000208,1,3,-,2,1,1,0,0
+0,Cung và mũi tên gỗ thủ công Lv 0,2,recipe-icon-207,207,0,"842,2", Cấp 0 Công thức Cuốc Gỗ ,"223,1,1,10000",1,0,11000207,1,3,-,2,1,1,0,0
+0,Làm búa đá Lv 0,2,recipe-icon-208,208,0,"842,2", Cấp 0 Công thức Thức Ăn Nhỏ ,"222,1,1,10000",1,0,11000208,1,3,-,2,1,1,0,0
 0,Trống,2,recipe-icon-212,212,0,"62,3", Cấp 0 Công thức Nguồn Cấp Dữ Liệu Lớn ,"232,1,1,10000",3,0,41000212,1,5,-,3,0,4,0,0
 0,Trống,2,recipe-icon-213,213,0,"58,3", Cấp 0 Công thức Cung Gỗ ,"233,1,1,10000",3,0,41000213,1,5,-,3,0,4,0,0
 0,Trống,2,recipe-icon-214,214,0,"66,3", Cấp 0 Công thức Búa Đá ,"234,1,1,10000",3,0,41000214,1,5,-,3,0,4,0,0
@@ -227,7 +227,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,Công thức Vé Xổ Số Thế Giới Mở - Cấp độ 2 (Nguyên liệu nông trại),0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10", Công thức Vé xổ số Thế giới Mở (Nguyên liệu nông trại) - Cấp độ 2,"466,1,12,10000",4,0,31000394,1,5,-,0,0,4,0,0
 0,Công thức Vé Xổ Số Thế Giới Mở - Cấp độ 3 (Nguyên liệu nông trại),0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10", Công thức Vé xổ số Thế giới Mở (Nguyên liệu nông trại) - Cấp độ 3,"466,1,27,10000",4,0,31000395,1,5,-,0,0,4,0,0
 0,Trao đổi Vé Vào Vùng Trôi,2,recipe-icon-397,397,0,"469,2", Trao đổi Vé tham quan Hang Động,"468,1,1,8767;467,1,1,1095;658,1,1,136",4,0,51000397,1,5,-,2,1,1,0,0
-0,Công thức Cuốc Gỗ cấp độ 0,2,recipe-icon-404,404,0,"62,10;58,10", Công thức Cuốc Đồng Cấp độ 1,"225,1,1,10000",1,0,11000404,1,3,-,3,1,1,0,0
+0,Công thức Cuốc Gỗ cấp độ 0,2,recipe-icon-404,404,0,"843,2", Công thức Cuốc Đồng Cấp độ 1,"225,1,1,10000",1,0,11000404,1,3,-,3,1,1,0,0
 0,Công thức Hạt Lúa Mì,2,recipe-icon-405,405,4,"383,1", Công thức Hạt Lúa Mì Cấp độ 4,"413,1,1,8350;416,1,1,1649",3,0,50600405,1,5,-,1,0,4,0,0
 0,Công thức Hạt Đậu,2,recipe-icon-406,406,4,"384,1", Công thức Hạt Đậu Cấp độ 4,"414,1,1,8350;417,1,1,1649",3,0,50600406,1,5,-,1,0,4,0,0
 0,Công thức hạt tỏi,2,recipe-icon-407,407,4,"385,1", Công thức Hạt Tỏi Cấp độ 4,"415,1,1,8350;418,1,1,1649",3,0,50600407,1,5,-,1,0,4,0,0
@@ -942,5 +942,5 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,2,recipe-icon-1236,1236,0,"840,1",,"841,1,1,10000",3,0,41001236,1,5,-,3,1,1,0,0
 0,,2,recipe-icon-1237,1237,0,"833,15",,"842,1,1,10000",4,0,21001237,1,5,-,2,1,1,0,0
 0,,2,recipe-icon-1238,1238,0,"835,5;836,5;837,5",,"843,1,1,10000",4,0,21001238,1,5,-,3,1,1,0,0
-0,,2,recipe-icon-1239,1239,0,,,"844,1,1,10000",4,0,21001239,1,5,-,1,1,1,0,0
-0,,2,recipe-icon-1240,1240,0,,,"845,1,1,10000",4,0,21001240,1,5,-,1,1,1,0,0
+0,,2,recipe-icon-1239,1239,0,"835,4;836,4;837,4",,"844,1,1,10000",4,0,21001239,1,5,-,1,1,1,0,0
+0,,2,recipe-icon-1240,1240,0,"835,4;836,4;837,4",,"845,1,1,10000",4,0,21001240,1,5,-,1,1,1,0,0

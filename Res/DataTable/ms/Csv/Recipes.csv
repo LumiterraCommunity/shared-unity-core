@@ -91,14 +91,14 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0, Membuat Baju Atasan Koleksi Tahap 3 ,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Tahap 3 Resipi Baju Atasan Koleksi ,"121,1,1,4576;121,3,1,2033;121,2,1,3050;247,5,1,169;252,5,1,169",1,0,50700186,1,5,-,3,0,4,0,0
 0, Membuat Seluar Koleksi Tahap 3 ,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Tahap 3 Resipi Seluar Koleksi ,"124,1,1,4576;124,3,1,2033;124,2,1,3050;249,5,1,169;254,5,1,169",1,0,50700187,1,5,-,3,0,4,0,0
 0, Membuat Sarung Tangan Koleksi Tahap 3 ,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Tahap 3 Resipi Sarung Tangan Koleksi ,"127,1,1,4655;127,2,1,3103;127,3,1,2068;253,5,1,172",1,0,50700188,1,5,-,3,0,4,0,0
-0, Membuat Pedang Kayu Tahap 0 ,2,recipe-icon-189,189,0,"62,10;32,5", Tahap 1 Resipi Buluh ,"39,1,1,10000",1,0,11000189,1,3,-,2,1,1,0,0
-0, Membuat Cangkul Kayu Tahap 0 ,2,recipe-icon-190,190,0,"62,10;66,10", Tahap 1 Resipi Semanggi ,"79,1,1,10000",1,0,11000190,1,3,-,1,1,1,0,0
-0, Membuat Berus Tahap 0 ,2,recipe-icon-191,191,0,"62,10;66,10", Tahap 1 Resipi Lobak Merah ,"95,1,1,10000",1,0,11000191,1,3,-,1,1,1,0,0
-0, Membuat Gunting Rambut Tahap 0 ,2,recipe-icon-192,192,0,"62,10;66,10", Tahap 2 Resipi Nepenthes ,"96,1,1,10000",1,0,11000192,1,3,-,1,1,1,0,0
-0, Membuat Mesin Perah Susu Tahap 0 ,2,recipe-icon-193,193,0,"62,10;66,10", Tahap 1 Resipi Kapas ,"97,1,1,10000",1,0,11000193,1,3,-,1,1,1,0,0
-0, Membuat Botol Air Kayu Tahap 0 ,2,recipe-icon-194,194,0,"62,10;66,10", Tahap 1 Resipi Buah Kesabaran ,"83,1,1,10000",1,0,11000194,1,3,-,1,1,1,0,0
-0, Membuat Kapak Kayu Tahap 0 ,2,recipe-icon-195,195,0,"62,10;66,10", Tahap 3 Resipi Cili Api ,"91,1,1,10000",1,0,11000195,1,3,-,3,1,1,0,0
-0, Membuat Beliung Kayu Tahap 0 ,2,recipe-icon-196,196,0,"62,10;66,10", Tahap 1 Resipi Buah Keras ,"87,1,1,10000",1,0,11000196,1,3,-,3,1,1,0,0
+0, Membuat Pedang Kayu Tahap 0 ,2,recipe-icon-189,189,0,"842,2", Tahap 1 Resipi Buluh ,"39,1,1,10000",1,0,11000189,1,3,-,2,1,1,0,0
+0, Membuat Cangkul Kayu Tahap 0 ,2,recipe-icon-190,190,0,"844,1;845,1", Tahap 1 Resipi Semanggi ,"79,1,1,10000",1,0,11000190,1,3,-,1,1,1,0,0
+0, Membuat Berus Tahap 0 ,2,recipe-icon-191,191,0,"844,1;845,1", Tahap 1 Resipi Lobak Merah ,"95,1,1,10000",1,0,11000191,1,3,-,1,1,1,0,0
+0, Membuat Gunting Rambut Tahap 0 ,2,recipe-icon-192,192,0,"844,1;845,1", Tahap 2 Resipi Nepenthes ,"96,1,1,10000",1,0,11000192,1,3,-,1,1,1,0,0
+0, Membuat Mesin Perah Susu Tahap 0 ,2,recipe-icon-193,193,0,"844,1;845,1", Tahap 1 Resipi Kapas ,"97,1,1,10000",1,0,11000193,1,3,-,1,1,1,0,0
+0, Membuat Botol Air Kayu Tahap 0 ,2,recipe-icon-194,194,0,"844,1;845,1", Tahap 1 Resipi Buah Kesabaran ,"83,1,1,10000",1,0,11000194,1,3,-,1,1,1,0,0
+0, Membuat Kapak Kayu Tahap 0 ,2,recipe-icon-195,195,0,"843,2", Tahap 3 Resipi Cili Api ,"91,1,1,10000",1,0,11000195,1,3,-,3,1,1,0,0
+0, Membuat Beliung Kayu Tahap 0 ,2,recipe-icon-196,196,0,"843,2", Tahap 1 Resipi Buah Keras ,"87,1,1,10000",1,0,11000196,1,3,-,3,1,1,0,0
 0, Membuat Baja Dipercepat yang Lebih Baik Tahap 0 ,2,recipe-icon-197,197,2,"69,2;35,2", Tahap 0 Resipi Baja Dipercepatkan yang Lebih Baik ,"219,1,1,10000",3,0,40800197,1,5,-,1,0,4,0,0
 0, Membuat Baja yang Meningkatkan Hasil yang Lebih Baik Tahap 0 ,2,recipe-icon-198,198,2,"61,2;35,2", Tahap 0 Resipi Baja yang Meningkatkan Hasil yang Lebih Baik ,"220,1,1,10000",3,0,40800198,1,5,-,1,0,4,0,0
 0, Membuat Baja yang Melembapkan yang Lebih Baik Tahap 0 ,2,recipe-icon-199,199,2,"65,2;35,2", Tahap 0 Resipi Baja yang Melembapkan yang Lebih Baik ,"221,1,1,10000",3,0,40800199,1,5,-,1,0,4,0,0
@@ -107,8 +107,8 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0, Membuat Sabit Besi Tahap 3 ,2,recipe-icon-204,204,3,"211,1;214,1;218,2", Tahap 3 Resipi Sabit Besi ,"228,1,1,10000",1,0,10700204,1,5,-,3,0,4,0,0
 0, Membuat Suapan Kecil Tahap 0 ,2,recipe-icon-205,205,1,"482,1", Tahap 1 Resipi Biji Cendawan Hantu Biru ,"28,1,1,10000",3,0,40900205,1,5,-,1,0,4,0,0
 0, Membuat Suapan Besar Tahap 0 ,2,recipe-icon-206,206,2,"483,1", Tahap 0 Resipi Cangkul Kayu ,"29,1,1,10000",3,0,40800206,1,5,-,1,0,4,0,0
-0, Membuat Busur Kayu Tahap 0 ,2,recipe-icon-207,207,0,"62,20;66,10", Tahap 0 Resipi Cangkul Besi ,"223,1,1,10000",1,0,11000207,1,3,-,2,1,1,0,0
-0, Membuat Tukul Batu Tahap 0 ,2,recipe-icon-208,208,0,"62,20;58,20", Tahap 0 Resipi Cangkul Terkutuk ,"222,1,1,10000",1,0,11000208,1,3,-,2,1,1,0,0
+0, Membuat Busur Kayu Tahap 0 ,2,recipe-icon-207,207,0,"842,2", Tahap 0 Resipi Cangkul Besi ,"223,1,1,10000",1,0,11000207,1,3,-,2,1,1,0,0
+0, Membuat Tukul Batu Tahap 0 ,2,recipe-icon-208,208,0,"842,2", Tahap 0 Resipi Cangkul Terkutuk ,"222,1,1,10000",1,0,11000208,1,3,-,2,1,1,0,0
 0,Kosong,2,recipe-icon-212,212,0,"62,3", Tahap 0 Resipi Cangkul yang Diberkati ,"232,1,1,10000",3,0,41000212,1,5,-,3,0,4,0,0
 0,Kosong,2,recipe-icon-213,213,0,"58,3", Tahap 0 Resipi Cerek Kayu ,"233,1,1,10000",3,0,41000213,1,5,-,3,0,4,0,0
 0,Kosong,2,recipe-icon-214,214,0,"66,3", Tahap 0 Resipi Cerek Besi ,"234,1,1,10000",3,0,41000214,1,5,-,3,0,4,0,0
@@ -227,7 +227,7 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0, Resipi Tiket Loteri Dunia Terbuka - Lv 2 (Bahan Ladang),0,recipe-icon-394,394,0,"73,10;74,10;75,10;180,10;181,10;182,10", Resipi Tiket Loteri Dunia Terbuka Tahap 2 (Bahan Ladang),"466,1,12,10000",4,0,31000394,1,5,-,0,0,4,0,0
 0, Resipi Tiket Loteri Dunia Terbuka - Lv 3 (Bahan Ladang),0,recipe-icon-395,395,0,"76,10;77,10;78,10;183,10;184,10;185,10", Resipi Tiket Loteri Dunia Terbuka Tahap 3 (Bahan Ladang),"466,1,27,10000",4,0,31000395,1,5,-,0,0,4,0,0
 0, Penukaran Tiket Penerimaan Floating Realm,2,recipe-icon-397,397,0,"469,2", Penukaran Tiket Masuk Dungeon,"468,1,1,8767;467,1,1,1095;658,1,1,136",4,0,51000397,1,5,-,2,1,1,0,0
-0, Menghasilkan Lv 0 Sabit Kayu,2,recipe-icon-404,404,0,"62,10;58,10", Resipi Cangkul Tembaga Tahap 1,"225,1,1,10000",1,0,11000404,1,3,-,3,1,1,0,0
+0, Menghasilkan Lv 0 Sabit Kayu,2,recipe-icon-404,404,0,"843,2", Resipi Cangkul Tembaga Tahap 1,"225,1,1,10000",1,0,11000404,1,3,-,3,1,1,0,0
 0, Resipi Biji Gandum,2,recipe-icon-405,405,4,"383,1", Resipi Biji Gandum Tahap 4,"413,1,1,8350;416,1,1,1649",3,0,50600405,1,5,-,1,0,4,0,0
 0, Resipi Biji Kacang Peas,2,recipe-icon-406,406,4,"384,1", Resipi Biji Kacang Peas Tahap 4,"414,1,1,8350;417,1,1,1649",3,0,50600406,1,5,-,1,0,4,0,0
 0, Resipi Biji Bawang Putih,2,recipe-icon-407,407,4,"385,1", Resipi Biji Bawang Putih Tahap 4,"415,1,1,8350;418,1,1,1649",3,0,50600407,1,5,-,1,0,4,0,0
@@ -942,5 +942,5 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 0,,2,recipe-icon-1236,1236,0,"840,1",,"841,1,1,10000",3,0,41001236,1,5,-,3,1,1,0,0
 0,,2,recipe-icon-1237,1237,0,"833,15",,"842,1,1,10000",4,0,21001237,1,5,-,2,1,1,0,0
 0,,2,recipe-icon-1238,1238,0,"835,5;836,5;837,5",,"843,1,1,10000",4,0,21001238,1,5,-,3,1,1,0,0
-0,,2,recipe-icon-1239,1239,0,,,"844,1,1,10000",4,0,21001239,1,5,-,1,1,1,0,0
-0,,2,recipe-icon-1240,1240,0,,,"845,1,1,10000",4,0,21001240,1,5,-,1,1,1,0,0
+0,,2,recipe-icon-1239,1239,0,"835,4;836,4;837,4",,"844,1,1,10000",4,0,21001239,1,5,-,1,1,1,0,0
+0,,2,recipe-icon-1240,1240,0,"835,4;836,4;837,4",,"845,1,1,10000",4,0,21001240,1,5,-,1,1,1,0,0
