@@ -114,4 +114,36 @@ public class HomeSoilMgrCore<TSoil> : MonoBehaviour, IHomeSoilMgr where TSoil : 
     {
         return SoilList;
     }
+
+    /// <summary>
+    /// 重置所有土地到idle状态 意思清理种子 返回确实重置了的数量
+    /// </summary>
+    public int ResetAllSoilToIdle()
+    {
+        int count = 0;
+        if (_soilList == null || _soilList.Count == 0)
+        {
+            return count;
+        }
+
+        foreach (HomeSoilCore soil in _soilList)
+        {
+            try
+            {
+                if (soil.SoilData.SaveData.SoilStatus == HomeDefine.eSoilStatus.Idle)//已经是idle的不管
+                {
+                    continue;
+                }
+
+                soil.ResetToIdleStatus();
+                count++;
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"ResetAllSoilToIdle soilId:{soil.Id} error:{e}");
+            }
+        }
+
+        return count;
+    }
 }
