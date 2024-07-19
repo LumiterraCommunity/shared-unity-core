@@ -87,6 +87,15 @@ public class DRTask : DataRowBase
     }
 
     /// <summary>
+  /**获取reputation-int。*/
+    /// </summary>
+    public int Reputation
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -144,6 +153,7 @@ public class DRTask : DataRowBase
         IsSelfEnd = DataTableParseUtil.ParseBool(columnStrings[index++]);
         ItemReward = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Reputation = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         PreTaskReq = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -168,6 +178,7 @@ public class DRTask : DataRowBase
                 IsSelfEnd = binaryReader.ReadBoolean();
                 ItemReward = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
+                Reputation = binaryReader.Read7BitEncodedInt32();
                 Type = binaryReader.Read7BitEncodedInt32();
                 Level = binaryReader.ReadArrayList<Int32>();
                 PreTaskReq = binaryReader.ReadArray<Int32>();
