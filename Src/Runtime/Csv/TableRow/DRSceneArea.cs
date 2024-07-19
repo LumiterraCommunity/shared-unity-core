@@ -78,6 +78,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取reputationRequaireScore-int。*/
+    /// </summary>
+    public int ReputationRequaireScore
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取respawnTimes-int。*/
     /// </summary>
     public int RespawnTimes
@@ -341,6 +350,7 @@ public class DRSceneArea : DataRowBase
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
         RefreshRatio = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ReputationRequaireScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RespawnTimes = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RewardFrequency = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneName = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -387,6 +397,7 @@ public class DRSceneArea : DataRowBase
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
                 RefreshRatio = binaryReader.ReadArray<Int32>();
+                ReputationRequaireScore = binaryReader.Read7BitEncodedInt32();
                 RespawnTimes = binaryReader.Read7BitEncodedInt32();
                 RewardFrequency = binaryReader.Read7BitEncodedInt32();
                 SceneName = binaryReader.ReadString();
