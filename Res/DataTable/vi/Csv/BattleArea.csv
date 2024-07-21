@@ -1,42 +1,43 @@
-areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[],desc-string,id-int,lockBackpack-bool,name-string,type-int
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,1,0,Thị trấn,1
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,2,0,Thị trấn xung quanh,1
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),3,0,Núi tuyết,2
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),4,0,Khu vực chiến đấu PvEP,2
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,5,0,Nhà,1
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,6,0,Bãi biển,1
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,7,0,Rừng đỏ,1
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),8,0,Rừng đen,2
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,9,0,Sa mạc bão,1
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,10,0,Hẻm núi,1
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),11,0,Tượng cá anh hùng,2
-0,"30,20,15",5,"30,10,5",Phạt tử hình vừa (Tỷ lệ phần trăm của các mục trong ba lô),12,1,Nghĩa trang,3
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),13,0,Nghỉ ngơi linh hồn,2
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),14,0,Hồ Thiên thú,2
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,15,0,Bàn thờ trung tâm,1
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),16,0,Bàn thờ xung quanh,2
-0,"30,20,10",3,"30,10,5",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),17,0,Đồng bằng băng,2
-0,"30,20,15",5,"30,10,5",Phạt tử hình vừa (Tỷ lệ phần trăm của các mục trong ba lô),18,1,Độ sâu của đồng bằng băng,3
-0,"0,0,0",2,"0,0,0",Không phạt tử hình,19,0,Vùng hoang dã,1
-1,"30,20,25",7,"30,10,5",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),20,1,Sân thi đấu mới tập 1/3,3
-2,"30,20,25",7,"30,10,5",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),21,1,Sân thi đấu mới tập 2/3,3
-3,"30,20,25",7,"30,10,5",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),22,1,Sân thi đấu mới tập 3/3,3
-1,"30,20,25",7,"30,10,5",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),23,1,Sân thi đấu trung cấp 1/3,3
-2,"30,20,25",7,"30,10,5",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),24,1,Sân thi đấu trung cấp 2/3,3
-3,"30,20,25",7,"30,10,5",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),25,1,Sân thi đấu trung cấp 3/3,3
-1,"30,20,25",7,"30,10,5",Hình phạt chết nặng (Tỷ lệ số mục trong túi) ,26,1, Đấu trường nâng cao 1/3,3
-2,"30,20,25",7,"30,10,5",Hình phạt chết nặng (Tỷ lệ số mục trong túi) ,27,1, Đấu trường nâng cao 2/3,3
-3,"30,20,25",7,"30,10,5",Hình phạt chết nặng (Tỷ lệ số mục trong túi) ,28,1, Đấu trường nâng cao 3/3,3
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết ,29,0, Trại tìm đối thủ,1
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết ,30,0,Bàn thờ tái sinh,1
-0,"30,20,10",3,"30,10,5",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,31,0,Thách thức,2
-0,"30,20,10",3,"30,10,5",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,32,0,Vùng cổ đại - Núi lửa,2
-0,"30,20,10",3,"30,10,5",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,33,0,Vùng cổ đại - Hang động,2
-0,"30,20,10",3,"30,10,5",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,34,0,Vùng cổ đại - Di tích,2
-0,"30,20,10",3,"30,10,5",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,35,0,Hoang dã,2
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết ,36,0,Cây cầu,1
-0,"30,20,15",5,"30,10,5",Hình phạt chết vừa (Tỷ lệ số mục trong túi) ,37,1,Đấu trường,3
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết ,38,0, Thử thách hàng ngày,1
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết ,39,1, Sân tập 1/3,3
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết ,40,1, Sân tập 2/3,3
-0,"0,0,0",2,"0,0,0",Không có hình phạt chết,41,1, Sân tập 3/3,3
+areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,id-int,lockBackpack-bool,name-string,type-int
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,1,0,Thị trấn,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,2,0,Thị trấn xung quanh,1
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),3,0,Núi tuyết,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),4,0,Khu vực chiến đấu PvEP,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,5,0,Nhà,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,6,0,Bãi biển,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,7,0,Rừng đỏ,1
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),8,0,Rừng đen,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,9,0,Sa mạc bão,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,10,0,Hẻm núi,1
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),11,0,Tượng cá anh hùng,2
+0,"30,20,15",5,"30,10,5;30,15,10;30,20,15",Phạt tử hình vừa (Tỷ lệ phần trăm của các mục trong ba lô),12,1,Nghĩa trang,3
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),13,0,Nghỉ ngơi linh hồn,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),14,0,Hồ Thiên thú,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,15,0,Bàn thờ trung tâm,1
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),16,0,Bàn thờ xung quanh,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Phạt tử hình nhẹ (Tỷ lệ phần trăm của các mục trong ba lô),17,0,Đồng bằng băng,2
+0,"30,20,15",5,"30,10,5;30,15,10;30,20,15",Phạt tử hình vừa (Tỷ lệ phần trăm của các mục trong ba lô),18,1,Độ sâu của đồng bằng băng,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không phạt tử hình,19,0,Vùng hoang dã,1
+1,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),20,1,Sân thi đấu mới tập 1/3,3
+2,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),21,1,Sân thi đấu mới tập 2/3,3
+3,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),22,1,Sân thi đấu mới tập 3/3,3
+1,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),23,1,Sân thi đấu trung cấp 1/3,3
+2,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),24,1,Sân thi đấu trung cấp 2/3,3
+3,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Phạt tử hình nặng (Tỷ lệ phần trăm của các mục trong ba lô),25,1,Sân thi đấu trung cấp 3/3,3
+1,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Hình phạt chết nặng (Tỷ lệ số mục trong túi) ,26,1, Đấu trường nâng cao 1/3,3
+2,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Hình phạt chết nặng (Tỷ lệ số mục trong túi) ,27,1, Đấu trường nâng cao 2/3,3
+3,"30,20,25",7,"30,10,5;30,15,10;30,20,15",Hình phạt chết nặng (Tỷ lệ số mục trong túi) ,28,1, Đấu trường nâng cao 3/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết ,29,0, Trại tìm đối thủ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết ,30,0,Bàn thờ tái sinh,1
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,31,0,Thách thức,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,32,0,Vùng cổ đại - Núi lửa,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,33,0,Vùng cổ đại - Hang động,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,34,0,Vùng cổ đại - Di tích,2
+0,"30,20,10",3,"30,10,5;30,15,10;30,20,15",Hình phạt chết nhẹ (Tỷ lệ số mục trong túi) ,35,0,Hoang dã,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết ,36,0,Cây cầu,1
+0,"30,20,15",5,"30,10,5;30,15,10;30,20,15",Hình phạt chết vừa (Tỷ lệ số mục trong túi) ,37,1,Đấu trường,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết ,38,0, Thử thách hàng ngày,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết ,39,1, Sân tập 1/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết ,40,1, Sân tập 2/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",Không có hình phạt chết,41,1, Sân tập 3/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0",,42,0,,1
