@@ -51,9 +51,9 @@ public class DRBattleArea : DataRowBase
     }
 
     /// <summary>
-  /**获取deathTaxation-int[]。*/
+  /**获取deathTaxation-int[][]。*/
     /// </summary>
-    public int[] DeathTaxation
+    public int[][] DeathTaxation
     {
         get;
         private set;
@@ -103,7 +103,7 @@ public class DRBattleArea : DataRowBase
         AreaSort = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DeathDrop = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         DeathEXPDrop = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        DeathTaxation = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        DeathTaxation = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         LockBackpack = DataTableParseUtil.ParseBool(columnStrings[index++]);
@@ -123,7 +123,7 @@ public class DRBattleArea : DataRowBase
                 AreaSort = binaryReader.Read7BitEncodedInt32();
                 DeathDrop = binaryReader.ReadArray<Int32>();
                 DeathEXPDrop = binaryReader.Read7BitEncodedInt32();
-                DeathTaxation = binaryReader.ReadArray<Int32>();
+                DeathTaxation = binaryReader.ReadArrayList<Int32>();
                 Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 LockBackpack = binaryReader.ReadBoolean();
