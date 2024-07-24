@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-08-12 14:36:36
  * @Description: 技能路径移动效果
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEPathMoveCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEPathMoveCore.cs
  * 
  */
 
@@ -41,7 +41,7 @@ public class SEPathMoveCore : SkillEffectBase
         RefEntity.GetComponent<EntityEvent>().SpecialMoveStartNotMoveStatus?.Invoke();
         //实际位置
         Vector3 realPos = RefEntity.Position;
-        // Vector3 curLoc = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
+        Vector3 curLoc = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
         Vector3 targetPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.BackToPos);
         // // 检测从当前位置和预计位置是否有效，无效则走预计位置
         // if (RefEntity.EntityCheckPosCore != null && !RefEntity.EntityCheckPosCore.CheckPositionValid(realPos, curLoc))
@@ -49,6 +49,8 @@ public class SEPathMoveCore : SkillEffectBase
         //     realPos = NetUtilCore.LocFromNet(EffectData.BeatBackValue.CurLoc);
         // }
         Vector3 offset = targetPos - realPos;
+        offset.y = targetPos.y - curLoc.y;
+
         float distance = offset.magnitude;
         if (distance.ApproximatelyEquals(0) || offset.ApproximatelyEquals(Vector3.zero))
         {
