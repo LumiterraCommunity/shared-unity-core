@@ -42,6 +42,15 @@ public class DRMatLotteryPool : DataRowBase
     }
 
     /// <summary>
+  /**获取distributionWeight-int[]。*/
+    /// </summary>
+    public int[] DistributionWeight
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取isActive-bool。*/
     /// </summary>
     public bool IsActive
@@ -84,6 +93,7 @@ public class DRMatLotteryPool : DataRowBase
         int index = 0;
         DailyItemList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        DistributionWeight = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         IsActive = DataTableParseUtil.ParseBool(columnStrings[index++]);
         LevelRangeIdx = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -102,6 +112,7 @@ public class DRMatLotteryPool : DataRowBase
             {
                 DailyItemList = binaryReader.ReadArrayList<Int32>();
                 Desc = binaryReader.ReadString();
+                DistributionWeight = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 IsActive = binaryReader.ReadBoolean();
                 LevelRangeIdx = binaryReader.Read7BitEncodedInt32();
