@@ -100,6 +100,9 @@ public enum eGameValueID
     TalentTaskAbilityLvLimit = 89, //天赋任务等级限制
     CurrencyItemId = 91,//货币道具id
     ExtraDropInstructionsId = 93, //额外掉落说明ID
+    ReputationForPackItemQuota = 95,//打包物品配额
+    ReputationForFarmOpenTime = 97,//农场开放时间
+    ReputationForCraftingTimeReductionRate = 98,//合成时间减少比例
 }
 
 // public static class GameValueID
