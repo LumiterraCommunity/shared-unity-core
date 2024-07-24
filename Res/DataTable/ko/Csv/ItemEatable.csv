@@ -1,0 +1,132 @@
+args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
+200,Add Buff,5000,1,140,usePotion
+189,Add Buff,60000,6,141,usePotion
+190,Add Buff,60000,6,142,usePotion
+191,Add Buff,60000,6,143,usePotion
+192,Add Buff,60000,6,144,usePotion
+193,Add Buff,60000,6,145,usePotion
+199,Add Buff,5000,1,134,usePotion
+178,Add Buff,60000,6,135,usePotion
+185,Add Buff,60000,6,136,usePotion
+186,Add Buff,60000,6,137,usePotion
+187,Add Buff,60000,6,138,usePotion
+188,Add Buff,60000,6,139,usePotion
+-,Fertilize,1000,0,128,equipItem
+-,Fertilize,1000,0,129,equipItem
+-,Fertilize,1000,0,130,equipItem
+-,Fertilize,1000,0,131,equipItem
+-,Fertilize,1000,0,132,equipItem
+-,Fertilize,1000,0,133,equipItem
+-,Sow Seeds,1000,0,146,equipItem
+-,Sow Seeds,1000,0,147,equipItem
+-,Sow Seeds,1000,0,148,equipItem
+-,Sow Seeds,1000,0,149,equipItem
+-,Sow Seeds,1000,0,150,equipItem
+-,Sow Seeds,1000,0,151,equipItem
+-,Sow Seeds,1000,0,152,equipItem
+-,Sow Seeds,1000,0,153,equipItem
+-,Sow Seeds,1000,0,154,equipItem
+-,Feed,1000,0,28,equipItem
+-,Feed,1000,0,29,equipItem
+201,Add Buff,5000,1,191,usePotion
+194,Add Buff,60000,6,192,usePotion
+195,Add Buff,60000,6,194,usePotion
+196,Add Buff,60000,6,195,usePotion
+197,Add Buff,60000,6,196,usePotion
+198,Add Buff,60000,6,197,usePotion
+-,Fertilize,1000,0,219,equipItem
+-,Fertilize,1000,0,220,equipItem
+-,Fertilize,1000,0,221,equipItem
+347,ReleaseSkill,5000,0,232,releaseSkill
+348,ReleaseSkill,5000,0,233,releaseSkill
+351,ReleaseSkill,5000,0,234,releaseSkill
+352,ReleaseSkill,5000,0,235,releaseSkill
+356,ReleaseSkill,5000,0,236,releaseSkill
+357,ReleaseSkill,5000,0,237,releaseSkill
+358,ReleaseSkill,5000,0,238,releaseSkill
+12,Restore Energy,1000,0,295,usePotion
+15,Restore Energy,1000,0,296,usePotion
+22,Restore Energy,1000,0,297,usePotion
+-,Sow Seeds,1000,0,413,equipItem
+-,Sow Seeds,1000,0,414,equipItem
+-,Sow Seeds,1000,0,415,equipItem
+-,Sow Seeds,1000,0,416,equipItem
+-,Sow Seeds,1000,0,417,equipItem
+-,Sow Seeds,1000,0,418,equipItem
+-,Sow Seeds,1000,0,419,equipItem
+-,Sow Seeds,1000,0,420,equipItem
+-,Sow Seeds,1000,0,421,equipItem
+375,Add Buff,5000,1,422,usePotion
+376,Add Buff,60000,6,423,usePotion
+377,Add Buff,60000,6,424,usePotion
+378,Add Buff,60000,6,425,usePotion
+379,Add Buff,60000,6,426,usePotion
+380,Add Buff,60000,6,427,usePotion
+381,Add Buff,5000,1,429,usePotion
+382,Add Buff,60000,6,430,usePotion
+383,Add Buff,60000,6,431,usePotion
+384,Add Buff,60000,6,432,usePotion
+385,Add Buff,60000,6,433,usePotion
+386,Add Buff,60000,6,434,usePotion
+387,Add Buff,5000,1,435,usePotion
+388,Add Buff,60000,6,436,usePotion
+389,Add Buff,60000,6,437,usePotion
+390,Add Buff,60000,6,438,usePotion
+391,Add Buff,60000,6,439,usePotion
+392,Add Buff,60000,6,440,usePotion
+30,Restore Energy,1000,0,459,usePotion
+37,Restore Energy,1000,0,460,usePotion
+45,Restore Energy,1000,0,461,usePotion
+52,Restore Energy,1000,0,599,usePotion
+60,Restore Energy,1000,0,600,usePotion
+67,Restore Energy,1000,0,601,usePotion
+-,Sow Seeds,1000,0,614,equipItem
+-,Sow Seeds,1000,0,615,equipItem
+-,Sow Seeds,1000,0,616,equipItem
+-,Sow Seeds,1000,0,617,equipItem
+-,Sow Seeds,1000,0,618,equipItem
+-,Sow Seeds,1000,0,619,equipItem
+-,Sow Seeds,1000,0,620,equipItem
+-,Sow Seeds,1000,0,621,equipItem
+-,Sow Seeds,1000,0,622,equipItem
+493,Add Buff,5000,1,623,usePotion
+494,Add Buff,60000,6,641,usePotion
+495,Add Buff,60000,6,642,usePotion
+496,Add Buff,60000,6,643,usePotion
+497,Add Buff,60000,6,644,usePotion
+498,Add Buff,60000,6,645,usePotion
+499,Add Buff,5000,1,646,usePotion
+500,Add Buff,60000,6,647,usePotion
+501,Add Buff,60000,6,648,usePotion
+502,Add Buff,60000,6,649,usePotion
+503,Add Buff,60000,6,650,usePotion
+504,Add Buff,60000,6,651,usePotion
+505,Add Buff,5000,1,652,usePotion
+506,Add Buff,60000,6,653,usePotion
+507,Add Buff,60000,6,654,usePotion
+508,Add Buff,60000,6,655,usePotion
+509,Add Buff,60000,6,656,usePotion
+510,Add Buff,60000,6,657,usePotion
+-,Sow Seeds,1000,0,692,equipItem
+-,Feed,1000,0,702,equipItem
+-,Feed,1000,0,703,equipItem
+-,Feed,1000,0,704,equipItem
+-,Feed,1000,0,705,equipItem
+-,Feed,1000,0,706,equipItem
+-,Feed,1000,0,707,equipItem
+-,Feed,1000,0,708,equipItem
+4,Restore Energy,1000,0,709,usePotion
+10,Restore Energy,1000,0,710,usePotion
+17,Restore Energy,1000,0,711,usePotion
+25,Restore Energy,1000,0,712,usePotion
+34,Restore Energy,1000,0,713,usePotion
+44,Restore Energy,1000,0,714,usePotion
+55,Restore Energy,1000,0,715,usePotion
+67,Restore Energy,1000,0,716,usePotion
+80,Restore Energy,1000,0,717,usePotion
+-,Sow Seeds,1000,0,719,equipItem
+-,Sow Seeds,1000,0,720,equipItem
+-,Sow Seeds,1000,0,721,equipItem
+-,Sow Seeds,1000,0,722,equipItem
+-,Sow Seeds,1000,0,723,equipItem
+2,Restore Energy,1000,0,841,usePotion
