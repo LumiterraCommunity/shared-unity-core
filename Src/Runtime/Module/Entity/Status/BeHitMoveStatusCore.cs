@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-25 15:56:56
  * @Description: 受击移动
- * @FilePath: /Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/BeHitMoveStatusCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Status/BeHitMoveStatusCore.cs
  * 
  */
 using System;
@@ -82,5 +82,16 @@ public class BeHitMoveStatusCore : ListenEventStatusCore
             return;
         }
         ChangeState(OwnerFsm, IdleStatusCore.Name);
+    }
+
+    protected override void OnUpdate(IFsm<EntityStatusCtrl> fsm, float elapseSeconds, float realElapseSeconds)
+    {
+        base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);
+        //霸体状态，退出受击移动状态
+        if (StatusCtrl.RefEntity.BattleDataCore.HasBattleState(BattleDefine.eBattleState.Endure))
+        {
+            ChangeState(fsm, IdleStatusCore.Name);
+            return;
+        }
     }
 }

@@ -47,6 +47,13 @@ public class StunStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCanS
             return;
         }
 
+        //霸体状态，退出眩晕状态
+        if (StatusCtrl.RefEntity.BattleDataCore.HasBattleState(BattleDefine.eBattleState.Endure))
+        {
+            ChangeState(fsm, IdleStatusCore.Name);
+            return;
+        }
+
         if (_stunStatusCounter <= 0)
         {
             ChangeState(fsm, IdleStatusCore.Name);
