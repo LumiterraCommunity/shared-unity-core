@@ -63,4 +63,8 @@ public static class MTag
     /// 畜牧动物掉落
     /// </summary>
     public const string HOME_ANIMAL_DROP = "HomeAnimalDrop";
+    /// <summary>
+    /// 目前UI相机会标识这个tag 用于URP识别UI相机
+    /// </summary>
+    public const string UI = "UI";
 }
