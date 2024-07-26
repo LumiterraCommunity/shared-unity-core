@@ -346,7 +346,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"15,391",,200,352,0,1,0,1,0,1,0,1,A-1diuzhadan,,playerroll,,660,1,5000,Ném chai đốt cháy. ,1000,2,12,ném những viên thuốc đang cháy,"2,200,0",,1,1,1,,1000,,,skill_tree_hurt,,top_down_bomb_blue,1,,,,,,"235,1",
 0,0,0,,0,,392,0,356,0,0,0,1,0,0,0,0,A-skill-chongci,Skill_YellowFlash,,,334,1,5000,Yellow Flash. ,,2,0,Chai thuốc sấm sét bay,,,1,0,,,1000,,,,,,,,,,,,"236,1",
 0,0,0,,0,,,0,357,0,0,0,1,0,0,0,0,,Skill_MissPostion,,,100,1,5000,Miss. ,,2,0,né tránh lọ thuốc,,,1,0,,,1000,393,,,,,,,,,,,"237,1",
-0,0,0,,0,,,0,358,0,0,0,1,0,0,0,0,,Skill_ClearPotion,,,100,1,5000,Clear. ,,2,0,chai thanh lọc,,,1,0,,,1000,394,,,,,,,,,,,"238,1",
+0,0,0,,0,,,0,358,0,0,0,1,0,0,0,0,,Skill_ClearPotion,,,100,1,5000,Clear. ,,2,0,chai thanh lọc,,,1,0,,,1000,"394,22",,,,,,,,,,,"238,1",
 0,0,0,,0,,,,359,0,0,0,1,0,0,0,0,,,,,,1,0,Empty. ,,1,0,Kỹ năng phát hiện điểm yếu của Metal Mutt,,,1,0,,,1000,,,,,,,,395,,,,,
 0,0,0,,0,,,,360,0,0,0,1,0,0,0,0,,,,,,1,0,Empty. ,,1,0,Kỹ năng phát hiện điểm yếu của Cactus Warrior,,,1,0,,,1000,,,,,,,,396,,,,,
 0,0,0,,0,,,,361,0,0,0,1,0,0,0,0,,,,,,1,0,Empty. ,,1,0,Kỹ năng phát hiện điểm yếu của Pumpkin Fiend,,,1,0,,,1000,,,,,,,,397,,,,,

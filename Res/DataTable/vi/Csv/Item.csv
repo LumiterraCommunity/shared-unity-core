@@ -3596,56 +3596,110 @@ Vé cần thiết để tham gia Thử thách Nông nghiệp Cấp độ Nâng c
 ",0,1,,1,0,"1,2,3",999,0,4,9,1
 -,"1,3,4",1,Mảnh vĩnh cửu có thể tạo thành danh sách trắng Vĩnh cửu đảm bảo hoặc danh sách trắng may mắn.,0,item-icon-801,801, Serpihan Kekal,0,1,,1,0,"1,2,3",999,0,4,2,1
 -,0,1,Sự công nhận từ Lumi Chính thức,0,item-icon-803,803,Huy chương của Lumi,0,1,,1,0,"1,2,3",999,0,4,9,1
--,0,0,,0,item-icon-805,805,RON,0,1,,0,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-806,806, Vật liệu Chiến đấu 0-3,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-807,807, Vật liệu Chiến đấu 4-6,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-808,808, Vật liệu Chiến đấu 7-9,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-809,809, Vật liệu Thu thập 0-3,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-810,810, Vật liệu Thu thập 4-6,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-811,811, Vật liệu Thu thập 7-9,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-812,812, Vật liệu Nông nghiệp 0-3,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-813,813, Vật liệu Nông nghiệp 4-6,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-814,814, Vật liệu Nông nghiệp 7-9,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-815,815, Vật liệu Chiến đấu từ Vé 1-3,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-816,816, Vật liệu Chiến đấu từ Vé 1-6,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-817,817, Vật liệu Chiến đấu từ Vé 1-9,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-818,818, Vật liệu Thu thập từ Vé 1-3,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-819,819, Vật liệu Thu thập từ Vé 1-6,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-820,820, Vật liệu Thu thập từ Vé 1-9,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-821,821, Vật liệu Nông nghiệp từ Vé 1-3,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-822,822, Vật liệu Nông nghiệp từ Vé 1-6,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-823,823, Vật liệu Nông nghiệp từ Vé 1-9,0,1,,1,0,"1,2,3",999,0,4,0,1
-"800,1",0,0,,0,item-icon-824,824, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-825,825, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-826,826, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-827,827, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-828,828, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-829,829, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-830,830,Rỗng,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-831,831, Rỗng,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-832,832, Rỗng,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,1,,0,item-icon-833,833, Rỗng,0,1,,0,0,2,999,0,4,0,1
-"800,1",0,1,,0,item-icon-834,834, Rỗng,0,1,,0,0,1,999,0,4,0,1
-"800,1",0,1,,0,item-icon-835,835, Lá mục nát,0,1,,0,0,3,999,0,4,0,1
-"800,1",0,1,,0,item-icon-836,836, Gỗ mục nát,0,1,,0,0,3,999,0,4,0,1
-"800,1",0,1,,0,item-icon-837,837, Đá vỡ,0,1,,0,0,3,999,0,4,0,1
-"800,1",0,1,,0,item-icon-838,838, Quả dơi bí ngô,0,1,,0,0,1,999,0,6,0,1
-"792,1",0,1,,0,item-icon-839,839, Mảnh vụn Lumi,0,1,,1,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-840,840,Lv 0 Slime Năng lượng,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-841,841, Lv 0 Thuốc phục hồi năng lượng,0,1,,0,0,,999,0,3,0,1
-"800,1",0,1,,0,item-icon-842,842, Lv 0 Tinh chất chiến đấu,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-843,843, Lv 0 Tinh chất thu thập,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-844,844, Lv 0 Tinh chất trồng trọt nông nghiệp,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-845,845, Lv 0 Tinh chất chăn nuôi nông nghiệp,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-846,846, Huy chương Rookie - Chiến đấu,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-847,847, Huy chương Rookie - Thu thập,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-848,848, Huy chương Rookie - Nông nghiệp,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,,0,item-icon-849,849, Trang phục · Tóc đỏ,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-850,850, Trang phục · Tóc tím,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-851,851, Trang phục · Màu ngọc lục bảo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-852,852, Trang phục · Vương miện đa màu sắc,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-853,853, Trang phục · JJ Lin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-854,854, Trang phục · Đầu gà,0,5,,1,0,,999,0,1,0,1
+-,0,0,Ronin Lumi - Tiền tệ trong trò chơi ,0,item-icon-805,805,RON,0,1,,0,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-806,806, Vật liệu Chiến đấu 0-3,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-807,807, Vật liệu Chiến đấu 4-6,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-808,808, Vật liệu Chiến đấu 7-9,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-809,809, Vật liệu Thu thập 0-3,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-810,810, Vật liệu Thu thập 4-6,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-811,811, Vật liệu Thu thập 7-9,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-812,812, Vật liệu Nông nghiệp 0-3,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-813,813, Vật liệu Nông nghiệp 4-6,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng.
+-------
+ ",0,item-icon-814,814, Vật liệu Nông nghiệp 7-9,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-815,815, Vật liệu Chiến đấu từ Vé 1-3,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-816,816, Vật liệu Chiến đấu từ Vé 1-6,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-817,817, Vật liệu Chiến đấu từ Vé 1-9,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-818,818, Vật liệu Thu thập từ Vé 1-3,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-819,819, Vật liệu Thu thập từ Vé 1-6,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-820,820, Vật liệu Thu thập từ Vé 1-9,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-821,821, Vật liệu Nông nghiệp từ Vé 1-3,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-822,822, Vật liệu Nông nghiệp từ Vé 1-6,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Phần thưởng của Bảng xếp hạng, Phần thưởng của Hang động/Thử thách.
+-------
+ ",0,item-icon-823,823, Vật liệu Nông nghiệp từ Vé 1-9,0,1,,1,0,"1,2,3",999,0,4,0,1
+"800,1",0,0, Trống ,0,item-icon-824,824, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-825,825, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-826,826, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-827,827, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-828,828, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-829,829, Trống,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-830,830,Rỗng,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-831,831, Rỗng,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Trống ,0,item-icon-832,832, Rỗng,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,1, Trống ,0,item-icon-833,833, Rỗng,0,1,,0,0,2,999,0,4,0,1
+"800,1",0,1, Trống ,0,item-icon-834,834, Rỗng,0,1,,0,0,1,999,0,4,0,1
+"800,1",0,1, Trống ,0,item-icon-835,835, Lá mục nát,0,1,,0,0,3,999,0,4,0,1
+"800,1",0,1, Trống ,0,item-icon-836,836, Gỗ mục nát,0,1,,0,0,3,999,0,4,0,1
+"800,1",0,1, Trống ,0,item-icon-837,837, Đá vỡ,0,1,,0,0,3,999,0,4,0,1
+"800,1",0,1, Trống ,0,item-icon-838,838, Quả dơi bí ngô,0,1,,0,0,1,999,0,6,0,1
+"792,1",0,1, Fragment Lumi là một vật phẩm thần bí phát ra ánh sáng ma thuật ,0,item-icon-839,839, Mảnh vụn Lumi,0,1,,1,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Nguyên liệu của Bình phục năng lượng Lv 0 ",0,item-icon-840,840,Lv 0 Slime Năng lượng,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Khôi phục năng lượng -> 2 ",0,item-icon-841,841, Lv 0 Thuốc phục hồi năng lượng,0,1,,0,0,,999,0,3,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+ ",0,item-icon-842,842, Lv 0 Tinh chất chiến đấu,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+ ",0,item-icon-843,843, Lv 0 Tinh chất thu thập,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+ ",0,item-icon-844,844, Lv 0 Tinh chất trồng trọt nông nghiệp,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+ ",0,item-icon-845,845, Lv 0 Tinh chất chăn nuôi nông nghiệp,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới ,0,item-icon-846,846, Huy chương Rookie - Chiến đấu,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới ,0,item-icon-847,847, Huy chương Rookie - Thu thập,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới ,0,item-icon-848,848, Huy chương Rookie - Nông nghiệp,0,1,,0,0,,999,0,4,0,1
+"792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-849,849,Bộ trang phục tóc · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-850,850, Bộ trang phục tóc · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-851,851, Bộ trang phục tóc · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-852,852, Bộ trang phục tóc · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-853,853, Bộ trang phục tóc · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-854,854, Trang phục · Đầu gà,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-855,855, Trang phục · Chiến binh hiện đại,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-856,856, Trang phục · Bố già thời trang,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-857,857, Trang phục · Đội trưởng Ronin,0,5,,1,0,,999,0,1,0,1
@@ -3664,3 +3718,30 @@ Vé cần thiết để tham gia Thử thách Nông nghiệp Cấp độ Nâng c
 "792,1",0,1,,0,item-icon-870,870, Trang phục · Cá mập,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-871,871, Trang phục · Ống hút,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-872,872, Trang phục · Máy sấy tóc,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-873,873, Áo khoác trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-874,874, Quần trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-875,875, Găng tay trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-876,876, Giày trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-877,877, Áo khoác trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-878,878, Quần trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-879,879, Găng tay trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-880,880, Giày trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-881,881, Áo khoác trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-882,882, Quần trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-883,883, Găng tay trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-884,884, Giày trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-885,885, Áo khoác trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-886,886, Quần trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-887,887, Găng tay trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-888,888, Giày trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-889,889, Áo khoác trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-890,890, Quần trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-891,891, Găng tay trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,,0,item-icon-892,892, Giày trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+-,0,1,,0,item-icon-893,893, Xương cá,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-894,894, Hộp mở,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-895,895, Hạt giống nảy mầm,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-896,896, Trứng khủng long,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-897,897, Đậu nành,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-898,898, Bánh răng,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-899,899,Cuộn,0,1,,0,0,,999,0,4,0,1

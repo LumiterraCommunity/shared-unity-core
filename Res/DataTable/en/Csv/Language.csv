@@ -105,6 +105,8 @@ The higher the level of crafting the item, the more the increased proficiency."
 道具不足,20020001,家园相关,Lack of item
 ,20020002,家园相关,There was nothing in the storage box!
 ,20020003,家园相关,"Network fluctuation, anomaly data restored"
+,20020004,,The farm's daily opening hours have been exhausted.
+,20020005,,Farm service will be closed in {0} seconds.
 ,20030001,保存技能配置,Save successfully
 超过上限提示,20040001,畜牧,"You can have up to [color=#e08638]{0} sprites[/color]
 
@@ -185,6 +187,12 @@ Sprite due to insufficient space"
 ,20090026,,You receive a token task
 ,20090027,,Ability Level Not Enough
 ,20090028,,Task Expired
+,20090029,,Token Task
+,20090030,,init
+,20090031,,received
+,20090032,,accept
+,20090033,,abandon
+,20090034,,completed
 ,"20100000
 ",专精,General
 ,20100001,专精,Farming
@@ -365,3 +373,5 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290006,,Raw item name copied!
 ,20290007,,Remove item?
 ,20290008,,Are you sure to remove this item?
+,20290009,,Daily convert quota is used up.
+,20290010,,Daily convert quota is not enough.

@@ -1,39 +1,39 @@
 desc-string,id-int,parameters_1-int[],parameters_2-int[][],type-int
-Pertahanan raksasa telah diperkuatkan.,1,2,650,2
- Kuasa serangan raksasa telah diperkuatkan.,2,2,651,2
- Pertahanan pemain telah melemahkan.,3,1,652,2
- Kuasa serangan pemain telah melemahkan.,4,1,653,2
- HP maksimum raksasa telah meningkat.,5,2,654,2
- Pertahanan raksasa telah melemahkan.,6,2,655,2
- Kuasa serangan raksasa telah melemahkan.,7,2,656,2
- Pertahanan pemain telah diperkuatkan.,8,1,657,2
- Kuasa serangan pemain telah diperkuatkan.,9,1,658,2
- HP maksimum raksasa telah berkurang.,10,2,659,2
- Memicu peristiwa debuff rawak dalam pertempuran.,11,,"10000,1;10000,2;10000,3;10000,4;10000,5",1
- Memicu peristiwa buff rawak dalam pertempuran.,12,,"10000,6;10000,7;10000,8;10000,9;10000,10",1
- Memicu peristiwa debuff rawak semasa pengumpulan.,13,,"10000,17;10000,18;10000,19;10000,20",1
- Memicu peristiwa buff rawak semasa pengumpulan.,14,,"10000,21;10000,18;10000,23;10000,24",1
- Memicu peristiwa debuff rawak dalam pertanian.,15,,"10000,25;10000,26;10000,28;10000,29;10000,30",1
- Memicu peristiwa buff rawak dalam pertanian.,16,,"10000,31;10000,32;10000,34;10000,35;10000,36",1
- Pertahanan item pengumpulan telah diperkuatkan.,17,5,"60,1,150,60,4;61,1,150,61,4;62,1,150,62,4",3
- Nilai kemajuan maksimum item pengumpulan telah diperkuatkan.,18,5,"76,1,100,76,4",3
- Kuasa serangan pengumpulan pemain telah melemahkan.,19,1,660,2
- Kelajuan pergerakan pemain telah melambat.,20,1,661,2
- Pertahanan item pengumpulan telah melemahkan.,21,5,"60,1,-150,60,4;61,1,-150,61,4;62,1,-150,62,4",3
- Nilai kemajuan maksimum item pengumpulan telah melemahkan.,22,5,"76,1,-100,76,4",3
- Kuasa serangan pengumpulan pemain telah diperkuatkan.,23,1,662,2
- Kelajuan pergerakan pemain telah meningkat.,24,1,663,2
- Keperluan air untuk tanaman telah meningkat.,25,8,"71,1,100,71,4",3
-Keperluan kemahiran untuk tanaman telah meningkat.,26,8,"73,1,25,73,4",3
- Tanaman telah kembali ke peringkat pertumbuhan sebelumnya.,27,,"1,-1",4
- Tanaman perlu disiram semula.,28,,"2,0",4
- Kelajuan penyiraman pemain telah melambat.,29,1,664,2
- Kemahiran menanam pemain telah melemahkan.,30,1,665,2
- Keperluan air untuk tanaman telah berkurang.,31,8,"71,1,-100,71,4",3
- Keperluan kemahiran untuk tanaman telah berkurang.,32,8,"73,1,-25,73,4",3
- Tanaman telah memasuki peringkat pertumbuhan seterusnya.,33,,"1,1",4
+Pertahanan monster telah ditingkatkan.,1,2,650,2
+ Kekuatan serangan monster telah ditingkatkan.,2,2,651,2
+ Pertahanan pemain telah melemah.,3,1,652,2
+ Kekuatan serangan pemain telah melemah.,4,1,653,2
+ HP maksimum monster telah meningkat.,5,2,654,2
+ Pertahanan monster telah melemah.,6,2,655,2
+ Kekuatan serangan monster telah melemah.,7,2,656,2
+ Pertahanan pemain telah ditingkatkan.,8,1,657,2
+ Kekuatan serangan pemain telah ditingkatkan.,9,1,658,2
+ HP maksimum monster telah berkurang.,10,2,659,2
+ Memicu peristiwa debuff acak dalam pertempuran.,11,,"10000,1;10000,2;10000,3;10000,4;10000,5",1
+ Memicu peristiwa buff acak dalam pertempuran.,12,,"10000,6;10000,7;10000,8;10000,9;10000,10",1
+ Memicu peristiwa debuff acak selama pengumpulan.,13,,"10000,17;10000,18;10000,19;10000,20",1
+ Memicu peristiwa buff acak selama pengumpulan.,14,,"10000,21;10000,18;10000,23;10000,24",1
+ Memicu peristiwa debuff acak dalam pertanian.,15,,"10000,25;10000,26;10000,28;10000,29;10000,30",1
+ Memicu peristiwa buff acak dalam pertanian.,16,,"10000,31;10000,32;10000,34;10000,35;10000,36",1
+ Pertahanan item pengumpulan telah ditingkatkan.,17,5,"60,1,150,60,4;61,1,150,61,4;62,1,150,62,4",3
+ Nilai kemajuan maksimum item pengumpulan telah ditingkatkan.,18,5,"76,1,100,76,4",3
+ Kekuatan serangan pengumpulan pemain telah melemah.,19,1,660,2
+ Kecepatan gerak pemain telah melambat.,20,1,661,2
+ Pertahanan item pengumpulan telah melemah.,21,5,"60,1,-150,60,4;61,1,-150,61,4;62,1,-150,62,4",3
+ Nilai kemajuan maksimum item pengumpulan telah melemah.,22,5,"76,1,-100,76,4",3
+ Kekuatan serangan pengumpulan pemain telah ditingkatkan.,23,1,662,2
+ Kecepatan gerak pemain telah meningkat.,24,1,663,2
+ Kebutuhan air untuk tanaman telah meningkat.,25,8,"71,1,100,71,4",3
+Persyaratan keahlian untuk tanaman telah meningkat.,26,8,"73,1,25,73,4",3
+ Tanaman telah kembali ke tahap pertumbuhan sebelumnya.,27,,"1,-1",4
+ Tanaman perlu disiram lagi.,28,,"2,0",4
+ Kecepatan penyiraman pemain telah melambat.,29,1,664,2
+ Keahlian menanam pemain telah melemah.,30,1,665,2
+ Persyaratan air untuk tanaman telah berkurang.,31,8,"71,1,-100,71,4",3
+ Persyaratan keahlian untuk tanaman telah berkurang.,32,8,"73,1,-25,73,4",3
+ Tanaman telah memasuki tahap pertumbuhan berikutnya.,33,,"1,1",4
  Semua tanaman telah disiram.,34,,"2,1",4
- Kelajuan penyiraman pemain telah meningkat.,35,1,666,2
- Kemahiran menanam pemain telah ditingkatkan.,36,1,667,2
- Pengiraan semula statistik pengumpulan pemain.,37,1,668,2
- Pengiraan semula statistik item pengumpulan.,38,5,,3
+ Kecepatan penyiraman pemain telah meningkat.,35,1,666,2
+ Keahlian menanam pemain telah ditingkatkan.,36,1,667,2
+ Perhitungan ulang statistik pengumpulan pemain.,37,1,668,2
+ Perhitungan ulang statistik item pengumpulan.,38,5,,3

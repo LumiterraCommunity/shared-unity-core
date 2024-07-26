@@ -22,7 +22,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses Token** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.
 ",172,Arène Junior,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-",0;0,"0,0","659,1","8,24",,
+",0;0,"0,1440","659,1","1,24",,
 1,0,21002,0,"5,7",PVPDungeonSceneLoading_4_6.jpg,,0,1,5,PVPDungeonSceneLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses Token** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -35,7 +35,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses Token** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.
 ",173,Arène Intermédiaire,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-",0;0,"0,0","660,1","8,24",,
+",0;0,"0,1440","660,1","8,24",,
 1,0,21003,0,"8,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,5,PVPDungeonSceneLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses Token** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -48,7 +48,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses Token** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.
 ",174,Arène Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-",0;0,"0,0","661,1","8,24",,
+",0;0,"0,1440","661,1","1,24",,
 1,0,22001,0,"2,4",DungeonSceneLoading_7_9.jpg,,0,1,5,PVPDungeonSceneSoloLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses Token** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -61,7 +61,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses Token** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.
 ",172,Arène Solo Junior,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-",0;0,"0,0","659,1","3,24",,
+",0;0,"0,1440","659,1","1,24",,
 1,0,22002,0,"5,7",PVPDungeonSceneLoading_4_6.jpg,,0,1,5,PVPDungeonSceneSoloLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses Token** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -74,7 +74,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses Token** non réglées.
   - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.
 ",173,Arène Solo Intermédiaire,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.
-",0;0,"0,0","660,1","3,24",,
+",0;0,"0,1440","660,1","3,24",,
 1,0,22003,0,"8,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,5,PVPDungeonSceneSoloLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","## Récompenses
 - **Vaincre des monstres ou collecter**: Les joueurs recevront des **récompenses Token** investies par les totems.
 - **Éliminer d'autres joueurs**: Les joueurs peuvent réclamer les **récompenses LUASUD** non réglées de leurs adversaires vaincus.
@@ -85,9 +85,9 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
 - **Trois types de portes**:
   - **Porte de défi**: Pour les courageux, cette porte mène au niveau suivant de l'aventure.
   - **Porte de sortie**: Quittez le donjon et renoncez à toutes les **récompenses Token** non réglées.
-  - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.",174,Arène Solo Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.",0;0,"0,0","661,1","3,24",,
+  - **Porte de règlement**: Règlez et collectez les **récompenses Token** selon un certain ratio.",174,Arène Solo Avancée,"Lorsque vous mourrez, il y a une chance de laisser tomber les objets de votre sac à dos.",0;0,"0,1440","661,1","1,24",,
 0,0,30001,0,"1,9",DungeonSceneLoading_1_3.jpg,,0,0,1,DailyDungeon,1,3,2,10000,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","75,60,60,60,60,60,60,60,60","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9",Défi quotidien,,Défi quotidien,,0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
-0,0,30002,0,"1,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,1,PVPTrainingDungeon,2,3,2,10000,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","Terrain d'entraînement PVEP - Soutient des batailles de 12 à 24 joueurs, la mort n'entraînera aucune perte, tickets obtenus à partir des missions quotidiennes.",,Terrain d'entraînement,,0;0,"0,0","733,1","12,24",,
+0,0,30002,0,"1,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,1,PVPTrainingDungeon,2,3,2,10000,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","Terrain d'entraînement PVEP - Soutient des batailles de 12 à 24 joueurs, la mort n'entraînera aucune perte, tickets obtenus à partir des missions quotidiennes.",,Terrain d'entraînement,,0;0,"0,1440","733,1","1,24",,
 0,160,40001,1,"1,3",HomeSceneLoading.jpg,,100,0,5,GatherDungeon1-3,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"159,160,161","22,18,19;18,19;18,19","178,179,180","28,56,112","0,0;0,0;0,0","120,190,400","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3"," Les challengers qui réussissent le défi auront l'opportunité de recevoir une récompense en médaille.
 Dans le défi de collecte, la défense des ressources sera augmentée. En conséquence, les joueurs recevront un bonus qui convertit la compétence de collecte en attaque de collecte.
 ",185, Défi de collecte junior,,0;0;0,"0,1440","775,1",,,

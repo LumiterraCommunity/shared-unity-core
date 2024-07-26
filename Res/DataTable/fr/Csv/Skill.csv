@@ -337,7 +337,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,"15,391",,200,352,0,1,0,1,0,1,0,1,A-1diuzhadan,,playerroll,,660,1,5000,Lancer une potion enflammée. ,1000,2,12,jeter des pilules brûlantes,"2,200,0",,1,1,1,,1000,,,skill_tree_hurt,,top_down_bomb_blue,1,,,,,,"235,1",
 0,0,0,,0,,392,0,356,0,0,0,1,0,0,0,0,A-skill-chongci,Skill_YellowFlash,,,334,1,5000,Flash jaune. ,,2,0,Bouteille de pilules Flying Thunder,,,1,0,,,1000,,,,,,,,,,,,"236,1",
 0,0,0,,0,,,0,357,0,0,0,1,0,0,0,0,,Skill_MissPostion,,,100,1,5000,Rater. ,,2,0,flacon d'esquive,,,1,0,,,1000,393,,,,,,,,,,,"237,1",
-0,0,0,,0,,,0,358,0,0,0,1,0,0,0,0,,Skill_ClearPotion,,,100,1,5000,Effacer. ,,2,0,Bouteille purificatrice,,,1,0,,,1000,394,,,,,,,,,,,"238,1",
+0,0,0,,0,,,0,358,0,0,0,1,0,0,0,0,,Skill_ClearPotion,,,100,1,5000,Effacer. ,,2,0,Bouteille purificatrice,,,1,0,,,1000,"394,22",,,,,,,,,,,"238,1",
 0,0,0,,0,,,,359,0,0,0,1,0,0,0,0,,,,,,1,0,Vide. ,,1,0,Compétence de détection de faiblesse du chien en conserve,,,1,0,,,1000,,,,,,,,395,,,,,
 0,0,0,,0,,,,360,0,0,0,1,0,0,0,0,,,,,,1,0,Vide. ,,1,0,Compétence de détection de faiblesse du cactus,,,1,0,,,1000,,,,,,,,396,,,,,
 0,0,0,,0,,,,361,0,0,0,1,0,0,0,0,,,,,,1,0,Vide. ,,1,0,Compétence de détection de faiblesse du diable citrouille,,,1,0,,,1000,,,,,,,,397,,,,,

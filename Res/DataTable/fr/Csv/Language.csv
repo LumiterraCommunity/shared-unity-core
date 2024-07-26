@@ -101,6 +101,8 @@ describe-string,id-int,module-string,value-string
 道具不足,20020001,家园相关,Manque d'objet
 ,20020002,家园相关,Il n'y avait rien dans la boîte de stockage !
 ,20020003,家园相关,"Fluctuation du réseau, données anormales restaurées"
+,20020004,,
+,20020005,,
 ,20030001,保存技能配置,Enregistré avec succès
 超过上限提示,20040001,畜牧,{0} sprites[/color]Veuillez choisir d'abandonner ce Sprite ou de le remplacer par un autreSprite en raison d'un espace insuffisant
 超过上限提示标题,20040002,畜牧,LES ANIMAUX DE COMPAGNIE SONT PLEINS
@@ -178,6 +180,12 @@ describe-string,id-int,module-string,value-string
 ,20090026,,Vous recevez une tâche de jeton
 ,20090027,,Niveau de compétence insuffisant
 ,20090028,,Tarea caducada
+,20090029,,
+,20090030,,
+,20090031,,
+,20090032,,
+,20090033,,
+,20090034,,
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -352,3 +360,5 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290006,,¡Nombre del objeto sin procesar copiado!
 ,20290007,,
 ,20290008,,
+,20290009,,
+,20290010,,
