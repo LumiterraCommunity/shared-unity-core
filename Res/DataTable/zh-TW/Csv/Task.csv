@@ -23,7 +23,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 幫助剛納爾擊敗一只金屬狗。",0,"2,261",21,0,12,初來乍到,0,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,10"",""guiderPoint"":30101}]}","打開你的背包，裝備上你的劍，然後殺死5只金屬狗。
 進入城鎮，找到納什。",0,"2,261",22,0,0,情報,0,1,,21,,
-"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- 按下[Esc]鍵打開天賦樹介面
+"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","鍵打開天賦樹介面
 - 選擇升級主分支
 - 選擇升級戰爭踐踏技能
 - 將技能放置在快捷欄中",0,"2,261",23,0,0,幫忙,0,1,,22,,
@@ -47,7 +47,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 擊敗一只礦礦貓。
 擊敗一只葉狀潛伏者。",0,"2,261",33,0,0,更高級的挑戰,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",打開你的天賦樹並切換到農業樹。在最右邊升級你的捕捉技能節點。,0,"1,261",34,0,35,學會捕捉技能,0,2,,217,,
-"{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","[64]透過捕捉技能捕捉金屬狗和南瓜惡魔。
+"{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","透過捕捉技能捕捉金屬狗和南瓜惡魔。
 回到家中，使用刷子撫摸你的寵物，獲得足夠的螺絲和南瓜嫩芽。
 ",0,"1,261",162,0,34,學會畜牧,0,2,,34,,
 "{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":3,""value"":""80,1"",""guiderPoint"":0}]}",如果你想讓作物生長更快，你需要一把更高級的鋤頭。嘗試製作一把鐵質鋤頭。,0,"1,261",35,0,0,製作一把鐵鋤,0,2,,162,,
@@ -64,7 +64,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,追捕他們並帶回一些戰利品。,0,"2,168",43,1,140,日常-戰鬥-3,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所買點東西。,0,"1,117;2,117;3,117",44,0,0,交易2,0,2,,37,,
 "{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",特蘭斯可能在鎮上，我們去找他，並給他帶些鐵絲網。,0,"1,261",45,0,17,農夫特蘭斯,0,2,,23,,
-"{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","[18]空的
+"{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","空的
 ",0,,46,0,0,捕捉罐頭狗和產出,0,2,,45,,
 ,給我這些。,0,"2,84",47,1,138,日常-戰鬥-1,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
 ,給我這些。,0,"2,118",48,1,139,日常-戰鬥-2,0,,,,"{""options"":[{""optionType"":1,""value"":""33,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,2,200"",""guiderPoint"":0}]}",
@@ -114,211 +114,211 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":1,""value"":""37,10"",""guiderPoint"":20101}]}",提交10個赤紅皮毛。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"2,616",95,0,0,上交10個赤紅皮毛,0,2,,86,,
 "{""options"":[{""optionType"":1,""value"":""36,10"",""guiderPoint"":20202}]}",提交10個細長鉤爪。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"2,616",96,0,0,上交10個細長鉤爪,0,2,,87,,
 "{""options"":[{""optionType"":1,""value"":""38,10"",""guiderPoint"":20204}]}",提交10個冰雪茸毛。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"2,616",97,0,0,上交10個冰雪茸毛,0,2,,88,,
-"{""options"":[{""optionType"":1,""value"":""70,10"",""guiderPoint"":3601}]}",提交10根竹子。找到昆西完成這個任務。有時候有人會在城鎮附近看到他，所以你可以去找找他。,0,"1,314",98,0,0,竹子 農業產出,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""71,10"",""guiderPoint"":3601}]}",提交10個三葉草。找到昆西完成這個任務。有時候有人會在城鎮附近看到他，所以你可以去找他。,0,"1,314",99,0,0,三葉草 農業產出,0,2,,98,,
-"{""options"":[{""optionType"":1,""value"":""72,10"",""guiderPoint"":3601}]}",提交10個胡蘿蔔。找到昆西完成這個任務。有時候有人可能會在鎮附近看到他，所以你可以去找找他。,0,"1,314",100,0,0,胡蘿蔔 農業產出,0,2,,99,,
-"{""options"":[{""optionType"":1,""value"":""73,10"",""guiderPoint"":3601}]}",提交10個豬籠草。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",101,0,0,豬籠草 農業產出,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""74,10"",""guiderPoint"":3601}]}",提交10個棉花。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",102,0,0,棉花 農業產出,0,2,,101,,
-"{""options"":[{""optionType"":1,""value"":""75,10"",""guiderPoint"":3601}]}",提交10個忍耐果實。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",103,0,0,忍耐果實 農業產出2-3,0,2,,102,,
-"{""options"":[{""optionType"":1,""value"":""76,10"",""guiderPoint"":3601}]}",提交10個火爆辣椒。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",104,0,0,火爆辣椒 農業產出,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""77,10"",""guiderPoint"":3601}]}",提交10個堅硬果實。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",105,0,0,堅硬果實 農業產出,0,2,,104,,
-"{""options"":[{""optionType"":1,""value"":""78,10"",""guiderPoint"":3601}]}",提交10個藍幻菇。找到多可納爾完成任務。有時候他會在黑森林和紅森林附近出現。,0,"1,616",106,0,0,藍幻菇 農業產出,0,2,,105,,
-"{""options"":[{""optionType"":1,""value"":""177,10"",""guiderPoint"":4501}]}",提交10個仙人掌嫩芽。找到昆西完成這個任務。有時候有人可能會在城鎮附近看到他，所以你可以去找他。,0,"1,314",107,0,0,仙人掌嫩芽 - 怪物畜牧產出,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""178,10"",""guiderPoint"":4501}]}",提交10個螺絲釘。找到昆西完成這個任務。有時候有人可能會在鎮附近看到他，所以你可以去找找他。,0,"1,314",108,0,0,螺絲 - 怪物畜牧產出,0,2,,107,,
-"{""options"":[{""optionType"":1,""value"":""179,10"",""guiderPoint"":4501}]}",提交10個南瓜嫩芽。找到昆西完成這個任務。有時候有人可能會在城鎮附近看到他，所以你可以去找他。,0,"1,314",109,0,0,南瓜嫩芽 - 怪物畜牧產出,0,2,,108,,
-"{""options"":[{""optionType"":1,""value"":""180,10"",""guiderPoint"":4501}]}",提交10顆藍色晶石。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",110,0,0,藍色晶石 - 怪物畜牧產出,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""181,10"",""guiderPoint"":4501}]}",提交10片草妖怪的葉子。找到托瓦德完成這個任務。有時候他會出現在草地湖旁邊，你可以去找他。,0,"1,465",111,0,0,草妖怪闊葉 - 怪物畜牧產出,0,2,,110,,
-"{""options"":[{""optionType"":1,""value"":""182,10"",""guiderPoint"":4501}]}",提交10單位的蜂蜜。找到托瓦德完成這個任務。有時候你可以在一個草地湖旁邊看到他，所以你可以去找找他。,0,"1,465",112,0,0,蜂蜜 - 怪物畜牧產出,0,2,,111,,
-"{""options"":[{""optionType"":1,""value"":""183,10"",""guiderPoint"":4501}]}",提交10個暗黑羽毛。找到多可納爾完成任務。有時候會有人在黑森林和紅森林附近看到他。,0,"1,616",113,0,0,暗黑羽毛 - 怪物畜牧產出,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""184,10"",""guiderPoint"":4501}]}",提交10個凝固的岩漿。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",114,0,0,凝固的岩漿 - 怪物畜牧產出,0,2,,113,,
-"{""options"":[{""optionType"":1,""value"":""185,10"",""guiderPoint"":4501}]}",提交10個冰霜碎片。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",115,0,0,冰之結晶 - 怪物畜牧產出,0,2,,114,,
+"{""options"":[{""optionType"":1,""value"":""70,10"",""guiderPoint"":3601}]}",交出10根竹子。找到昆西完成這個任務。有時候有人會在城鎮附近看到他，所以你可以去找找他。,0,"1,314",98,0,0,竹子 農業產出,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""71,10"",""guiderPoint"":3601}]}",交出10個三葉草。找到昆西完成這個任務。有時候有人會在城鎮附近看到他，所以你可以去找他。,0,"1,314",99,0,0,三葉草 農業產出,0,2,,98,,
+"{""options"":[{""optionType"":1,""value"":""72,10"",""guiderPoint"":3601}]}",交出10個胡蘿蔔。找到昆西完成這個任務。有時候有人可能會在鎮附近看到他，所以你可以去找找他。,0,"1,314",100,0,0,胡蘿蔔 農業產出,0,2,,99,,
+"{""options"":[{""optionType"":1,""value"":""73,10"",""guiderPoint"":3601}]}",交出10個豬籠草。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",101,0,0,豬籠草 農業產出,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""74,10"",""guiderPoint"":3601}]}",交出10個棉花。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",102,0,0,棉花 農業產出,0,2,,101,,
+"{""options"":[{""optionType"":1,""value"":""75,10"",""guiderPoint"":3601}]}",交出10個忍耐果實。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",103,0,0,忍耐果實 農業產出2-3,0,2,,102,,
+"{""options"":[{""optionType"":1,""value"":""76,10"",""guiderPoint"":3601}]}",交出10個火爆辣椒。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",104,0,0,火爆辣椒 農業產出,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""77,10"",""guiderPoint"":3601}]}",交出10個堅硬果實。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",105,0,0,堅硬果實 農業產出,0,2,,104,,
+"{""options"":[{""optionType"":1,""value"":""78,10"",""guiderPoint"":3601}]}",交出10個藍幻菇。找到多可納爾完成任務。有時候他會在黑森林和紅森林附近出現。,0,"1,616",106,0,0,藍幻菇 農業產出,0,2,,105,,
+"{""options"":[{""optionType"":1,""value"":""177,10"",""guiderPoint"":4501}]}",交出10個仙人掌嫩芽。找到昆西完成這個任務。有時候有人可能會在城鎮附近看到他，所以你可以去找他。,0,"1,314",107,0,0,仙人掌嫩芽 - 怪物畜牧產出,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""178,10"",""guiderPoint"":4501}]}",交出10個螺絲釘。找到昆西完成這個任務。有時候有人可能會在鎮附近看到他，所以你可以去找找他。,0,"1,314",108,0,0,螺絲 - 怪物畜牧產出,0,2,,107,,
+"{""options"":[{""optionType"":1,""value"":""179,10"",""guiderPoint"":4501}]}",交出10個南瓜嫩芽。找到昆西完成這個任務。有時候有人可能會在城鎮附近看到他，所以你可以去找他。,0,"1,314",109,0,0,南瓜嫩芽 - 怪物畜牧產出,0,2,,108,,
+"{""options"":[{""optionType"":1,""value"":""180,10"",""guiderPoint"":4501}]}",交出10顆藍色晶石。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"1,465",110,0,0,藍色晶石 - 怪物畜牧產出,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""181,10"",""guiderPoint"":4501}]}",交出10片草妖怪的葉子。找到托瓦德完成這個任務。有時候他會出現在草地湖旁邊，你可以去找他。,0,"1,465",111,0,0,草妖怪闊葉 - 怪物畜牧產出,0,2,,110,,
+"{""options"":[{""optionType"":1,""value"":""182,10"",""guiderPoint"":4501}]}",交出10單位的蜂蜜。找到托瓦德完成這個任務。有時候你可以在一個草地湖旁邊看到他，所以你可以去找找他。,0,"1,465",112,0,0,蜂蜜 - 怪物畜牧產出,0,2,,111,,
+"{""options"":[{""optionType"":1,""value"":""183,10"",""guiderPoint"":4501}]}",交出10個暗黑羽毛。找到多可納爾完成任務。有時候會有人在黑森林和紅森林附近看到他。,0,"1,616",113,0,0,暗黑羽毛 - 怪物畜牧產出,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""184,10"",""guiderPoint"":4501}]}",交出10個凝固的岩漿。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",114,0,0,凝固的岩漿 - 怪物畜牧產出,0,2,,113,,
+"{""options"":[{""optionType"":1,""value"":""185,10"",""guiderPoint"":4501}]}",交出10個冰霜碎片。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"1,616",115,0,0,冰之結晶 - 怪物畜牧產出,0,2,,114,,
 "{""options"":[{""optionType"":1,""value"":""58,10"",""guiderPoint"":3401}]}",提交10個礦石。找到昆西完成這個任務。有時候有人可能會在鎮附近看到他，所以你可以去找找他。,0,"3,314",116,0,0,石頭,0,2,,214,,
 "{""options"":[{""optionType"":1,""value"":""66,10"",""guiderPoint"":2101}]}",提交10根植物纖維。找到昆西完成這個任務。有時候有人可能會在城鎮附近看到他，所以你可以去找找他。,0,"3,314",117,0,0,植物纖維,0,2,,116,,
-"{""options"":[{""optionType"":1,""value"":""62,10"",""guiderPoint"":3501}]}",提交10個普通木材。找到昆西完成這個任務。有時候有人會在城鎮附近看到他，所以你可以去找他。,0,"3,314",118,0,0,普通木材,0,2,,117,,
-"{""options"":[{""optionType"":1,""value"":""59,10"",""guiderPoint"":20103}]}",提交10塊黑鐵礦石。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找找他。,0,"3,465",119,0,0,黑鐵礦,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""63,10"",""guiderPoint"":20203}]}",提交10塊沙漠樹木。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"3,465",120,0,0,沙漠樹木材,0,2,,119,,
-"{""options"":[{""optionType"":1,""value"":""67,10"",""guiderPoint"":20201}]}",提交10個冰原菇。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"3,465",121,0,0,冰原菇,0,2,,120,,
-"{""options"":[{""optionType"":1,""value"":""60,10"",""guiderPoint"":20204}]}",提交10個紅色水晶礦石。找到多可納爾完成任務。有時候他會在黑森林和紅森林附近出現。,0,"3,616",122,0,0,紅色水晶礦,0,2,,214,,
-"{""options"":[{""optionType"":1,""value"":""64,10"",""guiderPoint"":20202}]}",提交10塊黑暗木材。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"3,616",123,0,0,暗黑木材,0,2,,122,,
-"{""options"":[{""optionType"":1,""value"":""68,10"",""guiderPoint"":20103}]}",提交10個龍舌蘭。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"3,616",124,0,0,龍舌蘭,0,2,,123,,
-,"[121]空
+"{""options"":[{""optionType"":1,""value"":""62,10"",""guiderPoint"":3501}]}",交出10個普通木材。找到昆西完成這個任務。有時候有人會在城鎮附近看到他，所以你可以去找他。,0,"3,314",118,0,0,普通木材,0,2,,117,,
+"{""options"":[{""optionType"":1,""value"":""59,10"",""guiderPoint"":20103}]}",交出10塊黑鐵礦石。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找找他。,0,"3,465",119,0,0,黑鐵礦,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""63,10"",""guiderPoint"":20203}]}",交出10塊沙漠樹木。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"3,465",120,0,0,沙漠樹木材,0,2,,119,,
+"{""options"":[{""optionType"":1,""value"":""67,10"",""guiderPoint"":20201}]}",交出10個冰原菇。找到托瓦德完成這個任務。有時候你可以在草地湖旁邊看到他，所以你可以去找他。,0,"3,465",121,0,0,冰原菇,0,2,,120,,
+"{""options"":[{""optionType"":1,""value"":""60,10"",""guiderPoint"":20204}]}",交出10個紅色水晶礦石。找到多可納爾完成任務。有時候他會在黑森林和紅森林附近出現。,0,"3,616",122,0,0,紅色水晶礦,0,2,,214,,
+"{""options"":[{""optionType"":1,""value"":""64,10"",""guiderPoint"":20202}]}",交出10塊黑暗木材。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"3,616",123,0,0,暗黑木材,0,2,,122,,
+"{""options"":[{""optionType"":1,""value"":""68,10"",""guiderPoint"":20103}]}",交出10個龍舌蘭。找到多可納爾完成任務。有時候會有人看到他在黑森林和紅森林附近。,0,"3,616",124,0,0,龍舌蘭,0,2,,123,,
+,"空
 ",0,"2,237",126,1,141,日常-戰鬥-4,0,,,,"{""options"":[{""optionType"":4,""value"":""96,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""97,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""98,2,100"",""guiderPoint"":0}]}",
-," [122]空
+,"空
 ",0,"2,336",127,1,142,日常-戰鬥-5,0,,,,"{""options"":[{""optionType"":4,""value"":""101,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""100,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""99,2,100"",""guiderPoint"":0}]}",
-," [123]空
+,"空
 ",0,"2,475",128,1,143,日常-戰鬥-6,0,,,,"{""options"":[{""optionType"":4,""value"":""104,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""103,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""102,2,100"",""guiderPoint"":0}]}",
-," [124]空
+,"空
 ",0,"2,237",129,1,141,日常-戰鬥-4,0,,,,"{""options"":[{""optionType"":4,""value"":""96,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""97,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""98,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""365,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""366,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""367,1,200"",""guiderPoint"":0}]}",
-," [125]空
+,"空
 ",0,"2,336",130,1,142,日常-戰鬥-5,0,,,,"{""options"":[{""optionType"":4,""value"":""99,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""100,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""101,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""368,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""369,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""370,1,200"",""guiderPoint"":0}]}",
-," [126]空
+,"空
 ",0,"2,475",131,1,143,日常-戰鬥-6,0,,,,"{""options"":[{""optionType"":4,""value"":""102,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""103,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""104,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""371,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""372,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""373,1,200"",""guiderPoint"":0}]}",
-," [127]空
+,"空
 ",0,"2,237",132,1,141,日常-戰鬥-4,0,,,,"{""options"":[{""optionType"":1,""value"":""365,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""366,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""367,2,200"",""guiderPoint"":0}]}",
-," [128]空
+,"空
 ",0,"2,336",133,1,142,日常-戰鬥-5,0,,,,"{""options"":[{""optionType"":1,""value"":""368,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""369,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""370,2,200"",""guiderPoint"":0}]}",
-," [129]空
+,"空
 ",0,"2,475",134,1,143,日常-戰鬥-6,0,,,,"{""options"":[{""optionType"":1,""value"":""371,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""372,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""373,2,200"",""guiderPoint"":0}]}",
-," [130]空
+,"空
 ",0,"2,415",135,1,0,戰鬥經驗任務-Lv4,0,,,,"{""options"":[{""optionType"":1,""value"":""485,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,200"",""guiderPoint"":0}]}",
-," [131]空
+,"空
 ",0,"2,588",136,1,0,戰鬥經驗任務-Lv5,0,,,,"{""options"":[{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0}]}",
-," [132]空
+,"空
 ",0,"2,831",137,1,0,戰鬥經驗任務-Lv6,0,,,,"{""options"":[{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0}]}",
-," [133]空
+,"空
 ",0,"1,237",138,1,150,日常-農牧-4,0,,,,"{""options"":[{""optionType"":1,""value"":""383,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""384,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""385,2,200"",""guiderPoint"":0}]}",
-," [134]空
+,"空
 ",0,"1,237",139,1,150,日常-農牧-4,0,,,,"{""options"":[{""optionType"":1,""value"":""383,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""384,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""385,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""383,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""384,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""385,1,200"",""guiderPoint"":0}]}",
-," [135]空
+,"空
 ",0,"1,237",140,1,150,日常-農牧-4,0,,,,"{""options"":[{""optionType"":1,""value"":""383,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""384,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""385,2,200"",""guiderPoint"":0}]}",
-," [136]空
+,"空
 ",0,"1,336",141,1,151,日常-農牧-5,0,,,,"{""options"":[{""optionType"":1,""value"":""386,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""387,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""388,2,200"",""guiderPoint"":0}]}",
-," [137]空
+,"空
 ",0,"1,336",142,1,151,日常-農牧-5,0,,,,"{""options"":[{""optionType"":1,""value"":""386,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""387,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""388,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""386,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""387,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""388,1,200"",""guiderPoint"":0}]}",
-," [138]空
+,"空
 ",0,"1,336",143,1,151,日常-農牧-5,0,,,,"{""options"":[{""optionType"":1,""value"":""386,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""387,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""388,2,200"",""guiderPoint"":0}]}",
-," [139]空
+,"空
 ",0,"1,475",144,1,152,日常-農牧-6,0,,,,"{""options"":[{""optionType"":1,""value"":""389,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""390,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""391,2,200"",""guiderPoint"":0}]}",
-," [140]空
+,"空
 ",0,"1,475",145,1,152,日常-農牧-6,0,,,,"{""options"":[{""optionType"":1,""value"":""389,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""390,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""391,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""389,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""390,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""391,1,200"",""guiderPoint"":0}]}",
-," [141]空
+,"空
 ",0,"1,475",146,1,152,日常-農牧-6,0,,,,"{""options"":[{""optionType"":1,""value"":""389,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""390,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""391,2,200"",""guiderPoint"":0}]}",
-," [142]空
+,"空
 ",0,"1,415",147,1,0,農牧經驗任務-Lv4,0,,,,"{""options"":[{""optionType"":1,""value"":""485,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,200"",""guiderPoint"":0}]}",
-," [143]空
+,"空
 ",0,"1,588",148,1,0,農牧經驗任務-Lv5,0,,,,"{""options"":[{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0}]}",
-," [144]空
+,"空
 ",0,"1,831",149,1,0,農牧經驗任務-Lv6,0,,,,"{""options"":[{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0}]}",
-, [145]空,0,"3,237",150,1,132,日常-採集-4,0,,,,"{""options"":[{""optionType"":3,""value"":""374,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""374,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""375,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""375,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""376,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""376,2,200"",""guiderPoint"":0}]}",
-,"[146]空
+,空,0,"3,237",150,1,132,日常-採集-4,0,,,,"{""options"":[{""optionType"":3,""value"":""374,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""374,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""375,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""375,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""376,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""376,2,200"",""guiderPoint"":0}]}",
+,"空
 ",0,"3,237",151,1,132,日常-採集-4,0,,,,"{""options"":[{""optionType"":1,""value"":""374,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""374,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""375,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""375,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""376,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""376,2,200"",""guiderPoint"":0}]}",
-," [147]空
+,"空
 ",0,"3,237",152,1,132,日常-採集-4,0,,,,"{""options"":[{""optionType"":3,""value"":""374,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""374,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""375,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""375,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""376,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""376,2,200"",""guiderPoint"":0}]}",
-," [148]空
+,"空
 ",0,"3,336",153,1,133,日常-採集-5,0,,,,"{""options"":[{""optionType"":3,""value"":""377,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""377,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""378,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""378,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""379,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""379,2,200"",""guiderPoint"":0}]}",
-," [149]空
+,"空
 ",0,"3,336",154,1,133,日常-採集-5,0,,,,"{""options"":[{""optionType"":1,""value"":""377,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""377,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""378,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""378,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""379,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""379,2,200"",""guiderPoint"":0}]}",
-," [150]空
+,"空
 ",0,"3,336",155,1,133,日常-採集-5,0,,,,"{""options"":[{""optionType"":3,""value"":""377,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""377,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""378,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""378,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""379,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""379,2,200"",""guiderPoint"":0}]}",
-," [151]空
+,"空
 ",0,"3,475",156,1,134,日常-採集-6,0,,,,"{""options"":[{""optionType"":3,""value"":""380,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""380,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""381,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""381,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""382,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""382,2,200"",""guiderPoint"":0}]}",
-," [152]空
+,"空
 ",0,"3,475",157,1,134,日常-採集-6,0,,,,"{""options"":[{""optionType"":1,""value"":""380,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""380,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""381,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""381,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""382,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""382,2,200"",""guiderPoint"":0}]}",
-," [153]空
+,"空
 ",0,"3,475",158,1,134,日常-採集-6,0,,,,"{""options"":[{""optionType"":3,""value"":""380,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""380,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""381,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""381,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""382,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""382,2,200"",""guiderPoint"":0}]}",
-," [154]空
+,"空
 ",0,"3,415",159,1,0,採集經驗任務-Lv4,0,,,,"{""options"":[{""optionType"":1,""value"":""485,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""485,1,200"",""guiderPoint"":0}]}",
-," [155]空
+,"空
 ",0,"3,588",160,1,0,採集經驗任務-Lv5,0,,,,"{""options"":[{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,100"",""guiderPoint"":0},{""optionType"":1,""value"":""486,2,200"",""guiderPoint"":0}]}",
-," [156]空
+,"空
 ",0,"3,831",161,1,0,採集經驗任務-Lv6,0,,,,"{""options"":[{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""487,1,200"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3401}]}"," [65]殺死這些怪物來證明你的實力。
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3401}]}","殺死這些怪物來證明你的實力。
 完成任務後，特殊試煉場地-花之巔將被解鎖。
 ",0,"2,84",163,0,0,維克托的考驗,0,2,,214,,20000
-"{""options"":[{""optionType"":4,""value"":""12,1"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,1"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,1"",""guiderPoint"":20204}]}"," [66]殺死這些怪物來證明你是一個強大的個體。
+"{""options"":[{""optionType"":4,""value"":""12,1"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,1"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,1"",""guiderPoint"":20204}]}","殺死這些怪物來證明你是一個強大的個體。
 完成任務後，特殊試煉場地-浮空境將被解鎖。
 ",0,"2,237",164,0,0,馬格努斯的考驗,0,2,,214,,20001
-"{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}"," [159]フローティングレルムでこれらのモンスターを倒して自分の力を証明してください。
+"{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","フローティングレルムでこれらのモンスターを倒して自分の力を証明してください。
 タスクを完了すると、特別な試練場「エンシェントドメイン」が解放されます。
 ",0,"2,672",165,0,0,謎光古靈的求助,0,2,,214,,20002
-"{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}"," [160]以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
-",0,"2,84",166,0,0,"[68]消滅花峰的怪物
+"{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
+",0,"2,84",166,0,0,"消滅花峰的怪物
 ",0,2,,163,,21001
-"{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}"," [161]以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
-",0,"2,237",167,0,0," [69]消滅浮游境的怪物
+"{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
+",0,"2,237",167,0,0,"消滅浮游境的怪物
 ",0,2,,164,,21002
-"{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}"," [162]以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
-",0,"2,672",168,0,0," [70]消滅古老領域的怪物
+"{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
+",0,"2,672",168,0,0,"消滅古老領域的怪物
 ",0,2,,165,,21003
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}"," [163]これらのアイテムを提出すると、ソロアリーナが解放されます。
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","これらのアイテムを提出すると、ソロアリーナが解放されます。
 ",0,"2,84",169,0,0,獨行者#1,0,2,,163,,22001
-"{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}"," [164]これらのアイテムを提出すると、ソロアリーナが解放されます。
+"{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","これらのアイテムを提出すると、ソロアリーナが解放されます。
 ",0,"2,237",170,0,0,獨行者#2,0,2,,164,,22002
-"{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}"," [165]これらのアイテムを提出すると、ソロアリーナが解放されます。
+"{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}","これらのアイテムを提出すると、ソロアリーナが解放されます。
 ",0,"2,672",171,0,0,獨行者#3,0,2,,165,,22003
-," [166]空
+,"空
 ",0,"2,672",172,1,144,日常-戰鬥-7,0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
-," [167]空
+,"空
 ",0,"2,672",173,1,144,日常-戰鬥-7,0,,,,"{""options"":[{""optionType"":4,""value"":""58,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""57,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""59,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""491,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""492,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""493,1,200"",""guiderPoint"":0}]}",
-," [168]空
+,"空
 ",0,"2,672",174,1,144,日常-戰鬥-7,0,,,,"{""options"":[{""optionType"":1,""value"":""491,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""492,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""493,2,200"",""guiderPoint"":0}]}",
-," [169]空
+,"空
 ",0,"2,950",175,1,145,日常-戰鬥-8,0,,,,"{""options"":[{""optionType"":4,""value"":""115,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""116,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""117,2,200"",""guiderPoint"":0}]}",
-, [170]空,0,"2,950",176,1,145,日常-戰鬥-8,0,,,,"{""options"":[{""optionType"":4,""value"":""63,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""62,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""64,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""503,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""504,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""505,1,200"",""guiderPoint"":0}]}",
-,"[171]空
+,空,0,"2,950",176,1,145,日常-戰鬥-8,0,,,,"{""options"":[{""optionType"":4,""value"":""63,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""62,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""64,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""503,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""504,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""505,1,200"",""guiderPoint"":0}]}",
+,"空
 ",0,"2,950",177,1,145,日常-戰鬥-8,0,,,,"{""options"":[{""optionType"":1,""value"":""503,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""504,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""505,2,200"",""guiderPoint"":0}]}",
-," [172]空
+,"空
 ",0,"2,1344",178,1,146,日常-戰鬥-9,0,,,,"{""options"":[{""optionType"":4,""value"":""118,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""119,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""120,2,200"",""guiderPoint"":0}]}",
-," [173]空
+,"空
 ",0,"2,1344",179,1,146,日常-戰鬥-9,0,,,,"{""options"":[{""optionType"":4,""value"":""68,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""69,1,200"",""guiderPoint"":0},{""optionType"":4,""value"":""67,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""515,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""516,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""517,1,200"",""guiderPoint"":0}]}",
-," [174]空
+,"空
 ",0,"2,1344",180,1,146,日常-戰鬥-9,0,,,,"{""options"":[{""optionType"":1,""value"":""515,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""516,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""517,2,200"",""guiderPoint"":0}]}",
-," [175]空
+,"空
 ",0,"2,1176",181,1,0,戰鬥經驗任務-Lv7,0,,,,"{""options"":[{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0}]}",
-," [176]空
+,"空
 ",0,"2,1663",182,1,0,戰鬥經驗任務-Lv8,0,,,,"{""options"":[{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0}]}",
-," [177]空
+,"空
 ",0,"2,2352",183,1,0,戰鬥經驗任務-Lv9,0,,,,"{""options"":[{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0}]}",
-," [178]空
+,"空
 ",0,"1,672",184,1,153,日常-農牧-7,0,,,,"{""options"":[{""optionType"":1,""value"":""497,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""497,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""500,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""500,2,200"",""guiderPoint"":0}]}",
-," [179]空
+,"空
 ",0,"1,672",185,1,153,日常-農牧-7,0,,,,"{""options"":[{""optionType"":1,""value"":""498,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""498,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""501,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""501,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""499,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""499,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""502,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""502,2,200"",""guiderPoint"":0}]}",
-," [180]空
+,"空
 ",0,"1,672",186,1,153,日常-農牧-7,0,,,,"{""options"":[{""optionType"":1,""value"":""497,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""497,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""500,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""500,2,200"",""guiderPoint"":0}]}",
-," [181]空
+,"空
 ",0,"1,950",187,1,154,日常-農牧-8,0,,,,"{""options"":[{""optionType"":1,""value"":""509,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""509,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""512,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""512,2,200"",""guiderPoint"":0}]}",
-," [182]空
+,"空
 ",0,"1,950",188,1,154,日常-農牧-8,0,,,,"{""options"":[{""optionType"":1,""value"":""510,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""510,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""513,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""513,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""511,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""511,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""514,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""514,2,200"",""guiderPoint"":0}]}",
-," [183]空
+,"空
 ",0,"1,950",189,1,154,日常-農牧-8,0,,,,"{""options"":[{""optionType"":1,""value"":""509,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""509,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""512,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""512,2,200"",""guiderPoint"":0}]}",
-," [184]空
+,"空
 ",0,"1,1344",190,1,155,日常-農牧-9,0,,,,"{""options"":[{""optionType"":1,""value"":""521,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""521,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""524,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""524,2,200"",""guiderPoint"":0}]}",
-," [185]空
+,"空
 ",0,"1,1344",191,1,155,日常-農牧-9,0,,,,"{""options"":[{""optionType"":1,""value"":""522,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""522,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""525,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""525,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""523,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""523,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""526,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""526,2,200"",""guiderPoint"":0}]}",
-," [186]空
+,"空
 ",0,"1,1344",192,1,155,日常-農牧-9,0,,,,"{""options"":[{""optionType"":1,""value"":""521,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""521,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""524,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""524,2,200"",""guiderPoint"":0}]}",
-," [187]空
+,"空
 ",0,"1,1176",193,1,0,農牧經驗任務-Lv7,0,,,,"{""options"":[{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0}]}",
-," [188]空
+,"空
 ",0,"1,1663",194,1,0,農牧經驗任務-Lv8,0,,,,"{""options"":[{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0}]}",
-," [189]空
+,"空
 ",0,"1,2352",195,1,0,農牧經驗任務-Lv9,0,,,,"{""options"":[{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0}]}",
-," [190]空
+,"空
 ",0,"3,672",196,1,135,日常-採集-7,0,,,,"{""options"":[{""optionType"":3,""value"":""494,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""494,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""495,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""495,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""496,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""496,2,200"",""guiderPoint"":0}]}",
-," [191]空
+,"空
 ",0,"3,672",197,1,135,日常-採集-7,0,,,,"{""options"":[{""optionType"":1,""value"":""494,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""494,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""495,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""495,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""496,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""496,2,200"",""guiderPoint"":0}]}",
-," [192]空
+,"空
 ",0,"3,672",198,1,135,日常-採集-7,0,,,,"{""options"":[{""optionType"":3,""value"":""494,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""494,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""495,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""495,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""496,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""496,2,200"",""guiderPoint"":0}]}",
-," [193]空
+,"空
 ",0,"3,950",199,1,136,日常-採集-8,0,,,,"{""options"":[{""optionType"":3,""value"":""506,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""506,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""507,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""507,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""508,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""508,2,200"",""guiderPoint"":0}]}",
-," [194]空
+,"空
 ",0,"3,950",200,1,136,日常-採集-8,0,,,,"{""options"":[{""optionType"":1,""value"":""506,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""506,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""507,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""507,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""508,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""508,2,200"",""guiderPoint"":0}]}",
-, [195]空,0,"3,950",201,1,136,日常-採集-8,0,,,,"{""options"":[{""optionType"":3,""value"":""506,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""506,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""507,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""507,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""508,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""508,2,200"",""guiderPoint"":0}]}",
-,[196]空的,0,"3,1344",202,1,137,日常-採集-9,0,,,,"{""options"":[{""optionType"":3,""value"":""518,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""518,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,2,200"",""guiderPoint"":0}]}",
-, [197]空的,0,"3,1344",203,1,137,日常-採集-9,0,,,,"{""options"":[{""optionType"":1,""value"":""518,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""518,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""519,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""519,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""520,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""520,2,200"",""guiderPoint"":0}]}",
-, [198]空的,0,"3,1344",204,1,137,日常-採集-9,0,,,,"{""options"":[{""optionType"":3,""value"":""518,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""518,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,2,200"",""guiderPoint"":0}]}",
-, [199]空的,0,"3,1176",205,1,0,採集經驗任務-Lv7,0,,,,"{""options"":[{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0}]}",
-, [200]空的,0,"3,1663",206,1,0,採集經驗任務-Lv8,0,,,,"{""options"":[{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0}]}",
-, [201]空的,0,"3,2352",207,1,0,採集經驗任務-Lv9,0,,,,"{""options"":[{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}", [202]空的,0,"2,147",208,0,0, [210]每日挑戰,0,2,,21,,
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}", [203]空的,0,"2,147",209,0,0, [211]PVEP訓練,0,2,,215,,30002
-"{""options"":[{""optionType"":5,""value"":""21,1"",""guiderPoint"":0}]}", [204]抽獎券的正確使用方法,0,"2,50;3,50;1,50",210,0,0,[9]抽獎券的正確使用方式,0,2,,26,,
-"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}"," [205]Lumi世界分為三個區域：和平區、危險區和混亂區。
-去區域的邊緣看看，熟悉一下。",0,"2,50;3,50;1,50",211,0,0, [15]世界區域劃分,0,2,,216,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}", [206]嘗試製作一個能量史萊姆。,0,"2,50;3,50;1,50",212,0,0, [10]能量史萊姆的準備,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", [207]嘗試製作一個能量恢復藥水並使用它。,0,"2,50;3,50;1,50",213,0,158,[11]製作一瓶能量藥水並使用它,0,1,,212,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}", [208]每天都有事情要做。,0,"2,50;3,50;1,50",214,0,177, [12]每天要做的事情,0,1,,213,,30001
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}", [209]完成每日副本。,0,"2,50;3,50;1,50",215,0,0, [13]完成每日副本,0,2,,214,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}", [210]任務令牌是主要的收入來源之一。完成這些任務將獲得令牌獎勵。與Haski交談以獲取更多信息。,0,"2,50;3,50;1,50",216,0,0, [14]關於代幣任務,0,1,,214,,
-"{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}"," [211]寵物是每個人的好伴侶，試著捕捉它們並善加利用。
-寵物可以幫助你戰鬥、收集、耕作，並與你的寵物相處融洽。",0,"2,50;3,50;1,50",217,0,0, [16]寵物的正確使用方式,0,1,,216,,
-"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}", [212]完成任務解鎖初級採集挑戰。,0,"3,117",218,0,0, [212]初級採集挑戰,0,2,,214,,40001
-"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}", [213]完成任務解鎖中級採集挑戰。,0,"3,117",219,0,0, [213]中級採集挑戰,0,2,,214,,40002
-"{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}", [214]完成任務解鎖高級採集挑戰。,0,"3,117",220,0,0, [214]高級採集挑戰,0,2,,214,,40003
-"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}", [215]完成任務解鎖初級農牧挑戰。,0,"1,117",221,0,0, [215]初級農牧挑戰,0,2,,214,,50001
-"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}", [216]完成任務解鎖中級農牧挑戰。,0,"1,117",222,0,0, [216]中級農牧挑戰,0,2,,214,,50002
-"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}", [217]完成任務解鎖高級農牧挑戰。,0,"1,117",223,0,0, [217]高級農牧挑戰,0,2,,214,,50003
-"{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}", [218]對話任務,0,"2,50;3,50;1,50",224,0,0, [218]對話任務,0,2,,,,
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}", [219]副本任務,0,"2,50;3,50;1,50",225,0,0, [219]副本任務,0,2,,,,
-"{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}", [220]捕捉任務,0,"2,50;3,50;1,50",226,0,0, [220]捕捉任務,0,2,,,,
+,空,0,"3,950",201,1,136,日常-採集-8,0,,,,"{""options"":[{""optionType"":3,""value"":""506,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""506,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""507,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""507,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""508,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""508,2,200"",""guiderPoint"":0}]}",
+,空的,0,"3,1344",202,1,137,日常-採集-9,0,,,,"{""options"":[{""optionType"":3,""value"":""518,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""518,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,2,200"",""guiderPoint"":0}]}",
+,空的,0,"3,1344",203,1,137,日常-採集-9,0,,,,"{""options"":[{""optionType"":1,""value"":""518,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""518,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""519,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""519,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""520,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""520,2,200"",""guiderPoint"":0}]}",
+,空的,0,"3,1344",204,1,137,日常-採集-9,0,,,,"{""options"":[{""optionType"":3,""value"":""518,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""518,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""519,2,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,1,200"",""guiderPoint"":0},{""optionType"":3,""value"":""520,2,200"",""guiderPoint"":0}]}",
+,空的,0,"3,1176",205,1,0,採集經驗任務-Lv7,0,,,,"{""options"":[{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""488,1,200"",""guiderPoint"":0}]}",
+,空的,0,"3,1663",206,1,0,採集經驗任務-Lv8,0,,,,"{""options"":[{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""489,1,200"",""guiderPoint"":0}]}",
+,空的,0,"3,2352",207,1,0,採集經驗任務-Lv9,0,,,,"{""options"":[{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""490,1,200"",""guiderPoint"":0}]}",
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",空的,0,"2,147",208,0,0,每日挑戰,0,2,,21,,
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",空的,0,"2,147",209,0,0,PVEP訓練,0,2,,215,,30002
+"{""options"":[{""optionType"":5,""value"":""21,1"",""guiderPoint"":0}]}",抽獎券的正確使用方法,0,"2,50;3,50;1,50",210,0,0,抽獎券的正確使用方式,0,2,,26,,
+"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Lumi世界分為三個區域：和平區、危險區和混亂區。
+去區域的邊緣看看，熟悉一下。",0,"2,50;3,50;1,50",211,0,0,世界區域劃分,0,2,,216,,
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",嘗試製作一個能量史萊姆。,0,"2,50;3,50;1,50",212,0,0,能量史萊姆的準備,0,1,,26,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}",嘗試製作一個能量恢復藥水並使用它。,0,"2,50;3,50;1,50",213,0,158,製作一瓶能量藥水並使用它,0,1,,212,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",每天都有事情要做。,0,"2,50;3,50;1,50",214,0,177,每天要做的事情,0,1,,213,,30001
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",完成每日副本。,0,"2,50;3,50;1,50",215,0,0,完成每日副本,0,2,,214,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",任務令牌是主要的收入來源之一。完成這些任務將獲得令牌獎勵。與Haski交談以獲取更多信息。,0,"2,50;3,50;1,50",216,0,0,關於代幣任務,0,1,,214,,
+"{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}","寵物是每個人的好伴侶，試著捕捉它們並善加利用。
+寵物可以幫助你戰鬥、收集、耕作，並與你的寵物相處融洽。",0,"2,50;3,50;1,50",217,0,0,寵物的正確使用方式,0,1,,216,,
+"{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",完成任務解鎖初級採集挑戰。,0,"3,117",218,0,0,初級採集挑戰,0,2,,214,,40001
+"{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",完成任務解鎖中級採集挑戰。,0,"3,117",219,0,0,中級採集挑戰,0,2,,214,,40002
+"{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}",完成任務解鎖高級採集挑戰。,0,"3,117",220,0,0,高級採集挑戰,0,2,,214,,40003
+"{""options"":[{""optionType"":2,""value"":""146,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,1"",""guiderPoint"":3601}]}",完成任務解鎖初級農牧挑戰。,0,"1,117",221,0,0,初級農牧挑戰,0,2,,214,,50001
+"{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",完成任務解鎖中級農牧挑戰。,0,"1,117",222,0,0,中級農牧挑戰,0,2,,214,,50002
+"{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",完成任務解鎖高級農牧挑戰。,0,"1,117",223,0,0,高級農牧挑戰,0,2,,214,,50003
+"{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",對話任務,0,"2,50;3,50;1,50",224,0,0,對話任務,0,2,,,,
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",副本任務,0,"2,50;3,50;1,50",225,0,0,副本任務,0,2,,,,
+"{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",捕捉任務,0,"2,50;3,50;1,50",226,0,0,捕捉任務,0,2,,,,
 "{""options"":[{""optionType"":13,""value"":""810,109,604,10"",""guiderPoint"":30108}]}",,0,"2,50;3,50;1,50",228,0,0,,0,1,,217,,

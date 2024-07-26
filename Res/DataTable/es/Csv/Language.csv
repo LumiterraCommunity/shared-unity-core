@@ -101,6 +101,8 @@ describe-string,id-int,module-string,value-string
 道具不足,20020001,家园相关,Falta de objeto
 ,20020002,家园相关,¡No había nada en la caja de almacenamiento!
 ,20020003,家园相关,"Fluctuación de red, datos anómalos restaurados"
+,20020004,,
+,20020005,,
 ,20030001,保存技能配置,Guardado exitoso
 超过上限提示,20040001,畜牧,{0} sprites[/color]Elige abandonar este Sprite o reemplazarlo por otro debido a falta de espacio
 超过上限提示标题,20040002,畜牧,LAS MASCOTAS ESTÁN LLENAS
@@ -178,6 +180,12 @@ describe-string,id-int,module-string,value-string
 ,20090026,,Recibes una tarea de ficha
 ,20090027,,Nivel de habilidad insuficiente
 ,20090028,, Tarea caducada
+,20090029,,
+,20090030,,
+,20090031,,
+,20090032,,
+,20090033,,
+,20090034,,
 ,"20100000
 ",专精,General
 ,20100001,专精,Agricultura
@@ -352,3 +360,5 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290006,, ¡Nombre del artículo sin procesar copiado!
 ,20290007,,
 ,20290008,,
+,20290009,,
+,20290010,,

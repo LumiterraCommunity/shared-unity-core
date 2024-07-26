@@ -101,6 +101,8 @@ describe-string,id-int,module-string,value-string
 道具不足,20020001,家园相关,Kekurangan item
 ,20020002,家园相关,Tiada apa-apa dalam kotak simpanan!
 ,20020003,家园相关," Gangguan rangkaian, data anomali dipulihkan"
+,20020004,,
+,20020005,,
 ,20030001,保存技能配置,Berjaya disimpan
 超过上限提示,20040001,畜牧,{0} watak[/color]Sila pilih untuk meninggalkan Sprite ini atau menggantikannya dengan Sprite lainkerana ruang tidak mencukupi
 超过上限提示标题,20040002,畜牧,HAWAN PENUH
@@ -178,6 +180,12 @@ describe-string,id-int,module-string,value-string
 ,20090026,,Anda menerima tugas token
 ,20090027,,Tahap Kemahiran Tidak Cukup
 ,20090028,,Tugas telah tamat tempoh
+,20090029,,
+,20090030,,
+,20090031,,
+,20090032,,
+,20090033,,
+,20090034,,
 ,"20100000
 ",专精,Umum 
 ,20100001,专精,Pertanian 
@@ -352,3 +360,5 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290006,,Nama item mentah disalin!
 ,20290007,,
 ,20290008,,
+,20290009,,
+,20290010,,

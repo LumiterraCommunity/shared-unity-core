@@ -105,6 +105,15 @@ public class DRTalentTree : DataRowBase
     }
 
     /// <summary>
+  /**获取resetCost-int。*/
+    /// </summary>
+    public int ResetCost
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取type-int。*/
     /// </summary>
     public int Type
@@ -141,15 +150,6 @@ public class DRTalentTree : DataRowBase
     }
 
     /// <summary>
-  /**获取resetCost-int。*/
-    /// </summary>
-    public int ResetCost
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取upgradeToken-int[]。*/
     /// </summary>
     public int[] UpgradeToken
@@ -173,11 +173,11 @@ public class DRTalentTree : DataRowBase
         Layer = DataTableParseUtil.ParseInt(columnStrings[index++]);
         LvLimit = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        ResetCost = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UpgradeEXP = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         UpgradeRequireTreeLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PreNode = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        ResetCost = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UpgradeToken = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
@@ -200,11 +200,11 @@ public class DRTalentTree : DataRowBase
                 Layer = binaryReader.Read7BitEncodedInt32();
                 LvLimit = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
+                ResetCost = binaryReader.Read7BitEncodedInt32();
                 Type = binaryReader.Read7BitEncodedInt32();
                 UpgradeEXP = binaryReader.ReadArray<Int32>();
                 UpgradeRequireTreeLv = binaryReader.Read7BitEncodedInt32();
                 PreNode = binaryReader.ReadArray<Int32>();
-                ResetCost = binaryReader.Read7BitEncodedInt32();
                 UpgradeToken = binaryReader.ReadArray<Int32>();
             }
         }
