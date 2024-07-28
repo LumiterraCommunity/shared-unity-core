@@ -1,74 +1,74 @@
 defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,type-int,valueType-int,icon-string
-0,CollectionLv,1,0,CollectionLv,3,1,1,
-0,CombatLv,2,0,CombatLv,2,1,1,
-0,FarmingLv,3,0,FarmingLv,1,1,1,
-10,CollectionExp,4,0,CollectionExp,3,1,1,
-10,CombatExp,5,0,CombatExp,2,1,1,
-10,FarmingExp,6,0,FarmingExp,1,1,1,
-500,MoveSpd,7,0,MoveSpd,2,1,1,
-0,HomeExtraMoveSpd,8,0,HomeExtraMoveSpd,1,1,1,
-0,GearAvailableLv,9,0,GearAvailableLv,0,1,1,
-750,HP,10,1,HP,2,2,1,attribute-icon-10
-750,MaxHP,11,1,MaxHP,2,2,1,attribute-icon-11
-10,HpRecovery,12,0,HpRecovery,2,2,1,
-200,CombatAtt,13,1,CombatAtt,2,2,1,attribute-icon-13
-0,CombatAttSpd,14,0,CombatAttSpd,2,2,2,
-150,CombatDef,15,1,CombatDef,2,2,1,attribute-icon-15
-100,CombatHit,16,0,CombatHit,2,2,1,
-100,CombatDodge,17,0,CombatDodge,2,2,1,
-0,CombatVulnerable,18,0,CombatVulnerable,2,2,2,
-30,CombatCritRate,19,0,CombatCritRate,2,2,2,
-500,CombatCritDmg,20,0,CombatCritDmg,2,2,2,
-0,CombatDmgBonus,21,0,CombatDmgBonus,2,2,2,
-200,TreeAtt,22,1,TreeAtt,3,3,1,attribute-icon-22
-0,AxeSpd,23,0,AxeSpd,3,3,2,
-30,TreeCritRate,24,0,TreeCritRate,3,3,2,
-500,TreeCritDmg,25,0,TreeCritDmg,3,3,2,
-0,TreeDmgBonus,26,0,TreeDmgBonus,3,3,2,
-0,ExtraWoodRate,27,0,ExtraWoodRate,3,3,2,
-1,TreeAvailableLv,28,0,TreeAvailableLv,3,3,1,
-200,OreAtt,29,1,OreAtt,3,4,1,attribute-icon-29
-0,PickaxeSpd,30,0,PickaxeSpd,3,4,2,
-30,OreCritRate,31,0,OreCritRate,3,4,2,
-500,OreCritDmg,32,0,OreCritDmg,3,4,2,
-0,OreDmgBonus,33,0,OreDmgBonus,3,4,2,
-0,ExtraOreRate,34,0,ExtraOreRate,3,4,2,
-1,OreAvailableLv,35,0,OreAvailableLv,3,4,1,
-30,HoeingEffect,36,0,HoeingEffect,1,5,1,
-0,HoeSpd,37,0,HoeSpd,1,5,2,
-30,WateringEffect,38,0,WateringEffect,1,6,1,
-0,ExtraWateringRate,39,0,ExtraWateringRate,1,6,2,
-0,ExtraHarvestRate,40,0,ExtraHarvestRate,1,7,2,
-0,HarvestSeedRate,41,0,HarvestSeedRate,1,7,2,
-1,CropAvailableLv,42,0,CropAvailableLv,1,7,1,
-90,FertilityCapacity,43,1,FertilityCapacity,1,1,1,attribute-icon-43
-4000,MaxFertility,44,1,MaxFertility,1,1,1,attribute-icon-44
-90,PetHappinessCapacity,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
-1000,MaxPetHappiness,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
-270,PlantingProficiency,49,1,PlantingProficiency,1,1,1,attribute-icon-49
-270,BreedingProficiency,50,1,BreedingProficiency,1,1,1,attribute-icon-50
-200,GrassAtt,51,1,GrassAtt,3,1,1,attribute-icon-51
-0,SickleSpd,52,0,SickleSpd,3,1,2,
-50,GrassCritRate,53,0,GrassCritRate,3,1,2,
-200,GrassProficiency,54,1,GrassProficiency,3,1,1,attribute-icon-54
-200,TreeProficiency,55,1,TreeProficiency,3,1,1,attribute-icon-55
-200,OreProficiency,56,1,OreProficiency,3,1,1,attribute-icon-56
-500,GrassCritDmg,58,0,GrassCritDmg,3,1,2,
-0,GrassDmgBonus,59,0,GrassDmgBonus,3,1,2,
-150,GrassDef,60,0,GrassDef,3,1,1,
-150,TreeDef,61,0,TreeDef,3,1,1,
-150,OreDef,62,0,OreDef,3,1,1,
-300,RequiredProficiency,63,0,RequiredProficiency,3,1,1,
-150000,Energy,64,1,Energy,2,1,3,attribute-icon-64
-150000,MaxEnergy,65,1,MaxEnergy,2,1,3,attribute-icon-65
-0,CombatPotentiality,66,0,CombatPotentiality,2,1,3,
-0,GatherPotentiality,67,0,GatherPotentiality,3,1,3,
-0,FarmPotentiality,68,0,FarmPotentiality,1,1,3,
-0,ExtraGrassRate,69,0,ExtraGrassRate,3,1,2,
-0,NeedWaterValue,71,0,NeedWaterValue,1,1,1,
-0,RequiredFertilizer,72,0,RequiredFertilizer,1,1,1,
-0,RequirementProficiency,73,0,RequirementProficiency,1,1,1,
-0,PlantingDifficulty,74,0,PlantingDifficulty,1,1,1,
-0,WitherTime,75,0,WitherTime,1,1,1,
-0,MaxActionValue,76,0,MaxActionValue,3,1,1,
-0,RequiredBreedingProficiency,77,0,RequiredBreedingProficiency,1,1,1,
+0,수집 레벨,1,0,CollectionLv,3,1,1,
+0, 전투 레벨,2,0,CombatLv,2,1,1,
+0, 농사 레벨,3,0,FarmingLv,1,1,1,
+10, 수집 경험치,4,0,CollectionExp,3,1,1,
+10, 전투 경험치,5,0,CombatExp,2,1,1,
+10, 농사 경험치,6,0,FarmingExp,1,1,1,
+500, 이동 속도,7,0,MoveSpd,2,1,1,
+0, 집 추가 이동 속도,8,0,HomeExtraMoveSpd,1,1,1,
+0, 장비 사용 가능 레벨,9,0,GearAvailableLv,0,1,1,
+750, 체력,10,1,HP,2,2,1,attribute-icon-10
+750, 최대 체력,11,1,MaxHP,2,2,1,attribute-icon-11
+10, 체력 회복,12,0,HpRecovery,2,2,1,
+200, 전투 공격력,13,1,CombatAtt,2,2,1,attribute-icon-13
+0, 전투 공격 속도,14,0,CombatAttSpd,2,2,2,
+150, 전투 방어력,15,1,CombatDef,2,2,1,attribute-icon-15
+100, 전투 명중률,16,0,CombatHit,2,2,1,
+100, 전투 회피율,17,0,CombatDodge,2,2,1,
+0, 전투 취약도,18,0,CombatVulnerable,2,2,2,
+30, 전투 치명타 확률,19,0,CombatCritRate,2,2,2,
+500, 전투 치명타 피해,20,0,CombatCritDmg,2,2,2,
+0, 전투 추가 피해,21,0,CombatDmgBonus,2,2,2,
+200, 나무 공격력,22,1,TreeAtt,3,3,1,attribute-icon-22
+0, 도끼 속도,23,0,AxeSpd,3,3,2,
+30, 나무 치명타 확률,24,0,TreeCritRate,3,3,2,
+500, 나무 치명타 피해,25,0,TreeCritDmg,3,3,2,
+0, 나무 추가 피해,26,0,TreeDmgBonus,3,3,2,
+0, 추가 나무 획득률,27,0,ExtraWoodRate,3,3,2,
+1, 나무 사용 가능 레벨,28,0,TreeAvailableLv,3,3,1,
+200, 광물 공격력,29,1,OreAtt,3,4,1,attribute-icon-29
+0, 곡괭이 속도,30,0,PickaxeSpd,3,4,2,
+30, 광물 치명타 확률,31,0,OreCritRate,3,4,2,
+500, 광물 치명타 피해,32,0,OreCritDmg,3,4,2,
+0, 광물 추가 피해,33,0,OreDmgBonus,3,4,2,
+0, 추가 광물 획득률,34,0,ExtraOreRate,3,4,2,
+1, 광물 사용 가능 레벨,35,0,OreAvailableLv,3,4,1,
+30, 갈아넣기 효과,36,0,HoeingEffect,1,5,1,
+0, 갈아넣기 속도,37,0,HoeSpd,1,5,2,
+30, 물 주기 효과,38,0,WateringEffect,1,6,1,
+0, 추가 물 주기 효율,39,0,ExtraWateringRate,1,6,2,
+0, 추가 수확 효율,40,0,ExtraHarvestRate,1,7,2,
+0, 수확 씨앗 확률,41,0,HarvestSeedRate,1,7,2,
+1, 작물 사용 가능 레벨,42,0,CropAvailableLv,1,7,1,
+90, 비옥도 용량,43,1,FertilityCapacity,1,1,1,attribute-icon-43
+4000, 최대 비옥도,44,1,MaxFertility,1,1,1,attribute-icon-44
+90, 애완동물 행복도 용량,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
+1000, 최대 애완동물 행복도,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
+270, 심기 숙련도,49,1,PlantingProficiency,1,1,1,attribute-icon-49
+270, 번식 숙련도,50,1,BreedingProficiency,1,1,1,attribute-icon-50
+200, 풀 공격력,51,1,GrassAtt,3,1,1,attribute-icon-51
+0, 낫 속도,52,0,SickleSpd,3,1,2,
+50,풀 치명타 확률,53,0,GrassCritRate,3,1,2,
+200, 풀 숙련도,54,1,GrassProficiency,3,1,1,attribute-icon-54
+200, 나무 숙련도,55,1,TreeProficiency,3,1,1,attribute-icon-55
+200, 광물 숙련도,56,1,OreProficiency,3,1,1,attribute-icon-56
+500, 풀 치명타 피해,58,0,GrassCritDmg,3,1,2,
+0, 풀 추가 피해,59,0,GrassDmgBonus,3,1,2,
+150, 풀 방어력,60,0,GrassDef,3,1,1,
+150, 나무 방어력,61,0,TreeDef,3,1,1,
+150, 광물 방어력,62,0,OreDef,3,1,1,
+300, 필요 숙련도,63,0,RequiredProficiency,3,1,1,
+150000, 에너지,64,1,Energy,2,1,3,attribute-icon-64
+150000, 최대 에너지,65,1,MaxEnergy,2,1,3,attribute-icon-65
+0, 전투 잠재력,66,0,CombatPotentiality,2,1,3,
+0, 채집 잠재력,67,0,GatherPotentiality,3,1,3,
+0, 농사 잠재력,68,0,FarmPotentiality,1,1,3,
+0, 추가 풀 획득률,69,0,ExtraGrassRate,3,1,2,
+0, 필요한 물 양,71,0,NeedWaterValue,1,1,1,
+0, 필요한 비료,72,0,RequiredFertilizer,1,1,1,
+0, 필요한 숙련도,73,0,RequirementProficiency,1,1,1,
+0, 심기 난이도,74,0,PlantingDifficulty,1,1,1,
+0, 시든 시간,75,0,WitherTime,1,1,1,
+0, 최대 행동력,76,0,MaxActionValue,3,1,1,
+0, 필요한 번식 숙련도,77,0,RequiredBreedingProficiency,1,1,1,

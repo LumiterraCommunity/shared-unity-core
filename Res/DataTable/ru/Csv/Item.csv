@@ -708,7 +708,7 @@ Combo Miss",357,item-icon-237,237, Комбо Промах,0,1,,1,0,3,999,0,3,0,
 "792,1","1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
-DeBuff Clear",358,item-icon-238,238, Очистка Баффа,0,1,,1,0,3,999,0,3,0,1
+DeBuff Clear",0,item-icon-238,238, Очистка Баффа,0,1,,1,0,3,999,0,3,0,1
 "792,1",4,1,"There is a chance to obtain when synthesizing equipment.
 Fashionable appearance without attributes
 -------
@@ -2627,12 +2627,12 @@ It can be used to craft equipment or items.
 "800,1",0,1,Proof of completion of novice tasks,0,item-icon-846,846, Медаль Новичка - Бой,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1,Proof of completion of novice tasks,0,item-icon-847,847, Медаль Новичка - Сбор,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1,Proof of completion of novice tasks,0,item-icon-848,848, Медаль Новичка - Ферма,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,Suggest wearing as fashion,0,item-icon-849,849, Костюм · Красные волосы,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,Suggest wearing as fashion,0,item-icon-850,850, Костюм · Фиолетовые волосы,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,Suggest wearing as fashion,0,item-icon-851,851, Костюм · Изумрудный,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,Suggest wearing as fashion,0,item-icon-852,852, Костюм · Цветная корона,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,Suggest wearing as fashion,0,item-icon-853,853, Костюм · JJ Lin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,Suggest wearing as fashion,0,item-icon-854,854, Костюм · Голова курицы,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-849,849,Парик-костюм · Покоритель Лавы,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-850,850, Парик-костюм · Покоритель Пустоты,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-851,851, Парик-костюм · Древний Покоритель,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-852,852, Парик-костюм · Сияющий Рыцарь,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-853,853, Парик-костюм · Морозный Воин,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-854,854, Костюм · Голова Курицы,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,Suggest wearing as fashion,0,item-icon-855,855, Костюм · Современный воин,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,Suggest wearing as fashion,0,item-icon-856,856, Костюм · Модный крестный отец,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,Suggest wearing as fashion,0,item-icon-857,857, Костюм · Капитан Ронин,0,5,,1,0,,999,0,1,0,1
@@ -2651,3 +2651,31 @@ It can be used to craft equipment or items.
 "792,1",0,1,Suggest wearing as fashion,0,item-icon-870,870, Костюм · Акула,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,Suggest wearing as fashion,0,item-icon-871,871, Костюм · Поршень,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,Suggest wearing as fashion,0,item-icon-872,872, Костюм · Фен,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-873,873, Плащ-костюм · Покоритель Лавы,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-874,874, Брюки-костюм · Покоритель Лавы,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-875,875, Перчатки-костюм · Покоритель Лавы,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-876,876, Обувь-костюм · Покоритель Лавы,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-877,877, Плащ-костюм · Покоритель Пустоты,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-878,878, Брюки-костюм · Покоритель Пустоты,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-879,879, Перчатки-костюм · Покоритель Пустоты,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-880,880, Обувь-костюм · Покоритель Пустоты,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-881,881, Плащ-костюм · Древний Покоритель,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-882,882, Брюки-костюм · Древний Покоритель,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-883,883, Перчатки-костюм · Древний Покоритель,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-884,884, Обувь-костюм · Древний Покоритель,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-885,885, Плащ-костюм · Сияющий Рыцарь,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-886,886, Брюки-костюм · Сияющий Рыцарь,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-887,887, Перчатки-костюм · Сияющий Рыцарь,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-888,888, Обувь-костюм · Сияющий Рыцарь,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-889,889, Плащ-костюм · Морозный Воин,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-890,890, Брюки-костюм · Морозный Воин,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-891,891, Перчатки-костюм · Морозный Воин,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1,Suggest wearing as fashion,0,item-icon-892,892, Обувь-костюм · Морозный Воин,0,5,,1,0,,999,0,1,0,1
+-,0,1,,0,item-icon-893,893, Рыбья Кость,0,1,,0,0,,999,0,4,0,1
+-,0,1,"Eww..
+Smelly can.",0,item-icon-894,894, Открытая Консерва,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-895,895, Проросшая Бобовая Фасоль,0,1,,0,0,,999,0,4,0,1
+-,0,1,"Plz, bring the dinosour back.",0,item-icon-896,896, Яйцо Динозавра,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-897,897, Соевые Бобы,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-898,898, Шестеренки,0,1,,0,0,,999,0,4,0,1
+-,0,1,,0,item-icon-899,899,Свиток,0,1,,0,0,,999,0,4,0,1
