@@ -328,7 +328,7 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 4," Combate MaxHP +20
 ",277,1,talentTree-144,144,0,8,1, Combate - Salud ,0,2,11200,0,136,3500
 -1,"Después de un breve período de acumulación de energía, libera la energía interna, causando un daño sostenido alto a los enemigos dentro de un rango determinado. Durante la liberación de la habilidad, permanece en un estado de incapacidad para golpear.
-",432,0,talentTree-149,149,0,9,1,,0,2,24436,0,140,4000
+",432,0,talentTree-149,149,0,9,1,Inspirar,0,2,24436,0,140,4000
 2," Combate ATK +5
 ",272,1,talentTree-150,150,0,9,1, Combate - Poder de Ataque ,0,2,24436,0,142,4000
 1,"El ataque del arma deja heridas, infligiendo un daño de ataque del 1%/2%/3% cada 0.5 segundos durante 5 segundos, y se puede acumular hasta 5 capas
@@ -489,7 +489,7 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 -3,"Desbloquear Recetas de Esencia de Plantación Nivel 9
 ",637,2,talentTree-284,284,0,9,1,Recetas de esencia de plantación (Aún no abierto),0,1,26880,0,281,8750
 -2,"Desbloquear Recetas de Esencia de Ganadería Nivel 9
-",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,282,8750
+",634,2,talentTree-285,285,0,9,1, Recetas de Esencia de Ganadería,0,1,26880,0,282,8750
 -5,"Desbloquear recetas de conjunto de equipo de nivel 7, desbloquear recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, (Aún no disponible),0,2,"5169,5169,5169",0,260,"12500,12500,12500"
 -4,"Desbloquear Recetas de Esencia Nivel 7
 ",626,2,talentTree-287,287,0,7,1, (Aún no disponible),0,2,5169,0,261,12500
@@ -505,9 +505,9 @@ Desbloquear Recetas de Energía","89,622#613,10000","1,2,3",talentTree-32,32,1,9
 -3,"Desbloquea recetas de conjuntos de equipo de nivel 8, desbloquea recetas de recasting y recetas de fragmentos al alcanzar el nivel máximo.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3,(Aún no abierto),0,3,"16800,16800,16800",0,292,"15000,15000,15000"
 -2,"Desbloquear Recetas de Esencia Nivel 8
 ",630,2,talentTree-295,295,0,8,1,(Aún no abierto),0,3,16800,0,293,15000
--3," Desbloquear Recetas de Conjunto de Equipamiento de Nivel 9, desbloquear recetas de Recasting y recetas de fabricación de fragmentos al alcanzar el nivel máximo.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
+-3," Desbloquear Recetas de Conjunto de Equipamiento de Nivel 9, desbloquear recetas de Recasting y recetas de fabricación de fragmentos al alcanzar el nivel máximo.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3, Recetas de Conjunto de Recolecta,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
 -2,"Desbloquear Recetas de Esencia Nivel 9
-",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,295,17500
--1,Aumenta la velocidad de movimiento propia y de los aliados durante 10 segundos.,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,169,3000
-4,Aumenta tu velocidad de movimiento en un 20% durante 30 segundos,541,0,talentTree-299,299,0,3,1,,0,3,525,0,,0
-4,Inflige un poderoso efecto de repulsión al enemigo frente a ti,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,299,2500
+",631,2,talentTree-297,297,0,9,1, Recetas de Esencia de Recolecta,0,3,33600,0,295,17500
+-1,Aumenta la velocidad de movimiento propia y de los aliados durante 10 segundos.,460,0,talentTree-298,298,0,7,1, Dar cuerda,0,1,6720,0,169,3000
+4,Aumenta tu velocidad de movimiento en un 20% durante 30 segundos,541,0,talentTree-299,299,0,3,1, Método de reflujo,0,3,525,0,,0
+4,Inflige un poderoso efecto de repulsión al enemigo frente a ti,540,0,talentTree-300,300,0,6,1, Repeler,0,3,4200,0,299,2500

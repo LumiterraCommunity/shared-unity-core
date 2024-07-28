@@ -337,7 +337,7 @@ Buka Resipi Tenaga","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Kumpulkan 
 4," HP Maksimum Tempur +20
 ",277,1,talentTree-144,144,0,8,1,Pertempuran - HP,0,2,11200,0,136,3500
 -1," Selepas jangka masa pendek pengumpulan tenaga, bebaskan tenaga di dalam badan, menyebabkan kerosakan tinggi yang berterusan kepada musuh dalam julat tertentu. Semasa pelepasan kemahiran, kekal dalam keadaan tidak dapat mengenai.
-",432,0,talentTree-149,149,0,9,1,,0,2,24436,0,140,4000
+",432,0,talentTree-149,149,0,9,1,Menginspirasi,0,2,24436,0,140,4000
 2," Serangan Tempur +5
 ",272,1,talentTree-150,150,0,9,1,Pertanian - Kemahiran mengumpul,0,2,24436,0,142,4000
 1," Serangan senjata meninggalkan luka, memberikan kerosakan serangan sebanyak 1%/2%/3% setiap 0.5 saat selama 5 saat, dan boleh bertindak sehingga 5 lapisan.
@@ -514,7 +514,7 @@ Buka Resipi Tenaga","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Kumpulkan 
 -3,"Buka Resipi Intipati Penanaman Tahap 9
 ",637,2,talentTree-284,284,0,9,1,Resipi Pati Tanaman (Belum dibuka),0,1,26880,0,281,8750
 -2,"Buka Resipi Intipati Penternakan Tahap 9
-",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,282,8750
+",634,2,talentTree-285,285,0,9,1, Resipi Pati Ternakan,0,1,26880,0,282,8750
 -5," Buka Resipi Set Peralatan LV 7, buka resipi pengecoran semula dan resipi pembuatan fragmen apabila mencapai tahap maksimum. ",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, (Belum dibuka),0,2,"5169,5169,5169",0,260,"12500,12500,12500"
 -4," Buka Resipi Intipati Tahap 7
 ",626,2,talentTree-287,287,0,7,1, (Belum dibuka),0,2,5169,0,261,12500
@@ -530,9 +530,9 @@ Buka Resipi Tenaga","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Kumpulkan 
 -3," Buka Resipi Set Peralatan LV 8, buka resipi Pemprosesan semula dan resipi kraf fragmen apabila mencapai tahap maksimum.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3,(Belum dibuka),0,3,"16800,16800,16800",0,292,"15000,15000,15000"
 -2,"Buka Resipi Intipati Tahap 8
 ",630,2,talentTree-295,295,0,8,1,(Belum dibuka),0,3,16800,0,293,15000
--3,"Buka Resipi Set Peralatan LV 9, buka resipi pengecoran semula dan resipi pembuatan fragmen apabila mencapai tahap maksimum.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
+-3,"Buka Resipi Set Peralatan LV 9, buka resipi pengecoran semula dan resipi pembuatan fragmen apabila mencapai tahap maksimum.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3, Resipi Set Pengumpulan,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
 -2,"Buka Resipi Intipati Tahap 9
-",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,295,17500
--1, Meningkatkan kelajuan pergerakan diri sendiri dan sekutu selama 10 saat,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,169,3000
-4, Tingkatkan kelajuan pergerakan anda sebanyak 20% selama 30 saat,541,0,talentTree-299,299,0,3,1,,0,3,525,0,,0
-4, Memberikan kesan tolakan yang kuat kepada musuh di hadapan anda,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,299,2500
+",631,2,talentTree-297,297,0,9,1, Resipi Intipati Pengumpulan,0,3,33600,0,295,17500
+-1, Meningkatkan kelajuan pergerakan diri sendiri dan sekutu selama 10 saat,460,0,talentTree-298,298,0,7,1, Membalikkan,0,1,6720,0,169,3000
+4, Tingkatkan kelajuan pergerakan anda sebanyak 20% selama 30 saat,541,0,talentTree-299,299,0,3,1, Kaedah Mengalirkan Semula,0,3,525,0,,0
+4, Memberikan kesan tolakan yang kuat kepada musuh di hadapan anda,540,0,talentTree-300,300,0,6,1, Menolak balik,0,3,4200,0,299,2500

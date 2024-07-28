@@ -295,13 +295,13 @@ Mở khóa công thức năng lượng","89,622#613,10000","1,2,3",talentTree-32
 -3,"Giảm tốc độ di chuyển của kẻ địch.
 ",335,1,talentTree-122,122,0,6,1,Sự đạp nát chiến tranh - Tăng cường,0,2,2584,0,71,2500
 -2,"Giảm tốc độ di chuyển của kẻ địch.
-",338,1,talentTree-123,123,0,6,1,,0,2,2584,0,57,2500
+",338,1,talentTree-123,123,0,6,1,Trốn thoát - Nâng cao,0,2,2584,0,57,2500
 1,"Tăng sát thương chí mạng lên quái vật 10/20/30%.
 ",113;114;115,1,talentTree-124,124,0,6,3,Chuyên gia,0,2,"2584,2584,2584",0,118,"2500,2500,2500"
 -1,"Ném bom và gây sát thương cao cho kẻ địch trong phạm vi vụ nổ
-",487,0,talentTree-125,125,0,6,1,,0,2,2584,0,119,2500
+",487,0,talentTree-125,125,0,6,1, Nghệ thuật nổ,0,2,2584,0,119,2500
 -3,"Đánh bại một khu vực lớn của kẻ địch phía trước bạn và gây choáng tạm thời
-",459,0,talentTree-127,127,0,7,1,,0,2,5169,0,122,3000
+",459,0,talentTree-127,127,0,7,1, Quét sạch,0,2,5169,0,122,3000
 -2, Giảm tốc độ di chuyển của kẻ địch,339,1,talentTree-128,128,0,7,1, Nâng cấp - Trốn thoát ,0,2,5169,0,123,3000
 -1, Giảm tốc độ di chuyển của kẻ địch,342,1,talentTree-129,129,0,7,1, Nâng cấp - Nghệ thuật nổ ,0,2,5169,0,125,3000
 1, Tăng tốc độ tấn công lên 10/20/30%,131;132;133,1,talentTree-130,130,0,7,3,Chuyên gia,0,2,"5169,5169,5169",0,124,"3000,3000,3000"
@@ -328,7 +328,7 @@ Mở khóa công thức năng lượng","89,622#613,10000","1,2,3",talentTree-32
 4," Chiến đấu MaxHP +20
 ",277,1,talentTree-144,144,0,8,1,Chiến đấu - Sức khỏe,0,2,11200,0,136,3500
 -1,"Sau một thời gian ngắn tích lũy năng lượng, phóng năng lượng bên trong cơ thể, gây sát thương cao liên tục cho kẻ địch trong một khoảng cách nhất định. Trong quá trình phát hành kỹ năng, vẫn ở trạng thái không thể đánh trúng.
-",432,0,talentTree-149,149,0,9,1,,0,2,24436,0,140,4000
+",432,0,talentTree-149,149,0,9,1, Truyền cảm hứng,0,2,24436,0,140,4000
 2," Chiến đấu ATK +5
 ",272,1,talentTree-150,150,0,9,1,Chiến đấu - Sức mạnh tấn công,0,2,24436,0,142,4000
 1," Vũ khí tấn công để lại vết thương, gây 1%/2%/3% sát thương tấn công mỗi 0.5 giây trong 5 giây, và có thể chồng lên đến 5 lớp",172;173;174,1,talentTree-151,151,0,9,3,Chuyên gia,0,2,"24436,24436,24436",0,141,"4000,4000,4000"
@@ -473,7 +473,7 @@ Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp -
 ",336,2,talentTree-275,275,0,6,1, Công thức Tinh chất Trồng trọt,0,1,3360,0,272,5000
 -2,"Mở khóa công thức tinh chất Lv 6
 ",339,2,talentTree-276,276,0,6,1, Công thức Tinh chất Chăn nuôi Nông nghiệp,0,1,3360,0,273,5000
--4," Mở khóa công thức bộ trang bị LV 7, mở khóa công thức tái tạo và công thức chế tạo mảnh khi đạt đến cấp độ tối đa.",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098,2,talentTree-277,277,0,7,3,,0,1,"6720,6720,6720",0,274,"12500,12500,12500"
+-4," Mở khóa công thức bộ trang bị LV 7, mở khóa công thức tái tạo và công thức chế tạo mảnh khi đạt đến cấp độ tối đa.",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098,2,talentTree-277,277,0,7,3, Công thức Bộ Trang trại,0,1,"6720,6720,6720",0,274,"12500,12500,12500"
 -3," Mở khóa công thức trồng trọt tinh chất Lv 7
 ",632,2,talentTree-278,278,0,7,1, Công thức Tinh chất Trồng trọt (Chưa mở) ,0,1,6720,0,275,6250
 -2," Mở khóa công thức chăn nuôi tinh chất Lv 7
@@ -487,10 +487,10 @@ Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp -
 -3," Mở khóa công thức Tinh chất Trồng trọt Lv 9
 ",637,2,talentTree-284,284,0,9,1,Công thức Tinh chất trồng trọt(Chưa mở),0,1,26880,0,281,8750
 -2," Mở khóa công thức Tinh chất Chăn nuôi Lv 9
-",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,282,8750
--5," Mở khóa công thức bộ trang bị LV 7, mở khóa công thức tái tạo và công thức chế tạo mảnh khi đạt đến cấp độ tối đa.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3,,0,2,"5169,5169,5169",0,260,"12500,12500,12500"
+",634,2,talentTree-285,285,0,9,1, Công thức Tinh chất Chăn nuôi,0,1,26880,0,282,8750
+-5," Mở khóa công thức bộ trang bị LV 7, mở khóa công thức tái tạo và công thức chế tạo mảnh khi đạt đến cấp độ tối đa.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, Công thức Bộ Trang trại,0,2,"5169,5169,5169",0,260,"12500,12500,12500"
 -4," Mở khóa công thức tinh chất Lv 7
-",626,2,talentTree-287,287,0,7,1,,0,2,5169,0,261,12500
+",626,2,talentTree-287,287,0,7,1, Công thức Bộ Trang bị Chiến đấu,0,2,5169,0,261,12500
 -5,"Mở khóa công thức bộ trang bị cấp 8, mở khóa công thức tái tạo và công thức chế tạo mảnh khi đạt cấp độ tối đa.",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1099#1100#1101#1102#1103#1104#1105#1106,2,talentTree-288,288,0,8,3, (Chưa mở) ,0,2,"11200,11200,11200",0,286,"15000,15000,15000"
 -4," Mở khóa công thức Tinh chất Lv 8
 ",627,2,talentTree-289,289,0,8,1, (Chưa mở) ,0,2,11200,0,287,15000
@@ -503,9 +503,9 @@ Tăng trình độ nhặt cỏ +++",302,1,talentTree-220,220,0,9,1,Tập Hợp -
 -3,"Mở khóa công thức bộ trang bị cấp 8, mở khóa công thức tái tạo và công thức chế tạo mảnh khi đạt cấp độ tối đa.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3,(Chưa mở) ,0,3,"16800,16800,16800",0,292,"15000,15000,15000"
 -2," Mở khóa công thức Tinh chất Lv 8
 ",630,2,talentTree-295,295,0,8,1,(Chưa mở) ,0,3,16800,0,293,15000
--3,"Mở khóa công thức bộ trang bị cấp 9, mở khóa công thức tái chế và công thức chế tạo mảnh khi đạt đến cấp độ tối đa.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
+-3,"Mở khóa công thức bộ trang bị cấp 9, mở khóa công thức tái chế và công thức chế tạo mảnh khi đạt đến cấp độ tối đa.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3, Công thức Tinh chất Thu thập,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
 -2," Mở khóa công thức Tinh chất Lv 9
-",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,295,17500
--1,Tăng tốc độ di chuyển cho bản thân và đồng đội trong 10 giây,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,169,3000
-4, Increase your movement speed by 20% for 30 seconds: Tăng tốc độ di chuyển của bạn lên 20% trong 30 giây,541,0,talentTree-299,299,0,3,1,,0,3,525,0,,0
-4,Gây hiệu ứng đẩy mạnh mạnh mẽ lên kẻ địch phía trước bạn,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,299,2500
+",631,2,talentTree-297,297,0,9,1, Công thức Bộ Trang bị Thu thập,0,3,33600,0,295,17500
+-1,Tăng tốc độ di chuyển cho bản thân và đồng đội trong 10 giây,460,0,talentTree-298,298,0,7,1, Công thức Tinh chất Thu thập,0,1,6720,0,169,3000
+4, Increase your movement speed by 20% for 30 seconds: Tăng tốc độ di chuyển của bạn lên 20% trong 30 giây,541,0,talentTree-299,299,0,3,1, Kết thúc,0,3,525,0,,0
+4,Gây hiệu ứng đẩy mạnh mạnh mẽ lên kẻ địch phía trước bạn,540,0,talentTree-300,300,0,6,1, Phương pháp Reflow,0,3,4200,0,299,2500

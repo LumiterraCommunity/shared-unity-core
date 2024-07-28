@@ -1,74 +1,74 @@
 defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,type-int,valueType-int,icon-string
-0,CollectionLv,1,0,CollectionLv,3,1,1,
-0,CombatLv,2,0,CombatLv,2,1,1,
-0,FarmingLv,3,0,FarmingLv,1,1,1,
-10,CollectionExp,4,0,CollectionExp,3,1,1,
-10,CombatExp,5,0,CombatExp,2,1,1,
-10,FarmingExp,6,0,FarmingExp,1,1,1,
-500,MoveSpd,7,0,MoveSpd,2,1,1,
-0,HomeExtraMoveSpd,8,0,HomeExtraMoveSpd,1,1,1,
-0,GearAvailableLv,9,0,GearAvailableLv,0,1,1,
-750,HP,10,1,HP,2,2,1,attribute-icon-10
-750,MaxHP,11,1,MaxHP,2,2,1,attribute-icon-11
-10,HpRecovery,12,0,HpRecovery,2,2,1,
-200,CombatAtt,13,1,CombatAtt,2,2,1,attribute-icon-13
-0,CombatAttSpd,14,0,CombatAttSpd,2,2,2,
-150,CombatDef,15,1,CombatDef,2,2,1,attribute-icon-15
-100,CombatHit,16,0,CombatHit,2,2,1,
-100,CombatDodge,17,0,CombatDodge,2,2,1,
-0,CombatVulnerable,18,0,CombatVulnerable,2,2,2,
-30,CombatCritRate,19,0,CombatCritRate,2,2,2,
-500,CombatCritDmg,20,0,CombatCritDmg,2,2,2,
-0,CombatDmgBonus,21,0,CombatDmgBonus,2,2,2,
-200,TreeAtt,22,1,TreeAtt,3,3,1,attribute-icon-22
-0,AxeSpd,23,0,AxeSpd,3,3,2,
-30,TreeCritRate,24,0,TreeCritRate,3,3,2,
-500,TreeCritDmg,25,0,TreeCritDmg,3,3,2,
-0,TreeDmgBonus,26,0,TreeDmgBonus,3,3,2,
-0,ExtraWoodRate,27,0,ExtraWoodRate,3,3,2,
-1,TreeAvailableLv,28,0,TreeAvailableLv,3,3,1,
-200,OreAtt,29,1,OreAtt,3,4,1,attribute-icon-29
-0,PickaxeSpd,30,0,PickaxeSpd,3,4,2,
-30,OreCritRate,31,0,OreCritRate,3,4,2,
-500,OreCritDmg,32,0,OreCritDmg,3,4,2,
-0,OreDmgBonus,33,0,OreDmgBonus,3,4,2,
-0,ExtraOreRate,34,0,ExtraOreRate,3,4,2,
-1,OreAvailableLv,35,0,OreAvailableLv,3,4,1,
-30,HoeingEffect,36,0,HoeingEffect,1,5,1,
-0,HoeSpd,37,0,HoeSpd,1,5,2,
-30,WateringEffect,38,0,WateringEffect,1,6,1,
-0,ExtraWateringRate,39,0,ExtraWateringRate,1,6,2,
-0,ExtraHarvestRate,40,0,ExtraHarvestRate,1,7,2,
-0,HarvestSeedRate,41,0,HarvestSeedRate,1,7,2,
-1,CropAvailableLv,42,0,CropAvailableLv,1,7,1,
-90,FertilityCapacity,43,1,FertilityCapacity,1,1,1,attribute-icon-43
-4000,MaxFertility,44,1,MaxFertility,1,1,1,attribute-icon-44
-90,PetHappinessCapacity,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
-1000,MaxPetHappiness,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
-270,PlantingProficiency,49,1,PlantingProficiency,1,1,1,attribute-icon-49
-270,BreedingProficiency,50,1,BreedingProficiency,1,1,1,attribute-icon-50
-200,GrassAtt,51,1,GrassAtt,3,1,1,attribute-icon-51
-0,SickleSpd,52,0,SickleSpd,3,1,2,
-50,GrassCritRate,53,0,GrassCritRate,3,1,2,
-200,GrassProficiency,54,1,GrassProficiency,3,1,1,attribute-icon-54
-200,TreeProficiency,55,1,TreeProficiency,3,1,1,attribute-icon-55
-200,OreProficiency,56,1,OreProficiency,3,1,1,attribute-icon-56
-500,GrassCritDmg,58,0,GrassCritDmg,3,1,2,
-0,GrassDmgBonus,59,0,GrassDmgBonus,3,1,2,
-150,GrassDef,60,0,GrassDef,3,1,1,
-150,TreeDef,61,0,TreeDef,3,1,1,
-150,OreDef,62,0,OreDef,3,1,1,
-300,RequiredProficiency,63,0,RequiredProficiency,3,1,1,
-150000,Energy,64,1,Energy,2,1,3,attribute-icon-64
-150000,MaxEnergy,65,1,MaxEnergy,2,1,3,attribute-icon-65
-0,CombatPotentiality,66,0,CombatPotentiality,2,1,3,
-0,GatherPotentiality,67,0,GatherPotentiality,3,1,3,
-0,FarmPotentiality,68,0,FarmPotentiality,1,1,3,
-0,ExtraGrassRate,69,0,ExtraGrassRate,3,1,2,
-0,NeedWaterValue,71,0,NeedWaterValue,1,1,1,
-0,RequiredFertilizer,72,0,RequiredFertilizer,1,1,1,
-0,RequirementProficiency,73,0,RequirementProficiency,1,1,1,
-0,PlantingDifficulty,74,0,PlantingDifficulty,1,1,1,
-0,WitherTime,75,0,WitherTime,1,1,1,
-0,MaxActionValue,76,0,MaxActionValue,3,1,1,
-0,RequiredBreedingProficiency,77,0,RequiredBreedingProficiency,1,1,1,
+0,Уровень Коллекции,1,0,CollectionLv,3,1,1,
+0, Уровень Боя,2,0,CombatLv,2,1,1,
+0, Уровень Фермерства,3,0,FarmingLv,1,1,1,
+10, Опыт Коллекции,4,0,CollectionExp,3,1,1,
+10, Опыт Боя,5,0,CombatExp,2,1,1,
+10, Опыт Фермерства,6,0,FarmingExp,1,1,1,
+500, Скорость Передвижения,7,0,MoveSpd,2,1,1,
+0, Дополнительная Скорость Передвижения в Доме,8,0,HomeExtraMoveSpd,1,1,1,
+0, Доступный Уровень Экипировки,9,0,GearAvailableLv,0,1,1,
+750, ХП,10,1,HP,2,2,1,attribute-icon-10
+750, Максимальное ХП,11,1,MaxHP,2,2,1,attribute-icon-11
+10, Восстановление ХП,12,0,HpRecovery,2,2,1,
+200, Атака в Бою,13,1,CombatAtt,2,2,1,attribute-icon-13
+0, Скорость Атаки в Бою,14,0,CombatAttSpd,2,2,2,
+150, Защита в Бою,15,1,CombatDef,2,2,1,attribute-icon-15
+100, Попадание в Бою,16,0,CombatHit,2,2,1,
+100, Уклонение в Бою,17,0,CombatDodge,2,2,1,
+0, Уязвимость в Бою,18,0,CombatVulnerable,2,2,2,
+30, Шанс Критического Удара в Бою,19,0,CombatCritRate,2,2,2,
+500, Урон от Критического Удара в Бою,20,0,CombatCritDmg,2,2,2,
+0, Бонусный Урон в Бою,21,0,CombatDmgBonus,2,2,2,
+200, Атака Деревьев,22,1,TreeAtt,3,3,1,attribute-icon-22
+0, Скорость Топора,23,0,AxeSpd,3,3,2,
+30, Шанс Критического Удара Деревьев,24,0,TreeCritRate,3,3,2,
+500, Урон от Критического Удара Деревьев,25,0,TreeCritDmg,3,3,2,
+0, Бонусный Урон Деревьев,26,0,TreeDmgBonus,3,3,2,
+0, Дополнительный Шанс на Добычу Древесины,27,0,ExtraWoodRate,3,3,2,
+1, Доступный Уровень Деревьев,28,0,TreeAvailableLv,3,3,1,
+200, Атака Руды,29,1,OreAtt,3,4,1,attribute-icon-29
+0, Скорость Кирки,30,0,PickaxeSpd,3,4,2,
+30, Шанс Критического Удара Руды,31,0,OreCritRate,3,4,2,
+500, Урон от Критического Удара Руды,32,0,OreCritDmg,3,4,2,
+0, Бонусный Урон Руды,33,0,OreDmgBonus,3,4,2,
+0, Дополнительный Шанс на Добычу Руды,34,0,ExtraOreRate,3,4,2,
+1, Доступный Уровень Руды,35,0,OreAvailableLv,3,4,1,
+30, Эффект Возделывания,36,0,HoeingEffect,1,5,1,
+0, Скорость Работы с Мотыгой,37,0,HoeSpd,1,5,2,
+30, Эффект Поливания,38,0,WateringEffect,1,6,1,
+0, Дополнительная Скорость Поливания,39,0,ExtraWateringRate,1,6,2,
+0, Дополнительная Скорость Сбора Урожая,40,0,ExtraHarvestRate,1,7,2,
+0, Шанс на Посев Семян,41,0,HarvestSeedRate,1,7,2,
+1, Доступный Уровень Урожая,42,0,CropAvailableLv,1,7,1,
+90, Вместимость Плодородия,43,1,FertilityCapacity,1,1,1,attribute-icon-43
+4000, Максимальное Плодородие,44,1,MaxFertility,1,1,1,attribute-icon-44
+90, Вместимость Счастья Питомца,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
+1000, Максимальное Счастье Питомца,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
+270, Профессионализм в Посадке,49,1,PlantingProficiency,1,1,1,attribute-icon-49
+270, Профессионализм в Разведении,50,1,BreedingProficiency,1,1,1,attribute-icon-50
+200, Атака Травы,51,1,GrassAtt,3,1,1,attribute-icon-51
+0, Скорость Косы,52,0,SickleSpd,3,1,2,
+50,Шанс критического удара травы,53,0,GrassCritRate,3,1,2,
+200, Профессионализм в траве,54,1,GrassProficiency,3,1,1,attribute-icon-54
+200, Профессионализм в деревьях,55,1,TreeProficiency,3,1,1,attribute-icon-55
+200, Профессионализм в руде,56,1,OreProficiency,3,1,1,attribute-icon-56
+500, Урон от критического удара травы,58,0,GrassCritDmg,3,1,2,
+0, Бонусный урон травы,59,0,GrassDmgBonus,3,1,2,
+150, Защита травы,60,0,GrassDef,3,1,1,
+150, Защита деревьев,61,0,TreeDef,3,1,1,
+150, Защита руды,62,0,OreDef,3,1,1,
+300, Требуемый профессионализм,63,0,RequiredProficiency,3,1,1,
+150000, Энергия,64,1,Energy,2,1,3,attribute-icon-64
+150000, Максимальная энергия,65,1,MaxEnergy,2,1,3,attribute-icon-65
+0, Боевой потенциал,66,0,CombatPotentiality,2,1,3,
+0, Потенциал сбора,67,0,GatherPotentiality,3,1,3,
+0, Потенциал фермерства,68,0,FarmPotentiality,1,1,3,
+0, Дополнительный шанс на добычу травы,69,0,ExtraGrassRate,3,1,2,
+0, Значение необходимости полива,71,0,NeedWaterValue,1,1,1,
+0, Требуемое удобрение,72,0,RequiredFertilizer,1,1,1,
+0, Требуемый профессионализм,73,0,RequirementProficiency,1,1,1,
+0, Сложность посадки,74,0,PlantingDifficulty,1,1,1,
+0, Время засыхания,75,0,WitherTime,1,1,1,
+0, Максимальное значение действия,76,0,MaxActionValue,3,1,1,
+0, Требуемый профессионализм в разведении,77,0,RequiredBreedingProficiency,1,1,1,

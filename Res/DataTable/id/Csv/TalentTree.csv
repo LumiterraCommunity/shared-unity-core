@@ -333,7 +333,7 @@ Buka Resep Energi","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather Comb
 4," MaxHP Tempur +20
 ",277,1,talentTree-144,144,0,8,1,Combat - Kesehatan,0,2,11200,0,136,3500
 -1,"Setelah periode akumulasi energi singkat, melepaskan energi di dalam tubuh, menyebabkan kerusakan tinggi berkelanjutan pada musuh dalam jangkauan tertentu. Selama melepaskan skill, tetap dalam keadaan tidak dapat mengenai.
-",432,0,talentTree-149,149,0,9,1,,0,2,24436,0,140,4000
+",432,0,talentTree-149,149,0,9,1,Menginspirasi,0,2,24436,0,140,4000
 2," Serangan Tempur +5
 ",272,1,talentTree-150,150,0,9,1,Combat - Kekuatan Serangan,0,2,24436,0,142,4000
 1," Serangan senjata meninggalkan luka, memberikan kerusakan sebesar 1%/2%/3% dari serangan setiap 0,5 detik selama 5 detik, dan dapat menumpuk hingga 5 lapisan
@@ -500,7 +500,7 @@ Buka Resep Energi","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather Comb
 -3,"Buka Resep Esensi Penanaman Lv 9
 ",637,2,talentTree-284,284,0,9,1,Resep Esensi Penanaman (Belum dibuka),0,1,26880,0,281,8750
 -2,"Buka Resep Esensi Peternakan Lv 9
-",634,2,talentTree-285,285,0,9,1,,0,1,26880,0,282,8750
+",634,2,talentTree-285,285,0,9,1, Resep Esensi Peternakan,0,1,26880,0,282,8750
 -5," Buka Resep Set Peralatan LV 7, buka resep Pengecoran dan resep kerajinan fragmen saat mencapai level maksimum.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, (Belum dibuka),0,2,"5169,5169,5169",0,260,"12500,12500,12500"
 -4," Buka Resep Esensi Lv 7
 ",626,2,talentTree-287,287,0,7,1, (Belum dibuka),0,2,5169,0,261,12500
@@ -516,9 +516,9 @@ Buka Resep Energi","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather Comb
 -3,"Buka Resep Set Peralatan LV 8, buka resep Pengecoran ulang dan resep kerajinan fragmen saat mencapai level maksimum.",670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3,(Belum dibuka),0,3,"16800,16800,16800",0,292,"15000,15000,15000"
 -2,"Buka Resep Esensi Lv 8
 ",630,2,talentTree-295,295,0,8,1,(Belum dibuka),0,3,16800,0,293,15000
--3," Buka Resep Set Peralatan LV 9, buka resep Pengecoran dan resep kerajinan fragmen saat mencapai level maksimum.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3,,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
+-3," Buka Resep Set Peralatan LV 9, buka resep Pengecoran dan resep kerajinan fragmen saat mencapai level maksimum.",694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3, Resep Set Pengumpulan,0,3,"33600,33600,33600",0,294,"17500,17500,17500"
 -2,"Buka Resep Esensi Lv 9
-",631,2,talentTree-297,297,0,9,1,,0,3,33600,0,295,17500
--1,Meningkatkan kecepatan gerak untuk diri sendiri dan sekutu selama 10 detik,460,0,talentTree-298,298,0,7,1,,0,1,6720,0,169,3000
-4,Increase your movement speed by 20% for 30 seconds: Meningkatkan kecepatan gerakan Anda sebesar 20% selama 30 detik,541,0,talentTree-299,299,0,3,1,,0,3,525,0,,0
-4,Memberikan efek penolakan yang kuat pada musuh di depan Anda,540,0,talentTree-300,300,0,6,1,,0,3,4200,0,299,2500
+",631,2,talentTree-297,297,0,9,1, Resep Esensi Pengumpulan,0,3,33600,0,295,17500
+-1,Meningkatkan kecepatan gerak untuk diri sendiri dan sekutu selama 10 detik,460,0,talentTree-298,298,0,7,1, Mengembalikan,0,1,6720,0,169,3000
+4,Increase your movement speed by 20% for 30 seconds: Meningkatkan kecepatan gerakan Anda sebesar 20% selama 30 detik,541,0,talentTree-299,299,0,3,1, Metode Reflow,0,3,525,0,,0
+4,Memberikan efek penolakan yang kuat pada musuh di depan Anda,540,0,talentTree-300,300,0,6,1, Mengalahkan kembali,0,3,4200,0,299,2500

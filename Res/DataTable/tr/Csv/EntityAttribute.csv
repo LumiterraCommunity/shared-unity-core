@@ -1,74 +1,74 @@
 defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,type-int,valueType-int,icon-string
-0,CollectionLv,1,0,CollectionLv,3,1,1,
-0,CombatLv,2,0,CombatLv,2,1,1,
-0,FarmingLv,3,0,FarmingLv,1,1,1,
-10,CollectionExp,4,0,CollectionExp,3,1,1,
-10,CombatExp,5,0,CombatExp,2,1,1,
-10,FarmingExp,6,0,FarmingExp,1,1,1,
-500,MoveSpd,7,0,MoveSpd,2,1,1,
-0,HomeExtraMoveSpd,8,0,HomeExtraMoveSpd,1,1,1,
-0,GearAvailableLv,9,0,GearAvailableLv,0,1,1,
-750,HP,10,1,HP,2,2,1,attribute-icon-10
-750,MaxHP,11,1,MaxHP,2,2,1,attribute-icon-11
-10,HpRecovery,12,0,HpRecovery,2,2,1,
-200,CombatAtt,13,1,CombatAtt,2,2,1,attribute-icon-13
-0,CombatAttSpd,14,0,CombatAttSpd,2,2,2,
-150,CombatDef,15,1,CombatDef,2,2,1,attribute-icon-15
-100,CombatHit,16,0,CombatHit,2,2,1,
-100,CombatDodge,17,0,CombatDodge,2,2,1,
-0,CombatVulnerable,18,0,CombatVulnerable,2,2,2,
-30,CombatCritRate,19,0,CombatCritRate,2,2,2,
-500,CombatCritDmg,20,0,CombatCritDmg,2,2,2,
-0,CombatDmgBonus,21,0,CombatDmgBonus,2,2,2,
-200,TreeAtt,22,1,TreeAtt,3,3,1,attribute-icon-22
-0,AxeSpd,23,0,AxeSpd,3,3,2,
-30,TreeCritRate,24,0,TreeCritRate,3,3,2,
-500,TreeCritDmg,25,0,TreeCritDmg,3,3,2,
-0,TreeDmgBonus,26,0,TreeDmgBonus,3,3,2,
-0,ExtraWoodRate,27,0,ExtraWoodRate,3,3,2,
-1,TreeAvailableLv,28,0,TreeAvailableLv,3,3,1,
-200,OreAtt,29,1,OreAtt,3,4,1,attribute-icon-29
-0,PickaxeSpd,30,0,PickaxeSpd,3,4,2,
-30,OreCritRate,31,0,OreCritRate,3,4,2,
-500,OreCritDmg,32,0,OreCritDmg,3,4,2,
-0,OreDmgBonus,33,0,OreDmgBonus,3,4,2,
-0,ExtraOreRate,34,0,ExtraOreRate,3,4,2,
-1,OreAvailableLv,35,0,OreAvailableLv,3,4,1,
-30,HoeingEffect,36,0,HoeingEffect,1,5,1,
-0,HoeSpd,37,0,HoeSpd,1,5,2,
-30,WateringEffect,38,0,WateringEffect,1,6,1,
-0,ExtraWateringRate,39,0,ExtraWateringRate,1,6,2,
-0,ExtraHarvestRate,40,0,ExtraHarvestRate,1,7,2,
-0,HarvestSeedRate,41,0,HarvestSeedRate,1,7,2,
-1,CropAvailableLv,42,0,CropAvailableLv,1,7,1,
-90,FertilityCapacity,43,1,FertilityCapacity,1,1,1,attribute-icon-43
-4000,MaxFertility,44,1,MaxFertility,1,1,1,attribute-icon-44
-90,PetHappinessCapacity,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
-1000,MaxPetHappiness,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
-270,PlantingProficiency,49,1,PlantingProficiency,1,1,1,attribute-icon-49
-270,BreedingProficiency,50,1,BreedingProficiency,1,1,1,attribute-icon-50
-200,GrassAtt,51,1,GrassAtt,3,1,1,attribute-icon-51
-0,SickleSpd,52,0,SickleSpd,3,1,2,
-50,GrassCritRate,53,0,GrassCritRate,3,1,2,
-200,GrassProficiency,54,1,GrassProficiency,3,1,1,attribute-icon-54
-200,TreeProficiency,55,1,TreeProficiency,3,1,1,attribute-icon-55
-200,OreProficiency,56,1,OreProficiency,3,1,1,attribute-icon-56
-500,GrassCritDmg,58,0,GrassCritDmg,3,1,2,
-0,GrassDmgBonus,59,0,GrassDmgBonus,3,1,2,
-150,GrassDef,60,0,GrassDef,3,1,1,
-150,TreeDef,61,0,TreeDef,3,1,1,
-150,OreDef,62,0,OreDef,3,1,1,
-300,RequiredProficiency,63,0,RequiredProficiency,3,1,1,
-150000,Energy,64,1,Energy,2,1,3,attribute-icon-64
-150000,MaxEnergy,65,1,MaxEnergy,2,1,3,attribute-icon-65
-0,CombatPotentiality,66,0,CombatPotentiality,2,1,3,
-0,GatherPotentiality,67,0,GatherPotentiality,3,1,3,
-0,FarmPotentiality,68,0,FarmPotentiality,1,1,3,
-0,ExtraGrassRate,69,0,ExtraGrassRate,3,1,2,
-0,NeedWaterValue,71,0,NeedWaterValue,1,1,1,
-0,RequiredFertilizer,72,0,RequiredFertilizer,1,1,1,
-0,RequirementProficiency,73,0,RequirementProficiency,1,1,1,
-0,PlantingDifficulty,74,0,PlantingDifficulty,1,1,1,
-0,WitherTime,75,0,WitherTime,1,1,1,
-0,MaxActionValue,76,0,MaxActionValue,3,1,1,
-0,RequiredBreedingProficiency,77,0,RequiredBreedingProficiency,1,1,1,
+0,KoleksiyonSev ,1,0,CollectionLv,3,1,1,
+0, SavaşSev ,2,0,CombatLv,2,1,1,
+0, TarımSev ,3,0,FarmingLv,1,1,1,
+10, KoleksiyonDeneyim ,4,0,CollectionExp,3,1,1,
+10, SavaşDeneyim ,5,0,CombatExp,2,1,1,
+10, TarımDeneyim ,6,0,FarmingExp,1,1,1,
+500, HareketHızı ,7,0,MoveSpd,2,1,1,
+0, EvEkstraHareketHızı ,8,0,HomeExtraMoveSpd,1,1,1,
+0, EkipmanKullanılabilirSev ,9,0,GearAvailableLv,0,1,1,
+750, HP ,10,1,HP,2,2,1,attribute-icon-10
+750, MaxHP ,11,1,MaxHP,2,2,1,attribute-icon-11
+10, HPIyileşme ,12,0,HpRecovery,2,2,1,
+200, SavaşSaldırı ,13,1,CombatAtt,2,2,1,attribute-icon-13
+0, SavaşSaldırıHızı ,14,0,CombatAttSpd,2,2,2,
+150, SavaşSavunma ,15,1,CombatDef,2,2,1,attribute-icon-15
+100, Savaşİsabet ,16,0,CombatHit,2,2,1,
+100, SavaşKaçış ,17,0,CombatDodge,2,2,1,
+0, SavaşDuyarlı ,18,0,CombatVulnerable,2,2,2,
+30, SavaşEleştiriOranı ,19,0,CombatCritRate,2,2,2,
+500, SavaşEleştiriHasarı ,20,0,CombatCritDmg,2,2,2,
+0, SavaşHasarBonusu ,21,0,CombatDmgBonus,2,2,2,
+200, AğaçSaldırı ,22,1,TreeAtt,3,3,1,attribute-icon-22
+0, BaltaHızı ,23,0,AxeSpd,3,3,2,
+30, AğaçEleştiriOranı ,24,0,TreeCritRate,3,3,2,
+500, AğaçEleştiriHasarı ,25,0,TreeCritDmg,3,3,2,
+0, AğaçHasarBonusu ,26,0,TreeDmgBonus,3,3,2,
+0, EkstraOdunOranı ,27,0,ExtraWoodRate,3,3,2,
+1, AğaçKullanılabilirSev ,28,0,TreeAvailableLv,3,3,1,
+200, MadenSaldırı ,29,1,OreAtt,3,4,1,attribute-icon-29
+0, KazmaHızı ,30,0,PickaxeSpd,3,4,2,
+30, MadenEleştiriOranı ,31,0,OreCritRate,3,4,2,
+500, MadenEleştiriHasarı ,32,0,OreCritDmg,3,4,2,
+0, MadenHasarBonusu ,33,0,OreDmgBonus,3,4,2,
+0, EkstraMadenOranı ,34,0,ExtraOreRate,3,4,2,
+1, MadenKullanılabilirSev ,35,0,OreAvailableLv,3,4,1,
+30, ÇapalamaEtkisi ,36,0,HoeingEffect,1,5,1,
+0, ÇapaHızı ,37,0,HoeSpd,1,5,2,
+30, SulamaEtkisi ,38,0,WateringEffect,1,6,1,
+0, EkstraSulamaOranı ,39,0,ExtraWateringRate,1,6,2,
+0, EkstraHasatOranı ,40,0,ExtraHarvestRate,1,7,2,
+0, HasatTohumOranı ,41,0,HarvestSeedRate,1,7,2,
+1, EkiliBitkiKullanılabilirSev ,42,0,CropAvailableLv,1,7,1,
+90, VerimlilikKapasite ,43,1,FertilityCapacity,1,1,1,attribute-icon-43
+4000, MaxVerimlilik ,44,1,MaxFertility,1,1,1,attribute-icon-44
+90, EvcilHayvanMutlulukKapasite ,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
+1000, MaxEvcilHayvanMutluluk ,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
+270, EkimYetkinlik ,49,1,PlantingProficiency,1,1,1,attribute-icon-49
+270, ÜremeYetkinlik ,50,1,BreedingProficiency,1,1,1,attribute-icon-50
+200, ÇimenSaldırı ,51,1,GrassAtt,3,1,1,attribute-icon-51
+0, TırpanHızı,52,0,SickleSpd,3,1,2,
+50,ÇimenEleştiriOranı,53,0,GrassCritRate,3,1,2,
+200, ÇimenYetkinliği,54,1,GrassProficiency,3,1,1,attribute-icon-54
+200, AğaçYetkinliği,55,1,TreeProficiency,3,1,1,attribute-icon-55
+200, MadenYetkinliği,56,1,OreProficiency,3,1,1,attribute-icon-56
+500, ÇimenEleştiriHasarı,58,0,GrassCritDmg,3,1,2,
+0, ÇimenHasarBonusu,59,0,GrassDmgBonus,3,1,2,
+150, ÇimenSavunması,60,0,GrassDef,3,1,1,
+150, AğaçSavunması,61,0,TreeDef,3,1,1,
+150, MadenSavunması,62,0,OreDef,3,1,1,
+300, GerekliYetkinlik,63,0,RequiredProficiency,3,1,1,
+150000, Enerji,64,1,Energy,2,1,3,attribute-icon-64
+150000, MaksimumEnerji,65,1,MaxEnergy,2,1,3,attribute-icon-65
+0, SavaşPotansiyeli,66,0,CombatPotentiality,2,1,3,
+0, ToplamaPotansiyeli,67,0,GatherPotentiality,3,1,3,
+0, TarımPotansiyeli,68,0,FarmPotentiality,1,1,3,
+0, EkstraÇimenOranı,69,0,ExtraGrassRate,3,1,2,
+0, SuİhtiyacıDeğeri,71,0,NeedWaterValue,1,1,1,
+0, GerekliGübre,72,0,RequiredFertilizer,1,1,1,
+0, YetkinlikGereksinimi,73,0,RequirementProficiency,1,1,1,
+0, EkimZorluğu,74,0,PlantingDifficulty,1,1,1,
+0, SolmaSüresi,75,0,WitherTime,1,1,1,
+0, MaksimumEylemDeğeri,76,0,MaxActionValue,3,1,1,
+0, GerekliÜremeYetkinliği,77,0,RequiredBreedingProficiency,1,1,1,

@@ -39,34 +39,32 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,"3,84",19,1,24,Coleccionando,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 ,"Por amor y paz, por favor, dame esto.
 ",0,"3,84",20,1,24,Coleccionando,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Cuando la salud del monstruo sea inferior a la mitad, entrará en un estado de ira rodeado de magia. En este punto, el monstruo obtendrá algunos beneficios poderosos. Pero si puedes ponerlo en un estado débil con humo negro, podrás derrotarlo más fácilmente.
-Ayuda al Tirador a matar a un Perro de Metal.",0,"2,261",21,0,12,Nuevo comienzo,0,1,,,,
-"{""options"":[{""optionType"":13,""value"":""878,84,586,10"",""guiderPoint"":30101}]}","Abre tu mochila y equipa tu espada para matar a 5 Perros de Metal.
-Entra en la ciudad y encuentra a Nash.",0,"2,261",22,0,0,Inteligencia,0,1,,21,,
-"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- Presiona [Esc] para abrir la interfaz de tu árbol de talentos
-- selecciona mejorar rama principal
-- selecciona mejorar habilidad de Pisotón de Guerra
-- coloca la habilidad en la ranura rápida",0,"2,261",23,0,0,Echar una mano,0,1,,22,,
+"{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Cada tipo de monstruo tiene su propia debilidad. El progreso para activar la debilidad se muestra debajo de su barra de HP, y diferentes monstruos tienen diferentes condiciones para activarla. Hasta donde sé, infligir daño, golpear fuerte o hacer retroceder pueden activar el punto débil de un monstruo. Algunos monstruos incluso pueden tener sus puntos débiles activados usando un pico. El icono del tipo de monstruo frente a la barra de salud puede proporcionar algunas pistas.
+Ayuda a Gunner a matar a un Murciélago Calabaza.",0,"2,280",21,0,12,Nuevo comienzo,0,1,,,,
+"{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", Encuentra a Nash y llévale la información.,0,"2,280",22,0,0,Inteligencia,0,1,,21,,
+"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," para abrir la interfaz de tu árbol de talentos.
+- selecciona mejorar la rama principal.
+- selecciona mejorar la habilidad de Pisotón de Guerra.
+- coloca la habilidad en la ranura rápida.",0,"2,280",23,0,13,Echar una mano,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Usa una azada para aflojar la tierra en el campo y luego usa semillas para sembrar en la tierra aflojada.
 Planta 5 Semillas de Bambú, 5 Semillas de Trébol y 5 Semillas de Zanahoria en el campo.",0,"1,261",24,0,31,Labrar y sembrar,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"3,261",25,0,13,Regar y cosechar con paciencia,0,2,,24,,
-"{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}","Abre la recolección de artesanía y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,261",26,0,0,Esencia de una profesión,0,1,,27,,
-"{""options"":[{""optionType"":3,""value"":""835,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""836,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""837,1"",""guiderPoint"":30107}]}","Obtén 5 Maderas Ordinarias.
-Obtén 5 Piedras.",0,"3,261",27,0,0,Recolectar algunas cosas buenas,0,1,,23,,
-"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Obtén 5 Maderas Ordinarias y 5 Fibras para hacer un Pico de Hierro.,0,"3,261",28,0,44,Creando un pico de hierro,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"3,280",25,0,0,Regar y cosechar con paciencia,0,2,,24,,
+"{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}"," Abre la elaboración de recolección y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,280",26,0,0,Esencia de una profesión,0,1,,27,,
+"{""options"":[{""optionType"":3,""value"":""835,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""836,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""837,1"",""guiderPoint"":30107}]}", Usa tu herramienta de recolección para recoger esos objetos:,0,"3,280",27,0,0,Recolectar algunas cosas buenas,0,1,,23,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Obtén 5 Maderas Ordinarias y 5 Fibras para hacer un Pico de Hierro.,0,"3,280",28,0,44,Creando un pico de hierro,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta obtener algunos materiales más avanzados:
 Obtén un Mineral de Hierro Oscuro.
 Obtén un Árbol del Desierto.
-Obtén un Hongo de Gorro de Hielo.",0,"3,261",29,0,0,Desafío de recolección avanzada,0,2,,28,,
+Obtén un Hongo de Gorro de Hielo.",0,"3,280",29,0,0,Desafío de recolección avanzada,0,2,,28,,
 "{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","Basado en la última inteligencia:
 Guerreros Cactus: Tienen una alta defensa, usando ataques pesados se puede romper su defensa.
-Demonios Calabaza: Poseen habilidades a distancia, usando Pisoteo se les impide usar habilidades a distancia.",0,"2,261",30,0,40,Darles una lección,0,2,,217,,
+Demonios Calabaza: Poseen habilidades a distancia, usando Pisoteo se les impide usar habilidades a distancia.",0,"2,280",30,0,40,Darles una lección,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}","Intenta hacer una Espada de Piedra en la Artesanía de Combate, armas más fuertes te harán sentir más relajado en la batalla.
-Antes de eso, necesitas desbloquear la receta de la Espada de Piedra en el árbol de talentos.",0,"2,261",32,0,30,Creando una espada de piedra,0,2,,30,,
+Antes de eso, necesitas desbloquear la receta de la Espada de Piedra en el árbol de talentos.",0,"2,280",32,0,30,Creando una espada de piedra,0,2,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta derrotar a monstruos más fuertes:
 Mata a un Amigo Zumbador.
 Mata a un Gato Minero.
-Mata a un Acechador Hojoso.",0,"2,261",33,0,0,Desafío de combate avanzado,0,2,,32,,
+Mata a un Acechador Hojoso.",0,"2,280",33,0,0,Desafío de combate avanzado,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Abre tu árbol de talentos y cambia al árbol de agricultura. Mejora tu habilidad de Captura en el nodo más a la derecha.,0,"1,261",34,0,35,Dominar la captura,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","Captura a Metal Mutt y Pumpkin Fiend usando habilidades de captura.
 Regresa a casa y usa un cepillo para acariciar a tu mascota y obtener suficientes tornillos y brotes de calabaza.
@@ -300,11 +298,11 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","El mundo de Lumi se divide en tres zonas: zonas de paz, zonas de peligro y zonas de caos. 
 Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;3,50;1,50",211,0,0, División de regiones del mundo,0,2,,216,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Intenta crear un Slime de Energía.,0,"2,50;3,50;1,50",212,0,0, Preparación de Slime de energía,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}",Intenta crear una Poción de Restauración de Energía y úsala.,0,"2,50;3,50;1,50",213,0,158,Crea una Poción de Energía y úsala,0,1,,212,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",Algo que hacer todos los días.,0,"2,50;3,50;1,50",214,0,177, Algo que hacer todos los días,0,1,,213,,30001
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Intenta crear una Poción de Restauración de Energía y úsala.,0,"2,50;3,50;1,50",213,0,158,Crea una Poción de Energía y úsala,0,1,,212,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Algo que hacer todos los días.,0,"2,50;3,50;1,50",214,0,0, Algo que hacer todos los días,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",Completa una mazmorra diaria.,0,"2,50;3,50;1,50",215,0,0, Completar una mazmorra diaria,0,2,,214,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",Las Tareas de Token son una de las principales fuentes de ingresos. Completar estas tareas te dará recompensas en tokens. Habla con Haski para obtener más información.,0,"2,50;3,50;1,50",216,0,0, Acerca de las tareas de fichas,0,1,,214,,
-"{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}","Las mascotas son grandes compañeros para todos, intenta atraparlas y usarlas bien. Las mascotas pueden ayudarte a luchar, recolectar, cultivar y llevarse bien contigo.",0,"2,50;3,50;1,50",217,0,0, Uso adecuado de mascotas,0,1,,216,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Las Tareas de Token son una de las principales fuentes de ingresos. Completar estas tareas te dará recompensas en tokens. Habla con Haski para obtener más información.,0,"2,50;3,50;1,50",216,0,0, Acerca de las tareas de fichas,0,1,,214,,
+"{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}"," Las mascotas son grandes compañeros para todos, intenta atraparlas y úsalas bien. Las mascotas pueden ayudarte en la lucha, recolección, agricultura y llevarse bien contigo.",0,"2,50;3,50;1,50",217,0,0, Uso adecuado de mascotas,0,1,,216,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",Completar la tarea desbloquea el Desafío de Recolección Junior.,0,"3,117",218,0,0,Desafío de Recolección Junior,0,2,,214,,40001
 "{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",Completar la tarea desbloquea el Desafío de Recolección Intermedio.,0,"3,117",219,0,0,Desafío de Recolección Intermedio,0,2,,214,,40002
 "{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}",Completar la tarea desbloquea el Desafío de Recolección Avanzado.,0,"3,117",220,0,0,Desafío de Recolección Avanzado,0,2,,214,,40003
@@ -314,4 +312,4 @@ Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",Tarea de diálogo.,0,"2,50;3,50;1,50",224,0,0,Tarea de Diálogo,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",Tarea de mazmorra.,0,"2,50;3,50;1,50",225,0,0,Tarea de Mazmorra,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Tarea de captura.,0,"2,50;3,50;1,50",226,0,0,Tarea de Captura,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""810,109,604,10"",""guiderPoint"":30108}]}","Estás listo para ser un verdadero aventurero, ahora ve a la ciudad y saluda a Nash.",0,"2,50;3,50;1,50",228,0,0,En la ciudad,0,1,,217,,
+"{""options"":[{""optionType"":13,""value"":""805,111,604,5"",""guiderPoint"":30108},{""optionType"":5,""value"":""24,"",""guiderPoint"":30108}]}"," Estás listo para ser un verdadero aventurero. Antes de ir a la ciudad, Gunner tiene algo que decirte en la cima de la montaña.",0,"2,50;3,50;1,50",228,0,0,En la ciudad,0,1,,213,,

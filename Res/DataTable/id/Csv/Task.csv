@@ -39,34 +39,32 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,"3,84",19,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 ,"Untuk cinta dan perdamaian, berikan ini padaku.
 ",0,"3,84",20,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Ketika kesehatan monster kurang dari setengah, ia akan masuk ke dalam keadaan marah yang dikelilingi oleh sihir. Pada saat ini, monster akan mendapatkan beberapa buff yang kuat. Tetapi jika Anda dapat membuatnya masuk ke dalam Keadaan Lemah dengan asap hitam, Anda dapat mengalahkannya dengan lebih mudah.
-Bantu Gunner untuk membunuh Metal mutt.",0,"2,261",21,0,12,Fresh Start,0,1,,,,
-"{""options"":[{""optionType"":13,""value"":""878,84,586,10"",""guiderPoint"":30101}]}","Buka ransel Anda dan persenjatai pedang Anda dan bunuh 5 Metal mutt.
-Masuk ke kota dan temukan Nash.",0,"2,261",22,0,0,Intelligence,0,1,,21,,
-"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- Tekan [Esc] untuk membuka antarmuka pohon bakat Anda
-- pilih upgrade cabang utama
-- pilih upgrade keterampilan War Stomp
-- letakkan keterampilan tersebut di slot cepat",0,"2,261",23,0,0,Lend a Hand,0,1,,22,,
+"{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Setiap jenis monster memiliki kelemahannya sendiri. Kemajuan dalam memicu kelemahan ditampilkan di bawah batang HP-nya, dan setiap monster memiliki kondisi pemicu yang berbeda. Sejauh yang saya tahu, memberikan kerusakan, serangan berat, atau terpental dapat memicu titik lemah monster. Beberapa monster bahkan dapat memiliki titik lemah yang dapat dipicu menggunakan beliung. Ikon jenis monster di depan batang kesehatan mungkin memberikan beberapa petunjuk.
+Bantu Gunner untuk membunuh Kelelawar Labu.",0,"2,280",21,0,12,Fresh Start,0,1,,,,
+"{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", Temukan Nash dan berikan informasi kepadanya.,0,"2,280",22,0,0,Intelligence,0,1,,21,,
+"{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," untuk membuka antarmuka pohon bakat Anda
+- pilih tingkatkan cabang utama
+- pilih tingkatkan keterampilan War Stomp
+- letakkan keterampilan tersebut di slot cepat",0,"2,280",23,0,13,Lend a Hand,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Gunakan cangkul untuk melonggarkan tanah di ladang, lalu gunakan biji untuk menabur di tanah yang telah dilonggarkan.
 Tanam 5 Biji Bambu, 5 Biji Trifolium, dan 5 Biji Wortel di ladang.",0,"1,261",24,0,31,Hoeing and Seeding,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"3,261",25,0,13,Patient Watering and Harvesting,0,2,,24,,
-"{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}","Buka Gather Crafting dan rafinasi Gather Essence. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,261",26,0,0,Essence of a Profession,0,1,,27,,
-"{""options"":[{""optionType"":3,""value"":""835,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""836,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""837,1"",""guiderPoint"":30107}]}","Dapatkan 5 Kayu Biasa.
-Dapatkan 5 Batu.",0,"3,261",27,0,0,Gather Some Goodies,0,1,,23,,
-"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,261",28,0,44,Crafting an Iron Pickaxe,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"3,280",25,0,0,Patient Watering and Harvesting,0,2,,24,,
+"{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}"," Buka Pembuatan Kumpulkan dan perbaiki Esensi Kumpulkan. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,280",26,0,0,Essence of a Profession,0,1,,27,,
+"{""options"":[{""optionType"":3,""value"":""835,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""836,1"",""guiderPoint"":30107},{""optionType"":3,""value"":""837,1"",""guiderPoint"":30107}]}", Gunakan alat pengumpul Anda untuk mengumpulkan barang-barang tersebut:,0,"3,280",27,0,0,Gather Some Goodies,0,1,,23,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,280",28,0,44,Crafting an Iron Pickaxe,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengumpulkan beberapa bahan yang lebih canggih:
 Dapatkan Dark Iron Ore.
 Dapatkan Desert Tree.
-Dapatkan Ice Cap Mushroom.",0,"3,261",29,0,0,Advanced Gather Challenge,0,2,,28,,
+Dapatkan Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,0,2,,28,,
 "{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","Berdasarkan intelijen terbaru:
 Cactus Warriors - Memiliki pertahanan tinggi, menggunakan serangan berat dapat menembus pertahanannya.
-Pumpkin Fiends - Memiliki keterampilan jarak jauh, menggunakan Trampling dapat membuatnya tidak dapat menggunakan keterampilan jarak jauh.",0,"2,261",30,0,40,Teach Them a Lesson,0,2,,217,,
+Pumpkin Fiends - Memiliki keterampilan jarak jauh, menggunakan Trampling dapat membuatnya tidak dapat menggunakan keterampilan jarak jauh.",0,"2,280",30,0,40,Teach Them a Lesson,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}","Coba buat Stone Sword di Combat Crafting, senjata yang lebih kuat dapat membuat Anda lebih santai dalam pertempuran.
-Sebelum itu, Anda perlu membuka resep untuk Stone Sword di pohon bakat.",0,"2,261",32,0,30,Crafting an Stone Sword,0,2,,30,,
+Sebelum itu, Anda perlu membuka resep untuk Stone Sword di pohon bakat.",0,"2,280",32,0,30,Crafting an Stone Sword,0,2,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengalahkan monster yang lebih kuat:
 Bunuh Buzz Buddy.
 Bunuh Mine Cat.
-Bunuh Leafy Lurker.",0,"2,261",33,0,0,Advanced Combat Challenge,0,2,,32,,
+Bunuh Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Buka pohon bakat Anda dan beralih ke pohon pertanian. Tingkatkan node keterampilan Capture di sebelah kanan.,0,"1,261",34,0,35,Master the Capture,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}"," Tangkap Metal Mutt dan Pumpkin Fiend menggunakan keterampilan penangkapan.
 Kembali ke rumah dan gunakan sikat untuk menyikat hewan peliharaanmu untuk mendapatkan cukup baut dan kecambah labu.
@@ -328,12 +326,12 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Dom
 "{""options"":[{""optionType"":5,""value"":""21,1"",""guiderPoint"":0}]}",Penggunaan yang tepat dari tiket undian,0,"2,50;3,50;1,50",210,0,0, Penggunaan yang tepat dari tiket undian,0,2,,26,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Dunia Lumi dibagi menjadi tiga zona: zona perdamaian, zona bahaya, dan zona kekacauan. 
 Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,0,0, Pembagian wilayah dunia,0,2,,216,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Coba buat Energy Slime.,0,"2,50;3,50;1,50",212,0,0, Persiapan Slime Energi,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}",Coba buat Energy Restoration Potion dan gunakan.,0,"2,50;3,50;1,50",213,0,158,Buatlah Ramuan Energi dan gunakanlah,0,1,,212,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",Ada sesuatu yang harus dilakukan setiap hari.,0,"2,50;3,50;1,50",214,0,177, Sesuatu yang harus dilakukan setiap hari,0,1,,213,,30001
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Coba buatlah Energy Slime.,0,"2,50;3,50;1,50",212,0,0, Persiapan Slime Energi,0,1,,26,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Coba buatlah Energy Restoration Potion dan gunakan.,0,"2,50;3,50;1,50",213,0,158,Buatlah Ramuan Energi dan gunakanlah,0,1,,212,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Ada sesuatu yang harus dilakukan setiap hari.,0,"2,50;3,50;1,50",214,0,0, Sesuatu yang harus dilakukan setiap hari,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",Selesaikan dungeon harian.,0,"2,50;3,50;1,50",215,0,0, Menyelesaikan dungeon harian,0,2,,214,,
-"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",Tugas Token adalah salah satu sumber pendapatan utama. Menyelesaikan tugas-tugas ini akan memberi Anda hadiah token. Bicaralah dengan Haski untuk informasi lebih lanjut.,0,"2,50;3,50;1,50",216,0,0, Tentang Tugas Token,0,1,,214,,
-"{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}","Hewan peliharaan adalah teman yang hebat untuk semua orang, cobalah menangkap mereka dan gunakan dengan baik. Hewan peliharaan dapat membantu Anda dalam pertempuran, mengumpulkan, bertani, dan berinteraksi dengan baik dengan hewan peliharaan Anda.",0,"2,50;3,50;1,50",217,0,0, Penggunaan yang tepat dari hewan peliharaan,0,1,,216,,
+"{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Tugas Token adalah salah satu sumber pendapatan utama. Menyelesaikan tugas-tugas ini akan memberi Anda hadiah token. Bicaralah dengan Haski untuk informasi lebih lanjut.,0,"2,50;3,50;1,50",216,0,0, Tentang Tugas Token,0,1,,214,,
+"{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}"," Hewan peliharaan adalah teman yang hebat untuk semua orang, coba tangkap dan gunakan mereka dengan baik. Hewan peliharaan dapat membantu Anda dalam pertarungan, mengumpulkan, bertani, dan berinteraksi dengan baik dengan hewan peliharaan Anda.",0,"2,50;3,50;1,50",217,0,0, Penggunaan yang tepat dari hewan peliharaan,0,1,,216,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",Menyelesaikan tugas membuka tantangan Pengumpulan Junior.,0,"3,117",218,0,0,Tantangan Kumpulkan Junior,0,2,,214,,40001
 "{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",Menyelesaikan tugas membuka tantangan Pengumpulan Menengah.,0,"3,117",219,0,0,Tantangan Kumpulkan Menengah,0,2,,214,,40002
 "{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}",Menyelesaikan tugas membuka tantangan Pengumpulan Tingkat Lanjut.,0,"3,117",220,0,0,Tantangan Kumpulkan Lanjutan,0,2,,214,,40003
@@ -343,4 +341,4 @@ Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",Tugas dialog,0,"2,50;3,50;1,50",224,0,0,Tugas Dialog,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",Tugas dungeon,0,"2,50;3,50;1,50",225,0,0,Tugas Dungeon,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Tugas penangkapan,0,"2,50;3,50;1,50",226,0,0,Tugas Penangkapan,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""810,109,604,10"",""guiderPoint"":30108}]}","Anda siap menjadi petualang sejati, sekarang pergilah ke kota dan sapa Nash.",0,"2,50;3,50;1,50",228,0,0,Ke dalam kota,0,1,,217,,
+"{""options"":[{""optionType"":13,""value"":""805,111,604,5"",""guiderPoint"":30108},{""optionType"":5,""value"":""24,"",""guiderPoint"":30108}]}"," Kamu siap menjadi petualang sejati. Sebelum pergi ke kota, Gunner punya sesuatu untukmu di puncak gunung.",0,"2,50;3,50;1,50",228,0,0,Ke dalam kota,0,1,,213,,
