@@ -16,23 +16,26 @@ public enum eSceneArea : int
     World = 10001,  //大世界
     // World2 = 10003,  //大世界
     Home = 10002,   //家园
-    DungeonSceneLv1_3 = 20000,  //4-6级副本
+    DungeonSceneLv1_3 = 20000,  //1-3级副本
     DungeonSceneLv4_6 = 20001,  //4-6级副本
-    DungeonSceneLv7_9 = 20002,  //4-6级副本
-    PVPDungeonSceneLv1_3 = 21001,  //4-6级副本
-    PVPDungeonSceneLv4_6 = 21002,  //4-6级副本
-    PVPDungeonSceneLv7_9 = 21003,  //4-6级副本
-    PVPDungeonSceneSoloLv1_3 = 22001,  //4-6级副本
-    PVPDungeonSceneSoloLv4_6 = 22002,  //4-6级副本
-    PVPDungeonSceneSoloLv7_9 = 22003,  //4-6级副本
+    DungeonSceneLv7_9 = 20002,  //7-9级副本
+    PVPDungeonSceneLv1_3 = 21001,  //1-3级PVEP副本
+    PVPDungeonSceneLv4_6 = 21002,  //4-6级PVEP副本
+    PVPDungeonSceneLv7_9 = 21003,  //7-9级PVEP副本
+    PVPDungeonSceneSoloLv1_3 = 22001,  //1-3级PVEP副本
+    PVPDungeonSceneSoloLv4_6 = 22002,  //4-6级PVEP副本
+    PVPDungeonSceneSoloLv7_9 = 22003,  //7-9级PVEP副本
+    PVPDungeonSceneLv1_3_Slight = 23001,  //1-3级PVEP副本
+    PVPDungeonSceneLv4_6_Slight = 23002,  //4-6级PVEP副本
+    PVPDungeonSceneLv7_9_Slight = 23003,  //7-9级PVEP副本
     DailyDungeon = 30001,  //每日副本
-    PVPTrainingDungeon = 30002,  //每日PVP副本
+    PVPTrainingDungeon = 30002,  //每日PVEP副本
     GatherDungeon1_3 = 40001,  //采集副本
     GatherDungeon4_6 = 40002,  //采集副本
     GatherDungeon7_9 = 40003,  //采集副本
-    FarmingDungeon1_3 = 50001,  //采集副本
-    FarmingDungeon4_6 = 50002,  //采集副本
-    FarmingDungeon7_9 = 50003,  //采集副本
+    FarmingDungeon1_3 = 50001,  //农牧副本
+    FarmingDungeon4_6 = 50002,  //农牧副本
+    FarmingDungeon7_9 = 50003,  //农牧副本
 }
 
 /// <summary>
