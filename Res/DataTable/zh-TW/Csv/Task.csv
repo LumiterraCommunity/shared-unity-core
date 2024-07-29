@@ -61,7 +61,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,追捕它們並帶回一些戰利品。,0,"2,118",42,1,139,日常-戰鬥-2,0,,,,"{""options"":[{""optionType"":4,""value"":""9,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""33,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,1,200"",""guiderPoint"":0}]}",
 ,追捕他們並帶回一些戰利品。,0,"2,168",43,1,140,日常-戰鬥-3,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所買點東西。,0,"1,117;2,117;3,117",44,0,0,交易2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",特蘭斯可能在鎮上，我們去找他，並給他帶些鐵絲網。,0,"1,261",45,0,17,農夫特蘭斯,0,2,,23,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",特蘭斯可能在鎮上，我們去找他，並給他帶些鐵絲網。,0,"1,261",45,0,17,農夫特蘭斯,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","空的
 ",0,,46,0,0,捕捉罐頭狗和產出,0,2,,45,,
 ,給我這些。,0,"2,84",47,1,138,日常-戰鬥-1,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
@@ -319,4 +319,4 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",對話任務,0,"2,50;3,50;1,50",224,0,0,對話任務,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",副本任務,0,"2,50;3,50;1,50",225,0,0,副本任務,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",捕捉任務,0,"2,50;3,50;1,50",226,0,0,捕捉任務,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""805,111,604,5"",""guiderPoint"":30108},{""optionType"":5,""value"":""24,"",""guiderPoint"":30108}]}", 你已經準備好成為一個真正的冒險者了。在你去城鎮之前，剛納爾在山頂上有些事情要告訴你。,0,"2,50;3,50;1,50",228,0,158,,0,1,,213,,
+"{""options"":[{""optionType"":13,""value"":""805,111,604,5"",""guiderPoint"":30108},{""optionType"":5,""value"":""24,1"",""guiderPoint"":30108}]}", 你已經準備好成為一個真正的冒險者了。在你去城鎮之前，剛納爾在山頂上有些事情要告訴你。,0,"2,50;3,50;1,50",228,0,158,,0,1,,213,,
