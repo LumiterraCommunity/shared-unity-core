@@ -7,6 +7,7 @@
  */
 
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WishPoolElementCore : SceneElementCore
@@ -18,8 +19,22 @@ public class WishPoolElementCore : SceneElementCore
 
     [Header("持续时间")]
     public float Duration;
-
+    [Header("抽奖卷列表")]
+    public int[] RaffleTicketList;
+    private readonly HashSet<int> _raffleTicketSet = new();
     protected GameObject CurParticleObject;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        if (RaffleTicketList != null)
+        {
+            for (int i = 0; i < RaffleTicketList.Length; i++)
+            {
+                _ = _raffleTicketSet.Add(RaffleTicketList[i]);
+            }
+        }
+    }
     public void PlayEffect()
     {
         if (Prefab == null)
@@ -55,5 +70,10 @@ public class WishPoolElementCore : SceneElementCore
     {
         Destroy(CurParticleObject);
         CurParticleObject = null;
+    }
+    //是否包含在许愿卷列表中
+    public bool IsRaffleTicket(int cid)
+    {
+        return _raffleTicketSet.Contains(cid);
     }
 }
