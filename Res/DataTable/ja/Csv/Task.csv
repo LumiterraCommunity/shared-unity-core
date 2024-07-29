@@ -64,7 +64,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,"彼らを追い詰めて、いくつかの戦利品を持ち帰ってください。
 ",0,"2,168",43,1,140,デイリー-Lv3-バトル,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",取引所に行って何かを買ってください。,0,"1,117;2,117;3,117",44,0,0,トランザクション2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",テレンスはおそらく町にいるので、彼を探しに行って彼のために有刺鉄線を持って行きましょう。,0,"1,261",45,0,17,ファーマーテラス,0,2,,23,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",テレンスはおそらく町にいるので、彼を探しに行って彼のために有刺鉄線を持って行きましょう。,0,"1,261",45,0,17,ファーマーテラス,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","空
 ",0,,46,0,0,缶ドッグを捕まえて出力する,0,2,,45,,
 ,これらをください。,0,"2,84",47,1,138,デイリー-Lv1-バトル,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
@@ -266,4 +266,4 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",対話タスク,0,"2,50;3,50;1,50",224,0,0,対話タスク,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",ダンジョンタスク,0,"2,50;3,50;1,50",225,0,0,ダンジョンタスク,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",キャプチャータスク,0,"2,50;3,50;1,50",226,0,0,捕獲タスク,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""805,111,604,5"",""guiderPoint"":30108},{""optionType"":5,""value"":""24,"",""guiderPoint"":30108}]}", あなたは真の冒険者になる準備ができています。町に行く前に、ガンナーが山の頂上であなたに話すことがあります。,0,"2,50;3,50;1,50",228,0,158,,0,1,,213,,
+"{""options"":[{""optionType"":13,""value"":""805,111,604,5"",""guiderPoint"":30108},{""optionType"":5,""value"":""24,1"",""guiderPoint"":30108}]}", あなたは真の冒険者になる準備ができています。町に行く前に、ガンナーが山の頂上であなたに話すことがあります。,0,"2,50;3,50;1,50",228,0,158,,0,1,,213,,
