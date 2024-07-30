@@ -229,22 +229,22 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 ",0,"2,672",165,0,0,Ayuda para el Sprite,0,2,,217,,20002
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Demuestra aún más tu fuerza matando a los siguientes monstruos. Después de completarlo, se desbloqueará la arena.
 ",0,"2,84",166,0,0,"Matar monstruos en el Pico de la Flor 
-",0,2,,163,,21001
+",0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Demuestra aún más tu fuerza matando a los siguientes monstruos. Después de completarlo, se desbloqueará la arena.
 ",0,"2,237",167,0,0,"Matar monstruos en el Reino Flotante 
-",0,2,,164,,21002
+",0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Demuestra aún más tu fuerza matando a los siguientes monstruos. Después de completarlo, se desbloqueará la arena.
 ",0,"2,672",168,0,0,"Matar monstruos en el Dominio Antiguo 
-",0,2,,165,,21003
+",0,2,,165,,"21003,22003,23003"
 "{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Entrega estos objetos y se desbloqueará la arena individual.
 ",0,"2,84",169,0,0,"Solista #1
-",0,2,,163,,22001
+",0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","Entrega estos objetos y se desbloqueará la arena individual.
 ",0,"2,237",170,0,0,"Solista #2
-",0,2,,164,,22002
+",0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}","Entrega estos objetos y se desbloqueará la arena individual.
 ",0,"2,672",171,0,0,"Solista #3
-",0,2,,165,,22003
+",0,2,,165,,
 ,"Vacío
 ",0,"2,672",172,1,144,"Diario-Combate-7
 ",0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
@@ -296,7 +296,7 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",Vacío,0,"2,147",209,0,0,Entrenamiento PVEP,0,2,,215,,30002
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",El uso adecuado de los boletos de rifa,0,"2,50;3,50;1,50",210,0,0, El uso adecuado de boletos de lotería,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","El mundo de Lumi se divide en tres zonas: zonas de paz, zonas de peligro y zonas de caos. 
-Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;3,50;1,50",211,0,0, División de regiones del mundo,0,2,,217,,
+Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;3,50;1,50",211,0,0, División de regiones del mundo,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Intenta crear un Slime de Energía.,0,"2,50;3,50;1,50",212,0,158, Preparación de Slime de energía,0,1,,26,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Intenta crear una Poción de Restauración de Energía y úsala.,0,"2,50;3,50;1,50",213,0,158,Crea una Poción de Energía y úsala,0,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Algo que hacer todos los días.,0,"2,50;3,50;1,50",214,0,158, Algo que hacer todos los días,0,1,,228,,30001

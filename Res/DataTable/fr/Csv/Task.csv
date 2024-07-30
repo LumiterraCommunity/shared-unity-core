@@ -177,17 +177,17 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,2,,217,,20001
 "{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","Tuez ces monstres dans Floating Realm pour prouver votre force.Après avoir terminé la tâche, le champ d'essai spécial sera déverrouillé - Ancient Domain.",0,"2,672",165,0,0,Aide pour le Sprite,0,2,,217,,20002
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Prouvez davantage votre force en tuant les monstres suivants. Après avoir terminé, l'arène sera déverrouillée.",0,"2,84",166,0,0,"Tuer le monstre du pic de la Fleur 
-",0,2,,163,,21001
+",0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Prouvez davantage votre force en tuant les monstres suivants. Après avoir terminé, l'arène sera déverrouillée.",0,"2,237",167,0,0,"Tuer le monstre du Royaume Flottant 
-",0,2,,164,,21002
+",0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Prouvez davantage votre force en tuant les monstres suivants. Après avoir terminé, l'arène sera déverrouillée.",0,"2,672",168,0,0,"Tuer le monstre de l'Ancien Domaine 
-",0,2,,165,,21003
+",0,2,,165,,"21003,22003,23003"
 "{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Remettez ces objets, l'arène solo sera déverrouillée.",0,"2,84",169,0,0,"Soliste#1
-",0,2,,163,,22001
+",0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","Remettez ces objets, l'arène solo sera déverrouillée.",0,"2,237",170,0,0,"Soliste#2
-",0,2,,164,,22002
+",0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}","Remettez ces objets, l'arène solo sera déverrouillée.",0,"2,672",171,0,0,"Soliste#3
-",0,2,,165,,22003
+",0,2,,165,,
 ,Vide,0,"2,672",172,1,144,"Quotidien-Combat-7
 ",0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
 ,Vide,0,"2,672",173,1,144,"Quotidien-Combat-8
@@ -252,7 +252,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",Vide,0,"2,147",208,0,0,Défi quotidien ,0,2,,21,,
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",Vide,0,"2,147",209,0,0,Entraînement PVEP ,0,2,,215,,30002
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",L'utilisation appropriée des tickets de loterie,0,"2,50;3,50;1,50",210,0,0, L'utilisation appropriée des tickets de loterie,0,2,,217,,
-"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Le monde de Lumi est divisé en trois zones : les zones de paix, les zones de danger et les zones de chaos. Allez jeter un coup d'œil au bord de la région, familiarisez-vous avec cela.",0,"2,50;3,50;1,50",211,0,0, Division des régions du monde,0,2,,217,,
+"{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Le monde de Lumi est divisé en trois zones : les zones de paix, les zones de danger et les zones de chaos. Allez jeter un coup d'œil au bord de la région, familiarisez-vous avec cela.",0,"2,50;3,50;1,50",211,0,0, Division des régions du monde,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Essayez de fabriquer un Slime d'énergie.,0,"2,50;3,50;1,50",212,0,158, Préparation de la Slime d'énergie,0,1,,26,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Essayez de fabriquer une Potion de Restauration d'Énergie et utilisez-la.,0,"2,50;3,50;1,50",213,0,158,Fabriquez une potion d'énergie et utilisez-la,0,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Quelque chose à faire tous les jours.,0,"2,50;3,50;1,50",214,0,158, Quelque chose à faire tous les jours,0,1,,228,,30001
