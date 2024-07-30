@@ -254,15 +254,15 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Floating Re
 ",0,"2,237",164,0,0,Ujian Magnus,0,2,,217,,20001
 "{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","Bunuh monster ini di Floating Realm untuk membuktikan kekuatanmu.
 Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Domain.",0,"2,672",165,0,0,Bantuan untuk Sprite,0,2,,217,,20002
-"{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,84",166,0,0,Bunuh Monster Puncak Bunga,0,2,,163,,21001
-"{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,237",167,0,0,Bunuh Monster Floating Realm,0,2,,164,,21002
-"{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,672",168,0,0,Bunuh Monster Ancient Domain,0,2,,165,,21003
+"{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,84",166,0,0,Bunuh Monster Puncak Bunga,0,2,,163,,"21001,22001,23001"
+"{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,237",167,0,0,Bunuh Monster Floating Realm,0,2,,164,,"21002,22002,23002"
+"{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,672",168,0,0,Bunuh Monster Ancient Domain,0,2,,165,,"21003,22003,23003"
 "{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Serahkan barang-barang ini, arena solo akan terbuka.",0,"2,84",169,0,0,"Solois#1
-",0,2,,163,,22001
+",0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","Serahkan barang-barang ini, arena solo akan terbuka.",0,"2,237",170,0,0,"Solois#2
-",0,2,,164,,22002
+",0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}","Serahkan barang-barang ini, arena solo akan terbuka.",0,"2,672",171,0,0,"Solois#3
-",0,2,,165,,22003
+",0,2,,165,,
 ,Kosong,0,"2,672",172,1,144,"Harian-Pertempuran-7
 ",0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
 ,Kosong,0,"2,672",173,1,144,"Harian-Pertempuran-8
@@ -325,7 +325,7 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Dom
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",Kosong,0,"2,147",209,0,0,Pelatihan PVEP,0,2,,215,,30002
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",Penggunaan yang tepat dari tiket undian,0,"2,50;3,50;1,50",210,0,0, Penggunaan yang tepat dari tiket undian,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Dunia Lumi dibagi menjadi tiga zona: zona perdamaian, zona bahaya, dan zona kekacauan. 
-Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,0,0, Pembagian wilayah dunia,0,2,,217,,
+Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,0,0, Pembagian wilayah dunia,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Coba buatlah Energy Slime.,0,"2,50;3,50;1,50",212,0,158, Persiapan Slime Energi,0,1,,26,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Coba buatlah Energy Restoration Potion dan gunakan.,0,"2,50;3,50;1,50",213,0,158,Buatlah Ramuan Energi dan gunakanlah,0,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Ada sesuatu yang harus dilakukan setiap hari.,0,"2,50;3,50;1,50",214,0,158, Sesuatu yang harus dilakukan setiap hari,0,1,,228,,30001
