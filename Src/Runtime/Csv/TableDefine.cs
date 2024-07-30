@@ -109,6 +109,7 @@ public enum eGameValueID
     ReputationOfHoldingLuag = 103,//持有Luag提供的声望
     ReputationDecayOfLeaderboard = 105,//排行声望每日衰减
     ReputationDecayOfPassingDungeon = 106,//副本声望每日衰减
+    CaptureExcludeItemIds = 114, //不用用于捕获的道具列表
 }
 
 // public static class GameValueID
