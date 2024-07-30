@@ -61,6 +61,9 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
 ",174,"Đấu trường hạng cao
 ","Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0,"0,1440","661,1","1,24",,
+0,0,23001,0,"2,4",DungeonSceneLoading_7_9.jpg,,0,1,0,PVPDungeonSceneLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging",,,,,0;0,"0,1440","934,1","8,24",,
+0,0,23002,0,"5,7",PVPDungeonSceneLoading_4_6.jpg,,0,1,0,PVPDungeonSceneLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging",,,,,0;0,"0,1440","935,1","8,24",,
+0,0,23003,0,"8,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,0,PVPDungeonSceneLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging",,,,,0;0,"0,1440","936,1","8,24",,
 1,0,22001,0,"2,4",DungeonSceneLoading_7_9.jpg,,0,1,5,PVPDungeonSceneSoloLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.

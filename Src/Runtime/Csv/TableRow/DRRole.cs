@@ -24,6 +24,15 @@ public class DRRole : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取RoleActionSkill-int[]。*/
+    /// </summary>
+    public int[] RoleActionSkill
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取bodyCapacity-int。*/
     /// </summary>
     public int BodyCapacity
@@ -154,6 +163,7 @@ public class DRRole : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        RoleActionSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BodyCapacity = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GrasslandRunSound = DataTableParseUtil.ParseString(columnStrings[index++]);
         HarvestSkill = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -180,6 +190,7 @@ public class DRRole : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                RoleActionSkill = binaryReader.ReadArray<Int32>();
                 BodyCapacity = binaryReader.Read7BitEncodedInt32();
                 GrasslandRunSound = binaryReader.ReadString();
                 HarvestSkill = binaryReader.Read7BitEncodedInt32();

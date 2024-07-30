@@ -59,7 +59,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 150, AğaçSavunması,61,0,TreeDef,3,1,1,
 150, MadenSavunması,62,0,OreDef,3,1,1,
 300, GerekliYetkinlik,63,0,RequiredProficiency,3,1,1,
-150000, Enerji,64,1,Energy,2,1,3,attribute-icon-64
+0, Enerji,64,1,Energy,2,1,3,attribute-icon-64
 150000, MaksimumEnerji,65,1,MaxEnergy,2,1,3,attribute-icon-65
 0, SavaşPotansiyeli,66,0,CombatPotentiality,2,1,3,
 0, ToplamaPotansiyeli,67,0,GatherPotentiality,3,1,3,

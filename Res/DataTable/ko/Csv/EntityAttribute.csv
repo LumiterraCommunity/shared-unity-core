@@ -59,7 +59,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 150, 나무 방어력,61,0,TreeDef,3,1,1,
 150, 광물 방어력,62,0,OreDef,3,1,1,
 300, 필요 숙련도,63,0,RequiredProficiency,3,1,1,
-150000, 에너지,64,1,Energy,2,1,3,attribute-icon-64
+0, 에너지,64,1,Energy,2,1,3,attribute-icon-64
 150000, 최대 에너지,65,1,MaxEnergy,2,1,3,attribute-icon-65
 0, 전투 잠재력,66,0,CombatPotentiality,2,1,3,
 0, 채집 잠재력,67,0,GatherPotentiality,3,1,3,
