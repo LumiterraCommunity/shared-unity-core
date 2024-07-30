@@ -25,7 +25,8 @@ public enum eSkillGroupType : int
     InHandItem = 7,     // 手持道具技能组
     Extend = 8,     // 扩展技能组
     Pet = 9,        // 宠物技能组
-    Item,           //道具技能组
+    Item = 10,           //道具技能组
+    Action = 11,         //动作技能组
 }
 
 public enum eSEStatusType

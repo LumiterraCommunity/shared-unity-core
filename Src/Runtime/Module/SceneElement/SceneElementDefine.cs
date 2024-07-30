@@ -16,6 +16,7 @@ public enum eSceneElementType
     Portal = 2, //传送门
     SEArea = 3, //技能效果区域
     SettlePortal = 4, //结算传送门
+    WishPool = 5, //许愿池
 }
 public enum ePortalStatusType
 {
