@@ -68,8 +68,11 @@ public class WishPoolElementCore : SceneElementCore
     }
     private void StopParticle()
     {
-        Destroy(CurParticleObject);
-        CurParticleObject = null;
+        if (CurParticleObject != null)
+        {
+            Destroy(CurParticleObject);
+            CurParticleObject = null;
+        }
     }
     //是否包含在许愿卷列表中
     public bool IsRaffleTicket(int cid)
