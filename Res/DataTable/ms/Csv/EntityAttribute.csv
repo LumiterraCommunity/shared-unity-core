@@ -59,7 +59,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 150,PertahananPokok ,61,0,TreeDef,3,1,1,
 150,PertahananBijih ,62,0,OreDef,3,1,1,
 300,KemahiranDiperlukan,63,0,RequiredProficiency,3,1,1,
-150000,Tenaga,64,1,Energy,2,1,3,attribute-icon-64
+0,Tenaga,64,1,Energy,2,1,3,attribute-icon-64
 150000,TenagaMaksimum,65,1,MaxEnergy,2,1,3,attribute-icon-65
 0,Potensi Pertempuran,66,0,CombatPotentiality,2,1,3,
 0,Potensi Pertanian,67,0,GatherPotentiality,3,1,3,

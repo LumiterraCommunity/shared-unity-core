@@ -59,7 +59,7 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 150,Defensa de los árboles,61,0,TreeDef,3,1,1,
 150,Defensa de los minerales,62,0,OreDef,3,1,1,
 300,Proficiencia requerida,63,0,RequiredProficiency,3,1,1,
-150000,Energía,64,1,Energy,2,1,3,attribute-icon-64
+0,Energía,64,1,Energy,2,1,3,attribute-icon-64
 150000,Energía Máxima,65,1,MaxEnergy,2,1,3,attribute-icon-65
 0,Potencial de Combate,66,0,CombatPotentiality,2,1,3,
 0,Potencial de Granja,67,0,GatherPotentiality,3,1,3,
