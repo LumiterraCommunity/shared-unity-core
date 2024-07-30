@@ -103,6 +103,12 @@ public enum eGameValueID
     ReputationForPackItemQuota = 95,//打包物品配额
     ReputationForFarmOpenTime = 97,//农场开放时间
     ReputationForCraftingTimeReductionRate = 98,//合成时间减少比例
+    ReputationOfLeaderboard = 100,//排行提供的声望
+    ReputationOfPassingDungeon = 101,//通关副本提供的声望
+    ReputationOfRentingWarehouse = 102,//租仓库提供的声望
+    ReputationOfHoldingLuag = 103,//持有Luag提供的声望
+    ReputationDecayOfLeaderboard = 105,//排行声望每日衰减
+    ReputationDecayOfPassingDungeon = 106,//副本声望每日衰减
 }
 
 // public static class GameValueID
