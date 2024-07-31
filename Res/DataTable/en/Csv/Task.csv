@@ -55,7 +55,7 @@ Plant 5 Bamboo Seeds, 5 Trifoliums Seeds, and 5 Carrots Seeds in field.",0,"1,26
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","You have learned how to upgrade the talent tree and make equipment, try to gather some more advanced materials:
 Get a Dark Iron Ore.
 Get a Desert Tree.
-Get an Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,0,2,,28,,
+Get an Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,100,2,,28,,
 "{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","Based on the latest intelligence:
 Cactus Warriors - Has high defense, using heavy attacks can break through its defense.
 Pumpkin Fiends - Possess remote skills, using Trampling can make it unable to use remote skills.",0,"2,280",30,0,40,Teach Them a Lesson,0,2,,217,,
@@ -64,7 +64,7 @@ Before that, you need to unlock the recipe for Stone Sword in the talent tree.",
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","You have learned how to upgrade the talent tree and make equipment, try to defeat stronger monsters:
 Kill a Buzz Buddy.
 Kill a Mine Cat.
-Kill a Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,0,2,,32,,
+Kill a Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,100,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Open your talent tree and switch to the farming tree. Upgrade your Capture skill node on the far right.,0,"1,261",34,0,35,Master the Capture,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","Capture Metal mutt and Pumpkin Fiend through capture skills.
 Return home and use a brush to stroke your pet to obtain enough screws and pumpkin sprouts.",0,"1,261",162,0,34,Learn to breed,0,2,,34,,
@@ -73,7 +73,7 @@ Make a hoe at Terrance.",0,"1,261",35,0,0,Crafting an Iron Hoe,0,2,,162,,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","You have learned how to upgrade the talent tree and make equipment, try to plant more advanced seeds:
 Plant Cotton seeds.
 Plant Pitcher Plant seeds.
-Plant Endurance Fruit seeds.",0,"1,261",36,0,0,Advanced Farming Challenge,0,2,,162,,
+Plant Endurance Fruit seeds.",0,"1,261",36,0,0,Advanced Farming Challenge,100,2,,162,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Go to the exchange and buy something.,0,"1,117;2,117;3,117",37,0,0,Transaction 1,0,2,,"33,29,36",,
 ,Monsters are running rampant. Go and exterminate them.,0,"2,84",38,1,138,Daily-Lv1-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,Monsters are running rampant. Go and exterminate them.,0,"2,118",39,1,139,Daily-Lv2-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -254,7 +254,7 @@ Go take a look at the edge of the region, get familiar with it.",0,"2,50;3,50;1,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,158,Complete a daily dungeon,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}",Token Task are one of the main sources of income. Completing these Tasks will earn you token rewards. Talk to Haski for more informations.,0,"2,50;3,50;1,50",216,0,158,About the Token Tasks,0,1,,214,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}","Pets are great companions for everyone, try to catch them and use them well
-Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,199,Proper use of pets,100,1,,216,,
+Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,199,Proper use of pets,0,1,,216,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",Completing the task unlocks the Junior Gathering Challenge.,0,"3,117",218,0,0,Junior Gather Challenge,0,2,,217,,40001
 "{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",Completing the task unlocks the Intermediate Gathering Challenge.,0,"3,117",219,0,0,Intermediate Gather Challenge,0,2,,217,,40002
 "{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}",Completing the task unlocks the Advanced Gathering Challenge.,0,"3,117",220,0,0,Advance Gather Challenge,0,2,,217,,40003
