@@ -35,7 +35,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","你已經學會了如何升級天賦樹和製作裝備，嘗試收集一些更高級的材料：
 獲取一塊黑鐵礦石。
 獲取一棵沙漠樹。
-獲取一個冰原菇。",0,"3,280",29,0,0,更高級的挑戰,0,2,,28,,
+獲取一個冰原菇。",0,"3,280",29,0,0,更高級的挑戰,100,2,,28,,
 "{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","根據最新情報：
 仙人掌戰士 - 具有很高的防禦力，使用重型攻擊可以突破它的防禦。
 南瓜惡魔 - 擁有遠程技能，使用踐踏技能可以使其無法使用遠程技能。",0,"2,280",30,0,40,教訓一下他們,0,2,,217,,
@@ -43,7 +43,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","你已經學會了如何升級天賦樹和製作裝備，嘗試擊敗更強大的怪物：
 擊敗一只嗡嗡蜂。
 擊敗一只礦礦貓。
-擊敗一只葉狀潛伏者。",0,"2,280",33,0,0,更高級的挑戰,0,2,,32,,
+擊敗一只葉狀潛伏者。",0,"2,280",33,0,0,更高級的挑戰,100,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",打開你的天賦樹並切換到農業樹。在最右邊升級你的捕捉技能節點。,0,"1,261",34,0,35,學會捕捉技能,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","透過捕捉技能捕捉金屬狗和南瓜惡魔。
 回到家中，使用刷子撫摸你的寵物，獲得足夠的螺絲和南瓜嫩芽。
@@ -52,7 +52,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","你已經學會了如何升級天賦樹和製作裝備，試著種植更高級的種子吧：
 種植棉花種子。
 種植豬籠草種子。
-種植忍耐果實種子。",0,"1,261",36,0,0,更高級的挑戰,0,2,,162,,
+種植忍耐果實種子。",0,"1,261",36,0,0,更高級的挑戰,100,2,,162,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所買點東西。,0,"1,117;2,117;3,117",37,0,0,交易1,0,2,,"33,29,36",,
 ,怪物正在肆虐。去消滅它們吧。,0,"2,84",38,1,138,日常-戰鬥-1,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,怪物正在肆虐。去消滅它們吧。,0,"2,118",39,1,139,日常-戰鬥-2,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -216,24 +216,16 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""12,1"",""guiderPoint"":20202},{""optionType"":4,""value"":""13,1"",""guiderPoint"":20101},{""optionType"":4,""value"":""14,1"",""guiderPoint"":20204}]}","殺死這些怪物來證明你是一個強大的個體。
 完成任務後，特殊試煉場地-浮空境將被解鎖。
 ",0,"2,237",164,0,0,馬格努斯的考驗,0,2,,217,,20001
-"{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}","フローティングレルムでこれらのモンスターを倒して自分の力を証明してください。
-タスクを完了すると、特別な試練場「エンシェントドメイン」が解放されます。
-",0,"2,672",165,0,0,謎光古靈的求助,0,2,,217,,20002
-"{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
-",0,"2,84",166,0,0,"消滅花峰的怪物
+"{""options"":[{""optionType"":4,""value"":""102,1"",""guiderPoint"":20207},{""optionType"":4,""value"":""103,1"",""guiderPoint"":20206},{""optionType"":4,""value"":""104,1"",""guiderPoint"":20207}]}",,0,"2,672",165,0,0,謎光古靈的求助,0,2,,217,,20002
+"{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}",,0,"2,84",166,0,0,"消滅花峰的怪物
 ",0,2,,163,,"21001,22001,23001"
-"{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
-",0,"2,237",167,0,0,"消滅浮游境的怪物
+"{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}",,0,"2,237",167,0,0,"消滅浮游境的怪物
 ",0,2,,164,,"21002,22002,23002"
-"{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","以下のモンスターを倒してさらに自分の力を証明してください。完了後、アリーナが解放されます。
-",0,"2,672",168,0,0,"消滅古老領域的怪物
+"{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}",,0,"2,672",168,0,0,"消滅古老領域的怪物
 ",0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","これらのアイテムを提出すると、ソロアリーナが解放されます。
-",0,"2,84",169,0,0,獨行者#1,0,2,,163,,
-"{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","これらのアイテムを提出すると、ソロアリーナが解放されます。
-",0,"2,237",170,0,0,獨行者#2,0,2,,164,,
-"{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}","これらのアイテムを提出すると、ソロアリーナが解放されます。
-",0,"2,672",171,0,0,獨行者#3,0,2,,165,,
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",,0,"2,84",169,0,0,獨行者#1,0,2,,163,,
+"{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}",,0,"2,237",170,0,0,獨行者#2,0,2,,164,,
+"{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}",,0,"2,672",171,0,0,獨行者#3,0,2,,165,,
 ,"空
 ",0,"2,672",172,1,144,日常-戰鬥-7,0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
 ,"空
@@ -309,7 +301,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30103}]}",完成每日副本。,0,"2,50;3,50;1,50",215,0,158,完成每日副本,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", 任務獎勵是主要的收入來源之一。完成這些任務將獲得代幣獎勵。與哈斯基談談以獲取更多信息。,0,"2,50;3,50;1,50",216,0,158,關於代幣任務,0,1,,214,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":0}]}"," 寵物是每個人的好伴侶，試著捕捉它們並善加利用。
-寵物可以幫助你戰鬥、收集、耕作，並與你的寵物相處融洽。",0,"2,50;3,50;1,50",217,0,199,寵物的正確使用方式,100,1,,216,,
+寵物可以幫助你戰鬥、收集、耕作，並與你的寵物相處融洽。",0,"2,50;3,50;1,50",217,0,199,寵物的正確使用方式,0,1,,216,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",完成任務解鎖初級採集挑戰。,0,"3,117",218,0,0,初級採集挑戰,0,2,,217,,40001
 "{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",完成任務解鎖中級採集挑戰。,0,"3,117",219,0,0,中級採集挑戰,0,2,,217,,40002
 "{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}",完成任務解鎖高級採集挑戰。,0,"3,117",220,0,0,高級採集挑戰,0,2,,217,,40003
