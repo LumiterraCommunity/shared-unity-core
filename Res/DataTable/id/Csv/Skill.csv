@@ -522,8 +522,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 ",100,2,0,Serangan (Penjaga Elang Berwawasan Bijak),"1,200,200,200,0",,1,0,1,,1000,,,hiteffect,,,,,629,,,,,
 0,0,0,,0,,,333,479,0,1,0,1,0,0,0,0,attack,,Skill_DoomLord_Attack,,1166,1;2,3000,"Serangan Penguasa Iblis Perdition
 ",800,2,0,Serangan (Tuan Iblis Perdition),"4,300,500,12000,0",,1,0,1,,1000,552,,Skill_HitBoss,,,,,634,,,,,
-0,0,0,0,0,515,,400,482,0,1,0,1,0,0,0,0,attackRange,Skill_ice_Breath,,,2900,1;2,5000,"Kosong
-",800,2,0,Napas Dingin,"4,150,800,4500,0",,1,0,1,,1000,"518,521",skill-icon-482,,,,,,,,,,,
+0,0,0,0,0,"515,521",,400,482,0,1,0,1,0,0,0,0,attackRange,Skill_ice_Breath,,,2900,1;2,5000,"Kosong
+",800,2,0,Napas Dingin,"4,150,800,4500,0",,1,0,1,,1000,518,skill-icon-482,,,,,,,,,,,
 0,0,0,,0,"385,238",557,350,484,0,1,0,1,0,0,0,0,A1-gaozi-AOE-NEW,Skill_AOE_ring,Skill_AoeRing_Part2,,666,1,6000,"Kosong
 ",1000,2,0,Mengejar,"4,200,400,36000,0",CameraShakeGrade_1,1,0,1,,1000,,skill-icon-484,,,,,,,,,,,
 0,0,0,,0,559,,500,485,0,0,0,0,0,0,0,0,A2-respawn-to-base,Skill_health_ring,Skill_HealthRing,,660,1,45000,"Kosong
@@ -596,4 +596,4 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,681,467,1400,559,0,0,0,0,0,0,0,0,halfMoonSlash,Skill_halfMoonSlash,,,1666,1;2,, Kosong,,2,0, Kosong,"4,300,1000,21000,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,385,216,400,560,0,0,0,0,0,0,0,0,attack,,,,600,1,4000, Kosong,400,2,0, Kosong,"2,200,0",,1,0,1,,1000,,,,,,,,,,,,,
 0,0,0,,0,,,0,562,0,0,0,0,1,0,0,0,pray,,,,2000,2,0,,0,2,0,,"2,200,0",,1,0,2,,1000,,,,,,,,,,,,,
-0,0,0,,0,,,340,563,0,1,0,0,0,0,0,0,attack,,,,1300,1;2,4000,,500,2,0,,"4,300,300,4500,0",,1,0,1,,1000,684,,,,,,,,,,,,
+0,0,0,,0,,,340,563,0,1,0,0,0,0,0,0,attack,,,,1300,1;2,4000,,500,2,0,,"4,300,300,4500,0",,1,0,1,,1000,684,,,,,,,600,,,,,
