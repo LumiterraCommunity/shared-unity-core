@@ -68,7 +68,10 @@ public class SkillCastStatusCore : ListenEventStatusCore, IEntityCanSkill
         {
             Log.Error($"skill cast execute error ={e}");
         }
-
+        if (CurSkillCfg == null)
+        {
+            return;
+        }
         CancelTimeCastFinish();
 
         //如果是持续技能 不用定时去下个阶段 而是需要等待取消动作

@@ -64,6 +64,11 @@ public abstract class SkillForwardStatusCore : ListenEventStatusCore, IEntityCan
             Log.Error($"skill forward execute error ={e}");
         }
 
+        if (CurSkillCfg == null)
+        {
+            return;
+        }
+
         if (CurSkillCfg.AccuBreakable)
         {
             _inputData = StatusCtrl.GetComponent<EntityInputData>();
