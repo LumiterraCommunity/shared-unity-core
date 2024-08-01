@@ -240,7 +240,10 @@ public class CharacterMoveCtrl : EntityBaseComponent
     public void StopCurSpeed()
     {
         CurSpeed = Vector3.zero;
-        _mover.SetVelocity(CurSpeed);
+        if (_mover != null)
+        {
+            _mover.SetVelocity(CurSpeed);
+        }
     }
 
     /// <summary>
