@@ -40,7 +40,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,"Untuk cinta dan perdamaian, berikan ini padaku.
 ",0,"3,84",20,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Setiap jenis monster memiliki kelemahannya sendiri. Kemajuan dalam memicu kelemahan ditampilkan di bawah batang HP-nya, dan setiap monster memiliki kondisi pemicu yang berbeda. Sejauh yang saya tahu, memberikan kerusakan, serangan berat, atau terpental dapat memicu titik lemah monster. Beberapa monster bahkan dapat memiliki titik lemah yang dapat dipicu menggunakan beliung. Ikon jenis monster di depan batang kesehatan mungkin memberikan beberapa petunjuk.
-Bantu Gunner untuk membunuh Kelelawar Labu.",0,"2,280",21,0,12,Fresh Start,100,1,,,,
+Bantu Gunner untuk membunuh Kelelawar Labu.",0,"2,280",21,0,12,Fresh Start,0,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", Temukan Nash dan berikan informasi kepadanya.,0,"2,280",22,0,158,Intelligence,0,1,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," untuk membuka antarmuka pohon bakat Anda
 - pilih tingkatkan cabang utama
@@ -48,24 +48,23 @@ Bantu Gunner untuk membunuh Kelelawar Labu.",0,"2,280",21,0,12,Fresh Start,100,1
 - letakkan keterampilan tersebut di slot cepat",0,"2,280",23,0,13,Lend a Hand,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Gunakan cangkul untuk melonggarkan tanah di ladang, lalu gunakan biji untuk menabur di tanah yang telah dilonggarkan.
 Tanam 5 Biji Bambu, 5 Biji Trifolium, dan 5 Biji Wortel di ladang.",0,"1,261",24,0,31,Hoeing and Seeding,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"3,280",25,0,0,Patient Watering and Harvesting,100,2,,24,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"3,280",25,0,0,Patient Watering and Harvesting,0,2,,24,,
 "{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}"," Buka Pembuatan Kumpulkan dan perbaiki Esensi Kumpulkan. Sebelum itu, Anda perlu mendapatkan cukup bahan.",0,"3,280",26,0,197,Essence of a Profession,0,1,,27,,
 "{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}", Gunakan alat pengumpul Anda untuk mengumpulkan barang-barang tersebut:,0,"3,280",27,0,197,Gather Some Goodies,0,1,,23,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Dapatkan 5 Kayu Biasa dan 5 Serat untuk membuat Iron Pickaxe.,0,"3,280",28,0,44,Crafting an Iron Pickaxe,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengumpulkan beberapa bahan yang lebih canggih:
 Dapatkan Dark Iron Ore.
 Dapatkan Desert Tree.
-Dapatkan Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,0,2,,28,,
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501}]}","Berdasarkan intelijen terbaru:
-Metal Mutt - Memiliki kekuatan serangan tinggi. Menyebabkan cukup kerusakan padanya akan mengurangi keinginannya untuk menyerang.
+Dapatkan Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,100,2,,28,,
+"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","Berdasarkan intelijen terbaru:
 Cactus Warriors - Memiliki pertahanan tinggi, menggunakan serangan berat dapat menembus pertahanannya.
-Pumpkin Fiends - Memiliki kemampuan jarak jauh, menggunakan Trampling dapat membuatnya tidak dapat menggunakan kemampuan jarak jauh.",0,"2,280",30,0,40,Teach Them a Lesson,0,2,,217,,
+Pumpkin Fiends - Memiliki keterampilan jarak jauh, menggunakan Trampling dapat membuatnya tidak dapat menggunakan keterampilan jarak jauh.",0,"2,280",30,0,40,Teach Them a Lesson,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}","Coba buat Stone Sword di Combat Crafting, senjata yang lebih kuat dapat membuat Anda lebih santai dalam pertempuran.
 Sebelum itu, Anda perlu membuka resep untuk Stone Sword di pohon bakat.",0,"2,280",32,0,30,Crafting an Stone Sword,0,2,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk mengalahkan monster yang lebih kuat:
 Bunuh Buzz Buddy.
 Bunuh Mine Cat.
-Bunuh Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,0,2,,32,,
+Bunuh Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,100,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Buka pohon bakat Anda dan beralih ke pohon pertanian. Tingkatkan node keterampilan Capture di sebelah kanan.,0,"1,261",34,0,35,Master the Capture,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}"," Tangkap Metal Mutt dan Pumpkin Fiend menggunakan keterampilan penangkapan.
 Kembali ke rumah dan gunakan sikat untuk menyikat hewan peliharaanmu untuk mendapatkan cukup baut dan kecambah labu.
@@ -74,7 +73,7 @@ Kembali ke rumah dan gunakan sikat untuk menyikat hewan peliharaanmu untuk menda
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","Anda telah belajar bagaimana meningkatkan pohon bakat dan membuat peralatan, cobalah untuk menanam biji yang lebih canggih:
 Tanam biji Kapas.
 Tanam biji Pitcher Plant.
-Tanam biji Endurance Fruit.",0,"1,261",36,0,0,Advanced Farming Challenge,0,2,,35,,
+Tanam biji Endurance Fruit.",0,"1,261",36,0,0,Advanced Farming Challenge,100,2,,35,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Pergi ke pertukaran dan beli sesuatu.,0,"1,117;2,117;3,117",37,0,0,Transaction 1,0,2,,"33,29,36",,
 ,Monster berkelana dengan liar. Pergi dan basmi mereka.,0,"2,84",38,1,138,Daily-Lv1-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,Monster berkelana dengan liar. Pergi dan basmi mereka.,0,"2,118",39,1,139,Daily-Lv2-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -83,7 +82,7 @@ Tanam biji Endurance Fruit.",0,"1,261",36,0,0,Advanced Farming Challenge,0,2,,35
 ,Kejar mereka dan bawa kembali beberapa jarahan.,0,"2,118",42,1,139,Daily-Lv2-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""9,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""33,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,1,200"",""guiderPoint"":0}]}",
 ,Kejar mereka dan bawa kembali beberapa jarahan,0,"2,168",43,1,140,Daily-Lv3-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Pergi ke pertukaran dan beli sesuatu.,0,"1,117;2,117;3,117",44,0,0,Transaction 2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}","Terrance mungkin berada di kota, mari kita pergi dan mencarinya dan bawa beberapa kawat kasa untuknya.",0,"1,261",45,0,17,Farmer Terrance,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Terrance mungkin berada di kota, mari kita pergi dan mencarinya dan bawa beberapa kawat kasa untuknya.",0,"1,261",45,0,17,Farmer Terrance,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}","Kosong
 ",0,,46,0,0,Capture can dog and output,0,2,,45,,
 ,Berikan ini padaku.,0,"2,84",47,1,138,Daily-Lv1-Battle,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
@@ -258,7 +257,7 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Dom
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,84",166,0,0,Bunuh Monster Puncak Bunga,0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,237",167,0,0,Bunuh Monster Floating Realm,0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Buktikan kekuatanmu lebih lanjut dengan membunuh monster berikut. Setelah selesai, arena akan terbuka.",0,"2,672",168,0,0,Bunuh Monster Ancient Domain,0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}","Serahkan barang-barang ini, arena solo akan terbuka.",0,"2,84",169,0,0,"Solois#1
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Serahkan barang-barang ini, arena solo akan terbuka.",0,"2,84",169,0,0,"Solois#1
 ",0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","Serahkan barang-barang ini, arena solo akan terbuka.",0,"2,237",170,0,0,"Solois#2
 ",0,2,,164,,
@@ -328,7 +327,7 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Dom
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Dunia Lumi dibagi menjadi tiga zona: zona perdamaian, zona bahaya, dan zona kekacauan. 
 Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,0,0, Pembagian wilayah dunia,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Coba buatlah Energy Slime.,0,"2,50;3,50;1,50",212,0,158, Persiapan Slime Energi,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Coba buatlah Energy Restoration Potion dan gunakan.,0,"2,50;3,50;1,50",213,0,158,Buatlah Ramuan Energi dan gunakanlah,100,1,,212,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Coba buatlah Energy Restoration Potion dan gunakan.,0,"2,50;3,50;1,50",213,0,158,Buatlah Ramuan Energi dan gunakanlah,0,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Ada sesuatu yang harus dilakukan setiap hari.,0,"2,50;3,50;1,50",214,0,158, Sesuatu yang harus dilakukan setiap hari,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Selesaikan dungeon harian.,0,"2,50;3,50;1,50",215,0,158, Menyelesaikan dungeon harian,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Tugas Token adalah salah satu sumber pendapatan utama. Menyelesaikan tugas-tugas ini akan memberi Anda hadiah token. Bicaralah dengan Haski untuk informasi lebih lanjut.,0,"2,50;3,50;1,50",216,0,158, Tentang Tugas Token,0,1,,214,,
