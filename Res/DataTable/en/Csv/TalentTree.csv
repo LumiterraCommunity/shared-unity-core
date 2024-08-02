@@ -245,10 +245,10 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 -3,Reduce the enemy's movement speed.,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,0,2,2584,0,71,2500
 -2,Reduce the enemy's movement speed.,338,1,talentTree-123,123,0,6,1,Escape - Enhance,0,2,2584,0,57,2500
 1,Increase crit damage to monsters by 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3,Expert,0,2,"2584,2584,2584",0,118,"2500,2500,2500"
--1,Drop bombs and deal high damage to enemies within the explosion range,487,0,talentTree-125,125,0,6,1,Explosion Art,0,2,2584,0,119,2500
+-1,Forward thrust,487,0,talentTree-125,125,0,6,1,Linear impact,0,2,2584,0,119,2500
 -3,Defeat a large area of enemies in front of you and cause temporary dizziness,459,0,talentTree-127,127,0,7,1,Sweeping,0,2,5169,0,122,3000
 -2,Reduce the enemy's movement speed.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,0,2,5169,0,123,3000
--1,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Explosion Art - Enhance,0,2,5169,0,125,3000
+-1,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Linear impact - Enhance,0,2,5169,0,125,3000
 1,Attack speed increased by 10/20/30%.,131;132;133,1,talentTree-130,130,0,7,3,Expert,0,2,"5169,5169,5169",0,124,"3000,3000,3000"
 2,Combat ATK +5,257,1,talentTree-131,131,0,6,1,Combat - Attack Power,0,2,2584,0,117,2500
 3,Combat DEF +5,263,1,talentTree-132,132,0,6,1,Combat - Defense,0,2,2584,0,116,2500
@@ -257,7 +257,7 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 3,Combat DEF +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,0,2,5169,0,132,3000
 4,Combat MaxHP +20,276,1,talentTree-136,136,0,7,1,Combat - HP,0,2,5169,0,133,3000
 -2,Deals multiple damage to nearby enemies,558,0,talentTree-139,139,0,8,1,Thunderstorm,0,2,11200,0,128,3500
--1,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Explosion Art - Enhance,0,2,11200,0,129,3500
+-1,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Linear impact - Enhance,0,2,11200,0,129,3500
 1,0.1/0.2/0.3% damage bonus per 1% health lost.,128;129;130,1,talentTree-141,141,0,8,3,Expert,0,2,"11200,11200,11200",0,130,"3500,3500,3500"
 2,Combat ATK +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,0,2,11200,0,134,3500
 3,Combat DEF +5,274,1,talentTree-143,143,0,8,1,Combat - Defense,0,2,11200,0,135,3500

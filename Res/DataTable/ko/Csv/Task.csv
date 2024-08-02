@@ -20,7 +20,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ," 사랑과 평화를 위해, 다음을 주세요.",0,"3,84",19,1,24, 수집,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 ," 사랑과 평화를 위해, 다음을 주세요.",0,"3,84",20,1,24, 수집,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","각 유형의 몬스터는 각자의 약점을 가지고 있습니다. 약점을 발동시키는 진행 상황은 HP 바 아래에 표시되며, 다른 몬스터마다 다른 발동 조건이 있습니다. 내가 알기로는, 피해를 입히거나 강한 타격을 가하거나 넉백시키는 것이 모두 몬스터의 약점을 발동시킬 수 있습니다. 일부 몬스터는 곡괭이를 사용하여 약점을 발동시킬 수도 있습니다. 체력 바 앞에 있는 몬스터 유형 아이콘은 약간의 힌트를 제공할 수 있습니다.
-건너를 도와 호박 박쥐를 처치하세요.",0,"2,280",21,0,12,신선한 시작,0,1,,,,
+건너를 도와 호박 박쥐를 처치하세요.",0,"2,280",21,0,12,신선한 시작,100,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", 나쉬를 찾아서 정보를 가져다 주세요.,0,"2,280",22,0,158, 지능,0,1,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," 키를 눌러 재능 트리 인터페이스를 엽니다.
 - 주요 분야 업그레이드를 선택하세요.
@@ -28,23 +28,21 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 - 스킬을 빠른 슬롯에 배치하세요.",0,"2,280",23,0,13, 도움의 손길,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}"," 밭에서 곡괭이로 흙을 풀고, 그 후에 씨앗을 풀어 풀린 흙에 뿌리세요.
 대나무 씨앗 5개, 트리폴리움 씨앗 5개, 당근 씨앗 5개를 밭에 심으세요.",0,"1,261",24,0,31, 갈아넣기와 씨앗 뿌리기,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}", 씨앗을 심은 후에는 성장할 때까지 인내심을 가지고 물을 세 번이나 네 번이나 주어야 합니다. 준비가 되면 가까이 가서 수확하세요. 그 후 Silas를 찾으세요. 그가 필요합니다.,0,"3,280",25,0,0, 참을성 있게 물 주기와 수확하기,0,2,,24,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}", 씨앗을 심은 후에는 성장할 때까지 인내심을 가지고 물을 세 번이나 네 번이나 주어야 합니다. 준비가 되면 가까이 가서 수확하세요. 그 후 Silas를 찾으세요. 그가 필요합니다.,0,"3,280",25,0,0, 참을성 있게 물 주기와 수확하기,100,2,,24,,
 "{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}", 수집 제작을 열고 수집 에센스를 정제하세요. 그 전에 충분한 재료를 얻어야 합니다.,0,"3,280",26,0,197, 전문가의 본질,0,1,,27,,
 "{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}", 수집 도구를 사용하여 다음 항목을 수집하세요:,0,"3,280",27,0,197, 수집하는 법 배우기,0,1,,23,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}"," Ordinary Wood와 Fibers, Stones를 얻어 Gather Essence를 만드세요. 그런 다음 Iron Pickaxe를 만들 수 있습니다.",0,"3,280",28,0,44, 철 곡괭이 만들기,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}"," 재능 트리를 업그레이드하고 장비를 만드는 방법을 배웠으니, 좀 더 고급 재료를 모아 보세요:
 Dark Iron Ore를 얻으세요.
 사막 나무를 얻으세요.
-얼음 모자를 얻으세요.",0,"3,280",29,0,0, 고급 수집 도전,100,2,,28,,
-"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}"," 최신 정보에 따르면:
-선인장 전사 - 방어력이 높으며, 강력한 공격으로 방어를 뚫을 수 있습니다.
-호박 괴물 - 원거리 기술을 소유하며, Trampling을 사용하면 원거리 기술을 사용할 수 없게 할 수 있습니다.",0,"2,280",30,0,40, 그들에게 교훈 가르치기,0,2,,217,,
+얼음 모자를 얻으세요.",0,"3,280",29,0,0, 고급 수집 도전,0,2,,28,,
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501}]}",,0,"2,280",30,0,40, 그들에게 교훈 가르치기,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}"," Combat Crafting에서 Stone Sword를 만들어 보세요. 강력한 무기는 전투에서 더 편안하게 만들어 줄 수 있습니다.
 그 전에 재능 트리에서 Stone Sword의 레시피를 잠금 해제해야 합니다.",0,"2,280",32,0,30, 돌 검 만들기,0,2,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}"," 재능 트리를 업그레이드하고 장비를 만드는 방법을 배웠으니, 더 강한 몬스터를 처치해 보세요:
 Buzz Buddy를 처치하세요.
 Mine Cat을 처치하세요.
-Leafy Lurker를 처치하세요.",0,"2,280",33,0,0, 고급 전투 도전,100,2,,32,,
+Leafy Lurker를 처치하세요.",0,"2,280",33,0,0, 고급 전투 도전,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}", 재능 트리를 열고 농사 트리로 전환하세요. 가장 오른쪽에 있는 Capture 스킬 노드를 업그레이드하세요.,0,"1,261",34,0,35, 포획 숙달하기,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}"," Metal mutt와 Pumpkin Fiend를 포획 기술을 사용하여 포획하세요.
 집으로 돌아가서 브러시를 사용하여 애완동물을 쓸어 모은 나사와 호박 싹을 얻으세요.",0,"1,261",162,0,34, 번식 배우기,0,2,,34,,
@@ -53,7 +51,7 @@ Terrance에서 낫을 만드세요.",0,"1,261",35,0,0, 철 괭이 만들기,0,2,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}"," 재능 트리를 업그레이드하고 장비를 만드는 방법을 배웠으니, 더 고급 씨앗을 심어 보세요:
 면 씨앗을 심으세요.
 물병식물 씨앗을 심으세요.
-지구력 과일 씨앗을 심으세요.",0,"1,261",36,0,0, 고급 농사 도전,100,2,,35,,
+지구력 과일 씨앗을 심으세요.",0,"1,261",36,0,0, 고급 농사 도전,0,2,,35,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}", 교환소에 가서 무언가를 구매하세요.,0,"1,117;2,117;3,117",37,0,0, 거래 1,0,2,,"33,29,36",,
 , 몬스터들이 난무하고 있습니다. 가서 처치하세요.,0,"2,84",38,1,138, 매일 Lv1 전투,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 , 몬스터들이 난무하고 있습니다. 가서 처치하세요.,0,"2,118",39,1,139, 매일 Lv2 전투,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -62,7 +60,7 @@ Terrance에서 낫을 만드세요.",0,"1,261",35,0,0, 철 괭이 만들기,0,2,
 , 처치하고 전리품을 가져오세요.,0,"2,118",42,1,139, 매일 Lv2 전투,0,,,,"{""options"":[{""optionType"":4,""value"":""9,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""33,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,1,200"",""guiderPoint"":0}]}",
 , 처치하고 전리품을 가져오세요.,0,"2,168",43,1,140, 매일 Lv3 전투,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}", 교환소에 가서 무언가를 구매하세요.,0,"1,117;2,117;3,117",44,0,0, 거래 2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}", Terrance는 아마도 마을에 있을 것입니다. 가서 그를 찾아가고 와이어 메쉬를 가져가세요.,0,"1,261",45,0,17, 농부 테런스,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}", Terrance는 아마도 마을에 있을 것입니다. 가서 그를 찾아가고 와이어 메쉬를 가져가세요.,0,"1,261",45,0,17, 농부 테런스,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}",빈칸,0,,46,0,0,캡처된 개를 가져와 출력합니다,0,2,,45,,
 , 이것들을 주세요.,0,"2,84",47,1,138, 매일-Lv1-전투,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
 , 이것들을 주세요.,0,"2,118",48,1,139, 매일-Lv2-전투,0,,,,"{""options"":[{""optionType"":1,""value"":""33,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,2,200"",""guiderPoint"":0}]}",
@@ -184,7 +182,7 @@ Terrance에서 낫을 만드세요.",0,"1,261",35,0,0, 철 괭이 만들기,0,2,
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}"," 다음 몬스터들을 처치하여 당신의 힘을 더욱 증명하세요. 완료 후, 투기장이 잠금 해제됩니다.",0,"2,84",166,0,0, 플라워 피크의 몬스터 처치,0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}"," 다음 몬스터들을 처치하여 당신의 힘을 더욱 증명하세요. 완료 후, 투기장이 잠금 해제됩니다.",0,"2,237",167,0,0, 플로팅 렐름의 몬스터 처치,0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}"," 다음 몬스터들을 처치하여 당신의 힘을 더욱 증명하세요. 완료 후, 투기장이 잠금 해제됩니다.",0,"2,672",168,0,0, 고대 도메인의 몬스터 처치,0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}", 이 아이템들을 제출하면 개인 투기장이 잠금 해제됩니다.,0,"2,84",169,0,0, 솔로이스트#1,0,2,,163,,
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}", 이 아이템들을 제출하면 개인 투기장이 잠금 해제됩니다.,0,"2,84",169,0,0, 솔로이스트#1,0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}", 이 아이템들을 제출하면 개인 투기장이 잠금 해제됩니다.,0,"2,237",170,0,0, 솔로이스트#2,0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}", 이 아이템들을 제출하면 개인 투기장이 잠금 해제됩니다.,0,"2,672",171,0,0, 솔로이스트#3,0,2,,165,,
 , 빈 공간,0,"2,672",172,1,144, 일일-전투-7,0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
@@ -229,7 +227,7 @@ Terrance에서 낫을 만드세요.",0,"1,261",35,0,0, 철 괭이 만들기,0,2,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}"," 루미 월드는 평화의 지역, 위험의 지역 및 혼돈의 지역으로 나뉩니다.
 지역의 가장자리를 살펴보고 익숙해지세요.",0,"2,50;3,50;1,50",211,0,0, 세계 지역의 분할,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",에너지 슬라임을 제작해 보세요.,0,"2,50;3,50;1,50",212,0,158, 에너지 슬라임 만들기,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", 에너지 회복 물약을 제작하고 사용해 보세요.,0,"2,50;3,50;1,50",213,0,158, 에너지 물약 만들고 사용하기,0,1,,212,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", 에너지 회복 물약을 제작하고 사용해 보세요.,0,"2,50;3,50;1,50",213,0,158, 에너지 물약 만들고 사용하기,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", 매일 할 일,0,"2,50;3,50;1,50",214,0,158, 매일 할 일,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}", 매일 던전을 완료하세요.,0,"2,50;3,50;1,50",215,0,158, 일일 던전 완료,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", 토큰 퀘스트는 주요 수입원 중 하나입니다. 이 퀘스트를 완료하면 토큰 보상을 받을 수 있습니다. 자세한 정보는 하스키에게 문의하세요.,0,"2,50;3,50;1,50",216,0,158, 토큰 퀘스트에 대해,0,1,,214,,
