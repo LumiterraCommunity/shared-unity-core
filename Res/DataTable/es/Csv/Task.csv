@@ -40,7 +40,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,"Por amor y paz, por favor, dame esto.
 ",0,"3,84",20,1,24,Coleccionando,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Cada tipo de monstruo tiene su propia debilidad. El progreso para activar la debilidad se muestra debajo de su barra de HP, y diferentes monstruos tienen diferentes condiciones para activarla. Hasta donde sé, infligir daño, golpear fuerte o hacer retroceder pueden activar el punto débil de un monstruo. Algunos monstruos incluso pueden tener sus puntos débiles activados usando un pico. El icono del tipo de monstruo frente a la barra de salud puede proporcionar algunas pistas.
-Ayuda a Gunner a matar a un Murciélago Calabaza.",0,"2,280",21,0,12,Nuevo comienzo,0,1,,,,
+Ayuda a Gunner a matar a un Murciélago Calabaza.",0,"2,280",21,0,12,Nuevo comienzo,100,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", Encuentra a Nash y llévale la información.,0,"2,280",22,0,158,Inteligencia,0,1,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," para abrir la interfaz de tu árbol de talentos.
 - selecciona mejorar la rama principal.
@@ -48,23 +48,24 @@ Ayuda a Gunner a matar a un Murciélago Calabaza.",0,"2,280",21,0,12,Nuevo comie
 - coloca la habilidad en la ranura rápida.",0,"2,280",23,0,13,Echar una mano,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Usa una azada para aflojar la tierra en el campo y luego usa semillas para sembrar en la tierra aflojada.
 Planta 5 Semillas de Bambú, 5 Semillas de Trébol y 5 Semillas de Zanahoria en el campo.",0,"1,261",24,0,31,Labrar y sembrar,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"3,280",25,0,0,Regar y cosechar con paciencia,0,2,,24,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Después de plantar las semillas, necesitan ser regadas pacientemente tres o cuatro veces antes de madurar. Una vez que estén listas, puedes acercarte a ellas para cosecharlas. Después de eso, ve a buscar a Silas. Él las necesita.",0,"3,280",25,0,0,Regar y cosechar con paciencia,100,2,,24,,
 "{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}"," Abre la elaboración de recolección y refina una Esencia de Recolección. Antes de eso, necesitas obtener suficientes materiales.",0,"3,280",26,0,197,Esencia de una profesión,0,1,,27,,
 "{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}", Usa tu herramienta de recolección para recoger esos objetos:,0,"3,280",27,0,197,Recolectar algunas cosas buenas,0,1,,23,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Obtén 5 Maderas Ordinarias y 5 Fibras para hacer un Pico de Hierro.,0,"3,280",28,0,44,Creando un pico de hierro,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta obtener algunos materiales más avanzados:
 Obtén un Mineral de Hierro Oscuro.
 Obtén un Árbol del Desierto.
-Obtén un Hongo de Gorro de Hielo.",0,"3,280",29,0,0,Desafío de recolección avanzada,100,2,,28,,
-"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","Basado en la última inteligencia:
-Guerreros Cactus: Tienen una alta defensa, usando ataques pesados se puede romper su defensa.
-Demonios Calabaza: Poseen habilidades a distancia, usando Pisoteo se les impide usar habilidades a distancia.",0,"2,280",30,0,40,Darles una lección,0,2,,217,,
+Obtén un Hongo de Gorro de Hielo.",0,"3,280",29,0,0,Desafío de recolección avanzada,0,2,,28,,
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501}]}","Basado en la última inteligencia:
+Metal Mutt - Posee un alto poder de ataque. Infligir suficiente daño reducirá su deseo de atacar.
+Cactus Warriors - Tiene una alta defensa, usando ataques pesados se puede romper su defensa.
+Pumpkin Fiends - Poseen habilidades a distancia, usando Trampling pueden hacer que no puedan usar habilidades a distancia.",0,"2,280",30,0,40,Darles una lección,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}","Intenta hacer una Espada de Piedra en la Artesanía de Combate, armas más fuertes te harán sentir más relajado en la batalla.
 Antes de eso, necesitas desbloquear la receta de la Espada de Piedra en el árbol de talentos.",0,"2,280",32,0,30,Creando una espada de piedra,0,2,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta derrotar a monstruos más fuertes:
 Mata a un Amigo Zumbador.
 Mata a un Gato Minero.
-Mata a un Acechador Hojoso.",0,"2,280",33,0,0,Desafío de combate avanzado,100,2,,32,,
+Mata a un Acechador Hojoso.",0,"2,280",33,0,0,Desafío de combate avanzado,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Abre tu árbol de talentos y cambia al árbol de agricultura. Mejora tu habilidad de Captura en el nodo más a la derecha.,0,"1,261",34,0,35,Dominar la captura,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","Captura a Metal Mutt y Pumpkin Fiend usando habilidades de captura.
 Regresa a casa y usa un cepillo para acariciar a tu mascota y obtener suficientes tornillos y brotes de calabaza.
@@ -74,7 +75,7 @@ Regresa a casa y usa un cepillo para acariciar a tu mascota y obtener suficiente
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","Has aprendido cómo mejorar el árbol de talentos y hacer equipo, intenta plantar semillas más avanzadas:
 Planta semillas de Algodón.
 Planta semillas de Planta Jarra.
-Planta semillas de Fruta de Resistencia.",0,"1,261",36,0,0,Desafío de agricultura avanzada,100,2,,35,,
+Planta semillas de Fruta de Resistencia.",0,"1,261",36,0,0,Desafío de agricultura avanzada,0,2,,35,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Ve a la tienda y compra algo.,0,"1,117;2,117;3,117",37,0,0,Transacción 1,0,2,,"33,29,36",,
 ,Los monstruos están desenfrenados. Ve y extermina a ellos.,0,"2,84",38,1,138,Batalla diaria - Nivel 1,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,Los monstruos están desenfrenados. Ve y extermina a ellos.,0,"2,118",39,1,139,Batalla diaria - Nivel 2,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -83,7 +84,7 @@ Planta semillas de Fruta de Resistencia.",0,"1,261",36,0,0,Desafío de agricultu
 ,Cázalos y trae de vuelta algo de botín.,0,"2,118",42,1,139,Batalla diaria - Nivel 2,0,,,,"{""options"":[{""optionType"":4,""value"":""9,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""33,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,1,200"",""guiderPoint"":0}]}",
 ,Cázalos y trae de vuelta algo de botín,0,"2,168",43,1,140,Batalla diaria - Nivel 3,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Ve a la tienda y compra algo.,0,"1,117;2,117;3,117",44,0,0,Transacción 2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Terrance probablemente esté en la ciudad, vamos a buscarlo y llevarle una malla de alambre.",0,"1,261",45,0,17,Granjero Terrance,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}","Terrance probablemente esté en la ciudad, vamos a buscarlo y llevarle una malla de alambre.",0,"1,261",45,0,17,Granjero Terrance,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}"," Vacío
 ",0,,46,0,0,Capturar perros y producir,0,2,,45,,
 ,Dame esto.,0,"2,84",47,1,138,Batalla diaria - Nivel 1,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
@@ -236,7 +237,7 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Demuestra aún más tu fuerza matando a los siguientes monstruos. Después de completarlo, se desbloqueará la arena.
 ",0,"2,672",168,0,0,"Matar monstruos en el Dominio Antiguo 
 ",0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Entrega estos objetos y se desbloqueará la arena individual.
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}","Entrega estos objetos y se desbloqueará la arena individual.
 ",0,"2,84",169,0,0,"Solista #1
 ",0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","Entrega estos objetos y se desbloqueará la arena individual.
@@ -298,7 +299,7 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","El mundo de Lumi se divide en tres zonas: zonas de paz, zonas de peligro y zonas de caos. 
 Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;3,50;1,50",211,0,0, División de regiones del mundo,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Intenta crear un Slime de Energía.,0,"2,50;3,50;1,50",212,0,158, Preparación de Slime de energía,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Intenta crear una Poción de Restauración de Energía y úsala.,0,"2,50;3,50;1,50",213,0,158,Crea una Poción de Energía y úsala,0,1,,212,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Intenta crear una Poción de Restauración de Energía y úsala.,0,"2,50;3,50;1,50",213,0,158,Crea una Poción de Energía y úsala,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Algo que hacer todos los días.,0,"2,50;3,50;1,50",214,0,158, Algo que hacer todos los días,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Completa una mazmorra diaria.,0,"2,50;3,50;1,50",215,0,158, Completar una mazmorra diaria,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Las Tareas de Token son una de las principales fuentes de ingresos. Completar estas tareas te dará recompensas en tokens. Habla con Haski para obtener más información.,0,"2,50;3,50;1,50",216,0,158, Acerca de las tareas de fichas,0,1,,214,,
