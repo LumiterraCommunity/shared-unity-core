@@ -10,6 +10,7 @@ using Cysharp.Threading.Tasks;
 using GameFramework.Fsm;
 using GameMessageCore;
 using UnityEngine;
+using UnityGameFramework.Runtime;
 
 /// <summary>
 /// 死亡状态通用状态基类
@@ -27,6 +28,7 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
     {
         base.OnEnter(fsm);
 
+        Log.Info($"Entity:{StatusCtrl.RefEntity.BaseData.Id} Enter DeathStatusCore");
 
         //非灵魂状态开始死亡
         if (!RefEntityIsSoul())
@@ -55,6 +57,8 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
 
     protected override void OnLeave(IFsm<EntityStatusCtrl> fsm, bool isShutdown)
     {
+        Log.Info($"Entity:{StatusCtrl.RefEntity?.BaseData?.Id} Leave DeathStatusCore");
+
         CancelTimeDeath();
 
         if (IsStopGravityDeath)
