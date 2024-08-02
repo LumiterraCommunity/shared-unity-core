@@ -8,6 +8,7 @@ using UnityGameFramework.Runtime;
 public static class MapUtilCore
 {
     private const float HALF_FLOAT_MAX = float.MaxValue / 2;
+    public static Collider[] OverlapColliderArray = new Collider[10];
 
     /// <summary>
     /// 和地面交点
@@ -91,5 +92,29 @@ public static class MapUtilCore
     public static string SceneNameC2S(string sceneName)
     {
         return $"{sceneName}Server";
+    }
+
+    /// <summary>
+    /// 获取一个有效的资源空地点，如果找不到返回null
+    /// </summary> 
+    /// <param name="pos">中心点</param>
+    /// <param name="distance">向下距离</param> 
+    /// <param name="maxError">最大误差</param>
+    public static Vector3? GetValidEmptyAreaPos(Vector3 pos, float distance, float maxError)
+    {
+        _ = SamplePosOnTerrain(pos, out Vector3 terrainPos, distance);
+        if (SampleTerrainWalkablePos(terrainPos, out Vector3 walkablePos, maxError))
+        {
+            //检测是否在遮挡物里面, 创建一个半径为0.1f的球体检测碰撞，向上偏移0.5f，防止接触到地面
+            Vector3 checkPos = new(walkablePos.x, walkablePos.y + 0.5f, walkablePos.z);
+            int terrainNum = Physics.OverlapSphereNonAlloc(checkPos, 0.1f, OverlapColliderArray, MLayerMask.MASK_SCENE_OBSTRUCTION | (1 << MLayerMask.WATER), QueryTriggerInteraction.Ignore);
+            //有碰撞体，说明有遮挡物
+            if (terrainNum > 0)
+            {
+                return null;
+            }
+            return walkablePos;
+        }
+        return null;
     }
 }

@@ -37,7 +37,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ," Canavarlar hızla yayılıyor. Onları yok etmek için gidin.
 ",0,"3,84",20,1,24, Toplama,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Her bir canavarın kendi zayıf noktası vardır. Zayıf noktanın tetiklenme ilerlemesi, HP çubuğunun altında gösterilir ve farklı canavarların farklı tetikleme koşulları vardır. Bildiğim kadarıyla, hasar vermek, ağır vuruş veya geri itme, bir canavarın zayıf noktasını tetikleyebilir. Bazı canavarlar, zayıf noktaları kazma kullanarak bile tetiklenebilir. Sağlık çubuğunun önündeki canavar türü simgesi bazı ipuçları sağlayabilir.
-Gunner'a bir Kabak Yarasası öldürmesinde yardım edin.",0,"2,280",21,0,12,Yeniden Başla,100,1,,,,
+Gunner'a bir Kabak Yarasası öldürmesinde yardım edin.",0,"2,280",21,0,12,Yeniden Başla,0,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", Nash'i bulun ve istihbaratı ona getirin.,0,"2,280",22,0,158, Zeka,0,1,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," tuşuna basın
 - ana dalı yükseltmek için seçin
@@ -45,16 +45,15 @@ Gunner'a bir Kabak Yarasası öldürmesinde yardım edin.",0,"2,280",21,0,12,Yen
 - yeteneği hızlı yuvaya yerleştirin",0,"2,280",23,0,13, Yardım Et,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}"," Tarlayı gevşetmek için bir çapa kullanın ve sonra gevşetilmiş toprağa tohum ekleyin.
 Tarlaya 5 Bambu Tohumu, 5 Yonca Tohumu ve 5 Havuç Tohumu ekleyin.",0,"1,261",24,0,31, Çapalama ve Ekim,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}"," Tohumları ektikten sonra, olgunlaşmaları için sabırla üç veya dört kez sulanmaları gerekmektedir. Hazır olduklarında, onlara yaklaşarak hasat edebilirsiniz. Sonra Silas'ı bulun. Onlara ihtiyacı var.",0,"3,280",25,0,0, Sabırlı Sulama ve Hasat,100,2,,24,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}"," Tohumları ektikten sonra, olgunlaşmaları için sabırla üç veya dört kez sulanmaları gerekmektedir. Hazır olduklarında, onlara yaklaşarak hasat edebilirsiniz. Sonra Silas'ı bulun. Onlara ihtiyacı var.",0,"3,280",25,0,0, Sabırlı Sulama ve Hasat,0,2,,24,,
 "{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}", Toplama Elde Etme'yi açın ve bir Toplama Özü rafine edin. Bunun için yeterli malzemeyi elde etmeniz gerekmektedir.,0,"3,280",26,0,197, Bir Mesleğin Özü,0,1,,27,,
 "{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}", Toplama aracınızı kullanarak bu öğeleri toplayın:,0,"3,280",27,0,197, Toplamayı Öğren,0,1,,23,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}"," Normal Ahşap, Bitki Lifleri ve Taşlar alarak Toplama Özleri yapın. Ardından bir Demir Kazma yapabilirsiniz.",0,"3,280",28,0,44, Demir Kazma Yapımı,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}"," Yetenek ağacını yükseltmeyi ve ekipman yapmayı öğrendiniz, daha ileri seviye malzemeler toplamayı deneyin:
 Koyu Demir Cevheri alın.
 Çöl Ağacı alın.
-Buz Şapkası Mantarı alın.",0,"3,280",29,0,0, Gelişmiş Toplama Meydan Okuması,0,2,,28,,
-"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501}]}","Son istihbarata dayanarak:
-Metal Mutt - Yüksek saldırı gücüne sahiptir. Üzerine yeterli hasar vermek saldırı isteğini azaltır.
+Buz Şapkası Mantarı alın.",0,"3,280",29,0,0, Gelişmiş Toplama Meydan Okuması,100,2,,28,,
+"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}"," En son istihbaratlara dayanarak:
 Kaktüs Savaşçıları - Yüksek savunmaya sahiptir, ağır saldırılarla savunmasını kırabilirsiniz.
 Kabak Canavarları - Uzaktan yeteneklere sahiptir, Ezmek kullanarak uzaktan yeteneklerini kullanamaz hale getirebilirsiniz.",0,"2,280",30,0,40, Onlara Ders Ver,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}"," Savaş Yapma arayüzünde Taş Kılıç yapmayı deneyin, daha güçlü silahlar savaşta daha rahat hissetmenizi sağlar.
@@ -62,7 +61,7 @@ Bunun için yetenek ağacında Taş Kılıç reçetesini açmanız gerekiyor.",0
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}"," Yetenek ağacını yükseltmeyi ve ekipman yapmayı öğrendiniz, daha güçlü canavarları yenmeyi deneyin:
 Bir Vızıldayan Arkadaş öldürün.
 Bir Maden Kedisi öldürün.
-Bir Yapraklı Gizleyici öldürün.",0,"2,280",33,0,0, Gelişmiş Savaş Meydan Okuması,0,2,,32,,
+Bir Yapraklı Gizleyici öldürün.",0,"2,280",33,0,0, Gelişmiş Savaş Meydan Okuması,100,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}", Yetenek ağacınızı açın ve tarım ağacına geçin. Sağ taraftaki Yakalama yeteneği düğümünü yükseltin.,0,"1,261",34,0,35, Yakalama Yeteneğini Ustalaştır,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}", Boş,0,"1,261",162,0,34, Üreme öğren ,0,2,,34,,
 "{""options"":[{""optionType"":15,""value"":""78,1"",""guiderPoint"":0},{""optionType"":3,""value"":""80,1"",""guiderPoint"":0}]}"," Tarım yetenek ağacının ilk sütun düğümünü yükselterek reçeteleri açın.
@@ -70,7 +69,7 @@ Terrance'tan bir çapa yapın.",0,"1,261",35,0,0, Demir Çapa Yapımı,0,2,,162,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}"," Yetenek ağacını yükseltmeyi ve ekipman yapmayı öğrendiniz, daha ileri seviye tohumlar ekmeyi deneyin:
 Pamuk tohumları ekleyin.
 Sürahi Bitkisi tohumları ekleyin.
-Dayanıklılık Meyvesi tohumları ekleyin.",0,"1,261",36,0,0, Gelişmiş Tarım Meydan Okuması,0,2,,35,,
+Dayanıklılık Meyvesi tohumları ekleyin.",0,"1,261",36,0,0, Gelişmiş Tarım Meydan Okuması,100,2,,35,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}", Borsaya gidin ve bir şeyler satın alın.,0,"1,117;2,117;3,117",37,0,0, İşlem 1,0,2,,"33,29,36",,
 ," Onları avlayın ve bazı eşyalar getirin.
 ",0,"2,84",38,1,138, Günlük-Lv1-Savaş,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
@@ -85,7 +84,7 @@ Dayanıklılık Meyvesi tohumları ekleyin.",0,"1,261",36,0,0, Gelişmiş Tarım
 ," Bana bunları verin.
 ",0,"2,168",43,1,140, Günlük-Lv3-Savaş,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}", Borsaya gidin ve bir şeyler satın alın.,0,"1,117;2,117;3,117",44,0,0, İşlem 2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}"," Terrance muhtemelen kasabada, hadi onu bulalım ve ona tel örgü getirelim.",0,"1,261",45,0,17, Çiftçi Terrance,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}"," Terrance muhtemelen kasabada, hadi onu bulalım ve ona tel örgü getirelim.",0,"1,261",45,0,17, Çiftçi Terrance,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}",Boş,0,,46,0,0,Capture can dog and output ,0,2,,45,,
 , Bana bunları ver.,0,"2,84",47,1,138, Günlük-Lv1-Savaş ,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
 , Bana bunları ver.,0,"2,118",48,1,139, Günlük-Lv2-Savaş ,0,,,,"{""options"":[{""optionType"":1,""value"":""33,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,2,200"",""guiderPoint"":0}]}",
@@ -208,7 +207,7 @@ Görevi tamamladıktan sonra özel deneme alanı olan Yüzen Diyar açılacak.",
 Görevi tamamladıktan sonra özel deneme alanı olan Eski Bölge açılacak.",0,"2,84",166,0,0, Çiçek Zirvesi Canavarını öldür ,0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}", Aşağıdaki canavarları öldürerek gücünüzü daha da kanıtlayın. Tamamlandıktan sonra arena açılacak.,0,"2,237",167,0,0, Yüzen Diyar Canavarını öldür ,0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}", Aşağıdaki canavarları öldürerek gücünüzü daha da kanıtlayın. Tamamlandıktan sonra arena açılacak.,0,"2,672",168,0,0, Antik Bölge Canavarını öldür ,0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}", Aşağıdaki canavarları öldürerek gücünüzü daha da kanıtlayın. Tamamlandıktan sonra arena açılacak.,0,"2,84",169,0,0, Soloist#1 ,0,2,,163,,
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}", Aşağıdaki canavarları öldürerek gücünüzü daha da kanıtlayın. Tamamlandıktan sonra arena açılacak.,0,"2,84",169,0,0, Soloist#1 ,0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}"," Bu eşyaları teslim ederek, tek kişilik arena açılacak.",0,"2,237",170,0,0, Soloist#2 ,0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}"," Bu eşyaları teslim ederek, tek kişilik arena açılacak.",0,"2,672",171,0,0, Soloist#3 ,0,2,,165,,
 ," Bu eşyaları teslim ederek, tek kişilik arena açılacak.",0,"2,672",172,1,144, Günlük-Savaş-7 ,0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
@@ -253,7 +252,7 @@ Görevi tamamladıktan sonra özel deneme alanı olan Eski Bölge açılacak.",0
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}"," Lumi dünyası üç bölgeye ayrılmıştır: barış bölgeleri, tehlike bölgeleri ve kaos bölgeleri.
 Bölgenin kenarına gidip bir göz atın, onunla tanışın.",0,"2,50;3,50;1,50",211,0,0, Dünya bölgelerinin bölünmesi,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}", Bir Enerji Sümüklüböceği yapmayı deneyin.,0,"2,50;3,50;1,50",212,0,158, Bir Enerji Sümüklüböceği Yap,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Bir Enerji Restorasyon İksiri yapmayı deneyin ve kullanın.,0,"2,50;3,50;1,50",213,0,158, Bir Enerji İksiri Yap ve Kullan,100,1,,212,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", Bir Enerji Restorasyon İksiri yapmayı deneyin ve kullanın.,0,"2,50;3,50;1,50",213,0,158, Bir Enerji İksiri Yap ve Kullan,0,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Her gün yapılacak bir şey,0,"2,50;3,50;1,50",214,0,158, Her Gün Yapılacak Bir Şey,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}", Günlük bir zindanı tamamlayın,0,"2,50;3,50;1,50",215,0,158, Günlük bir zindanı tamamla,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Token Görevleri gelirin ana kaynaklarından biridir. Bu görevleri tamamlamak size token ödülleri kazandıracaktır. Daha fazla bilgi için Haski ile konuşun.,0,"2,50;3,50;1,50",216,0,158, Jeton Görevleri Hakkında,0,1,,214,,
