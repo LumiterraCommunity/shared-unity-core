@@ -87,6 +87,15 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取dropResourcesArea-int。*/
+    /// </summary>
+    public int DropResourcesArea
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取exp-int。*/
     /// </summary>
     public int Exp
@@ -135,6 +144,15 @@ public class DRMonster : DataRowBase
   /**获取initialAttribute-int[][]。*/
     /// </summary>
     public int[][] InitialAttribute
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取isGlobal-int。*/
+    /// </summary>
+    public int IsGlobal
     {
         get;
         private set;
@@ -242,6 +260,7 @@ public class DRMonster : DataRowBase
         CombatDist = DataTableParseUtil.ParseInt(columnStrings[index++]);
         CombatPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        DropResourcesArea = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FarmPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         FavoriteItem = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -249,6 +268,7 @@ public class DRMonster : DataRowBase
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        IsGlobal = DataTableParseUtil.ParseInt(columnStrings[index++]);
         LockEnemyRange = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -277,6 +297,7 @@ public class DRMonster : DataRowBase
                 CombatDist = binaryReader.Read7BitEncodedInt32();
                 CombatPotentiality = binaryReader.ReadArray<Int32>();
                 Desc = binaryReader.ReadString();
+                DropResourcesArea = binaryReader.Read7BitEncodedInt32();
                 Exp = binaryReader.Read7BitEncodedInt32();
                 FarmPotentiality = binaryReader.ReadArray<Int32>();
                 FavoriteItem = binaryReader.ReadArray<Int32>();
@@ -284,6 +305,7 @@ public class DRMonster : DataRowBase
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
+                IsGlobal = binaryReader.Read7BitEncodedInt32();
                 LockEnemyRange = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 ProgressScore = binaryReader.Read7BitEncodedInt32();

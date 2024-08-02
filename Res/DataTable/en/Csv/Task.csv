@@ -40,7 +40,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,"For love and peace, please give me these.
 ",0,"3,84",20,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","Each type of monster has its own weakness. The progress of triggering the weakness is shown below its HP bar, and different monsters have different triggering conditions. As far as I know, dealing damage, heavy hit, or knocked back can all trigger a monster's weak point. Some monsters can even have their weak points triggered using a pickaxe. The monster type icon in front of the health bar might provide some hints.
-Help Gunner to kill a Pumpkin Bat.",0,"2,280",21,0,12,Fresh Start,0,1,,,,
+Help Gunner to kill a Pumpkin Bat.",0,"2,280",21,0,12,Fresh Start,100,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}",Find Nash and bring the intelligence to him.,0,"2,280",22,0,158,Intelligence,0,1,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- Press [Esc] to open your talent tree interface 
 - select upgrade main branch 
@@ -48,15 +48,16 @@ Help Gunner to kill a Pumpkin Bat.",0,"2,280",21,0,12,Fresh Start,0,1,,,,
 - place the skill in the quick slot",0,"2,280",23,0,13,Lend a Hand,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Use a hoe to loosen the soil in the field, and then use seeds to sow on the loosened soil.
 Plant 5 Bamboo Seeds, 5 Trifoliums Seeds, and 5 Carrots Seeds in field.",0,"1,261",24,0,31,Hoeing and Seeding,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","After planting the seeds, they need to be watered patiently three or four times before they mature. Once they are ready, you can approach it to harvest them. After that, go find Silas. He needs those.",0,"3,280",25,0,0,Patient Watering and Harvesting,0,2,,24,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","After planting the seeds, they need to be watered patiently three or four times before they mature. Once they are ready, you can approach it to harvest them. After that, go find Silas. He needs those.",0,"3,280",25,0,0,Patient Watering and Harvesting,100,2,,24,,
 "{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}","Open the Gather Crafting and refine a Gather Essence. Before that, you need to obtain enough materials.",0,"3,280",26,0,197,Essence of a Profession,0,1,,27,,
 "{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}",Use your gather tool to collect those items:,0,"3,280",27,0,197,Learn to Gather,0,1,,23,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Get Ordinary Wood and Fibers and Stones to make Gather Essences. Than you can make an Iron Pickaxe.,0,"3,280",28,0,44,Crafting an Iron Pickaxe,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","You have learned how to upgrade the talent tree and make equipment, try to gather some more advanced materials:
 Get a Dark Iron Ore.
 Get a Desert Tree.
-Get an Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,100,2,,28,,
-"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","Based on the latest intelligence:
+Get an Ice Cap Mushroom.",0,"3,280",29,0,0,Advanced Gather Challenge,0,2,,28,,
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501}]}","Based on the latest intelligence:
+Metal Mutt - Possesses high attack power. Inflicting enough damage on it will reduce its attack desire.
 Cactus Warriors - Has high defense, using heavy attacks can break through its defense.
 Pumpkin Fiends - Possess remote skills, using Trampling can make it unable to use remote skills.",0,"2,280",30,0,40,Teach Them a Lesson,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}","Try making a Stone Sword in Combat Crafting, stronger weapons can make you more relaxed in battle.
@@ -64,7 +65,7 @@ Before that, you need to unlock the recipe for Stone Sword in the talent tree.",
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","You have learned how to upgrade the talent tree and make equipment, try to defeat stronger monsters:
 Kill a Buzz Buddy.
 Kill a Mine Cat.
-Kill a Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,100,2,,32,,
+Kill a Leafy Lurker.",0,"2,280",33,0,0,Advanced Combat Challenge,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",Open your talent tree and switch to the farming tree. Upgrade your Capture skill node on the far right.,0,"1,261",34,0,35,Master the Capture,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","Capture Metal mutt and Pumpkin Fiend through capture skills.
 Return home and use a brush to stroke your pet to obtain enough screws and pumpkin sprouts.",0,"1,261",162,0,34,Learn to breed,0,2,,34,,
@@ -73,7 +74,7 @@ Make a hoe at Terrance.",0,"1,261",35,0,0,Crafting an Iron Hoe,0,2,,162,,
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","You have learned how to upgrade the talent tree and make equipment, try to plant more advanced seeds:
 Plant Cotton seeds.
 Plant Pitcher Plant seeds.
-Plant Endurance Fruit seeds.",0,"1,261",36,0,0,Advanced Farming Challenge,100,2,,35,,
+Plant Endurance Fruit seeds.",0,"1,261",36,0,0,Advanced Farming Challenge,0,2,,35,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Go to the exchange and buy something.,0,"1,117;2,117;3,117",37,0,0,Transaction 1,0,2,,"33,29,36",,
 ,Monsters are running rampant. Go and exterminate them.,0,"2,84",38,1,138,Daily-Lv1-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,Monsters are running rampant. Go and exterminate them.,0,"2,118",39,1,139,Daily-Lv2-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -82,7 +83,7 @@ Plant Endurance Fruit seeds.",0,"1,261",36,0,0,Advanced Farming Challenge,100,2,
 ,Hunt them down and bring back some loot.,0,"2,118",42,1,139,Daily-Lv2-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""9,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""33,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,1,200"",""guiderPoint"":0}]}",
 ,Hunt them down and bring back some loot,0,"2,168",43,1,140,Daily-Lv3-Battle,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",Go to the exchange and buy something.,0,"1,117;2,117;3,117",44,0,0,Transaction 2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Terrance is probably in the town, let's go and look for him and bring some wire mesh for him.",0,"1,261",45,0,17,Farmer Terrance,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}","Terrance is probably in the town, let's go and look for him and bring some wire mesh for him.",0,"1,261",45,0,17,Farmer Terrance,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}",,0,,46,0,0,Capture can dog and output,0,2,,45,,
 ,Give me these.,0,"2,84",47,1,138,Daily-Lv1-Battle,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
 ,Give me these.,0,"2,118",48,1,139,Daily-Lv2-Battle,0,,,,"{""options"":[{""optionType"":1,""value"":""33,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,2,200"",""guiderPoint"":0}]}",
@@ -204,7 +205,7 @@ After completing the task, the special trial field will be unlocked-Ancient Doma
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}","Further prove your strength by killing the following monsters. After completion, the arena will be unlocked.",0,"2,84",166,0,0,Kill Flower Peak's Monster,0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}","Further prove your strength by killing the following monsters. After completion, the arena will be unlocked.",0,"2,237",167,0,0,Kill Floating Realm's Monster,0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}","Further prove your strength by killing the following monsters. After completion, the arena will be unlocked.",0,"2,672",168,0,0,Kill Ancient Domain's Monster,0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}","Turn in there items, the solo arena will be unlocked.",0,"2,84",169,0,0,Soloist#1,0,2,,163,,
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}","Turn in there items, the solo arena will be unlocked.",0,"2,84",169,0,0,Soloist#1,0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}","Turn in there items, the solo arena will be unlocked.",0,"2,237",170,0,0,Soloist#2,0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}","Turn in there items, the solo arena will be unlocked.",0,"2,672",171,0,0,Soloist#3,0,2,,165,,
 ,,0,"2,672",172,1,144,Daily-Combat-7,0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
@@ -249,7 +250,7 @@ After completing the task, the special trial field will be unlocked-Ancient Doma
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","The lumi world is divided into three zones: zones of peace, zones of danger, and zones of chaos. 
 Go take a look at the edge of the region, get familiar with it.",0,"2,50;3,50;1,50",211,0,0,Division of world regions,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Try to craft an Energy Slime.,0,"2,50;3,50;1,50",212,0,158,Craft an energy Slime,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}",Try to craft an Energy Restoration Potion and use it.,0,"2,50;3,50;1,50",213,0,158,Craft an Energy Potion and use it,0,1,,212,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}",Try to craft an Energy Restoration Potion and use it.,0,"2,50;3,50;1,50",213,0,158,Craft an Energy Potion and use it,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}",Something to do every day,0,"2,50;3,50;1,50",214,0,158,Something to do every day,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,158,Complete a daily dungeon,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}",Token Task are one of the main sources of income. Completing these Tasks will earn you token rewards. Talk to Haski for more informations.,0,"2,50;3,50;1,50",216,0,158,About the Token Tasks,0,1,,214,,

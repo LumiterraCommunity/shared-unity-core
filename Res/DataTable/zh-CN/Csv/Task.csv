@@ -20,7 +20,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,为了爱与和平，请给我这些。,0,"3,84",19,1,24,收集,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 ,为了爱与和平，请给我这些。,0,"3,84",20,1,24,收集,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":4,""value"":""111,1"",""guiderPoint"":30107}]}","每种怪物都有自己的弱点。触发弱点的进度显示在怪物的血条下方，不同的怪物有不同的触发条件。据我所知，造成伤害、重击或击退都可以触发怪物的弱点。有些怪物甚至可以使用镐子触发它们的弱点。血条前面的怪物类型图标可能会提供一些提示。
-帮助刚纳尔杀死一个南瓜蝙蝠。",0,"2,280",21,0,12,初来乍到,0,1,,,,
+帮助刚纳尔杀死一个南瓜蝙蝠。",0,"2,280",21,0,12,初来乍到,100,1,,,,
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}", 找到纳什并把情报带给他。,0,"2,280",22,0,158,情报,0,1,,21,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}"," - 按[Esc]键打开天赋树界面
 - 选择升级主分支
@@ -28,7 +28,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 - 把技能放在快捷栏上",0,"2,280",23,0,13,帮忙,0,1,,22,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","使用锄头松土，然后在松土的土壤上播种种子。
 在田地里种植5颗竹子种子，5颗三叶草种子和5颗胡萝卜种子。",0,"1,261",24,0,31,锄地和播种,0,2,,45,,
-"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}",在种下种子之后，需要耐心地浇水三到四次，直到它们成熟。一旦它们准备好了，你可以靠近它们进行收获。之后，去找西拉斯。他需要那些东西。,0,"3,280",25,0,0,耐心浇灌和收获,0,2,,24,,
+"{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}",在种下种子之后，需要耐心地浇水三到四次，直到它们成熟。一旦它们准备好了，你可以靠近它们进行收获。之后，去找西拉斯。他需要那些东西。,0,"3,280",25,0,0,耐心浇灌和收获,100,2,,24,,
 "{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}", 打开采集合成界面，提炼一瓶采集精华。在此之前，你需要获得足够的材料。,0,"3,280",26,0,197,学会合成,0,1,,27,,
 "{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}", 使用你的采集工具收集这些物品：,0,"3,280",27,0,197,学会采集,0,1,,23,,
 "{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}","获得足够的普通木材
@@ -41,15 +41,16 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","你已经学会了如何升级天赋树和制作装备，尝试收集一些更高级的材料：
 获取一块黑铁矿石。
 获取一棵沙漠树。
-获取一个冰原菇。",0,"3,280",29,0,0,更高级的挑战,100,2,,28,,
-"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}","根据最新情报：
+获取一个冰原菇。",0,"3,280",29,0,0,更高级的挑战,0,2,,28,,
+"{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501}]}","根据最新情报：
+金属狗 - 拥有高额攻击力。对它造成足够伤害后会降低他的攻击欲望。
 仙人掌战士 - 具有很高的防御力，使用重型攻击可以突破它的防御。
 南瓜恶魔 - 拥有远程技能，使用践踏技能可以使其无法使用远程技能。",0,"2,280",30,0,40,教训一下他们,0,2,,217,,
 "{""options"":[{""optionType"":15,""value"":""95,1"",""guiderPoint"":0},{""optionType"":3,""value"":""40,1"",""guiderPoint"":0}]}",尝试在战斗制作中制作一把石剑，更强大的武器可以让你在战斗中更加轻松。在此之前，你需要在天赋树中解锁石剑的配方。,0,"2,280",32,0,30,制作一把石剑,0,2,,30,,
 "{""options"":[{""optionType"":4,""value"":""10,1"",""guiderPoint"":20103},{""optionType"":4,""value"":""9,1"",""guiderPoint"":20203},{""optionType"":4,""value"":""11,1"",""guiderPoint"":20102}]}","你已经学会了如何升级天赋树和制作装备，尝试击败更强大的怪物：
 击败一只嗡嗡蜂。
 击败一只矿矿猫。
-击败一只叶状潜伏者。",0,"2,280",33,0,0,更高级的挑战,100,2,,32,,
+击败一只叶状潜伏者。",0,"2,280",33,0,0,更高级的挑战,0,2,,32,,
 "{""options"":[{""optionType"":15,""value"":""13,1"",""guiderPoint"":0},{""optionType"":15,""value"":""254,1"",""guiderPoint"":0}]}",打开你的天赋树并切换到农业树。在最右边升级你的捕捉技能节点。,0,"1,261",34,0,35,学会捕捉技能,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0},{""optionType"":3,""value"":""177,1"",""guiderPoint"":0}]}","通过捕捉技能捕捉Metal mutt和Pumpkin Fiend
 回到家园使用刷子抚摸你的宠物，获取足够的螺丝和南瓜嫩芽",0,"1,261",162,0,34,学会畜牧,0,2,,34,,
@@ -58,7 +59,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":2,""value"":""150,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""149,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""151,1"",""guiderPoint"":3601}]}","你已经学会了如何升级天赋树和制作装备，试着种植更高级的种子吧：
 种植棉花种子。
 种植猪笼草种子。
-种植忍耐果实种子。",0,"1,261",36,0,0,更高级的挑战,100,2,,35,,
+种植忍耐果实种子。",0,"1,261",36,0,0,更高级的挑战,0,2,,35,,
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所买点东西。,0,"1,117;2,117;3,117",37,0,0,交易1,0,2,,"33,29,36",,
 ,怪物正在肆虐。去消灭它们吧。,0,"2,84",38,1,138,日常-战斗-1,0,,,,"{""options"":[{""optionType"":4,""value"":""6,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""8,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""7,2,100"",""guiderPoint"":0}]}",
 ,怪物正在肆虐。去消灭它们吧。,0,"2,118",39,1,139,日常-战斗-2,0,,,,"{""options"":[{""optionType"":4,""value"":""9,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,2,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,2,100"",""guiderPoint"":0}]}",
@@ -67,7 +68,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ,追捕它们并带回一些战利品。,0,"2,118",42,1,139,日常-战斗-2,0,,,,"{""options"":[{""optionType"":4,""value"":""9,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""11,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""10,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""33,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,1,200"",""guiderPoint"":0}]}",
 ,追捕他们并带回一些战利品。,0,"2,168",43,1,140,日常-战斗-3,0,,,,"{""options"":[{""optionType"":4,""value"":""12,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""14,1,100"",""guiderPoint"":0},{""optionType"":4,""value"":""13,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""36,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""37,1,200"",""guiderPoint"":0},{""optionType"":1,""value"":""38,1,200"",""guiderPoint"":0}]}",
 "{""options"":[{""optionType"":3,""value"":""30,1"",""guiderPoint"":0}]}",去交易所买点东西。,0,"1,117;2,117;3,117",44,0,0,交易2,0,2,,37,,
-"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",特兰斯可能在镇上，我们去找他，并给他带些铁丝网。,0,"1,261",45,0,17,农夫特兰斯,0,2,,217,,
+"{""options"":[{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}",特兰斯可能在镇上，我们去找他，并给他带些铁丝网。,0,"1,261",45,0,17,农夫特兰斯,0,2,,217,,
 "{""options"":[{""optionType"":3,""value"":""178,1"",""guiderPoint"":0}]}",[18]空的,0,,46,0,0,捕捉罐头狗和产出,0,2,,45,,
 ,给我这些。,0,"2,84",47,1,138,日常-战斗-1,0,,,,"{""options"":[{""optionType"":1,""value"":""30,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""31,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""32,2,200"",""guiderPoint"":0}]}",
 ,给我这些。,0,"2,118",48,1,139,日常-战斗-2,0,,,,"{""options"":[{""optionType"":1,""value"":""33,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""34,2,200"",""guiderPoint"":0},{""optionType"":1,""value"":""35,2,200"",""guiderPoint"":0}]}",
@@ -189,7 +190,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""45,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""46,1"",""guiderPoint"":30102},{""optionType"":4,""value"":""47,1"",""guiderPoint"":30102}]}",在特殊试炼场 - 花岚峰中击杀以下怪物，获取初级竞技场的入场资格。,0,"2,84",166,0,0,杀死花岚峰的怪物,0,2,,163,,"21001,22001,23001"
 "{""options"":[{""optionType"":4,""value"":""26,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""27,1"",""guiderPoint"":30103},{""optionType"":4,""value"":""28,1"",""guiderPoint"":30103}]}",在特殊试炼场 - 浮空之地中击杀以下怪物，获取中级竞技场的入场资格。,0,"2,237",167,0,0,杀死浮空之地的怪物,0,2,,164,,"21002,22002,23002"
 "{""options"":[{""optionType"":4,""value"":""58,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""57,1"",""guiderPoint"":30104},{""optionType"":4,""value"":""59,1"",""guiderPoint"":30104}]}",在特殊试炼场 - 远古灵域中击杀以下怪物，获取高级竞技场的入场资格。,0,"2,672",168,0,0,杀死远古灵域的怪物,0,2,,165,,"21003,22003,23003"
-"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30102}]}",提交这些东西，初级角斗场将会解锁,0,"2,84",169,0,0,独行者#1,0,2,,163,,
+"{""options"":[{""optionType"":1,""value"":""30,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""31,2"",""guiderPoint"":30102},{""optionType"":1,""value"":""833,1"",""guiderPoint"":30107}]}",提交这些东西，初级角斗场将会解锁,0,"2,84",169,0,0,独行者#1,0,2,,163,,
 "{""options"":[{""optionType"":1,""value"":""37,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""36,2"",""guiderPoint"":30103},{""optionType"":1,""value"":""38,2"",""guiderPoint"":30103}]}",提交这些东西，中级角斗场将会解锁,0,"2,237",170,0,0,独行者#2,0,2,,164,,
 "{""options"":[{""optionType"":1,""value"":""371,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""372,2"",""guiderPoint"":30104},{""optionType"":1,""value"":""373,2"",""guiderPoint"":30104}]}",提交这些东西，高级角斗场将会解锁,0,"2,672",171,0,0,独行者#3,0,2,,165,,
 , [166]空,0,"2,672",172,1,144,日常-战斗-7,0,,,,"{""options"":[{""optionType"":4,""value"":""112,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""113,2,200"",""guiderPoint"":0},{""optionType"":4,""value"":""114,2,200"",""guiderPoint"":0}]}",
@@ -234,7 +235,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}"," [205]流明世界分为三个区域：和平区、危险区和混乱区。
 去边缘地区看看，熟悉一下。",0,"2,50;3,50;1,50",211,0,0,世界区域的划分,0,2,,215,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",尝试制作一个能量史莱姆。,0,"2,50;3,50;1,50",212,0,158,精力溶液的制作,0,1,,26,,
-"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", 尝试制作一个能量恢复药水并使用它。,0,"2,50;3,50;1,50",213,0,158,制作并使用一份精力药水,0,1,,212,,
+"{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0},{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101}]}", 尝试制作一个能量恢复药水并使用它。,0,"2,50;3,50;1,50",213,0,158,制作并使用一份精力药水,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", 每天都有事情要做。,0,"2,50;3,50;1,50",214,0,158,每天需要做的事,0,1,,228,,30001
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}", [209]完成每日副本。,0,"2,50;3,50;1,50",215,0,158,完成一次日常副本,0,1,,217,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", 任务代币是主要的收入来源之一。完成这些任务将获得代币奖励。与哈斯基交谈以获取更多信息。,0,"2,50;3,50;1,50",216,0,158,关于代币任务,0,1,,214,,
