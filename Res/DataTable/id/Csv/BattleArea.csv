@@ -1,41 +1,41 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,1,0,Kota,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,2,0,Kota Sekitar,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),3,0,Gunung Salju,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),4,0,Area Pertarungan PvEP,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),3,0,Gunung Salju,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),4,0,Area Pertarungan PvEP,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,5,0,Rumah,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,6,0,Pantai,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,7,0,Hutan Merah,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),8,0,Hutan Hitam,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),8,0,Hutan Hitam,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,9,0,Padang Pasir Berbadai,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,10,0,Kanyon,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),11,0,Patung Ikan Pahlawan,2
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Sedang (Persentase item di ransel),12,1,Kuburan,3
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),13,0,Istirahat Jiwa,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),14,0,Gunung Danau Surgawi,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),11,0,Patung Ikan Pahlawan,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sedang (Persentase item di ransel),12,1,Kuburan,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),13,0,Istirahat Jiwa,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),14,0,Gunung Danau Surgawi,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,15,0,Altar Pusat,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),16,0,Altar Sekitar,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),17,0,Tanah Es,2
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Sedang (Persentase item di ransel),18,1,Kedalaman Tanah Es,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),16,0,Altar Sekitar,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),17,0,Tanah Es,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sedang (Persentase item di ransel),18,1,Kedalaman Tanah Es,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,19,0,Hutan Belantara,1
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),20,1,Arena Pemula 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),21,1,Arena Pemula 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),22,1,Arena Pemula 3/3,3
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),23,1,Arena Menengah 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),24,1,Arena Menengah 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),25,1,Arena Menengah 3/3,3
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),26,1, Arena Lanjutan 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),27,1, Arena Lanjutan 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Berat (Persentase item di ransel),28,1, Arena Lanjutan 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),20,1,Arena Pemula 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),21,1,Arena Pemula 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),22,1,Arena Pemula 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),23,1,Arena Menengah 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),24,1,Arena Menengah 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),25,1,Arena Menengah 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),26,1, Arena Lanjutan 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),27,1, Arena Lanjutan 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Hukuman Mati Berat (Persentase item di ransel),28,1, Arena Lanjutan 3/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,29,0, Kemah Pencocokan,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,30,0,Altar Respawning,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),31,0,Tantangan,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),32,0,Domain Kuno - Gunung Berapi,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),33,0,Domain Kuno - Lubang,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),34,0,Domain Kuno - Peninggalan,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Ringan (Persentase item di ransel),35,0,Liar,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),31,0,Tantangan,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),32,0,Domain Kuno - Gunung Berapi,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),33,0,Domain Kuno - Lubang,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),34,0,Domain Kuno - Peninggalan,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Persentase item di ransel),35,0,Liar,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,36,0,Jembatan,1
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Hukuman Mati Sedang (Persentase item di ransel),37,1,Koloseum,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sedang (Persentase item di ransel),37,1,Koloseum,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,38,0, Tantangan Harian,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,39,1, Lapangan Latihan 1/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tidak Ada Hukuman Mati,40,1, Lapangan Latihan 2/3,3

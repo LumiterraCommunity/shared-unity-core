@@ -1,41 +1,41 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,1,0,Pueblo,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,2,0,Pueblo Circundante,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),3,0,Montaña de Nieve,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),4,0,Área de Combate PvE,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),3,0,Montaña de Nieve,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),4,0,Área de Combate PvE,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,5,0,Hogar,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,6,0,Playa,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,7,0,Bosque Rojo,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),8,0,Bosque Negro,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),8,0,Bosque Negro,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,9,0,Desierto Tormentoso,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,10,0,Cañón,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),11,0,Estatua del Pez Héroe,2
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte moderada (porcentaje de objetos de la mochila),12,1,Cementerio,3
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),13,0,Descanso del Alma,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),14,0,Montaña del Lago Celestial,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),11,0,Estatua del Pez Héroe,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Pena de muerte moderada (porcentaje de objetos de la mochila),12,1,Cementerio,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),13,0,Descanso del Alma,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),14,0,Montaña del Lago Celestial,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,15,0,Altar Central,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),16,0,Altar Circundante,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte leve (porcentaje de objetos de la mochila),17,0,Llanura de Hielo,2
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte moderada (porcentaje de objetos de la mochila),18,1,Profundidades de la Llanura de Hielo,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),16,0,Altar Circundante,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),17,0,Llanura de Hielo,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Pena de muerte moderada (porcentaje de objetos de la mochila),18,1,Profundidades de la Llanura de Hielo,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,19,0,Tierras Salvajes,1
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte severa (porcentaje de objetos de la mochila),20,1,Arena de Novatos 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte severa (porcentaje de objetos de la mochila),21,1,Arena de Novatos 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte severa (porcentaje de objetos de la mochila),22,1,Arena de Novatos 3/3,3
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte severa (porcentaje de objetos de la mochila),23,1,Arena Intermedia 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte severa (porcentaje de objetos de la mochila),24,1,Arena Intermedia 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Pena de muerte severa (porcentaje de objetos de la mochila),25,1,Arena Intermedia 3/3,3
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Pesada (Porcentaje de objetos en la mochila),26,1, Arena Avanzada 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Pesada (Porcentaje de objetos en la mochila),27,1, Arena Avanzada 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Pesada (Porcentaje de objetos en la mochila),28,1, Arena Avanzada 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Pena de muerte severa (porcentaje de objetos de la mochila),20,1,Arena de Novatos 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Pena de muerte severa (porcentaje de objetos de la mochila),21,1,Arena de Novatos 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Pena de muerte severa (porcentaje de objetos de la mochila),22,1,Arena de Novatos 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Pena de muerte severa (porcentaje de objetos de la mochila),23,1,Arena Intermedia 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Pena de muerte severa (porcentaje de objetos de la mochila),24,1,Arena Intermedia 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Pena de muerte severa (porcentaje de objetos de la mochila),25,1,Arena Intermedia 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Penalización de Muerte Pesada (Porcentaje de objetos en la mochila),26,1, Arena Avanzada 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Penalización de Muerte Pesada (Porcentaje de objetos en la mochila),27,1, Arena Avanzada 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15",Penalización de Muerte Pesada (Porcentaje de objetos en la mochila),28,1, Arena Avanzada 3/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin Penalización de Muerte,29,0, Campamento de Emparejamiento,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin Penalización de Muerte,30,0,Altar de Respawn,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),31,0,Desafío,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),32,0,Dominio Antiguo - Volcán,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),33,0,Dominio Antiguo - Hueco,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),34,0,Dominio Antiguo - Reliquia,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),35,0,Salvaje,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),31,0,Desafío,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),32,0,Dominio Antiguo - Volcán,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),33,0,Dominio Antiguo - Hueco,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),34,0,Dominio Antiguo - Reliquia,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Penalización de Muerte Ligera (Porcentaje de objetos en la mochila),35,0,Salvaje,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin Penalización de Muerte,36,0,El Puente,1
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15",Penalización de Muerte Moderada (Porcentaje de objetos en la mochila),37,1,Coliseo,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Penalización de Muerte Moderada (Porcentaje de objetos en la mochila),37,1,Coliseo,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin Penalización de Muerte,38,0, Desafío diario,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin Penalización de Muerte,39,1,Campo de entrenamiento 1/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin Penalización de Muerte,40,1,Campo de entrenamiento 2/3,3

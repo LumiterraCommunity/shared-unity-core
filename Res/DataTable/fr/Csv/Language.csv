@@ -19,9 +19,9 @@ describe-string,id-int,module-string,value-string
 ,10001012,通用,Manque d'objets.
 ,10001013,通用, Vos actifs ne pourront pas être vendus dans la zone PvP.
 ,10001014,通用,Pozo de Deseos
-,10001015,通用,
-,10001016,通用,
-,10001017,通用,
+,10001015,通用,Arbre des souhaits de combat
+,10001016,通用, Rassemblez l'Arbre des souhaits.
+,10001017,通用, Arbre des souhaits de la ferme
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -104,8 +104,8 @@ describe-string,id-int,module-string,value-string
 道具不足,20020001,家园相关,Manque d'objet
 ,20020002,家园相关,Il n'y avait rien dans la boîte de stockage !
 ,20020003,家园相关,"Fluctuation du réseau, données anormales restaurées"
-,20020004,,
-,20020005,,
+,20020004,, Les heures d'ouverture quotidiennes de la ferme ont été épuisées.
+,20020005,, Le service de la ferme sera fermé dans {0} secondes.
 ,20030001,保存技能配置,Enregistré avec succès
 超过上限提示,20040001,畜牧,{0} sprites[/color]Veuillez choisir d'abandonner ce Sprite ou de le remplacer par un autreSprite en raison d'un espace insuffisant
 超过上限提示标题,20040002,畜牧,LES ANIMAUX DE COMPAGNIE SONT PLEINS
@@ -183,12 +183,12 @@ describe-string,id-int,module-string,value-string
 ,20090026,,Vous recevez une tâche de jeton
 ,20090027,,Niveau de compétence insuffisant
 ,20090028,,Tarea caducada
-,20090029,,
-,20090030,,
-,20090031,,
-,20090032,,
-,20090033,,
-,20090034,,
+,20090029,, Tâche de jeton
+,20090030,, initialisation
+,20090031,, reçu
+,20090032,, accepter
+,20090033,, abandonner
+,20090034,, terminé
 ,"20100000
 ",专精, Général
 ,20100001,专精, Agriculture
@@ -361,15 +361,15 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290004,背包,Cet objet ne peut pas être converti.
 ,20290005,背包,Objets triés.
 ,20290006,,¡Nombre del objeto sin procesar copiado!
-,20290007,,
-,20290008,,
-,20290009,,
-,20290010,,
-,20300000,,
-,20300001,,
-,20300002,,
-,20300003,,
-,20300004,,
-,20300005,,
-,20300006,,
-,20300007,,
+,20290007,, Supprimer l'objet ?
+,20290008,, Êtes-vous sûr de vouloir supprimer cet objet ?
+,20290009,, Le quota de conversion quotidien est épuisé.
+,20290010,, Le quota de conversion quotidien n'est pas suffisant.
+,20300000,, Terminez la tâche de réputation.
+,20300001,, Faites partie du classement une fois.
+,20300002,, Louer un entrepôt.
+,20300003,, Passez le donjon avec le score spécifié.
+,20300004,, Possédez LUAG(100) dans le jeu.
+,20300005,, Durée du compte.
+,20300006,, Points supplémentaires.
+,20300007,, Déclin quotidien de {0} points.
