@@ -19,9 +19,9 @@ describe-string,id-int,module-string,value-string
 ,10001012,通用,Thiếu vật phẩm.
 ,10001013,通用,Tài sản của bạn sẽ không thể được bán trong khu vực pvp.
 ,10001014,通用,Hồ bơi ước nguyện
-,10001015,通用,
-,10001016,通用,
-,10001017,通用,
+,10001015,通用,Cây Ước Chiến Đấu
+,10001016,通用, Thu thập Cây Ước
+,10001017,通用, Cây Ước Trang Trại
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -104,8 +104,8 @@ describe-string,id-int,module-string,value-string
 道具不足,20020001,家园相关,Thiếu vật phẩm
 ,20020002,家园相关,Không có gì trong hộp lưu trữ!
 ,20020003,家园相关," Sự dao động mạng, dữ liệu bất thường đã được khôi phục"
-,20020004,,
-,20020005,,
+,20020004,, Giờ mở cửa hàng ngày của trang trại đã được tiêu hao.
+,20020005,, Dịch vụ trang trại sẽ đóng cửa trong {0} giây.
 ,20030001,保存技能配置,Lưu thành công
 超过上限提示,20040001,畜牧,{0} nhân vật[/color]Vui lòng chọn bỏ nhân vật này hoặc thay thế bằng nhân vật khácdo không đủ không gian
 超过上限提示标题,20040002,畜牧,PET ĐÃ ĐẦY
@@ -183,12 +183,12 @@ describe-string,id-int,module-string,value-string
 ,20090026,,Bạn nhận được một nhiệm vụ token
 ,20090027,,Cấp độ kỹ năng không đủ
 ,20090028,,Nhiệm vụ đã hết hạn
-,20090029,,
-,20090030,,
-,20090031,,
-,20090032,,
-,20090033,,
-,20090034,,
+,20090029,, Nhiệm Vụ Mã Thông Báo
+,20090030,, khởi tạo
+,20090031,, nhận
+,20090032,, chấp nhận
+,20090033,, từ bỏ
+,20090034,, hoàn thành
 ,"20100000
 ",专精,Chung 
 ,20100001,专精,Nông nghiệp 
@@ -361,15 +361,15 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20290004,背包,Vật phẩm này không thể chuyển đổi.
 ,20290005,背包,Vật phẩm đã được sắp xếp.
 ,20290006,,Tên mục gốc đã được sao chép!
-,20290007,,
-,20290008,,
-,20290009,,
-,20290010,,
-,20300000,,
-,20300001,,
-,20300002,,
-,20300003,,
-,20300004,,
-,20300005,,
-,20300006,,
-,20300007,,
+,20290007,, Xóa mục?
+,20290008,, Bạn chắc chắn muốn xóa mục này không?
+,20290009,, Hạn ngạch chuyển đổi hàng ngày đã được sử dụng hết.
+,20290010,, Hạn ngạch chuyển đổi hàng ngày không đủ.
+,20300000,, Hoàn thành nhiệm vụ uy tín.
+,20300001,, Đã lọt vào bảng xếp hạng một lần.
+,20300002,, Thuê một kho hàng.
+,20300003,, Vượt qua hang động với điểm số cụ thể.
+,20300004,, Giữ LUAG(100) trong trò chơi.
+,20300005,, Thời gian tài khoản.
+,20300006,, Điểm bổ sung.
+,20300007,, Sự suy giảm hàng ngày của {0} điểm.

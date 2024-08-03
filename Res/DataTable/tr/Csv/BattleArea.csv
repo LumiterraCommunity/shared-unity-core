@@ -1,41 +1,41 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,id-int,lockBackpack-bool,name-string,type-int
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Ölüm Cezası Yok,1,0,Town,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,2,0,Surrounding Town,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),3,0,Snow Moutain,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),4,0,PvEP Fight Area,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),3,0,Snow Moutain,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),4,0,PvEP Fight Area,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,5,0,Home,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,6,0,Beach,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,7,0,Red Forest,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),8,0,Black Forest,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),8,0,Black Forest,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,9,0,Stormy Desert,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,10,0,Canyon,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),11,0,Hero Fish Statue,2
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),12,1,Cemetery,3
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),13,0,Soul's Rest,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),14,0,Celestial Lake Mountain,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),11,0,Hero Fish Statue,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),12,1,Cemetery,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),13,0,Soul's Rest,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),14,0,Celestial Lake Mountain,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,15,0,Central Altar,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),16,0,Surrounding Altar,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),17,0,Ice Plain,2
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),18,1,Depths of Ice Plain,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),16,0,Surrounding Altar,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),17,0,Ice Plain,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),18,1,Depths of Ice Plain,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,19,0,Wilderness,1
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),20,1,Novice Arena 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),21,1,Novice Arena 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),22,1,Novice Arena 3/3,3
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),23,1,Intermediate Arena 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),24,1,Intermediate Arena 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),25,1,Intermediate Arena 3/3,3
-1,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),26,1,Advanced Arena 1/3,3
-2,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),27,1,Advanced Arena 2/3,3
-3,"30,20,25",7,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),28,1,Advanced Arena 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),20,1,Novice Arena 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),21,1,Novice Arena 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),22,1,Novice Arena 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),23,1,Intermediate Arena 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),24,1,Intermediate Arena 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),25,1,Intermediate Arena 3/3,3
+1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),26,1,Advanced Arena 1/3,3
+2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),27,1,Advanced Arena 2/3,3
+3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),28,1,Advanced Arena 3/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,29,0,Matchmaking Camp,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,30,0,Respawn Altar,1
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),31,0,Challenge,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),32,0,Ancient Domain - Volcano,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),33,0,Ancient Domain - Hollow,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),34,0,Ancient Domain - Relic,2
-0,"30,20,10",3,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),35,0,Wild,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),31,0,Challenge,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),32,0,Ancient Domain - Volcano,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),33,0,Ancient Domain - Hollow,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),34,0,Ancient Domain - Relic,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),35,0,Wild,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,36,0,The Bridge,1
-0,"30,20,15",5,"30,10,5;30,10,5;30,15,10;30,15,10;30,20,15;30,20,15", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),37,1,Colosseum,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),37,1,Colosseum,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,38,0,Daily Challenge,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,39,1,Training Ground 1/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,40,1,Training Ground 2/3,3
