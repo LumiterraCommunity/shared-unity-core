@@ -1081,19 +1081,19 @@ Ketika dipakai, item ini dapat meningkatkan atribut. Meningkatkan kekuatan seran
 -------
 Jika Anda khawatir dikejar oleh monster, busur ini sempurna untuk Anda, Anda dapat membunuh monster dari jarak yang aman.
 ",0,item-icon-289,289,busur kristal,1440,"1,2,3",273,1,0,2,999,0,1,3,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan sedikit energi
 ",0,item-icon-295,295,"Ramuan Restorasi Energi - Kecil
 ",0,1,,0,0,3,999,0,3,1,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan lebih banyak energi
 ",0,item-icon-296,296,"Ramuan Restorasi Energi - Sedang
 ",0,1,,0,0,3,999,0,3,2,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan banyak energi
@@ -1975,18 +1975,18 @@ Ketika digunakan, item ini dapat memicu efek khusus.
 Mengembalikan Energi +37
 ",0,item-icon-458,458,"Lv 6 Sikat Cahaya Bintang
 ",1440,"1,2,3,4,5",229,1,0,1,999,0,1,6,1
--,"1,3,4",1," Anda dapat memperoleh item ini melalui sintesis.
+-,0,1," Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Mengembalikan Energi +30",0,item-icon-459,459,"Lv 4 Ramuan Pemulihan Energi
 ",0,1,,0,0,3,999,0,3,4,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Mengembalikan Energi +37
 ",0,item-icon-460,460,"Lv 5 Ramuan Pemulihan Energi
 ",0,1,,0,0,3,999,0,3,5,1
--,"1,3,4",1," Anda dapat memperoleh item ini melalui sintesis.
+-,0,1," Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Mengembalikan Energi +45",0,item-icon-461,461,Lv 6 Ramuan Pemulihan Energi,0,1,,0,0,3,999,0,3,6,1
@@ -2639,17 +2639,17 @@ Sarung tangan yang kokoh untuk pertanian efisien, memberikan cengkaman dan perli
 ",0,item-icon-597,597, Sarung Tangan Pertanian Perunggu,1440,"1,2,3,4,5",248,1,0,1,999,0,1,9,1
 "800,1",4,1," Anda dapat memperoleh item ini melalui sintesis.
 Ketika dipakai, item ini dapat meningkatkan atribut. Membuat tanaman Anda lebih tahan terhadap layu.",0,item-icon-598,598, Sepatu Pertanian Perunggu,1440,"1,2,3,4,5",251,1,0,1,999,0,1,9,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan energi Anda dan membuat Anda penuh vitalitas lagi.
 ",0,item-icon-599,599, Ramuan Pemulihan Energi,0,1,,0,0,3,999,0,3,7,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan energi Anda dan membuat Anda penuh vitalitas lagi.
 ",0,item-icon-600,600, Ramuan Pemulihan Energi,0,1,,0,0,3,999,0,3,8,1
--,"1,3,4",1,"Anda dapat memperoleh item ini melalui sintesis.
+-,0,1,"Anda dapat memperoleh item ini melalui sintesis.
 Menggunakannya dapat memicu efek khusus.
 -------
 Memulihkan energi Anda dan membuat Anda penuh vitalitas lagi.
@@ -3357,12 +3357,30 @@ Tiket diperlukan untuk masuk ke Tantangan Pertanian Lanjutan
 "800,1",0,1, Kosong ,0,item-icon-837,837, Batu yang rusak,0,1,,0,0,3,999,0,4,0,1
 "800,1",0,1, Kosong ,0,item-icon-838,838, Kelelawar Labu,0,1,,0,0,1,999,0,6,0,1
 "792,1",0,1, Fragment Lumi adalah item mistis yang terlihat memancarkan cahaya ajaib ,0,item-icon-839,839, Fragmen Lumi,0,1,,1,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-840,840,Lv 0 Slime Energi,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-841,841, Lv 0 Ramuan Pemulihan Energi,0,1,,0,0,,999,0,3,0,1
-"800,1",0,1,,0,item-icon-842,842, Lv 0 Esensi Pertempuran,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-843,843, Lv 0 Esensi Pengumpulan,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-844,844, Lv 0 Esensi Penanaman Pertanian,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-845,845, Lv 0 Esensi Peternakan Pertanian,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1,"Produk kerajinan.
+Dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bahan dari Ramuan Pemulihan Energi Lv 0",0,item-icon-840,840,Lv 0 Slime Energi,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produk kerajinan.
+Menggunakannya dapat memicu efek khusus.
+-------
+Memulihkan energi -> 2",0,item-icon-841,841, Lv 0 Ramuan Pemulihan Energi,0,1,,0,0,,999,0,3,0,1
+"800,1",0,1," Produk kerajinan.
+Dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bahan untuk membuat peralatan level 0",0,item-icon-842,842, Lv 0 Esensi Pertempuran,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produk kerajinan.
+Dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bahan untuk membuat peralatan level 0",0,item-icon-843,843, Lv 0 Esensi Pengumpulan,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produk kerajinan.
+Dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bahan untuk membuat peralatan level 0",0,item-icon-844,844, Lv 0 Esensi Penanaman Pertanian,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produk kerajinan.
+Dapat digunakan untuk membuat peralatan atau barang.
+-------
+Bahan untuk membuat peralatan level 0",0,item-icon-845,845, Lv 0 Esensi Peternakan Pertanian,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1, Bukti penyelesaian tugas pemula ,0,item-icon-846,846, Medali Pemula - Pertempuran,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1, Bukti penyelesaian tugas pemula ,0,item-icon-847,847, Medali Pemula - Pengumpulan,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1, Bukti penyelesaian tugas pemula ,0,item-icon-848,848, Medali Pemula - Pertanian,0,1,,0,0,,999,0,4,0,1
@@ -3372,51 +3390,52 @@ Tiket diperlukan untuk masuk ke Tantangan Pertanian Lanjutan
 "792,1",0,1, Sarankan untuk digunakan sebagai fashion ,0,item-icon-852,852, Hair Costume · Radiant Knight: Kostum Rambut · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Sarankan untuk digunakan sebagai fashion ,0,item-icon-853,853, Hair Costume · Frost Warrior: Kostum Rambut · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Sarankan untuk digunakan sebagai fashion,0,item-icon-854,854, Costume · Chicken head: Kostum · Kepala Ayam,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-855,855, Kostum · Prajurit Modern,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-856,856, Kostum · Paman Mode,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-857,857, Kostum · Kapten Ronin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-858,858, Kostum · Kepala Blok,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-859,859, Kostum · Kepala Kokpit,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-860,860, Kostum · Prajurit BTC,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-861,861, Kostum · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-862,862, Kostum · Prajurit Masa Depan,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-863,863, Kostum · Abu-abu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-864,864, Kostum · Bebek Bicara,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-865,865,Kostum · Prajurit Kentang,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-866,866, Kostum · Bunga Matahari,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-867,867, Kostum · Kaktus,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-868,868, Kostum · Pisang,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-869,869, Kostum · Panci,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-870,870, Kostum · Hiu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-871,871, Kostum · Penyedot,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-872,872, Kostum · Pengering Rambut,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-873,873, Coat Costume · Lava Conqueror: Kostum Mantel · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-874,874, Pants Costume · Lava Conqueror: Kostum Celana · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-875,875, Gloves Costume · Lava Conqueror: Kostum Sarung Tangan · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-876,876, Shoes Costume · Lava Conqueror: Kostum Sepatu · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-877,877, Coat Costume · Hollow Conqueror: Kostum Mantel · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-878,878, Pants Costume · Hollow Conqueror: Kostum Celana · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-879,879, Gloves Costume · Hollow Conqueror: Kostum Sarung Tangan · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-880,880, Shoes Costume · Hollow Conqueror: Kostum Sepatu · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-881,881, Coat Costume · Ancient Conqueror: Kostum Mantel · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-882,882, Pants Costume · Ancient Conqueror: Kostum Celana · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-883,883, Gloves Costume · Ancient Conqueror: Kostum Sarung Tangan · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-884,884, Shoes Costume · Ancient Conqueror: Kostum Sepatu · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-885,885, Coat Costume · Radiant Knight: Kostum Mantel · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-886,886, Pants Costume · Radiant Knight: Kostum Celana · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-855,855, Kostum · Prajurit Modern,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-856,856, Kostum · Paman Mode,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-857,857, Kostum · Kapten Ronin,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-858,858, Kostum · Kepala Blok,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-859,859, Kostum · Kepala Kokpit,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-860,860, Kostum · Prajurit BTC,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-861,861, Kostum · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-862,862, Kostum · Prajurit Masa Depan,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-863,863, Kostum · Abu-abu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-864,864, Kostum · Bebek Bicara,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-865,865,Kostum · Prajurit Kentang,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-866,866, Kostum · Bunga Matahari,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-867,867, Kostum · Kaktus,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-868,868, Kostum · Pisang,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-869,869, Kostum · Panci,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-870,870, Kostum · Hiu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-871,871, Kostum · Penyedot,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-872,872, Kostum · Pengering Rambut,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-873,873, Coat Costume · Lava Conqueror: Kostum Mantel · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-874,874, Pants Costume · Lava Conqueror: Kostum Celana · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-875,875, Gloves Costume · Lava Conqueror: Kostum Sarung Tangan · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-876,876, Shoes Costume · Lava Conqueror: Kostum Sepatu · Penakluk Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-877,877, Coat Costume · Hollow Conqueror: Kostum Mantel · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-878,878, Pants Costume · Hollow Conqueror: Kostum Celana · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-879,879, Gloves Costume · Hollow Conqueror: Kostum Sarung Tangan · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-880,880, Shoes Costume · Hollow Conqueror: Kostum Sepatu · Penakluk Hampa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-881,881, Coat Costume · Ancient Conqueror: Kostum Mantel · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-882,882, Pants Costume · Ancient Conqueror: Kostum Celana · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-883,883, Gloves Costume · Ancient Conqueror: Kostum Sarung Tangan · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-884,884, Shoes Costume · Ancient Conqueror: Kostum Sepatu · Penakluk Kuno,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-885,885, Coat Costume · Radiant Knight: Kostum Mantel · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk dipakai sebagai mode fashion,0,item-icon-886,886, Pants Costume · Radiant Knight: Kostum Celana · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-887,887, Gloves Costume · Radiant Knight: Kostum Sarung Tangan · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-888,888, Shoes Costume · Radiant Knight: Kostum Sepatu · Ksatria Bersinar,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-889,889, Coat Costume · Frost Warrior: Kostum Mantel · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-890,890, Pants Costume · Frost Warrior: Kostum Celana · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-891,891, Gloves Costume · Frost Warrior: Kostum Sarung Tangan · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-892,892, Shoes Costume · Frost Warrior: Kostum Sepatu · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
--,0,1,,0,item-icon-893,893,Tulang Ikan,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-894,894,Kaleng Terbuka,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-895,895,Kacang Tumbuh,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-896,896,Telur Dinosaurus,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-897,897,Kedelai,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-898,898,Gigi-gigi,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-899,899,Gulir,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,,0,item-icon-934,934, Tiket Masuk Arena Junior - Sedikit ,0,1,,1,0,,999,0,4,0,1
-"795,1",0,1,,0,item-icon-935,935, Tiket Masuk Arena Intermediate - Sedikit ,0,1,,1,0,,999,0,4,0,1
-"798,1",0,1,,0,item-icon-936,936, Tiket Masuk Arena Advance - Sedikit ,0,1,,1,0,,999,0,4,0,1
+"792,1",0,1,@@ Sarankan untuk mengenakan sebagai mode,0,item-icon-890,890, Pants Costume · Frost Warrior: Kostum Celana · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk mengenakan sebagai mode,0,item-icon-891,891, Gloves Costume · Frost Warrior: Kostum Sarung Tangan · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sarankan untuk mengenakan sebagai mode,0,item-icon-892,892, Shoes Costume · Frost Warrior: Kostum Sepatu · Pejuang Beku,0,5,,1,0,,999,0,1,0,1
+-,0,1, Seseorang tersedak,0,item-icon-893,893,Tulang Ikan,0,1,,0,0,,999,0,4,0,1
+-,0,1," Ih..
+Kaleng bau",0,item-icon-894,894,Kaleng Terbuka,0,1,,0,0,,999,0,4,0,1
+-,0,1, Kosong,0,item-icon-895,895,Kacang Tumbuh,0,1,,0,0,,999,0,4,0,1
+-,0,1," Tolong, bawa dinosaurus kembali",0,item-icon-896,896,Telur Dinosaurus,0,1,,0,0,,999,0,4,0,1
+-,0,1, Kosong,0,item-icon-897,897,Kedelai,0,1,,0,0,,999,0,4,0,1
+-,0,1, Masih bekerja,0,item-icon-898,898,Gigi-gigi,0,1,,0,0,,999,0,4,0,1
+-,0,1, Kosong,0,item-icon-899,899,Gulir,0,1,,0,0,,999,0,4,0,1
+"792,1",0,1,Tiket Masuk Arena Mini Junior,0,item-icon-934,934, Tiket Masuk Arena Junior - Sedikit ,0,1,,1,0,,999,0,4,0,1
+"795,1",0,1, Tiket Masuk Arena Mini Menengah,0,item-icon-935,935, Tiket Masuk Arena Intermediate - Sedikit ,0,1,,1,0,,999,0,4,0,1
+"798,1",0,1, Tiket Masuk Arena Mini Lanjutan,0,item-icon-936,936, Tiket Masuk Arena Advance - Sedikit ,0,1,,1,0,,999,0,4,0,1

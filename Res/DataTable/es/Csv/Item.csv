@@ -1068,15 +1068,15 @@ Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en
 -------
 Si te preocupa ser perseguido por monstruos, este arco es perfecto para ti, puedes matar monstruos desde una distancia segura.
 ",0,item-icon-289,289,Arco de cristal,1440,"1,2,3",273,1,0,2,999,0,1,3,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-,0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura un poco de energía
 ",0,item-icon-295,295,Poción de Restauración de Energía - Pequeña,0,1,,0,0,3,999,0,3,1,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-,0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura más energía
 ",0,item-icon-296,296,Poción de Restauración de Energía - Mediana,0,1,,0,0,3,999,0,3,2,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
+-,0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede activar efectos especiales.
 -------
 Restaura mucha energía
 ",0,item-icon-297,297,Poción de Restauración de Energía - Grande,0,1,,0,0,3,999,0,3,3,1
@@ -1783,17 +1783,17 @@ Al usarlo, puede activar efectos especiales.
 -------
 Restaura Energía +30
 ",0,item-icon-458,458,Nivel 6 Cepillo de Luz Estelar,1440,"1,2,3,4,5",229,1,0,1,999,0,1,6,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis.
+-,0,1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaura Energía +30.
 ",0,item-icon-459,459,Nivel 4 Poción de Restauración de Energía,0,1,,0,0,3,999,0,3,4,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis.
+-,0,1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaura Energía +37.
 ",0,item-icon-460,460,Nivel 5 Poción de Restauración de Energía,0,1,,0,0,3,999,0,3,5,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis.
+-,0,1," Puedes obtener este objeto a través de la síntesis.
 Usarlo puede activar efectos especiales.
 -------
 Restaura Energía +45.",0,item-icon-461,461,Nivel 6 Poción de Restauración de Energía,0,1,,0,0,3,999,0,3,6,1
@@ -2426,15 +2426,15 @@ Guantes duraderos para una agricultura eficiente, que proporcionan un agarre y p
 -------
 Calzado resistente para agricultores dedicados, que proporciona comodidad y protección durante largas horas de cuidado de cultivos.
 ",0,item-icon-598,598,Zapatos de Agricultura de Bronce,1440,"1,2,3,4,5",251,1,0,1,999,0,1,9,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-,0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
 ",0,item-icon-599,599,Poción de Restauración de Energía,0,1,,0,0,3,999,0,3,7,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-,0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
 ",0,item-icon-600,600,Poción de Restauración de Energía,0,1,,0,0,3,999,0,3,8,1
--,"1,3,4",1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-,0,1," Puedes obtener este objeto a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Restaura tu energía y te llena de vitalidad nuevamente.
 ",0,item-icon-601,601,Poción de Restauración de Energía,0,1,,0,0,3,999,0,3,9,1
@@ -3053,12 +3053,27 @@ Entradas requeridas para participar en el Desafío de Agricultura Avanzado.
 "800,1",0,1, Vacío,0,item-icon-837,837, Piedra rota,0,1,,0,0,3,999,0,4,0,1
 "800,1",0,1, Vacío,0,item-icon-838,838, Murciélago de calabaza,0,1,,0,0,1,999,0,6,0,1
 "792,1",0,1, Vacío,0,item-icon-839,839, Fragmento de Lumi,0,1,,1,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-840,840,Lv 0 Slime de Energía,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-841,841, Poción de Restauración de Energía Lv 0,0,1,,0,0,,999,0,3,0,1
-"800,1",0,1,,0,item-icon-842,842, Esencia de Combate Lv 0,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-843,843, Esencia de Recolecta Lv 0,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-844,844, Esencia de Plantación Agrícola Lv 0,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-845,845, Esencia de Ganadería Agrícola Lv 0,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1,"Producto de elaboración.
+Se puede utilizar para elaborar equipos o artículos.
+-------
+El material de la Poción de Restauración de Energía de Nivel 0",0,item-icon-840,840,Lv 0 Slime de Energía,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Producto de elaboración.
+Usarlo puede activar efectos especiales.
+-------
+Restaurar energía -> 2",0,item-icon-841,841, Poción de Restauración de Energía Lv 0,0,1,,0,0,,999,0,3,0,1
+"800,1",0,1," Producto de elaboración.
+Se puede utilizar para elaborar equipos o artículos.
+-------
+Un material para hacer equipos de nivel 0",0,item-icon-842,842, Esencia de Combate Lv 0,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Producto de elaboración.
+Se puede utilizar para elaborar equipos o artículos.
+-------
+Un material para hacer equipos de nivel 0",0,item-icon-843,843, Esencia de Recolecta Lv 0,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Producto de elaboración.
+Se puede utilizar para elaborar equipos o artículos.
+-------
+Un material para hacer equipos de nivel 0",0,item-icon-844,844, Esencia de Plantación Agrícola Lv 0,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Prueba de finalización de tareas de novato,0,item-icon-845,845, Esencia de Ganadería Agrícola Lv 0,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1," Producto de fabricación.
 Se puede usar para fabricar equipo o objetos.
 -------",0,item-icon-846,846, Medalla de Novato - Combate,0,1,,0,0,,999,0,4,0,1
@@ -3072,51 +3087,52 @@ Se puede usar para fabricar equipo o objetos.
 "792,1",0,1, Se sugiere usar como moda,0,item-icon-852,852, Hair Costume · Caballero Radiante,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Se sugiere usar como moda,0,item-icon-853,853, Hair Costume · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Se sugiere usar como moda,0,item-icon-854,854, Disfraz · Cabeza de Pollo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-855,855, Disfraz · Zaku,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-856,856, Disfraz · Padrino de la Moda,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-857,857, Disfraz · Capitán Ronin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-858,858, Disfraz · Cabeza de Bloques,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-859,859, Disfraz · Cabeza de Cabina,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-860,860, Disfraz · Guerrero BTC,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-861,861, Disfraz · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-862,862, Disfraz · Guerrero del Futuro,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-863,863, Disfraz · Ceniza,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-864,864, Disfraz · Pato Hablador,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-865,865, Disfraz · Guerrero de la Papa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-866,866, Disfraz · Girasol,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-867,867, Disfraz · Cactus,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-868,868, Disfraz · Banana,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-869,869, Disfraz · Pan,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-870,870, Disfraz · Tiburón,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-871,871, Disfraz · Desatascador,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-872,872, Disfraz · Secador de Pelo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-873,873, Disfraz de Abrigo · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-874,874, Disfraz de Pantalones · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-875,875, Disfraz de Guantes · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-876,876, Disfraz de Zapatos · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-877,877, Disfraz de Abrigo · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-878,878, Disfraz de Pantalones · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-879,879, Disfraz de Guantes · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-880,880, Disfraz de Zapatos · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-881,881, Disfraz de Abrigo · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-882,882, Disfraz de Pantalones · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-883,883, Disfraz de Guantes · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-884,884, Disfraz de Zapatos · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-885,885, Disfraz de Abrigo · Caballero Radiante,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-855,855, Disfraz · Zaku,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-856,856, Disfraz · Padrino de la Moda,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-857,857, Disfraz · Capitán Ronin,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-858,858, Disfraz · Cabeza de Bloques,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-859,859, Disfraz · Cabeza de Cabina,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-860,860, Disfraz · Guerrero BTC,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-861,861, Disfraz · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-862,862, Disfraz · Guerrero del Futuro,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-863,863, Disfraz · Ceniza,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-864,864, Disfraz · Pato Hablador,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-865,865, Disfraz · Guerrero de la Papa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-866,866, Disfraz · Girasol,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-867,867, Disfraz · Cactus,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-868,868, Disfraz · Banana,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-869,869, Disfraz · Pan,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-870,870, Disfraz · Tiburón,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-871,871, Disfraz · Desatascador,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-872,872, Disfraz · Secador de Pelo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-873,873, Disfraz de Abrigo · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-874,874, Disfraz de Pantalones · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-875,875, Disfraz de Guantes · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-876,876, Disfraz de Zapatos · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-877,877, Disfraz de Abrigo · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-878,878, Disfraz de Pantalones · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-879,879, Disfraz de Guantes · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-880,880, Disfraz de Zapatos · Conquistador Hueco,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-881,881, Disfraz de Abrigo · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-882,882, Disfraz de Pantalones · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-883,883, Disfraz de Guantes · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-884,884, Disfraz de Zapatos · Conquistador Antiguo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-885,885, Disfraz de Abrigo · Caballero Radiante,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-886,886, Disfraz de Pantalones · Caballero Radiante,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-887,887, Disfraz de Guantes · Caballero Radiante,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-888,888, Disfraz de Zapatos · Caballero Radiante,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-889,889, Disfraz de Abrigo · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-890,890, Disfraz de Pantalones · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-891,891, Disfraz de Guantes · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-892,892, Disfraz de Zapatos · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
--,0,1,,0,item-icon-893,893, Hueso de Pescado,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-894,894, Lata Abierta,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-895,895, Frijol Germinado,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-896,896, Huevo de Dinosaurio,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-897,897, Soja,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-898,898, Engranajes,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-899,899,Pergamino,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,,0,item-icon-934,934, Boleto de Admisión a la Arena Junior - Ligero ,0,1,,1,0,,999,0,4,0,1
-"795,1",0,1,,0,item-icon-935,935, Boleto de Admisión a la Arena Intermedia - Ligero ,0,1,,1,0,,999,0,4,0,1
-"798,1",0,1,,0,item-icon-936,936, Boleto de Admisión a la Arena Avanzada - Ligero ,0,1,,1,0,,999,0,4,0,1
+"792,1",0,1,Sugerir usar como moda,0,item-icon-890,890, Disfraz de Pantalones · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-891,891, Disfraz de Guantes · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Sugerir usar como moda,0,item-icon-892,892, Disfraz de Zapatos · Guerrero de Hielo,0,5,,1,0,,999,0,1,0,1
+-,0,1, Alguien se atragantó,0,item-icon-893,893, Hueso de Pescado,0,1,,0,0,,999,0,4,0,1
+-,0,1," ¡Puaj!
+Lata maloliente",0,item-icon-894,894, Lata Abierta,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vacío,0,item-icon-895,895, Frijol Germinado,0,1,,0,0,,999,0,4,0,1
+-,0,1," Por favor, trae de vuelta al dinosaurio",0,item-icon-896,896, Huevo de Dinosaurio,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vacío,0,item-icon-897,897, Soja,0,1,,0,0,,999,0,4,0,1
+-,0,1, Todavía funciona,0,item-icon-898,898, Engranajes,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vacío,0,item-icon-899,899,Pergamino,0,1,,0,0,,999,0,4,0,1
+"792,1",0,1,Boleto de Admisión Junior Arena-Mini,0,item-icon-934,934, Boleto de Admisión a la Arena Junior - Ligero ,0,1,,1,0,,999,0,4,0,1
+"795,1",0,1, Boleto de Admisión Intermedio Arena-Mini,0,item-icon-935,935, Boleto de Admisión a la Arena Intermedia - Ligero ,0,1,,1,0,,999,0,4,0,1
+"798,1",0,1, Boleto de Admisión Avanzado Arena-Mini,0,item-icon-936,936, Boleto de Admisión a la Arena Avanzada - Ligero ,0,1,,1,0,,999,0,4,0,1

@@ -901,15 +901,15 @@ If you are worried about being chased by monsters, this bow is perfect for you, 
 When equipped, it can enhance attributes. Increase your survival probability in battles
 -------
 If you are worried about being chased by monsters, this bow is perfect for you, you can kill monsters from a safe distance",0,item-icon-289,289,Crystal Bow,1440,"1,2,3",273,1,0,2,999,0,1,3,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restore a little energy",0,item-icon-295,295,Energy Restoration Potion - Small,0,1,,0,0,3,999,0,3,1,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restore more energy",0,item-icon-296,296,Energy Restoration Potion - Medium,0,1,,0,0,3,999,0,3,2,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restore a lot of energy",0,item-icon-297,297,Energy Restoration Potion - Big,0,1,,0,0,3,999,0,3,3,1
@@ -1537,15 +1537,15 @@ Used to calm your pet, allowing it to produce in peace",0,item-icon-457,457,Diam
 When equipped, it can enhance attributes. Make your crops less prone to withering
 -------
 Used to calm your pet, allowing it to produce in peace",0,item-icon-458,458,Starlight Brush,1440,"1,2,3,4,5",229,1,0,1,999,0,1,6,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restores Energy +30",0,item-icon-459,459,Energy Restoration Potion,0,1,,0,0,3,999,0,3,4,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restores Energy +37",0,item-icon-460,460,Energy Restoration Potion,0,1,,0,0,3,999,0,3,5,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restores Energy +45",0,item-icon-461,461,Energy Restoration Potion,0,1,,0,0,3,999,0,3,6,1
@@ -2077,15 +2077,15 @@ Durable gloves for efficient farming, providing enhanced grip and protection.",0
 When equipped, it can enhance attributes. Make your crops less prone to withering
 -------
 Sturdy footwear for dedicated farmers, providing comfort and protection during long hours of tending crops.",0,item-icon-598,598,Bronze Farming Shoes,1440,"1,2,3,4,5",251,1,0,1,999,0,1,9,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restore your energy and make you full of vitality again.",0,item-icon-599,599,Energy Restoration Potion,0,1,,0,0,3,999,0,3,7,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restore your energy and make you full of vitality again.",0,item-icon-600,600,Energy Restoration Potion,0,1,,0,0,3,999,0,3,8,1
--,"1,3,4",1,"You can obtain this item through synthesis.
+-,0,1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
 Restore your energy and make you full of vitality again.",0,item-icon-601,601,Energy Restoration Potion,0,1,,0,0,3,999,0,3,9,1
@@ -2680,5 +2680,5 @@ Smelly can",0,item-icon-894,894,Opened Can,0,1,,0,0,,999,0,4,0,1
 -,0,1,Still work,0,item-icon-898,898,Gears,0,1,,0,0,,999,0,4,0,1
 -,0,1,,0,item-icon-899,899,Scroll,0,1,,0,0,,999,0,4,0,1
 "792,1",0,1,Junior Arena-Mini Admission Ticket,0,item-icon-934,934,Junior Arena-Mini Admission Ticket,0,1,,1,0,,999,0,4,0,1
-"795,1",0,1,Intermediate Arena-MiniAdmission Ticket,0,item-icon-935,935,Intermediate Arena-MiniAdmission Ticket,0,1,,1,0,,999,0,4,0,1
+"795,1",0,1,Intermediate Arena-Mini Admission Ticket,0,item-icon-935,935,Intermediate Arena-Mini Admission Ticket,0,1,,1,0,,999,0,4,0,1
 "798,1",0,1,Advance Arena-Mini Admission Ticket,0,item-icon-936,936,Advance Arena-Mini Admission Ticket,0,1,,1,0,,999,0,4,0,1

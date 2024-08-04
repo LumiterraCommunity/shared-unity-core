@@ -1144,19 +1144,19 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puiss
 -------
 Si vous craignez d'être poursuivi par des monstres, cet arc est parfait pour vous, vous pouvez tuer des monstres à distance en toute sécurité.
 ",0,item-icon-289,289,Arc en cristal,1440,"1,2,3",273,1,0,2,999,0,1,3,1
--,"1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+-,0,1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure un peu d'énergie
 ",0,item-icon-295,295,"Potion de restauration d'énergie - Petite
 ",0,1,,0,0,3,999,0,3,1,1
--,"1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+-,0,1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure plus d'énergie
 ",0,item-icon-296,296,"Potion de restauration d'énergie - Moyenne
 ",0,1,,0,0,3,999,0,3,2,1
--,"1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+-,0,1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure beaucoup d'énergie
@@ -1963,18 +1963,18 @@ Lorsqu'il est utilisé, il peut déclencher des effets spéciaux.
 Restaure 37 points d'énergie
 ",0,item-icon-458,458,"Niveau 6 Brosse en lumière des étoiles
 ",1440,"1,2,3,4,5",229,1,0,1,999,0,1,6,1
--,"1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
+-,0,1," Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure 30 points d'énergie.",0,item-icon-459,459,"Niveau 4 Potion de restauration d'énergie
 ",0,1,,0,0,3,999,0,3,4,1
--,"1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+-,0,1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure 37 points d'énergie.
 ",0,item-icon-460,460,"Niveau 5 Potion de restauration d'énergie
 ",0,1,,0,0,3,999,0,3,5,1
--,"1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+-,0,1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
 Restaure 45 points d'énergie.",0,item-icon-461,461,Niveau 6 Potion de restauration d'énergie,0,1,,0,0,3,999,0,3,6,1
@@ -2635,19 +2635,19 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Réduit la probabilit�
 -------
 Des chaussures solides pour les agriculteurs dévoués, offrant confort et protection pendant de longues heures de soin des cultures.
 ",0,item-icon-598,598, Chaussures de ferme en bronze,1440,"1,2,3,4,5",251,1,0,1,999,0,1,9,1
--,"1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
+-,0,1," Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 
 -------
 Restaure votre énergie et vous rend plein de vitalité à nouveau.
 ",0,item-icon-599,599, Potion de restauration d'énergie,0,1,,0,0,3,999,0,3,7,1
--,"1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
+-,0,1," Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 
 -------
 Restaure votre énergie et vous rend plein de vitalité à nouveau.
 ",0,item-icon-600,600, Potion de restauration d'énergie,0,1,,0,0,3,999,0,3,8,1
--,"1,3,4",1," Vous pouvez obtenir cet objet par synthèse.
+-,0,1," Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 
 -------
@@ -3313,12 +3313,27 @@ Billets requis pour participer au défi de culture avancé
 "800,1",0,1, Vide,0,item-icon-837,837, Pierre cassée,0,1,,0,0,3,999,0,4,0,1
 "800,1",0,1, Vide,0,item-icon-838,838, Chauve-souris citrouille,0,1,,0,0,1,999,0,6,0,1
 "792,1",0,1, Vide,0,item-icon-839,839, Fragment de Lumi,0,1,,1,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-840,840,Lv 0 Slime d'énergie,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-841,841, Lv 0 Potion de restauration d'énergie,0,1,,0,0,,999,0,3,0,1
-"800,1",0,1,,0,item-icon-842,842, Lv 0 Essence de combat,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-843,843, Lv 0 Essence de collecte,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-844,844, Lv 0 Essence de plantation agricole,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-845,845, Lv 0 Essence d'élevage agricole,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1,"@@ Produit de fabrication.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Le matériau de la Potion de Restauration d'Énergie de niveau 0",0,item-icon-840,840,Lv 0 Slime d'énergie,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produit de fabrication.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Restaurer l'énergie -> 2",0,item-icon-841,841, Lv 0 Potion de restauration d'énergie,0,1,,0,0,,999,0,3,0,1
+"800,1",0,1," Produit de fabrication.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Un matériau pour fabriquer des équipements de niveau 0",0,item-icon-842,842, Lv 0 Essence de combat,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produit de fabrication.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Un matériau pour fabriquer des équipements de niveau 0",0,item-icon-843,843, Lv 0 Essence de collecte,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Produit de fabrication.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Un matériau pour fabriquer des équipements de niveau 0",0,item-icon-844,844, Lv 0 Essence de plantation agricole,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Preuve d'achèvement des tâches de novice,0,item-icon-845,845, Lv 0 Essence d'élevage agricole,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1," Produit d'artisanat.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -3331,51 +3346,52 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 "792,1",0,1, Suggérer de le porter comme mode,0,item-icon-852,852, Costume de cheveux · Chevalier radieux,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Suggérer de le porter comme mode,0,item-icon-853,853, Costume de cheveux · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Suggérer de le porter comme mode,0,item-icon-854,854, Costume · Tête de poulet,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-855,855, Costume · Guerrier moderne,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-856,856, Costume · Parrain de la mode,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-857,857, Costume · Capitaine Ronin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-858,858, Costume · Tête de blocs,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-859,859, Costume · Tête de cockpit,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-860,860, Costume · Guerrier BTC,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-861,861, Costume · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-862,862, Costume · Guerrier du futur,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-863,863, Costume · Ash,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-864,864, Costume · Canard bavard,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-865,865,Costume · Guerrier de la Pomme de Terre,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-866,866, Costume · Tournesol,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-867,867, Costume · Cactus,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-868,868, Costume · Banane,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-869,869, Costume · Poêle,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-870,870, Costume · Requin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-871,871, Costume · Ventouse,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-872,872, Costume · Sèche-cheveux,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-873,873, Costume de manteau · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-874,874, Costume de pantalon · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-875,875, Costume de gants · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-876,876, Costume de chaussures · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-877,877, Costume de manteau · Conquérant creux,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-878,878, Costume de pantalon · Conquérant creux,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-879,879, Costume de gants · Conquérant creux,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-880,880, Costume de chaussures · Conquérant creux,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-881,881, Costume de manteau · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-882,882, Costume de pantalon · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-883,883, Costume de gants · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-884,884, Costume de chaussures · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-855,855, Costume · Guerrier moderne,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-856,856, Costume · Parrain de la mode,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-857,857, Costume · Capitaine Ronin,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-858,858, Costume · Tête de blocs,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-859,859, Costume · Tête de cockpit,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-860,860, Costume · Guerrier BTC,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-861,861, Costume · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-862,862, Costume · Guerrier du futur,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-863,863, Costume · Ash,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-864,864, Costume · Canard bavard,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-865,865,Costume · Guerrier de la Pomme de Terre,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-866,866, Costume · Tournesol,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-867,867, Costume · Cactus,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-868,868, Costume · Banane,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-869,869, Costume · Poêle,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-870,870, Costume · Requin,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-871,871, Costume · Ventouse,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-872,872, Costume · Sèche-cheveux,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-873,873, Costume de manteau · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-874,874, Costume de pantalon · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-875,875, Costume de gants · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-876,876, Costume de chaussures · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-877,877, Costume de manteau · Conquérant creux,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-878,878, Costume de pantalon · Conquérant creux,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-879,879, Costume de gants · Conquérant creux,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-880,880, Costume de chaussures · Conquérant creux,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-881,881, Costume de manteau · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-882,882, Costume de pantalon · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-883,883, Costume de gants · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-884,884, Costume de chaussures · Conquérant ancien,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-885,885, Costume de manteau · Chevalier radieux,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-886,886, Costume de pantalon · Chevalier radieux,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-887,887, Costume de gants · Chevalier radieux,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-888,888, Costume de chaussures · Chevalier radieux,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-889,889, Costume de manteau · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-890,890, Costume de pantalon · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-891,891, Costume de gants · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-892,892, Costume de chaussures · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
--,0,1,,0,item-icon-893,893, Os de poisson,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-894,894, Boîte ouverte,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-895,895, Haricot germé,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-896,896, Œuf de dinosaure,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-897,897, Soja,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-898,898, Engrenages,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-899,899,Parchemin,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,,0,item-icon-934,934, Billet d'admission junior à l'arène - Léger ,0,1,,1,0,,999,0,4,0,1
-"795,1",0,1,,0,item-icon-935,935, Billet d'admission intermédiaire à l'arène - Léger ,0,1,,1,0,,999,0,4,0,1
-"798,1",0,1,,0,item-icon-936,936, Billet d'admission avancé à l'arène - Léger ,0,1,,1,0,,999,0,4,0,1
+"792,1",0,1,@@ Suggérer de porter comme mode,0,item-icon-890,890, Costume de pantalon · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-891,891, Costume de gants · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Suggérer de porter comme mode,0,item-icon-892,892, Costume de chaussures · Guerrier du gel,0,5,,1,0,,999,0,1,0,1
+-,0,1, Quelqu'un s'est étouffé,0,item-icon-893,893, Os de poisson,0,1,,0,0,,999,0,4,0,1
+-,0,1," Beurk..
+Boîte malodorante",0,item-icon-894,894, Boîte ouverte,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vide,0,item-icon-895,895, Haricot germé,0,1,,0,0,,999,0,4,0,1
+-,0,1," S'il vous plaît, ramenez le dinosaure",0,item-icon-896,896, Œuf de dinosaure,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vide,0,item-icon-897,897, Soja,0,1,,0,0,,999,0,4,0,1
+-,0,1, Toujours en marche,0,item-icon-898,898, Engrenages,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vide,0,item-icon-899,899,Parchemin,0,1,,0,0,,999,0,4,0,1
+"792,1",0,1,Billet d'entrée Junior Arena-Mini,0,item-icon-934,934, Billet d'admission junior à l'arène - Léger ,0,1,,1,0,,999,0,4,0,1
+"795,1",0,1, Billet d'entrée intermédiaire Arena-Mini,0,item-icon-935,935, Billet d'admission intermédiaire à l'arène - Léger ,0,1,,1,0,,999,0,4,0,1
+"798,1",0,1, Billet d'entrée avancé Arena-Mini,0,item-icon-936,936, Billet d'admission avancé à l'arène - Léger ,0,1,,1,0,,999,0,4,0,1
