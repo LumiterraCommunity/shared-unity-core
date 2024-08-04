@@ -121,7 +121,10 @@ Ekipman veya eşya yapımında kullanılabilir.
 Kara demir cevheri, madencilik yoluyla elde edilebilen ikincil bir ham maddedir. Siyah renkte, sert bir dokuya sahiptir ve bol miktarda demir elementi içerir.",0,item-icon-59,59, Koyu Demir,0,1,71,1,0,3,2,1,4,2,1
 "794,1","1,3,4",1," Birisi bu malzemeyi Kar Dağı'nda bir zamanlar görmüştü.
 Ekipman veya e",0,item-icon-60,60, Kırmızı Kristal Cevheri,0,1,73,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1,,0,item-icon-62,62, Sıradan Ahşap,0,1,"49,51",1,0,3,"1,0",1,4,1,1
+"792,1","1,3,4",1,"Birisi bir zamanlar bu malzemeyi deniz kenarında gördü.
+Ekipman veya eşyaları yapmak için kullanılabilir.
+-------
+Bu tür ahşap genellikle basit mobilya veya inşaat malzemeleri yapmak için kullanılır. Dokusu oldukça yumuşaktır, bu da işlemeyi ve oymayı kolaylaştırır.",0,item-icon-62,62, Sıradan Ahşap,0,1,"49,51",1,0,3,"1,0",1,4,1,1
 "793,1","1,3,4",1,"Birisi bir zamanlar bu materyali çölde görmüştü.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
@@ -272,9 +275,15 @@ Ekipman edildiğinde özellikleri artırabilir. Daha yüksek seviye kaynakları 
 Bu eldiv",0,item-icon-107,107, Tarım Eldiveni,1440,1,183,1,0,1,999,0,1,1,1
 "793,1",4,1,,0,item-icon-108,108, Tarım Eldiveni,1440,"1,2",192,1,0,1,999,0,1,2,1
 "794,1",4,1,,0,item-icon-109,109, Tarım Eldiveni,1440,"1,2,3",201,1,0,1,999,0,1,3,1
-"792,1",4,1,,0,item-icon-113,113, Toplama Ayakkabısı,1440,1,337,1,0,3,999,0,1,1,1
-"793,1",4,1,,0,item-icon-114,114, Toplama Ayakkabısı,1440,"1,2",346,1,0,3,999,0,1,2,1
-"794,1",4,1,,0,item-icon-115,115, Toplama Ayakkabısı,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu toplama ayakkabıları özellikle toplama için tasarlanmıştır. Giyildiğinde ormanda yürürken daha çevik olmanızı sağlar ve ihtiyacınız olan kaynakları kolayca toplamanıza yardımcı olur. ",0,item-icon-113,113, Toplama Ayakkabısı,1440,1,337,1,0,3,999,0,1,1,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu toplama ayakkabıları özellikle toplama için tasarlanmıştır. Kaynakları daha hızlı ve verimli bir şekilde toplamanıza yardımcı olabilir, toplama yolculuğunuzu daha sorunsuz hale getirebilir. ",0,item-icon-114,114, Toplama Ayakkabısı,1440,"1,2",346,1,0,3,999,0,1,2,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu ayakkabılar uzun keşif gezileri sırasında artan çeviklik ve konfor sağlayan tutkulu toplayıcılar için tasarlanmıştır. Dayanıklı ancak hafif yapısıyla oyuncuların çeşitli arazilerde kolayca dolaşmalarını ve kaynakları kolayca toplamalarını sağlar. Ayakkabılar ayrıca kararlılığı sağlayan özel bir tutuşa sahiptir, bu da kayganlık ve düşmeleri önler, hatta tehlikeli ortamlarda bile. ",0,item-icon-115,115, Toplama Ayakkabısı,1440,"1,2,3",355,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1,"Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Kullanarak özel etkileri tetikleyebilirsiniz.
 -------
@@ -533,10 +542,22 @@ Ekipman veya eşyalar yapmak için kullanılabilir.
 -------
 Bu örümcek ağı seviye 1'dir ve ormanda toplanabilir. Çeşitli eşyalar yapmak için kullanılabilen bir hammadde.",0,item-icon-180,180, Mavi Kristal Taşı,0,1,117,1,0,1,2,1,4,2,1
 "793,1","1,3,4",1," Bu bilet, heyecan verici maceralarla dolu özel bir etkinliğe erişim",0,item-icon-181,181, Çimen Canavarı Yaprağı,0,1,119,1,0,1,2,1,4,2,1
-"793,1","1,3,4",1,,0,item-icon-182,182, Bal,0,1,118,1,0,1,2,1,4,2,1
-"794,1","1,3,4",1,,0,item-icon-183,183, Gölge Tüyü,0,1,120,1,0,1,3,1,4,3,1
-"794,1","1,3,4",1,,0,item-icon-184,184, Katılaşmış Lava,0,1,121,1,0,1,3,1,4,3,1
-"794,1","1,3,4",1,,0,item-icon-185,185, Buz Parçası,0,1,122,1,0,1,3,1,4,3,1
+"793,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Bu, canavar çiftliklerinden elde edilen bal ve tarımsal ham madde olarak kullanılabilir.",0,item-icon-182,182, Bal,0,1,118,1,0,1,2,1,4,2,1
+"794,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Bu eşya, canavar çiftliğinden elde edilmiş olup tarım için kullanılan bir ham maddedir. Seviye 3 Koyu Tüy'dür.",0,item-icon-183,183, Gölge Tüyü,0,1,120,1,0,1,3,1,4,3,1
+"794,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Bu katılaşmış magma, canavar yetiştiriciliği yoluyla üretilmiş olup tarımsal ham madde üretiminde kullanılabilir. Yüksek viskoziteye ve yüksek sıcaklık direncine sahiptir, bu da aşırı koşullar altında kullanım için uygundur.",0,item-icon-184,184, Katılaşmış Lava,0,1,121,1,0,1,3,1,4,3,1
+"794,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Bu buz parçası, canavar yetiştiriciliğinden elde edilmiş olup tarımda kullanılan bir malzemedir. Üç kalite seviyesine sahiptir ve çeşitli buz esaslı eşyalar yapmak için kullanılabilir.",0,item-icon-185,185, Buz Parçası,0,1,122,1,0,1,3,1,4,3,1
 "792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
 -------
@@ -553,13 +574,27 @@ Bu şık şapka, sahibine şans getirir ve her kıyafete bir cazibe katar. Canl�
 Kullanarak özel etkileri tetikleyebilirsiniz.
 -------
 Bu öğe, canavar çiftliğinden üretilen ve tarımda kullanılan bir hammadde olan bir seviye 3 Koyu Tüy'dür.",0,item-icon-175,175, Çürümekte Olan Mahsul,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1,,0,item-icon-116,116, Toplama Şapkası,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1,,0,item-icon-126,126, Toplama Eldiveni,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1,,0,item-icon-125,125, Toplama Eldiveni,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1,,0,item-icon-122,122, Toplama Pantolonu,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1,,0,item-icon-124,124, Toplama Pantolonu,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1,,0,item-icon-123,123, Toplama Pantolonu,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1,,0,item-icon-127,127, Toplama Eldiveni,1440,"1,2,3",351,1,0,3,999,0,1,3,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu şık şapka, her maceracı için mükemmel bir seçenektir, tarzdan ödün vermeden hava koşullarına karşı ekstra koruma sağlar. Geniş kenarı ve ayarlanabilir kayışıyla rahat bir uyum sağlar, her türlü dış mekân etkinliği için vazgeçilmez bir aksesuardır. Dayanıklı malzemelerle üretilen bu şapka, en zorlu koşullara dayanacak şekilde tasarlanmıştır. Hafif yapısı ve nefes alabilir kumaşı, uzun keşif saatlerinde sizi serin ve korumalı tutar. Pratik tasarımı ve modaya uygun görünümüyle, Toplama Şapka, deneyimli her maceracı için olmazsa olmazdır. ",0,item-icon-116,116, Toplama Şapkası,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu eldivenler, tutkulu toplayıcılar için geliştirilmiş çeviklik ve kavrama sağlar. Dikenlerden ve keskin nesnelerden koruma sağlayan dayanıklı bir malzemeden yapılmıştır. Bu eldivenlerle kaynakları kolaylıkla ve verimli bir şekilde toplayabilirsiniz. ",0,item-icon-126,126, Toplama Eldiveni,1440,"1,2",342,1,0,3,999,0,1,2,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu eldivenler, tutkulu toplayıcılar için tasarlanmış olup ellerinizi kirletmeden çeşitli kaynakları kolayca toplamanıza olanak tanır. Rahat bir uyum ve dayanıklı malzeme ile güvenilir bir kavrama sağlar, keskin kenarlara karşı koruma sağlar. Otlar toplamak veya maden çıkarmak olsun, bu eldivenler her sadık toplayıcı için olmazsa olmazdır. ",0,item-icon-125,125, Toplama Eldiveni,1440,1,333,1,0,3,999,0,1,1,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu pantolonlar, oyunda kaynak toplamak için mükemmel olup ek depolama alanı ve dayanıklılık sağlar. Güçlendirilmiş dikişler ve çeşitli ceplerle tasarlanmıştır, oyuncuların çeşitli malzemeleri kolayca taşımasına ve toplamasına olanak tanır. ",0,item-icon-122,122, Toplama Pantolonu,1440,1,336,1,0,3,999,0,1,1,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu eldivenler, tutkulu toplayıcılar için geliştirilmiş kavrama ve çeviklik sağlar. Dikenlerden ve keskin kenarlardan ellerinizi koruyan dayanıklı malzemelerden yapılmıştır, böylece kaynakları kolaylıkla ve verimli bir şekilde toplayabilirsiniz. Bu eldivenlerle artık su toplama veya kesiklerle uğraşmanıza gerek kalmaz. ",0,item-icon-124,124, Toplama Pantolonu,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu pantolonlar, uzun yolculuklar sırasında konfor ve esneklik sağlayan tutkulu maceracılar için tasarlanmıştır. Dayanıklı malzemelerle üretilmiş olup hareket kabiliyetini korurken dış etkilere karşı mükemmel koruma sağlar. Oyunun geniş manzaralarını keşfederken kaynakları verimli bir şekilde toplamak isteyenler için mükemmeldir. ",0,item-icon-123,123, Toplama Pantolonu,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Özel efektleri tetikleyebilir.
+-------
+Bu güçlü formülle bitkilerinizi hızla büyütün, kısa sürede verimli bir hasat elde edin. Tarım verimliliğinizi artırın ve bitkilerinizin bu güçlü gübre ile gelişmesini izleyin. ",0,item-icon-127,127, Toplama Eldiveni,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "794,1",4,1,"Bu eşyayı sentez yoluyla elde edebilirsiniz. Takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilirsiniz.
 
 ---
@@ -597,11 +632,21 @@ Elmas Orak, saf elmasla yapılmış, büyüleyici bir ışık yayan, zarif ve mu
 
 ---
 Yıldızlı Orak, yıldız ışığıyla parlayan, bıçağında sayısız parlak yıldız bulunan, gizemli bir ışıma yayan bir oraktır. Bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Orak sapı zarif takımyıldız desenleriyle oymalıdır, ilahi ve ciddi bir hava verir. Yıldızlı Orak'ı kullanmak, yıldızların gücünü kullanmak gibi hissettirir, sonsuz güç ve şan hissi verir. Savaşta veya törende mükemmel bir seçimdir.",0,item-icon-121,121, Toplama Ceketi,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1,,0,item-icon-120,120, Toplama Ceketi,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1,,0,item-icon-119,119, Toplama Ceketi,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1,,0,item-icon-118,118, Toplama Şapkası,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1,,0,item-icon-117,117, Toplama Şapkası,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1,,0,item-icon-112,112, Tarım Ayakkabısı,1440,"1,2,3",204,1,0,1,999,0,1,3,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Maceralar için tasarlanmış pratik bir ceket, dış etkilere karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri, uzun yolculuklar ve dış mekân etkinlikleri için idealdir. Bu temel parça ile sıcak ve rahat kalın, hareket kabiliyetinizden ödün vermeden. ",0,item-icon-120,120, Toplama Ceketi,1440,"1,2",344,1,0,3,999,0,1,2,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Maceralar için tasarlanmış pratik bir ceket, dış etkilere karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri, uzun yolculuklar ve dış mekân keşifleri için idealdir. Çeşitli cepleri ve ayarlanabilir kayışlarıyla, her dış mekân tutkunu için kullanışlılık ve işlevsellik sunar. ",0,item-icon-119,119, Toplama Ceketi,1440,1,335,1,0,3,999,0,1,1,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Olağanüstü koruma sağlayan dayanıklı bir ceket, dış etkilere karşı mükemmel koruma sağlar. Hafif ve nefes alabilir kumaşı, uzun keşif saatlerinde konfor sağlar. Çeşitli cepleri ve güçlendirilmiş dikişleriyle, her tutkulu maceracının mükemmel arkadaşıdır. ",0,item-icon-118,118, Toplama Şapkası,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Toplama yeteneklerinizi artıran şık bir şapka, kaynakları daha verimli bir şekilde toplamanıza olanak tanır. Benzersiz tasarımı konfor ve koruma sağlar, sadık bir toplayıcı için olmazsa olmaz bir aksesuardır. Toplama görevleri için özel olarak tasarlanmış pratik bir şapka. Hafif ve nefes alabilir malzemesi, uzun saatler boyunca toplama yaparken serin ve odaklı kalmanızı sağlar.  ",0,item-icon-117,117, Toplama Şapkası,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1,"Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Tarlalarınızın solmasını önleyebilirsiniz.
+-------
+Bu tarımsal ayakkabılar özellikle tarım işçileri için tasarlanmıştır. Kaymaz, aşınmaya dayanıklı ve nefes alabilir özelliklere sahiptir, bu da ayakları korur ve iş verimliliğini artırır. ",0,item-icon-112,112, Tarım Ayakkabısı,1440,"1,2,3",204,1,0,1,999,0,1,3,1
 "793,1",4,1,,0,item-icon-111,111, Tarım Ayakkabısı,1440,"1,2",195,1,0,1,999,0,1,2,1
 "792,1",4,1,,0,item-icon-110,110, Tarım Ayakkabısı,1440,1,186,1,0,1,999,0,1,1,1
 "792,1","1,3,4",1,"Bu eşyayı sentez yoluyla elde edebilirsiniz.
@@ -612,14 +657,29 @@ Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir eşya
 Kullanıldığında özel efektler tetikleyebilir.
 -------
 Hayvan yemi, hayvanların sağlıklı büyümesini sürdürebilmeleri için gerekli besin maddelerini sağlayan bir tüketilebilir üründür. Çeşitli çiftlik hayvanları ve evcil hayvanlar için uygun olup, verimliliklerini ve ömürlerini artırabilir.",27,item-icon-29,29, Büyük Yem,0,1,435,1,0,1,"1,0",0,3,0,1
--,"1,3,4",0,,0,item-icon-188,188, Tarım Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
--,"1,3,4",0,,0,item-icon-189,189, Savaş Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
--,"1,3,4",0,,0,item-icon-190,190, Toplama Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
-"794,1","1,3,4",1,,0,item-icon-191,191, Kristalleşmiş İyileştirme İksiri,0,1,60,1,0,2,3,0,3,3,1
-"794,1","1,3,4",1,,0,item-icon-192,192, Kristalleşmiş Saldırı İksiri,0,1,60,1,0,2,3,0,3,3,1
-"794,1","1,3,4",1,,0,item-icon-194,194, Kristalleşmiş Hız İksiri,0,1,60,1,0,2,3,0,3,3,1
-"794,1","1,3,4",1,,0,item-icon-195,195,Kristalleşmiş Kritik İksir,0,1,60,1,0,2,3,0,3,3,1
-"794,1","1,3,4",1,,0,item-icon-196,196, Kristalleşmiş Can İksiri,0,1,60,1,0,2,3,0,3,3,1
+-,"1,3,4",0," Tarım Deneyimi, bitki yetiştirme ve hayvan besleme gibi tarımsal faaliyetler yoluyla elde edilen bir deneyim değeridir. Tarımsal becerileri ve seviyeleri geliştirmenin anahtarıdır ve daha yüksek seviyeli tarım araçları ve ekipmanlarını kilitlemek için gerekli bir koşuldur.",0,item-icon-188,188, Tarım Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
+-,"1,3,4",0," Savaş Deneyimi, savaşlarda kazanılan deneyimi ifade eder. Oyuncuların seviye atlamalarına ve becerilerini geliştirmelerine yardımcı olabilir, karakterlerinin yeteneklerini artırabilir. Birçok oyunda, Savaş Deneyimi, oyuncuların güçlerini artırmak için önemli yollardan biridir.",0,item-icon-189,189, Savaş Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
+-,"1,3,4",0," Toplama Deneyimi, oyundaki önemli bir kaynaktır ve kaynak toplama verimliliğini ve karakter yeteneklerini artırmada hayati bir rol oynar. Oyuncular, odun kesme ve madencilik gibi faaliyetlerle deneyim biriktirerek toplama beceri seviyelerini artırırlar. Beceri seviyeleri, toplama hızını, nadir kaynak edinme olasılığını ve daha yüksek seviye becerilerin kilidini açmayı belirler. Oyun ilerledikçe, karakter ihtiyaçları daha karmaşık hale gelir, bu nedenle yüksek toplama becerileri destek için kaçınılmaz hale gelir. Ayrıca, yükseltilmiş toplama deneyimi, gelişmiş saldırı yeteneklerine de katkıda bulunur. Oyuncuların sürekli olarak beceriler öğrenmeleri ve toplama deneyimlerini geliştirmeleri, cesurca zorluklarla yüzleşmeleri ve en güçlüler arasında yükselmeleri için gereklidir.",0,item-icon-190,190, Toplama Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
+"794,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir, savaş sırasında yaralarınızı iyileştirmek ve savaşma yeteneğinizi geri kazanmak için kullanılabilir.",0,item-icon-191,191, Kristalleşmiş İyileştirme İksiri,0,1,60,1,0,2,3,0,3,3,1
+"794,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir, saldırı gücünüzü artırabilir ve saldırılarınızı daha keskin hale getirebilir. Savaşta kullanmak size daha büyük bir avantaj sağlayabilir.",0,item-icon-192,192, Kristalleşmiş Saldırı İksiri,0,1,60,1,0,2,3,0,3,3,1
+"794,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir, hareket hızınızı artırabilir ve savaşlarda size büyük ölçüde yardımcı olabilir.",0,item-icon-194,194, Kristalleşmiş Hız İksiri,0,1,60,1,0,2,3,0,3,3,1
+"794,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir, kritik vuruş oranınızı artırabilir, savaşta daha ölümcül olmanızı sağlayabilir.",0,item-icon-195,195,Kristalleşmiş Kritik İksir,0,1,60,1,0,2,3,0,3,3,1
+"794,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Yorgun maceracıyı canlandıran ve canlandıran güçlü bir iksir, enerji patlaması ve iyileştirici özellikler sağlar. Bu değerli iksir, zor durumlarda bir can simidi olup sizi tehlikelerle karşı karşıya kaldığınızda devam etmenizi sağlayacak hızlı ve ferahlatıcı bir destek sunar.",0,item-icon-196,196, Kristalleşmiş Can İksiri,0,1,60,1,0,2,3,0,3,3,1
 "794,1","1,3,4",1,"Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Kullanarak özel efektler tetikleyebilirsiniz.
 -------
@@ -1615,10 +1675,18 @@ Yüzen Gerçeklik Giriş Bileti ",0,item-icon-460,460, Enerji Restorasyon İksir
 -------
 Çiçek Zirvesi Giriş Bileti ",0,item-icon-461,461, Enerji Restorasyon İksiri,0,1,,0,0,3,999,0,3,6,1
 "793,1","1,3,4",1," Kırık Yüzen Gerçeklik Giriş Bileti, tam Yüzen Gerçeklik Giriş Bileti ile değiştirilebilir.",0,item-icon-462,462, Bronz Parçaları,0,1,,1,0,2,999,1,4,2,1
-"794,1","1,3,4",1,,0,item-icon-463,463, Lord Dişi,0,1,,1,0,2,999,1,4,3,1
-"792,1","1,3,4",1,,0,item-icon-464,464, #01 Yüzen Diyar Bilet,0,1,,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-465,465, #01 Çiçek Zirvesi Bilet,0,1,,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-466,466, #01 Açık Dünya Bilet,0,1,,1,0,2,999,0,4,0,1
+"794,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+#01 Yüzen Gerçeklik Loto Bileti",0,item-icon-463,463, Lord Dişi,0,1,,1,0,2,999,1,4,3,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+#01 Çiçek Zirvesi Loto Bileti",0,item-icon-464,464, #01 Yüzen Diyar Bilet,0,1,,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+#01 Açık Dünya Loto Bileti",0,item-icon-465,465, #01 Çiçek Zirvesi Bilet,0,1,,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Yüzen Gerçeklik Giriş Bileti",0,item-icon-466,466, #01 Açık Dünya Bilet,0,1,,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1,"Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
@@ -1629,41 +1697,124 @@ Ekipman veya eşyaları üretmek için kullanılabilir.
 Çiçek Zirvesi Giriş Bileti",0,item-icon-468,468,Çiçek Zirvesi Giriş Bileti,0,1,473,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1," Kırık Yüzen Diyar Giriş Bileti, tam Yüzen Diyar Giriş Bileti ile değiştirilmek üzere kullanılabilir",0,item-icon-469,469, Kırık Zindan Giriş Bileti,0,1,,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1," Kırık Çiçek Zirvesi Giriş Bileti, tam Çiçek Zirvesi Giriş Bileti ile değiştirilmek üzere kullanılabilir",0,item-icon-470,470,Kırık Çiçek Zirvesi Giriş Bileti,0,1,,1,0,2,999,0,4,0,1
-"795,1",4,1,,0,item-icon-471,471, Gang Çekirdek Saç,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,item-icon-472,472, Gang Çekirdek Üst,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,item-icon-473,473, Gang Çekirdek Eldiven,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,item-icon-474,474, Gang Çekirdek Pantolon,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,item-icon-475,475, Gang Çekirdek Ayakkabı,0,5,,1,0,2,999,0,1,4,1
-"795,1",0,1,,0,item-icon-478,478, LUAG Gelecek (100),7200,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-479,479, Boş Şişe,0,1,,1,0,"1,2,3",999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-480,480, LUAG Gelecek (N),0,1,,1,0,"1,2,3",999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-481,481, LUAG Yıldız,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-482,482, Lv 1 Enerji Sümüklüböcek,0,1,416,1,0,3,"1,0",0,4,1,1
--,"1,3,4",1,,0,item-icon-483,483, Lv 2 Enerji Sümüklüböcek,0,1,417,1,0,3,2,0,4,2,1
--,"1,3,4",1,,0,item-icon-484,484, Lv 3 Enerji Sümüklüböcek,0,1,418,1,0,3,3,0,4,3,1
--,"1,3,4",1,,0,item-icon-485,485, Lv 4 Enerji Sümüklüböcek,0,1,419,1,0,3,4,0,4,4,1
--,"1,3,4",1,,0,item-icon-486,486, Lv 5 Enerji Sümüklüböcek,0,1,420,1,0,3,5,0,4,5,1
--,"1,3,4",1,,0,item-icon-487,487, Lv 6 Enerji Sümüklüböcek,0,1,421,1,0,3,6,0,4,6,1
--,"1,3,4",1,,0,item-icon-488,488, Lv 7 Enerji Sümüklüböcek,0,1,422,1,0,3,7,0,4,7,1
--,"1,3,4",1,,0,item-icon-489,489, Lv 8 Enerji Sümüklüböcek,0,1,423,1,0,3,8,0,4,8,1
--,"1,3,4",1,,0,item-icon-490,490, Lv 9 Enerji Sümüklüböcek,0,1,424,1,0,3,9,0,4,9,1
-"798,1","1,3,4",1,,0,item-icon-491,491, Ateş-Kaya-Ölçeği,0,1,23,1,0,2,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-492,492, Göz Alıcı Şişe,0,1,22,1,0,2,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-493,493, Dev Taş Göz,0,1,24,1,0,2,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-494,494, Lav Çiçeği,0,1,43,1,0,3,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-495,495, Ateş Odunu,0,1,63,1,0,3,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-496,496, Lav,0,1,81,1,0,3,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-497,497, Alevli Kırmızı Krizantem,0,1,105,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-498,498, Ateş Duymak,0,1,106,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-499,499, Sıcak Kabak,0,1,107,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-500,500, Dev Taş,0,1,134,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-501,501, Göz Alıcı Toz,0,1,132,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,item-icon-502,502, Ateş Taşı,0,1,133,1,0,1,7,1,4,7,1
-"799,1","1,3,4",1,,0,item-icon-503,503, Sarı-Çizgili Ayaklar,0,1,25,1,0,2,8,1,4,8,1
-"799,1","1,3,4",1,,0,item-icon-504,504, Ejderha Takı,0,1,27,1,0,2,8,1,4,8,1
+"795,1",4,1," Ekipman sentezleme sırasında elde etme şansı vardır. Özelliksiz şık bir görünüm
+-------
+Moda olarak giymeyi önerir",0,item-icon-471,471, Gang Çekirdek Saç,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Ekipman sentezleme sırasında elde etme şansı vardır. Özelliksiz şık bir görünüm
+-------
+Moda olarak giymeyi önerir",0,item-icon-472,472, Gang Çekirdek Üst,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Ekipman sentezleme sırasında elde etme şansı vardır. Özelliksiz şık bir görünüm
+-------
+Moda olarak giymeyi önerir",0,item-icon-473,473, Gang Çekirdek Eldiven,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Ekipman sentezleme sırasında elde etme şansı vardır. Özelliksiz şık bir görünüm
+-------
+Moda olarak giymeyi önerir",0,item-icon-474,474, Gang Çekirdek Pantolon,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," LUAG Geleceği(100), LUAG Jetonu ile 1:100 oranında sabitlenmiştir",0,item-icon-475,475, Gang Çekirdek Ayakkabı,0,5,,1,0,2,999,0,1,4,1
+"795,1",0,1," Yüzen Gerçeklik'te Görünüm, Çiçek Zirvesi'nde Görünüm.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Enerji İksiri yapımında kullanılabilir",0,item-icon-478,478, LUAG Gelecek (100),7200,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Yüzen Gerçeklik'te Görünüm, Çiçek Zirvesi'nde Görünüm.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+LUAG Geleceği(100) ile değiştirilebilir",0,item-icon-479,479, Boş Şişe,0,1,,1,0,"1,2,3",999,0,4,0,1
+"792,1","1,3,4",1, LUAG Geleceği(100) ile değiştirilebilir,0,item-icon-480,480, LUAG Gelecek (N),0,1,,1,0,"1,2,3",999,0,4,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-481,481, LUAG Yıldız,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-482,482, Lv 1 Enerji Sümüklüböcek,0,1,416,1,0,3,"1,0",0,4,1,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-483,483, Lv 2 Enerji Sümüklüböcek,0,1,417,1,0,3,2,0,4,2,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-484,484, Lv 3 Enerji Sümüklüböcek,0,1,418,1,0,3,3,0,4,3,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-485,485, Lv 4 Enerji Sümüklüböcek,0,1,419,1,0,3,4,0,4,4,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-486,486, Lv 5 Enerji Sümüklüböcek,0,1,420,1,0,3,5,0,4,5,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-487,487, Lv 6 Enerji Sümüklüböcek,0,1,421,1,0,3,6,0,4,6,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-488,488, Lv 7 Enerji Sümüklüböcek,0,1,422,1,0,3,7,0,4,7,1
+-,"1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeşitli malzemelerden yapılmış ve güçlü enerji dalgalanmaları içeren, çeşitli eşyalara yeniden işlenebilir",0,item-icon-489,489, Lv 8 Enerji Sümüklüböcek,0,1,423,1,0,3,8,0,4,8,1
+-,"1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Volkanik patlamaların kalbinde dövülen nadir ve dayanıklı bir malzeme.",0,item-icon-490,490, Lv 9 Enerji Sümüklüböcek,0,1,424,1,0,3,9,0,4,9,1
+"798,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Çeviklik ve hız için geçici artışlar sağlayan parıldayan bir iksir.",0,item-icon-491,491, Ateş-Kaya-Ölçeği,0,1,23,1,0,2,7,1,4,7,1
+"798,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Gizli hazineleri ve sırları ortaya çıkarabilen antik güce sahip devasa bir taş göz.",0,item-icon-492,492, Göz Alıcı Şişe,0,1,22,1,0,2,7,1,4,7,1
+"798,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Volkanik bölgelerde bulunan ateşli bir parıltı yayan nadir ve canlı bir çiçek.",0,item-icon-493,493, Dev Taş Göz,0,1,24,1,0,2,7,1,4,7,1
+"798,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Isı ve pişirme için yakıt, vahşi doğada hayatta kalmak için esastır.",0,item-icon-494,494, Lav Çiçeği,0,1,43,1,0,3,7,1,4,7,1
+"798,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Her açıklamanın kelime sayısı belirtilen 20 kelime sınırı içindedir.",0,item-icon-495,495, Ateş Odunu,0,1,63,1,0,3,7,1,4,7,1
+"798,1","1,3,4",1," Bu tür malzemeleri ekim yoluyla elde edebilirsiniz.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Sıcaklık ve güzellik yayan canlı bir çiçek, tutkuyu ve canlılığı simgeler.",0,item-icon-496,496, Lav,0,1,81,1,0,3,7,1,4,7,1
+"798,1","1,3,4",1," Bu tür malzemeleri ekim yoluyla elde edebilirsiniz.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Yukarıda sağlanan çeviri, ""Heard of Fire""ın oyunun adı veya oyundaki belirli bir kavramı ifade ettiği varsayımına dayanmaktadır. Farklı bir anlamı varsa, çevirileri buna göre ayarlamam için lütfen bana bildirin. ",0,item-icon-497,497, Alevli Kırmızı Krizantem,0,1,105,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Bu tür malzemeleri ekim yoluyla elde edebilirsiniz.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Düşmanlara alev saçan bir kabak, geniş çapta hasara neden olur.",0,item-icon-498,498, Ateş Duymak,0,1,106,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Antik güçle imbiklenmiş devasa bir taş, doğayı şekillendirebilme yeteneğine sahiptir.",0,item-icon-499,499, Sıcak Kabak,0,1,107,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Parıldayan parçacıklar, nereye giderlerse gitsinler büyüleyici bir ışıltı yayar.",0,item-icon-500,500, Dev Taş,0,1,134,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Bu tür malzemeleri üreme yoluyla elde edebilirsiniz.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Alevli özü kullanan güçlü bir taş, yıkıcı alevler salma yeteneğine sahiptir.",0,item-icon-501,501, Göz Alıcı Toz,0,1,132,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Bu canlı ayakkabılar bir çiftçinin çevikliğini ve hızını artırır, mahsullere bakım yapmak ve tarlalarda gezinmek için mükemmeldir.",0,item-icon-502,502, Ateş Taşı,0,1,133,1,0,1,7,1,4,7,1
+"799,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Güçlü ejderhaların pullarından yapılmış zarif aksesuarlar, giyenin gücünü artırır.",0,item-icon-503,503, Sarı-Çizgili Ayaklar,0,1,25,1,0,2,8,1,4,8,1
+"799,1","1,3,4",1," Eski Alan'da görünür.
+Ekipman veya eşya yapımında kullanılabilir.
+-------
+Gelişmiş görüş sağlayan mistik bir küre, gizli hazineleri ve sırları keşfetmenizi sağlar.",0,item-icon-504,504, Ejderha Takı,0,1,27,1,0,2,8,1,4,8,1
 "799,1","1,3,4",1,,0,item-icon-505,505, Kartal Gözü Topu,0,1,26,1,0,2,8,1,4,8,1
-"799,1","1,3,4",1,,0,item-icon-506,506, Boş Lif,0,1,45,1,0,3,8,1,4,8,1
-"799,1","1,3,4",1,,0,item-icon-507,507, Boş Ahşap,0,1,65,1,0,3,8,1,4,8,1
+"799,1","1,3,4",1,"Antik Alan'da Görünüyor.
+Ekipman veya eşyaları yapmak için kullanılabilir.
+-------
+Çevikliği ve hareketi artıran hafif ve esnek bir malzeme. ",0,item-icon-506,506, Boş Lif,0,1,45,1,0,3,8,1,4,8,1
+"799,1","1,3,4",1," Antik Alan'da Görünüyor.
+Ekipman veya eşyaları yapmak için kullanılabilir.
+-------
+Hafif ve sağlam, bu ahşap yay ve ok yapımı için mükemmeldir. ",0,item-icon-507,507, Boş Ahşap,0,1,65,1,0,3,8,1,4,8,1
 "799,1","1,3,4",1,"Antik Bölgede Görünüyor.
 Ekipman veya eşyaları yapmak için kullanılabilir.
 -------
@@ -1906,9 +2057,18 @@ Ekipmanı takıldığında özellikleri artırabilir. Mahsullerinizi solmaya kar
 Hafif ve oyuk tasarıma sahip bir çaydanlık, iksirler ve karışımlar için mükemmel.",0,item-icon-567,567, Boş Su Kazanı,1440,"1,2,3,4,5",245,1,0,1,999,0,1,8,1
 "799,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipmanı takıldığında özellikleri artırabilir. Mahsullerinizi solmaya karşı daha",0,item-icon-568,568, Boş Çapası,1440,"1,2,3,4,5",244,1,0,1,999,0,1,8,1
-"799,1",0,1,,0,item-icon-569,569, Boş Fırçası,1440,"1,2,3,4,5",238,1,0,1,999,0,1,8,1
-"799,1",4,1,,0,item-icon-570,570, Boş Tarım Şapkası,1440,"1,2,3,4,5",241,1,0,1,999,0,1,8,1
-"799,1",4,1,,0,item-icon-571,571, Boş Tarım Ceketi,1440,"1,2,3,4,5",239,1,0,1,999,0,1,8,1
+"799,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Donatıldığında özellikleri artırabilir. Mahsullerinizi solmaya karşı daha dayanıklı hale getirir
+-------
+Hollow kıllara sahip hafif bir fırça, hassas darbeler ve detaylı işlemeler için mükemeldir.",0,item-icon-569,569, Boş Fırçası,1440,"1,2,3,4,5",238,1,0,1,999,0,1,8,1
+"799,1",4,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Donatıldığında özellikleri artırabilir. Mahsullerinizi solmaya karşı daha dayanıklı hale getirir
+-------
+Boşaltılmış tasarıma sahip hafif bir şapka, çiftçiler için mükeldir.",0,item-icon-570,570, Boş Tarım Şapkası,1440,"1,2,3,4,5",241,1,0,1,999,0,1,8,1
+"799,1",4,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Donatıldığında özellikleri artırabilir. Mahsullerinizi solmaya karşı daha dayanıklı hale getirir
+-------
+Diligent çiftçiler için tasarlanmış hafif ve nefes alabilir ceket. Kir ve dikenlere karşı mükemel koruma sağlar.",0,item-icon-571,571, Boş Tarım Ceketi,1440,"1,2,3,4,5",239,1,0,1,999,0,1,8,1
 "799,1",4,1,"Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Donatıldığında özellikleri artırabilir. Mahsullerinizi solmaya karşı daha az hassas hale getirin
 -------
@@ -2077,33 +2237,114 @@ Boş Çiçek yetiştirmek için tohum",0,item-icon-612,612, Lv 8 Tarımsal Hayva
 Kullanarak özel efektler tetikleyebilirsiniz.
 -------
 Eritme Meyve yetiştirmek için tohum",0,item-icon-613,613, Lv 9 Tarımsal Hayvancılık Özü,0,1,158,1,0,1,9,0,4,9,1
--,"1,3,4",1,,97,item-icon-614,614, Alev Kırmızı Krizantem Tohumu,0,1,500,1,0,1,7,1,3,7,1
--,"1,3,4",1,,97,item-icon-615,615, Ateş Tohumu,0,1,501,1,0,1,7,1,3,7,1
--,"1,3,4",1,,97,item-icon-616,616, Acı Kabak Tohumu,0,1,502,1,0,1,7,1,3,7,1
--,"1,3,4",1,,97,item-icon-617,617, Hollow Yaprak Tohumu,0,1,505,1,0,1,8,1,3,8,1
--,"1,3,4",1,,97,item-icon-618,618, Hollow Meyve Tohumu,0,1,504,1,0,1,8,1,3,8,1
--,"1,3,4",1,,97,item-icon-619,619, Hollow Çiçek Tohumu,0,1,503,1,0,1,8,1,3,8,1
--,"1,3,4",1,,97,item-icon-620,620, Ergitme Meyve Tohumu,0,1,508,1,0,1,9,1,3,9,1
--,"1,3,4",1,,97,item-icon-621,621, Psikedelik Sebze Tohumu,0,1,507,1,0,1,9,1,3,9,1
--,"1,3,4",1,,97,item-icon-622,622,Güç Çiçeği Tohumu,0,1,506,1,0,1,9,1,3,9,1
-"798,1","1,3,4",1,,0,item-icon-623,623, Sıcak İyileştirme İksiri,0,1,68,1,0,3,7,0,3,7,1
-"798,1","1,3,4",1,,0,item-icon-641,641, Sıcak Saldırı İksiri,0,1,68,1,0,3,7,0,3,7,1
-"798,1","1,3,4",1,,0,item-icon-642,642, Sıcak Hız İksiri,0,1,68,1,0,3,7,0,3,7,1
-"798,1","1,3,4",1,,0,item-icon-643,643, Sıcak Kritik İksiri,0,1,68,1,0,3,7,0,3,7,1
-"798,1","1,3,4",1,,0,item-icon-644,644, Sıcak Can İksiri,0,1,68,1,0,3,7,0,3,7,1
-"798,1","1,3,4",1,,0,item-icon-645,645, Sıcak Savunma İksiri,0,1,68,1,0,3,7,0,3,7,1
-"799,1","1,3,4",1,,0,item-icon-646,646, Boş İyileştirme İksiri,0,1,70,1,0,3,8,0,3,8,1
-"799,1","1,3,4",1,,0,item-icon-647,647, Boş Saldırı İksiri,0,1,70,1,0,3,8,0,3,8,1
-"799,1","1,3,4",1,,0,item-icon-648,648, Boş Hız İksiri,0,1,70,1,0,3,8,0,3,8,1
-"799,1","1,3,4",1,,0,item-icon-649,649, Boş Kritik İksiri,0,1,70,1,0,3,8,0,3,8,1
-"799,1","1,3,4",1,,0,item-icon-650,650, Boş Can İksiri,0,1,70,1,0,3,8,0,3,8,1
-"799,1","1,3,4",1,,0,item-icon-651,651, Boş Savunma İksiri,0,1,70,1,0,3,8,0,3,8,1
-"800,1","1,3,4",1,,0,item-icon-652,652, Bronz İyileştirme İksiri,0,1,72,1,0,3,9,0,3,9,1
-"800,1","1,3,4",1,,0,item-icon-653,653, Bronz Saldırı İksiri,0,1,72,1,0,3,9,0,3,9,1
-"800,1","1,3,4",1,,0,item-icon-654,654, Bronz Hız İksiri,0,1,72,1,0,3,9,0,3,9,1
-"800,1","1,3,4",1,,0,item-icon-655,655, Bronz Kritik İksiri,0,1,72,1,0,3,9,0,3,9,1
-"800,1","1,3,4",1,,0,item-icon-656,656, Bronz Can İksiri,0,1,72,1,0,3,9,0,3,9,1
-"800,1","1,3,4",1,,0,item-icon-657,657, Bronz Savunma İksiri,0,1,72,1,0,3,9,0,3,9,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Buğday yetiştirmek için tohumlar ",97,item-icon-614,614, Alev Kırmızı Krizantem Tohumu,0,1,500,1,0,1,7,1,3,7,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Alev Kırmızı Krizantem yetiştirmek için tohum ",97,item-icon-615,615, Ateş Tohumu,0,1,501,1,0,1,7,1,3,7,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Ateşli Kabak yetiştirmek için tohum ",97,item-icon-616,616, Acı Kabak Tohumu,0,1,502,1,0,1,7,1,3,7,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Boş Yaprak yetiştirmek için tohum ",97,item-icon-617,617, Hollow Yaprak Tohumu,0,1,505,1,0,1,8,1,3,8,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Boş Meyve yetiştirmek için tohum ",97,item-icon-618,618, Hollow Meyve Tohumu,0,1,504,1,0,1,8,1,3,8,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Boş Çiçek yetiştirmek için tohum ",97,item-icon-619,619, Hollow Çiçek Tohumu,0,1,503,1,0,1,8,1,3,8,1
+-,"1,3,4",1," Eski Bölge'de görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Eritme Meyvesi yetiştirmek için tohum ",97,item-icon-620,620, Ergitme Meyve Tohumu,0,1,508,1,0,1,9,1,3,9,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Mistik Sebze yetiştirmek için tohum ",97,item-icon-621,621, Psikedelik Sebze Tohumu,0,1,507,1,0,1,9,1,3,9,1
+-,"1,3,4",1,"Antik Bölgede Görünüyor.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Psikedelik Sebze yetiştirmek için Tohum  ",97,item-icon-622,622,Güç Çiçeği Tohumu,0,1,506,1,0,1,9,1,3,9,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Mevcut HP +320 ",0,item-icon-623,623, Sıcak İyileştirme İksiri,0,1,68,1,0,3,7,0,3,7,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Savaş saldırısı +50 ",0,item-icon-641,641, Sıcak Saldırı İksiri,0,1,68,1,0,3,7,0,3,7,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Hareket hızı +200 ",0,item-icon-642,642, Sıcak Hız İksiri,0,1,68,1,0,3,7,0,3,7,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Canavarlara karşı kritik hasar +120 ",0,item-icon-643,643, Sıcak Kritik İksiri,0,1,68,1,0,3,7,0,3,7,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Maksimum HP +200 ",0,item-icon-644,644, Sıcak Can İksiri,0,1,68,1,0,3,7,0,3,7,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Savaş savunması +20 ",0,item-icon-645,645, Sıcak Savunma İksiri,0,1,68,1,0,3,7,0,3,7,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Mevcut HP +400 ",0,item-icon-646,646, Boş İyileştirme İksiri,0,1,70,1,0,3,8,0,3,8,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Savaş saldırısı +60 ",0,item-icon-647,647, Boş Saldırı İksiri,0,1,70,1,0,3,8,0,3,8,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Hareket hızı +240 ",0,item-icon-648,648, Boş Hız İksiri,0,1,70,1,0,3,8,0,3,8,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Canavarlara karşı kritik hasar +150 ",0,item-icon-649,649, Boş Kritik İksiri,0,1,70,1,0,3,8,0,3,8,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Maksimum HP +240 ",0,item-icon-650,650, Boş Can İksiri,0,1,70,1,0,3,8,0,3,8,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Savaş savunması +25 ",0,item-icon-651,651, Boş Savunma İksiri,0,1,70,1,0,3,8,0,3,8,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Mevcut HP +480 ",0,item-icon-652,652, Bronz İyileştirme İksiri,0,1,72,1,0,3,9,0,3,9,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Savaş saldırısı +70 ",0,item-icon-653,653, Bronz Saldırı İksiri,0,1,72,1,0,3,9,0,3,9,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Hareket hızı +280 ",0,item-icon-654,654, Bronz Hız İksiri,0,1,72,1,0,3,9,0,3,9,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Canavarlara karşı kritik hasar +180 ",0,item-icon-655,655, Bronz Kritik İksiri,0,1,72,1,0,3,9,0,3,9,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Maksimum HP +280 ",0,item-icon-656,656, Bronz Can İksiri,0,1,72,1,0,3,9,0,3,9,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Savaş savunması +30 ",0,item-icon-657,657, Bronz Savunma İksiri,0,1,72,1,0,3,9,0,3,9,1
 "792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
@@ -2120,114 +2361,226 @@ Orta Seviye Arena Giriş Bileti",0,item-icon-660,660, Orta Düzey Arena Giriş B
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
 Gelişmiş Arena Giriş Bileti",0,item-icon-661,661, İleri Düzey Arena Giriş Bileti,0,1,474,1,0,2,999,0,4,0,1
-"792,1",0,1,,0,item-icon-665,665, Metal Köpek,0,1,444,1,0,1,999,0,6,1,1
-"792,1",0,1,,0,item-icon-666,666, Kabak Canavarı,0,1,445,1,0,1,999,0,6,1,1
-"792,1",0,1,,0,item-icon-667,667, Kaktüs Savaşçısı,0,1,443,1,0,1,999,0,6,1,1
-"793,1",0,1,,0,item-icon-668,668, Vızıldayan Arkadaş,0,1,446,1,0,1,999,0,6,2,1
-"793,1",0,1,,0,item-icon-669,669, Yapraklı Gizleyici,0,1,447,1,0,1,999,0,6,2,1
-"793,1",0,1,,0,item-icon-670,670, Maden Kedisi,0,1,448,1,0,1,999,0,6,2,1
-"794,1",0,1,,0,item-icon-671,671, Kaos Hayaleti,0,1,449,1,0,1,999,0,6,3,1
-"794,1",0,1,,0,item-icon-672,672, Kızıl Diş,0,1,450,1,0,1,999,0,6,3,1
-"794,1",0,1,,0,item-icon-673,673, Buzlu Pati,0,1,451,1,0,1,999,0,6,3,1
-"795,1",0,1,,0,item-icon-674,674, Kızgın Kök,0,1,452,1,0,1,999,0,6,4,1
-"795,1",0,1,,0,item-icon-675,675, Turuncu Yaprak Kafalı,0,1,453,1,0,1,999,0,6,4,1
-"795,1",0,1,,0,item-icon-676,676, İskelet Asker,0,1,454,1,0,1,999,0,6,4,1
-"796,1",0,1,,0,item-icon-677,677, Karlı Kar Tanesi,0,1,455,1,0,1,999,0,6,5,1
-"796,1",0,1,,0,item-icon-678,678, Gölge Behemoth,0,1,456,1,0,1,999,0,6,5,1
-"796,1",0,1,,0,item-icon-679,679, İskelet Kaptan,0,1,457,1,0,1,999,0,6,5,1
-"797,1",0,1,,0,item-icon-680,680, Buz Kabuğu Devi,0,1,458,1,0,1,999,0,6,6,1
-"797,1",0,1,,0,item-icon-681,681, Tavşan Büyücü,0,1,459,1,0,1,999,0,6,6,1
-"797,1",0,1,,0,item-icon-682,682, İskelet Okçu,0,1,460,1,0,1,999,0,6,6,1
-"798,1",0,1,,0,item-icon-683,683, Büyüleyici Küçük Efendi,0,1,461,1,0,1,999,0,6,7,1
-"798,1",0,1,,0,item-icon-684,684, Ateş-Kaya Gözcüsü,0,1,462,1,0,1,999,0,6,7,1
-"798,1",0,1,,0,item-icon-685,685, Dev Kaya Gözcüsü,0,1,463,1,0,1,999,0,6,7,1
-"799,1",0,1,,0,item-icon-686,686, Sarı-Çizgili Kaya Canavarı,0,1,466,1,0,1,999,0,6,8,1
-"799,1",0,1,,0,item-icon-687,687, Bilge Gözlü Kartal Muhafızı,0,1,465,1,0,1,999,0,6,8,1
-"799,1",0,1,,0,item-icon-688,688, Yıldız Işığı Genç Ejderha,0,1,464,1,0,1,999,0,6,8,1
-"800,1",0,1,,0,item-icon-689,689,Gizemli Işık Ruhu,0,1,467,1,0,1,999,0,6,9,1
-"800,1",0,1,,0,item-icon-690,690, Yeşil Taş Oymalı Ruh,0,1,468,1,0,1,999,0,6,9,1
-"800,1",0,1,,0,item-icon-691,691, Gülümseyen Diken Kalkanı,0,1,469,1,0,1,999,0,6,9,1
--,"1,3,4",1,,97,item-icon-692,692, Totem Test Tohumu,0,1,,0,0,1,999,0,3,1,1
-"792,1","1,3,4",1,,0,item-icon-693,693, Doğanın Gücü Lv 1,0,1,425,1,0,3,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-694,694, Doğanın Gücü Lv 2,0,1,426,1,0,3,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-695,695, Doğanın Gücü Lv 3,0,1,427,1,0,3,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-696,696, Doğanın Gücü Lv 4,0,1,428,1,0,3,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-697,697, Doğanın Gücü Lv 5,0,1,429,1,0,3,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-698,698, Doğanın Gücü Lv 6,0,1,430,1,0,3,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-699,699, Doğanın Gücü Lv 7,0,1,431,1,0,3,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-700,700, Doğanın Gücü Lv 8,0,1,432,1,0,3,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-701,701, Doğanın Gücü Lv 9,0,1,433,1,0,3,999,0,4,9,1
-"792,1","1,3,4",1,,27,item-icon-702,702, Yem Lv 3,0,1,436,1,0,1,3,0,3,0,1
-"792,1","1,3,4",1,,27,item-icon-703,703, Yem Lv 4,0,1,437,1,0,1,4,0,3,0,1
-"792,1","1,3,4",1,,27,item-icon-704,704, Yem Lv 5,0,1,438,1,0,1,5,0,3,0,1
-"792,1","1,3,4",1,,27,item-icon-705,705, Yem Lv 6,0,1,439,1,0,1,6,0,3,0,1
-"792,1","1,3,4",1,,27,item-icon-706,706, Yem Lv 7,0,1,440,1,0,1,7,0,3,0,1
-"792,1","1,3,4",1,,27,item-icon-707,707, Yem Lv 8,0,1,441,1,0,1,8,0,3,0,1
-"792,1","1,3,4",1,,27,item-icon-708,708, Yem Lv 9,0,1,442,1,0,1,9,0,3,0,1
--,"1,3,4",1,,0,item-icon-709,709, Enerji Restorasyon İksiri 2.0 Lv 1,0,1,74,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-710,710, Enerji Restorasyon İksiri 2.0 Lv 2,0,1,76,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-711,711, Enerji Restorasyon İksiri 2.0 Lv 3,0,1,78,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-712,712, Enerji Restorasyon İksiri 2.0 Lv 4,0,1,80,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-713,713, Enerji Restorasyon İksiri 2.0 Lv 5,0,1,82,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-714,714, Enerji Restorasyon İksiri 2.0 Lv 6,0,1,84,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-715,715, Enerji Restorasyon İksiri 2.0 Lv 7,0,1,86,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-716,716, Enerji Restorasyon İksiri 2.0 Lv 8,0,1,414,1,0,3,999,0,3,0,1
--,"1,3,4",1,,0,item-icon-717,717, Enerji Restorasyon İksiri 2.0 Lv 9,0,1,415,1,0,3,999,0,3,0,1
-"792,1","1,3,4",1,,0,item-icon-718,718, Cesur Madalyası,0,1,38,1,0,2,999,0,4,0,1
--,0,0,,97,item-icon-719,719, Totem A Tohumu,0,1,,0,1,1,999,0,3,0,1
--,0,0,,97,item-icon-720,720, Totem B Tohumu,0,1,,0,1,1,999,0,3,0,1
--,0,0,,97,item-icon-721,721, Totem C Tohumu,0,1,,0,1,1,999,0,3,0,1
--,0,0,,97,item-icon-722,722, Totem D Tohumu,0,1,,0,1,1,999,0,3,0,1
--,0,0,,97,item-icon-723,723, Totem E Tohumu,0,1,,0,1,1,999,0,3,0,1
-"792,1","1,3,4",1,,0,item-icon-725,725, Gezgin Kılıç Samuray Madalyası,0,1,476,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-726,726, Hayalet Piskopos Madalyası,0,1,475,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-727,727, Katil Madalyası,0,1,470,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-728,728, Öncüler Madalyası,0,1,40,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-729,729, Fethedici Madalyası,0,1,42,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-730,730, Yasadışı Manyak Madalyası,0,1,471,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-731,731, Kan Düşkünü Bağımlılık Madalyası,0,1,472,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-732,732, Canlılık Madalyası,0,1,413,1,0,2,999,0,4,0,1
+"792,1",0,1," Metalik parlaklıkla benzerlik gösteren bir yumurta, mekanik detaylarla parıldayan. ",0,item-icon-665,665, Metal Köpek,0,1,444,1,0,1,999,0,6,1,1
+"792,1",0,1, Ürkütücü dikenlerle çıkıntı yapan kabak desenli bir yumurta. ,0,item-icon-666,666, Kabak Canavarı,0,1,445,1,0,1,999,0,6,1,1
+"792,1",0,1, Minik kaktüsü andıran ince dikenlerle kaplı bir yumurta. ,0,item-icon-667,667, Kaktüs Savaşçısı,0,1,443,1,0,1,999,0,6,1,1
+"793,1",0,1," Hafif altın halkalarla parlayan, hafif altın halkalarla parlayan bir yumurta. ",0,item-icon-668,668, Vızıldayan Arkadaş,0,1,446,1,0,1,999,0,6,2,1
+"793,1",0,1," İnce yaprak desenleriyle süslenmiş, minik bir orman tavanını andıran bir yumurta. ",0,item-icon-669,669, Yapraklı Gizleyici,0,1,447,1,0,1,999,0,6,2,1
+"793,1",0,1," Madencinin manzarasına benzeyen kaba, toprak dokularla kaplı bir yumurta. ",0,item-icon-670,670, Maden Kedisi,0,1,448,1,0,1,999,0,6,2,1
+"794,1",0,1," Hafif karanlık bir yumurta, ürkütücü enerjinin hafif fısıltılarıyla. ",0,item-icon-671,671, Kaos Hayaleti,0,1,449,1,0,1,999,0,6,3,1
+"794,1",0,1," Kızıl çizgiler taşıyan bir yumurta, vahşetin bir hava yayar. ",0,item-icon-672,672, Kızıl Diş,0,1,450,1,0,1,999,0,6,3,1
+"794,1",0,1," İçine gömülü buz kristalleriyle parlayan, parıldayan bir yumurta. ",0,item-icon-673,673, Buzlu Pati,0,1,451,1,0,1,999,0,6,3,1
+"795,1",0,1," Kaynayan öfkeyi andıran, kabukla kaplı bir yumurta. ",0,item-icon-674,674, Kızgın Kök,0,1,452,1,0,1,999,0,6,4,1
+"795,1",0,1," Yumurta şeklinde şekillendirilmiş, canlı turuncu yapraklarla süslenmiş bir yumurta. ",0,item-icon-675,675, Turuncu Yaprak Kafalı,0,1,453,1,0,1,999,0,6,4,1
+"795,1",0,1, İskelet desenleriyle işlenmiş kemik beyazı bir yumurta. ,0,item-icon-676,676, İskelet Asker,0,1,454,1,0,1,999,0,6,4,1
+"796,1",0,1, Hafif buzlu donanımlı koyu renkli bir yumurta. ,0,item-icon-677,677, Karlı Kar Tanesi,0,1,455,1,0,1,999,0,6,5,1
+"796,1",0,1," Tüm ışığı emiyor gibi görünen koyu, obsidiyen benzeri bir yumurta. ",0,item-icon-678,678, Gölge Behemoth,0,1,456,1,0,1,999,0,6,5,1
+"796,1",0,1," Bir korsan temasına sahip, iskelet kaptan şapkası desenli bir yumurta. ",0,item-icon-679,679, İskelet Kaptan,0,1,457,1,0,1,999,0,6,5,1
+"797,1",0,1," Soğuk titreşimler yayan, buzlu bir katmanla kaplı devasa bir yumurta. ",0,item-icon-680,680, Buz Kabuğu Devi,0,1,458,1,0,1,999,0,6,6,1
+"797,1",0,1, Bir büyücünün büyü kitabını anımsatan mistik sembollerle süslenmiş bir yumurta. ,0,item-icon-681,681, Tavşan Büyücü,0,1,459,1,0,1,999,0,6,6,1
+"797,1",0,1, Ok kılıfını andıran kemik benzeri desenlere sahip bir yumurta. ,0,item-icon-682,682, İskelet Okçu,0,1,460,1,0,1,999,0,6,6,1
+"798,1",0,1," Karmaşık altın desenlerle parlayan, göz alıcı ışık yayan bir yumurta. ",0,item-icon-683,683, Büyüleyici Küçük Efendi,0,1,461,1,0,1,999,0,6,7,1
+"798,1",0,1," Eriyen lavı andıran, ateşli tonlar ve volkanik dokulara sahip bir yumurta. ",0,item-icon-684,684, Ateş-Kaya Gözcüsü,0,1,462,1,0,1,999,0,6,7,1
+"798,1",0,1," Sert ve sağlam görünen, kocaman bir kaya gibi bir yumurta. ",0,item-icon-685,685, Dev Kaya Gözcüsü,0,1,463,1,0,1,999,0,6,7,1
+"799,1",0,1, Gizli gücü ima eden sarı çizgilerle kaplı bir yumurta. ,0,item-icon-686,686, Sarı-Çizgili Kaya Canavarı,0,1,466,1,0,1,999,0,6,8,1
+"799,1",0,1, Bir kartalın gözünü andıran muhteşem bir yumurta. ,0,item-icon-687,687, Bilge Gözlü Kartal Muhafızı,0,1,465,1,0,1,999,0,6,8,1
+"799,1",0,1," Hafif yıldız ışığı yayarak, göksel desenlerle işlenmiş bir yumurta.",0,item-icon-688,688, Yıldız Işığı Genç Ejderha,0,1,464,1,0,1,999,0,6,8,1
+"800,1",0,1,"Birbirine karışan bir aura yayan, mistik bir ışıkla dolu bir yumurta.",0,item-icon-689,689,Gizemli Işık Ruhu,0,1,467,1,0,1,999,0,6,9,1
+"800,1",0,1, Derin kazılmış eski sembollerle yeşil taştan oyulmuş bir yumurta.,0,item-icon-690,690, Yeşil Taş Oymalı Ruh,0,1,468,1,0,1,999,0,6,9,1
+"800,1",0,1," Koruma aura yayan, gülümseyen dikenlerle süslenmiş bir yumurta.",0,item-icon-691,691, Gülümseyen Diken Kalkanı,0,1,469,1,0,1,999,0,6,9,1
+-,"1,3,4",1," Aynı seviyedeki malzemeleri toplamak ek tohumlara neden olabilir, Aynı seviyedeki canavarları öldürmek bu öğeyi elde etmeye neden olabilir.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Lv 1 Totem Test Tohumu: Ekilip büyütülmeye hazır eski büyüyle dolu küçük bir tohum.",97,item-icon-692,692, Totem Test Tohumu,0,1,,0,0,1,999,0,3,1,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-693,693, Doğanın Gücü Lv 1,0,1,425,1,0,3,999,0,4,1,1
+"793,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-694,694, Doğanın Gücü Lv 2,0,1,426,1,0,3,999,0,4,2,1
+"794,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-695,695, Doğanın Gücü Lv 3,0,1,427,1,0,3,999,0,4,3,1
+"795,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-696,696, Doğanın Gücü Lv 4,0,1,428,1,0,3,999,0,4,4,1
+"796,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-697,697, Doğanın Gücü Lv 5,0,1,429,1,0,3,999,0,4,5,1
+"797,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-698,698, Doğanın Gücü Lv 6,0,1,430,1,0,3,999,0,4,6,1
+"798,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-699,699, Doğanın Gücü Lv 7,0,1,431,1,0,3,999,0,4,7,1
+"799,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-700,700, Doğanın Gücü Lv 8,0,1,432,1,0,3,999,0,4,8,1
+"800,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",0,item-icon-701,701, Doğanın Gücü Lv 9,0,1,433,1,0,3,999,0,4,9,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Güçlü doğal bir kuvvet içerir. Evcil hayvanlarda kullanılabilir.",27,item-icon-702,702, Yem Lv 3,0,1,436,1,0,1,3,0,3,0,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir öğedir ve evcil hayvanın tokluk ve büyüme değerini artırabilir. Doğal bitkilerden ve besin maddelerinden yapılmış olup, ferah bir tat ve kolay sindirilebilirlik ve emilime sahiptir. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir öğedir.",27,item-icon-703,703, Yem Lv 4,0,1,437,1,0,1,4,0,3,0,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir öğedir ve evcil hayvanın tokluk ve büyüme değerini artırabilir. Doğal bitkilerden ve besin maddelerinden yapılmış olup, ferah bir tat ve kolay sindirilebilirlik ve emilime sahiptir. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir öğedir.",27,item-icon-704,704, Yem Lv 5,0,1,438,1,0,1,5,0,3,0,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir öğedir ve evcil hayvanın tokluk ve büyüme değerini artırabilir. Doğal bitkilerden ve besin maddelerinden yapılmış olup, ferah bir tat ve kolay sindirilebilirlik ve emilime sahiptir. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir öğedir.",27,item-icon-705,705, Yem Lv 6,0,1,439,1,0,1,6,0,3,0,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir öğedir ve evcil hayvanın tokluk ve büyüme değerini artırabilir. Doğal bitkilerden ve besin maddelerinden yapılmış olup, ferah bir tat ve kolay sindirilebilirlik ve emilime sahiptir. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir öğedir.",27,item-icon-706,706, Yem Lv 7,0,1,440,1,0,1,7,0,3,0,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir öğedir ve evcil hayvanın tokluk ve büyüme değerini artırabilir. Doğal bitkilerden ve besin maddelerinden yapılmış olup, ferah bir tat ve kolay sindirilebilirlik ve emilime sahiptir. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir öğedir.",27,item-icon-707,707, Yem Lv 8,0,1,441,1,0,1,8,0,3,0,1
+"792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 4",27,item-icon-708,708, Yem Lv 9,0,1,442,1,0,1,9,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 10",0,item-icon-709,709, Enerji Restorasyon İksiri 2.0 Lv 1,0,1,74,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 17",0,item-icon-710,710, Enerji Restorasyon İksiri 2.0 Lv 2,0,1,76,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 25",0,item-icon-711,711, Enerji Restorasyon İksiri 2.0 Lv 3,0,1,78,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 34",0,item-icon-712,712, Enerji Restorasyon İksiri 2.0 Lv 4,0,1,80,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 44",0,item-icon-713,713, Enerji Restorasyon İksiri 2.0 Lv 5,0,1,82,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 55",0,item-icon-714,714, Enerji Restorasyon İksiri 2.0 Lv 6,0,1,84,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 67",0,item-icon-715,715, Enerji Restorasyon İksiri 2.0 Lv 7,0,1,86,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 80",0,item-icon-716,716, Enerji Restorasyon İksiri 2.0 Lv 8,0,1,414,1,0,3,999,0,3,0,1
+-,"1,3,4",1," Çiçek Zirvesi'nde görünür, Yüzen Diyar'da görünür, Antik Bölge'de görünür.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------",0,item-icon-717,717, Enerji Restorasyon İksiri 2.0 Lv 9,0,1,415,1,0,3,999,0,3,0,1
+"792,1","1,3,4",1, Boş,0,item-icon-718,718, Cesur Madalyası,0,1,38,1,0,2,999,0,4,0,1
+-,0,0, Boş,97,item-icon-719,719, Totem A Tohumu,0,1,,0,1,1,999,0,3,0,1
+-,0,0, Boş,97,item-icon-720,720, Totem B Tohumu,0,1,,0,1,1,999,0,3,0,1
+-,0,0, Boş,97,item-icon-721,721, Totem C Tohumu,0,1,,0,1,1,999,0,3,0,1
+-,0,0, Boş,97,item-icon-722,722, Totem D Tohumu,0,1,,0,1,1,999,0,3,0,1
+-,0,0, Gezgin Kılıç Samuray'ı yenerek elde edilen bir hatıra.,97,item-icon-723,723, Totem E Tohumu,0,1,,0,1,1,999,0,3,0,1
+"792,1","1,3,4",1, Hayalet Piskopos'u yenerek elde edilen bir hatıra.,0,item-icon-725,725, Gezgin Kılıç Samuray Madalyası,0,1,476,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Arena Zindanı'nda görünür.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Arena Zindanı Patronunu öldürerek elde edilen düşme ödülü.",0,item-icon-726,726, Hayalet Piskopos Madalyası,0,1,475,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Yüzen Diyar'da görünür.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Yüzen Diyar Canavarlarını öldürerek elde edilen düşme ödülü.",0,item-icon-727,727, Katil Madalyası,0,1,470,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Antik Bölge'de görünür.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Antik Bölge Canavarlarını öldürerek elde edilen düşme ödülü.",0,item-icon-728,728, Öncüler Madalyası,0,1,40,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Arena Zindanı'nda görünür.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Arena Zindanı Patronunu öldürerek elde edilen düşme ödülü.",0,item-icon-729,729, Fethedici Madalyası,0,1,42,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Arena Zindanı'nda görünür.
+Ekipman veya öğeleri oluşturmak için kullanılabilir.
+-------
+Arena Zindanı Patronunu öldürerek elde edilen düşme ödülü.",0,item-icon-730,730, Yasadışı Manyak Madalyası,0,1,471,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1, Günlük meydan okumalar yoluyla kazanılır,0,item-icon-731,731, Kan Düşkünü Bağımlılık Madalyası,0,1,472,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Özel öğe, devredilemez.",0,item-icon-732,732, Canlılık Madalyası,0,1,413,1,0,2,999,0,4,0,1
 -,0,1," Özel bir öğe, devredilemez.",0,item-icon-733,733, Günlük Meydan Okuma Giriş Bileti,0,1,413,0,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,item-icon-734,734, Güvercin Madalyası,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-735,735, Savaş0-3,0,1,407,1,0,2,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-736,736, Savaş4-6,0,1,408,1,0,2,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-737,737, Savaş7-9,0,1,409,1,0,2,999,2,7,0,1
-"792,1","1,3,4",1,,0,item-icon-738,738, Lv 1 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-739,739, Lv 2 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-740,740,Lv 3 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-741,741, Lv 4 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-742,742, Lv 5 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-743,743, Lv 6 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-744,744, Lv 7 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-745,745, Lv 8 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-746,746, Lv 9 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,9,1
-"792,1","1,3,4",1,,0,item-icon-747,747, Lv 1 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-748,748, Lv 2 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-749,749, Lv 3 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-750,750, Lv 4 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-751,751, Lv 5 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-752,752, Lv 6 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-753,753, Lv 7 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-754,754, Lv 8 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-755,755, Lv 9 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,9,1
-"792,1","1,3,4",1,,0,item-icon-756,756, Lv 1 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,1,1
-"793,1","1,3,4",1,,0,item-icon-757,757, Lv 2 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,2,1
-"794,1","1,3,4",1,,0,item-icon-758,758, Lv 3 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,3,1
-"795,1","1,3,4",1,,0,item-icon-759,759, Lv 4 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,4,1
-"796,1","1,3,4",1,,0,item-icon-760,760, Lv 5 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,5,1
-"797,1","1,3,4",1,,0,item-icon-761,761, Lv 6 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,6,1
-"798,1","1,3,4",1,,0,item-icon-762,762, Lv 7 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,7,1
-"799,1","1,3,4",1,,0,item-icon-763,763, Lv 8 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,8,1
-"800,1","1,3,4",1,,0,item-icon-764,764, Lv 9 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,9,1
--,0,1,,0,item-icon-765,765, LUAG Gelecek(1),0,1,,0,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-766,766, Toplama0-3,0,1,410,1,0,3,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-767,767, Toplama4-6,0,1,411,1,0,3,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-768,768, Toplama7-9,0,1,412,1,0,3,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-769,769, Tarım0-3,0,1,404,1,0,1,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-770,770, Tarım4-6,0,1,405,1,0,1,999,2,7,0,1
--,"1,3,4",1,,0,item-icon-771,771, Tarım7-9,0,1,406,1,0,1,999,2,7,0,1
--,0,0,,0,item-icon-773,773, LUAUSD,0,1,,0,0,"1,2,3",999,0,4,0,1
--,0,0,,0,item-icon-774,774, Şanslı Puan,0,1,,0,0,"1,2,3",999,0,4,0,1
+"792,1","1,3,4",1," Günlük sıralama ödülü.
+-------
+Hemen bir jeton görevi oluştur.",0,item-icon-734,734, Güvercin Madalyası,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Günlük sıralama ödülü.
+-------
+Hemen bir jeton görevi oluştur.",0,item-icon-735,735, Savaş0-3,0,1,407,1,0,2,999,2,7,0,1
+-,"1,3,4",1," Günlük sıralama ödülü.
+-------
+Hemen bir jeton görevi oluştur.",0,item-icon-736,736, Savaş4-6,0,1,408,1,0,2,999,2,7,0,1
+-,"1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviye parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir.",0,item-icon-737,737, Savaş7-9,0,1,409,1,0,2,999,2,7,0,1
+"792,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviye parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir.",0,item-icon-738,738, Lv 1 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,1,1
+"793,1","1,3,4",1, Ekipman parçaları ekipmanları sökerek elde edilebilir. Daha yüksek seviye parçaları oluşturmak veya ekipmanı yeniden monte etmek için kullanılabilir.,0,item-icon-739,739, Lv 2 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,2,1
+"794,1","1,3,4",1,"Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-740,740,Lv 3 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,3,1
+"795,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-741,741, Lv 4 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,4,1
+"796,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-742,742, Lv 5 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,5,1
+"797,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-743,743, Lv 6 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,6,1
+"798,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-744,744, Lv 7 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,7,1
+"799,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-745,745, Lv 8 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,8,1
+"800,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-746,746, Lv 9 Savaş Ekipmanı parçası,0,1,52,1,0,2,999,0,4,9,1
+"792,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-747,747, Lv 1 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,1,1
+"793,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-748,748, Lv 2 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,2,1
+"794,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-749,749, Lv 3 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,3,1
+"795,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-750,750, Lv 4 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,4,1
+"796,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-751,751, Lv 5 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,5,1
+"797,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-752,752, Lv 6 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,6,1
+"798,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-753,753, Lv 7 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,7,1
+"799,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-754,754, Lv 8 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,8,1
+"800,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-755,755, Lv 9 Tarım Ekipmanı parçası,0,1,50,1,0,1,999,0,4,9,1
+"792,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-756,756, Lv 1 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,1,1
+"793,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-757,757, Lv 2 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,2,1
+"794,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-758,758, Lv 3 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,3,1
+"795,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-759,759, Lv 4 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,4,1
+"796,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-760,760, Lv 5 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,5,1
+"797,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-761,761, Lv 6 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,6,1
+"798,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-762,762, Lv 7 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,7,1
+"799,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-763,763, Lv 8 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,8,1
+"800,1","1,3,4",1," Ekipman parçaları, ekipmanları sökerek elde edilebilir. Daha yüksek seviyeli parçaları oluşturmak veya ekipmanları yeniden monte etmek için kullanılabilir. ",0,item-icon-764,764, Lv 9 Toplama Ekipmanı parçası,0,1,54,1,0,3,999,0,4,9,1
+-,0,1," 100 x LUAG Future(1) = 1 x LUAG Future(100)
+Kapalı beta'da satılamaz ve devredilemez, TGE'de geri dönmeyi unutmayın :-) ",0,item-icon-765,765, LUAG Gelecek(1),0,1,,0,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Günlük Sıralama ödülü..
+-------
+Hemen bir jeton görevi oluşturun. ",0,item-icon-766,766, Toplama0-3,0,1,410,1,0,3,999,2,7,0,1
+-,"1,3,4",1," Günlük Sıralama ödülü..
+-------
+Hemen bir jeton görevi oluşturun. ",0,item-icon-767,767, Toplama4-6,0,1,411,1,0,3,999,2,7,0,1
+-,"1,3,4",1," Günlük Sıralama ödülü..
+-------
+Hemen bir jeton görevi oluşturun. ",0,item-icon-768,768, Toplama7-9,0,1,412,1,0,3,999,2,7,0,1
+-,"1,3,4",1," Günlük Sıralama ödülü..
+-------
+Hemen bir jeton görevi oluşturun. ",0,item-icon-769,769, Tarım0-3,0,1,404,1,0,1,999,2,7,0,1
+-,"1,3,4",1," Günlük Sıralama ödülü..
+-------
+Hemen bir jeton görevi oluşturun. ",0,item-icon-770,770, Tarım4-6,0,1,405,1,0,1,999,2,7,0,1
+-,"1,3,4",1," Günlük Sıralama ödülü..
+-------
+Hemen bir jeton görevi oluşturun. ",0,item-icon-771,771, Tarım7-9,0,1,406,1,0,1,999,2,7,0,1
+-,0,0," Oyun İçi Para Birimi
+1 LUAUSD = 1 USDT ",0,item-icon-773,773, LUAUSD,0,1,,0,0,"1,2,3",999,0,4,0,1
+-,0,0," Daha fazla şans puanı, jeton görevi şansını artırır ",0,item-icon-774,774, Şanslı Puan,0,1,,0,0,"1,2,3",999,0,4,0,1
 "792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
@@ -2252,121 +2605,155 @@ Orta Seviye Tarım Meydanı Mücadelesi için gereken biletler",0,item-icon-779,
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
 Gelişmiş Tarım Meydanı Mücadelesi için gereken biletler",0,item-icon-780,780, İleri Düzey Tarım Giriş Bileti,0,1,,1,0,1,999,0,4,0,1
--,"1,3,4",1,,0,item-icon-783,783, Lv 1 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,1,1
--,"1,3,4",1,,0,item-icon-784,784, Lv 2 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,2,1
--,"1,3,4",1,,0,item-icon-785,785, Lv 3 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,3,1
--,"1,3,4",1,,0,item-icon-786,786, Lv 4 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,4,1
--,"1,3,4",1,,0,item-icon-787,787, Lv 5 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,5,1
--,"1,3,4",1,,0,item-icon-788,788, Lv 6 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,6,1
--,"1,3,4",1,,0,item-icon-789,789, Lv 7 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,7,1
--,"1,3,4",1,,0,item-icon-790,790, Lv 8 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,8,1
--,"1,3,4",1,,0,item-icon-791,791, Lv 9 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,9,1
--,"1,3,4",1,,0,item-icon-792,792, Lv 1 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,1,1
--,"1,3,4",1,,0,item-icon-793,793,Lv 2 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,2,1
--,"1,3,4",1,,0,item-icon-794,794, Lv 3 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,3,1
--,"1,3,4",1,,0,item-icon-795,795, Lv 4 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,4,1
--,"1,3,4",1,,0,item-icon-796,796, Lv 5 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,5,1
--,"1,3,4",1,,0,item-icon-797,797, Lv 6 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,6,1
--,"1,3,4",1,,0,item-icon-798,798, Lv 7 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,7,1
--,"1,3,4",1,,0,item-icon-799,799, Lv 8 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,8,1
--,"1,3,4",1,,0,item-icon-800,800, Lv 9 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,9,1
--,"1,3,4",1,,0,item-icon-801,801, Sonsuz Parça,0,1,,1,0,"1,2,3",999,0,4,2,1
--,0,1,,0,item-icon-803,803, Lumi Madalyası,0,1,,1,0,"1,2,3",999,0,4,9,1
--,0,0,,0,item-icon-805,805, RON,0,1,,0,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-806,806, Savaş Malzemesi 0-3,0,1,404,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-807,807, Savaş Malzemesi 4-6,0,1,405,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-808,808, Savaş Malzemesi 7-9,0,1,406,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-809,809, Toplama Malzemesi 0-3,0,1,407,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-810,810, Toplama Malzemesi 4-6,0,1,408,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-811,811, Toplama Malzemesi 7-9,0,1,409,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-812,812, Tarım Malzemesi 0-3,0,1,410,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-813,813, Tarım Malzemesi 4-6,0,1,411,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-814,814, Tarım Malzemesi 7-9,0,1,412,1,0,"1,2,3",999,0,7,0,1
--,"1,3,4",1,,0,item-icon-815,815, Savaş Malzemesi Çekilişi 1-3,0,1,482,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-816,816, Savaş Malzemesi Çekilişi 1-6,0,1,483,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-817,817, Savaş Malzemesi Çekilişi 1-9,0,1,484,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-818,818, Toplama Malzemesi Çekilişi 1-3,0,1,485,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-819,819, Toplama Malzemesi Çekilişi 1-6,0,1,486,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-820,820, Toplama Malzemesi Çekilişi 1-9,0,1,487,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-821,821, Tarım Malzemesi Çekilişi 1-3,0,1,488,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-822,822, Tarım Malzemesi Çekilişi 1-6,0,1,489,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,item-icon-823,823, Tarım Malzemesi Çekilişi 1-9,0,1,490,1,0,"1,2,3",999,0,4,0,1
-"800,1",0,0,,0,item-icon-824,824, Lv 1 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-825,825, Lv 2 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-826,826, Lv 3 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-827,827, Lv 4 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-828,828, Lv 5 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-829,829, Lv 6 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-830,830, Lv 7 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-831,831, Lv 8 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,0,,0,item-icon-832,832, Lv 9 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
-"800,1",0,1,,0,item-icon-833,833, Kabak püresi,0,1,,0,0,2,999,0,4,0,1
-"800,1",0,1,,0,item-icon-834,834, Yarasa kanatları,0,1,,0,0,1,999,0,4,0,1
-"800,1",0,1,,0,item-icon-835,835, Çürüyen yapraklar,0,1,,0,0,3,999,0,4,0,1
-"800,1",0,1,,0,item-icon-836,836, Çürüyen ahşap,0,1,,0,0,3,999,0,4,0,1
-"800,1",0,1,,0,item-icon-837,837, Kırık taş,0,1,,0,0,3,999,0,4,0,1
-"800,1",0,1,,0,item-icon-838,838, Kabak Yarasası,0,1,,0,0,1,999,0,6,0,1
-"792,1",0,1,,0,item-icon-839,839, Lumi Parçası,0,1,,1,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-840,840, Lv 0 Enerji Sümüklüböceği,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-841,841, Lv 0 Enerji Restorasyon İksiri,0,1,,0,0,,999,0,3,0,1
-"800,1",0,1,,0,item-icon-842,842, Lv 0 Savaş Özü,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-843,843, Lv 0 Toplama Özü,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-844,844, Lv 0 Tarımsal Ekim Özü,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-845,845, Lv 0 Tarımsal Hayvancılık Özü,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-846,846,Yeni başlayanın madalyası - Savaş,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-847,847, Yeni başlayanın madalyası - Toplama,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-848,848, Yeni başlayanın madalyası - Tarım,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,,0,item-icon-849,849, Saç Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-850,850, Saç Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-851,851, Saç Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-852,852, Saç Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-853,853, Saç Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-854,854, Kostüm · Tavuk başı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-855,855, Kostüm · Modern Savaşçı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-856,856, Kostüm · Moda Baba,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-857,857, Kostüm · Kaptan Ronin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-858,858, Kostüm · Bloklar Baş,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-859,859, Kostüm · Kokpit Baş,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-860,860, Kostüm · BTC Savaşçısı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-861,861, Kostüm · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-862,862, Kostüm · Gelecek Savaşçı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-863,863, Kostüm · Küller,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-864,864, Kostüm · Geveze Ördek,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-865,865, Kostüm · Patates Savaşçısı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-866,866, Kostüm · Ayçiçeği,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-867,867, Kostüm · Kaktüs,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-868,868, Kostüm · Muz,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-869,869, Kostüm · Tava,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-870,870, Kostüm · Köpekbalığı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-871,871, Kostüm · Emzik,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-872,872, Kostüm · Saç Kurutma Makinesi,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-873,873, Ceket Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-874,874, Pantolon Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-875,875, Eldiven Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-876,876, Ayakkabı Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-877,877, Ceket Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-878,878, Pantolon Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-879,879, Eldiven Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-880,880, Ayakkabı Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-881,881, Ceket Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-882,882, Pantolon Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-883,883, Eldiven Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-884,884, Ayakkabı Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-885,885, Ceket Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-886,886, Pantolon Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-887,887, Eldiven Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-888,888, Ayakkabı Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-889,889, Ceket Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-890,890, Pantolon Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-891,891, Eldiven Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-892,892, Ayakkabı Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
--,0,1,,0,item-icon-893,893,Balık Kemiği,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-894,894, Açılmış Konserve,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-895,895, Filizlenmiş Fasulye,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-896,896, Dinozor Yumurtası,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-897,897, Soya Fasulyesi,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-898,898, Dişli,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-899,899, Pergament,0,1,,0,0,,999,0,4,0,1
+-,"1,3,4",1, Lv 1 Paketleme kutusu oluştur ,0,item-icon-783,783, Lv 1 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,1,1
+-,"1,3,4",1, Lv 2 Paketleme kutusu oluştur ,0,item-icon-784,784, Lv 2 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,2,1
+-,"1,3,4",1, Lv 3 Paketleme kutusu oluştur ,0,item-icon-785,785, Lv 3 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,3,1
+-,"1,3,4",1, Lv 4 Paketleme kutusu oluştur ,0,item-icon-786,786, Lv 4 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,4,1
+-,"1,3,4",1, Lv 5 Paketleme kutusu oluştur ,0,item-icon-787,787, Lv 5 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,5,1
+-,"1,3,4",1, Lv 6 Paketleme kutusu oluştur ,0,item-icon-788,788, Lv 6 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,6,1
+-,"1,3,4",1, Lv 7 Paketleme kutusu oluştur ,0,item-icon-789,789, Lv 7 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,7,1
+-,"1,3,4",1, Lv 8 Paketleme kutusu oluştur ,0,item-icon-790,790, Lv 8 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,8,1
+-,"1,3,4",1, Lv 9 Paketleme kutusu oluştur ,0,item-icon-791,791, Lv 9 Ambalaj Kağıdı,0,1,,1,0,"1,2,3",999,0,4,9,1
+-,"1,3,4",1, Satılık Paket Lv 1 öğe,0,item-icon-792,792, Lv 1 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,1,1
+-,"1,3,4",1,Paket Lv 2 satılık eşya,0,item-icon-793,793,Lv 2 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,2,1
+-,"1,3,4",1, Paket Lv 3 satılık eşya,0,item-icon-794,794, Lv 3 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,3,1
+-,"1,3,4",1, Paket Lv 4 satılık eşya,0,item-icon-795,795, Lv 4 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,4,1
+-,"1,3,4",1, Paket Lv 5 satılık eşya,0,item-icon-796,796, Lv 5 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,5,1
+-,"1,3,4",1, Paket Lv 6 satılık eşya,0,item-icon-797,797, Lv 6 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,6,1
+-,"1,3,4",1, Paket Lv 7 satılık eşya,0,item-icon-798,798, Lv 7 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,7,1
+-,"1,3,4",1, Paket Lv 8 satılık eşya,0,item-icon-799,799, Lv 8 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,8,1
+-,"1,3,4",1, Paket Lv 9 satılık eşya,0,item-icon-800,800, Lv 9 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,9,1
+-,"1,3,4",1, Sonsuz parçalar ya Sonsuz Garantili Beyaz Liste ya da Şanslı Beyaz Liste oluşturabilir,0,item-icon-801,801, Sonsuz Parça,0,1,,1,0,"1,2,3",999,0,4,2,1
+-,0,1, Lumi Resmi tarafından tanınma,0,item-icon-803,803, Lumi Madalyası,0,1,,1,0,"1,2,3",999,0,4,9,1
+-,0,0, Ronin Lumi Oyun İçi Para Birimi,0,item-icon-805,805, RON,0,1,,0,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-806,806, Savaş Malzemesi 0-3,0,1,404,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-807,807, Savaş Malzemesi 4-6,0,1,405,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-808,808, Savaş Malzemesi 7-9,0,1,406,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-809,809, Toplama Malzemesi 0-3,0,1,407,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-810,810, Toplama Malzemesi 4-6,0,1,408,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-811,811, Toplama Malzemesi 7-9,0,1,409,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-812,812, Tarım Malzemesi 0-3,0,1,410,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-813,813, Tarım Malzemesi 4-6,0,1,411,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Liderlik Tablosu Ödülü.
+-------",0,item-icon-814,814, Tarım Malzemesi 7-9,0,1,412,1,0,"1,2,3",999,0,7,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-815,815, Savaş Malzemesi Çekilişi 1-3,0,1,482,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-816,816, Savaş Malzemesi Çekilişi 1-6,0,1,483,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-817,817, Savaş Malzemesi Çekilişi 1-9,0,1,484,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-818,818, Toplama Malzemesi Çekilişi 1-3,0,1,485,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-819,819, Toplama Malzemesi Çekilişi 1-6,0,1,486,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-820,820, Toplama Malzemesi Çekilişi 1-9,0,1,487,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-821,821, Tarım Malzemesi Çekilişi 1-3,0,1,488,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-822,822, Tarım Malzemesi Çekilişi 1-6,0,1,489,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Zindan/Meydan Ödülü, Jeton Görevi Ödülü.
+-------",0,item-icon-823,823, Tarım Malzemesi Çekilişi 1-9,0,1,490,1,0,"1,2,3",999,0,4,0,1
+"800,1",0,0, Boş,0,item-icon-824,824, Lv 1 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-825,825, Lv 2 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-826,826, Lv 3 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-827,827, Lv 4 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-828,828, Lv 5 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-829,829, Lv 6 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-830,830, Lv 7 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-831,831, Lv 8 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,0, Boş,0,item-icon-832,832, Lv 9 Tohum Patronu,0,1,,0,0,"1,2,3",999,0,3,0,1
+"800,1",0,1, Boş,0,item-icon-833,833, Kabak püresi,0,1,,0,0,2,999,0,4,0,1
+"800,1",0,1, Boş,0,item-icon-834,834, Yarasa kanatları,0,1,,0,0,1,999,0,4,0,1
+"800,1",0,1, Boş,0,item-icon-835,835, Çürüyen yapraklar,0,1,,0,0,3,999,0,4,0,1
+"800,1",0,1, Boş,0,item-icon-836,836, Çürüyen ahşap,0,1,,0,0,3,999,0,4,0,1
+"800,1",0,1, Boş,0,item-icon-837,837, Kırık taş,0,1,,0,0,3,999,0,4,0,1
+"800,1",0,1, Boş,0,item-icon-838,838, Kabak Yarasası,0,1,,0,0,1,999,0,6,0,1
+"792,1",0,1," Lumi Parçası, büyülü bir ışıma yaydığı gizemli bir eşyadır",0,item-icon-839,839, Lumi Parçası,0,1,,1,0,,999,0,4,0,1
+"800,1",0,1," Üretim ürünü.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Lv 0 Enerji Restorasyon İksiri'nin malzemesi",0,item-icon-840,840, Lv 0 Enerji Sümüklüböceği,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Üretim ürünü.
+Kullanımı özel efektleri tetikleyebilir.
+-------
+Enerjiyi geri yükle -> 2",0,item-icon-841,841, Lv 0 Enerji Restorasyon İksiri,0,1,,0,0,,999,0,3,0,1
+"800,1",0,1," Üretim ürünü.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Lv 0 ekipman yapımı için malzeme",0,item-icon-842,842, Lv 0 Savaş Özü,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Üretim ürünü.
+Ekipman veya eşyaları üretmek için kullanılabilir.
+-------
+Lv 0 ekipman yapımı için malzeme",0,item-icon-843,843, Lv 0 Toplama Özü,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Üretim ürünü.
+Ekipman veya eşyaları üretmek için kullanılabilir.",0,item-icon-844,844, Lv 0 Tarımsal Ekim Özü,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1,"El işi ürün.
+Ekipman veya eşyaları yapmak için kullanılabilir.
+-------
+Seviye 0 ekipman yapımı için malzeme",0,item-icon-845,845, Lv 0 Tarımsal Hayvancılık Özü,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Acemi görevlerin tamamlanma kanıtı,0,item-icon-846,846,Yeni başlayanın madalyası - Savaş,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Acemi görevlerin tamamlanma kanıtı,0,item-icon-847,847, Yeni başlayanın madalyası - Toplama,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Acemi görevlerin tamamlanma kanıtı,0,item-icon-848,848, Yeni başlayanın madalyası - Tarım,0,1,,0,0,,999,0,4,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-849,849, Saç Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-850,850, Saç Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-851,851, Saç Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-852,852, Saç Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-853,853, Saç Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-854,854, Kostüm · Tavuk başı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-855,855, Kostüm · Modern Savaşçı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-856,856, Kostüm · Moda Baba,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-857,857, Kostüm · Kaptan Ronin,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-858,858, Kostüm · Bloklar Baş,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-859,859, Kostüm · Kokpit Baş,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-860,860, Kostüm · BTC Savaşçısı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-861,861, Kostüm · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-862,862, Kostüm · Gelecek Savaşçı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-863,863, Kostüm · Küller,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-864,864, Kostüm · Geveze Ördek,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-865,865, Kostüm · Patates Savaşçısı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-866,866, Kostüm · Ayçiçeği,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-867,867, Kostüm · Kaktüs,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-868,868, Kostüm · Muz,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-869,869, Kostüm · Tava,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-870,870, Kostüm · Köpekbalığı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-871,871, Kostüm · Emzik,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-872,872, Kostüm · Saç Kurutma Makinesi,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-873,873, Ceket Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-874,874, Pantolon Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-875,875, Eldiven Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-876,876, Ayakkabı Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-877,877, Ceket Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-878,878, Pantolon Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-879,879, Eldiven Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-880,880, Ayakkabı Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-881,881, Ceket Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-882,882, Pantolon Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-883,883, Eldiven Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-884,884, Ayakkabı Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-885,885, Ceket Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-886,886, Pantolon Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-887,887, Eldiven Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-888,888, Ayakkabı Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-889,889, Ceket Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-890,890, Pantolon Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-891,891, Eldiven Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Moda olarak giymeyi öner,0,item-icon-892,892, Ayakkabı Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1
+-,0,1, Moda olarak giymeyi öner,0,item-icon-893,893,Balık Kemiği,0,1,,0,0,,999,0,4,0,1
+-,0,1, Moda olarak giymeyi öner,0,item-icon-894,894, Açılmış Konserve,0,1,,0,0,,999,0,4,0,1
+-,0,1,Boş ,0,item-icon-895,895, Filizlenmiş Fasulye,0,1,,0,0,,999,0,4,0,1
+-,0,1," Lütfen, dinozoru geri getir ",0,item-icon-896,896, Dinozor Yumurtası,0,1,,0,0,,999,0,4,0,1
+-,0,1, Boş ,0,item-icon-897,897, Soya Fasulyesi,0,1,,0,0,,999,0,4,0,1
+-,0,1, Hala çalışıyor ,0,item-icon-898,898, Dişli,0,1,,0,0,,999,0,4,0,1
+-,0,1, Boş ,0,item-icon-899,899, Pergament,0,1,,0,0,,999,0,4,0,1
 "792,1",0,1, Genç Arena-Mini Giriş Bileti,0,item-icon-934,934,Genç Arena Giriş Bileti - Hafif ,0,1,,1,0,,999,0,4,0,1
 "795,1",0,1, Orta Seviye Arena-Mini Giriş Bileti,0,item-icon-935,935,Orta Düzey Arena Giriş Bileti - Hafif ,0,1,,1,0,,999,0,4,0,1
 "798,1",0,1, Gelişmiş Arena-Mini Giriş Bileti,0,item-icon-936,936,Gelişmiş Arena Giriş Bileti - Hafif ,0,1,,1,0,,999,0,4,0,1
