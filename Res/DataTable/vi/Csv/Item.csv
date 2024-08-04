@@ -1083,19 +1083,19 @@ Khi trang bị, nó có thể cải thiện thuộc tính. Nâng cao sức mạn
 -------
 Nếu bạn lo lắng về việc bị quái vật truy đuổi, cung này hoàn hảo cho bạn, bạn có thể giết quái vật từ khoảng cách an toàn
 ",0,item-icon-289,289,Cung pha lê,1440,"1,2,3",273,1,0,2,999,0,1,3,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục một ít năng lượng
 ",0,item-icon-295,295,"Thuốc phục hồi năng lượng - Nhỏ
 ",0,1,,0,0,3,999,0,3,1,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục nhiều năng lượng
 ",0,item-icon-296,296,"Thuốc phục hồi năng lượng - Trung bình
 ",0,1,,0,0,3,999,0,3,2,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục rất nhiều năng lượng
@@ -2029,19 +2029,19 @@ Khi trang bị, nó có thể cải thiện thuộc tính. Mở khóa sản ph�
 Dùng để làm dịu thú cưng của bạn, cho phép nó sản xuất một cách yên bình
 ",0,item-icon-458,458,"Bàn chải ánh sáng sao cấp 6
 ",1440,"1,2,3,4,5",229,1,0,1,999,0,1,6,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục Năng lượng +30
 ",0,item-icon-459,459,"Thuốc phục hồi năng lượng cấp 4
 ",0,1,,0,0,3,999,0,3,4,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục Năng lượng +37
 ",0,item-icon-460,460,"Thuốc phục hồi năng lượng cấp 5
 ",0,1,,0,0,3,999,0,3,5,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Khôi phục Năng lượng +45",0,item-icon-461,461,Thuốc phục hồi năng lượng cấp 6,0,1,,0,0,3,999,0,3,6,1
@@ -2875,21 +2875,21 @@ Khi trang bị, nó có thể tăng cường thuộc tính. Làm cho cây trồn
 Đôi giày bền chắc cho những người nông dân tận tụy, cung cấp sự thoải mái và bảo vệ trong suốt những giờ làm việc dài tending crops.
 ",0,item-icon-598,598,"Giày nông nghiệp đồng 
 ",1440,"1,2,3,4,5",251,1,0,1,999,0,1,9,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 
 -------
 Khôi phục năng lượng của bạn và làm bạn tràn đầy sức sống trở lại.
 ",0,item-icon-599,599,"Thuốc phục hồi năng lượng 
 ",0,1,,0,0,3,999,0,3,7,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 
 -------
 Khôi phục năng lượng của bạn và làm bạn tràn đầy sức sống trở lại.
 ",0,item-icon-600,600,"Thuốc phục hồi năng lượng 
 ",0,1,,0,0,3,999,0,3,8,1
--,"1,3,4",1,"Bạn có thể nhận được mục này thông qua tổng hợp.
+-,0,1,"Bạn có thể nhận được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 ",0,item-icon-601,601,"Thuốc phục hồi năng lượng 
 ",0,1,,0,0,3,999,0,3,9,1
@@ -3667,12 +3667,27 @@ Vé cần thiết để tham gia Thử thách Nông nghiệp Cấp độ Nâng c
 "800,1",0,1, Trống ,0,item-icon-837,837, Đá vỡ,0,1,,0,0,3,999,0,4,0,1
 "800,1",0,1, Trống ,0,item-icon-838,838, Quả dơi bí ngô,0,1,,0,0,1,999,0,6,0,1
 "792,1",0,1, Fragment Lumi là một vật phẩm thần bí phát ra ánh sáng ma thuật ,0,item-icon-839,839, Mảnh vụn Lumi,0,1,,1,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-840,840,Lv 0 Slime Năng lượng,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-841,841, Lv 0 Thuốc phục hồi năng lượng,0,1,,0,0,,999,0,3,0,1
-"800,1",0,1,,0,item-icon-842,842, Lv 0 Tinh chất chiến đấu,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-843,843, Lv 0 Tinh chất thu thập,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-844,844, Lv 0 Tinh chất trồng trọt nông nghiệp,0,1,,0,0,,999,0,4,0,1
-"800,1",0,1,,0,item-icon-845,845, Lv 0 Tinh chất chăn nuôi nông nghiệp,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1,"Sản phẩm chế tạo.
+Có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Nguyên liệu của Lọ Phục Hồi Năng Lượng cấp độ 0",0,item-icon-840,840,Lv 0 Slime Năng lượng,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Khôi phục năng lượng -> 2",0,item-icon-841,841, Lv 0 Thuốc phục hồi năng lượng,0,1,,0,0,,999,0,3,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Một nguyên liệu để làm trang bị cấp độ 0",0,item-icon-842,842, Lv 0 Tinh chất chiến đấu,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Một nguyên liệu để làm trang bị cấp độ 0",0,item-icon-843,843, Lv 0 Tinh chất thu thập,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1," Sản phẩm chế tạo.
+Có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Một nguyên liệu để làm trang bị cấp độ 0",0,item-icon-844,844, Lv 0 Tinh chất trồng trọt nông nghiệp,0,1,,0,0,,999,0,4,0,1
+"800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới,0,item-icon-845,845, Lv 0 Tinh chất chăn nuôi nông nghiệp,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới ,0,item-icon-846,846, Huy chương Rookie - Chiến đấu,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới ,0,item-icon-847,847, Huy chương Rookie - Thu thập,0,1,,0,0,,999,0,4,0,1
 "800,1",0,1, Bằng chứng hoàn thành nhiệm vụ mới ,0,item-icon-848,848, Huy chương Rookie - Nông nghiệp,0,1,,0,0,,999,0,4,0,1
@@ -3682,51 +3697,52 @@ Vé cần thiết để tham gia Thử thách Nông nghiệp Cấp độ Nâng c
 "792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-852,852, Bộ trang phục tóc · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Đề xuất mặc như thời trang ,0,item-icon-853,853, Bộ trang phục tóc · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-854,854, Trang phục · Đầu gà,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-855,855, Trang phục · Chiến binh hiện đại,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-856,856, Trang phục · Bố già thời trang,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-857,857, Trang phục · Đội trưởng Ronin,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-858,858, Trang phục · Đầu khối,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-859,859, Trang phục · Đầu buồng lái,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-860,860, Trang phục · Chiến binh BTC,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-861,861, Trang phục · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-862,862, Trang phục · Chiến binh tương lai,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-863,863, Trang phục · Ash,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-864,864, Trang phục · Vịt nhăn mặt,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-865,865,Trang phục · Chiến binh khoai tây,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-866,866, Trang phục · Hoa hướng dương,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-867,867, Trang phục · Xương rồng,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-868,868, Trang phục · Chuối,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-869,869, Trang phục · Chảo,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-870,870, Trang phục · Cá mập,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-871,871, Trang phục · Ống hút,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-872,872, Trang phục · Máy sấy tóc,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-873,873, Áo khoác trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-874,874, Quần trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-875,875, Găng tay trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-876,876, Giày trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-877,877, Áo khoác trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-878,878, Quần trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-879,879, Găng tay trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-880,880, Giày trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-881,881, Áo khoác trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-882,882, Quần trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-883,883, Găng tay trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-884,884, Giày trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-855,855, Trang phục · Chiến binh hiện đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-856,856, Trang phục · Bố già thời trang,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-857,857, Trang phục · Đội trưởng Ronin,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-858,858, Trang phục · Đầu khối,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-859,859, Trang phục · Đầu buồng lái,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-860,860, Trang phục · Chiến binh BTC,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-861,861, Trang phục · Uchiha Obilu,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-862,862, Trang phục · Chiến binh tương lai,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-863,863, Trang phục · Ash,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-864,864, Trang phục · Vịt nhăn mặt,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-865,865,Trang phục · Chiến binh khoai tây,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-866,866, Trang phục · Hoa hướng dương,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-867,867, Trang phục · Xương rồng,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-868,868, Trang phục · Chuối,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-869,869, Trang phục · Chảo,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-870,870, Trang phục · Cá mập,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-871,871, Trang phục · Ống hút,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-872,872, Trang phục · Máy sấy tóc,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-873,873, Áo khoác trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-874,874, Quần trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-875,875, Găng tay trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-876,876, Giày trang phục · Chinh phục Lửa,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-877,877, Áo khoác trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-878,878, Quần trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-879,879, Găng tay trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-880,880, Giày trang phục · Chinh phục Hư không,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-881,881, Áo khoác trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-882,882, Quần trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-883,883, Găng tay trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Đề xuất mặc như thời trang,0,item-icon-884,884, Giày trang phục · Chinh phục Cổ đại,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-885,885, Áo khoác trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-886,886, Quần trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-887,887, Găng tay trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-888,888, Giày trang phục · Hiệp sĩ Rực rỡ,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,,0,item-icon-889,889, Áo khoác trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-890,890, Quần trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-891,891, Găng tay trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,item-icon-892,892, Giày trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
--,0,1,,0,item-icon-893,893, Xương cá,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-894,894, Hộp mở,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-895,895, Hạt giống nảy mầm,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-896,896, Trứng khủng long,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-897,897, Đậu nành,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-898,898, Bánh răng,0,1,,0,0,,999,0,4,0,1
--,0,1,,0,item-icon-899,899,Cuộn,0,1,,0,0,,999,0,4,0,1
-"792,1",0,1,,0,item-icon-934,934, Vé Vào Sân Thi Đấu Hạng Nhỏ - Nhẹ,0,1,,1,0,,999,0,4,0,1
-"795,1",0,1,,0,item-icon-935,935, Vé Vào Sân Thi Đấu Hạng Trung - Nhẹ,0,1,,1,0,,999,0,4,0,1
-"798,1",0,1,,0,item-icon-936,936, Vé Vào Sân Thi Đấu Hạng Cao - Nhẹ,0,1,,1,0,,999,0,4,0,1
+"792,1",0,1,Gợi ý mặc như là thời trang,0,item-icon-890,890, Quần trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Gợi ý mặc như là thời trang,0,item-icon-891,891, Găng tay trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Gợi ý mặc như là thời trang,0,item-icon-892,892, Giày trang phục · Chiến binh Băng giá,0,5,,1,0,,999,0,1,0,1
+-,0,1, Ai đó bị nghẹt,0,item-icon-893,893, Xương cá,0,1,,0,0,,999,0,4,0,1
+-,0,1," Ê..
+Hộp đựng mùi hôi",0,item-icon-894,894, Hộp mở,0,1,,0,0,,999,0,4,0,1
+-,0,1, Trống,0,item-icon-895,895, Hạt giống nảy mầm,0,1,,0,0,,999,0,4,0,1
+-,0,1," Làm ơn, đưa con khủng long trở lại",0,item-icon-896,896, Trứng khủng long,0,1,,0,0,,999,0,4,0,1
+-,0,1, Trống,0,item-icon-897,897, Đậu nành,0,1,,0,0,,999,0,4,0,1
+-,0,1, Vẫn đang làm việc,0,item-icon-898,898, Bánh răng,0,1,,0,0,,999,0,4,0,1
+-,0,1, Trống,0,item-icon-899,899,Cuộn,0,1,,0,0,,999,0,4,0,1
+"792,1",0,1,Vé Vào Sân Thi Đấu Nhí - Mini,0,item-icon-934,934, Vé Vào Sân Thi Đấu Hạng Nhỏ - Nhẹ,0,1,,1,0,,999,0,4,0,1
+"795,1",0,1, Vé Vào Sân Thi Đấu Trung Cấp - Mini,0,item-icon-935,935, Vé Vào Sân Thi Đấu Hạng Trung - Nhẹ,0,1,,1,0,,999,0,4,0,1
+"798,1",0,1, Vé Vào Sân Thi Đấu Nâng Cao - Mini,0,item-icon-936,936, Vé Vào Sân Thi Đấu Hạng Cao - Nhẹ,0,1,,1,0,,999,0,4,0,1
