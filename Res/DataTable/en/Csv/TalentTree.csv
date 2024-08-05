@@ -44,8 +44,8 @@ Combat DEF + 5
 Combat MaxHP + 20
 MaxEnergy + 10
 Unlock Energy Recipes","59,619#1198,10000","1,2,3",talentTree-9,9,1,9,1,Combat Mastery 9,70000,2,115200,8,8,20000
--3,Reduce the enemy's movement speed.,332,1,talentTree-10,10,0,2,1,Trampling - Enhance,0,2,175,0,11,0
--3,Stun enemies around you.,63,0,talentTree-11,11,0,1,1,Trampling,0,2,95,0,,0
+-1,Reduce the enemy's movement speed.,332,1,talentTree-10,10,0,2,1,Trampling - Enhance,0,2,175,0,11,0
+-1,Stun enemies around you.,63,0,talentTree-11,11,0,1,1,Trampling,0,2,95,0,,0
 0,"FertilityCapacity + 1
 PlantingProficiency + 4
 PetHappinessCapacity + 1
@@ -183,21 +183,21 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 2,PlantingProficiency + 4,246,1,talentTree-48,48,0,3,1,Farm - PlantingProficiency ,0,1,420,0,81,0
 -2,Unlock Livestock Essence Recipes Lv 2,156,2,talentTree-49,49,0,2,1,Livestock Essence Recipes,0,1,210,0,72,0
 2,PlantingProficiency + 4,249,1,talentTree-50,50,0,4,1,Farm - PlantingProficiency ,0,1,840,0,48,1500
--3,Increase the enemy's stun duration.,333,1,talentTree-52,52,0,3,1,Trampling - Enhance,0,2,323,0,10,0
+-1,Increase the enemy's stun duration.,333,1,talentTree-52,52,0,3,1,Trampling - Enhance,0,2,323,0,10,0
 -2,"Charge, push enemies back, 50% damage.",122,0,talentTree-54,54,0,2,1,Bull Rush,0,2,175,0,,0
 -2,Reduce the enemy's movement speed.,336,1,talentTree-55,55,0,3,1,Bull Rush - Enhance,0,2,323,0,54,0
 -2,Reduce the enemy's movement speed.,337,1,talentTree-56,56,0,4,1,Bull Rush - Enhance,0,2,646,0,55,1500
 -2,Repel the enemy in a small area in front of you and flip backwards,123,0,talentTree-57,57,0,5,1,Escape,0,2,1292,0,56,2000
--1,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,0,2,323,0,,0
--3,Temporarily increase HP Recovery of battle withdrawal based on the percentage of MaxHP,485,0,talentTree-61,61,0,4,1,Healing Wave,0,2,646,0,52,1500
+-3,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,0,2,323,0,,0
+-1,Temporarily increase HP Recovery of battle withdrawal based on the percentage of MaxHP,485,0,talentTree-61,61,0,4,1,Healing Wave,0,2,646,0,52,1500
 -3,"Unlock LV 3 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998#982,2,talentTree-62,62,0,3,3,Gather Set Recipes,0,3,"525,525,525",0,34,"1500,1500,1500"
 -1,Unlock Potion Recipe. ,95#902,2,talentTree-65,65,0,1,1,Magic Props Recipes,0,3,131,0,,0
 -1,Unlock Potion Recipe. ,96#903,2,talentTree-66,66,0,2,1,Magic Props Recipes,0,3,262,0,65,0
 -1,Unlock Potion Recipe. ,132#904,2,talentTree-67,67,0,3,1,Magic Props Recipes,0,3,525,0,66,1500
 -1,Unlock Potion Recipe. ,346#905,2,talentTree-68,68,0,4,1,Magic Props Recipes,0,3,1050,0,67,1500
 -1,Unlock Potion Recipe. ,347#906,2,talentTree-69,69,0,5,1,Magic Props Recipes,0,3,2100,0,68,2000
--1,Reduce the enemy's movement speed.,340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,0,2,646,0,60,1500
--3,Increase the enemy's stun duration.,334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,0,2,1292,0,61,2000
+-3,Reduce the enemy's movement speed.,340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,0,2,646,0,60,1500
+-1,Increase the enemy's stun duration.,334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,0,2,1292,0,61,2000
 -2,Unlock Livestock Essence Recipes Lv 1,155,2,talentTree-72,72,0,1,1,Livestock Essence Recipes,0,1,95,0,,0
 2,PlantingProficiency + 4,230,1,talentTree-73,73,0,1,1,Farm - PlantingProficiency ,0,1,95,0,,0
 3,PetHappinessCapacity + 1,231,1,talentTree-74,74,0,1,1,Farm - PetHappinessCapacity ,0,1,95,0,,0
@@ -240,15 +240,15 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 3,Combat DEF +5,262,1,talentTree-116,116,0,5,1,Combat - Defense,0,2,1292,0,111,2000
 2,Combat ATK +5,256,1,talentTree-117,117,0,5,1,Combat - Attack Power,0,2,1292,0,113,2000
 1,Increase Critical Hit Probability by 5/10/15%,60;61;62,1,talentTree-118,118,0,5,3,Expert,0,2,"1292,1292,1292",0,112,"2000,2000,2000"
--1,Reduce the enemy's movement speed.,341,1,talentTree-119,119,0,5,1,Slight Flurry - Enhance,0,2,1292,0,70,2000
+-3,Reduce the enemy's movement speed.,341,1,talentTree-119,119,0,5,1,Slight Flurry - Enhance,0,2,1292,0,70,2000
 4,Combat MaxHP +20,268,1,talentTree-120,120,0,5,1,Combat - HP,0,2,1292,0,114,2000
--3,Reduce the enemy's movement speed.,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,0,2,2584,0,71,2500
+-1,Reduce the enemy's movement speed.,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,0,2,2584,0,71,2500
 -2,Reduce the enemy's movement speed.,338,1,talentTree-123,123,0,6,1,Escape - Enhance,0,2,2584,0,57,2500
 1,Increase crit damage to monsters by 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3,Expert,0,2,"2584,2584,2584",0,118,"2500,2500,2500"
--1,Forward thrust,487,0,talentTree-125,125,0,6,1,Linear impact,0,2,2584,0,119,2500
--3,Defeat a large area of enemies in front of you and cause temporary dizziness,459,0,talentTree-127,127,0,7,1,Sweeping,0,2,5169,0,122,3000
+-3,Forward thrust,487,0,talentTree-125,125,0,6,1,Linear impact,0,2,2584,0,119,2500
+-1,Defeat a large area of enemies in front of you and cause temporary dizziness,459,0,talentTree-127,127,0,7,1,Sweeping,0,2,5169,0,122,3000
 -2,Reduce the enemy's movement speed.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,0,2,5169,0,123,3000
--1,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Linear impact - Enhance,0,2,5169,0,125,3000
+-3,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Linear impact - Enhance,0,2,5169,0,125,3000
 1,Attack speed increased by 10/20/30%.,131;132;133,1,talentTree-130,130,0,7,3,Expert,0,2,"5169,5169,5169",0,124,"3000,3000,3000"
 2,Combat ATK +5,257,1,talentTree-131,131,0,6,1,Combat - Attack Power,0,2,2584,0,117,2500
 3,Combat DEF +5,263,1,talentTree-132,132,0,6,1,Combat - Defense,0,2,2584,0,116,2500
@@ -257,12 +257,12 @@ Unlock Energy Recipes","89,622#613,10000","1,2,3",talentTree-32,32,1,9,1,Gather 
 3,Combat DEF +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,0,2,5169,0,132,3000
 4,Combat MaxHP +20,276,1,talentTree-136,136,0,7,1,Combat - HP,0,2,5169,0,133,3000
 -2,Deals multiple damage to nearby enemies,558,0,talentTree-139,139,0,8,1,Thunderstorm,0,2,11200,0,128,3500
--1,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Linear impact - Enhance,0,2,11200,0,129,3500
+-3,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Linear impact - Enhance,0,2,11200,0,129,3500
 1,0.1/0.2/0.3% damage bonus per 1% health lost.,128;129;130,1,talentTree-141,141,0,8,3,Expert,0,2,"11200,11200,11200",0,130,"3500,3500,3500"
 2,Combat ATK +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,0,2,11200,0,134,3500
 3,Combat DEF +5,274,1,talentTree-143,143,0,8,1,Combat - Defense,0,2,11200,0,135,3500
 4,Combat MaxHP +20,277,1,talentTree-144,144,0,8,1,Combat - Health,0,2,11200,0,136,3500
--1,,432,0,talentTree-149,149,0,9,1,Inspire,0,2,24436,0,140,4000
+-3,,432,0,talentTree-149,149,0,9,1,Inspire,0,2,24436,0,140,4000
 2,Combat ATK +5,272,1,talentTree-150,150,0,9,1,Combat - Attack Power,0,2,24436,0,142,4000
 1,"The weapon's attack leaves wounds, dealing 1%/2%/3% attack damage every 0.5 seconds for 5 seconds.",172;173;174,1,talentTree-151,151,0,9,3,Expert,0,2,"24436,24436,24436",0,141,"4000,4000,4000"
 3,Combat DEF +5,275,1,talentTree-152,152,0,9,1,Combat - Defense,0,2,24436,0,143,4000
