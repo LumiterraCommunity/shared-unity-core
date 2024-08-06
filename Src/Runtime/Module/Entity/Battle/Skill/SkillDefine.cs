@@ -27,6 +27,7 @@ public enum eSkillGroupType : int
     Pet = 9,        // 宠物技能组
     Item = 10,           //道具技能组
     Action = 11,         //动作技能组
+    HomeSkill = 12,      //家园技能组
 }
 
 public enum eSEStatusType
