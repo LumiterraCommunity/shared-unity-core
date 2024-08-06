@@ -247,6 +247,8 @@ public enum eSkillId : int
 {
     Capture = 166, //捕获
     CaptureShoot = 168, //捕获-> 射怪
+    Sowing = 97,//播种
+    PutFood = 27//放饲料
 }
 
 /// <summary>
