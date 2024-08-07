@@ -567,10 +567,24 @@ Assets/Res/Sprite/Instructions/Background/Common.png,Planting Giant Crops (in ch
 Assets/Res/Sprite/Instructions/Background/Common.png,Planting Giant Crops (in challenge with Extra Drop Event),576,Assets/Res/Sprite/Instructions/Custom/SeedBoss-7.png
 Assets/Res/Sprite/Instructions/Background/Common.png,Planting Giant Crops (in challenge with Extra Drop Event),577,Assets/Res/Sprite/Instructions/Custom/SeedBoss-8.png
 Assets/Res/Sprite/Instructions/Background/Common.png,Planting Giant Crops (in challenge with Extra Drop Event),578,Assets/Res/Sprite/Instructions/Custom/SeedBoss-9.png
-Assets/Res/Sprite/Instructions/Background/ExDropRule.png,"- Probabilistic event; and there is a daily cap on the total number of triggers for all players.
+Assets/Res/Sprite/Instructions/Background/CombatExtraDrop.png,"- Probabilistic event; and there is a daily cap on the total number of triggers for all players.
 - After triggering additional drops, the following behaviors within the copy will be rewarded with additional drops:
    - Killing Bosses
    - Gathering Large Gatherers
    - Planting Large Crops
 - Bosses/Large Gatherers/Large Crops also provide high scores.
 - Normal monsters/normal gatherers/normal crops already provide enough points to pass the level.",579,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
+Assets/Res/Sprite/Instructions/Background/GatheringExtraDrop.png,"- Probabilistic event; and there is a daily cap on the total number of triggers for all players.
+- After triggering additional drops, the following behaviors within the copy will be rewarded with additional drops:
+   - Killing Bosses
+   - Gathering Large Gatherers
+   - Planting Large Crops
+- Bosses/Large Gatherers/Large Crops also provide high scores.
+- Normal monsters/normal gatherers/normal crops already provide enough points to pass the level.",580,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
+Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png,"- Probabilistic event; and there is a daily cap on the total number of triggers for all players.
+- After triggering additional drops, the following behaviors within the copy will be rewarded with additional drops:
+   - Killing Bosses
+   - Gathering Large Gatherers
+   - Planting Large Crops
+- Bosses/Large Gatherers/Large Crops also provide high scores.
+- Normal monsters/normal gatherers/normal crops already provide enough points to pass the level.",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
