@@ -46,12 +46,6 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
             }
             IsStopGravityDeath = true;
         }
-
-        ISceneDamageDetection[] detections = StatusCtrl.GetComponents<ISceneDamageDetection>();
-        for (int i = 0; i < detections.Length; i++)
-        {
-            detections[i].StopDetection();
-        }
         StatusCtrl.RefEntity.EntityEvent.EnterDeath?.Invoke();
     }
 
@@ -70,11 +64,6 @@ public class DeathStatusCore : ListenEventStatusCore, IEntityCanMove, IEntityCan
             IsStopGravityDeath = false;
         }
 
-        ISceneDamageDetection[] detections = StatusCtrl.GetComponents<ISceneDamageDetection>();
-        for (int i = 0; i < detections.Length; i++)
-        {
-            detections[i].StartDetection();
-        }
         StatusCtrl.RefEntity.EntityEvent.ExitDeath?.Invoke();
         base.OnLeave(fsm, isShutdown);
     }

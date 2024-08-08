@@ -3,34 +3,22 @@ using UnityEngine;
 using UnityGameFramework.Runtime;
 
 /// <summary>
-/// 水域淹死检测
+/// 水伤害检测
 /// </summary>
-public class WaterDeathDetectionCore : EntityBaseComponent, ISceneDamageDetection
+public class WaterDeathDetectionCore : SceneDamageTriggerBaseCore
 {
+    public override GameMessageCore.DamageState DamageState => GameMessageCore.DamageState.WaterDrown;
     private readonly HashSet<Collider> _curTriggerWater = new();
-    private bool _isDetecting = false;
     private RoleBaseDataCore _roleBaseDataCore;
 
     private void Start()
     {
-        StartDetection();
-
         _ = TryGetComponent(out _roleBaseDataCore);
     }
 
     private void OnDestroy()
     {
         _curTriggerWater.Clear();
-    }
-
-    public void StartDetection()
-    {
-        _isDetecting = true;
-    }
-
-    public void StopDetection()
-    {
-        _isDetecting = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -71,27 +59,25 @@ public class WaterDeathDetectionCore : EntityBaseComponent, ISceneDamageDetectio
 
     private void FixedUpdate()
     {
-        if (!_isDetecting || _curTriggerWater.Count == 0)
+        if (_curTriggerWater.Count == 0)
         {
             return;
         }
 
-        if (CheckHeadUnderWater())
+        if (CheckTrigger())
         {
-            StopDetection();
-
-            OnWaterDeath();
+            TriggerSceneDamage();
         }
     }
 
-    private bool CheckHeadUnderWater()
+    protected override bool CheckTrigger()
     {
+        if (!base.CheckTrigger())
+        {
+            return false;
+        }
+        // 检测是否在水中
         Vector3 headPos = _roleBaseDataCore != null ? _roleBaseDataCore.TopPos : transform.position;
         return Physics.CheckSphere(headPos, 0.1f, 1 << MLayerMask.WATER, QueryTriggerInteraction.Collide);
-    }
-
-    private void OnWaterDeath()
-    {
-        RefEntity.EntityEvent.OnSceneDeath?.Invoke(GameMessageCore.DamageState.WaterDrown);
     }
 }

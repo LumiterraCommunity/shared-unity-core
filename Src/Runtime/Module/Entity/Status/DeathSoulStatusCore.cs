@@ -46,12 +46,6 @@ public class DeathSoulStatusCore : ListenEventStatusCore, IEntityCanMove, IEntit
             }
             IsStopGravityDeath = false;
         }
-        ISceneDamageDetection[] detections = StatusCtrl.GetComponents<ISceneDamageDetection>();
-        for (int i = 0; i < detections.Length; i++)
-        {
-            detections[i].StartDetection();
-        }
-
         StatusCtrl.RefEntity.EntityEvent.ExitDeathSoul?.Invoke();
         base.OnLeave(fsm, isShutdown);
     }
