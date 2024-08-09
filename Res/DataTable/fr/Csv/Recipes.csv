@@ -922,18 +922,18 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 7, Générer aléatoirement un Billet d'Admission au Défi de Collecte :Billet de Défi Junior - 1%Billet d'Admission au Défi Intermédiaire - 11%Billet d'Admission au Défi Avancé - 88%,2,recipe-icon-1216,1216,7,"762,2", Recette de ticket de défi de collecte de niveau 7,"775,1,1,100;776,1,1,1100;777,1,1,8800",4,0,50301216,1,10,-,3,1,1,0,7500
 8, Générer aléatoirement un Billet d'Admission au Défi de Collecte :Billet de Défi Junior - 1%Billet d'Admission au Défi Intermédiaire - 11%Billet d'Admission au Défi Avancé - 88%,2,recipe-icon-1217,1217,8,"763,1", Recette de ticket de défi de collecte de niveau 8,"775,1,1,100;776,1,1,1100;777,1,1,8800",4,0,50201217,1,10,-,3,1,1,0,7500
 9, Générer aléatoirement un Billet d'Admission au Défi de Collecte :Billet de Défi Junior - 1%Billet d'Admission au Défi Intermédiaire - 11%Billet d'Admission au Défi Avancé - 88%,2,recipe-icon-1218,1218,9,"764,1",Recette de ticket de défi de collecte de niveau 9,"775,1,1,100;776,1,1,1100;777,1,1,8800",4,0,50101218,1,10,-,3,1,1,0,7500
-1, Produire 2 x Boîte de Package de Niveau 1,2,recipe-icon-1219,1219,1,"783,1;793,1",Recette de boîte d'emballage de niveau 1,"792,1,2,10000",4,0,50901219,1,10,-,0,1,1,0,8
-2, Produire 2 x Boîte de Package de Niveau 2,2,recipe-icon-1220,1220,2,"784,1;794,1",Recette de boîte d'emballage de niveau 2,"793,1,2,10000",4,0,50801220,1,10,-,0,1,1,0,8
-3,Produire 2 x Boîte de paquet de niveau 3,2,recipe-icon-1221,1221,3,"785,1;795,1",Recette de boîte d'emballage de niveau 3,"794,1,2,10000",4,0,50701221,1,10,-,0,1,1,0,8
-4, Produire 2 x Boîte de paquet de niveau 4,2,recipe-icon-1222,1222,4,"786,1;796,1",Recette de boîte d'emballage de niveau 4,"795,1,2,10000",4,0,50601222,1,10,-,0,1,1,0,8
-5, Produire 2 x Boîte de paquet de niveau 5,2,recipe-icon-1223,1223,5,"787,1;797,1",Recette de boîte d'emballage de niveau 5,"796,1,2,10000",4,0,50501223,1,10,-,0,1,1,0,8
-6, Produire 2 x Boîte de paquet de niveau 6,2,recipe-icon-1224,1224,6,"788,1;798,1",Recette de boîte d'emballage de niveau 6,"797,1,2,10000",4,0,50401224,1,10,-,0,1,1,0,8
-7, Produire 2 x Boîte de paquet de niveau 7,2,recipe-icon-1225,1225,7,"789,1;799,1",Recette de boîte d'emballage de niveau 7,"798,1,2,10000",4,0,50301225,1,10,-,0,1,1,0,8
-8, Produire 2 x Boîte de paquet de niveau 8,2,recipe-icon-1226,1226,8,"790,1;800,1",Recette de boîte d'emballage de niveau 8,"799,1,2,10000",4,0,50201226,1,10,-,0,1,1,0,8
-6, Produire 1 x Boîte de paquet de niveau 6,2,recipe-icon-1227,1227,6,"788,1",Recette de boîte d'emballage de niveau 9,"797,1,1,10000",4,0,50401227,1,10,-,0,1,1,0,8
-7, Produire 1 x Boîte de paquet de niveau 7,2,recipe-icon-1228,1228,7,"789,1", Recette de boîte d'emballage de niveau 7,"798,1,1,10000",4,0,50301228,1,10,-,0,1,1,0,8
-8, Produire 1 x Boîte de paquet de niveau 8,2,recipe-icon-1229,1229,8,"790,1", Recette de boîte d'emballage de niveau 8,"799,1,1,10000",4,0,50201229,1,10,-,0,1,1,0,8
-9, Produire 1 x Boîte de paquet de niveau 9,2,recipe-icon-1230,1230,9,"791,1", Recette de boîte d'emballage de niveau 9,"800,1,1,10000",4,0,50101230,1,10,-,0,1,1,0,8
+1, Produire 2 x Boîte de Package de Niveau 1,2,recipe-icon-1219,1219,1,"783,1;793,1",Recette de boîte d'emballage de niveau 1,"792,1,2,10000",4,0,50901219,1,10,-,0,1,1,0,10
+2, Produire 2 x Boîte de Package de Niveau 2,2,recipe-icon-1220,1220,2,"784,1;794,1",Recette de boîte d'emballage de niveau 2,"793,1,2,10000",4,0,50801220,1,10,-,0,1,1,0,10
+3,Produire 2 x Boîte de paquet de niveau 3,2,recipe-icon-1221,1221,3,"785,1;795,1",Recette de boîte d'emballage de niveau 3,"794,1,2,10000",4,0,50701221,1,10,-,0,1,1,0,10
+4, Produire 2 x Boîte de paquet de niveau 4,2,recipe-icon-1222,1222,4,"786,1;796,1",Recette de boîte d'emballage de niveau 4,"795,1,2,10000",4,0,50601222,1,10,-,0,1,1,0,10
+5, Produire 2 x Boîte de paquet de niveau 5,2,recipe-icon-1223,1223,5,"787,1;797,1",Recette de boîte d'emballage de niveau 5,"796,1,2,10000",4,0,50501223,1,10,-,0,1,1,0,10
+6, Produire 2 x Boîte de paquet de niveau 6,2,recipe-icon-1224,1224,6,"788,1;798,1",Recette de boîte d'emballage de niveau 6,"797,1,2,10000",4,0,50401224,1,10,-,0,1,1,0,10
+7, Produire 2 x Boîte de paquet de niveau 7,2,recipe-icon-1225,1225,7,"789,1;799,1",Recette de boîte d'emballage de niveau 7,"798,1,2,10000",4,0,50301225,1,10,-,0,1,1,0,10
+8, Produire 2 x Boîte de paquet de niveau 8,2,recipe-icon-1226,1226,8,"790,1;800,1",Recette de boîte d'emballage de niveau 8,"799,1,2,10000",4,0,50201226,1,10,-,0,1,1,0,10
+6, Produire 1 x Boîte de paquet de niveau 6,2,recipe-icon-1227,1227,6,"788,1",Recette de boîte d'emballage de niveau 9,"797,1,1,10000",4,0,50401227,1,10,-,0,1,1,0,10
+7, Produire 1 x Boîte de paquet de niveau 7,2,recipe-icon-1228,1228,7,"789,1", Recette de boîte d'emballage de niveau 7,"798,1,1,10000",4,0,50301228,1,10,-,0,1,1,0,10
+8, Produire 1 x Boîte de paquet de niveau 8,2,recipe-icon-1229,1229,8,"790,1", Recette de boîte d'emballage de niveau 8,"799,1,1,10000",4,0,50201229,1,10,-,0,1,1,0,10
+9, Produire 1 x Boîte de paquet de niveau 9,2,recipe-icon-1230,1230,9,"791,1", Recette de boîte d'emballage de niveau 9,"800,1,1,10000",4,0,50101230,1,10,-,0,1,1,0,10
 0, Obtenir aléatoirement la Médaille du Pigeon :25 x Médaille du Pigeon - 1%14 x Médaille du Pigeon - 5%8 x Médaille du Pigeon - 19%3 x Médaille du Pigeon - 75%,2,recipe-icon-1231,1231,0,"734,5", Médaille de la loterie du pigeon,,,0,51001231,1,6,-,0,1,1,0,0
 0, Médaille de Lumi,2,recipe-icon-1232,1232,0,"402,3;408,3;405,3;411,3;717,129",Médaille de Lumi,"803,1,1,10000",4,0,51001232,1,6,0,0,0,4,0,0
 0,,2,recipe-icon-1233,1233,0,"833,3", Recette de Slime d'énergie de combat de niveau 0,"840,1,1,10000",4,0,21001233,1,10,-,2,1,1,0,0

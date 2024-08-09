@@ -922,18 +922,18 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 7, Secara rawak menghasilkan Tiket Cabaran Mengumpul:Tiket Cabaran Junior - 1%Tiket Cabaran Pertengahan - 11%Tiket Cabaran Lanjutan - 88% ,2,recipe-icon-1216,1216,7,"762,2", Resipi Tiket Cabaran Mengumpul Lv 7,"775,1,1,100;776,1,1,1100;777,1,1,8800",4,0,50301216,1,10,-,3,1,1,0,7500
 8, Secara rawak menghasilkan Tiket Cabaran Mengumpul:Tiket Cabaran Junior - 1%Tiket Cabaran Pertengahan - 11%Tiket Cabaran Lanjutan - 88% ,2,recipe-icon-1217,1217,8,"763,1", Resipi Tiket Cabaran Mengumpul Lv 8,"775,1,1,100;776,1,1,1100;777,1,1,8800",4,0,50201217,1,10,-,3,1,1,0,7500
 9, Secara rawak menghasilkan Tiket Cabaran Mengumpul:Tiket Cabaran Junior - 1%Tiket Cabaran Pertengahan - 11%Tiket Cabaran Lanjutan - 88% ,2,recipe-icon-1218,1218,9,"764,1", Resipi Tiket Cabaran Kumpul Tahap 9,"775,1,1,100;776,1,1,1100;777,1,1,8800",4,0,50101218,1,10,-,3,1,1,0,7500
-1, Menghasilkan 2 kotak Pakej Lv 1 ,2,recipe-icon-1219,1219,1,"783,1;793,1",Resipi Kotak Pembungkusan Tahap 1,"792,1,2,10000",4,0,50901219,1,10,-,0,1,1,0,8
-2, Menghasilkan 2 kotak Pakej Lv 2,2,recipe-icon-1220,1220,2,"784,1;794,1",Resipi Kotak Pembungkusan Tahap 2,"793,1,2,10000",4,0,50801220,1,10,-,0,1,1,0,8
-3,Hasilkan 2 x Kotak Pakej Lv 3,2,recipe-icon-1221,1221,3,"785,1;795,1", Resipi Kotak Pembungkusan Tahap 3,"794,1,2,10000",4,0,50701221,1,10,-,0,1,1,0,8
-4, Hasilkan 2 x Kotak Pakej Lv 4,2,recipe-icon-1222,1222,4,"786,1;796,1", Resipi Kotak Pembungkusan Tahap 4,"795,1,2,10000",4,0,50601222,1,10,-,0,1,1,0,8
-5, Hasilkan 2 x Kotak Pakej Lv 5,2,recipe-icon-1223,1223,5,"787,1;797,1", Resipi Kotak Pembungkusan Tahap 5,"796,1,2,10000",4,0,50501223,1,10,-,0,1,1,0,8
-6, Hasilkan 2 x Kotak Pakej Lv 6,2,recipe-icon-1224,1224,6,"788,1;798,1", Resipi Kotak Pembungkusan Tahap 6,"797,1,2,10000",4,0,50401224,1,10,-,0,1,1,0,8
-7, Hasilkan 2 x Kotak Pakej Lv 7,2,recipe-icon-1225,1225,7,"789,1;799,1", Resipi Kotak Pembungkusan Tahap 7,"798,1,2,10000",4,0,50301225,1,10,-,0,1,1,0,8
-8, Hasilkan 2 x Kotak Pakej Lv 8,2,recipe-icon-1226,1226,8,"790,1;800,1", Resipi Kotak Pembungkusan Tahap 8,"799,1,2,10000",4,0,50201226,1,10,-,0,1,1,0,8
-6, Hasilkan 1 x Kotak Pakej Lv 6,2,recipe-icon-1227,1227,6,"788,1", Resipi Kotak Pembungkusan Tahap 9,"797,1,1,10000",4,0,50401227,1,10,-,0,1,1,0,8
-7, Hasilkan 1 x Kotak Pakej Lv 7,2,recipe-icon-1228,1228,7,"789,1", Resipi Kotak Pembungkusan Tahap 7,"798,1,1,10000",4,0,50301228,1,10,-,0,1,1,0,8
-8, Hasilkan 1 x Kotak Pakej Lv 8,2,recipe-icon-1229,1229,8,"790,1", Resipi Kotak Pembungkusan Tahap 8,"799,1,1,10000",4,0,50201229,1,10,-,0,1,1,0,8
-9, Hasilkan 1 x Kotak Pakej Lv 9,2,recipe-icon-1230,1230,9,"791,1", Resipi Kotak Pembungkusan Tahap 9,"800,1,1,10000",4,0,50101230,1,10,-,0,1,1,0,8
+1, Menghasilkan 2 kotak Pakej Lv 1 ,2,recipe-icon-1219,1219,1,"783,1;793,1",Resipi Kotak Pembungkusan Tahap 1,"792,1,2,10000",4,0,50901219,1,10,-,0,1,1,0,10
+2, Menghasilkan 2 kotak Pakej Lv 2,2,recipe-icon-1220,1220,2,"784,1;794,1",Resipi Kotak Pembungkusan Tahap 2,"793,1,2,10000",4,0,50801220,1,10,-,0,1,1,0,10
+3,Hasilkan 2 x Kotak Pakej Lv 3,2,recipe-icon-1221,1221,3,"785,1;795,1", Resipi Kotak Pembungkusan Tahap 3,"794,1,2,10000",4,0,50701221,1,10,-,0,1,1,0,10
+4, Hasilkan 2 x Kotak Pakej Lv 4,2,recipe-icon-1222,1222,4,"786,1;796,1", Resipi Kotak Pembungkusan Tahap 4,"795,1,2,10000",4,0,50601222,1,10,-,0,1,1,0,10
+5, Hasilkan 2 x Kotak Pakej Lv 5,2,recipe-icon-1223,1223,5,"787,1;797,1", Resipi Kotak Pembungkusan Tahap 5,"796,1,2,10000",4,0,50501223,1,10,-,0,1,1,0,10
+6, Hasilkan 2 x Kotak Pakej Lv 6,2,recipe-icon-1224,1224,6,"788,1;798,1", Resipi Kotak Pembungkusan Tahap 6,"797,1,2,10000",4,0,50401224,1,10,-,0,1,1,0,10
+7, Hasilkan 2 x Kotak Pakej Lv 7,2,recipe-icon-1225,1225,7,"789,1;799,1", Resipi Kotak Pembungkusan Tahap 7,"798,1,2,10000",4,0,50301225,1,10,-,0,1,1,0,10
+8, Hasilkan 2 x Kotak Pakej Lv 8,2,recipe-icon-1226,1226,8,"790,1;800,1", Resipi Kotak Pembungkusan Tahap 8,"799,1,2,10000",4,0,50201226,1,10,-,0,1,1,0,10
+6, Hasilkan 1 x Kotak Pakej Lv 6,2,recipe-icon-1227,1227,6,"788,1", Resipi Kotak Pembungkusan Tahap 9,"797,1,1,10000",4,0,50401227,1,10,-,0,1,1,0,10
+7, Hasilkan 1 x Kotak Pakej Lv 7,2,recipe-icon-1228,1228,7,"789,1", Resipi Kotak Pembungkusan Tahap 7,"798,1,1,10000",4,0,50301228,1,10,-,0,1,1,0,10
+8, Hasilkan 1 x Kotak Pakej Lv 8,2,recipe-icon-1229,1229,8,"790,1", Resipi Kotak Pembungkusan Tahap 8,"799,1,1,10000",4,0,50201229,1,10,-,0,1,1,0,10
+9, Hasilkan 1 x Kotak Pakej Lv 9,2,recipe-icon-1230,1230,9,"791,1", Resipi Kotak Pembungkusan Tahap 9,"800,1,1,10000",4,0,50101230,1,10,-,0,1,1,0,10
 0, Dapatkan secara rawak Medal Pigeon:25 x Medal Pigeon - 1%14 x Medal Pigeon - 5%8 x Medal Pigeon - 19%3 x Medal Pigeon - 75%,2,recipe-icon-1231,1231,0,"734,5", Pingat Loteri Merpati,,,0,51001231,1,6,-,0,1,1,0,0
 0, Medal Lumi,2,recipe-icon-1232,1232,0,"402,3;408,3;405,3;411,3;717,129",Medal of Lumi ,"803,1,1,10000",4,0,51001232,1,6,0,0,0,4,0,0
 0,,2,recipe-icon-1233,1233,0,"833,3", Resipi Slime Tenaga Pertempuran Lv 0 ,"840,1,1,10000",4,0,21001233,1,10,-,2,1,1,0,0
