@@ -1,5 +1,5 @@
 canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-int[],reputationRequaireScore-int,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,worldDropProbability-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,dropRewardShow-int[],name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],seedMaxLimit-int[],uniqueSeed-int[]
-0,0,10001,0,"0,999",HomeSceneLoading.jpg,"8000,10000,10000,10000,8000,8000,8000,8000,8000,8000",0,0,0,WorldScene,1,1,0,1850,,,,,,,,,,,,"Vacío
+0,0,10001,0,"0,999",HomeSceneLoading.jpg,"7500,9000,9000,9000,7500,7500,7500,7500,7500,7500",0,0,0,WorldScene,1,1,0,1850,,,,,,,,,,,,"Vacío
 ",,Vacío,"Vacío
 ",,,,,,
 0,0,10002,0,"0,999",HomeSceneLoading.jpg,,0,0,0,HomeScene,1,2,0,10000,3,,,,,,,,,,,"Vacío

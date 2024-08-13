@@ -106,7 +106,7 @@ describe-string,id-int,module-string,value-string
 ,20020003,家园相关," Gangguan rangkaian, data anomali dipulihkan"
 ,20020004,,Anda telah habis masa pertanian untuk reputasi anda hari ini.
 ,20020005,, Perkhidmatan ladang akan ditutup dalam {0} saat.
-,20020006,,
+,20020006,,"Di bawah penyelenggaraan, sila tunggu."
 ,20030001,保存技能配置,Berjaya disimpan
 超过上限提示,20040001,畜牧,{0} watak[/color]Sila pilih untuk meninggalkan Sprite ini atau menggantikannya dengan Sprite lainkerana ruang tidak mencukupi
 超过上限提示标题,20040002,畜牧,HAWAN PENUH
@@ -122,7 +122,7 @@ describe-string,id-int,module-string,value-string
 ,20040012,畜牧,Kesuburan tanah tidak mencukupi
 ,20040013,畜牧,Kebahagiaan haiwan tidak mencukupi
 ,20040014,畜牧,Kesuburan tanah semasa tidak mencukupi
-,20040015,畜牧,
+,20040015,畜牧,Kekurangan kecekapan[/color]
 ,20050001,捕获取消操作,Batal menangkap
 ,20050002,捕获距离太远,Terlalu jauh
 ,20050003,捕获绳子断开,Tali pancing patah
@@ -367,6 +367,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290008,, Adakah anda pasti untuk membuang item ini?
 ,20290009,, Kuota penukaran harian telah digunakan habis.
 ,20290010,, Kuota penukaran harian tidak mencukupi.
+,20290011,, Sewa gudang berjaya.
 ,20300000,, Selesaikan tugas reputasi.
 ,20300001,, Berjaya ke papan pemimpin sekali.
 ,20300002,, Sewa gudang.

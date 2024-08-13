@@ -106,7 +106,7 @@ describe-string,id-int,module-string,value-string
 ,20020003,家园相关,"Fluctuation du réseau, données anormales restaurées"
 ,20020004,,Vous avez épuisé les heures de travail agricole pour votre réputation aujourd'hui.
 ,20020005,, Le service de la ferme sera fermé dans {0} secondes.
-,20020006,,
+,20020006,,"Sous maintenance, veuillez patienter."
 ,20030001,保存技能配置,Enregistré avec succès
 超过上限提示,20040001,畜牧,{0} sprites[/color]Veuillez choisir d'abandonner ce Sprite ou de le remplacer par un autreSprite en raison d'un espace insuffisant
 超过上限提示标题,20040002,畜牧,LES ANIMAUX DE COMPAGNIE SONT PLEINS
@@ -122,7 +122,7 @@ describe-string,id-int,module-string,value-string
 ,20040012,畜牧,La fertilité du sol est insuffisante
 ,20040013,畜牧,Le bonheur de l'animal est insuffisant
 ,20040014,畜牧,La fertilité actuelle du sol est insuffisante
-,20040015,畜牧,
+,20040015,畜牧,manque de compétence[/color]
 ,20050001,捕获取消操作,Annuler la capture
 ,20050002,捕获距离太远,C'est trop loin
 ,20050003,捕获绳子断开,La corde est cassée
@@ -367,6 +367,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290008,, Êtes-vous sûr de vouloir supprimer cet objet ?
 ,20290009,, Le quota de conversion quotidien est épuisé.
 ,20290010,, Le quota de conversion quotidien n'est pas suffisant.
+,20290011,, Location d'entrepôt réussie.
 ,20300000,, Terminez la tâche de réputation.
 ,20300001,, Faites partie du classement une fois.
 ,20300002,, Louer un entrepôt.

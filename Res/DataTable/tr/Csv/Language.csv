@@ -106,7 +106,7 @@ describe-string,id-int,module-string,value-string
 ,20020003,家园相关," Ağ bağlantısı dalgalanıyor, anormal veriler geri yüklendi"
 ,20020004,,Bugün itibarıyla itibarınız için tarım saatleriniz tükendi.
 ,20020005,, Çiftlik hizmeti {0} saniye içinde kapanacaktır.
-,20020006,,
+,20020006,,"Bakımdayız, lütfen bekleyin."
 ,20030001,保存技能配置, Başarıyla kaydedildi
 超过上限提示,20040001,畜牧,{0} sprite[/color] sahibi olabilirsinizLütfen bu Sprite'ı terk etmeyi veya yerine başka bir Sprite ile değiştirmeyi seçinYetersiz alan nedeniyle
 超过上限提示标题,20040002,畜牧, PETLER DOLU
@@ -122,7 +122,7 @@ describe-string,id-int,module-string,value-string
 ,20040012,畜牧,Toprak verimliliği yetersiz
 ,20040013,畜牧, Hayvan mutluluğu yetersiz
 ,20040014,畜牧, Toprağın mevcut verimliliği yetersiz
-,20040015,畜牧,
+,20040015,畜牧,yetersiz yetkinlik[/color]
 ,20050001,捕获取消操作, Yakalama İptal
 ,20050002,捕获距离太远, Çok uzak
 ,20050003,捕获绳子断开, Halat koptu
@@ -367,6 +367,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20290008,, Bu öğeyi kaldırmak istediğinizden emin misiniz?
 ,20290009,, Günlük dönüşüm kotası tükenmiştir.
 ,20290010,, Günlük dönüşüm kotası yetersiz.
+,20290011,, Depo kiralama başarılı.
 ,20300000,, Ünvan görevini tamamlayın.
 ,20300001,, Bir kez liderlik tablosuna girdi.
 ,20300002,, Bir depo kirala.

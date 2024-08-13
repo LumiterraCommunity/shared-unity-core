@@ -106,7 +106,7 @@ describe-string,id-int,module-string,value-string
 ,20020003,家园相关," Sự dao động mạng, dữ liệu bất thường đã được khôi phục"
 ,20020004,,Bạn đã hết giờ trồng trọt cho danh tiếng của mình hôm nay.
 ,20020005,, Dịch vụ trang trại sẽ đóng cửa trong {0} giây.
-,20020006,,
+,20020006,,"Dưới quá trình bảo trì, vui lòng đợi."
 ,20030001,保存技能配置,Lưu thành công
 超过上限提示,20040001,畜牧,{0} nhân vật[/color]Vui lòng chọn bỏ nhân vật này hoặc thay thế bằng nhân vật khácdo không đủ không gian
 超过上限提示标题,20040002,畜牧,PET ĐÃ ĐẦY
@@ -122,7 +122,7 @@ describe-string,id-int,module-string,value-string
 ,20040012,畜牧,Độ màu màu đất không đủ
 ,20040013,畜牧,Hạnh phúc của động vật không đủ
 ,20040014,畜牧,Độ màu màu đất hiện tại không đủ
-,20040015,畜牧,
+,20040015,畜牧,thiếu chuyên môn[/color]
 ,20050001,捕获取消操作,Hủy bắt động vật
 ,20050002,捕获距离太远,Quá xa
 ,20050003,捕获绳子断开,Dây đã bị đứt
@@ -367,6 +367,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20290008,, Bạn chắc chắn muốn xóa mục này không?
 ,20290009,, Hạn ngạch chuyển đổi hàng ngày đã được sử dụng hết.
 ,20290010,, Hạn ngạch chuyển đổi hàng ngày không đủ.
+,20290011,, Thuê kho thành công.
 ,20300000,, Hoàn thành nhiệm vụ uy tín.
 ,20300001,, Đã lọt vào bảng xếp hạng một lần.
 ,20300002,, Thuê một kho hàng.

@@ -106,7 +106,7 @@ describe-string,id-int,module-string,value-string
 ,20020003,家园相关,"Fluctuación de red, datos anómalos restaurados"
 ,20020004,,Se ha quedado sin horas de cultivo para su reputación hoy.
 ,20020005,, El servicio de granja se cerrará en {0} segundos.
-,20020006,,
+,20020006,,"En mantenimiento, por favor espere."
 ,20030001,保存技能配置,Guardado exitoso
 超过上限提示,20040001,畜牧,{0} sprites[/color]Elige abandonar este Sprite o reemplazarlo por otro debido a falta de espacio
 超过上限提示标题,20040002,畜牧,LAS MASCOTAS ESTÁN LLENAS
@@ -122,7 +122,7 @@ describe-string,id-int,module-string,value-string
 ,20040012,畜牧,La fertilidad del suelo es insuficiente
 ,20040013,畜牧,La felicidad del animal es insuficiente
 ,20040014,畜牧,La fertilidad actual del suelo es insuficiente
-,20040015,畜牧,
+,20040015,畜牧,falta de competencia[/color]
 ,20050001,捕获取消操作,Cancelar captura
 ,20050002,捕获距离太远,Está demasiado lejos
 ,20050003,捕获绳子断开,La cuerda está rota
@@ -367,6 +367,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290008,, ¿Estás seguro de eliminar este ítem?
 ,20290009,, Cuota diaria de conversión agotada.
 ,20290010,, Cuota diaria de conversión no es suficiente.
+,20290011,, Éxito en el arrendamiento del almacén.
 ,20300000,, Completa la tarea de reputación.
 ,20300001,, Llegó una vez al tablero de líderes.
 ,20300002,, Alquila un almacén.
