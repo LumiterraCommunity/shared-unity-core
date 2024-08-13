@@ -36,6 +36,7 @@ public static class TableDefine
     public const int LUAUSD_ITEM_ID = 773; // LuaUSD道具ID
     public const int TALENT_TASK_SCORE_ITEM_ID = 774; // 任务积分道具ID
     public const int LUA_G_ITEM_ID = 765; // LuaG道具ID
+    public const int ENERGY_ITEM_CD_GROUP = 8; // 精力道具CD组
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
