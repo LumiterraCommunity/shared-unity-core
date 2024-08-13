@@ -74,12 +74,12 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 390,Add Buff,60000,6,438,usePotion
 391,Add Buff,60000,6,439,usePotion
 392,Add Buff,60000,6,440,usePotion
-30,Restore Energy,1000,0,459,usePotion
-37,Restore Energy,1000,0,460,usePotion
-45,Restore Energy,1000,0,461,usePotion
-52,Restore Energy,1000,0,599,usePotion
-60,Restore Energy,1000,0,600,usePotion
-67,Restore Energy,1000,0,601,usePotion
+30,Restore Energy,1000,8,459,usePotion
+37,Restore Energy,1000,8,460,usePotion
+45,Restore Energy,1000,8,461,usePotion
+52,Restore Energy,1000,8,599,usePotion
+60,Restore Energy,1000,8,600,usePotion
+67,Restore Energy,1000,8,601,usePotion
 -,Sow Seeds,1000,0,614,equipItem
 -,Sow Seeds,1000,0,615,equipItem
 -,Sow Seeds,1000,0,616,equipItem
@@ -115,18 +115,18 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 -,Feed,1000,0,706,equipItem
 -,Feed,1000,0,707,equipItem
 -,Feed,1000,0,708,equipItem
-4,Restore Energy,1000,0,709,usePotion
-10,Restore Energy,1000,0,710,usePotion
-17,Restore Energy,1000,0,711,usePotion
-25,Restore Energy,1000,0,712,usePotion
-34,Restore Energy,1000,0,713,usePotion
-44,Restore Energy,1000,0,714,usePotion
-55,Restore Energy,1000,0,715,usePotion
-67,Restore Energy,1000,0,716,usePotion
-80,Restore Energy,1000,0,717,usePotion
+4,Restore Energy,1000,8,709,usePotion
+10,Restore Energy,1000,8,710,usePotion
+17,Restore Energy,1000,8,711,usePotion
+25,Restore Energy,1000,8,712,usePotion
+34,Restore Energy,1000,8,713,usePotion
+44,Restore Energy,1000,8,714,usePotion
+55,Restore Energy,1000,8,715,usePotion
+67,Restore Energy,1000,8,716,usePotion
+80,Restore Energy,1000,8,717,usePotion
 -,Sow Seeds,1000,0,719,equipItem
 -,Sow Seeds,1000,0,720,equipItem
 -,Sow Seeds,1000,0,721,equipItem
 -,Sow Seeds,1000,0,722,equipItem
 -,Sow Seeds,1000,0,723,equipItem
-2,Restore Energy,1000,0,841,usePotion
+2,Restore Energy,1000,8,841,usePotion
