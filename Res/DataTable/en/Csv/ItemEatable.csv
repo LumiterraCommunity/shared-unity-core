@@ -44,9 +44,9 @@ args-string[],callFunc-string[],cd-int,cdType-int,id-int,interactType-string
 356,ReleaseSkill,5000,0,236,releaseSkill
 357,ReleaseSkill,5000,0,237,releaseSkill
 ,Add Buff,5000,0,238,usePotion
-12,Restore Energy,1000,0,295,usePotion
-15,Restore Energy,1000,0,296,usePotion
-22,Restore Energy,1000,0,297,usePotion
+12,Restore Energy,1000,8,295,usePotion
+15,Restore Energy,1000,8,296,usePotion
+22,Restore Energy,1000,8,297,usePotion
 -,Sow Seeds,1000,0,413,equipItem
 -,Sow Seeds,1000,0,414,equipItem
 -,Sow Seeds,1000,0,415,equipItem
