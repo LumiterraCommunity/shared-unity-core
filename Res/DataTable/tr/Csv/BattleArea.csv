@@ -18,15 +18,15 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),17,0,Ice Plain,2
 0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),18,1,Depths of Ice Plain,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,19,0,Wilderness,1
-1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),20,1,Novice Arena 1/3,3
-2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),21,1,Novice Arena 2/3,3
-3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),22,1,Novice Arena 3/3,3
-1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),23,1,Intermediate Arena 1/3,3
-2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),24,1,Intermediate Arena 2/3,3
-3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),25,1,Intermediate Arena 3/3,3
-1,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),26,1,Advanced Arena 1/3,3
-2,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),27,1,Advanced Arena 2/3,3
-3,"30,20,25",7,"100,20,20;100,15,15;80,15,15;80,15,15;30,15,15;30,15,15", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),28,1,Advanced Arena 3/3,3
+1,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),20,1,Novice Arena 1/3,3
+2,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),21,1,Novice Arena 2/3,3
+3,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),22,1,Novice Arena 3/3,3
+1,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),23,1,Intermediate Arena 1/3,3
+2,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),24,1,Intermediate Arena 2/3,3
+3,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),25,1,Intermediate Arena 3/3,3
+1,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),26,1,Advanced Arena 1/3,3
+2,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),27,1,Advanced Arena 2/3,3
+3,"30,3,1","0,0,0","0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),28,1,Advanced Arena 3/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,29,0,Matchmaking Camp,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,30,0,Respawn Altar,1
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),31,0,Challenge,2

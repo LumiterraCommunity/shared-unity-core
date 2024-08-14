@@ -1,4 +1,14 @@
 boothFees-int[][],canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,onChainDelay-int,quality-int[],resourceInstructions-int[],sellable-bool,subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int
+"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh mencetuskan kesan khas.
+-------
+Makanan haiwan peliharaan adalah item yang boleh dikonsumsi yang sesuai untuk haiwan peliharaan tahap 0, dan boleh meningkatkan kenyang dan nilai pertumbuhan haiwan peliharaan. Ia diperbuat daripada tumbuhan semulajadi dan nutrien, dengan rasa yang menyegarkan dan pencernaan serta penyerapan yang mudah. Setiap pek makanan haiwan peliharaan adalah ringan dan mudah dibawa, menjadikannya item wajib bagi pemilik haiwan peliharaan.
+",27,item-icon-28,28,Makanan Tingkat 0 - Kecil,0,1,434,1,0,1,"1,0",0,3,0,1
+"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh mencetuskan kesan khas.
+-------
+Makanan haiwan adalah produk yang boleh dikonsumsi yang menyediakan nutrien yang diperlukan untuk haiwan menjaga pertumbuhan yang sihat. Ia sesuai untuk pelbagai ternakan dan haiwan peliharaan, dan boleh meningkatkan produktiviti dan jangka hayat mereka.
+",27,item-icon-29,29,Makanan Tingkat 0 - Besar,0,1,435,1,0,1,"1,0",0,3,0,1
 "792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
 Ia boleh digunakan untuk membuat peralatan atau item.
 -------
@@ -47,6 +57,11 @@ Ini adalah bahan mentah yang jarang yang boleh diperoleh dalam pertempuran. Ia m
 "792,1",0,1," Anda boleh mendapatkan item ini melalui sintesis.
 Apabila dipasang, ia dapat meningkatkan atribut. Tingkatkan kekuatan serangan pertempuran anda.
 -------
+Sebuah senjata kayu yang kukuh yang dirancang untuk serangan cepat dan tepat, sempurna untuk pemula yang mengasah keterampilan pertempuran mereka. Desainnya yang ringan memungkinkan gerakan yang lincah, menjadikannya pilihan yang ideal bagi mereka yang mencari senjata yang serbaguna dan dapat diandalkan. 
+",0,item-icon-39,39,Pedang Kayu Tingkat 0,1440,1,256,0,0,2,999,0,1,0,1
+"792,1",0,1," Anda boleh mendapatkan item ini melalui sintesis.
+Apabila dipasang, ia dapat meningkatkan atribut. Tingkatkan kekuatan serangan pertempuran anda.
+-------
 Sebuah senjata tajam dan kukuh yang ditempa dari batu padat, sempurna untuk pertempuran jarak dekat. Berat dan keseimbangannya membuatnya mudah digunakan, memberikan serangan yang kuat dengan ketepatan. 
 ",0,item-icon-40,40,Pedang Batu Tingkat 1,1,1,264,1,0,2,999,0,1,1,1
 "793,1",0,1," Anda boleh mendapatkan item ini melalui sintesis.
@@ -59,11 +74,6 @@ Apabila dipasang, ia dapat meningkatkan atribut. Tingkatkan kekuatan serangan pe
 -------
 Sebuah senjata kuat yang ditempa dari kristal murni, mampu membelah musuh dengan mudah. Bilahnya yang berkilauan memantulkan cahaya, mempesona lawan dan menimbulkan ketakutan dalam hati mereka. Setiap ayunan Pedang Kristal melepaskan kombinasi mematikan dari kecepatan dan ketepatan. 
 ",0,item-icon-42,42,Pedang Kristal Tingkat 3,1440,"1,2,3",280,1,0,2,999,0,1,3,1
-"792,1",0,1," Anda boleh mendapatkan item ini melalui sintesis.
-Apabila dipasang, ia dapat meningkatkan atribut. Tingkatkan kekuatan serangan pertempuran anda.
--------
-Sebuah senjata kayu yang kukuh yang dirancang untuk serangan cepat dan tepat, sempurna untuk pemula yang mengasah keterampilan pertempuran mereka. Desainnya yang ringan memungkinkan gerakan yang lincah, menjadikannya pilihan yang ideal bagi mereka yang mencari senjata yang serbaguna dan dapat diandalkan. 
-",0,item-icon-39,39,Pedang Kayu Tingkat 0,1440,1,256,0,0,2,999,0,1,0,1
 "792,1",4,1," Anda boleh mendapatkan item ini melalui sintesis.
 Apabila dipasang, ia dapat meningkatkan atribut. Tingkatkan peluang kelangsungan hidup anda dalam pertempuran.
 -------
@@ -161,6 +171,12 @@ Ini adalah bijih kristal merah peringkat tiga yang boleh dikumpul di hutan. Ia a
 Ia boleh digunakan untuk membuat peralatan atau barang.
 
 -------
+Tanah liat adalah tanah yang sangat boleh dibentuk yang biasanya digunakan untuk membuat tembikar, batu bata, dan bahan binaan lain. Biasanya datang dalam warna kelabu-coklat atau merah-coklat dan mempunyai tekstur halus dengan kandungan bahan organik dan mineral yang tinggi. Apabila mengumpul tanah liat, penting untuk menjaga kelembapan tanah untuk membentuk dan memproses yang lebih baik.
+",0,item-icon-61,61,Tanah Liat Tingkat 1,0,1,,1,0,3,999,0,4,1,1
+"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
+Ia boleh digunakan untuk membuat peralatan atau barang.
+
+-------
 Jenis kayu ini biasanya digunakan untuk membuat perabot atau bahan binaan yang mudah. Teksturnya agak lembut, menjadikannya mudah untuk diproses dan diukir.",0,item-icon-62,62,Kayu Biasa Tingkat 1,0,1,"49,51",1,0,3,"1,0",1,4,1,1
 "793,1","1,3,4",1," Seseorang pernah melihat bahan ini di padang pasir. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
@@ -170,6 +186,26 @@ Pokok padang pasir adalah jenis pokok yang tumbuh di padang pasir. Biasanya mere
 -------
 Kayu gelap adalah jenis kayu premium dengan tekstur hitam dan tekstur yang keras, sesuai untuk membuat perabot dan kraf berkualiti tinggi. Ia hanya boleh dipanen di tempat pengumpulan tertentu, yang sukar tetapi juga sangat menguntungkan.
 ",0,item-icon-64,64,Kayu Gelap Tingkat 3,0,1,55,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Resin ini adalah cecair yang sangat pekat yang boleh digunakan untuk membuat pelekat, lapisan, dan pengekalan, antara lain. Biasanya dikumpul dari pokok dan memerlukan alat khusus untuk pengumpulan.
+",0,item-icon-65,65,Resin Tingkat 1,0,1,,1,0,3,999,1,4,1,1
+"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Serat tumbuhan ini adalah bahan mentah yang dikumpul biasanya dari pokok. Ia boleh digunakan untuk membuat pelbagai jenis barang, seperti tali, kain, dan kertas.
+",0,item-icon-66,66,Serat Tumbuhan Tingkat 1,0,1,31,1,0,3,"1,0",1,4,1,1
+"793,1","1,3,4",1," Seseorang pernah melihat bahan ini di Gunung Salji. Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Cendawan biru ini tumbuh di kawasan kutub yang sejuk dan mempunyai warna biru terang. Ia mempunyai rasa yang lazat dan sesuai untuk dimasak.
+",0,item-icon-67,67,Cendawan Beku Tingkat 2,0,1,33,1,0,3,2,1,4,2,1
+"794,1","1,3,4",1," Seseorang pernah melihat bahan ini di ngarai. Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Tumbuhan herba tahunan ini tumbuh di kawasan liar, dengan ketahanan kekeringan yang kuat. Daunnya yang tebal mengandungi air dan nutrien yang mencukupi, menjadikannya bahan mentah penting untuk membuat minuman keras dan ubat-ubatan.
+",0,item-icon-68,68,Maguey Tingkat 3,0,1,35,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
+-------
+Rangkaian labah-labah ini adalah tahap 1 dan boleh dikumpul di hutan. Ia adalah bahan mentah yang boleh digunakan untuk membuat pelbagai barang.
+",0,item-icon-69,69,Jaring Labah-Labah Tingkat 1,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1," Anda boleh mendapatkan jenis bahan ini melalui penanaman. Ia boleh digunakan untuk membuat peralatan atau barang.
 -------
 Jenis buluh ini adalah hasil pertanian dan tumbuhan yang digunakan untuk membuat pelbagai bahan mentah pertanian. Ia sangat biasa dalam pertanian dan boleh tumbuh dengan sangat cepat.
@@ -286,6 +322,12 @@ Apabila dipasang, ia dapat meningkatkan atribut. Tingkatkan kecekapan pengumpula
 -------
 Senjata yang kuat yang dianugerahkan dengan berkat ilahi, mampu membelah apa sahaja rintangan dengan mudah. Bilahnya yang tajam berkilauan dengan cahaya suci, menimbulkan ketakutan dalam hati musuh. Kapak Berkat adalah simbol sejati kekuatan dan kebenaran di medan perang.
 ",0,item-icon-94,94,Topi Daun Semanggi Bertuah Tingkat 1,1440,"1,2,3",348,1,0,3,999,0,1,3,1
+"792,1",0,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Buka produk pertanian level yang lebih tinggi.
+",0,item-icon-95,95,Topi Kapas Bertuah Tingkat 2,1440,1,177,0,0,1,999,0,1,0,1
+"792,1",0,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Buka produk pertanian level yang lebih tinggi.
+",0,item-icon-96,96,Topi Keras Bertuah Tingkat 3,1440,1,178,0,0,1,999,0,1,0,1
+"792,1",0,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Buka produk pertanian level yang lebih tinggi.
+",0,item-icon-97,97,Baju Pertanian Tingkat 1,1440,1,179,0,0,1,999,0,1,0,1
 "792,1",4,1," Anda boleh mendapatkan item ini melalui sintesis.
 Apabila dipasang, ia dapat meningkatkan atribut. Buat tanaman anda kurang rentan kepada layu.
 -------
@@ -346,6 +388,12 @@ Apabila dipasang, ia dapat meningkatkan atribut. Buat tanaman anda kurang rentan
 -------
 Sarung tangan ini direka khas untuk kerja pertanian, memberikan cengkaman yang selesa dan perlindungan untuk membantu petani menyelesaikan pelbagai aktiviti pertanian.
 ",0,item-icon-109,109,Kasut Pengumpulan Tingkat 1,1440,"1,2,3",201,1,0,1,999,0,1,3,1
+"792,1",4,1," Sepatu pertanian ini dirancang khusus untuk kegiatan pertanian seperti membajak dan menanam. Mereka terbuat dari bahan berkualitas tinggi yang tahan lama, bernapas, dan nyaman, memberikan perlindungan bagi kaki petani.
+",0,item-icon-110,110,Kasut Pengumpulan Tingkat 2,1440,1,186,1,0,1,999,0,1,1,1
+"793,1",4,1," Sepatu pertanian ini dirancang khusus untuk pekerja pertanian. Mereka memiliki karakteristik anti selip, tahan aus, dan bernapas, yang dapat melindungi kaki dan meningkatkan efisiensi kerja.
+",0,item-icon-111,111,Kasut Pengumpulan Tingkat 3,1440,"1,2",195,1,0,1,999,0,1,2,1
+"794,1",4,1," Topi bergaya yang meningkatkan kemampuan Anda dalam mengumpulkan, memungkinkan Anda mengumpulkan sumber daya dengan lebih efisien. Desain uniknya memberikan kenyamanan dan perlindungan, menjadikannya aksesori yang wajib dimiliki oleh para pengumpul yang berdedikasi. Topi praktis yang dirancang khusus untuk tugas pengumpulan. Bahan ringan dan bernapas menjaga Anda tetap sejuk dan fokus selama berjam-jam pengumpulan.
+",0,item-icon-112,112,Topi Pengumpulan Tingkat 1,1440,"1,2,3",204,1,0,1,999,0,1,3,1
 "792,1",4,1," Anda boleh mendapatkan item ini melalui sintesis.
 Apabila dipasang, ia dapat meningkatkan atribut. Meningkatkan peluang menjumpai sumber daya tahap yang lebih tinggi
 -------
@@ -361,6 +409,30 @@ Apabila dipasang, ia dapat meningkatkan atribut. Meningkatkan peluang jatuhnya s
 -------
 Kasut ini direka khusus untuk pengumpul yang bersemangat, memberikan kecekapan dan keselesaan semasa ekspedisi yang panjang. Dengan konstruksi yang tahan lama tetapi ringan, ia membolehkan pemain melintasi pelbagai medan dengan mudah dan mengumpulkan sumber daya dengan mudah. Kasut ini juga mempunyai cengkaman khas yang memastikan kestabilan, mencegah tergelincir dan jatuh walaupun dalam persekitaran yang berbahaya.
 ",0,item-icon-115,115,Baju Pengumpulan Tingkat 1,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1," Tanaman ini tampak layu dan tidak lagi dapat dimakan. Ini mungkin disebabkan oleh kelebihan air atau serangan hama. Tanaman ini dapat digunakan sebagai pupuk atau dikubur.
+",0,item-icon-116,116,Baju Pengumpulan Tingkat 2,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1," Topi bergaya yang meningkatkan kemampuan Anda dalam mengumpulkan, membuatnya lebih mudah untuk mengumpulkan sumber daya dalam permainan. Aksesori praktis yang meningkatkan efisiensi pengumpulan Anda, memungkinkan Anda mengumpulkan material dengan lebih cepat dan efisien.
+",0,item-icon-117,117,Baju Pengumpulan Tingkat 3,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1," Jaket yang tahan lama dirancang untuk petualangan di luar ruangan, memberikan perlindungan yang sangat baik terhadap elemen. Bahan ringan dan bernapas memastikan kenyamanan selama berjam-jam menjelajah. Dengan kantong-kantong yang banyak dan jahitan yang diperkuat, ini adalah teman yang sempurna untuk petualang yang antusias.
+",0,item-icon-118,118,Seluar Pengumpulan Tingkat 1,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"792,1",4,1," Jaket praktis yang dirancang untuk para petualang, memberikan perlindungan yang sangat baik terhadap elemen. Bahan yang tahan lama dan jahitan yang diperkuat membuatnya ideal untuk perjalanan yang panjang dan eksplorasi di luar ruangan. Dengan kantong-kantong yang banyak dan tali pengikat yang dapat disesuaikan, jaket ini menawarkan kenyamanan dan fungsionalitas bagi para penggemar kegiatan di luar ruangan.
+",0,item-icon-119,119,Seluar Pengumpulan Tingkat 2,1440,1,335,1,0,3,999,0,1,1,1
+"793,1",4,1," Jaket praktis yang dirancang untuk para petualang, memberikan perlindungan yang sangat baik terhadap elemen. Bahan yang tahan lama dan jahitan yang diperkuat membuatnya ideal untuk perjalanan yang panjang dan kegiatan di luar ruangan. Tetap hangat dan nyaman tanpa mengorbankan mobilitas dengan bagian penting ini.
+",0,item-icon-120,120,Seluar Pengumpulan Tingkat 3,1440,"1,2",344,1,0,3,999,0,1,2,1
+"794,1",4,1," Sarung tangan ini dirancang untuk para pengumpul yang antusias, memberikan kelincahan dan pegangan yang lebih baik. Mereka terbuat dari bahan yang tahan lama yang melindungi dari duri dan benda tajam. Dengan sarung tangan ini, Anda dapat mengumpulkan sumber daya dengan mudah dan efisien.
+",0,item-icon-121,121,Sarung Tangan Pengumpulan Tingkat 1,1440,"1,2,3",353,1,0,3,999,0,1,3,1
+"792,1",4,1," Sarung tangan ini dirancang untuk para pengumpul yang antusias, memberikan pegangan dan kelincahan yang lebih baik. Mereka terbuat dari bahan yang tahan lama yang melindungi tangan Anda dari duri dan tepi tajam, memungkinkan Anda mengumpulkan sumber daya dengan mudah dan efisien. Dengan sarung tangan ini, Anda tidak perlu khawatir tentang lecet atau luka lagi.
+",0,item-icon-122,122,Sarung Tangan Pengumpulan Tingkat 2,1440,1,336,1,0,3,999,0,1,1,1
+"793,1",4,1," Celana ini dirancang untuk para petualang yang antusias, memberikan kenyamanan dan fleksibilitas selama perjalanan yang panjang. Dibuat dengan bahan yang tahan lama, mereka menawarkan perlindungan yang sangat baik terhadap elemen tanpa mengorbankan mobilitas. Sempurna untuk mereka yang ingin mengumpulkan sumber daya dengan efisien saat menjelajahi lanskap luas permainan.
+",0,item-icon-123,123,Sarung Tangan Pengumpulan Tingkat 3,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1," Celana ini dirancang untuk para petualang yang antusias, memberikan kenyamanan dan fleksibilitas selama perjalanan yang panjang. Dengan jahitan yang diperkuat dan bahan yang tahan lama, celana ini sempurna untuk mengumpulkan sumber daya di alam liar. Tetap lincah dan fokus dengan celana penting ini untuk setiap penjelajah yang berdedikasi.
+",0,item-icon-124,124,Pemupukan Pecutan Tingkat 0,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"792,1",4,1," Sarung tangan ini dirancang untuk para kolektor yang antusias, memungkinkan mereka mengumpulkan berbagai sumber daya tanpa kotoran tangan. Dengan pas yang nyaman dan bahan yang tahan lama, mereka memberikan pegangan yang dapat diandalkan dan melindungi dari tepi tajam.
+",0,item-icon-125,125,Pemupukan Peningkatan Hasil Tingkat 0,1440,1,333,1,0,3,999,0,1,1,1
+"793,1",4,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Tingkatkan peluang penurunan pengumpulan sumber daya level yang lebih tinggi.
+",0,item-icon-126,126,Pemupukan Pelembap Tingkat 0,1440,"1,2",342,1,0,3,999,0,1,2,1
+"794,1",4,1," Celana ini sempurna untuk mengumpulkan sumber daya dalam permainan, memberikan ruang penyimpanan ekstra dan daya tahan. Mereka dirancang dengan jahitan yang diperkuat dan kantong-kantong yang banyak, memungkinkan pemain dengan mudah membawa dan mengumpulkan berbagai material tanpa khawatir tentang keausan.
+",0,item-icon-127,127,Pemupukan Pecutan Peningkatan Lanjutan Tingkat 0,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Apabila dipakai, ia dapat meningkatkan atribut.
 
@@ -379,6 +451,22 @@ Apabila digunakan, ia dapat memicu kesan khas.
 -------
 Formula yang kaya dengan nutrien ini memberi makan tanaman dengan mendalam, menggalakkan pertumbuhan yang sihat dan bunga yang berwarna-warni. Ia meningkatkan pengekalan kelembapan tanah, memastikan tanaman kekal terhidrasi untuk jangka masa yang lebih lama. Tingkatkan kehidupan taman anda dengan baja penting ini.
 ",98,item-icon-130,130,Potion Penyembuhan Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Apabila digunakan, ia dapat memicu kesan khas.
+
+-------
+Baja yang kuat ini meningkatkan pertumbuhan tanaman dan hasil, membolehkan tanaman berkembang dengan pesat. Ia menyediakan nutrien penting dan menggalakkan perkembangan akar yang kuat, menghasilkan hasil yang lebih sihat dan melimpah. Alami pertumbuhan yang dipercepat seperti tidak pernah sebelumnya dengan formula canggih ini.
+",98,item-icon-131,131,Potion Serangan Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Apabila digunakan, ia dapat memicu kesan khas.
+
+-------
+Baja yang kuat ini secara signifikan meningkatkan hasil tanaman, menghasilkan hasil yang melimpah. Ia meningkatkan pertumbuhan tanaman dan memaksimumkan penyerapan nutrien, memastikan tanaman yang lebih sihat dan lebih kuat. Dengan baja canggih ini, petani dapat mengharapkan peningkatan yang mengagumkan dalam produktiviti pertanian mereka.",98,item-icon-132,132,Potion Kelajuan Gerakan Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Pupuk ini diformulasikan khas untuk memberikan hidrasi dan pemakanan yang mendalam kepada tumbuhan, menghasilkan pertumbuhan yang lebih sihat dan bertenaga. Formula canggihnya memastikan pengekalan kelembapan yang optimum dalam tanah, menggalakkan akar yang kuat dan daun yang subur. Berikan tumbuhan anda suntikan hidrasi yang terbaik dengan pupuk pelembap yang canggih ini.
+",98,item-icon-133,133,Potion Serangan Kritikal Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
 "792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
 Menggunakannya boleh memicu kesan khas.
 -------
@@ -409,6 +497,36 @@ Menggunakannya boleh memicu kesan khas.
 -------
 Ramuan ini dapat memberikan kesan pertahanan sementara, sesuai untuk situasi kecemasan dalam pertempuran.
 ",0,item-icon-139,139,Potion Serangan Kritikal Tingkat 1,0,1,56,1,0,2,"1,0",0,3,1,1
+"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Ramuan ini dapat digunakan dalam pertempuran, dan ia dapat menyembuhkan luka anda.
+",0,item-icon-140,140,Potion Kehidupan Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Ramuan ini meningkatkan kemampuan pertempuran anda, meningkatkan kekuatan serangan anda untuk jangka masa terhad. Ia adalah keperluan untuk sesiapa yang ingin memberikan pukulan dahsyat kepada musuh mereka. Gunakannya dengan bijak dan saksikan musuh anda gemetar di hadapan anda.
+",0,item-icon-141,141,Potion Pertahanan Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Ramuan ini meningkatkan kelajuan anda, membolehkan anda bergerak dengan cepat dan mengelak serangan dengan mudah. Ia adalah keperluan untuk sesiapa yang ingin mendapatkan kelebihan dalam pertempuran.
+",0,item-icon-142,142,Biji Buluh Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Ramuan ini meningkatkan kemampuan pertempuran anda, meningkatkan peluang serangan kritikal anda, membolehkan anda memberikan kerosakan yang besar dalam pertempuran. Dengan ramuan ini, kemenangan ada di genggaman anda.
+",0,item-icon-143,143,Biji Trifolium Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Ramuan ini dapat mengembalikan jumlah HP anda. Ia berfungsi lebih baik apabila digunakan semasa pertempuran.
+",0,item-icon-144,144,Biji Lobak Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
+Menggunakannya boleh memicu kesan khas.
+-------
+Sejenis eliksir yang kuat yang meningkatkan keupayaan pertahanan anda, memberikan perisai sementara terhadap serangan musuh. Ramuan ini meningkatkan pertahanan dan ketahanan anda, membolehkan anda bertahan dalam pertempuran yang paling mencabar. Gunakannya dengan bijak untuk membalikkan keadaan dan keluar sebagai pemenang.
+",0,item-icon-145,145,Biji Pigmy Sundew Tingkat 2,0,1,58,1,0,2,2,0,3,2,1
 -,"1,3,4",1," Mengumpul bahan-bahan pada tahap yang sama boleh menghasilkan biji tambahan, membunuh raksasa pada tahap yang sama boleh menghasilkan item ini.
 Menggunakannya boleh memicu kesan khas.
 -------
@@ -454,78 +572,6 @@ Menggunakannya boleh memicu kesan khas.
 -------
 Biji ini menjanjikan cendawan biru yang bertenaga, siap untuk memberikan sentuhan warna pada taman anda. Tanamkan dan saksikan ia tumbuh menjadi kulat yang mempesonakan yang akan memikat indera anda.
 ",97,item-icon-154,154,Talismen NFT #4 Tingkat 0,0,1,488,1,0,1,3,1,3,3,1
-"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Apabila digunakan, ia dapat memicu kesan khas.
-
--------
-Baja yang kuat ini meningkatkan pertumbuhan tanaman dan hasil, membolehkan tanaman berkembang dengan pesat. Ia menyediakan nutrien penting dan menggalakkan perkembangan akar yang kuat, menghasilkan hasil yang lebih sihat dan melimpah. Alami pertumbuhan yang dipercepat seperti tidak pernah sebelumnya dengan formula canggih ini.
-",98,item-icon-131,131,Potion Serangan Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Apabila digunakan, ia dapat memicu kesan khas.
-
--------
-Baja yang kuat ini secara signifikan meningkatkan hasil tanaman, menghasilkan hasil yang melimpah. Ia meningkatkan pertumbuhan tanaman dan memaksimumkan penyerapan nutrien, memastikan tanaman yang lebih sihat dan lebih kuat. Dengan baja canggih ini, petani dapat mengharapkan peningkatan yang mengagumkan dalam produktiviti pertanian mereka.",98,item-icon-132,132,Potion Kelajuan Gerakan Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Pupuk ini diformulasikan khas untuk memberikan hidrasi dan pemakanan yang mendalam kepada tumbuhan, menghasilkan pertumbuhan yang lebih sihat dan bertenaga. Formula canggihnya memastikan pengekalan kelembapan yang optimum dalam tanah, menggalakkan akar yang kuat dan daun yang subur. Berikan tumbuhan anda suntikan hidrasi yang terbaik dengan pupuk pelembap yang canggih ini.
-",98,item-icon-133,133,Potion Serangan Kritikal Sekunder Tingkat 0,0,1,,1,0,1,999,0,3,0,1
-"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Ramuan ini dapat digunakan dalam pertempuran, dan ia dapat menyembuhkan luka anda.
-",0,item-icon-140,140,Potion Kehidupan Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Ramuan ini meningkatkan kemampuan pertempuran anda, meningkatkan kekuatan serangan anda untuk jangka masa terhad. Ia adalah keperluan untuk sesiapa yang ingin memberikan pukulan dahsyat kepada musuh mereka. Gunakannya dengan bijak dan saksikan musuh anda gemetar di hadapan anda.
-",0,item-icon-141,141,Potion Pertahanan Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Ramuan ini meningkatkan kelajuan anda, membolehkan anda bergerak dengan cepat dan mengelak serangan dengan mudah. Ia adalah keperluan untuk sesiapa yang ingin mendapatkan kelebihan dalam pertempuran.
-",0,item-icon-142,142,Biji Buluh Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Ramuan ini meningkatkan kemampuan pertempuran anda, meningkatkan peluang serangan kritikal anda, membolehkan anda memberikan kerosakan yang besar dalam pertempuran. Dengan ramuan ini, kemenangan ada di genggaman anda.
-",0,item-icon-143,143,Biji Trifolium Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Ramuan ini dapat mengembalikan jumlah HP anda. Ia berfungsi lebih baik apabila digunakan semasa pertempuran.
-",0,item-icon-144,144,Biji Lobak Tingkat 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh memicu kesan khas.
--------
-Sejenis eliksir yang kuat yang meningkatkan keupayaan pertahanan anda, memberikan perisai sementara terhadap serangan musuh. Ramuan ini meningkatkan pertahanan dan ketahanan anda, membolehkan anda bertahan dalam pertempuran yang paling mencabar. Gunakannya dengan bijak untuk membalikkan keadaan dan keluar sebagai pemenang.
-",0,item-icon-145,145,Biji Pigmy Sundew Tingkat 2,0,1,58,1,0,2,2,0,3,2,1
-"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai.
-Ia boleh digunakan untuk membuat peralatan atau barang.
-
--------
-Tanah liat adalah tanah yang sangat boleh dibentuk yang biasanya digunakan untuk membuat tembikar, batu bata, dan bahan binaan lain. Biasanya datang dalam warna kelabu-coklat atau merah-coklat dan mempunyai tekstur halus dengan kandungan bahan organik dan mineral yang tinggi. Apabila mengumpul tanah liat, penting untuk menjaga kelembapan tanah untuk membentuk dan memproses yang lebih baik.
-",0,item-icon-61,61,Tanah Liat Tingkat 1,0,1,,1,0,3,999,0,4,1,1
-"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
--------
-Resin ini adalah cecair yang sangat pekat yang boleh digunakan untuk membuat pelekat, lapisan, dan pengekalan, antara lain. Biasanya dikumpul dari pokok dan memerlukan alat khusus untuk pengumpulan.
-",0,item-icon-65,65,Resin Tingkat 1,0,1,,1,0,3,999,1,4,1,1
-"794,1","1,3,4",1," Seseorang pernah melihat bahan ini di ngarai. Ia boleh digunakan untuk membuat peralatan atau barang.
--------
-Tumbuhan herba tahunan ini tumbuh di kawasan liar, dengan ketahanan kekeringan yang kuat. Daunnya yang tebal mengandungi air dan nutrien yang mencukupi, menjadikannya bahan mentah penting untuk membuat minuman keras dan ubat-ubatan.
-",0,item-icon-68,68,Maguey Tingkat 3,0,1,35,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
--------
-Serat tumbuhan ini adalah bahan mentah yang dikumpul biasanya dari pokok. Ia boleh digunakan untuk membuat pelbagai jenis barang, seperti tali, kain, dan kertas.
-",0,item-icon-66,66,Serat Tumbuhan Tingkat 1,0,1,31,1,0,3,"1,0",1,4,1,1
-"793,1","1,3,4",1," Seseorang pernah melihat bahan ini di Gunung Salji. Ia boleh digunakan untuk membuat peralatan atau barang.
--------
-Cendawan biru ini tumbuh di kawasan kutub yang sejuk dan mempunyai warna biru terang. Ia mempunyai rasa yang lazat dan sesuai untuk dimasak.
-",0,item-icon-67,67,Cendawan Beku Tingkat 2,0,1,33,1,0,3,2,1,4,2,1
-"792,1","1,3,4",1," Seseorang pernah melihat bahan ini di tepi pantai. Ia boleh digunakan untuk membuat peralatan atau barang.
--------
-Rangkaian labah-labah ini adalah tahap 1 dan boleh dikumpul di hutan. Ia adalah bahan mentah yang boleh digunakan untuk membuat pelbagai barang.
-",0,item-icon-69,69,Jaring Labah-Labah Tingkat 1,0,1,,1,0,3,999,0,4,1,1
 -,"1,3,4",1," Tiket ini memberi anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
 ",0,item-icon-171,171,Tanaman Lapuk Tingkat 0,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1," Tiket ini memberi anda akses ke acara eksklusif yang penuh dengan petualangan seru dan pengalaman tak terlupakan. Bersiaplah untuk memulai perjalanan yang tak terlupakan dan menciptakan kenangan yang akan bertahan seumur hidup.
@@ -538,6 +584,12 @@ Rangkaian labah-labah ini adalah tahap 1 dan boleh dikumpul di hutan. Ia adalah 
 
 Tanaman yang layu ini mungkin disebabkan oleh kekurangan air atau nutrisi. Ia dapat digunakan untuk membuat baja atau herba perubatan, dan juga dapat digunakan sebagai makanan ternakan.
 ",0,item-icon-174,174,Skrup Tingkat 1,0,1,,0,0,1,999,0,4,0,1
+-,"1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui pembiakan. Ini dapat digunakan untuk membuat peralatan atau barang.
+
+-------
+
+Tanaman ini tampaknya telah membusuk dan tidak lagi dapat dimakan. Ini mungkin disebabkan oleh terlalu banyak air atau serangan hama. Tanaman ini dapat digunakan sebagai baja atau dibuang dengan cara dikubur.
+",0,item-icon-175,175,Tunas Labu Tingkat 1,0,1,,0,0,1,999,0,4,0,1
 -,"1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui pembiakan. Ini dapat digunakan untuk membuat peralatan atau barang.
 
 -------
@@ -598,58 +650,6 @@ Magma yang mengeras ini dihasilkan dari pembiakan monster dan dapat digunakan un
 
 Serpihan es ini diperoleh dari pemeliharaan monster dan merupakan bahan yang digunakan dalam pertanian. Ia memiliki tiga tingkat kualitas dan dapat digunakan untuk membuat berbagai item berbasis es.
 ",0,item-icon-185,185,Potion Penyembuhan Kristal Tingkat 2,0,1,122,1,0,1,3,1,4,3,1
-"792,1",0,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Buka produk pertanian level yang lebih tinggi.
-",0,item-icon-95,95,Topi Kapas Bertuah Tingkat 2,1440,1,177,0,0,1,999,0,1,0,1
-"792,1",0,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Buka produk pertanian level yang lebih tinggi.
-",0,item-icon-96,96,Topi Keras Bertuah Tingkat 3,1440,1,178,0,0,1,999,0,1,0,1
-"792,1",0,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Buka produk pertanian level yang lebih tinggi.
-",0,item-icon-97,97,Baju Pertanian Tingkat 1,1440,1,179,0,0,1,999,0,1,0,1
--,"1,3,4",1," Anda dapat memperoleh jenis bahan ini melalui pembiakan. Ini dapat digunakan untuk membuat peralatan atau barang.
-
--------
-
-Tanaman ini tampaknya telah membusuk dan tidak lagi dapat dimakan. Ini mungkin disebabkan oleh terlalu banyak air atau serangan hama. Tanaman ini dapat digunakan sebagai baja atau dibuang dengan cara dikubur.
-",0,item-icon-175,175,Tunas Labu Tingkat 1,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1," Tanaman ini tampak layu dan tidak lagi dapat dimakan. Ini mungkin disebabkan oleh kelebihan air atau serangan hama. Tanaman ini dapat digunakan sebagai pupuk atau dikubur.
-",0,item-icon-116,116,Baju Pengumpulan Tingkat 2,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1," Anda dapat memperoleh item ini melalui sintesis. Ketika dipasang, dapat meningkatkan atribut. Tingkatkan peluang penurunan pengumpulan sumber daya level yang lebih tinggi.
-",0,item-icon-126,126,Pemupukan Pelembap Tingkat 0,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1," Sarung tangan ini dirancang untuk para kolektor yang antusias, memungkinkan mereka mengumpulkan berbagai sumber daya tanpa kotoran tangan. Dengan pas yang nyaman dan bahan yang tahan lama, mereka memberikan pegangan yang dapat diandalkan dan melindungi dari tepi tajam.
-",0,item-icon-125,125,Pemupukan Peningkatan Hasil Tingkat 0,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1," Sarung tangan ini dirancang untuk para pengumpul yang antusias, memberikan pegangan dan kelincahan yang lebih baik. Mereka terbuat dari bahan yang tahan lama yang melindungi tangan Anda dari duri dan tepi tajam, memungkinkan Anda mengumpulkan sumber daya dengan mudah dan efisien. Dengan sarung tangan ini, Anda tidak perlu khawatir tentang lecet atau luka lagi.
-",0,item-icon-122,122,Sarung Tangan Pengumpulan Tingkat 2,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1," Celana ini dirancang untuk para petualang yang antusias, memberikan kenyamanan dan fleksibilitas selama perjalanan yang panjang. Dengan jahitan yang diperkuat dan bahan yang tahan lama, celana ini sempurna untuk mengumpulkan sumber daya di alam liar. Tetap lincah dan fokus dengan celana penting ini untuk setiap penjelajah yang berdedikasi.
-",0,item-icon-124,124,Pemupukan Pecutan Tingkat 0,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1," Celana ini dirancang untuk para petualang yang antusias, memberikan kenyamanan dan fleksibilitas selama perjalanan yang panjang. Dibuat dengan bahan yang tahan lama, mereka menawarkan perlindungan yang sangat baik terhadap elemen tanpa mengorbankan mobilitas. Sempurna untuk mereka yang ingin mengumpulkan sumber daya dengan efisien saat menjelajahi lanskap luas permainan.
-",0,item-icon-123,123,Sarung Tangan Pengumpulan Tingkat 3,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1," Celana ini sempurna untuk mengumpulkan sumber daya dalam permainan, memberikan ruang penyimpanan ekstra dan daya tahan. Mereka dirancang dengan jahitan yang diperkuat dan kantong-kantong yang banyak, memungkinkan pemain dengan mudah membawa dan mengumpulkan berbagai material tanpa khawatir tentang keausan.
-",0,item-icon-127,127,Pemupukan Pecutan Peningkatan Lanjutan Tingkat 0,1440,"1,2,3",351,1,0,3,999,0,1,3,1
-"794,1",4,1," Sarung tangan ini dirancang untuk para pengumpul yang antusias, memberikan kelincahan dan pegangan yang lebih baik. Mereka terbuat dari bahan yang tahan lama yang melindungi dari duri dan benda tajam. Dengan sarung tangan ini, Anda dapat mengumpulkan sumber daya dengan mudah dan efisien.
-",0,item-icon-121,121,Sarung Tangan Pengumpulan Tingkat 1,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1," Jaket praktis yang dirancang untuk para petualang, memberikan perlindungan yang sangat baik terhadap elemen. Bahan yang tahan lama dan jahitan yang diperkuat membuatnya ideal untuk perjalanan yang panjang dan kegiatan di luar ruangan. Tetap hangat dan nyaman tanpa mengorbankan mobilitas dengan bagian penting ini.
-",0,item-icon-120,120,Seluar Pengumpulan Tingkat 3,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1," Jaket praktis yang dirancang untuk para petualang, memberikan perlindungan yang sangat baik terhadap elemen. Bahan yang tahan lama dan jahitan yang diperkuat membuatnya ideal untuk perjalanan yang panjang dan eksplorasi di luar ruangan. Dengan kantong-kantong yang banyak dan tali pengikat yang dapat disesuaikan, jaket ini menawarkan kenyamanan dan fungsionalitas bagi para penggemar kegiatan di luar ruangan.
-",0,item-icon-119,119,Seluar Pengumpulan Tingkat 2,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1," Jaket yang tahan lama dirancang untuk petualangan di luar ruangan, memberikan perlindungan yang sangat baik terhadap elemen. Bahan ringan dan bernapas memastikan kenyamanan selama berjam-jam menjelajah. Dengan kantong-kantong yang banyak dan jahitan yang diperkuat, ini adalah teman yang sempurna untuk petualang yang antusias.
-",0,item-icon-118,118,Seluar Pengumpulan Tingkat 1,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1," Topi bergaya yang meningkatkan kemampuan Anda dalam mengumpulkan, membuatnya lebih mudah untuk mengumpulkan sumber daya dalam permainan. Aksesori praktis yang meningkatkan efisiensi pengumpulan Anda, memungkinkan Anda mengumpulkan material dengan lebih cepat dan efisien.
-",0,item-icon-117,117,Baju Pengumpulan Tingkat 3,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1," Topi bergaya yang meningkatkan kemampuan Anda dalam mengumpulkan, memungkinkan Anda mengumpulkan sumber daya dengan lebih efisien. Desain uniknya memberikan kenyamanan dan perlindungan, menjadikannya aksesori yang wajib dimiliki oleh para pengumpul yang berdedikasi. Topi praktis yang dirancang khusus untuk tugas pengumpulan. Bahan ringan dan bernapas menjaga Anda tetap sejuk dan fokus selama berjam-jam pengumpulan.
-",0,item-icon-112,112,Topi Pengumpulan Tingkat 1,1440,"1,2,3",204,1,0,1,999,0,1,3,1
-"793,1",4,1," Sepatu pertanian ini dirancang khusus untuk pekerja pertanian. Mereka memiliki karakteristik anti selip, tahan aus, dan bernapas, yang dapat melindungi kaki dan meningkatkan efisiensi kerja.
-",0,item-icon-111,111,Kasut Pengumpulan Tingkat 3,1440,"1,2",195,1,0,1,999,0,1,2,1
-"792,1",4,1," Sepatu pertanian ini dirancang khusus untuk kegiatan pertanian seperti membajak dan menanam. Mereka terbuat dari bahan berkualitas tinggi yang tahan lama, bernapas, dan nyaman, memberikan perlindungan bagi kaki petani.
-",0,item-icon-110,110,Kasut Pengumpulan Tingkat 2,1440,1,186,1,0,1,999,0,1,1,1
-"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh mencetuskan kesan khas.
--------
-Makanan haiwan peliharaan adalah item yang boleh dikonsumsi yang sesuai untuk haiwan peliharaan tahap 0, dan boleh meningkatkan kenyang dan nilai pertumbuhan haiwan peliharaan. Ia diperbuat daripada tumbuhan semulajadi dan nutrien, dengan rasa yang menyegarkan dan pencernaan serta penyerapan yang mudah. Setiap pek makanan haiwan peliharaan adalah ringan dan mudah dibawa, menjadikannya item wajib bagi pemilik haiwan peliharaan.
-",27,item-icon-28,28,Makanan Tingkat 0 - Kecil,0,1,434,1,0,1,"1,0",0,3,0,1
-"792,1","1,3,4",1," Anda boleh mendapatkan item ini melalui sintesis.
-Menggunakannya boleh mencetuskan kesan khas.
--------
-Makanan haiwan adalah produk yang boleh dikonsumsi yang menyediakan nutrien yang diperlukan untuk haiwan menjaga pertumbuhan yang sihat. Ia sesuai untuk pelbagai ternakan dan haiwan peliharaan, dan boleh meningkatkan produktiviti dan jangka hayat mereka.
-",27,item-icon-29,29,Makanan Tingkat 0 - Besar,0,1,435,1,0,1,"1,0",0,3,0,1
 -,"1,3,4",0," EXP Pertanian adalah nilai pengalaman dalam permainan yang dapat diperoleh melalui kegiatan pertanian seperti menanam tanaman dan memelihara hewan. Ini adalah faktor kunci dalam meningkatkan keterampilan dan tingkat pertanian, dan juga merupakan syarat yang diperlukan untuk membuka alat dan peralatan pertanian tingkat lebih tinggi.
 ",0,item-icon-188,188,Potion Serangan Kristal Tingkat 2,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0," EXP Pertempuran merujuk pada pengalaman yang diperoleh dalam pertempuran. Ini dapat membantu pemain naik level dan meningkatkan keterampilan mereka, meningkatkan kemampuan karakter mereka. Dalam banyak permainan, EXP Pertempuran adalah salah satu cara penting bagi pemain untuk meningkatkan kekuatan mereka.

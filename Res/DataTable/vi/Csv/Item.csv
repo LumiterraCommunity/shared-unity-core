@@ -1,4 +1,14 @@
 boothFees-int[][],canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,onChainDelay-int,quality-int[],resourceInstructions-int[],sellable-bool,subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int
+"792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thức ăn cho thú cưng là một mục tiêu tiêu thụ phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị phát triển của thú cưng. Nó được làm từ cây cỏ tự nhiên và chất dinh dưỡng, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một mục tiêu không thể thiếu cho chủ nuôi thú cưng.
+",27,item-icon-28,28,Lv 0 Thức ăn - Nhỏ,0,1,434,1,0,1,"1,0",0,3,0,1
+"792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thức ăn cho động vật là một sản phẩm tiêu thụ cung cấp các chất dinh dưỡng cần thiết để động vật duy trì sự phát triển khỏe mạnh. Nó phù hợp cho nhiều loại gia súc và thú cưng, và có thể tăng năng suất và tuổi thọ của chúng.
+",27,item-icon-29,29,Lv 0 Thức ăn - Lớn,0,1,435,1,0,1,"1,0",0,3,0,1
 "792,1","1,3,4",1,"Một người từng thấy vật liệu này bên bờ biển.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -47,6 +57,11 @@ Nó có thể được sử dụng để chế tạo trang bị hoặc vật ph�
 "792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể tăng cường thuộc tính. Nâng cao sức mạnh tấn công chiến đấu của bạn
 -------
+Một vũ khí gỗ chắc chắn được chế tạo cho những đòn đánh nhanh và chính xác, hoàn hảo cho người mới bắt đầu rèn kỹ năng chiến đấu. Thiết kế nhẹ nhàng của nó cho phép di chuyển linh hoạt, làm cho nó trở thành lựa chọn lý tưởng cho những người tìm kiếm một vũ khí đa năng và đáng tin cậy.
+",0,item-icon-39,39,Lv 0 Kiếm gỗ,1440,1,256,0,0,2,999,0,1,0,1
+"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Khi trang bị, nó có thể tăng cường thuộc tính. Nâng cao sức mạnh tấn công chiến đấu của bạn
+-------
 Một vũ khí sắc bén và chắc chắn được chế tạo từ đá cứng, hoàn hảo cho chiến đấu gần gũi. Trọng lượng và cân bằng của nó làm cho việc sử dụng dễ dàng, gây ra những đòn đánh mạnh mẽ và chính xác.
 ",0,item-icon-40,40,Lv 1 Kiếm đá,1,1,264,1,0,2,999,0,1,1,1
 "793,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp.
@@ -59,11 +74,6 @@ Khi trang bị, nó có thể tăng cường thuộc tính. Nâng cao sức mạ
 -------
 Một vũ khí mạnh mẽ được rèn từ tinh thể tinh khiết, có khả năng chém xuyên qua kẻ thù một cách dễ dàng. Lưỡi kiếm lấp lánh của nó phản chiếu ánh sáng, làm choáng đối thủ và gieo rắc nỗi sợ hãi vào trái tim của họ. Mỗi lần đánh, Thanh Kiếm Pha Lê phóng ra một sự kết hợp chết người giữa tốc độ và chính xác.
 ",0,item-icon-42,42,Lv 3 Kiếm pha lê,1440,"1,2,3",280,1,0,2,999,0,1,3,1
-"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Khi trang bị, nó có thể tăng cường thuộc tính. Nâng cao sức mạnh tấn công chiến đấu của bạn
--------
-Một vũ khí gỗ chắc chắn được chế tạo cho những đòn đánh nhanh và chính xác, hoàn hảo cho người mới bắt đầu rèn kỹ năng chiến đấu. Thiết kế nhẹ nhàng của nó cho phép di chuyển linh hoạt, làm cho nó trở thành lựa chọn lý tưởng cho những người tìm kiếm một vũ khí đa năng và đáng tin cậy.
-",0,item-icon-39,39,Lv 0 Kiếm gỗ,1440,1,256,0,0,2,999,0,1,0,1
 "792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể tăng cường thuộc tính. Tăng khả năng sống sót trong các trận đấu
 -------
@@ -157,6 +167,11 @@ Nó có thể được sử dụng để chế tạo thiết bị hoặc vật p
 "792,1","1,3,4",1,"Có người từng thấy vật liệu này bên bờ biển.
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
 -------
+Đất sét là một loại đất dễ uốn nắn thường được sử dụng để làm gốm, gạch và các vật liệu xây dựng khác. Thông thường, nó có màu xám nâu hoặc đỏ nâu và có cấu trúc mịn với nồng độ cao về chất hữu cơ và khoáng chất. Khi thu thập đất sét, quan trọng để giữ cho đất ẩm để tạo hình và xử lý tốt hơn.
+",0,item-icon-61,61,Lv 1 Đất sét,0,1,,1,0,3,999,0,4,1,1
+"792,1","1,3,4",1,"Có người từng thấy vật liệu này bên bờ biển.
+Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
+-------
 Loại gỗ này thường được sử dụng để làm đồ nội thất đơn giản hoặc vật liệu xây dựng. Cấu trúc của nó tương đối mềm, dễ dàng xử lý và khắc.",0,item-icon-62,62,Lv 1 Gỗ thông thường,0,1,"49,51",1,0,3,"1,0",1,4,1,1
 "793,1","1,3,4",1," Một người từng thấy vật liệu này ở sa mạc.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
@@ -168,6 +183,31 @@ Nó có thể được sử dụng để chế tạo trang bị hoặc vật ph�
 -------
 Gỗ tối màu là một loại gỗ cao cấp với vân đen và cấu trúc cứng, phù hợp để chế tạo đồ nội thất và đồ thủ công cao cấp. Nó chỉ có thể được thu hoạch tại các điểm thu thập cụ thể, điều này khá khó khăn nhưng cũng rất lợi nhuận.
 ",0,item-icon-64,64,Lv 3 Gỗ đen,0,1,55,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Một người từng thấy vật liệu này ở bên bờ biển.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Nhựa này là một chất lỏng nhớt cao có thể được sử dụng để làm keo dán, lớp phủ và chất kết dính khác. Thông thường, nó được thu thập từ cây và yêu cầu công cụ đặc biệt để thu thập.
+",0,item-icon-65,65,Lv 1 Nhựa,0,1,,1,0,3,999,1,4,1,1
+"792,1","1,3,4",1," Một người từng thấy vật liệu này ở bên bờ biển.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Sợi thực vật này là một nguyên liệu thu thập được thông thường thường được lấy từ cây. Nó có thể được sử dụng để làm nhiều loại vật phẩm khác nhau, như dây thừng, vải và giấy.
+",0,item-icon-66,66,Lv 1 Sợi thực vật,0,1,31,1,0,3,"1,0",1,4,1,1
+"793,1","1,3,4",1," Một người từng thấy vật liệu này trên Núi Tuyết.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Những loại nấm này mọc ở vùng cực lạnh và có màu xanh nhạt. Chúng có hương vị ngon và phù hợp để nấu ăn.
+",0,item-icon-67,67,Lv 2 Nấm đông lạnh,0,1,33,1,0,3,2,1,4,2,1
+"794,1","1,3,4",1," Một người từng thấy vật liệu này trong hẻm núi.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Một loại cây thảo dược lâu năm mọc hoang dã, có khả năng chống hạn mạnh mẽ. Lá dày của nó chứa nhiều nước và chất dinh dưỡng, là nguyên liệu quan trọng để chế biến đồ uống có cồn và thuốc.
+",0,item-icon-68,68,Lv 3 Maguey,0,1,35,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Một người từng thấy vật liệu này ở bên bờ biển.
+Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
+-------
+Mạng nhện này là cấp độ 1 và có thể thu thập trong rừng. Đây là một nguyên liệu thô có thể được sử dụng để chế tạo nhiều vật phẩm khác nhau.
+",0,item-icon-69,69,Lv 1 Mạng nhện,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1," Bạn có thể thu được loại vật liệu này thông qua việc trồng trọt.
 Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
 -------
@@ -293,6 +333,12 @@ Khi trang bị, nó có thể tăng cường thuộc tính. Nâng cao hiệu su�
 -------
 Một vũ khí mạnh mẽ được ban phước, có khả năng chặt qua mọi chướng ngại với dễ dàng. Lưỡi kiếm sắc bén của nó tỏa sáng với ánh sáng thiêng liêng, gieo sợ hãi vào trái tim kẻ thù. Cái rìu may mắn là biểu tượng thực sự của sức mạnh và công bằng trên chiến trường.
 ",0,item-icon-94,94,Lv 3 Cái rìu ban phước,1440,"1,2,3",348,1,0,3,999,0,1,3,1
+"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn.
+",0,item-icon-95,95,Lv 0 Cọ,1440,1,177,0,0,1,999,0,1,0,1
+"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn.
+",0,item-icon-96,96,Lv 0 Máy cắt tóc,1440,1,178,0,0,1,999,0,1,0,1
+"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn.
+",0,item-icon-97,97,Lv 0 Máy vắt sữa,1440,1,179,0,0,1,999,0,1,0,1
 "792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể tăng cường thuộc tính. Giúp cây trồng của bạn ít bị héo úa hơn.
 -------
@@ -353,6 +399,12 @@ Khi trang bị, nó có thể tăng cường thuộc tính. Giúp cây trồng c
 -------
 Chiếc găng tay này được thiết kế đặc biệt cho công việc nông nghiệp, mang lại sự thoải mái khi cầm và bảo vệ để giúp người nông dân hoàn thành các hoạt động nông nghiệp khác nhau một cách dễ dàng và an toàn hơn.
 ",0,item-icon-109,109,Lv 3 Găng tay nông nghiệp,1440,"1,2,3",201,1,0,1,999,0,1,3,1
+"792,1",4,1,"Giày nông nghiệp này được thiết kế đặc biệt cho các hoạt động nông nghiệp như cày cấy và trồng trọt. Chúng được làm từ chất liệu chất lượng cao, bền, thoáng khí và thoải mái, mang lại sự bảo vệ cho chân của người nông dân.
+",0,item-icon-110,110,Lv 1 Giày nông nghiệp,1440,1,186,1,0,1,999,0,1,1,1
+"793,1",4,1,"Giày nông nghiệp này được thiết kế đặc biệt cho công nhân nông nghiệp. Chúng có đặc điểm chống trượt, chống mài mòn và thoáng khí, bảo vệ chân và nâng cao hiệu suất làm việc.
+",0,item-icon-111,111,Lv 2 Giày nông nghiệp,1440,"1,2",195,1,0,1,999,0,1,2,1
+"794,1",4,1,"Mũ thu thập thời trang này hoàn hảo cho bất kỳ nhà thám hiểm nào, mang lại khả năng thu thập tài nguyên dễ dàng hơn. Thiết kế độc đáo mang lại sự thoải mái và bảo vệ, là một phụ kiện không thể thiếu cho bất kỳ người thu thập nào.
+",0,item-icon-112,112,Lv 3 Giày nông nghiệp,1440,"1,2,3",204,1,0,1,999,0,1,3,1
 "792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Khi trang bị, nó có thể tăng cường thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn
 -------
@@ -368,6 +420,30 @@ Khi trang bị, nó có thể tăng cường thuộc tính. Tăng khả năng r�
 -------
 Những đôi giày này được thiết kế dành riêng cho những người đam mê thu thập, mang lại sự linh hoạt và thoải mái trong các cuộc thám hiểm kéo dài. Với cấu trúc nhẹ nhưng bền chắc, chúng cho phép người chơi dễ dàng di chuyển trên mọi địa hình và thu thập tài nguyên một cách dễ dàng. Giày cũng có đế chống trượt đặc biệt để đảm bảo sự ổn định, ngăn ngừa trượt ngã ngay cả trong môi trường nguy hiểm.
 ",0,item-icon-115,115,Lv 3 Giày thu thập,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1,"Vụn cây này có thể do thiếu nước hoặc chất dinh dưỡng. Nó có thể được sử dụng để làm phân bón hoặc thảo dược y học, và cũng có thể được sử dụng làm thức ăn cho động vật.
+",0,item-icon-116,116,Lv 1 Mũ thu thập,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1,"Mũ thu thập thời trang này hoàn hảo cho bất kỳ nhà thám hiểm nào, mang lại khả năng thu thập tài nguyên dễ dàng trong trò chơi. Một phụ kiện thực tế tăng cường hiệu suất thu thập, cho phép bạn thu thập vật liệu nhanh hơn và hiệu quả hơn.
+",0,item-icon-117,117,Lv 2 Mũ thu thập,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1,"Áo khoác bền bỉ được thiết kế cho những cuộc phiêu lưu ngoài trời, mang lại sự bảo vệ tuyệt vời trước các yếu tố. Chất liệu nhẹ và thoáng khí đảm bảo sự thoải mái trong suốt những giờ phiêu lưu dài. Với nhiều túi và đường may chắc chắn, nó là người bạn đồng hành hoàn hảo cho bất kỳ nhà thám hiểm nào.
+",0,item-icon-118,118,Lv 3 Mũ thu thập,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"792,1",4,1,"Áo khoác thực tế được thiết kế cho những người phiêu lưu, mang lại sự bảo vệ tuyệt vời trước các yếu tố. Chất liệu bền và đường may chắc chắn làm cho nó lý tưởng cho những cuộc hành trình dài và khám phá ngoài trời. Với nhiều túi và dây đai điều chỉnh, nó mang lại sự tiện lợi và tính năng cho bất kỳ người yêu thích hoạt động ngoài trời nào.
+",0,item-icon-119,119,Lv 1 Áo thu thập,1440,1,335,1,0,3,999,0,1,1,1
+"793,1",4,1,"Áo khoác thực tế được thiết kế cho những người phiêu lưu, mang lại sự bảo vệ tuyệt vời trước các yếu tố. Chất liệu bền và đường may chắc chắn làm cho nó lý tưởng cho những cuộc hành trình dài và các hoạt động ngoài trời. Giữ ấm và thoải mái mà không làm giảm tính di động với món đồ thiết yếu này.
+",0,item-icon-120,120,Lv 2 Áo thu thập,1440,"1,2",344,1,0,3,999,0,1,2,1
+"794,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-121,121,Lv 3 Áo thu thập,1440,"1,2,3",353,1,0,3,999,0,1,3,1
+"792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-122,122,Lv 1 Quần thu thập,1440,1,336,1,0,3,999,0,1,1,1
+"793,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-123,123,Lv 2 Quần thu thập,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-124,124,Lv 3 Quần thu thập,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-125,125,Lv 1 Găng tay thu thập,1440,1,333,1,0,3,999,0,1,1,1
+"793,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-126,126,Lv 2 Găng tay thu thập,1440,"1,2",342,1,0,3,999,0,1,2,1
+"794,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
+",0,item-icon-127,127,Lv 3 Găng tay thu thập,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1,"Bạn có thể nhận được mặt hàng này thông qua tổng hợp.
 Khi trang bị, nó có thể tăng cường thuộc tính.
 -------
@@ -383,6 +459,20 @@ Khi trang bị, nó có thể tăng cường thuộc tính.
 -------
 Công thức giàu chất dinh dưỡng này nuôi dưỡng sâu vào cây trồng, thúc đẩy sự phát triển khỏe mạnh và hoa tươi sáng. Nó tăng cường khả năng giữ ẩm của đất, đảm bảo cây trồng được cung cấp nước trong thời gian dài. Nâng cao sức sống của vườn của bạn với phân bón thiết yếu này.
 ",98,item-icon-130,130,Lv 0 Phân bón dưỡng ẩm,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"Bạn có thể nhận được mặt hàng này thông qua tổng hợp.
+Khi trang bị, nó có thể tăng cường thuộc tính.
+-------
+Phân bón mạnh mẽ này tăng cường sự phát triển cây trồng và tăng năng suất, giúp cây trồng phát triển mạnh mẽ trong thời gian ngắn. Nó cung cấp chất dinh dưỡng cần thiết và thúc đẩy sự phát triển rễ mạnh mẽ, từ đó tạo ra một vụ thu hoạch khỏe mạnh và phong phú hơn. Trải nghiệm sự phát triển nhanh chóng như chưa từng có với công thức tiên tiến này.
+",98,item-icon-131,131,Lv 0 Phân bón tăng tốc nâng cao,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"Bạn có thể nhận được mặt hàng này thông qua tổng hợp.
+Khi trang bị, nó có thể tăng cường thuộc tính.
+-------
+Phân bón mạnh mẽ này tăng đáng kể năng suất cây trồng, mang lại vụ thu hoạch phong phú. Nó tăng cường sự phát triển cây trồng và tối đa hóa hấp thụ chất dinh dưỡng, đảm bảo cây trồng khỏe mạnh và mạnh mẽ hơn. Với phân bón tiên tiến này, nông dân có thể mong đợi những cải thiện ấn tượng trong năng suất nông nghiệp của họ.",98,item-icon-132,132,Lv 0 Phân bón tăng năng suất nâng cao,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Phân bón này được công thức đặc biệt để cung cấp độ ẩm sâu và dinh dưỡng cho cây trồng, giúp cây trồng phát triển khỏe mạnh và rực rỡ hơn. Công thức tiên tiến đảm bảo giữ ẩm tối ưu trong đất, thúc đẩy rễ mạnh mẽ và tán lá xanh tốt. Hãy cung cấp cho cây trồng của bạn sự tăng cường độ ẩm tối đa với phân bón tăng cường độ ẩm tiên tiến này.
+",98,item-icon-133,133,Lv 0 Phân bón dưỡng ẩm nâng cao,0,1,,1,0,1,999,0,3,0,1
 "792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
@@ -413,6 +503,33 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Thuốc này có thể cung cấp hiệu ứng phòng thủ tạm thời, phù hợp cho tình huống khẩn cấp trong trận đấu.
 ",0,item-icon-139,139,Lv 0 Thuốc tăng phòng thủ,0,1,56,1,0,2,"1,0",0,3,1,1
+"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thuốc này có thể được sử dụng trong trận đấu và có thể chữa lành những vết thương của bạn.
+",0,item-icon-140,140,Lv 1 Thuốc điều trị,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thuốc này tăng cường khả năng chiến đấu của bạn, tăng sức mạnh tấn công của bạn trong một khoảng thời gian giới hạn. Đây là một món đồ không thể thiếu đối với bất kỳ nhà thám hiểm nào muốn gây sát thương tàn phá cho kẻ thù của mình. Sử dụng nó một cách khôn ngoan và quan sát kẻ thù của bạn run rẩy trước mặt bạn.
+",0,item-icon-141,141,Lv 1 Thuốc tăng công kích,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thuốc này tăng cường tốc độ của bạn, cho phép bạn di chuyển nhanh chóng và né tránh các cuộc tấn công dễ dàng. Đây là một món đồ không thể thiếu đối với bất kỳ nhà thám hiểm nào muốn có lợi thế trong trận đấu.
+",0,item-icon-142,142,Lv 1 Thuốc tăng tốc di chuyển,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thuốc này tăng cường khả năng chiến đấu của bạn, tăng khả năng gây chí mạng của bạn, cho phép bạn gây sát thương lớn trong trận đấu. Với thuốc này, chiến thắng nằm trong tầm tay của bạn.
+",0,item-icon-143,143,Lv 1 Thuốc tăng đòn kích,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
+Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
+-------
+Thuốc này có thể khôi phục điểm máu của bạn. Nó hoạt động tốt hơn khi được sử dụng trong trận đấu.
+",0,item-icon-144,144,Lv 1 Thuốc hồi sinh,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Một loại thuốc tăng cường mạnh mẽ, tăng khả năng phòng thủ của bạn, cung cấp một lớp bảo vệ tạm thời chống lại cuộc tấn công của kẻ thù. Thuốc này tăng cường giá trị giáp và sự bền bỉ, cho phép bạn chịu đựng ngay cả những trận đánh khó khăn nhất. Sử dụng nó một cách khôn ngoan để đảo ngược tình thế và nổi lên thắng lợi.
+",0,item-icon-145,145,Lv 1 Thuốc tăng phòng thủ,0,1,58,1,0,2,2,0,3,2,1
 -,"1,3,4",1,"Thu thập vật liệu cùng cấp có thể dẫn đến việc thu được hạt giống bổ sung, giết quái vật cùng cấp có thể dẫn đến việc thu được mục này.
 Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
@@ -458,77 +575,6 @@ Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
 -------
 Hạt giống này mang trong mình hứa hẹn một loại nấm xanh tươi sáng, sẵn sàng mang một chút màu sắc vào khu vườn của bạn. Trồng nó và quan sát nó phát triển thành một loại nấm quyến rũ sẽ làm say đắm các giác quan của bạn.
 ",97,item-icon-154,154,Lv 3 Hạt nấm xanh,0,1,488,1,0,1,3,1,3,3,1
-"792,1","1,3,4",1,"Bạn có thể nhận được mặt hàng này thông qua tổng hợp.
-Khi trang bị, nó có thể tăng cường thuộc tính.
--------
-Phân bón mạnh mẽ này tăng cường sự phát triển cây trồng và tăng năng suất, giúp cây trồng phát triển mạnh mẽ trong thời gian ngắn. Nó cung cấp chất dinh dưỡng cần thiết và thúc đẩy sự phát triển rễ mạnh mẽ, từ đó tạo ra một vụ thu hoạch khỏe mạnh và phong phú hơn. Trải nghiệm sự phát triển nhanh chóng như chưa từng có với công thức tiên tiến này.
-",98,item-icon-131,131,Lv 0 Phân bón tăng tốc nâng cao,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1,"Bạn có thể nhận được mặt hàng này thông qua tổng hợp.
-Khi trang bị, nó có thể tăng cường thuộc tính.
--------
-Phân bón mạnh mẽ này tăng đáng kể năng suất cây trồng, mang lại vụ thu hoạch phong phú. Nó tăng cường sự phát triển cây trồng và tối đa hóa hấp thụ chất dinh dưỡng, đảm bảo cây trồng khỏe mạnh và mạnh mẽ hơn. Với phân bón tiên tiến này, nông dân có thể mong đợi những cải thiện ấn tượng trong năng suất nông nghiệp của họ.",98,item-icon-132,132,Lv 0 Phân bón tăng năng suất nâng cao,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Phân bón này được công thức đặc biệt để cung cấp độ ẩm sâu và dinh dưỡng cho cây trồng, giúp cây trồng phát triển khỏe mạnh và rực rỡ hơn. Công thức tiên tiến đảm bảo giữ ẩm tối ưu trong đất, thúc đẩy rễ mạnh mẽ và tán lá xanh tốt. Hãy cung cấp cho cây trồng của bạn sự tăng cường độ ẩm tối đa với phân bón tăng cường độ ẩm tiên tiến này.
-",98,item-icon-133,133,Lv 0 Phân bón dưỡng ẩm nâng cao,0,1,,1,0,1,999,0,3,0,1
-"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thuốc này có thể được sử dụng trong trận đấu và có thể chữa lành những vết thương của bạn.
-",0,item-icon-140,140,Lv 1 Thuốc điều trị,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thuốc này tăng cường khả năng chiến đấu của bạn, tăng sức mạnh tấn công của bạn trong một khoảng thời gian giới hạn. Đây là một món đồ không thể thiếu đối với bất kỳ nhà thám hiểm nào muốn gây sát thương tàn phá cho kẻ thù của mình. Sử dụng nó một cách khôn ngoan và quan sát kẻ thù của bạn run rẩy trước mặt bạn.
-",0,item-icon-141,141,Lv 1 Thuốc tăng công kích,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thuốc này tăng cường tốc độ của bạn, cho phép bạn di chuyển nhanh chóng và né tránh các cuộc tấn công dễ dàng. Đây là một món đồ không thể thiếu đối với bất kỳ nhà thám hiểm nào muốn có lợi thế trong trận đấu.
-",0,item-icon-142,142,Lv 1 Thuốc tăng tốc di chuyển,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thuốc này tăng cường khả năng chiến đấu của bạn, tăng khả năng gây chí mạng của bạn, cho phép bạn gây sát thương lớn trong trận đấu. Với thuốc này, chiến thắng nằm trong tầm tay của bạn.
-",0,item-icon-143,143,Lv 1 Thuốc tăng đòn kích,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thuốc này có thể khôi phục điểm máu của bạn. Nó hoạt động tốt hơn khi được sử dụng trong trận đấu.
-",0,item-icon-144,144,Lv 1 Thuốc hồi sinh,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Một loại thuốc tăng cường mạnh mẽ, tăng khả năng phòng thủ của bạn, cung cấp một lớp bảo vệ tạm thời chống lại cuộc tấn công của kẻ thù. Thuốc này tăng cường giá trị giáp và sự bền bỉ, cho phép bạn chịu đựng ngay cả những trận đánh khó khăn nhất. Sử dụng nó một cách khôn ngoan để đảo ngược tình thế và nổi lên thắng lợi.
-",0,item-icon-145,145,Lv 1 Thuốc tăng phòng thủ,0,1,58,1,0,2,2,0,3,2,1
-"792,1","1,3,4",1,"Có người từng thấy vật liệu này bên bờ biển.
-Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
--------
-Đất sét là một loại đất dễ uốn nắn thường được sử dụng để làm gốm, gạch và các vật liệu xây dựng khác. Thông thường, nó có màu xám nâu hoặc đỏ nâu và có cấu trúc mịn với nồng độ cao về chất hữu cơ và khoáng chất. Khi thu thập đất sét, quan trọng để giữ cho đất ẩm để tạo hình và xử lý tốt hơn.
-",0,item-icon-61,61,Lv 1 Đất sét,0,1,,1,0,3,999,0,4,1,1
-"792,1","1,3,4",1," Một người từng thấy vật liệu này ở bên bờ biển.
-Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
--------
-Nhựa này là một chất lỏng nhớt cao có thể được sử dụng để làm keo dán, lớp phủ và chất kết dính khác. Thông thường, nó được thu thập từ cây và yêu cầu công cụ đặc biệt để thu thập.
-",0,item-icon-65,65,Lv 1 Nhựa,0,1,,1,0,3,999,1,4,1,1
-"794,1","1,3,4",1," Một người từng thấy vật liệu này trong hẻm núi.
-Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
--------
-Một loại cây thảo dược lâu năm mọc hoang dã, có khả năng chống hạn mạnh mẽ. Lá dày của nó chứa nhiều nước và chất dinh dưỡng, là nguyên liệu quan trọng để chế biến đồ uống có cồn và thuốc.
-",0,item-icon-68,68,Lv 3 Maguey,0,1,35,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1," Một người từng thấy vật liệu này ở bên bờ biển.
-Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
--------
-Sợi thực vật này là một nguyên liệu thu thập được thông thường thường được lấy từ cây. Nó có thể được sử dụng để làm nhiều loại vật phẩm khác nhau, như dây thừng, vải và giấy.
-",0,item-icon-66,66,Lv 1 Sợi thực vật,0,1,31,1,0,3,"1,0",1,4,1,1
-"793,1","1,3,4",1," Một người từng thấy vật liệu này trên Núi Tuyết.
-Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
--------
-Những loại nấm này mọc ở vùng cực lạnh và có màu xanh nhạt. Chúng có hương vị ngon và phù hợp để nấu ăn.
-",0,item-icon-67,67,Lv 2 Nấm đông lạnh,0,1,33,1,0,3,2,1,4,2,1
-"792,1","1,3,4",1," Một người từng thấy vật liệu này ở bên bờ biển.
-Nó có thể được sử dụng để chế tạo trang bị hoặc vật phẩm.
--------
-Mạng nhện này là cấp độ 1 và có thể thu thập trong rừng. Đây là một nguyên liệu thô có thể được sử dụng để chế tạo nhiều vật phẩm khác nhau.
-",0,item-icon-69,69,Lv 1 Mạng nhện,0,1,,1,0,3,999,0,4,1,1
 -,"1,3,4",1,"Vé này cho bạn quyền truy cập vào một sự kiện độc quyền đầy phiêu lưu và trải nghiệm khó quên. Hãy sẵn sàng bắt đầu một cuộc hành trình không giống ai và tạo ra những kỷ niệm vĩnh cửu.
 ",0,item-icon-171,171,Lv 0 Vé #1,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Vé này cho bạn quyền truy cập vào một sự kiện độc quyền đầy phiêu lưu và trải nghiệm khó quên. Hãy sẵn sàng bắt đầu một cuộc hành trình không giống ai và tạo ra những kỷ niệm vĩnh cửu.
@@ -541,6 +587,12 @@ Nó có thể được sử dụng để chế tạo thiết bị hoặc vật p
 -------
 Cây héo này có thể do thiếu nước hoặc chất dinh dưỡng. Nó có thể được sử dụng để làm phân bón hoặc thảo dược y học, và cũng có thể được sử dụng làm thức ăn cho động vật.
 ",0,item-icon-174,174,Lv 0 Cây héo,0,1,,0,0,1,999,0,4,0,1
+-,"1,3,4",1,"Bạn có thể thu được loại vật liệu này thông qua việc chăn nuôi.
+
+Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
+-------
+Vụn cây này có vẻ đã mục rồi và không còn ăn được nữa. Điều này có thể do tưới quá nhiều nước hoặc bị nhiễm sâu bệnh. Các vụn cây này có thể được sử dụng làm phân bón hoặc chôn cất.
+",0,item-icon-175,175,Lv 0 Cây héo phân hủy,0,1,,0,0,1,999,0,4,0,1
 -,"1,3,4",1,"Bạn có thể thu được loại vật liệu này thông qua việc chăn nuôi.
 
 Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
@@ -601,58 +653,6 @@ Nó có thể được sử dụng để chế tạo thiết bị hoặc vật p
 -------
 Tinh thể băng này được thu được từ chăn nuôi quái vật và là vật liệu sử dụng trong nông nghiệp. Nó có ba cấp độ chất lượng và có thể được sử dụng để làm các vật phẩm dựa trên băng.
 ",0,item-icon-185,185,Lv 3 Mảnh băng giá,0,1,122,1,0,1,3,1,4,3,1
-"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn.
-",0,item-icon-95,95,Lv 0 Cọ,1440,1,177,0,0,1,999,0,1,0,1
-"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn.
-",0,item-icon-96,96,Lv 0 Máy cắt tóc,1440,1,178,0,0,1,999,0,1,0,1
-"792,1",0,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Mở khóa sản phẩm nông nghiệp cấp cao hơn.
-",0,item-icon-97,97,Lv 0 Máy vắt sữa,1440,1,179,0,0,1,999,0,1,0,1
--,"1,3,4",1,"Bạn có thể thu được loại vật liệu này thông qua việc chăn nuôi.
-
-Nó có thể được sử dụng để chế tạo thiết bị hoặc vật phẩm.
--------
-Vụn cây này có vẻ đã mục rồi và không còn ăn được nữa. Điều này có thể do tưới quá nhiều nước hoặc bị nhiễm sâu bệnh. Các vụn cây này có thể được sử dụng làm phân bón hoặc chôn cất.
-",0,item-icon-175,175,Lv 0 Cây héo phân hủy,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1,"Vụn cây này có thể do thiếu nước hoặc chất dinh dưỡng. Nó có thể được sử dụng để làm phân bón hoặc thảo dược y học, và cũng có thể được sử dụng làm thức ăn cho động vật.
-",0,item-icon-116,116,Lv 1 Mũ thu thập,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-126,126,Lv 2 Găng tay thu thập,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-125,125,Lv 1 Găng tay thu thập,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-122,122,Lv 1 Quần thu thập,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-124,124,Lv 3 Quần thu thập,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-123,123,Lv 2 Quần thu thập,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-127,127,Lv 3 Găng tay thu thập,1440,"1,2,3",351,1,0,3,999,0,1,3,1
-"794,1",4,1,"Bạn có thể thu được mục này thông qua tổng hợp. Khi trang bị, nó có thể nâng cao thuộc tính. Tăng khả năng rơi của việc thu thập tài nguyên cấp cao hơn.
-",0,item-icon-121,121,Lv 3 Áo thu thập,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1,"Áo khoác thực tế được thiết kế cho những người phiêu lưu, mang lại sự bảo vệ tuyệt vời trước các yếu tố. Chất liệu bền và đường may chắc chắn làm cho nó lý tưởng cho những cuộc hành trình dài và các hoạt động ngoài trời. Giữ ấm và thoải mái mà không làm giảm tính di động với món đồ thiết yếu này.
-",0,item-icon-120,120,Lv 2 Áo thu thập,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1,"Áo khoác thực tế được thiết kế cho những người phiêu lưu, mang lại sự bảo vệ tuyệt vời trước các yếu tố. Chất liệu bền và đường may chắc chắn làm cho nó lý tưởng cho những cuộc hành trình dài và khám phá ngoài trời. Với nhiều túi và dây đai điều chỉnh, nó mang lại sự tiện lợi và tính năng cho bất kỳ người yêu thích hoạt động ngoài trời nào.
-",0,item-icon-119,119,Lv 1 Áo thu thập,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1,"Áo khoác bền bỉ được thiết kế cho những cuộc phiêu lưu ngoài trời, mang lại sự bảo vệ tuyệt vời trước các yếu tố. Chất liệu nhẹ và thoáng khí đảm bảo sự thoải mái trong suốt những giờ phiêu lưu dài. Với nhiều túi và đường may chắc chắn, nó là người bạn đồng hành hoàn hảo cho bất kỳ nhà thám hiểm nào.
-",0,item-icon-118,118,Lv 3 Mũ thu thập,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1,"Mũ thu thập thời trang này hoàn hảo cho bất kỳ nhà thám hiểm nào, mang lại khả năng thu thập tài nguyên dễ dàng trong trò chơi. Một phụ kiện thực tế tăng cường hiệu suất thu thập, cho phép bạn thu thập vật liệu nhanh hơn và hiệu quả hơn.
-",0,item-icon-117,117,Lv 2 Mũ thu thập,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1,"Mũ thu thập thời trang này hoàn hảo cho bất kỳ nhà thám hiểm nào, mang lại khả năng thu thập tài nguyên dễ dàng hơn. Thiết kế độc đáo mang lại sự thoải mái và bảo vệ, là một phụ kiện không thể thiếu cho bất kỳ người thu thập nào.
-",0,item-icon-112,112,Lv 3 Giày nông nghiệp,1440,"1,2,3",204,1,0,1,999,0,1,3,1
-"793,1",4,1,"Giày nông nghiệp này được thiết kế đặc biệt cho công nhân nông nghiệp. Chúng có đặc điểm chống trượt, chống mài mòn và thoáng khí, bảo vệ chân và nâng cao hiệu suất làm việc.
-",0,item-icon-111,111,Lv 2 Giày nông nghiệp,1440,"1,2",195,1,0,1,999,0,1,2,1
-"792,1",4,1,"Giày nông nghiệp này được thiết kế đặc biệt cho các hoạt động nông nghiệp như cày cấy và trồng trọt. Chúng được làm từ chất liệu chất lượng cao, bền, thoáng khí và thoải mái, mang lại sự bảo vệ cho chân của người nông dân.
-",0,item-icon-110,110,Lv 1 Giày nông nghiệp,1440,1,186,1,0,1,999,0,1,1,1
-"792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thức ăn cho thú cưng là một mục tiêu tiêu thụ phù hợp cho thú cưng cấp 0, và có thể tăng độ no và giá trị phát triển của thú cưng. Nó được làm từ cây cỏ tự nhiên và chất dinh dưỡng, có hương vị sảng khoái và dễ tiêu hóa và hấp thụ. Mỗi gói thức ăn cho thú cưng nhẹ và dễ mang theo, là một mục tiêu không thể thiếu cho chủ nuôi thú cưng.
-",27,item-icon-28,28,Lv 0 Thức ăn - Nhỏ,0,1,434,1,0,1,"1,0",0,3,0,1
-"792,1","1,3,4",1,"Bạn có thể thu được mục này thông qua tổng hợp.
-Sử dụng nó có thể kích hoạt hiệu ứng đặc biệt.
--------
-Thức ăn cho động vật là một sản phẩm tiêu thụ cung cấp các chất dinh dưỡng cần thiết để động vật duy trì sự phát triển khỏe mạnh. Nó phù hợp cho nhiều loại gia súc và thú cưng, và có thể tăng năng suất và tuổi thọ của chúng.
-",27,item-icon-29,29,Lv 0 Thức ăn - Lớn,0,1,435,1,0,1,"1,0",0,3,0,1
 -,"1,3,4",0,"EXP Nông nghiệp là giá trị kinh nghiệm trong trò chơi có thể thu được thông qua các hoạt động nông nghiệp như trồng cây và nuôi động vật. Đây là yếu tố quan trọng để cải thiện kỹ năng và cấp độ nông nghiệp, và cũng là điều kiện cần thiết để mở khóa các công cụ và thiết bị nông nghiệp cấp cao hơn.
 ",0,item-icon-188,188,Kỹ năng nông nghiệp,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0,"EXP Chiến đấu là kinh nghiệm thu được trong các trận chiến. Nó có thể giúp người chơi lên cấp và cải thiện kỹ năng, nâng cao khả năng của nhân vật. Trong nhiều trò chơi, EXP Chiến đấu là một trong những cách quan trọng để người chơi nâng cao sức mạnh của mình.

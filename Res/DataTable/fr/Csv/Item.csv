@@ -1,4 +1,14 @@
 boothFees-int[][],canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,onChainDelay-int,quality-int[],resourceInstructions-int[],sellable-bool,subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+La nourriture pour animaux de compagnie est un produit consommable adapté aux animaux de compagnie de niveau 0, et peut augmenter la satiété et la valeur de croissance de l'animal de compagnie. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
+",27,item-icon-28,28,Lv 0 Nourriture - Petite,0,1,434,1,0,1,"1,0",0,3,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+La nourriture pour animaux est un produit consommable qui fournit les nutriments nécessaires aux animaux pour maintenir une croissance saine. Elle convient à divers animaux d'élevage et animaux de compagnie, et peut augmenter leur productivité et leur durée de vie.
+",27,item-icon-29,29,Lv 0 Nourriture - Grande,0,1,435,1,0,1,"1,0",0,3,0,1
 "792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -47,6 +57,11 @@ Il s'agit d'une matière première rare qui peut être obtenue lors des combats.
 "792,1",0,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puissance d'attaque en combat
 -------
+Une arme en bois solide conçue pour des frappes rapides et précises, parfaite pour les débutants qui perfectionnent leurs compétences en combat. Sa conception légère permet des mouvements agiles, en faisant un choix idéal pour ceux qui recherchent une arme polyvalente et fiable.
+",0,item-icon-39,39,Lv 0 Épée en bois,1440,1,256,0,0,2,999,0,1,0,1
+"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse.
+Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puissance d'attaque en combat
+-------
 Une arme tranchante et solide fabriquée à partir de pierre solide, parfaite pour le combat rapproché. Son poids et son équilibre en font une arme facile à manier, infligeant des coups puissants avec précision.
 ",0,item-icon-40,40,Lv 1 Épée en pierre,1,1,264,1,0,2,999,0,1,1,1
 "793,1",0,1,"Vous pouvez obtenir cet objet par synthèse.
@@ -59,11 +74,6 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puiss
 -------
 Une arme puissante forgée à partir de cristal pur, capable de trancher facilement à travers les ennemis. Sa lame scintillante reflète la lumière, éblouissant les adversaires et semant la peur dans leur cœur. À chaque coup, l'Épée de Cristal déchaîne une combinaison mortelle de vitesse et de précision.
 ",0,item-icon-42,42,Lv 3 Épée en cristal,1440,"1,2,3",280,1,0,2,999,0,1,3,1
-"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse.
-Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre puissance d'attaque en combat
--------
-Une arme en bois solide conçue pour des frappes rapides et précises, parfaite pour les débutants qui perfectionnent leurs compétences en combat. Sa conception légère permet des mouvements agiles, en faisant un choix idéal pour ceux qui recherchent une arme polyvalente et fiable.
-",0,item-icon-39,39,Lv 0 Épée en bois,1440,1,256,0,0,2,999,0,1,0,1
 "792,1",4,1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Augmentez votre probabilité de survie lors des combats
 -------
@@ -157,6 +167,11 @@ Il s'agit d'un minerai de cristal rouge de troisième niveau qui peut être coll
 "792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
+L'argile est un sol très malléable couramment utilisé pour fabriquer de la poterie, des briques et d'autres matériaux de construction. Elle se présente généralement dans des nuances de gris-brun ou de rouge-brun et a une texture fine avec une forte concentration de matière organique et de minéraux. Lors de la collecte de l'argile, il est important de garder le sol humide pour un meilleur façonnage et traitement.
+",0,item-icon-61,61,Lv 1 Argile,0,1,,1,0,3,999,0,4,1,1
+"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
 Ce type de bois est généralement utilisé pour fabriquer des meubles simples ou des matériaux de construction. Sa texture est relativement douce, ce qui facilite le traitement et la sculpture.",0,item-icon-62,62,Lv 1 Bois ordinaire,0,1,"49,51",1,0,3,"1,0",1,4,1,1
 "793,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le désert.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
@@ -168,6 +183,31 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
 Le bois sombre est un type de bois de qualité supérieure avec des textures noires et une texture dure, adapté pour fabriquer des meubles et des objets haut de gamme. Il ne peut être récolté qu'à des points de collecte spécifiques, ce qui est difficile mais aussi très rentable.
 ",0,item-icon-64,64,Lv 3 Bois sombre,0,1,55,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Cette résine est un liquide très visqueux qui peut être utilisé pour fabriquer des adhésifs, des revêtements et des mastics, entre autres. Elle est généralement collectée à partir d'arbres et nécessite des outils spéciaux pour la collecte.
+",0,item-icon-65,65,Lv 1 Résine,0,1,,1,0,3,999,1,4,1,1
+"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Cette fibre végétale est une matière première collectée qui est généralement obtenue à partir d'arbres. Elle peut être utilisée pour fabriquer une variété d'objets différents, tels que des cordes, des tissus et du papier.
+",0,item-icon-66,66,Lv 1 Fibre végétale,0,1,31,1,0,3,"1,0",1,4,1,1
+"793,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau sur la montagne enneigée.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Ces champignons poussent dans les régions polaires froides et ont une couleur bleu clair. Ils ont un goût délicieux et sont adaptés à la cuisine.
+",0,item-icon-67,67,Lv 2 Champignon gelé,0,1,33,1,0,3,2,1,4,2,1
+"794,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le canyon.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Une plante herbacée vivace qui pousse à l'état sauvage, avec une forte résistance à la sécheresse. Ses feuilles épaisses contiennent une eau et des nutriments abondants, ce qui en fait une matière première importante pour la fabrication de boissons alcoolisées et de médicaments.
+",0,item-icon-68,68,Lv 3 Maguey,0,1,35,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
+Il peut être utilisé pour fabriquer des équipements ou des objets.
+-------
+Cette toile d'araignée est de niveau 1 et peut être collectée dans la forêt. C'est une matière première qui peut être utilisée pour fabriquer divers objets.
+",0,item-icon-69,69,Lv 1 Toile d'araignée,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1,"Vous pouvez obtenir ce type de matériau en le plantant.
 Il peut être utilisé pour fabriquer des équipements ou des objets.
 -------
@@ -293,6 +333,21 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Améliorez votre effic
 -------
 Une arme puissante dotée de bénédictions divines, capable de fendre n'importe quel obstacle avec facilité. Sa lame tranchante brille d'une lumière sainte, inspirant la peur dans le cœur des ennemis. La Hache Bénie est un véritable symbole de force et de droiture sur le champ de bataille.
 ",0,item-icon-94,94,Lv 3 Hache bénie,1440,"1,2,3",348,1,0,3,999,0,1,3,1
+"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
+
+-------
+Cette brosse est un outil spécialement conçu pour l'agriculture, qui permet de nettoyer facilement les cultures et les terres.
+",0,item-icon-95,95,Lv 0 Brosse,1440,1,177,0,0,1,999,0,1,0,1
+"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
+
+-------
+Cette tondeuse peut aider les agriculteurs à tondre rapidement et facilement la laine, améliorant ainsi l'efficacité de la tonte. Elle convient à différents types de moutons.
+",0,item-icon-96,96,Lv 0 Tondeuse à cheveux,1440,1,178,0,0,1,999,0,1,0,1
+"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
+
+-------
+Une machine portative utilisée par les agriculteurs pour extraire efficacement le lait des vaches. Elle est dotée d'une poignée confortable et d'un mécanisme d'aspiration qui garantit un processus de traite fluide et doux.
+",0,item-icon-97,97,Lv 0 Trayeuse,1440,1,179,0,0,1,999,0,1,0,1
 "792,1",4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures moins sujettes au flétrissement.
 -------
@@ -353,6 +408,21 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Rendez vos cultures mo
 -------
 Cette chaussure agricole est fabriquée à partir de matériaux de haute qualité, légers et confortables, adaptée à un port prolongé. La semelle est antidérapante et convient à différents champs agricoles, rendant votre travail plus facile.
 ",0,item-icon-109,109,Lv 3 Gants de fermier,1440,"1,2,3",201,1,0,1,999,0,1,3,1
+"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
+
+-------
+Ces chaussures agricoles sont fabriquées à partir de matériaux de haute qualité, légères et confortables, adaptées à un port prolongé. La semelle est antidérapante et convient à différents champs agricoles, rendant votre travail plus facile.
+",0,item-icon-110,110,Lv 1 Chaussures de fermier,1440,1,186,1,0,1,999,0,1,1,1
+"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
+
+-------
+Ces chaussures agricoles sont spécialement conçues pour les activités agricoles telles que le labourage et la plantation. Elles sont fabriquées à partir de matériaux de haute qualité qui sont durables, respirants et confortables, offrant une protection pour les pieds des agriculteurs.
+",0,item-icon-111,111,Lv 2 Chaussures de fermier,1440,"1,2",195,1,0,1,999,0,1,2,1
+"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
+
+-------
+Ces chaussures agricoles sont spécialement conçues pour les travailleurs agricoles. Elles présentent des caractéristiques antidérapantes, résistantes à l'usure et respirantes, qui peuvent protéger les pieds et améliorer l'efficacité du travail.
+",0,item-icon-112,112,Lv 3 Chaussures de fermier,1440,"1,2,3",204,1,0,1,999,0,1,3,1
 "792,1",4,1," Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs. Augmentez la probabilité de collecter des ressources de niveau supérieur.
 -------
@@ -368,6 +438,66 @@ Lorsqu'il est équipé, il peut améliorer les attributs. Augmentez la probabili
 -------
 Ces chaussures sont conçues pour les collectionneurs passionnés, offrant une agilité et un confort accrus lors de longues expéditions. Leur construction durable mais légère permet aux joueurs de traverser facilement différents terrains et de collecter des ressources avec facilité. Les chaussures sont également dotées d'une adhérence spécialisée qui assure la stabilité, évitant les glissades et les chutes même dans des environnements dangereux.
 ",0,item-icon-115,115,Lv 3 Chaussures de récolte,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ce chapeau élégant est parfait pour tout aventurier, offrant une protection supplémentaire contre les éléments sans sacrifier le style. Son large bord et sa sangle réglable assurent un ajustement confortable, en faisant un accessoire indispensable pour toute excursion en plein air. Fabriqué avec des matériaux durables, ce chapeau est conçu pour résister aux conditions les plus difficiles. Sa construction légère et son tissu respirant vous gardent au frais et protégé pendant de longues heures d'exploration. Avec son design pratique et son look à la mode, le chapeau de collecte est un incontournable pour tout aventurier chevronné.
+",0,item-icon-116,116,Lv 1 Chapeau de récolte,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Un chapeau élégant qui améliore vos capacités de collecte, vous permettant de collecter des ressources plus efficacement. Son design unique offre confort et protection, en en faisant un accessoire indispensable pour tout collecteur dévoué. Un chapeau pratique conçu spécialement pour les tâches de collecte. Son matériau léger et respirant vous garde au frais et concentré pendant de longues heures de collecte.
+",0,item-icon-117,117,Lv 2 Chapeau de récolte,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Un chapeau élégant qui améliore vos capacités de collecte, facilitant la collecte de ressources dans le jeu. Un accessoire pratique qui augmente votre efficacité de collecte, vous permettant de collecter des matériaux plus rapidement et plus efficacement.
+",0,item-icon-118,118,Lv 3 Chapeau de récolte,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Une veste durable conçue pour les aventures en plein air, offrant une excellente protection contre les éléments. Son tissu léger et respirant assure un confort lors de longues heures d'exploration. Avec plusieurs poches et des coutures renforcées, c'est le compagnon idéal pour tout aventurier passionné.
+",0,item-icon-119,119,Lv 1 Veste de récolte de niveau 1,1440,1,335,1,0,3,999,0,1,1,1
+"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Une veste pratique conçue pour les aventuriers, offrant une excellente protection contre les éléments. Son tissu durable et ses coutures renforcées en font un choix idéal pour les longs voyages et l'exploration en plein air. Avec plusieurs poches et des sangles réglables, elle offre commodité et fonctionnalité pour tout amateur de plein air.
+",0,item-icon-120,120,Lv 2 Veste de récolte de niveau 2,1440,"1,2",344,1,0,3,999,0,1,2,1
+"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Une veste pratique conçue pour les aventuriers, offrant une excellente protection contre les éléments. Son tissu durable et ses coutures renforcées en font un choix idéal pour les longs voyages et les activités de plein air. Restez au chaud et confortable sans sacrifier la mobilité avec cette pièce essentielle d'équipement.
+",0,item-icon-121,121,Lv 3 Veste de récolte de niveau 3,1440,"1,2,3",353,1,0,3,999,0,1,3,1
+"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ces pantalons sont conçus pour les aventuriers passionnés, offrant confort et flexibilité lors de longs voyages. Avec des coutures renforcées et un tissu durable, ils sont parfaits pour collecter des ressources dans la nature sauvage. Restez agile et concentré avec ces pantalons indispensables pour tout explorateur dévoué.
+",0,item-icon-122,122,Lv 1 Pantalon de récolte,1440,1,336,1,0,3,999,0,1,1,1
+"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ces pantalons sont parfaits pour collecter des ressources dans le jeu, offrant un espace de stockage supplémentaire et une durabilité. Ils sont conçus avec des coutures renforcées et de multiples poches, permettant aux joueurs de transporter et de collecter facilement divers matériaux sans craindre l'usure.
+",0,item-icon-123,123,Lv 2 Pantalon de récolte,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ces pantalons sont conçus pour les aventuriers passionnés, offrant confort et flexibilité lors de longs voyages. Fabriqués avec des matériaux durables, ils offrent une excellente protection contre les éléments sans sacrifier la mobilité. Parfaits pour ceux qui cherchent à collecter des ressources efficacement tout en explorant les vastes paysages du jeu.
+",0,item-icon-124,124,Lv 3 Pantalon de récolte,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ces gants sont conçus pour les collecteurs passionnés, offrant une meilleure adhérence et dextérité. Ils sont fabriqués à partir d'un matériau durable qui protège vos mains des épines et des arêtes vives, vous permettant de collecter des ressources avec facilité et efficacité. Avec ces gants, vous n'aurez plus à vous soucier des ampoules ou des coupures.
+",0,item-icon-125,125,Lv 1 Gants de récolte,1440,1,333,1,0,3,999,0,1,1,1
+"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ces gants sont conçus pour les collectionneurs passionnés, leur permettant de collecter facilement différentes ressources sans se salir les mains. Avec un ajustement confortable et un matériau durable, ils offrent une prise fiable et protègent contre les arêtes vives. Que ce soit pour cueillir des herbes ou extraire des minerais, ces gants sont indispensables pour tout collecteur dévoué.
+",0,item-icon-126,126,Lv 2 Gants de récolte,1440,"1,2",342,1,0,3,999,0,1,2,1
+"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
+
+-------
+Ces gants sont conçus pour les collecteurs passionnés, offrant une dextérité et une adhérence améliorées. Ils sont fabriqués à partir d'un matériau durable qui offre une protection contre les épines et les objets tranchants. Avec ces gants, vous pouvez collecter des ressources avec facilité et efficacité.
+",0,item-icon-127,127,Lv 3 Gants de récolte,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
@@ -383,6 +513,20 @@ Lorsqu'il est équipé, il peut améliorer les attributs.
 -------
 Cette formule riche en nutriments nourrit en profondeur les plantes, favorisant une croissance saine et des floraisons vibrantes. Elle améliore la rétention d'humidité du sol, garantissant une hydratation prolongée des plantes. Boostez la vitalité de votre jardin avec cet engrais essentiel.
 ",98,item-icon-130,130,Lv 0 Engrais hydratant,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Lorsqu'il est équipé, il peut améliorer les attributs.
+-------
+Cet engrais puissant améliore la croissance des plantes et augmente les rendements, permettant aux cultures de prospérer en un temps record. Il fournit des nutriments essentiels et favorise le développement racinaire solide, ce qui se traduit par des récoltes plus saines et plus abondantes. Vivez une croissance accélérée comme jamais auparavant avec cette formule avancée.
+",98,item-icon-131,131,Lv 0 Engrais accéléré avancé,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Lorsqu'il est équipé, il peut améliorer les attributs.
+-------
+Cet engrais puissant augmente considérablement les rendements des cultures, donnant lieu à des récoltes abondantes. Il favorise la croissance des plantes et maximise l'absorption des nutriments, garantissant des cultures plus saines et plus robustes. Avec cet engrais avancé, les agriculteurs peuvent s'attendre à des améliorations impressionnantes de leur productivité agricole.",98,item-icon-132,132,Lv 0 Engrais augmentant le rendement avancé,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Cet engrais est spécialement formulé pour fournir une hydratation profonde et une nutrition aux plantes, ce qui favorise une croissance plus saine et plus vibrante. Sa formule avancée assure une rétention optimale de l'humidité dans le sol, favorisant des racines solides et un feuillage luxuriant. Donnez à vos plantes un coup de boost ultime d'hydratation avec cet engrais hydratant avancé.
+",98,item-icon-133,133,Lv 0 Engrais hydratant avancé,0,1,,1,0,1,999,0,3,0,1
 "792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -413,6 +557,36 @@ Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette potion peut fournir un effet défensif temporaire, adapté aux situations d'urgence en combat.
 ",0,item-icon-139,139,Lv 0 Potion de défense secondaire,0,1,56,1,0,2,"1,0",0,3,1,1
+"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Cette potion peut être utilisée en combat et peut guérir vos blessures.
+",0,item-icon-140,140,Lv 1 Potion de traitement,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Cette potion améliore vos capacités de combat, augmentant votre puissance d'attaque pendant un temps limité. C'est un must pour tout aventurier cherchant à infliger des coups dévastateurs à ses ennemis. Utilisez-la judicieusement et regardez vos ennemis trembler devant vous.
+",0,item-icon-141,141,Lv 1 Potion d'attaque,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Cette potion améliore votre vitesse, vous permettant de vous déplacer rapidement et d'esquiver les attaques avec facilité. C'est un must pour tout aventurier cherchant à prendre l'avantage dans les combats.
+",0,item-icon-142,142,Lv 1 Potion de rapidité,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Cette potion améliore vos capacités de combat, augmentant vos chances d'infliger des coups dévastateurs à vos ennemis. Elle augmente votre taux de coup critique, vous permettant d'infliger des dégâts massifs en combat. Avec cette potion, la victoire est à portée de main.
+",0,item-icon-143,143,Lv 1 Potion de coup critique,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Cette potion peut restaurer vos points de vie. Elle fonctionne mieux lorsqu'elle est utilisée pendant les combats.
+",0,item-icon-144,144,Lv 1 Potion de vie,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
+Son utilisation peut déclencher des effets spéciaux.
+-------
+Un puissant élixir qui améliore vos capacités défensives, offrant un bouclier temporaire contre les attaques ennemies. Cette potion renforce votre armure et votre résistance, vous permettant de résister même aux batailles les plus difficiles. Utilisez-la judicieusement pour renverser la situation en votre faveur et émerger victorieux.
+",0,item-icon-145,145,Lv 1 Potion de défense,0,1,58,1,0,2,2,0,3,2,1
 -,"1,3,4",1,"La collecte de matériaux du même niveau peut entraîner l'obtention de graines supplémentaires, tuer des monstres du même niveau peut entraîner l'obtention de cet objet.
 Son utilisation peut déclencher des effets spéciaux.
 -------
@@ -458,80 +632,6 @@ Son utilisation peut déclencher des effets spéciaux.
 -------
 Cette graine promet la croissance d'un champignon bleu vibrant, prêt à apporter une touche de couleur à votre jardin. Plantez-la et observez-la grandir en un champignon fascinant qui captivera vos sens.
 ",97,item-icon-154,154,Lv 3 Graine de champignon bleu,0,1,488,1,0,1,3,1,3,3,1
-"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Lorsqu'il est équipé, il peut améliorer les attributs.
--------
-Cet engrais puissant améliore la croissance des plantes et augmente les rendements, permettant aux cultures de prospérer en un temps record. Il fournit des nutriments essentiels et favorise le développement racinaire solide, ce qui se traduit par des récoltes plus saines et plus abondantes. Vivez une croissance accélérée comme jamais auparavant avec cette formule avancée.
-",98,item-icon-131,131,Lv 0 Engrais accéléré avancé,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Lorsqu'il est équipé, il peut améliorer les attributs.
--------
-Cet engrais puissant augmente considérablement les rendements des cultures, donnant lieu à des récoltes abondantes. Il favorise la croissance des plantes et maximise l'absorption des nutriments, garantissant des cultures plus saines et plus robustes. Avec cet engrais avancé, les agriculteurs peuvent s'attendre à des améliorations impressionnantes de leur productivité agricole.",98,item-icon-132,132,Lv 0 Engrais augmentant le rendement avancé,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Cet engrais est spécialement formulé pour fournir une hydratation profonde et une nutrition aux plantes, ce qui favorise une croissance plus saine et plus vibrante. Sa formule avancée assure une rétention optimale de l'humidité dans le sol, favorisant des racines solides et un feuillage luxuriant. Donnez à vos plantes un coup de boost ultime d'hydratation avec cet engrais hydratant avancé.
-",98,item-icon-133,133,Lv 0 Engrais hydratant avancé,0,1,,1,0,1,999,0,3,0,1
-"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Cette potion peut être utilisée en combat et peut guérir vos blessures.
-",0,item-icon-140,140,Lv 1 Potion de traitement,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Cette potion améliore vos capacités de combat, augmentant votre puissance d'attaque pendant un temps limité. C'est un must pour tout aventurier cherchant à infliger des coups dévastateurs à ses ennemis. Utilisez-la judicieusement et regardez vos ennemis trembler devant vous.
-",0,item-icon-141,141,Lv 1 Potion d'attaque,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Cette potion améliore votre vitesse, vous permettant de vous déplacer rapidement et d'esquiver les attaques avec facilité. C'est un must pour tout aventurier cherchant à prendre l'avantage dans les combats.
-",0,item-icon-142,142,Lv 1 Potion de rapidité,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Cette potion améliore vos capacités de combat, augmentant vos chances d'infliger des coups dévastateurs à vos ennemis. Elle augmente votre taux de coup critique, vous permettant d'infliger des dégâts massifs en combat. Avec cette potion, la victoire est à portée de main.
-",0,item-icon-143,143,Lv 1 Potion de coup critique,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Cette potion peut restaurer vos points de vie. Elle fonctionne mieux lorsqu'elle est utilisée pendant les combats.
-",0,item-icon-144,144,Lv 1 Potion de vie,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-Un puissant élixir qui améliore vos capacités défensives, offrant un bouclier temporaire contre les attaques ennemies. Cette potion renforce votre armure et votre résistance, vous permettant de résister même aux batailles les plus difficiles. Utilisez-la judicieusement pour renverser la situation en votre faveur et émerger victorieux.
-",0,item-icon-145,145,Lv 1 Potion de défense,0,1,58,1,0,2,2,0,3,2,1
-"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
-Il peut être utilisé pour fabriquer des équipements ou des objets.
--------
-L'argile est un sol très malléable couramment utilisé pour fabriquer de la poterie, des briques et d'autres matériaux de construction. Elle se présente généralement dans des nuances de gris-brun ou de rouge-brun et a une texture fine avec une forte concentration de matière organique et de minéraux. Lors de la collecte de l'argile, il est important de garder le sol humide pour un meilleur façonnage et traitement.
-",0,item-icon-61,61,Lv 1 Argile,0,1,,1,0,3,999,0,4,1,1
-"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
-Il peut être utilisé pour fabriquer des équipements ou des objets.
--------
-Cette résine est un liquide très visqueux qui peut être utilisé pour fabriquer des adhésifs, des revêtements et des mastics, entre autres. Elle est généralement collectée à partir d'arbres et nécessite des outils spéciaux pour la collecte.
-",0,item-icon-65,65,Lv 1 Résine,0,1,,1,0,3,999,1,4,1,1
-"794,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau dans le canyon.
-Il peut être utilisé pour fabriquer des équipements ou des objets.
--------
-Une plante herbacée vivace qui pousse à l'état sauvage, avec une forte résistance à la sécheresse. Ses feuilles épaisses contiennent une eau et des nutriments abondants, ce qui en fait une matière première importante pour la fabrication de boissons alcoolisées et de médicaments.
-",0,item-icon-68,68,Lv 3 Maguey,0,1,35,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
-Il peut être utilisé pour fabriquer des équipements ou des objets.
--------
-Cette fibre végétale est une matière première collectée qui est généralement obtenue à partir d'arbres. Elle peut être utilisée pour fabriquer une variété d'objets différents, tels que des cordes, des tissus et du papier.
-",0,item-icon-66,66,Lv 1 Fibre végétale,0,1,31,1,0,3,"1,0",1,4,1,1
-"793,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau sur la montagne enneigée.
-Il peut être utilisé pour fabriquer des équipements ou des objets.
--------
-Ces champignons poussent dans les régions polaires froides et ont une couleur bleu clair. Ils ont un goût délicieux et sont adaptés à la cuisine.
-",0,item-icon-67,67,Lv 2 Champignon gelé,0,1,33,1,0,3,2,1,4,2,1
-"792,1","1,3,4",1,"Quelqu'un a déjà vu ce matériau au bord de la mer.
-Il peut être utilisé pour fabriquer des équipements ou des objets.
--------
-Cette toile d'araignée est de niveau 1 et peut être collectée dans la forêt. C'est une matière première qui peut être utilisée pour fabriquer divers objets.
-",0,item-icon-69,69,Lv 1 Toile d'araignée,0,1,,1,0,3,999,0,4,1,1
 -,"1,3,4",1,"Ce billet vous donne accès à un événement exclusif rempli d'aventures palpitantes et d'expériences inoubliables. Préparez-vous à vous embarquer dans un voyage unique en son genre et à créer des souvenirs qui resteront à jamais.
 ",0,item-icon-171,171,Lv 0 Ticket #1,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Ce billet vous donne accès à un événement exclusif rempli d'aventures palpitantes et d'expériences inoubliables. Préparez-vous à vous embarquer dans un voyage unique en son genre et à créer des souvenirs qui resteront à jamais.
@@ -544,6 +644,12 @@ Cette toile d'araignée est de niveau 1 et peut être collectée dans la forêt.
 
 Cette plante fanée peut être causée par un manque d'eau ou de nutriments. Elle peut être utilisée pour fabriquer de l'engrais ou des herbes médicinales, et peut également être utilisée comme aliment pour animaux.
 ",0,item-icon-174,174,Lv 0 Plante flétrie,0,1,,0,0,1,999,0,4,0,1
+-,"1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
+
+-------
+
+Cette récolte semble avoir pourri et n'est plus comestible. Cela peut être dû à un excès d'arrosage ou à une infestation de parasites. Ces récoltes peuvent être utilisées comme engrais ou éliminées par l'enterrement.
+",0,item-icon-175,175,Lv 0 Récolte en décomposition,0,1,,0,0,1,999,0,4,0,1
 -,"1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
 
 -------
@@ -604,112 +710,6 @@ Ce magma solidifié est produit par l'élevage de monstres et peut être utilis�
 
 Ce fragment de givre est obtenu grâce à l'élevage de monstres et est un matériau utilisé en agriculture. Il a trois niveaux de qualité et peut être utilisé pour fabriquer divers objets à base de glace.
 ",0,item-icon-185,185,Lv 3 Éclat de givre,0,1,122,1,0,1,3,1,4,3,1
-"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
-
--------
-Cette brosse est un outil spécialement conçu pour l'agriculture, qui permet de nettoyer facilement les cultures et les terres.
-",0,item-icon-95,95,Lv 0 Brosse,1440,1,177,0,0,1,999,0,1,0,1
-"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
-
--------
-Cette tondeuse peut aider les agriculteurs à tondre rapidement et facilement la laine, améliorant ainsi l'efficacité de la tonte. Elle convient à différents types de moutons.
-",0,item-icon-96,96,Lv 0 Tondeuse à cheveux,1440,1,178,0,0,1,999,0,1,0,1
-"792,1",0,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Débloquez des produits agricoles de niveau supérieur.
-
--------
-Une machine portative utilisée par les agriculteurs pour extraire efficacement le lait des vaches. Elle est dotée d'une poignée confortable et d'un mécanisme d'aspiration qui garantit un processus de traite fluide et doux.
-",0,item-icon-97,97,Lv 0 Trayeuse,1440,1,179,0,0,1,999,0,1,0,1
--,"1,3,4",1,"Vous pouvez obtenir ce type de matériau grâce à l'élevage. Il peut être utilisé pour fabriquer des équipements ou des objets.
-
--------
-
-Cette récolte semble avoir pourri et n'est plus comestible. Cela peut être dû à un excès d'arrosage ou à une infestation de parasites. Ces récoltes peuvent être utilisées comme engrais ou éliminées par l'enterrement.
-",0,item-icon-175,175,Lv 0 Récolte en décomposition,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ce chapeau élégant est parfait pour tout aventurier, offrant une protection supplémentaire contre les éléments sans sacrifier le style. Son large bord et sa sangle réglable assurent un ajustement confortable, en faisant un accessoire indispensable pour toute excursion en plein air. Fabriqué avec des matériaux durables, ce chapeau est conçu pour résister aux conditions les plus difficiles. Sa construction légère et son tissu respirant vous gardent au frais et protégé pendant de longues heures d'exploration. Avec son design pratique et son look à la mode, le chapeau de collecte est un incontournable pour tout aventurier chevronné.
-",0,item-icon-116,116,Lv 1 Chapeau de récolte,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ces gants sont conçus pour les collectionneurs passionnés, leur permettant de collecter facilement différentes ressources sans se salir les mains. Avec un ajustement confortable et un matériau durable, ils offrent une prise fiable et protègent contre les arêtes vives. Que ce soit pour cueillir des herbes ou extraire des minerais, ces gants sont indispensables pour tout collecteur dévoué.
-",0,item-icon-126,126,Lv 2 Gants de récolte,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ces gants sont conçus pour les collecteurs passionnés, offrant une meilleure adhérence et dextérité. Ils sont fabriqués à partir d'un matériau durable qui protège vos mains des épines et des arêtes vives, vous permettant de collecter des ressources avec facilité et efficacité. Avec ces gants, vous n'aurez plus à vous soucier des ampoules ou des coupures.
-",0,item-icon-125,125,Lv 1 Gants de récolte,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ces pantalons sont conçus pour les aventuriers passionnés, offrant confort et flexibilité lors de longs voyages. Avec des coutures renforcées et un tissu durable, ils sont parfaits pour collecter des ressources dans la nature sauvage. Restez agile et concentré avec ces pantalons indispensables pour tout explorateur dévoué.
-",0,item-icon-122,122,Lv 1 Pantalon de récolte,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ces pantalons sont conçus pour les aventuriers passionnés, offrant confort et flexibilité lors de longs voyages. Fabriqués avec des matériaux durables, ils offrent une excellente protection contre les éléments sans sacrifier la mobilité. Parfaits pour ceux qui cherchent à collecter des ressources efficacement tout en explorant les vastes paysages du jeu.
-",0,item-icon-124,124,Lv 3 Pantalon de récolte,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ces pantalons sont parfaits pour collecter des ressources dans le jeu, offrant un espace de stockage supplémentaire et une durabilité. Ils sont conçus avec des coutures renforcées et de multiples poches, permettant aux joueurs de transporter et de collecter facilement divers matériaux sans craindre l'usure.
-",0,item-icon-123,123,Lv 2 Pantalon de récolte,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Ces gants sont conçus pour les collecteurs passionnés, offrant une dextérité et une adhérence améliorées. Ils sont fabriqués à partir d'un matériau durable qui offre une protection contre les épines et les objets tranchants. Avec ces gants, vous pouvez collecter des ressources avec facilité et efficacité.
-",0,item-icon-127,127,Lv 3 Gants de récolte,1440,"1,2,3",351,1,0,3,999,0,1,3,1
-"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Une veste pratique conçue pour les aventuriers, offrant une excellente protection contre les éléments. Son tissu durable et ses coutures renforcées en font un choix idéal pour les longs voyages et les activités de plein air. Restez au chaud et confortable sans sacrifier la mobilité avec cette pièce essentielle d'équipement.
-",0,item-icon-121,121,Lv 3 Veste de récolte de niveau 3,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Une veste pratique conçue pour les aventuriers, offrant une excellente protection contre les éléments. Son tissu durable et ses coutures renforcées en font un choix idéal pour les longs voyages et l'exploration en plein air. Avec plusieurs poches et des sangles réglables, elle offre commodité et fonctionnalité pour tout amateur de plein air.
-",0,item-icon-120,120,Lv 2 Veste de récolte de niveau 2,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Une veste durable conçue pour les aventures en plein air, offrant une excellente protection contre les éléments. Son tissu léger et respirant assure un confort lors de longues heures d'exploration. Avec plusieurs poches et des coutures renforcées, c'est le compagnon idéal pour tout aventurier passionné.
-",0,item-icon-119,119,Lv 1 Veste de récolte de niveau 1,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Un chapeau élégant qui améliore vos capacités de collecte, facilitant la collecte de ressources dans le jeu. Un accessoire pratique qui augmente votre efficacité de collecte, vous permettant de collecter des matériaux plus rapidement et plus efficacement.
-",0,item-icon-118,118,Lv 3 Chapeau de récolte,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Augmente la probabilité de chute de ressources de collecte de niveau supérieur.
-
--------
-Un chapeau élégant qui améliore vos capacités de collecte, vous permettant de collecter des ressources plus efficacement. Son design unique offre confort et protection, en en faisant un accessoire indispensable pour tout collecteur dévoué. Un chapeau pratique conçu spécialement pour les tâches de collecte. Son matériau léger et respirant vous garde au frais et concentré pendant de longues heures de collecte.
-",0,item-icon-117,117,Lv 2 Chapeau de récolte,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
-
--------
-Ces chaussures agricoles sont spécialement conçues pour les travailleurs agricoles. Elles présentent des caractéristiques antidérapantes, résistantes à l'usure et respirantes, qui peuvent protéger les pieds et améliorer l'efficacité du travail.
-",0,item-icon-112,112,Lv 3 Chaussures de fermier,1440,"1,2,3",204,1,0,1,999,0,1,3,1
-"793,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
-
--------
-Ces chaussures agricoles sont spécialement conçues pour les activités agricoles telles que le labourage et la plantation. Elles sont fabriquées à partir de matériaux de haute qualité qui sont durables, respirants et confortables, offrant une protection pour les pieds des agriculteurs.
-",0,item-icon-111,111,Lv 2 Chaussures de fermier,1440,"1,2",195,1,0,1,999,0,1,2,1
-"792,1",4,1,"Vous pouvez obtenir cet objet par synthèse. Lorsqu'il est équipé, il peut améliorer les attributs. Rend vos cultures moins sujettes au flétrissement.
-
--------
-Ces chaussures agricoles sont fabriquées à partir de matériaux de haute qualité, légères et confortables, adaptées à un port prolongé. La semelle est antidérapante et convient à différents champs agricoles, rendant votre travail plus facile.
-",0,item-icon-110,110,Lv 1 Chaussures de fermier,1440,1,186,1,0,1,999,0,1,1,1
-"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-La nourriture pour animaux de compagnie est un produit consommable adapté aux animaux de compagnie de niveau 0, et peut augmenter la satiété et la valeur de croissance de l'animal de compagnie. Elle est fabriquée à partir de plantes naturelles et de nutriments, avec un goût rafraîchissant et une digestion et une absorption faciles. Chaque paquet de nourriture pour animaux de compagnie est léger et facile à transporter, ce qui en fait un article indispensable pour les propriétaires d'animaux de compagnie.
-",27,item-icon-28,28,Lv 0 Nourriture - Petite,0,1,434,1,0,1,"1,0",0,3,0,1
-"792,1","1,3,4",1,"Vous pouvez obtenir cet objet par synthèse.
-Son utilisation peut déclencher des effets spéciaux.
--------
-La nourriture pour animaux est un produit consommable qui fournit les nutriments nécessaires aux animaux pour maintenir une croissance saine. Elle convient à divers animaux d'élevage et animaux de compagnie, et peut augmenter leur productivité et leur durée de vie.
-",27,item-icon-29,29,Lv 0 Nourriture - Grande,0,1,435,1,0,1,"1,0",0,3,0,1
 -,"1,3,4",0,"L'EXP agricole est une valeur d'expérience dans le jeu qui peut être obtenue grâce à des activités agricoles telles que la plantation de cultures et l'élevage d'animaux. C'est un facteur clé pour améliorer les compétences et les niveaux agricoles, et c'est également une condition nécessaire pour débloquer des outils et équipements agricoles de niveau supérieur.
 ",0,item-icon-188,188,EXP agricole,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0,"L'EXP de combat fait référence à l'expérience acquise lors des combats. Elle peut aider les joueurs à monter de niveau et à améliorer leurs compétences, renforçant les capacités de leur personnage. Dans de nombreux jeux, l'EXP de combat est l'un des moyens importants pour les joueurs d'améliorer leur force.
