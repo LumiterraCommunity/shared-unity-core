@@ -105,6 +105,15 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
+  /**获取worldDropGroup-int。*/
+    /// </summary>
+    public int WorldDropGroup
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取functionAvatar-string。*/
     /// </summary>
     public string FunctionAvatar
@@ -128,6 +137,7 @@ public class DRSeed : DataRowBase
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ProgressScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        WorldDropGroup = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FunctionAvatar = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
@@ -150,6 +160,7 @@ public class DRSeed : DataRowBase
                 Lv = binaryReader.Read7BitEncodedInt32();
                 ProgressScore = binaryReader.Read7BitEncodedInt32();
                 RankScore = binaryReader.Read7BitEncodedInt32();
+                WorldDropGroup = binaryReader.Read7BitEncodedInt32();
                 FunctionAvatar = binaryReader.ReadString();
             }
         }

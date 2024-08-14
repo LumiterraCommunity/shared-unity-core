@@ -240,6 +240,15 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
+  /**获取worldDropGroup-int。*/
+    /// </summary>
+    public int WorldDropGroup
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取dropId-int。*/
     /// </summary>
     public int DropId
@@ -278,6 +287,7 @@ public class DRMonster : DataRowBase
         SkillCastPool = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        WorldDropGroup = DataTableParseUtil.ParseInt(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
@@ -315,6 +325,7 @@ public class DRMonster : DataRowBase
                 SkillCastPool = binaryReader.ReadArrayList<Int32>();
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
+                WorldDropGroup = binaryReader.Read7BitEncodedInt32();
                 DropId = binaryReader.Read7BitEncodedInt32();
             }
         }
