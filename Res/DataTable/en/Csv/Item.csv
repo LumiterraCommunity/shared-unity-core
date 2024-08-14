@@ -1,4 +1,12 @@
 boothFees-int[][],canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,onChainDelay-int,quality-int[],resourceInstructions-int[],sellable-bool,subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int
+"792,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+Pet feed is a consumable item that is suitable for level 0 pets, and can increase the pet's satiety and growth value. It is made from natural plants and nutrients, with a refreshing taste and easy digestion and absorption. Each pack of pet feed is lightweight and easy to carry, making it a must-have item for pet owners.",27,item-icon-28,28,Feed - Small,0,1,434,1,0,1,"1,0",0,3,0,1
+"792,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+Animal feed is a consumable product that provides the necessary nutrients for animals to maintain healthy growth. It is suitable for various livestock and pets, and can increase their productivity and lifespan.",27,item-icon-29,29,Feed - Big,0,1,435,1,0,1,"1,0",0,3,0,1
 "792,1","1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
@@ -38,6 +46,10 @@ This is a rare raw material that can be obtained in battles. It has an appearanc
 "792,1",0,1,"You can obtain this item through synthesis.
 When equipped, it can enhance attributes. Increase your survival probability in battles
 -------
+A sturdy wooden weapon crafted for swift and precise strikes, perfect for beginners honing their combat skills. Its lightweight design allows for agile movements, making it an ideal choice for those seeking a versatile and reliable weapon.",0,item-icon-39,39,Wooden Sword,1440,1,256,0,0,2,999,0,1,0,1
+"792,1",0,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase your survival probability in battles
+-------
 A sharp and sturdy weapon crafted from solid stone, perfect for close combat. Its weight and balance make it easy to wield, delivering powerful strikes with precision.",0,item-icon-40,40,Stone Sword,1,1,264,1,0,2,999,0,1,1,1
 "793,1",0,1,"You can obtain this item through synthesis.
 When equipped, it can enhance attributes. Increase your survival probability in battles
@@ -47,10 +59,6 @@ A sharp and sturdy weapon forged from iron, capable of slicing through enemies w
 When equipped, it can enhance attributes. Increase your survival probability in battles
 -------
 A powerful weapon forged from pure crystal, capable of slicing through enemies with ease. Its shimmering blade reflects light, dazzling opponents and striking fear into their hearts. With each swing, the Crystal Sword unleashes a deadly combination of speed and precision.",0,item-icon-42,42,Crystal Sword,1440,"1,2,3",280,1,0,2,999,0,1,3,1
-"792,1",0,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase your survival probability in battles
--------
-A sturdy wooden weapon crafted for swift and precise strikes, perfect for beginners honing their combat skills. Its lightweight design allows for agile movements, making it an ideal choice for those seeking a versatile and reliable weapon.",0,item-icon-39,39,Wooden Sword,1440,1,256,0,0,2,999,0,1,0,1
 "792,1",4,1,"You can obtain this item through synthesis.
 When equipped, it can enhance attributes. Increase your survival probability in battles
 -------
@@ -126,6 +134,10 @@ This is a tier-three red crystal ore that can be collected in the forest. It is 
 "792,1","1,3,4",1,"Someone once saw this material by the seaside.
 It can be used to craft equipment or items.
 -------
+Clay is a highly malleable soil commonly used to make pottery, bricks, and other building materials. It typically comes in shades of grey-brown or red-brown and has a fine texture with a high concentration of organic matter and minerals. When collecting clay, it is important to keep the soil moist for better shaping and processing.",0,item-icon-61,61,Clay,0,1,,1,0,3,999,0,4,1,1
+"792,1","1,3,4",1,"Someone once saw this material by the seaside.
+It can be used to craft equipment or items.
+-------
 This type of wood is usually used for making simple furniture or building materials. Its texture is relatively soft, making it easy to process and carve.",0,item-icon-62,62,Ordinary Wood,0,1,"49,51",1,0,3,"1,0",1,4,1,1
 "793,1","1,3,4",1,"Someone once saw this material in the desert.
 It can be used to craft equipment or items.
@@ -135,6 +147,26 @@ Desert trees are a type of tree that grows in the desert. They are usually of lo
 It can be used to craft equipment or items.
 -------
 Dark wood is a premium type of wood with black textures and a hard texture, suitable for making high-end furniture and crafts. It can only be harvested at specific collection points, which is difficult but also very profitable.",0,item-icon-64,64,Dark Wood,0,1,55,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1,"Someone once saw this material by the seaside.
+It can be used to craft equipment or items.
+-------
+This resin is a highly viscous liquid that can be used to make adhesives, coatings, and sealants, among other things. It is usually collected from trees and requires special tools for collection.",0,item-icon-65,65,Resin,0,1,,1,0,3,999,1,4,1,1
+"792,1","1,3,4",1,"Someone once saw this material by the seaside.
+It can be used to craft equipment or items.
+-------
+This plant fiber is a collected raw material that is usually obtained from trees. It can be used to make a variety of different items, such as ropes, fabrics, and paper.",0,item-icon-66,66,Plant Fibre,0,1,31,1,0,3,"1,0",1,4,1,1
+"793,1","1,3,4",1,"Someone once saw this material on the Snow Mountain.
+It can be used to craft equipment or items.
+-------
+These mushrooms grow in the cold polar regions and have a light blue color. They have a delicious taste and are suitable for cooking.",0,item-icon-67,67,Frozen Fungus,0,1,33,1,0,3,2,1,4,2,1
+"794,1","1,3,4",1,"Someone once saw this material in the canyon.
+It can be used to craft equipment or items.
+-------
+A perennial herbaceous plant that grows in the wilderness, with strong drought resistance. Its thick leaves contain abundant water and nutrients, making it an important raw material for making alcoholic beverages and medicine.",0,item-icon-68,68,Maguey,0,1,35,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1,"Someone once saw this material by the seaside.
+It can be used to craft equipment or items.
+-------
+This spider web is level 1 and can be collected in the forest. It is a raw material that can be used to make various items.",0,item-icon-69,69,Cobweb,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1,"You can obtain this type of material through planting.
 It can be used to craft equipment or items.
 -------
@@ -235,6 +267,18 @@ The sharpness of this axe has reached level 2, making it easy to gather trees. H
 When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
 -------
 A powerful weapon bestowed with divine blessings, capable of cleaving through any obstacle with ease. Its razor-sharp blade glimmers with a holy light, instilling fear in the hearts of enemies. The Blessed Axe is a true symbol of strength and righteousness on the battlefield.",0,item-icon-94,94,Blessed Axe,1440,"1,2,3",348,1,0,3,999,0,1,3,1
+"792,1",0,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Make your crops less prone to withering
+-------
+This brush is a tool specifically designed for agriculture, which can easily clean crops and land.",0,item-icon-95,95,Brush,1440,1,177,0,0,1,999,0,1,0,1
+"792,1",0,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Make your crops less prone to withering
+-------
+This clipper can help farmers quickly and easily shear wool, improving shearing efficiency. It is suitable for different types of sheep.",0,item-icon-96,96,Hair Clipper,1440,1,178,0,0,1,999,0,1,0,1
+"792,1",0,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Make your crops less prone to withering
+-------
+A handheld device used by farmers to efficiently extract milk from cows. It features a comfortable grip and a suction mechanism that ensures a smooth and gentle milking process.",0,item-icon-97,97,Milker,1440,1,179,0,0,1,999,0,1,0,1
 "792,1",4,1,"You can obtain this item through synthesis.
 When equipped, it can enhance attributes. Make your crops less prone to withering
 -------
@@ -284,6 +328,18 @@ When equipped, it can enhance attributes. Make your crops less prone to witherin
 -------
 This glove is suitable for agricultural work, providing comfortable grip and protection to help farmers complete various farming activities.",0,item-icon-109,109,Farming Gloves,1440,"1,2,3",201,1,0,1,999,0,1,3,1
 "792,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Make your crops less prone to withering
+-------
+This agricultural shoe is made of high-quality materials, lightweight and comfortable, suitable for long-term wear. The sole is non-slip and suitable for various agricultural fields, making your work easier.",0,item-icon-110,110,Farming Shoes,1440,1,186,1,0,1,999,0,1,1,1
+"793,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Make your crops less prone to withering
+-------
+This agricultural shoe is designed specifically for farming activities such as plowing and planting. It is made from high-quality materials that are durable, breathable, and comfortable, providing protection for the feet of farmers.",0,item-icon-111,111,Farming Shoes,1440,"1,2",195,1,0,1,999,0,1,2,1
+"794,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Make your crops less prone to withering
+-------
+These agricultural shoes are designed specifically for agricultural workers. They feature non-slip, wear-resistant, and breathable characteristics, which can protect the feet and improve work efficiency.",0,item-icon-112,112,Farming Shoes,1440,"1,2,3",204,1,0,1,999,0,1,3,1
+"792,1",4,1,"You can obtain this item through synthesis.
 When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
 -------
 These collection shoes are specially designed for collection. Wearing them can make you more agile when walking in the forest, and easily collect the resources you need.",0,item-icon-113,113,Gathering Shoes,1440,1,337,1,0,3,999,0,1,1,1
@@ -295,6 +351,54 @@ These collection shoes are specially designed for collection. They can help you 
 When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
 -------
 These shoes are designed for avid gatherers, providing enhanced agility and comfort during long expeditions. With their durable yet lightweight construction, they allow players to effortlessly traverse various terrains and gather resources with ease. The shoes also feature a specialized grip that ensures stability, preventing slips and falls even in treacherous environments.",0,item-icon-115,115,Gathering Shoes,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+This stylish hat is perfect for any adventurer, providing extra protection from the elements without sacrificing style. Its wide brim and adjustable strap ensure a comfortable fit, making it a must-have accessory for any outdoor excursion.Crafted with durable materials, this hat is designed to withstand the toughest conditions. Its lightweight construction and breathable fabric keep you cool and protected during long hours of exploration. With its practical design and fashionable look, the Gathering Hat is a must-have for any seasoned adventurer.",0,item-icon-116,116,Gathering Hat,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+A stylish hat that enhances your gathering abilities, allowing you to collect resources more efficiently. Its unique design provides comfort and protection, making it a must-have accessory for any dedicated gatherer.A practical hat designed specifically for gathering tasks. Its lightweight and breathable material keeps you cool and focused during long hours of gathering. ",0,item-icon-117,117,Gathering Hat,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+A stylish hat that enhances your gathering abilities, making it easier to collect resources in the game.A practical accessory that boosts your gathering efficiency, allowing you to gather materials faster and more efficiently.",0,item-icon-118,118,Gathering Hat,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"792,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+A durable jacket designed for outdoor adventures, providing excellent protection against the elements. Its lightweight and breathable fabric ensures comfort during long hours of exploration. With multiple pockets and reinforced stitching, it's the perfect companion for any avid adventurer.",0,item-icon-119,119,Gathering Jacket,1440,1,335,1,0,3,999,0,1,1,1
+"793,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+A practical jacket designed for adventurers, providing excellent protection against the elements. Its durable fabric and reinforced stitching make it ideal for long journeys and outdoor exploration. With multiple pockets and adjustable straps, it offers convenience and functionality for any outdoor enthusiast.",0,item-icon-120,120,Gathering Jacket,1440,"1,2",344,1,0,3,999,0,1,2,1
+"794,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+A practical jacket designed for adventurers, providing excellent protection against the elements. Its durable fabric and reinforced stitching make it ideal for long journeys and outdoor activities. Stay warm and comfortable without sacrificing mobility with this essential piece of gear.",0,item-icon-121,121,Gathering Jacket,1440,"1,2,3",353,1,0,3,999,0,1,3,1
+"792,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+These pants are designed for avid adventurers, providing comfort and flexibility during long journeys. With reinforced stitching and durable fabric, they are perfect for gathering resources in the wilderness. Stay agile and focused with these essential pants for any dedicated explorer.",0,item-icon-122,122,Gathering Pants,1440,1,336,1,0,3,999,0,1,1,1
+"793,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+These pants are perfect for gathering resources in the game, providing extra storage space and durability. They are designed with reinforced stitching and multiple pockets, allowing players to easily carry and collect various materials without worrying about wear and tear.",0,item-icon-123,123,Gathering Pants,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+These pants are designed for avid adventurers, providing comfort and flexibility during long journeys. Crafted with durable materials, they offer excellent protection against the elements without sacrificing mobility. Perfect for those who seek to gather resources efficiently while exploring the vast landscapes of the game.",0,item-icon-124,124,Gathering Pants,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"792,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+These gloves are designed for avid gatherers, providing enhanced grip and dexterity. They are made from durable materials that protect your hands from thorns and sharp edges, allowing you to gather resources with ease and efficiency. With these gloves, you'll never have to worry about blisters or cuts again.",0,item-icon-125,125,Gathering Gloves,1440,1,333,1,0,3,999,0,1,1,1
+"793,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+These gloves are designed for avid collectors, allowing them to easily gather various resources without getting their hands dirty. With a comfortable fit and durable material, they provide a reliable grip and protect against sharp edges. Whether it's picking herbs or mining ores, these gloves are a must-have for any dedicated gatherer.",0,item-icon-126,126,Gathering Gloves,1440,"1,2",342,1,0,3,999,0,1,2,1
+"794,1",4,1,"You can obtain this item through synthesis.
+When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
+-------
+These gloves are designed for avid gatherers, providing enhanced dexterity and grip. They are made from a durable material that offers protection against thorns and sharp objects. With these gloves, you can gather resources with ease and efficiency.",0,item-icon-127,127,Gathering Gloves,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
@@ -307,6 +411,18 @@ Fertilizer for increasing crop yields is a consumable designed specifically for 
 Using it can trigger special effects.
 -------
 This nutrient-rich formula deeply nourishes plants, promoting healthy growth and vibrant blooms. It enhances soil moisture retention, ensuring plants stay hydrated for longer periods. Boost your garden's vitality with this essential fertilizer.",98,item-icon-130,130,Moisturizing Fertilizer,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This powerful fertilizer enhances plant growth and boosts yields, allowing crops to flourish in record time. It provides essential nutrients and promotes strong root development, resulting in healthier and more abundant harvests. Experience accelerated growth like never before with this advanced formula.",98,item-icon-131,131,Advanced Accelerated Fertilizer,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This powerful fertilizer significantly boosts crop yields, resulting in bountiful harvests. It enhances plant growth and maximizes nutrient absorption, ensuring healthier and more robust crops. With this advanced fertilizer, farmers can expect impressive improvements in their agricultural productivity.",98,item-icon-132,132,Advanced Yield-increasing Fertilizer,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This fertilizer is specially formulated to provide deep hydration and nourishment to plants, resulting in healthier and more vibrant growth. Its advanced formula ensures optimal moisture retention in the soil, promoting strong roots and lush foliage. Give your plants the ultimate hydration boost with this advanced moisturizing fertilizer.",98,item-icon-133,133,Advanced Moisturizing Fertilizer,0,1,,1,0,1,999,0,3,0,1
 "792,1","1,3,4",1,"You can obtain this item through synthesis.
 Using it can trigger special effects.
 -------
@@ -331,6 +447,30 @@ This potion is a lifeline in the game, providing a much-needed boost to your cha
 Using it can trigger special effects.
 -------
 This potion can provide a temporary defensive effect, suitable for emergency situations in battle.",0,item-icon-139,139,Secondary Defense Potion,0,1,56,1,0,2,"1,0",0,3,1,1
+"793,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This potion can be used in battle, and it can heal your wounds.",0,item-icon-140,140,Treatment Potion,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This potion enhances your combat abilities, boosting your attack power for a limited time. It's a must-have for any adventurer looking to deal devastating blows to their enemies. Use it wisely and watch your foes tremble before you.",0,item-icon-141,141,Attack Potion,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This potion enhances your speed, allowing you to move swiftly and dodge attacks with ease. It's a must-have for any adventurer looking to gain an edge in battles.",0,item-icon-142,142,Swiftness Potion,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This potion enhances your combat abilities, increasing your chances of delivering devastating blows to your enemies. It boosts your critical strike rate, allowing you to deal massive damage in battles. With this potion, victory is within your grasp.",0,item-icon-143,143,Critical Strike Potion,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+This potion can restore your health points. It works better when used during battles.",0,item-icon-144,144,Life Potion,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1,"You can obtain this item through synthesis.
+Using it can trigger special effects.
+-------
+A powerful elixir that enhances your defensive capabilities, providing a temporary shield against enemy attacks. This potion boosts your armor and resilience, allowing you to withstand even the toughest battles. Use it wisely to turn the tide in your favor and emerge victorious.",0,item-icon-145,145,Defensive Potion,0,1,58,1,0,2,2,0,3,2,1
 -,"1,3,4",1,"Collecting materials of the same level may result in additional seeds, Killing monsters of the same level may result in obtaining this item.
 Using it can trigger special effects.
 -------
@@ -367,66 +507,6 @@ A tough and durable seed that boasts a strong outer shell, perfect for protectio
 Using it can trigger special effects.
 -------
 This seed holds the promise of a vibrant blue mushroom, ready to bring a splash of color to your garden. Plant it and watch as it grows into a mesmerizing fungi that will captivate your senses.""",97,item-icon-154,154,Blue Mushroom Seed,0,1,488,1,0,1,3,1,3,3,1
-"792,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This powerful fertilizer enhances plant growth and boosts yields, allowing crops to flourish in record time. It provides essential nutrients and promotes strong root development, resulting in healthier and more abundant harvests. Experience accelerated growth like never before with this advanced formula.",98,item-icon-131,131,Advanced Accelerated Fertilizer,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This powerful fertilizer significantly boosts crop yields, resulting in bountiful harvests. It enhances plant growth and maximizes nutrient absorption, ensuring healthier and more robust crops. With this advanced fertilizer, farmers can expect impressive improvements in their agricultural productivity.",98,item-icon-132,132,Advanced Yield-increasing Fertilizer,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This fertilizer is specially formulated to provide deep hydration and nourishment to plants, resulting in healthier and more vibrant growth. Its advanced formula ensures optimal moisture retention in the soil, promoting strong roots and lush foliage. Give your plants the ultimate hydration boost with this advanced moisturizing fertilizer.",98,item-icon-133,133,Advanced Moisturizing Fertilizer,0,1,,1,0,1,999,0,3,0,1
-"793,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This potion can be used in battle, and it can heal your wounds.",0,item-icon-140,140,Treatment Potion,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This potion enhances your combat abilities, boosting your attack power for a limited time. It's a must-have for any adventurer looking to deal devastating blows to their enemies. Use it wisely and watch your foes tremble before you.",0,item-icon-141,141,Attack Potion,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This potion enhances your speed, allowing you to move swiftly and dodge attacks with ease. It's a must-have for any adventurer looking to gain an edge in battles.",0,item-icon-142,142,Swiftness Potion,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This potion enhances your combat abilities, increasing your chances of delivering devastating blows to your enemies. It boosts your critical strike rate, allowing you to deal massive damage in battles. With this potion, victory is within your grasp.",0,item-icon-143,143,Critical Strike Potion,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-This potion can restore your health points. It works better when used during battles.",0,item-icon-144,144,Life Potion,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-A powerful elixir that enhances your defensive capabilities, providing a temporary shield against enemy attacks. This potion boosts your armor and resilience, allowing you to withstand even the toughest battles. Use it wisely to turn the tide in your favor and emerge victorious.",0,item-icon-145,145,Defensive Potion,0,1,58,1,0,2,2,0,3,2,1
-"792,1","1,3,4",1,"Someone once saw this material by the seaside.
-It can be used to craft equipment or items.
--------
-Clay is a highly malleable soil commonly used to make pottery, bricks, and other building materials. It typically comes in shades of grey-brown or red-brown and has a fine texture with a high concentration of organic matter and minerals. When collecting clay, it is important to keep the soil moist for better shaping and processing.",0,item-icon-61,61,Clay,0,1,,1,0,3,999,0,4,1,1
-"792,1","1,3,4",1,"Someone once saw this material by the seaside.
-It can be used to craft equipment or items.
--------
-This resin is a highly viscous liquid that can be used to make adhesives, coatings, and sealants, among other things. It is usually collected from trees and requires special tools for collection.",0,item-icon-65,65,Resin,0,1,,1,0,3,999,1,4,1,1
-"794,1","1,3,4",1,"Someone once saw this material in the canyon.
-It can be used to craft equipment or items.
--------
-A perennial herbaceous plant that grows in the wilderness, with strong drought resistance. Its thick leaves contain abundant water and nutrients, making it an important raw material for making alcoholic beverages and medicine.",0,item-icon-68,68,Maguey,0,1,35,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1,"Someone once saw this material by the seaside.
-It can be used to craft equipment or items.
--------
-This plant fiber is a collected raw material that is usually obtained from trees. It can be used to make a variety of different items, such as ropes, fabrics, and paper.",0,item-icon-66,66,Plant Fibre,0,1,31,1,0,3,"1,0",1,4,1,1
-"793,1","1,3,4",1,"Someone once saw this material on the Snow Mountain.
-It can be used to craft equipment or items.
--------
-These mushrooms grow in the cold polar regions and have a light blue color. They have a delicious taste and are suitable for cooking.",0,item-icon-67,67,Frozen Fungus,0,1,33,1,0,3,2,1,4,2,1
-"792,1","1,3,4",1,"Someone once saw this material by the seaside.
-It can be used to craft equipment or items.
--------
-This spider web is level 1 and can be collected in the forest. It is a raw material that can be used to make various items.",0,item-icon-69,69,Cobweb,0,1,,1,0,3,999,0,4,1,1
 -,"1,3,4",1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime.,0,item-icon-171,171,Ticket #1,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime.,0,item-icon-172,172,Ticket #2,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,This ticket grants you access to an exclusive event filled with thrilling adventures and unforgettable experiences. Get ready to embark on a journey like no other and create memories that will last a lifetime,0,item-icon-173,173,Ticket #3,0,1,,0,0,"1,2,3",999,0,4,0,1
@@ -434,6 +514,10 @@ This spider web is level 1 and can be collected in the forest. It is a raw mater
 It can be used to craft equipment or items.
 -------
 This withered plant may be caused by lack of water or nutrients. It can be used to make fertilizer or medicinal herbs, and can also be used as animal feed.",0,item-icon-174,174,Withered Plant,0,1,,0,0,1,999,0,4,0,1
+-,"1,3,4",1,"You can obtain this type of material through breeding.
+It can be used to craft equipment or items.
+-------
+This crop appears to have rotted and is no longer edible. It may have been caused by overwatering or pest infestation. These crops can be used as fertilizer or disposed of by burial.",0,item-icon-175,175,Decaying Crop,0,1,,0,0,1,999,0,4,0,1
 -,"1,3,4",1,"You can obtain this type of material through breeding.
 It can be used to craft equipment or items.
 -------
@@ -474,90 +558,6 @@ This solidified magma is produced by monster breeding and can be used for the pr
 It can be used to craft equipment or items.
 -------
 This frost shard is obtained from monster husbandry and is a material used in agriculture. It has three levels of quality and can be used to make various ice-based items.""",0,item-icon-185,185,Frost Shard,0,1,122,1,0,1,3,1,4,3,1
-"792,1",0,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Make your crops less prone to withering
--------
-This brush is a tool specifically designed for agriculture, which can easily clean crops and land.",0,item-icon-95,95,Brush,1440,1,177,0,0,1,999,0,1,0,1
-"792,1",0,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Make your crops less prone to withering
--------
-This clipper can help farmers quickly and easily shear wool, improving shearing efficiency. It is suitable for different types of sheep.",0,item-icon-96,96,Hair Clipper,1440,1,178,0,0,1,999,0,1,0,1
-"792,1",0,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Make your crops less prone to withering
--------
-A handheld device used by farmers to efficiently extract milk from cows. It features a comfortable grip and a suction mechanism that ensures a smooth and gentle milking process.",0,item-icon-97,97,Milker,1440,1,179,0,0,1,999,0,1,0,1
--,"1,3,4",1,"You can obtain this type of material through breeding.
-It can be used to craft equipment or items.
--------
-This crop appears to have rotted and is no longer edible. It may have been caused by overwatering or pest infestation. These crops can be used as fertilizer or disposed of by burial.",0,item-icon-175,175,Decaying Crop,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-This stylish hat is perfect for any adventurer, providing extra protection from the elements without sacrificing style. Its wide brim and adjustable strap ensure a comfortable fit, making it a must-have accessory for any outdoor excursion.Crafted with durable materials, this hat is designed to withstand the toughest conditions. Its lightweight construction and breathable fabric keep you cool and protected during long hours of exploration. With its practical design and fashionable look, the Gathering Hat is a must-have for any seasoned adventurer.",0,item-icon-116,116,Gathering Hat,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-These gloves are designed for avid collectors, allowing them to easily gather various resources without getting their hands dirty. With a comfortable fit and durable material, they provide a reliable grip and protect against sharp edges. Whether it's picking herbs or mining ores, these gloves are a must-have for any dedicated gatherer.",0,item-icon-126,126,Gathering Gloves,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-These gloves are designed for avid gatherers, providing enhanced grip and dexterity. They are made from durable materials that protect your hands from thorns and sharp edges, allowing you to gather resources with ease and efficiency. With these gloves, you'll never have to worry about blisters or cuts again.",0,item-icon-125,125,Gathering Gloves,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-These pants are designed for avid adventurers, providing comfort and flexibility during long journeys. With reinforced stitching and durable fabric, they are perfect for gathering resources in the wilderness. Stay agile and focused with these essential pants for any dedicated explorer.",0,item-icon-122,122,Gathering Pants,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-These pants are designed for avid adventurers, providing comfort and flexibility during long journeys. Crafted with durable materials, they offer excellent protection against the elements without sacrificing mobility. Perfect for those who seek to gather resources efficiently while exploring the vast landscapes of the game.",0,item-icon-124,124,Gathering Pants,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-These pants are perfect for gathering resources in the game, providing extra storage space and durability. They are designed with reinforced stitching and multiple pockets, allowing players to easily carry and collect various materials without worrying about wear and tear.",0,item-icon-123,123,Gathering Pants,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-These gloves are designed for avid gatherers, providing enhanced dexterity and grip. They are made from a durable material that offers protection against thorns and sharp objects. With these gloves, you can gather resources with ease and efficiency.",0,item-icon-127,127,Gathering Gloves,1440,"1,2,3",351,1,0,3,999,0,1,3,1
-"794,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-A practical jacket designed for adventurers, providing excellent protection against the elements. Its durable fabric and reinforced stitching make it ideal for long journeys and outdoor activities. Stay warm and comfortable without sacrificing mobility with this essential piece of gear.",0,item-icon-121,121,Gathering Jacket,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-A practical jacket designed for adventurers, providing excellent protection against the elements. Its durable fabric and reinforced stitching make it ideal for long journeys and outdoor exploration. With multiple pockets and adjustable straps, it offers convenience and functionality for any outdoor enthusiast.",0,item-icon-120,120,Gathering Jacket,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-A durable jacket designed for outdoor adventures, providing excellent protection against the elements. Its lightweight and breathable fabric ensures comfort during long hours of exploration. With multiple pockets and reinforced stitching, it's the perfect companion for any avid adventurer.",0,item-icon-119,119,Gathering Jacket,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-A stylish hat that enhances your gathering abilities, making it easier to collect resources in the game.A practical accessory that boosts your gathering efficiency, allowing you to gather materials faster and more efficiently.",0,item-icon-118,118,Gathering Hat,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Increase the drop probability of collecting higher-level resources
--------
-A stylish hat that enhances your gathering abilities, allowing you to collect resources more efficiently. Its unique design provides comfort and protection, making it a must-have accessory for any dedicated gatherer.A practical hat designed specifically for gathering tasks. Its lightweight and breathable material keeps you cool and focused during long hours of gathering. ",0,item-icon-117,117,Gathering Hat,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Make your crops less prone to withering
--------
-These agricultural shoes are designed specifically for agricultural workers. They feature non-slip, wear-resistant, and breathable characteristics, which can protect the feet and improve work efficiency.",0,item-icon-112,112,Farming Shoes,1440,"1,2,3",204,1,0,1,999,0,1,3,1
-"793,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Make your crops less prone to withering
--------
-This agricultural shoe is designed specifically for farming activities such as plowing and planting. It is made from high-quality materials that are durable, breathable, and comfortable, providing protection for the feet of farmers.",0,item-icon-111,111,Farming Shoes,1440,"1,2",195,1,0,1,999,0,1,2,1
-"792,1",4,1,"You can obtain this item through synthesis.
-When equipped, it can enhance attributes. Make your crops less prone to withering
--------
-This agricultural shoe is made of high-quality materials, lightweight and comfortable, suitable for long-term wear. The sole is non-slip and suitable for various agricultural fields, making your work easier.",0,item-icon-110,110,Farming Shoes,1440,1,186,1,0,1,999,0,1,1,1
-"792,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-Pet feed is a consumable item that is suitable for level 0 pets, and can increase the pet's satiety and growth value. It is made from natural plants and nutrients, with a refreshing taste and easy digestion and absorption. Each pack of pet feed is lightweight and easy to carry, making it a must-have item for pet owners.",27,item-icon-28,28,Feed - Small,0,1,434,1,0,1,"1,0",0,3,0,1
-"792,1","1,3,4",1,"You can obtain this item through synthesis.
-Using it can trigger special effects.
--------
-Animal feed is a consumable product that provides the necessary nutrients for animals to maintain healthy growth. It is suitable for various livestock and pets, and can increase their productivity and lifespan.",27,item-icon-29,29,Feed - Big,0,1,435,1,0,1,"1,0",0,3,0,1
 -,"1,3,4",0,"Farming EXP is an experience value in the game that can be obtained through agricultural activities such as planting crops and raising animals. It is a key factor in improving agricultural skills and levels, and is also a necessary condition for unlocking higher-level agricultural tools and equipment.",0,item-icon-188,188,Farming EXP,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0,"Combat EXP refers to the experience gained in battles. It can help players level up and improve their skills, enhancing their character's abilities. In many games, Combat EXP is one of the important ways for players to improve their strength.",0,item-icon-189,189,Combat EXP,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0,"Gathering EXP is a key resource in the game, playing a vital role in boosting resource collection efficiency and character capabilities. Players accumulate experience through activities such as logging and mining to increase gathering skill levels. Skill levels determine collection speed, rare resource acquisition probability, and unlocking of higher-level skills. As the game progresses, character needs become more complex, making high gathering skills essential for support. Additionally, elevated gathering experience also contributes to enhanced attack abilities. Players should continuously learn skills and improve gathering experience to bravely face challenges and rise among the strongest",0,item-icon-190,190,Gathering EXP,0,1,,0,0,"1,2,3",999,0,4,0,0

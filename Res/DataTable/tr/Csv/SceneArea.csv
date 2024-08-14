@@ -1,5 +1,5 @@
 canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-string,refreshRatio-int[],reputationRequaireScore-int,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,worldDropProbability-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,dropRewardShow-int[],name-string,punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],seedMaxLimit-int[],uniqueSeed-int[]
-0,0,10001,0,"0,999",HomeSceneLoading.jpg,"7500,9000,9000,9000,7500,7500,7500,7500,7500,7500",0,0,0,WorldScene,1,1,0,1850,,,,,,,,,,,,,,Boş,Boş,,,,,,
+0,0,10001,0,"0,999",HomeSceneLoading.jpg,"7000,7000,7000,7000,7000,7000,7000,7000,7000,7000",0,0,0,WorldScene,1,1,0,1850,,,,,,,,,,,,,,Boş,Boş,,,,,,
 0,0,10002,0,"0,999",HomeSceneLoading.jpg,,0,0,0,HomeScene,1,2,0,10000,3,,,,,,,,,,,,, Boş, Boş,,,,,,
 0,0,10003,0,"0,999",HomeSceneLoading.jpg,,0,0,0,WorldScene02,1,1,0,10000,,,,,,,,,,,,,, Boş, Boş,,,,,,
 0,160,20000,1,"0,3",DungeonSceneLoading_1_3.jpg,,100,0,3,DungeonSceneLv1-3,1,3,2,10000,1,"10000,20000,30000","55,0,54",2,"58,59,60","16,17;16,17;16,17","61,62,63","30,60,120","3500,13500;3500,13500;3500,13500","120,190,400","Chapter 1/3,Chapter 2/3,Chapter 3/3","Nestled within the lush foliage of the jungle, it's like a miracle on the earth. Its rocky peaks resemble a row of sharp sword blades, yet they also resemble petals.",185, Çiçek Zirvesi," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0;0,"0,1440","468,1",,,
@@ -81,7 +81,7 @@ Rules Overview
 - Three Types of Gates:
  - Challenge Gate: For the brave, this gate leads to the next level of adventure.
  - Escape Gate: Exit the dungeon and forfeit any unsettled Token rewards.
- - Settlement Gate: Settle and collect Token rewards at a certain ratio.",172,Junior Arena - Mini ," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0,"0,0","934,1","8,24",,
+ - Settlement Gate: Settle and collect Token rewards at a certain ratio.",172,Junior Arena - Mini ," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0,"1200,1320;720,840","934,1","8,24",,
 0,0,23002,0,"5,7",PVPDungeonSceneLoading_4_6.jpg,,0,1,0,PVPDungeonSceneLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","Rewards
 - Defeating Monsters or Gathering: Players will receive Token rewards invested by totems.
 - Eliminating Other Players: Players can claim the unsettled LUASUD rewards of their defeated opponents.
@@ -92,7 +92,7 @@ Rules Overview
 - Three Types of Gates:
  - Challenge Gate: For the brave, this gate leads to the next level of adventure.
  - Escape Gate: Exit the dungeon and forfeit any unsettled Token rewards.
- - Settlement Gate: Settle and collect Token rewards at a certain ratio.",173, Intermediate Arena - Mini ," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0,"0,0","935,1","8,24",,
+ - Settlement Gate: Settle and collect Token rewards at a certain ratio.",173, Intermediate Arena - Mini ," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0,"1200,1320;720,840","935,1","8,24",,
 0,0,23003,0,"8,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,0,PVPDungeonSceneLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","Rewards
 - Defeating Monsters or Gathering: Players will receive Token rewards invested by totems.
 - Eliminating Other Players: Players can claim the unsettled LUASUD rewards of their defeated opponents.
@@ -103,7 +103,7 @@ Rules Overview
 - Three Types of Gates:
  - Challenge Gate: For the brave, this gate leads to the next level of adventure.
  - Escape Gate: Exit the dungeon and forfeit any unsettled Token rewards.
- - Settlement Gate: Settle and collect Token rewards at a certain ratio.",174, Advanced Arena - Mini," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0,"0,0","936,1","8,24",,
+ - Settlement Gate: Settle and collect Token rewards at a certain ratio.",174, Advanced Arena - Mini," Öldüğünüzde, sırt çantanızdaki eşyaları düşürme şansı var.",0;0,"1200,1320;720,840","936,1","8,24",,
 0,0,30001,0,"1,9",DungeonSceneLoading_1_3.jpg,,100000,0,1,DailyDungeon,1,3,2,10000,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","120,90,90,90,90,90,90,90,90","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9","Daily Challenge - The Daily challenge copy is divided into nine layers, each layer corresponds to each level of monsters, after completing the challenge will get the level reward, death will not have any drop, copy tickets from the daily quest",, Günlük Meydan Okuma, Ölüm Cezası Yok,0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
 0,0,30002,0,"1,9",PVPDungeonSceneLoading_4_6.jpg,,0,1,1,PVPTrainingDungeon,2,3,2,2500,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1800","Matching,Challenging","PVEP Training Ground - Support 12-24 player battles, death will not have any drops, tickets from daily missions",, Eğitim Alanı, Ölüm Cezası Yok,0;0,"0,1440","733,1","8,24",,
 0,160,40001,1,"0,3",HomeSceneLoading.jpg,,100,0,3,GatherDungeon1-3,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"159,160,161","22,18,19;18,19;18,19","178,179,180","28,56,112","0,0;0,0;0,0","120,190,400","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","The challengers who complete the challenge will have the opportunity to receive a medal reward.

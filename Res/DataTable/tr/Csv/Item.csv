@@ -1,4 +1,12 @@
 boothFees-int[][],canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,onChainDelay-int,quality-int[],resourceInstructions-int[],sellable-bool,subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int
+"792,1","1,3,4",1,"Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir eşyadır ve evcil hayvanın tokluğunu ve büyüme değerini artırabilir. Doğal bitkiler ve besin maddelerinden yapılmış olup, ferahlatıcı bir tat ve kolay sindirilebilirlik ve emilim sağlar. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir eşyadır.",27,item-icon-28,28,Küçük Yem,0,1,434,1,0,1,"1,0",0,3,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanıldığında özel efektler tetikleyebilir.
+-------
+Hayvan yemi, hayvanların sağlıklı büyümesini sürdürebilmeleri için gerekli besin maddelerini sağlayan bir tüketilebilir üründür. Çeşitli çiftlik hayvanları ve evcil hayvanlar için uygun olup, verimliliklerini ve ömürlerini artırabilir.",27,item-icon-29,29, Büyük Yem,0,1,435,1,0,1,"1,0",0,3,0,1
 "792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüştü.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
@@ -38,6 +46,10 @@ Bu, savaşlarda elde edilebilen nadir bir ham maddedir. Buz ve kar gibi görün�
 "792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman takıldığında özellikleri artırabilir. Savaşlarda hayatta kalma olasılığını artırır
 -------
+Hızlı ve kesin darbeler için tasarlanmış sağlam bir ahşap silah, başlangıç seviyesindeki oyuncular için mükemmel. Hafif tasarımı çevik hareketlere izin verir, çok yönlü ve güvenilir bir silah arayanlar için ideal bir seçimdir.",0,item-icon-39,39, Ahşap Kılıç,1440,1,256,0,0,2,999,0,1,0,1
+"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman takıldığında özellikleri artırabilir. Savaşlarda hayatta kalma olasılığını artırır
+-------
 Katı taştan yapılmış keskin ve sağlam bir silah, yakın dövüş için mükemmel. Ağırlığı ve denge noktası onu kullanmayı kolaylaştırır, hassas ve güçlü darbeler sağlar.",0,item-icon-40,40, Taş Kılıç,1,1,264,1,0,2,999,0,1,1,1
 "793,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman takıldığında özellikleri artırabilir. Savaşlarda hayatta kalma olasılığını artırır
@@ -47,10 +59,6 @@ Demirden yapılmış keskin ve sağlam bir silah, düşmanları kolayca dilimley
 Ekipman takıldığında özellikleri artırabilir. Savaşlarda hayatta kalma olasılığını artırır
 -------
 Saf kristalden yapılmış güçlü bir silah, düşmanları kolayca dilimleyebilir. Parıldayan kılıç ışığı yansıtır, rakipleri büyüler ve kalplerine korku salar. Her sallantıda, Kristal Kılıç hız ve hassasiyetin ölümcül bir kombinasyonunu serbest bırakır.",0,item-icon-42,42, Kristal Kılıç,1440,"1,2,3",280,1,0,2,999,0,1,3,1
-"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
-Ekipman takıldığında özellikleri artırabilir. Savaşlarda hayatta kalma olasılığını artırır
--------
-Hızlı ve kesin darbeler için tasarlanmış sağlam bir ahşap silah, başlangıç seviyesindeki oyuncular için mükemmel. Hafif tasarımı çevik hareketlere izin verir, çok yönlü ve güvenilir bir silah arayanlar için ideal bir seçimdir.",0,item-icon-39,39, Ahşap Kılıç,1440,1,256,0,0,2,999,0,1,0,1
 "792,1",4,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipman takıldığında özellikleri artırabilir. Savaşlarda hayatta kalma olasılığını artırır
 -------
@@ -121,6 +129,10 @@ Ekipman veya eşya yapımında kullanılabilir.
 Kara demir cevheri, madencilik yoluyla elde edilebilen ikincil bir ham maddedir. Siyah renkte, sert bir dokuya sahiptir ve bol miktarda demir elementi içerir.",0,item-icon-59,59, Koyu Demir,0,1,71,1,0,3,2,1,4,2,1
 "794,1","1,3,4",1," Birisi bu malzemeyi Kar Dağı'nda bir zamanlar görmüştü.
 Ekipman veya e",0,item-icon-60,60, Kırmızı Kristal Cevheri,0,1,73,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
+Ekipman veya eşyalar yapmak için kullanılabilir.
+-------
+Kil, genellikle seramik, tuğla ve diğer inşaat malzemeleri yapmak için kullanılan çok şekillendirilebilir bir topraktır. Tipik olarak gri-kahverengi veya kırmızı-kahverengi tonlarda gelir ve yüksek organik madde ve minerallerin yoğunluğuna sahip ince bir dokuya sahiptir. Kil toplarken, toprağın şekillendirme ve işleme için daha iyi olması için nemli tutulması önemlidir.",0,item-icon-61,61, Kil,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1,"Birisi bir zamanlar bu malzemeyi deniz kenarında gördü.
 Ekipman veya eşyaları yapmak için kullanılabilir.
 -------
@@ -133,6 +145,26 @@ Ekipman veya eşyaları üretmek için kullanılabilir.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
 Koyu ahşap, siyah dokulara sahip ve sert bir dokuya sahip birinci sınıf bir ahşap türüdür. Yüksek kaliteli mobilya ve el sanatları yapımı için uygundur. Belirli toplama noktalarında sadece hasat edilebilir, bu zorlu ancak çok karlı bir işlemdir.",0,item-icon-64,64, Koyu Ahşap,0,1,55,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
+Ekipman veya eşyalar yapmak için kullanılabilir.
+-------
+Bu reçine, yapıştırıcılar, kaplamalar, sızdırmazlık maddeleri ve diğer şeyler yapmak için kullanılabilen oldukça viskoz bir sıvıdır. Genellikle ağaçlardan toplanır ve toplama için özel araçlara ihtiyaç duyar.",0,item-icon-65,65, Reçine,0,1,,1,0,3,999,1,4,1,1
+"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
+Ekipman veya eşyalar yapmak için kullanılabilir.
+-------
+Bu bitki lifi, genellikle ağaçlardan elde edilen toplanmış bir hammadde olup, halatlar, kumaşlar ve kağıt gibi çeşitli ürünler yapmak için kullanılabilir.",0,item-icon-66,66, Bitki Lifleri,0,1,31,1,0,3,"1,0",1,4,1,1
+"793,1","1,3,4",1," Birisi bu malzemeyi Kar Dağı'nda görmüş.
+Ekipman veya eşyalar yapmak için kullanılabilir.
+-------
+Bu mantarlar soğuk kutup bölgelerinde büyür ve açık mavi renge sahiptir. Lezzetli bir tada sahiptir ve pişirmek için uygundur.",0,item-icon-67,67, Donmuş Mantar,0,1,33,1,0,3,2,1,4,2,1
+"794,1","1,3,4",1," Birisi bu malzemeyi kanyonda görmüş.
+Ekipman veya eşyalar yapmak için kullanılabilir.
+-------
+Vahşi doğada büyüyen, güçlü kuraklık direncine sahip çok yıllık otsu bir bitkidir. Kalın yaprakları bol su ve besin maddeleri içerir, bu da onu alkollü içecekler ve ilaç yapımında önemli bir hammadde yapar.",0,item-icon-68,68, Maguey,0,1,35,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
+Ekipman veya eşyalar yapmak için kullanılabilir.
+-------
+Bu örümcek ağı seviye 1'dir ve ormanda toplanabilir. Çeşitli eşyalar yapmak için kullanılabilen bir hammadde.",0,item-icon-69,69, Örümcek Ağı,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1," Bu tür materyali ekim yoluyla elde edebilirsiniz.
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
@@ -233,6 +265,18 @@ Bu balta, ağaçları toplamak için ulaşılan 2. seviyede keskinliğe ulaşmı
 Ekipmanınızda kullanıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırır
 -------
 Kutsal Balta, her türlü engeli kolayca yarabilen, kutsal bereketlerle donatılmış güçlü bir silahtır. Keskin kılıcı kutsal bir ışıkla parlar, düşmanların kalplerine korku salar. Kutsal Balta, savaş alanında güç ve doğruluğun gerçek bir sembolüdür.",0,item-icon-94,94, Kutsal Balta,1440,"1,2,3",348,1,0,3,999,0,1,3,1
+"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
+-------
+Bu makas, çiftçilere yünleri hızlı ve kolay bir şekilde kesebilmelerine yardımcı olabilir, kesme verimliliğini artırır. Farklı türdeki koyunlar için uygundur. ",0,item-icon-95,95, Fırça,1440,1,177,0,0,1,999,0,1,0,1
+"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
+-------
+Çiftçilerin ineklerden verimli bir şekilde süt çıkarmalarına yardımcı olan elde taşınabilir bir cihaz. Rahat bir kavrama ve düzgün ve nazik bir sağım süreci sağlayan bir emiş mekanizmasına sahiptir. ",0,item-icon-96,96, Saç Kesme Makinesi,1440,1,178,0,0,1,999,0,1,0,1
+"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
+Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
+-------
+Bu şık şapka, sahibine şans getirir ve her kıyafete bir cazibe katar. Canlı renkleri ve karmaşık tasarımı, modaya uygun oyuncular için vazgeçilmez bir aksesuar yapar. Giyin ve şans sizinle olsun! ",0,item-icon-97,97, Sağım Makinesi,1440,1,179,0,0,1,999,0,1,0,1
 "792,1",4,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Ekipmanınızda kullanıldığında özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
 -------
@@ -275,6 +319,11 @@ Ekipman edildiğinde özellikleri artırabilir. Daha yüksek seviye kaynakları 
 Bu eldiv",0,item-icon-107,107, Tarım Eldiveni,1440,1,183,1,0,1,999,0,1,1,1
 "793,1",4,1,,0,item-icon-108,108, Tarım Eldiveni,1440,"1,2",192,1,0,1,999,0,1,2,1
 "794,1",4,1,,0,item-icon-109,109, Tarım Eldiveni,1440,"1,2,3",201,1,0,1,999,0,1,3,1
+"792,1",4,1,,0,item-icon-110,110, Tarım Ayakkabısı,1440,1,186,1,0,1,999,0,1,1,1
+"793,1",4,1,,0,item-icon-111,111, Tarım Ayakkabısı,1440,"1,2",195,1,0,1,999,0,1,2,1
+"794,1",4,1,"Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Tarlalarınızın solmasını önleyebilirsiniz.
+-------
+Bu tarımsal ayakkabılar özellikle tarım işçileri için tasarlanmıştır. Kaymaz, aşınmaya dayanıklı ve nefes alabilir özelliklere sahiptir, bu da ayakları korur ve iş verimliliğini artırır. ",0,item-icon-112,112, Tarım Ayakkabısı,1440,"1,2,3",204,1,0,1,999,0,1,3,1
 "792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
 -------
 Bu toplama ayakkabıları özellikle toplama için tasarlanmıştır. Giyildiğinde ormanda yürürken daha çevik olmanızı sağlar ve ihtiyacınız olan kaynakları kolayca toplamanıza yardımcı olur. ",0,item-icon-113,113, Toplama Ayakkabısı,1440,1,337,1,0,3,999,0,1,1,1
@@ -284,6 +333,76 @@ Bu toplama ayakkabıları özellikle toplama için tasarlanmıştır. Kaynaklar�
 "794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
 -------
 Bu ayakkabılar uzun keşif gezileri sırasında artan çeviklik ve konfor sağlayan tutkulu toplayıcılar için tasarlanmıştır. Dayanıklı ancak hafif yapısıyla oyuncuların çeşitli arazilerde kolayca dolaşmalarını ve kaynakları kolayca toplamalarını sağlar. Ayakkabılar ayrıca kararlılığı sağlayan özel bir tutuşa sahiptir, bu da kayganlık ve düşmeleri önler, hatta tehlikeli ortamlarda bile. ",0,item-icon-115,115, Toplama Ayakkabısı,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu şık şapka, her maceracı için mükemmel bir seçenektir, tarzdan ödün vermeden hava koşullarına karşı ekstra koruma sağlar. Geniş kenarı ve ayarlanabilir kayışıyla rahat bir uyum sağlar, her türlü dış mekân etkinliği için vazgeçilmez bir aksesuardır. Dayanıklı malzemelerle üretilen bu şapka, en zorlu koşullara dayanacak şekilde tasarlanmıştır. Hafif yapısı ve nefes alabilir kumaşı, uzun keşif saatlerinde sizi serin ve korumalı tutar. Pratik tasarımı ve modaya uygun görünümüyle, Toplama Şapka, deneyimli her maceracı için olmazsa olmazdır. ",0,item-icon-116,116, Toplama Şapkası,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Toplama yeteneklerinizi artıran şık bir şapka, kaynakları daha verimli bir şekilde toplamanıza olanak tanır. Benzersiz tasarımı konfor ve koruma sağlar, sadık bir toplayıcı için olmazsa olmaz bir aksesuardır. Toplama görevleri için özel olarak tasarlanmış pratik bir şapka. Hafif ve nefes alabilir malzemesi, uzun saatler boyunca toplama yaparken serin ve odaklı kalmanızı sağlar.  ",0,item-icon-117,117, Toplama Şapkası,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Olağanüstü koruma sağlayan dayanıklı bir ceket, dış etkilere karşı mükemmel koruma sağlar. Hafif ve nefes alabilir kumaşı, uzun keşif saatlerinde konfor sağlar. Çeşitli cepleri ve güçlendirilmiş dikişleriyle, her tutkulu maceracının mükemmel arkadaşıdır. ",0,item-icon-118,118, Toplama Şapkası,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Maceralar için tasarlanmış pratik bir ceket, dış etkilere karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri, uzun yolculuklar ve dış mekân keşifleri için idealdir. Çeşitli cepleri ve ayarlanabilir kayışlarıyla, her dış mekân tutkunu için kullanışlılık ve işlevsellik sunar. ",0,item-icon-119,119, Toplama Ceketi,1440,1,335,1,0,3,999,0,1,1,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Maceralar için tasarlanmış pratik bir ceket, dış etkilere karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri, uzun yolculuklar ve dış mekân etkinlikleri için idealdir. Bu temel parça ile sıcak ve rahat kalın, hareket kabiliyetinizden ödün vermeden. ",0,item-icon-120,120, Toplama Ceketi,1440,"1,2",344,1,0,3,999,0,1,2,1
+"794,1",4,1,"Bu eşyayı sentez yoluyla elde edebilirsiniz. Takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilirsiniz.
+
+---
+Maceracılar için tasarlanmış pratik bir ceket, doğa koşullarına karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri uzun yolculuklar ve açık hava etkinlikleri için ideal hale getirir. Bu temel ekipman parçasıyla hareket kabiliyetinizden ödün vermeden sıcak ve rahat kalın.
+
+---
+Avcılar için tasarlanmış pratik bir ceket, doğa koşullarına karşı mükemmel koruma sağlar. Hafif ve nefes alabilir kumaşı uzun süreli keşifler sırasında konfor sağlar. Çoklu cepleri ve ayarlanabilir kayışlarıyla her açık hava tutkunu için kullanışlılık ve işlevsellik sunar.
+
+---
+Toplayıcı yeteneklerinizi artıran şık bir şapka, oyun içinde kaynakları toplamayı kolaylaştırır. Toplama verimliliğinizi artıran pratik bir aksesuar, malzemeleri daha hızlı ve verimli bir şekilde toplamanıza olanak tanır.
+
+---
+Bu tarım ayakkabıları özel olarak tarım işçileri için tasarlanmıştır. Kaymaz, aşınmaya dayanıklı ve nefes alabilir özelliklere sahiptir, ayakları korur ve iş verimliliğini artırır.
+
+---
+Bu güçlü araç sağlam taştan yapılmıştır, son derece dayanıklıdır ve sert engelleri kırmak için mükemmeldir. Ağırlıklı kafası tatmin edici bir darbe sağlar, maceracılar ve yapı ustaları arasında favori bir seçimdir.
+
+---
+Keskin bir taş orak, sert taştan yapılmış bir oraktır. Bıçağı keskindir ve çeşitli bitkileri kolayca keser. Taş orak sapı dikkatle tasarlanmış olup, rahat bir kavrama ve stabil ve esnek kullanım sağlar. Taş malzemesi dayanıklıdır ve paslanmaya karşı dayanıklıdır, dış mekan kullanımı için uygundur. Çimleri düzeltmek veya mahsulleri hasat etmek olsun, taş orak pratik bir araçtır.
+
+---
+Bakır orak, saf bakırdan yapılmış bir tarım aracıdır, kavisli bir bıçağa ve sağlam bir kolu vardır. Keskin ve dayanıklı bıçağı, mahsulleri ve otları kesmek için uygundur. Bakır malzeme orağı daha sağlam ve paslanmaya karşı dayanıklı hale getirir. İnce bir şekilde tasarlanmış, tutması rahat ve kullanımı kolaydır. Bakır orak, çiftçiler için vazgeçilmez bir iş aracıdır, tarlalarda hasatı tamamlamalarına yardımcı olur. Tarlada veya çiftlikte olsun, bakır orak pratikliğini ve dayanıklılığını gösterir.
+
+---
+Demir orak, yüksek kaliteli demirden yapılmış sağlam ve dayanıklı bir araçtır. Bıçağı keskindir ve otları kesmek, mahsulleri hasat etmek ve diğer tarım işleri için uygundur. Orakın kavisli tasarımı kullanıcıların mahsulleri kolayca kesmelerine ve iş verimliliğini artırmalarına olanak tanır. Sapı rahat bir kavrama ve stabil kullanım için dikkatle tasarlanmıştır. Tarım işi veya bahçe budama olsun, demir orak vazgeçilmez bir araçtır.
+
+---
+Kristal Orak, saf kristalden yapılmış, büyüleyici bir ışık yayan bir silahtır. Orak bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Sapı zarif gümüş desenlerle süslenmiştir, soyluluk ve gizem hissi verir. Kristal Orak'ı tutmak, doğanın gücünü kontrol edebiliyormuş gibi hissettirir, sınırsız enerjiyi serbest bırakarak savaşta yenilmez bir varlık haline gelmenizi sağlar. Savaşçı olsun ya da büyücü, hepsi bu eşsiz silaha sahip olmayı ve muazzam güçlerini sergilemeyi arzular.
+
+---
+Altın orak, altın ışığıyla parlayan, inanılmaz keskin, orak bıçağı değerli altınla kaplı, lüks bir hava yayar. Orak bıçağı kavislidir, mahsulleri hasat etmek için mükemmeldir. Bir sallanışta, altın gibi bolluk getirir. Sapı titizlikle oymalı, muhteşem ve rahattır, elinizde tutmak sonsuz güce sahip gibi hissettirir. Bir süs veya pratik araç olarak, altın orak benzersiz ve lüks bir seçimdir.
+
+---
+Elmas Orak, saf elmasla yapılmış, büyüleyici bir ışık yayan, zarif ve muhteşem bir silahtır. Orak bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Sapı karmaşık bir şekilde tasarlanmış, rahat bir kavrama sağlar, savaşta daha fazla çeviklik ve kolaylık sağlar. Elmas Orak, sadece güçlü saldırı gücüne sahip olmakla kalmaz, aynı zamanda benzersiz büyülü özelliklere de sahiptir, ölümcül enerji dalgalarını serbest bırakabilir, düşmanları kaçacak yer bırakmaz. Savaşta veya sergide, Elmas Orak dikkat çeken dikkat çeken bir hazine.
+
+---
+Yıldızlı Orak, yıldız ışığıyla parlayan, bıçağında sayısız parlak yıldız bulunan, gizemli bir ışıma yayan bir oraktır. Bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Orak sapı zarif takımyıldız desenleriyle oymalıdır, ilahi ve ciddi bir hava verir. Yıldızlı Orak'ı kullanmak, yıldızların gücünü kullanmak gibi hissettirir, sonsuz güç ve şan hissi verir. Savaşta veya törende mükemmel bir seçimdir.",0,item-icon-121,121, Toplama Ceketi,1440,"1,2,3",353,1,0,3,999,0,1,3,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu pantolonlar, oyunda kaynak toplamak için mükemmel olup ek depolama alanı ve dayanıklılık sağlar. Güçlendirilmiş dikişler ve çeşitli ceplerle tasarlanmıştır, oyuncuların çeşitli malzemeleri kolayca taşımasına ve toplamasına olanak tanır. ",0,item-icon-122,122, Toplama Pantolonu,1440,1,336,1,0,3,999,0,1,1,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu pantolonlar, uzun yolculuklar sırasında konfor ve esneklik sağlayan tutkulu maceracılar için tasarlanmıştır. Dayanıklı malzemelerle üretilmiş olup hareket kabiliyetini korurken dış etkilere karşı mükemmel koruma sağlar. Oyunun geniş manzaralarını keşfederken kaynakları verimli bir şekilde toplamak isteyenler için mükemmeldir. ",0,item-icon-123,123, Toplama Pantolonu,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu eldivenler, tutkulu toplayıcılar için geliştirilmiş kavrama ve çeviklik sağlar. Dikenlerden ve keskin kenarlardan ellerinizi koruyan dayanıklı malzemelerden yapılmıştır, böylece kaynakları kolaylıkla ve verimli bir şekilde toplayabilirsiniz. Bu eldivenlerle artık su toplama veya kesiklerle uğraşmanıza gerek kalmaz. ",0,item-icon-124,124, Toplama Pantolonu,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu eldivenler, tutkulu toplayıcılar için tasarlanmış olup ellerinizi kirletmeden çeşitli kaynakları kolayca toplamanıza olanak tanır. Rahat bir uyum ve dayanıklı malzeme ile güvenilir bir kavrama sağlar, keskin kenarlara karşı koruma sağlar. Otlar toplamak veya maden çıkarmak olsun, bu eldivenler her sadık toplayıcı için olmazsa olmazdır. ",0,item-icon-125,125, Toplama Eldiveni,1440,1,333,1,0,3,999,0,1,1,1
+"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
+-------
+Bu eldivenler, tutkulu toplayıcılar için geliştirilmiş çeviklik ve kavrama sağlar. Dikenlerden ve keskin nesnelerden koruma sağlayan dayanıklı bir malzemeden yapılmıştır. Bu eldivenlerle kaynakları kolaylıkla ve verimli bir şekilde toplayabilirsiniz. ",0,item-icon-126,126, Toplama Eldiveni,1440,"1,2",342,1,0,3,999,0,1,2,1
+"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Özel efektleri tetikleyebilir.
+-------
+Bu güçlü formülle bitkilerinizi hızla büyütün, kısa sürede verimli bir hasat elde edin. Tarım verimliliğinizi artırın ve bitkilerinizin bu güçlü gübre ile gelişmesini izleyin. ",0,item-icon-127,127, Toplama Eldiveni,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1,"Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Kullanarak özel etkileri tetikleyebilirsiniz.
 -------
@@ -394,6 +513,18 @@ Kristalleşmiş Savunma İksiri",0,1,,1,0,1,999,0,3,0,1
 Kullanarak özel etkileri tetikleyebilirsiniz.
 -------
 Bu besin açısından zengin formül bitkileri derinlemesine besleyerek sağlıklı büyümelerini ve canlı çiçeklenmelerini teşvik eder. Toprağın nem tutma kapasitesini artırarak bitkilerin daha uzun süre nemli kalmasını sağlar. Bahçenizin canlılığını bu temel gübre ile artırın.",98,item-icon-130,130,Nemlendirici Gübre,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu güçlü gübre, bitki büyümesini artırır ve verimi artırır, mahsullerin rekor sürede gelişmesine olanak tanır. Temel besin maddeleri sağlar ve güçlü kök gelişimini teşvik eder, daha sağlıklı ve daha bol hasatlar elde etmenizi sağlar. Bu gelişmiş formülle hiç olmadığı kadar hızlı büyüme deneyimleyin.",98,item-icon-131,131, Gelişmiş Hızlandırılmış Gübre,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu güçlü gübre, mahsul verimini önemli ölçüde artırır, bollukla dolu hasatlar sağlar. Bitki büyümesini artırır ve besin emilimini maksimize eder, daha sağlıklı ve daha güçlü mahsuller sağlar. Bu gelişmiş gübre ile çiftçiler, tarımsal üretimlerinde etkileyici iyileştirmeler bekleyebilir.",98,item-icon-132,132, Gelişmiş Verim Artırıcı Gübre,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu gübre, bitkilere derin nemlendirme ve besleme sağlamak üzere özel olarak formüle edilmiştir, daha sağlıklı ve daha canlı büyümeye neden olur. Gelişmiş formülü, topraktaki optimal nem tutma sağlar, güçlü kökler ve yoğun yapraklar teşvik eder. Bitkilerinize bu gelişmiş nemlendirici gübre ile en üst düzey nemlendirme desteğini verin.",98,item-icon-133,133, Gelişmiş Nemlendirici Gübre,0,1,,1,0,1,999,0,3,0,1
 "792,1","1,3,4",1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
 Kullanarak özel etkileri tetikleyebilirsiniz.
 -------
@@ -418,6 +549,30 @@ Bu iksir oyun içinde bir can simidi olup, karakterinizin sağlığını önemli
 Kullanarak özel efektler tetikleyebilirsiniz.
 -------
 Bu iksir, savaşta acil durumlar için uygun geçici bir savunma etkisi sağlayabilir.",0,item-icon-139,139, İkincil Savunma İksiri,0,1,56,1,0,2,"1,0",0,3,1,1
+"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir savaşta kullanılabilir ve yaralarınızı iyileştirebilir.",0,item-icon-140,140, Tedavi İksiri,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir, savaş yeteneklerinizi artırır, sınırlı bir süre için saldırı gücünüzü artırır. Düşmanlarınıza yıkıcı darbeler indirmek isteyen her maceracı için vazgeçilmezdir. Akıllıca kullanın ve düşmanlarınızın önünde titremesini izleyin.",0,item-icon-141,141, Saldırı İksiri,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir hızınızı artırır, size hızlı hareket etme ve saldırılardan kolayca kaçma imkanı sağlar. Savaşlarda avantaj elde etmek isteyen her maceracı için vazgeçilmezdir.",0,item-icon-142,142, Hız İksiri,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir savaş yeteneklerinizi artırır, düşmanlarınıza yıkıcı darbeler indirme şansınızı artırır. Eleştiri oranınızı artırarak savaşlarda büyük hasarlar vermenizi sağlar. Bu iksirle zafer sizin olabilir.",0,item-icon-143,143, Kritik Vuruş İksiri,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Bu iksir sağlık puanlarınızı geri kazandırabilir. Savaş sırasında kullanıldığında daha etkili çalışır.",0,item-icon-144,144, Can İksiri,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
+Kullanarak özel efektler tetikleyebilirsiniz.
+-------
+Düşman saldırılarına karşı geçici bir kalkan sağlayan savunma yeteneklerinizi artıran güçlü bir iksir. Bu iksir zırhınızı ve dayanıklılığınızı artırır, en zorlu savaşlara bile dayanmanızı sağlar. Akıllıca kullanarak dengeleri lehinize çevirin ve zaferle çıkın.",0,item-icon-145,145, Savunma İksiri,0,1,58,1,0,2,2,0,3,2,1
 -,"1,3,4",1," Aynı seviyedeki malzemeleri toplamak ek tohumlar elde etmenize neden olabilir, Aynı seviyedeki canavarları öldürmek bu eşyayı elde etmenize neden olabilir.
 Kullanarak özel efektler tetikleyebilirsiniz.
 -------
@@ -454,66 +609,6 @@ Güçlü bir dış kabuğa sahip dayanıklı bir tohum, koruma ve uzun ömürlü
 Kullanarak özel efektler tetikleyebilirsiniz.
 -------
 Bu tohum, canlı bir mavi mantarın vaadini taşır, bahçenize renk katacak şekilde büyümeye hazırdır. Ekim yapın ve büyüyüp sizi büyüleyecek bir mantar haline gelmesini izleyin.",97,item-icon-154,154, Mavi Mantar Tohumu,0,1,488,1,0,1,3,1,3,3,1
-"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu güçlü gübre, bitki büyümesini artırır ve verimi artırır, mahsullerin rekor sürede gelişmesine olanak tanır. Temel besin maddeleri sağlar ve güçlü kök gelişimini teşvik eder, daha sağlıklı ve daha bol hasatlar elde etmenizi sağlar. Bu gelişmiş formülle hiç olmadığı kadar hızlı büyüme deneyimleyin.",98,item-icon-131,131, Gelişmiş Hızlandırılmış Gübre,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu güçlü gübre, mahsul verimini önemli ölçüde artırır, bollukla dolu hasatlar sağlar. Bitki büyümesini artırır ve besin emilimini maksimize eder, daha sağlıklı ve daha güçlü mahsuller sağlar. Bu gelişmiş gübre ile çiftçiler, tarımsal üretimlerinde etkileyici iyileştirmeler bekleyebilir.",98,item-icon-132,132, Gelişmiş Verim Artırıcı Gübre,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu gübre, bitkilere derin nemlendirme ve besleme sağlamak üzere özel olarak formüle edilmiştir, daha sağlıklı ve daha canlı büyümeye neden olur. Gelişmiş formülü, topraktaki optimal nem tutma sağlar, güçlü kökler ve yoğun yapraklar teşvik eder. Bitkilerinize bu gelişmiş nemlendirici gübre ile en üst düzey nemlendirme desteğini verin.",98,item-icon-133,133, Gelişmiş Nemlendirici Gübre,0,1,,1,0,1,999,0,3,0,1
-"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu iksir savaşta kullanılabilir ve yaralarınızı iyileştirebilir.",0,item-icon-140,140, Tedavi İksiri,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu iksir, savaş yeteneklerinizi artırır, sınırlı bir süre için saldırı gücünüzü artırır. Düşmanlarınıza yıkıcı darbeler indirmek isteyen her maceracı için vazgeçilmezdir. Akıllıca kullanın ve düşmanlarınızın önünde titremesini izleyin.",0,item-icon-141,141, Saldırı İksiri,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu iksir hızınızı artırır, size hızlı hareket etme ve saldırılardan kolayca kaçma imkanı sağlar. Savaşlarda avantaj elde etmek isteyen her maceracı için vazgeçilmezdir.",0,item-icon-142,142, Hız İksiri,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu iksir savaş yeteneklerinizi artırır, düşmanlarınıza yıkıcı darbeler indirme şansınızı artırır. Eleştiri oranınızı artırarak savaşlarda büyük hasarlar vermenizi sağlar. Bu iksirle zafer sizin olabilir.",0,item-icon-143,143, Kritik Vuruş İksiri,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Bu iksir sağlık puanlarınızı geri kazandırabilir. Savaş sırasında kullanıldığında daha etkili çalışır.",0,item-icon-144,144, Can İksiri,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanarak özel efektler tetikleyebilirsiniz.
--------
-Düşman saldırılarına karşı geçici bir kalkan sağlayan savunma yeteneklerinizi artıran güçlü bir iksir. Bu iksir zırhınızı ve dayanıklılığınızı artırır, en zorlu savaşlara bile dayanmanızı sağlar. Akıllıca kullanarak dengeleri lehinize çevirin ve zaferle çıkın.",0,item-icon-145,145, Savunma İksiri,0,1,58,1,0,2,2,0,3,2,1
-"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
-Ekipman veya eşyalar yapmak için kullanılabilir.
--------
-Kil, genellikle seramik, tuğla ve diğer inşaat malzemeleri yapmak için kullanılan çok şekillendirilebilir bir topraktır. Tipik olarak gri-kahverengi veya kırmızı-kahverengi tonlarda gelir ve yüksek organik madde ve minerallerin yoğunluğuna sahip ince bir dokuya sahiptir. Kil toplarken, toprağın şekillendirme ve işleme için daha iyi olması için nemli tutulması önemlidir.",0,item-icon-61,61, Kil,0,1,,1,0,3,999,0,4,1,1
-"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
-Ekipman veya eşyalar yapmak için kullanılabilir.
--------
-Bu reçine, yapıştırıcılar, kaplamalar, sızdırmazlık maddeleri ve diğer şeyler yapmak için kullanılabilen oldukça viskoz bir sıvıdır. Genellikle ağaçlardan toplanır ve toplama için özel araçlara ihtiyaç duyar.",0,item-icon-65,65, Reçine,0,1,,1,0,3,999,1,4,1,1
-"794,1","1,3,4",1," Birisi bu malzemeyi kanyonda görmüş.
-Ekipman veya eşyalar yapmak için kullanılabilir.
--------
-Vahşi doğada büyüyen, güçlü kuraklık direncine sahip çok yıllık otsu bir bitkidir. Kalın yaprakları bol su ve besin maddeleri içerir, bu da onu alkollü içecekler ve ilaç yapımında önemli bir hammadde yapar.",0,item-icon-68,68, Maguey,0,1,35,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
-Ekipman veya eşyalar yapmak için kullanılabilir.
--------
-Bu bitki lifi, genellikle ağaçlardan elde edilen toplanmış bir hammadde olup, halatlar, kumaşlar ve kağıt gibi çeşitli ürünler yapmak için kullanılabilir.",0,item-icon-66,66, Bitki Lifleri,0,1,31,1,0,3,"1,0",1,4,1,1
-"793,1","1,3,4",1," Birisi bu malzemeyi Kar Dağı'nda görmüş.
-Ekipman veya eşyalar yapmak için kullanılabilir.
--------
-Bu mantarlar soğuk kutup bölgelerinde büyür ve açık mavi renge sahiptir. Lezzetli bir tada sahiptir ve pişirmek için uygundur.",0,item-icon-67,67, Donmuş Mantar,0,1,33,1,0,3,2,1,4,2,1
-"792,1","1,3,4",1," Birisi bu malzemeyi sahil kenarında görmüş.
-Ekipman veya eşyalar yapmak için kullanılabilir.
--------
-Bu örümcek ağı seviye 1'dir ve ormanda toplanabilir. Çeşitli eşyalar yapmak için kullanılabilen bir hammadde.",0,item-icon-69,69, Örümcek Ağı,0,1,,1,0,3,999,0,4,1,1
 -,"1,3,4",1," Bu bilet, heyecan verici maceralarla dolu özel bir etkinliğe erişim sağlar ve unutulmaz deneyimler sunar. Kendinizi hiç olmadığı kadar farklı bir yolculuğa hazırlayın ve ömür boyu sürecek anılar yaratın.",0,item-icon-171,171, Bilet #1,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1," Bu bilet, heyecan verici maceralarla dolu özel bir etkinliğe erişim sağlar ve unutulmaz deneyimler sunar. Kendinizi hiç olmadığı kadar farklı bir yolculuğa hazırlayın ve ömür boyu sürecek anılar yaratın.",0,item-icon-172,172, Bilet #2,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1," Bu bilet, heyecan verici maceralarla dolu özel bir etkinliğe erişim sağlar ve unutulmaz deneyimler sunar. Kendinizi hiç olmadığı kadar farklı bir yolculuğa hazırlayın ve ömür boyu sürecek anılar yaratın",0,item-icon-173,173, Bilet #3,0,1,,0,0,"1,2,3",999,0,4,0,1
@@ -521,6 +616,10 @@ Bu örümcek ağı seviye 1'dir ve ormanda toplanabilir. Çeşitli eşyalar yapm
 Ekipman veya eşyalar yapmak için kullanılabilir.
 -------
 Bu solmuş bitki, su veya besin eksikliğinden kaynaklanabilir. Gübre veya tıbbi otlar yapmak için kullanılabilir ve hayvan yemi olarak da kullanılabilir.",0,item-icon-174,174, Solmuş Bitki,0,1,,0,0,1,999,0,4,0,1
+-,"1,3,4",1," Aynı seviyedeki materyalleri toplamak ek tohumlar elde etmenize neden olabilir, Aynı seviyedeki canavarları öldürmek bu öğeyi elde etmenize neden olabilir.
+Kullanarak özel etkileri tetikleyebilirsiniz.
+-------
+Bu öğe, canavar çiftliğinden üretilen ve tarımda kullanılan bir hammadde olan bir seviye 3 Koyu Tüy'dür.",0,item-icon-175,175, Çürümekte Olan Mahsul,0,1,,0,0,1,999,0,4,0,1
 -,"1,3,4",1," Bu tür malzemeyi üreme yoluyla elde edebilirsiniz.
 Ekipman veya eşyalar yapmak için kullanılabilir.
 -------
@@ -558,105 +657,6 @@ Bu katılaşmış magma, canavar yetiştiriciliği yoluyla üretilmiş olup tar�
 Ekipman veya eşyaları üretmek için kullanılabilir.
 -------
 Bu buz parçası, canavar yetiştiriciliğinden elde edilmiş olup tarımda kullanılan bir malzemedir. Üç kalite seviyesine sahiptir ve çeşitli buz esaslı eşyalar yapmak için kullanılabilir.",0,item-icon-185,185, Buz Parçası,0,1,122,1,0,1,3,1,4,3,1
-"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
-Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
--------
-Bu makas, çiftçilere yünleri hızlı ve kolay bir şekilde kesebilmelerine yardımcı olabilir, kesme verimliliğini artırır. Farklı türdeki koyunlar için uygundur. ",0,item-icon-95,95, Fırça,1440,1,177,0,0,1,999,0,1,0,1
-"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
-Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
--------
-Çiftçilerin ineklerden verimli bir şekilde süt çıkarmalarına yardımcı olan elde taşınabilir bir cihaz. Rahat bir kavrama ve düzgün ve nazik bir sağım süreci sağlayan bir emiş mekanizmasına sahiptir. ",0,item-icon-96,96, Saç Kesme Makinesi,1440,1,178,0,0,1,999,0,1,0,1
-"792,1",0,1," Bu öğeyi sentez yoluyla elde edebilirsiniz.
-Ekipman edildiğinde özellikleri artırabilir. Mahsullerin solma olasılığını azaltır
--------
-Bu şık şapka, sahibine şans getirir ve her kıyafete bir cazibe katar. Canlı renkleri ve karmaşık tasarımı, modaya uygun oyuncular için vazgeçilmez bir aksesuar yapar. Giyin ve şans sizinle olsun! ",0,item-icon-97,97, Sağım Makinesi,1440,1,179,0,0,1,999,0,1,0,1
--,"1,3,4",1," Aynı seviyedeki materyalleri toplamak ek tohumlar elde etmenize neden olabilir, Aynı seviyedeki canavarları öldürmek bu öğeyi elde etmenize neden olabilir.
-Kullanarak özel etkileri tetikleyebilirsiniz.
--------
-Bu öğe, canavar çiftliğinden üretilen ve tarımda kullanılan bir hammadde olan bir seviye 3 Koyu Tüy'dür.",0,item-icon-175,175, Çürümekte Olan Mahsul,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Bu şık şapka, her maceracı için mükemmel bir seçenektir, tarzdan ödün vermeden hava koşullarına karşı ekstra koruma sağlar. Geniş kenarı ve ayarlanabilir kayışıyla rahat bir uyum sağlar, her türlü dış mekân etkinliği için vazgeçilmez bir aksesuardır. Dayanıklı malzemelerle üretilen bu şapka, en zorlu koşullara dayanacak şekilde tasarlanmıştır. Hafif yapısı ve nefes alabilir kumaşı, uzun keşif saatlerinde sizi serin ve korumalı tutar. Pratik tasarımı ve modaya uygun görünümüyle, Toplama Şapka, deneyimli her maceracı için olmazsa olmazdır. ",0,item-icon-116,116, Toplama Şapkası,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Bu eldivenler, tutkulu toplayıcılar için geliştirilmiş çeviklik ve kavrama sağlar. Dikenlerden ve keskin nesnelerden koruma sağlayan dayanıklı bir malzemeden yapılmıştır. Bu eldivenlerle kaynakları kolaylıkla ve verimli bir şekilde toplayabilirsiniz. ",0,item-icon-126,126, Toplama Eldiveni,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Bu eldivenler, tutkulu toplayıcılar için tasarlanmış olup ellerinizi kirletmeden çeşitli kaynakları kolayca toplamanıza olanak tanır. Rahat bir uyum ve dayanıklı malzeme ile güvenilir bir kavrama sağlar, keskin kenarlara karşı koruma sağlar. Otlar toplamak veya maden çıkarmak olsun, bu eldivenler her sadık toplayıcı için olmazsa olmazdır. ",0,item-icon-125,125, Toplama Eldiveni,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Bu pantolonlar, oyunda kaynak toplamak için mükemmel olup ek depolama alanı ve dayanıklılık sağlar. Güçlendirilmiş dikişler ve çeşitli ceplerle tasarlanmıştır, oyuncuların çeşitli malzemeleri kolayca taşımasına ve toplamasına olanak tanır. ",0,item-icon-122,122, Toplama Pantolonu,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Bu eldivenler, tutkulu toplayıcılar için geliştirilmiş kavrama ve çeviklik sağlar. Dikenlerden ve keskin kenarlardan ellerinizi koruyan dayanıklı malzemelerden yapılmıştır, böylece kaynakları kolaylıkla ve verimli bir şekilde toplayabilirsiniz. Bu eldivenlerle artık su toplama veya kesiklerle uğraşmanıza gerek kalmaz. ",0,item-icon-124,124, Toplama Pantolonu,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Bu pantolonlar, uzun yolculuklar sırasında konfor ve esneklik sağlayan tutkulu maceracılar için tasarlanmıştır. Dayanıklı malzemelerle üretilmiş olup hareket kabiliyetini korurken dış etkilere karşı mükemmel koruma sağlar. Oyunun geniş manzaralarını keşfederken kaynakları verimli bir şekilde toplamak isteyenler için mükemmeldir. ",0,item-icon-123,123, Toplama Pantolonu,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Özel efektleri tetikleyebilir.
--------
-Bu güçlü formülle bitkilerinizi hızla büyütün, kısa sürede verimli bir hasat elde edin. Tarım verimliliğinizi artırın ve bitkilerinizin bu güçlü gübre ile gelişmesini izleyin. ",0,item-icon-127,127, Toplama Eldiveni,1440,"1,2,3",351,1,0,3,999,0,1,3,1
-"794,1",4,1,"Bu eşyayı sentez yoluyla elde edebilirsiniz. Takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilirsiniz.
-
----
-Maceracılar için tasarlanmış pratik bir ceket, doğa koşullarına karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri uzun yolculuklar ve açık hava etkinlikleri için ideal hale getirir. Bu temel ekipman parçasıyla hareket kabiliyetinizden ödün vermeden sıcak ve rahat kalın.
-
----
-Avcılar için tasarlanmış pratik bir ceket, doğa koşullarına karşı mükemmel koruma sağlar. Hafif ve nefes alabilir kumaşı uzun süreli keşifler sırasında konfor sağlar. Çoklu cepleri ve ayarlanabilir kayışlarıyla her açık hava tutkunu için kullanışlılık ve işlevsellik sunar.
-
----
-Toplayıcı yeteneklerinizi artıran şık bir şapka, oyun içinde kaynakları toplamayı kolaylaştırır. Toplama verimliliğinizi artıran pratik bir aksesuar, malzemeleri daha hızlı ve verimli bir şekilde toplamanıza olanak tanır.
-
----
-Bu tarım ayakkabıları özel olarak tarım işçileri için tasarlanmıştır. Kaymaz, aşınmaya dayanıklı ve nefes alabilir özelliklere sahiptir, ayakları korur ve iş verimliliğini artırır.
-
----
-Bu güçlü araç sağlam taştan yapılmıştır, son derece dayanıklıdır ve sert engelleri kırmak için mükemmeldir. Ağırlıklı kafası tatmin edici bir darbe sağlar, maceracılar ve yapı ustaları arasında favori bir seçimdir.
-
----
-Keskin bir taş orak, sert taştan yapılmış bir oraktır. Bıçağı keskindir ve çeşitli bitkileri kolayca keser. Taş orak sapı dikkatle tasarlanmış olup, rahat bir kavrama ve stabil ve esnek kullanım sağlar. Taş malzemesi dayanıklıdır ve paslanmaya karşı dayanıklıdır, dış mekan kullanımı için uygundur. Çimleri düzeltmek veya mahsulleri hasat etmek olsun, taş orak pratik bir araçtır.
-
----
-Bakır orak, saf bakırdan yapılmış bir tarım aracıdır, kavisli bir bıçağa ve sağlam bir kolu vardır. Keskin ve dayanıklı bıçağı, mahsulleri ve otları kesmek için uygundur. Bakır malzeme orağı daha sağlam ve paslanmaya karşı dayanıklı hale getirir. İnce bir şekilde tasarlanmış, tutması rahat ve kullanımı kolaydır. Bakır orak, çiftçiler için vazgeçilmez bir iş aracıdır, tarlalarda hasatı tamamlamalarına yardımcı olur. Tarlada veya çiftlikte olsun, bakır orak pratikliğini ve dayanıklılığını gösterir.
-
----
-Demir orak, yüksek kaliteli demirden yapılmış sağlam ve dayanıklı bir araçtır. Bıçağı keskindir ve otları kesmek, mahsulleri hasat etmek ve diğer tarım işleri için uygundur. Orakın kavisli tasarımı kullanıcıların mahsulleri kolayca kesmelerine ve iş verimliliğini artırmalarına olanak tanır. Sapı rahat bir kavrama ve stabil kullanım için dikkatle tasarlanmıştır. Tarım işi veya bahçe budama olsun, demir orak vazgeçilmez bir araçtır.
-
----
-Kristal Orak, saf kristalden yapılmış, büyüleyici bir ışık yayan bir silahtır. Orak bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Sapı zarif gümüş desenlerle süslenmiştir, soyluluk ve gizem hissi verir. Kristal Orak'ı tutmak, doğanın gücünü kontrol edebiliyormuş gibi hissettirir, sınırsız enerjiyi serbest bırakarak savaşta yenilmez bir varlık haline gelmenizi sağlar. Savaşçı olsun ya da büyücü, hepsi bu eşsiz silaha sahip olmayı ve muazzam güçlerini sergilemeyi arzular.
-
----
-Altın orak, altın ışığıyla parlayan, inanılmaz keskin, orak bıçağı değerli altınla kaplı, lüks bir hava yayar. Orak bıçağı kavislidir, mahsulleri hasat etmek için mükemmeldir. Bir sallanışta, altın gibi bolluk getirir. Sapı titizlikle oymalı, muhteşem ve rahattır, elinizde tutmak sonsuz güce sahip gibi hissettirir. Bir süs veya pratik araç olarak, altın orak benzersiz ve lüks bir seçimdir.
-
----
-Elmas Orak, saf elmasla yapılmış, büyüleyici bir ışık yayan, zarif ve muhteşem bir silahtır. Orak bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Sapı karmaşık bir şekilde tasarlanmış, rahat bir kavrama sağlar, savaşta daha fazla çeviklik ve kolaylık sağlar. Elmas Orak, sadece güçlü saldırı gücüne sahip olmakla kalmaz, aynı zamanda benzersiz büyülü özelliklere de sahiptir, ölümcül enerji dalgalarını serbest bırakabilir, düşmanları kaçacak yer bırakmaz. Savaşta veya sergide, Elmas Orak dikkat çeken dikkat çeken bir hazine.
-
----
-Yıldızlı Orak, yıldız ışığıyla parlayan, bıçağında sayısız parlak yıldız bulunan, gizemli bir ışıma yayan bir oraktır. Bıçağı inanılmaz keskindir, her türlü engeli kolayca kesme yeteneğine sahiptir. Orak sapı zarif takımyıldız desenleriyle oymalıdır, ilahi ve ciddi bir hava verir. Yıldızlı Orak'ı kullanmak, yıldızların gücünü kullanmak gibi hissettirir, sonsuz güç ve şan hissi verir. Savaşta veya törende mükemmel bir seçimdir.",0,item-icon-121,121, Toplama Ceketi,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Maceralar için tasarlanmış pratik bir ceket, dış etkilere karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri, uzun yolculuklar ve dış mekân etkinlikleri için idealdir. Bu temel parça ile sıcak ve rahat kalın, hareket kabiliyetinizden ödün vermeden. ",0,item-icon-120,120, Toplama Ceketi,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Maceralar için tasarlanmış pratik bir ceket, dış etkilere karşı mükemmel koruma sağlar. Dayanıklı kumaşı ve güçlendirilmiş dikişleri, uzun yolculuklar ve dış mekân keşifleri için idealdir. Çeşitli cepleri ve ayarlanabilir kayışlarıyla, her dış mekân tutkunu için kullanışlılık ve işlevsellik sunar. ",0,item-icon-119,119, Toplama Ceketi,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Olağanüstü koruma sağlayan dayanıklı bir ceket, dış etkilere karşı mükemmel koruma sağlar. Hafif ve nefes alabilir kumaşı, uzun keşif saatlerinde konfor sağlar. Çeşitli cepleri ve güçlendirilmiş dikişleriyle, her tutkulu maceracının mükemmel arkadaşıdır. ",0,item-icon-118,118, Toplama Şapkası,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1," Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Daha yüksek seviye kaynakları toplama olasılığını artırabilir.
--------
-Toplama yeteneklerinizi artıran şık bir şapka, kaynakları daha verimli bir şekilde toplamanıza olanak tanır. Benzersiz tasarımı konfor ve koruma sağlar, sadık bir toplayıcı için olmazsa olmaz bir aksesuardır. Toplama görevleri için özel olarak tasarlanmış pratik bir şapka. Hafif ve nefes alabilir malzemesi, uzun saatler boyunca toplama yaparken serin ve odaklı kalmanızı sağlar.  ",0,item-icon-117,117, Toplama Şapkası,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1,"Bu eşyayı sentez yoluyla elde edebilirsiniz. Ekip takıldığında özellikleri artırabilir. Tarlalarınızın solmasını önleyebilirsiniz.
--------
-Bu tarımsal ayakkabılar özellikle tarım işçileri için tasarlanmıştır. Kaymaz, aşınmaya dayanıklı ve nefes alabilir özelliklere sahiptir, bu da ayakları korur ve iş verimliliğini artırır. ",0,item-icon-112,112, Tarım Ayakkabısı,1440,"1,2,3",204,1,0,1,999,0,1,3,1
-"793,1",4,1,,0,item-icon-111,111, Tarım Ayakkabısı,1440,"1,2",195,1,0,1,999,0,1,2,1
-"792,1",4,1,,0,item-icon-110,110, Tarım Ayakkabısı,1440,1,186,1,0,1,999,0,1,1,1
-"792,1","1,3,4",1,"Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanıldığında özel efektler tetikleyebilir.
--------
-Evcil hayvan yemi, seviye 0 evcil hayvanlar için uygun bir tüketilebilir eşyadır ve evcil hayvanın tokluğunu ve büyüme değerini artırabilir. Doğal bitkiler ve besin maddelerinden yapılmış olup, ferahlatıcı bir tat ve kolay sindirilebilirlik ve emilim sağlar. Her paket evcil hayvan yemi hafif ve taşınması kolaydır, bu nedenle evcil hayvan sahipleri için vazgeçilmez bir eşyadır.",27,item-icon-28,28,Küçük Yem,0,1,434,1,0,1,"1,0",0,3,0,1
-"792,1","1,3,4",1," Bu eşyayı sentez yoluyla elde edebilirsiniz.
-Kullanıldığında özel efektler tetikleyebilir.
--------
-Hayvan yemi, hayvanların sağlıklı büyümesini sürdürebilmeleri için gerekli besin maddelerini sağlayan bir tüketilebilir üründür. Çeşitli çiftlik hayvanları ve evcil hayvanlar için uygun olup, verimliliklerini ve ömürlerini artırabilir.",27,item-icon-29,29, Büyük Yem,0,1,435,1,0,1,"1,0",0,3,0,1
 -,"1,3,4",0," Tarım Deneyimi, bitki yetiştirme ve hayvan besleme gibi tarımsal faaliyetler yoluyla elde edilen bir deneyim değeridir. Tarımsal becerileri ve seviyeleri geliştirmenin anahtarıdır ve daha yüksek seviyeli tarım araçları ve ekipmanlarını kilitlemek için gerekli bir koşuldur.",0,item-icon-188,188, Tarım Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0," Savaş Deneyimi, savaşlarda kazanılan deneyimi ifade eder. Oyuncuların seviye atlamalarına ve becerilerini geliştirmelerine yardımcı olabilir, karakterlerinin yeteneklerini artırabilir. Birçok oyunda, Savaş Deneyimi, oyuncuların güçlerini artırmak için önemli yollardan biridir.",0,item-icon-189,189, Savaş Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0," Toplama Deneyimi, oyundaki önemli bir kaynaktır ve kaynak toplama verimliliğini ve karakter yeteneklerini artırmada hayati bir rol oynar. Oyuncular, odun kesme ve madencilik gibi faaliyetlerle deneyim biriktirerek toplama beceri seviyelerini artırırlar. Beceri seviyeleri, toplama hızını, nadir kaynak edinme olasılığını ve daha yüksek seviye becerilerin kilidini açmayı belirler. Oyun ilerledikçe, karakter ihtiyaçları daha karmaşık hale gelir, bu nedenle yüksek toplama becerileri destek için kaçınılmaz hale gelir. Ayrıca, yükseltilmiş toplama deneyimi, gelişmiş saldırı yeteneklerine de katkıda bulunur. Oyuncuların sürekli olarak beceriler öğrenmeleri ve toplama deneyimlerini geliştirmeleri, cesurca zorluklarla yüzleşmeleri ve en güçlüler arasında yükselmeleri için gereklidir.",0,item-icon-190,190, Toplama Deneyimi,0,1,,0,0,"1,2,3",999,0,4,0,0

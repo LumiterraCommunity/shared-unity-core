@@ -1,4 +1,14 @@
 boothFees-int[][],canDropScene-int[],canMint-int,desc-string,givenSkillId-int,icon-string,id-int,name-string,onChainDelay-int,quality-int[],resourceInstructions-int[],sellable-bool,subType-int,talentId-int[],tokenTaskLevel-int[],tokenTaskRefreshType-int,type-int,useLv-int,userType-int
+"792,1","1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para mascotas es un artículo consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, lo que lo convierte en un artículo imprescindible para los dueños de mascotas.
+",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,0,1,434,1,0,1,"1,0",0,3,0,1
+"792,1","1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
+Su uso puede desencadenar efectos especiales.
+-------
+El alimento para animales es un producto consumible que proporciona los nutrientes necesarios para que los animales mantengan un crecimiento saludable. Es adecuado para diversos animales de granja y mascotas, y puede aumentar su productividad y esperanza de vida.
+",27,item-icon-29,29,Alimentación de nivel 0 - Grande,0,1,435,1,0,1,"1,0",0,3,0,1
 "792,1","1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -47,6 +57,11 @@ Este es un material crudo raro que se puede obtener en batallas. Tiene una apari
 "792,1",0,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en combate.
 -------
+Un arma de madera resistente diseñada para golpes rápidos y precisos, perfecta para principiantes que perfeccionan sus habilidades de combate. Su diseño ligero permite movimientos ágiles, convirtiéndola en una opción ideal para aquellos que buscan un arma versátil y confiable.
+",0,item-icon-39,39,Espada de madera de nivel 0,1440,1,256,0,0,2,999,0,1,0,1
+"792,1",0,1," Puedes obtener este objeto a través de la síntesis.
+Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en combate.
+-------
 Un arma afilada y resistente hecha de piedra sólida, perfecta para el combate cuerpo a cuerpo. Su peso y equilibrio hacen que sea fácil de manejar, entregando golpes poderosos con precisión.
 ",0,item-icon-40,40,Espada de piedra de nivel 1,1,1,264,1,0,2,999,0,1,1,1
 "793,1",0,1," Puedes obtener este objeto a través de la síntesis.
@@ -59,11 +74,6 @@ Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en
 -------
 Un arma poderosa forjada en cristal puro, capaz de cortar a través de los enemigos con facilidad. Su hoja brillante refleja la luz, deslumbrando a los oponentes e infundiendo miedo en sus corazones. Con cada golpe, la Espada de Cristal desata una combinación mortal de velocidad y precisión.
 ",0,item-icon-42,42,Espada de cristal de nivel 3,1440,"1,2,3",280,1,0,2,999,0,1,3,1
-"792,1",0,1," Puedes obtener este objeto a través de la síntesis.
-Cuando está equipado, puede mejorar los atributos. Mejora tu poder de ataque en combate.
--------
-Un arma de madera resistente diseñada para golpes rápidos y precisos, perfecta para principiantes que perfeccionan sus habilidades de combate. Su diseño ligero permite movimientos ágiles, convirtiéndola en una opción ideal para aquellos que buscan un arma versátil y confiable.
-",0,item-icon-39,39,Espada de madera de nivel 0,1440,1,256,0,0,2,999,0,1,0,1
 "792,1",4,1," Puedes obtener este objeto a través de la síntesis.
 Cuando está equipado, puede mejorar los atributos. Aumenta tu probabilidad de supervivencia en batallas.
 -------
@@ -157,6 +167,11 @@ Este es un mineral de cristal rojo de tercer nivel que se puede recolectar en el
 "792,1","1,3,4",1,"Alguien vio una vez este material junto al mar.
 Se puede utilizar para fabricar equipos o objetos.
 -------
+La arcilla es un suelo altamente maleable que se utiliza comúnmente para hacer cerámica, ladrillos y otros materiales de construcción. Por lo general, tiene tonos de gris-marrón o rojo-marrón y tiene una textura fina con una alta concentración de materia orgánica y minerales. Al recolectar arcilla, es importante mantener el suelo húmedo para un mejor modelado y procesamiento.
+",0,item-icon-61,61,Arcilla de nivel 1,0,1,,1,0,3,999,0,4,1,1
+"792,1","1,3,4",1,"Alguien vio una vez este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
 Este tipo de madera se utiliza generalmente para hacer muebles simples o materiales de construcción. Su textura es relativamente suave, lo que facilita su procesamiento y tallado.",0,item-icon-62,62,Madera ordinaria de nivel 1,0,1,"49,51",1,0,3,"1,0",1,4,1,1
 "793,1","1,3,4",1,"Alguien una vez vio este material en el desierto.
 Se puede utilizar para fabricar equipos o objetos.
@@ -168,6 +183,31 @@ Se puede utilizar para fabricar equipos o objetos.
 -------
 La madera oscura es un tipo premium de madera con texturas negras y una textura dura, adecuada para fabricar muebles y artesanías de alta gama. Solo se puede cosechar en puntos de recolección específicos, lo cual es difícil pero también muy rentable.
 ",0,item-icon-64,64,Madera oscura de nivel 3,0,1,55,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1,"Alguien una vez vio este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta resina es un líquido altamente viscoso que se puede utilizar para fabricar adhesivos, recubrimientos y selladores, entre otras cosas. Por lo general, se recolecta de los árboles y requiere herramientas especiales para su recolección.
+",0,item-icon-65,65,Resina de nivel 1,0,1,,1,0,3,999,1,4,1,1
+"792,1","1,3,4",1,"Alguien una vez vio este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta fibra vegetal es un material en bruto recolectado que generalmente se obtiene de los árboles. Se puede utilizar para fabricar una variedad de objetos diferentes, como cuerdas, telas y papel.
+",0,item-icon-66,66,Fibra vegetal de nivel 1,0,1,31,1,0,3,"1,0",1,4,1,1
+"793,1","1,3,4",1,"Alguien una vez vio este material en la Montaña de Nieve.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Estos hongos crecen en las regiones polares frías y tienen un color azul claro. Tienen un sabor delicioso y son adecuados para cocinar.
+",0,item-icon-67,67,Hongo congelado de nivel 2,0,1,33,1,0,3,2,1,4,2,1
+"794,1","1,3,4",1,"Alguien una vez vio este material en el cañón.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Una planta herbácea perenne que crece en la naturaleza, con una fuerte resistencia a la sequía. Sus hojas gruesas contienen agua y nutrientes abundantes, lo que la convierte en una materia prima importante para fabricar bebidas alcohólicas y medicinas.
+",0,item-icon-68,68,Maguey de nivel 3,0,1,35,1,0,3,3,1,4,3,1
+"792,1","1,3,4",1,"Alguien una vez vio este material junto al mar.
+Se puede utilizar para fabricar equipos o objetos.
+-------
+Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material en bruto que se puede utilizar para fabricar diversos objetos.
+",0,item-icon-69,69,Telaraña de nivel 1,0,1,,1,0,3,999,0,4,1,1
 "792,1","1,3,4",1,"Puedes obtener este tipo de material mediante la siembra.
 Se puede utilizar para fabricar equipos o objetos.
 -------
@@ -287,6 +327,21 @@ La nitidez de esta hacha ha alcanzado el nivel 2, lo que facilita la recolecció
 -------
 Un arma poderosa otorgada con bendiciones divinas, capaz de cortar cualquier obstáculo con facilidad. Su hoja afilada brilla con una luz sagrada, infundiendo miedo en los corazones de los enemigos. El Hacha Bendita es un verdadero símbolo de fuerza y rectitud en el campo de batalla.
 ",0,item-icon-94,94,Hacha bendita de nivel 3,1440,"1,2,3",348,1,0,3,999,0,1,3,1
+"792,1",0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
+
+-------
+Este cepillo es una herramienta diseñada específicamente para la agricultura, que puede limpiar fácilmente cultivos y tierras.
+",0,item-icon-95,95,Cepillo de nivel 0,1440,1,177,0,0,1,999,0,1,0,1
+"792,1",0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
+
+-------
+Este cortapelos puede ayudar a los agricultores a esquilar lana de manera rápida y fácil, mejorando la eficiencia de esquila. Es adecuado para diferentes tipos de ovejas.
+",0,item-icon-96,96,Cortadora de pelo de nivel 0,1440,1,178,0,0,1,999,0,1,0,1
+"792,1",0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
+
+-------
+Un dispositivo portátil utilizado por los agricultores para extraer leche de las vacas de manera eficiente. Cuenta con un agarre cómodo y un mecanismo de succión que garantiza un proceso de ordeño suave y sin problemas.
+",0,item-icon-97,97,Ordeñadora de nivel 0,1440,1,179,0,0,1,999,0,1,0,1
 "792,1",4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
 -------
 Este sombrero elegante trae buena suerte a quien lo lleva, añadiendo un toque de encanto a cualquier atuendo. Sus colores vibrantes y diseño intrincado lo convierten en un accesorio imprescindible para los jugadores a la moda. ¡Póntelo y que la suerte esté de tu lado!
@@ -335,6 +390,21 @@ Estos guantes están diseñados específicamente para tareas agrícolas, proporc
 -------
 Este guante es adecuado para el trabajo agrícola, proporcionando un agarre cómodo y protección para ayudar a los agricultores a completar diversas actividades agrícolas.
 ",0,item-icon-109,109,Guantes de agricultura de nivel 3,1440,"1,2,3",201,1,0,1,999,0,1,3,1
+"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+
+-------
+Estos zapatos agrícolas están hechos de materiales de alta calidad, son ligeros y cómodos, adecuados para usar durante mucho tiempo. La suela es antideslizante y adecuada para diversos campos agrícolas, lo que facilita tu trabajo.
+",0,item-icon-110,110,Zapatos de agricultura de nivel 1,1440,1,186,1,0,1,999,0,1,1,1
+"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+
+-------
+Estos zapatos agrícolas están diseñados específicamente para actividades agrícolas como arar y plantar. Están hechos de materiales de alta calidad que son duraderos, transpirables y cómodos, brindando protección para los pies de los agricultores.
+",0,item-icon-111,111,Zapatos de agricultura de nivel 2,1440,"1,2",195,1,0,1,999,0,1,2,1
+"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
+
+-------
+Estos zapatos agrícolas están diseñados específicamente para trabajadores agrícolas. Cuentan con características antideslizantes, resistentes al desgaste y transpirables, que pueden proteger los pies y mejorar la eficiencia del trabajo.
+",0,item-icon-112,112,Zapatos de agricultura de nivel 3,1440,"1,2,3",204,1,0,1,999,0,1,3,1
 "792,1",4,1," Puedes obtener este objeto a través de la síntesis. Cuando está equipado, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de nivel superior al recolectar.
 -------
 Estos zapatos de recolección están especialmente diseñados para la recolección. Al usarlos, te vuelves más ágil al caminar por el bosque y puedes recolectar fácilmente los recursos que necesitas.
@@ -347,6 +417,66 @@ Estos zapatos de recolección están especialmente diseñados para la recolecci�
 -------
 Estos zapatos están diseñados para recolectores ávidos, proporcionando agilidad y comodidad durante largas expediciones. Con su construcción duradera pero liviana, permiten a los jugadores atravesar sin esfuerzo diversos terrenos y recolectar recursos con facilidad. Los zapatos también cuentan con un agarre especializado que garantiza estabilidad, evitando resbalones y caídas incluso en entornos peligrosos.
 ",0,item-icon-115,115,Zapatos de recolección de nivel 3,1440,"1,2,3",355,1,0,3,999,0,1,3,1
+"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Este sombrero elegante es perfecto para cualquier aventurero, proporcionando protección adicional contra los elementos sin sacrificar el estilo. Su ala ancha y correa ajustable garantizan un ajuste cómodo, convirtiéndolo en un accesorio imprescindible para cualquier excursión al aire libre. Fabricado con materiales duraderos, este sombrero está diseñado para resistir las condiciones más difíciles. Su construcción ligera y tejido transpirable te mantienen fresco y protegido durante largas horas de exploración. Con su diseño práctico y aspecto elegante, el sombrero de recolección es un artículo imprescindible para cualquier aventurero experimentado.
+",0,item-icon-116,116,Sombrero de recolección de nivel 1,1440,1,334,1,0,3,999,0,1,1,1
+"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Un sombrero elegante que mejora tus habilidades de recolección, permitiéndote recolectar recursos de manera más eficiente. Su diseño único proporciona comodidad y protección, convirtiéndolo en un accesorio imprescindible para cualquier recolector dedicado. Un sombrero práctico diseñado específicamente para tareas de recolección. Su material ligero y transpirable te mantiene fresco y concentrado durante largas horas de recolección.
+",0,item-icon-117,117,Sombrero de recolección de nivel 2,1440,"1,2",343,1,0,3,999,0,1,2,1
+"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Un sombrero elegante que mejora tus habilidades de recolección, facilitando la recolección de recursos en el juego. Un accesorio práctico que aumenta tu eficiencia de recolección, permitiéndote recolectar materiales más rápido y de manera más eficiente.
+",0,item-icon-118,118,Sombrero de recolección de nivel 3,1440,"1,2,3",352,1,0,3,999,0,1,3,1
+"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Una chaqueta resistente diseñada para aventuras al aire libre, que proporciona una excelente protección contra los elementos. Su tela ligera y transpirable garantiza comodidad durante largas horas de exploración. Con múltiples bolsillos y costuras reforzadas, es el compañero perfecto para cualquier aventurero ávido.
+",0,item-icon-119,119,Chaqueta de recolección de nivel 1,1440,1,335,1,0,3,999,0,1,1,1
+"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Una chaqueta práctica diseñada para aventureros, que proporciona una excelente protección contra los elementos. Su tela duradera y costuras reforzadas la hacen ideal para viajes largos y exploración al aire libre. Con múltiples bolsillos y correas ajustables, ofrece comodidad y funcionalidad para cualquier entusiasta del aire libre.
+",0,item-icon-120,120,Chaqueta de recolección de nivel 2,1440,"1,2",344,1,0,3,999,0,1,2,1
+"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Una chaqueta práctica diseñada para aventureros, que proporciona una excelente protección contra los elementos. Su tela duradera y costuras reforzadas la hacen ideal para viajes largos y actividades al aire libre. Mantente abrigado y cómodo sin sacrificar la movilidad con esta pieza esencial de equipamiento.
+",0,item-icon-121,121,Chaqueta de recolección de nivel 3,1440,"1,2,3",353,1,0,3,999,0,1,3,1
+"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Estos pantalones están diseñados para aventureros ávidos, proporcionando comodidad y flexibilidad durante largos viajes. Con costuras reforzadas y tela duradera, son perfectos para recolectar recursos en la naturaleza. Mantente ágil y concentrado con estos pantalones esenciales para cualquier explorador dedicado.
+",0,item-icon-122,122,Pantalones de recolección de nivel 1,1440,1,336,1,0,3,999,0,1,1,1
+"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Estos pantalones son perfectos para recolectar recursos en el juego, proporcionando espacio de almacenamiento adicional y durabilidad. Están diseñados con costuras reforzadas y múltiples bolsillos, lo que permite a los jugadores llevar y recolectar diversos materiales sin preocuparse por el desgaste.
+",0,item-icon-123,123,Pantalones de recolección de nivel 2,1440,"1,2",345,1,0,3,999,0,1,2,1
+"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Estos pantalones están diseñados para aventureros ávidos, proporcionando comodidad y flexibilidad durante largos viajes. Fabricados con materiales duraderos, ofrecen una excelente protección contra los elementos sin sacrificar la movilidad. Perfectos para aquellos que buscan recolectar recursos de manera eficiente mientras exploran los vastos paisajes del juego.
+",0,item-icon-124,124,Pantalones de recolección de nivel 3,1440,"1,2,3",354,1,0,3,999,0,1,3,1
+"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Estos guantes están diseñados para recolectores ávidos, proporcionando un mayor agarre y destreza. Están hechos de un material duradero que protege tus manos de espinas y bordes afilados, lo que te permite recolectar recursos con facilidad y eficiencia. Con estos guantes, nunca más tendrás que preocuparte por ampollas o cortes.
+",0,item-icon-125,125,Guantes de recolección de nivel 1,1440,1,333,1,0,3,999,0,1,1,1
+"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Estos guantes están diseñados para recolectores ávidos, permitiéndoles recolectar fácilmente diversos recursos sin ensuciarse las manos. Con un ajuste cómodo y un material duradero, proporcionan un agarre confiable y protección contra bordes afilados. Ya sea recolectando hierbas o extrayendo minerales, estos guantes son imprescindibles para cualquier recolector dedicado.
+",0,item-icon-126,126,Guantes de recolección de nivel 2,1440,"1,2",342,1,0,3,999,0,1,2,1
+"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
+
+-------
+Estos guantes están diseñados para recolectores ávidos, proporcionando una destreza y agarre mejorados. Están hechos de un material duradero que ofrece protección contra espinas y objetos afilados. Con estos guantes, puedes recolectar recursos con facilidad y eficiencia.
+",0,item-icon-127,127,Guantes de recolección de nivel 3,1440,"1,2,3",351,1,0,3,999,0,1,3,1
 "792,1","1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
 -------
 Aumenta el crecimiento de tus cultivos con esta fórmula potente, asegurando una cosecha abundante en poco tiempo. Mejora tu eficiencia agrícola y observa cómo tus plantas prosperan con este poderoso fertilizante.
@@ -359,6 +489,17 @@ El fertilizante para aumentar los rendimientos de los cultivos es un consumible 
 -------
 Esta fórmula rica en nutrientes nutre profundamente las plantas, promoviendo un crecimiento saludable y flores vibrantes. Mejora la retención de humedad del suelo, asegurando que las plantas se mantengan hidratadas durante períodos más largos. Impulsa la vitalidad de tu jardín con este fertilizante esencial.
 ",98,item-icon-130,130,Fertilizante hidratante de nivel 0,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Este poderoso fertilizante mejora el crecimiento de las plantas y aumenta los rendimientos, permitiendo que los cultivos florezcan en poco tiempo. Proporciona nutrientes esenciales y promueve un desarrollo de raíces fuertes, lo que resulta en cosechas más saludables y abundantes. Experimenta un crecimiento acelerado como nunca antes con esta fórmula avanzada.
+",98,item-icon-131,131,Fertilizante acelerado avanzado de nivel 0,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
+-------
+Este poderoso fertilizante aumenta significativamente los rendimientos de los cultivos, resultando en cosechas abundantes. Mejora el crecimiento de las plantas y maximiza la absorción de nutrientes, asegurando cultivos más saludables y robustos. Con este fertilizante avanzado, los agricultores pueden esperar mejoras impresionantes en su productividad agrícola.",98,item-icon-132,132,Fertilizante potenciador de rendimiento avanzado de nivel 0,0,1,,1,0,1,999,0,3,0,1
+"792,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Este fertilizante está especialmente formulado para proporcionar una hidratación profunda y nutrición a las plantas, lo que resulta en un crecimiento más saludable y vibrante. Su fórmula avanzada garantiza una retención óptima de la humedad en el suelo, promoviendo raíces fuertes y follaje exuberante. Dale a tus plantas el impulso definitivo de hidratación con este fertilizante avanzado de hidratación.
+",98,item-icon-133,133,Fertilizante hidratante avanzado de nivel 0,0,1,,1,0,1,999,0,3,0,1
 "792,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
 -------
 Esta poción se puede usar durante las batallas y proporciona un efecto de curación menor.
@@ -383,6 +524,30 @@ Esta poción es un salvavidas en el juego, proporcionando un impulso muy necesar
 -------
 Esta poción puede proporcionar un efecto defensivo temporal, adecuado para situaciones de emergencia en batalla.
 ",0,item-icon-139,139,Poción de defensa secundaria de nivel 0,0,1,56,1,0,2,"1,0",0,3,1,1
+"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción se puede usar en batalla y puede curar tus heridas.
+",0,item-icon-140,140,Poción de tratamiento de nivel 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tus habilidades de combate, aumentando tu poder de ataque durante un tiempo limitado. Es imprescindible para cualquier aventurero que busque infligir golpes devastadores a sus enemigos. Úsala sabiamente y observa cómo tus enemigos tiemblan ante ti.
+",0,item-icon-141,141,Poción de ataque de nivel 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tu velocidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Es imprescindible para cualquier aventurero que busque obtener una ventaja en las batallas.
+",0,item-icon-142,142,Poción de rapidez de nivel 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción mejora tus habilidades de combate, aumentando tus posibilidades de infligir golpes devastadores a tus enemigos. Aumenta tu tasa de golpes críticos, permitiéndote infligir un daño masivo en las batallas. Con esta poción, la victoria está a tu alcance.
+",0,item-icon-143,143,Poción de golpe crítico de nivel 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Esta poción puede restaurar tus puntos de salud. Funciona mejor cuando se usa durante las batallas.
+",0,item-icon-144,144,Poción de vida de nivel 1,0,1,58,1,0,2,2,0,3,2,1
+"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
+-------
+Un poderoso elixir que mejora tus capacidades defensivas, proporcionando un escudo temporal contra los ataques enemigos. Esta poción aumenta tu armadura y resistencia, permitiéndote resistir incluso las batallas más difíciles. Úsala sabiamente para cambiar el rumbo a tu favor y salir victorioso.
+",0,item-icon-145,145,Poción de defensa de nivel 1,0,1,58,1,0,2,2,0,3,2,1
 -,"1,3,4",1," Recoger materiales del mismo nivel puede resultar en semillas adicionales, matar monstruos del mismo nivel puede resultar en obtener este objeto. Su uso puede desencadenar efectos especiales.
 -------
 Este es un tipo de semilla que se puede plantar para cultivar bambú, que es adecuado para su uso en el campo agrícola.
@@ -419,71 +584,6 @@ Una semilla resistente y duradera que cuenta con una fuerte cáscara externa, pe
 -------
 Esta semilla promete un vibrante hongo azul, listo para dar un toque de color a tu jardín. Plántala y observa cómo crece en un hongo fascinante que cautivará tus sentidos.
 ",97,item-icon-154,154,Semilla de seta azul de nivel 3,0,1,488,1,0,1,3,1,3,3,1
-"792,1","1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
--------
-Este poderoso fertilizante mejora el crecimiento de las plantas y aumenta los rendimientos, permitiendo que los cultivos florezcan en poco tiempo. Proporciona nutrientes esenciales y promueve un desarrollo de raíces fuertes, lo que resulta en cosechas más saludables y abundantes. Experimenta un crecimiento acelerado como nunca antes con esta fórmula avanzada.
-",98,item-icon-131,131,Fertilizante acelerado avanzado de nivel 0,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1," Puedes obtener este artículo a través de la síntesis. Usarlo puede desencadenar efectos especiales.
--------
-Este poderoso fertilizante aumenta significativamente los rendimientos de los cultivos, resultando en cosechas abundantes. Mejora el crecimiento de las plantas y maximiza la absorción de nutrientes, asegurando cultivos más saludables y robustos. Con este fertilizante avanzado, los agricultores pueden esperar mejoras impresionantes en su productividad agrícola.",98,item-icon-132,132,Fertilizante potenciador de rendimiento avanzado de nivel 0,0,1,,1,0,1,999,0,3,0,1
-"792,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Este fertilizante está especialmente formulado para proporcionar una hidratación profunda y nutrición a las plantas, lo que resulta en un crecimiento más saludable y vibrante. Su fórmula avanzada garantiza una retención óptima de la humedad en el suelo, promoviendo raíces fuertes y follaje exuberante. Dale a tus plantas el impulso definitivo de hidratación con este fertilizante avanzado de hidratación.
-",98,item-icon-133,133,Fertilizante hidratante avanzado de nivel 0,0,1,,1,0,1,999,0,3,0,1
-"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Esta poción se puede usar en batalla y puede curar tus heridas.
-",0,item-icon-140,140,Poción de tratamiento de nivel 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Esta poción mejora tus habilidades de combate, aumentando tu poder de ataque durante un tiempo limitado. Es imprescindible para cualquier aventurero que busque infligir golpes devastadores a sus enemigos. Úsala sabiamente y observa cómo tus enemigos tiemblan ante ti.
-",0,item-icon-141,141,Poción de ataque de nivel 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Esta poción mejora tu velocidad, permitiéndote moverte rápidamente y esquivar ataques con facilidad. Es imprescindible para cualquier aventurero que busque obtener una ventaja en las batallas.
-",0,item-icon-142,142,Poción de rapidez de nivel 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Esta poción mejora tus habilidades de combate, aumentando tus posibilidades de infligir golpes devastadores a tus enemigos. Aumenta tu tasa de golpes críticos, permitiéndote infligir un daño masivo en las batallas. Con esta poción, la victoria está a tu alcance.
-",0,item-icon-143,143,Poción de golpe crítico de nivel 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Esta poción puede restaurar tus puntos de salud. Funciona mejor cuando se usa durante las batallas.
-",0,item-icon-144,144,Poción de vida de nivel 1,0,1,58,1,0,2,2,0,3,2,1
-"793,1","1,3,4",1," Puedes obtener este objeto a través de la síntesis. Su uso puede desencadenar efectos especiales.
--------
-Un poderoso elixir que mejora tus capacidades defensivas, proporcionando un escudo temporal contra los ataques enemigos. Esta poción aumenta tu armadura y resistencia, permitiéndote resistir incluso las batallas más difíciles. Úsala sabiamente para cambiar el rumbo a tu favor y salir victorioso.
-",0,item-icon-145,145,Poción de defensa de nivel 1,0,1,58,1,0,2,2,0,3,2,1
-"792,1","1,3,4",1,"Alguien vio una vez este material junto al mar.
-Se puede utilizar para fabricar equipos o objetos.
--------
-La arcilla es un suelo altamente maleable que se utiliza comúnmente para hacer cerámica, ladrillos y otros materiales de construcción. Por lo general, tiene tonos de gris-marrón o rojo-marrón y tiene una textura fina con una alta concentración de materia orgánica y minerales. Al recolectar arcilla, es importante mantener el suelo húmedo para un mejor modelado y procesamiento.
-",0,item-icon-61,61,Arcilla de nivel 1,0,1,,1,0,3,999,0,4,1,1
-"792,1","1,3,4",1,"Alguien una vez vio este material junto al mar.
-Se puede utilizar para fabricar equipos o objetos.
--------
-Esta resina es un líquido altamente viscoso que se puede utilizar para fabricar adhesivos, recubrimientos y selladores, entre otras cosas. Por lo general, se recolecta de los árboles y requiere herramientas especiales para su recolección.
-",0,item-icon-65,65,Resina de nivel 1,0,1,,1,0,3,999,1,4,1,1
-"794,1","1,3,4",1,"Alguien una vez vio este material en el cañón.
-Se puede utilizar para fabricar equipos o objetos.
--------
-Una planta herbácea perenne que crece en la naturaleza, con una fuerte resistencia a la sequía. Sus hojas gruesas contienen agua y nutrientes abundantes, lo que la convierte en una materia prima importante para fabricar bebidas alcohólicas y medicinas.
-",0,item-icon-68,68,Maguey de nivel 3,0,1,35,1,0,3,3,1,4,3,1
-"792,1","1,3,4",1,"Alguien una vez vio este material junto al mar.
-Se puede utilizar para fabricar equipos o objetos.
--------
-Esta fibra vegetal es un material en bruto recolectado que generalmente se obtiene de los árboles. Se puede utilizar para fabricar una variedad de objetos diferentes, como cuerdas, telas y papel.
-",0,item-icon-66,66,Fibra vegetal de nivel 1,0,1,31,1,0,3,"1,0",1,4,1,1
-"793,1","1,3,4",1,"Alguien una vez vio este material en la Montaña de Nieve.
-Se puede utilizar para fabricar equipos o objetos.
--------
-Estos hongos crecen en las regiones polares frías y tienen un color azul claro. Tienen un sabor delicioso y son adecuados para cocinar.
-",0,item-icon-67,67,Hongo congelado de nivel 2,0,1,33,1,0,3,2,1,4,2,1
-"792,1","1,3,4",1,"Alguien una vez vio este material junto al mar.
-Se puede utilizar para fabricar equipos o objetos.
--------
-Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material en bruto que se puede utilizar para fabricar diversos objetos.
-",0,item-icon-69,69,Telaraña de nivel 1,0,1,,1,0,3,999,0,4,1,1
 -,"1,3,4",1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
 ",0,item-icon-171,171,Boleto #1 de nivel 0,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Este boleto te otorga acceso a un evento exclusivo lleno de aventuras emocionantes y experiencias inolvidables. Prepárate para embarcarte en un viaje como ningún otro y crear recuerdos que durarán toda la vida.
@@ -496,6 +596,12 @@ Esta telaraña es de nivel 1 y se puede recolectar en el bosque. Es un material 
 
 Esta planta marchita puede ser causada por falta de agua o nutrientes. Se puede utilizar para hacer fertilizantes o hierbas medicinales, y también se puede utilizar como alimento para animales.
 ",0,item-icon-174,174,Planta marchita de nivel 0,0,1,,0,0,1,999,0,4,0,1
+-,"1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
+
+-------
+
+Este cultivo parece haberse podrido y ya no es comestible. Puede haber sido causado por un riego excesivo o una infestación de plagas. Estos cultivos se pueden utilizar como fertilizantes o enterrarlos.
+",0,item-icon-175,175,Cultivo en descomposición de nivel 0,0,1,,0,0,1,999,0,4,0,1
 -,"1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
 
 -------
@@ -556,112 +662,6 @@ Este magma solidificado se produce mediante la cría de monstruos y se puede uti
 
 Este fragmento de escarcha se obtiene de la cría de monstruos y es un material utilizado en la agricultura. Tiene tres niveles de calidad y se puede utilizar para hacer varios objetos a base de hielo.
 ",0,item-icon-185,185,Fragmento de escarcha de nivel 3,0,1,122,1,0,1,3,1,4,3,1
-"792,1",0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
-
--------
-Este cepillo es una herramienta diseñada específicamente para la agricultura, que puede limpiar fácilmente cultivos y tierras.
-",0,item-icon-95,95,Cepillo de nivel 0,1440,1,177,0,0,1,999,0,1,0,1
-"792,1",0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
-
--------
-Este cortapelos puede ayudar a los agricultores a esquilar lana de manera rápida y fácil, mejorando la eficiencia de esquila. Es adecuado para diferentes tipos de ovejas.
-",0,item-icon-96,96,Cortadora de pelo de nivel 0,1440,1,178,0,0,1,999,0,1,0,1
-"792,1",0,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Desbloquea productos agrícolas de nivel superior.
-
--------
-Un dispositivo portátil utilizado por los agricultores para extraer leche de las vacas de manera eficiente. Cuenta con un agarre cómodo y un mecanismo de succión que garantiza un proceso de ordeño suave y sin problemas.
-",0,item-icon-97,97,Ordeñadora de nivel 0,1440,1,179,0,0,1,999,0,1,0,1
--,"1,3,4",1,"Puedes obtener este tipo de material a través de la cría. Se puede utilizar para fabricar equipos o artículos.
-
--------
-
-Este cultivo parece haberse podrido y ya no es comestible. Puede haber sido causado por un riego excesivo o una infestación de plagas. Estos cultivos se pueden utilizar como fertilizantes o enterrarlos.
-",0,item-icon-175,175,Cultivo en descomposición de nivel 0,0,1,,0,0,1,999,0,4,0,1
-"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Este sombrero elegante es perfecto para cualquier aventurero, proporcionando protección adicional contra los elementos sin sacrificar el estilo. Su ala ancha y correa ajustable garantizan un ajuste cómodo, convirtiéndolo en un accesorio imprescindible para cualquier excursión al aire libre. Fabricado con materiales duraderos, este sombrero está diseñado para resistir las condiciones más difíciles. Su construcción ligera y tejido transpirable te mantienen fresco y protegido durante largas horas de exploración. Con su diseño práctico y aspecto elegante, el sombrero de recolección es un artículo imprescindible para cualquier aventurero experimentado.
-",0,item-icon-116,116,Sombrero de recolección de nivel 1,1440,1,334,1,0,3,999,0,1,1,1
-"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Estos guantes están diseñados para recolectores ávidos, permitiéndoles recolectar fácilmente diversos recursos sin ensuciarse las manos. Con un ajuste cómodo y un material duradero, proporcionan un agarre confiable y protección contra bordes afilados. Ya sea recolectando hierbas o extrayendo minerales, estos guantes son imprescindibles para cualquier recolector dedicado.
-",0,item-icon-126,126,Guantes de recolección de nivel 2,1440,"1,2",342,1,0,3,999,0,1,2,1
-"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Estos guantes están diseñados para recolectores ávidos, proporcionando un mayor agarre y destreza. Están hechos de un material duradero que protege tus manos de espinas y bordes afilados, lo que te permite recolectar recursos con facilidad y eficiencia. Con estos guantes, nunca más tendrás que preocuparte por ampollas o cortes.
-",0,item-icon-125,125,Guantes de recolección de nivel 1,1440,1,333,1,0,3,999,0,1,1,1
-"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Estos pantalones están diseñados para aventureros ávidos, proporcionando comodidad y flexibilidad durante largos viajes. Con costuras reforzadas y tela duradera, son perfectos para recolectar recursos en la naturaleza. Mantente ágil y concentrado con estos pantalones esenciales para cualquier explorador dedicado.
-",0,item-icon-122,122,Pantalones de recolección de nivel 1,1440,1,336,1,0,3,999,0,1,1,1
-"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Estos pantalones están diseñados para aventureros ávidos, proporcionando comodidad y flexibilidad durante largos viajes. Fabricados con materiales duraderos, ofrecen una excelente protección contra los elementos sin sacrificar la movilidad. Perfectos para aquellos que buscan recolectar recursos de manera eficiente mientras exploran los vastos paisajes del juego.
-",0,item-icon-124,124,Pantalones de recolección de nivel 3,1440,"1,2,3",354,1,0,3,999,0,1,3,1
-"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Estos pantalones son perfectos para recolectar recursos en el juego, proporcionando espacio de almacenamiento adicional y durabilidad. Están diseñados con costuras reforzadas y múltiples bolsillos, lo que permite a los jugadores llevar y recolectar diversos materiales sin preocuparse por el desgaste.
-",0,item-icon-123,123,Pantalones de recolección de nivel 2,1440,"1,2",345,1,0,3,999,0,1,2,1
-"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Estos guantes están diseñados para recolectores ávidos, proporcionando una destreza y agarre mejorados. Están hechos de un material duradero que ofrece protección contra espinas y objetos afilados. Con estos guantes, puedes recolectar recursos con facilidad y eficiencia.
-",0,item-icon-127,127,Guantes de recolección de nivel 3,1440,"1,2,3",351,1,0,3,999,0,1,3,1
-"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Una chaqueta práctica diseñada para aventureros, que proporciona una excelente protección contra los elementos. Su tela duradera y costuras reforzadas la hacen ideal para viajes largos y actividades al aire libre. Mantente abrigado y cómodo sin sacrificar la movilidad con esta pieza esencial de equipamiento.
-",0,item-icon-121,121,Chaqueta de recolección de nivel 3,1440,"1,2,3",353,1,0,3,999,0,1,3,1
-"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Una chaqueta práctica diseñada para aventureros, que proporciona una excelente protección contra los elementos. Su tela duradera y costuras reforzadas la hacen ideal para viajes largos y exploración al aire libre. Con múltiples bolsillos y correas ajustables, ofrece comodidad y funcionalidad para cualquier entusiasta del aire libre.
-",0,item-icon-120,120,Chaqueta de recolección de nivel 2,1440,"1,2",344,1,0,3,999,0,1,2,1
-"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Una chaqueta resistente diseñada para aventuras al aire libre, que proporciona una excelente protección contra los elementos. Su tela ligera y transpirable garantiza comodidad durante largas horas de exploración. Con múltiples bolsillos y costuras reforzadas, es el compañero perfecto para cualquier aventurero ávido.
-",0,item-icon-119,119,Chaqueta de recolección de nivel 1,1440,1,335,1,0,3,999,0,1,1,1
-"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Un sombrero elegante que mejora tus habilidades de recolección, facilitando la recolección de recursos en el juego. Un accesorio práctico que aumenta tu eficiencia de recolección, permitiéndote recolectar materiales más rápido y de manera más eficiente.
-",0,item-icon-118,118,Sombrero de recolección de nivel 3,1440,"1,2,3",352,1,0,3,999,0,1,3,1
-"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Aumenta la probabilidad de obtener recursos de recolección de nivel superior.
-
--------
-Un sombrero elegante que mejora tus habilidades de recolección, permitiéndote recolectar recursos de manera más eficiente. Su diseño único proporciona comodidad y protección, convirtiéndolo en un accesorio imprescindible para cualquier recolector dedicado. Un sombrero práctico diseñado específicamente para tareas de recolección. Su material ligero y transpirable te mantiene fresco y concentrado durante largas horas de recolección.
-",0,item-icon-117,117,Sombrero de recolección de nivel 2,1440,"1,2",343,1,0,3,999,0,1,2,1
-"794,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
-
--------
-Estos zapatos agrícolas están diseñados específicamente para trabajadores agrícolas. Cuentan con características antideslizantes, resistentes al desgaste y transpirables, que pueden proteger los pies y mejorar la eficiencia del trabajo.
-",0,item-icon-112,112,Zapatos de agricultura de nivel 3,1440,"1,2,3",204,1,0,1,999,0,1,3,1
-"793,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
-
--------
-Estos zapatos agrícolas están diseñados específicamente para actividades agrícolas como arar y plantar. Están hechos de materiales de alta calidad que son duraderos, transpirables y cómodos, brindando protección para los pies de los agricultores.
-",0,item-icon-111,111,Zapatos de agricultura de nivel 2,1440,"1,2",195,1,0,1,999,0,1,2,1
-"792,1",4,1,"Puedes obtener este artículo a través de la síntesis. Al equiparlo, puede mejorar los atributos. Hace que tus cultivos sean menos propensos a marchitarse.
-
--------
-Estos zapatos agrícolas están hechos de materiales de alta calidad, son ligeros y cómodos, adecuados para usar durante mucho tiempo. La suela es antideslizante y adecuada para diversos campos agrícolas, lo que facilita tu trabajo.
-",0,item-icon-110,110,Zapatos de agricultura de nivel 1,1440,1,186,1,0,1,999,0,1,1,1
-"792,1","1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
-Su uso puede desencadenar efectos especiales.
--------
-El alimento para mascotas es un artículo consumible adecuado para mascotas de nivel 0, y puede aumentar la saciedad y el valor de crecimiento de la mascota. Está hecho de plantas naturales y nutrientes, con un sabor refrescante y fácil digestión y absorción. Cada paquete de alimento para mascotas es ligero y fácil de llevar, lo que lo convierte en un artículo imprescindible para los dueños de mascotas.
-",27,item-icon-28,28,Alimentación de nivel 0 - Pequeña,0,1,434,1,0,1,"1,0",0,3,0,1
-"792,1","1,3,4",1,"Puedes obtener este objeto a través de la síntesis.
-Su uso puede desencadenar efectos especiales.
--------
-El alimento para animales es un producto consumible que proporciona los nutrientes necesarios para que los animales mantengan un crecimiento saludable. Es adecuado para diversos animales de granja y mascotas, y puede aumentar su productividad y esperanza de vida.
-",27,item-icon-29,29,Alimentación de nivel 0 - Grande,0,1,435,1,0,1,"1,0",0,3,0,1
 -,"1,3,4",0,"La EXP de agricultura es un valor de experiencia en el juego que se puede obtener a través de actividades agrícolas como el cultivo de cultivos y la cría de animales. Es un factor clave para mejorar las habilidades y niveles agrícolas, y también es una condición necesaria para desbloquear herramientas y equipos agrícolas de nivel superior.
 ",0,item-icon-188,188,EXP de agricultura,0,1,,0,0,"1,2,3",999,0,4,0,0
 -,"1,3,4",0,"La EXP de combate se refiere a la experiencia obtenida en las batallas. Puede ayudar a los jugadores a subir de nivel y mejorar sus habilidades, mejorando las habilidades de su personaje. En muchos juegos, la EXP de combate es una de las formas importantes en las que los jugadores pueden mejorar su fuerza.
