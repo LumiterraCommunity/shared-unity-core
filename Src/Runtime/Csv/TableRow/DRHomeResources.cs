@@ -131,6 +131,15 @@ public class DRHomeResources : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取worldDropGroup-int。*/
+    /// </summary>
+    public int WorldDropGroup
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -149,6 +158,7 @@ public class DRHomeResources : DataRowBase
         RankScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        WorldDropGroup = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -173,6 +183,7 @@ public class DRHomeResources : DataRowBase
                 RankScore = binaryReader.Read7BitEncodedInt32();
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
+                WorldDropGroup = binaryReader.Read7BitEncodedInt32();
             }
         }
 
