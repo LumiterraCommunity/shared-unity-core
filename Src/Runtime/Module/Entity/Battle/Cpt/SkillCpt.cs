@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-07-19 13:38:00
  * @Description: 技能组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillCpt.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillCpt.cs
  * 
  */
 using System.Collections.Generic;
@@ -97,6 +97,15 @@ public class SkillCpt : EntityBaseComponent
             return false;
         }
 
+        //只有玩家才需要检测武器
+        if (EntityUtilCore.EntityTypeIsPlayer(RefEntity.BaseData.Type))
+        {
+            if (!CheckSkillWeaponValid(skill.DRSkill))
+            {
+                return false;
+            }
+        }
+
         return CheckSkillTarget(skill, targetList, targetPosList);
     }
     public bool CheckSkillTarget(SkillBase skill, long[] targetList = null, Vector3[] targetPosList = null)
@@ -118,6 +127,49 @@ public class SkillCpt : EntityBaseComponent
         if ((skill.TargetFlag & (int)eSkillTargetFlag.Pos) != 0 && targetPosList != null && targetPosList.Length > 0)
         {
             return true;
+        }
+
+        return false;
+    }
+
+    /// <summary>
+    /// 检测技能武器是否有效
+    /// </summary>
+    public bool CheckSkillWeaponValid(DRSkill drSkill)
+    {
+
+        if (drSkill == null)
+        {
+            return false;
+        }
+
+        if (drSkill.RelyWeaponSubtype.Length <= 0)
+        {
+            return true;
+        }
+        if (!RefEntity.TryGetComponent(out EntityAvatarDataCore entityAvatarDataCore))
+        {
+            return false;
+        }
+
+        int weaponId = entityAvatarDataCore.GetWeaponAvatar();
+        if (weaponId <= 0)
+        {
+            return false;
+        }
+
+        DREquipment equipment = EquipmentTable.Inst.GetRowByItemID(weaponId);
+        if (equipment == null)
+        {
+            return false;
+        }
+
+        foreach (int weaponSubtype in drSkill.RelyWeaponSubtype)
+        {
+            if (equipment.WeaponSubtype == weaponSubtype)
+            {
+                return true;
+            }
         }
 
         return false;
