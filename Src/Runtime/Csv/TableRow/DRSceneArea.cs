@@ -69,6 +69,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取name-string。*/
+    /// </summary>
+    public string Name
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取refreshRatio-int[]。*/
     /// </summary>
     public int[] RefreshRatio
@@ -267,15 +276,6 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取name-string。*/
-    /// </summary>
-    public string Name
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取punishDesc-string。*/
     /// </summary>
     public string PunishDesc
@@ -349,6 +349,7 @@ public class DRSceneArea : DataRowBase
         IsRanking = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         RefreshRatio = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ReputationRequaireScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RespawnTimes = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -371,7 +372,6 @@ public class DRSceneArea : DataRowBase
         Chapters = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         RandomSeeds = DataTableParseUtil.ParseArrayList<string>(columnStrings[index++]);
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -396,6 +396,7 @@ public class DRSceneArea : DataRowBase
                 IsRanking = binaryReader.ReadBoolean();
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
+                Name = binaryReader.ReadString();
                 RefreshRatio = binaryReader.ReadArray<Int32>();
                 ReputationRequaireScore = binaryReader.Read7BitEncodedInt32();
                 RespawnTimes = binaryReader.Read7BitEncodedInt32();
@@ -418,7 +419,6 @@ public class DRSceneArea : DataRowBase
                 Chapters = binaryReader.ReadArray<String>();
                 Desc = binaryReader.ReadString();
                 DropRewardShow = binaryReader.ReadArray<Int32>();
-                Name = binaryReader.ReadString();
                 PunishDesc = binaryReader.ReadString();
                 RandomSeeds = binaryReader.ReadArrayList<String>();
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
