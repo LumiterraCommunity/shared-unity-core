@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using GameMessageCore;
 using UnityEngine;
@@ -186,5 +187,15 @@ public static class HomeUtilCore
         float toLevel = homeResource.GetActionLevel(targetCurAction);
         float probability = playerProficiency / resourceProficiency * Mathf.Pow(2, fromLevel - toLevel + 1);//概率 = 采集熟练度/需求熟练度 * 2^(采集装等 - 采集物等级 + 1)
         return probability;
+    }
+
+    /// <summary>
+    /// 获取动物收获熟练度掉落概率 返回0-1
+    /// </summary>
+    public static float GetAnimalHarvestProficiencyProbability(HomeAnimalCore animal)
+    {
+        float requireProficiency = (int)animal.RefEntity.EntityAttributeData.GetRealValue(eAttributeType.RequiredBreedingProficiency);//向下取 防止1边界上
+        float probability = animal.Data.SaveData.Proficiency / requireProficiency;
+        return Mathf.Clamp01(probability);
     }
 }
