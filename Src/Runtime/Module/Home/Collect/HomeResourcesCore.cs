@@ -18,7 +18,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
 
     public bool IsDead { get; private set; }
 
-    public eAction SupportAction { get; set; } = eAction.None;
+    public eAction SupportAction { get; set; } = eAction.None;//采集物中暂时不能有复合动作 比如掉落概率不知道算哪个的
     public ResourceDataCore Data { get; private set; }
 
     public int GetActionLevel(eAction action)
