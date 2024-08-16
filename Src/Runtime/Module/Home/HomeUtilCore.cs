@@ -190,12 +190,18 @@ public static class HomeUtilCore
     }
 
     /// <summary>
-    /// 获取动物收获熟练度掉落概率 返回0-1
+    /// 获取动物收获熟练度掉落概率 返回0-1 异常返回0
     /// </summary>
-    public static float GetAnimalHarvestProficiencyProbability(HomeAnimalCore animal)
+    public static float GetAnimalHarvestProficiencyProbability(AnimalDataCore animalData)
     {
-        float requireProficiency = (int)animal.RefEntity.EntityAttributeData.GetRealValue(eAttributeType.RequiredBreedingProficiency);//向下取 防止1边界上
-        float probability = animal.Data.SaveData.Proficiency / requireProficiency;
+        if (animalData == null)
+        {
+            Log.Error("GetAnimalHarvestProficiencyProbability error: animalData is null");
+            return 0;
+        }
+
+        float requireProficiency = (int)animalData.RefEntity.EntityAttributeData.GetRealValue(eAttributeType.RequiredBreedingProficiency);//向下取 防止1边界上
+        float probability = animalData.SaveData.Proficiency / requireProficiency;
         return Mathf.Clamp01(probability);
     }
 }
