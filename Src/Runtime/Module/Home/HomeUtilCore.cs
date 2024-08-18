@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using GameMessageCore;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
 /// <summary>
@@ -147,5 +149,59 @@ public static class HomeUtilCore
         }
 
         return soilData.DRSeed.FunctionType != (int)SeedFunctionType.None;
+    }
+
+    /// <summary>
+    /// 获取资源熟练度掉落概率 返回0-1 异常也返回0
+    /// </summary>
+    /// <param name="targetCurAction">拾取的不在这里</param>
+    /// <returns></returns>
+    public static float GetResourceProficiencyProbability(EntityAttributeData entityAttribute, HomeResourcesCore homeResource, eAction targetCurAction)
+    {
+        float resourceProficiency = homeResource.RefEntity.EntityAttributeData.GetRealValue(eAttributeType.RequiredProficiency);
+        if (resourceProficiency <= 0)//防止分母0
+        {
+            Log.Error($"CheckCanGetResourceDrop error: resourceProficiency invalid {resourceProficiency}");
+            return 0;
+        }
+
+        float playerProficiency;
+        switch (targetCurAction)
+        {
+            case eAction.Mowing:
+                playerProficiency = entityAttribute.GetRealValue(eAttributeType.GrassProficiency);
+                break;
+            case eAction.Cut:
+                playerProficiency = entityAttribute.GetRealValue(eAttributeType.TreeProficiency);
+                break;
+            case eAction.Mining:
+                playerProficiency = entityAttribute.GetRealValue(eAttributeType.OreProficiency);
+                break;
+            default:
+                playerProficiency = resourceProficiency;
+                Log.Error($"CheckCanGetResourceDrop error: targetCurAction invalid {targetCurAction}");
+                break;
+        }
+
+        float fromLevel = entityAttribute.RefEntity.GetComponent<EntityAvatarDataCore>().GetAbilityLevel(eTalentType.gather);
+        float toLevel = homeResource.GetActionLevel(targetCurAction);
+        float probability = playerProficiency / resourceProficiency * Mathf.Pow(2, fromLevel - toLevel + 1);//概率 = 采集熟练度/需求熟练度 * 2^(采集装等 - 采集物等级 + 1)
+        return probability;
+    }
+
+    /// <summary>
+    /// 获取动物收获熟练度掉落概率 返回0-1 异常返回0
+    /// </summary>
+    public static float GetAnimalHarvestProficiencyProbability(AnimalDataCore animalData)
+    {
+        if (animalData == null)
+        {
+            Log.Error("GetAnimalHarvestProficiencyProbability error: animalData is null");
+            return 0;
+        }
+
+        float requireProficiency = (int)animalData.RefEntity.EntityAttributeData.GetRealValue(eAttributeType.RequiredBreedingProficiency);//向下取 防止1边界上
+        float probability = animalData.SaveData.Proficiency / requireProficiency;
+        return Mathf.Clamp01(probability);
     }
 }

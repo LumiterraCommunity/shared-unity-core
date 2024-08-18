@@ -112,7 +112,7 @@ public class SkillDamage
         //角色和宠物取装备等级平均值
         if (EntityUtilCore.EntityTypeIsPlayer(entity.BaseData.Type) || EntityUtilCore.EntityTypeIsPet(entity.BaseData.Type))
         {
-            return entity.GetComponent<EntityAvatarDataCore>().AbilityLevel;
+            return entity.GetComponent<EntityAvatarDataCore>().GetAbilityLevel(eTalentType.battle);
         }
         else
         {

@@ -10,12 +10,22 @@ public class EntityAvatarDataCore : EntityBaseComponent
     /// 专精能力等级 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
     /// </summary>
     /// <value></value>
-    public float AbilityLevel { get; protected set; } = 0;
+    private float _abilityLevel = 0;
     /// <summary>
     /// 当前能力等级的所属天赋类型 由所持武器决定
     /// </summary>
     /// <value></value>
-    public eTalentType AbilityLevelTalentType { get; protected set; } = eTalentType.battle;
+    private eTalentType _abilityLevelTalentType = eTalentType.battle;
+
+    /// <summary>
+    /// 获取专精能力等级
+    /// </summary>
+    /// <param name="talentType"></param>
+    /// <returns></returns>
+    public float GetAbilityLevel(eTalentType talentType)
+    {
+        return talentType != _abilityLevelTalentType ? 0 : _abilityLevel;//TODO: home 之前为了解决群体浇水临时最小改动补丁 解决武器套群里浇水能力等级太高问题
+    }
 
     /// <summary>
     /// 角色穿着数据
@@ -72,11 +82,11 @@ public class EntityAvatarDataCore : EntityBaseComponent
 
     private void CalculateAbilityLevel()
     {
-        AbilityLevelTalentType = eTalentType.battle;
+        _abilityLevelTalentType = eTalentType.battle;
 
         if (AvatarList == null || AvatarList.Count == 0)
         {
-            AbilityLevel = 0;
+            _abilityLevel = 0;
             return;
         }
 
@@ -85,7 +95,7 @@ public class EntityAvatarDataCore : EntityBaseComponent
             DRItem drWeapon = TableUtil.GetConfig<DRItem>(weaponAvatar.ObjectId);
             if (drWeapon != null && drWeapon.TalentId.Length > 0)
             {
-                AbilityLevelTalentType = (eTalentType)drWeapon.TalentId[0];
+                _abilityLevelTalentType = (eTalentType)drWeapon.TalentId[0];
             }
             else
             {
@@ -109,13 +119,13 @@ public class EntityAvatarDataCore : EntityBaseComponent
                 continue;
             }
 
-            if (drItem.TalentId?.Length > 0 && drItem.TalentId.Contains((int)AbilityLevelTalentType))
+            if (drItem.TalentId?.Length > 0 && drItem.TalentId.Contains((int)_abilityLevelTalentType))
             {
                 allLv += drItem.UseLv;
             }
         }
 
-        AbilityLevel = allLv / AvatarDefineCore.EquipmentPartList.Count;
+        _abilityLevel = allLv / AvatarDefineCore.EquipmentPartList.Count;
     }
 
     /// <summary>
