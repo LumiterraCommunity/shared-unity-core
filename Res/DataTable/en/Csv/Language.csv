@@ -375,17 +375,19 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290003,背包,All converted.
 ,20290004,背包,This item can not be converted.
 ,20290005,背包,Items sorted.
-,20290006,,Raw item name copied!
-,20290007,,Remove item?
-,20290008,,Are you sure to remove this item?
-,20290009,,Daily convert quota is used up.
-,20290010,,Daily convert quota is not enough.
-,20290011,,Warehouse lease success.
-,20300000,,Complete the reputation task.
-,20300001,,Made it to the leaderboard once.
-,20300002,,Rent a warehouse.
-,20300003,,Pass the dungeon with the specified score.
-,20300004,,Hold LUAG(100) in the game.
-,20300005,,Account duration.
-,20300006,,Additional points.
-,20300007,,Daily decay of {0} points.
+,20290006,背包,Raw item name copied!
+,20290007,背包,Remove item?
+,20290008,背包,Are you sure to remove the item [color=#ff0000]{0}?
+,20290009,背包,Daily convert quota is used up.
+,20290010,背包,Daily convert quota is not enough.
+,20290011,背包,Warehouse lease success.
+,20290012,背包,Warehouse lease failed.
+,20290013,,Item:[color=#ff0000]{0}[/color] removed.
+,20300000,声望,Complete the reputation task.
+,20300001,声望,Made it to the leaderboard once.
+,20300002,声望,Rent a warehouse.
+,20300003,声望,Pass the dungeon with the specified score.
+,20300004,声望,Hold LUAG(100) in the game.
+,20300005,声望,Account duration.
+,20300006,声望,Additional points.
+,20300007,声望,Daily decay of {0} points.

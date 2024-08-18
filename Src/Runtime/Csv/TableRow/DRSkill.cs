@@ -339,6 +339,15 @@ public class DRSkill : DataRowBase
     }
 
     /// <summary>
+  /**获取relyWeaponSubtype-int[]。*/
+    /// </summary>
+    public int[] RelyWeaponSubtype
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取effectSelf-int[]。*/
     /// </summary>
     public int[] EffectSelf
@@ -496,6 +505,7 @@ public class DRSkill : DataRowBase
         TargetType = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         HomeAction = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         HomeAttRate = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        RelyWeaponSubtype = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         EffectSelf = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         SkillIcon = DataTableParseUtil.ParseString(columnStrings[index++]);
         HitEff = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -556,6 +566,7 @@ public class DRSkill : DataRowBase
                 TargetType = binaryReader.ReadArray<Int32>();
                 HomeAction = binaryReader.ReadArray<Int32>();
                 HomeAttRate = binaryReader.Read7BitEncodedInt32();
+                RelyWeaponSubtype = binaryReader.ReadArray<Int32>();
                 EffectSelf = binaryReader.ReadArray<Int32>();
                 SkillIcon = binaryReader.ReadString();
                 HitEff = binaryReader.ReadString();
