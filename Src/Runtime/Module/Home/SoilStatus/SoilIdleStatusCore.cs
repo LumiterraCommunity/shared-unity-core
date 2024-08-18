@@ -63,6 +63,8 @@ public class SoilIdleStatusCore : SoilStatusCore
 
             SoilData.SetSoilFertile(soilFertile);
 
+            OnActionHoeing(soilFertile);
+
             ChangeState(eSoilStatus.Loose);
         }
         catch (System.Exception e)
@@ -70,5 +72,9 @@ public class SoilIdleStatusCore : SoilStatusCore
             Log.Error($"锄地失败 actionData:{JsonConvert.SerializeObject(actionData)} error:{e}");
             throw e;
         }
+    }
+
+    protected virtual void OnActionHoeing(int finalSoilFertile)
+    {
     }
 }

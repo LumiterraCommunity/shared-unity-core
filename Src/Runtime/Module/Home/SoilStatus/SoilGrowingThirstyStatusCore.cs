@@ -2,7 +2,6 @@ using static HomeDefine;
 using GameFramework.Fsm;
 using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
-using System;
 
 /// <summary>
 /// 土地种子发苗后的生长干涸状态
@@ -138,12 +137,16 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
                 {
                     SoilData.SaveData.SeedData.ExtraWateringNum = extraWateringNum;
                 }
+                int oldProficiency = SoilData.SaveData.SeedData.CurProficiency;
+                int offsetProficiency = wateringResult.CurProficiency - oldProficiency;
                 SoilData.SetCurProficiency(wateringResult.CurProficiency);
                 SoilData.SetNeedPerish(wateringResult.NeedPerish);
                 if (wateringResult.NeedPerish)
                 {
                     Log.Info($"在生长干涸浇水时种子被标记成腐败收获 id={SoilData.SaveData.Id} cid={SoilData.SaveData.SeedData.SeedCid} curStage={SoilData.SaveData.SeedData.GrowingStage} maxStage={SoilData.SeedGrowStageNum - 1}");
                 }
+
+                OnActionWatering(offsetProficiency, wateringResult.CurProficiency);
             }
             catch (System.Exception e)
             {
@@ -152,5 +155,14 @@ public class SoilGrowingThirstyStatusCore : SoilStatusCore
 
             ChangeState(eSoilStatus.GrowingWet);
         }
+    }
+
+    /// <summary>
+    /// 执行浇水动作
+    /// </summary>
+    /// <param name="offsetProficiency">本次增加的熟练度</param>
+    /// <param name="finalProficiency"></param>
+    protected virtual void OnActionWatering(int offsetProficiency, int finalProficiency)
+    {
     }
 }

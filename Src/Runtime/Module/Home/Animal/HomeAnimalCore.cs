@@ -313,10 +313,10 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// 抚摸操作
     /// </summary>
     /// <param name="appeaseValid">是否有效抚摸 无效代表一个成熟阶段重复抚摸</param>
-    /// <param name="usedHappy">抚摸使用的的幸福值</param>
+    /// <param name="usedHappiness">抚摸使用的的幸福值</param>
     /// <param name="proficiency">抚摸获得的熟练度</param>
     /// <param name="playerId">抚摸的玩家id</param>
-    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappy, int proficiency, long playerId)
+    protected virtual void OnExecuteAppease(bool appeaseValid, int usedHappiness, int proficiency, long playerId)
     {
         if (appeaseValid)
         {
@@ -327,7 +327,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
         gameObject.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Appease, TableUtil.GetGameValue(eGameValueID.animalAppeaseMaxActionValue).Value);
 
-        Data.SetHappiness(usedHappy);
+        Data.SetHappiness(usedHappiness);
     }
 
     /// <summary>

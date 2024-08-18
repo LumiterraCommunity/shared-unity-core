@@ -8,23 +8,15 @@ using UnityGameFramework.Runtime;
 /// </summary>
 public class SoilStatusCtrl : MonoBehaviour
 {
-    private SoilEvent _soilEvent;//缓存土地上的事件组件 节省性能
+    /// <summary>
+    /// 获取引用的土地core
+    /// </summary>
+    public HomeSoilCore HomeSoilCore { get; private set; }
 
     /// <summary>
     /// 获取土地事件组件 专门给状态用的 外部不要使用
     /// </summary>
-    /// <value></value>
-    public SoilEvent SoilEvent
-    {
-        get
-        {
-            if (_soilEvent == null)
-            {
-                _soilEvent = gameObject.GetComponent<SoilEvent>();
-            }
-            return _soilEvent;
-        }
-    }
+    public SoilEvent SoilEvent { get; private set; }
 
     /// <summary>
     /// 当前状态机 状态机名字就是EntityBase Root GetInstanceID()
@@ -37,7 +29,6 @@ public class SoilStatusCtrl : MonoBehaviour
     private void OnDestroy()
     {
         ClearFsm();
-        _soilEvent = null;
     }
 
     private void ClearFsm()
@@ -52,6 +43,11 @@ public class SoilStatusCtrl : MonoBehaviour
     }
 
 
+    internal void Init(HomeSoilCore homeSoilCore, SoilEvent soilEvent)
+    {
+        HomeSoilCore = homeSoilCore;
+        SoilEvent = soilEvent;
+    }
 
     /// <summary>
     /// 初始化状态机 需要给定固定的状态实例

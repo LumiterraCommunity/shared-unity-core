@@ -2,8 +2,6 @@ using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
 using static HomeDefine;
 using GameFramework.Fsm;
-using System;
-using UnityEngine;
 
 /// <summary>
 /// 土地已播种干涸状态
@@ -113,12 +111,16 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
                 {
                     SoilData.SaveData.SeedData.ExtraWateringNum = extraWateringNum;
                 }
+                int oldProficiency = SoilData.SaveData.SeedData.CurProficiency;
+                int offsetProficiency = wateringResult.CurProficiency - oldProficiency;
                 SoilData.SetCurProficiency(wateringResult.CurProficiency);
                 SoilData.SetNeedPerish(wateringResult.NeedPerish);
                 if (wateringResult.NeedPerish)
                 {
                     Log.Error($"在播种干涸浇水时种子被标记成腐败收获 id={SoilData.SaveData.Id} cid={SoilData.SaveData.SeedData.SeedCid} curStage={SoilData.SaveData.SeedData.GrowingStage} maxStage={SoilData.SeedGrowStageNum - 1}");//打错误是因为理论上不可能出现 除非配置只有一个生长阶段
                 }
+
+                OnActionWatering(offsetProficiency, wateringResult.CurProficiency);
             }
             catch (System.Exception e)
             {
@@ -139,6 +141,8 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
             {
                 int manureCid = (int)actionData;
                 SoilData.SetManure(manureCid);
+
+                OnActionManure(manureCid);
             }
             catch (System.Exception e)
             {
@@ -146,5 +150,22 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
                 throw e;
             }
         }
+    }
+
+    /// <summary>
+    /// 执行施肥动作
+    /// </summary>
+    /// <param name="manureCid"></param>
+    protected virtual void OnActionManure(int manureCid)
+    {
+    }
+
+    /// <summary>
+    /// 执行浇水动作
+    /// </summary>
+    /// <param name="offsetProficiency">本次增加的熟练度</param>
+    /// <param name="finalProficiency"></param>
+    protected virtual void OnActionWatering(int offsetProficiency, int finalProficiency)
+    {
     }
 }
