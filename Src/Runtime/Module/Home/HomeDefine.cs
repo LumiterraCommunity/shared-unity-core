@@ -215,10 +215,6 @@ public static class HomeDefine
         /// </summary>
         Milking = 1 << 12,
         /// <summary>
-        /// 喂养 目前只是兼容一下进度界面需要饥饿状态 没有实际意义
-        /// </summary>
-        Feeding = 1 << 14,
-        /// <summary>
         /// 作物收获
         /// </summary>
         Harvest = 1 << 15,
@@ -227,10 +223,6 @@ public static class HomeDefine
         /// </summary>
         Pick = 1 << 16,
 
-        /// <summary>
-        /// 死亡求助
-        /// </summary>
-        Help = 1 << 30,
         /// <summary>
         /// 攻击敌人 怪物 boss（这个给伤害计算分类用的 家园并不使用）
         /// </summary>
