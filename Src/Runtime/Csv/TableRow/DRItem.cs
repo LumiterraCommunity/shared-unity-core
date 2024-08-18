@@ -60,6 +60,15 @@ public class DRItem : DataRowBase
     }
 
     /// <summary>
+  /**获取destructible-bool。*/
+    /// </summary>
+    public bool Destructible
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取givenSkillId-int。*/
     /// </summary>
     public int GivenSkillId
@@ -194,6 +203,7 @@ public class DRItem : DataRowBase
         CanDropScene = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         CanMint = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Destructible = DataTableParseUtil.ParseBool(columnStrings[index++]);
         GivenSkillId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
@@ -224,6 +234,7 @@ public class DRItem : DataRowBase
                 CanDropScene = binaryReader.ReadArray<Int32>();
                 CanMint = binaryReader.Read7BitEncodedInt32();
                 Desc = binaryReader.ReadString();
+                Destructible = binaryReader.ReadBoolean();
                 GivenSkillId = binaryReader.Read7BitEncodedInt32();
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
