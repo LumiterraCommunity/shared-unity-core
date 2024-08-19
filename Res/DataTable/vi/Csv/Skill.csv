@@ -87,7 +87,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,,,330,29,0,1,1,1,1,0,0,0,A-jinai-NEW,Skill_milking,playerroll,,400,1,-1,Vắt sữa từ một con bò một cách khéo léo với một cú nắm tay duy nhất. ,,2,0,vuốt ve một mình,,,1,0,,12,1000,11,,,skill_rock_hurt,,,,,,,,,,
 0,0,0,0,0,,,330,28,0,1,1,1,1,0,0,0,A-jianmao-NEW,Skill_cutting,A-jianmao-NEW_audio,,400,1,-1,Cắt tóc một cách chính xác và sạch sẽ với một cú đánh duy nhất. ,,2,0,vắt sữa đơn,,,1,0,,11,1000,10,,,skill_tree_hurt,,,,,,,,,,
 0,0,0,0,0,,,280,27,0,1,0,1,0,0,0,0,A-bozhong-NEW,Skill_feeding,playerroll,,400,1,-1,Cho ăn động vật một cách riêng lẻ theo nhu cầu của chúng. ,,2,0,Cắt riêng lẻ,"4,300,150,27000,0",,1,0,,9,,,,,,,,,,,,,,,
-1,0,0,,0,1,"191,217",667,96,1,1,0,1,0,0,0,0,attack,,Skill_Bee_attack,,1000,1,0,Cuộc tấn công của ong. ,450,2,0,kỹ năng gieo hạt,"4,300,200,12000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
+1,0,0,,0,1,"191,217",667,96,1,1,0,1,0,0,0,0,attack,,Skill_Bee_attack,,1000,1,3000,Cuộc tấn công của ong. ,450,2,0,kỹ năng gieo hạt,"4,300,200,12000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
 0,0,0,0,0,,,200,97,0,1,0,1,0,0,0,0,A-bozhong-NEW,Skill_seeding_2,A-bozhong-NEW_audio,,660,1,-1,Phát triển kỹ năng gieo trồng của bạn để có kết quả trồng trọt tốt hơn. ,,2,0,Tưới nước nhóm cấp 3,,,1,0,,2,,,,skill-icon-97,skill_tree_hurt,,,,,,,,,,
 0,0,0,0,0,,,200,98,0,1,0,1,0,0,0,0,A-bozhong-NEW,Skill_fertilize_2,playerroll,,660,1,-1,Thống trị nghệ thuật phân bón để có vụ mùa mạnh mẽ hơn. ,,2,0,thụ tinh monome,,,1,0,,4,,,,skill-icon-98,skill_tree_hurt,,,,,,,,,,
 0,0,0,0,0,419,,300,99,0,1,1,1,1,0,0,0,A1-jiaoguan-NEW,Skill_watering_2,ranged_RPG_attack5_audio,,660,1,15000,Kỹ năng tưới nước tầm xa. ,,2,0,kỹ năng bón phân,"2,100,0",,1,0,1,3,700,8,,skill-icon-99,skill_rock_hurt,,,,,,,,,,
@@ -102,8 +102,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,108,0,1,0,1,0,0,0,0,,,,,,1,-1,Tốc độ di chuyển nhanh hơn 10% trong nhà. ,,1,0,Chấn thương chiến đấu cấp 1,,,1,0,,,,,,skill-icon-108,,,,,,99,,,,,
 0,0,0,,0,,,,109,0,1,0,1,0,0,0,0,,,,,,1,-1,Tốc độ di chuyển nhanh hơn 20% trong nhà. ,,1,0,Chấn thương chiến đấu cấp 2,,,1,0,,,,,,skill-icon-109,,,,,,100,,,,,
 0,0,0,,0,,,,110,0,1,0,1,0,0,0,0,,,,,,1,-1,Tốc độ di chuyển nhanh hơn 30% trong nhà. ,,1,0,Chấn thương chiến đấu cấp 3,,,1,0,,,,,,skill-icon-110,,,,,,101,,,,,
-1,0,0,,0,15,193,667,111,1,1,0,1,0,0,0,0,attack,,Skill_CrystalBeast_attack,,1000,1,0,Cuộc tấn công của Leafy Lurker. ,180,2,0,Bước nhanh cấp 1,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
-0,0,0,,0,15,192,600,112,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,0,Cuộc tấn công của Mine Cat. ,180,2,0,Bước nhanh cấp 2,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
+1,0,0,,0,15,193,667,111,1,1,0,1,0,0,0,0,attack,,Skill_CrystalBeast_attack,,1000,1,3000,Cuộc tấn công của Leafy Lurker. ,180,2,0,Bước nhanh cấp 1,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
+0,0,0,,0,15,192,600,112,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,3000,Cuộc tấn công của Mine Cat. ,180,2,0,Bước nhanh cấp 2,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
 0,0,0,,0,,,,113,0,1,0,1,0,0,0,0,,,,,,1,-1,Tăng sát thương chí mạng đối với quái vật lên 10%. ,,1,0,Bước nhanh cấp 3,,,1,0,,,,,,skill-icon-113,,,,,,102,,,,,
 0,0,0,,0,,,,114,0,1,0,1,0,0,0,0,,,,,,1,-1,Tăng sát thương chí mạng đối với quái vật lên 20%. ,,1,0,Kiếm vũ cấp 1,,,1,0,,,,,,skill-icon-114,,,,,,103,,,,,
 0,0,0,,0,,,,115,0,1,0,1,0,0,0,0,,,,,,1,-1,Tăng sát thương chí mạng đối với quái vật lên 30%. ,,1,0,Kiếm vũ cấp 2,,,1,0,,,,,,skill-icon-115,,,,,,104,,,,,
@@ -187,8 +187,8 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,1,0,0,15,189,800,180,1,1,0,1,0,0,0,1,attackArea,Skill_Pumpkin_atkar,Skill_Pumpkin_atkar,,1400,1,0,Pumpkin Fiend có giáp bảo vệ. ,180,2,0,Cuộc tấn công của mèo quặng,"2,200,0",,1,0,1,,,,,,,,,,,,,,,,
 0,0,1,0,0,"15,238",190,1000,181,1,1,0,1,0,0,0,1,attackArea,Skill_Cactus_atkar,Catus_Attack,,1500,1,0,Dragon fruit soldier gần đánh. ,150,2,0,Thuốc tấn công ít chí mạng hơn,"2,200,0",,1,0,1,,,,,,,,,,,,,,,,
 0,0,0,,0,15,"191,217",667,182,1,1,0,1,0,0,0,0,attack,,Skill_Bee_attack,,1000,1,0,Bee có giáp bảo vệ. ,450,2,0,Thuốc giảm sức khỏe,"4,300,200,12000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
-0,0,0,,0,"227,386",193,667,183,1,1,0,1,0,0,0,0,attack,,,,1000,1,0,Leafy Lurker tấn công. ,180,2,0,Thuốc phòng thủ kém hơn,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
-0,0,0,,0,"227,15",192,600,184,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,0,Mine Cat tấn công. ,180,2,0,thuốc tấn công,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
+0,0,0,,0,"227,386",193,667,183,1,1,0,1,0,0,0,0,attack,,,,1000,1,3000,Leafy Lurker tấn công. ,180,2,0,Thuốc phòng thủ kém hơn,"4,300,200,12000,04,300,150,27000,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
+0,0,0,,0,"227,15",192,600,184,1,1,0,1,0,0,0,0,attack,,Skill_CrystalLizard_attack,,833,1,3000,Mine Cat tấn công. ,180,2,0,thuốc tấn công,"4,300,150,27000,02,200,0",CameraShakeGrade_1,1,0,1,,,,,,,,,,,,,,,,
 0,0,0,,0,,,,185,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Tăng tốc độ di chuyển thêm 80 điểm, kéo dài 60 giây. ",,2,0,Thuốc tăng tốc,,,1,0,,,1000,,194,,,,,,,,,,,,
 0,0,0,,0,,,,186,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Tăng tỷ lệ chí mạng thêm 3%, kéo dài 60s. ",,2,0,Thuốc tấn công chí mạng,,,1,0,,,1000,,195,,,,,,,,,,,,
 0,0,0,,0,,,,187,0,0,0,1,0,0,0,0,,PS_VFX_HealCast,,,,1,0,"Tăng giới hạn HP thêm 80 điểm, kéo dài 60 giây. ",,2,0,lọ thuốc sống,,,1,0,,,1000,,"196,211",,,,,,,,,,,,
@@ -212,10 +212,10 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,0,0,"387,404",,250,205,0,1,0,1,0,1,0,0,gongjian_attack1,,A-gongjian-NEW_audio,14,500,1,-1,Tiến hành một cuộc tấn công cung mạnh mẽ vào kẻ thù của bạn. ,1200,2,1,Đất nông nghiệp nhóm cấp 2,,,1,1,1,,,3,,,,0,,1,,,,,,,
 1,0,0,,0,15,"218,222",700,206,0,1,0,1,0,0,0,0,attack,,Chaos_Wraith_Attack,,1000,1,4000,Chaos Wraith tấn công. ,350,2,0,Cung tấn công tầm xa 3,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,,
 1,0,1,0,0,385,,500,207,0,1,0,1,0,1,0,1,attackArea,,monsterattack,,1000,1,6000,Quái vật gần đánh. ,1000,2,5,Thuốc tốc độ thấp hơn,"2,200,0",,1,1,1,,1000,,,skill-icon-207,,,top_down_bomb_2,3,,,,,,,
-0,0,0,,0,15,"222,219",950,208,0,1,0,1,0,0,0,0,attack,,Crimson_Gnasher_Attack,,1500,1,0,Crimson Gnasher tấn công. ,400,2,0,Cuộc tấn công của Wraith hỗn loạn,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,,
-1,0,0,,0,"227,386",222,1200,209,0,1,0,1,0,0,0,0,attackArea,,,,1833,1,0,Crimson Gnasher có giáp bảo vệ. ,400,2,0,điều khiển từ xa quái vật đen,"1,500,100,1,0",,1,0,1,,1000,,,,,,,,,,,,,,
+0,0,0,,0,15,"222,219",950,208,0,1,0,1,0,0,0,0,attack,,Crimson_Gnasher_Attack,,1500,1,3000,Crimson Gnasher tấn công. ,400,2,0,Cuộc tấn công của Wraith hỗn loạn,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,,
+1,0,0,,0,"227,386",222,1200,209,0,1,0,1,0,0,0,0,attackArea,,,,1833,1,3000,Crimson Gnasher có giáp bảo vệ. ,400,2,0,điều khiển từ xa quái vật đen,"1,500,100,1,0",,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,15,"220,223",650,210,0,1,0,1,0,0,0,0,attack,,Frosty_Paw_Attack,,1033,1,4000,Frosty Paw tấn công. ,300,2,0,Cuộc tấn công của Gnasher màu đỏ thẫm,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,,
-1,0,0,,0,"227,386","220,223",650,211,0,1,0,1,0,0,0,0,attack,,Frosty_Paw_Attack,,1033,1,0,Frosty Paw có giáp bảo vệ. ,300,2,0,Siêu nhân Crimson Gnasher,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,,
+1,0,0,,0,"227,386","220,223",650,211,0,1,0,1,0,0,0,0,attack,,Frosty_Paw_Attack,,1033,1,3000,Frosty Paw có giáp bảo vệ. ,300,2,0,Siêu nhân Crimson Gnasher,"4,300,200,12000,0",,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,,,,212,0,0,0,1,0,0,0,0,,,,,,1,-1,Tăng tốc độ tấn công và sức mạnh tấn công đồng thời. ,,1,0,Tấn công chân băng giá,,,1,0,,,,,,,,,,,,228,,,,,
 0,0,0,,0,,,,213,0,0,0,1,0,0,0,0,,,,,,1,-1,Giảm tốc độ tấn công và sức mạnh tấn công đồng thời. ,,1,0,Frosty Paw Siêu Thân,,,1,0,,,,,,,,,,,,231,,,,,
 0,0,0,,0,,,,214,0,0,0,1,0,0,0,0,,,,,,1,-1,Tăng giá trị phòng thủ. ,,1,0,Buff tấn công cận chiến mạnh,,,1,0,,,,,,,,,,,,232,,,,,
@@ -445,7 +445,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 1,0,0,,0,15,,1400,400,1,1,0,1,0,1,0,1,attack,,Skill_SkeletonArcher_Attack,,2000,1,-1,"Trống
 ",1400,2,19,"Skeleton Archer Lockin Skeleton Arrow
 ",,,1,0,1,,1000,,,,,,,1,,454,,,,,
-0,0,0,,0,465,,2266,401,1,1,0,1,0,0,0,1,attackArea,,Skill_RabbitWizard_Attack,,2433,1,10000,"Trống
+0,0,0,,0,465,,2266,401,1,1,0,1,0,0,0,1,attackArea,,Skill_RabbitWizard_Attack,,2433,1,15000,"Trống
 ",1000,2,0,"Hỗ trợ của Rabbit Wizard
 ","2,750,0",,1,0,2,,1000,,465,,,,top_down_Blue_9,,,455,,,,,
 1,0,0,,0,"458,456,446",,1000,402,1,1,0,1,0,1,0,1,attack,,Skill_TrapPush_Attack,,1500,1,4000,"Trống
@@ -548,7 +548,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 1,0,1,,0,533,,4000,450,0,0,0,1,1,0,1,0,work,,,,4100,1,30000,Kỹ năng cứu hộ,,2,0,"Kỹ năng cứu hộ 
 ",,,2,1,2,,1000,,,skill-icon-450,,,,,,,,,,,skill_Rescue_AccuBar
 0,0,0,,0,532,113,600,452,0,1,0,1,0,0,0,0,attackRange,Skill_Rush_Instancer_red,Skill_BlazeRidge_AttackRange,,1000,1,15000,Liên tục phóng năm quả cầu lửa,2000,2,0,"Quả bóng lửa (Người gác lửa đá) 
-","1,200,1500,100,0",,1,0,1,,1000,,547,,,,,,,,,,,,
+","1,200,1500,100,0",,1,0,1,,1000,,547,skill-icon-452,,,,,,,,,,,
 0,0,0,,0,"386,238",467,610,453,0,1,0,0,0,0,0,0,attackRange,Skill_Earthshock,Skill_DoomLord_AttackRange,,1333,1,15000,Triệu hồi ba cái châm đất phía trước,300,2,0,"Chấn động Trái Đất 
 ","1,200,500,100,0",CameraShakeGrade_1,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,,"553,682",950,454,0,1,0,0,0,0,0,0,attackRange,Skill_big_windmill,Skill_VerdantFlame_AttackRange,,5000,1;2,30000,Xoay cơ thể để gây sát thương cao cho vùng xung quanh,1000,2,0,"cối xay gió lớn 
@@ -677,6 +677,6 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,340,563,0,1,0,0,0,0,0,0,attack,,Skill_VerdantFlame_Attack,,1300,1;2,4000,,500,2,0,,"4,300,100,4500,0",,1,0,1,,1000,,684,,,,,,,600,,,,,
 0,0,0,,0,643,464,0,566,0,0,0,0,0,0,0,0,hit,Skill_Detonate,,,666,1;2,8000,,,2,0,,"2,400,0",,1,0,2,,1000,,685,skill-icon-566,,,,,,,,,,,
 0,0,0,,0,"677,386",,1450,567,0,1,0,0,0,0,0,0,attackRange,Skill_EarthSplitter,,,2000,1;2,8000,,800,2,0,,"4,600,800,36000,0",,1,0,1,,1000,,,,,,,,,,,,,,
-0,0,0,,0,385,,333,568,0,1,0,0,0,0,0,0,attack,,,,1000,1;2,4000,,500,2,0,,"4,300,100,4500,0",,1,0,1,,1000,,,,,,,,,600,,,,,
-0,0,0,,0,,,400,569,0,0,0,0,0,0,0,0,attackRange,Skill_roar,,,1666,1;2,8000,,800,2,0,,"2,600,0",CameraShakeGrade_1,1,0,1,,1000,,687,,,,,,,,,,,,
-0,0,0,,0,385,,333,570,0,0,0,0,0,0,0,0,attack,,,,1000,1;2,4000,,300,2,0,,"4,300,100,4500,0",,1,0,1,,1000,,,,,,,,,600,,,,,
+0,0,0,,0,385,,333,568,0,1,0,0,0,0,0,0,attack,,Skill_VerdantFlame_Attack,,1000,1;2,4000,,500,2,0,,"4,300,100,4500,0",,1,0,1,,1000,,,,,,,,,600,,,,,
+0,0,0,,0,,,400,569,0,0,0,0,0,0,0,0,attackRange,Skill_roar,Skill_AquilaDominator_AttackRange,,1666,1;2,8000,,800,2,0,,"2,600,0",CameraShakeGrade_1,1,0,1,,1000,,687,,,,,,,,,,,,
+0,0,0,,0,385,,333,570,0,0,0,0,0,0,0,0,attack,,Skill_VerdantFlame_Attack,,1000,1;2,4000,,300,2,0,,"4,300,100,4500,0",,1,0,1,,1000,,,,,,,,,600,,,,,
