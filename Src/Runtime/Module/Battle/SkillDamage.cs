@@ -78,8 +78,8 @@ public class SkillDamage
             return (0, false);
         }
 
-        float fromLevel = CalculateEntityDamageLevel(fromAttribute.RefEntity);
-        float toLevel = CalculateEntityDamageLevel(toAttribute.RefEntity);
+        float fromLevel = CalculateEntityDamageLevel(fromAttribute.RefEntity, true);
+        float toLevel = CalculateEntityDamageLevel(toAttribute.RefEntity, false);
 
         TableEnemyDamageAttribute attributeClassify = EntityAttributeTable.Inst.GetDamageAttributeClassify<TableEnemyDamageAttribute>(HomeDefine.eAction.AttackEnemy);
 
@@ -100,8 +100,13 @@ public class SkillDamage
         return (res, crit);
     }
 
-    //计算实体伤害等级 这里只处理Enemy中的计算 不参与家园 这些等级会根据实体类型不同获取 返回小数用于精确计算
-    private static float CalculateEntityDamageLevel(EntityBase entity)
+    /// <summary>
+    /// 计算敌人实体伤害等级 这里只处理Enemy中的计算 不参与家园 这些等级会根据实体类型不同获取 返回小数用于精确计算
+    /// </summary>
+    /// <param name="entity"></param>
+    /// <param name="isFromRole">是否攻击者</param>
+    /// <returns></returns>
+    private static float CalculateEntityDamageLevel(EntityBase entity, bool isFromRole)
     {
         if (entity == null)
         {
@@ -112,7 +117,14 @@ public class SkillDamage
         //角色和宠物取装备等级平均值
         if (EntityUtilCore.EntityTypeIsPlayer(entity.BaseData.Type) || EntityUtilCore.EntityTypeIsPet(entity.BaseData.Type))
         {
-            return entity.GetComponent<EntityAvatarDataCore>().GetAbilityLevel(eTalentType.battle);
+            if (isFromRole)//攻击者用战斗等级
+            {
+                return entity.GetComponent<EntityAvatarDataCore>().GetAbilityLevel(eTalentType.battle);
+            }
+            else//防御者使用当前等级 可以使采集者更肉类似
+            {
+                return entity.GetComponent<EntityAvatarDataCore>().GetCurAbilityLevel();
+            }
         }
         else
         {

@@ -28,6 +28,15 @@ public class EntityAvatarDataCore : EntityBaseComponent
     }
 
     /// <summary>
+    /// 获取当前专精能力等级 谨慎使用
+    /// </summary>
+    /// <returns></returns>
+    public float GetCurAbilityLevel()
+    {
+        return _abilityLevel;
+    }
+
+    /// <summary>
     /// 角色穿着数据
     /// 用字典方便业务层使用
     /// </summary>
