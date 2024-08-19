@@ -333,7 +333,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20220017,战报概要,{name=Abyss kanyonu}[/color] meydan okuma başarısız oldu
 ,20220018,战报详情,"Siz[/color], seviyeyi temizlediğiniz için ödüllendirildiniz"
 ,20220019,战报详情,"Sen[/color] bir <img src='{icon=ui://sulwtp4jo1ifwcm}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus aldın"
-,20220020,战报详情,
+,20220020,战报详情,Elde Edilen[/color] eşyalar
 ,20230000,宠物, Evcil hayvan takip edildi
 ,20230001,宠物, Evcil hayvan takibi bırakıldı
 ,20230002,宠物, Evcil hayvan iliği yıkama başarılı
@@ -365,12 +365,12 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20290005,背包, Eşyalar sıralandı.
 ,20290006,背包, Ham eşya adı kopyalandı!
 ,20290007,背包, Öğeyi kaldırmak istiyor musunuz?
-,20290008,背包,
+,20290008,背包,{0}[/color] eşyasını kaldırmak istediğinizden emin misiniz?
 ,20290009,背包, Günlük dönüşüm kotası tükenmiştir.
 ,20290010,背包, Günlük dönüşüm kotası yetersiz.
 ,20290011,背包, Depo kiralama başarılı.
-,20290012,背包,
-,20290013,,
+,20290012,背包, Depo kiralama başarısız.
+,20290013,,{0}[/color] kaldırıldı.
 ,20300000,声望, Ünvan görevini tamamlayın.
 ,20300001,声望, Bir kez liderlik tablosuna girdi.
 ,20300002,声望, Bir depo kirala.
@@ -379,4 +379,4 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20300005,声望, Hesap süresi.
 ,20300006,声望, Ek puanlar.
 ,20300007,声望, Günlük {0} puanın azalması.
-,20310000,技能,
+,20310000,技能, Mevcut silah için bu yetenek serbest bırakılamaz.

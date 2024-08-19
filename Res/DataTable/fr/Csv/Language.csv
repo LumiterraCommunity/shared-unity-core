@@ -333,7 +333,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Échec du défi du [color=#FF9F2F]{name=Abyss canyon}[/color]
 ,20220018,战报详情,[color=#F7CE3D]Vous[/color] avez été récompensé(e) pour avoir terminé le niveau
 ,20220019,战报详情,"{num=8,000}[/color]."
-,20220020,战报详情,
+,20220020,战报详情,[color=#35F883]Objets[/color] obtenus
 ,20230000,宠物,L'animal de compagnie vous suit.
 ,20230001,宠物,L'animal de compagnie ne vous suit plus.
 ,20230002,宠物,Le lavage de moelle de l'animal de compagnie a réussi.
@@ -365,12 +365,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290005,背包,Objets triés.
 ,20290006,背包,¡Nombre del objeto sin procesar copiado!
 ,20290007,背包, Supprimer l'objet ?
-,20290008,背包,
+,20290008,背包,{0} ?
 ,20290009,背包, Le quota de conversion quotidien est épuisé.
 ,20290010,背包, Le quota de conversion quotidien n'est pas suffisant.
 ,20290011,背包, Location d'entrepôt réussie.
-,20290012,背包,
-,20290013,,
+,20290012,背包, Échec de la location d'entrepôt.
+,20290013,,{0}[/color] supprimé.
 ,20300000,声望, Terminez la tâche de réputation.
 ,20300001,声望, Faites partie du classement une fois.
 ,20300002,声望, Louer un entrepôt.
@@ -379,4 +379,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300005,声望, Durée du compte.
 ,20300006,声望, Points supplémentaires.
 ,20300007,声望, Déclin quotidien de {0} points.
-,20310000,技能,
+,20310000,技能, Impossible de libérer cette compétence pour l'arme actuelle.

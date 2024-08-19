@@ -333,7 +333,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Desafiar el [color=#FF9F2F]{name=Abyss canyon}[/color] fallido
 ,20220018,战报详情,[color=#F7CE3D]Has[/color] sido recompensado por completar el nivel
 ,20220019,战报详情," Bono de Tótem [num=8,000]"
-,20220020,战报详情,
+,20220020,战报详情,[color=#35F883]Objetos[/color] obtenidos
 ,20230000,宠物,Mascota seguida.
 ,20230001,宠物,Mascota dejó de seguir.
 ,20230002,宠物,Éxito en el lavado de médula de mascota.
@@ -365,12 +365,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290005,背包, Objetos ordenados.
 ,20290006,背包, ¡Nombre del artículo sin procesar copiado!
 ,20290007,背包, ¿Eliminar ítem?
-,20290008,背包,
+,20290008,背包,{0}?
 ,20290009,背包, Cuota diaria de conversión agotada.
 ,20290010,背包, Cuota diaria de conversión no es suficiente.
 ,20290011,背包, Éxito en el arrendamiento del almacén.
-,20290012,背包,
-,20290013,,
+,20290012,背包, Falló el arrendamiento de almacén.
+,20290013,,{0}[/color] eliminado.
 ,20300000,声望, Completa la tarea de reputación.
 ,20300001,声望, Llegó una vez al tablero de líderes.
 ,20300002,声望, Alquila un almacén.
@@ -379,4 +379,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300005,声望, Duración de la cuenta.
 ,20300006,声望, Puntos adicionales.
 ,20300007,声望, Decaimiento diario de {0} puntos.
-,20310000,技能,
+,20310000,技能, No se puede liberar esta habilidad para el arma actual.

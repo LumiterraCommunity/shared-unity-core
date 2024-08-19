@@ -333,7 +333,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20220017,战报概要,Tantangan [color=#FF9F2F]{name=Abyss canyon}[/color] gagal
 ,20220018,战报详情,[color=#F7CE3D]Anda[/color] mendapatkan hadiah karena menyelesaikan level
 ,20220019,战报详情,"{num=8,000}[/color]"
-,20220020,战报详情,
+,20220020,战报详情,[color=#35F883]Item[/color] yang diperoleh
 ,20230000,宠物,Hewan peliharaan mengikuti.
 ,20230001,宠物,Hewan peliharaan berhenti mengikuti.
 ,20230002,宠物,Pencucian sumsum hewan peliharaan berhasil.
@@ -365,12 +365,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20290005,背包,Item diurutkan.
 ,20290006,背包,Nama item mentah disalin!
 ,20290007,背包, Hapus item?
-,20290008,背包,
+,20290008,背包,{0}?
 ,20290009,背包, Kuota konversi harian telah habis.
 ,20290010,背包, Kuota konversi harian tidak mencukupi.
 ,20290011,背包, Sukses menyewa gudang.
-,20290012,背包,
-,20290013,,
+,20290012,背包, Sewa gudang gagal.
+,20290013,,{0}[/color] dihapus.
 ,20300000,声望, Selesaikan tugas reputasi.
 ,20300001,声望, Masuk ke papan peringkat sekali.
 ,20300002,声望, Sewa gudang.
@@ -379,4 +379,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300005,声望, Durasi akun.
 ,20300006,声望, Poin tambahan.
 ,20300007,声望, Penurunan harian sebesar {0} poin.
-,20310000,技能,
+,20310000,技能, Tidak dapat melepaskan keterampilan ini untuk senjata saat ini.
