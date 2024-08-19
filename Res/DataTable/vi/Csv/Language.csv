@@ -333,6 +333,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20220017,战报概要,Thách thức [color=#FF9F2F]{name=Abyss canyon}[/color] thất bại
 ,20220018,战报详情,[color=#F7CE3D]Bạn[/color] đã nhận được phần thưởng sau khi hoàn thành cấp độ
 ,20220019,战报详情,"{num=8,000}[/color] Phần thưởng Tượng thần"
+,20220020,战报详情,[color=#35F883]Các[/color] mục đã [color=#35F883]nhận được[/color]
 ,20230000,宠物,Thú cưng đã theo sau.
 ,20230001,宠物,Thú cưng đã ngừng theo sau.
 ,20230002,宠物,Rửa tủy thú cưng thành công.
@@ -364,12 +365,12 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20290005,背包,Vật phẩm đã được sắp xếp.
 ,20290006,背包,Tên mục gốc đã được sao chép!
 ,20290007,背包, Xóa mục?
-,20290008,背包,
+,20290008,背包,xóa[/color] mục [color=#ff0000]{0}[/color] không?
 ,20290009,背包, Hạn ngạch chuyển đổi hàng ngày đã được sử dụng hết.
 ,20290010,背包, Hạn ngạch chuyển đổi hàng ngày không đủ.
 ,20290011,背包, Thuê kho thành công.
-,20290012,背包,
-,20290013,,
+,20290012,背包,Gia hạn[/color] kho thất bại.
+,20290013,,{0}[/color] đã [color=#35F883]bị xóa[/color].
 ,20300000,声望, Hoàn thành nhiệm vụ uy tín.
 ,20300001,声望, Đã lọt vào bảng xếp hạng một lần.
 ,20300002,声望, Thuê một kho hàng.
@@ -378,3 +379,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20300005,声望, Thời gian tài khoản.
 ,20300006,声望, Điểm bổ sung.
 ,20300007,声望, Sự suy giảm hàng ngày của {0} điểm.
+,20310000,技能,thả[/color] kỹ năng này cho vũ khí hiện tại.
