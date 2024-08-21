@@ -249,9 +249,9 @@ public class DRMonster : DataRowBase
     }
 
     /// <summary>
-  /**获取dropId-int。*/
+  /**获取dropIds-int[]。*/
     /// </summary>
-    public int DropId
+    public int[] DropIds
     {
         get;
         private set;
@@ -288,7 +288,7 @@ public class DRMonster : DataRowBase
         TokenTaskLevel = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         TotemScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
         WorldDropGroup = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        DropIds = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -326,7 +326,7 @@ public class DRMonster : DataRowBase
                 TokenTaskLevel = binaryReader.ReadArray<Int32>();
                 TotemScore = binaryReader.Read7BitEncodedInt32();
                 WorldDropGroup = binaryReader.Read7BitEncodedInt32();
-                DropId = binaryReader.Read7BitEncodedInt32();
+                DropIds = binaryReader.ReadArray<Int32>();
             }
         }
 

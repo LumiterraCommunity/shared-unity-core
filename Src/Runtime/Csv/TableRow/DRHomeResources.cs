@@ -33,9 +33,9 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
-  /**获取dropId-int。*/
+  /**获取dropIds-int[]。*/
     /// </summary>
-    public int DropId
+    public int[] DropIds
     {
         get;
         private set;
@@ -146,7 +146,7 @@ public class DRHomeResources : DataRowBase
 
         int index = 0;
         AssetRes = DataTableParseUtil.ParseString(columnStrings[index++]);
-        DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        DropIds = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
         HomeAction = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -171,7 +171,7 @@ public class DRHomeResources : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 AssetRes = binaryReader.ReadString();
-                DropId = binaryReader.Read7BitEncodedInt32();
+                DropIds = binaryReader.ReadArray<Int32>();
                 Exp = binaryReader.Read7BitEncodedInt32();
                 HomeAction = binaryReader.ReadArray<Int32>();
                 Icon = binaryReader.ReadString();
