@@ -33,6 +33,15 @@ public class DRDrop : DataRowBase
     }
 
     /// <summary>
+  /**获取maxSharer-int。*/
+    /// </summary>
+    public int MaxSharer
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取extraDropList-int[][]。*/
     /// </summary>
     public int[][] ExtraDropList
@@ -48,6 +57,7 @@ public class DRDrop : DataRowBase
         int index = 0;
         DropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        MaxSharer = DataTableParseUtil.ParseInt(columnStrings[index++]);
         ExtraDropList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
@@ -62,6 +72,7 @@ public class DRDrop : DataRowBase
             {
                 DropList = binaryReader.ReadArrayList<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
+                MaxSharer = binaryReader.Read7BitEncodedInt32();
                 ExtraDropList = binaryReader.ReadArrayList<Int32>();
             }
         }
