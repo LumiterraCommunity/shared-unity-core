@@ -152,6 +152,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录, Geçersiz isim.
 ,20070022,, Hizmetler yükleniyor
 ,20070023,, İsimler hassas kelimeler içeriyor.
+,20070024,,En az {0} karakter olmalıdır. 
+,20070025,,İsim çok uzun. 
+,20070026,,İsim tekrarlandı. 
 ,20080001,设置, Dil ayarını uygulamak için lütfen uygulamayı yeniden başlatın
 ,20080002,设置, Şimdi çık
 ,20080003,设置, Sonra
@@ -354,6 +357,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20250000,仓库, Depolamadan önce depo kirasını yenileyin
 ,20250001,仓库,Lütfen depo kirasını yenileyin ve sonra çıkarın.
 ,20250002,, Depo dolu.
+,20250003,,"Veri çekiliyor, lütfen bekleyin."
 ,20260001,精力, Enerji yetersiz
 ,20260002,精力,{0}[/color]'nin enerjisi yetersiz
 ,20270001,排行榜, Sıralanmamış

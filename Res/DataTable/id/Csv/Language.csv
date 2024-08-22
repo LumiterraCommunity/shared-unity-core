@@ -152,6 +152,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录,Nama tidak valid.
 ,20070022,,Memuat layanan
 ,20070023,,Nama mengandung kata-kata sensitif.
+,20070024,,Nama harus memiliki setidaknya {0} karakter.
+,20070025,, Nama terlalu panjang.
+,20070026,, Nama diulang.
 ,20080001,设置,"Untuk menerapkan pengaturan bahasa, silakan mulai ulang aplikasi."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -354,6 +357,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250000,仓库,Harap perpanjang sewa penyimpanan sebelum menyimpan.
 ,20250001,仓库,Harap perpanjang sewa penyimpanan sebelum mengambilnya.
 ,20250002,,Penyimpanan penuh.
+,20250003,," Data sedang diambil, harap tunggu."
 ,20260001,精力,Energi tidak cukup.
 ,20260002,精力,Energi {0} tidak cukup.
 ,20270001,排行榜,Tidak Terdaftar.

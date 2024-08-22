@@ -152,6 +152,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录,Nombre no válido.
 ,20070022,,Cargando servicios
 ,20070023,,Los nombres contienen palabras sensibles.
+,20070024,,El nombre debe tener al menos {0} caracteres.
+,20070025,, El nombre es demasiado largo.
+,20070026,, Nombre repetido.
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -354,6 +357,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250000,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de almacenar."
 ,20250001,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de sacarlo."
 ,20250002,,El almacenamiento está lleno.
+,20250003,," Los datos se están extrayendo, por favor espere."
 ,20260001,精力,Energía insuficiente.
 ,20260002,精力,La energía de [color=#F7CE3D]{0}[/color] no es suficiente.
 ,20270001,排行榜,Sin clasificación.
