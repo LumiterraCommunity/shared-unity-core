@@ -165,6 +165,12 @@ public static class HomeUtilCore
             return 0;
         }
 
+        if ((targetCurAction & eAction.Pick) != 0)//捡东西的保护 不应该到这里 直接给1
+        {
+            Log.Error($"CheckCanGetResourceDrop error: targetCurAction invalid {targetCurAction}");
+            return 1;
+        }
+
         float playerProficiency;
         switch (targetCurAction)
         {
