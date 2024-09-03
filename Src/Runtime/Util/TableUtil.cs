@@ -467,15 +467,12 @@ public static class TableUtil
     /// 根据配置中的int[][]生成某个属性组件上的属性修改器列表 配置为可同时修改多个属性
     /// </summary>
     /// <param name="attributeCpt">对应实体的属性组件</param>
+    /// <param name="battleData">对应实体的战斗数据组件 可以为空</param>
     /// <param name="parameters">二维int参数 eg:"15,4,200,15,4;13,4,100,13,4"</param>
-    /// <param name="excludeType">被排除的修改器类型 某些类型不能直接设置属性组件获取修改器 需要外部自己处理 比如HP 但是给到外面解析出来的值方便外部处理</param>
-    /// <param name="excludeValue">被排除的修改类型对应的值</param>
     /// <returns></returns>
-    public static List<IntAttributeModifier> GenerateAttributeModify(AttributeDataCpt attributeCpt, int[][] parameters, out eAttributeType excludeType, out int excludeValue)
+    public static List<IntAttributeModifier> GenerateAttributeModify(AttributeDataCpt attributeCpt, EntityBattleDataCore battleData, int[][] parameters)
     {
         List<IntAttributeModifier> list = new();
-        excludeType = eAttributeType.Unknown;
-        excludeValue = 0;
 
         for (int index = 0; index < parameters.Length; index++)
         {
@@ -502,11 +499,23 @@ public static class TableUtil
                     }
                 }
 
-                //血量做特殊处理，这里不添加修改器 给外部处理
+                //血量修改
                 if (attributeType == eAttributeType.HP)
                 {
-                    excludeType = attributeType;
-                    excludeValue = value;
+                    if (battleData != null)
+                    {
+                        battleData.ChangeHP(value);
+                    }
+                }
+                else if (attributeType == eAttributeType.WhiteHP)
+                {
+                    //白血量增加，同时修改最大白血量
+                    IntAttributeModifier modifier = attributeCpt.AddModifier(eAttributeType.MaxWhiteHP, modifierType, value);
+                    list.Add(modifier);
+                    if (battleData != null)
+                    {
+                        battleData.SetWhiteHP(battleData.WhiteHP + value);
+                    }
                 }
                 else
                 {

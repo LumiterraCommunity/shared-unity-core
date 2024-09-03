@@ -45,6 +45,7 @@ public class SENormalDamageCore : SkillEffectBase
             }
 
             RefEntity.BattleDataCore.SetHP(EffectData.DamageValue.CurrentInt);
+            RefEntity.BattleDataCore.SetWhiteHP(EffectData.DamageValue.WhiteInt);
             if (!RefEntity.BattleDataCore.IsLive())
             {
                 RefEntity.BattleDataCore.SetDeathReason(EffectData.DamageValue.DmgState);
@@ -56,6 +57,7 @@ public class SENormalDamageCore : SkillEffectBase
         {
             bool isLive = RefEntity.BattleDataCore.IsLive();
             RefEntity.BattleDataCore.SetHP(EffectData.DamageValue.CurrentInt);
+            RefEntity.BattleDataCore.SetWhiteHP(EffectData.DamageValue.WhiteInt);
             if (EffectData.DamageValue.DeltaInt < 0 && isLive)
             {
                 RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(FromID, -EffectData.DamageValue.DeltaInt);
@@ -75,7 +77,9 @@ public class SENormalDamageCore : SkillEffectBase
         DamageEffect effect = new();
         DamageData damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, damageCoefficient, inputData.InputRandom);
         effect.DamageValue = damage;
-        effect.DamageValue.CurrentInt = targetEntity.BattleDataCore.HP + damage.DeltaInt;
+        (int hp, int whiteHP) = targetEntity.BattleDataCore.CalChangeHP(damage.DeltaInt);
+        effect.DamageValue.CurrentInt = hp;
+        effect.DamageValue.WhiteInt = whiteHP;
         return effect;
     }
 }

@@ -19,13 +19,22 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// 当前血量
     /// </summary>
     /// <value></value>
-    public int HP { get => GetHpValue(); protected set => SetHpValue(value); }
-    private IntAttribute _hpAttribute;  //血量属性。会高频调用，单独存储优化性能
+    public int HP { get => GetValue(eAttributeType.HP); protected set => SetBaseValue(eAttributeType.HP, value); }
     /// <summary>
     /// 最大血量
     /// </summary>
     /// <value></value>
     public int HPMAX { get => GetValue(eAttributeType.MaxHP); protected set => SetBaseValue(eAttributeType.MaxHP, value); }
+    /// <summary>
+    /// 当前白血量
+    /// </summary>
+    /// <value></value>
+    public int WhiteHP { get => GetValue(eAttributeType.WhiteHP); protected set => SetBaseValue(eAttributeType.WhiteHP, value); }
+    /// <summary>
+    /// 最大白血量
+    /// </summary>
+    /// <value></value>
+    public int WhiteHPMAX { get => GetValue(eAttributeType.MaxWhiteHP); protected set => SetBaseValue(eAttributeType.MaxWhiteHP, value); }
     /// <summary>
     /// 血量回复
     /// </summary>
@@ -67,6 +76,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// 等级,这里取的是战斗专精等级
     /// </summary>
     public int Level { get => GetValue(eAttributeType.CombatLv); protected set => SetBaseValue(eAttributeType.CombatLv, value); }
+    public Dictionary<eAttributeType, IntAttribute> AttributeMap { get; private set; } = new(); //优化获取属性性能
     /// <summary>
     /// 经验
     /// </summary>
@@ -110,9 +120,12 @@ public class EntityBattleDataCore : EntityBaseComponent
     {
         _playerAreaRecord = GetComponent<PlayerAreaRecord>();
     }
+    /// <summary>
+    /// 设置血量
+    /// </summary>
     public virtual void SetHP(int hp, bool isForce = false)
     {
-        HP = System.Math.Clamp(hp, 0, HPMAX);
+        HP = Math.Clamp(hp, 0, HPMAX);
     }
 
     /// <summary>
@@ -203,44 +216,41 @@ public class EntityBattleDataCore : EntityBaseComponent
         return Status == EntityStatus.Live;
     }
 
-    private int GetHpValue()
+    private IntAttribute GetAttribute(eAttributeType type)
     {
-        if (_hpAttribute == null)
+        if (AttributeMap.TryGetValue(type, out IntAttribute attribute))
         {
-            _hpAttribute = RefEntity.EntityAttributeData.GetAttribute(eAttributeType.HP);
+            return attribute;
         }
-        return _hpAttribute.Value;
-    }
-
-    private void SetHpValue(int value)
-    {
-        if (_hpAttribute == null)
+        else
         {
-            _hpAttribute = RefEntity.EntityAttributeData.GetAttribute(eAttributeType.HP);
+            attribute = RefEntity.EntityAttributeData.GetAttribute(type);
+            AttributeMap.Add(type, attribute);
+            return attribute;
         }
-        //基础属性没变化
-        if (_hpAttribute.BaseValue == value)
-        {
-            return;
-        }
-        _ = _hpAttribute.SetBase(value);
-        RefEntity.EntityAttributeData.IsNetDirty = true;
-        RefEntity.EntityEvent.EntityAttributeUpdate?.Invoke(eAttributeType.HP, value);
-    }
-
-    protected int GetValue(eAttributeType type)
-    {
-        return RefEntity.EntityAttributeData.GetValue(type);
-    }
-
-    protected float GetRealValue(eAttributeType type)
-    {
-        return RefEntity.EntityAttributeData.GetRealValue(type);
     }
 
     protected void SetBaseValue(eAttributeType type, int value)
     {
-        RefEntity.EntityAttributeData.SetBaseValue(type, value);
+        if (AttributeMap.TryGetValue(type, out IntAttribute attribute))
+        {
+            RefEntity.EntityAttributeData.SetBaseValue(attribute, type, value);
+        }
+        else
+        {
+            attribute = GetAttribute(type);
+            RefEntity.EntityAttributeData.SetBaseValue(attribute, type, value);
+        }
+    }
+
+    protected int GetValue(eAttributeType type)
+    {
+        return GetAttribute(type).Value;
+    }
+
+    protected float GetRealValue(eAttributeType type)
+    {
+        return GetAttribute(type).RealValue;
     }
 
     /// <summary>
@@ -310,5 +320,48 @@ public class EntityBattleDataCore : EntityBaseComponent
         Status = status;
         RefEntity.EntityEvent.ChangeEntityStatus?.Invoke();
         return true;
+    }
+
+    /// <summary>
+    /// 改变血量
+    /// </summary>
+    /// <param name="changeHP"></param>
+    public virtual void ChangeHP(int changeHP)
+    {
+        (int hp, int whiteHP) = CalChangeHP(changeHP);
+        SetHP(hp);
+        SetWhiteHP(whiteHP);
+    }
+
+    /// <summary>
+    /// 计算血量修改 返回实际修改的血量和白血量
+    /// </summary>
+    /// <param name="changeHP"></param>
+    /// <returns> 返回实际修改的血量和白血量</returns>
+    public virtual (int, int) CalChangeHP(int changeHP)
+    {
+        int whiteHP = Math.Clamp(WhiteHP, 0, WhiteHPMAX);
+        int hp = HP;
+        if (changeHP > 0)
+        {
+            hp += changeHP;
+            return (hp, whiteHP);
+        }
+        else
+        {
+            int blockHP = whiteHP + changeHP;
+            if (blockHP >= 0)
+            {
+                return (hp, blockHP);
+            }
+            else
+            {
+                return (hp + blockHP, 0);
+            }
+        }
+    }
+    public virtual void SetWhiteHP(int whiteHP)
+    {
+        WhiteHP = Math.Clamp(whiteHP, 0, WhiteHPMAX);
     }
 }

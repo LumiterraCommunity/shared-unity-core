@@ -311,7 +311,7 @@ public static partial class SkillUtil
 
         try
         {
-            GameMessageCore.DamageEffect effectData = SkillDamage.CreateSpecialDamageEffect(GameMessageCore.DamageState.Miss, targetEntity.BattleDataCore.HP, 0);
+            GameMessageCore.DamageEffect effectData = SkillDamage.CreateSpecialDamageEffect(GameMessageCore.DamageState.Miss, targetEntity.BattleDataCore.HP, targetEntity.BattleDataCore.WhiteHP, 0);
             effects.Add(effectData);
             if (inputData.IsPreRelease)
             {

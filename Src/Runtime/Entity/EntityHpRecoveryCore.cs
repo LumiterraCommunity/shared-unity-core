@@ -75,8 +75,6 @@ public class EntityHpRecoveryCore : EntityBaseComponent
         {
             return;
         }
-
-        int hp = RefEntity.BattleDataCore.HP + RefEntity.BattleDataCore.HPRecovery;
-        RefEntity.BattleDataCore.SetHP(hp);
+        RefEntity.BattleDataCore.ChangeHP(RefEntity.BattleDataCore.HPRecovery);
     }
 }

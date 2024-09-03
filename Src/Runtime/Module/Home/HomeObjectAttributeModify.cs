@@ -41,7 +41,7 @@ public class HomeObjectAttributeModify : MonoBehaviour
             return false;
         }
 
-        List<IntAttributeModifier> modifiers = TableUtil.GenerateAttributeModify(attributeCpt, tableParm, out eAttributeType excludeType, out int excludeValue);
+        List<IntAttributeModifier> modifiers = TableUtil.GenerateAttributeModify(attributeCpt, null, tableParm);
         _curModuleModifierMap.Add(module, modifiers);
 
         OnAttributeChanged(attributeCpt);

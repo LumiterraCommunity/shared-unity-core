@@ -99,6 +99,17 @@ public class AttributeDataCpt : MonoBehaviour
             attribute = CreateAttribute(type);
             AttributeMap.Add(type, attribute);
         }
+        SetBaseValue(attribute, type, value);
+    }
+
+    /// <summary>
+    /// 设置属性基础值
+    /// </summary>
+    /// <param name="attribute"></param>
+    /// <param name="type"></param>
+    /// <param name="value"></param>
+    public void SetBaseValue(IntAttribute attribute, eAttributeType type, int value)
+    {
         //基础属性没变化
         if (attribute.BaseValue == value)
         {

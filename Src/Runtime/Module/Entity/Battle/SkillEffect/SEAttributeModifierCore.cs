@@ -3,7 +3,7 @@ using System.Collections.Generic;
  * @Author: xiang huan
  * @Date: 2023-01-11 19:15:17
  * @Description: 属性修改
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAttributeModifierCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/SkillEffect/SEAttributeModifierCore.cs
  * 
  */
 
@@ -24,12 +24,7 @@ public class SEAttributeModifierCore : SkillEffectBase
             {
                 if (!ModifierMap.ContainsKey(i))
                 {
-                    List<IntAttributeModifier> list = TableUtil.GenerateAttributeModify(RefEntity.EntityAttributeData, EffectCfg.Parameters2, out eAttributeType excludeType, out int excludeValue);
-                    if (excludeType == eAttributeType.HP)
-                    {
-                        RefEntity.BattleDataCore.SetHP(RefEntity.BattleDataCore.HP + excludeValue);
-                    }
-
+                    List<IntAttributeModifier> list = TableUtil.GenerateAttributeModify(RefEntity.EntityAttributeData, RefEntity.BattleDataCore, EffectCfg.Parameters2);
                     ModifierMap.Add(i, list);
                 }
             }

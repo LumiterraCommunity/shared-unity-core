@@ -7,12 +7,13 @@ public class SkillDamage
 {
     // private const int DAMAGE_WAVE_RANGE = 2;  // 策划约定，伤害值需要附加 -2% ～ 2% 的浮动变化 
     private const float MIN_DAMAGE = 1f;//最低伤害
-    public static DamageData MakeDamageData(DamageState state, int defenderCurHp, int damage)
+    public static DamageData MakeDamageData(DamageState state, int defenderCurHp, int whiteHp, int damage)
     {
         return new DamageData()
         {
             DmgState = state,
             CurrentInt = defenderCurHp,
+            WhiteInt = whiteHp,
             DeltaInt = damage,
         };
     }
@@ -50,18 +51,19 @@ public class SkillDamage
     /// <returns>DamageData</returns>
     public static DamageData DamageCalculation(EntityAttributeData fromAttribute, EntityAttributeData toAttribute, float coefficient = 1, InputRandomData inputRandom = null)
     {
-        float defHp = toAttribute.GetRealValue(eAttributeType.HP);
+        int defHp = toAttribute.GetValue(eAttributeType.HP);
+        int defWhiteHp = toAttribute.GetValue(eAttributeType.WhiteHP);
 
         if (fromAttribute == null || toAttribute == null)
         {
             Log.Error($"DamageCalculation fromAttribute or toAttribute is null,form:{fromAttribute}");
-            return MakeDamageData(DamageState.Normal, (int)defHp, 0);
+            return MakeDamageData(DamageState.Normal, defHp, defWhiteHp, 0);
         }
 
         (float damage, bool crit) = CalculateEnemyDamage(fromAttribute, toAttribute, inputRandom);
 
         float realDamage = damage * coefficient;
-        return MakeDamageData(crit ? DamageState.Crit : DamageState.Normal, (int)defHp, -UnityEngine.Mathf.RoundToInt(realDamage));
+        return MakeDamageData(crit ? DamageState.Crit : DamageState.Normal, defHp, defWhiteHp, -UnityEngine.Mathf.RoundToInt(realDamage));
     }
 
     /// <summary>
@@ -220,11 +222,11 @@ public class SkillDamage
     /// 创建特殊伤害效果
     /// </summary>
     /// <returns></returns>
-    public static DamageEffect CreateSpecialDamageEffect(DamageState type, int finalHp, int deltaHp)
+    public static DamageEffect CreateSpecialDamageEffect(DamageState type, int finalHp, int finalWhiteHp, int deltaHp)
     {
         DamageEffect effect = new()
         {
-            DamageValue = MakeDamageData(type, finalHp, deltaHp),
+            DamageValue = MakeDamageData(type, finalHp, finalWhiteHp, deltaHp),
             EffectType = (DamageEffectId)TableDefine.DAMAGE_EFFECT_ID
         };
         return effect;
