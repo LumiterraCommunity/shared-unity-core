@@ -510,7 +510,7 @@ public static class TableUtil
                 else if (attributeType == eAttributeType.WhiteHP)
                 {
                     //白血量增加，同时修改最大白血量
-                    IntAttributeModifier modifier = attributeCpt.AddModifier(eAttributeType.MaxWhiteHP, modifierType, value);
+                    IntAttributeModifier modifier = attributeCpt.AddModifier(eAttributeType.MaxWhiteHP, eModifierType.Add, value);
                     list.Add(modifier);
                     if (battleData != null)
                     {
