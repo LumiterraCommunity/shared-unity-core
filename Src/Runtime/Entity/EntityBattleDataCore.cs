@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 战斗数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
  * 
  */
 using System;
@@ -325,10 +325,10 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// <summary>
     /// 改变血量
     /// </summary>
-    /// <param name="changeHP"></param>
-    public virtual void ChangeHP(int changeHP)
+    /// <param name="changeHp"></param>
+    public virtual void ChangeHP(int changeHp)
     {
-        (int hp, int whiteHP) = CalChangeHP(changeHP);
+        (int hp, int whiteHP) = CalChangeHP(changeHp, HP, WhiteHP);
         SetHP(hp);
         SetWhiteHP(whiteHP);
     }
@@ -336,20 +336,19 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// <summary>
     /// 计算血量修改 返回实际修改的血量和白血量
     /// </summary>
-    /// <param name="changeHP"></param>
+    /// <param name="changeHp"></param>
     /// <returns> 返回实际修改的血量和白血量</returns>
-    public virtual (int, int) CalChangeHP(int changeHP)
+    public virtual (int, int) CalChangeHP(int changeHp, int hp, int whiteHp)
     {
-        int whiteHP = Math.Clamp(WhiteHP, 0, WhiteHPMAX);
-        int hp = HP;
-        if (changeHP > 0)
+        whiteHp = Math.Clamp(whiteHp, 0, WhiteHPMAX);
+        if (changeHp > 0)
         {
-            hp += changeHP;
-            return (hp, whiteHP);
+            hp += changeHp;
+            return (hp, whiteHp);
         }
         else
         {
-            int blockHP = whiteHP + changeHP;
+            int blockHP = whiteHp + changeHp;
             if (blockHP >= 0)
             {
                 return (hp, blockHP);
