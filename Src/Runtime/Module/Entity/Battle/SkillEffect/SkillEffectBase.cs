@@ -8,6 +8,7 @@
 using System;
 using GameFramework;
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 
 public class SkillEffectBase : IReference
 {
@@ -263,7 +264,14 @@ public class SkillEffectBase : IReference
         RefEntity = owner;
         IsAdd = true;
         OnAdd();
-        RefEntity.EntityEvent.EntitySkillEffectAdd?.Invoke(EffectID);
+        try
+        {
+            RefEntity.EntityEvent.EntitySkillEffectAdd?.Invoke(EffectID);
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"AddEffect Error {e}");
+        }
     }
 
     //删除效果
@@ -273,7 +281,15 @@ public class SkillEffectBase : IReference
         {
             return;
         }
-        RefEntity.EntityEvent.EntitySkillEffectRemove?.Invoke(EffectID);
+        try
+        {
+            RefEntity.EntityEvent.EntitySkillEffectRemove?.Invoke(EffectID);
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"RemoveEffect Error {e}");
+        }
+
         OnRemove();
         IsAdd = false;
         RefEntity = null;
