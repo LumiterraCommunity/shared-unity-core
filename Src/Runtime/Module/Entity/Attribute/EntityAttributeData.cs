@@ -2,9 +2,11 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体属性数据
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/HotFix/Module/Entity/Attribute/EntityAttributeData.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Attribute/EntityAttributeData.cs
  * 
  */
+using UnityGameFramework.Runtime;
+
 public class EntityAttributeData : AttributeDataCpt, IEntityComponent
 {
     private EntityBase _refEntity;
@@ -34,6 +36,13 @@ public class EntityAttributeData : AttributeDataCpt, IEntityComponent
     {
         base.OnAttributeUpdate(type, attribute);
 
-        RefEntity.EntityEvent.EntityAttributeUpdate?.Invoke(type, attribute.Value);
+        try
+        {
+            RefEntity.EntityEvent.EntityAttributeUpdate?.Invoke(type, attribute.Value);
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"EntityAttributeUpdate Error: {e}");
+        }
     }
 }
