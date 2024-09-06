@@ -214,6 +214,7 @@ public enum eSkillEffectType : int
     SEEntityReborn = 33,
     SEAddEntity = 34,
     SEAura = 35,
+    SEBackOut = 40,
 }
 
 public enum eSEFuncType : int
