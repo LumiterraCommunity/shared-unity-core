@@ -60,21 +60,22 @@ public class SEDotDamageCore : SkillEffectBase
         }
         else if (damageType == eDotDamageType.Fixed)
         {
-            damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, -(int)damageValue);
+            damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, targetBattleData.WhiteHP, -(int)damageValue);
         }
         else if (damageType is eDotDamageType.Percent or eDotDamageType.MaxPercent)
         {
             int value = damageType == eDotDamageType.Percent ? targetBattleData.HP : targetBattleData.HPMAX;
-            damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, -(int)(value * damageValue));
+            damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, targetBattleData.WhiteHP, -(int)(value * damageValue));
         }
         else
         {
             Log.Error("SEDotDamage Unknown sustained damage Id: " + EffectCfg.Id + " damageType: " + damageType);
-            damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, 0);
+            damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, targetBattleData.WhiteHP, 0);
         }
 
         effect.DamageValue = damage;
         effect.DamageValue.CurrentInt = targetBattleData.HP + damage.DeltaInt;
+        effect.DamageValue.WhiteInt = targetBattleData.WhiteHP;
         return effect;
     }
 }

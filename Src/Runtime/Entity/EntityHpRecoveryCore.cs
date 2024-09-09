@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体脱战回血组件
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityHpRecoveryCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityHpRecoveryCore.cs
  * 
  */
 
@@ -75,8 +75,9 @@ public class EntityHpRecoveryCore : EntityBaseComponent
         {
             return;
         }
-
-        int hp = RefEntity.BattleDataCore.HP + RefEntity.BattleDataCore.HPRecovery;
-        RefEntity.BattleDataCore.SetHP(hp);
+        if (RefEntity.BattleDataCore.HP < RefEntity.BattleDataCore.HPMAX)
+        {
+            RefEntity.BattleDataCore.ChangeHP(RefEntity.BattleDataCore.HPRecovery);
+        }
     }
 }

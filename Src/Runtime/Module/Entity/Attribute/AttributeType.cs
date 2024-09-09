@@ -78,6 +78,8 @@ public enum eAttributeType : int
     WitherTime = 75,
     MaxActionValue = 76,
     RequiredBreedingProficiency = 77,
+    WhiteHP = 80,
+    MaxWhiteHP = 81,
 
 }
 

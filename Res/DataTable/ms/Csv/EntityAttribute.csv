@@ -72,3 +72,5 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 0, MasaLayu,75,0,WitherTime,1,1,1,
 0, NilaiTindakanMaksimum,76,0,MaxActionValue,3,1,1,
 0, KemahiranPembiakanYangDiperlukan,77,0,RequiredBreedingProficiency,1,1,1,
+0,,80,0,WhiteHP,2,2,1,
+0,,81,0,MaxWhiteHP,2,2,1,

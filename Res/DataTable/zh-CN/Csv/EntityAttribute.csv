@@ -72,3 +72,5 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 0,作物枯萎时间,75,0,WitherTime,1,1,1,
 0,采集最大进度值,76,0,MaxActionValue,3,1,1,
 0,宠物需求养殖熟练度,77,0,RequiredBreedingProficiency,1,1,1,
+0,护盾,80,0,WhiteHP,2,2,1,
+0,最大护盾,81,0,MaxWhiteHP,2,2,1,

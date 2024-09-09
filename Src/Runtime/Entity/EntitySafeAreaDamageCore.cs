@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 实体安全区伤害组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntitySafeAreaDamageCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntitySafeAreaDamageCore.cs
  * 
  */
 
@@ -89,8 +89,7 @@ public class EntitySafeAreaDamageCore : EntityBaseComponent
             RefEntity.EntityEvent.EntityBattleAddDamage?.Invoke(BattleDefine.SCENE_DAMAGE_ENTITY_ID, damage);
         }
 
-        int hp = RefEntity.BattleDataCore.HP - damage;
-        RefEntity.BattleDataCore.SetHP(hp);
+        RefEntity.BattleDataCore.ChangeHP(-damage);
         return damage;
     }
 }
