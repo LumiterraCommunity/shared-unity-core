@@ -49,9 +49,9 @@ public class SoilIdleStatusCore : SoilStatusCore
         ChangeState(soilSaveData.SoilStatus);
     }
 
-    protected override void OnExecuteHomeAction(eAction action, object actionData)
+    protected override void OnExecuteHomeAction(eAction action, long playerId, long entityId, object actionData)
     {
-        base.OnExecuteHomeAction(action, actionData);
+        base.OnExecuteHomeAction(action, playerId, entityId, actionData);
 
         try
         {

@@ -97,9 +97,9 @@ public class SoilSeedThirstyStatusCore : SoilStatusCore
         }
     }
 
-    protected override void OnExecuteHomeAction(eAction action, object actionData)
+    protected override void OnExecuteHomeAction(eAction action, long playerId, long entityId, object actionData)
     {
-        base.OnExecuteHomeAction(action, actionData);
+        base.OnExecuteHomeAction(action, playerId, entityId, actionData);
 
         if (action == eAction.Watering)
         {
