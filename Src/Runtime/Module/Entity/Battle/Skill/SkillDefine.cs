@@ -28,6 +28,7 @@ public enum eSkillGroupType : int
     Item = 10,           //道具技能组
     Action = 11,         //动作技能组
     HomeSkill = 12,      //家园技能组
+    Common = 13,         //通用技能组
 }
 
 public enum eSEStatusType
