@@ -33,6 +33,24 @@ public class DREquipment : DataRowBase
     }
 
     /// <summary>
+  /**获取enhancementAttribute-int[][]。*/
+    /// </summary>
+    public int[][] EnhancementAttribute
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取enhancementCostTime-int。*/
+    /// </summary>
+    public int EnhancementCostTime
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取gearAttribute-int[][]。*/
     /// </summary>
     public int[][] GearAttribute
@@ -105,9 +123,27 @@ public class DREquipment : DataRowBase
     }
 
     /// <summary>
+  /**获取maxEnhancementLevel-int。*/
+    /// </summary>
+    public int MaxEnhancementLevel
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取weaponSubtype-int。*/
     /// </summary>
     public int WeaponSubtype
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取enhancementMat-int[][]。*/
+    /// </summary>
+    public int[][] EnhancementMat
     {
         get;
         private set;
@@ -119,6 +155,8 @@ public class DREquipment : DataRowBase
 
         int index = 0;
         DismantlingMats = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        EnhancementAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        EnhancementCostTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GearAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         GearAvatar = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GearDurabilityMax = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -128,7 +166,9 @@ public class DREquipment : DataRowBase
         GivenSkillId = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         ItemId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        MaxEnhancementLevel = DataTableParseUtil.ParseInt(columnStrings[index++]);
         WeaponSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        EnhancementMat = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -141,6 +181,8 @@ public class DREquipment : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 DismantlingMats = binaryReader.ReadArrayList<Int32>();
+                EnhancementAttribute = binaryReader.ReadArrayList<Int32>();
+                EnhancementCostTime = binaryReader.Read7BitEncodedInt32();
                 GearAttribute = binaryReader.ReadArrayList<Int32>();
                 GearAvatar = binaryReader.Read7BitEncodedInt32();
                 GearDurabilityMax = binaryReader.Read7BitEncodedInt32();
@@ -150,7 +192,9 @@ public class DREquipment : DataRowBase
                 GivenSkillId = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 ItemId = binaryReader.Read7BitEncodedInt32();
+                MaxEnhancementLevel = binaryReader.Read7BitEncodedInt32();
                 WeaponSubtype = binaryReader.Read7BitEncodedInt32();
+                EnhancementMat = binaryReader.ReadArrayList<Int32>();
             }
         }
 
