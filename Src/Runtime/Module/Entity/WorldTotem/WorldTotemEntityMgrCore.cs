@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 using UnityGameFramework.Runtime;
 
 
@@ -65,6 +66,11 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
     /// <returns></returns>
     public bool CheckTerrainCanPut(Vector3 pos)
     {
+        if (!MapUtilCore.SampleTerrainWalkablePos(pos, out Vector3 _, 1f))
+        {
+            return false;
+        }
+
         return true;
     }
 }
