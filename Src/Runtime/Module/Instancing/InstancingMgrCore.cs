@@ -24,6 +24,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public InstancingTotemData TotemData = new(); //副本图腾数据
     public bool IsExtraDrop = false; //是否额外掉落
     public InstancingExtraDropData ExtraDropData = new(); //副本额外掉落数据
+    public int InstancingLevel { get; set; } = 0; //副本等级
     public static GameObject Root { get; private set; }
     private void Awake()
     {
