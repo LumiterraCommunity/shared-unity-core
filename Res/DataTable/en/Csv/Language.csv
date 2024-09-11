@@ -135,6 +135,7 @@ Sprite due to insufficient space"
 ,20050003,捕获绳子断开,The rope is broken
 ,20050004,捕获超时,Capture timed out
 ,20050005,捕获过程道具不足,Lack of props
+,20050006,,The number of pets reaches the upper limit {0}.
 释放技能正在CD中,20060001,技能,Skill In CD
 ,20070001,登录,System
 ,20070002,登录,Logging in
@@ -159,6 +160,9 @@ Sprite due to insufficient space"
 ,20070021,登录,Invalid name.
 ,20070022,,Loading services
 ,20070023,,Names contain sensitive words.
+,20070024,,Name must be at least {0} characters.
+,20070025,,Name is too long.
+,20070026,,Name repeated.
 ,20080001,设置,"To apply the language setting, please restart the app."
 ,20080002,设置,Quit now
 ,20080003,设置,Later
@@ -367,6 +371,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250000,仓库,Please renew the storage lease before storing.
 ,20250001,仓库,Please renew the lease of the storage before taking it out.
 ,20250002,,The storage is full.
+,20250003,,"Data is being pulled, please wait."
 ,20260001,精力,Energy not enough
 ,20260002,精力,[color=#F7CE3D]{0}[/color]'s Energy not enough
 ,20270001,排行榜,Not Ranked
