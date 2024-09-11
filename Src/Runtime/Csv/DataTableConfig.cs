@@ -47,6 +47,7 @@ public static class DataTableConfig
         "TalentTree",
         "Task",
         "TaskList",
+        "Totem",
     };
 
 }
