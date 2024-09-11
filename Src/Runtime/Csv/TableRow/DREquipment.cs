@@ -149,6 +149,15 @@ public class DREquipment : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取enhancementProtector-int[]。*/
+    /// </summary>
+    public int[] EnhancementProtector
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -169,6 +178,7 @@ public class DREquipment : DataRowBase
         MaxEnhancementLevel = DataTableParseUtil.ParseInt(columnStrings[index++]);
         WeaponSubtype = DataTableParseUtil.ParseInt(columnStrings[index++]);
         EnhancementMat = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        EnhancementProtector = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -195,6 +205,7 @@ public class DREquipment : DataRowBase
                 MaxEnhancementLevel = binaryReader.Read7BitEncodedInt32();
                 WeaponSubtype = binaryReader.Read7BitEncodedInt32();
                 EnhancementMat = binaryReader.ReadArrayList<Int32>();
+                EnhancementProtector = binaryReader.ReadArray<Int32>();
             }
         }
 

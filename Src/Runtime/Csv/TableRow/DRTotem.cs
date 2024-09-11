@@ -33,15 +33,6 @@ public class DRTotem : DataRowBase
     }
 
     /// <summary>
-  /**获取protectArea-int。*/
-    /// </summary>
-    public int ProtectArea
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取totemEntity-string。*/
     /// </summary>
     public string TotemEntity
@@ -57,7 +48,6 @@ public class DRTotem : DataRowBase
         int index = 0;
         EnhanceSucPro = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
-        ProtectArea = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TotemEntity = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
@@ -72,7 +62,6 @@ public class DRTotem : DataRowBase
             {
                 EnhanceSucPro = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
-                ProtectArea = binaryReader.Read7BitEncodedInt32();
                 TotemEntity = binaryReader.ReadString();
             }
         }
