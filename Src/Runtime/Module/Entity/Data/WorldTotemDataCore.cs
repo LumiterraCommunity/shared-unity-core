@@ -9,6 +9,10 @@ public class WorldTotemDataCore : EntityBaseComponent
     /// main服的基础数据
     /// </summary>
     public WorldTotemInfo BaseData { get; private set; }
+    /// <summary>
+    /// 当前图腾配置 异常为null
+    /// </summary>
+    public DRTotem DRTotem { get; private set; }
 
     protected void Start()
     {
@@ -39,5 +43,6 @@ public class WorldTotemDataCore : EntityBaseComponent
     public void SetBaseInfo(WorldTotemInfo totemInfo)
     {
         BaseData = totemInfo;
+        DRTotem = TableUtil.GetConfig<DRTotem>(BaseData.Cid);
     }
 }
