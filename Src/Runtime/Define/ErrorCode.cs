@@ -10,6 +10,8 @@ public enum eErrorCode : int
 {
     success = 0,
 
+    systemError = 0000001, //系统内部错误
+
     #region  常规错误码 主要是S2C 但是有些通用
     selfMoveFail = 0001001,
     pickDropNotExist = 0002001,//拾取物品不存在
@@ -65,6 +67,11 @@ public enum eErrorCode : int
     TotemOwnerInvalid = 0010003,//图腾所有者无效
     TotemSysErr = 0010004,//图腾系统错误
     TotemNotHaveReward = 0010005,//图腾没有收益
+    #endregion
+
+    #region  世界图腾
+    worldTotemOverlap = 0011001,//世界图腾重叠
+    worldTotemTerrainInvalid = 0011002,//世界图腾地形不允许
     #endregion
 
     #endregion
