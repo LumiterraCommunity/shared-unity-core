@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6405733115029881562
+--- !u!1 &3086147290396123584
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6910114895899156368}
-  - component: {fileID: 1893298816812047998}
+  - component: {fileID: 6708978980137306835}
+  - component: {fileID: 4606652496955567701}
   m_Layer: 0
   m_Name: 99290_Rock06
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6910114895899156368
+--- !u!4 &6708978980137306835
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405733115029881562}
+  m_GameObject: {fileID: 3086147290396123584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1893298816812047998
+--- !u!64 &4606652496955567701
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405733115029881562}
+  m_GameObject: {fileID: 3086147290396123584}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
