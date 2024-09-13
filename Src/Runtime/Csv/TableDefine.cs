@@ -112,6 +112,7 @@ public enum eGameValueID
     ReputationDecayOfPassingDungeon = 106,//副本声望每日衰减
     CaptureExcludeItemIds = 114, //不用用于捕获的道具列表
     WorldTotemIntervalDistance = 118, //世界图腾间隔距离 cm
+    WorldTotemDensityRange = 119, //世界图腾密度范围 cm
 }
 
 // public static class GameValueID
