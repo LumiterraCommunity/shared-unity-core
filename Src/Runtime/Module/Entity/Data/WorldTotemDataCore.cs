@@ -16,22 +16,10 @@ public class WorldTotemDataCore : EntityBaseComponent
 
     protected void Start()
     {
-        RefEntity.EntityEvent.InitToScene += InitToScene;
-        RefEntity.EntityEvent.UnInitFromScene += UnInitFromScene;
-    }
-
-    protected void OnDestroy()
-    {
-        RefEntity.EntityEvent.InitToScene -= InitToScene;
-        RefEntity.EntityEvent.UnInitFromScene -= UnInitFromScene;
-    }
-
-    private void InitToScene(EntityBase entity)
-    {
         GFEntryCore.GetModule<WorldTotemEntityMgrCore>().AddWorldTotem(RefEntity);
     }
 
-    private void UnInitFromScene(EntityBase entity)
+    protected void OnDestroy()
     {
         GFEntryCore.GetModule<WorldTotemEntityMgrCore>().RemoveWorldTotem(RefEntity);
     }
