@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityGameFramework.Runtime;
@@ -36,21 +37,16 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
     /// <returns></returns>
     public bool CheckOverlapOtherTotem(Vector3 pos)
     {
-        float intervalDistance = 10;//米
-        if (TableUtil.TryGetGameValue(eGameValueID.WorldTotemIntervalDistance, out DRGameValue drGameValue))
-        {
-            intervalDistance = MathUtilCore.CM2M * drGameValue.Value;
-        }
-
         if (EntityMap.Count == 0)
         {
             return false;
         }
 
+        float intervalRange = WorldTotemDefineCore.IntervalRange;
         for (int i = 0; i < EntityMap.Count; i++)
         {
             EntityBase entity = EntityMap[i];
-            if (Vector3.Distance(entity.Position, pos) < intervalDistance)
+            if (Vector3.Distance(entity.Position, pos) < intervalRange)
             {
                 return true;
             }
@@ -72,5 +68,26 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
         }
 
         return true;
+    }
+
+    /// <summary>
+    /// 获取指定位置的密度 有性能开销 需要注意
+    /// </summary>
+    /// <param name="pos"></param>
+    /// <returns></returns>
+    public int GetDensityByPos(Vector3 pos)
+    {
+        float densityRange = WorldTotemDefineCore.DensityRange;
+        int density = 0;
+        for (int i = 0; i < EntityMap.Count; i++)
+        {
+            EntityBase entity = EntityMap[i];
+            if (Vector3.Distance(entity.Position, pos) < densityRange)
+            {
+                density++;
+            }
+        }
+
+        return density;
     }
 }
