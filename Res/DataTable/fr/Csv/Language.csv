@@ -128,6 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,La corde est cassée
 ,20050004,捕获超时,Capture expirée
 ,20050005,捕获过程道具不足,Manque d'accessoires
+,20050006,,
 释放技能正在CD中,20060001,技能,Compétence en CD
 ,20070001,登录,Système
 ,20070002,登录,Connexion
@@ -152,6 +153,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录,Nom invalide.
 ,20070022,,Chargement des services
 ,20070023,,Les noms contiennent des mots sensibles.
+,20070024,,Le nom doit comporter au moins {0} caractères.
+,20070025,, Le nom est trop long.
+,20070026,, Nom répété.
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -354,6 +358,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250000,仓库,Veuillez renouveler le bail de stockage avant de le ranger.
 ,20250001,仓库,Veuillez renouveler le bail de stockage avant de le retirer.
 ,20250002,,Le stockage est plein.
+,20250003,," Les données sont en cours de chargement, veuillez patienter."
 ,20260001,精力,Énergie insuffisante.
 ,20260002,精力,L'énergie de [color=#F7CE3D]{0}[/color] est insuffisante.
 ,20270001,排行榜,Non classé.
@@ -380,3 +385,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300006,声望, Points supplémentaires.
 ,20300007,声望, Déclin quotidien de {0} points.
 ,20310000,技能, Impossible de libérer cette compétence pour l'arme actuelle.
+,20320000,世界图腾,
+,20320001,世界图腾,
+,20320002,世界图腾,

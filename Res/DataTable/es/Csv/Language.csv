@@ -128,6 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,La cuerda está rota
 ,20050004,捕获超时,Tiempo de espera de captura agotado
 ,20050005,捕获过程道具不足,Falta de accesorios
+,20050006,,
 释放技能正在CD中,20060001,技能,Habilidad en enfriamiento
 ,20070001,登录,Sistema
 ,20070002,登录,Iniciando sesión
@@ -152,6 +153,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录,Nombre no válido.
 ,20070022,,Cargando servicios
 ,20070023,,Los nombres contienen palabras sensibles.
+,20070024,,El nombre debe tener al menos {0} caracteres.
+,20070025,, El nombre es demasiado largo.
+,20070026,, Nombre repetido.
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -354,6 +358,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250000,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de almacenar."
 ,20250001,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de sacarlo."
 ,20250002,,El almacenamiento está lleno.
+,20250003,," Los datos se están extrayendo, por favor espere."
 ,20260001,精力,Energía insuficiente.
 ,20260002,精力,La energía de [color=#F7CE3D]{0}[/color] no es suficiente.
 ,20270001,排行榜,Sin clasificación.
@@ -380,3 +385,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300006,声望, Puntos adicionales.
 ,20300007,声望, Decaimiento diario de {0} puntos.
 ,20310000,技能, No se puede liberar esta habilidad para el arma actual.
+,20320000,世界图腾,
+,20320001,世界图腾,
+,20320002,世界图腾,

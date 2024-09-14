@@ -128,6 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Tali pancing patah
 ,20050004,捕获超时,Masa menangkap habis
 ,20050005,捕获过程道具不足,Kekurangan alat bantu
+,20050006,,
 释放技能正在CD中,20060001,技能,Kemahiran dalam CD
 ,20070001,登录,Sistem
 ,20070002,登录,Sedang log masuk
@@ -152,6 +153,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录,Nama tidak sah.
 ,20070022,,Perkhidmatan Pemuatan
 ,20070023,,Nama mengandungi perkataan sensitif.
+,20070024,,Nama mesti mengandungi sekurang-kurangnya {0} aksara.
+,20070025,,Nama terlalu panjang.
+,20070026,,Nama berulang.
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -354,6 +358,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20250000,仓库,Sila perbaharui sewa storan sebelum menyimpan.
 ,20250001,仓库,Sila perbaharui sewa storan sebelum mengeluarkannya.
 ,20250002,,Storan penuh.
+,20250003,,"Data sedang diproses, sila tunggu."
 ,20260001,精力,Tenaga tidak mencukupi.
 ,20260002,精力,Tenaga [color=#F7CE3D]{0}[/color] tidak mencukupi.
 ,20270001,排行榜,Tidak Diberi Peringkat
@@ -380,3 +385,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300006,声望, Mata tambahan.
 ,20300007,声望, Kemerosotan harian sebanyak {0} mata.
 ,20310000,技能, Tidak boleh melepaskan kemahiran ini untuk senjata semasa.
+,20320000,世界图腾,
+,20320001,世界图腾,
+,20320002,世界图腾,

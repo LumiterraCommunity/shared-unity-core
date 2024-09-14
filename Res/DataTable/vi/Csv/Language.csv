@@ -128,6 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Dây đã bị đứt
 ,20050004,捕获超时,Hết thời gian bắt
 ,20050005,捕获过程道具不足,Thiếu đạo cụ
+,20050006,,
 释放技能正在CD中,20060001,技能,Kỹ năng đang trong thời gian chờ
 ,20070001,登录,Hệ thống
 ,20070002,登录,Đang đăng nhập
@@ -152,6 +153,9 @@ describe-string,id-int,module-string,value-string
 ,20070021,登录,Tên không hợp lệ.
 ,20070022,,Đang tải dịch vụ
 ,20070023,,Tên chứa từ nhạy cảm.
+,20070024,,Tên phải có ít nhất {0} ký tự.
+,20070025,, Tên quá dài.
+,20070026,, Tên đã được lặp lại.
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó
@@ -354,6 +358,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20250000,仓库,Vui lòng gia hạn thuê kho trước khi lưu trữ.
 ,20250001,仓库,Vui lòng gia hạn thuê kho trước khi lấy ra.
 ,20250002,,Kho đã đầy.
+,20250003,," Dữ liệu đang được truy xuất, vui lòng đợi."
 ,20260001,精力,Năng lượng không đủ.
 ,20260002,精力,Năng lượng của [color=#F7CE3D]{0}[/color] không đủ.
 ,20270001,排行榜,Không xếp hạng.
@@ -380,3 +385,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20300006,声望, Điểm bổ sung.
 ,20300007,声望, Sự suy giảm hàng ngày của {0} điểm.
 ,20310000,技能,thả[/color] kỹ năng này cho vũ khí hiện tại.
+,20320000,世界图腾,
+,20320001,世界图腾,
+,20320002,世界图腾,
