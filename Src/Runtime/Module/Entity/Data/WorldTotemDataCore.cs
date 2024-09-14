@@ -40,9 +40,15 @@ public class WorldTotemDataCore : EntityBaseComponent
     /// 设置基础信息
     /// </summary>
     /// <param name="totemInfo"></param>
-    public void SetBaseInfo(WorldTotemEntityInfo totemInfo)
+    /// <param name="isInit">是初始化不会广播更新消息</param>
+    public void SetBaseInfo(WorldTotemEntityInfo totemInfo, bool isInit)
     {
         BaseData = totemInfo;
         DRTotem = TableUtil.GetConfig<DRTotem>(BaseData.Cid);
+
+        if (!isInit)
+        {
+            RefEntity.EntityEvent.WorldTotemBaseDataUpdate?.Invoke();
+        }
     }
 }

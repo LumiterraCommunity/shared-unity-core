@@ -325,4 +325,8 @@ public class EntityEvent : EntityBaseComponent
     /// 宠物饥饿度改变 T0:饥饿度 T1:force设置的值
     /// </summary>
     public Action<float, bool> OnPetHungerChanged;
+    /// <summary>
+    /// 世界图腾基础数据更新
+    /// </summary>
+    public Action WorldTotemBaseDataUpdate;
 }
