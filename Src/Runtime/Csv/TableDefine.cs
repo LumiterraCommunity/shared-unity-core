@@ -162,6 +162,7 @@ public enum ePropItemType
     Material = 4,
     Building = 5,
     TaskTicket = 7,
+    Totem = 8,//图腾
 }
 
 /// <summary>
