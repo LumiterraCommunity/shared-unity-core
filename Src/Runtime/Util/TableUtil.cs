@@ -594,4 +594,53 @@ public static class TableUtil
 
         return (T)Enum.ToObject(typeof(T), 1 << bit);
     }
+
+
+    /// <summary>
+    /// 检查当前强化等级是否有惩罚
+    /// </summary>
+    /// <param name="lv"></param>
+    /// <returns></returns>
+    public static bool CheckHasPunishmentOfEnhanceLv(int lv)
+    {
+        int remainder = lv % 10;
+        return remainder is not (0 or 3 or 6);
+    }
+
+    /// <summary>
+    /// 获取图腾强化等级对应的命中率
+    /// </summary>
+    /// <param name="totemCid"></param>
+    /// <param name="lv"></param>
+    /// <returns></returns>
+    public static float GetTotemEnhanceHitRate(int totemCid, int lv)
+    {
+        DRTotem drTotem = GetConfig<DRTotem>(totemCid);
+        if (drTotem == null)
+        {
+            Log.Error($"GetTotemEnhanceHitRate drTotem is null totemCid = {totemCid}");
+            return 0;
+        }
+
+        int lv2hitRateIndex = EnhanceLv2EnhanceStage(lv);
+
+        if (lv2hitRateIndex >= drTotem.EnhanceSucPro.Length)
+        {
+            Log.Error($"GetTotemEnhanceHitRate lv2hitRateIndex out of range lv2hitRateIndex = {lv2hitRateIndex}");
+            return 0;
+        }
+
+        float hitRate = drTotem.EnhanceSucPro[lv2hitRateIndex] * TableDefine.THOUSANDTH_2_FLOAT;
+        return hitRate;
+    }
+
+    /// <summary>
+    /// 强化等级转强化阶段
+    /// </summary>
+    /// <param name="lv"></param>
+    /// <returns></returns>
+    public static int EnhanceLv2EnhanceStage(int lv)
+    {
+        return lv / TableDefine.EQUIPMENT_ENHANCE_STAGE_BASE;
+    }
 }
