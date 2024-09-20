@@ -59,6 +59,31 @@ public class ListMap<TKey, TValue> : IEnumerator, IEnumerable
     }
 
     /// <summary>
+    /// 插入一个数据到List中的指定位置 key为id之类的唯一值 内部字典会采用该值作为key
+    /// 会有越界保护和key重复保护
+    /// </summary>
+    /// <param name="index"></param>
+    /// <param name="key"></param>
+    /// <param name="value"></param>
+    public void Insert(int index, TKey key, TValue value)
+    {
+        if (_dic.ContainsKey(key))
+        {
+            Log.Error($"ListMap Insert key already exist key:{key}");
+            return;
+        }
+
+        if (index < 0 || index > _list.Count)
+        {
+            Log.Error($"ListMap Insert index out of range index:{index}");
+            return;
+        }
+
+        _dic.Add(key, value);
+        _list.Insert(index, value);
+    }
+
+    /// <summary>
     /// 设置一个数据 List的顺序会变化 以为value可能是值类型数据
     /// </summary>
     /// <param name="key"></param>
