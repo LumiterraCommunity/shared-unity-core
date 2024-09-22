@@ -1,40 +1,15 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using GameMessageCore;
 using UnityGameFramework.Runtime;
 
 public class EntityAvatarDataCore : EntityBaseComponent
 {
     /// <summary>
-    /// 专精能力等级 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
-    /// </summary>
-    /// <value></value>
-    private float _abilityLevel = 0;
-    /// <summary>
     /// 当前能力等级的所属天赋类型 由所持武器决定
     /// </summary>
     /// <value></value>
-    private eTalentType _abilityLevelTalentType = eTalentType.battle;
-
-    /// <summary>
-    /// 获取专精能力等级
-    /// </summary>
-    /// <param name="talentType"></param>
-    /// <returns></returns>
-    public float GetAbilityLevel(eTalentType talentType)
-    {
-        return talentType != _abilityLevelTalentType ? 0 : _abilityLevel;//TODO: home 之前为了解决群体浇水临时最小改动补丁 解决武器套群里浇水能力等级太高问题
-    }
-
-    /// <summary>
-    /// 获取当前专精能力等级 谨慎使用
-    /// </summary>
-    /// <returns></returns>
-    public float GetCurAbilityLevel()
-    {
-        return _abilityLevel;
-    }
+    private eTalentType _curAbilityType = eTalentType.battle;
+    private readonly Dictionary<eTalentType, float> _abilityLevelMap = new();
 
     /// <summary>
     /// 角色穿着数据
@@ -46,6 +21,25 @@ public class EntityAvatarDataCore : EntityBaseComponent
     /// 角色穿着列表
     /// </summary>
     public List<AvatarAttribute> AvatarList { get; protected set; } = new();
+
+    /// <summary>
+    /// 获取专精能力等级 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
+    /// </summary>
+    /// <param name="talentType"></param>
+    /// <returns></returns>
+    public float GetAbilityLevel(eTalentType talentType)
+    {
+        return _abilityLevelMap.GetValueOrDefault(talentType, 0);
+    }
+
+    /// <summary>
+    /// 获取当前专精能力等级 谨慎使用 注意是根据所有槽数量计算的并不是当前已装备的 会给小数 用于精确计算 外面需要取整自己决定
+    /// </summary>
+    /// <returns></returns>
+    public float GetCurAbilityLevel()
+    {
+        return GetAbilityLevel(_curAbilityType);
+    }
 
     /// <summary>
     /// 从网络数据初始化
@@ -84,18 +78,22 @@ public class EntityAvatarDataCore : EntityBaseComponent
     /// </summary>
     private void OnAvatarUpdate()
     {
+        UpdateCurAbilityType();
+
         CalculateAbilityLevel();
 
         RefEntity.EntityEvent.EntityAvatarUpdated?.Invoke();
     }
 
-    private void CalculateAbilityLevel()
+    /// <summary>
+    /// 更新当前专精类型 由武器决定
+    /// </summary>
+    private void UpdateCurAbilityType()
     {
-        _abilityLevelTalentType = eTalentType.battle;
+        _curAbilityType = eTalentType.battle;
 
         if (AvatarList == null || AvatarList.Count == 0)
         {
-            _abilityLevel = 0;
             return;
         }
 
@@ -104,15 +102,29 @@ public class EntityAvatarDataCore : EntityBaseComponent
             DRItem drWeapon = TableUtil.GetConfig<DRItem>(weaponAvatar.ObjectId);
             if (drWeapon != null && drWeapon.TalentId.Length > 0)
             {
-                _abilityLevelTalentType = (eTalentType)drWeapon.TalentId[0];
+                _curAbilityType = (eTalentType)drWeapon.TalentId[0];
             }
             else
             {
                 Log.Error($"CalculateAbilityLevel drWeapon is null or not have talent,avatar cid:{weaponAvatar.ObjectId}");
             }
         }
+    }
 
-        float allLv = 0;
+    /// <summary>
+    /// 重新计算出所有天赋的能力等级
+    /// </summary>
+    private void CalculateAbilityLevel()
+    {
+        _abilityLevelMap.Clear();
+
+        if (AvatarList == null || AvatarList.Count == 0)
+        {
+            return;
+        }
+
+        //算总和
+        Dictionary<eTalentType, float> lvSumMap = new();//value 某个天赋的等级总和
         foreach (AvatarAttribute avatar in AvatarList)
         {
             //不是装备的不计算 比如外观
@@ -128,13 +140,26 @@ public class EntityAvatarDataCore : EntityBaseComponent
                 continue;
             }
 
-            if (drItem.TalentId?.Length > 0 && drItem.TalentId.Contains((int)_abilityLevelTalentType))
+            //没有天赋
+            if (drItem.TalentId == null || drItem.TalentId.Length == 0)
             {
-                allLv += drItem.UseLv;
+                continue;
+            }
+
+            //多个天赋
+            foreach (int talentId in drItem.TalentId)
+            {
+                eTalentType talentType = (eTalentType)talentId;
+                float curLv = lvSumMap.GetValueOrDefault(talentType, 0);
+                lvSumMap[talentType] = curLv + drItem.UseLv;
             }
         }
 
-        _abilityLevel = allLv / AvatarDefineCore.EquipmentPartList.Count;
+        //算平均到结果
+        foreach (KeyValuePair<eTalentType, float> item in lvSumMap)
+        {
+            _abilityLevelMap[item.Key] = (float)item.Value / AvatarDefineCore.EquipmentPartList.Count;//除所有装备槽数量
+        }
     }
 
     /// <summary>
