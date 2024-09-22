@@ -595,7 +595,6 @@ public static class TableUtil
         return (T)Enum.ToObject(typeof(T), 1 << bit);
     }
 
-
     /// <summary>
     /// 检查当前强化等级是否有惩罚
     /// </summary>
@@ -623,7 +622,6 @@ public static class TableUtil
         }
 
         int lv2hitRateIndex = EnhanceLv2EnhanceStage(lv);
-
         if (lv2hitRateIndex >= drTotem.EnhanceSucPro.Length)
         {
             Log.Error($"GetTotemEnhanceHitRate lv2hitRateIndex out of range lv2hitRateIndex = {lv2hitRateIndex}");
