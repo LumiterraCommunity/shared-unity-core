@@ -151,7 +151,7 @@ public class EntityAvatarDataCore : EntityBaseComponent
             {
                 eTalentType talentType = (eTalentType)talentId;
                 float curLv = lvSumMap.GetValueOrDefault(talentType, 0);
-                lvSumMap[talentType] = curLv + drItem.UseLv;
+                lvSumMap[talentType] = curLv + SkillDamage.CalculateEquipmentAbilityLv(drItem.UseLv, avatar.EnhanceLevel);
             }
         }
 
