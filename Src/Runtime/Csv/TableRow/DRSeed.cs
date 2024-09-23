@@ -42,6 +42,15 @@ public class DRSeed : DataRowBase
     }
 
     /// <summary>
+  /**获取farmPotentiality-int[]。*/
+    /// </summary>
+    public int[] FarmPotentiality
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取functionType-int。*/
     /// </summary>
     public int FunctionType
@@ -129,6 +138,7 @@ public class DRSeed : DataRowBase
         int index = 0;
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        FarmPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         FunctionType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GrowRes = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         HarvestRes = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -152,6 +162,7 @@ public class DRSeed : DataRowBase
             {
                 DropId = binaryReader.Read7BitEncodedInt32();
                 Exp = binaryReader.Read7BitEncodedInt32();
+                FarmPotentiality = binaryReader.ReadArray<Int32>();
                 FunctionType = binaryReader.Read7BitEncodedInt32();
                 GrowRes = binaryReader.ReadArray<String>();
                 HarvestRes = binaryReader.ReadString();

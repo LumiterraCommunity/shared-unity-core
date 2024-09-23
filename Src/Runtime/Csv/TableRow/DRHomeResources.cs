@@ -51,6 +51,15 @@ public class DRHomeResources : DataRowBase
     }
 
     /// <summary>
+  /**获取gatherPotentiality-int[]。*/
+    /// </summary>
+    public int[] GatherPotentiality
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取homeAction-int[]。*/
     /// </summary>
     public int[] HomeAction
@@ -148,6 +157,7 @@ public class DRHomeResources : DataRowBase
         AssetRes = DataTableParseUtil.ParseString(columnStrings[index++]);
         DropId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Exp = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        GatherPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         HomeAction = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
@@ -173,6 +183,7 @@ public class DRHomeResources : DataRowBase
                 AssetRes = binaryReader.ReadString();
                 DropId = binaryReader.Read7BitEncodedInt32();
                 Exp = binaryReader.Read7BitEncodedInt32();
+                GatherPotentiality = binaryReader.ReadArray<Int32>();
                 HomeAction = binaryReader.ReadArray<Int32>();
                 Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
