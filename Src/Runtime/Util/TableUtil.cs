@@ -273,9 +273,20 @@ public static class TableUtil
                 break;
         }
 
+        return GetRandomPotentiality(valueRange);
+    }
+
+    /// <summary>
+    /// 获取随机潜力值
+    /// 返回的是int，代表千分位的浮点数
+    /// </summary>
+    /// <param name="valueRange"></param>
+    /// <returns></returns>
+    public static int GetRandomPotentiality(int[] valueRange)
+    {
         if (valueRange == null || valueRange.Length != 2)
         {
-            Log.Error($"GetMonsterRandomPotentialValue valueRange error valueRange = {valueRange}");
+            Log.Error($"GetRandomPotentiality valueRange error valueRange = {valueRange}");
             return 0;
         }
 
@@ -301,6 +312,39 @@ public static class TableUtil
         ForeachAttribute(attr, (type, baseValue, affectByPotential) =>
         {
             attributeCpt.SetBaseValue(type, baseValue);
+            return false;
+        });
+    }
+
+    /// <summary>
+    /// 用配置表中的初始化属性来设置属性组件 需要提供lv和潜力值计算出来
+    /// </summary>
+    /// <param name="attributeCpt"></param>
+    /// <param name="attr"></param>
+    /// <param name="lv"></param>
+    /// <param name="potentiality"></param>
+    public static void SetTableInitAttribute(AttributeDataCpt attributeCpt, int[][] attr, int lv, float potentiality)
+    {
+        if (attributeCpt == null)
+        {
+            Log.Error($"SetTableInitAttribute attributeCpt is null");
+            return;
+        }
+
+        //遍历属性数组
+        ForeachAttribute(attr, (type, baseValue, affectByPotential) =>
+        {
+            int finalValue;
+            if (affectByPotential)//判断是否受潜力值影响
+            {
+                finalValue = AttributeUtilCore.GetValueByPotentiality(baseValue, potentiality, lv);
+            }
+            else
+            {
+                finalValue = baseValue;
+            }
+
+            attributeCpt.SetBaseValue(type, finalValue);
             return false;
         });
     }
@@ -333,9 +377,18 @@ public static class TableUtil
             eAttributeType type = (eAttributeType)item[0];
             int value = item[1];
             bool affectByPotential = item[2] > 0;
-            if (cb.Invoke(type, value, affectByPotential))
+
+            try
             {
-                break;
+                if (cb.Invoke(type, value, affectByPotential))
+                {
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+                Log.Error($"ForeachAttribute invoke error e = {e}");
+                continue;
             }
         }
     }
