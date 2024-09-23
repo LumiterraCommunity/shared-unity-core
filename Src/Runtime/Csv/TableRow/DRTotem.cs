@@ -24,9 +24,27 @@ public class DRTotem : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取defaultEnhanceFee-int[][]。*/
+    /// </summary>
+    public int[][] DefaultEnhanceFee
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取enhanceSucPro-int[]。*/
     /// </summary>
     public int[] EnhanceSucPro
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取quality-int。*/
+    /// </summary>
+    public int Quality
     {
         get;
         private set;
@@ -41,14 +59,26 @@ public class DRTotem : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取tpFee-int。*/
+    /// </summary>
+    public int TpFee
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        DefaultEnhanceFee = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         EnhanceSucPro = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        Quality = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TotemEntity = DataTableParseUtil.ParseString(columnStrings[index++]);
+        TpFee = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -60,9 +90,12 @@ public class DRTotem : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                DefaultEnhanceFee = binaryReader.ReadArrayList<Int32>();
                 EnhanceSucPro = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
+                Quality = binaryReader.Read7BitEncodedInt32();
                 TotemEntity = binaryReader.ReadString();
+                TpFee = binaryReader.Read7BitEncodedInt32();
             }
         }
 
