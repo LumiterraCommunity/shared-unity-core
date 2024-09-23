@@ -26,10 +26,6 @@ public class ResourceDataCore : EntityBaseComponent
         {
             Log.Error($"Can not find DRHomeResources cfg id:{cfgID}");
         }
-        else
-        {
-            TableUtil.SetTableInitAttribute(RefEntity.EntityAttributeData, DRHomeResources.InitialAttribute);
-        }
     }
 
     public void SetSaveData(HomeResourcesPointSaveData saveData)

@@ -25,7 +25,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     {
         if ((action & SupportAction) != 0)
         {
-            return Data.DRHomeResources.Lv;
+            return RefEntity.EntityAttributeData.GetValue(eAttributeType.CollectionLv);
         }
         else
         {
