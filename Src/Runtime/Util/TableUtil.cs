@@ -718,7 +718,7 @@ public static class TableUtil
         }
 
         int lv2hitRateIndex = EnhanceLv2EnhanceStage(lv);
-        if (lv2hitRateIndex >= drTotem.EnhanceSucPro.Length)
+        if (lv < 0 || lv2hitRateIndex >= drTotem.EnhanceSucPro.Length)
         {
             Log.Error($"GetTotemEnhanceHitRate lv2hitRateIndex out of range lv2hitRateIndex = {lv2hitRateIndex}");
             return 0;
