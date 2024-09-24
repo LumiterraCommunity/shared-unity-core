@@ -190,7 +190,7 @@ public static class HomeUtilCore
         }
 
         float fromLevel = entityAttribute.RefEntity.GetComponent<EntityAvatarDataCore>().GetAbilityLevel(eTalentType.gather);
-        float toLevel = homeResource.GetActionLevel(targetCurAction);
+        float toLevel = homeResource.Lv;
         float probability = playerProficiency / resourceProficiency * Mathf.Pow(2, fromLevel - toLevel + 1);//概率 = 采集熟练度/需求熟练度 * 2^(采集装等 - 采集物等级 + 1)
         return Mathf.Clamp01(probability);
     }

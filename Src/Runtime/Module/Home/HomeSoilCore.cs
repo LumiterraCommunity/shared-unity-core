@@ -26,17 +26,25 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
 
     public eAction SupportAction => GetCurStatus().SupportAction;
 
-    public int GetActionLevel(eAction action)
-    {
-        Log.Error("HomeSoilCore.GetActionLevel() is not implemented");
-        return 0;
-    }
-
     /// <summary>
     /// 土地上的功能性种子实体 只有功能性种子成熟后且没有收割掉时才不为null 在SeedEntityMgr中管理也能找到
     /// </summary>
     /// <value></value>
     public SeedEntityCore SeedEntity { get; private set; }
+
+    public float Lv
+    {
+        get
+        {
+            if (SoilData.SaveData.SeedData.SeedCid <= 0)
+            {
+                Log.Error($"HomeSoilCore get lv error,not seed,id:{Id}");
+                return 0;
+            }
+
+            return SoilData.GetAttribute(eAttributeType.FarmingLv);
+        }
+    }
 
     protected virtual void Awake()
     {
@@ -132,19 +140,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     {
         try
         {
-            if (action == eAction.Sowing)
-            {
-                (string seedNftId, long seedEntityId) = (ValueTuple<string, long>)actionData;
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, (toolCid, seedNftId, seedEntityId));
-            }
-            else if (action == eAction.Manure)
-            {
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Manure, toolCid);
-            }
-            else
-            {
-                SoilEvent.MsgExecuteAction?.Invoke(action, actionData);
-            }
+            SoilEvent.MsgExecuteAction?.Invoke(action, actionData);
         }
         catch (System.Exception e)
         {

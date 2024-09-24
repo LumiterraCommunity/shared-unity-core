@@ -39,7 +39,14 @@ public class SeedSaveData
     /// 种子实体id 一般是0 只有特殊种子 还是播种就由数据服分配了id的才有值
     /// </summary>
     public long SeedEntityId;
-
+    /// <summary>
+    /// 种子当前等级
+    /// </summary>
+    public int Lv;
+    /// <summary>
+    /// 当前潜力值 配置表中单位 目前千分位
+    /// </summary>
+    public int Potentiality;
 
     /// <summary>
     /// 是否有种子
@@ -64,6 +71,8 @@ public class SeedSaveData
         NeedPerish = data.NeedPerish;
         SeedNftId = data.SeedNftId;
         SeedEntityId = data.SeedEntityId;
+        Lv = data.Lv;
+        Potentiality = data.Potentiality;
     }
 
     internal ProxySeedData ToProxySeedData()
@@ -78,6 +87,8 @@ public class SeedSaveData
             NeedPerish = NeedPerish,
             SeedNftId = SeedNftId ?? string.Empty,
             SeedEntityId = SeedEntityId,
+            Lv = Lv,
+            Potentiality = Potentiality
         };
     }
 }
