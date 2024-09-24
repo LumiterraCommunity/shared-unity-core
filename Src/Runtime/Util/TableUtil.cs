@@ -399,9 +399,31 @@ public static class TableUtil
     /// <param name="cid"></param>
     /// <typeparam name="T">哪个表</typeparam>
     /// <returns></returns>
-    public static T GetConfig<T>(int cid) where T : IDataRow
+    public static T GetConfig<T>(int cid) where T : class, IDataRow
     {
         return GFEntryCore.DataTable.GetDataTable<T>().GetDataRow(cid);
+    }
+
+    /// <summary>
+    /// 尝试获取一个配置具体项
+    /// </summary>
+    /// <typeparam name="T">哪个表</typeparam>
+    /// <param name="cid"></param>
+    /// <param name="dr"></param>
+    /// <returns></returns>
+    public static bool TryGetConfig<T>(int cid, out T dr) where T : class, IDataRow
+    {
+        try
+        {
+            dr = GetConfig<T>(cid);
+            return dr != null;
+        }
+        catch (Exception e)
+        {
+            Log.Error($"TryGetConfig exception,type:{typeof(T).Name},cid:{cid} e = {e}");
+            dr = null;
+            return false;
+        }
     }
 
     /// <summary>

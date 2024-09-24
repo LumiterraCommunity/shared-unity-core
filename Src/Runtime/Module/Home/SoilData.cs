@@ -87,7 +87,11 @@ public class SoilData : MonoBehaviour
         }
 
         AttributeData = gameObject.AddComponent<SoilAttributeData>();
-        TableUtil.SetTableInitAttribute(AttributeData, DRSeed.InitialAttribute);
+        AttributeData.SetBaseValue(eAttributeType.FarmingLv, SaveData.SeedData.Lv);
+        AttributeData.SetBaseValue(eAttributeType.FarmPotentiality, SaveData.SeedData.Potentiality);
+
+        float potentiality = AttributeData.GetRealValue(eAttributeType.FarmPotentiality);
+        TableUtil.SetTableInitAttribute(AttributeData, DRSeed.InitialAttribute, SaveData.SeedData.Lv, potentiality);
     }
 
     /// <summary>
@@ -134,21 +138,26 @@ public class SoilData : MonoBehaviour
     }
 
     /// <summary>
-    /// 设置当前种子配置id 如果是要清除种子 则传入0
+    /// 放置一个种子 往往是播种后调用这里
     /// </summary>
     /// <param name="seedCid">0代表清除</param>
     /// <param name="seedNftId">种子nftId</param>
     /// <param name="seedEntityId">种子实体id 一般是0 只有特殊种子 还是播种就由数据服分配了id的才有值</param>
-    internal void SetSeedCid(int seedCid, string seedNftId, long seedEntityId)
+    /// <param name="seedLv">种子等级</param>
+    /// <param name="seedPotentiality">种子潜力</param>
+    internal void PutSeed(int seedCid, string seedNftId, long seedEntityId, int seedLv, int seedPotentiality)
     {
-        if (SaveData.SeedData.SeedCid == seedCid && SaveData.SeedData.SeedNftId == seedNftId)
+        if (SaveData.SeedData.SeedCid > 0)
         {
-            return;
+            Log.Error($"土地上已经有种子了 soilId:{SaveData.Id} oldSeedCid:{SaveData.SeedData.SeedCid} newSeedCid:{seedCid}");
+            throw new System.Exception("土地上已经有种子了");//抛出异常 玩家请求那边会处理异常时不扣除种子
         }
 
         SaveData.SeedData.SeedCid = seedCid;
         SaveData.SeedData.SeedNftId = seedNftId;
         SaveData.SeedData.SeedEntityId = seedEntityId;
+        SaveData.SeedData.Lv = seedLv;
+        SaveData.SeedData.Potentiality = seedPotentiality;
 
         DRSeed = GFEntryCore.DataTable.GetDataTable<DRSeed>().GetDataRow(seedCid);
         if (DRSeed == null)

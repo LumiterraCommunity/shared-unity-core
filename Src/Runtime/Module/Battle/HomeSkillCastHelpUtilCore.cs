@@ -61,7 +61,7 @@ public static class HomeSkillCastHelpUtilCore
                 toAttribute = homeResource.GetComponent<EntityAttributeData>();
             }
 
-            (float calculateDamage, bool crit) = SkillDamage.CalculateHomeDamage(targetCurAction, fromEntity.EntityAttributeData, toAttribute, drSkill.HomeAttRate * TableDefine.THOUSANDTH_2_FLOAT, seedData, fromEntityLevel, targetObject.GetActionLevel(targetCurAction));
+            (float calculateDamage, bool crit) = SkillDamage.CalculateHomeDamage(targetCurAction, fromEntity.EntityAttributeData, toAttribute, drSkill.HomeAttRate * TableDefine.THOUSANDTH_2_FLOAT, seedData, fromEntityLevel, targetObject.Lv);
             damage = calculateDamage;
             isCrit = crit;
         }

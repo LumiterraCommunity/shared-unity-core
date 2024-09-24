@@ -17,19 +17,6 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     public Vector3 Position => RefEntity.Position;
 
-    public int GetActionLevel(eAction action)
-    {
-        if ((action & COLLECT_RESOURCE_ACTION_MASK) != 0)
-        {
-            return RefEntity.EntityAttributeData.GetBaseValue(eAttributeType.CollectionLv);
-        }
-        else
-        {
-            return RefEntity.EntityAttributeData.GetBaseValue(eAttributeType.FarmingLv);
-        }
-        //作为家园动作等级是没有战斗等级的
-    }
-
     public eAction SupportAction { get; set; } = eAction.Appease;
 
     public eAction HarvestAction { get; private set; } = eAction.None;//收获动作
@@ -49,6 +36,20 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// 自动收获的掉落实体
     /// </summary>
     protected GameObject DropEntity { get; private set; }
+
+    public float Lv
+    {
+        get
+        {
+            if (RefEntity.TryGetComponent(out EntityAvatarDataCore entityAvatarDataCore))
+            {
+                return entityAvatarDataCore.GetCurAbilityLevel();
+            }
+            Log.Error($"home animal not find entity avatar data,id:{RefEntity.BaseData.Id}");
+            return 0;
+        }
+    }
+
     private bool _isListenColliderLoadFinish;
 
     //缓存一些读表值 节省tick中反复读取
