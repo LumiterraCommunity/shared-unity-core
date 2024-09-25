@@ -114,8 +114,12 @@ public enum eGameValueID
     CaptureExcludeItemIds = 114, //不用用于捕获的道具列表
     WorldTotemIntervalDistance = 118, //世界图腾间隔距离 cm
     WorldTotemDensityRange = 119, //世界图腾密度范围 cm
+    WorldTotemEnergy = 120, //世界图腾精力
     WorldTotemEnergyCostValue = 121, //世界图腾精力扣除时间和数值
     WorldTotemEnergyCostBase = 122, //世界图腾精力扣除速度基数 千分位
+    WorldTotemTransferCost = 123, //世界图腾传送费用
+    WorldTotemMiningType = 125, //世界图腾采矿类型
+    WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
 }
 
 // public static class GameValueID
