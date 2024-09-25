@@ -118,6 +118,7 @@ public enum eGameValueID
     WorldTotemEnergyCostValue = 121, //世界图腾精力扣除时间和数值
     WorldTotemEnergyCostBase = 122, //世界图腾精力扣除速度基数 千分位
     WorldTotemTransferCost = 123, //世界图腾传送费用
+    EnhancementCostDistributionDetail = 124, //强化消耗分配明细
     WorldTotemMiningType = 125, //世界图腾采矿类型
     EnhanceLvToAbilityLv = 126, //强化等级对应的能力等级系数 千分位
     WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
