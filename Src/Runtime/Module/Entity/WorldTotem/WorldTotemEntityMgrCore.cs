@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityGameFramework.Runtime;
 
 
@@ -12,21 +10,26 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
     /// <summary>
     /// 当前管理的所有图腾实体 客户端为视野内 key:实体id
     /// </summary>
-    protected readonly ListMap<long, EntityBase> EntityMap = new();
+    private readonly ListMap<long, WorldTotemDataCore> _entityMap = new();
 
-    internal void AddWorldTotem(EntityBase refEntity)
+    /// <summary>
+    /// 当前管理的所有图腾实体 客户端为视野内 key:实体id 无GC不要修改内部元素
+    /// </summary>
+    public ListMap<long, WorldTotemDataCore> EntityMap => _entityMap;
+
+    internal void AddWorldTotem(WorldTotemDataCore totemData)
     {
-        if (!EntityMap.Add(refEntity.BaseData.Id, refEntity))
+        if (!_entityMap.Add(totemData.BaseData.Id, totemData))
         {
-            Log.Error($"WorldTotemEntityMgrCore.AddWorldTotem() is already exist id:{refEntity.BaseData.Id}");
+            Log.Error($"WorldTotemEntityMgrCore.AddWorldTotem() is already exist id:{totemData.BaseData.Id}");
         }
     }
 
-    internal void RemoveWorldTotem(EntityBase refEntity)
+    internal void RemoveWorldTotem(WorldTotemDataCore totemData)
     {
-        if (!EntityMap.Remove(refEntity.BaseData.Id))
+        if (!_entityMap.Remove(totemData.BaseData.Id))
         {
-            Log.Error($"WorldTotemEntityMgrCore.RemoveWorldTotem() is not exist id:{refEntity.BaseData.Id}");
+            Log.Error($"WorldTotemEntityMgrCore.RemoveWorldTotem() is not exist id:{totemData.BaseData.Id}");
         }
     }
 
@@ -37,16 +40,16 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
     /// <returns></returns>
     public bool CheckOverlapOtherTotem(Vector3 pos)
     {
-        if (EntityMap.Count == 0)
+        if (_entityMap.Count == 0)
         {
             return false;
         }
 
         float intervalRange = WorldTotemDefineCore.IntervalRange;
-        for (int i = 0; i < EntityMap.Count; i++)
+        for (int i = 0; i < _entityMap.Count; i++)
         {
-            EntityBase entity = EntityMap[i];
-            if (Vector3.Distance(entity.Position, pos) < intervalRange)
+            WorldTotemDataCore totemDataCore = _entityMap[i];
+            if (Vector3.Distance(totemDataCore.RefEntity.Position, pos) < intervalRange)
             {
                 return true;
             }
@@ -79,10 +82,10 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
     {
         float densityRange = WorldTotemDefineCore.DensityRange;
         int density = 0;
-        for (int i = 0; i < EntityMap.Count; i++)
+        for (int i = 0; i < _entityMap.Count; i++)
         {
-            EntityBase entity = EntityMap[i];
-            if (Vector3.Distance(entity.Position, pos) < densityRange)
+            WorldTotemDataCore totemDataCore = _entityMap[i];
+            if (Vector3.Distance(totemDataCore.RefEntity.Position, pos) < densityRange)
             {
                 density++;
             }
