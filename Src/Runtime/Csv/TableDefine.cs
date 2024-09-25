@@ -122,6 +122,7 @@ public enum eGameValueID
     WorldTotemMiningType = 125, //世界图腾采矿类型
     EnhanceLvToAbilityLv = 126, //强化等级对应的能力等级系数 千分位
     WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
+    WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
 }
 
 // public static class GameValueID

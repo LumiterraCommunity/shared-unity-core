@@ -72,6 +72,8 @@ public enum eErrorCode : int
     #region  世界图腾
     worldTotemOverlap = 0011001,//世界图腾重叠
     worldTotemTerrainInvalid = 0011002,//世界图腾地形不允许
+    worldTotemAreaInvalid = 0011003,//世界图腾区域不允许
+    worldTotemSceneInvalid = 0011004,//世界图腾场景不允许
     #endregion
 
     #endregion

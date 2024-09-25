@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -71,6 +73,45 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
         }
 
         return true;
+    }
+
+    /// <summary>
+    /// 检查是否在放置无效区域 比如npc附近不能放置等
+    /// </summary>
+    /// <param name="placeTotemPos"></param>
+    /// <returns></returns>
+    public bool CheckInInvalidArea(Vector3 placeTotemPos)
+    {
+        if (IsNearNpc(placeTotemPos))
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    /// <summary>
+    /// 在npc附近
+    /// </summary>
+    /// <param name="placeTotemPos"></param>
+    /// <returns></returns>
+    private bool IsNearNpc(Vector3 placeTotemPos)
+    {
+        bool res = false;
+
+        float invalidRange = TableUtil.GetGameValueInt(eGameValueID.WorldTotemPlaceInvalidRangeNearNpc, 300) * TableDefine.PERCENTAGE_2_FLOAT;
+        _ = GFEntryCore.GetModule<IEntityMgr>().ForeachTypeEntity(GameMessageCore.EntityType.Npc, (EntityBase entity) =>
+        {
+            if (Vector3.Distance(entity.Position, placeTotemPos) <= invalidRange)
+            {
+                res = true;
+                return true;
+            }
+
+            return false;
+        });
+
+        return res;
     }
 
     /// <summary>
