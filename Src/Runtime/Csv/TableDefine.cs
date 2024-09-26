@@ -14,6 +14,10 @@ public static class TableDefine
     /// </summary>
     public static readonly float THOUSANDTH_2_FLOAT = 1 / 1000f;
     /// <summary>
+    /// 配置中的万分位配置变小数
+    /// </summary>
+    public static readonly float TEN_THOUSANDTH_2_FLOAT = 1 / 10000f;
+    /// <summary>
     /// 配置中的百分位配置变小数
     /// </summary>
     public static readonly float PERCENTAGE_2_FLOAT = 1 / 100f;

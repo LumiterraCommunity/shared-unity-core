@@ -158,8 +158,6 @@ public class DREquipment : DataRowBase
     private set;
   }
 
-  public int EnhancementCostToken;
-
   public override bool ParseDataRow(string dataRowString, object userData)
   {
     string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
