@@ -74,6 +74,8 @@ public enum eErrorCode : int
     worldTotemTerrainInvalid = 0011002,//世界图腾地形不允许
     worldTotemAreaInvalid = 0011003,//世界图腾区域不允许
     worldTotemSceneInvalid = 0011004,//世界图腾场景不允许
+    worldTotemNotFound = 0011005,//世界图腾未找到
+    worldTotemDataNotFound = 0011006,//世界图腾数据未找到
     #endregion
 
     #endregion
