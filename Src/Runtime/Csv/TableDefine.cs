@@ -269,6 +269,7 @@ public enum eSkillId : int
     Sowing = 97,//播种
     PutFood = 27,//放饲料
     BackOut = 573,//脱离
+    TotemTp = 585,//图腾传送技能
 }
 
 /// <summary>
