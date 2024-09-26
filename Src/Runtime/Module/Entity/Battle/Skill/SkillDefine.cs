@@ -16,6 +16,7 @@ public enum eSkillFlyerType : int
 /// </summary>
 public enum eSkillGroupType : int
 {
+    General = 0,    // 通用
     Base = 1,       // 基础
     Equipment = 2,  // 装备
     Jump = 3,       // 跳跃
