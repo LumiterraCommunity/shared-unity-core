@@ -369,14 +369,10 @@ public static class TableUtil
 
         foreach (int[] item in attr)
         {
-            if (item.Length != 3)
+            if (!ParseAttribute(item, out eAttributeType type, out int value, out bool affectByPotential))
             {
-                Log.Error($"ForeachAttribute item.Length != 3");
                 continue;
             }
-            eAttributeType type = (eAttributeType)item[0];
-            int value = item[1];
-            bool affectByPotential = item[2] > 0;
 
             try
             {
@@ -391,6 +387,31 @@ public static class TableUtil
                 continue;
             }
         }
+    }
+
+    /// <summary>
+    /// 解析属性数组 eg: [1,100,1] 返回是否解析成功
+    /// </summary>
+    /// <param name="att"></param>
+    /// <param name="type"></param>
+    /// <param name="value"></param>
+    /// <param name="affectByPotential">是否受潜力值影响</param>
+    public static bool ParseAttribute(int[] att, out eAttributeType type, out int value, out bool affectByPotential)
+    {
+        type = eAttributeType.Unknown;
+        value = 0;
+        affectByPotential = false;
+
+        if (att.Length != 3)
+        {
+            Log.Error($"TryParseAttribute error item.Length != 3");
+            return false;
+        }
+
+        type = (eAttributeType)att[0];
+        value = att[1];
+        affectByPotential = att[2] > 0;
+        return true;
     }
 
     /// <summary>
