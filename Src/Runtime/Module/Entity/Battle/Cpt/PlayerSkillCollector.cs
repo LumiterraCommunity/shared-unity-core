@@ -43,6 +43,8 @@ public class PlayerSkillCollector : EntitySkillCollector
         OnInHandItemChanged(RefEntity.GetComponent<EntityInHandItemDataCore>().Cid);
 
         CollectFromItem();
+
+        InitCustomSkill();
     }
 
     protected override void OnDestroy()
@@ -253,5 +255,10 @@ public class PlayerSkillCollector : EntitySkillCollector
         }
 
         EntitySkillDataCore.SetSkillGroupIDList(eSkillGroupType.Item, skillList.ToArray());
+    }
+
+    private void InitCustomSkill()
+    {
+        EntitySkillDataCore.AddSkillGroupID(eSkillGroupType.General, (int)eSkillId.TotemTp);
     }
 }
