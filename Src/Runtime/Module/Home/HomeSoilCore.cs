@@ -135,15 +135,15 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
             if (action == eAction.Sowing)
             {
                 (string seedNftId, long seedEntityId) = (ValueTuple<string, long>)actionData;
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, (toolCid, seedNftId, seedEntityId));
+                SoilEvent.MsgExecuteAction?.Invoke(eAction.Sowing, playerId, entityId, (toolCid, seedNftId, seedEntityId));
             }
             else if (action == eAction.Manure)
             {
-                SoilEvent.MsgExecuteAction?.Invoke(eAction.Manure, toolCid);
+                SoilEvent.MsgExecuteAction?.Invoke(eAction.Manure, playerId, entityId, toolCid);
             }
             else
             {
-                SoilEvent.MsgExecuteAction?.Invoke(action, actionData);
+                SoilEvent.MsgExecuteAction?.Invoke(action, playerId, entityId, actionData);
             }
         }
         catch (System.Exception e)
@@ -244,5 +244,14 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         }
 
         return proxyData;
+    }
+
+    /// <summary>
+    /// 被收获了,腐败的不算收获，不走这里
+    /// </summary>
+    /// <param name="playerId">收获的玩家id</param>
+    /// <param name="entityId">收获的具体实体id</param>
+    public virtual void OnHarvest(long playerId, long entityId)
+    {
     }
 }

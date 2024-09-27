@@ -154,7 +154,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
         OnExecuteAction(action, playerId, entityId, skillId);
 
         IsDead = true;
-        OnDeath();
+        OnDeath(playerId, entityId);
     }
 
     protected virtual void OnExecuteAction(eAction action, long playerId, long entityId, int skillId)
@@ -179,7 +179,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     /// <summary>
     /// 当采集资源死亡时
     /// </summary>
-    protected virtual void OnDeath()
+    protected virtual void OnDeath(long attPlayerId, long attEntityId)
     {
     }
 }
