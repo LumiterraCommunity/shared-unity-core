@@ -1,25 +1,25 @@
-canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-string,name-string,refreshRatio-int[],reputationRequaireScore-int,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,worldDropProbability-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,dropRewardShow-int[],punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],bossSeed-string[],seedMaxLimit-int[]
-0,0,10001,0,"0,999",HomeSceneLoading.jpg,"Trống
+canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-string,maxDifficulty-int,name-string,refreshRatio-int[],reputationRequaireScore-int,respawnTimes-int,rewardFrequency-int,sceneName-string,sceneSubtype-int,sceneType-int,talentType-int,worldDropProbability-int,functionModule-int[],baseScore-int[],bossCovers-int[],challengeMode-int[],chapterBaseReward-int[],chapterEvents-int[][],chapterLuckyReward-int[],chapterProgress-int[],chapterPunish-int[][],chapterTimeLimit-int[],chapters-string[],desc-string,dropRewardShow-int[],punishDesc-string,randomSeeds-string[][],releaseTime-int[][],tickets-int[][],campLimit-int[],bossSeed-string[],seedMaxLimit-int[]
+0,0,10001,0,"0,999",HomeSceneLoading.jpg,0,"Trống
 ","5000,5000,5000,5000,5000,5000,5000,5000,5000,5000",0,0,0,WorldScene,1,1,0,1850,,,,,,,,,,,,"Trống
 ",,"Trống
 ",,,,,,
-0,0,10002,0,"0,999",HomeSceneLoading.jpg,"Trống
+0,0,10002,0,"0,999",HomeSceneLoading.jpg,0,"Trống
 ",,0,0,0,HomeScene,1,2,0,10000,3,,,,,,,,,,,"Trống
 ",,"Trống
 ",,,,,,
-0,0,10003,0,"0,999",HomeSceneLoading.jpg,Trống,,0,0,0,WorldScene02,1,1,0,10000,,,,,,,,,,,,,,"Trống
+0,0,10003,0,"0,999",HomeSceneLoading.jpg,0,Trống,,0,0,0,WorldScene02,1,1,0,10000,,,,,,,,,,,,,,"Trống
 ",,,,,,
-0,160,20000,1,"0,3",DungeonSceneLoading_1_3.jpg,"Đỉnh hoa
+0,160,20000,1,"0,3",DungeonSceneLoading_1_3.jpg,5,"Đỉnh hoa
 ",,100,0,3,DungeonSceneLv1-3,1,3,2,10000,1,"10000,20000,30000","55,0,54",2,"58,59,60","16,17;16,17;16,17","61,62,63","30,60,120","3500,13500;3500,13500;3500,13500","120,190,400","Chapter 1/3,Chapter 2/3,Chapter 3/3","Nằm trong tán lá xanh của rừng rậm, nó giống như một phép màu trên trái đất. Đỉnh đá của nó giống như một hàng lưỡi kiếm sắc nhọn, nhưng cũng giống như những cánh hoa.
 ",185,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0;0,"0,1440","468,1",,,
-0,40,20001,1,"4,6",DungeonSceneLoading_4_6.jpg,Thế giới động lực,,160,0,3,DungeonSceneLv4-6,1,3,2,10000,1,"10000,20000,30000","37,39,38",2,"52,53,54","16,17;16,17;16,17","47,48,49","320,640,960","3500,13500;3500,13500;3500,13500","470,500,770","Chapter 1/3,Chapter 2/3,Chapter 3/3","Trong vùng đất tan vỡ đó, một thành trì tối tăm đứng tự hào, các cạnh của nó treo giữa không gian, không có bất kỳ sự hỗ trợ vật lý nào. Nó chứa đầy một số lượng lớn quái vật nguy hiểm, trồng nhiều vật phẩm hiếm chưa từng thấy trước đây.",186,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
+0,40,20001,1,"4,6",DungeonSceneLoading_4_6.jpg,5,Thế giới động lực,,160,0,3,DungeonSceneLv4-6,1,3,2,10000,1,"10000,20000,30000","37,39,38",2,"52,53,54","16,17;16,17;16,17","47,48,49","320,640,960","3500,13500;3500,13500;3500,13500","470,500,770","Chapter 1/3,Chapter 2/3,Chapter 3/3","Trong vùng đất tan vỡ đó, một thành trì tối tăm đứng tự hào, các cạnh của nó treo giữa không gian, không có bất kỳ sự hỗ trợ vật lý nào. Nó chứa đầy một số lượng lớn quái vật nguy hiểm, trồng nhiều vật phẩm hiếm chưa từng thấy trước đây.",186,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0;0,"0,1440","467,1",,,
-0,10,20002,1,"7,9",DungeonSceneLoading_7_9.jpg,"Vùng cổ xưa
+0,10,20002,1,"7,9",DungeonSceneLoading_7_9.jpg,5,"Vùng cổ xưa
 ",,640,0,3,DungeonSCeneLv7-9,1,3,2,10000,1,"10000,20000,30000","61,71,66",2,"82,83,84","16,17;16,17;16,17","85,86,87","2560,5120,10240","3500,13500;3500,13500;3500,13500","470,500,760","Chapter 1/3,Chapter 2/3,Chapter 3/3","Chiến đấu với những sinh vật đỏ lửa; chiến đấu trong môi trường tối tăm và đáng sợ, phòng thủ chống lại những sinh vật hư không; khám phá những di tích cổ để khám phá bí mật và kho báu ẩn sâu trong lòng đất. Những nhà thám hiểm dũng cảm, bạn đã sẵn sàng đối mặt với thách thức này chưa?
 ",187,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0;0,"0,1440","658,1",,,
-1,0,21001,0,"1,3",DungeonSceneLoading_7_9.jpg,"Đấu trường hạng nhẹ
+1,0,21001,0,"1,3",DungeonSceneLoading_7_9.jpg,0,"Đấu trường hạng nhẹ
 ",,0,0,5,PVPDungeonSceneSoloLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -33,7 +33,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **Token** theo tỷ lệ nhất định. 
 ",,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0,"0,0","659,1","8,24",,
-1,0,21002,0,"4,6",PVPDungeonSceneLoading_4_6.jpg,"Đấu trường hạng trung
+1,0,21002,0,"4,6",PVPDungeonSceneLoading_4_6.jpg,0,"Đấu trường hạng trung
 ",,0,0,5,PVPDungeonSceneSoloLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -47,7 +47,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **Token** theo tỷ lệ nhất định. 
 ",,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0,"0,0","660,1","8,24",,
-1,0,21003,0,"7,9",PVPDungeonSceneLoading_4_6.jpg,"Đấu trường hạng cao
+1,0,21003,0,"7,9",PVPDungeonSceneLoading_4_6.jpg,0,"Đấu trường hạng cao
 ",,0,0,5,PVPDungeonSceneSoloLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -61,7 +61,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **Token** theo tỷ lệ nhất định. 
 ",,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0,"0,0","661,1","8,24",,
-1,0,22001,0,"1,3",DungeonSceneLoading_7_9.jpg,"Đấu trường đơn hạng nhẹ
+1,0,22001,0,"1,3",DungeonSceneLoading_7_9.jpg,0,"Đấu trường đơn hạng nhẹ
 ",,0,0,5,PVPDungeonSceneSoloLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -75,7 +75,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **Token** theo tỷ lệ nhất định. 
 ",,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0,"0,0","659,1","3,24",,
-1,0,22002,0,"4,6",PVPDungeonSceneLoading_4_6.jpg,"Đấu trường đơn hạng trung
+1,0,22002,0,"4,6",PVPDungeonSceneLoading_4_6.jpg,0,"Đấu trường đơn hạng trung
 ",,0,0,5,PVPDungeonSceneSoloLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",1,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -89,7 +89,7 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **Token** theo tỷ lệ nhất định. 
 ",,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0,"0,0","660,1","3,24",,
-1,0,22003,0,"7,9",PVPDungeonSceneLoading_4_6.jpg,"Đấu trường đơn hạng cao
+1,0,22003,0,"7,9",PVPDungeonSceneLoading_4_6.jpg,0,"Đấu trường đơn hạng cao
 ",,0,0,5,PVPDungeonSceneSoloLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",1,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","##  Phần thưởng
 - **Đánh bại Quái vật hoặc Thu thập**: Người chơi sẽ nhận được phần thưởng **Token** được đầu tư bởi các tượng thần.
 - **Tiêu diệt Người chơi khác**: Người chơi có thể nhận phần thưởng chưa được giải quyết **LUASUD** của những đối thủ bị đánh bại.
@@ -101,32 +101,32 @@ canInvest-bool,extraDropPool-int,id-int,isRanking-bool,level-int[],loadingBg-str
   - **Cổng Thách thức**: Dành cho những người dũng cảm, cổng này dẫn đến cấp độ phiêu lưu tiếp theo.
   - **Cổng Thoát**: Thoát khỏi hang động và từ bỏ bất kỳ phần thưởng chưa được giải quyết **Token**.
   - **Cổng Định cư**: Định cư và thu thập phần thưởng **Token** theo tỷ lệ nhất định.",,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"0,0","661,1","3,24",,
-0,0,23001,0,"1,3",DungeonSceneLoading_7_9.jpg,Junior Arena - Mini ,,0,0,0,PVPDungeonSceneSoloLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging",,,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"1200,1320;720,840","934,1","5,24",,
-0,0,23002,0,"4,6",PVPDungeonSceneLoading_4_6.jpg, Intermediate Arena - Mini ,,0,0,0,PVPDungeonSceneSoloLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging",,,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"1200,1320;720,840","935,1","5,24",,
-0,0,23003,0,"7,9",PVPDungeonSceneLoading_4_6.jpg," Advanced Arena - Mini 
+0,0,23001,0,"1,3",DungeonSceneLoading_7_9.jpg,0,Junior Arena - Mini ,,0,0,0,PVPDungeonSceneSoloLv1-3,2,3,2,10000,"1,2","0,10000","55,0,54",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging",,,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"1200,1320;720,840","934,1","5,24",,
+0,0,23002,0,"4,6",PVPDungeonSceneLoading_4_6.jpg,0, Intermediate Arena - Mini ,,0,0,0,PVPDungeonSceneSoloLv4-6,2,3,2,10000,"1,2","0,10000","37,39,38",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging",,,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"1200,1320;720,840","935,1","5,24",,
+0,0,23003,0,"7,9",PVPDungeonSceneLoading_4_6.jpg,0," Advanced Arena - Mini 
 
 Trận đấu trẻ - Mini ",,0,0,0,PVPDungeonSceneSoloLv7-9,2,3,2,10000,"1,2","0,10000","61,71,66",2,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging",,,"Khi bạn chết, có một khả năng rơi ra các vật phẩm trong balo của bạn.",0;0,"1200,1320;720,840","936,1","5,24",,
-0,0,30001,0,"1,9",DungeonSceneLoading_1_3.jpg, Thử thách hàng ngày,,100000,0,1,DailyDungeon,1,3,2,10000,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","120,90,90,90,90,90,90,90,90","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9", Thử thách hàng ngày,,"Không bị phạt tử hình
+0,0,30001,0,"1,9",DungeonSceneLoading_1_3.jpg,5, Thử thách hàng ngày,,100000,0,1,DailyDungeon,1,3,2,10000,1,"10000,20000,30000,40000,50000,60000,70000,80000,90000","6,7,8",1,"102,103,104,105,106,107,108,109,110",;;;;;;;;,"120,121,122,123,124,125,126,127,128","6,12,24,48,96,192,384,768,1536","0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0","120,90,90,90,90,90,90,90,90","Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,Level 8,Level 9", Thử thách hàng ngày,,"Không bị phạt tử hình
 ",0;0;0;0;0;0;0;0;0,"0,1440","733,1",,,
-0,0,30002,0,"1,9",PVPDungeonSceneLoading_4_6.jpg,Sân tập,,0,0,1,PVPTrainingDungeon,2,3,2,2500,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","Địa điểm Huấn luyện PVEP - Hỗ trợ trận đấu 12-24 người chơi, khi chết sẽ không có bất kỳ mục rơi, vé từ nhiệm vụ hàng ngày.",,"Không bị phạt tử hình
+0,0,30002,0,"1,9",PVPDungeonSceneLoading_4_6.jpg,0,Sân tập,,0,0,1,PVPTrainingDungeon,2,3,2,2500,"1,2","0,10000","55,0,54",1,",",;,",","0,0","3500,13500;3500,13500","120,1200","Matching,Challenging","Địa điểm Huấn luyện PVEP - Hỗ trợ trận đấu 12-24 người chơi, khi chết sẽ không có bất kỳ mục rơi, vé từ nhiệm vụ hàng ngày.",,"Không bị phạt tử hình
 ",0;0,"0,1440","733,1","8,24",,
-0,160,40001,1,"0,3",HomeSceneLoading.jpg, Thử thách thu thập cấp độ Junior,,100,0,3,GatherDungeon1-3,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"159,160,161","22,18,19;18,19;18,19","178,179,180","28,56,112","0,0;0,0;0,0","120,190,400","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
+0,160,40001,1,"0,3",HomeSceneLoading.jpg,5, Thử thách thu thập cấp độ Junior,,100,0,3,GatherDungeon1-3,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"159,160,161","22,18,19;18,19;18,19","178,179,180","28,56,112","0,0;0,0;0,0","120,190,400","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
 Trong Thử thách Thu thập, sự phòng thủ của Nguồn tài nguyên sẽ được tăng cường. Tương ứng, người chơi sẽ nhận được buff biến đổi trình độ thu thập thành tấn công thu thập.
 ",188,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0;0,"0,1440","775,1",,,
-0,40,40002,1,"4,6",HomeSceneLoading.jpg, Thử thách thu thập cấp độ Trung cấp,,160,0,3,GatherDungeon4-6,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"162,163,164","22,18,19;18,19;18,19","181,182,183","224,448,896","0,0;0,0;0,0","470,500,770","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
+0,40,40002,1,"4,6",HomeSceneLoading.jpg,5, Thử thách thu thập cấp độ Trung cấp,,160,0,3,GatherDungeon4-6,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"162,163,164","22,18,19;18,19;18,19","181,182,183","224,448,896","0,0;0,0;0,0","470,500,770","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
 Trong Thử thách Thu thập, sự phòng thủ của Nguồn tài nguyên sẽ được tăng cường. Tương ứng, người chơi sẽ nhận được buff biến đổi trình độ thu thập thành tấn công thu thập.
 ",189,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0;0,"0,1440","776,1",,,
-0,10,40003,1,"7,9",HomeSceneLoading.jpg, Thử thách thu thập cấp độ Nâng cao,,640,0,3,GatherDungeon7-9,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"165,166,167","22,18,19;18,19;18,19","184,185,186","1792,3584,7168","0,0;0,0;0,0","470,500,760","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
+0,10,40003,1,"7,9",HomeSceneLoading.jpg,5, Thử thách thu thập cấp độ Nâng cao,,640,0,3,GatherDungeon7-9,1,3,3,10000,1,"10000,20000,30000","123,122,121",2,"165,166,167","22,18,19;18,19;18,19","184,185,186","1792,3584,7168","0,0;0,0;0,0","470,500,760","Gather Challenge Chapter 1/3,Gather Challenge Chapter 2/3,Gather Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
 Trong Thử thách Thu thập, sự phòng thủ của Nguồn tài nguyên sẽ được tăng cường. Tương ứng, người chơi sẽ nhận được buff biến đổi trình độ thu thập thành tấn công thu thập.
 ",190,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
 ",0;0;0,"0,1440","777,1",,,
-0,160,50001,1,"0,3",HomeSceneLoading.jpg, Thử thách trồng trọt cấp độ Junior,,24,0,3,FarmingDungeon1-3,1,3,1,10000,"1,3","10000,20000,30000","123,122,121",1,"168,169,170",21;21;21,"187,188,189","8,16,32","0,0;0,0;0,0","120,200,630","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
+0,160,50001,1,"0,3",HomeSceneLoading.jpg,5, Thử thách trồng trọt cấp độ Junior,,24,0,3,FarmingDungeon1-3,1,3,1,10000,"1,3","10000,20000,30000","123,122,121",1,"168,169,170",21;21;21,"187,188,189","8,16,32","0,0;0,0;0,0","120,200,630","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
 ",191,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
-","146#1000#1#1,147#1000#1#1,148#1000#1#1;149#1000#2#2,150#1000#2#2,151#1000#2#2;152#1000#3#3,153#1000#3#3,154#1000#3#3","0,1440","778,1",,824#10000#1#1;825#10000#2#2;826#10000#3#3,"4,4,4"
-0,40,50002,1,"4,6",HomeSceneLoading.jpg, Thử thách trồng trọt cấp độ Trung cấp,,64,0,3,FarmingDungeon4-6,1,3,1,10000,"1,3","10000,20000,30000","123,122,121",1,"171,172,173",21;21;21,"190,191,192","64,128,256","0,0;0,0;0,0","510,550,1330","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
+","146#1000#1#1,147#1000#1#1,148#1000#1#1;149#1000#2#2,150#1000#2#2,151#1000#2#2;152#1000#3#3,153#1000#3#3,154#1000#3#3","0,1440","778,1",,"824#10000#1#1,825#10000#2#2,826#10000#3#3","4,4,4"
+0,40,50002,1,"4,6",HomeSceneLoading.jpg,5, Thử thách trồng trọt cấp độ Trung cấp,,64,0,3,FarmingDungeon4-6,1,3,1,10000,"1,3","10000,20000,30000","123,122,121",1,"171,172,173",21;21;21,"190,191,192","64,128,256","0,0;0,0;0,0","510,550,1330","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3","Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.
 ",192,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
-","413#1000#4#4,414#1000#4#4,415#1000#4#4;416#1000#5#5,417#1000#5#5,418#1000#5#5;419#1000#6#6,420#1000#6#6,421#1000#6#6","0,1440","779,1",,827#10000#4#4;828#10000#5#5;829#10000#6#6,"4,4,4"
-0,10,50003,1,"7,9",HomeSceneLoading.jpg, Thử thách trồng trọt cấp độ Nâng cao,,512,0,3,FarmingDungeon7-9,1,3,1,10000,"1,3","10000,20000,30000","123,122,121",1,"174,175,176",21;21;21,"193,194,195","512,1024,2048","0,0;0,0;0,0","750,980,1990","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.,193,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
-","614#1000#7#7,615#1000#7#7,616#1000#7#7;617#1000#8#8,618#1000#8#8,619#1000#8#8;620#1000#9#9,621#1000#9#9,622#1000#9#9","0,1440","780,1",,830#10000#7#7;831#10000#8#8;832#10000#9#9,"4,4,4"
+","413#1000#4#4,414#1000#4#4,415#1000#4#4;416#1000#5#5,417#1000#5#5,418#1000#5#5;419#1000#6#6,420#1000#6#6,421#1000#6#6","0,1440","779,1",,"827#10000#4#4,828#10000#5#5,829#10000#6#6","4,4,4"
+0,10,50003,1,"7,9",HomeSceneLoading.jpg,5, Thử thách trồng trọt cấp độ Nâng cao,,512,0,3,FarmingDungeon7-9,1,3,1,10000,"1,3","10000,20000,30000","123,122,121",1,"174,175,176",21;21;21,"193,194,195","512,1024,2048","0,0;0,0;0,0","750,980,1990","Farm Challenge Chapter 1/3,Farm Challenge Chapter 2/3,Farm Challenge Chapter 3/3",Những người tham gia thử thách và hoàn thành nhiệm vụ sẽ có cơ hội nhận phần thưởng huy chương.,193,"Khi bạn chết, có khả năng rơi ra các vật phẩm trong balo của bạn.
+","614#1000#7#7,615#1000#7#7,616#1000#7#7;617#1000#8#8,618#1000#8#8,619#1000#8#8;620#1000#9#9,621#1000#9#9,622#1000#9#9","0,1440","780,1",,"830#10000#7#7,831#10000#8#8,832#10000#9#9","4,4,4"
