@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -250,7 +250,8 @@ public enum eSkillId : int
     Capture = 166, //捕获
     CaptureShoot = 168, //捕获-> 射怪
     Sowing = 97,//播种
-    PutFood = 27//放饲料
+    PutFood = 27,//放饲料
+    BackOut = 573,//脱离
 }
 
 /// <summary>
