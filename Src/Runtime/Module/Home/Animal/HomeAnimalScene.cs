@@ -27,7 +27,7 @@ public class HomeAnimalScene : MonoBehaviour
     /// </summary>
     private readonly ListMap<ulong, AnimalBowlCore> _bowlListMap = new();
 
-    private void Awake()
+    private void Start()
     {
         GameObject homeSceneConfigGo = GameObject.FindWithTag(MTag.HOME_ANIMAL_SCENE_CONFIG);
         AnimalSceneConfig sceneConfig = homeSceneConfigGo == null ? null : homeSceneConfigGo.GetComponent<AnimalSceneConfig>();
