@@ -69,6 +69,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取maxDifficulty-int。*/
+    /// </summary>
+    public int MaxDifficulty
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取name-string。*/
     /// </summary>
     public string Name
@@ -321,18 +330,18 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取seedMaxLimit-int[]。*/
+  /**获取bossSeed-string[]。*/
     /// </summary>
-    public int[] SeedMaxLimit
+    public string[] BossSeed
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取uniqueSeed-int[]。*/
+  /**获取seedMaxLimit-int[]。*/
     /// </summary>
-    public int[] UniqueSeed
+    public int[] SeedMaxLimit
     {
         get;
         private set;
@@ -349,6 +358,7 @@ public class DRSceneArea : DataRowBase
         IsRanking = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Level = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         LoadingBg = DataTableParseUtil.ParseString(columnStrings[index++]);
+        MaxDifficulty = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         RefreshRatio = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ReputationRequaireScore = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -377,8 +387,8 @@ public class DRSceneArea : DataRowBase
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        BossSeed = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        UniqueSeed = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -396,6 +406,7 @@ public class DRSceneArea : DataRowBase
                 IsRanking = binaryReader.ReadBoolean();
                 Level = binaryReader.ReadArray<Int32>();
                 LoadingBg = binaryReader.ReadString();
+                MaxDifficulty = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 RefreshRatio = binaryReader.ReadArray<Int32>();
                 ReputationRequaireScore = binaryReader.Read7BitEncodedInt32();
@@ -424,8 +435,8 @@ public class DRSceneArea : DataRowBase
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
+                BossSeed = binaryReader.ReadArray<String>();
                 SeedMaxLimit = binaryReader.ReadArray<Int32>();
-                UniqueSeed = binaryReader.ReadArray<Int32>();
             }
         }
 

@@ -21,18 +21,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     public eAction SupportAction { get; private set; } = eAction.None;//采集物中暂时不能有复合动作 比如掉落概率不知道算哪个的
     public ResourceDataCore Data { get; private set; }
 
-    public int GetActionLevel(eAction action)
-    {
-        if ((action & SupportAction) != 0)
-        {
-            return Data.DRHomeResources.Lv;
-        }
-        else
-        {
-            Log.Error($"HomeResourcesCore.GetActionLevel() is not implemented action:{action}");
-            return 0;
-        }
-    }
+    public float Lv => RefEntity.EntityAttributeData.GetValue(eAttributeType.CollectionLv);
 
     private HomeSoilResourceRelation _addedSoilResourceRelation;//上次添加关系的组建 方式一个家园到另外家园瞬间的引用关系错误
 

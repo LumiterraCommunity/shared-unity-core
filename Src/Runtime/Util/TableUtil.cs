@@ -273,9 +273,20 @@ public static class TableUtil
                 break;
         }
 
+        return GetRandomPotentiality(valueRange);
+    }
+
+    /// <summary>
+    /// 获取随机潜力值
+    /// 返回的是int，代表千分位的浮点数
+    /// </summary>
+    /// <param name="valueRange"></param>
+    /// <returns></returns>
+    public static int GetRandomPotentiality(int[] valueRange)
+    {
         if (valueRange == null || valueRange.Length != 2)
         {
-            Log.Error($"GetMonsterRandomPotentialValue valueRange error valueRange = {valueRange}");
+            Log.Error($"GetRandomPotentiality valueRange error valueRange = {valueRange}");
             return 0;
         }
 
@@ -306,6 +317,39 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 用配置表中的初始化属性来设置属性组件 需要提供lv和潜力值计算出来
+    /// </summary>
+    /// <param name="attributeCpt"></param>
+    /// <param name="attr"></param>
+    /// <param name="lv"></param>
+    /// <param name="potentiality"></param>
+    public static void SetTableInitAttribute(AttributeDataCpt attributeCpt, int[][] attr, int lv, float potentiality)
+    {
+        if (attributeCpt == null)
+        {
+            Log.Error($"SetTableInitAttribute attributeCpt is null");
+            return;
+        }
+
+        //遍历属性数组
+        ForeachAttribute(attr, (type, baseValue, affectByPotential) =>
+        {
+            int finalValue;
+            if (affectByPotential)//判断是否受潜力值影响
+            {
+                finalValue = AttributeUtilCore.GetValueByPotentiality(baseValue, potentiality, lv);
+            }
+            else
+            {
+                finalValue = baseValue;
+            }
+
+            attributeCpt.SetBaseValue(type, finalValue);
+            return false;
+        });
+    }
+
+    /// <summary>
     /// 遍历属性数组
     /// </summary>
     /// <param name="attr">属性二维数组</param>
@@ -325,19 +369,49 @@ public static class TableUtil
 
         foreach (int[] item in attr)
         {
-            if (item.Length != 3)
+            if (!ParseAttribute(item, out eAttributeType type, out int value, out bool affectByPotential))
             {
-                Log.Error($"ForeachAttribute item.Length != 3");
                 continue;
             }
-            eAttributeType type = (eAttributeType)item[0];
-            int value = item[1];
-            bool affectByPotential = item[2] > 0;
-            if (cb.Invoke(type, value, affectByPotential))
+
+            try
             {
-                break;
+                if (cb.Invoke(type, value, affectByPotential))
+                {
+                    break;
+                }
+            }
+            catch (Exception e)
+            {
+                Log.Error($"ForeachAttribute invoke error e = {e}");
+                continue;
             }
         }
+    }
+
+    /// <summary>
+    /// 解析属性数组 eg: [1,100,1] 返回是否解析成功
+    /// </summary>
+    /// <param name="att"></param>
+    /// <param name="type"></param>
+    /// <param name="value"></param>
+    /// <param name="affectByPotential">是否受潜力值影响</param>
+    public static bool ParseAttribute(int[] att, out eAttributeType type, out int value, out bool affectByPotential)
+    {
+        type = eAttributeType.Unknown;
+        value = 0;
+        affectByPotential = false;
+
+        if (att.Length != 3)
+        {
+            Log.Error($"TryParseAttribute error item.Length != 3");
+            return false;
+        }
+
+        type = (eAttributeType)att[0];
+        value = att[1];
+        affectByPotential = att[2] > 0;
+        return true;
     }
 
     /// <summary>
@@ -346,9 +420,31 @@ public static class TableUtil
     /// <param name="cid"></param>
     /// <typeparam name="T">哪个表</typeparam>
     /// <returns></returns>
-    public static T GetConfig<T>(int cid) where T : IDataRow
+    public static T GetConfig<T>(int cid) where T : class, IDataRow
     {
         return GFEntryCore.DataTable.GetDataTable<T>().GetDataRow(cid);
+    }
+
+    /// <summary>
+    /// 尝试获取一个配置具体项
+    /// </summary>
+    /// <typeparam name="T">哪个表</typeparam>
+    /// <param name="cid"></param>
+    /// <param name="dr"></param>
+    /// <returns></returns>
+    public static bool TryGetConfig<T>(int cid, out T dr) where T : class, IDataRow
+    {
+        try
+        {
+            dr = GetConfig<T>(cid);
+            return dr != null;
+        }
+        catch (Exception e)
+        {
+            Log.Error($"TryGetConfig exception,type:{typeof(T).Name},cid:{cid} e = {e}");
+            dr = null;
+            return false;
+        }
     }
 
     /// <summary>

@@ -8,6 +8,10 @@ public interface ICollectResourceCore
 {
     public ulong Id { get; }
     /// <summary>
+    /// 等级 只是作为防御方的天然等级 向宠物等攻击时会自行判断能力等级 不走这里
+    /// </summary>
+    public float Lv { get; }
+    /// <summary>
     /// 资源类型 分为土地作物 矿石等
     /// </summary>
     /// <value></value>
@@ -60,10 +64,4 @@ public interface ICollectResourceCore
     /// <param name="isCrit">是否暴击</param>
     /// <param name="isPreEffect">是否是预表现效果</param>
     void ExecuteProgress(eAction targetCurAction, long triggerEntityId, int skillId, int deltaProgress, bool isCrit, bool isPreEffect);
-    /// <summary>
-    /// 获取对应家园动作的等级 其实是专精等级的概念 错误返回0
-    /// </summary>
-    /// <param name="action">具体单一动作</param>
-    /// <returns></returns>
-    int GetActionLevel(eAction action);
 }

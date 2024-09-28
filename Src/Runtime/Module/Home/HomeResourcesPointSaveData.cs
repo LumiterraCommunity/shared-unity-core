@@ -18,4 +18,8 @@ public class HomeResourcesPointSaveData
     /// 位置
     /// </summary>
     public SerializableVector3 Pos;
+    /// <summary>
+    /// 等级
+    /// </summary>
+    public int Level;
 }

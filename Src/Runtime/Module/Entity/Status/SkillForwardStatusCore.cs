@@ -102,6 +102,7 @@ public abstract class SkillForwardStatusCore : ListenEventStatusCore, IEntityCan
             try
             {
                 StatusCtrl.RefEntity.EntityEvent.OnSkillStatusEnd?.Invoke(CurSkillCfg, true);
+                AbolishSkillForwardEffect(CurSkillCfg, StatusCtrl.RefEntity);
             }
             catch (System.Exception e)
             {
@@ -186,6 +187,16 @@ public abstract class SkillForwardStatusCore : ListenEventStatusCore, IEntityCan
         _ = SkillUtil.EntitySkillEffectExecute(InputSkillData, SkillUtil.GetSkillEffect(entity, drSkill, eSkillEffectApplyType.Forward), entity, entity);
     }
 
+
+    /// <summary>
+    /// 取消技能前摇效果
+    /// </summary>
+    /// <param name="drSkill"></param>
+    /// <param name="entity"></param>
+    protected void AbolishSkillForwardEffect(DRSkill drSkill, EntityBase entity)
+    {
+        SkillUtil.EntityAbolishSkillEffect(SkillID, SkillUtil.GetSkillEffect(entity, drSkill, eSkillEffectApplyType.Forward), entity, entity);
+    }
     public bool CheckCanMove()
     {
         return _inputData && CurSkillCfg.AccuBreakable;//能打断 时有移动输入时切换移动
