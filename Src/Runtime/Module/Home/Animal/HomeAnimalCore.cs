@@ -37,7 +37,10 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     protected GameObject DropEntity { get; private set; }
 
-    private EntityAvatarDataCore _avatarDataCore;//角色穿着数据 可以拿到能力等级
+    /// <summary>
+    /// 角色穿着数据 可以拿到能力等级
+    /// </summary>
+    private EntityAvatarDataCore _avatarDataCore;
 
     public float Lv
     {
@@ -77,6 +80,8 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
 
     protected virtual void Start()
     {
+        _avatarDataCore = gameObject.GetComponent<EntityAvatarDataCore>();
+
         RefEntity.EntityEvent.InputSkillRelease += OnInputSkillRelease;
 
         if (PetData.PetCfg != null)
