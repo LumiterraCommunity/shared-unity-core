@@ -37,16 +37,21 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// </summary>
     protected GameObject DropEntity { get; private set; }
 
+    private EntityAvatarDataCore _avatarDataCore;//角色穿着数据 可以拿到能力等级
+
     public float Lv
     {
         get
         {
-            if (RefEntity.TryGetComponent(out EntityAvatarDataCore entityAvatarDataCore))
+            if (_avatarDataCore == null)
             {
-                return entityAvatarDataCore.GetCurAbilityLevel();
+                if (!RefEntity.TryGetComponent(out _avatarDataCore))
+                {
+                    Log.Error($"home animal not find entity avatar data,id:{RefEntity.BaseData.Id}");
+                }
             }
-            Log.Error($"home animal not find entity avatar data,id:{RefEntity.BaseData.Id}");
-            return 0;
+
+            return _avatarDataCore != null ? _avatarDataCore.GetCurAbilityLevel() : 99;//给个较大等级 放置异常被刷
         }
     }
 
