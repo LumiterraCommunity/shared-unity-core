@@ -55,7 +55,7 @@ public class SEAddEntityCore : SkillEffectBase
             resourcesPointData.UpdateNum = EffectCfg.Parameters2[i][3];
             resourcesPointData.Radius = EffectCfg.Parameters2[i][4];
 
-            resourcesPointData.LevelRange = new int[2];
+            resourcesPointData.LevelRange = new float[2];
             resourcesPointData.LevelRange[0] = EffectCfg.Parameters2[i][5];
             resourcesPointData.LevelRange[1] = EffectCfg.Parameters2[i][6];
 

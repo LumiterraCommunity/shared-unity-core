@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-06-27 14:13:48
  * @Description: 资源点数据组件
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/ServerConfig/Cpt/ResourcesPointDataNodeCpt.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/ServerConfig/Cpt/ResourcesPointDataNodeCpt.cs
  * 
  */
 using UnityEngine;
@@ -72,7 +72,7 @@ public class ResourcesPointDataNodeCpt : MonoBehaviour, IServerDataNodeCpt
         };
         if (!string.IsNullOrEmpty(_levelRange))
         {
-            data.LevelRange = DataTableParseUtil.ParseArray<int>(_levelRange);
+            data.LevelRange = DataTableParseUtil.ParseArray<float>(_levelRange);
         }
         return data;
     }
