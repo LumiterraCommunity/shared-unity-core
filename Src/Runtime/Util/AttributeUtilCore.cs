@@ -14,7 +14,7 @@ public static class AttributeUtilCore
     /// <param name="potential"></param>
     /// <param name="lv"></param>
     /// <returns></returns>
-    public static int GetValueByPotentiality(int baseValue, float potential, int lv)
+    public static int GetValueByPotentiality(int baseValue, float potential, float lv)
     {
         return baseValue + (int)(baseValue * potential * System.Math.Max(lv - 1, 0));
     }
