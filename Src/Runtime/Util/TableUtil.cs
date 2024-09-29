@@ -735,6 +735,12 @@ public static class TableUtil
     /// <returns></returns>
     public static int EnhanceLv2EnhanceStage(int lv)
     {
+        if (lv < 0)
+        {
+            Log.Error($"Invalid enhance lv:{lv}");
+            return 0;
+        }
+
         return lv / TableDefine.EQUIPMENT_ENHANCE_STAGE_BASE;
     }
 }
