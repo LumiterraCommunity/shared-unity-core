@@ -368,6 +368,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ",,Investment Successful
 ,20240003,,Withdrawal Successful
 ,20240004,,"Calculating, please wait"
+,20240005,图腾,{0}/{1} min
 ,20250000,仓库,Please renew the storage lease before storing.
 ,20250001,仓库,Please renew the lease of the storage before taking it out.
 ,20250002,,The storage is full.
@@ -398,3 +399,18 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300006,声望,Additional points.
 ,20300007,声望,Daily decay of {0} points.
 ,20310000,技能,Can't release this skill for current weapon.
+,20320000,世界图腾,Too close to other totems
+,20320001,世界图腾,The current terrain cannot place totems
+,20320002,世界图腾,{0}'s totem
+,20320003,世界图腾,"Totem is placed, please proceed to charge"
+,20320004,世界图腾,Please claim the mining income first
+,20320005,世界图腾,Cannot place totems in this area
+,20320006,世界图腾,Cannot place totems in this scene
+,20330000,装备强化,Insufficient protective stone.
+,20330001,,"Equipment is being enhanced, please wait."
+,20330002,,Please select the inheritance target first.
+,20330003,,No equipment to inherit.
+,20330004,,No inheritable equipment selected.
+,20330005,,This equipment cannot be inherited.
+,20330006,,congratulations {0} for enhancing {1} to {2}.
+,20330007,,The results of the lottery will be notified to you later.
