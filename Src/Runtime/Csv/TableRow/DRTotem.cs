@@ -42,18 +42,18 @@ public class DRTotem : DataRowBase
     }
 
     /// <summary>
-  /**获取totemEntity-string。*/
+  /**获取quality-int。*/
     /// </summary>
-    public string TotemEntity
+    public int Quality
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取tpFee-int。*/
+  /**获取totemEntity-string。*/
     /// </summary>
-    public int TpFee
+    public string TotemEntity
     {
         get;
         private set;
@@ -67,8 +67,8 @@ public class DRTotem : DataRowBase
         DefaultEnhanceFee = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         EnhanceSucPro = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
+        Quality = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TotemEntity = DataTableParseUtil.ParseString(columnStrings[index++]);
-        TpFee = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -83,8 +83,8 @@ public class DRTotem : DataRowBase
                 DefaultEnhanceFee = binaryReader.ReadArrayList<Int32>();
                 EnhanceSucPro = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
+                Quality = binaryReader.Read7BitEncodedInt32();
                 TotemEntity = binaryReader.ReadString();
-                TpFee = binaryReader.Read7BitEncodedInt32();
             }
         }
 
