@@ -36,6 +36,7 @@ public enum eSceneArea : int
     FarmingDungeon1_3 = 50001,  //农牧副本
     FarmingDungeon4_6 = 50002,  //农牧副本
     FarmingDungeon7_9 = 50003,  //农牧副本
+    TowerDungeon_Combat = 24001,  //农牧副本
 }
 
 /// <summary>
