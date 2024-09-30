@@ -97,7 +97,7 @@ public class PlayerRoleDataCore : EntityBaseComponent
     {
         if (isRealValue)
         {
-            RefEntity.EntityAttributeData.SetRealBaseValue(eAttributeType.Energy, energy);
+            RefEntity.EntityAttributeData.SetBaseValueFromReal(eAttributeType.Energy, energy);
         }
         else
         {
@@ -114,7 +114,7 @@ public class PlayerRoleDataCore : EntityBaseComponent
     {
         if (isRealValue)
         {
-            RefEntity.EntityAttributeData.SetRealBaseValue(eAttributeType.MaxEnergy, maxEnergy);
+            RefEntity.EntityAttributeData.SetBaseValueFromReal(eAttributeType.MaxEnergy, maxEnergy);
         }
         else
         {

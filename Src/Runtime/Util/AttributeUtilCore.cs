@@ -40,4 +40,20 @@ public static class AttributeUtilCore
 
         return value;
     }
+
+    /// <summary>
+    /// 获取实体的完整等级 由整数部分（需要参数指定类型）和小数部分两个属性拼接而成
+    /// </summary>
+    /// <param name="attributeDataCpt"></param>
+    /// <param name="lvType">整数部分的lv类型 每个专精都有独自的</param>
+    /// <returns></returns>
+    public static float GetEntityCompleteLv(AttributeDataCpt attributeDataCpt, eAttributeType lvType)
+    {
+        if (attributeDataCpt == null)
+        {
+            return 99;//异常给较大等级 防止有漏洞
+        }
+
+        return attributeDataCpt.GetRealValue(lvType) + attributeDataCpt.GetRealValue(eAttributeType.ExtThousLv);
+    }
 }
