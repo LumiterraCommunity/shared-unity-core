@@ -88,10 +88,12 @@ public class SoilData : MonoBehaviour
 
         AttributeData = gameObject.AddComponent<SoilAttributeData>();
         AttributeData.SetBaseValue(eAttributeType.FarmingLv, SaveData.SeedData.Lv);
+        AttributeData.SetBaseValue(eAttributeType.ExtThousLv, SaveData.SeedData.ExtThousLv);
         AttributeData.SetBaseValue(eAttributeType.FarmPotentiality, SaveData.SeedData.Potentiality);
 
         float potentiality = AttributeData.GetRealValue(eAttributeType.FarmPotentiality);
-        TableUtil.SetTableInitAttribute(AttributeData, DRSeed.InitialAttribute, SaveData.SeedData.Lv, potentiality);
+        float lv = AttributeUtilCore.GetEntityCompleteLv(AttributeData, eAttributeType.FarmingLv);
+        TableUtil.SetTableInitAttribute(AttributeData, DRSeed.InitialAttribute, lv, potentiality);
     }
 
     /// <summary>
@@ -145,7 +147,7 @@ public class SoilData : MonoBehaviour
     /// <param name="seedEntityId">种子实体id 一般是0 只有特殊种子 还是播种就由数据服分配了id的才有值</param>
     /// <param name="seedLv">种子等级</param>
     /// <param name="seedPotentiality">种子潜力</param>
-    internal void PutSeed(int seedCid, string seedNftId, long seedEntityId, int seedLv, int seedPotentiality)
+    internal void PutSeed(int seedCid, string seedNftId, long seedEntityId, float seedLv, float seedPotentiality)
     {
         if (SaveData.SeedData.SeedCid > 0)
         {
@@ -156,8 +158,12 @@ public class SoilData : MonoBehaviour
         SaveData.SeedData.SeedCid = seedCid;
         SaveData.SeedData.SeedNftId = seedNftId;
         SaveData.SeedData.SeedEntityId = seedEntityId;
-        SaveData.SeedData.Lv = seedLv;
-        SaveData.SeedData.Potentiality = seedPotentiality;
+
+        float integerLv = Mathf.Floor(seedLv);
+        SaveData.SeedData.Lv = TableUtil.AttributeRealValueConvertToTable(integerLv, eAttributeType.FarmingLv);
+        SaveData.SeedData.ExtThousLv = TableUtil.AttributeRealValueConvertToTable(seedLv - integerLv, eAttributeType.ExtThousLv);
+
+        SaveData.SeedData.Potentiality = TableUtil.AttributeRealValueConvertToTable(seedPotentiality, eAttributeType.FarmPotentiality);
 
         DRSeed = GFEntryCore.DataTable.GetDataTable<DRSeed>().GetDataRow(seedCid);
         if (DRSeed == null)

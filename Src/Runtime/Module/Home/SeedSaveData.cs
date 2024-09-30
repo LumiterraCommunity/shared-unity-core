@@ -40,11 +40,15 @@ public class SeedSaveData
     /// </summary>
     public long SeedEntityId;
     /// <summary>
-    /// 种子当前等级
+    /// 种子等级的整数位等级 配置表单位整数位
     /// </summary>
     public int Lv;
     /// <summary>
-    /// 当前潜力值 配置表中单位 目前千分位
+    /// 种子等级的小数位扩展等级 配置表单位整数位千分位
+    /// </summary>
+    public int ExtThousLv;
+    /// <summary>
+    /// 当前潜力值 配置表单位整数位千分位
     /// </summary>
     public int Potentiality;
 
@@ -72,6 +76,7 @@ public class SeedSaveData
         SeedNftId = data.SeedNftId;
         SeedEntityId = data.SeedEntityId;
         Lv = data.Lv;
+        ExtThousLv = data.ExtThousLv;
         Potentiality = data.Potentiality;
     }
 
@@ -88,6 +93,7 @@ public class SeedSaveData
             SeedNftId = SeedNftId ?? string.Empty,
             SeedEntityId = SeedEntityId,
             Lv = Lv,
+            ExtThousLv = ExtThousLv,
             Potentiality = Potentiality
         };
     }
