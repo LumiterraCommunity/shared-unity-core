@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using GameMessageCore;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -298,5 +299,31 @@ public class EntityMgr<TEntity, TFactory> : SceneModuleBase, IEntityMgr where TE
         {
             _ = dic.Remove(id);
         }
+    }
+
+    int IEntityMgr.ForeachTypeEntity(EntityType entityType, Func<EntityBase, bool> elementCB)
+    {
+        Dictionary<long, TEntity> dic = GetAllEntityOfType(entityType);
+
+        if (elementCB != null)
+        {
+            foreach (KeyValuePair<long, TEntity> item in dic)
+            {
+                try
+                {
+                    if (elementCB.Invoke(item.Value))
+                    {
+                        break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.Error($"ForeachTypeEntity error,type:{entityType} e={e}");
+                    continue;
+                }
+            }
+        }
+
+        return dic.Count;
     }
 }

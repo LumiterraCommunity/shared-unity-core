@@ -14,6 +14,10 @@ public static class TableDefine
     /// </summary>
     public static readonly float THOUSANDTH_2_FLOAT = 1 / 1000f;
     /// <summary>
+    /// 配置中的万分位配置变小数
+    /// </summary>
+    public static readonly float TEN_THOUSANDTH_2_FLOAT = 1 / 10000f;
+    /// <summary>
     /// 配置中的百分位配置变小数
     /// </summary>
     public static readonly float PERCENTAGE_2_FLOAT = 1 / 100f;
@@ -37,6 +41,7 @@ public static class TableDefine
     public const int TALENT_TASK_SCORE_ITEM_ID = 774; // 任务积分道具ID
     public const int LUA_G_ITEM_ID = 765; // LuaG道具ID
     public const int ENERGY_ITEM_CD_GROUP = 8; // 精力道具CD组
+    public const int EQUIPMENT_ENHANCE_STAGE_BASE = 10; // 装备强化阶段基数
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
@@ -111,6 +116,17 @@ public enum eGameValueID
     ReputationDecayOfLeaderboard = 105,//排行声望每日衰减
     ReputationDecayOfPassingDungeon = 106,//副本声望每日衰减
     CaptureExcludeItemIds = 114, //不用用于捕获的道具列表
+    WorldTotemIntervalDistance = 118, //世界图腾间隔距离 cm
+    WorldTotemDensityRange = 119, //世界图腾密度范围 cm
+    WorldTotemEnergy = 120, //世界图腾精力
+    WorldTotemEnergyCostValue = 121, //世界图腾精力扣除时间和数值
+    WorldTotemEnergyCostBase = 122, //世界图腾精力扣除速度基数 千分位
+    WorldTotemTransferCost = 123, //世界图腾传送费用
+    EnhancementCostDistributionDetail = 124, //强化消耗分配明细
+    WorldTotemMiningType = 125, //世界图腾采矿类型
+    EnhanceLvToAbilityLv = 126, //强化等级对应的能力等级系数 千分位
+    WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
+    WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
 }
 
 // public static class GameValueID
@@ -158,6 +174,7 @@ public enum ePropItemType
     Material = 4,
     Building = 5,
     TaskTicket = 7,
+    Totem = 8,//图腾
 }
 
 /// <summary>
@@ -252,6 +269,7 @@ public enum eSkillId : int
     Sowing = 97,//播种
     PutFood = 27,//放饲料
     BackOut = 573,//脱离
+    TotemTp = 585,//图腾传送技能
 }
 
 /// <summary>

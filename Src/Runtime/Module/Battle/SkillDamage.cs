@@ -231,4 +231,17 @@ public class SkillDamage
         };
         return effect;
     }
+
+    /// <summary>
+    /// 计算某件装备的能力等级 返回小数用于精确计算
+    /// </summary>
+    /// <param name="baseLv">基础的配置装备等级</param>
+    /// <param name="enhanceLevel">强化等级</param>
+    /// <returns></returns>
+    public static float CalculateEquipmentAbilityLv(int baseLv, int enhanceLevel)
+    {
+        float abLv = baseLv;
+        abLv += TableUtil.GetGameValueInt(eGameValueID.EnhanceLvToAbilityLv, 100) * TableDefine.THOUSANDTH_2_FLOAT * enhanceLevel;
+        return abLv;
+    }
 }
