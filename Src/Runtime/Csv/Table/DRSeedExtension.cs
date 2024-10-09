@@ -15,7 +15,7 @@ public static class DRSeedExtension
     /// 获取表中对应的RequiredFertilizer属性值 已经完成了解析 没配置会返回0
     /// <param name="extraLv">额外等级 一般是关卡等级</param>
     /// </summary>
-    public static int GetRequiredFertilizer(this DRSeed drSeed, int extraLv)
+    public static int GetRequiredFertilizer(this DRSeed drSeed, float extraLv)
     {
         s_requiredFertilizerMap ??= new Dictionary<int, int>();
 
@@ -60,7 +60,7 @@ public static class DRSeedExtension
             //计算潜力值
             int potentialityBaseValue = drSeed.FarmPotentiality[0];
             float potentialityRealValue = potentialityBaseValue * TableUtil.GetAttributeCoefficient(eAttributeType.FarmPotentiality);
-            int lv = drSeed.Lv + extraLv;
+            float lv = (TableDefine.THOUSANDTH_2_FLOAT * drSeed.Lv) + extraLv;//配置表中是千分位种子等级
 
             //根据等级、潜力值、基础属性计算出对应等级的最终属性base值
             if (fertilizerAffectByPotential)//判断是否受潜力值影响
