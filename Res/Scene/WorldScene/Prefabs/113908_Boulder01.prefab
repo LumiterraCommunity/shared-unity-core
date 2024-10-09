@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4008067403893774588
+--- !u!1 &4940387617001636871
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8873363839837036042}
-  - component: {fileID: 9168462008531427965}
-  - component: {fileID: 2089248888294749520}
+  - component: {fileID: 8097986707766189514}
+  - component: {fileID: 4776902732987100363}
+  - component: {fileID: 33476691216396374}
   m_Layer: 0
   m_Name: 113908_Boulder01
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &8873363839837036042
+--- !u!4 &8097986707766189514
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008067403893774588}
+  m_GameObject: {fileID: 4940387617001636871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
@@ -33,13 +33,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &9168462008531427965
+--- !u!64 &4776902732987100363
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008067403893774588}
+  m_GameObject: {fileID: 4940387617001636871}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
@@ -47,13 +47,13 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9f63280c107747c4992fff3d09b539f8, type: 2}
---- !u!136 &2089248888294749520
+--- !u!136 &33476691216396374
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008067403893774588}
+  m_GameObject: {fileID: 4940387617001636871}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
