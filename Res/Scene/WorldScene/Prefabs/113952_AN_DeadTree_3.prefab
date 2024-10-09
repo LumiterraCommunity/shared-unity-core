@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &297893611921578644
+--- !u!1 &3734819738879109704
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5238638988936035310}
-  - component: {fileID: 4367001913436421415}
+  - component: {fileID: 8295159987510677884}
+  - component: {fileID: 877944960480820845}
   m_Layer: 0
   m_Name: 113952_AN_DeadTree_3
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 20
   m_IsActive: 1
---- !u!4 &5238638988936035310
+--- !u!4 &8295159987510677884
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297893611921578644}
+  m_GameObject: {fileID: 3734819738879109704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &4367001913436421415
+--- !u!136 &877944960480820845
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297893611921578644}
+  m_GameObject: {fileID: 3734819738879109704}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
