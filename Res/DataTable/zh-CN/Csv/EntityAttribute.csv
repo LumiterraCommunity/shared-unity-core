@@ -74,3 +74,4 @@ defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,ty
 0,宠物需求养殖熟练度,77,0,RequiredBreedingProficiency,1,1,1,
 0,护盾,80,0,WhiteHP,2,2,1,
 0,最大护盾,81,0,MaxWhiteHP,2,2,1,
+0,扩展浮点等级,85,0,ExtThousLv,0,,3,
