@@ -298,6 +298,7 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 
 Killing specified monsters, collecting items, or harvesting crops will grant extra drop rewards.
 There is a fixed global maximum limit on the total number of times this event can be triggered."
+,20160018,,Difficulty
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -406,11 +407,14 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320004,世界图腾,Please claim the mining income first
 ,20320005,世界图腾,Cannot place totems in this area
 ,20320006,世界图腾,Cannot place totems in this scene
+,20320007,世界图腾,Totem energy is insufficient.
+,20320008,世界图腾,The totem is not activated.
 ,20330000,装备强化,Insufficient protective stone.
-,20330001,,"Equipment is being enhanced, please wait."
-,20330002,,Please select the inheritance target first.
-,20330003,,No equipment to inherit.
-,20330004,,No inheritable equipment selected.
-,20330005,,This equipment cannot be inherited.
-,20330006,,congratulations {0} for enhancing {1} to {2}.
-,20330007,,The results of the lottery will be notified to you later.
+,20330001,装备强化,"Equipment is being enhanced, please wait."
+,20330002,装备强化,Please select the inheritance target first.
+,20330003,装备强化,No equipment to inherit.
+,20330004,装备强化,No inheritable equipment selected.
+,20330005,装备强化,This equipment cannot be inherited.
+,20330006,装备强化,congratulations {0} for enhancing {1} to {2}.
+,20330007,装备强化,The results of the lottery will be notified to you later.
+,20330008,装备强化,congratulations {0} for enhancing {1} to {2}
