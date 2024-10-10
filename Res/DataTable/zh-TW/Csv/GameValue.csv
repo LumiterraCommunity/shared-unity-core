@@ -110,3 +110,8 @@ id-int,note-string,strValue-string,strValueArray-string[],valueArray2-int[][],va
 127,最小额充值能量石,,,,98,
 128,Npc附近多少距离不能放置世界图腾(cm),,,,300,
 129,Lumi Fragment 兑换base值,,,,90,
+130,Mystery每人每日兑换上限,,,,1,
+131,全服每日兑换总上限,,,,50,
+132,Mystery损耗消耗间隔时长(min),,,,1440,
+133,Mystery基础损耗和百分比加成(千分比),,,"10,20,30,40",0,
+134,"Mystery宏观收益率调控值(根据Base值计算,千分比)",,,,1000,
