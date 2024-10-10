@@ -80,6 +80,7 @@ public enum eAttributeType : int
     RequiredBreedingProficiency = 77,
     WhiteHP = 80,
     MaxWhiteHP = 81,
+    ExtThousLv = 85,
 
 }
 
