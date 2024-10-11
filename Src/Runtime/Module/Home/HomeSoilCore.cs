@@ -39,7 +39,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
             if (SoilData.AttributeData == null)
             {
                 Log.Error($"HomeSoilCore get lv error,not seed attribute,id:{Id},seed cid:{SoilData.SaveData.SeedData.SeedCid}");
-                return 99;//大点作为保护 不要被漏洞
+                return EntityDefineCore.PROTECT_LEVEL;
             }
 
             return AttributeUtilCore.GetEntityCompleteLv(SoilData.AttributeData, eAttributeType.FarmingLv);

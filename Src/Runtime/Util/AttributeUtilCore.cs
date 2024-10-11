@@ -51,7 +51,7 @@ public static class AttributeUtilCore
     {
         if (attributeDataCpt == null)
         {
-            return 99;//异常给较大等级 防止有漏洞
+            return EntityDefineCore.PROTECT_LEVEL;
         }
 
         return attributeDataCpt.GetRealValue(lvType) + attributeDataCpt.GetRealValue(eAttributeType.ExtThousLv);
