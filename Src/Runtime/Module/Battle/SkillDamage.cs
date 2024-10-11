@@ -185,7 +185,7 @@ public class SkillDamage
             return 0;
         }
 
-        float res = Mathf.Pow(atk, 2) / (atk + def) * Mathf.Pow(2, (levelAtk - levelDef) / 2);
+        float res = Mathf.Pow(atk, 2) / (atk + def) * Mathf.Pow(2, EntityUtilCore.ProtectEntityLvOffset(levelAtk, levelDef) / 2);
         if (res < 0)
         {
             Log.Error($"Calculate Base Damage error, res:{res} atk:{atk} def:{def} levelAtk:{levelAtk} levelDef:{levelDef}");

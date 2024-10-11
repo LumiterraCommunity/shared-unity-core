@@ -1,4 +1,5 @@
 using GameMessageCore;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
 
@@ -90,5 +91,15 @@ public static class EntityUtilCore
             return false;
         }
         return true;
+    }
+
+    /// <summary>
+    /// 保护实体等级差值在-9到9的安全值之间 计算方法是a-b 符号不变
+    /// </summary>
+    /// <returns></returns>
+    public static float ProtectEntityLvOffset(float a, float b)
+    {
+        float offset = a - b;
+        return Mathf.Sign(offset) * Mathf.Min(Mathf.Abs(offset), 9);
     }
 }
