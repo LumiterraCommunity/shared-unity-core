@@ -54,7 +54,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
                 }
             }
 
-            return _avatarDataCore != null ? _avatarDataCore.GetCurAbilityLevel() : 99;//给个较大等级 放置异常被刷
+            return _avatarDataCore != null ? _avatarDataCore.GetCurAbilityLevel() : EntityDefineCore.PROTECT_LEVEL;
         }
     }
 

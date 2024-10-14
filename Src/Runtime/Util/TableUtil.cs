@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityGameFramework.Runtime;
 using GameFramework.DataTable;
+using UnityEngine;
 /// <summary>
 /// 通用配置表工具类
 /// </summary>
@@ -208,7 +209,7 @@ public static class TableUtil
     public static int AttributeRealValueConvertToTable(float realValue, eAttributeType type)
     {
         float coefficient = GetAttributeCoefficient(type);
-        return (int)(realValue / coefficient);
+        return Mathf.RoundToInt(realValue / coefficient);
     }
 
     /// <summary>
@@ -351,7 +352,7 @@ public static class TableUtil
     /// <param name="attr"></param>
     /// <param name="lv"></param>
     /// <param name="potentiality"></param>
-    public static void SetTableInitAttribute(AttributeDataCpt attributeCpt, int[][] attr, int lv, float potentiality)
+    public static void SetTableInitAttribute(AttributeDataCpt attributeCpt, int[][] attr, float lv, float potentiality)
     {
         if (attributeCpt == null)
         {

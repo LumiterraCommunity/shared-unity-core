@@ -21,5 +21,5 @@ public class HomeResourcesPointSaveData
     /// <summary>
     /// 等级
     /// </summary>
-    public int Level;
+    public float Level;
 }

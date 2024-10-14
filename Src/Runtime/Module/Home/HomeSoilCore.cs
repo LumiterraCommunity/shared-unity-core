@@ -36,13 +36,13 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     {
         get
         {
-            if (SoilData.SaveData.SeedData.SeedCid <= 0)
+            if (SoilData.AttributeData == null)
             {
-                Log.Error($"HomeSoilCore get lv error,not seed,id:{Id}");
-                return 0;
+                Log.Error($"HomeSoilCore get lv error,not seed attribute,id:{Id},seed cid:{SoilData.SaveData.SeedData.SeedCid}");
+                return EntityDefineCore.PROTECT_LEVEL;
             }
 
-            return SoilData.GetAttribute(eAttributeType.FarmingLv);
+            return AttributeUtilCore.GetEntityCompleteLv(SoilData.AttributeData, eAttributeType.FarmingLv);
         }
     }
 

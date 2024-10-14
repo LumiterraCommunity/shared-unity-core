@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2022-09-13 17:26:26
  * @Description: 战斗数据
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Entity/EntityBattleDataCore.cs
  * 
  */
 using System;
@@ -75,7 +75,7 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// <summary>
     /// 等级,这里取的是战斗专精等级
     /// </summary>
-    public int Level { get => GetValue(eAttributeType.CombatLv); protected set => SetBaseValue(eAttributeType.CombatLv, value); }
+    public float Level { get => GetLevelValue(); protected set => SetLevelValue(value); }
     public Dictionary<eAttributeType, IntAttribute> AttributeMap { get; private set; } = new(); //优化获取属性性能
     /// <summary>
     /// 经验
@@ -243,6 +243,16 @@ public class EntityBattleDataCore : EntityBaseComponent
         }
     }
 
+    protected void SetLevelValue(float value)
+    {
+        SetBaseValue(eAttributeType.CombatLv, (int)value);
+        SetBaseValue(eAttributeType.ExtThousLv, (int)((value - (int)value) * MathUtilCore.T2I));
+    }
+
+    protected float GetLevelValue()
+    {
+        return GetRealValue(eAttributeType.CombatLv) + GetRealValue(eAttributeType.ExtThousLv);
+    }
     protected int GetValue(eAttributeType type)
     {
         return GetAttribute(type).Value;

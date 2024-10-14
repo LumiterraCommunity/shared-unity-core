@@ -14,7 +14,7 @@ public static class AttributeUtilCore
     /// <param name="potential"></param>
     /// <param name="lv"></param>
     /// <returns></returns>
-    public static int GetValueByPotentiality(int baseValue, float potential, int lv)
+    public static int GetValueByPotentiality(int baseValue, float potential, float lv)
     {
         return baseValue + (int)(baseValue * potential * System.Math.Max(lv - 1, 0));
     }
@@ -39,5 +39,21 @@ public static class AttributeUtilCore
         }
 
         return value;
+    }
+
+    /// <summary>
+    /// 获取实体的完整等级 由整数部分（需要参数指定类型）和小数部分两个属性拼接而成
+    /// </summary>
+    /// <param name="attributeDataCpt"></param>
+    /// <param name="lvType">整数部分的lv类型 每个专精都有独自的</param>
+    /// <returns></returns>
+    public static float GetEntityCompleteLv(AttributeDataCpt attributeDataCpt, eAttributeType lvType)
+    {
+        if (attributeDataCpt == null)
+        {
+            return EntityDefineCore.PROTECT_LEVEL;
+        }
+
+        return attributeDataCpt.GetRealValue(lvType) + attributeDataCpt.GetRealValue(eAttributeType.ExtThousLv);
     }
 }

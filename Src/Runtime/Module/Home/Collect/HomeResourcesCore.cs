@@ -21,7 +21,7 @@ public abstract class HomeResourcesCore : EntityBaseComponent, ICollectResourceC
     public eAction SupportAction { get; private set; } = eAction.None;//采集物中暂时不能有复合动作 比如掉落概率不知道算哪个的
     public ResourceDataCore Data { get; private set; }
 
-    public float Lv => RefEntity.EntityAttributeData.GetValue(eAttributeType.CollectionLv);
+    public float Lv => AttributeUtilCore.GetEntityCompleteLv(RefEntity.EntityAttributeData, eAttributeType.CollectionLv);
 
     private HomeSoilResourceRelation _addedSoilResourceRelation;//上次添加关系的组建 方式一个家园到另外家园瞬间的引用关系错误
 

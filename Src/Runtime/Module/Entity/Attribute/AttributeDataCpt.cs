@@ -144,7 +144,7 @@ public class AttributeDataCpt : MonoBehaviour
     /// </summary>
     /// <param name="type"></param>
     /// <param name="value"></param>
-    public void SetRealBaseValue(eAttributeType type, float value)
+    public void SetBaseValueFromReal(eAttributeType type, float value)
     {
         SetBaseValue(type, TableUtil.AttributeRealValueConvertToTable(value, type));
     }
