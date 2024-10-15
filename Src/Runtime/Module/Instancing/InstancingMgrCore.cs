@@ -209,4 +209,9 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         }
         return 0;
     }
+
+    public DRSceneAreaChapter GetCurInstancingChapter()
+    {
+        return TableUtil.GetInstancingChapter(GFEntryCore.SceneAreaMgr.DefaultDRSceneArea, CurLevelIndex);
+    }
 }

@@ -99,6 +99,21 @@ public static class GFEntryCore
             return s_sceneTriggerEventMgrCore;
         }
     }
+
+    private static SceneAreaMgrCore s_sceneAreaMgrCore = null;
+    public static SceneAreaMgrCore SceneAreaMgr
+    {
+        get
+        {
+            if (s_sceneAreaMgrCore == null)
+            {
+                s_sceneAreaMgrCore = GetModule<SceneAreaMgrCore>();
+            }
+
+            return s_sceneAreaMgrCore;
+        }
+    }
+
     public static void AddModule(object module)
     {
         if (s_GFEntryList.IndexOf(module) != -1)
