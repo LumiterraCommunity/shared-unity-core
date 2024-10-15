@@ -22,7 +22,7 @@ public class InstancingLevelStatusTrigger : SharedCoreComponent
     [Serializable]
     public struct LevelStatusData
     {
-        public int LevelIndex;
+        public int LevelIndex; //当关卡索引<0时，表示当前关卡
         public eInstancingStatusType StatusType;
     }
 
@@ -76,7 +76,12 @@ public class InstancingLevelStatusTrigger : SharedCoreComponent
         {
             LevelStatusData levelStatusData = StatusList[i];
 
-            eInstancingStatusType statusType = instancingMgr.GetLevelStatus(levelStatusData.LevelIndex);
+            int curIndex = levelStatusData.LevelIndex;
+            if (levelStatusData.LevelIndex < 0)
+            {
+                curIndex = instancingMgr.CurLevelIndex;
+            }
+            eInstancingStatusType statusType = instancingMgr.GetLevelStatus(curIndex);
             if (statusType == levelStatusData.StatusType)
             {
                 succeedNum++;
