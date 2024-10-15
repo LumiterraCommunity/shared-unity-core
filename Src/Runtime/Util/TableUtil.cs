@@ -803,4 +803,21 @@ public static class TableUtil
         }
         return pointData;
     }
+
+    /// <summary>
+    /// 检查场景配置是否是有该功能模块
+    /// </summary>
+    /// <param name="dRSceneArea"></param>
+    /// <param name="homeType"></param>
+    /// <returns></returns>
+    public static bool CheckIsModuleScene(DRSceneArea dRSceneArea, eSceneFunctionModuleType moduleType)
+    {
+        if (dRSceneArea == null)
+        {
+            Log.Error(" CheckIsHomeModuleScene dRSceneArea is null.");
+            return false;
+        }
+        eSceneFunctionModuleType modules = ConvertToBitEnum<eSceneFunctionModuleType>(dRSceneArea.FunctionModule);
+        return (modules & moduleType) != 0;
+    }
 }

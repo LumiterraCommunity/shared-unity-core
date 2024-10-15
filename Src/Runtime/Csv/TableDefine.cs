@@ -301,6 +301,7 @@ public enum eSceneFunctionModuleType
     Pve = 1 << 1,
     Pvp = 1 << 2,
     Home = 1 << 3,
+    Tower = 1 << 4,
 }
 
 /// <summary>

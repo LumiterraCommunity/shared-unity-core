@@ -1,8 +1,8 @@
 /*
- * @Author: xiang huan
+ * @Author: XH
  * @Date: 2024-01-29 11:11:32
  * @Description: 
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/SceneElement/SceneElementDefine.cs
  * 
  */
 
@@ -17,6 +17,7 @@ public enum eSceneElementType
     SEArea = 3, //技能效果区域
     SettlePortal = 4, //结算传送门
     WishPool = 5, //许愿池
+    TowerLevel = 6, //塔关卡
 }
 public enum ePortalStatusType
 {

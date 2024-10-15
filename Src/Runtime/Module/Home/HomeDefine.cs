@@ -258,6 +258,7 @@ public static class HomeDefine
     {
         empty,    //空地
         farmland, //农田
+        towerLevel, //爬塔关卡
     }
 
     /// <summary>
