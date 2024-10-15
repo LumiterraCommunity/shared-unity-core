@@ -315,3 +315,13 @@ public enum eTalentType
     battle,
     gather,
 }
+
+/// <summary>
+/// 章节实体类型
+/// </summary>
+public enum eChapterEntityType
+{
+    Monster = 1, //怪物
+    Resource = 2, //采集物
+    Seed = 3, //种子
+}
