@@ -96,4 +96,11 @@ public enum eErrorCode : int
     npcNotFound = 1002001, //npc未找到
     npcTooFar = 1002002, //npc太远
     #endregion
+
+    #region  押镖
+    escortWagonSystemErr = 1003001, //押镖系统错误
+    notTeamLeader = 1003002, //不是队长
+    wagonNotFound = 1003003, //镖车未找到
+    teamNotInWagonTask = 1003004, //队伍不在押镖任务中
+    #endregion
 }

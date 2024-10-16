@@ -133,6 +133,7 @@ public enum eGameValueID
     WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
     WorldTotemSetEnhancePriceTime = 140,      //图腾设置强化价格间隔时间
     TowerPrizeDrawShareRateMax = 141, // 千分位
+    WagonCheckRadius = 136, //镖车检测范围
 }
 
 // public static class GameValueID
