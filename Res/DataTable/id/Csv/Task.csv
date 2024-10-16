@@ -46,7 +46,7 @@ Bantu Gunner untuk membunuh Kelelawar Labu.",0,"2,465",21,0,0,Fresh Start,100,1,
 - pilih tingkatkan cabang utama
 - pilih tingkatkan keterampilan War Stomp
 - letakkan keterampilan tersebut di slot cepat",0,"2,50;3,50;1,50",23,0,209,Lend a Hand,0,1,,21,,
-"{""options"":[{""optionType"":3,""value"":""39,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",233,0,0,,0,1,,23,,
+"{""options"":[{""optionType"":3,""value"":""39,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",233,0,210,,0,1,,23,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Gunakan cangkul untuk melonggarkan tanah di ladang, lalu gunakan biji untuk menabur di tanah yang telah dilonggarkan.
 Tanam 5 Biji Bambu, 5 Biji Trifolium, dan 5 Biji Wortel di ladang.",0,"1,261",24,0,31,Hoeing and Seeding,0,2,,45,,
 "{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","Setelah menanam biji, mereka perlu disiram dengan sabar tiga atau empat kali sebelum matang. Setelah siap, Anda dapat mendekatinya untuk panen. Setelah itu, pergilah mencari Silas. Dia membutuhkannya.",0,"3,261",25,0,0,Patient Watering and Harvesting,100,2,,24,,
@@ -327,10 +327,10 @@ Setelah menyelesaikan tugas, lapangan uji coba khusus akan terbuka - Ancient Dom
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",Penggunaan yang tepat dari tiket undian,0,"2,50;3,50;1,50",210,0,0, Penggunaan yang tepat dari tiket undian,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Dunia Lumi dibagi menjadi tiga zona: zona perdamaian, zona bahaya, dan zona kekacauan. 
 Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,0,0, Pembagian wilayah dunia,0,2,,215,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Coba buatlah Energy Slime.,0,"2,50;3,50;1,50",212,0,211, Persiapan Slime Energi,0,1,,229,,
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Coba buatlah Energy Slime.,0,"2,50;3,50;1,50",212,0,0, Persiapan Slime Energi,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}", Coba buatlah Energy Restoration Potion dan gunakan.,0,"2,50;3,50;1,50",213,0,158,Buatlah Ramuan Energi dan gunakanlah,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Ada sesuatu yang harus dilakukan setiap hari.,0,"2,50;3,50;1,50",214,0,158, Sesuatu yang harus dilakukan setiap hari,0,2,,228,,
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Selesaikan dungeon harian.,0,"2,50;3,50;1,50",215,0,158, Menyelesaikan dungeon harian,100,1,,231,,
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Selesaikan dungeon harian.,0,"2,50;3,50;1,50",215,0,215, Menyelesaikan dungeon harian,100,1,,231,,24001
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}", Tugas Token adalah salah satu sumber pendapatan utama. Menyelesaikan tugas-tugas ini akan memberi Anda hadiah token. Bicaralah dengan Haski untuk informasi lebih lanjut.,0,"2,50;3,50;1,50",216,0,158, Tentang Tugas Token,0,1,,235,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":30111}]}"," Hewan peliharaan adalah teman yang hebat untuk semua orang, coba tangkap dan gunakan mereka dengan baik. Hewan peliharaan dapat membantu Anda dalam pertarungan, mengumpulkan, bertani, dan berinteraksi dengan baik dengan hewan peliharaan Anda.",0,"2,50;3,50;1,50",217,0,199, Penggunaan yang tepat dari hewan peliharaan,0,2,,216,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",Menyelesaikan tugas membuka tantangan Pengumpulan Junior.,0,"3,117",218,0,0,Tantangan Kumpulkan Junior,0,2,,217,,40001
@@ -343,8 +343,8 @@ Pergilah melihat tepi wilayah, menjadi akrab dengannya.",0,"2,50;3,50;1,50",211,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Tugas dungeon,0,"2,50;3,50;1,50",225,0,0,Tugas Dungeon,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Tugas penangkapan,0,"2,50;3,50;1,50",226,0,0,Tugas Penangkapan,0,2,,,,
 "{""options"":[{""optionType"":13,""value"":""684,81,555,10"",""guiderPoint"":30110}]}"," Kamu siap menjadi petualang sejati. Sebelum pergi ke kota, Gunner punya sesuatu untukmu di puncak gunung.",0,"2,50;3,50;1,50",228,0,158,Ke dalam kota,0,1,,215,,
-"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,210,,0,1,,233,,
+"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",230,0,158,,0,1,,232,,
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,158,,0,1,,230,,30001
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,158,,0,1,,216,,
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",235,0,158,,0,1,,213,,
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,0,,0,1,,230,,30001
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,0,,0,1,,216,,
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",235,0,0,,0,1,,213,,
