@@ -46,7 +46,7 @@ Help Gunner to kill a Pumpkin Bat.",0,"2,465",21,0,0,Fresh Start,100,1,,,,
 - select upgrade main branch 
 - select upgrade War Stomp skill 
 - place the skill in the quick slot",0,"2,50;3,50;1,50",23,0,209,Talent Tree,0,1,,21,,
-"{""options"":[{""optionType"":3,""value"":""39,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",233,0,0,Craft a Wooden Sword,0,1,,23,,
+"{""options"":[{""optionType"":3,""value"":""39,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",233,0,210,Craft a Wooden Sword,0,1,,23,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Use a hoe to loosen the soil in the field, and then use seeds to sow on the loosened soil.
 Plant 5 Bamboo Seeds, 5 Trifoliums Seeds, and 5 Carrots Seeds in field.",0,"1,261",24,0,31,Hoeing and Seeding,0,2,,45,,
 "{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","After planting the seeds, they need to be watered patiently three or four times before they mature. Once they are ready, you can approach it to harvest them. After that, go find Silas. He needs those.",0,"3,261",25,0,0,Patient Watering and Harvesting,100,2,,24,,
@@ -250,10 +250,10 @@ After completing the task, the special trial field will be unlocked-Ancient Doma
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",The proper use of raffle tickets,0,"2,50;3,50;1,50",210,0,0,About Lottery,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","The lumi world is divided into three zones: zones of peace, zones of danger, and zones of chaos. 
 Go take a look at the edge of the region, get familiar with it.",0,"2,50;3,50;1,50",211,0,0,Division of world regions,0,2,,215,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Try to craft an Energy Slime.,0,"2,50;3,50;1,50",212,0,211,Craft an Energy Slime,0,1,,229,,
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30101}]}",Try to craft an Energy Slime.,0,"2,50;3,50;1,50",212,0,0,Craft an Energy Slime,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}",Try to craft an Energy Restoration Potion.,0,"2,50;3,50;1,50",213,0,158,Craft an Energy Potion,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}",Something to do every day,0,"2,50;3,50;1,50",214,0,158,Something to do every day,0,2,,228,,
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,158,Complete a daily dungeon,100,1,,231,,
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,215,Complete a daily dungeon,100,1,,231,,24001
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",Challenge Task are one of the main sources of income. Completing these Tasks will earn you token rewards. Talk to Haski for more informations.,0,"2,50;3,50;1,50",216,0,158,About the Token Task,0,1,,235,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":30111}]}","Pets are great companions for everyone, try to catch them and use them well
 Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,199,Proper use of pets,0,2,,216,,
@@ -267,8 +267,8 @@ Pets can help you fight, collect, farm, and get along well with your pets",0,"2,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Dungeon task,0,"2,50;3,50;1,50",225,0,0,Dungeon task,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Capture task,0,"2,50;3,50;1,50",226,0,0,Capture task,0,2,,,,
 "{""options"":[{""optionType"":13,""value"":""684,81,555,10"",""guiderPoint"":30110}]}","You have ready to be a true adventurer. Before you go to the town, Gunner got something to tell you on the top of moutain.",0,"2,50;3,50;1,50",228,0,158,Go to the town,0,1,,215,,
-"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,210,Monster Drops,0,1,,233,,
+"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30101},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,0,Monster Drops,0,1,,233,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",230,0,158,The Leaderboard,0,1,,232,,
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,158,Ability Level and Equipment,0,1,,230,,30001
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,158,Ultra Token Task,0,1,,216,,
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",235,0,158,Our Friend Haski,0,1,,213,,
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,0,Ability Level and Equipment,0,1,,230,,30001
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,0,Ultra Token Task,0,1,,216,,
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",235,0,0,Our Friend Haski,0,1,,213,,
