@@ -42,6 +42,10 @@ public static class TableDefine
     public const int LUA_G_ITEM_ID = 765; // LuaG道具ID
     public const int ENERGY_ITEM_CD_GROUP = 8; // 精力道具CD组
     public const int EQUIPMENT_ENHANCE_STAGE_BASE = 10; // 装备强化阶段基数
+    /// <summary>
+    /// 代币作为道具时的品质 往往发生在显示在itemIcon上呈现品质
+    /// </summary>
+    public const int TOKEN_QUALITY = 3;
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
