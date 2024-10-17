@@ -26,6 +26,8 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public InstancingExtraDropData ExtraDropData = new(); //副本额外掉落数据
     public int InstancingLevel { get; set; } = 0; //副本等级
     public int InstancingScoreRate = 1; //副本分数倍率
+    public int InitLevelIndex { get; set; } = 0; //初始化关卡
+    public int InitPlayerScore { get; set; } = 0; //初始化玩家分数
     public static GameObject Root { get; private set; }
     private void Awake()
     {
@@ -156,7 +158,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public virtual PlayerInstancingData AddPlayerData(long playerId)
     {
         PlayerInstancingData playerData = new();
-        playerData.SetData(playerId);
+        playerData.SetData(playerId, InitPlayerScore);
         _ = PlayerInstancingData.Add(playerId, playerData);
         return playerData;
     }
