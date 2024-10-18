@@ -347,6 +347,15 @@ public class DRSceneArea : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取chapterIds-int[]。*/
+    /// </summary>
+    public int[] ChapterIds
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -389,6 +398,7 @@ public class DRSceneArea : DataRowBase
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossSeed = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        ChapterIds = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -437,6 +447,7 @@ public class DRSceneArea : DataRowBase
                 CampLimit = binaryReader.ReadArray<Int32>();
                 BossSeed = binaryReader.ReadArray<String>();
                 SeedMaxLimit = binaryReader.ReadArray<Int32>();
+                ChapterIds = binaryReader.ReadArray<Int32>();
             }
         }
 

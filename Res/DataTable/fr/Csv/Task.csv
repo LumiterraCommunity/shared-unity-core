@@ -254,7 +254,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",Vide,0,"2,147",209,0,0,Entraînement PVEP ,0,2,,215,,30002
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",L'utilisation appropriée des tickets de loterie,0,"2,50;3,50;1,50",210,0,0, L'utilisation appropriée des tickets de loterie,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Le monde de Lumi est divisé en trois zones : les zones de paix, les zones de danger et les zones de chaos. Allez jeter un coup d'œil au bord de la région, familiarisez-vous avec cela.",0,"2,50;3,50;1,50",211,0,0, Division des régions du monde,0,2,,215,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30109}]}",Essayez de fabriquer un Slime d'énergie.,0,"2,50;3,50;1,50",212,0,0, Préparation de la Slime d'énergie,0,1,,229,,
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":0}]}",Essayez de fabriquer un Slime d'énergie.,0,"2,50;3,50;1,50",212,0,0, Préparation de la Slime d'énergie,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}", Essayez de fabriquer une Potion de Restauration d'Énergie et utilisez-la.,0,"2,50;3,50;1,50",213,0,158,Fabriquez une potion d'énergie et utilisez-la,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Quelque chose à faire tous les jours.,0,"2,50;3,50;1,50",214,0,158, Quelque chose à faire tous les jours,0,2,,228,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Terminez un donjon quotidien.,0,"2,50;3,50;1,50",215,0,0, Terminer un donjon quotidien,100,1,,231,,24001
@@ -269,8 +269,8 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",Tâche de dialogue.,0,"2,50;3,50;1,50",224,0,0,Tâche de dialogue ,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Tâche de donjon.,0,"2,50;3,50;1,50",225,0,0,Tâche de donjon ,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Tâche de capture.,0,"2,50;3,50;1,50",226,0,0,Tâche de capture,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""684,81,555,10"",""guiderPoint"":30110}]}"," Vous êtes prêt à devenir un véritable aventurier. Avant de partir en ville, Gunner a quelque chose à vous dire au sommet de la montagne.",0,"2,50;3,50;1,50",228,0,158,Allez à la ville,0,1,,215,,
-"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30109},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
+"{""options"":[{""optionType"":13,""value"":""807,110,606,10"",""guiderPoint"":30108}]}"," Vous êtes prêt à devenir un véritable aventurier. Avant de partir en ville, Gunner a quelque chose à vous dire au sommet de la montagne.",0,"2,50;3,50;1,50",228,0,158,Allez à la ville,0,1,,215,,
+"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":0},{""optionType"":3,""value"":""833,1"",""guiderPoint"":30107}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",230,0,158,,0,1,,232,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,215,,0,1,,230,,30001
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,0,,0,1,,216,,

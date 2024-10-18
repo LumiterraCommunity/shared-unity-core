@@ -234,7 +234,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":4,""value"":""6,1"",""guiderPoint"":2101},{""optionType"":4,""value"":""8,1"",""guiderPoint"":3501},{""optionType"":4,""value"":""7,1"",""guiderPoint"":3401}]}",Trống rỗng,0,"2,147",209,0,0,Huấn luyện PVEP,0,2,,215,,30002
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",Sử dụng vé quay số đúng cách,0,"2,50;3,50;1,50",210,0,0,Sử dụng vé quay số đúng cách,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","Thế giới Lumi được chia thành ba khu vực: khu vực hòa bình, khu vực nguy hiểm và khu vực hỗn loạn. Hãy đi xem biên giới của khu vực, làm quen với nó.",0,"2,50;3,50;1,50",211,0,0,Phân chia các khu vực trên thế giới,0,2,,215,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30109}]}",Hãy cố gắng chế tạo một Energy Slime.,0,"2,50;3,50;1,50",212,0,0,Chuẩn bị Slime năng lượng,0,1,,229,,
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":0}]}",Hãy cố gắng chế tạo một Energy Slime.,0,"2,50;3,50;1,50",212,0,0,Chuẩn bị Slime năng lượng,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}", Hãy cố gắng chế tạo một Energy Restoration Potion và sử dụng nó.,0,"2,50;3,50;1,50",213,0,158,Chế tạo một chai Năng lượng và sử dụng nó,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Có điều gì đó để làm hàng ngày.,0,"2,50;3,50;1,50",214,0,158,Có việc để làm hàng ngày,0,2,,228,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Hoàn thành một hang động hàng ngày.,0,"2,50;3,50;1,50",215,0,0,Hoàn thành một hang động hàng ngày,100,1,,231,,24001
@@ -249,8 +249,8 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",Nhiệm vụ đối thoại.,0,"2,50;3,50;1,50",224,0,0,Nhiệm vụ đối thoại,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Nhiệm vụ hang động.,0,"2,50;3,50;1,50",225,0,0,Nhiệm vụ hang động,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Nhiệm vụ bắt giữ.,0,"2,50;3,50;1,50",226,0,0,Nhiệm vụ bắt giữ,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""684,81,555,10"",""guiderPoint"":30110}]}"," Bạn đã sẵn sàng trở thành một nhà thám hiểm thực sự. Trước khi bạn đi vào thị trấn, Gunner có điều gì đó để nói với bạn trên đỉnh núi.",0,"2,50;3,50;1,50",228,0,158,Đi đến thị trấn,0,1,,215,,
-"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30109},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
+"{""options"":[{""optionType"":13,""value"":""807,110,606,10"",""guiderPoint"":30108}]}"," Bạn đã sẵn sàng trở thành một nhà thám hiểm thực sự. Trước khi bạn đi vào thị trấn, Gunner có điều gì đó để nói với bạn trên đỉnh núi.",0,"2,50;3,50;1,50",228,0,158,Đi đến thị trấn,0,1,,215,,
+"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":0},{""optionType"":3,""value"":""833,1"",""guiderPoint"":30107}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",230,0,158,,0,1,,232,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,215,,0,1,,230,,30001
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,0,,0,1,,216,,

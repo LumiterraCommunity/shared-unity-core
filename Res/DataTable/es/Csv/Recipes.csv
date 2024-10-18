@@ -936,10 +936,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 9, Producir 1 x Caja de Paquete de Nivel 9,2,recipe-icon-1230,1230,9,"791,1", Receta de caja de embalaje de nivel 9,"800,1,1,10000",4,0,50101230,1,10,-,0,1,1,0,10
 0, Obtener aleatoriamente Medalla de Paloma:25 x Medalla de Paloma - 1%14 x Medalla de Paloma - 5%8 x Medalla de Paloma - 19%3 x Medalla de Paloma - 75%,2,recipe-icon-1231,1231,0,"734,5", Medalla de la Lotería de la Paloma,,,0,51001231,1,6,-,0,1,1,0,0
 0, Medalla de Lumi,2,recipe-icon-1232,1232,0,"402,3;408,3;405,3;411,3;717,129",Medalla de Lumi,"803,1,1,10000",4,0,51001232,1,6,0,0,0,4,0,0
-0,,2,recipe-icon-1233,1233,0,"833,3", Receta de Slime de Energía de Combate Lv 0,"840,1,1,10000",4,0,21001233,1,10,-,2,1,1,0,0
-0,,2,recipe-icon-1234,1234,0,"835,1;836,1;837,1", Receta de Slime de Energía de Recolecta Lv 0,"840,1,1,10000",4,0,21001234,1,10,-,3,1,1,0,0
-0,,2,recipe-icon-1235,1235,0,"840,1", Receta de Poción de Energía de Combate Lv 0,"841,1,1,10000",3,0,41001235,1,10,-,2,1,1,0,0
-0,,2,recipe-icon-1236,1236,0,"840,1", Receta de Poción de Energía de Recolecta Lv 0,"841,1,1,10000",3,0,41001236,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-1233,1233,0,"833,3",,"840,1,1,10000",4,0,21001233,1,10,-,2,1,1,0,0
+0,,2,recipe-icon-1234,1234,0,"835,1;836,1;837,1",,"840,1,1,10000",4,0,21001234,1,10,-,3,1,1,0,0
+0,,2,recipe-icon-1235,1235,0,"840,1",,"841,1,1,10000",3,0,41001235,1,10,-,2,1,1,0,0
+0,,2,recipe-icon-1236,1236,0,"840,1",,"841,1,1,10000",3,0,41001236,1,10,-,3,1,1,0,0
 0,,2,recipe-icon-1237,1237,0,"833,3", Receta de Esencia de Combate Lv 0,"842,1,1,10000",4,0,21001237,1,10,-,2,1,1,0,0
 0,,2,recipe-icon-1238,1238,0,"835,1;836,1;837,1", Receta de Esencia de Recolecta Lv 0,"843,1,1,10000",4,0,21001238,1,10,-,3,1,1,0,0
 0,,2,recipe-icon-1239,1239,0,"835,1;836,1;837,1", Receta de Esencia de Plantación Agrícola Lv 0,"844,1,1,10000",4,0,21001239,1,10,-,1,1,1,0,0
