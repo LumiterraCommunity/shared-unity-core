@@ -298,7 +298,7 @@ Después de completar la tarea, se desbloqueará el campo de prueba especial: Do
 "{""options"":[{""optionType"":5,""value"":""59,1"",""guiderPoint"":0}]}",El uso adecuado de los boletos de rifa,0,"2,50;3,50;1,50",210,0,0, El uso adecuado de boletos de lotería,0,2,,217,,
 "{""options"":[{""optionType"":13,""value"":""485,86,359,10"",""guiderPoint"":30105}]}","El mundo de Lumi se divide en tres zonas: zonas de paz, zonas de peligro y zonas de caos. 
 Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;3,50;1,50",211,0,0, División de regiones del mundo,0,2,,215,,
-"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":30109}]}",Intenta crear un Slime de Energía.,0,"2,50;3,50;1,50",212,0,0, Preparación de Slime de energía,0,1,,229,,
+"{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":0}]}",Intenta crear un Slime de Energía.,0,"2,50;3,50;1,50",212,0,0, Preparación de Slime de energía,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}", Intenta crear una Poción de Restauración de Energía y úsala.,0,"2,50;3,50;1,50",213,0,158,Crea una Poción de Energía y úsala,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}", Algo que hacer todos los días.,0,"2,50;3,50;1,50",214,0,158, Algo que hacer todos los días,0,2,,228,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Completa una mazmorra diaria.,0,"2,50;3,50;1,50",215,0,0, Completar una mazmorra diaria,100,1,,231,,24001
@@ -313,8 +313,8 @@ Ve a echar un vistazo al borde de la región, familiarízate con ella.",0,"2,50;
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",Tarea de diálogo.,0,"2,50;3,50;1,50",224,0,0,Tarea de Diálogo,0,2,,,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Tarea de mazmorra.,0,"2,50;3,50;1,50",225,0,0,Tarea de Mazmorra,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Tarea de captura.,0,"2,50;3,50;1,50",226,0,0,Tarea de Captura,0,2,,,,
-"{""options"":[{""optionType"":13,""value"":""684,81,555,10"",""guiderPoint"":30110}]}"," Estás listo para ser un verdadero aventurero. Antes de ir a la ciudad, Gunner tiene algo que decirte en la cima de la montaña.",0,"2,50;3,50;1,50",228,0,158,En la ciudad,0,1,,215,,
-"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":30109},{""optionType"":3,""value"":""833,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
+"{""options"":[{""optionType"":13,""value"":""807,110,606,10"",""guiderPoint"":30108}]}"," Estás listo para ser un verdadero aventurero. Antes de ir a la ciudad, Gunner tiene algo que decirte en la cima de la montaña.",0,"2,50;3,50;1,50",228,0,158,En la ciudad,0,1,,215,,
+"{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":0},{""optionType"":3,""value"":""833,1"",""guiderPoint"":30107}]}",,0,"2,50;3,50;1,50",229,0,0,,0,1,,233,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",230,0,158,,0,1,,232,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",231,0,215,,0,1,,230,,30001
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",,0,"2,50;3,50;1,50",232,0,0,,0,1,,216,,
