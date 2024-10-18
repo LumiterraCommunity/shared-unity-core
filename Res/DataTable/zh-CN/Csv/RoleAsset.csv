@@ -1,4 +1,4 @@
-armatureRes-string,attackSound-string,deathSound-string,desc-string,hurtedCritSound-string,hurtedSound-string,id-int,patrolRadius-int,patrolSpd-int,idleSound-string,aiName-string,patrolPath-string
+armatureRes-string,attackSound-string,deathSound-string,desc-string,hurtedCritSound-string,hurtedSound-string,id-int,patrolRadius-int,patrolSpd-int,idleSound-string,aiName-string,patrolPath-string[][]
 boy_armature_SkeletonData,GGGrasslands - Box Destroy (Split) - Hit_mp3,GGGrasslands - Death_mp3,男玩家,GGGrasslands - Jump (Land)_mp3,GGGrasslands - Hit 2_mp3,1,5,2,,,
 boy_armature_SkeletonData,GGGrasslands - Box Destroy (Split) - Hit_mp3,GGGrasslands - Death_mp3,女玩家,GGGrasslands - Jump (Land)_mp3,GGGrasslands - Hit 2_mp3,2,5,2,,,
 wildboar,GGGrasslands - Spikes (Split) - 2_mp3,GGGrasslands - Carrot Death_mp3,Boar,GGGrasslands - Hit 2_mp3,meethited_mp3,3,5,2,wildboarout_mp3,,
@@ -19,19 +19,19 @@ Mayor-MainTown,,,镇长-主城,,,34,5,2,,,
 Pharmacist-MainTown,,,药剂师-主城,,,35,5,2,,,
 Spine_Monster_CrimsonGnasher,GGGrasslands - Spikes (Split) - 2_mp3,GGGrasslands - Carrot Death_mp3,Crimson Gnasher,GGGrasslands - Hit 2_mp3,meethited_mp3,36,5,2,,MonsterAI-Attack-Crimson,
 Spine_Monster_ChaosWraith,GGGrasslands - Spikes (Split) - 2_mp3,GGGrasslands - Carrot Death_mp3,Chaos Wraith,GGGrasslands - Hit 2_mp3,meethited_mp3,37,5,2,,MonsterAI-Spd-ChaosWraith,
-Spine_NPC_Quincy,,,NPC Quincy,,,38,5,2,,NPCAI-Wild-Quincy,Wild-Quincy
+Spine_NPC_Quincy,,,NPC Quincy,,,38,5,2,,NPCAI-Wild-Quincy,"1000,Wild-Quincy"
 Spine_NPC_Terrance,,,NPC Terrance,,,39,5,2,,,
 Spine_NPC_Silas,,,Npc Silas,,,40,5,2,,,
-Spine_NPC_Garth,,,NPC Garth,,,41,5,2,,,Maintown-Garth
+Spine_NPC_Garth,,,NPC Garth,,,41,5,2,,,"1000,Maintown-Garth"
 Spine_NPC_Nash,,,NPC Nash,,,42,5,2,,,
 Spine_NPC_Gunner,,,NPC Gunner,,,43,5,2,,,
 Spine_NPC_Maximus,,,NPC Maximus,,,44,5,2,,,
-Spine_NPC_Nolan,,,NPC Nolan,,,46,5,2,,NPCAI-Maintown-Nolan,Maintown-Nolan
+Spine_NPC_Nolan,,,NPC Nolan,,,46,5,2,,NPCAI-Maintown-Nolan,"1000,Maintown-Nolan"
 Spine_NPC_Lucas,,,NPC Lucas,,,47,5,2,,,
 Spine_NPC_Liam,,,NPC Liam,,,48,5,2,,,
-Spine_NPC_Drakonar,,,NPC Drakonar,,,49,5,2,,NPCAI-Wild-Drakonar,Wild-Drakonar
-Spine_NPC_Torvald,,,NPC Torvald,,,50,5,2,,NPCAI-Wild-Torvald,Wild-Torvald
-Cuckoo_Boss,,,NPC Cuckoo Boss,,,51,5,2,,NPCAI-Maintown-Cuckoo,Maintown-Cuckoo
+Spine_NPC_Drakonar,,,NPC Drakonar,,,49,5,2,,NPCAI-Wild-Drakonar,"1000,Wild-Drakonar"
+Spine_NPC_Torvald,,,NPC Torvald,,,50,5,2,,NPCAI-Wild-Torvald,"1000,Wild-Torvald"
+Cuckoo_Boss,,,NPC Cuckoo Boss,,,51,5,2,,NPCAI-Maintown-Cuckoo,"1000,Maintown-Cuckoo"
 Spine_NPC_Victor,,,NPC Victor,,,52,5,2,,,
 Spine_NPC_Magnus,,,NPC Magnus,,,53,5,2,,,
 Spine_NPC_Charlie,,,NPC Charlie,,,54,5,2,,,
@@ -150,9 +150,13 @@ Spine_NPC_Silas_1,,,Spine_NPC_Silas_1,,,166,1,1,,,
 Spine_NPC_Max,,,Spine_NPC_Max,,,167,1,1,,,
 Spine_NPC_Elara,,,Spine_NPC_Elara,,,168,1,1,,,
 Spine_NPC_Luna,,,Spine_NPC_Luna,,,169,1,1,,,
-Monster_Wendigo_1,,,Monster_Wendigo1,,,170,1,1,,MonsterAI-Wendigo-1,Patrol_Wendigo_1
-Monster_Wendigo_2,,,Monster_Wendigo2,,,171,1,1,,MonsterAI-Wendigo-2,Patrol_Wendigo_2
+Monster_Wendigo_1,,,Monster_Wendigo1,,,170,1,1,,MonsterAI-Wendigo-1,"1000,Patrol_Wendigo_1"
+Monster_Wendigo_2,,,Monster_Wendigo2,,,171,1,1,,MonsterAI-Wendigo-2,"1000,Patrol_Wendigo_2"
 Spine_NPC_Bartok,,,Spine_NPC_Bartok,,,172,1,1,,,
 Monster_Sentinel,,,Monster_Sentinel,,,173,1,1,,MonsterAI-Sentinel,
 Monster_Modicky,,,Monster_Modicky,,,174,1,1,,MonsterAI-Modicky,
 Spine_NPC_Haski_1,,,Spine_NPC_Haski_1,,,175,1,1,,,
+EscortWagon_Junior,,,EscortWagon_Junior,,,176,1,2,,EscortWagon_Junior_AI,"1000,EscortWagon_Junior_Patrol_1;1000,EscortWagon_Junior_Patrol_2;1000,EscortWagon_Junior_Patrol_3"
+EscortWagon_Intermediate,,,EscortWagon_Intermediate,,,177,1,2,,EscortWagon_Intermediate_AI,"1000,EscortWagon_Intermediate_Patrol_1;1000,EscortWagon_Intermediate_Patrol_2;1000,EscortWagon_Intermediate_Patrol_3"
+EscortWagon_Advanced,,,EscortWagon_Advanced,,,178,1,2,,EscortWagon_Advanced_AI,"1000,EscortWagon_Advanced_Patrol_1;1000,EscortWagon_Advanced_Patrol_2;1000,EscortWagon_Advanced_Patrol_3"
+PathTestNpc,,,PathTestNpc,,,179,1,100,,,"1000,JuniorWagonPath_1"
