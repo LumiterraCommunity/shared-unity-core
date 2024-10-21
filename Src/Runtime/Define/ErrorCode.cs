@@ -36,6 +36,9 @@ public enum eErrorCode : int
     homeItemCostError = 0005003, //家园道具扣除异常
     animalCaptureReqError = 0006001, //捕捉动物请求异常
     animalCaptureInvalid = 0006002, //捕捉动物无效
+    lvNotMatch = 0006003, //等级不匹配
+    memberTooFar = 0006004, //队员太远
+    ticketsNotEnough = 0006005, //门票不足
 
 
     sceneStartFailed = 0010000, // 场景服务启动失败
@@ -102,5 +105,7 @@ public enum eErrorCode : int
     notTeamLeader = 1003002, //不是队长
     wagonNotFound = 1003003, //镖车未找到
     teamNotInWagonTask = 1003004, //队伍不在押镖任务中
+    wagonConfigNotFound = 1003005, //镖车配置未找到
+    wagonPathNotFound = 1003006, //镖车路径未找到
     #endregion
 }
