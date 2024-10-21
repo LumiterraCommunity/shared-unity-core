@@ -78,6 +78,15 @@ public class DREscortWagon : DataRowBase
     }
 
     /// <summary>
+  /**获取releaseTime-int[][]。*/
+    /// </summary>
+    public int[][] ReleaseTime
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取rewardId-int。*/
     /// </summary>
     public int RewardId
@@ -116,6 +125,7 @@ public class DREscortWagon : DataRowBase
         MaxAccept = DataTableParseUtil.ParseInt(columnStrings[index++]);
         MaxExistenceTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
+        ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         RewardId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -137,6 +147,7 @@ public class DREscortWagon : DataRowBase
                 MaxAccept = binaryReader.Read7BitEncodedInt32();
                 MaxExistenceTime = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
+                ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 RewardId = binaryReader.Read7BitEncodedInt32();
                 RoleAssetId = binaryReader.Read7BitEncodedInt32();
                 Tickets = binaryReader.ReadArrayList<Int32>();
