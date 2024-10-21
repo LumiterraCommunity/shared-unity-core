@@ -24,6 +24,15 @@ public class DREscortWagon : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取desc-string。*/
+    /// </summary>
+    public string Desc
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取initialAttribute-int[][]。*/
     /// </summary>
     public int[][] InitialAttribute
@@ -105,9 +114,9 @@ public class DREscortWagon : DataRowBase
     }
 
     /// <summary>
-  /**获取tickets-int[][]。*/
+  /**获取tickets-int[]。*/
     /// </summary>
-    public int[][] Tickets
+    public int[] Tickets
     {
         get;
         private set;
@@ -118,6 +127,7 @@ public class DREscortWagon : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -128,7 +138,7 @@ public class DREscortWagon : DataRowBase
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         RewardId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetId = DataTableParseUtil.ParseInt(columnStrings[index++]);
-        Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        Tickets = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -140,6 +150,7 @@ public class DREscortWagon : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 Lv = binaryReader.Read7BitEncodedInt32();
@@ -150,7 +161,7 @@ public class DREscortWagon : DataRowBase
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 RewardId = binaryReader.Read7BitEncodedInt32();
                 RoleAssetId = binaryReader.Read7BitEncodedInt32();
-                Tickets = binaryReader.ReadArrayList<Int32>();
+                Tickets = binaryReader.ReadArray<Int32>();
             }
         }
 
