@@ -253,7 +253,7 @@ Go take a look at the edge of the region, get familiar with it.",0,"2,50;3,50;1,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":0}]}",Try to craft an Energy Slime.,0,"2,50;3,50;1,50",212,0,0,Craft an Energy Slime,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}",Try to craft an Energy Restoration Potion.,0,"2,50;3,50;1,50",213,0,158,Craft an Energy Potion,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":30110}]}",Something to do every day,0,"2,50;3,50;1,50",214,0,158,Something to do every day,0,2,,228,,
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,0,Complete a daily dungeon,100,1,,231,,24001
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":0}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,0,Complete a daily dungeon,100,1,,231,,24001
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",Token Task are one of the main sources of income. Completing these Tasks will earn you token rewards. Talk to Haski for more informations.,0,"2,50;3,50;1,50",216,0,158,About the Token Task,0,1,,235,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":30111}]}","Pets are great companions for everyone, try to catch them and use them well
 Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,199,Proper use of pets,0,2,,216,,
@@ -264,7 +264,7 @@ Pets can help you fight, collect, farm, and get along well with your pets",0,"2,
 "{""options"":[{""optionType"":2,""value"":""413,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""414,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""415,1"",""guiderPoint"":3601}]}",Completing the task unlocks the Intermediate Farming Challenge.,0,"1,117",222,0,0,Intermediate Farming Challenge,0,2,,217,,50002
 "{""options"":[{""optionType"":2,""value"":""614,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""615,1"",""guiderPoint"":3601},{""optionType"":2,""value"":""616,1"",""guiderPoint"":3601}]}",Completing the task unlocks the Advanced Farming Challenge.,0,"1,117",223,0,0,Advance Farming Challenge,0,2,,217,,50003
 "{""options"":[{""optionType"":5,""value"":""23,1"",""guiderPoint"":30101}]}",Dialogue task,0,"2,50;3,50;1,50",224,0,0,Dialogue task,0,2,,,,
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":30110}]}",Dungeon task,0,"2,50;3,50;1,50",225,0,0,Dungeon task,0,2,,,,
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":0}]}",Dungeon task,0,"2,50;3,50;1,50",225,0,0,Dungeon task,0,2,,,,
 "{""options"":[{""optionType"":7,""value"":""6,1"",""guiderPoint"":2101}]}",Capture task,0,"2,50;3,50;1,50",226,0,0,Capture task,0,2,,,,
 "{""options"":[{""optionType"":13,""value"":""807,110,606,10"",""guiderPoint"":30108}]}","You have ready to be a true adventurer. Before you go to the town, Gunner got something to tell you on the top of moutain.",0,"2,50;3,50;1,50",228,0,158,Go to the town,0,1,,215,,
 "{""options"":[{""optionType"":2,""value"":""841,1"",""guiderPoint"":0},{""optionType"":3,""value"":""833,1"",""guiderPoint"":30107}]}","- Restore energy by using energy potions
