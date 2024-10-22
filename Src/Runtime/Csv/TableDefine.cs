@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -127,6 +127,7 @@ public enum eGameValueID
     EnhanceLvToAbilityLv = 126, //强化等级对应的能力等级系数 千分位
     WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
     WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
+    WorldTotemSetEnhancePriceTime = 140,      //图腾设置强化价格间隔时间
 }
 
 // public static class GameValueID
