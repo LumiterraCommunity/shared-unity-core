@@ -83,6 +83,20 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 获取配置表中的千分位转换出来的小数 读不到配置返回参数中的默认值
+    /// </summary>
+    public static float GetGameValueFromThousands(eGameValueID id, float defaultValue)
+    {
+        if (TryGetGameValue(id, out DRGameValue drGameValue))
+        {
+            return drGameValue.Value * TableDefine.THOUSANDTH_2_FLOAT;
+        }
+
+        Log.Error($"GetGameValueFromThousands not find id = {id}");
+        return defaultValue;
+    }
+
+    /// <summary>
     /// 获取配置表中的字符串值 读不到配置返回参数中的默认值
     /// </summary>
     public static string GetGameValueString(eGameValueID id, string defaultValue)

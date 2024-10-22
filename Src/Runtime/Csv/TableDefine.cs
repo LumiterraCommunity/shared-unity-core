@@ -132,6 +132,7 @@ public enum eGameValueID
     WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
     WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
     WorldTotemSetEnhancePriceTime = 140,      //图腾设置强化价格间隔时间
+    TowerPrizeDrawShareRateMax = 141, // 千分位
 }
 
 // public static class GameValueID
