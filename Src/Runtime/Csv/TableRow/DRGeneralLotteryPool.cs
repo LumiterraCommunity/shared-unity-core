@@ -42,15 +42,6 @@ public class DRGeneralLotteryPool : DataRowBase
     }
 
     /// <summary>
-  /**获取resetGap-int。*/
-    /// </summary>
-    public int ResetGap
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取sceneAreaId-int。*/
     /// </summary>
     public int SceneAreaId
@@ -76,7 +67,6 @@ public class DRGeneralLotteryPool : DataRowBase
         ChargeGap = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Materials = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
-        ResetGap = DataTableParseUtil.ParseInt(columnStrings[index++]);
         SceneAreaId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Token = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
@@ -93,7 +83,6 @@ public class DRGeneralLotteryPool : DataRowBase
                 ChargeGap = binaryReader.ReadArray<Int32>();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Materials = binaryReader.ReadArrayList<Int32>();
-                ResetGap = binaryReader.Read7BitEncodedInt32();
                 SceneAreaId = binaryReader.Read7BitEncodedInt32();
                 Token = binaryReader.Read7BitEncodedInt32();
             }
