@@ -107,5 +107,6 @@ public enum eErrorCode : int
     teamNotInWagonTask = 1003004, //队伍不在押镖任务中
     wagonConfigNotFound = 1003005, //镖车配置未找到
     wagonPathNotFound = 1003006, //镖车路径未找到
+    teamNotFound = 1003007, //队伍未找到
     #endregion
 }

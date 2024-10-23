@@ -12,9 +12,7 @@ public class WagonDataCore : EntityBaseComponent
     public long ExpireTime { private set; get; }//过期时间
     public long EscortTeamId { private set; get; }//护送队伍ID
     public long LeaderId { private set; get; }//队长ID
-    // public List<long> TeamMembers { private set; get; }//护送者ID
-    public EscortWagonFailReason FailReason { get; private set; } = EscortWagonFailReason.Unknown;//Unknown表示不失败
-    public bool Arrived { get; private set; }//是否到达目
+    public EscortWagonStatus Status { get; private set; } = EscortWagonStatus.Unknown;
 
     public void Init(long teamId, long leaderId, int cid)
     {
@@ -32,13 +30,8 @@ public class WagonDataCore : EntityBaseComponent
         Init(wagonNetData.EscortTeamId, wagonNetData.LeaderId, wagonNetData.Cid);
     }
 
-    public void SetFailReason(EscortWagonFailReason reason)
+    public void SetStatus(EscortWagonStatus reason)
     {
-        FailReason = reason;
-    }
-
-    public void SetArrived()
-    {
-        Arrived = true;
+        Status = reason;
     }
 }
