@@ -1,4 +1,4 @@
-armatureRes-string,attackSound-string,deathSound-string,desc-string,hurtedCritSound-string,hurtedSound-string,id-int,patrolRadius-int,patrolSpd-int,idleSound-string,aiName-string,patrolPath-string
+armatureRes-string,attackSound-string,deathSound-string,desc-string,hurtedCritSound-string,hurtedSound-string,id-int,patrolRadius-int,patrolSpd-int,idleSound-string,aiName-string,patrolPath-string[]
 boy_armature_SkeletonData,GGGrasslands - Box Destroy (Split) - Hit_mp3,GGGrasslands - Death_mp3,男玩家,GGGrasslands - Jump (Land)_mp3,GGGrasslands - Hit 2_mp3,1,5,2,,,
 boy_armature_SkeletonData,GGGrasslands - Box Destroy (Split) - Hit_mp3,GGGrasslands - Death_mp3,女玩家,GGGrasslands - Jump (Land)_mp3,GGGrasslands - Hit 2_mp3,2,5,2,,,
 wildboar,GGGrasslands - Spikes (Split) - 2_mp3,GGGrasslands - Carrot Death_mp3,Boar,GGGrasslands - Hit 2_mp3,meethited_mp3,3,5,2,wildboarout_mp3,,
@@ -156,3 +156,8 @@ Spine_NPC_Bartok,,,Spine_NPC_Bartok,,,172,1,1,,,
 Monster_Sentinel,,,Monster_Sentinel,,,173,1,1,,MonsterAI-Sentinel,
 Monster_Modicky,,,Monster_Modicky,,,174,1,1,,MonsterAI-Modicky,
 Spine_NPC_Haski_1,,,Spine_NPC_Haski_1,,,175,1,1,,,
+EscortWagon_Junior,,,EscortWagon_Junior,,,176,1,2,,EscortWagon_Junior_AI,"EscortWagon_Junior_Patrol_1,EscortWagon_Junior_Patrol_2,EscortWagon_Junior_Patrol_3"
+EscortWagon_Intermediate,,,EscortWagon_Intermediate,,,177,1,2,,EscortWagon_Intermediate_AI,"EscortWagon_Intermediate_Patrol_1,EscortWagon_Intermediate_Patrol_2,EscortWagon_Intermediate_Patrol_3"
+EscortWagon_Advanced,,,EscortWagon_Advanced,,,178,1,2,,EscortWagon_Advanced_AI,"EscortWagon_Advanced_Patrol_1,EscortWagon_Advanced_Patrol_2,EscortWagon_Advanced_Patrol_3"
+PathTestNpc,,,PathTestNpc,,,179,1,100,,,JuniorWagonPath_1
+Spine_Npc_Anthony,,,Anthony,,,180,1,1,,,
