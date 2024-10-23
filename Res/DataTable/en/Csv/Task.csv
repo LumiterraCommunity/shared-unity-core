@@ -39,19 +39,19 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,"3,84",19,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 ,"For love and peace, please give me these.
 ",0,"3,84",20,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}",Help Gunner to kill a Pumpkin Bat.,0,"2,465",21,0,0,Fresh Start,0,1,,,,
+"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}",Help Gunner to kill a Pumpkin Bat.,0,"2,465",21,0,0,Fresh Start,0,1,,,,30001
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}",Find Nash and bring the intelligence to him.,0,,22,0,158,Intelligence,0,2,,,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- Press [Esc] to open your talent tree interface 
 - Select upgrade main branch 
 - Select upgrade War Stomp skill 
-- Place the skill in the quick slot",0,"2,50;3,50;1,50",23,0,0,Talent Tree,0,1,,21,,
+- Place the skill in the quick slot",0,"2,50;3,50;1,50",23,0,209,Talent Tree,0,1,,21,,
 "{""options"":[{""optionType"":3,""value"":""39,1"",""guiderPoint"":0}]}",Craft a Wooden Sword,0,"2,50;3,50;1,50",233,0,210,Craft a Wooden Sword,0,1,,23,,
 "{""options"":[{""optionType"":2,""value"":""146,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""147,5"",""guiderPoint"":3601},{""optionType"":2,""value"":""148,5"",""guiderPoint"":3601}]}","Use a hoe to loosen the soil in the field, and then use seeds to sow on the loosened soil.
 Plant 5 Bamboo Seeds, 5 Trifoliums Seeds, and 5 Carrots Seeds in field.",0,"1,261",24,0,31,Hoeing and Seeding,0,2,,45,,
 "{""options"":[{""optionType"":1,""value"":""70,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""71,2"",""guiderPoint"":3601},{""optionType"":1,""value"":""72,2"",""guiderPoint"":3601}]}","After planting the seeds, they need to be watered patiently three or four times before they mature. Once they are ready, you can approach it to harvest them. After that, go find Silas. He needs those.",0,"3,261",25,0,0,Patient Watering and Harvesting,0,2,,24,,
-"{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}","Open the Gather Crafting and refine a Gather Essence. Before that, you need to obtain enough materials.",0,"3,280",26,0,197,Essence of a Profession,0,1,,27,,
-"{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}",Use your gather tool to collect those items:,0,"3,280",27,0,0,Learn to Gather,0,1,,213,,
-"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Get Ordinary Wood and Fibers and Stones to make Gather Essences. Than you can make an Iron Pickaxe.,0,"3,261",28,0,44,Crafting an Iron Pickaxe,0,2,,228,,
+"{""options"":[{""optionType"":3,""value"":""843,1"",""guiderPoint"":0}]}","Open the Gather Crafting and refine a Gather Essence. Before that, you need to obtain enough materials.",0,"3,280",26,0,0,Essence of a Profession,0,1,,27,,
+"{""options"":[{""optionType"":17,""value"":""113,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""114,1"",""guiderPoint"":30107},{""optionType"":17,""value"":""115,1"",""guiderPoint"":30107}]}",Use your gather tool to collect those items:,0,"3,280",27,0,197,Learn to Gather,0,1,,213,,
+"{""options"":[{""optionType"":15,""value"":""33,1"",""guiderPoint"":0},{""optionType"":3,""value"":""88,1"",""guiderPoint"":0}]}",Get Ordinary Wood and Fibers and Stones to make Gather Essences. Than you can make an Iron Pickaxe.,0,"3,261",28,0,0,Crafting an Iron Pickaxe,0,2,,228,,
 "{""options"":[{""optionType"":3,""value"":""59,1"",""guiderPoint"":20103},{""optionType"":3,""value"":""63,1"",""guiderPoint"":20203},{""optionType"":3,""value"":""67,1"",""guiderPoint"":20201}]}","You have learned how to upgrade the talent tree and make equipment, try to gather some more advanced materials:
 Get a Dark Iron Ore.
 Get a Desert Tree.
@@ -251,11 +251,11 @@ After completing the task, the special trial field will be unlocked-Ancient Doma
 Go take a look at the edge of the region, get familiar with it.",0,"2,50;3,50;1,50",211,0,0,Division of world regions,0,1,,210,,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":0}]}",Try to craft an Energy Slime.,0,"2,50;3,50;1,50",212,0,0,Craft an Energy Slime,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}",Try to craft an Energy Restoration Potion.,0,"2,50;3,50;1,50",213,0,217,Craft an Energy Potion,100,1,,212,,
-"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",Something to do every day,0,"2,50;3,50;1,50",214,0,158,Something to do every day,0,1,,26,,30001
+"{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",Something to do every day,0,"2,50;3,50;1,50",214,0,199,Something to do every day,0,1,,26,,
 "{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":0}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,158,Complete a daily dungeon,100,1,,214,,"24001,44001,54001"
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",Token Task are one of the main sources of income. Completing these Tasks will earn you token rewards. Talk to Haski for more informations.,0,"2,50;3,50;1,50",216,0,158,About the Token Task,0,1,,231,,
 "{""options"":[{""optionType"":5,""value"":""20,1"",""guiderPoint"":30111}]}","Pets are great companions for everyone, try to catch them and use them well
-Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,199,Proper use of pets,100,2,,162,,
+Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,0,Proper use of pets,100,2,,162,,
 "{""options"":[{""optionType"":3,""value"":""58,1"",""guiderPoint"":3401},{""optionType"":3,""value"":""62,1"",""guiderPoint"":3501},{""optionType"":3,""value"":""66,1"",""guiderPoint"":2101}]}",Completing the task unlocks the Junior Gathering Challenge.,0,"3,117",218,0,0,Junior Gather Challenge,0,2,,215,,40001
 "{""options"":[{""optionType"":3,""value"":""374,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""375,1"",""guiderPoint"":20205},{""optionType"":3,""value"":""376,1"",""guiderPoint"":20205}]}",Completing the task unlocks the Intermediate Gathering Challenge.,0,"3,117",219,0,0,Intermediate Gather Challenge,0,2,,215,,40002
 "{""options"":[{""optionType"":3,""value"":""380,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""381,1"",""guiderPoint"":30104},{""optionType"":3,""value"":""382,1"",""guiderPoint"":30104}]}",Completing the task unlocks the Advanced Gathering Challenge.,0,"3,117",220,0,0,Advance Gather Challenge,0,2,,215,,40003
