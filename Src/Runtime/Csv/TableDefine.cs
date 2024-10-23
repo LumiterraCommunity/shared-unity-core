@@ -134,6 +134,7 @@ public enum eGameValueID
     WorldTotemSetEnhancePriceTime = 140,      //图腾设置强化价格间隔时间
     TowerPrizeDrawShareRateMax = 141, // 千分位
     WagonCheckRadius = 136, //镖车检测范围
+    WagonCheckEscortRadius = 139, //镖车检测护送范围
 }
 
 // public static class GameValueID
