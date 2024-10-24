@@ -299,6 +299,7 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 Killing specified monsters, collecting items, or harvesting crops will grant extra drop rewards.
 There is a fixed global maximum limit on the total number of times this event can be triggered."
 ,20160018,,Difficulty
+,20160019,副本,{0} Floors
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -409,6 +410,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320006,世界图腾,Cannot place totems in this scene
 ,20320007,世界图腾,Totem energy is insufficient.
 ,20320008,世界图腾,The totem is not activated.
+,20320009,世界图腾,Can't set enhance price within {0} minutes.
 ,20330000,装备强化,Insufficient protective stone.
 ,20330001,装备强化,"Equipment is being enhanced, please wait."
 ,20330002,装备强化,Please select the inheritance target first.
@@ -419,3 +421,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化,The results of the lottery will be notified to you later.
 ,20330008,装备强化,congratulations {0} for enhancing {1} to {2}
 ,20340001,爬塔,The remaining number of draws is insufficient
+,20340002,爬塔,"No points today, can not draw"
+,20340003,爬塔,Losing lottery
+,20340004,爬塔,"No challenge record, please start at the first level."
