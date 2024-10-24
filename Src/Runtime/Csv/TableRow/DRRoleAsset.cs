@@ -114,7 +114,7 @@ public class DRRoleAsset : DataRowBase
     }
 
     /// <summary>
-  /**获取patrolPath-string[]。*/
+  /**获取patrolPath-string。*/
     /// </summary>
     public string PatrolPath
     {
@@ -138,7 +138,7 @@ public class DRRoleAsset : DataRowBase
         PatrolSpd = DataTableParseUtil.ParseInt(columnStrings[index++]);
         IdleSound = DataTableParseUtil.ParseString(columnStrings[index++]);
         AiName = DataTableParseUtil.ParseString(columnStrings[index++]);
-        PatrolPath = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
+        PatrolPath = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
     }
@@ -161,7 +161,7 @@ public class DRRoleAsset : DataRowBase
                 PatrolSpd = binaryReader.Read7BitEncodedInt32();
                 IdleSound = binaryReader.ReadString();
                 AiName = binaryReader.ReadString();
-                PatrolPath = binaryReader.ReadArray<String>();
+                PatrolPath = binaryReader.ReadString();
             }
         }
 
