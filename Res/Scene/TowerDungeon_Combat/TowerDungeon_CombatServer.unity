@@ -840,6 +840,7 @@ GameObject:
   - component: {fileID: 56634003}
   - component: {fileID: 56634002}
   - component: {fileID: 56634001}
+  - component: {fileID: 56634008}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -922,7 +923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772559
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -957,6 +958,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &56634008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56633999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &57031488
 GameObject:
   m_ObjectHideFlags: 0
@@ -8160,6 +8173,7 @@ GameObject:
   - component: {fileID: 509001646}
   - component: {fileID: 509001645}
   - component: {fileID: 509001644}
+  - component: {fileID: 509001651}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -8242,7 +8256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772556
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -8277,6 +8291,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &509001651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509001642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &520852585
 GameObject:
   m_ObjectHideFlags: 0
@@ -12141,6 +12167,7 @@ GameObject:
   - component: {fileID: 854792820}
   - component: {fileID: 854792819}
   - component: {fileID: 854792818}
+  - component: {fileID: 854792825}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -12223,7 +12250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772562
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -12258,6 +12285,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &854792825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854792816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &856177881
 GameObject:
   m_ObjectHideFlags: 0
@@ -12493,6 +12532,7 @@ GameObject:
   - component: {fileID: 869908769}
   - component: {fileID: 869908768}
   - component: {fileID: 869908767}
+  - component: {fileID: 869908774}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -12575,7 +12615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772557
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -12610,6 +12650,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &869908774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869908765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &875926723
 GameObject:
   m_ObjectHideFlags: 0
@@ -14371,6 +14423,7 @@ GameObject:
   - component: {fileID: 1006532363}
   - component: {fileID: 1006532362}
   - component: {fileID: 1006532361}
+  - component: {fileID: 1006532368}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -14453,7 +14506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772555
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -14488,6 +14541,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1006532368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006532359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1013441563
 GameObject:
   m_ObjectHideFlags: 0
@@ -19724,6 +19789,7 @@ GameObject:
   - component: {fileID: 1384445235}
   - component: {fileID: 1384445234}
   - component: {fileID: 1384445233}
+  - component: {fileID: 1384445239}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -19829,6 +19895,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1384445239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384445231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1387758368
 GameObject:
   m_ObjectHideFlags: 0
@@ -21974,6 +22052,7 @@ GameObject:
   - component: {fileID: 1547285284}
   - component: {fileID: 1547285283}
   - component: {fileID: 1547285282}
+  - component: {fileID: 1547285289}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -22056,7 +22135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772560
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -22091,6 +22170,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1547285289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547285280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1548263193
 GameObject:
   m_ObjectHideFlags: 0
@@ -25439,6 +25530,7 @@ GameObject:
   - component: {fileID: 1801318267}
   - component: {fileID: 1801318266}
   - component: {fileID: 1801318265}
+  - component: {fileID: 1801318272}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -25521,7 +25613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772558
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -25556,6 +25648,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1801318272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801318263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1803916751
 GameObject:
   m_ObjectHideFlags: 0
@@ -30220,6 +30324,7 @@ GameObject:
   - component: {fileID: 2094910875}
   - component: {fileID: 2094910874}
   - component: {fileID: 2094910873}
+  - component: {fileID: 2094910880}
   m_Layer: 15
   m_Name: AreaConfig
   m_TagString: AreaBGM
@@ -30302,7 +30407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9089f1a1f73749b5961610664fae226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: -18772554
+  _id: -18772561
   AreaID: 0
   IsSyncData: 0
   TriggerType: 0
@@ -30337,6 +30442,18 @@ CapsuleCollider:
   m_Height: 50
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2094910880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094910871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a112c23c8f44f1f9323277bf4ab772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2101352121
 GameObject:
   m_ObjectHideFlags: 0
