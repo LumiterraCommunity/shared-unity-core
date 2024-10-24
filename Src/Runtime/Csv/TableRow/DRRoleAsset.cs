@@ -116,7 +116,7 @@ public class DRRoleAsset : DataRowBase
     /// <summary>
   /**获取patrolPath-string[]。*/
     /// </summary>
-    public string[] PatrolPath
+    public string PatrolPath
     {
         get;
         private set;
