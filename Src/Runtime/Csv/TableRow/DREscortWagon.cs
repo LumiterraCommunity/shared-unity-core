@@ -114,6 +114,15 @@ public class DREscortWagon : DataRowBase
     }
 
     /// <summary>
+  /**获取skillPool-int[]。*/
+    /// </summary>
+    public int[] SkillPool
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取tickets-int[]。*/
     /// </summary>
     public int[] Tickets
@@ -138,6 +147,7 @@ public class DREscortWagon : DataRowBase
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         RewardId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleAssetId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        SkillPool = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Tickets = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
@@ -161,6 +171,7 @@ public class DREscortWagon : DataRowBase
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
                 RewardId = binaryReader.Read7BitEncodedInt32();
                 RoleAssetId = binaryReader.Read7BitEncodedInt32();
+                SkillPool = binaryReader.ReadArray<Int32>();
                 Tickets = binaryReader.ReadArray<Int32>();
             }
         }
