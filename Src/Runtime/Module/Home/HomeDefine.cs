@@ -259,6 +259,7 @@ public static class HomeDefine
         empty,    //空地
         farmland, //农田
         towerLevel, //爬塔关卡
+        towerLevelTrap, //爬塔陷阱
     }
 
     /// <summary>
