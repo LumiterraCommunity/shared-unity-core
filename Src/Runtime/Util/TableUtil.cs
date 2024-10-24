@@ -83,6 +83,20 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 获取配置表中的千分位转换出来的小数 读不到配置返回参数中的默认值
+    /// </summary>
+    public static float GetGameValueFromThousands(eGameValueID id, float defaultValue)
+    {
+        if (TryGetGameValue(id, out DRGameValue drGameValue))
+        {
+            return drGameValue.Value * TableDefine.THOUSANDTH_2_FLOAT;
+        }
+
+        Log.Error($"GetGameValueFromThousands not find id = {id}");
+        return defaultValue;
+    }
+
+    /// <summary>
     /// 获取配置表中的字符串值 读不到配置返回参数中的默认值
     /// </summary>
     public static string GetGameValueString(eGameValueID id, string defaultValue)
@@ -503,6 +517,26 @@ public static class TableUtil
     }
 
     /// <summary>
+    /// 获取副本章节表数据
+    /// </summary>
+    public static DRSceneAreaChapter GetInstancingChapter(DRSceneArea drSceneArea, int index)
+    {
+        if (index < 0 || index >= drSceneArea.ChapterIds.Length)
+        {
+            Log.Error($"GetInstancingChapter Error: ChapterIds:{index} is out of range");
+            return null;
+        }
+
+        int chapterId = drSceneArea.ChapterIds[index];
+        DRSceneAreaChapter drSceneAreaChapter = GetConfig<DRSceneAreaChapter>(chapterId);
+        if (drSceneAreaChapter == null)
+        {
+            Log.Error($"GetInstancingChapter Error: drSceneAreaChapter is null, chapterId:{chapterId}");
+        }
+        return drSceneAreaChapter;
+    }
+
+    /// <summary>
     /// 获取副本关卡事件
     /// </summary>
     public static int[] GetInstancingLevelEventList(DRSceneArea drSceneArea, int index)
@@ -743,5 +777,61 @@ public static class TableUtil
         }
 
         return lv / TableDefine.EQUIPMENT_ENHANCE_STAGE_BASE;
+    }
+
+    /// <summary>
+    /// 随机资源点数据
+    /// </summary>
+    /// 
+    /// <returns></returns>
+    public static int[] RandomPointData(int[][] pointList, Dictionary<int, int> cidNumMap)
+    {
+        //point: [weight, cid, maxNum, minLv, maxLv]
+        List<int> weightList = new();
+        List<int[]> points = new();
+        for (int i = 0; i < pointList.Length; i++)
+        {
+            int[] point = pointList[i];
+            if (!cidNumMap.TryGetValue(point[1], out int curNum))
+            {
+                curNum = 0;
+            }
+
+            if (curNum < point[2])
+            {
+                weightList.Add(point[0]);
+                points.Add(point);
+            }
+        }
+        if (weightList.Count <= 0)
+        {
+            return null;
+        }
+
+        int index = MathUtilCore.RandomWeightListIndex(weightList);
+        int[] pointData = points[index];
+        //随机到空实体
+        if (pointData[1] == TableDefine.ENTITY_CID_NULL)
+        {
+            return null;
+        }
+        return pointData;
+    }
+
+    /// <summary>
+    /// 检查场景配置是否是有该功能模块
+    /// </summary>
+    /// <param name="dRSceneArea"></param>
+    /// <param name="homeType"></param>
+    /// <returns></returns>
+    public static bool CheckIsModuleScene(DRSceneArea dRSceneArea, eSceneFunctionModuleType moduleType)
+    {
+        if (dRSceneArea == null)
+        {
+            Log.Error(" CheckIsHomeModuleScene dRSceneArea is null.");
+            return false;
+        }
+        eSceneFunctionModuleType modules = ConvertToBitEnum<eSceneFunctionModuleType>(dRSceneArea.FunctionModule);
+        return (modules & moduleType) != 0;
     }
 }

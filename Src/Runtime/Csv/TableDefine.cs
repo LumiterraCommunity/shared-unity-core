@@ -42,6 +42,10 @@ public static class TableDefine
     public const int LUA_G_ITEM_ID = 765; // LuaG道具ID
     public const int ENERGY_ITEM_CD_GROUP = 8; // 精力道具CD组
     public const int EQUIPMENT_ENHANCE_STAGE_BASE = 10; // 装备强化阶段基数
+    /// <summary>
+    /// 代币作为道具时的品质 往往发生在显示在itemIcon上呈现品质
+    /// </summary>
+    public const int TOKEN_QUALITY = 3;
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
@@ -128,6 +132,7 @@ public enum eGameValueID
     WorldTotemInputMinEnergyNum = 127, //世界图腾输入最小精力数
     WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
     WorldTotemSetEnhancePriceTime = 140,      //图腾设置强化价格间隔时间
+    TowerPrizeDrawShareRateMax = 141, // 千分位
 }
 
 // public static class GameValueID
@@ -301,6 +306,7 @@ public enum eSceneFunctionModuleType
     Pve = 1 << 1,
     Pvp = 1 << 2,
     Home = 1 << 3,
+    Tower = 1 << 4,
 }
 
 /// <summary>
@@ -314,4 +320,14 @@ public enum eTalentType
     farming,
     battle,
     gather,
+}
+
+/// <summary>
+/// 章节实体类型
+/// </summary>
+public enum eChapterEntityType
+{
+    Monster = 1, //怪物
+    Resource = 2, //采集物
+    Seed = 3, //种子
 }

@@ -77,6 +77,15 @@ public class DRSceneAreaChapter : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取trapEntityList-int[][]。*/
+    /// </summary>
+    public int[][] TrapEntityList
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -89,6 +98,7 @@ public class DRSceneAreaChapter : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         SceneAreaId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        TrapEntityList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
 
         return true;
     }
@@ -107,6 +117,7 @@ public class DRSceneAreaChapter : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 SceneAreaId = binaryReader.Read7BitEncodedInt32();
+                TrapEntityList = binaryReader.ReadArrayList<Int32>();
             }
         }
 
