@@ -786,7 +786,7 @@ public static class TableUtil
     /// <returns></returns>
     public static int[] RandomPointData(int[][] pointList, Dictionary<int, int> cidNumMap)
     {
-        //point: [weight, cid, maxNum, minLv, maxLv, configId]
+        //point: [weight, cid, maxNum, minLv, maxLv]
         List<int> weightList = new();
         List<int[]> points = new();
         for (int i = 0; i < pointList.Length; i++)
