@@ -17,6 +17,7 @@ public static class DataTableConfig
         "Drop",
         "EntityAttribute",
         "Equipment",
+        "EscortWagon",
         "GameValue",
         "GeneralLotteryPool",
         "HomeManure",
