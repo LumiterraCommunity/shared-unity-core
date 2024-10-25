@@ -199,4 +199,27 @@ public static class NetUtilCore
         return netEntityId;
     }
 
+    /// <summary>
+    /// 从服务器给的一堆人中的奖励中找到某个人的奖励 里面有遍历 自己注意量级
+    /// </summary>
+    /// <param name="rewardInfo"></param>
+    /// <param name="playerId">某个玩家id</param>
+    /// <returns></returns>
+    public static UserItemBaseList FindSomeoneReward(IEnumerable<UserItemBaseList> rewardInfo, long playerId)
+    {
+        if (rewardInfo == null)
+        {
+            return null;
+        }
+
+        foreach (UserItemBaseList item in rewardInfo)
+        {
+            if (item.UserId == playerId)
+            {
+                return item;
+            }
+        }
+
+        return null;
+    }
 }
