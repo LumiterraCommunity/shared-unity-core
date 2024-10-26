@@ -24,6 +24,15 @@ public class DREscortWagon : DataRowBase
     public override int Id => _id;
 
     /// <summary>
+  /**获取combatPotentiality-int[]。*/
+    /// </summary>
+    public int[] CombatPotentiality
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取desc-string。*/
     /// </summary>
     public string Desc
@@ -136,6 +145,7 @@ public class DREscortWagon : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
+        CombatPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -160,6 +170,7 @@ public class DREscortWagon : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
+                CombatPotentiality = binaryReader.ReadArray<Int32>();
                 Desc = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
