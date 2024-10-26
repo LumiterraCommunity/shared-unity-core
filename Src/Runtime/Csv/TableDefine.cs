@@ -278,6 +278,7 @@ public enum eSkillId : int
     PutFood = 27,//放饲料
     BackOut = 573,//脱离
     TotemTp = 585,//图腾传送技能
+    WagonDance = 610,//镖车跳舞技能
 }
 
 /// <summary>
