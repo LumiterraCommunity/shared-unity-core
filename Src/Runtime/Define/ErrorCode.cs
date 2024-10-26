@@ -108,5 +108,6 @@ public enum eErrorCode : int
     wagonConfigNotFound = 1003005, //镖车配置未找到
     wagonPathNotFound = 1003006, //镖车路径未找到
     teamNotFound = 1003007, //队伍未找到
+    repeatAcceptWagon = 1003008, //重复接镖
     #endregion
 }
