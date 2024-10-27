@@ -5,6 +5,7 @@
  * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Entity/Battle/Cpt/SkillEffectCpt.cs
  * 
  */
+using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityGameFramework.Runtime;
@@ -354,6 +355,29 @@ public class SkillEffectCpt : EntityBaseComponent
         }
         return null;
     }
+
+    /// <summary>
+    /// 获取某种类型的效果列表 不会返回null
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public List<T> GetEffectList<T>()
+    {
+        List<T> list = new();
+        foreach (KeyValuePair<eSEStatusType, List<SkillEffectBase>> item in SkillEffectMap)
+        {
+            List<SkillEffectBase> effectList = item.Value;
+            for (int i = effectList.Count - 1; i >= 0; i--)//为什么是倒序 和GetEffectByType那些保持一致 不知道原因
+            {
+                if (effectList[i] is T t)
+                {
+                    list.Add(t);
+                }
+            }
+        }
+        return list;
+    }
+
     /// <summary>
     /// 获取运行效果的保存数据
     /// </summary>

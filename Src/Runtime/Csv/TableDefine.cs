@@ -240,6 +240,9 @@ public enum eSkillEffectType : int
     SEAddEntity = 34,
     SEAura = 35,
     SEBackOut = 40,
+    SESpecialTypeDamage = 42,
+    SEAcceptDamageType = 43,
+    SEMaxDamageToMaxHpRatio = 44,
 }
 
 public enum eSEFuncType : int
@@ -333,4 +336,14 @@ public enum eChapterEntityType
     Monster = 1, //怪物
     Resource = 2, //采集物
     Seed = 3, //种子
+}
+
+/// <summary>
+/// 伤害类型 区分普通伤害 押镖伤害 元素伤害等 位运算
+/// </summary>
+public enum eDamageType : int
+{
+    Unknown = 0,
+    Normal = 1 << 1, //普通伤害
+    EscortWagon = 1 << 2, //押镖伤害
 }

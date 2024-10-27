@@ -9,6 +9,24 @@
 using GameMessageCore;
 public class SENormalDamageCore : SkillEffectBase
 {
+    /// <summary>
+    /// 产生的伤害类型
+    /// </summary>
+    protected eDamageType DamageType = eDamageType.Unknown;
+
+    public override void OnAdd()
+    {
+        base.OnAdd();
+
+        DamageType = eDamageType.Normal;
+    }
+
+    public override void Clear()
+    {
+        DamageType = eDamageType.Unknown;
+
+        base.Clear();
+    }
 
     /// <summary>
     /// 检测能否应用效果
@@ -25,6 +43,12 @@ public class SENormalDamageCore : SkillEffectBase
                 return false;
             }
         }
+
+        if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, DamageType))
+        {
+            return false;
+        }
+
         return true;
     }
 
@@ -76,6 +100,10 @@ public class SENormalDamageCore : SkillEffectBase
         }
         DamageEffect effect = new();
         DamageData damage = SkillDamage.DamageCalculation(fromEntity.EntityAttributeData, targetEntity.EntityAttributeData, damageCoefficient, inputData.InputRandom);
+
+        //防御方伤害减免
+        damage.DeltaInt = SkillDamage.DamageReduction(fromEntity, targetEntity, damage.DeltaInt);
+
         effect.DamageValue = damage;
         (int hp, int whiteHP) = targetEntity.BattleDataCore.CalChangeHP(damage.DeltaInt, targetEntity.BattleDataCore.HP, targetEntity.BattleDataCore.WhiteHP);
         effect.DamageValue.CurrentInt = hp;

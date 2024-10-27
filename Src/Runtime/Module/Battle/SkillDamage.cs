@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GameMessageCore;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -243,5 +244,81 @@ public class SkillDamage
         float abLv = baseLv;
         abLv += TableUtil.GetGameValueInt(eGameValueID.EnhanceLvToAbilityLv, 100) * TableDefine.THOUSANDTH_2_FLOAT * enhanceLevel;
         return abLv;
+    }
+
+    /// <summary>
+    /// 计算伤害减免 返回减免后的
+    /// </summary>
+    /// <param name="fromEntity">攻击方</param>
+    /// <param name="targetEntity">防御方</param>
+    /// <param name="deltaInt"></param>
+    public static int DamageReduction(EntityBase fromEntity, EntityBase targetEntity, int deltaInt)
+    {
+        if (deltaInt >= 0)//加血目前没有减免逻辑
+        {
+            return deltaInt;
+        }
+
+        if (fromEntity == null)//没有攻击实体的目前不减免
+        {
+            return deltaInt;
+        }
+
+        if (targetEntity == null)//异常
+        {
+            Log.Error("DamageReduction targetEntity is null");
+            return deltaInt;
+        }
+
+        if (!targetEntity.TryGetComponent(out SkillEffectCpt effectCpt))
+        {
+            return deltaInt;
+        }
+
+        List<ISEDamageReduction> effects = effectCpt.GetEffectList<ISEDamageReduction>();
+        if (effects.Count == 0)
+        {
+            return deltaInt;
+        }
+
+        //逐个减免
+        foreach (ISEDamageReduction effect in effects)
+        {
+            deltaInt = effect.ReductionDamage(fromEntity, deltaInt);
+        }
+        deltaInt = Mathf.Min(deltaInt, 0);//防止变成加血
+
+        return deltaInt;
+    }
+
+    /// <summary>
+    /// 检查目标是否可以接收某种伤害类型
+    /// </summary>
+    public static bool CheckTargetCanAcceptDamage(EntityBase targetEntity, eDamageType damageType)
+    {
+        if (targetEntity == null)
+        {
+            Log.Error("CheckTargetCanAccept targetEntity is null");
+            return false;
+        }
+
+        if (!targetEntity.TryGetComponent(out SkillEffectCpt effectCpt))
+        {
+            Log.Error("SESpecialTypeDamageCore CheckApplyEffect targetEntity TryGetComponent SkillEffectCpt is null");
+            return false;
+        }
+
+        SkillEffectBase acceptEffectBase = effectCpt.GetEffectByType((int)eSkillEffectType.SEAcceptDamageType);
+        if (acceptEffectBase == null)//没有指定接收特殊伤害 只能接受普通伤害
+        {
+            return damageType == eDamageType.Normal;
+        }
+
+        if (acceptEffectBase is not SEAcceptDamageTypeCore acceptDamageType)
+        {
+            Log.Error("SESpecialTypeDamageCore CheckApplyEffect effectBase is not SEAcceptDamageTypeCore");
+            return false;
+        }
+        return acceptDamageType.CheckAcceptDamageType(damageType);
     }
 }
