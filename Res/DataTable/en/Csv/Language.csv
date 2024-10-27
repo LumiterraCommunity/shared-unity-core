@@ -299,7 +299,7 @@ NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
 Killing specified monsters, collecting items, or harvesting crops will grant extra drop rewards.
 There is a fixed global maximum limit on the total number of times this event can be triggered."
 ,20160018,,Difficulty
-,20160019,副本,{0} Floors
+,20160019,副本,{0} Level
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -424,11 +424,11 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20340002,爬塔,"No points today, can not draw"
 ,20340003,爬塔,Losing lottery
 ,20340004,爬塔,"No challenge record, please start at the first level."
-,20350001,押镖,Not enough escorts
-,20350002,押镖,Not enough level
-,20350003,押镖,Not in team
-,20350004,押镖,Only the team leader can start the mission
-,20350005,押镖,{0} refused the mission
+,20350001,押镖错误,Not enough escort times
+,20350002,押镖错误,Escort wagon mission system error :
+,20350003,押镖错误,Multiple mission requests
+,20350004,押镖错误,Only the team leader can start the mission
+,20350005,押镖,[color=#ooccff]{0}[/color] refused the mission
 ,20350006,押镖,The task needs to be completed in {0} minutes
 ,20350007,押镖,Complete the escort mission
 ,20350008,押镖,[color=#EC3D31]Escort wagon mission failed
