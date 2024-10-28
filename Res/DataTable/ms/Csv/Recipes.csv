@@ -1,7 +1,7 @@
 classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matItemId-int[][],name-string,productId-int[][],productTypes-int[],proficiency-int,recipesSort-int,sourceText-int,timeCost-int,timesLimit-int,type-int,unlockCondition-int,unlockType-int,useDitamin-int,useToken-int
 1, Membuat Pedang Batu Tahap 1 ,2,recipe-icon-44,44,1,"210,1;213,1",Tahap 1 Resipi Pedang Batu ,"40,1,1,10000",1,0,10900044,1,10,-,2,0,4,0,0
 2, Membuat Pedang Besi Tahap 2 ,2,recipe-icon-45,45,2,"207,2;211,1;214,1", Tahap 2 Resipi Pedang Besi ,"41,1,1,6000;41,2,1,4000",1,0,50800045,1,10,-,2,0,4,0,0
-3, Membuat Pedang Kristal Tahap 3 ,2,recipe-icon-46,46,3,"208,2;212,1;215,1", Tahap 3 Resipi Pedang Kristal ,"42,1,1,4736;42,2,1,3157;42,3,1,2105",1,0,50700046,1,10,-,2,0,4,0,0
+3, Membuat Pedang Kristal Tahap 3 ,2,recipe-icon-46,46,3,"208,2;212,1;215,1", Tahap 3 Resipi Pedang Kristal ,"42,1,1,6000;42,2,1,4000",1,0,50700046,1,10,-,2,0,4,0,0
 1, Membuat Cangkul Besi Tahap 1 ,2,recipe-icon-62,62,1,"207,2", Tahap 1 Resipi Cangkul Besi ,"80,1,1,10000",1,0,10900062,1,10,-,1,0,4,0,0
 2, Membuat Cangkul Terkutuk Tahap 2 ,2,recipe-icon-63,63,2,"216,2;208,2", Tahap 2 Resipi Cangkul Terkutuk ,"81,1,1,10000",1,0,10800063,1,10,-,1,0,4,0,0
 3, Membuat Cangkul yang Diberkati Tahap 3 ,2,recipe-icon-64,64,3,"217,2;209,2", Tahap 3 Resipi Cangkul yang Diberkati ,"82,1,1,10000",1,0,10700064,1,10,-,1,0,4,0,0
@@ -26,10 +26,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 1, Membuat Azimat Tahap 0 ,2,recipe-icon-106,106,1,"38,20;77,40;60,40;64,40;68,40", Tahap 0 Resipi Azimat ,",2,1,4426;,3,1,2950;,4,1,1967;,5,1,655",,0,50900106,1,10,-,0,0,4,0,100000
 1, Membuat Topi Semanggi Bertuah Tahap 1 ,2,recipe-icon-108,108,1,"207,2", Tahap 1 Resipi Topi Semanggi Bertuah ,"98,1,1,9310;241,5,1,344;262,5,1,344",1,0,50900108,1,10,-,1,0,4,0,0
 2, Membuat Topi Kapas Bertuah Tahap 2 ,2,recipe-icon-109,109,2,"216,2;208,2", Tahap 1 Resipi Topi Kapas Bertuah ,"99,1,1,5744;99,2,1,3829;267,5,1,212;272,5,1,212",1,0,50800109,1,10,-,1,0,4,0,0
-3, Membuat Topi Keras Bertuah Tahap 3 ,2,recipe-icon-110,110,3,"217,2;209,2", Tahap 3 Resipi Topi Keras Bertuah ,"100,1,1,4576;100,2,1,3050;100,3,1,2033;246,5,1,169;251,5,1,169",1,0,50700110,1,10,-,1,0,4,0,0
+3, Membuat Topi Keras Bertuah Tahap 3 ,2,recipe-icon-110,110,3,"217,2;209,2", Tahap 3 Resipi Topi Keras Bertuah ,"100,1,1,5744;100,2,1,3829;246,5,1,212;251,5,1,212",1,0,50700110,1,10,-,1,0,4,0,0
 1, Membuat Topi Koleksi Tahap 1 ,2,recipe-icon-111,111,1,"216,2", Tahap 1 Resipi Topi Koleksi ,"116,1,1,9310;241,5,1,344;262,5,1,344",1,0,50900111,1,10,-,3,0,4,0,0
 2, Membuat Topi Koleksi Tahap 2 ,2,recipe-icon-112,112,2,"210,1;213,1;217,2", Tahap 2 Resipi Topi Koleksi ,"117,1,1,5744;117,2,1,3829;267,5,1,212;272,5,1,212",1,0,50800112,1,10,-,3,0,4,0,0
-3, Membuat Topi Koleksi Tahap 3 ,2,recipe-icon-113,113,3,"211,1;214,1;218,2", Tahap 3 Resipi Topi Koleksi ,"118,1,1,4576;118,3,1,2033;118,2,1,3050;246,5,1,169;251,5,1,169",1,0,50700113,1,10,-,3,0,4,0,0
+3, Membuat Topi Koleksi Tahap 3 ,2,recipe-icon-113,113,3,"211,1;214,1;218,2", Tahap 3 Resipi Topi Koleksi ,"118,1,1,5744;118,2,1,3829;246,5,1,212;251,5,1,212",1,0,50700113,1,10,-,3,0,4,0,0
 1, Membuat Biji Buluh Tahap 1 ,2,recipe-icon-123,123,1,"70,1", Tahap 1 Resipi Biji Buluh ,"146,1,1,8350;150,1,1,1649",3,0,50900123,1,10,-,1,0,4,0,0
 1, Membuat Biji Semanggi Tahap 1 ,2,recipe-icon-124,124,1,"71,1", Tahap 1 Resipi Biji Semanggi ,"147,1,1,8350;149,1,1,1649",3,0,50900124,1,10,-,1,0,4,0,0
 1, Membuat Biji Lobak Merah Tahap 1 ,2,recipe-icon-125,125,1,"72,1", Tahap 1 Resipi Biji Lobak Merah ,"148,1,1,8350;151,1,1,1649",3,0,50900125,1,10,-,1,0,4,0,0
@@ -42,19 +42,19 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 3, Membuat Ramuan Penyembuhan Kristal Tahap 2 ,2,recipe-icon-132,132,3,"68,2;78,2;38,2", Tahap 2 Resipi Ramuan Penyembuhan Kristal ,"191,1,1,5031;192,1,1,993;194,1,1,993;195,1,1,993;196,1,1,993;197,1,1,993",3,0,50700132,1,10,-,3,0,4,0,0
 1, Membuat Cincin Serpihan Kristal Tahap 1 ,2,recipe-icon-133,133,1,"210,1;213,1", Tahap 1 Resipi Bulatan Serpihan Kristal ,"43,1,1,9310;241,5,1,344;262,5,1,344",1,0,50900133,1,10,-,2,0,4,0,0
 2, Membuat Topi Kulit Kristal Tahap 2 ,2,recipe-icon-134,134,2,"207,2;211,1;214,1", Tahap 2 Resipi Topi Kulit Kristal ,"44,1,1,5744;44,2,1,3829;267,5,1,212;272,5,1,212",1,0,50800134,1,10,-,2,0,4,0,0
-3, Membuat Helmet Kristal Tahap 3 ,2,recipe-icon-135,135,3,"208,2;212,1;215,1", Tahap 3 Resipi Helmet Pahlawan Hedron ,"45,1,1,4576;45,2,1,3050;45,3,1,2033;246,5,1,169;251,5,1,169",1,0,50700135,1,10,-,2,0,4,0,0
+3, Membuat Helmet Kristal Tahap 3 ,2,recipe-icon-135,135,3,"208,2;212,1;215,1", Tahap 3 Resipi Helmet Pahlawan Hedron ,"45,1,1,5744;45,2,1,3829;246,5,1,212;251,5,1,212",1,0,50700135,1,10,-,2,0,4,0,0
 1, Membuat Tunik Serpihan Kristal Tahap 1 ,2,recipe-icon-136,136,1,"210,1;213,1", Tahap 1 Resipi Perisai Anggur Serpihan Kristal ,"46,1,1,9310;242,5,1,344;263,5,1,344",1,0,50900136,1,10,-,2,0,4,0,0
 2, Membuat Atasan Kulit Kristal Tahap 2 ,2,recipe-icon-137,137,2,"207,2;211,1;214,1", Tahap 2 Resipi Atasan Warrior Baju Atasan Kulit Kristal ,"47,1,1,5744;47,2,1,3829;268,5,1,212;273,5,1,212",1,0,50800137,1,10,-,2,0,4,0,0
-3, Membuat Armor Kristal Tahap 3 ,2,recipe-icon-138,138,3,"208,2;212,1;215,1", Tahap 3 Resipi Perisai Hedron Tunik Pahlawan ,"48,1,1,4576;48,2,1,3050;48,3,1,2033;247,5,1,169;252,5,1,169",1,0,50700138,1,10,-,2,0,4,0,0
+3, Membuat Armor Kristal Tahap 3 ,2,recipe-icon-138,138,3,"208,2;212,1;215,1", Tahap 3 Resipi Perisai Hedron Tunik Pahlawan ,"48,1,1,5744;48,2,1,3829;247,5,1,212;252,5,1,212",1,0,50700138,1,10,-,2,0,4,0,0
 1, Membuat Skirt Hula Serpihan Kristal Tahap 1 ,2,recipe-icon-139,139,1,"210,1;213,1", Tahap 1 Resipi Seluar Pahlawan Skirt Hula Pecah Kristal ,"49,1,1,9310;265,5,1,344;244,5,1,344",1,0,50900139,1,10,-,2,0,4,0,0
 2, Membuat Seluar Kulit Kristal Tahap 2 ,2,recipe-icon-140,140,2,"207,2;211,1;214,1", Tahap 2 Resipi Seluar Pahlawan Seluar Kulit Kristal ,"50,1,1,5744;50,2,1,3829;270,5,1,212;275,5,1,212",1,0,50800140,1,10,-,2,0,4,0,0
-3, Membuat Leg Armor Kristal Tahap 3 ,2,recipe-icon-141,141,3,"208,2;212,1;215,1", Tahap 3 Resipi Warrior Seluar Hedron Legguards ,"51,1,1,4576;51,2,1,3050;51,3,1,2033;249,5,1,169;254,5,1,169",1,0,50700141,1,10,-,2,0,4,0,0
+3, Membuat Leg Armor Kristal Tahap 3 ,2,recipe-icon-141,141,3,"208,2;212,1;215,1", Tahap 3 Resipi Warrior Seluar Hedron Legguards ,"51,1,1,5744;51,2,1,3829;249,5,1,212;254,5,1,212",1,0,50700141,1,10,-,2,0,4,0,0
 1, Membuat Kasut Serpihan Kristal Tahap 1 ,2,recipe-icon-142,142,1,"210,1;213,1", Tahap 1 Resipi Sarung Tangan Pahlawan Gelang Serpihan Kristal ,"55,1,1,9310;245,5,1,344;266,5,1,344",1,0,50900142,1,10,-,2,0,4,0,0
 2, Membuat Kasut Kulit Kristal Tahap 2 ,2,recipe-icon-143,143,2,"207,2;211,1;214,1", Tahap 2 Resipi Sarung Tangan Warrior Sarung Tangan Kulit Kristal ,"56,1,1,5744;56,2,1,3829;271,5,1,212;276,5,1,212",1,0,50800143,1,10,-,2,0,4,0,0
-3, Membuat Kasut Kristal Tahap 3 ,2,recipe-icon-144,144,3,"208,2;212,1;215,1", Tahap 3 Resipi Sarung Tangan Pahlawan Hedron Gauntlets ,"57,1,1,4576;57,2,1,3050;57,3,1,2033;250,5,1,169;255,5,1,169",1,0,50700144,1,10,-,2,0,4,0,0
+3, Membuat Kasut Kristal Tahap 3 ,2,recipe-icon-144,144,3,"208,2;212,1;215,1", Tahap 3 Resipi Sarung Tangan Pahlawan Hedron Gauntlets ,"57,1,1,5744;57,2,1,3829;250,5,1,212;255,5,1,212",1,0,50700144,1,10,-,2,0,4,0,0
 1, Membuat Sarung Tangan Serpihan Kristal Tahap 1 ,2,recipe-icon-145,145,1,"210,1;213,1", Tahap 1 Resipi Sandal Serpihan Kasut Pahlawan ,"52,1,1,9310;243,5,1,344;264,5,1,344",1,0,50900145,1,10,-,2,0,4,0,0
 2, Membuat Sarung Tangan Kulit Kristal Tahap 2 ,2,recipe-icon-146,146,2,"207,2;211,1;214,1", Tahap 2 Resipi Kasut Warrior But Kulit Kristal ,"53,1,1,5744;53,2,1,3829;274,5,1,212;269,5,1,212",1,0,50800146,1,10,-,2,0,4,0,0
-3, Membuat Sarung Tangan Kristal Tahap 3 ,2,recipe-icon-147,147,3,"208,2;212,1;215,1", Tahap 3 Resipi Kasut Pahlawan Kasut Spar ,"54,1,1,4655;54,2,1,3103;54,3,1,2068;253,5,1,172",1,0,50700147,1,10,-,2,0,4,0,0
+3, Membuat Sarung Tangan Kristal Tahap 3 ,2,recipe-icon-147,147,3,"208,2;212,1;215,1", Tahap 3 Resipi Kasut Pahlawan Kasut Spar ,"54,1,1,5869;54,2,1,3913;253,5,1,217",1,0,50700147,1,10,-,2,0,4,0,0
 1, Membuat Intipati Pertempuran Tahap 1 ,2,recipe-icon-149,149,1,"30,5;31,5;32,5", Tahap 1 Resipi Batu ,"216,1,1,10000",4,0,20900149,1,10,-,2,0,4,0,0
 2, Membuat Intipati Pertempuran Tahap 2 ,2,recipe-icon-150,150,2,"33,5;35,5;34,5;216,2", Tahap 2 Resipi Bijih Besi Hitam ,"217,1,1,10000",4,0,20800150,1,10,-,2,0,4,0,0
 3, Membuat Intipati Pertempuran Tahap 3 ,2,recipe-icon-151,151,3,"36,5;37,5;38,5;217,2", Tahap 3 Resipi Lombong Kristal Merah ,"218,1,1,10000",4,0,20700151,1,10,-,2,0,4,0,100
@@ -75,10 +75,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 2, Membuat Seluar Pertanian Tahap 2 ,2,recipe-icon-170,170,2,"216,2;208,2", Tahap 2 Resipi Seluar Pertanian ,"105,1,1,5744;105,2,1,3829;270,5,1,212;275,5,1,212",1,0,50800170,1,10,-,1,0,4,0,0
 2, Membuat Sarung Tangan Pertanian Tahap 2 ,2,recipe-icon-171,171,2,"216,2;208,2", Tahap 2 Resipi Sarung Tangan Pertanian ,"108,1,1,5744;108,2,1,3829;274,5,1,212;269,5,1,212",1,0,50800171,1,10,-,1,0,4,0,0
 2, Membuat Kasut Pertanian Tahap 2 ,2,recipe-icon-172,172,2,"216,2;208,2", Tahap 2 Resipi Kasut Pertanian ,"111,1,1,5744;111,2,1,3829;271,5,1,212;276,5,1,212",1,0,50800172,1,10,-,1,0,4,0,0
-3, Membuat Baju Atasan Pertanian Tahap 3 ,2,recipe-icon-173,173,3,"217,2;209,2", Tahap 3 Resipi Baju Atasan Pertanian ,"103,1,1,4576;103,2,1,3050;103,3,1,2033;247,5,1,169;252,5,1,169",1,0,50700173,1,10,-,1,0,4,0,0
-3, Membuat Seluar Pertanian Tahap 3 ,2,recipe-icon-174,174,3,"217,2;209,2", Tahap 3 Resipi Seluar Pertanian ,"106,1,1,4576;106,3,1,2033;106,2,1,3050;249,5,1,169;254,5,1,169",1,0,50700174,1,10,-,1,0,4,0,0
-3, Membuat Sarung Tangan Pertanian Tahap 3 ,2,recipe-icon-175,175,3,"217,2;209,2", Tahap 3 Resipi Sarung Tangan Pertanian ,"109,2,1,3103;109,1,1,4655;109,3,1,2068;253,5,1,172",1,0,50700175,1,10,-,1,0,4,0,0
-3, Membuat Kasut Pertanian Tahap 3 ,2,recipe-icon-176,176,3,"217,2;209,2", Tahap 3 Resipi Kasut Pertanian ,"112,1,1,4576;112,3,1,2033;112,2,1,3050;250,5,1,169;255,5,1,169",1,0,50700176,1,10,-,1,0,4,0,0
+3, Membuat Baju Atasan Pertanian Tahap 3 ,2,recipe-icon-173,173,3,"217,2;209,2", Tahap 3 Resipi Baju Atasan Pertanian ,"103,1,1,5744;103,2,1,3829;247,5,1,212;252,5,1,212",1,0,50700173,1,10,-,1,0,4,0,0
+3, Membuat Seluar Pertanian Tahap 3 ,2,recipe-icon-174,174,3,"217,2;209,2", Tahap 3 Resipi Seluar Pertanian ,"106,1,1,5744;106,2,1,3829;249,5,1,212;254,5,1,212",1,0,50700174,1,10,-,1,0,4,0,0
+3, Membuat Sarung Tangan Pertanian Tahap 3 ,2,recipe-icon-175,175,3,"217,2;209,2", Tahap 3 Resipi Sarung Tangan Pertanian ,"109,2,1,3913;109,1,1,5869;253,5,1,217",1,0,50700175,1,10,-,1,0,4,0,0
+3, Membuat Kasut Pertanian Tahap 3 ,2,recipe-icon-176,176,3,"217,2;209,2", Tahap 3 Resipi Kasut Pertanian ,"112,1,1,5744;112,2,1,3829;250,5,1,212;255,5,1,212",1,0,50700176,1,10,-,1,0,4,0,0
 1, Membuat Kasut Koleksi Tahap 1 ,2,recipe-icon-177,177,1,"216,2", Tahap 1 Resipi Kasut Koleksi ,"113,1,1,9310;245,5,1,344;266,5,1,344",1,0,50900177,1,10,-,3,0,4,0,0
 1, Membuat Baju Atasan Koleksi Tahap 1 ,2,recipe-icon-178,178,1,"216,2", Tahap 1 Resipi Baju Atasan Koleksi ,"119,1,1,9310;242,5,1,344;263,5,1,344",1,0,50900178,1,10,-,3,0,4,0,0
 1, Membuat Seluar Koleksi Tahap 1 ,2,recipe-icon-179,179,1,"216,2", Tahap 1 Resipi Seluar Koleksi ,"122,1,1,9310;265,5,1,344;244,5,1,344",1,0,50900179,1,10,-,3,0,4,0,0
@@ -87,10 +87,10 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 2, Membuat Baju Atasan Koleksi Tahap 2 ,2,recipe-icon-182,182,2,"210,1;213,1;217,2", Tahap 2 Resipi Baju Atasan Koleksi ,"120,1,1,5744;120,2,1,3829;268,5,1,212;273,5,1,212",1,0,50800182,1,10,-,3,0,4,0,0
 2, Membuat Seluar Koleksi Tahap 2 ,2,recipe-icon-183,183,2,"210,1;213,1;217,2", Tahap 2 Resipi Seluar Koleksi ,"123,1,1,5744;123,2,1,3829;270,5,1,212;275,5,1,212",1,0,50800183,1,10,-,3,0,4,0,0
 2, Membuat Sarung Tangan Koleksi Tahap 2 ,2,recipe-icon-184,184,2,"210,1;213,1;217,2", Tahap 2 Resipi Sarung Tangan Koleksi ,"126,1,1,5744;126,2,1,3829;274,5,1,212;269,5,1,212",1,0,50800184,1,10,-,3,0,4,0,0
-3, Membuat Kasut Koleksi Tahap 3 ,2,recipe-icon-185,185,3,"211,1;214,1;218,2", Tahap 3 Resipi Kasut Koleksi ,"115,1,1,4576;115,3,1,2033;115,2,1,3050;250,5,1,169;255,5,1,169",1,0,50700185,1,10,-,3,0,4,0,0
-3, Membuat Baju Atasan Koleksi Tahap 3 ,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Tahap 3 Resipi Baju Atasan Koleksi ,"121,1,1,4576;121,3,1,2033;121,2,1,3050;247,5,1,169;252,5,1,169",1,0,50700186,1,10,-,3,0,4,0,0
-3, Membuat Seluar Koleksi Tahap 3 ,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Tahap 3 Resipi Seluar Koleksi ,"124,1,1,4576;124,3,1,2033;124,2,1,3050;249,5,1,169;254,5,1,169",1,0,50700187,1,10,-,3,0,4,0,0
-3, Membuat Sarung Tangan Koleksi Tahap 3 ,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Tahap 3 Resipi Sarung Tangan Koleksi ,"127,1,1,4655;127,2,1,3103;127,3,1,2068;253,5,1,172",1,0,50700188,1,10,-,3,0,4,0,0
+3, Membuat Kasut Koleksi Tahap 3 ,2,recipe-icon-185,185,3,"211,1;214,1;218,2", Tahap 3 Resipi Kasut Koleksi ,"115,1,1,5744;115,2,1,3829;250,5,1,212;255,5,1,212",1,0,50700185,1,10,-,3,0,4,0,0
+3, Membuat Baju Atasan Koleksi Tahap 3 ,2,recipe-icon-186,186,3,"211,1;214,1;218,2", Tahap 3 Resipi Baju Atasan Koleksi ,"121,1,1,5744;121,2,1,3829;247,5,1,212;252,5,1,212",1,0,50700186,1,10,-,3,0,4,0,0
+3, Membuat Seluar Koleksi Tahap 3 ,2,recipe-icon-187,187,3,"211,1;214,1;218,2", Tahap 3 Resipi Seluar Koleksi ,"124,1,1,5744;124,2,1,3829;249,5,1,212;254,5,1,212",1,0,50700187,1,10,-,3,0,4,0,0
+3, Membuat Sarung Tangan Koleksi Tahap 3 ,2,recipe-icon-188,188,3,"211,1;214,1;218,2", Tahap 3 Resipi Sarung Tangan Koleksi ,"127,1,1,5869;127,2,1,3913;253,5,1,217",1,0,50700188,1,10,-,3,0,4,0,0
 0, Membuat Pedang Kayu Tahap 0 ,2,recipe-icon-189,189,0,"842,2", Tahap 1 Resipi Buluh ,"39,1,1,10000",1,0,11000189,1,6,-,2,1,1,0,0
 0, Membuat Cangkul Kayu Tahap 0 ,2,recipe-icon-190,190,0,"844,1;845,1", Tahap 1 Resipi Semanggi ,"79,1,1,10000",1,0,11000190,1,6,-,1,1,1,0,0
 0, Membuat Berus Tahap 0 ,2,recipe-icon-191,191,0,"844,1;845,1", Tahap 1 Resipi Lobak Merah ,"95,1,1,10000",1,0,11000191,1,6,-,1,1,1,0,0
@@ -119,66 +119,66 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 1,Resipi Slime Tenaga Pertanian Tahap 1,2,recipe-icon-267,267,1,"58,4;62,4;66,4", Tahap 1 Resipi Slime Tenaga Kumpul,"482,1,1,10000",4,0,20900267,1,6,-,3,0,4,0,0
 2,Resipi Slime Tenaga Pertanian Tahap 2,2,recipe-icon-268,268,2,"482,1;63,4;59,4;67,4", Tahap 2 Resipi Slime Tenaga Kumpul,"483,1,1,10000",4,0,20800268,1,6,-,3,0,4,0,0
 3,Resipi Slime Tenaga Pertanian Tahap 3,2,recipe-icon-269,269,3,"483,1;60,4;68,4;64,4", Tahap 3 Resipi Slime Tenaga Kumpul,"484,1,1,10000",4,0,20700269,1,6,-,3,0,4,0,0
-4,Resipi Pedang Emas,2,recipe-icon-270,270,4,"209,2;407,1;410,1", Resipi Pedang Emas ,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",1,0,50600270,1,60,-,2,0,4,0,5000
-4,Resipi Topi Pejuang Emas,2,recipe-icon-271,271,4,"209,2;407,1;410,1", Resipi Topi Pejuang Emas ,"335,1,1,4090;335,2,1,2727;335,3,1,1818;335,4,1,1212;471,5,1,151",1,0,50600271,1,60,-,2,0,4,0,5000
-4,Resipi Kot Pejuang Emas,2,recipe-icon-272,272,4,"209,2;407,1;410,1", Resipi Kot Pejuang Emas ,"336,1,1,4090;336,2,1,2727;336,3,1,1818;336,4,1,1212;472,5,1,151",1,0,50600272,1,60,-,2,0,4,0,5000
-4,Resipi Sarung Tangan Pejuang Emas,2,recipe-icon-273,273,4,"209,2;407,1;410,1", Resipi Sarung Tangan Pejuang Emas ,"337,1,1,4090;337,2,1,2727;337,3,1,1818;337,4,1,1212;248,5,1,151",1,0,50600273,1,60,-,2,0,4,0,5000
-4,Resipi Seluar Pejuang Emas,2,recipe-icon-274,274,4,"209,2;407,1;410,1", Resipi Seluar Pejuang Emas ,"338,1,1,4090;338,2,1,2727;338,3,1,1818;338,4,1,1212;474,5,1,151",1,0,50600274,1,60,-,2,0,4,0,5000
-4,Resipi Kasut Pejuang Emas,2,recipe-icon-275,275,4,"209,2;407,1;410,1", Resipi Kasut Pejuang Emas ,"339,1,1,4090;339,2,1,2727;339,3,1,1818;339,4,1,1212;475,5,1,151",1,0,50600275,1,60,-,2,0,4,0,5000
-4,Resipi Sabit Emas,2,recipe-icon-276,276,4,"401,2;212,1;215,1", Resipi Sabit Emas ,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",1,0,50600276,1,60,-,3,0,4,0,5000
-4,Resipi Kapak Emas,2,recipe-icon-277,277,4,"212,1;215,1;401,2", Resipi Kapak Emas ,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",1,0,50600277,1,60,-,3,0,4,0,5000
-4,Resipi Beliung Emas,2,recipe-icon-278,278,4,"212,1;215,1;401,2", Resipi Beliung Emas ,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",1,0,50600278,1,60,-,3,0,4,0,5000
-4,Resipi Topi Kumpul Emas,2,recipe-icon-279,279,4,"212,1;215,1;401,2", Resipi Topi Kumpul Emas ,"320,1,1,4090;320,2,1,2727;320,3,1,1818;320,4,1,1212;471,5,1,151",1,0,50600279,1,60,-,3,0,4,0,5000
-4,Resipi Kot Kumpul Emas,2,recipe-icon-280,280,4,"212,1;215,1;401,2", Resipi Kot Kumpul Emas ,"321,1,1,4090;321,2,1,2727;321,3,1,1818;321,4,1,1212;472,5,1,151",1,0,50600280,1,60,-,3,0,4,0,5000
-4,Resipi Sarung Tangan Kumpul Emas,2,recipe-icon-281,281,4,"212,1;215,1;401,2", Resipi Sarung Tangan Kumpul Emas ,"322,1,1,4090;322,2,1,2727;322,3,1,1818;322,4,1,1212;248,5,1,151",1,0,50600281,1,60,-,3,0,4,0,5000
-4,Resipi Cangkul Emas,2,recipe-icon-282,282,4,"218,2;404,2", Resipi Cangkul Emas ,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",1,0,50600282,1,60,-,1,0,4,0,5000
-4,Resipi Topi Petani Emas,2,recipe-icon-284,284,4,"218,2;404,2", Resipi Topi Petani Emas ,"350,1,1,4090;350,2,1,2727;350,3,1,1818;350,4,1,1212;471,5,1,151",1,0,50600284,1,60,-,1,0,4,0,5000
-4,Resipi Kot Petani Emas,2,recipe-icon-285,285,4,"218,2;404,2", Resipi Kot Petani Emas ,"351,1,1,4090;351,2,1,2727;351,3,1,1818;351,4,1,1212;472,5,1,151",1,0,50600285,1,60,-,1,0,4,0,5000
-4,Resipi Sarung Tangan Petani Emas,2,recipe-icon-286,286,4,"218,2;404,2", Resipi Sarung Tangan Petani Emas ,"352,1,1,4090;352,2,1,2727;352,3,1,1818;352,4,1,1212;248,5,1,151",1,0,50600286,1,60,-,1,0,4,0,5000
-4,Resipi Seluar Petani Emas,2,recipe-icon-287,287,4,"218,2;404,2", Resipi Seluar Petani Emas ,"353,1,1,4090;353,2,1,2727;353,3,1,1818;353,4,1,1212;474,5,1,151",1,0,50600287,1,60,-,1,0,4,0,5000
-4,Resipi Seluar Kumpul Emas,2,recipe-icon-288,288,4,"212,1;215,1;401,2", Resipi Seluar Kumpul Emas ,"323,1,1,4090;323,2,1,2727;323,3,1,1818;323,4,1,1212;474,5,1,151",1,0,50600288,1,60,-,3,0,4,0,5000
-4,Resipi Kasut Kumpul Emas,2,recipe-icon-289,289,4,"212,1;215,1;401,2", Resipi Kasut Kumpul Emas ,"324,1,1,4090;324,2,1,2727;324,3,1,1818;324,4,1,1212;475,5,1,151",1,0,50600289,1,60,-,3,0,4,0,5000
-4,Resipi Kasut Petani Emas,2,recipe-icon-291,291,4,"218,2;404,2", Resipi Kasut Petani Emas ,"354,1,1,4090;354,2,1,2727;354,3,1,1818;354,4,1,1212;475,5,1,151",1,0,50600291,1,60,-,1,0,4,0,5000
-5,Resipi Pedang Berlian,2,recipe-icon-292,292,5,"404,2;408,1;411,1", Resipi Pedang Berlian ,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",1,0,50500292,1,180,-,2,0,4,0,7500
-5,Resipi Topi Pejuang Berlian,2,recipe-icon-293,293,5,"404,2;408,1;411,1", Resipi Topi Pejuang Berlian ,"340,1,1,3932;340,2,1,2621;340,3,1,1747;340,4,1,1165;340,5,1,388;277,5,1,145",1,0,50500293,1,180,-,2,0,4,0,7500
-5,Resipi Kot Pejuang Berlian,2,recipe-icon-294,294,5,"404,2;408,1;411,1", Resipi Kot Pejuang Berlian ,"341,1,1,3932;341,2,1,2621;341,3,1,1747;341,4,1,1165;341,5,1,388;278,5,1,145",1,0,50500294,1,180,-,2,0,4,0,7500
-5,Resipi Sarung Tangan Pejuang Berlian,2,recipe-icon-295,295,5,"404,2;408,1;411,1", Resipi Sarung Tangan Pejuang Berlian ,"342,1,1,3932;342,2,1,2621;342,3,1,1747;342,4,1,1165;342,5,1,388;473,5,1,145",1,0,50500295,1,180,-,2,0,4,0,7500
-5,Resipi Seluar Pejuang Berlian,2,recipe-icon-296,296,5,"404,2;408,1;411,1", Resipi Seluar Pejuang Berlian ,"343,1,1,3932;343,2,1,2621;343,3,1,1747;343,4,1,1165;343,5,1,388;280,5,1,145",1,0,50500296,1,180,-,2,0,4,0,7500
-5,Resipi Kasut Pejuang Berlian,2,recipe-icon-297,297,5,"404,2;408,1;411,1", Resipi Kasut Pejuang Berlian ,"344,1,1,3932;344,2,1,2621;344,3,1,1747;344,4,1,1165;344,5,1,388;281,5,1,145",1,0,50500297,1,180,-,2,0,4,0,7500
-5,Resipi Sabit Berlian,2,recipe-icon-298,298,5,"402,2;407,1;410,1", Resipi Sabit Berlian ,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",1,0,50500298,1,180,-,3,0,4,0,7500
-5,Resipi Kapak Berlian,2,recipe-icon-299,299,5,"407,1;410,1;402,2", Resipi Kapak Berlian ,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",1,0,50500299,1,180,-,3,0,4,0,7500
-5,Resipi Beliung Berlian,2,recipe-icon-300,300,5,"407,1;410,1;402,2", Resipi Beliung Berlian ,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",1,0,50500300,1,180,-,3,0,4,0,7500
-5,Resipi Topi Kumpul Berlian,2,recipe-icon-301,301,5,"407,1;410,1;402,2", Resipi Topi Kumpul Berlian ,"325,1,1,3932;325,2,1,2621;325,3,1,1747;325,4,1,1165;325,5,1,388;277,5,1,145",1,0,50500301,1,180,-,3,0,4,0,7500
-5,Resipi Kot Kumpul Berlian,2,recipe-icon-302,302,5,"407,1;410,1;402,2", Resipi Kot Kumpul Berlian ,"326,1,1,3932;326,2,1,2621;326,3,1,1747;326,4,1,1165;326,5,1,388;278,5,1,145",1,0,50500302,1,180,-,3,0,4,0,7500
-5,Resipi Sarung Tangan Kumpul Berlian,2,recipe-icon-303,303,5,"407,1;410,1;402,2", Resipi Sarung Tangan Kumpul Berlian ,"327,1,1,3932;327,2,1,2621;327,3,1,1747;327,4,1,1165;327,5,1,388;473,5,1,145",1,0,50500303,1,180,-,3,0,4,0,7500
-5,Resipi Seluar Kumpul Berlian,2,recipe-icon-304,304,5,"407,1;410,1;402,2", Resipi Seluar Kumpul Berlian ,"328,1,1,3932;328,2,1,2621;328,3,1,1747;328,4,1,1165;328,5,1,388;280,5,1,145",1,0,50500304,1,180,-,3,0,4,0,7500
-5,Resipi Kasut Kumpul Berlian,2,recipe-icon-305,305,5,"407,1;410,1;402,2", Resipi Kasut Kumpul Berlian ,"329,1,1,3932;329,2,1,2621;329,3,1,1747;329,4,1,1165;329,5,1,388;281,5,1,145",1,0,50500305,1,180,-,3,0,4,0,7500
-5,Resipi Cangkul Berlian,2,recipe-icon-306,306,5,"401,2;405,2", Resipi Cangkul Berlian ,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",1,0,50500306,1,180,-,1,0,4,0,7500
-5,Resipi Topi Petani Berlian,2,recipe-icon-308,308,5,"401,2;405,2", Resipi Topi Petani Berlian ,"355,1,1,3932;355,2,1,2621;355,3,1,1747;355,4,1,1165;355,5,1,388;277,5,1,145",1,0,50500308,1,180,-,1,0,4,0,7500
-5,Resipi Kot Petani Berlian,2,recipe-icon-309,309,5,"401,2;405,2", Resipi Kot Petani Berlian ,"356,1,1,3932;356,2,1,2621;356,3,1,1747;356,4,1,1165;356,5,1,388;278,5,1,145",1,0,50500309,1,180,-,1,0,4,0,7500
-5,Resipi Sarung Tangan Petani Berlian,2,recipe-icon-310,310,5,"401,2;405,2", Resipi Sarung Tangan Petani Berlian ,"357,1,1,3932;357,2,1,2621;357,3,1,1747;357,4,1,1165;357,5,1,388;473,5,1,145",1,0,50500310,1,180,-,1,0,4,0,7500
-5, Resipi Seluar Petani Berlian,2,recipe-icon-311,311,5,"401,2;405,2", Resipi Seluar Petani Berlian ,"358,1,1,3932;358,2,1,2621;358,3,1,1747;358,4,1,1165;358,5,1,388;280,5,1,145",1,0,50500311,1,180,-,1,0,4,0,7500
-5, Resipi Kasut Petani Berlian,2,recipe-icon-312,312,5,"401,2;405,2", Resipi Kasut Petani Berlian ,"359,1,1,3932;359,2,1,2621;359,3,1,1747;359,4,1,1165;359,5,1,388;281,5,1,145",1,0,50500312,1,180,-,1,0,4,0,7500
-6, Resipi Pedang Bintang,2,recipe-icon-313,313,6,"405,2;409,1;412,1", Resipi Pedang Bintang ,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",1,0,50400313,1,540,-,2,0,4,0,10000
-6, Resipi Topi Pejuang Bintang,2,recipe-icon-314,314,6,"405,2;409,1;412,1", Resipi Topi Pejuang Bintang ,"345,1,1,3932;345,2,1,2621;345,3,1,1747;345,4,1,1165;345,5,1,388;282,5,1,145",1,0,50400314,1,540,-,2,0,4,0,10000
-6, Resipi Kot Pejuang Bintang,2,recipe-icon-315,315,6,"405,2;409,1;412,1", Resipi Kot Pejuang Bintang ,"346,1,1,3932;346,2,1,2621;346,3,1,1747;346,4,1,1165;346,5,1,388;283,5,1,145",1,0,50400315,1,540,-,2,0,4,0,10000
-6, Resipi Sarung Tangan Pejuang Bintang,2,recipe-icon-316,316,6,"405,2;409,1;412,1", Resipi Sarung Tangan Pejuang Bintang ,"347,1,1,3875;347,2,1,2583;347,3,1,1722;347,4,1,1148;347,5,1,382;279,5,1,143;284,5,1,143",1,0,50400316,1,540,-,2,0,4,0,10000
-6, Resipi Seluar Pejuang Bintang,2,recipe-icon-317,317,6,"405,2;409,1;412,1", Resipi Seluar Pejuang Bintang,"348,1,1,3932;348,2,1,2621;348,3,1,1747;348,4,1,1165;348,5,1,388;285,5,1,145",1,0,50400317,1,540,-,2,0,4,0,10000
-6, Resipi Kasut Pejuang Bintang,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Resipi Kasut Star Fighter,"349,1,1,3932;349,2,1,2621;349,3,1,1747;349,4,1,1165;349,5,1,388;286,5,1,145",1,0,50400318,1,540,-,2,0,4,0,10000
-6, Resipi Sabit Bintang,2,recipe-icon-319,319,6,"403,2;408,1;411,1", Resipi Sabit Star,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",1,0,50400319,1,540,-,3,0,4,0,10000
-6, Resipi Kapak Bintang,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Resipi Kapak Star,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",1,0,50400320,1,540,-,3,0,4,0,10000
-6, Resipi Beliung Bintang,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Resipi Beliung Star,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",1,0,50400321,1,540,-,3,0,4,0,10000
-6, Resipi Topi Kumpul Bintang,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Resipi Topi Kumpul Star,"330,1,1,3932;330,2,1,2621;330,3,1,1747;330,4,1,1165;330,5,1,388;282,5,1,145",1,0,50400322,1,540,-,3,0,4,0,10000
-6, Resipi Kot Kumpul Bintang,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Resipi Baju Kumpul Star,"331,1,1,3932;331,2,1,2621;331,3,1,1747;331,4,1,1165;331,5,1,388;283,5,1,145",1,0,50400323,1,540,-,3,0,4,0,10000
-6, Resipi Sarung Tangan Kumpul Bintang,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Resipi Sarung Tangan Kumpul Star,"332,1,1,3875;332,2,1,2583;332,3,1,1722;332,4,1,1148;332,5,1,382;279,5,1,143;284,5,1,143",1,0,50400324,1,540,-,3,0,4,0,10000
-6, Resipi Seluar Kumpul Bintang,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Resipi Seluar Kumpul Star,"333,1,1,3932;333,2,1,2621;333,3,1,1747;333,4,1,1165;333,5,1,388;285,5,1,145",1,0,50400325,1,540,-,3,0,4,0,10000
-6, Resipi Kasut Kumpul Bintang,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Resipi Kasut Kumpul Star,"334,1,1,3932;334,2,1,2621;334,3,1,1747;334,4,1,1165;334,5,1,388;286,5,1,145",1,0,50400326,1,540,-,3,0,4,0,10000
-6, Resipi Cangkul Bintang,2,recipe-icon-327,327,6,"402,2;406,2", Resipi Cangkul Star,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",1,0,50400327,1,540,-,1,0,4,0,10000
-6, Resipi Topi Petani Bintang,2,recipe-icon-329,329,6,"402,2;406,2", Resipi Topi Petani Star,"360,1,1,3932;360,2,1,2621;360,3,1,1747;360,4,1,1165;360,5,1,388;282,5,1,145",1,0,50400329,1,540,-,1,0,4,0,10000
-6, Resipi Kot Petani Bintang,2,recipe-icon-330,330,6,"402,2;406,2", Resipi Baju Petani Star,"361,1,1,3932;361,2,1,2621;361,3,1,1747;361,4,1,1165;361,5,1,388;283,5,1,145",1,0,50400330,1,540,-,1,0,4,0,10000
-6, Resipi Sarung Tangan Petani Bintang,2,recipe-icon-331,331,6,"402,2;406,2", Resipi Sarung Tangan Petani Star,"362,1,1,3875;362,2,1,2583;362,3,1,1722;362,4,1,1148;362,5,1,382;279,5,1,143;284,5,1,143",1,0,50400331,1,540,-,1,0,4,0,10000
-6, Resipi Seluar Petani Bintang,2,recipe-icon-332,332,6,"402,2;406,2", Resipi Seluar Petani Star,"363,1,1,3932;363,2,1,2621;363,3,1,1747;363,4,1,1165;363,5,1,388;285,5,1,145",1,0,50400332,1,540,-,1,0,4,0,10000
-6, Resipi Kasut Petani Bintang,2,recipe-icon-333,333,6,"402,2;406,2", Resipi Kasut Petani Star,"364,1,1,3932;364,2,1,2621;364,3,1,1747;364,4,1,1165;364,5,1,388;286,5,1,145",1,0,50400333,1,540,-,1,0,4,0,10000
+4,Resipi Pedang Emas,2,recipe-icon-270,270,4,"209,2;407,1;410,1", Resipi Pedang Emas ,"317,1,1,4736;317,2,1,3157;317,3,1,2105",1,0,50600270,1,60,-,2,0,4,0,5000
+4,Resipi Topi Pejuang Emas,2,recipe-icon-271,271,4,"209,2;407,1;410,1", Resipi Topi Pejuang Emas ,"335,1,1,4655;335,2,1,3103;335,3,1,2068;471,5,1,172",1,0,50600271,1,60,-,2,0,4,0,5000
+4,Resipi Kot Pejuang Emas,2,recipe-icon-272,272,4,"209,2;407,1;410,1", Resipi Kot Pejuang Emas ,"336,1,1,4655;336,2,1,3103;336,3,1,2068;472,5,1,172",1,0,50600272,1,60,-,2,0,4,0,5000
+4,Resipi Sarung Tangan Pejuang Emas,2,recipe-icon-273,273,4,"209,2;407,1;410,1", Resipi Sarung Tangan Pejuang Emas ,"337,1,1,4655;337,2,1,3103;337,3,1,2068;248,5,1,172",1,0,50600273,1,60,-,2,0,4,0,5000
+4,Resipi Seluar Pejuang Emas,2,recipe-icon-274,274,4,"209,2;407,1;410,1", Resipi Seluar Pejuang Emas ,"338,1,1,4655;338,2,1,3103;338,3,1,2068;474,5,1,172",1,0,50600274,1,60,-,2,0,4,0,5000
+4,Resipi Kasut Pejuang Emas,2,recipe-icon-275,275,4,"209,2;407,1;410,1", Resipi Kasut Pejuang Emas ,"339,1,1,4655;339,2,1,3103;339,3,1,2068;475,5,1,172",1,0,50600275,1,60,-,2,0,4,0,5000
+4,Resipi Sabit Emas,2,recipe-icon-276,276,4,"401,2;212,1;215,1", Resipi Sabit Emas ,"303,1,1,4736;303,2,1,3157;303,3,1,2105",1,0,50600276,1,60,-,3,0,4,0,5000
+4,Resipi Kapak Emas,2,recipe-icon-277,277,4,"212,1;215,1;401,2", Resipi Kapak Emas ,"300,1,1,4736;300,2,1,3157;300,3,1,2105",1,0,50600277,1,60,-,3,0,4,0,5000
+4,Resipi Beliung Emas,2,recipe-icon-278,278,4,"212,1;215,1;401,2", Resipi Beliung Emas ,"301,1,1,4736;301,2,1,3157;301,3,1,2105",1,0,50600278,1,60,-,3,0,4,0,5000
+4,Resipi Topi Kumpul Emas,2,recipe-icon-279,279,4,"212,1;215,1;401,2", Resipi Topi Kumpul Emas ,"320,1,1,4655;320,2,1,3103;320,3,1,2068;471,5,1,172",1,0,50600279,1,60,-,3,0,4,0,5000
+4,Resipi Kot Kumpul Emas,2,recipe-icon-280,280,4,"212,1;215,1;401,2", Resipi Kot Kumpul Emas ,"321,1,1,4655;321,2,1,3103;321,3,1,2068;472,5,1,172",1,0,50600280,1,60,-,3,0,4,0,5000
+4,Resipi Sarung Tangan Kumpul Emas,2,recipe-icon-281,281,4,"212,1;215,1;401,2", Resipi Sarung Tangan Kumpul Emas ,"322,1,1,4655;322,2,1,3103;322,3,1,2068;248,5,1,172",1,0,50600281,1,60,-,3,0,4,0,5000
+4,Resipi Cangkul Emas,2,recipe-icon-282,282,4,"218,2;404,2", Resipi Cangkul Emas ,"299,1,1,4736;299,2,1,3157;299,3,1,2105",1,0,50600282,1,60,-,1,0,4,0,5000
+4,Resipi Topi Petani Emas,2,recipe-icon-284,284,4,"218,2;404,2", Resipi Topi Petani Emas ,"350,1,1,4655;350,2,1,3103;350,3,1,2068;471,5,1,172",1,0,50600284,1,60,-,1,0,4,0,5000
+4,Resipi Kot Petani Emas,2,recipe-icon-285,285,4,"218,2;404,2", Resipi Kot Petani Emas ,"351,1,1,4655;351,2,1,3103;351,3,1,2068;472,5,1,172",1,0,50600285,1,60,-,1,0,4,0,5000
+4,Resipi Sarung Tangan Petani Emas,2,recipe-icon-286,286,4,"218,2;404,2", Resipi Sarung Tangan Petani Emas ,"352,1,1,4655;352,2,1,3103;352,3,1,2068;248,5,1,172",1,0,50600286,1,60,-,1,0,4,0,5000
+4,Resipi Seluar Petani Emas,2,recipe-icon-287,287,4,"218,2;404,2", Resipi Seluar Petani Emas ,"353,1,1,4655;353,2,1,3103;353,3,1,2068;474,5,1,172",1,0,50600287,1,60,-,1,0,4,0,5000
+4,Resipi Seluar Kumpul Emas,2,recipe-icon-288,288,4,"212,1;215,1;401,2", Resipi Seluar Kumpul Emas ,"323,1,1,4655;323,2,1,3103;323,3,1,2068;474,5,1,172",1,0,50600288,1,60,-,3,0,4,0,5000
+4,Resipi Kasut Kumpul Emas,2,recipe-icon-289,289,4,"212,1;215,1;401,2", Resipi Kasut Kumpul Emas ,"324,1,1,4655;324,2,1,3103;324,3,1,2068;475,5,1,172",1,0,50600289,1,60,-,3,0,4,0,5000
+4,Resipi Kasut Petani Emas,2,recipe-icon-291,291,4,"218,2;404,2", Resipi Kasut Petani Emas ,"354,1,1,4655;354,2,1,3103;354,3,1,2068;475,5,1,172",1,0,50600291,1,60,-,1,0,4,0,5000
+5,Resipi Pedang Berlian,2,recipe-icon-292,292,5,"404,2;408,1;411,1", Resipi Pedang Berlian ,"318,1,1,4153;318,2,1,2769;318,3,1,1846;318,4,1,1230",1,0,50500292,1,180,-,2,0,4,0,7500
+5,Resipi Topi Pejuang Berlian,2,recipe-icon-293,293,5,"404,2;408,1;411,1", Resipi Topi Pejuang Berlian ,"340,1,1,4090;340,2,1,2727;340,3,1,1818;340,4,1,1212;277,5,1,151",1,0,50500293,1,180,-,2,0,4,0,7500
+5,Resipi Kot Pejuang Berlian,2,recipe-icon-294,294,5,"404,2;408,1;411,1", Resipi Kot Pejuang Berlian ,"341,1,1,4090;341,2,1,2727;341,3,1,1818;341,4,1,1212;278,5,1,151",1,0,50500294,1,180,-,2,0,4,0,7500
+5,Resipi Sarung Tangan Pejuang Berlian,2,recipe-icon-295,295,5,"404,2;408,1;411,1", Resipi Sarung Tangan Pejuang Berlian ,"342,1,1,4090;342,2,1,2727;342,3,1,1818;342,4,1,1212;473,5,1,151",1,0,50500295,1,180,-,2,0,4,0,7500
+5,Resipi Seluar Pejuang Berlian,2,recipe-icon-296,296,5,"404,2;408,1;411,1", Resipi Seluar Pejuang Berlian ,"343,1,1,4090;343,2,1,2727;343,3,1,1818;343,4,1,1212;280,5,1,151",1,0,50500296,1,180,-,2,0,4,0,7500
+5,Resipi Kasut Pejuang Berlian,2,recipe-icon-297,297,5,"404,2;408,1;411,1", Resipi Kasut Pejuang Berlian ,"344,1,1,4090;344,2,1,2727;344,3,1,1818;344,4,1,1212;281,5,1,151",1,0,50500297,1,180,-,2,0,4,0,7500
+5,Resipi Sabit Berlian,2,recipe-icon-298,298,5,"402,2;407,1;410,1", Resipi Sabit Berlian ,"309,1,1,4153;309,2,1,2769;309,3,1,1846;309,4,1,1230",1,0,50500298,1,180,-,3,0,4,0,7500
+5,Resipi Kapak Berlian,2,recipe-icon-299,299,5,"407,1;410,1;402,2", Resipi Kapak Berlian ,"306,1,1,4153;306,2,1,2769;306,3,1,1846;306,4,1,1230",1,0,50500299,1,180,-,3,0,4,0,7500
+5,Resipi Beliung Berlian,2,recipe-icon-300,300,5,"407,1;410,1;402,2", Resipi Beliung Berlian ,"307,1,1,4153;307,2,1,2769;307,3,1,1846;307,4,1,1230",1,0,50500300,1,180,-,3,0,4,0,7500
+5,Resipi Topi Kumpul Berlian,2,recipe-icon-301,301,5,"407,1;410,1;402,2", Resipi Topi Kumpul Berlian ,"325,1,1,4090;325,2,1,2727;325,3,1,1818;325,4,1,1212;277,5,1,151",1,0,50500301,1,180,-,3,0,4,0,7500
+5,Resipi Kot Kumpul Berlian,2,recipe-icon-302,302,5,"407,1;410,1;402,2", Resipi Kot Kumpul Berlian ,"326,1,1,4090;326,2,1,2727;326,3,1,1818;326,4,1,1212;278,5,1,151",1,0,50500302,1,180,-,3,0,4,0,7500
+5,Resipi Sarung Tangan Kumpul Berlian,2,recipe-icon-303,303,5,"407,1;410,1;402,2", Resipi Sarung Tangan Kumpul Berlian ,"327,1,1,4090;327,2,1,2727;327,3,1,1818;327,4,1,1212;473,5,1,151",1,0,50500303,1,180,-,3,0,4,0,7500
+5,Resipi Seluar Kumpul Berlian,2,recipe-icon-304,304,5,"407,1;410,1;402,2", Resipi Seluar Kumpul Berlian ,"328,1,1,4090;328,2,1,2727;328,3,1,1818;328,4,1,1212;280,5,1,151",1,0,50500304,1,180,-,3,0,4,0,7500
+5,Resipi Kasut Kumpul Berlian,2,recipe-icon-305,305,5,"407,1;410,1;402,2", Resipi Kasut Kumpul Berlian ,"329,1,1,4090;329,2,1,2727;329,3,1,1818;329,4,1,1212;281,5,1,151",1,0,50500305,1,180,-,3,0,4,0,7500
+5,Resipi Cangkul Berlian,2,recipe-icon-306,306,5,"401,2;405,2", Resipi Cangkul Berlian ,"305,1,1,4153;305,2,1,2769;305,3,1,1846;305,4,1,1230",1,0,50500306,1,180,-,1,0,4,0,7500
+5,Resipi Topi Petani Berlian,2,recipe-icon-308,308,5,"401,2;405,2", Resipi Topi Petani Berlian ,"355,1,1,4090;355,2,1,2727;355,3,1,1818;355,4,1,1212;277,5,1,151",1,0,50500308,1,180,-,1,0,4,0,7500
+5,Resipi Kot Petani Berlian,2,recipe-icon-309,309,5,"401,2;405,2", Resipi Kot Petani Berlian ,"356,1,1,4090;356,2,1,2727;356,3,1,1818;356,4,1,1212;278,5,1,151",1,0,50500309,1,180,-,1,0,4,0,7500
+5,Resipi Sarung Tangan Petani Berlian,2,recipe-icon-310,310,5,"401,2;405,2", Resipi Sarung Tangan Petani Berlian ,"357,1,1,4090;357,2,1,2727;357,3,1,1818;357,4,1,1212;473,5,1,151",1,0,50500310,1,180,-,1,0,4,0,7500
+5, Resipi Seluar Petani Berlian,2,recipe-icon-311,311,5,"401,2;405,2", Resipi Seluar Petani Berlian ,"358,1,1,4090;358,2,1,2727;358,3,1,1818;358,4,1,1212;280,5,1,151",1,0,50500311,1,180,-,1,0,4,0,7500
+5, Resipi Kasut Petani Berlian,2,recipe-icon-312,312,5,"401,2;405,2", Resipi Kasut Petani Berlian ,"359,1,1,4090;359,2,1,2727;359,3,1,1818;359,4,1,1212;281,5,1,151",1,0,50500312,1,180,-,1,0,4,0,7500
+6, Resipi Pedang Bintang,2,recipe-icon-313,313,6,"405,2;409,1;412,1", Resipi Pedang Bintang ,"319,1,1,4153;319,2,1,2769;319,3,1,1846;319,4,1,1230",1,0,50400313,1,540,-,2,0,4,0,10000
+6, Resipi Topi Pejuang Bintang,2,recipe-icon-314,314,6,"405,2;409,1;412,1", Resipi Topi Pejuang Bintang ,"345,1,1,4090;345,2,1,2727;345,3,1,1818;345,4,1,1212;282,5,1,151",1,0,50400314,1,540,-,2,0,4,0,10000
+6, Resipi Kot Pejuang Bintang,2,recipe-icon-315,315,6,"405,2;409,1;412,1", Resipi Kot Pejuang Bintang ,"346,1,1,4090;346,2,1,2727;346,3,1,1818;346,4,1,1212;283,5,1,151",1,0,50400315,1,540,-,2,0,4,0,10000
+6, Resipi Sarung Tangan Pejuang Bintang,2,recipe-icon-316,316,6,"405,2;409,1;412,1", Resipi Sarung Tangan Pejuang Bintang ,"347,1,1,4029;347,2,1,2686;347,3,1,1791;347,4,1,1194;279,5,1,149;284,5,1,149",1,0,50400316,1,540,-,2,0,4,0,10000
+6, Resipi Seluar Pejuang Bintang,2,recipe-icon-317,317,6,"405,2;409,1;412,1", Resipi Seluar Pejuang Bintang,"348,1,1,4090;348,2,1,2727;348,3,1,1818;348,4,1,1212;285,5,1,151",1,0,50400317,1,540,-,2,0,4,0,10000
+6, Resipi Kasut Pejuang Bintang,2,recipe-icon-318,318,6,"405,2;409,1;412,1", Resipi Kasut Star Fighter,"349,1,1,4090;349,2,1,2727;349,3,1,1818;349,4,1,1212;286,5,1,151",1,0,50400318,1,540,-,2,0,4,0,10000
+6, Resipi Sabit Bintang,2,recipe-icon-319,319,6,"403,2;408,1;411,1", Resipi Sabit Star,"315,1,1,4153;315,2,1,2769;315,3,1,1846;315,4,1,1230",1,0,50400319,1,540,-,3,0,4,0,10000
+6, Resipi Kapak Bintang,2,recipe-icon-320,320,6,"408,1;411,1;403,2", Resipi Kapak Star,"312,1,1,4153;312,2,1,2769;312,3,1,1846;312,4,1,1230",1,0,50400320,1,540,-,3,0,4,0,10000
+6, Resipi Beliung Bintang,2,recipe-icon-321,321,6,"408,1;411,1;403,2", Resipi Beliung Star,"313,1,1,4153;313,2,1,2769;313,3,1,1846;313,4,1,1230",1,0,50400321,1,540,-,3,0,4,0,10000
+6, Resipi Topi Kumpul Bintang,2,recipe-icon-322,322,6,"408,1;411,1;403,2", Resipi Topi Kumpul Star,"330,1,1,4090;330,2,1,2727;330,3,1,1818;330,4,1,1212;282,5,1,151",1,0,50400322,1,540,-,3,0,4,0,10000
+6, Resipi Kot Kumpul Bintang,2,recipe-icon-323,323,6,"408,1;411,1;403,2", Resipi Baju Kumpul Star,"331,1,1,4090;331,2,1,2727;331,3,1,1818;331,4,1,1212;283,5,1,151",1,0,50400323,1,540,-,3,0,4,0,10000
+6, Resipi Sarung Tangan Kumpul Bintang,2,recipe-icon-324,324,6,"408,1;411,1;403,2", Resipi Sarung Tangan Kumpul Star,"332,1,1,4029;332,2,1,2686;332,3,1,1791;332,4,1,1194;279,5,1,149;284,5,1,149",1,0,50400324,1,540,-,3,0,4,0,10000
+6, Resipi Seluar Kumpul Bintang,2,recipe-icon-325,325,6,"408,1;411,1;403,2", Resipi Seluar Kumpul Star,"333,1,1,4090;333,2,1,2727;333,3,1,1818;333,4,1,1212;285,5,1,151",1,0,50400325,1,540,-,3,0,4,0,10000
+6, Resipi Kasut Kumpul Bintang,2,recipe-icon-326,326,6,"408,1;411,1;403,2", Resipi Kasut Kumpul Star,"334,1,1,4090;334,2,1,2727;334,3,1,1818;334,4,1,1212;286,5,1,151",1,0,50400326,1,540,-,3,0,4,0,10000
+6, Resipi Cangkul Bintang,2,recipe-icon-327,327,6,"402,2;406,2", Resipi Cangkul Star,"311,1,1,4153;311,2,1,2769;311,3,1,1846;311,4,1,1230",1,0,50400327,1,540,-,1,0,4,0,10000
+6, Resipi Topi Petani Bintang,2,recipe-icon-329,329,6,"402,2;406,2", Resipi Topi Petani Star,"360,1,1,4090;360,2,1,2727;360,3,1,1818;360,4,1,1212;282,5,1,151",1,0,50400329,1,540,-,1,0,4,0,10000
+6, Resipi Kot Petani Bintang,2,recipe-icon-330,330,6,"402,2;406,2", Resipi Baju Petani Star,"361,1,1,4090;361,2,1,2727;361,3,1,1818;361,4,1,1212;283,5,1,151",1,0,50400330,1,540,-,1,0,4,0,10000
+6, Resipi Sarung Tangan Petani Bintang,2,recipe-icon-331,331,6,"402,2;406,2", Resipi Sarung Tangan Petani Star,"362,1,1,4029;362,2,1,2686;362,3,1,1791;362,4,1,1194;279,5,1,149;284,5,1,149",1,0,50400331,1,540,-,1,0,4,0,10000
+6, Resipi Seluar Petani Bintang,2,recipe-icon-332,332,6,"402,2;406,2", Resipi Seluar Petani Star,"363,1,1,4090;363,2,1,2727;363,3,1,1818;363,4,1,1212;285,5,1,151",1,0,50400332,1,540,-,1,0,4,0,10000
+6, Resipi Kasut Petani Bintang,2,recipe-icon-333,333,6,"402,2;406,2", Resipi Kasut Petani Star,"364,1,1,4090;364,2,1,2727;364,3,1,1818;364,4,1,1212;286,5,1,151",1,0,50400333,1,540,-,1,0,4,0,10000
 4, Resipi Pati Penanaman Pertanian Tahap 4,2,recipe-icon-334,334,4,"383,5;384,5;385,5;212,2", Resipi Pati Tanam Pertanian Tahap 4,"407,1,1,10000",4,0,20600334,1,60,-,1,0,4,0,100
 5, Resipi Pati Penanaman Pertanian Tahap 5,2,recipe-icon-335,335,5,"386,5;387,5;388,5;407,2", Resipi Pati Tanam Pertanian Tahap 5,"408,1,1,10000",4,0,20500335,1,180,-,1,0,4,0,100
 6, Resipi Pati Penanaman Pertanian Tahap 6,2,recipe-icon-336,336,6,"389,5;390,5;391,5;408,2", Resipi Pati Tanam Pertanian Tahap 6,"409,1,1,10000",4,0,20400336,1,540,-,1,0,4,0,100
@@ -196,22 +196,22 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 6, Resipi Ramuan Tahap 6,2,recipe-icon-348,348,6,"380,2;381,2;382,2", Resipi Ramuan Tahap 6,"435,1,1,5031;436,1,1,993;437,1,1,993;438,1,1,993;439,1,1,993;440,1,1,993",3,0,50400348,1,10,-,3,0,4,0,0
 1, Resipi Palu Tembaga Tahap 1,2,recipe-icon-364,364,1,"210,1;213,1",Resipi Palu Tembaga Tahap 1,"441,1,1,10000",1,0,10900364,1,10,-,2,0,4,0,0
 2, Resipi Palu Besi Tahap 2,2,recipe-icon-365,365,2,"207,2;211,1;214,1",Resipi Palu Besi Tahap 2,"442,1,1,6000;442,2,1,4000",1,0,50800365,1,10,-,2,0,4,0,0
-3,Resipi Palu Kristal Tahap 3,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Resipi Palu Kristal Tahap 3,"443,1,1,4736;443,2,1,3157;443,3,1,2105",1,0,50700366,1,10,-,2,0,4,0,0
-4, Resipi Palu Emas Tahap 4,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Resipi Palu Emas Tahap 4,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",1,0,50600367,1,60,-,2,0,4,0,5000
-5,Resipi Palu Berlian Tahap 5,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Resipi Palu Berlian Tahap 5,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",1,0,50500368,1,180,-,2,0,4,0,7500
-6,Resipi Palu Cahaya Bintang Tahap 6,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Resipi Palu Cahaya Bintang Tahap 6,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",1,0,50400369,1,540,-,2,0,4,0,10000
+3,Resipi Palu Kristal Tahap 3,2,recipe-icon-366,366,3,"208,2;212,1;215,1",Resipi Palu Kristal Tahap 3,"443,1,1,6000;443,2,1,4000",1,0,50700366,1,10,-,2,0,4,0,0
+4, Resipi Palu Emas Tahap 4,2,recipe-icon-367,367,4,"209,2;407,1;410,1",Resipi Palu Emas Tahap 4,"444,1,1,4736;444,2,1,3157;444,3,1,2105",1,0,50600367,1,60,-,2,0,4,0,5000
+5,Resipi Palu Berlian Tahap 5,2,recipe-icon-368,368,5,"404,2;408,1;411,1",Resipi Palu Berlian Tahap 5,"445,1,1,4153;445,2,1,2769;445,3,1,1846;445,4,1,1230",1,0,50500368,1,180,-,2,0,4,0,7500
+6,Resipi Palu Cahaya Bintang Tahap 6,2,recipe-icon-369,369,6,"405,2;409,1;412,1",Resipi Palu Cahaya Bintang Tahap 6,"446,1,1,4153;446,2,1,2769;446,3,1,1846;446,4,1,1230",1,0,50400369,1,540,-,2,0,4,0,10000
 1,Resipi Busur Batu Tahap 1,2,recipe-icon-370,370,1,"210,1;213,1",Resipi Busur Batu Tahap 1,"287,1,1,10000",1,0,10900370,1,10,-,2,0,4,0,0
 2,Resipi Busur Logam Tahap 2,2,recipe-icon-371,371,2,"207,2;211,1;214,1",Resipi Busur Logam Tahap 2,"288,1,1,6000;288,2,1,4000",1,0,50800371,1,10,-,2,0,4,0,0
-3,Resipi Busur Kristal Tahap 3,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Resipi Busur Kristal Tahap 3,"289,1,1,4736;289,2,1,3157;289,3,1,2105",1,0,50700372,1,10,-,2,0,4,0,0
-4,Resipi Busur Emas Tahap 4,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Resipi Busur Emas Tahap 4,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",1,0,50600373,1,60,-,2,0,4,0,5000
-5,Resipi Busur Berlian Tahap 5,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Resipi Busur Berlian Tahap 5,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",1,0,50500374,1,180,-,2,0,4,0,7500
-6,Resipi Busur Cahaya Bintang Tahap 6,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Resipi Busur Cahaya Bintang Tahap 6,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",1,0,50400375,1,540,-,2,0,4,0,10000
+3,Resipi Busur Kristal Tahap 3,2,recipe-icon-372,372,3,"208,2;212,1;215,1",Resipi Busur Kristal Tahap 3,"289,1,1,6000;289,2,1,4000",1,0,50700372,1,10,-,2,0,4,0,0
+4,Resipi Busur Emas Tahap 4,2,recipe-icon-373,373,4,"209,2;407,1;410,1",Resipi Busur Emas Tahap 4,"450,1,1,4736;450,2,1,3157;450,3,1,2105",1,0,50600373,1,60,-,2,0,4,0,5000
+5,Resipi Busur Berlian Tahap 5,2,recipe-icon-374,374,5,"404,2;408,1;411,1",Resipi Busur Berlian Tahap 5,"451,1,1,4153;451,2,1,2769;451,3,1,1846;451,4,1,1230",1,0,50500374,1,180,-,2,0,4,0,7500
+6,Resipi Busur Cahaya Bintang Tahap 6,2,recipe-icon-375,375,6,"405,2;409,1;412,1",Resipi Busur Cahaya Bintang Tahap 6,"452,1,1,4153;452,2,1,2769;452,3,1,1846;452,4,1,1230",1,0,50400375,1,540,-,2,0,4,0,10000
 1,Resipi Berus Tembaga Tahap 1,2,recipe-icon-376,376,1,"207,2",Resipi Berus Tembaga Tahap 1,"453,1,1,10000",1,0,10900376,1,10,-,1,0,4,0,0
 2,Resipi Berus Besi Tahap 2,2,recipe-icon-377,377,2,"216,2;208,2",Resipi Berus Besi Tahap 2,"454,1,1,6000;454,2,1,4000",1,0,50800377,1,10,-,1,0,4,0,0
-3,Resipi Berus Kristal Tahap 3,2,recipe-icon-378,378,3,"217,2;209,2",Resipi Berus Kristal Tahap 3,"455,1,1,4736;455,2,1,3157;455,3,1,2105",1,0,50700378,1,10,-,1,0,4,0,0
-4,Resipi Berus Emas Tahap 4,2,recipe-icon-379,379,4,"218,2;404,2",Resipi Berus Emas Tahap 4,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",1,0,50600379,1,60,-,1,0,4,0,5000
-5,Resipi Berus Berlian Tahap 5,2,recipe-icon-380,380,5,"401,2;405,2",Resipi Berus Berlian Tahap 5,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",1,0,50500380,1,180,-,1,0,4,0,7500
-6,Resipi Berus Cahaya Bintang Tahap 6,2,recipe-icon-381,381,6,"402,2;406,2",Resipi Berus Cahaya Bintang Tahap 6,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",1,0,50400381,1,540,-,1,0,4,0,10000
+3,Resipi Berus Kristal Tahap 3,2,recipe-icon-378,378,3,"217,2;209,2",Resipi Berus Kristal Tahap 3,"455,1,1,6000;455,2,1,4000",1,0,50700378,1,10,-,1,0,4,0,0
+4,Resipi Berus Emas Tahap 4,2,recipe-icon-379,379,4,"218,2;404,2",Resipi Berus Emas Tahap 4,"456,1,1,4736;456,2,1,3157;456,3,1,2105",1,0,50600379,1,60,-,1,0,4,0,5000
+5,Resipi Berus Berlian Tahap 5,2,recipe-icon-380,380,5,"401,2;405,2",Resipi Berus Berlian Tahap 5,"457,1,1,4153;457,2,1,2769;457,3,1,1846;457,4,1,1230",1,0,50500380,1,180,-,1,0,4,0,7500
+6,Resipi Berus Cahaya Bintang Tahap 6,2,recipe-icon-381,381,6,"402,2;406,2",Resipi Berus Cahaya Bintang Tahap 6,"458,1,1,4153;458,2,1,2769;458,3,1,1846;458,4,1,1230",1,0,50400381,1,540,-,1,0,4,0,10000
 4,Resipi Slime Tenaga Pertanian Tahap 4,2,recipe-icon-382,382,4,"484,1;376,4;374,4;375,4", Tahap 4 Resipi Slime Tenaga Kumpul,"485,1,1,10000",4,0,20600382,1,6,-,3,0,4,0,0
 5,Resipi Slime Tenaga Pertanian Tahap 5,2,recipe-icon-383,383,5,"485,1;378,4;379,4;377,4", Tahap 5 Resipi Slime Tenaga Kumpul,"486,1,1,10000",4,0,20500383,1,6,-,3,0,4,0,0
 6,Resipi Slime Tenaga Pertanian Tahap 6,2,recipe-icon-384,384,6,"486,1;380,4;381,4;382,4", Tahap 6 Resipi Slime Tenaga Kumpul,"487,1,1,10000",4,0,20400384,1,6,-,3,0,4,0,0
@@ -237,9 +237,9 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 6, Resipi Biji Chomper,2,recipe-icon-413,413,6,"389,1",Resipi Biji Chomper Tahap 6,"419,1,1,5000;615,1,1,5000",3,0,50400413,1,10,-,1,0,4,0,0
 6, Resipi Biji Bunga Morning Glory,2,recipe-icon-414,414,6,"390,1",Resipi Biji Bunga Morning glory Tahap 6,"420,1,1,5000;616,1,1,5000",3,0,50400414,1,10,-,1,0,4,0,0
 6, Resipi Biji Cassava,2,recipe-icon-415,415,6,"391,1",Resipi Biji Cassava Tahap 6,"421,1,1,5000;614,1,1,5000",3,0,50400415,1,10,-,1,0,4,0,0
-4, Resipi Cerek Emas Lv 4,2,recipe-icon-416,416,4,"218,2;404,2",Resipi Cerek Emas Tahap 4,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",1,0,50600416,1,60,-,1,0,4,0,5000
-5, Resipi Cerek Berlian Lv 5,2,recipe-icon-417,417,5,"401,2;405,2",Resipi Cerek Berlian Tahap 5,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",1,0,50500417,1,180,-,1,0,4,0,7500
-6, Resipi Cerek Bintang Lv 6,2,recipe-icon-418,418,6,"402,2;406,2",Resipi Cerek Bintang Tahap 6,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",1,0,50400418,1,540,-,1,0,4,0,10000
+4, Resipi Cerek Emas Lv 4,2,recipe-icon-416,416,4,"218,2;404,2",Resipi Cerek Emas Tahap 4,"304,1,1,4736;304,2,1,3157;304,3,1,2105",1,0,50600416,1,60,-,1,0,4,0,5000
+5, Resipi Cerek Berlian Lv 5,2,recipe-icon-417,417,5,"401,2;405,2",Resipi Cerek Berlian Tahap 5,"310,1,1,4153;310,2,1,2769;310,3,1,1846;310,4,1,1230",1,0,50500417,1,180,-,1,0,4,0,7500
+6, Resipi Cerek Bintang Lv 6,2,recipe-icon-418,418,6,"402,2;406,2",Resipi Cerek Bintang Tahap 6,"316,1,1,4153;316,2,1,2769;316,3,1,1846;316,4,1,1230",1,0,50400418,1,540,-,1,0,4,0,10000
 4,10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-419,419,4,"401,1;463,3;481,1", Resipi Pertukaran LUAG Tahap 4 - Pertempuran,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",4,0,50600419,1,6,0,0,0,4,0,59000
 4,Anda mungkin akan menerima ganjaran berikut:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-420,420,4,"404,1;365,2;481,1;392,2", Resipi Pertukaran LUAG Tahap 4 - Mengumpul,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",4,0,50600420,1,6,0,0,0,4,0,59000
 4,Anda mungkin akan menerima ganjaran berikut:10000 LUAG 5%6000 LUAG 15%4000 LUAG 30%2500 LUAG 50%,2,recipe-icon-421,421,4,"407,1;366,2;481,1;393,2", Resipi Pertukaran LUAG Tahap 4 - Penanaman,"478,1,100,500;478,1,60,1500;478,1,40,3000;478,1,25,5000",4,0,50600421,1,6,0,0,0,4,0,59000
@@ -452,78 +452,78 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 7, Resipi Intipati Pertanian Tahap 7,2,recipe-icon-635,635,7,"412,2;500,5;501,5;502,5",Peringkat 7 Resipi Pati Pertanian,"611,1,1,10000",4,0,20300635,1,10,-,1,0,4,0,100
 8,Reka bentuk Resipi Farming Essence Tahap 8,2,recipe-icon-636,636,8,"611,2;512,5;513,5;514,5",Peringkat 8 Resipi Pati Pertanian,"612,1,1,10000",4,0,20200636,1,10,-,1,0,4,0,100
 9,Reka bentuk Resipi Farming Essence Tahap 9,2,recipe-icon-637,637,9,"524,5;525,5;526,5;612,2",Peringkat 9 Resipi Pati Pertanian,"613,1,1,10000",4,0,20100637,1,10,-,1,0,4,0,100
-7,Reka bentuk Resipi Pedang Tahap 7,2,recipe-icon-638,638,7,"608,1;611,1;406,2", Resipi Pedang Tahap 7,"527,1,1,3990;527,2,1,2660;527,3,1,1773;527,4,1,1182;527,5,1,394",1,0,50300638,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Cangkul Tahap 7,2,recipe-icon-639,639,7,"608,1;611,1;406,2", Resipi Cangkul Tahap 7,"528,1,1,3990;528,2,1,2660;528,3,1,1773;528,4,1,1182;528,5,1,394",1,0,50300639,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Busur Tahap 7,2,recipe-icon-640,640,7,"608,1;611,1;406,2", Resipi Busur Tahap 7,"529,1,1,3990;529,2,1,2660;529,3,1,1773;529,4,1,1182;529,5,1,394",1,0,50300640,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Kasut Pertanian Lava Tahap 7,2,recipe-icon-641,641,7,"608,1;611,1;406,2", Resipi Kasut Pertanian Lava Tahap 7,"530,1,1,3932;530,2,1,2621;530,3,1,1747;530,4,1,1165;530,5,1,388;849,5,1,145",1,0,50300641,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Sarung Tangan Pertempuran Lava Tahap 7,2,recipe-icon-642,642,7,"608,1;611,1;406,2", Resipi Sarung Tangan Pertempuran Lava Tahap 7,"531,1,1,3932;531,2,1,2621;531,3,1,1747;531,4,1,1165;531,5,1,388;873,5,1,145",1,0,50300642,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Kot Pertempuran Lava Tahap 7,2,recipe-icon-643,643,7,"608,1;611,1;406,2", Resipi Kot Pertempuran Lava Tahap 7,"532,1,1,3932;532,2,1,2621;532,3,1,1747;532,4,1,1165;532,5,1,388;874,5,1,145",1,0,50300643,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Topi Pertempuran Lava Tahap 7,2,recipe-icon-644,644,7,"608,1;611,1;406,2", Resipi Topi Pertempuran Lava Tahap 7,"533,1,1,3932;533,2,1,2621;533,3,1,1747;533,4,1,1165;533,5,1,388;875,5,1,145",1,0,50300644,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Seluar Pertempuran Lava Tahap 7,2,recipe-icon-645,645,7,"608,1;611,1;406,2", Resipi Seluar Pertempuran Lava Tahap 7,"534,1,1,3932;534,2,1,2621;534,3,1,1747;534,4,1,1165;534,5,1,388;876,5,1,145",1,0,50300645,1,170,-,2,0,4,0,12500
-7,Reka bentuk Resipi Sabit Tahap 7,2,recipe-icon-646,646,7,"602,2;409,1;412,1", Resipi Sabit Tahap 7,"535,1,1,3990;535,2,1,2660;535,3,1,1773;535,4,1,1182;535,5,1,394",1,0,50300646,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Kapak Tahap 7,2,recipe-icon-647,647,7,"602,2;409,1;412,1", Resipi Kapak Tahap 7,"536,1,1,3990;536,2,1,2660;536,3,1,1773;536,4,1,1182;536,5,1,394",1,0,50300647,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Palu Tahap 7,2,recipe-icon-648,648,7,"602,2;409,1;412,1", Resipi Palu Tahap 7,"537,1,1,3990;537,2,1,2660;537,3,1,1773;537,4,1,1182;537,5,1,394",1,0,50300648,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Slime Tenaga Pertempuran Lava Tahap 7,2,recipe-icon-649,649,7,"602,2;409,1;412,1", Resipi Slime Tenaga Pertempuran Lava Tahap 7,"538,1,1,3932;538,2,1,2621;538,3,1,1747;538,4,1,1165;538,5,1,388;849,5,1,145",1,0,50300649,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Sarung Tangan Kumpulan Lava Tahap 7,2,recipe-icon-650,650,7,"602,2;409,1;412,1", Resipi Sarung Tangan Pengumpulan Lava Tahap 7,"539,1,1,3932;539,2,1,2621;539,3,1,1747;539,4,1,1165;539,5,1,388;873,5,1,145",1,0,50300650,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Kot Kumpulan Lava Tahap 7,2,recipe-icon-651,651,7,"602,2;409,1;412,1", Resipi Kot Pengumpulan Lava Tahap 7,"540,1,1,3932;540,2,1,2621;540,3,1,1747;540,4,1,1165;540,5,1,388;874,5,1,145",1,0,50300651,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Topi Kumpulan Lava Tahap 7,2,recipe-icon-652,652,7,"602,2;409,1;412,1", Resipi Topi Pengumpulan Lava Tahap 7,"541,1,1,3932;541,2,1,2621;541,3,1,1747;541,4,1,1165;541,5,1,388;875,5,1,145",1,0,50300652,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Seluar Kumpulan Lava Tahap 7,2,recipe-icon-653,653,7,"602,2;409,1;412,1", Resipi Seluar Pengumpulan Lava Tahap 7,"542,1,1,3932;542,2,1,2621;542,3,1,1747;542,4,1,1165;542,5,1,388;876,5,1,145",1,0,50300653,1,170,-,3,0,4,0,12500
-7,Reka bentuk Resipi Beliung Tahap 7,2,recipe-icon-654,654,7,"605,2;403,2", Resipi Beliung Tahap 7,"543,1,1,3990;543,2,1,2660;543,3,1,1773;543,4,1,1182;543,5,1,394",1,0,50300654,1,170,-,1,0,4,0,12500
-7,Reka bentuk Resipi Biji Tahap 7,2,recipe-icon-655,655,7,"605,2;403,2", Resipi Biji Tahap 7,"544,1,1,3990;544,2,1,2660;544,3,1,1773;544,4,1,1182;544,5,1,394",1,0,50300655,1,170,-,1,0,4,0,12500
-7,Reka bentuk Resipi Berus Tahap 7,2,recipe-icon-656,656,7,"605,2;403,2", Resipi Berus Tahap 7,"545,1,1,3990;545,2,1,2660;545,3,1,1773;545,4,1,1182;545,5,1,394",1,0,50300656,1,170,-,1,0,4,0,12500
-7,Reka bentuk Resipi Cerek Tahap 7,2,recipe-icon-657,657,7,"605,2;403,2", Resipi Cerek Penyulingan Tahap 7,"546,1,1,3932;546,2,1,2621;546,3,1,1747;546,4,1,1165;546,5,1,388;849,5,1,145",1,0,50300657,1,170,-,1,0,4,0,12500
-7,Reka bentuk Resipi Sarung Tangan Pertanian Lava Tahap 7,2,recipe-icon-658,658,7,"605,2;403,2", Resipi Sarung Tangan Pertanian Lava Tahap 7,"547,1,1,3932;547,2,1,2621;547,3,1,1747;547,4,1,1165;547,5,1,388;873,5,1,145",1,0,50300658,1,170,-,1,0,4,0,12500
-7,Reka bentuk Resipi Kot Pertanian Lava Tahap 7,2,recipe-icon-659,659,7,"605,2;403,2", Resipi Kot Pertanian Lava Tahap 7,"548,1,1,3932;548,2,1,2621;548,3,1,1747;548,4,1,1165;548,5,1,388;874,5,1,145",1,0,50300659,1,170,-,1,0,4,0,12500
-7,Reka bentuk Resipi Topi Pertanian Lava Tahap 7,2,recipe-icon-660,660,7,"605,2;403,2", Resipi Topi Pertanian Lava Tahap 7,"549,1,1,3932;549,2,1,2621;549,3,1,1747;549,4,1,1165;549,5,1,388;875,5,1,145",1,0,50300660,1,170,-,1,0,4,0,12500
-7, Tahap 7 Resipi Seluar Pertanian Lava,2,recipe-icon-661,661,7,"605,2;403,2", Tahap 7 Resipi Seluar Pertanian Lava,"550,1,1,3932;550,2,1,2621;550,3,1,1747;550,4,1,1165;550,5,1,388;876,5,1,145",1,0,50300661,1,170,-,1,0,4,0,12500
-8, Tahap 8 Resipi Pedang,2,recipe-icon-662,662,8,"609,1;612,1;605,2", Tahap 8 Resipi Pedang,"551,1,1,3990;551,2,1,2660;551,3,1,1773;551,4,1,1182;551,5,1,394",1,0,50200662,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Tukul,2,recipe-icon-663,663,8,"609,1;612,1;605,2", Tahap 8 Resipi Tukul,"552,1,1,3990;552,2,1,2660;552,3,1,1773;552,4,1,1182;552,5,1,394",1,0,50200663,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Busur,2,recipe-icon-664,664,8,"609,1;612,1;605,2", Tahap 8 Resipi Busur,"553,1,1,3990;553,2,1,2660;553,3,1,1773;553,4,1,1182;553,5,1,394",1,0,50200664,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Topi HollowCombat,2,recipe-icon-665,665,8,"609,1;612,1;605,2", Tahap 8 Resipi Topi HollowCombat,"554,1,1,3932;554,2,1,2621;554,3,1,1747;554,4,1,1165;554,5,1,388;850,5,1,145",1,0,50200665,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Kot HollowCombat,2,recipe-icon-666,666,8,"609,1;612,1;605,2", Tahap 8 Resipi Kot HollowCombat,"555,1,1,3932;555,2,1,2621;555,3,1,1747;555,4,1,1165;555,5,1,388;877,5,1,145",1,0,50200666,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Seluar HollowCombat,2,recipe-icon-667,667,8,"609,1;612,1;605,2", Tahap 8 Resipi Seluar HollowCombat,"556,1,1,3932;556,2,1,2621;556,3,1,1747;556,4,1,1165;556,5,1,388;878,5,1,145",1,0,50200667,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Sarung Tangan HollowCombat,2,recipe-icon-668,668,8,"609,1;612,1;605,2", Tahap 8 Resipi Sarung Tangan HollowCombat,"557,1,1,3932;557,2,1,2621;557,3,1,1747;557,4,1,1165;557,5,1,388;879,5,1,145",1,0,50200668,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Kasut HollowCombat,2,recipe-icon-669,669,8,"609,1;612,1;605,2", Tahap 8 Resipi Kasut HollowCombat,"558,1,1,3932;558,2,1,2621;558,3,1,1747;558,4,1,1165;558,5,1,388;880,5,1,145",1,0,50200669,1,4860,-,2,0,4,0,15000
-8, Tahap 8 Resipi Sabit,2,recipe-icon-670,670,8,"603,2;608,1;611,1", Tahap 8 Resipi Sabit,"559,1,1,3990;559,2,1,2660;559,3,1,1773;559,4,1,1182;559,5,1,394",1,0,50200670,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Kapak,2,recipe-icon-671,671,8,"603,2;608,1;611,1", Tahap 8 Resipi Kapak,"560,1,1,3990;560,2,1,2660;560,3,1,1773;560,4,1,1182;560,5,1,394",1,0,50200671,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Beliung,2,recipe-icon-672,672,8,"603,2;608,1;611,1", Tahap 8 Resipi Beliung,"561,1,1,3990;561,2,1,2660;561,3,1,1773;561,4,1,1182;561,5,1,394",1,0,50200672,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Topi HollowGather,2,recipe-icon-673,673,8,"603,2;608,1;611,1", Tahap 8 Resipi Topi HollowGather,"562,1,1,3932;562,2,1,2621;562,3,1,1747;562,4,1,1165;562,5,1,388;850,5,1,145",1,0,50200673,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Kot HollowGather,2,recipe-icon-674,674,8,"603,2;608,1;611,1", Tahap 8 Resipi Kot HollowGather,"563,1,1,3932;563,2,1,2621;563,3,1,1747;563,4,1,1165;563,5,1,388;877,5,1,145",1,0,50200674,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Seluar HollowGather,2,recipe-icon-675,675,8,"603,2;608,1;611,1", Tahap 8 Resipi Seluar HollowGather,"564,1,1,3932;564,2,1,2621;564,3,1,1747;564,4,1,1165;564,5,1,388;878,5,1,145",1,0,50200675,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Sarung Tangan HollowGather,2,recipe-icon-676,676,8,"603,2;608,1;611,1", Tahap 8 Resipi Sarung Tangan HollowGather,"565,1,1,3932;565,2,1,2621;565,3,1,1747;565,4,1,1165;565,5,1,388;879,5,1,145",1,0,50200676,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Kasut HollowGather,2,recipe-icon-677,677,8,"603,2;608,1;611,1", Tahap 8 Resipi Kasut HollowGather,"566,1,1,3932;566,2,1,2621;566,3,1,1747;566,4,1,1165;566,5,1,388;880,5,1,145",1,0,50200677,1,4860,-,3,0,4,0,15000
-8, Tahap 8 Resipi Cerek,2,recipe-icon-678,678,8,"606,2;602,2", Tahap 8 Resipi Cerek,"567,1,1,3990;567,2,1,2660;567,3,1,1773;567,4,1,1182;567,5,1,394",1,0,50200678,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Cangkul,2,recipe-icon-679,679,8,"606,2;602,2", Tahap 8 Resipi Cangkul,"568,1,1,3990;568,2,1,2660;568,3,1,1773;568,4,1,1182;568,5,1,394",1,0,50200679,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Berus,2,recipe-icon-680,680,8,"606,2;602,2", Tahap 8 Resipi Berus,"569,1,1,3990;569,2,1,2660;569,3,1,1773;569,4,1,1182;569,5,1,394",1,0,50200680,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Topi HollowFarming,2,recipe-icon-681,681,8,"606,2;602,2", Tahap 8 Resipi Topi HollowFarming,"570,1,1,3932;570,2,1,2621;570,3,1,1747;570,4,1,1165;570,5,1,388;850,5,1,145",1,0,50200681,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Kot HollowFarming,2,recipe-icon-682,682,8,"606,2;602,2", Tahap 8 Resipi Kot HollowFarming,"571,1,1,3932;571,2,1,2621;571,3,1,1747;571,4,1,1165;571,5,1,388;877,5,1,145",1,0,50200682,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Seluar Pertanian HollowFarming,2,recipe-icon-683,683,8,"606,2;602,2", Tahap 8 Resipi Seluar HollowFarming,"572,1,1,3932;572,2,1,2621;572,3,1,1747;572,4,1,1165;572,5,1,388;878,5,1,145",1,0,50200683,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Sarung Tangan HollowFarming,2,recipe-icon-684,684,8,"606,2;602,2", Tahap 8 Resipi Sarung Tangan HollowFarming,"573,1,1,3932;573,2,1,2621;573,3,1,1747;573,4,1,1165;573,5,1,388;879,5,1,145",1,0,50200684,1,4860,-,1,0,4,0,15000
-8, Tahap 8 Resipi Kasut HollowFarming,2,recipe-icon-685,685,8,"606,2;602,2", Tahap 8 Resipi Kasut HollowFarming,"574,1,1,3932;574,2,1,2621;574,3,1,1747;574,4,1,1165;574,5,1,388;880,5,1,145",1,0,50200685,1,4860,-,1,0,4,0,15000
-9,Resipi Pedang Lv9,2,recipe-icon-686,686,9,"610,1;613,1;606,2",Resipi Pedang Lv9,"575,1,1,3990;575,2,1,2660;575,3,1,1773;575,4,1,1182;575,5,1,394",1,0,50100686,1,14580,-,2,0,4,0,17500
-9,Resipi Palu Lv9,2,recipe-icon-687,687,9,"610,1;613,1;606,2",Resipi Palu Lv9,"576,1,1,3990;576,2,1,2660;576,3,1,1773;576,4,1,1182;576,5,1,394",1,0,50100687,1,14580,-,2,0,4,0,17500
-9,Resipi Busur Lv9,2,recipe-icon-688,688,9,"610,1;613,1;606,2",Resipi Busur Lv9,"577,1,1,3990;577,2,1,2660;577,3,1,1773;577,4,1,1182;577,5,1,394",1,0,50100688,1,14580,-,2,0,4,0,17500
-9,Resipi Topi Tempur Gangsa Lv9,2,recipe-icon-689,689,9,"610,1;613,1;606,2",Resipi Topi Tempur Gangsa Lv9,"578,1,1,3932;578,2,1,2621;578,3,1,1747;578,4,1,1165;578,5,1,388;851,5,1,145",1,0,50100689,1,14580,-,2,0,4,0,17500
-9,Resipi Kot Tempur Gangsa Lv9,2,recipe-icon-690,690,9,"610,1;613,1;606,2",Resipi Kot Tempur Gangsa Lv9,"579,1,1,3932;579,2,1,2621;579,3,1,1747;579,4,1,1165;579,5,1,388;881,5,1,145",1,0,50100690,1,14580,-,2,0,4,0,17500
-9,Resipi Seluar Tempur Gangsa Lv9,2,recipe-icon-691,691,9,"610,1;613,1;606,2",Resipi Seluar Tempur Gangsa Lv9,"580,1,1,3932;580,2,1,2621;580,3,1,1747;580,4,1,1165;580,5,1,388;882,5,1,145",1,0,50100691,1,14580,-,2,0,4,0,17500
-9,Resipi Sarung Tangan Tempur Gangsa Lv9,2,recipe-icon-692,692,9,"610,1;613,1;606,2",Resipi Sarung Tangan Tempur Gangsa Lv9,"581,1,1,3932;581,2,1,2621;581,3,1,1747;581,4,1,1165;581,5,1,388;883,5,1,145",1,0,50100692,1,14580,-,2,0,4,0,17500
-9,Resipi Kasut Tempur Gangsa Lv9,2,recipe-icon-693,693,9,"610,1;613,1;606,2",Resipi Kasut Tempur Gangsa Lv9,"582,1,1,3932;582,2,1,2621;582,3,1,1747;582,4,1,1165;582,5,1,388;884,5,1,145",1,0,50100693,1,14580,-,2,0,4,0,17500
-9,Resipi Sabit Lv9,2,recipe-icon-694,694,9,"604,2;609,1;612,1",Resipi Sabit Lv9,"583,1,1,3990;583,2,1,2660;583,3,1,1773;583,4,1,1182;583,5,1,394",1,0,50100694,1,14580,-,3,0,4,0,17500
-9,Resipi Kapak Lv9,2,recipe-icon-695,695,9,"604,2;609,1;612,1",Resipi Kapak Lv9,"584,1,1,3990;584,2,1,2660;584,3,1,1773;584,4,1,1182;584,5,1,394",1,0,50100695,1,14580,-,3,0,4,0,17500
-9,Resipi Beliung Lv9,2,recipe-icon-696,696,9,"604,2;609,1;612,1",Resipi Beliung Lv9,"585,1,1,3990;585,2,1,2660;585,3,1,1773;585,4,1,1182;585,5,1,394",1,0,50100696,1,14580,-,3,0,4,0,17500
-9,Resipi Topi Pengumpul Gangsa Lv9,2,recipe-icon-697,697,9,"604,2;609,1;612,1",Resipi Topi Kumpul Gangsa Lv9,"586,1,1,3932;586,2,1,2621;586,3,1,1747;586,4,1,1165;586,5,1,388;851,5,1,145",1,0,50100697,1,14580,-,3,0,4,0,17500
-9,Resipi Kot Pengumpul Gangsa Lv9,2,recipe-icon-698,698,9,"604,2;609,1;612,1",Resipi Kot Kumpul Gangsa Lv9,"587,1,1,3932;587,2,1,2621;587,3,1,1747;587,4,1,1165;587,5,1,388;881,5,1,145",1,0,50100698,1,14580,-,3,0,4,0,17500
-9,Resipi Seluar Pengumpul Gangsa Lv9,2,recipe-icon-699,699,9,"604,2;609,1;612,1",Resipi Seluar Kumpul Gangsa Lv9,"588,1,1,3932;588,2,1,2621;588,3,1,1747;588,4,1,1165;588,5,1,388;882,5,1,145",1,0,50100699,1,14580,-,3,0,4,0,17500
-9,Resipi Sarung Tangan Pengumpul Gangsa Lv9,2,recipe-icon-700,700,9,"604,2;609,1;612,1",Resipi Sarung Tangan Kumpul Gangsa Lv9,"589,1,1,3932;589,2,1,2621;589,3,1,1747;589,4,1,1165;589,5,1,388;883,5,1,145",1,0,50100700,1,14580,-,3,0,4,0,17500
-9,Resipi Kasut Pengumpul Gangsa Lv9,2,recipe-icon-701,701,9,"604,2;609,1;612,1",Resipi Kasut Kumpul Gangsa Lv9,"590,1,1,3932;590,2,1,2621;590,3,1,1747;590,4,1,1165;590,5,1,388;884,5,1,145",1,0,50100701,1,14580,-,3,0,4,0,17500
-9,Resipi Cerek Lv9,2,recipe-icon-702,702,9,"607,2;603,2",Resipi Cerek Lv9,"591,1,1,3990;591,2,1,2660;591,3,1,1773;591,4,1,1182;591,5,1,394",1,0,50100702,1,14580,-,1,0,4,0,17500
-9,Resipi Cangkul Lv9,2,recipe-icon-703,703,9,"607,2;603,2",Resipi Cangkul Lv9,"592,1,1,3990;592,2,1,2660;592,3,1,1773;592,4,1,1182;592,5,1,394",1,0,50100703,1,14580,-,1,0,4,0,17500
-9,Resipi Berus Lv9,2,recipe-icon-704,704,9,"607,2;603,2",Resipi Berus Lv9,"593,1,1,3990;593,2,1,2660;593,3,1,1773;593,4,1,1182;593,5,1,394",1,0,50100704,1,14580,-,1,0,4,0,17500
-9,Resipi Topi Pertanian Gangsa Lv9,2,recipe-icon-705,705,9,"607,2;603,2",Resipi Topi Pertanian Gangsa Lv9,"594,1,1,3932;594,2,1,2621;594,3,1,1747;594,4,1,1165;594,5,1,388;851,5,1,145",1,0,50100705,1,14580,-,1,0,4,0,17500
-9,Resipi Kot Pertanian Gangsa Lv9,2,recipe-icon-706,706,9,"607,2;603,2",Resipi Kot Pertanian Gangsa Lv9,"595,1,1,3932;595,2,1,2621;595,3,1,1747;595,4,1,1165;595,5,1,388;881,5,1,145",1,0,50100706,1,14580,-,1,0,4,0,17500
-9,Resipi Seluar Pertanian Gangsa Lv9,2,recipe-icon-707,707,9,"607,2;603,2",Resipi Seluar Pertanian Gangsa Lv9,"596,1,1,3932;596,2,1,2621;596,3,1,1747;596,4,1,1165;596,5,1,388;882,5,1,145",1,0,50100707,1,14580,-,1,0,4,0,17500
-9,Resipi Sarung Tangan Pertanian Gangsa Lv9,2,recipe-icon-708,708,9,"607,2;603,2",Resipi Sarung Tangan Pertanian Gangsa Lv9,"597,1,1,3932;597,2,1,2621;597,3,1,1747;597,4,1,1165;597,5,1,388;883,5,1,145",1,0,50100708,1,14580,-,1,0,4,0,17500
-9,Resipi Kasut Pertanian Gangsa Lv9,2,recipe-icon-709,709,9,"607,2;603,2",Resipi Kasut Pertanian Gangsa Lv9,"598,1,1,3932;598,2,1,2621;598,3,1,1747;598,4,1,1165;598,5,1,388;884,5,1,145",1,0,50100709,1,14580,-,1,0,4,0,17500
+7,Reka bentuk Resipi Pedang Tahap 7,2,recipe-icon-638,638,7,"608,1;611,1;406,2", Resipi Pedang Tahap 7,"527,1,1,4153;527,2,1,2769;527,3,1,1846;527,4,1,1230",1,0,50300638,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Cangkul Tahap 7,2,recipe-icon-639,639,7,"608,1;611,1;406,2", Resipi Cangkul Tahap 7,"528,1,1,4153;528,2,1,2769;528,3,1,1846;528,4,1,1230",1,0,50300639,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Busur Tahap 7,2,recipe-icon-640,640,7,"608,1;611,1;406,2", Resipi Busur Tahap 7,"529,1,1,4153;529,2,1,2769;529,3,1,1846;529,4,1,1230",1,0,50300640,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Kasut Pertanian Lava Tahap 7,2,recipe-icon-641,641,7,"608,1;611,1;406,2", Resipi Kasut Pertanian Lava Tahap 7,"530,1,1,4090;530,2,1,2727;530,3,1,1818;530,4,1,1212;849,5,1,151",1,0,50300641,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Sarung Tangan Pertempuran Lava Tahap 7,2,recipe-icon-642,642,7,"608,1;611,1;406,2", Resipi Sarung Tangan Pertempuran Lava Tahap 7,"531,1,1,4090;531,2,1,2727;531,3,1,1818;531,4,1,1212;873,5,1,151",1,0,50300642,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Kot Pertempuran Lava Tahap 7,2,recipe-icon-643,643,7,"608,1;611,1;406,2", Resipi Kot Pertempuran Lava Tahap 7,"532,1,1,4090;532,2,1,2727;532,3,1,1818;532,4,1,1212;874,5,1,151",1,0,50300643,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Topi Pertempuran Lava Tahap 7,2,recipe-icon-644,644,7,"608,1;611,1;406,2", Resipi Topi Pertempuran Lava Tahap 7,"533,1,1,4090;533,2,1,2727;533,3,1,1818;533,4,1,1212;875,5,1,151",1,0,50300644,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Seluar Pertempuran Lava Tahap 7,2,recipe-icon-645,645,7,"608,1;611,1;406,2", Resipi Seluar Pertempuran Lava Tahap 7,"534,1,1,4090;534,2,1,2727;534,3,1,1818;534,4,1,1212;876,5,1,151",1,0,50300645,1,170,-,2,0,4,0,12500
+7,Reka bentuk Resipi Sabit Tahap 7,2,recipe-icon-646,646,7,"602,2;409,1;412,1", Resipi Sabit Tahap 7,"535,1,1,4153;535,2,1,2769;535,3,1,1846;535,4,1,1230",1,0,50300646,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Kapak Tahap 7,2,recipe-icon-647,647,7,"602,2;409,1;412,1", Resipi Kapak Tahap 7,"536,1,1,4153;536,2,1,2769;536,3,1,1846;536,4,1,1230",1,0,50300647,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Palu Tahap 7,2,recipe-icon-648,648,7,"602,2;409,1;412,1", Resipi Palu Tahap 7,"537,1,1,4153;537,2,1,2769;537,3,1,1846;537,4,1,1230",1,0,50300648,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Slime Tenaga Pertempuran Lava Tahap 7,2,recipe-icon-649,649,7,"602,2;409,1;412,1", Resipi Slime Tenaga Pertempuran Lava Tahap 7,"538,1,1,4090;538,2,1,2727;538,3,1,1818;538,4,1,1212;849,5,1,151",1,0,50300649,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Sarung Tangan Kumpulan Lava Tahap 7,2,recipe-icon-650,650,7,"602,2;409,1;412,1", Resipi Sarung Tangan Pengumpulan Lava Tahap 7,"539,1,1,4090;539,2,1,2727;539,3,1,1818;539,4,1,1212;873,5,1,151",1,0,50300650,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Kot Kumpulan Lava Tahap 7,2,recipe-icon-651,651,7,"602,2;409,1;412,1", Resipi Kot Pengumpulan Lava Tahap 7,"540,1,1,4090;540,2,1,2727;540,3,1,1818;540,4,1,1212;874,5,1,151",1,0,50300651,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Topi Kumpulan Lava Tahap 7,2,recipe-icon-652,652,7,"602,2;409,1;412,1", Resipi Topi Pengumpulan Lava Tahap 7,"541,1,1,4090;541,2,1,2727;541,3,1,1818;541,4,1,1212;875,5,1,151",1,0,50300652,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Seluar Kumpulan Lava Tahap 7,2,recipe-icon-653,653,7,"602,2;409,1;412,1", Resipi Seluar Pengumpulan Lava Tahap 7,"542,1,1,4090;542,2,1,2727;542,3,1,1818;542,4,1,1212;876,5,1,151",1,0,50300653,1,170,-,3,0,4,0,12500
+7,Reka bentuk Resipi Beliung Tahap 7,2,recipe-icon-654,654,7,"605,2;403,2", Resipi Beliung Tahap 7,"543,1,1,4153;543,2,1,2769;543,3,1,1846;543,4,1,1230",1,0,50300654,1,170,-,1,0,4,0,12500
+7,Reka bentuk Resipi Biji Tahap 7,2,recipe-icon-655,655,7,"605,2;403,2", Resipi Biji Tahap 7,"544,1,1,4153;544,2,1,2769;544,3,1,1846;544,4,1,1230",1,0,50300655,1,170,-,1,0,4,0,12500
+7,Reka bentuk Resipi Berus Tahap 7,2,recipe-icon-656,656,7,"605,2;403,2", Resipi Berus Tahap 7,"545,1,1,4153;545,2,1,2769;545,3,1,1846;545,4,1,1230",1,0,50300656,1,170,-,1,0,4,0,12500
+7,Reka bentuk Resipi Cerek Tahap 7,2,recipe-icon-657,657,7,"605,2;403,2", Resipi Cerek Penyulingan Tahap 7,"546,1,1,4090;546,2,1,2727;546,3,1,1818;546,4,1,1212;849,5,1,151",1,0,50300657,1,170,-,1,0,4,0,12500
+7,Reka bentuk Resipi Sarung Tangan Pertanian Lava Tahap 7,2,recipe-icon-658,658,7,"605,2;403,2", Resipi Sarung Tangan Pertanian Lava Tahap 7,"547,1,1,4090;547,2,1,2727;547,3,1,1818;547,4,1,1212;873,5,1,151",1,0,50300658,1,170,-,1,0,4,0,12500
+7,Reka bentuk Resipi Kot Pertanian Lava Tahap 7,2,recipe-icon-659,659,7,"605,2;403,2", Resipi Kot Pertanian Lava Tahap 7,"548,1,1,4090;548,2,1,2727;548,3,1,1818;548,4,1,1212;874,5,1,151",1,0,50300659,1,170,-,1,0,4,0,12500
+7,Reka bentuk Resipi Topi Pertanian Lava Tahap 7,2,recipe-icon-660,660,7,"605,2;403,2", Resipi Topi Pertanian Lava Tahap 7,"549,1,1,4090;549,2,1,2727;549,3,1,1818;549,4,1,1212;875,5,1,151",1,0,50300660,1,170,-,1,0,4,0,12500
+7, Tahap 7 Resipi Seluar Pertanian Lava,2,recipe-icon-661,661,7,"605,2;403,2", Tahap 7 Resipi Seluar Pertanian Lava,"550,1,1,4090;550,2,1,2727;550,3,1,1818;550,4,1,1212;876,5,1,151",1,0,50300661,1,170,-,1,0,4,0,12500
+8, Tahap 8 Resipi Pedang,2,recipe-icon-662,662,8,"609,1;612,1;605,2", Tahap 8 Resipi Pedang,"551,1,1,4153;551,2,1,2769;551,3,1,1846;551,4,1,1230",1,0,50200662,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Tukul,2,recipe-icon-663,663,8,"609,1;612,1;605,2", Tahap 8 Resipi Tukul,"552,1,1,4153;552,2,1,2769;552,3,1,1846;552,4,1,1230",1,0,50200663,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Busur,2,recipe-icon-664,664,8,"609,1;612,1;605,2", Tahap 8 Resipi Busur,"553,1,1,4153;553,2,1,2769;553,3,1,1846;553,4,1,1230",1,0,50200664,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Topi HollowCombat,2,recipe-icon-665,665,8,"609,1;612,1;605,2", Tahap 8 Resipi Topi HollowCombat,"554,1,1,4090;554,2,1,2727;554,3,1,1818;554,4,1,1212;850,5,1,151",1,0,50200665,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Kot HollowCombat,2,recipe-icon-666,666,8,"609,1;612,1;605,2", Tahap 8 Resipi Kot HollowCombat,"555,1,1,4090;555,2,1,2727;555,3,1,1818;555,4,1,1212;877,5,1,151",1,0,50200666,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Seluar HollowCombat,2,recipe-icon-667,667,8,"609,1;612,1;605,2", Tahap 8 Resipi Seluar HollowCombat,"556,1,1,4090;556,2,1,2727;556,3,1,1818;556,4,1,1212;878,5,1,151",1,0,50200667,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Sarung Tangan HollowCombat,2,recipe-icon-668,668,8,"609,1;612,1;605,2", Tahap 8 Resipi Sarung Tangan HollowCombat,"557,1,1,4090;557,2,1,2727;557,3,1,1818;557,4,1,1212;879,5,1,151",1,0,50200668,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Kasut HollowCombat,2,recipe-icon-669,669,8,"609,1;612,1;605,2", Tahap 8 Resipi Kasut HollowCombat,"558,1,1,4090;558,2,1,2727;558,3,1,1818;558,4,1,1212;880,5,1,151",1,0,50200669,1,4860,-,2,0,4,0,15000
+8, Tahap 8 Resipi Sabit,2,recipe-icon-670,670,8,"603,2;608,1;611,1", Tahap 8 Resipi Sabit,"559,1,1,4153;559,2,1,2769;559,3,1,1846;559,4,1,1230",1,0,50200670,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Kapak,2,recipe-icon-671,671,8,"603,2;608,1;611,1", Tahap 8 Resipi Kapak,"560,1,1,4153;560,2,1,2769;560,3,1,1846;560,4,1,1230",1,0,50200671,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Beliung,2,recipe-icon-672,672,8,"603,2;608,1;611,1", Tahap 8 Resipi Beliung,"561,1,1,4153;561,2,1,2769;561,3,1,1846;561,4,1,1230",1,0,50200672,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Topi HollowGather,2,recipe-icon-673,673,8,"603,2;608,1;611,1", Tahap 8 Resipi Topi HollowGather,"562,1,1,4090;562,2,1,2727;562,3,1,1818;562,4,1,1212;850,5,1,151",1,0,50200673,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Kot HollowGather,2,recipe-icon-674,674,8,"603,2;608,1;611,1", Tahap 8 Resipi Kot HollowGather,"563,1,1,4090;563,2,1,2727;563,3,1,1818;563,4,1,1212;877,5,1,151",1,0,50200674,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Seluar HollowGather,2,recipe-icon-675,675,8,"603,2;608,1;611,1", Tahap 8 Resipi Seluar HollowGather,"564,1,1,4090;564,2,1,2727;564,3,1,1818;564,4,1,1212;878,5,1,151",1,0,50200675,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Sarung Tangan HollowGather,2,recipe-icon-676,676,8,"603,2;608,1;611,1", Tahap 8 Resipi Sarung Tangan HollowGather,"565,1,1,4090;565,2,1,2727;565,3,1,1818;565,4,1,1212;879,5,1,151",1,0,50200676,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Kasut HollowGather,2,recipe-icon-677,677,8,"603,2;608,1;611,1", Tahap 8 Resipi Kasut HollowGather,"566,1,1,4090;566,2,1,2727;566,3,1,1818;566,4,1,1212;880,5,1,151",1,0,50200677,1,4860,-,3,0,4,0,15000
+8, Tahap 8 Resipi Cerek,2,recipe-icon-678,678,8,"606,2;602,2", Tahap 8 Resipi Cerek,"567,1,1,4153;567,2,1,2769;567,3,1,1846;567,4,1,1230",1,0,50200678,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Cangkul,2,recipe-icon-679,679,8,"606,2;602,2", Tahap 8 Resipi Cangkul,"568,1,1,4153;568,2,1,2769;568,3,1,1846;568,4,1,1230",1,0,50200679,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Berus,2,recipe-icon-680,680,8,"606,2;602,2", Tahap 8 Resipi Berus,"569,1,1,4153;569,2,1,2769;569,3,1,1846;569,4,1,1230",1,0,50200680,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Topi HollowFarming,2,recipe-icon-681,681,8,"606,2;602,2", Tahap 8 Resipi Topi HollowFarming,"570,1,1,4090;570,2,1,2727;570,3,1,1818;570,4,1,1212;850,5,1,151",1,0,50200681,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Kot HollowFarming,2,recipe-icon-682,682,8,"606,2;602,2", Tahap 8 Resipi Kot HollowFarming,"571,1,1,4090;571,2,1,2727;571,3,1,1818;571,4,1,1212;877,5,1,151",1,0,50200682,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Seluar Pertanian HollowFarming,2,recipe-icon-683,683,8,"606,2;602,2", Tahap 8 Resipi Seluar HollowFarming,"572,1,1,4090;572,2,1,2727;572,3,1,1818;572,4,1,1212;878,5,1,151",1,0,50200683,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Sarung Tangan HollowFarming,2,recipe-icon-684,684,8,"606,2;602,2", Tahap 8 Resipi Sarung Tangan HollowFarming,"573,1,1,4090;573,2,1,2727;573,3,1,1818;573,4,1,1212;879,5,1,151",1,0,50200684,1,4860,-,1,0,4,0,15000
+8, Tahap 8 Resipi Kasut HollowFarming,2,recipe-icon-685,685,8,"606,2;602,2", Tahap 8 Resipi Kasut HollowFarming,"574,1,1,4090;574,2,1,2727;574,3,1,1818;574,4,1,1212;880,5,1,151",1,0,50200685,1,4860,-,1,0,4,0,15000
+9,Resipi Pedang Lv9,2,recipe-icon-686,686,9,"610,1;613,1;606,2",Resipi Pedang Lv9,"575,1,1,4153;575,2,1,2769;575,3,1,1846;575,4,1,1230",1,0,50100686,1,14580,-,2,0,4,0,17500
+9,Resipi Palu Lv9,2,recipe-icon-687,687,9,"610,1;613,1;606,2",Resipi Palu Lv9,"576,1,1,4153;576,2,1,2769;576,3,1,1846;576,4,1,1230",1,0,50100687,1,14580,-,2,0,4,0,17500
+9,Resipi Busur Lv9,2,recipe-icon-688,688,9,"610,1;613,1;606,2",Resipi Busur Lv9,"577,1,1,4153;577,2,1,2769;577,3,1,1846;577,4,1,1230",1,0,50100688,1,14580,-,2,0,4,0,17500
+9,Resipi Topi Tempur Gangsa Lv9,2,recipe-icon-689,689,9,"610,1;613,1;606,2",Resipi Topi Tempur Gangsa Lv9,"578,1,1,4090;578,2,1,2727;578,3,1,1818;578,4,1,1212;851,5,1,151",1,0,50100689,1,14580,-,2,0,4,0,17500
+9,Resipi Kot Tempur Gangsa Lv9,2,recipe-icon-690,690,9,"610,1;613,1;606,2",Resipi Kot Tempur Gangsa Lv9,"579,1,1,4090;579,2,1,2727;579,3,1,1818;579,4,1,1212;881,5,1,151",1,0,50100690,1,14580,-,2,0,4,0,17500
+9,Resipi Seluar Tempur Gangsa Lv9,2,recipe-icon-691,691,9,"610,1;613,1;606,2",Resipi Seluar Tempur Gangsa Lv9,"580,1,1,4090;580,2,1,2727;580,3,1,1818;580,4,1,1212;882,5,1,151",1,0,50100691,1,14580,-,2,0,4,0,17500
+9,Resipi Sarung Tangan Tempur Gangsa Lv9,2,recipe-icon-692,692,9,"610,1;613,1;606,2",Resipi Sarung Tangan Tempur Gangsa Lv9,"581,1,1,4090;581,2,1,2727;581,3,1,1818;581,4,1,1212;883,5,1,151",1,0,50100692,1,14580,-,2,0,4,0,17500
+9,Resipi Kasut Tempur Gangsa Lv9,2,recipe-icon-693,693,9,"610,1;613,1;606,2",Resipi Kasut Tempur Gangsa Lv9,"582,1,1,4090;582,2,1,2727;582,3,1,1818;582,4,1,1212;884,5,1,151",1,0,50100693,1,14580,-,2,0,4,0,17500
+9,Resipi Sabit Lv9,2,recipe-icon-694,694,9,"604,2;609,1;612,1",Resipi Sabit Lv9,"583,1,1,4153;583,2,1,2769;583,3,1,1846;583,4,1,1230",1,0,50100694,1,14580,-,3,0,4,0,17500
+9,Resipi Kapak Lv9,2,recipe-icon-695,695,9,"604,2;609,1;612,1",Resipi Kapak Lv9,"584,1,1,4153;584,2,1,2769;584,3,1,1846;584,4,1,1230",1,0,50100695,1,14580,-,3,0,4,0,17500
+9,Resipi Beliung Lv9,2,recipe-icon-696,696,9,"604,2;609,1;612,1",Resipi Beliung Lv9,"585,1,1,4153;585,2,1,2769;585,3,1,1846;585,4,1,1230",1,0,50100696,1,14580,-,3,0,4,0,17500
+9,Resipi Topi Pengumpul Gangsa Lv9,2,recipe-icon-697,697,9,"604,2;609,1;612,1",Resipi Topi Kumpul Gangsa Lv9,"586,1,1,4090;586,2,1,2727;586,3,1,1818;586,4,1,1212;851,5,1,151",1,0,50100697,1,14580,-,3,0,4,0,17500
+9,Resipi Kot Pengumpul Gangsa Lv9,2,recipe-icon-698,698,9,"604,2;609,1;612,1",Resipi Kot Kumpul Gangsa Lv9,"587,1,1,4090;587,2,1,2727;587,3,1,1818;587,4,1,1212;881,5,1,151",1,0,50100698,1,14580,-,3,0,4,0,17500
+9,Resipi Seluar Pengumpul Gangsa Lv9,2,recipe-icon-699,699,9,"604,2;609,1;612,1",Resipi Seluar Kumpul Gangsa Lv9,"588,1,1,4090;588,2,1,2727;588,3,1,1818;588,4,1,1212;882,5,1,151",1,0,50100699,1,14580,-,3,0,4,0,17500
+9,Resipi Sarung Tangan Pengumpul Gangsa Lv9,2,recipe-icon-700,700,9,"604,2;609,1;612,1",Resipi Sarung Tangan Kumpul Gangsa Lv9,"589,1,1,4090;589,2,1,2727;589,3,1,1818;589,4,1,1212;883,5,1,151",1,0,50100700,1,14580,-,3,0,4,0,17500
+9,Resipi Kasut Pengumpul Gangsa Lv9,2,recipe-icon-701,701,9,"604,2;609,1;612,1",Resipi Kasut Kumpul Gangsa Lv9,"590,1,1,4090;590,2,1,2727;590,3,1,1818;590,4,1,1212;884,5,1,151",1,0,50100701,1,14580,-,3,0,4,0,17500
+9,Resipi Cerek Lv9,2,recipe-icon-702,702,9,"607,2;603,2",Resipi Cerek Lv9,"591,1,1,4153;591,2,1,2769;591,3,1,1846;591,4,1,1230",1,0,50100702,1,14580,-,1,0,4,0,17500
+9,Resipi Cangkul Lv9,2,recipe-icon-703,703,9,"607,2;603,2",Resipi Cangkul Lv9,"592,1,1,4153;592,2,1,2769;592,3,1,1846;592,4,1,1230",1,0,50100703,1,14580,-,1,0,4,0,17500
+9,Resipi Berus Lv9,2,recipe-icon-704,704,9,"607,2;603,2",Resipi Berus Lv9,"593,1,1,4153;593,2,1,2769;593,3,1,1846;593,4,1,1230",1,0,50100704,1,14580,-,1,0,4,0,17500
+9,Resipi Topi Pertanian Gangsa Lv9,2,recipe-icon-705,705,9,"607,2;603,2",Resipi Topi Pertanian Gangsa Lv9,"594,1,1,4090;594,2,1,2727;594,3,1,1818;594,4,1,1212;851,5,1,151",1,0,50100705,1,14580,-,1,0,4,0,17500
+9,Resipi Kot Pertanian Gangsa Lv9,2,recipe-icon-706,706,9,"607,2;603,2",Resipi Kot Pertanian Gangsa Lv9,"595,1,1,4090;595,2,1,2727;595,3,1,1818;595,4,1,1212;881,5,1,151",1,0,50100706,1,14580,-,1,0,4,0,17500
+9,Resipi Seluar Pertanian Gangsa Lv9,2,recipe-icon-707,707,9,"607,2;603,2",Resipi Seluar Pertanian Gangsa Lv9,"596,1,1,4090;596,2,1,2727;596,3,1,1818;596,4,1,1212;882,5,1,151",1,0,50100707,1,14580,-,1,0,4,0,17500
+9,Resipi Sarung Tangan Pertanian Gangsa Lv9,2,recipe-icon-708,708,9,"607,2;603,2",Resipi Sarung Tangan Pertanian Gangsa Lv9,"597,1,1,4090;597,2,1,2727;597,3,1,1818;597,4,1,1212;883,5,1,151",1,0,50100708,1,14580,-,1,0,4,0,17500
+9,Resipi Kasut Pertanian Gangsa Lv9,2,recipe-icon-709,709,9,"607,2;603,2",Resipi Kasut Pertanian Gangsa Lv9,"598,1,1,4090;598,2,1,2727;598,3,1,1818;598,4,1,1212;884,5,1,151",1,0,50100709,1,14580,-,1,0,4,0,17500
 7, Resipi Penyulaman Pedang Lv7,2,recipe-icon-710,710,7,"527,1;409,1;412,1", Resipi Penyulaman Pedang Lv7,"527,2,1,4426;527,3,1,2950;527,4,1,1967;527,5,1,655",1,0,50300710,1,10,-,2,0,4,0,12500
 7, Resipi Penyulaman Cangkul Lv7,2,recipe-icon-815,815,7,"528,1;409,1;412,1", Resipi Penyulaman Cangkul Lv7,"528,2,1,4426;528,3,1,2950;528,4,1,1967;528,5,1,655",1,0,50300815,1,10,-,2,0,4,0,12500
 7, Resipi Penyulaman Busur Lv7,2,recipe-icon-816,816,7,"529,1;409,1;412,1", Resipi Penyulaman Busur Lv7,"529,2,1,4426;529,3,1,2950;529,4,1,1967;529,5,1,655",1,0,50300816,1,10,-,2,0,4,0,12500
@@ -535,15 +535,15 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 7, Resipi Penyulaman Sabit Lv7,2,recipe-icon-822,822,7,"535,1;403,2", Resipi Penyulaman Sabit Lv7,"535,2,1,4426;535,3,1,2950;535,4,1,1967;535,5,1,655",1,0,50300822,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Kapak Lv7,2,recipe-icon-823,823,7,"536,1;403,2", Resipi Penyulaman Kapak Lv7,"536,2,1,4426;536,3,1,2950;536,4,1,1967;536,5,1,655",1,0,50300823,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Palu Lv7,2,recipe-icon-824,824,7,"537,1;403,2", Resipi Penyulaman Palu Lv7,"537,2,1,4426;537,3,1,2950;537,4,1,1967;537,5,1,655",1,0,50300824,1,10,-,3,0,4,0,12500
-7, Resipi Slime Tenaga Penanaman Lava Lv7,2,recipe-icon-825,825,7,"538,1;403,2", Resipi Slime Tenaga Penanaman Lava Lv7,"538,2,1,4426;538,3,1,2950;538,4,1,1967;538,5,1,655",1,0,50300825,1,10,-,3,0,4,0,12500
+7, Resipi Slime Tenaga Penanaman Lava Lv7,2,recipe-icon-825,825,7,"538,1;403,2", Resipi Slime Tenaga Penanaman Lava Lv7,"538,2,1,4736;538,3,1,3157;538,4,1,2105",1,0,50300825,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Sarung Tangan Pengumpulan Lava Lv7,2,recipe-icon-826,826,7,"539,1;403,2", Resipi Penyulaman Sarung Tangan Pengumpulan Lava Lv7,"539,2,1,4426;539,3,1,2950;539,4,1,1967;539,5,1,655",1,0,50300826,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Kot Pengumpulan Lava Lv7,2,recipe-icon-827,827,7,"540,1;403,2", Resipi Penyulaman Kot Pengumpulan Lava Lv7,"540,2,1,4426;540,3,1,2950;540,4,1,1967;540,5,1,655",1,0,50300827,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Topi Pengumpulan Lava Lv7,2,recipe-icon-828,828,7,"541,1;403,2", Resipi Penyulaman Topi Pengumpulan Lava Lv7,"541,2,1,4426;541,3,1,2950;541,4,1,1967;541,5,1,655",1,0,50300828,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Seluar Pengumpulan Lava Lv7,2,recipe-icon-829,829,7,"542,1;403,2", Resipi Penyulaman Seluar Pengumpulan Lava Lv7,"542,2,1,4426;542,3,1,2950;542,4,1,1967;542,5,1,655",1,0,50300829,1,10,-,3,0,4,0,12500
 7, Resipi Penyulaman Beliung Lv7,2,recipe-icon-830,830,7,"543,1;406,2", Resipi Penyulaman Beliung Lv7,"543,2,1,4426;543,3,1,2950;543,4,1,1967;543,5,1,655",1,0,50300830,1,10,-,1,0,4,0,12500
-7, Resipi Ramuan Lv7,2,recipe-icon-831,831,7,"544,1;406,2", Resipi Ramuan Lv7,"544,2,1,4426;544,3,1,2950;544,4,1,1967;544,5,1,655",1,0,50300831,1,10,-,1,0,4,0,12500
+7, Resipi Ramuan Lv7,2,recipe-icon-831,831,7,"544,1;406,2", Resipi Ramuan Lv7,"544,2,1,4736;544,3,1,3157;544,4,1,2105",1,0,50300831,1,10,-,1,0,4,0,12500
 7, Resipi Penyulaman Berus Lv7,2,recipe-icon-832,832,7,"545,1;406,2", Resipi Penyulaman Berus Lv7,"545,2,1,4426;545,3,1,2950;545,4,1,1967;545,5,1,655",1,0,50300832,1,10,-,1,0,4,0,12500
-7, Resipi Slime Tenaga Ternakan Lava Lv7,2,recipe-icon-833,833,7,"546,1;406,2", Resipi Slime Tenaga Ternakan Lava Lv7,"546,2,1,4426;546,3,1,2950;546,4,1,1967;546,5,1,655",1,0,50300833,1,10,-,1,0,4,0,12500
+7, Resipi Slime Tenaga Ternakan Lava Lv7,2,recipe-icon-833,833,7,"546,1;406,2", Resipi Slime Tenaga Ternakan Lava Lv7,"546,2,1,4736;546,3,1,3157;546,4,1,2105",1,0,50300833,1,10,-,1,0,4,0,12500
 7, Resipi Penyulaman Sarung Tangan Pertanian Lava Lv7,2,recipe-icon-834,834,7,"547,1;406,2", Resipi Penyulaman Sarung Tangan Pertanian Lava Lv7,"547,2,1,4426;547,3,1,2950;547,4,1,1967;547,5,1,655",1,0,50300834,1,10,-,1,0,4,0,12500
 7, Resipi Penyulaman Kot Pertanian Lava Lv7,2,recipe-icon-835,835,7,"548,1;406,2", Resipi Penyulaman Kot Pertanian Lava Lv7,"548,2,1,4426;548,3,1,2950;548,4,1,1967;548,5,1,655",1,0,50300835,1,10,-,1,0,4,0,12500
 7, Resipi Penyulaman Topi Pertanian Lava Lv7,2,recipe-icon-836,836,7,"549,1;406,2", Resipi Penyulaman Topi Pertanian Lava Lv7,"549,2,1,4426;549,3,1,2950;549,4,1,1967;549,5,1,655",1,0,50300836,1,10,-,1,0,4,0,12500
@@ -681,175 +681,175 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 2, Tahap 2 - Resipi Meningkatkan Sabit Besi ,2,recipe-icon-975,975,2,"757,100",Resipi Peningkatan,"227,1,1,6000;227,2,1,4000",1,0,50800975,1,10,-,3,0,4,0,0
 2, Tahap 2 - Resipi Meningkatkan Topi Kapas Bertuah ,2,recipe-icon-976,976,2,"748,100",Resipi Peningkatan,"99,1,1,6000;99,2,1,4000",1,0,50800976,1,10,-,1,0,4,0,0
 2, Tahap 2 - Resipi Meningkatkan Palu Besi ,2,recipe-icon-977,977,2,"739,100",Resipi Peningkatan,"442,1,1,6000;442,2,1,4000",1,0,50800977,1,10,-,2,0,4,0,0
-3, Tahap 3 - Resipi Meningkatkan Sabit Kristal ,2,recipe-icon-978,978,3,"758,100",Resipi Peningkatan,"228,1,1,4736;228,2,1,3157;228,3,1,2105",1,0,50700978,1,10,-,3,0,4,0,0
-3, Tahap 3 - Resipi Meningkatkan Kasut Mengumpul ,2,recipe-icon-979,979,3,"758,100",Resipi Peningkatan,"115,1,1,4736;115,2,1,3157;115,3,1,2105",1,0,50700979,1,10,-,3,0,4,0,0
-3, Tahap 3 - Resipi Meningkatkan Topi Mengumpul,2,recipe-icon-980,980,3,"758,100",Resipi Peningkatan,"118,1,1,4736;118,2,1,3157;118,3,1,2105",1,0,50700980,1,10,-,3,0,4,0,0
-3,Tingkat 3-Resipi Meningkatkan Jaket Pengumpulan,2,recipe-icon-981,981,3,"758,100",Resipi Peningkatan,"121,1,1,4736;121,2,1,3157;121,3,1,2105",1,0,50700981,1,10,-,3,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Sarung Tangan Pengumpulan,2,recipe-icon-982,982,3,"758,100",Resipi Peningkatan,"127,1,1,4736;127,2,1,3157;127,3,1,2105",1,0,50700982,1,10,-,3,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Kasut Pertanian,2,recipe-icon-983,983,3,"749,100",Resipi Peningkatan,"112,1,1,4736;112,2,1,3157;112,3,1,2105",1,0,50700983,1,10,-,1,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Pedang Kristal,2,recipe-icon-984,984,3,"740,100",Resipi Peningkatan,"42,1,1,4736;42,2,1,3157;42,3,1,2105",1,0,50700984,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Berus Kristal,2,recipe-icon-985,985,3,"749,100",Resipi Peningkatan,"455,1,1,4736;455,2,1,3157;455,3,1,2105",1,0,50700985,1,10,-,1,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Kapak yang Diberkati,2,recipe-icon-986,986,3,"758,100",Resipi Peningkatan,"94,1,1,4736;94,2,1,3157;94,3,1,2105",1,0,50700986,1,10,-,3,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Tukul Kristal,2,recipe-icon-987,987,3,"740,100",Resipi Peningkatan,"443,1,1,4736;443,2,1,3157;443,3,1,2105",1,0,50700987,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Seluar Pahlawan Kristal,2,recipe-icon-988,988,3,"740,100",Resipi Peningkatan,"51,1,1,4736;51,2,1,3157;51,3,1,2105",1,0,50700988,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Busur Kristal,2,recipe-icon-989,989,3,"740,100",Resipi Peningkatan,"289,1,1,4736;289,2,1,3157;289,3,1,2105",1,0,50700989,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Sarung Tangan Pahlawan Batu Kristal,2,recipe-icon-990,990,3,"740,100",Resipi Peningkatan,"54,1,1,4736;54,2,1,3157;54,3,1,2105",1,0,50700990,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Helmet Pahlawan Batu Kristal,2,recipe-icon-991,991,3,"740,100",Resipi Peningkatan,"45,1,1,4736;45,2,1,3157;45,3,1,2105",1,0,50700991,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Baju Pahlawan Batu Kristal,2,recipe-icon-992,992,3,"740,100",Resipi Peningkatan,"48,1,1,4736;48,2,1,3157;48,3,1,2105",1,0,50700992,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Kasut Pahlawan Batu Kristal,2,recipe-icon-993,993,3,"740,100",Resipi Peningkatan,"57,1,1,4736;57,2,1,3157;57,3,1,2105",1,0,50700993,1,10,-,2,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Seluar Pertanian,2,recipe-icon-994,994,3,"749,100",Resipi Peningkatan,"106,1,1,4736;106,2,1,3157;106,3,1,2105",1,0,50700994,1,10,-,1,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Sarung Tangan Pertanian,2,recipe-icon-995,995,3,"749,100",Resipi Peningkatan,"109,1,1,4736;109,2,1,3157;109,3,1,2105",1,0,50700995,1,10,-,1,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Jaket Pertanian,2,recipe-icon-996,996,3,"749,100",Resipi Peningkatan,"103,1,1,4736;103,2,1,3157;103,3,1,2105",1,0,50700996,1,10,-,1,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Seluar Pengumpulan,2,recipe-icon-997,997,3,"758,100",Resipi Peningkatan,"124,1,1,4736;124,2,1,3157;124,3,1,2105",1,0,50700997,1,10,-,3,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Beliung yang Diberkati,2,recipe-icon-998,998,3,"758,100",Resipi Peningkatan,"90,1,1,4736;90,2,1,3157;90,3,1,2105",1,0,50700998,1,10,-,3,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Cangkul yang Diberkati,2,recipe-icon-999,999,3,"749,100",Resipi Peningkatan,"82,1,1,4736;82,2,1,3157;82,3,1,2105",1,0,50700999,1,10,-,1,0,4,0,0
-3, Tingkat 3-Resipi Meningkatkan Cerek yang Diberkati,2,recipe-icon-1000,1000,3,"749,100",Resipi Peningkatan,"86,1,1,4736;86,2,1,3157;86,3,1,2105",1,0,50701000,1,10,-,1,0,4,0,0
-4, Tingkat 4-Resipi Meningkatkan Cangkul Emas,2,recipe-icon-1001,1001,4,"750,100",Resipi Peningkatan,"299,1,1,4153;299,2,1,2769;299,3,1,1846;299,4,1,1230",1,0,50601001,1,10,-,1,0,4,0,5000
-4, Tingkat 4-Resipi Meningkatkan Kot Pahlawan Emas,2,recipe-icon-1002,1002,4,"741,100",Resipi Peningkatan,"336,1,1,4153;336,2,1,2769;336,3,1,1846;336,4,1,1230",1,0,50601002,1,10,-,2,0,4,0,5000
-4, Tingkat 4-Resipi Meningkatkan Seluar Pertanian Emas,2,recipe-icon-1003,1003,4,"750,100",Resipi Peningkatan,"353,1,1,4153;353,2,1,2769;353,3,1,1846;353,4,1,1230",1,0,50601003,1,10,-,1,0,4,0,5000
-4, Tingkat 4-Resipi Meningkatkan Kasut Pertanian Emas,2,recipe-icon-1004,1004,4,"750,100",Resipi Peningkatan,"354,1,1,4153;354,2,1,2769;354,3,1,1846;354,4,1,1230",1,0,50601004,1,10,-,1,0,4,0,5000
-4, Tingkat 4-Resipi Meningkatkan Sarung Tangan Pahlawan Emas,2,recipe-icon-1005,1005,4,"741,100",Resipi Peningkatan,"337,1,1,4153;337,2,1,2769;337,3,1,1846;337,4,1,1230",1,0,50601005,1,10,-,2,0,4,0,5000
-4,Tahap 4 - Resipi Meningkatkan Topi Pejuang Emas,2,recipe-icon-1006,1006,4,"741,100",Resipi Peningkatan,"335,1,1,4153;335,2,1,2769;335,3,1,1846;335,4,1,1230",1,0,50601006,1,10,-,2,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Palu Emas,2,recipe-icon-1007,1007,4,"741,100",Resipi Peningkatan,"444,1,1,4153;444,2,1,2769;444,3,1,1846;444,4,1,1230",1,0,50601007,1,10,-,2,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Kapak Emas,2,recipe-icon-1008,1008,4,"759,100",Resipi Peningkatan,"300,1,1,4153;300,2,1,2769;300,3,1,1846;300,4,1,1230",1,0,50601008,1,10,-,3,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Baju Kumpul Emas,2,recipe-icon-1009,1009,4,"759,100",Resipi Peningkatan,"321,1,1,4153;321,2,1,2769;321,3,1,1846;321,4,1,1230",1,0,50601009,1,10,-,3,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Kasut Kumpul Emas,2,recipe-icon-1010,1010,4,"759,100",Resipi Peningkatan,"324,1,1,4153;324,2,1,2769;324,3,1,1846;324,4,1,1230",1,0,50601010,1,10,-,3,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Seluar Pejuang Emas,2,recipe-icon-1011,1011,4,"741,100",Resipi Peningkatan,"338,1,1,4153;338,2,1,2769;338,3,1,1846;338,4,1,1230",1,0,50601011,1,10,-,2,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Kasut Pejuang Emas,2,recipe-icon-1012,1012,4,"741,100",Resipi Peningkatan,"339,1,1,4153;339,2,1,2769;339,3,1,1846;339,4,1,1230",1,0,50601012,1,10,-,2,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Seluar Kumpul Emas,2,recipe-icon-1013,1013,4,"759,100",Resipi Peningkatan,"323,1,1,4153;323,2,1,2769;323,3,1,1846;323,4,1,1230",1,0,50601013,1,10,-,3,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Baju Petani Emas,2,recipe-icon-1014,1014,4,"750,100",Resipi Peningkatan,"351,1,1,4153;351,2,1,2769;351,3,1,1846;351,4,1,1230",1,0,50601014,1,10,-,1,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Busur Emas,2,recipe-icon-1015,1015,4,"741,100",Resipi Peningkatan,"450,1,1,4153;450,2,1,2769;450,3,1,1846;450,4,1,1230",1,0,50601015,1,10,-,2,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Berus Emas,2,recipe-icon-1016,1016,4,"750,100",Resipi Peningkatan,"456,1,1,4153;456,2,1,2769;456,3,1,1846;456,4,1,1230",1,0,50601016,1,10,-,1,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Sarung Tangan Petani Emas,2,recipe-icon-1017,1017,4,"750,100",Resipi Peningkatan,"352,1,1,4153;352,2,1,2769;352,3,1,1846;352,4,1,1230",1,0,50601017,1,10,-,1,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Sarung Tangan Kumpul Emas,2,recipe-icon-1018,1018,4,"759,100",Resipi Peningkatan,"322,1,1,4153;322,2,1,2769;322,3,1,1846;322,4,1,1230",1,0,50601018,1,10,-,3,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Topi Kumpul Emas,2,recipe-icon-1019,1019,4,"759,100",Resipi Peningkatan,"320,1,1,4153;320,2,1,2769;320,3,1,1846;320,4,1,1230",1,0,50601019,1,10,-,3,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Topi Petani Emas,2,recipe-icon-1020,1020,4,"750,100",Resipi Peningkatan,"350,1,1,4153;350,2,1,2769;350,3,1,1846;350,4,1,1230",1,0,50601020,1,10,-,1,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Cerek Emas,2,recipe-icon-1021,1021,4,"750,100",Resipi Peningkatan,"304,1,1,4153;304,2,1,2769;304,3,1,1846;304,4,1,1230",1,0,50601021,1,10,-,1,0,4,0,5000
-4, Tahap 4 - Resipi Meningkatkan Beliung Emas,2,recipe-icon-1022,1022,4,"759,100",Resipi Peningkatan,"301,1,1,4153;301,2,1,2769;301,3,1,1846;301,4,1,1230",1,0,50601022,1,10,-,3,0,4,0,5000
-5, Tahap 5 - Resipi Meningkatkan Cangkul Berlian,2,recipe-icon-1023,1023,5,"751,100",Resipi Peningkatan,"305,1,1,3990;305,2,1,2660;305,3,1,1773;305,4,1,1182;305,5,1,394",1,0,50501023,1,10,-,1,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Baju Pejuang Berlian,2,recipe-icon-1024,1024,5,"742,100",Resipi Peningkatan,"341,1,1,3990;341,2,1,2660;341,3,1,1773;341,4,1,1182;341,5,1,394",1,0,50501024,1,10,-,2,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Seluar Petani Berlian,2,recipe-icon-1025,1025,5,"751,100",Resipi Peningkatan,"358,1,1,3990;358,2,1,2660;358,3,1,1773;358,4,1,1182;358,5,1,394",1,0,50501025,1,10,-,1,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Kasut Petani Berlian,2,recipe-icon-1026,1026,5,"751,100",Resipi Peningkatan,"359,1,1,3990;359,2,1,2660;359,3,1,1773;359,4,1,1182;359,5,1,394",1,0,50501026,1,10,-,1,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Sarung Tangan Pejuang Berlian,2,recipe-icon-1027,1027,5,"742,100",Resipi Peningkatan,"342,1,1,3990;342,2,1,2660;342,3,1,1773;342,4,1,1182;342,5,1,394",1,0,50501027,1,10,-,2,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Topi Pejuang Berlian,2,recipe-icon-1028,1028,5,"742,100",Resipi Peningkatan,"340,1,1,3990;340,2,1,2660;340,3,1,1773;340,4,1,1182;340,5,1,394",1,0,50501028,1,10,-,2,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Palu Berlian,2,recipe-icon-1029,1029,5,"742,100",Resipi Peningkatan,"445,1,1,3990;445,2,1,2660;445,3,1,1773;445,4,1,1182;445,5,1,394",1,0,50501029,1,10,-,2,0,4,0,7500
-5, Tahap 5 - Resipi Meningkatkan Kapak Berlian,2,recipe-icon-1030,1030,5,"760,100",Resipi Peningkatan,"306,1,1,3990;306,2,1,2660;306,3,1,1773;306,4,1,1182;306,5,1,394",1,0,50501030,1,10,-,3,0,4,0,7500
-5,Tingkat 5 - Resipi Meningkatkan Kasut Pengumpul Berlian,2,recipe-icon-1031,1031,5,"760,100",Resipi Peningkatan,"329,1,1,3990;329,2,1,2660;329,3,1,1773;329,4,1,1182;329,5,1,394",1,0,50501031,1,10,-,3,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Kot Pengumpul Berlian,2,recipe-icon-1032,1032,5,"760,100",Resipi Peningkatan,"326,1,1,3990;326,2,1,2660;326,3,1,1773;326,4,1,1182;326,5,1,394",1,0,50501032,1,10,-,3,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Seluar Tempur Berlian,2,recipe-icon-1033,1033,5,"742,100",Resipi Peningkatan,"343,1,1,3990;343,2,1,2660;343,3,1,1773;343,4,1,1182;343,5,1,394",1,0,50501033,1,10,-,2,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Kasut Tempur Berlian,2,recipe-icon-1034,1034,5,"742,100",Resipi Peningkatan,"344,1,1,3990;344,2,1,2660;344,3,1,1773;344,4,1,1182;344,5,1,394",1,0,50501034,1,10,-,2,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Sarung Tangan Pengumpul Berlian,2,recipe-icon-1035,1035,5,"760,100",Resipi Peningkatan,"327,1,1,3990;327,2,1,2660;327,3,1,1773;327,4,1,1182;327,5,1,394",1,0,50501035,1,10,-,3,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Topi Pengumpul Berlian,2,recipe-icon-1036,1036,5,"760,100",Resipi Peningkatan,"325,1,1,3990;325,2,1,2660;325,3,1,1773;325,4,1,1182;325,5,1,394",1,0,50501036,1,10,-,3,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Seluar Pengumpul Berlian,2,recipe-icon-1037,1037,5,"760,100",Resipi Peningkatan,"328,1,1,3990;328,2,1,2660;328,3,1,1773;328,4,1,1182;328,5,1,394",1,0,50501037,1,10,-,3,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Kot Petani Berlian,2,recipe-icon-1038,1038,5,"751,100",Resipi Peningkatan,"356,1,1,3990;356,2,1,2660;356,3,1,1773;356,4,1,1182;356,5,1,394",1,0,50501038,1,10,-,1,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Busur Berlian,2,recipe-icon-1039,1039,5,"742,100",Resipi Peningkatan,"451,1,1,3990;451,2,1,2660;451,3,1,1773;451,4,1,1182;451,5,1,394",1,0,50501039,1,10,-,2,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Berus Berlian,2,recipe-icon-1040,1040,5,"751,100",Resipi Peningkatan,"457,1,1,3990;457,2,1,2660;457,3,1,1773;457,4,1,1182;457,5,1,394",1,0,50501040,1,10,-,1,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Sarung Tangan Petani Berlian,2,recipe-icon-1041,1041,5,"751,100",Resipi Peningkatan,"357,1,1,3990;357,2,1,2660;357,3,1,1773;357,4,1,1182;357,5,1,394",1,0,50501041,1,10,-,1,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Topi Petani Berlian,2,recipe-icon-1042,1042,5,"751,100",Resipi Peningkatan,"355,1,1,3990;355,2,1,2660;355,3,1,1773;355,4,1,1182;355,5,1,394",1,0,50501042,1,10,-,1,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Cerek Berlian,2,recipe-icon-1043,1043,5,"751,100",Resipi Peningkatan,"310,1,1,3990;310,2,1,2660;310,3,1,1773;310,4,1,1182;310,5,1,394",1,0,50501043,1,10,-,1,0,4,0,7500
-5, Tingkat 5 - Resipi Meningkatkan Beliung Berlian,2,recipe-icon-1044,1044,5,"760,100",Resipi Peningkatan,"307,1,1,3990;307,2,1,2660;307,3,1,1773;307,4,1,1182;307,5,1,394",1,0,50501044,1,10,-,3,0,4,0,7500
-6, Tingkat 6 - Resipi Meningkatkan Berus Cahaya Bintang,2,recipe-icon-1045,1045,6,"752,100",Resipi Peningkatan,"458,1,1,3990;458,2,1,2660;458,3,1,1773;458,4,1,1182;458,5,1,394",1,0,50401045,1,10,-,1,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Sarung Tangan Pengumpul Cahaya Bintang,2,recipe-icon-1046,1046,6,"761,100",Resipi Peningkatan,"332,1,1,3990;332,2,1,2660;332,3,1,1773;332,4,1,1182;332,5,1,394",1,0,50401046,1,10,-,3,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Kasut Tempur Berlian Cahaya Bintang,2,recipe-icon-1047,1047,6,"743,100",Resipi Peningkatan,"349,1,1,3990;349,2,1,2660;349,3,1,1773;349,4,1,1182;349,5,1,394",1,0,50401047,1,10,-,2,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Kot Pengumpul Cahaya Bintang,2,recipe-icon-1048,1048,6,"761,100",Resipi Peningkatan,"331,1,1,3990;331,2,1,2660;331,3,1,1773;331,4,1,1182;331,5,1,394",1,0,50401048,1,10,-,3,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Topi Pengumpul Cahaya Bintang,2,recipe-icon-1049,1049,6,"761,100",Resipi Peningkatan,"330,1,1,3990;330,2,1,2660;330,3,1,1773;330,4,1,1182;330,5,1,394",1,0,50401049,1,10,-,3,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Seluar Pengumpul Cahaya Bintang,2,recipe-icon-1050,1050,6,"761,100",Resipi Peningkatan,"333,1,1,3990;333,2,1,2660;333,3,1,1773;333,4,1,1182;333,5,1,394",1,0,50401050,1,10,-,3,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Busur Cahaya Bintang,2,recipe-icon-1051,1051,6,"743,100",Resipi Peningkatan,"452,1,1,3990;452,2,1,2660;452,3,1,1773;452,4,1,1182;452,5,1,394",1,0,50401051,1,10,-,2,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Seluar Petani Cahaya Bintang,2,recipe-icon-1052,1052,6,"752,100",Resipi Peningkatan,"363,1,1,3990;363,2,1,2660;363,3,1,1773;363,4,1,1182;363,5,1,394",1,0,50401052,1,10,-,1,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Pedang Cahaya Bintang,2,recipe-icon-1053,1053,6,"743,100",Resipi Peningkatan,"319,1,1,3990;319,2,1,2660;319,3,1,1773;319,4,1,1182;319,5,1,394",1,0,50401053,1,10,-,2,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Kasut Pengumpul Cahaya Bintang,2,recipe-icon-1054,1054,6,"761,100",Resipi Peningkatan,"334,1,1,3990;334,2,1,2660;334,3,1,1773;334,4,1,1182;334,5,1,394",1,0,50401054,1,10,-,3,0,4,0,10000
-6, Tingkat 6 - Resipi Meningkatkan Cerek Cahaya Bintang,2,recipe-icon-1055,1055,6,"752,100",Resipi Peningkatan,"316,1,1,3990;316,2,1,2660;316,3,1,1773;316,4,1,1182;316,5,1,394",1,0,50401055,1,10,-,1,0,4,0,10000
-6,Resipi Peningkatan Cangkul Bintang 6-Star Lv ,2,recipe-icon-1056,1056,6,"752,100",Resipi Peningkatan,"311,1,1,3990;311,2,1,2660;311,3,1,1773;311,4,1,1182;311,5,1,394",1,0,50401056,1,10,-,1,0,4,0,10000
-6, Resipi Peningkatan Beliung Bintang 6-Star Lv ,2,recipe-icon-1057,1057,6,"761,100",Resipi Peningkatan,"313,1,1,3990;313,2,1,2660;313,3,1,1773;313,4,1,1182;313,5,1,394",1,0,50401057,1,10,-,3,0,4,0,10000
-6, Resipi Peningkatan Sabit Bintang 6-Star Lv ,2,recipe-icon-1058,1058,6,"761,100",Resipi Peningkatan,"315,1,1,3990;315,2,1,2660;315,3,1,1773;315,4,1,1182;315,5,1,394",1,0,50401058,1,10,-,3,0,4,0,10000
-6, Resipi Peningkatan Kasut Petani Bintang 6-Star Lv ,2,recipe-icon-1059,1059,6,"752,100",Resipi Peningkatan,"364,1,1,3990;364,2,1,2660;364,3,1,1773;364,4,1,1182;364,5,1,394",1,0,50401059,1,10,-,1,0,4,0,10000
-6, Resipi Peningkatan Sarung Tangan Pejuang Bintang 6-Star Lv ,2,recipe-icon-1060,1060,6,"743,100",Resipi Peningkatan,"347,1,1,3990;347,2,1,2660;347,3,1,1773;347,4,1,1182;347,5,1,394",1,0,50401060,1,10,-,2,0,4,0,10000
-6, Resipi Peningkatan Kot Pejuang Bintang 6-Star Lv ,2,recipe-icon-1061,1061,6,"743,100",Resipi Peningkatan,"346,1,1,3990;346,2,1,2660;346,3,1,1773;346,4,1,1182;346,5,1,394",1,0,50401061,1,10,-,2,0,4,0,10000
-6, Resipi Peningkatan Topi Pejuang Bintang 6-Star Lv ,2,recipe-icon-1062,1062,6,"743,100",Resipi Peningkatan,"345,1,1,3990;345,2,1,2660;345,3,1,1773;345,4,1,1182;345,5,1,394",1,0,50401062,1,10,-,2,0,4,0,10000
-6, Resipi Peningkatan Seluar Pejuang Bintang 6-Star Lv ,2,recipe-icon-1063,1063,6,"743,100",Resipi Peningkatan,"348,1,1,3990;348,2,1,2660;348,3,1,1773;348,4,1,1182;348,5,1,394",1,0,50401063,1,10,-,2,0,4,0,10000
-6, Resipi Peningkatan Topi Petani Bintang 6-Star Lv ,2,recipe-icon-1064,1064,6,"752,100",Resipi Peningkatan,"360,1,1,3990;360,2,1,2660;360,3,1,1773;360,4,1,1182;360,5,1,394",1,0,50401064,1,10,-,1,0,4,0,10000
-6, Resipi Peningkatan Kot Petani Bintang 6-Star Lv ,2,recipe-icon-1065,1065,6,"752,100",Resipi Peningkatan,"361,1,1,3990;361,2,1,2660;361,3,1,1773;361,4,1,1182;361,5,1,394",1,0,50401065,1,10,-,1,0,4,0,10000
-6, Resipi Peningkatan Sarung Tangan Petani Bintang 6-Star Lv ,2,recipe-icon-1066,1066,6,"752,100",Resipi Peningkatan,"362,1,1,3990;362,2,1,2660;362,3,1,1773;362,4,1,1182;362,5,1,394",1,0,50401066,1,10,-,1,0,4,0,10000
-4, Resipi Peningkatan Sabit Emas Bintang 4-Lv ,2,recipe-icon-1067,1067,4,"759,100",Resipi Peningkatan,"303,1,1,4153;303,2,1,2769;303,3,1,1846;303,4,1,1230",1,0,50601067,1,10,-,3,0,4,0,5000
-5, Resipi Peningkatan Sabit Berlian Bintang 5-Lv ,2,recipe-icon-1068,1068,5,"760,100",Resipi Peningkatan,"309,1,1,3990;309,2,1,2660;309,3,1,1773;309,4,1,1182;309,5,1,394",1,0,50501068,1,10,-,3,0,4,0,7500
-6, Resipi Peningkatan Kapak Bintang 6-Star Lv ,2,recipe-icon-1069,1069,6,"761,100",Resipi Peningkatan,"312,1,1,3990;312,2,1,2660;312,3,1,1773;312,4,1,1182;312,5,1,394",1,0,50401069,1,10,-,3,0,4,0,10000
+3, Tahap 3 - Resipi Meningkatkan Sabit Kristal ,2,recipe-icon-978,978,3,"758,100",Resipi Peningkatan,"228,1,1,6000;228,2,1,4000",1,0,50700978,1,10,-,3,0,4,0,0
+3, Tahap 3 - Resipi Meningkatkan Kasut Mengumpul ,2,recipe-icon-979,979,3,"758,100",Resipi Peningkatan,"115,1,1,6000;115,2,1,4000",1,0,50700979,1,10,-,3,0,4,0,0
+3, Tahap 3 - Resipi Meningkatkan Topi Mengumpul,2,recipe-icon-980,980,3,"758,100",Resipi Peningkatan,"118,1,1,6000;118,2,1,4000",1,0,50700980,1,10,-,3,0,4,0,0
+3,Tingkat 3-Resipi Meningkatkan Jaket Pengumpulan,2,recipe-icon-981,981,3,"758,100",Resipi Peningkatan,"121,1,1,6000;121,2,1,4000",1,0,50700981,1,10,-,3,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Sarung Tangan Pengumpulan,2,recipe-icon-982,982,3,"758,100",Resipi Peningkatan,"127,1,1,6000;127,2,1,4000",1,0,50700982,1,10,-,3,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Kasut Pertanian,2,recipe-icon-983,983,3,"749,100",Resipi Peningkatan,"112,1,1,6000;112,2,1,4000",1,0,50700983,1,10,-,1,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Pedang Kristal,2,recipe-icon-984,984,3,"740,100",Resipi Peningkatan,"42,1,1,6000;42,2,1,4000",1,0,50700984,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Berus Kristal,2,recipe-icon-985,985,3,"749,100",Resipi Peningkatan,"455,1,1,6000;455,2,1,4000",1,0,50700985,1,10,-,1,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Kapak yang Diberkati,2,recipe-icon-986,986,3,"758,100",Resipi Peningkatan,"94,1,1,6000;94,2,1,4000",1,0,50700986,1,10,-,3,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Tukul Kristal,2,recipe-icon-987,987,3,"740,100",Resipi Peningkatan,"443,1,1,6000;443,2,1,4000",1,0,50700987,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Seluar Pahlawan Kristal,2,recipe-icon-988,988,3,"740,100",Resipi Peningkatan,"51,1,1,6000;51,2,1,4000",1,0,50700988,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Busur Kristal,2,recipe-icon-989,989,3,"740,100",Resipi Peningkatan,"289,1,1,6000;289,2,1,4000",1,0,50700989,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Sarung Tangan Pahlawan Batu Kristal,2,recipe-icon-990,990,3,"740,100",Resipi Peningkatan,"54,1,1,6000;54,2,1,4000",1,0,50700990,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Helmet Pahlawan Batu Kristal,2,recipe-icon-991,991,3,"740,100",Resipi Peningkatan,"45,1,1,6000;45,2,1,4000",1,0,50700991,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Baju Pahlawan Batu Kristal,2,recipe-icon-992,992,3,"740,100",Resipi Peningkatan,"48,1,1,6000;48,2,1,4000",1,0,50700992,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Kasut Pahlawan Batu Kristal,2,recipe-icon-993,993,3,"740,100",Resipi Peningkatan,"57,1,1,6000;57,2,1,4000",1,0,50700993,1,10,-,2,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Seluar Pertanian,2,recipe-icon-994,994,3,"749,100",Resipi Peningkatan,"106,1,1,6000;106,2,1,4000",1,0,50700994,1,10,-,1,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Sarung Tangan Pertanian,2,recipe-icon-995,995,3,"749,100",Resipi Peningkatan,"109,1,1,6000;109,2,1,4000",1,0,50700995,1,10,-,1,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Jaket Pertanian,2,recipe-icon-996,996,3,"749,100",Resipi Peningkatan,"103,1,1,6000;103,2,1,4000",1,0,50700996,1,10,-,1,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Seluar Pengumpulan,2,recipe-icon-997,997,3,"758,100",Resipi Peningkatan,"124,1,1,6000;124,2,1,4000",1,0,50700997,1,10,-,3,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Beliung yang Diberkati,2,recipe-icon-998,998,3,"758,100",Resipi Peningkatan,"90,1,1,6000;90,2,1,4000",1,0,50700998,1,10,-,3,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Cangkul yang Diberkati,2,recipe-icon-999,999,3,"749,100",Resipi Peningkatan,"82,1,1,6000;82,2,1,4000",1,0,50700999,1,10,-,1,0,4,0,0
+3, Tingkat 3-Resipi Meningkatkan Cerek yang Diberkati,2,recipe-icon-1000,1000,3,"749,100",Resipi Peningkatan,"86,1,1,6000;86,2,1,4000",1,0,50701000,1,10,-,1,0,4,0,0
+4, Tingkat 4-Resipi Meningkatkan Cangkul Emas,2,recipe-icon-1001,1001,4,"750,100",Resipi Peningkatan,"299,1,1,4736;299,2,1,3157;299,3,1,2105",1,0,50601001,1,10,-,1,0,4,0,5000
+4, Tingkat 4-Resipi Meningkatkan Kot Pahlawan Emas,2,recipe-icon-1002,1002,4,"741,100",Resipi Peningkatan,"336,1,1,4736;336,2,1,3157;336,3,1,2105",1,0,50601002,1,10,-,2,0,4,0,5000
+4, Tingkat 4-Resipi Meningkatkan Seluar Pertanian Emas,2,recipe-icon-1003,1003,4,"750,100",Resipi Peningkatan,"353,1,1,4736;353,2,1,3157;353,3,1,2105",1,0,50601003,1,10,-,1,0,4,0,5000
+4, Tingkat 4-Resipi Meningkatkan Kasut Pertanian Emas,2,recipe-icon-1004,1004,4,"750,100",Resipi Peningkatan,"354,1,1,4736;354,2,1,3157;354,3,1,2105",1,0,50601004,1,10,-,1,0,4,0,5000
+4, Tingkat 4-Resipi Meningkatkan Sarung Tangan Pahlawan Emas,2,recipe-icon-1005,1005,4,"741,100",Resipi Peningkatan,"337,1,1,4736;337,2,1,3157;337,3,1,2105",1,0,50601005,1,10,-,2,0,4,0,5000
+4,Tahap 4 - Resipi Meningkatkan Topi Pejuang Emas,2,recipe-icon-1006,1006,4,"741,100",Resipi Peningkatan,"335,1,1,4736;335,2,1,3157;335,3,1,2105",1,0,50601006,1,10,-,2,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Palu Emas,2,recipe-icon-1007,1007,4,"741,100",Resipi Peningkatan,"444,1,1,4736;444,2,1,3157;444,3,1,2105",1,0,50601007,1,10,-,2,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Kapak Emas,2,recipe-icon-1008,1008,4,"759,100",Resipi Peningkatan,"300,1,1,4736;300,2,1,3157;300,3,1,2105",1,0,50601008,1,10,-,3,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Baju Kumpul Emas,2,recipe-icon-1009,1009,4,"759,100",Resipi Peningkatan,"321,1,1,4736;321,2,1,3157;321,3,1,2105",1,0,50601009,1,10,-,3,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Kasut Kumpul Emas,2,recipe-icon-1010,1010,4,"759,100",Resipi Peningkatan,"324,1,1,4736;324,2,1,3157;324,3,1,2105",1,0,50601010,1,10,-,3,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Seluar Pejuang Emas,2,recipe-icon-1011,1011,4,"741,100",Resipi Peningkatan,"338,1,1,4736;338,2,1,3157;338,3,1,2105",1,0,50601011,1,10,-,2,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Kasut Pejuang Emas,2,recipe-icon-1012,1012,4,"741,100",Resipi Peningkatan,"339,1,1,4736;339,2,1,3157;339,3,1,2105",1,0,50601012,1,10,-,2,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Seluar Kumpul Emas,2,recipe-icon-1013,1013,4,"759,100",Resipi Peningkatan,"323,1,1,4736;323,2,1,3157;323,3,1,2105",1,0,50601013,1,10,-,3,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Baju Petani Emas,2,recipe-icon-1014,1014,4,"750,100",Resipi Peningkatan,"351,1,1,4736;351,2,1,3157;351,3,1,2105",1,0,50601014,1,10,-,1,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Busur Emas,2,recipe-icon-1015,1015,4,"741,100",Resipi Peningkatan,"450,1,1,4736;450,2,1,3157;450,3,1,2105",1,0,50601015,1,10,-,2,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Berus Emas,2,recipe-icon-1016,1016,4,"750,100",Resipi Peningkatan,"456,1,1,4736;456,2,1,3157;456,3,1,2105",1,0,50601016,1,10,-,1,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Sarung Tangan Petani Emas,2,recipe-icon-1017,1017,4,"750,100",Resipi Peningkatan,"352,1,1,4736;352,2,1,3157;352,3,1,2105",1,0,50601017,1,10,-,1,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Sarung Tangan Kumpul Emas,2,recipe-icon-1018,1018,4,"759,100",Resipi Peningkatan,"322,1,1,4736;322,2,1,3157;322,3,1,2105",1,0,50601018,1,10,-,3,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Topi Kumpul Emas,2,recipe-icon-1019,1019,4,"759,100",Resipi Peningkatan,"320,1,1,4736;320,2,1,3157;320,3,1,2105",1,0,50601019,1,10,-,3,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Topi Petani Emas,2,recipe-icon-1020,1020,4,"750,100",Resipi Peningkatan,"350,1,1,4736;350,2,1,3157;350,3,1,2105",1,0,50601020,1,10,-,1,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Cerek Emas,2,recipe-icon-1021,1021,4,"750,100",Resipi Peningkatan,"304,1,1,4736;304,2,1,3157;304,3,1,2105",1,0,50601021,1,10,-,1,0,4,0,5000
+4, Tahap 4 - Resipi Meningkatkan Beliung Emas,2,recipe-icon-1022,1022,4,"759,100",Resipi Peningkatan,"301,1,1,4736;301,2,1,3157;301,3,1,2105",1,0,50601022,1,10,-,3,0,4,0,5000
+5, Tahap 5 - Resipi Meningkatkan Cangkul Berlian,2,recipe-icon-1023,1023,5,"751,100",Resipi Peningkatan,"305,1,1,4153;305,2,1,2769;305,3,1,1846;305,4,1,1230",1,0,50501023,1,10,-,1,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Baju Pejuang Berlian,2,recipe-icon-1024,1024,5,"742,100",Resipi Peningkatan,"341,1,1,4153;341,2,1,2769;341,3,1,1846;341,4,1,1230",1,0,50501024,1,10,-,2,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Seluar Petani Berlian,2,recipe-icon-1025,1025,5,"751,100",Resipi Peningkatan,"358,1,1,4153;358,2,1,2769;358,3,1,1846;358,4,1,1230",1,0,50501025,1,10,-,1,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Kasut Petani Berlian,2,recipe-icon-1026,1026,5,"751,100",Resipi Peningkatan,"359,1,1,4153;359,2,1,2769;359,3,1,1846;359,4,1,1230",1,0,50501026,1,10,-,1,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Sarung Tangan Pejuang Berlian,2,recipe-icon-1027,1027,5,"742,100",Resipi Peningkatan,"342,1,1,4153;342,2,1,2769;342,3,1,1846;342,4,1,1230",1,0,50501027,1,10,-,2,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Topi Pejuang Berlian,2,recipe-icon-1028,1028,5,"742,100",Resipi Peningkatan,"340,1,1,4153;340,2,1,2769;340,3,1,1846;340,4,1,1230",1,0,50501028,1,10,-,2,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Palu Berlian,2,recipe-icon-1029,1029,5,"742,100",Resipi Peningkatan,"445,1,1,4153;445,2,1,2769;445,3,1,1846;445,4,1,1230",1,0,50501029,1,10,-,2,0,4,0,7500
+5, Tahap 5 - Resipi Meningkatkan Kapak Berlian,2,recipe-icon-1030,1030,5,"760,100",Resipi Peningkatan,"306,1,1,4153;306,2,1,2769;306,3,1,1846;306,4,1,1230",1,0,50501030,1,10,-,3,0,4,0,7500
+5,Tingkat 5 - Resipi Meningkatkan Kasut Pengumpul Berlian,2,recipe-icon-1031,1031,5,"760,100",Resipi Peningkatan,"329,1,1,4153;329,2,1,2769;329,3,1,1846;329,4,1,1230",1,0,50501031,1,10,-,3,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Kot Pengumpul Berlian,2,recipe-icon-1032,1032,5,"760,100",Resipi Peningkatan,"326,1,1,4153;326,2,1,2769;326,3,1,1846;326,4,1,1230",1,0,50501032,1,10,-,3,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Seluar Tempur Berlian,2,recipe-icon-1033,1033,5,"742,100",Resipi Peningkatan,"343,1,1,4153;343,2,1,2769;343,3,1,1846;343,4,1,1230",1,0,50501033,1,10,-,2,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Kasut Tempur Berlian,2,recipe-icon-1034,1034,5,"742,100",Resipi Peningkatan,"344,1,1,4153;344,2,1,2769;344,3,1,1846;344,4,1,1230",1,0,50501034,1,10,-,2,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Sarung Tangan Pengumpul Berlian,2,recipe-icon-1035,1035,5,"760,100",Resipi Peningkatan,"327,1,1,4153;327,2,1,2769;327,3,1,1846;327,4,1,1230",1,0,50501035,1,10,-,3,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Topi Pengumpul Berlian,2,recipe-icon-1036,1036,5,"760,100",Resipi Peningkatan,"325,1,1,4153;325,2,1,2769;325,3,1,1846;325,4,1,1230",1,0,50501036,1,10,-,3,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Seluar Pengumpul Berlian,2,recipe-icon-1037,1037,5,"760,100",Resipi Peningkatan,"328,1,1,4153;328,2,1,2769;328,3,1,1846;328,4,1,1230",1,0,50501037,1,10,-,3,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Kot Petani Berlian,2,recipe-icon-1038,1038,5,"751,100",Resipi Peningkatan,"356,1,1,4153;356,2,1,2769;356,3,1,1846;356,4,1,1230",1,0,50501038,1,10,-,1,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Busur Berlian,2,recipe-icon-1039,1039,5,"742,100",Resipi Peningkatan,"451,1,1,4153;451,2,1,2769;451,3,1,1846;451,4,1,1230",1,0,50501039,1,10,-,2,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Berus Berlian,2,recipe-icon-1040,1040,5,"751,100",Resipi Peningkatan,"457,1,1,4153;457,2,1,2769;457,3,1,1846;457,4,1,1230",1,0,50501040,1,10,-,1,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Sarung Tangan Petani Berlian,2,recipe-icon-1041,1041,5,"751,100",Resipi Peningkatan,"357,1,1,4153;357,2,1,2769;357,3,1,1846;357,4,1,1230",1,0,50501041,1,10,-,1,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Topi Petani Berlian,2,recipe-icon-1042,1042,5,"751,100",Resipi Peningkatan,"355,1,1,4153;355,2,1,2769;355,3,1,1846;355,4,1,1230",1,0,50501042,1,10,-,1,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Cerek Berlian,2,recipe-icon-1043,1043,5,"751,100",Resipi Peningkatan,"310,1,1,4153;310,2,1,2769;310,3,1,1846;310,4,1,1230",1,0,50501043,1,10,-,1,0,4,0,7500
+5, Tingkat 5 - Resipi Meningkatkan Beliung Berlian,2,recipe-icon-1044,1044,5,"760,100",Resipi Peningkatan,"307,1,1,4153;307,2,1,2769;307,3,1,1846;307,4,1,1230",1,0,50501044,1,10,-,3,0,4,0,7500
+6, Tingkat 6 - Resipi Meningkatkan Berus Cahaya Bintang,2,recipe-icon-1045,1045,6,"752,100",Resipi Peningkatan,"458,1,1,4153;458,2,1,2769;458,3,1,1846;458,4,1,1230",1,0,50401045,1,10,-,1,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Sarung Tangan Pengumpul Cahaya Bintang,2,recipe-icon-1046,1046,6,"761,100",Resipi Peningkatan,"332,1,1,4153;332,2,1,2769;332,3,1,1846;332,4,1,1230",1,0,50401046,1,10,-,3,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Kasut Tempur Berlian Cahaya Bintang,2,recipe-icon-1047,1047,6,"743,100",Resipi Peningkatan,"349,1,1,4153;349,2,1,2769;349,3,1,1846;349,4,1,1230",1,0,50401047,1,10,-,2,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Kot Pengumpul Cahaya Bintang,2,recipe-icon-1048,1048,6,"761,100",Resipi Peningkatan,"331,1,1,4153;331,2,1,2769;331,3,1,1846;331,4,1,1230",1,0,50401048,1,10,-,3,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Topi Pengumpul Cahaya Bintang,2,recipe-icon-1049,1049,6,"761,100",Resipi Peningkatan,"330,1,1,4153;330,2,1,2769;330,3,1,1846;330,4,1,1230",1,0,50401049,1,10,-,3,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Seluar Pengumpul Cahaya Bintang,2,recipe-icon-1050,1050,6,"761,100",Resipi Peningkatan,"333,1,1,4153;333,2,1,2769;333,3,1,1846;333,4,1,1230",1,0,50401050,1,10,-,3,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Busur Cahaya Bintang,2,recipe-icon-1051,1051,6,"743,100",Resipi Peningkatan,"452,1,1,4153;452,2,1,2769;452,3,1,1846;452,4,1,1230",1,0,50401051,1,10,-,2,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Seluar Petani Cahaya Bintang,2,recipe-icon-1052,1052,6,"752,100",Resipi Peningkatan,"363,1,1,4153;363,2,1,2769;363,3,1,1846;363,4,1,1230",1,0,50401052,1,10,-,1,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Pedang Cahaya Bintang,2,recipe-icon-1053,1053,6,"743,100",Resipi Peningkatan,"319,1,1,4153;319,2,1,2769;319,3,1,1846;319,4,1,1230",1,0,50401053,1,10,-,2,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Kasut Pengumpul Cahaya Bintang,2,recipe-icon-1054,1054,6,"761,100",Resipi Peningkatan,"334,1,1,4153;334,2,1,2769;334,3,1,1846;334,4,1,1230",1,0,50401054,1,10,-,3,0,4,0,10000
+6, Tingkat 6 - Resipi Meningkatkan Cerek Cahaya Bintang,2,recipe-icon-1055,1055,6,"752,100",Resipi Peningkatan,"316,1,1,4153;316,2,1,2769;316,3,1,1846;316,4,1,1230",1,0,50401055,1,10,-,1,0,4,0,10000
+6,Resipi Peningkatan Cangkul Bintang 6-Star Lv ,2,recipe-icon-1056,1056,6,"752,100",Resipi Peningkatan,"311,1,1,4153;311,2,1,2769;311,3,1,1846;311,4,1,1230",1,0,50401056,1,10,-,1,0,4,0,10000
+6, Resipi Peningkatan Beliung Bintang 6-Star Lv ,2,recipe-icon-1057,1057,6,"761,100",Resipi Peningkatan,"313,1,1,4153;313,2,1,2769;313,3,1,1846;313,4,1,1230",1,0,50401057,1,10,-,3,0,4,0,10000
+6, Resipi Peningkatan Sabit Bintang 6-Star Lv ,2,recipe-icon-1058,1058,6,"761,100",Resipi Peningkatan,"315,1,1,4153;315,2,1,2769;315,3,1,1846;315,4,1,1230",1,0,50401058,1,10,-,3,0,4,0,10000
+6, Resipi Peningkatan Kasut Petani Bintang 6-Star Lv ,2,recipe-icon-1059,1059,6,"752,100",Resipi Peningkatan,"364,1,1,4153;364,2,1,2769;364,3,1,1846;364,4,1,1230",1,0,50401059,1,10,-,1,0,4,0,10000
+6, Resipi Peningkatan Sarung Tangan Pejuang Bintang 6-Star Lv ,2,recipe-icon-1060,1060,6,"743,100",Resipi Peningkatan,"347,1,1,4153;347,2,1,2769;347,3,1,1846;347,4,1,1230",1,0,50401060,1,10,-,2,0,4,0,10000
+6, Resipi Peningkatan Kot Pejuang Bintang 6-Star Lv ,2,recipe-icon-1061,1061,6,"743,100",Resipi Peningkatan,"346,1,1,4153;346,2,1,2769;346,3,1,1846;346,4,1,1230",1,0,50401061,1,10,-,2,0,4,0,10000
+6, Resipi Peningkatan Topi Pejuang Bintang 6-Star Lv ,2,recipe-icon-1062,1062,6,"743,100",Resipi Peningkatan,"345,1,1,4153;345,2,1,2769;345,3,1,1846;345,4,1,1230",1,0,50401062,1,10,-,2,0,4,0,10000
+6, Resipi Peningkatan Seluar Pejuang Bintang 6-Star Lv ,2,recipe-icon-1063,1063,6,"743,100",Resipi Peningkatan,"348,1,1,4153;348,2,1,2769;348,3,1,1846;348,4,1,1230",1,0,50401063,1,10,-,2,0,4,0,10000
+6, Resipi Peningkatan Topi Petani Bintang 6-Star Lv ,2,recipe-icon-1064,1064,6,"752,100",Resipi Peningkatan,"360,1,1,4153;360,2,1,2769;360,3,1,1846;360,4,1,1230",1,0,50401064,1,10,-,1,0,4,0,10000
+6, Resipi Peningkatan Kot Petani Bintang 6-Star Lv ,2,recipe-icon-1065,1065,6,"752,100",Resipi Peningkatan,"361,1,1,4153;361,2,1,2769;361,3,1,1846;361,4,1,1230",1,0,50401065,1,10,-,1,0,4,0,10000
+6, Resipi Peningkatan Sarung Tangan Petani Bintang 6-Star Lv ,2,recipe-icon-1066,1066,6,"752,100",Resipi Peningkatan,"362,1,1,4153;362,2,1,2769;362,3,1,1846;362,4,1,1230",1,0,50401066,1,10,-,1,0,4,0,10000
+4, Resipi Peningkatan Sabit Emas Bintang 4-Lv ,2,recipe-icon-1067,1067,4,"759,100",Resipi Peningkatan,"303,1,1,4736;303,2,1,3157;303,3,1,2105",1,0,50601067,1,10,-,3,0,4,0,5000
+5, Resipi Peningkatan Sabit Berlian Bintang 5-Lv ,2,recipe-icon-1068,1068,5,"760,100",Resipi Peningkatan,"309,1,1,4153;309,2,1,2769;309,3,1,1846;309,4,1,1230",1,0,50501068,1,10,-,3,0,4,0,7500
+6, Resipi Peningkatan Kapak Bintang 6-Star Lv ,2,recipe-icon-1069,1069,6,"761,100",Resipi Peningkatan,"312,1,1,4153;312,2,1,2769;312,3,1,1846;312,4,1,1230",1,0,50401069,1,10,-,3,0,4,0,10000
 2, Resipi Peningkatan Busur Logam Bintang 2-Lv ,2,recipe-icon-1070,1070,2,"739,100",Resipi Peningkatan,"288,1,1,6000;288,2,1,4000",1,0,50801070,1,10,-,2,0,4,0,0
-3, Resipi Peningkatan Topi Keras Bertuah Bintang 3-Lv ,2,recipe-icon-1071,1071,3,"749,100",Resipi Peningkatan,"100,1,1,4736;100,2,1,3157;100,3,1,2105",1,0,50701071,1,10,-,1,0,4,0,0
-4, Resipi Peningkatan Pedang Emas Bintang 4-Lv ,2,recipe-icon-1072,1072,4,"741,100",Resipi Peningkatan,"317,1,1,4153;317,2,1,2769;317,3,1,1846;317,4,1,1230",1,0,50601072,1,10,-,2,0,4,0,5000
-5, Resipi Peningkatan Pedang Berlian Bintang 5-Lv ,2,recipe-icon-1073,1073,5,"742,100",Resipi Peningkatan,"318,1,1,3990;318,2,1,2660;318,3,1,1773;318,4,1,1182;318,5,1,394",1,0,50501073,1,10,-,2,0,4,0,7500
-6, Resipi Peningkatan Palu Cahaya Bintang 6-Star Lv ,2,recipe-icon-1074,1074,6,"743,100",Resipi Peningkatan,"446,1,1,3990;446,2,1,2660;446,3,1,1773;446,4,1,1182;446,5,1,394",1,0,50401074,1,10,-,2,0,4,0,10000
-7, Resipi Peningkatan Pedang Lava Bintang 7-Lv ,2,recipe-icon-1075,1075,7,"744,100",Resipi Peningkatan,"527,1,1,3990;527,2,1,2660;527,3,1,1773;527,4,1,1182;527,5,1,394",1,0,50301075,1,10,-,2,0,4,0,12500
-7, Resipi Peningkatan Palu Lava Bintang 7-Lv ,2,recipe-icon-1076,1076,7,"744,100",Resipi Peningkatan,"528,1,1,3990;528,2,1,2660;528,3,1,1773;528,4,1,1182;528,5,1,394",1,0,50301076,1,10,-,2,0,4,0,12500
-7, Resipi Peningkatan Busur Lava Bintang 7-Lv ,2,recipe-icon-1077,1077,7,"744,100",Resipi Peningkatan,"529,1,1,3990;529,2,1,2660;529,3,1,1773;529,4,1,1182;529,5,1,394",1,0,50301077,1,10,-,2,0,4,0,12500
-7, Resipi Peningkatan Topi Tempur Lava Bintang 7-Lv ,2,recipe-icon-1078,1078,7,"744,100",Resipi Peningkatan,"530,1,1,3990;530,2,1,2660;530,3,1,1773;530,4,1,1182;530,5,1,394",1,0,50301078,1,10,-,2,0,4,0,12500
-7, Resipi Peningkatan Kot Tempur Lava Bintang 7-Lv ,2,recipe-icon-1079,1079,7,"744,100",Resipi Peningkatan,"531,1,1,3990;531,2,1,2660;531,3,1,1773;531,4,1,1182;531,5,1,394",1,0,50301079,1,10,-,2,0,4,0,12500
-7, Resipi Peningkatan Seluar Tempur Lava Bintang 7-Lv,2,recipe-icon-1080,1080,7,"744,100",Resipi Peningkatan,"532,1,1,3990;532,2,1,2660;532,3,1,1773;532,4,1,1182;532,5,1,394",1,0,50301080,1,10,-,2,0,4,0,12500
-7,Tahap 7-Resipi Meningkatkan Sarung Tangan Tempur Lava,2,recipe-icon-1081,1081,7,"744,100",Resipi Peningkatan,"533,1,1,3990;533,2,1,2660;533,3,1,1773;533,4,1,1182;533,5,1,394",1,0,50301081,1,10,-,2,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Kasut Tempur Lava,2,recipe-icon-1082,1082,7,"744,100",Resipi Peningkatan,"534,1,1,3990;534,2,1,2660;534,3,1,1773;534,4,1,1182;534,5,1,394",1,0,50301082,1,10,-,2,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Sabit Lava,2,recipe-icon-1083,1083,7,"762,100",Resipi Peningkatan,"535,1,1,3990;535,2,1,2660;535,3,1,1773;535,4,1,1182;535,5,1,394",1,0,50301083,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Kapak Lava,2,recipe-icon-1084,1084,7,"762,100",Resipi Peningkatan,"536,1,1,3990;536,2,1,2660;536,3,1,1773;536,4,1,1182;536,5,1,394",1,0,50301084,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Beliung Lava,2,recipe-icon-1085,1085,7,"762,100",Resipi Peningkatan,"537,1,1,3990;537,2,1,2660;537,3,1,1773;537,4,1,1182;537,5,1,394",1,0,50301085,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Topi Kumpul Lava,2,recipe-icon-1086,1086,7,"762,100",Resipi Peningkatan,"538,1,1,3990;538,2,1,2660;538,3,1,1773;538,4,1,1182;538,5,1,394",1,0,50301086,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Baju Kumpul Lava,2,recipe-icon-1087,1087,7,"762,100",Resipi Peningkatan,"539,1,1,3990;539,2,1,2660;539,3,1,1773;539,4,1,1182;539,5,1,394",1,0,50301087,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Seluar Kumpul Lava,2,recipe-icon-1088,1088,7,"762,100",Resipi Peningkatan,"540,1,1,3990;540,2,1,2660;540,3,1,1773;540,4,1,1182;540,5,1,394",1,0,50301088,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Sarung Tangan Kumpul Lava,2,recipe-icon-1089,1089,7,"762,100",Resipi Peningkatan,"541,1,1,3990;541,2,1,2660;541,3,1,1773;541,4,1,1182;541,5,1,394",1,0,50301089,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Kasut Kumpul Lava,2,recipe-icon-1090,1090,7,"762,100",Resipi Peningkatan,"542,1,1,3990;542,2,1,2660;542,3,1,1773;542,4,1,1182;542,5,1,394",1,0,50301090,1,10,-,3,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Cerek Lava,2,recipe-icon-1091,1091,7,"753,100",Resipi Peningkatan,"543,1,1,3990;543,2,1,2660;543,3,1,1773;543,4,1,1182;543,5,1,394",1,0,50301091,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Cangkul Lava,2,recipe-icon-1092,1092,7,"753,100",Resipi Peningkatan,"544,1,1,3990;544,2,1,2660;544,3,1,1773;544,4,1,1182;544,5,1,394",1,0,50301092,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Berus Lava,2,recipe-icon-1093,1093,7,"753,100",Resipi Peningkatan,"545,1,1,3990;545,2,1,2660;545,3,1,1773;545,4,1,1182;545,5,1,394",1,0,50301093,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Topi Pertanian Lava,2,recipe-icon-1094,1094,7,"753,100",Resipi Peningkatan,"546,1,1,3990;546,2,1,2660;546,3,1,1773;546,4,1,1182;546,5,1,394",1,0,50301094,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Baju Pertanian Lava,2,recipe-icon-1095,1095,7,"753,100",Resipi Peningkatan,"547,1,1,3990;547,2,1,2660;547,3,1,1773;547,4,1,1182;547,5,1,394",1,0,50301095,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Seluar Pertanian Lava,2,recipe-icon-1096,1096,7,"753,100",Resipi Peningkatan,"548,1,1,3990;548,2,1,2660;548,3,1,1773;548,4,1,1182;548,5,1,394",1,0,50301096,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Sarung Tangan Pertanian Lava,2,recipe-icon-1097,1097,7,"753,100",Resipi Peningkatan,"549,1,1,3990;549,2,1,2660;549,3,1,1773;549,4,1,1182;549,5,1,394",1,0,50301097,1,10,-,1,0,4,0,12500
-7, Tahap 7-Resipi Meningkatkan Kasut Pertanian Lava,2,recipe-icon-1098,1098,7,"753,100",Resipi Peningkatan,"550,1,1,3990;550,2,1,2660;550,3,1,1773;550,4,1,1182;550,5,1,394",1,0,50301098,1,10,-,1,0,4,0,12500
-8, Tahap 8-Resipi Meningkatkan Pedang Hollow,2,recipe-icon-1099,1099,8,"745,100",Resipi Peningkatan,"551,1,1,3990;551,2,1,2660;551,3,1,1773;551,4,1,1182;551,5,1,394",1,0,50201099,1,10,-,2,0,4,0,15000
-8, Tahap 8-Resipi Meningkatkan Palu Hollow,2,recipe-icon-1100,1100,8,"745,100",Resipi Peningkatan,"552,1,1,3990;552,2,1,2660;552,3,1,1773;552,4,1,1182;552,5,1,394",1,0,50201100,1,10,-,2,0,4,0,15000
-8, Tahap 8-Resipi Meningkatkan Busur Hollow,2,recipe-icon-1101,1101,8,"745,100",Resipi Peningkatan,"553,1,1,3990;553,2,1,2660;553,3,1,1773;553,4,1,1182;553,5,1,394",1,0,50201101,1,10,-,2,0,4,0,15000
-8, Tahap 8-Resipi Meningkatkan Topi Tempur Hollow,2,recipe-icon-1102,1102,8,"745,100",Resipi Peningkatan,"554,1,1,3990;554,2,1,2660;554,3,1,1773;554,4,1,1182;554,5,1,394",1,0,50201102,1,10,-,2,0,4,0,15000
-8, Tahap 8-Resipi Meningkatkan Baju Tempur Hollow,2,recipe-icon-1103,1103,8,"745,100",Resipi Peningkatan,"555,1,1,3990;555,2,1,2660;555,3,1,1773;555,4,1,1182;555,5,1,394",1,0,50201103,1,10,-,2,0,4,0,15000
-8, Tahap 8-Resipi Meningkatkan Seluar Tempur Hollow,2,recipe-icon-1104,1104,8,"745,100",Resipi Peningkatan,"556,1,1,3990;556,2,1,2660;556,3,1,1773;556,4,1,1182;556,5,1,394",1,0,50201104,1,10,-,2,0,4,0,15000
-8, Tahap 8-Resipi Meningkatkan Sarung Tangan Tempur Hollow,2,recipe-icon-1105,1105,8,"745,100",Resipi Peningkatan,"557,1,1,3990;557,2,1,2660;557,3,1,1773;557,4,1,1182;557,5,1,394",1,0,50201105,1,10,-,2,0,4,0,15000
-8,Lv 8 - Resipi Meningkatkan Kasut Tempur Hollow,2,recipe-icon-1106,1106,8,"745,100",Resipi Peningkatan,"558,1,1,3990;558,2,1,2660;558,3,1,1773;558,4,1,1182;558,5,1,394",1,0,50201106,1,10,-,2,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Sabit Hollow,2,recipe-icon-1107,1107,8,"763,100",Resipi Peningkatan,"559,1,1,3990;559,2,1,2660;559,3,1,1773;559,4,1,1182;559,5,1,394",1,0,50201107,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Kapak Hollow,2,recipe-icon-1108,1108,8,"763,100",Resipi Peningkatan,"560,1,1,3990;560,2,1,2660;560,3,1,1773;560,4,1,1182;560,5,1,394",1,0,50201108,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Beliung Hollow,2,recipe-icon-1109,1109,8,"763,100",Resipi Peningkatan,"561,1,1,3990;561,2,1,2660;561,3,1,1773;561,4,1,1182;561,5,1,394",1,0,50201109,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Topi Kumpul Hollow,2,recipe-icon-1110,1110,8,"763,100",Resipi Peningkatan,"562,1,1,3990;562,2,1,2660;562,3,1,1773;562,4,1,1182;562,5,1,394",1,0,50201110,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Kot Kumpul Hollow,2,recipe-icon-1111,1111,8,"763,100",Resipi Peningkatan,"563,1,1,3990;563,2,1,2660;563,3,1,1773;563,4,1,1182;563,5,1,394",1,0,50201111,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Seluar Kumpul Hollow,2,recipe-icon-1112,1112,8,"763,100",Resipi Peningkatan,"564,1,1,3990;564,2,1,2660;564,3,1,1773;564,4,1,1182;564,5,1,394",1,0,50201112,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Sarung Tangan Kumpul Hollow,2,recipe-icon-1113,1113,8,"763,100",Resipi Peningkatan,"565,1,1,3990;565,2,1,2660;565,3,1,1773;565,4,1,1182;565,5,1,394",1,0,50201113,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Kasut Kumpul Hollow,2,recipe-icon-1114,1114,8,"763,100",Resipi Peningkatan,"566,1,1,3990;566,2,1,2660;566,3,1,1773;566,4,1,1182;566,5,1,394",1,0,50201114,1,10,-,3,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Cerek Hollow,2,recipe-icon-1115,1115,8,"754,100",Resipi Peningkatan,"567,1,1,3990;567,2,1,2660;567,3,1,1773;567,4,1,1182;567,5,1,394",1,0,50201115,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Cangkul Hollow,2,recipe-icon-1116,1116,8,"754,100",Resipi Peningkatan,"568,1,1,3990;568,2,1,2660;568,3,1,1773;568,4,1,1182;568,5,1,394",1,0,50201116,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Berus Hollow,2,recipe-icon-1117,1117,8,"754,100",Resipi Peningkatan,"569,1,1,3990;569,2,1,2660;569,3,1,1773;569,4,1,1182;569,5,1,394",1,0,50201117,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Topi Pertanian Hollow,2,recipe-icon-1118,1118,8,"754,100",Resipi Peningkatan,"570,1,1,3990;570,2,1,2660;570,3,1,1773;570,4,1,1182;570,5,1,394",1,0,50201118,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Kot Pertanian Hollow,2,recipe-icon-1119,1119,8,"754,100",Resipi Peningkatan,"571,1,1,3990;571,2,1,2660;571,3,1,1773;571,4,1,1182;571,5,1,394",1,0,50201119,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Seluar Pertanian Hollow,2,recipe-icon-1120,1120,8,"754,100",Resipi Peningkatan,"572,1,1,3990;572,2,1,2660;572,3,1,1773;572,4,1,1182;572,5,1,394",1,0,50201120,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Sarung Tangan Pertanian Hollow,2,recipe-icon-1121,1121,8,"754,100",Resipi Peningkatan,"573,1,1,3990;573,2,1,2660;573,3,1,1773;573,4,1,1182;573,5,1,394",1,0,50201121,1,10,-,1,0,4,0,15000
-8, Lv 8 - Resipi Meningkatkan Kasut Pertanian Hollow,2,recipe-icon-1122,1122,8,"754,100",Resipi Peningkatan,"574,1,1,3990;574,2,1,2660;574,3,1,1773;574,4,1,1182;574,5,1,394",1,0,50201122,1,10,-,1,0,4,0,15000
-9, Lv 9 - Resipi Meningkatkan Pedang Perunggu,2,recipe-icon-1123,1123,9,"746,100",Resipi Peningkatan,"575,1,1,3990;575,2,1,2660;575,3,1,1773;575,4,1,1182;575,5,1,394",1,0,50101123,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Palu Perunggu,2,recipe-icon-1124,1124,9,"746,100",Resipi Peningkatan,"576,1,1,3990;576,2,1,2660;576,3,1,1773;576,4,1,1182;576,5,1,394",1,0,50101124,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Busur Perunggu,2,recipe-icon-1125,1125,9,"746,100",Resipi Peningkatan,"577,1,1,3990;577,2,1,2660;577,3,1,1773;577,4,1,1182;577,5,1,394",1,0,50101125,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Topi Tempur Perunggu,2,recipe-icon-1126,1126,9,"746,100",Resipi Peningkatan,"578,1,1,3990;578,2,1,2660;578,3,1,1773;578,4,1,1182;578,5,1,394",1,0,50101126,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Kot Tempur Perunggu,2,recipe-icon-1127,1127,9,"746,100",Resipi Peningkatan,"579,1,1,3990;579,2,1,2660;579,3,1,1773;579,4,1,1182;579,5,1,394",1,0,50101127,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Seluar Tempur Perunggu,2,recipe-icon-1128,1128,9,"746,100",Resipi Peningkatan,"580,1,1,3990;580,2,1,2660;580,3,1,1773;580,4,1,1182;580,5,1,394",1,0,50101128,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Sarung Tangan Tempur Perunggu,2,recipe-icon-1129,1129,9,"746,100",Resipi Peningkatan,"581,1,1,3990;581,2,1,2660;581,3,1,1773;581,4,1,1182;581,5,1,394",1,0,50101129,1,10,-,2,0,4,0,17500
-9, Lv 9 - Resipi Meningkatkan Kasut Tempur Perunggu,2,recipe-icon-1130,1130,9,"746,100",Resipi Peningkatan,"582,1,1,3990;582,2,1,2660;582,3,1,1773;582,4,1,1182;582,5,1,394",1,0,50101130,1,10,-,2,0,4,0,17500
-9,Tahap 9 - Resipi Meningkatkan Sabit Gangsa Perunggu,2,recipe-icon-1131,1131,9,"764,100",Resipi Peningkatan,"583,1,1,3990;583,2,1,2660;583,3,1,1773;583,4,1,1182;583,5,1,394",1,0,50101131,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Kapak Gangsa Perunggu,2,recipe-icon-1132,1132,9,"764,100",Resipi Peningkatan,"584,1,1,3990;584,2,1,2660;584,3,1,1773;584,4,1,1182;584,5,1,394",1,0,50101132,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Beliung Gangsa Perunggu,2,recipe-icon-1133,1133,9,"764,100",Resipi Peningkatan,"585,1,1,3990;585,2,1,2660;585,3,1,1773;585,4,1,1182;585,5,1,394",1,0,50101133,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Topi Kumpul Gangsa Perunggu,2,recipe-icon-1134,1134,9,"764,100",Resipi Peningkatan,"586,1,1,3990;586,2,1,2660;586,3,1,1773;586,4,1,1182;586,5,1,394",1,0,50101134,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Kot Kumpul Gangsa Perunggu,2,recipe-icon-1135,1135,9,"764,100",Resipi Peningkatan,"587,1,1,3990;587,2,1,2660;587,3,1,1773;587,4,1,1182;587,5,1,394",1,0,50101135,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Seluar Kumpul Gangsa Perunggu,2,recipe-icon-1136,1136,9,"764,100",Resipi Peningkatan,"588,1,1,3990;588,2,1,2660;588,3,1,1773;588,4,1,1182;588,5,1,394",1,0,50101136,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Sarung Tangan Kumpul Gangsa Perunggu,2,recipe-icon-1137,1137,9,"764,100",Resipi Peningkatan,"589,1,1,3990;589,2,1,2660;589,3,1,1773;589,4,1,1182;589,5,1,394",1,0,50101137,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Kasut Kumpul Gangsa Perunggu,2,recipe-icon-1138,1138,9,"764,100",Resipi Peningkatan,"590,1,1,3990;590,2,1,2660;590,3,1,1773;590,4,1,1182;590,5,1,394",1,0,50101138,1,10,-,3,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Cerek Gangsa Perunggu,2,recipe-icon-1139,1139,9,"755,100",Resipi Peningkatan,"591,1,1,3990;591,2,1,2660;591,3,1,1773;591,4,1,1182;591,5,1,394",1,0,50101139,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Cangkul Gangsa Perunggu,2,recipe-icon-1140,1140,9,"755,100",Resipi Peningkatan,"592,1,1,3990;592,2,1,2660;592,3,1,1773;592,4,1,1182;592,5,1,394",1,0,50101140,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Berus Gangsa Perunggu,2,recipe-icon-1141,1141,9,"755,100",Resipi Peningkatan,"593,1,1,3990;593,2,1,2660;593,3,1,1773;593,4,1,1182;593,5,1,394",1,0,50101141,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Topi Pertanian Gangsa Perunggu,2,recipe-icon-1142,1142,9,"755,100",Resipi Peningkatan,"594,1,1,3990;594,2,1,2660;594,3,1,1773;594,4,1,1182;594,5,1,394",1,0,50101142,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Kot Pertanian Gangsa Perunggu,2,recipe-icon-1143,1143,9,"755,100",Resipi Peningkatan,"595,1,1,3990;595,2,1,2660;595,3,1,1773;595,4,1,1182;595,5,1,394",1,0,50101143,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Seluar Pertanian Gangsa Perunggu,2,recipe-icon-1144,1144,9,"755,100",Resipi Peningkatan,"596,1,1,3990;596,2,1,2660;596,3,1,1773;596,4,1,1182;596,5,1,394",1,0,50101144,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Sarung Tangan Pertanian Gangsa Perunggu,2,recipe-icon-1145,1145,9,"755,100",Resipi Peningkatan,"597,1,1,3990;597,2,1,2660;597,3,1,1773;597,4,1,1182;597,5,1,394",1,0,50101145,1,10,-,1,0,4,0,17500
-9, Tahap 9 - Resipi Meningkatkan Kasut Pertanian Gangsa Perunggu,2,recipe-icon-1146,1146,9,"755,100",Resipi Peningkatan,"598,1,1,3990;598,2,1,2660;598,3,1,1773;598,4,1,1182;598,5,1,394",1,0,50101146,1,10,-,1,0,4,0,17500
+3, Resipi Peningkatan Topi Keras Bertuah Bintang 3-Lv ,2,recipe-icon-1071,1071,3,"749,100",Resipi Peningkatan,"100,1,1,6000;100,2,1,4000",1,0,50701071,1,10,-,1,0,4,0,0
+4, Resipi Peningkatan Pedang Emas Bintang 4-Lv ,2,recipe-icon-1072,1072,4,"741,100",Resipi Peningkatan,"317,1,1,4736;317,2,1,3157;317,3,1,2105",1,0,50601072,1,10,-,2,0,4,0,5000
+5, Resipi Peningkatan Pedang Berlian Bintang 5-Lv ,2,recipe-icon-1073,1073,5,"742,100",Resipi Peningkatan,"318,1,1,4153;318,2,1,2769;318,3,1,1846;318,4,1,1230",1,0,50501073,1,10,-,2,0,4,0,7500
+6, Resipi Peningkatan Palu Cahaya Bintang 6-Star Lv ,2,recipe-icon-1074,1074,6,"743,100",Resipi Peningkatan,"446,1,1,4153;446,2,1,2769;446,3,1,1846;446,4,1,1230",1,0,50401074,1,10,-,2,0,4,0,10000
+7, Resipi Peningkatan Pedang Lava Bintang 7-Lv ,2,recipe-icon-1075,1075,7,"744,100",Resipi Peningkatan,"527,1,1,4153;527,2,1,2769;527,3,1,1846;527,4,1,1230",1,0,50301075,1,10,-,2,0,4,0,12500
+7, Resipi Peningkatan Palu Lava Bintang 7-Lv ,2,recipe-icon-1076,1076,7,"744,100",Resipi Peningkatan,"528,1,1,4153;528,2,1,2769;528,3,1,1846;528,4,1,1230",1,0,50301076,1,10,-,2,0,4,0,12500
+7, Resipi Peningkatan Busur Lava Bintang 7-Lv ,2,recipe-icon-1077,1077,7,"744,100",Resipi Peningkatan,"529,1,1,4153;529,2,1,2769;529,3,1,1846;529,4,1,1230",1,0,50301077,1,10,-,2,0,4,0,12500
+7, Resipi Peningkatan Topi Tempur Lava Bintang 7-Lv ,2,recipe-icon-1078,1078,7,"744,100",Resipi Peningkatan,"530,1,1,4153;530,2,1,2769;530,3,1,1846;530,4,1,1230",1,0,50301078,1,10,-,2,0,4,0,12500
+7, Resipi Peningkatan Kot Tempur Lava Bintang 7-Lv ,2,recipe-icon-1079,1079,7,"744,100",Resipi Peningkatan,"531,1,1,4153;531,2,1,2769;531,3,1,1846;531,4,1,1230",1,0,50301079,1,10,-,2,0,4,0,12500
+7, Resipi Peningkatan Seluar Tempur Lava Bintang 7-Lv,2,recipe-icon-1080,1080,7,"744,100",Resipi Peningkatan,"532,1,1,4153;532,2,1,2769;532,3,1,1846;532,4,1,1230",1,0,50301080,1,10,-,2,0,4,0,12500
+7,Tahap 7-Resipi Meningkatkan Sarung Tangan Tempur Lava,2,recipe-icon-1081,1081,7,"744,100",Resipi Peningkatan,"533,1,1,4153;533,2,1,2769;533,3,1,1846;533,4,1,1230",1,0,50301081,1,10,-,2,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Kasut Tempur Lava,2,recipe-icon-1082,1082,7,"744,100",Resipi Peningkatan,"534,1,1,4153;534,2,1,2769;534,3,1,1846;534,4,1,1230",1,0,50301082,1,10,-,2,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Sabit Lava,2,recipe-icon-1083,1083,7,"762,100",Resipi Peningkatan,"535,1,1,4153;535,2,1,2769;535,3,1,1846;535,4,1,1230",1,0,50301083,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Kapak Lava,2,recipe-icon-1084,1084,7,"762,100",Resipi Peningkatan,"536,1,1,4153;536,2,1,2769;536,3,1,1846;536,4,1,1230",1,0,50301084,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Beliung Lava,2,recipe-icon-1085,1085,7,"762,100",Resipi Peningkatan,"537,1,1,4153;537,2,1,2769;537,3,1,1846;537,4,1,1230",1,0,50301085,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Topi Kumpul Lava,2,recipe-icon-1086,1086,7,"762,100",Resipi Peningkatan,"538,1,1,4153;538,2,1,2769;538,3,1,1846;538,4,1,1230",1,0,50301086,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Baju Kumpul Lava,2,recipe-icon-1087,1087,7,"762,100",Resipi Peningkatan,"539,1,1,4153;539,2,1,2769;539,3,1,1846;539,4,1,1230",1,0,50301087,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Seluar Kumpul Lava,2,recipe-icon-1088,1088,7,"762,100",Resipi Peningkatan,"540,1,1,4153;540,2,1,2769;540,3,1,1846;540,4,1,1230",1,0,50301088,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Sarung Tangan Kumpul Lava,2,recipe-icon-1089,1089,7,"762,100",Resipi Peningkatan,"541,1,1,4153;541,2,1,2769;541,3,1,1846;541,4,1,1230",1,0,50301089,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Kasut Kumpul Lava,2,recipe-icon-1090,1090,7,"762,100",Resipi Peningkatan,"542,1,1,4153;542,2,1,2769;542,3,1,1846;542,4,1,1230",1,0,50301090,1,10,-,3,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Cerek Lava,2,recipe-icon-1091,1091,7,"753,100",Resipi Peningkatan,"543,1,1,4153;543,2,1,2769;543,3,1,1846;543,4,1,1230",1,0,50301091,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Cangkul Lava,2,recipe-icon-1092,1092,7,"753,100",Resipi Peningkatan,"544,1,1,4153;544,2,1,2769;544,3,1,1846;544,4,1,1230",1,0,50301092,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Berus Lava,2,recipe-icon-1093,1093,7,"753,100",Resipi Peningkatan,"545,1,1,4153;545,2,1,2769;545,3,1,1846;545,4,1,1230",1,0,50301093,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Topi Pertanian Lava,2,recipe-icon-1094,1094,7,"753,100",Resipi Peningkatan,"546,1,1,4153;546,2,1,2769;546,3,1,1846;546,4,1,1230",1,0,50301094,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Baju Pertanian Lava,2,recipe-icon-1095,1095,7,"753,100",Resipi Peningkatan,"547,1,1,4153;547,2,1,2769;547,3,1,1846;547,4,1,1230",1,0,50301095,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Seluar Pertanian Lava,2,recipe-icon-1096,1096,7,"753,100",Resipi Peningkatan,"548,1,1,4153;548,2,1,2769;548,3,1,1846;548,4,1,1230",1,0,50301096,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Sarung Tangan Pertanian Lava,2,recipe-icon-1097,1097,7,"753,100",Resipi Peningkatan,"549,1,1,4153;549,2,1,2769;549,3,1,1846;549,4,1,1230",1,0,50301097,1,10,-,1,0,4,0,12500
+7, Tahap 7-Resipi Meningkatkan Kasut Pertanian Lava,2,recipe-icon-1098,1098,7,"753,100",Resipi Peningkatan,"550,1,1,4153;550,2,1,2769;550,3,1,1846;550,4,1,1230",1,0,50301098,1,10,-,1,0,4,0,12500
+8, Tahap 8-Resipi Meningkatkan Pedang Hollow,2,recipe-icon-1099,1099,8,"745,100",Resipi Peningkatan,"551,1,1,4153;551,2,1,2769;551,3,1,1846;551,4,1,1230",1,0,50201099,1,10,-,2,0,4,0,15000
+8, Tahap 8-Resipi Meningkatkan Palu Hollow,2,recipe-icon-1100,1100,8,"745,100",Resipi Peningkatan,"552,1,1,4153;552,2,1,2769;552,3,1,1846;552,4,1,1230",1,0,50201100,1,10,-,2,0,4,0,15000
+8, Tahap 8-Resipi Meningkatkan Busur Hollow,2,recipe-icon-1101,1101,8,"745,100",Resipi Peningkatan,"553,1,1,4153;553,2,1,2769;553,3,1,1846;553,4,1,1230",1,0,50201101,1,10,-,2,0,4,0,15000
+8, Tahap 8-Resipi Meningkatkan Topi Tempur Hollow,2,recipe-icon-1102,1102,8,"745,100",Resipi Peningkatan,"554,1,1,4153;554,2,1,2769;554,3,1,1846;554,4,1,1230",1,0,50201102,1,10,-,2,0,4,0,15000
+8, Tahap 8-Resipi Meningkatkan Baju Tempur Hollow,2,recipe-icon-1103,1103,8,"745,100",Resipi Peningkatan,"555,1,1,4153;555,2,1,2769;555,3,1,1846;555,4,1,1230",1,0,50201103,1,10,-,2,0,4,0,15000
+8, Tahap 8-Resipi Meningkatkan Seluar Tempur Hollow,2,recipe-icon-1104,1104,8,"745,100",Resipi Peningkatan,"556,1,1,4153;556,2,1,2769;556,3,1,1846;556,4,1,1230",1,0,50201104,1,10,-,2,0,4,0,15000
+8, Tahap 8-Resipi Meningkatkan Sarung Tangan Tempur Hollow,2,recipe-icon-1105,1105,8,"745,100",Resipi Peningkatan,"557,1,1,4153;557,2,1,2769;557,3,1,1846;557,4,1,1230",1,0,50201105,1,10,-,2,0,4,0,15000
+8,Lv 8 - Resipi Meningkatkan Kasut Tempur Hollow,2,recipe-icon-1106,1106,8,"745,100",Resipi Peningkatan,"558,1,1,4153;558,2,1,2769;558,3,1,1846;558,4,1,1230",1,0,50201106,1,10,-,2,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Sabit Hollow,2,recipe-icon-1107,1107,8,"763,100",Resipi Peningkatan,"559,1,1,4153;559,2,1,2769;559,3,1,1846;559,4,1,1230",1,0,50201107,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Kapak Hollow,2,recipe-icon-1108,1108,8,"763,100",Resipi Peningkatan,"560,1,1,4153;560,2,1,2769;560,3,1,1846;560,4,1,1230",1,0,50201108,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Beliung Hollow,2,recipe-icon-1109,1109,8,"763,100",Resipi Peningkatan,"561,1,1,4153;561,2,1,2769;561,3,1,1846;561,4,1,1230",1,0,50201109,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Topi Kumpul Hollow,2,recipe-icon-1110,1110,8,"763,100",Resipi Peningkatan,"562,1,1,4153;562,2,1,2769;562,3,1,1846;562,4,1,1230",1,0,50201110,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Kot Kumpul Hollow,2,recipe-icon-1111,1111,8,"763,100",Resipi Peningkatan,"563,1,1,4153;563,2,1,2769;563,3,1,1846;563,4,1,1230",1,0,50201111,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Seluar Kumpul Hollow,2,recipe-icon-1112,1112,8,"763,100",Resipi Peningkatan,"564,1,1,4153;564,2,1,2769;564,3,1,1846;564,4,1,1230",1,0,50201112,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Sarung Tangan Kumpul Hollow,2,recipe-icon-1113,1113,8,"763,100",Resipi Peningkatan,"565,1,1,4153;565,2,1,2769;565,3,1,1846;565,4,1,1230",1,0,50201113,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Kasut Kumpul Hollow,2,recipe-icon-1114,1114,8,"763,100",Resipi Peningkatan,"566,1,1,4153;566,2,1,2769;566,3,1,1846;566,4,1,1230",1,0,50201114,1,10,-,3,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Cerek Hollow,2,recipe-icon-1115,1115,8,"754,100",Resipi Peningkatan,"567,1,1,4153;567,2,1,2769;567,3,1,1846;567,4,1,1230",1,0,50201115,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Cangkul Hollow,2,recipe-icon-1116,1116,8,"754,100",Resipi Peningkatan,"568,1,1,4153;568,2,1,2769;568,3,1,1846;568,4,1,1230",1,0,50201116,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Berus Hollow,2,recipe-icon-1117,1117,8,"754,100",Resipi Peningkatan,"569,1,1,4153;569,2,1,2769;569,3,1,1846;569,4,1,1230",1,0,50201117,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Topi Pertanian Hollow,2,recipe-icon-1118,1118,8,"754,100",Resipi Peningkatan,"570,1,1,4153;570,2,1,2769;570,3,1,1846;570,4,1,1230",1,0,50201118,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Kot Pertanian Hollow,2,recipe-icon-1119,1119,8,"754,100",Resipi Peningkatan,"571,1,1,4153;571,2,1,2769;571,3,1,1846;571,4,1,1230",1,0,50201119,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Seluar Pertanian Hollow,2,recipe-icon-1120,1120,8,"754,100",Resipi Peningkatan,"572,1,1,4153;572,2,1,2769;572,3,1,1846;572,4,1,1230",1,0,50201120,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Sarung Tangan Pertanian Hollow,2,recipe-icon-1121,1121,8,"754,100",Resipi Peningkatan,"573,1,1,4153;573,2,1,2769;573,3,1,1846;573,4,1,1230",1,0,50201121,1,10,-,1,0,4,0,15000
+8, Lv 8 - Resipi Meningkatkan Kasut Pertanian Hollow,2,recipe-icon-1122,1122,8,"754,100",Resipi Peningkatan,"574,1,1,4153;574,2,1,2769;574,3,1,1846;574,4,1,1230",1,0,50201122,1,10,-,1,0,4,0,15000
+9, Lv 9 - Resipi Meningkatkan Pedang Perunggu,2,recipe-icon-1123,1123,9,"746,100",Resipi Peningkatan,"575,1,1,4153;575,2,1,2769;575,3,1,1846;575,4,1,1230",1,0,50101123,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Palu Perunggu,2,recipe-icon-1124,1124,9,"746,100",Resipi Peningkatan,"576,1,1,4153;576,2,1,2769;576,3,1,1846;576,4,1,1230",1,0,50101124,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Busur Perunggu,2,recipe-icon-1125,1125,9,"746,100",Resipi Peningkatan,"577,1,1,4153;577,2,1,2769;577,3,1,1846;577,4,1,1230",1,0,50101125,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Topi Tempur Perunggu,2,recipe-icon-1126,1126,9,"746,100",Resipi Peningkatan,"578,1,1,4153;578,2,1,2769;578,3,1,1846;578,4,1,1230",1,0,50101126,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Kot Tempur Perunggu,2,recipe-icon-1127,1127,9,"746,100",Resipi Peningkatan,"579,1,1,4153;579,2,1,2769;579,3,1,1846;579,4,1,1230",1,0,50101127,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Seluar Tempur Perunggu,2,recipe-icon-1128,1128,9,"746,100",Resipi Peningkatan,"580,1,1,4153;580,2,1,2769;580,3,1,1846;580,4,1,1230",1,0,50101128,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Sarung Tangan Tempur Perunggu,2,recipe-icon-1129,1129,9,"746,100",Resipi Peningkatan,"581,1,1,4153;581,2,1,2769;581,3,1,1846;581,4,1,1230",1,0,50101129,1,10,-,2,0,4,0,17500
+9, Lv 9 - Resipi Meningkatkan Kasut Tempur Perunggu,2,recipe-icon-1130,1130,9,"746,100",Resipi Peningkatan,"582,1,1,4153;582,2,1,2769;582,3,1,1846;582,4,1,1230",1,0,50101130,1,10,-,2,0,4,0,17500
+9,Tahap 9 - Resipi Meningkatkan Sabit Gangsa Perunggu,2,recipe-icon-1131,1131,9,"764,100",Resipi Peningkatan,"583,1,1,4153;583,2,1,2769;583,3,1,1846;583,4,1,1230",1,0,50101131,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Kapak Gangsa Perunggu,2,recipe-icon-1132,1132,9,"764,100",Resipi Peningkatan,"584,1,1,4153;584,2,1,2769;584,3,1,1846;584,4,1,1230",1,0,50101132,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Beliung Gangsa Perunggu,2,recipe-icon-1133,1133,9,"764,100",Resipi Peningkatan,"585,1,1,4153;585,2,1,2769;585,3,1,1846;585,4,1,1230",1,0,50101133,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Topi Kumpul Gangsa Perunggu,2,recipe-icon-1134,1134,9,"764,100",Resipi Peningkatan,"586,1,1,4153;586,2,1,2769;586,3,1,1846;586,4,1,1230",1,0,50101134,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Kot Kumpul Gangsa Perunggu,2,recipe-icon-1135,1135,9,"764,100",Resipi Peningkatan,"587,1,1,4153;587,2,1,2769;587,3,1,1846;587,4,1,1230",1,0,50101135,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Seluar Kumpul Gangsa Perunggu,2,recipe-icon-1136,1136,9,"764,100",Resipi Peningkatan,"588,1,1,4153;588,2,1,2769;588,3,1,1846;588,4,1,1230",1,0,50101136,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Sarung Tangan Kumpul Gangsa Perunggu,2,recipe-icon-1137,1137,9,"764,100",Resipi Peningkatan,"589,1,1,4153;589,2,1,2769;589,3,1,1846;589,4,1,1230",1,0,50101137,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Kasut Kumpul Gangsa Perunggu,2,recipe-icon-1138,1138,9,"764,100",Resipi Peningkatan,"590,1,1,4153;590,2,1,2769;590,3,1,1846;590,4,1,1230",1,0,50101138,1,10,-,3,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Cerek Gangsa Perunggu,2,recipe-icon-1139,1139,9,"755,100",Resipi Peningkatan,"591,1,1,4153;591,2,1,2769;591,3,1,1846;591,4,1,1230",1,0,50101139,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Cangkul Gangsa Perunggu,2,recipe-icon-1140,1140,9,"755,100",Resipi Peningkatan,"592,1,1,4153;592,2,1,2769;592,3,1,1846;592,4,1,1230",1,0,50101140,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Berus Gangsa Perunggu,2,recipe-icon-1141,1141,9,"755,100",Resipi Peningkatan,"593,1,1,4153;593,2,1,2769;593,3,1,1846;593,4,1,1230",1,0,50101141,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Topi Pertanian Gangsa Perunggu,2,recipe-icon-1142,1142,9,"755,100",Resipi Peningkatan,"594,1,1,4153;594,2,1,2769;594,3,1,1846;594,4,1,1230",1,0,50101142,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Kot Pertanian Gangsa Perunggu,2,recipe-icon-1143,1143,9,"755,100",Resipi Peningkatan,"595,1,1,4153;595,2,1,2769;595,3,1,1846;595,4,1,1230",1,0,50101143,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Seluar Pertanian Gangsa Perunggu,2,recipe-icon-1144,1144,9,"755,100",Resipi Peningkatan,"596,1,1,4153;596,2,1,2769;596,3,1,1846;596,4,1,1230",1,0,50101144,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Sarung Tangan Pertanian Gangsa Perunggu,2,recipe-icon-1145,1145,9,"755,100",Resipi Peningkatan,"597,1,1,4153;597,2,1,2769;597,3,1,1846;597,4,1,1230",1,0,50101145,1,10,-,1,0,4,0,17500
+9, Tahap 9 - Resipi Meningkatkan Kasut Pertanian Gangsa Perunggu,2,recipe-icon-1146,1146,9,"755,100",Resipi Peningkatan,"598,1,1,4153;598,2,1,2769;598,3,1,1846;598,4,1,1230",1,0,50101146,1,10,-,1,0,4,0,17500
 2,Resipi Peningkatan Serpihan Pertempuran Lv 2,2,recipe-icon-1147,1147,2,"738,80;483,1", Resipi Peningkatan Serpihan Pertempuran Lv 2,"739,1,40,10000",4,0,30801147,1,10,-,2,1,1,0,0
 3,Resipi Peningkatan Serpihan Pertempuran Lv 3,2,recipe-icon-1148,1148,3,"739,80;484,1", Resipi Peningkatan Serpihan Pertempuran Lv 3,"740,1,40,10000",4,0,30701148,1,10,-,2,1,1,0,400
 4,Resipi Peningkatan Serpihan Pertempuran Lv 4,2,recipe-icon-1149,1149,4,"740,80;485,1", Resipi Peningkatan Serpihan Pertempuran Lv 4,"741,1,40,10000",4,0,30601149,1,10,-,2,1,1,0,400
@@ -989,3 +989,6 @@ classifyLevel-int,desc-string,displayType-int,icon-string,id-int,level-int,matIt
 8,,2,recipe-icon-1284,1284,8,"763,10;944,200",,"947,1,256,10000",4,0,20201284,1,10,-,1,0,4,0,10000
 9,,2,recipe-icon-1285,1285,9,"764,10;944,400",,"947,1,512,10000",4,0,20101285,1,10,-,1,0,4,0,20000
 0,,2,recipe-icon-1286,1286,0,,,"962,1,10,10000",4,0,51001286,1,10,-,0,1,1,0,5000
+0,,2,recipe-icon-1287,1287,0,"738,35",,"973,1,1,10000",4,0,51001287,1,10,-,2,1,1,0,500
+0,,2,recipe-icon-1288,1288,0,"756,35",,"974,1,1,10000",4,0,51001288,1,10,-,3,1,1,0,500
+0,,2,recipe-icon-1289,1289,0,"747,35",,"975,1,1,10000",4,0,51001289,1,10,-,1,1,1,0,500
