@@ -215,7 +215,7 @@ public class SkillEffectBase : IReference
 
     }
     /// <summary>
-    /// 效果被添加
+    /// 效果被添加 必须先通过了CheckApplyEffect才会调用
     /// </summary>
     public virtual void OnAdd()
     {
