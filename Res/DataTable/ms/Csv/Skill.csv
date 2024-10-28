@@ -44,13 +44,13 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,,,,60,0,1,0,1,0,0,0,0,,,,,,1,-1,Tingkatkan hasil kerosakan anda dengan serangan kritikal peringkat 1 semasa pertempuran. ,,1,0,Krit Pertempuran Lv 2,,,1,0,,,,,,skill-icon-60,,,,,,55,,,,,
 0,0,0,,0,,,,61,0,1,0,1,0,0,0,0,,,,,,1,-1,Gunakan serangan kritikal peringkat 2 yang lebih kuat. ,,1,0,Krit Pertempuran Lv 3,,,1,0,,,,,,skill-icon-61,,,,,,56,,,,,
 0,0,0,,0,,,,62,0,1,0,1,0,0,0,0,,,,,,1,-1,Kuasai seni menyerang dengan serangan kritikal peringkat 3 yang mematikan. ,,1,0,memijak,,,1,0,,,,,,skill-icon-62,,,,,,57,,,,,
-0,0,0,0,0,"58,238,730",22,350,63,0,1,0,1,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling,Skill_trampling,,665,1,5000," Pusing musuh dalam julat tertentu.
+0,0,0,0,0,"58,238",22,350,63,0,1,0,1,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling,Skill_trampling,,665,1,5000," Pusing musuh dalam julat tertentu.
 ",0,2,0,"[31]Menginjak
 ","2,200,0",WarTrampling,1,0,1,,,"1,2,3",,skill-icon-63,,,,,,,,,,,
-0,0,0,0,0,"495,238,386,227,730","483,22",350,64,0,1,0,1,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling_3,Skill_trampling,,665,1,8000," Pusing musuh dalam julat tertentu, tidak dapat mengenai semasa melepaskan kemahiran.
+0,0,0,0,0,"495,238,386,227","483,22",350,64,0,1,0,1,0,0,0,0,A-skill-zhanzhengjianta,Skill_warTrampling_3,Skill_trampling,,665,1,8000," Pusing musuh dalam julat tertentu, tidak dapat mengenai semasa melepaskan kemahiran.
 ",0,2,0," [32]Menginjak Perang
 ","2,300,0",WarTrampling,1,0,1,,,"1,2,3",,skill-icon-64,,,,,,,,,,,
-0,0,0,0,0,"457,445,388,730",22,550,65,0,1,0,1,0,0,0,0,A-chuisanlianji-2-NEW,Skill_Sweeping,Skill_Swepping,,1000,1,5000," Kalahkan kawasan musuh yang luas di hadapan anda dan menyebabkan peningkatan sementara.
+0,0,0,0,0,"457,445,388",22,550,65,0,1,0,1,0,0,0,0,A-chuisanlianji-2-NEW,Skill_Sweeping,Skill_Swepping,,1000,1,5000," Kalahkan kawasan musuh yang luas di hadapan anda dan menyebabkan peningkatan sementara.
 ",0,2,0," [33]Menyapu
 ","4,300,300,27000,0",WarTrampling,1,0,1,,,"1,2,3",,skill-icon-65,,,,,,,,,,,
 0,0,0,,0,,,,66,0,1,0,1,0,0,0,0,,,,,,1,-1,"1% peluang untuk dua kali ganda hasil tanaman, tingkatkan peralatan hingga peringkat 1. ",,1,0,Lv 2 Pertanian dan Penternakan,,,1,0,,,,,,skill-icon-66,,,,,,"240,242,245,249",,,,,
@@ -687,7 +687,7 @@ IsBeHitBreakable-bool,IsIndependentLogic-bool,accuBreakable-bool,accuTime-int,at
 0,0,0,,0,703,,0,596,0,0,0,0,0,0,0,0,,Skill_hitBack,,,0,1;2,5000,,3000,1,0,,"2,1500,0",,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,710,,0,597,0,0,0,0,0,0,0,0,,,,,0,1;2,1000,,3000,1,0,,"2,1500,0",,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,709,,0,598,0,0,0,0,0,0,0,0,,,,,0,1;2,5000,,3000,1,0,,"2,1500,0",,1,0,1,,1000,,,,,,,,,,,,,,
-0,0,0,,0,,,,600,0,0,0,1,0,0,0,0,,Skill_slime,,,1000,1;2,1000,,,1,0,,"2,1500,0",,1,0,2,,1000,,,,,,,,,"728,729,734,735",,,,,
+0,0,0,,0,,,,600,0,0,0,1,0,0,0,0,,Skill_slime,,,1000,1;2,1000,,,1,0,,"2,1500,0",,1,0,2,,1000,,,,,,,,,"728,729,734,735,490",,,,,
 0,0,0,,0,712,,,603,0,0,0,0,0,0,0,0,,,,,,1;2,1000,,,2,0,,,,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,713,,,604,0,0,0,0,0,0,0,0,,,,,,1;2,1000,,,2,0,,,,1,0,1,,1000,,,,,,,,,,,,,,
 0,0,0,,0,714,,,605,0,0,0,0,0,0,0,0,,,,,,1;2,1000,,,2,0,,,,1,0,1,,1000,,,,,,,,,,,,,,
