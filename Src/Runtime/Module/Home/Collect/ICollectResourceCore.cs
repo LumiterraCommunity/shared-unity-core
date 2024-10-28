@@ -8,7 +8,7 @@ public interface ICollectResourceCore
 {
     public ulong Id { get; }
     /// <summary>
-    /// 等级 只是作为防御方的天然等级 向宠物等攻击时会自行判断能力等级 不走这里
+    /// 等级 只是作为防御方的天然等级，用来计算伤害的等级和天赋等级不一样。像宠物等攻击时会自行判断能力等级不走这里。
     /// </summary>
     public float Lv { get; }
     /// <summary>
