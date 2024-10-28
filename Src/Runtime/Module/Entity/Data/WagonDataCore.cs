@@ -12,7 +12,7 @@ public class WagonDataCore : EntityBaseComponent
     public long ExpireTime { private set; get; }//过期时间
     public long EscortTeamId { private set; get; }//护送队伍ID
     public long LeaderId { private set; get; }//队长ID
-    public EscortWagonStatus Status { get; private set; } = EscortWagonStatus.Unknown;
+    public EscortWagonStatus Status { get; private set; } = EscortWagonStatus.Accept;//镖车初始状态
 
     public void Init(long teamId, long leaderId, int cid)
     {
