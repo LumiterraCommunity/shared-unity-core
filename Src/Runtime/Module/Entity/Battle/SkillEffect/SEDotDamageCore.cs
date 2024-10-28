@@ -10,12 +10,31 @@ using GameMessageCore;
 using UnityGameFramework.Runtime;
 public class SEDotDamageCore : SkillEffectBase
 {
-    /// <summary>
-    /// 产生的伤害类型
-    /// </summary>
-    protected virtual eDamageType DamageType => eDamageType.Normal;
-
     public override bool IsUpdate => true;
+
+    private eDamageType _damageTypes = eDamageType.Unknown;//产生的伤害类 复合型
+
+    public override void OnAdd()
+    {
+        base.OnAdd();
+
+        if (EffectCfg.Parameters.Length >= 3)
+        {
+            _damageTypes = (eDamageType)EffectCfg.Parameters[2];
+        }
+        else//没配置就是普通伤害
+        {
+            _damageTypes = eDamageType.Normal;
+        }
+    }
+
+    public override void Clear()
+    {
+        _damageTypes = eDamageType.Unknown;
+
+        base.Clear();
+    }
+
     /// <summary>
     /// 检测能否应用效果
     /// </summary>
@@ -32,7 +51,7 @@ public class SEDotDamageCore : SkillEffectBase
             }
         }
 
-        if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, DamageType))
+        if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, _damageTypes))
         {
             return false;
         }

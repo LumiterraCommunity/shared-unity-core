@@ -346,4 +346,7 @@ public enum eDamageType : int
     Unknown = 0,
     Normal = 1 << 1, //普通伤害
     EscortWagon = 1 << 2, //押镖伤害
+    Fire = 1 << 3, //火属性伤害
+    Ice = 1 << 4, //冰属性伤害
+    Poison = 1 << 5, //毒属性伤害
 }

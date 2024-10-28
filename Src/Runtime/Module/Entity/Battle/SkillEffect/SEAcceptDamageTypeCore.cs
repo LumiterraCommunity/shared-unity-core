@@ -22,21 +22,12 @@ public class SEAcceptDamageTypeCore : SkillEffectBase
 
         if (EffectCfg.Parameters.Length > 0)
         {
-            _supportDamageTypes = TableUtil.ConvertToBitEnum<eDamageType>(EffectCfg.Parameters);
+            _supportDamageTypes = (eDamageType)EffectCfg.Parameters[0];//配置表配置的就是位运算的组合值
         }
         else
         {
             Log.Error($"SEMaxDamageToMaxHpRatioCore OnAdd EffectCfg.Parameters.Length <= 0,EffectCfg:{EffectCfg.Id}");
         }
-    }
-
-    /// <summary>
-    /// 检测是否能接受这种伤害类型 参数是配置表中的伤害类型 内部会位运算转成枚举
-    /// </summary>
-    internal bool CheckAcceptDamageType(int damageType)
-    {
-        eDamageType eType = TableUtil.ConvertToBitEnum<eDamageType>(damageType);
-        return CheckAcceptDamageType(eType);
     }
 
     /// <summary>

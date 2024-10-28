@@ -293,8 +293,9 @@ public class SkillDamage
 
     /// <summary>
     /// 检查目标是否可以接收某种伤害类型
+    /// <param name="damageTypes">复合型 任意条件满足即可</param>
     /// </summary>
-    public static bool CheckTargetCanAcceptDamage(EntityBase targetEntity, eDamageType damageType)
+    public static bool CheckTargetCanAcceptDamage(EntityBase targetEntity, eDamageType damageTypes)
     {
         if (targetEntity == null)
         {
@@ -311,7 +312,7 @@ public class SkillDamage
         SkillEffectBase acceptEffectBase = effectCpt.GetEffectByType((int)eSkillEffectType.SEAcceptDamageType);
         if (acceptEffectBase == null)//没有指定接收特殊伤害 只能接受普通伤害
         {
-            return damageType == eDamageType.Normal;
+            return (damageTypes & eDamageType.Normal) != 0;
         }
 
         if (acceptEffectBase is not SEAcceptDamageTypeCore acceptDamageType)
@@ -319,6 +320,6 @@ public class SkillDamage
             Log.Error("SESpecialTypeDamageCore CheckApplyEffect effectBase is not SEAcceptDamageTypeCore");
             return false;
         }
-        return acceptDamageType.CheckAcceptDamageType(damageType);
+        return acceptDamageType.CheckAcceptDamageType(damageTypes);
     }
 }

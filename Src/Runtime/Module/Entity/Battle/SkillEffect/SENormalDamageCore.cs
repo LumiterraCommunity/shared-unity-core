@@ -9,21 +9,25 @@
 using GameMessageCore;
 public class SENormalDamageCore : SkillEffectBase
 {
-    /// <summary>
-    /// 产生的伤害类型
-    /// </summary>
-    protected eDamageType DamageType = eDamageType.Unknown;
+    private eDamageType _damageTypes = eDamageType.Unknown;//产生的伤害类 复合型
 
     public override void OnAdd()
     {
         base.OnAdd();
 
-        DamageType = eDamageType.Normal;
+        if (EffectCfg.Parameters.Length >= 3)
+        {
+            _damageTypes = (eDamageType)EffectCfg.Parameters[2];
+        }
+        else//没配置就是普通伤害
+        {
+            _damageTypes = eDamageType.Normal;
+        }
     }
 
     public override void Clear()
     {
-        DamageType = eDamageType.Unknown;
+        _damageTypes = eDamageType.Unknown;
 
         base.Clear();
     }
@@ -44,7 +48,7 @@ public class SENormalDamageCore : SkillEffectBase
             }
         }
 
-        if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, DamageType))
+        if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, _damageTypes))
         {
             return false;
         }
