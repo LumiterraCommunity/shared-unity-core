@@ -178,8 +178,8 @@ Sprite due to insufficient space"
 ,20090008,任务,"Look around the map coordinates ({0}, {1}) "
 ,20090009,任务,Upgrade your character 
 ,20090010,任务,Obtain {0} 
-,20090011,任务,Upgrade {0} slot 
-,20090012,任务,Upgrade the {0} node to {1} level
+,20090011,任务,Upgrade slot {0}
+,20090012,任务,Upgrade the node {0} to level {1}
 ,20090013,任务,{0} Items selected
 ,20090014,任务,{0} Item selected
 ,20090015,任务,Unknown
@@ -425,12 +425,13 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20340003,爬塔,Losing lottery
 ,20340004,爬塔,"No challenge record, please start at the first level."
 ,20350001,押镖错误,Not enough escort times
-,20350002,押镖错误,Escort wagon mission system error :
+,20350002,押镖错误,Escort slime mission system error :
 ,20350003,押镖错误,Multiple mission requests
 ,20350004,押镖错误,Only the team leader can start the mission
 ,20350005,押镖,[color=#ooccff]{0}[/color] refused the mission
-,20350006,押镖,The task needs to be completed in {0} minutes
+,20350006,押镖,The mission needs to be completed in {0} minutes
 ,20350007,押镖,Complete the escort mission
-,20350008,押镖,[color=#EC3D31]Escort wagon mission failed
-,20350009,押镖,Robbery wagon successfully
+,20350008,押镖,[color=#EC3D31]Escort slime mission failed
+,20350009,押镖,Robbery slime successfully
 ,20350010,押镖,Not enough robbery reward times
+,20350011,押镖,Are you sure you want to give up the escort mission?

@@ -42,6 +42,15 @@ public class DREscortWagon : DataRowBase
     }
 
     /// <summary>
+  /**获取icon-string。*/
+    /// </summary>
+    public string Icon
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取initialAttribute-int[][]。*/
     /// </summary>
     public int[][] InitialAttribute
@@ -147,6 +156,7 @@ public class DREscortWagon : DataRowBase
         int index = 0;
         CombatPotentiality = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -172,6 +182,7 @@ public class DREscortWagon : DataRowBase
             {
                 CombatPotentiality = binaryReader.ReadArray<Int32>();
                 Desc = binaryReader.ReadString();
+                Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
                 Lv = binaryReader.Read7BitEncodedInt32();
