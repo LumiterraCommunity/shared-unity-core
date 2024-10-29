@@ -31,6 +31,7 @@ public static class TableDefine
 
     public const int TEMPLATE_SKILL_ID = 14; // 模版技能ID
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
+    public const int SCENE_DAMAGE_EFFECT_ID = 736; // 场景伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
     public const int TOKEN_DECIMALS = 18; // 代币小数位数
