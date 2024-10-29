@@ -26,6 +26,9 @@ public class SENormalDamageCore : SkillEffectBase
         }
 
         eDamageType damageTypes = EffectCfg.Parameters.Length >= 3 ? (eDamageType)EffectCfg.Parameters[2] : eDamageType.Normal;
+#if UNITY_EDITOR
+        damageTypes |= eDamageType.EscortWagon;
+#endif
         if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, damageTypes))
         {
             return false;
