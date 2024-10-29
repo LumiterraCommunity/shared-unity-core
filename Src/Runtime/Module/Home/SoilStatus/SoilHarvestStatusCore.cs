@@ -1,3 +1,5 @@
+using System;
+using UnityGameFramework.Runtime;
 using static HomeDefine;
 
 /// <summary>
@@ -10,9 +12,18 @@ public class SoilHarvestStatusCore : SoilStatusCore
     public override eAction SupportAction => eAction.Harvest;
 
     protected override float AutoEnterNextStatusTime => 0;
-    protected override void OnExecuteHomeAction(eAction action, object actionData)
+    protected override void OnExecuteHomeAction(eAction action, long playerId, long entityId, object actionData)
     {
-        base.OnExecuteHomeAction(action, actionData);
+        base.OnExecuteHomeAction(action, playerId, entityId, actionData);
+
+        try
+        {
+            StatusCtrl.HomeSoilCore.OnHarvest(playerId, entityId);
+        }
+        catch (Exception e)
+        {
+            Log.Error($"土地收割时异常,id:{StatusCtrl.HomeSoilCore.Id} error:{e}");
+        }
 
         SoilData.ClearSeedData();
         ChangeState(eSoilStatus.Idle);

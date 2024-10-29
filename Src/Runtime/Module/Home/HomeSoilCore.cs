@@ -140,7 +140,7 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
     {
         try
         {
-            SoilEvent.MsgExecuteAction?.Invoke(action, actionData);
+        	SoilEvent.MsgExecuteAction?.Invoke(action, playerId, entityId, actionData);
         }
         catch (System.Exception e)
         {
@@ -240,5 +240,14 @@ public abstract class HomeSoilCore : MonoBehaviour, ICollectResourceCore
         }
 
         return proxyData;
+    }
+
+    /// <summary>
+    /// 被收获了,腐败的不算收获，不走这里
+    /// </summary>
+    /// <param name="playerId">收获的玩家id</param>
+    /// <param name="entityId">收获的具体实体id</param>
+    public virtual void OnHarvest(long playerId, long entityId)
+    {
     }
 }

@@ -42,7 +42,7 @@ public abstract class SoilStatusCore : ComponentStatusCore<SoilStatusCtrl>
     /// </summary>
     /// <param name="action">当前执行的动作</param>
     /// <param name="actionData">动作数据 比如播种的种子cid</param>
-    protected virtual void OnExecuteHomeAction(eAction action, object actionData) { }
+    protected virtual void OnExecuteHomeAction(eAction action, long playerId, long entityId, object actionData) { }
 
     /// <summary>
     /// 自动进入下一个状态的时间 等于0不会自动进入 秒
@@ -148,14 +148,14 @@ public abstract class SoilStatusCore : ComponentStatusCore<SoilStatusCtrl>
         }
     }
 
-    private void OnMsgExecuteAction(eAction action, object actionData)
+    private void OnMsgExecuteAction(eAction action, long playerId, long entityId, object actionData)
     {
         if (!CheckSupportAction(action))
         {
             throw new System.Exception("当前状态不支持该动作，不应该触发该事件");
         }
 
-        OnExecuteHomeAction(action, actionData);
+        OnExecuteHomeAction(action, playerId, entityId, actionData);
     }
 
     /// <summary>

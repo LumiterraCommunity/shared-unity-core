@@ -287,7 +287,7 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
         }
         else if (action == HarvestAction)//收获 能执行的都是手动收货的
         {
-            OnExecuteHarvest(action);
+            OnExecuteHarvest(action, playerId, entityId);
         }
     }
 
@@ -345,15 +345,33 @@ public abstract class HomeAnimalCore : EntityBaseComponent, ICollectResourceCore
     /// 主动操作的收获
     /// <param name="action">单一具体动作</param>
     /// </summary>
-    protected virtual void OnExecuteHarvest(eAction action)
+    protected virtual void OnExecuteHarvest(eAction action, long playerId, long entityId)
     {
         if (PetData.PetCfg.AutoHarvest)
         {
             throw new Exception($"动物配置表错误 自动收获的动物不能手动收获 cid:{PetData.PetCfgId}");
         }
 
+        try
+        {
+            OnHarvest(playerId, entityId);
+        }
+        catch (Exception e)
+        {
+            Log.Error($"动物收获时异常,id:{Id} error:{e}");
+        }
+
         Data.ClearDataAfterHarvest();
         gameObject.GetComponent<HomeActionProgressData>().StartProgressAction(eAction.Appease, TableUtil.GetGameValue(eGameValueID.animalAppeaseMaxActionValue).Value);
+    }
+
+    /// <summary>
+    /// 被收获了
+    /// </summary>
+    /// <param name="playerId">收获的玩家id</param>
+    /// <param name="entityId">收获的具体实体id</param>
+    public virtual void OnHarvest(long playerId, long entityId)
+    {
     }
 
     /// <summary>
