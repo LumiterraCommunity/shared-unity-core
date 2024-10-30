@@ -31,6 +31,7 @@ public static class TableDefine
 
     public const int TEMPLATE_SKILL_ID = 14; // 模版技能ID
     public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
+    public const int SCENE_DAMAGE_EFFECT_ID = 736; // 场景伤害效果ID
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
     public const int TOKEN_DECIMALS = 18; // 代币小数位数
@@ -133,6 +134,8 @@ public enum eGameValueID
     WorldTotemPlaceInvalidRangeNearNpc = 128, //世界图腾放置在npc附近多少距离无效 千分位
     WorldTotemSetEnhancePriceTime = 140,      //图腾设置强化价格间隔时间
     TowerPrizeDrawShareRateMax = 141, // 千分位
+    WagonCheckRadius = 136, //镖车检测范围
+    WagonCheckEscortRadius = 139, //镖车检测护送范围
 }
 
 // public static class GameValueID
@@ -238,6 +241,9 @@ public enum eSkillEffectType : int
     SEAddEntity = 34,
     SEAura = 35,
     SEBackOut = 40,
+    SESpecialTypeDamage = 42,
+    SEAcceptDamageType = 43,
+    SEMaxDamageToMaxHpRatio = 44,
 }
 
 public enum eSEFuncType : int
@@ -276,6 +282,7 @@ public enum eSkillId : int
     PutFood = 27,//放饲料
     BackOut = 573,//脱离
     TotemTp = 585,//图腾传送技能
+    WagonDance = 610,//镖车跳舞技能
 }
 
 /// <summary>
@@ -330,4 +337,17 @@ public enum eChapterEntityType
     Monster = 1, //怪物
     Resource = 2, //采集物
     Seed = 3, //种子
+}
+
+/// <summary>
+/// 伤害类型 区分普通伤害 押镖伤害 元素伤害等 位运算
+/// </summary>
+public enum eDamageType : int
+{
+    Unknown = 0,
+    Normal = 1 << 1, //普通伤害
+    EscortWagon = 1 << 2, //押镖伤害
+    Fire = 1 << 3, //火属性伤害
+    Ice = 1 << 4, //冰属性伤害
+    Poison = 1 << 5, //毒属性伤害
 }

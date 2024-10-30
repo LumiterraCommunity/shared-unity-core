@@ -11,6 +11,7 @@ using UnityGameFramework.Runtime;
 public class SEDotDamageCore : SkillEffectBase
 {
     public override bool IsUpdate => true;
+
     /// <summary>
     /// 检测能否应用效果
     /// </summary>
@@ -26,6 +27,13 @@ public class SEDotDamageCore : SkillEffectBase
                 return false;
             }
         }
+
+        eDamageType damageTypes = EffectCfg.Parameters.Length >= 3 ? (eDamageType)EffectCfg.Parameters[2] : eDamageType.Normal;
+        if (!SkillDamage.CheckTargetCanAcceptDamage(targetEntity, damageTypes))
+        {
+            return false;
+        }
+
         return true;
     }
 
@@ -72,6 +80,9 @@ public class SEDotDamageCore : SkillEffectBase
             Log.Error("SEDotDamage Unknown sustained damage Id: " + EffectCfg.Id + " damageType: " + damageType);
             damage = SkillDamage.MakeDamageData(DamageState.Normal, targetBattleData.HP, targetBattleData.WhiteHP, 0);
         }
+
+        //防御方伤害减免
+        damage.DeltaInt = SkillDamage.DamageReduction(fromEntity, targetEntity, damage.DeltaInt);
 
         effect.DamageValue = damage;
         effect.DamageValue.CurrentInt = targetBattleData.HP + damage.DeltaInt;

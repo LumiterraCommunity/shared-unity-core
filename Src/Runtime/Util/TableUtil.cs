@@ -227,7 +227,7 @@ public static class TableUtil
     }
 
     /// <summary>
-    /// 检查当前时间(hour)场景是否开启
+    /// 检查当前时间(hour)场景是否开启 针对mapId的
     /// </summary>
     /// <param name="mapId"></param>
     /// <returns></returns>
@@ -245,11 +245,27 @@ public static class TableUtil
             return true;
         }
 
+        return IsInOpenTimes(areaRow.ReleaseTime);
+    }
+
+    /// <summary>
+    /// 检查是否在配置中的开放时间内 更加通用 可以给时区 默认UTC
+    /// </summary>
+    /// <param name="openTimes"></param>
+    /// <returns></returns>
+    public static bool IsInOpenTimes(int[][] openTimes, int timeZone = 0)
+    {
+        //没配置就是全天开放
+        if (openTimes == null || openTimes.Length == 0)
+        {
+            return true;
+        }
+
         // 检查开启时间段
         bool opened = false;
-        DateTime now = TimeUtil.TimeStamp2DataTime(TimeUtil.GetServerTimeStamp());
+        DateTime now = TimeUtil.TimeStamp2DataTime(TimeUtil.GetServerTimeZoneTimeStamp(timeZone));
         double minutesNow = now.TimeOfDay.TotalMinutes;
-        foreach (int[] timeInfoRow in areaRow.ReleaseTime)
+        foreach (int[] timeInfoRow in openTimes)
         {
             if (timeInfoRow.Length != 2)
             {

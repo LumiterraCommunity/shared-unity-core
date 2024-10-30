@@ -1,5 +1,6 @@
 #define SHARED_CORE_TIME_UTIL
 using System;
+using GameMessageCore;
 using UnityGameFramework.Runtime;
 
 public static class TimeUtil
@@ -118,7 +119,7 @@ public static class TimeUtil
     }
 
     /// <summary>
-    /// 获取当前服务器时间戳
+    /// 获取当前服务器时间戳 UTC时间
     /// !!尽量不要在update里面使用，比如计算倒计时表现（该方法获得的时间可能会有抖动的）
     /// </summary>
     /// <returns></returns>
@@ -131,6 +132,24 @@ public static class TimeUtil
         }
 
         return s_syncSvrTimeLogic.ServerLocalTimestamp;
+    }
+
+    /// <summary>
+    /// 获取指定时区服务器时间戳
+    /// </summary>
+    /// <param name="timeZone"></param>
+    /// <returns></returns>
+    public static long GetServerTimeZoneTimeStamp(int timeZone)
+    {
+        if (timeZone is < (-12) or > 14)
+        {
+            Log.Error($"时区参数错误 :{timeZone}");
+            timeZone = 0;
+        }
+
+        long utc = GetServerTimeStamp();
+        float timeZoneOffset = timeZone * SecondsOfHour * S2MS;
+        return utc + (long)timeZoneOffset;
     }
 
     public static long GetTimeStampByInputString(string inputStr)
@@ -227,5 +246,24 @@ public static class TimeUtil
     {
         DateTime dateTime = TimeStamp2DataTime(ms);
         return $"{dateTime.Year:D4}{splitSymbol}{dateTime.Month:D2}{splitSymbol}{dateTime.Day:D2}";
+    }
+
+    /// <summary>
+    /// 获取某个服务器集群的时区
+    /// </summary>
+    /// <returns></returns>
+    public static int ClusterTimeZone(ClusterType clusterType)
+    {
+        int timeZone = clusterType switch
+        {
+            ClusterType.Asia => 8,
+            ClusterType.Europe => 2,
+            ClusterType.NorthAmerica => -5,
+            ClusterType.SouthAmerica => -3,
+            ClusterType.Africa => 2,
+            ClusterType.Antarctica => 13,
+            _ => 0,
+        };
+        return timeZone;
     }
 }
