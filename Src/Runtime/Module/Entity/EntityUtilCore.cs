@@ -15,7 +15,7 @@ public static class EntityUtilCore
     /// <returns></returns>
     public static bool EntityTypeIsPlayerUnit(EntityType entityType)
     {
-        return EntityTypeIsPlayer(entityType) || EntityTypeIsPet(entityType);
+        return EntityTypeIsPlayer(entityType) || EntityTypeIsPet(entityType) || entityType is EntityType.Wagon;
     }
 
     /// <summary>
@@ -64,6 +64,14 @@ public static class EntityUtilCore
         if ((entityType is EntityType.Pet or EntityType.HomeAnimal) && entityBase.TryGetComponent(out PetDataCore petDataCore))
         {
             return petDataCore.OwnerId;
+        }
+
+        if (entityType is EntityType.Wagon)
+        {
+            if (entityBase.TryGetComponent(out WagonDataCore wagonDataCore))
+            {
+                return wagonDataCore.LeaderId;
+            }
         }
 
         //家园守卫待补充
