@@ -1,4 +1,4 @@
-armatureRes-string,attackSound-string,deathSound-string,desc-string,hurtedCritSound-string,hurtedSound-string,id-int,patrolRadius-int,patrolSpd-int,idleSound-string,aiName-string,patrolPath-string
+armatureRes-string,attackSound-string,deathSound-string,desc-string,hurtedCritSound-string,hurtedSound-string,id-int,patrolRadius-int,patrolSpd-int,idleSound-string,aiName-string,patrolPath-string[]
 boy_armature_SkeletonData,GGGrasslands - Box Destroy (Split) - Hit_mp3,GGGrasslands - Death_mp3,男玩家,GGGrasslands - Jump (Land)_mp3,GGGrasslands - Hit 2_mp3,1,5,2,,,
 boy_armature_SkeletonData,GGGrasslands - Box Destroy (Split) - Hit_mp3,GGGrasslands - Death_mp3,女玩家,GGGrasslands - Jump (Land)_mp3,GGGrasslands - Hit 2_mp3,2,5,2,,,
 wildboar,GGGrasslands - Spikes (Split) - 2_mp3,GGGrasslands - Carrot Death_mp3,Boar,GGGrasslands - Hit 2_mp3,meethited_mp3,3,5,2,wildboarout_mp3,,
@@ -169,3 +169,4 @@ Monster_Venomtail,,,Monster_Venomtail,,,185,1,1,,MonsterAI_Venomtail,
 Spine_NPC_EmeraldSlime,,,Emerald Slime,,,186,1,1,,,
 Spine_NPC_AquaSlime,,,Aqua Slime,,,187,1,1,,,
 Spine_NPC_GoldenSlime,,,Golden Slime,,,188,1,1,,,
+Spine_NPC_Wang,,,Npc Wang,,,189,1,1,,,

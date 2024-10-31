@@ -5,7 +5,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),4,0,Área de Combate PvE,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,5,0,Hogar,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,6,0,Playa,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,7,0,Bosque Rojo,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,7,0,Bosque Rojo,2
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Pena de muerte leve (porcentaje de objetos de la mochila),8,0,Bosque Negro,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,9,0,Desierto Tormentoso,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Sin pena de muerte,10,0,Cañón,1
@@ -52,3 +52,5 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No pena de muerte,51,0,,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No pena de muerte,52,0,,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No pena de muerte,53,0,,1
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",,54,0,,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",,55,0,,3

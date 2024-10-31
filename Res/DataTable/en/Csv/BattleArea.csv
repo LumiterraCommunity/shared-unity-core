@@ -5,7 +5,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),4,0,PvEP Fight Area,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,5,0,Home,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,6,0,Beach,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,7,0,Red Forest,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,7,0,Red Forest,2
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),8,0,Black Forest,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,9,0,Stormy Desert,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,10,0,Canyon,1
@@ -52,3 +52,5 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,51,0,Centennial Trials - Ancient Ruins,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,52,0,Centennial Trials - Glacier Expanse,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,53,0,Centennial Trials - Origin Valley,1
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),54,0,Volcano Valley,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),55,0,Windmill Village,3
