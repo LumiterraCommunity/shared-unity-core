@@ -41,16 +41,16 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 2,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de Pénalité de Mort,40,1,Terrain d'entraînement 2/3,3
 3,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de Pénalité de Mort,41,1,Terrain d'entraînement 3/3,3
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,42,0,Terre du Départ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,43,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,44,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,45,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,46,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,47,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,48,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,49,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,50,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,51,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,52,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,53,0,,1
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",,54,0,,3
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",,55,0,,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,43,0, Centennial Trials - Plaines Verdoyantes ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,44,0, Centennial Trials - Dunes du Désert ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,45,0, Centennial Trials - Pics Enneigés ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,46,0, Centennial Trials - Vallée Venteuse ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,47,0, Centennial Trials - Tour de l'Horloge Abandonnée ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,48,0, Centennial Trials - Château en Ruines ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,49,0, Centennial Trials - Terres en Fusion ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,50,0, Centennial Trials - Îles du Néant ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,51,0, Centennial Trials - Ruines Anciennes ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,52,0, Centennial Trials - Etendue Glaciaire ,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Pas de peine de mort,53,0, Centennial Trials - Vallée de l'Origine ,1
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Peine de mort modérée (Pourcentage des objets du sac à dos),54,0, Volcano Valley ,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Peine de mort modérée (Pourcentage des objets du sac à dos),55,0, Windmill Village,3
