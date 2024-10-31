@@ -5,7 +5,7 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),4,0,Kawasan Pertempuran PvEP,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,5,0,Rumah,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,6,0,Pantai,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,7,0,Hutan Merah,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,7,0,Hutan Merah,2
 0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),8,0,Hutan Hitam,2
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,9,0,Padang Pasir Berangin,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,10,0,Lembah,1
@@ -52,3 +52,5 @@ areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,51,0,,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,52,0,,1
 0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,53,0,,1
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",,54,0,,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",,55,0,,3
