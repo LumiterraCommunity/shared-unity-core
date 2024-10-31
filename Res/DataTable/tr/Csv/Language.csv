@@ -128,7 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开, Halat koptu
 ,20050004,捕获超时, Yakalama zaman aşımına uğradı
 ,20050005,捕获过程道具不足, Eksik ekipman
-,20050006,,
+,20050006,,Evcil hayvan sayısı üst sınırına ulaştı {0}.
 释放技能正在CD中,20060001,技能, Yetenek CD'de
 ,20070001,登录, Sistem
 ,20070002,登录, Giriş yapılıyor
@@ -288,8 +288,8 @@ NPC 不存在,20150018,副本," NPC bulunamadı, lütfen yöneticiyle iletişime
 ,20160015,副本, Seviye uyuşmazlığı.
 ,20160016,副本, Ekstra Düşüş
 ,20160017,副本," Bir zindana girerken, ""Ekstra Düşüş"" etkinliğini tetikleme şansı vardır:Belirli canavarları öldürmek, eşyaları toplamak veya mahsulleri hasat etmek ekstra düşüş ödülleri sağlar.Bu etkinliğin toplamda tetiklenebileceği sabit bir küresel maksimum sınır vardır."
-,20160018,,
-,20160019,副本,
+,20160018,, Zorluk
+,20160019,副本, {0} Seviye
 ,20170000,合成, Sıraya gir
 ,20170001,合成, Üretim sırası dolu.
 ,20170002,合成, Üretim tarifi kilidi açılmamış.
@@ -357,7 +357,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ",, Yatırım başarılı
 ,20240003,, Çekme başarılı
 ,20240004,," Hesaplanıyor, lütfen bekleyin"
-,20240005,图腾,
+,20240005,图腾, {0}/{1} dakika
 ,20250000,仓库, Depolamadan önce depo kirasını yenileyin
 ,20250001,仓库,Lütfen depo kirasını yenileyin ve sonra çıkarın.
 ,20250002,, Depo dolu.
@@ -388,37 +388,38 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20300006,声望, Ek puanlar.
 ,20300007,声望, Günlük {0} puanın azalması.
 ,20310000,技能, Mevcut silah için bu yetenek serbest bırakılamaz.
-,20320000,世界图腾,
-,20320001,世界图腾,
-,20320002,世界图腾,
-,20320003,世界图腾,
-,20320004,世界图腾,
-,20320005,世界图腾,
-,20320006,世界图腾,
-,20320007,世界图腾,
-,20320008,世界图腾,
-,20320009,世界图腾,
-,20330000,装备强化,
-,20330001,装备强化,
-,20330002,装备强化,
-,20330003,装备强化,
-,20330004,装备强化,
-,20330005,装备强化,
-,20330006,装备强化,
-,20330007,装备强化,
-,20330008,装备强化,
-,20340001,爬塔,
-,20340002,爬塔,
-,20340003,爬塔,
-,20340004,爬塔,
-,20350001,押镖错误,
-,20350002,押镖错误,
-,20350003,押镖错误,
-,20350004,押镖错误,
-,20350005,押镖,
-,20350006,押镖,
-,20350007,押镖,
-,20350008,押镖,
-,20350009,押镖,
-,20350010,押镖,
-,20350011,押镖,
+,20320000,世界图腾, Diğer totemlere çok yakın
+,20320001,世界图腾, Mevcut araziye totem yerleştirilemez
+,20320002,世界图腾, {0}'nin totemi
+,20320003,世界图腾," Totem yerleştirildi, lütfen şarj etmeye devam edin"
+,20320004,世界图腾, Lütfen önce madencilik gelirini talep edin
+,20320005,世界图腾, Bu alana totem yerleştirilemez
+,20320006,世界图腾, Bu sahnede totem yerleştirilemez
+,20320007,世界图腾, Totem enerjisi yetersiz.
+,20320008,世界图腾, Totem etkin değil.
+,20320009,世界图腾, {0} dakika içinde güçlendirme fiyatı belirlenemez.
+,20330000,装备强化, Yetersiz koruyucu taş.
+,20330001,装备强化," Ekipman güçlendiriliyor, lütfen bekleyin."
+,20330002,装备强化, Lütfen önce miras hedefini seçin.
+,20330003,装备强化, Miras alınacak ekipman yok.
+,20330004,装备强化, Miras alınabilir ekipman seçilmedi.
+,20330005,装备强化, Bu ekipman miras alınamaz.
+,20330006,装备强化," {0} tebrikler, {1}'i {2}'ye yükselttiniz."
+,20330007,装备强化, Çekiliş sonuçları daha sonra size bildirilecektir.
+,20330008,装备强化," {0} tebrikler, {1}'i {2}'ye yükselttiniz"
+,20340001,百层试炼, Kalan çekiliş hakkı yetersiz
+,20340002,百层试炼," Bugün puan yok, çekim yapılamaz"
+,20340003,百层试炼, Kaybedilen çekiliş
+,20340004,百层试炼," Hiçbir meydan okuma kaydı yok, lütfen ilk seviyeden başlayın."
+,20350001,护送任务错误, Yeterli eskort süresi yok
+,20350002,护送任务错误, Eşlik sümüğü görevi sistem hatası:
+,20350003,护送任务错误, Birden fazla görev isteği
+,20350004,护送任务错误, Yalnızca takım lideri görevi başlatabilir
+,20350005,护送任务,{0}[/color] görevi reddetti
+,20350006,护送任务, Görev {0} dakika içinde tamamlanmalıdır
+,20350007,护送任务, görevi başarıyla tamamlandı
+,20350008,护送任务, Eşlik sümüğü görevi başarısız oldu
+,20350009,护送任务, başarıyla
+,20350010,护送任务, Yeterli soygun ödülü süresi yok
+,20350011,护送任务, Eşlik görevini bırakmak istediğinizden emin misiniz?
+,20360001,系统聊天,

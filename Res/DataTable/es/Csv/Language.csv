@@ -128,7 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,La cuerda está rota
 ,20050004,捕获超时,Tiempo de espera de captura agotado
 ,20050005,捕获过程道具不足,Falta de accesorios
-,20050006,,
+,20050006,,El número de mascotas alcanza el límite superior {0}.
 释放技能正在CD中,20060001,技能,Habilidad en enfriamiento
 ,20070001,登录,Sistema
 ,20070002,登录,Iniciando sesión
@@ -288,8 +288,8 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20160015,副本,Nivel no coincide.
 ,20160016,副本,Extra Drop
 ,20160017,副本," Al ingresar a una mazmorra, existe la posibilidad de activar un evento de ""Extra Drop"":Matar monstruos específicos, recolectar objetos o cosechar cultivos otorgará recompensas adicionales.Existe un límite máximo global fijo en el número total de veces que se puede activar este evento."
-,20160018,,
-,20160019,副本,
+,20160018,, Dificultad
+,20160019,副本, Nivel {0}
 ,20170000,合成,Entrar en la cola
 ,20170001,合成,La cola de fabricación está llena.
 ,20170002,合成,La receta de fabricación no está desbloqueada.
@@ -357,7 +357,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ",,Inversión exitosa
 ,20240003,,Retiro exitoso
 ,20240004,,"Calculando, por favor espera"
-,20240005,图腾,
+,20240005,图腾, {0}/{1} min
 ,20250000,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de almacenar."
 ,20250001,仓库,"Por favor, renueva el arrendamiento del almacenamiento antes de sacarlo."
 ,20250002,,El almacenamiento está lleno.
@@ -388,37 +388,38 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300006,声望, Puntos adicionales.
 ,20300007,声望, Decaimiento diario de {0} puntos.
 ,20310000,技能, No se puede liberar esta habilidad para el arma actual.
-,20320000,世界图腾,
-,20320001,世界图腾,
-,20320002,世界图腾,
-,20320003,世界图腾,
-,20320004,世界图腾,
-,20320005,世界图腾,
-,20320006,世界图腾,
-,20320007,世界图腾,
-,20320008,世界图腾,
-,20320009,世界图腾,
-,20330000,装备强化,
-,20330001,装备强化,
-,20330002,装备强化,
-,20330003,装备强化,
-,20330004,装备强化,
-,20330005,装备强化,
-,20330006,装备强化,
-,20330007,装备强化,
-,20330008,装备强化,
-,20340001,爬塔,
-,20340002,爬塔,
-,20340003,爬塔,
-,20340004,爬塔,
-,20350001,押镖错误,
-,20350002,押镖错误,
-,20350003,押镖错误,
-,20350004,押镖错误,
-,20350005,押镖,
-,20350006,押镖,
-,20350007,押镖,
-,20350008,押镖,
-,20350009,押镖,
-,20350010,押镖,
-,20350011,押镖,
+,20320000,世界图腾, Demasiado cerca de otros tótems
+,20320001,世界图腾, El terreno actual no puede colocar tótems
+,20320002,世界图腾, Tótem de {0}
+,20320003,世界图腾," Se ha colocado el tótem, por favor proceda a cargar"
+,20320004,世界图腾, Por favor reclame primero los ingresos de la minería.
+,20320005,世界图腾, No se pueden colocar tótems en esta área.
+,20320006,世界图腾, No se pueden colocar tótems en esta escena.
+,20320007,世界图腾, La energía del tótem es insuficiente.
+,20320008,世界图腾, El tótem no está activado.
+,20320009,世界图腾, No se puede establecer el precio de mejora dentro de {0} minutos.
+,20330000,装备强化, Piedra protectora insuficiente.
+,20330001,装备强化," El equipo se está mejorando, por favor espere."
+,20330002,装备强化, Por favor seleccione primero el objetivo de herencia.
+,20330003,装备强化, No hay equipo para heredar.
+,20330004,装备强化, No se ha seleccionado equipo heredable.
+,20330005,装备强化, Este equipo no puede ser heredado.
+,20330006,装备强化, Felicidades {0} por mejorar {1} a {2}.
+,20330007,装备强化, Los resultados de la lotería se le notificarán más tarde.
+,20330008,装备强化, Felicidades {0} por mejorar {1} a {2}.
+,20340001,百层试炼, El número restante de sorteos es insuficiente.
+,20340002,百层试炼," Hoy no hay puntos, no se puede hacer un sorteo."
+,20340003,百层试炼, Perdiendo en la lotería.
+,20340004,百层试炼," Sin registro de desafío, por favor comience en el primer nivel."
+,20350001,护送任务错误, No hay suficientes veces de escolta.
+,20350002,护送任务错误, Error del sistema de misión de escolta de babosa:
+,20350003,护送任务错误, Múltiples solicitudes de misión.
+,20350004,护送任务错误, Solo el líder del equipo puede comenzar la misión.
+,20350005,护送任务,{0}[/color] rechazó la misión.
+,20350006,护送任务, La misión debe completarse en {0} minutos.
+,20350007,护送任务, completada con éxito.
+,20350008,护送任务, Misión de escolta de babosa fallida.
+,20350009,护送任务, con éxito.
+,20350010,护送任务, No hay suficientes veces de recompensa por robo.
+,20350011,护送任务, ¿Estás seguro de que quieres abandonar la misión de escolta?
+,20360001,系统聊天,

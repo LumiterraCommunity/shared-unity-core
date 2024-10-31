@@ -128,7 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Dây đã bị đứt
 ,20050004,捕获超时,Hết thời gian bắt
 ,20050005,捕获过程道具不足,Thiếu đạo cụ
-,20050006,,
+,20050006,,Số lượng thú cưng đạt đến giới hạn cao nhất {0}.
 释放技能正在CD中,20060001,技能,Kỹ năng đang trong thời gian chờ
 ,20070001,登录,Hệ thống
 ,20070002,登录,Đang đăng nhập
@@ -288,8 +288,8 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20160015,副本, Mức độ không phù hợp.
 ,20160016,副本,Phần thưởng thêm
 ,20160017,副本,"Khi vào một hang động, có khả năng kích hoạt sự kiện ""Phần thưởng thêm"":Giết quái vật cụ thể, thu thập vật phẩm hoặc thu hoạch cây trồng sẽ nhận được phần thưởng thêm.Có một giới hạn tối đa toàn cầu cố định về số lần sự kiện này có thể kích hoạt."
-,20160018,,
-,20160019,副本,
+,20160018,, Độ khó
+,20160019,副本, Cấp độ {0}
 ,20170000,合成,Vào hàng chờ
 ,20170001,合成,Hàng chế tạo đã đầy.
 ,20170002,合成,Công thức chế tạo chưa được mở khóa.
@@ -357,7 +357,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ",,Đầu tư thành công
 ,20240003,,Rút tiền thành công
 ,20240004,,"Đang tính toán, vui lòng đợi"
-,20240005,图腾,
+,20240005,图腾, {0}/{1} phút
 ,20250000,仓库,Vui lòng gia hạn thuê kho trước khi lưu trữ.
 ,20250001,仓库,Vui lòng gia hạn thuê kho trước khi lấy ra.
 ,20250002,,Kho đã đầy.
@@ -388,37 +388,38 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20300006,声望, Điểm bổ sung.
 ,20300007,声望, Sự suy giảm hàng ngày của {0} điểm.
 ,20310000,技能,thả[/color] kỹ năng này cho vũ khí hiện tại.
-,20320000,世界图腾,
-,20320001,世界图腾,
-,20320002,世界图腾,
-,20320003,世界图腾,
-,20320004,世界图腾,
-,20320005,世界图腾,
-,20320006,世界图腾,
-,20320007,世界图腾,
-,20320008,世界图腾,
-,20320009,世界图腾,
-,20330000,装备强化,
-,20330001,装备强化,
-,20330002,装备强化,
-,20330003,装备强化,
-,20330004,装备强化,
-,20330005,装备强化,
-,20330006,装备强化,
-,20330007,装备强化,
-,20330008,装备强化,
-,20340001,爬塔,
-,20340002,爬塔,
-,20340003,爬塔,
-,20340004,爬塔,
-,20350001,押镖错误,
-,20350002,押镖错误,
-,20350003,押镖错误,
-,20350004,押镖错误,
-,20350005,押镖,
-,20350006,押镖,
-,20350007,押镖,
-,20350008,押镖,
-,20350009,押镖,
-,20350010,押镖,
-,20350011,押镖,
+,20320000,世界图腾, Quá gần các tượng khác
+,20320001,世界图腾, Địa hình hiện tại không thể đặt tượng
+,20320002,世界图腾, Tượng của {0}
+,20320003,世界图腾," Tượng đã được đặt, vui lòng tiếp tục sạc"
+,20320004,世界图腾, Vui lòng nhận thu nhập khai thác trước
+,20320005,世界图腾, Không thể đặt tượng trong khu vực này
+,20320006,世界图腾, Không thể đặt tượng trong cảnh này
+,20320007,世界图腾, Năng lượng tượng không đủ.
+,20320008,世界图腾, Tượng chưa được kích hoạt.
+,20320009,世界图腾, Không thể đặt giá tăng cường trong vòng {0} phút.
+,20330000,装备强化, Thiếu đá bảo vệ.
+,20330001,装备强化," Đang tăng cường trang bị, vui lòng đợi."
+,20330002,装备强化, Vui lòng chọn mục tiêu thừa kế trước.
+,20330003,装备强化, Không có trang bị để thừa kế.
+,20330004,装备强化, Không có trang bị thừa kế được chọn.
+,20330005,装备强化, Trang bị này không thể thừa kế.
+,20330006,装备强化, Chúc mừng {0} đã tăng cường {1} lên {2}.
+,20330007,装备强化, Kết quả của xổ số sẽ được thông báo sau.
+,20330008,装备强化, Chúc mừng {0} đã tăng cường {1} lên {2}
+,20340001,百层试炼, Số lượt rút còn lại không đủ
+,20340002,百层试炼," Hôm nay không có điểm, không thể rút"
+,20340003,百层试炼, Mất xổ số
+,20340004,百层试炼," Không có bản ghi thách thức, vui lòng bắt đầu ở cấp độ đầu tiên."
+,20350001,护送任务错误, Không đủ lượt hộ tống
+,20350002,护送任务错误, Lỗi hệ thống nhiệm vụ hộ tống slime:
+,20350003,护送任务错误, Nhiều yêu cầu nhiệm vụ
+,20350004,护送任务错误, Chỉ có thủ lĩnh nhóm mới có thể bắt đầu nhiệm vụ
+,20350005,护送任务,{0}[/color] từ chối nhiệm vụ
+,20350006,护送任务, Nhiệm vụ cần hoàn thành trong {0} phút
+,20350007,护送任务, nhiệm vụ thành công
+,20350008,护送任务, Hộ tống slime nhiệm vụ thất bại
+,20350009,护送任务, thành công
+,20350010,护送任务, Không đủ lượt thưởng cướp
+,20350011,护送任务, Bạn có chắc chắn muốn từ bỏ nhiệm vụ hộ tống không?
+,20360001,系统聊天,
