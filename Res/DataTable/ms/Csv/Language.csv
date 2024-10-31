@@ -128,7 +128,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Tali pancing patah
 ,20050004,捕获超时,Masa menangkap habis
 ,20050005,捕获过程道具不足,Kekurangan alat bantu
-,20050006,,
+,20050006,,Jumlah haiwan peliharaan mencapai had atas {0}.
 释放技能正在CD中,20060001,技能,Kemahiran dalam CD
 ,20070001,登录,Sistem
 ,20070002,登录,Sedang log masuk
@@ -288,8 +288,8 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20160015,副本, Tahap tidak sepadan.
 ,20160016,副本,Drop Tambahan
 ,20160017,副本,"Apabila memasuki dungeon, terdapat peluang untuk memicu acara ""Drop Tambahan"":Membunuh monster yang ditentukan, mengumpul item, atau menuai tanaman akan memberikan ganjaran drop tambahan.Terdapat had maksimum global yang tetap untuk jumlah keseluruhan kali acara ini boleh dipicu."
-,20160018,,
-,20160019,副本,
+,20160018,, Kesukaran
+,20160019,副本, Tahap {0}
 ,20170000,合成,Masuk dalam barisan antrian
 ,20170001,合成, Antrian kraf penuh.
 ,20170002,合成, Resipi kraf tidak terbuka.
@@ -357,7 +357,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ",,Pelaburan Berjaya
 ,20240003,,Pengeluaran Berjaya
 ,20240004,,"Mengira, sila tunggu"
-,20240005,图腾,
+,20240005,图腾, {0}/{1} minit
 ,20250000,仓库,Sila perbaharui sewa storan sebelum menyimpan.
 ,20250001,仓库,Sila perbaharui sewa storan sebelum mengeluarkannya.
 ,20250002,,Storan penuh.
@@ -388,37 +388,38 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20300006,声望, Mata tambahan.
 ,20300007,声望, Kemerosotan harian sebanyak {0} mata.
 ,20310000,技能, Tidak boleh melepaskan kemahiran ini untuk senjata semasa.
-,20320000,世界图腾,
-,20320001,世界图腾,
-,20320002,世界图腾,
-,20320003,世界图腾,
-,20320004,世界图腾,
-,20320005,世界图腾,
-,20320006,世界图腾,
-,20320007,世界图腾,
-,20320008,世界图腾,
-,20320009,世界图腾,
-,20330000,装备强化,
-,20330001,装备强化,
-,20330002,装备强化,
-,20330003,装备强化,
-,20330004,装备强化,
-,20330005,装备强化,
-,20330006,装备强化,
-,20330007,装备强化,
-,20330008,装备强化,
-,20340001,爬塔,
-,20340002,爬塔,
-,20340003,爬塔,
-,20340004,爬塔,
-,20350001,押镖错误,
-,20350002,押镖错误,
-,20350003,押镖错误,
-,20350004,押镖错误,
-,20350005,押镖,
-,20350006,押镖,
-,20350007,押镖,
-,20350008,押镖,
-,20350009,押镖,
-,20350010,押镖,
-,20350011,押镖,
+,20320000,世界图腾, Terlalu dekat dengan totem lain
+,20320001,世界图腾, Terain semasa tidak boleh meletakkan totem
+,20320002,世界图腾, Totem {0}
+,20320003,世界图腾," Totem telah diletakkan, sila teruskan untuk mengecas"
+,20320004,世界图腾, Sila tuntut pendapatan perlombongan dahulu
+,20320005,世界图腾, Tidak boleh meletakkan totem di kawasan ini
+,20320006,世界图腾, Tidak boleh meletakkan totem dalam adegan ini
+,20320007,世界图腾, Tenaga totem tidak mencukupi
+,20320008,世界图腾, Totem tidak diaktifkan
+,20320009,世界图腾, Tidak boleh menetapkan harga peningkatan dalam masa {0} minit
+,20330000,装备强化, Batu perlindungan tidak mencukupi
+,20330001,装备强化," Peralatan sedang dipertingkatkan, sila tunggu"
+,20330002,装备强化, Sila pilih sasaran warisan terlebih dahulu
+,20330003,装备强化, Tiada peralatan untuk diwarisi
+,20330004,装备强化, Tiada peralatan yang boleh diwarisi dipilih
+,20330005,装备强化, Peralatan ini tidak boleh diwarisi
+,20330006,装备强化, Tahniah {0} kerana mempertingkatkan {1} kepada {2}
+,20330007,装备强化, Keputusan loteri akan dimaklumkan kepada anda kemudian
+,20330008,装备强化, Tahniah {0} kerana mempertingkatkan {1} kepada {2}
+,20340001,百层试炼, Bilangan sisa tarikan tidak mencukupi
+,20340002,百层试炼," Tiada mata hari ini, tidak boleh menarik"
+,20340003,百层试炼, Kehilangan loteri
+,20340004,百层试炼," Tiada rekod cabaran, sila mula dari tahap pertama"
+,20350001,护送任务错误, Tidak cukup masa pengiringan
+,20350002,护送任务错误, Ralat sistem misi pengiringan slime:
+,20350003,护送任务错误, Permintaan misi berganda
+,20350004,护送任务错误, Hanya pemimpin pasukan boleh memulakan misi
+,20350005,护送任务,{0}[/color] menolak misi
+,20350006,护送任务, Misi perlu diselesaikan dalam masa {0} minit
+,20350007,护送任务, berjaya
+,20350008,护送任务, Misi pengiringan slime gagal
+,20350009,护送任务, berjaya
+,20350010,护送任务, Tidak cukup kali ganjaran pencurian
+,20350011,护送任务, Adakah anda pasti ingin menyerah misi pengiringan?
+,20360001,系统聊天,
