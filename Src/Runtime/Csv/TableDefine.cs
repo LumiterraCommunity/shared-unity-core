@@ -10,9 +10,13 @@ using GameMessageCore;
 public static class TableDefine
 {
     /// <summary>
+    /// 配置值的千分位单位
+    /// </summary>
+    public static readonly int THOUSANDTH = 1000;
+    /// <summary>
     /// 配置中的千分位配置变小数
     /// </summary>
-    public static readonly float THOUSANDTH_2_FLOAT = 1 / 1000f;
+    public static readonly float THOUSANDTH_2_FLOAT = 1 / (float)THOUSANDTH;
     /// <summary>
     /// 配置中的万分位配置变小数
     /// </summary>
