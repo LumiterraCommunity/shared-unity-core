@@ -136,6 +136,7 @@ public enum eGameValueID
     TowerPrizeDrawShareRateMax = 141, // 千分位
     WagonCheckRadius = 136, //镖车检测范围
     WagonCheckEscortRadius = 139, //镖车检测护送范围
+    TowerSaveLevelInterval = 146,
 }
 
 // public static class GameValueID
