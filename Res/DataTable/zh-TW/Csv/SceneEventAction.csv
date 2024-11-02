@@ -37,4 +37,7 @@ desc-string,id-int,parameters_1-int[],parameters_2-int[][],type-int
  玩家的種植熟練度已提升。,36,1,667,2
  玩家的採集統計數據重新計算。,37,1,668,2
  採集物品的統計數據重新計算。,38,5,,3
-,39,8,,3
+"@@[1]All crops growth speed has increased.{0}@@
+
+翻譯為：
+",39,8,,3
