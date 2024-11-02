@@ -1,24 +1,24 @@
 actions-int[],conditionType-int,conditions-int[],desc-string,id-int,name-string,type-int
-1,1,2,怪物防御值增强了,1,Fortress,1
-2,1,2,怪物攻击力增强了,2,Rage,1
-3,1,2,玩家防御值削弱了,3,Curse,1
-4,1,2,玩家攻击力削弱了,4,Weakness,1
-5,1,2,怪物最大血量增加了,5,Blood Sacrifice,1
-6,1,2,怪物防御值削弱了,6,Armor Break,1
-7,1,2,怪物攻击力削弱了,7,Blunting,1
-8,1,2,玩家防御值增强了,8,Guarding,1
-9,1,2,玩家攻击力增强了,9,Inspiring,1
-10,1,2,怪物最大血量减少了,10,Supporting,1
-6,2,"17,18,19,20,21",怪物防御值削弱了,11,Armor Break,2
-7,2,"17,18,19,20,21",怪物攻击力削弱了,12,Blunting,2
-8,2,"17,18,19,20,21",玩家防御值增强了,13,Guarding,2
-9,2,"17,18,19,20,21",玩家攻击力增强了,14,Inspiring,2
-10,2,"17,18,19,20,21",怪物最大血量减少了,15,Supporting,2
-11,1,1,减益,16,Combat Random Event,1
-12,1,3,增益,17,Combat Random Event,1
-13,1,1,减益,18,Gathering Random Event,1
-14,1,3,增益,19,Gathering Random Event,1
-15,1,5,减益,20,Agricultural Random Event,1
-16,1,7,增益,21,Agricultural Random Event,1
-"37,38",1,8,变化,22,Basic Gathering Event,1
-39,2,"5,6",种田副本削减成长时间,23,Accelerated growth,1
+1,1,2,怪物防御值增强了,1,Forteresse,1
+2,1,2,怪物攻击力增强了,2, Rage,1
+3,1,2,玩家防御值削弱了,3, Malédiction,1
+4,1,2,玩家攻击力削弱了,4, Faiblesse,1
+5,1,2,怪物最大血量增加了,5, Sacrifice de sang,1
+6,1,2,怪物防御值削弱了,6, Briser l'armure,1
+7,1,2,怪物攻击力削弱了,7, Émousser,1
+8,1,2,玩家防御值增强了,8, Garder,1
+9,1,2,玩家攻击力增强了,9, Inspirant,1
+10,1,2,怪物最大血量减少了,10, Soutien,1
+6,2,"17,18,19,20,21",怪物防御值削弱了,11, Briser l'armure,2
+7,2,"17,18,19,20,21",怪物攻击力削弱了,12, Émousser,2
+8,2,"17,18,19,20,21",玩家防御值增强了,13, Garder,2
+9,2,"17,18,19,20,21",玩家攻击力增强了,14, Inspirant,2
+10,2,"17,18,19,20,21",怪物最大血量减少了,15, Soutien,2
+11,1,1,减益,16, Événement aléatoire de combat,1
+12,1,3,增益,17, Événement aléatoire de combat,1
+13,1,1,减益,18, Événement aléatoire de collecte,1
+14,1,3,增益,19, Événement aléatoire de collecte,1
+15,1,5,减益,20, Événement aléatoire agricole,1
+16,1,7,增益,21, Événement aléatoire agricole,1
+"37,38",1,8,变化,22, Événement de collecte de base,1
+39,2,"5,6",种田副本削减成长时间,23, Croissance accélérée,1

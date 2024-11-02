@@ -37,4 +37,6 @@ desc-string,id-int,parameters_1-int[],parameters_2-int[][],type-int
 プレイヤーの植栽熟練度が向上しました。,36,1,667,2
 プレイヤーの収集ステータスの再計算。,37,1,668,2
 収集アイテムのステータスの再計算。,38,5,,3
-,39,8,,3
+"@@[1]All crops growth speed has increased.{0}@@
+
+すべての作物の成長速度が上昇しました。",39,8,,3

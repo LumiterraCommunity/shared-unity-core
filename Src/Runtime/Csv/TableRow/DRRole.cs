@@ -24,15 +24,6 @@ public class DRRole : DataRowBase
     public override int Id => _id;
 
     /// <summary>
-  /**获取RoleActionSkill-int[]。*/
-    /// </summary>
-    public int[] RoleActionSkill
-    {
-        get;
-        private set;
-    }
-
-    /// <summary>
   /**获取bodyCapacity-int。*/
     /// </summary>
     public int BodyCapacity
@@ -69,6 +60,15 @@ public class DRRole : DataRowBase
     }
 
     /// <summary>
+  /**获取initialSkill-int[]。*/
+    /// </summary>
+    public int[] InitialSkill
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取jumpRollSkill-int。*/
     /// </summary>
     public int JumpRollSkill
@@ -99,6 +99,15 @@ public class DRRole : DataRowBase
   /**获取rescueSkill-int。*/
     /// </summary>
     public int RescueSkill
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取roleActionSkill-int[]。*/
+    /// </summary>
+    public int[] RoleActionSkill
     {
         get;
         private set;
@@ -163,16 +172,17 @@ public class DRRole : DataRowBase
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
 
         int index = 0;
-        RoleActionSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BodyCapacity = DataTableParseUtil.ParseInt(columnStrings[index++]);
         GrasslandRunSound = DataTableParseUtil.ParseString(columnStrings[index++]);
         HarvestSkill = DataTableParseUtil.ParseInt(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         InitialAttribute = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        InitialSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         JumpRollSkill = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PickUpSound = DataTableParseUtil.ParseString(columnStrings[index++]);
         RandomAnim = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
         RescueSkill = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        RoleActionSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleDefaultAvatar = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         RoleDefaultSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -190,16 +200,17 @@ public class DRRole : DataRowBase
         {
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
-                RoleActionSkill = binaryReader.ReadArray<Int32>();
                 BodyCapacity = binaryReader.Read7BitEncodedInt32();
                 GrasslandRunSound = binaryReader.ReadString();
                 HarvestSkill = binaryReader.Read7BitEncodedInt32();
                 _id = binaryReader.Read7BitEncodedInt32();
                 InitialAttribute = binaryReader.ReadArrayList<Int32>();
+                InitialSkill = binaryReader.ReadArray<Int32>();
                 JumpRollSkill = binaryReader.Read7BitEncodedInt32();
                 PickUpSound = binaryReader.ReadString();
                 RandomAnim = binaryReader.ReadArray<String>();
                 RescueSkill = binaryReader.Read7BitEncodedInt32();
+                RoleActionSkill = binaryReader.ReadArray<Int32>();
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();
                 RoleDefaultAvatar = binaryReader.ReadArray<Int32>();
                 RoleDefaultSkill = binaryReader.ReadArray<Int32>();
