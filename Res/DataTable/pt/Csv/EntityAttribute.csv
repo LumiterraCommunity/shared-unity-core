@@ -1,77 +1,77 @@
 defaultValue-int,desc-string,id-int,isCore-boolean,name-string,talentType-int,type-int,valueType-int,icon-string
-0,CollectionLv,1,0,CollectionLv,3,1,1,
-0,CombatLv,2,0,CombatLv,2,1,1,
-0,FarmingLv,3,0,FarmingLv,1,1,1,
-10,CollectionExp,4,0,CollectionExp,3,1,1,
-10,CombatExp,5,0,CombatExp,2,1,1,
-10,FarmingExp,6,0,FarmingExp,1,1,1,
-500,MoveSpd,7,0,MoveSpd,2,1,1,
-0,HomeExtraMoveSpd,8,0,HomeExtraMoveSpd,1,1,1,
-0,GearAvailableLv,9,0,GearAvailableLv,0,1,1,
-750,HP,10,1,HP,2,2,1,attribute-icon-10
-750,MaxHP,11,1,MaxHP,2,2,1,attribute-icon-11
-10,HpRecovery,12,0,HpRecovery,2,2,1,
-200,CombatAtt,13,1,CombatAtt,2,2,1,attribute-icon-13
-0,CombatAttSpd,14,0,CombatAttSpd,2,2,2,
-150,CombatDef,15,1,CombatDef,2,2,1,attribute-icon-15
-100,CombatHit,16,0,CombatHit,2,2,1,
-100,CombatDodge,17,0,CombatDodge,2,2,1,
-0,CombatVulnerable,18,0,CombatVulnerable,2,2,2,
-30,CombatCritRate,19,0,CombatCritRate,2,2,2,
-500,CombatCritDmg,20,0,CombatCritDmg,2,2,2,
-0,CombatDmgBonus,21,0,CombatDmgBonus,2,2,2,
-200,TreeAtt,22,1,TreeAtt,3,3,1,attribute-icon-22
-0,AxeSpd,23,0,AxeSpd,3,3,2,
-30,TreeCritRate,24,0,TreeCritRate,3,3,2,
-500,TreeCritDmg,25,0,TreeCritDmg,3,3,2,
-0,TreeDmgBonus,26,0,TreeDmgBonus,3,3,2,
-0,ExtraWoodRate,27,0,ExtraWoodRate,3,3,2,
-1,TreeAvailableLv,28,0,TreeAvailableLv,3,3,1,
-200,OreAtt,29,1,OreAtt,3,4,1,attribute-icon-29
-0,PickaxeSpd,30,0,PickaxeSpd,3,4,2,
-30,OreCritRate,31,0,OreCritRate,3,4,2,
-500,OreCritDmg,32,0,OreCritDmg,3,4,2,
-0,OreDmgBonus,33,0,OreDmgBonus,3,4,2,
-0,ExtraOreRate,34,0,ExtraOreRate,3,4,2,
-1,OreAvailableLv,35,0,OreAvailableLv,3,4,1,
-30,HoeingEffect,36,0,HoeingEffect,1,5,1,
-0,HoeSpd,37,0,HoeSpd,1,5,2,
-30,WateringEffect,38,0,WateringEffect,1,6,1,
-0,ExtraWateringRate,39,0,ExtraWateringRate,1,6,2,
-0,ExtraHarvestRate,40,0,ExtraHarvestRate,1,7,2,
-0,HarvestSeedRate,41,0,HarvestSeedRate,1,7,2,
-1,CropAvailableLv,42,0,CropAvailableLv,1,7,1,
-90,FertilityCapacity,43,1,FertilityCapacity,1,1,1,attribute-icon-43
-4000,MaxFertility,44,1,MaxFertility,1,1,1,attribute-icon-44
-90,PetHappinessCapacity,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
-1000,MaxPetHappiness,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
-270,PlantingProficiency,49,1,PlantingProficiency,1,1,1,attribute-icon-49
-270,BreedingProficiency,50,1,BreedingProficiency,1,1,1,attribute-icon-50
-200,GrassAtt,51,1,GrassAtt,3,1,1,attribute-icon-51
-0,SickleSpd,52,0,SickleSpd,3,1,2,
-50,GrassCritRate,53,0,GrassCritRate,3,1,2,
-200,GrassProficiency,54,1,GrassProficiency,3,1,1,attribute-icon-54
-200,TreeProficiency,55,1,TreeProficiency,3,1,1,attribute-icon-55
-200,OreProficiency,56,1,OreProficiency,3,1,1,attribute-icon-56
-500,GrassCritDmg,58,0,GrassCritDmg,3,1,2,
-0,GrassDmgBonus,59,0,GrassDmgBonus,3,1,2,
-150,GrassDef,60,0,GrassDef,3,1,1,
-150,TreeDef,61,0,TreeDef,3,1,1,
-150,OreDef,62,0,OreDef,3,1,1,
-300,RequiredProficiency,63,0,RequiredProficiency,3,1,1,
-0,Energy,64,1,Energy,2,1,3,attribute-icon-64
-150000,MaxEnergy,65,1,MaxEnergy,2,1,3,attribute-icon-65
-0,CombatPotentiality,66,0,CombatPotentiality,2,1,3,
-0,GatherPotentiality,67,0,GatherPotentiality,3,1,3,
-0,FarmPotentiality,68,0,FarmPotentiality,1,1,3,
-0,ExtraGrassRate,69,0,ExtraGrassRate,3,1,2,
-0,NeedWaterValue,71,0,NeedWaterValue,1,1,1,
-0,RequiredFertilizer,72,0,RequiredFertilizer,1,1,1,
-0,RequirementProficiency,73,0,RequirementProficiency,1,1,1,
-0,PlantingDifficulty,74,0,PlantingDifficulty,1,1,1,
-0,WitherTime,75,0,WitherTime,1,1,1,
-0,MaxActionValue,76,0,MaxActionValue,3,1,1,
-0,RequiredBreedingProficiency,77,0,RequiredBreedingProficiency,1,1,1,
-0,WhiteHP,80,0,WhiteHP,2,2,1,
-0,MaxWhiteHP,81,0,MaxWhiteHP,2,2,1,
-0,ExtThousLv,85,0,ExtThousLv,0,,3,
+0,Nível de Coleção ,1,0,CollectionLv,3,1,1,
+0, Nível de Combate ,2,0,CombatLv,2,1,1,
+0, Nível de Agricultura ,3,0,FarmingLv,1,1,1,
+10, Experiência de Coleção ,4,0,CollectionExp,3,1,1,
+10, Experiência de Combate ,5,0,CombatExp,2,1,1,
+10, Experiência de Agricultura ,6,0,FarmingExp,1,1,1,
+500, Velocidade de Movimento ,7,0,MoveSpd,2,1,1,
+0, Velocidade Extra em Casa ,8,0,HomeExtraMoveSpd,1,1,1,
+0, Nível de Equipamento Disponível ,9,0,GearAvailableLv,0,1,1,
+750, Pontos de Vida ,10,1,HP,2,2,1,attribute-icon-10
+750, Máximo de Pontos de Vida ,11,1,MaxHP,2,2,1,attribute-icon-11
+10, Recuperação de Pontos de Vida ,12,0,HpRecovery,2,2,1,
+200, Ataque de Combate ,13,1,CombatAtt,2,2,1,attribute-icon-13
+0, Velocidade de Ataque de Combate ,14,0,CombatAttSpd,2,2,2,
+150, Defesa de Combate ,15,1,CombatDef,2,2,1,attribute-icon-15
+100, Precisão de Combate ,16,0,CombatHit,2,2,1,
+100, Esquiva de Combate ,17,0,CombatDodge,2,2,1,
+0, Vulnerabilidade de Combate ,18,0,CombatVulnerable,2,2,2,
+30, Taxa de Crítico de Combate ,19,0,CombatCritRate,2,2,2,
+500, Dano Crítico de Combate ,20,0,CombatCritDmg,2,2,2,
+0, Bônus de Dano de Combate ,21,0,CombatDmgBonus,2,2,2,
+200, Ataque de Árvore ,22,1,TreeAtt,3,3,1,attribute-icon-22
+0, Velocidade de Machado ,23,0,AxeSpd,3,3,2,
+30, Taxa de Crítico de Árvore ,24,0,TreeCritRate,3,3,2,
+500, Dano Crítico de Árvore ,25,0,TreeCritDmg,3,3,2,
+0, Bônus de Dano de Árvore ,26,0,TreeDmgBonus,3,3,2,
+0, Taxa Extra de Madeira ,27,0,ExtraWoodRate,3,3,2,
+1, Nível de Árvore Disponível ,28,0,TreeAvailableLv,3,3,1,
+200, Ataque de Minério ,29,1,OreAtt,3,4,1,attribute-icon-29
+0, Velocidade de Picareta ,30,0,PickaxeSpd,3,4,2,
+30, Taxa de Crítico de Minério ,31,0,OreCritRate,3,4,2,
+500, Dano Crítico de Minério ,32,0,OreCritDmg,3,4,2,
+0, Bônus de Dano de Minério ,33,0,OreDmgBonus,3,4,2,
+0, Taxa Extra de Minério ,34,0,ExtraOreRate,3,4,2,
+1, Nível de Minério Disponível ,35,0,OreAvailableLv,3,4,1,
+30, Efeito de Enxada ,36,0,HoeingEffect,1,5,1,
+0, Velocidade de Enxada ,37,0,HoeSpd,1,5,2,
+30, Efeito de Rega ,38,0,WateringEffect,1,6,1,
+0, Taxa Extra de Rega ,39,0,ExtraWateringRate,1,6,2,
+0, Taxa Extra de Colheita ,40,0,ExtraHarvestRate,1,7,2,
+0, Taxa de Semente de Colheita ,41,0,HarvestSeedRate,1,7,2,
+1, Nível Disponível de Cultivo ,42,0,CropAvailableLv,1,7,1,
+90, Capacidade de Fertilidade ,43,1,FertilityCapacity,1,1,1,attribute-icon-43
+4000, Máxima Fertilidade ,44,1,MaxFertility,1,1,1,attribute-icon-44
+90, Capacidade de Felicidade do Animal de Estimação ,46,1,PetHappinessCapacity,1,1,1,attribute-icon-46
+1000, Máxima Felicidade do Animal de Estimação ,47,1,MaxPetHappiness,1,1,1,attribute-icon-47
+270, Proficiência em Plantio ,49,1,PlantingProficiency,1,1,1,attribute-icon-49
+270, Proficiência em Reprodução ,50,1,BreedingProficiency,1,1,1,attribute-icon-50
+200, Ataque de Grama ,51,1,GrassAtt,3,1,1,attribute-icon-51
+0, Velocidade da Foice,52,0,SickleSpd,3,1,2,
+50,Taxa de Crítica da Grama,53,0,GrassCritRate,3,1,2,
+200, Proficiência em Grama,54,1,GrassProficiency,3,1,1,attribute-icon-54
+200, Proficiência em Árvore,55,1,TreeProficiency,3,1,1,attribute-icon-55
+200, Proficiência em Minério,56,1,OreProficiency,3,1,1,attribute-icon-56
+500, Dano Crítico da Grama,58,0,GrassCritDmg,3,1,2,
+0, Bônus de Dano da Grama,59,0,GrassDmgBonus,3,1,2,
+150, Defesa da Grama,60,0,GrassDef,3,1,1,
+150, Defesa da Árvore,61,0,TreeDef,3,1,1,
+150, Defesa do Minério,62,0,OreDef,3,1,1,
+300, Proficiência Necessária,63,0,RequiredProficiency,3,1,1,
+0, Energia,64,1,Energy,2,1,3,attribute-icon-64
+150000, Máxima Energia,65,1,MaxEnergy,2,1,3,attribute-icon-65
+0, Potencial de Combate,66,0,CombatPotentiality,2,1,3,
+0, Potencial de Coleta,67,0,GatherPotentiality,3,1,3,
+0, Potencial de Agricultura,68,0,FarmPotentiality,1,1,3,
+0, Taxa Extra de Grama,69,0,ExtraGrassRate,3,1,2,
+0, Valor de Necessidade de Água,71,0,NeedWaterValue,1,1,1,
+0, Fertilizante Necessário,72,0,RequiredFertilizer,1,1,1,
+0, Proficiência Requerida,73,0,RequirementProficiency,1,1,1,
+0, Dificuldade de Plantio,74,0,PlantingDifficulty,1,1,1,
+0, Tempo de Murcha,75,0,WitherTime,1,1,1,
+0, Valor Máximo de Ação,76,0,MaxActionValue,3,1,1,
+0, Proficiência de Reprodução Necessária,77,0,RequiredBreedingProficiency,1,1,1,
+0, HP Branco,80,0,WhiteHP,2,2,1,
+0, Máximo de HP Branco,81,0,MaxWhiteHP,2,2,1,
+0, Nível de Milhar Extremo,85,0,ExtThousLv,0,,3,

@@ -87,6 +87,15 @@ public class DREscortWagon : DataRowBase
     }
 
     /// <summary>
+  /**获取maxAvailableWagon-int。*/
+    /// </summary>
+    public int MaxAvailableWagon
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取maxExistenceTime-int。*/
     /// </summary>
     public int MaxExistenceTime
@@ -162,6 +171,7 @@ public class DREscortWagon : DataRowBase
         Lv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         LvLimit = DataTableParseUtil.ParseInt(columnStrings[index++]);
         MaxAccept = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        MaxAvailableWagon = DataTableParseUtil.ParseInt(columnStrings[index++]);
         MaxExistenceTime = DataTableParseUtil.ParseInt(columnStrings[index++]);
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -188,6 +198,7 @@ public class DREscortWagon : DataRowBase
                 Lv = binaryReader.Read7BitEncodedInt32();
                 LvLimit = binaryReader.Read7BitEncodedInt32();
                 MaxAccept = binaryReader.Read7BitEncodedInt32();
+                MaxAvailableWagon = binaryReader.Read7BitEncodedInt32();
                 MaxExistenceTime = binaryReader.Read7BitEncodedInt32();
                 Name = binaryReader.ReadString();
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
