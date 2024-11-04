@@ -1,494 +1,494 @@
 id-int,name-string,pageIds-int[]
-1,Item Resource,
-2,Item Resource,
-3,Item Resource,
-4,Killing Monster,7
-5,Killing Monster,8
-6,Killing Monster,9
-7,Killing Monster,10
-8,Killing Monster,11
-9,Killing Monster,12
-10,Killing Monster,13
-11,Killing Monster,14
-12,Killing Monster,16
-13,Killing Monster,17
-14,Killing Monster,18
-15,Killing Monster,19
-16,Killing Monster,20
-17,Killing Monster,21
-18,Killing Monster,22
-19,Killing Monster,23
-20,Killing Monster,24
-21,Killing Monster,25
-22,Killing Monster,26
-23,Killing Monster,27
-24,Killing Monster,28
-25,Killing Monster,29
-26,Killing Monster,30
-27,Killing Monster,31
-28,Killing Monster,32
-29,Killing Monster,33
-30,Killing Monster,34
-31,Gather,"35,36"
-32,Dungeon Challenge,411
-33,Gather,"37,38"
-34,Dungeon Challenge,412
-35,Gather,"39,40"
-36,Dungeon Challenge,413
-37,Gather,"41,42"
-38,Dungeon Challenge,414
-39,Gather,"43,44"
-40,Dungeon Challenge,415
-41,Gather,"45,46"
-42,Dungeon Challenge,416
-43,Gather,"47,48"
-44,Dungeon Challenge,427
-45,Gather,"49,50"
-46,Dungeon Challenge,428
-47,Gather,"51,52"
-48,Dungeon Challenge,429
-49,Gather,"53,54,55"
-50,Dismantling Farming Equipment,430
-51,Gather,"56,57"
-52,Dismantling Combat Equipment,431
-53,Gather,"58,59"
-54,Dismantling Gather Equipment,432
-55,Gather,"60,61"
-56,Crafting,433
-57,Gather,"62,63"
-58,Crafting,434
-59,Gather,"64,65"
-60,Crafting,435
-61,Gather,"66,67"
-62,Crafting,436
-63,Gather,"68,69"
-64,Crafting,437
-65,Gather,"70,71"
-66,Crafting,438
-67,Item Resource,72
-68,Crafting,439
-69,Gather,"73,74,72"
-70,Crafting,440
-71,Gather,"75,76"
-72,Crafting,441
-73,Gather,"77,78"
-74,Crafting,442
-75,Gather,"79,80"
-76,Crafting,443
-77,Gather,"81,82"
-78,Crafting,444
-79,Gather,"83,84"
-80,Crafting,445
-81,Gather,"85,86"
-82,Crafting,446
-83,Gather,"87,88"
-84,Crafting,447
-85,Gather,"89,90"
-86,Crafting,448
-87,Planting,384
-88,Planting,385
-89,Planting,386
-90,Planting,387
-91,Planting,388
-92,Planting,389
-93,Planting,390
-94,Planting,391
-95,Planting,392
-96,Planting,393
-97,Planting,394
-98,Planting,395
-99,Planting,396
-100,Planting,397
-101,Planting,398
-102,Planting,399
-103,Planting,400
-104,Planting,401
-105,Planting,402
-106,Planting,403
-107,Planting,404
-108,Planting,405
-109,Planting,406
-110,Planting,407
-111,Planting,408
-112,Planting,409
-113,Planting,410
-114,Livestock,356
-115,Livestock,357
-116,Livestock,358
-117,Livestock,359
-118,Livestock,360
-119,Livestock,361
-120,Livestock,362
-121,Livestock,363
-122,Livestock,365
-123,Livestock,366
-124,Livestock,367
-125,Livestock,368
-126,Livestock,369
-127,Livestock,370
-128,Livestock,371
-129,Livestock,372
-130,Livestock,373
-131,Livestock,374
-132,Livestock,375
-133,Livestock,376
-134,Livestock,377
-135,Livestock,378
-136,Livestock,379
-137,Livestock,380
-138,Livestock,381
-139,Livestock,382
-140,Livestock,383
-141,Crafting,91
-142,Crafting,92
-143,Crafting,93
-144,Crafting,94
-145,Crafting,95
-146,Crafting,96
-147,Crafting,97
-148,Crafting,98
-149,Crafting,99
-150,Crafting,100
-151,Crafting,101
-152,Crafting,102
-153,Crafting,103
-154,Crafting,104
-155,Crafting,105
-156,Crafting,106
-157,Crafting,107
-158,Crafting,108
-159,Crafting,109
-160,Crafting,110
-161,Crafting,111
-162,Crafting,112
-163,Crafting,113
-164,Crafting,114
-165,Crafting,115
-166,Crafting,116
-167,Crafting,117
-168,Crafting,118
-169,Crafting,119
-170,Crafting,120
-171,Crafting,121
-172,Crafting,122
-173,Crafting,123
-174,Crafting,124
-175,Crafting,125
-176,Crafting,126
-177,Crafting,127
-178,Crafting,128
-179,Crafting,129
-180,Crafting,130
-181,Crafting,131
-182,Crafting,132
-183,Crafting,133
-184,Crafting,134
-185,Crafting,135
-186,Crafting,136
-187,Crafting,137
-188,Crafting,138
-189,Crafting,139
-190,Crafting,140
-191,Crafting,141
-192,Crafting,142
-193,Crafting,143
-194,Crafting,144
-195,Crafting,145
-196,Crafting,146
-197,Crafting,147
-198,Crafting,148
-199,Crafting,149
-200,Crafting,150
-201,Crafting,151
-202,Crafting,152
-203,Crafting,153
-204,Crafting,154
-205,Crafting,155
-206,Crafting,156
-207,Crafting,157
-208,Crafting,158
-209,Crafting,159
-210,Crafting,160
-211,Crafting,161
-212,Crafting,162
-213,Crafting,163
-214,Crafting,164
-215,Crafting,165
-216,Crafting,166
-217,Crafting,167
-218,Crafting,168
-219,Crafting,169
-220,Crafting,170
-221,Crafting,171
-222,Crafting,172
-223,Crafting,173
-224,Crafting,174
-225,Crafting,175
-226,Crafting,176
-227,Crafting,177
-228,Crafting,178
-229,Crafting,179
-230,Crafting,180
-231,Crafting,181
-232,Crafting,182
-233,Crafting,183
-234,Crafting,184
-235,Crafting,185
-236,Crafting,186
-237,Crafting,187
-238,Crafting,188
-239,Crafting,189
-240,Crafting,190
-241,Crafting,191
-242,Crafting,192
-243,Crafting,193
-244,Crafting,194
-245,Crafting,195
-246,Crafting,196
-247,Crafting,197
-248,Crafting,198
-249,Crafting,199
-250,Crafting,200
-251,Crafting,201
-252,Crafting,202
-253,Crafting,203
-254,Crafting,204
-255,Crafting,205
-256,Crafting,206
-257,Crafting,207
-258,Crafting,208
-259,Crafting,209
-260,Crafting,210
-261,Crafting,211
-262,Crafting,212
-263,Crafting,213
-264,Crafting,214
-265,Crafting,215
-266,Crafting,216
-267,Crafting,217
-268,Crafting,218
-269,Crafting,219
-270,Crafting,220
-271,Crafting,221
-272,Crafting,222
-273,Crafting,223
-274,Crafting,224
-275,Crafting,225
-276,Crafting,226
-277,Crafting,227
-278,Crafting,228
-279,Crafting,229
-280,Crafting,230
-281,Crafting,231
-282,Crafting,232
-283,Crafting,233
-284,Crafting,234
-285,Crafting,235
-286,Crafting,236
-287,Crafting,237
-288,Crafting,238
-289,Crafting,239
-290,Crafting,240
-291,Crafting,241
-292,Crafting,242
-293,Crafting,243
-294,Crafting,244
-295,Crafting,245
-296,Crafting,246
-297,Crafting,247
-298,Crafting,248
-299,Crafting,249
-300,Crafting,250
-301,Crafting,251
-302,Crafting,252
-303,Crafting,253
-304,Crafting,254
-305,Crafting,255
-306,Crafting,256
-307,Crafting,257
-308,Crafting,258
-309,Crafting,259
-310,Crafting,260
-311,Crafting,261
-312,Crafting,262
-313,Crafting,263
-314,Crafting,264
-315,Crafting,265
-316,Crafting,266
-317,Crafting,267
-318,Crafting,268
-319,Crafting,269
-320,Crafting,270
-321,Crafting,271
-322,Crafting,272
-323,Crafting,273
-324,Crafting,274
-325,Crafting,275
-326,Crafting,276
-327,Crafting,277
-328,Crafting,278
-329,Crafting,280
-330,Crafting,281
-331,Crafting,282
-332,Crafting,283
-333,Crafting,284
-334,Crafting,285
-335,Crafting,286
-336,Crafting,287
-337,Crafting,288
-338,Crafting,289
-339,Crafting,290
-340,Crafting,291
-341,Crafting,292
-342,Crafting,293
-343,Crafting,294
-344,Crafting,295
-345,Crafting,296
-346,Crafting,297
-347,Crafting,298
-348,Crafting,299
-349,Crafting,300
-350,Crafting,301
-351,Crafting,302
-352,Crafting,303
-353,Crafting,304
-354,Crafting,305
-355,Crafting,306
-356,Crafting,307
-357,Crafting,308
-358,Crafting,309
-359,Crafting,310
-360,Crafting,311
-361,Crafting,312
-362,Crafting,313
-363,Crafting,314
-364,Crafting,315
-365,Crafting,316
-366,Crafting,317
-367,Crafting,318
-368,Crafting,319
-369,Crafting,320
-370,Crafting,321
-371,Crafting,322
-372,Crafting,323
-373,Crafting,324
-374,Crafting,325
-375,Crafting,326
-376,Crafting,327
-377,Crafting,328
-378,Crafting,329
-379,Crafting,330
-380,Crafting,331
-381,Crafting,332
-382,Crafting,333
-383,Crafting,334
-384,Crafting,335
-385,Crafting,336
-386,Crafting,337
-387,Crafting,338
-388,Crafting,339
-389,Crafting,340
-390,Crafting,341
-391,Crafting,342
-392,Crafting,343
-393,Crafting,344
-394,Crafting,345
-395,Crafting,346
-396,Crafting,347
-397,Crafting,348
-398,Crafting,349
-399,Crafting,350
-400,Crafting,351
-401,Crafting,352
-402,Crafting,353
-403,Crafting,354
-404,Farming Ranking,417
-405,Farming Ranking,418
-406,Farming Ranking,419
-407,Combat Ranking,420
-408,Combat Ranking,421
-409,Combat Ranking,422
-410,Gather Ranking,423
-411,Gather Ranking,424
-412,Gather Ranking,425
-413,Daily Task,426
-414,Crafting,449
-415,Crafting,450
-416,Crafting,"451,460,469,478"
-417,Crafting,"452,461,470,479"
-418,Crafting,"453,462,471,480"
-419,Crafting,"454,463,472,481"
-420,Crafting,"455,464,473,482"
-421,Crafting,"456,465,474,483"
-422,Crafting,"457,466,475,484"
-423,Crafting,"458,467,476,485"
-424,Crafting,"459,468,477,486"
-425,Crafting,487
-426,Crafting,488
-427,Crafting,489
-428,Crafting,490
-429,Crafting,491
-430,Crafting,492
-431,Crafting,493
-432,Crafting,494
-433,Crafting,495
-434,Crafting,496
-435,Crafting,497
-436,Crafting,498
-437,Crafting,499
-438,Crafting,500
-439,Crafting,501
-440,Crafting,502
-441,Crafting,503
-442,Crafting,504
-443,Capture,505
-444,Capture,506
-445,Capture,507
-446,Capture,508
-447,Capture,509
-448,Capture,510
-449,Capture,511
-450,Capture,512
-451,Capture,513
-452,Capture,514
-453,Capture,515
-454,Capture,516
-455,Capture,517
-456,Capture,518
-457,Capture,519
-458,Capture,520
-459,Capture,521
-460,Capture,522
-461,Capture,523
-462,Capture,524
-463,Capture,525
-464,Capture,526
-465,Capture,527
-466,Capture,528
-467,Capture,529
-468,Capture,530
-469,Capture,531
-470,PvEP Dungeon Challenge,532
-471,PvEP Dungeon Challenge,533
-472,PvEP Dungeon Challenge,534
-473,Crafting,"535,536,537,538,539,540,541,542,543"
-474,Crafting,"544,545,546"
-475,Killing World Boss,
-476,Killing World Boss,
+1,Tài nguyên dự án,
+2,Tài nguyên dự án,
+3,Tài nguyên dự án,
+4,Giết quái vật,7
+5,Giết quái vật,8
+6,Giết quái vật,9
+7,Giết quái vật,10
+8,Giết quái vật,11
+9,Giết quái vật,12
+10,Giết quái vật,13
+11,Giết quái vật,14
+12,Giết quái vật,16
+13,Giết quái vật,17
+14,Giết quái vật,18
+15,Giết quái vật,19
+16,Giết quái vật,20
+17,Giết quái vật,21
+18,Giết quái vật,22
+19,Giết quái vật,23
+20,Giết quái vật,24
+21,Giết quái vật,25
+22,Giết quái vật,26
+23,Giết quái vật,27
+24,Giết quái vật,28
+25,Giết quái vật,29
+26,Giết quái vật,30
+27,Giết quái vật,31
+28,Giết quái vật,32
+29,Giết quái vật,33
+30,Giết quái vật,34
+31,Tập hợp,"35,36"
+32,Dungeon thách thức,411
+33,Tập hợp,"37,38"
+34,Dungeon thách thức,412
+35,Tập hợp,"39,40"
+36,Dungeon thách thức,413
+37,Tập hợp,"41,42"
+38,Dungeon thách thức,414
+39,Tập hợp,"43,44"
+40,Dungeon thách thức,415
+41,Tập hợp,"45,46"
+42,Dungeon thách thức,416
+43,Tập hợp,"47,48"
+44,Dungeon thách thức,427
+45,Tập hợp,"49,50"
+46,Dungeon thách thức,428
+47,Tập hợp,"51,52"
+48,Dungeon thách thức,429
+49,Tập hợp,"53,54,55"
+50,Loại bỏ thiết bị nông nghiệp,430
+51,Tập hợp,"56,57"
+52,Loại bỏ thiết bị chiến đấu,431
+53,Tập hợp,"58,59"
+54,Tháo dỡ thiết bị thu thập,432
+55,Tập hợp,"60,61"
+56,Làm bằng tay,433
+57,Tập hợp,"62,63"
+58,Làm bằng tay,434
+59,Tập hợp,"64,65"
+60,Làm bằng tay,435
+61,Tập hợp,"66,67"
+62,Làm bằng tay,436
+63,Tập hợp,"68,69"
+64,Làm bằng tay,437
+65,Tập hợp,"70,71"
+66,Làm bằng tay,438
+67,Tài nguyên dự án,72
+68,Làm bằng tay,439
+69,Tập hợp,"73,74,72"
+70,Làm bằng tay,440
+71,Tập hợp,"75,76"
+72,Làm bằng tay,441
+73,Tập hợp,"77,78"
+74,Làm bằng tay,442
+75,Tập hợp,"79,80"
+76,Làm bằng tay,443
+77,Tập hợp,"81,82"
+78,Làm bằng tay,444
+79,Tập hợp,"83,84"
+80,Làm bằng tay,445
+81,Tập hợp,"85,86"
+82,Làm bằng tay,446
+83,Tập hợp,"87,88"
+84,Làm bằng tay,447
+85,Tập hợp,"89,90"
+86,Làm bằng tay,448
+87,Trồng trọt,384
+88,Trồng trọt,385
+89,Trồng trọt,386
+90,Trồng trọt,387
+91,Trồng trọt,388
+92,Trồng trọt,389
+93,Trồng trọt,390
+94,Trồng trọt,391
+95,Trồng trọt,392
+96,Trồng trọt,393
+97,Trồng trọt,394
+98,Trồng trọt,395
+99,Trồng trọt,396
+100,Trồng trọt,397
+101,Trồng trọt,398
+102,Trồng trọt,399
+103,Trồng trọt,400
+104,Trồng trọt,401
+105,Trồng trọt,402
+106,Trồng trọt,403
+107,Trồng trọt,404
+108,Trồng trọt,405
+109,Trồng trọt,406
+110,Trồng trọt,407
+111,Trồng trọt,408
+112,Trồng trọt,409
+113,Trồng trọt,410
+114,Gia súc,356
+115,Gia súc,357
+116,Gia súc,358
+117,Gia súc,359
+118,Gia súc,360
+119,Gia súc,361
+120,Gia súc,362
+121,Gia súc,363
+122,Gia súc,365
+123,Gia súc,366
+124,Gia súc,367
+125,Gia súc,368
+126,Gia súc,369
+127,Gia súc,370
+128,Gia súc,371
+129,Gia súc,372
+130,Gia súc,373
+131,Gia súc,374
+132,Gia súc,375
+133,Gia súc,376
+134,Gia súc,377
+135,Gia súc,378
+136,Gia súc,379
+137,Gia súc,380
+138,Gia súc,381
+139,Gia súc,382
+140,Gia súc,383
+141,Làm bằng tay,91
+142,Làm bằng tay,92
+143,Làm bằng tay,93
+144,Làm bằng tay,94
+145,Làm bằng tay,95
+146,Làm bằng tay,96
+147,Làm bằng tay,97
+148,Làm bằng tay,98
+149,Làm bằng tay,99
+150,Làm bằng tay,100
+151,Làm bằng tay,101
+152,Làm bằng tay,102
+153,Làm bằng tay,103
+154,Làm bằng tay,104
+155,Làm bằng tay,105
+156,Làm bằng tay,106
+157,Làm bằng tay,107
+158,Làm bằng tay,108
+159,Làm bằng tay,109
+160,Làm bằng tay,110
+161,Làm bằng tay,111
+162,Làm bằng tay,112
+163,Làm bằng tay,113
+164,Làm bằng tay,114
+165,Làm bằng tay,115
+166,Làm bằng tay,116
+167,Làm bằng tay,117
+168,Làm bằng tay,118
+169,Làm bằng tay,119
+170,Làm bằng tay,120
+171,Làm bằng tay,121
+172,Làm bằng tay,122
+173,Làm bằng tay,123
+174,Làm bằng tay,124
+175,Làm bằng tay,125
+176,Làm bằng tay,126
+177,Làm bằng tay,127
+178,Làm bằng tay,128
+179,Làm bằng tay,129
+180,Làm bằng tay,130
+181,Làm bằng tay,131
+182,Làm bằng tay,132
+183,Làm bằng tay,133
+184,Làm bằng tay,134
+185,Làm bằng tay,135
+186,Làm bằng tay,136
+187,Làm bằng tay,137
+188,Làm bằng tay,138
+189,Làm bằng tay,139
+190,Làm bằng tay,140
+191,Làm bằng tay,141
+192,Làm bằng tay,142
+193,Làm bằng tay,143
+194,Làm bằng tay,144
+195,Làm bằng tay,145
+196,Làm bằng tay,146
+197,Làm bằng tay,147
+198,Làm bằng tay,148
+199,Làm bằng tay,149
+200,Làm bằng tay,150
+201,Làm bằng tay,151
+202,Làm bằng tay,152
+203,Làm bằng tay,153
+204,Làm bằng tay,154
+205,Làm bằng tay,155
+206,Làm bằng tay,156
+207,Làm bằng tay,157
+208,Làm bằng tay,158
+209,Làm bằng tay,159
+210,Làm bằng tay,160
+211,Làm bằng tay,161
+212,Làm bằng tay,162
+213,Làm bằng tay,163
+214,Làm bằng tay,164
+215,Làm bằng tay,165
+216,Làm bằng tay,166
+217,Làm bằng tay,167
+218,Làm bằng tay,168
+219,Làm bằng tay,169
+220,Làm bằng tay,170
+221,Làm bằng tay,171
+222,Làm bằng tay,172
+223,Làm bằng tay,173
+224,Làm bằng tay,174
+225,Làm bằng tay,175
+226,Làm bằng tay,176
+227,Làm bằng tay,177
+228,Làm bằng tay,178
+229,Làm bằng tay,179
+230,Làm bằng tay,180
+231,Làm bằng tay,181
+232,Làm bằng tay,182
+233,Làm bằng tay,183
+234,Làm bằng tay,184
+235,Làm bằng tay,185
+236,Làm bằng tay,186
+237,Làm bằng tay,187
+238,Làm bằng tay,188
+239,Làm bằng tay,189
+240,Làm bằng tay,190
+241,Làm bằng tay,191
+242,Làm bằng tay,192
+243,Làm bằng tay,193
+244,Làm bằng tay,194
+245,Làm bằng tay,195
+246,Làm bằng tay,196
+247,Làm bằng tay,197
+248,Làm bằng tay,198
+249,Làm bằng tay,199
+250,Làm bằng tay,200
+251,Làm bằng tay,201
+252,Làm bằng tay,202
+253,Làm bằng tay,203
+254,Làm bằng tay,204
+255,Làm bằng tay,205
+256,Làm bằng tay,206
+257,Làm bằng tay,207
+258,Làm bằng tay,208
+259,Làm bằng tay,209
+260,Làm bằng tay,210
+261,Làm bằng tay,211
+262,Làm bằng tay,212
+263,Làm bằng tay,213
+264,Làm bằng tay,214
+265,Làm bằng tay,215
+266,Làm bằng tay,216
+267,Làm bằng tay,217
+268,Làm bằng tay,218
+269,Làm bằng tay,219
+270,Làm bằng tay,220
+271,Làm bằng tay,221
+272,Làm bằng tay,222
+273,Làm bằng tay,223
+274,Làm bằng tay,224
+275,Làm bằng tay,225
+276,Làm bằng tay,226
+277,Làm bằng tay,227
+278,Làm bằng tay,228
+279,Làm bằng tay,229
+280,Làm bằng tay,230
+281,Làm bằng tay,231
+282,Làm bằng tay,232
+283,Làm bằng tay,233
+284,Làm bằng tay,234
+285,Làm bằng tay,235
+286,Làm bằng tay,236
+287,Làm bằng tay,237
+288,Làm bằng tay,238
+289,Làm bằng tay,239
+290,Làm bằng tay,240
+291,Làm bằng tay,241
+292,Làm bằng tay,242
+293,Làm bằng tay,243
+294,Làm bằng tay,244
+295,Làm bằng tay,245
+296,Làm bằng tay,246
+297,Làm bằng tay,247
+298,Làm bằng tay,248
+299,Làm bằng tay,249
+300,Làm bằng tay,250
+301,Làm bằng tay,251
+302,Làm bằng tay,252
+303,Làm bằng tay,253
+304,Làm bằng tay,254
+305,Làm bằng tay,255
+306,Làm bằng tay,256
+307,Làm bằng tay,257
+308,Làm bằng tay,258
+309,Làm bằng tay,259
+310,Làm bằng tay,260
+311,Làm bằng tay,261
+312,Làm bằng tay,262
+313,Làm bằng tay,263
+314,Làm bằng tay,264
+315,Làm bằng tay,265
+316,Làm bằng tay,266
+317,Làm bằng tay,267
+318,Làm bằng tay,268
+319,Làm bằng tay,269
+320,Làm bằng tay,270
+321,Làm bằng tay,271
+322,Làm bằng tay,272
+323,Làm bằng tay,273
+324,Làm bằng tay,274
+325,Làm bằng tay,275
+326,Làm bằng tay,276
+327,Làm bằng tay,277
+328,Làm bằng tay,278
+329,Làm bằng tay,280
+330,Làm bằng tay,281
+331,Làm bằng tay,282
+332,Làm bằng tay,283
+333,Làm bằng tay,284
+334,Làm bằng tay,285
+335,Làm bằng tay,286
+336,Làm bằng tay,287
+337,Làm bằng tay,288
+338,Làm bằng tay,289
+339,Làm bằng tay,290
+340,Làm bằng tay,291
+341,Làm bằng tay,292
+342,Làm bằng tay,293
+343,Làm bằng tay,294
+344,Làm bằng tay,295
+345,Làm bằng tay,296
+346,Làm bằng tay,297
+347,Làm bằng tay,298
+348,Làm bằng tay,299
+349,Làm bằng tay,300
+350,Làm bằng tay,301
+351,Làm bằng tay,302
+352,Làm bằng tay,303
+353,Làm bằng tay,304
+354,Làm bằng tay,305
+355,Làm bằng tay,306
+356,Làm bằng tay,307
+357,Làm bằng tay,308
+358,Làm bằng tay,309
+359,Làm bằng tay,310
+360,Làm bằng tay,311
+361,Làm bằng tay,312
+362,Làm bằng tay,313
+363,Làm bằng tay,314
+364,Làm bằng tay,315
+365,Làm bằng tay,316
+366,Làm bằng tay,317
+367,Làm bằng tay,318
+368,Làm bằng tay,319
+369,Làm bằng tay,320
+370,Làm bằng tay,321
+371,Làm bằng tay,322
+372,Làm bằng tay,323
+373,Làm bằng tay,324
+374,Làm bằng tay,325
+375,Làm bằng tay,326
+376,Làm bằng tay,327
+377,Làm bằng tay,328
+378,Làm bằng tay,329
+379,Làm bằng tay,330
+380,Làm bằng tay,331
+381,Làm bằng tay,332
+382,Làm bằng tay,333
+383,Làm bằng tay,334
+384,Làm bằng tay,335
+385,Làm bằng tay,336
+386,Làm bằng tay,337
+387,Làm bằng tay,338
+388,Làm bằng tay,339
+389,Làm bằng tay,340
+390,Làm bằng tay,341
+391,Làm bằng tay,342
+392,Làm bằng tay,343
+393,Làm bằng tay,344
+394,Làm bằng tay,345
+395,Làm bằng tay,346
+396,Làm bằng tay,347
+397,Làm bằng tay,348
+398,Làm bằng tay,349
+399,Làm bằng tay,350
+400,Làm bằng tay,351
+401,Làm bằng tay,352
+402,Làm bằng tay,353
+403,Làm bằng tay,354
+404,Xếp hạng nông nghiệp,417
+405,Xếp hạng nông nghiệp,418
+406,Xếp hạng nông nghiệp,419
+407,Xếp hạng trận chiến,420
+408,Xếp hạng trận chiến,421
+409,Xếp hạng trận chiến,422
+410,Thu thập xếp hạng,423
+411,Thu thập xếp hạng,424
+412,Thu thập xếp hạng,425
+413,Nhiệm vụ hàng ngày,426
+414,Làm bằng tay,449
+415,Làm bằng tay,450
+416,Làm bằng tay,"451,460,469,478"
+417,Làm bằng tay,"452,461,470,479"
+418,Làm bằng tay,"453,462,471,480"
+419,Làm bằng tay,"454,463,472,481"
+420,Làm bằng tay,"455,464,473,482"
+421,Làm bằng tay,"456,465,474,483"
+422,Làm bằng tay,"457,466,475,484"
+423,Làm bằng tay,"458,467,476,485"
+424,Làm bằng tay,"459,468,477,486"
+425,Làm bằng tay,487
+426,Làm bằng tay,488
+427,Làm bằng tay,489
+428,Làm bằng tay,490
+429,Làm bằng tay,491
+430,Làm bằng tay,492
+431,Làm bằng tay,493
+432,Làm bằng tay,494
+433,Làm bằng tay,495
+434,Làm bằng tay,496
+435,Làm bằng tay,497
+436,Làm bằng tay,498
+437,Làm bằng tay,499
+438,Làm bằng tay,500
+439,Làm bằng tay,501
+440,Làm bằng tay,502
+441,Làm bằng tay,503
+442,Làm bằng tay,504
+443,Bắt,505
+444,Bắt,506
+445,Bắt,507
+446,Bắt,508
+447,Bắt,509
+448,Bắt,510
+449,Bắt,511
+450,Bắt,512
+451,Bắt,513
+452,Bắt,514
+453,Bắt,515
+454,Bắt,516
+455,Bắt,517
+456,Bắt,518
+457,Bắt,519
+458,Bắt,520
+459,Bắt,521
+460,Bắt,522
+461,Bắt,523
+462,Bắt,524
+463,Bắt,525
+464,Bắt,526
+465,Bắt,527
+466,Bắt,528
+467,Bắt,529
+468,Bắt,530
+469,Bắt,531
+470,Trò chơi Dungeon Challenge,532
+471,Trò chơi Dungeon Challenge,533
+472,Trò chơi Dungeon Challenge,534
+473,Làm bằng tay,"535,536,537,538,539,540,541,542,543"
+474,Làm bằng tay,"544,545,546"
+475,Giết trùm thế giới,
+476,Giết trùm thế giới,
 477,,
 478,,
 479,,
 480,,
 481,,
-482,Boss's Drop in Extra Drop Event,"552,553,554"
-483,Boss's Drop in Extra Drop Event,"555,556,557"
-484,Boss's Drop in Extra Drop Event,"558,559,560"
-485,Large Gatherer's Drop in Extra Drop Event,"561,562,563"
-486,Large Gatherer's Drop in Extra Drop Event,"564,565,566"
-487,Large Gatherer's Drop in Extra Drop Event,"567,568,569"
-488,Large Crop's Drop in Extra Drop Event,"570,571,572"
-489,Large Crop's Drop in Extra Drop Event,"573,574,575"
-490,Large Crop's Drop in Extra Drop Event,"576,577,578"
+482,Airdrop của Boss,"552,553,554"
+483,Airdrop của Boss,"555,556,557"
+484,Airdrop của Boss,"558,559,560"
+485,Airdrop cho các bữa tiệc lớn,"561,562,563"
+486,Airdrop cho các bữa tiệc lớn,"564,565,566"
+487,Airdrop cho các bữa tiệc lớn,"567,568,569"
+488,Lời bài hát: Big Crop,"570,571,572"
+489,Lời bài hát: Big Crop,"573,574,575"
+490,Lời bài hát: Big Crop,"576,577,578"
 491,,
 492,,
 493,,
@@ -507,11 +507,15 @@ id-int,name-string,pageIds-int[]
 506,,
 507,,
 508,,
-510,Extra Drop Rules,"579,580,581"
-511,Killing Monster,547
-512,Livestock,548
-513,Gather,549
-514,Gather,550
-515,Gather,551
-516,Mining,
-517,Get Stronger,
+510,Quy tắc thả thêm,"579,580,581"
+511,Giết quái vật,547
+512,Gia súc,548
+513,Tập hợp,549
+514,Tập hợp,550
+515,Tập hợp,551
+516,Khai thác Totem,"584,582,583"
+517,Làm bằng tay,585
+518,Làm bằng tay,586
+519,Làm bằng tay,587
+520,Trở nên mạnh mẽ hơn,588
+521,Bảo vệ slime,589

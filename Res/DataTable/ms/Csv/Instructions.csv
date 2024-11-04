@@ -1,144 +1,144 @@
 id-int,name-string,pageIds-int[]
-1,Item Resource,
-2,Item Resource,
-3,Item Resource,
-4,Killing Monster,7
-5,Killing Monster,8
-6,Killing Monster,9
-7,Killing Monster,10
-8,Killing Monster,11
-9,Killing Monster,12
-10,Killing Monster,13
-11,Killing Monster,14
-12,Killing Monster,16
-13,Killing Monster,17
-14,Killing Monster,18
-15,Killing Monster,19
-16,Killing Monster,20
-17,Killing Monster,21
-18,Killing Monster,22
-19,Killing Monster,23
-20,Killing Monster,24
-21,Killing Monster,25
-22,Killing Monster,26
-23,Killing Monster,27
-24,Killing Monster,28
-25,Killing Monster,29
-26,Killing Monster,30
-27,Killing Monster,31
-28,Killing Monster,32
-29,Killing Monster,33
-30,Killing Monster,34
-31,Gather,"35,36"
-32,Dungeon Challenge,411
-33,Gather,"37,38"
-34,Dungeon Challenge,412
-35,Gather,"39,40"
-36,Dungeon Challenge,413
-37,Gather,"41,42"
-38,Dungeon Challenge,414
-39,Gather,"43,44"
-40,Dungeon Challenge,415
-41,Gather,"45,46"
-42,Dungeon Challenge,416
-43,Gather,"47,48"
-44,Dungeon Challenge,427
-45,Gather,"49,50"
-46,Dungeon Challenge,428
-47,Gather,"51,52"
-48,Dungeon Challenge,429
-49,Gather,"53,54,55"
-50,Dismantling Farming Equipment,430
-51,Gather,"56,57"
-52,Dismantling Combat Equipment,431
-53,Gather,"58,59"
-54,Dismantling Gather Equipment,432
-55,Gather,"60,61"
+1,Sumber Item,
+2,Sumber Item,
+3,Sumber Item,
+4,Membunuh Monster,7
+5,Membunuh Monster,8
+6,Membunuh Monster,9
+7,Membunuh Monster,10
+8,Membunuh Monster,11
+9,Membunuh Monster,12
+10,Membunuh Monster,13
+11,Membunuh Monster,14
+12,Membunuh Monster,16
+13,Membunuh Monster,17
+14,Membunuh Monster,18
+15,Membunuh Monster,19
+16,Membunuh Monster,20
+17,Membunuh Monster,21
+18,Membunuh Monster,22
+19,Membunuh Monster,23
+20,Membunuh Monster,24
+21,Membunuh Monster,25
+22,Membunuh Monster,26
+23,Membunuh Monster,27
+24,Membunuh Monster,28
+25,Membunuh Monster,29
+26,Membunuh Monster,30
+27,Membunuh Monster,31
+28,Membunuh Monster,32
+29,Membunuh Monster,33
+30,Membunuh Monster,34
+31,Kumpul,"35,36"
+32,Tanda Dungeon,411
+33,Kumpul,"37,38"
+34,Tanda Dungeon,412
+35,Kumpul,"39,40"
+36,Tanda Dungeon,413
+37,Kumpul,"41,42"
+38,Tanda Dungeon,414
+39,Kumpul,"43,44"
+40,Tanda Dungeon,415
+41,Kumpul,"45,46"
+42,Tanda Dungeon,416
+43,Kumpul,"47,48"
+44,Tanda Dungeon,427
+45,Kumpul,"49,50"
+46,Tanda Dungeon,428
+47,Kumpul,"51,52"
+48,Tanda Dungeon,429
+49,Kumpul,"53,54,55"
+50,Membuang Peralatan Petani,430
+51,Kumpul,"56,57"
+52,Membuang Peralatan Pertempuran,431
+53,Kumpul,"58,59"
+54,Peralatan Kumpulan Membuang,432
+55,Kumpul,"60,61"
 56,Crafting,433
-57,Gather,"62,63"
+57,Kumpul,"62,63"
 58,Crafting,434
-59,Gather,"64,65"
+59,Kumpul,"64,65"
 60,Crafting,435
-61,Gather,"66,67"
+61,Kumpul,"66,67"
 62,Crafting,436
-63,Gather,"68,69"
+63,Kumpul,"68,69"
 64,Crafting,437
-65,Gather,"70,71"
+65,Kumpul,"70,71"
 66,Crafting,438
-67,Item Resource,72
+67,Sumber Item,72
 68,Crafting,439
-69,Gather,"73,74,72"
+69,Kumpul,"73,74,72"
 70,Crafting,440
-71,Gather,"75,76"
+71,Kumpul,"75,76"
 72,Crafting,441
-73,Gather,"77,78"
+73,Kumpul,"77,78"
 74,Crafting,442
-75,Gather,"79,80"
+75,Kumpul,"79,80"
 76,Crafting,443
-77,Gather,"81,82"
+77,Kumpul,"81,82"
 78,Crafting,444
-79,Gather,"83,84"
+79,Kumpul,"83,84"
 80,Crafting,445
-81,Gather,"85,86"
+81,Kumpul,"85,86"
 82,Crafting,446
-83,Gather,"87,88"
+83,Kumpul,"87,88"
 84,Crafting,447
-85,Gather,"89,90"
+85,Kumpul,"89,90"
 86,Crafting,448
-87,Planting,384
-88,Planting,385
-89,Planting,386
-90,Planting,387
-91,Planting,388
-92,Planting,389
-93,Planting,390
-94,Planting,391
-95,Planting,392
-96,Planting,393
-97,Planting,394
-98,Planting,395
-99,Planting,396
-100,Planting,397
-101,Planting,398
-102,Planting,399
-103,Planting,400
-104,Planting,401
-105,Planting,402
-106,Planting,403
-107,Planting,404
-108,Planting,405
-109,Planting,406
-110,Planting,407
-111,Planting,408
-112,Planting,409
-113,Planting,410
-114,Livestock,356
-115,Livestock,357
-116,Livestock,358
-117,Livestock,359
-118,Livestock,360
-119,Livestock,361
-120,Livestock,362
-121,Livestock,363
-122,Livestock,365
-123,Livestock,366
-124,Livestock,367
-125,Livestock,368
-126,Livestock,369
-127,Livestock,370
-128,Livestock,371
-129,Livestock,372
-130,Livestock,373
-131,Livestock,374
-132,Livestock,375
-133,Livestock,376
-134,Livestock,377
-135,Livestock,378
-136,Livestock,379
-137,Livestock,380
-138,Livestock,381
-139,Livestock,382
-140,Livestock,383
+87,Tanaman,384
+88,Tanaman,385
+89,Tanaman,386
+90,Tanaman,387
+91,Tanaman,388
+92,Tanaman,389
+93,Tanaman,390
+94,Tanaman,391
+95,Tanaman,392
+96,Tanaman,393
+97,Tanaman,394
+98,Tanaman,395
+99,Tanaman,396
+100,Tanaman,397
+101,Tanaman,398
+102,Tanaman,399
+103,Tanaman,400
+104,Tanaman,401
+105,Tanaman,402
+106,Tanaman,403
+107,Tanaman,404
+108,Tanaman,405
+109,Tanaman,406
+110,Tanaman,407
+111,Tanaman,408
+112,Tanaman,409
+113,Tanaman,410
+114,Binatang,356
+115,Binatang,357
+116,Binatang,358
+117,Binatang,359
+118,Binatang,360
+119,Binatang,361
+120,Binatang,362
+121,Binatang,363
+122,Binatang,365
+123,Binatang,366
+124,Binatang,367
+125,Binatang,368
+126,Binatang,369
+127,Binatang,370
+128,Binatang,371
+129,Binatang,372
+130,Binatang,373
+131,Binatang,374
+132,Binatang,375
+133,Binatang,376
+134,Binatang,377
+135,Binatang,378
+136,Binatang,379
+137,Binatang,380
+138,Binatang,381
+139,Binatang,382
+140,Binatang,383
 141,Crafting,91
 142,Crafting,92
 143,Crafting,93
@@ -402,16 +402,16 @@ id-int,name-string,pageIds-int[]
 401,Crafting,352
 402,Crafting,353
 403,Crafting,354
-404,Farming Ranking,417
-405,Farming Ranking,418
-406,Farming Ranking,419
-407,Combat Ranking,420
-408,Combat Ranking,421
-409,Combat Ranking,422
-410,Gather Ranking,423
-411,Gather Ranking,424
-412,Gather Ranking,425
-413,Daily Task,426
+404,Rangkaian Perladangan,417
+405,Rangkaian Perladangan,418
+406,Rangkaian Perladangan,419
+407,Rangkaian Pertempuran,420
+408,Rangkaian Pertempuran,421
+409,Rangkaian Pertempuran,422
+410,Pengurusan Kumpul,423
+411,Pengurusan Kumpul,424
+412,Pengurusan Kumpul,425
+413,Tugas Hari,426
 414,Crafting,449
 415,Crafting,450
 416,Crafting,"451,460,469,478"
@@ -441,40 +441,40 @@ id-int,name-string,pageIds-int[]
 440,Crafting,502
 441,Crafting,503
 442,Crafting,504
-443,Capture,505
-444,Capture,506
-445,Capture,507
-446,Capture,508
-447,Capture,509
-448,Capture,510
-449,Capture,511
-450,Capture,512
-451,Capture,513
-452,Capture,514
-453,Capture,515
-454,Capture,516
-455,Capture,517
-456,Capture,518
-457,Capture,519
-458,Capture,520
-459,Capture,521
-460,Capture,522
-461,Capture,523
-462,Capture,524
-463,Capture,525
-464,Capture,526
-465,Capture,527
-466,Capture,528
-467,Capture,529
-468,Capture,530
-469,Capture,531
-470,PvEP Dungeon Challenge,532
-471,PvEP Dungeon Challenge,533
-472,PvEP Dungeon Challenge,534
+443,Tangkap,505
+444,Tangkap,506
+445,Tangkap,507
+446,Tangkap,508
+447,Tangkap,509
+448,Tangkap,510
+449,Tangkap,511
+450,Tangkap,512
+451,Tangkap,513
+452,Tangkap,514
+453,Tangkap,515
+454,Tangkap,516
+455,Tangkap,517
+456,Tangkap,518
+457,Tangkap,519
+458,Tangkap,520
+459,Tangkap,521
+460,Tangkap,522
+461,Tangkap,523
+462,Tangkap,524
+463,Tangkap,525
+464,Tangkap,526
+465,Tangkap,527
+466,Tangkap,528
+467,Tangkap,529
+468,Tangkap,530
+469,Tangkap,531
+470,Tanda Dungeon PvEP,532
+471,Tanda Dungeon PvEP,533
+472,Tanda Dungeon PvEP,534
 473,Crafting,"535,536,537,538,539,540,541,542,543"
 474,Crafting,"544,545,546"
-475,Killing World Boss,
-476,Killing World Boss,
+475,Membunuh Boss Dunia,
+476,Membunuh Boss Dunia,
 477,,
 478,,
 479,,
@@ -483,12 +483,12 @@ id-int,name-string,pageIds-int[]
 482,Boss's Drop in Extra Drop Event,"552,553,554"
 483,Boss's Drop in Extra Drop Event,"555,556,557"
 484,Boss's Drop in Extra Drop Event,"558,559,560"
-485,Large Gatherer's Drop in Extra Drop Event,"561,562,563"
-486,Large Gatherer's Drop in Extra Drop Event,"564,565,566"
-487,Large Gatherer's Drop in Extra Drop Event,"567,568,569"
-488,Large Crop's Drop in Extra Drop Event,"570,571,572"
-489,Large Crop's Drop in Extra Drop Event,"573,574,575"
-490,Large Crop's Drop in Extra Drop Event,"576,577,578"
+485,Jatuh Pengumpul Besar dalam Peristiwa Jatuh Tambahan,"561,562,563"
+486,Jatuh Pengumpul Besar dalam Peristiwa Jatuh Tambahan,"564,565,566"
+487,Jatuh Pengumpul Besar dalam Peristiwa Jatuh Tambahan,"567,568,569"
+488,Jatuh Pemotong Besar dalam Peristiwa Jatuh Tambahan,"570,571,572"
+489,Jatuh Pemotong Besar dalam Peristiwa Jatuh Tambahan,"573,574,575"
+490,Jatuh Pemotong Besar dalam Peristiwa Jatuh Tambahan,"576,577,578"
 491,,
 492,,
 493,,
@@ -507,11 +507,15 @@ id-int,name-string,pageIds-int[]
 506,,
 507,,
 508,,
-510,Extra Drop Rules,"579,580,581"
-511,Killing Monster,547
-512,Livestock,548
-513,Gather,549
-514,Gather,550
-515,Gather,551
-516,Mining,
-517,Get Stronger,
+510,Peraturan Jatuhan Tambahan,"579,580,581"
+511,Membunuh Monster,547
+512,Binatang,548
+513,Kumpul,549
+514,Kumpul,550
+515,Kumpul,551
+516,Menyembah Totem,"584,582,583"
+517,Crafting,585
+518,Crafting,586
+519,Crafting,587
+520,Lebih Kuat,588
+521,Lindungi Slime,589
