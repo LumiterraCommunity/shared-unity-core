@@ -1,494 +1,494 @@
 id-int,name-string,pageIds-int[]
-1,Item Resource,
-2,Item Resource,
-3,Item Resource,
-4,Killing Monster,7
-5,Killing Monster,8
-6,Killing Monster,9
-7,Killing Monster,10
-8,Killing Monster,11
-9,Killing Monster,12
-10,Killing Monster,13
-11,Killing Monster,14
-12,Killing Monster,16
-13,Killing Monster,17
-14,Killing Monster,18
-15,Killing Monster,19
-16,Killing Monster,20
-17,Killing Monster,21
-18,Killing Monster,22
-19,Killing Monster,23
-20,Killing Monster,24
-21,Killing Monster,25
-22,Killing Monster,26
-23,Killing Monster,27
-24,Killing Monster,28
-25,Killing Monster,29
-26,Killing Monster,30
-27,Killing Monster,31
-28,Killing Monster,32
-29,Killing Monster,33
-30,Killing Monster,34
-31,Gather,"35,36"
-32,Dungeon Challenge,411
-33,Gather,"37,38"
-34,Dungeon Challenge,412
-35,Gather,"39,40"
-36,Dungeon Challenge,413
-37,Gather,"41,42"
-38,Dungeon Challenge,414
-39,Gather,"43,44"
-40,Dungeon Challenge,415
-41,Gather,"45,46"
-42,Dungeon Challenge,416
-43,Gather,"47,48"
-44,Dungeon Challenge,427
-45,Gather,"49,50"
-46,Dungeon Challenge,428
-47,Gather,"51,52"
-48,Dungeon Challenge,429
-49,Gather,"53,54,55"
-50,Dismantling Farming Equipment,430
-51,Gather,"56,57"
-52,Dismantling Combat Equipment,431
-53,Gather,"58,59"
-54,Dismantling Gather Equipment,432
-55,Gather,"60,61"
-56,Crafting,433
-57,Gather,"62,63"
-58,Crafting,434
-59,Gather,"64,65"
-60,Crafting,435
-61,Gather,"66,67"
-62,Crafting,436
-63,Gather,"68,69"
-64,Crafting,437
-65,Gather,"70,71"
-66,Crafting,438
-67,Item Resource,72
-68,Crafting,439
-69,Gather,"73,74,72"
-70,Crafting,440
-71,Gather,"75,76"
-72,Crafting,441
-73,Gather,"77,78"
-74,Crafting,442
-75,Gather,"79,80"
-76,Crafting,443
-77,Gather,"81,82"
-78,Crafting,444
-79,Gather,"83,84"
-80,Crafting,445
-81,Gather,"85,86"
-82,Crafting,446
-83,Gather,"87,88"
-84,Crafting,447
-85,Gather,"89,90"
-86,Crafting,448
-87,Planting,384
-88,Planting,385
-89,Planting,386
-90,Planting,387
-91,Planting,388
-92,Planting,389
-93,Planting,390
-94,Planting,391
-95,Planting,392
-96,Planting,393
-97,Planting,394
-98,Planting,395
-99,Planting,396
-100,Planting,397
-101,Planting,398
-102,Planting,399
-103,Planting,400
-104,Planting,401
-105,Planting,402
-106,Planting,403
-107,Planting,404
-108,Planting,405
-109,Planting,406
-110,Planting,407
-111,Planting,408
-112,Planting,409
-113,Planting,410
-114,Livestock,356
-115,Livestock,357
-116,Livestock,358
-117,Livestock,359
-118,Livestock,360
-119,Livestock,361
-120,Livestock,362
-121,Livestock,363
-122,Livestock,365
-123,Livestock,366
-124,Livestock,367
-125,Livestock,368
-126,Livestock,369
-127,Livestock,370
-128,Livestock,371
-129,Livestock,372
-130,Livestock,373
-131,Livestock,374
-132,Livestock,375
-133,Livestock,376
-134,Livestock,377
-135,Livestock,378
-136,Livestock,379
-137,Livestock,380
-138,Livestock,381
-139,Livestock,382
-140,Livestock,383
-141,Crafting,91
-142,Crafting,92
-143,Crafting,93
-144,Crafting,94
-145,Crafting,95
-146,Crafting,96
-147,Crafting,97
-148,Crafting,98
-149,Crafting,99
-150,Crafting,100
-151,Crafting,101
-152,Crafting,102
-153,Crafting,103
-154,Crafting,104
-155,Crafting,105
-156,Crafting,106
-157,Crafting,107
-158,Crafting,108
-159,Crafting,109
-160,Crafting,110
-161,Crafting,111
-162,Crafting,112
-163,Crafting,113
-164,Crafting,114
-165,Crafting,115
-166,Crafting,116
-167,Crafting,117
-168,Crafting,118
-169,Crafting,119
-170,Crafting,120
-171,Crafting,121
-172,Crafting,122
-173,Crafting,123
-174,Crafting,124
-175,Crafting,125
-176,Crafting,126
-177,Crafting,127
-178,Crafting,128
-179,Crafting,129
-180,Crafting,130
-181,Crafting,131
-182,Crafting,132
-183,Crafting,133
-184,Crafting,134
-185,Crafting,135
-186,Crafting,136
-187,Crafting,137
-188,Crafting,138
-189,Crafting,139
-190,Crafting,140
-191,Crafting,141
-192,Crafting,142
-193,Crafting,143
-194,Crafting,144
-195,Crafting,145
-196,Crafting,146
-197,Crafting,147
-198,Crafting,148
-199,Crafting,149
-200,Crafting,150
-201,Crafting,151
-202,Crafting,152
-203,Crafting,153
-204,Crafting,154
-205,Crafting,155
-206,Crafting,156
-207,Crafting,157
-208,Crafting,158
-209,Crafting,159
-210,Crafting,160
-211,Crafting,161
-212,Crafting,162
-213,Crafting,163
-214,Crafting,164
-215,Crafting,165
-216,Crafting,166
-217,Crafting,167
-218,Crafting,168
-219,Crafting,169
-220,Crafting,170
-221,Crafting,171
-222,Crafting,172
-223,Crafting,173
-224,Crafting,174
-225,Crafting,175
-226,Crafting,176
-227,Crafting,177
-228,Crafting,178
-229,Crafting,179
-230,Crafting,180
-231,Crafting,181
-232,Crafting,182
-233,Crafting,183
-234,Crafting,184
-235,Crafting,185
-236,Crafting,186
-237,Crafting,187
-238,Crafting,188
-239,Crafting,189
-240,Crafting,190
-241,Crafting,191
-242,Crafting,192
-243,Crafting,193
-244,Crafting,194
-245,Crafting,195
-246,Crafting,196
-247,Crafting,197
-248,Crafting,198
-249,Crafting,199
-250,Crafting,200
-251,Crafting,201
-252,Crafting,202
-253,Crafting,203
-254,Crafting,204
-255,Crafting,205
-256,Crafting,206
-257,Crafting,207
-258,Crafting,208
-259,Crafting,209
-260,Crafting,210
-261,Crafting,211
-262,Crafting,212
-263,Crafting,213
-264,Crafting,214
-265,Crafting,215
-266,Crafting,216
-267,Crafting,217
-268,Crafting,218
-269,Crafting,219
-270,Crafting,220
-271,Crafting,221
-272,Crafting,222
-273,Crafting,223
-274,Crafting,224
-275,Crafting,225
-276,Crafting,226
-277,Crafting,227
-278,Crafting,228
-279,Crafting,229
-280,Crafting,230
-281,Crafting,231
-282,Crafting,232
-283,Crafting,233
-284,Crafting,234
-285,Crafting,235
-286,Crafting,236
-287,Crafting,237
-288,Crafting,238
-289,Crafting,239
-290,Crafting,240
-291,Crafting,241
-292,Crafting,242
-293,Crafting,243
-294,Crafting,244
-295,Crafting,245
-296,Crafting,246
-297,Crafting,247
-298,Crafting,248
-299,Crafting,249
-300,Crafting,250
-301,Crafting,251
-302,Crafting,252
-303,Crafting,253
-304,Crafting,254
-305,Crafting,255
-306,Crafting,256
-307,Crafting,257
-308,Crafting,258
-309,Crafting,259
-310,Crafting,260
-311,Crafting,261
-312,Crafting,262
-313,Crafting,263
-314,Crafting,264
-315,Crafting,265
-316,Crafting,266
-317,Crafting,267
-318,Crafting,268
-319,Crafting,269
-320,Crafting,270
-321,Crafting,271
-322,Crafting,272
-323,Crafting,273
-324,Crafting,274
-325,Crafting,275
-326,Crafting,276
-327,Crafting,277
-328,Crafting,278
-329,Crafting,280
-330,Crafting,281
-331,Crafting,282
-332,Crafting,283
-333,Crafting,284
-334,Crafting,285
-335,Crafting,286
-336,Crafting,287
-337,Crafting,288
-338,Crafting,289
-339,Crafting,290
-340,Crafting,291
-341,Crafting,292
-342,Crafting,293
-343,Crafting,294
-344,Crafting,295
-345,Crafting,296
-346,Crafting,297
-347,Crafting,298
-348,Crafting,299
-349,Crafting,300
-350,Crafting,301
-351,Crafting,302
-352,Crafting,303
-353,Crafting,304
-354,Crafting,305
-355,Crafting,306
-356,Crafting,307
-357,Crafting,308
-358,Crafting,309
-359,Crafting,310
-360,Crafting,311
-361,Crafting,312
-362,Crafting,313
-363,Crafting,314
-364,Crafting,315
-365,Crafting,316
-366,Crafting,317
-367,Crafting,318
-368,Crafting,319
-369,Crafting,320
-370,Crafting,321
-371,Crafting,322
-372,Crafting,323
-373,Crafting,324
-374,Crafting,325
-375,Crafting,326
-376,Crafting,327
-377,Crafting,328
-378,Crafting,329
-379,Crafting,330
-380,Crafting,331
-381,Crafting,332
-382,Crafting,333
-383,Crafting,334
-384,Crafting,335
-385,Crafting,336
-386,Crafting,337
-387,Crafting,338
-388,Crafting,339
-389,Crafting,340
-390,Crafting,341
-391,Crafting,342
-392,Crafting,343
-393,Crafting,344
-394,Crafting,345
-395,Crafting,346
-396,Crafting,347
-397,Crafting,348
-398,Crafting,349
-399,Crafting,350
-400,Crafting,351
-401,Crafting,352
-402,Crafting,353
-403,Crafting,354
-404,Farming Ranking,417
-405,Farming Ranking,418
-406,Farming Ranking,419
-407,Combat Ranking,420
-408,Combat Ranking,421
-409,Combat Ranking,422
-410,Gather Ranking,423
-411,Gather Ranking,424
-412,Gather Ranking,425
-413,Daily Task,426
-414,Crafting,449
-415,Crafting,450
-416,Crafting,"451,460,469,478"
-417,Crafting,"452,461,470,479"
-418,Crafting,"453,462,471,480"
-419,Crafting,"454,463,472,481"
-420,Crafting,"455,464,473,482"
-421,Crafting,"456,465,474,483"
-422,Crafting,"457,466,475,484"
-423,Crafting,"458,467,476,485"
-424,Crafting,"459,468,477,486"
-425,Crafting,487
-426,Crafting,488
-427,Crafting,489
-428,Crafting,490
-429,Crafting,491
-430,Crafting,492
-431,Crafting,493
-432,Crafting,494
-433,Crafting,495
-434,Crafting,496
-435,Crafting,497
-436,Crafting,498
-437,Crafting,499
-438,Crafting,500
-439,Crafting,501
-440,Crafting,502
-441,Crafting,503
-442,Crafting,504
-443,Capture,505
-444,Capture,506
-445,Capture,507
-446,Capture,508
-447,Capture,509
-448,Capture,510
-449,Capture,511
-450,Capture,512
-451,Capture,513
-452,Capture,514
-453,Capture,515
-454,Capture,516
-455,Capture,517
-456,Capture,518
-457,Capture,519
-458,Capture,520
-459,Capture,521
-460,Capture,522
-461,Capture,523
-462,Capture,524
-463,Capture,525
-464,Capture,526
-465,Capture,527
-466,Capture,528
-467,Capture,529
-468,Capture,530
-469,Capture,531
-470,PvEP Dungeon Challenge,532
-471,PvEP Dungeon Challenge,533
-472,PvEP Dungeon Challenge,534
-473,Crafting,"535,536,537,538,539,540,541,542,543"
-474,Crafting,"544,545,546"
-475,Killing World Boss,
-476,Killing World Boss,
+1,Recurso de objeto,
+2,Recurso de objeto,
+3,Recurso de objeto,
+4,Matar monstruo,7
+5,Matar monstruo,8
+6,Matar monstruo,9
+7,Matar monstruo,10
+8,Matar monstruo,11
+9,Matar monstruo,12
+10,Matar monstruo,13
+11,Matar monstruo,14
+12,Matar monstruo,16
+13,Matar monstruo,17
+14,Matar monstruo,18
+15,Matar monstruo,19
+16,Matar monstruo,20
+17,Matar monstruo,21
+18,Matar monstruo,22
+19,Matar monstruo,23
+20,Matar monstruo,24
+21,Matar monstruo,25
+22,Matar monstruo,26
+23,Matar monstruo,27
+24,Matar monstruo,28
+25,Matar monstruo,29
+26,Matar monstruo,30
+27,Matar monstruo,31
+28,Matar monstruo,32
+29,Matar monstruo,33
+30,Matar monstruo,34
+31,Reunir,"35,36"
+32,Desafío de mazmorra,411
+33,Reunir,"37,38"
+34,Desafío de mazmorra,412
+35,Reunir,"39,40"
+36,Desafío de mazmorra,413
+37,Reunir,"41,42"
+38,Desafío de mazmorra,414
+39,Reunir,"43,44"
+40,Desafío de mazmorra,415
+41,Reunir,"45,46"
+42,Desafío de mazmorra,416
+43,Reunir,"47,48"
+44,Desafío de mazmorra,427
+45,Reunir,"49,50"
+46,Desafío de mazmorra,428
+47,Reunir,"51,52"
+48,Desafío de mazmorra,429
+49,Reunir,"53,54,55"
+50,Desmontar equipo de granja,430
+51,Reunir,"56,57"
+52,Desmontar equipo de combate,431
+53,Reunir,"58,59"
+54,Desmontar equipo de recolección,432
+55,Reunir,"60,61"
+56,Artesanía,433
+57,Reunir,"62,63"
+58,Artesanía,434
+59,Reunir,"64,65"
+60,Artesanía,435
+61,Reunir,"66,67"
+62,Artesanía,436
+63,Reunir,"68,69"
+64,Artesanía,437
+65,Reunir,"70,71"
+66,Artesanía,438
+67,Recurso de objeto,72
+68,Artesanía,439
+69,Reunir,"73,74,72"
+70,Artesanía,440
+71,Reunir,"75,76"
+72,Artesanía,441
+73,Reunir,"77,78"
+74,Artesanía,442
+75,Reunir,"79,80"
+76,Artesanía,443
+77,Reunir,"81,82"
+78,Artesanía,444
+79,Reunir,"83,84"
+80,Artesanía,445
+81,Reunir,"85,86"
+82,Artesanía,446
+83,Reunir,"87,88"
+84,Artesanía,447
+85,Reunir,"89,90"
+86,Artesanía,448
+87,Plantar,384
+88,Plantar,385
+89,Plantar,386
+90,Plantar,387
+91,Plantar,388
+92,Plantar,389
+93,Plantar,390
+94,Plantar,391
+95,Plantar,392
+96,Plantar,393
+97,Plantar,394
+98,Plantar,395
+99,Plantar,396
+100,Plantar,397
+101,Plantar,398
+102,Plantar,399
+103,Plantar,400
+104,Plantar,401
+105,Plantar,402
+106,Plantar,403
+107,Plantar,404
+108,Plantar,405
+109,Plantar,406
+110,Plantar,407
+111,Plantar,408
+112,Plantar,409
+113,Plantar,410
+114,Ganado,356
+115,Ganado,357
+116,Ganado,358
+117,Ganado,359
+118,Ganado,360
+119,Ganado,361
+120,Ganado,362
+121,Ganado,363
+122,Ganado,365
+123,Ganado,366
+124,Ganado,367
+125,Ganado,368
+126,Ganado,369
+127,Ganado,370
+128,Ganado,371
+129,Ganado,372
+130,Ganado,373
+131,Ganado,374
+132,Ganado,375
+133,Ganado,376
+134,Ganado,377
+135,Ganado,378
+136,Ganado,379
+137,Ganado,380
+138,Ganado,381
+139,Ganado,382
+140,Ganado,383
+141,Artesanía,91
+142,Artesanía,92
+143,Artesanía,93
+144,Artesanía,94
+145,Artesanía,95
+146,Artesanía,96
+147,Artesanía,97
+148,Artesanía,98
+149,Artesanía,99
+150,Artesanía,100
+151,Artesanía,101
+152,Artesanía,102
+153,Artesanía,103
+154,Artesanía,104
+155,Artesanía,105
+156,Artesanía,106
+157,Artesanía,107
+158,Artesanía,108
+159,Artesanía,109
+160,Artesanía,110
+161,Artesanía,111
+162,Artesanía,112
+163,Artesanía,113
+164,Artesanía,114
+165,Artesanía,115
+166,Artesanía,116
+167,Artesanía,117
+168,Artesanía,118
+169,Artesanía,119
+170,Artesanía,120
+171,Artesanía,121
+172,Artesanía,122
+173,Artesanía,123
+174,Artesanía,124
+175,Artesanía,125
+176,Artesanía,126
+177,Artesanía,127
+178,Artesanía,128
+179,Artesanía,129
+180,Artesanía,130
+181,Artesanía,131
+182,Artesanía,132
+183,Artesanía,133
+184,Artesanía,134
+185,Artesanía,135
+186,Artesanía,136
+187,Artesanía,137
+188,Artesanía,138
+189,Artesanía,139
+190,Artesanía,140
+191,Artesanía,141
+192,Artesanía,142
+193,Artesanía,143
+194,Artesanía,144
+195,Artesanía,145
+196,Artesanía,146
+197,Artesanía,147
+198,Artesanía,148
+199,Artesanía,149
+200,Artesanía,150
+201,Artesanía,151
+202,Artesanía,152
+203,Artesanía,153
+204,Artesanía,154
+205,Artesanía,155
+206,Artesanía,156
+207,Artesanía,157
+208,Artesanía,158
+209,Artesanía,159
+210,Artesanía,160
+211,Artesanía,161
+212,Artesanía,162
+213,Artesanía,163
+214,Artesanía,164
+215,Artesanía,165
+216,Artesanía,166
+217,Artesanía,167
+218,Artesanía,168
+219,Artesanía,169
+220,Artesanía,170
+221,Artesanía,171
+222,Artesanía,172
+223,Artesanía,173
+224,Artesanía,174
+225,Artesanía,175
+226,Artesanía,176
+227,Artesanía,177
+228,Artesanía,178
+229,Artesanía,179
+230,Artesanía,180
+231,Artesanía,181
+232,Artesanía,182
+233,Artesanía,183
+234,Artesanía,184
+235,Artesanía,185
+236,Artesanía,186
+237,Artesanía,187
+238,Artesanía,188
+239,Artesanía,189
+240,Artesanía,190
+241,Artesanía,191
+242,Artesanía,192
+243,Artesanía,193
+244,Artesanía,194
+245,Artesanía,195
+246,Artesanía,196
+247,Artesanía,197
+248,Artesanía,198
+249,Artesanía,199
+250,Artesanía,200
+251,Artesanía,201
+252,Artesanía,202
+253,Artesanía,203
+254,Artesanía,204
+255,Artesanía,205
+256,Artesanía,206
+257,Artesanía,207
+258,Artesanía,208
+259,Artesanía,209
+260,Artesanía,210
+261,Artesanía,211
+262,Artesanía,212
+263,Artesanía,213
+264,Artesanía,214
+265,Artesanía,215
+266,Artesanía,216
+267,Artesanía,217
+268,Artesanía,218
+269,Artesanía,219
+270,Artesanía,220
+271,Artesanía,221
+272,Artesanía,222
+273,Artesanía,223
+274,Artesanía,224
+275,Artesanía,225
+276,Artesanía,226
+277,Artesanía,227
+278,Artesanía,228
+279,Artesanía,229
+280,Artesanía,230
+281,Artesanía,231
+282,Artesanía,232
+283,Artesanía,233
+284,Artesanía,234
+285,Artesanía,235
+286,Artesanía,236
+287,Artesanía,237
+288,Artesanía,238
+289,Artesanía,239
+290,Artesanía,240
+291,Artesanía,241
+292,Artesanía,242
+293,Artesanía,243
+294,Artesanía,244
+295,Artesanía,245
+296,Artesanía,246
+297,Artesanía,247
+298,Artesanía,248
+299,Artesanía,249
+300,Artesanía,250
+301,Artesanía,251
+302,Artesanía,252
+303,Artesanía,253
+304,Artesanía,254
+305,Artesanía,255
+306,Artesanía,256
+307,Artesanía,257
+308,Artesanía,258
+309,Artesanía,259
+310,Artesanía,260
+311,Artesanía,261
+312,Artesanía,262
+313,Artesanía,263
+314,Artesanía,264
+315,Artesanía,265
+316,Artesanía,266
+317,Artesanía,267
+318,Artesanía,268
+319,Artesanía,269
+320,Artesanía,270
+321,Artesanía,271
+322,Artesanía,272
+323,Artesanía,273
+324,Artesanía,274
+325,Artesanía,275
+326,Artesanía,276
+327,Artesanía,277
+328,Artesanía,278
+329,Artesanía,280
+330,Artesanía,281
+331,Artesanía,282
+332,Artesanía,283
+333,Artesanía,284
+334,Artesanía,285
+335,Artesanía,286
+336,Artesanía,287
+337,Artesanía,288
+338,Artesanía,289
+339,Artesanía,290
+340,Artesanía,291
+341,Artesanía,292
+342,Artesanía,293
+343,Artesanía,294
+344,Artesanía,295
+345,Artesanía,296
+346,Artesanía,297
+347,Artesanía,298
+348,Artesanía,299
+349,Artesanía,300
+350,Artesanía,301
+351,Artesanía,302
+352,Artesanía,303
+353,Artesanía,304
+354,Artesanía,305
+355,Artesanía,306
+356,Artesanía,307
+357,Artesanía,308
+358,Artesanía,309
+359,Artesanía,310
+360,Artesanía,311
+361,Artesanía,312
+362,Artesanía,313
+363,Artesanía,314
+364,Artesanía,315
+365,Artesanía,316
+366,Artesanía,317
+367,Artesanía,318
+368,Artesanía,319
+369,Artesanía,320
+370,Artesanía,321
+371,Artesanía,322
+372,Artesanía,323
+373,Artesanía,324
+374,Artesanía,325
+375,Artesanía,326
+376,Artesanía,327
+377,Artesanía,328
+378,Artesanía,329
+379,Artesanía,330
+380,Artesanía,331
+381,Artesanía,332
+382,Artesanía,333
+383,Artesanía,334
+384,Artesanía,335
+385,Artesanía,336
+386,Artesanía,337
+387,Artesanía,338
+388,Artesanía,339
+389,Artesanía,340
+390,Artesanía,341
+391,Artesanía,342
+392,Artesanía,343
+393,Artesanía,344
+394,Artesanía,345
+395,Artesanía,346
+396,Artesanía,347
+397,Artesanía,348
+398,Artesanía,349
+399,Artesanía,350
+400,Artesanía,351
+401,Artesanía,352
+402,Artesanía,353
+403,Artesanía,354
+404,Clasificación de agricultura,417
+405,Clasificación de agricultura,418
+406,Clasificación de agricultura,419
+407,Clasificación de combate,420
+408,Clasificación de combate,421
+409,Clasificación de combate,422
+410,Clasificación de recolección,423
+411,Clasificación de recolección,424
+412,Clasificación de recolección,425
+413,Tarea diaria,426
+414,Artesanía,449
+415,Artesanía,450
+416,Artesanía,"451,460,469,478"
+417,Artesanía,"452,461,470,479"
+418,Artesanía,"453,462,471,480"
+419,Artesanía,"454,463,472,481"
+420,Artesanía,"455,464,473,482"
+421,Artesanía,"456,465,474,483"
+422,Artesanía,"457,466,475,484"
+423,Artesanía,"458,467,476,485"
+424,Artesanía,"459,468,477,486"
+425,Artesanía,487
+426,Artesanía,488
+427,Artesanía,489
+428,Artesanía,490
+429,Artesanía,491
+430,Artesanía,492
+431,Artesanía,493
+432,Artesanía,494
+433,Artesanía,495
+434,Artesanía,496
+435,Artesanía,497
+436,Artesanía,498
+437,Artesanía,499
+438,Artesanía,500
+439,Artesanía,501
+440,Artesanía,502
+441,Artesanía,503
+442,Artesanía,504
+443,Capturar,505
+444,Capturar,506
+445,Capturar,507
+446,Capturar,508
+447,Capturar,509
+448,Capturar,510
+449,Capturar,511
+450,Capturar,512
+451,Capturar,513
+452,Capturar,514
+453,Capturar,515
+454,Capturar,516
+455,Capturar,517
+456,Capturar,518
+457,Capturar,519
+458,Capturar,520
+459,Capturar,521
+460,Capturar,522
+461,Capturar,523
+462,Capturar,524
+463,Capturar,525
+464,Capturar,526
+465,Capturar,527
+466,Capturar,528
+467,Capturar,529
+468,Capturar,530
+469,Capturar,531
+470,Desafío de mazmorra PvEP,532
+471,Desafío de mazmorra PvEP,533
+472,Desafío de mazmorra PvEP,534
+473,Artesanía,"535,536,537,538,539,540,541,542,543"
+474,Artesanía,"544,545,546"
+475,Matar al jefe del mundo,
+476,Matar al jefe del mundo,
 477,,
 478,,
 479,,
 480,,
 481,,
-482,Boss's Drop in Extra Drop Event,"552,553,554"
-483,Boss's Drop in Extra Drop Event,"555,556,557"
-484,Boss's Drop in Extra Drop Event,"558,559,560"
-485,Large Gatherer's Drop in Extra Drop Event,"561,562,563"
-486,Large Gatherer's Drop in Extra Drop Event,"564,565,566"
-487,Large Gatherer's Drop in Extra Drop Event,"567,568,569"
-488,Large Crop's Drop in Extra Drop Event,"570,571,572"
-489,Large Crop's Drop in Extra Drop Event,"573,574,575"
-490,Large Crop's Drop in Extra Drop Event,"576,577,578"
+482,Botín del jefe en el evento de botín extra,"552,553,554"
+483,Botín del jefe en el evento de botín extra,"555,556,557"
+484,Botín del jefe en el evento de botín extra,"558,559,560"
+485,Gran botín de recolector en evento de botín extra,"561,562,563"
+486,Gran botín de recolector en evento de botín extra,"564,565,566"
+487,Gran botín de recolector en evento de botín extra,"567,568,569"
+488,Gran cosecha en el evento Extra Drop,"570,571,572"
+489,Gran cosecha en el evento Extra Drop,"573,574,575"
+490,Gran cosecha en el evento Extra Drop,"576,577,578"
 491,,
 492,,
 493,,
@@ -507,11 +507,15 @@ id-int,name-string,pageIds-int[]
 506,,
 507,,
 508,,
-510,Extra Drop Rules,"579,580,581"
-511,Killing Monster,547
-512,Livestock,548
-513,Gather,549
-514,Gather,550
-515,Gather,551
-516,Mining,
-517,Get Stronger,
+510,Reglas de caída adicionales,"579,580,581"
+511,Matar monstruo,547
+512,Ganado,548
+513,Reunir,549
+514,Reunir,550
+515,Reunir,551
+516,Minería tótem,"584,582,583"
+517,Artesanía,585
+518,Artesanía,586
+519,Artesanía,587
+520,Ser más fuerte,588
+521,Moco protector,589
