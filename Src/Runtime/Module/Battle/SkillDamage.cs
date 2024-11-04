@@ -228,7 +228,7 @@ public class SkillDamage
         DamageEffect effect = new()
         {
             DamageValue = MakeDamageData(type, finalHp, finalWhiteHp, deltaHp),
-            EffectType = (DamageEffectId)TableDefine.DAMAGE_EFFECT_ID
+            EffectType = (DamageEffectId)TableDefine.SCENE_DAMAGE_EFFECT_ID
         };
         return effect;
     }

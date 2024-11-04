@@ -34,8 +34,14 @@ public static class TableDefine
     public const string DATA_TABLE_ENCODING = "UTF-8";
 
     public const int TEMPLATE_SKILL_ID = 14; // 模版技能ID
-    public const int DAMAGE_EFFECT_ID = 15;  // 基础伤害效果ID
-    public const int SCENE_DAMAGE_EFFECT_ID = 736; // 场景伤害效果ID
+    /// <summary>
+    /// 基础伤害效果ID 只是普通伤害类型
+    /// </summary>
+    public const int DAMAGE_EFFECT_ID = 15;
+    /// <summary>
+    /// 场景伤害效果ID 也是任何实体都能接受的伤害
+    /// </summary>
+    public const int SCENE_DAMAGE_EFFECT_ID = 736;
 
     public const int ENTITY_CID_NULL = -1; // 空实体配置ID
     public const int TOKEN_DECIMALS = 18; // 代币小数位数
