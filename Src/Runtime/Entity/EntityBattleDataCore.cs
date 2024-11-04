@@ -36,6 +36,10 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// <value></value>
     public int WhiteHPMAX { get => GetValue(eAttributeType.MaxWhiteHP); protected set => SetBaseValue(eAttributeType.MaxWhiteHP, value); }
     /// <summary>
+    /// 总血量 包括白血量 护盾等所有血量
+    /// </summary>
+    public int TotalHP => HP + WhiteHP;
+    /// <summary>
     /// 血量回复
     /// </summary>
     /// <value></value>
