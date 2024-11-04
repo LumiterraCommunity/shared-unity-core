@@ -132,6 +132,15 @@ public class EntityBattleDataCore : EntityBaseComponent
         HP = Math.Clamp(hp, 0, HPMAX);
     }
 
+    public virtual void SetHPMAX(int hpMax)
+    {
+        HPMAX = hpMax;
+        if (HP > HPMAX)
+        {
+            HP = HPMAX;
+        }
+    }
+
     /// <summary>
     /// 设置死亡原因 在死亡时如果有特殊原因必须设置 否则默认为被攻击死亡
     /// </summary>
@@ -139,11 +148,6 @@ public class EntityBattleDataCore : EntityBaseComponent
     public void SetDeathReason(DamageState reason)
     {
         DeathReason = reason;
-    }
-
-    public virtual void SetHPMAX(int hpMax)
-    {
-        HPMAX = hpMax;
     }
 
     /// <summary>
@@ -376,5 +380,14 @@ public class EntityBattleDataCore : EntityBaseComponent
     public virtual void SetWhiteHP(int whiteHP)
     {
         WhiteHP = Math.Clamp(whiteHP, 0, WhiteHPMAX);
+    }
+
+    public virtual void SetWhiteHPMAX(int whiteHPMax)
+    {
+        WhiteHPMAX = whiteHPMax;
+        if (WhiteHP > WhiteHPMAX)
+        {
+            WhiteHP = WhiteHPMAX;
+        }
     }
 }
