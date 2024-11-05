@@ -50,6 +50,15 @@ public class DRMapping : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取text-string。*/
+    /// </summary>
+    public string Text
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -59,6 +68,7 @@ public class DRMapping : DataRowBase
         _id = int.Parse(columnStrings[index++]);
         ItemId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PetId = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        Text = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
     }
@@ -74,6 +84,7 @@ public class DRMapping : DataRowBase
                 _id = binaryReader.Read7BitEncodedInt32();
                 ItemId = binaryReader.Read7BitEncodedInt32();
                 PetId = binaryReader.Read7BitEncodedInt32();
+                Text = binaryReader.ReadString();
             }
         }
 

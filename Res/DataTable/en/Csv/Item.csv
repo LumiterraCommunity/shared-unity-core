@@ -2428,13 +2428,16 @@ The drop reward obtained by killing the Arena Dungeon Boss.",0,0,item-icon-731,7
 "792,1","1,3,4",1,Coo Coo Coo,0,0,item-icon-734,734,Medal of the Pigeon,0,1,,1,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-735,735,Combat0-3,0,1,407,1,0,2,999,2,7,0,1
+Immediately create a token task.
+Combat0-3_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-735,735,Combat0-3,0,1,407,1,0,2,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-736,736,Combat4-6,0,1,408,1,0,2,999,2,7,0,1
+Immediately create a token task.
+Combat4-6_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-736,736,Combat4-6,0,1,408,1,0,2,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-737,737,Combat7-9,0,1,409,1,0,2,999,2,7,0,1
+Immediately create a token task.
+Combat7-9_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-737,737,Combat7-9,0,1,409,1,0,2,999,2,7,0,1
 "792,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,0,item-icon-738,738,Lv 1 Combat Equipment fragment,0,1,52,1,0,2,999,0,4,1,1
 "793,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,0,item-icon-739,739,Lv 2 Combat Equipment fragment,0,1,52,1,0,2,999,0,4,2,1
 "794,1","1,3,4",1,Equipment fragments can be obtained by dismantling equipment. They can be used to craft higher-level fragments or to reassemble equipment.,0,0,item-icon-740,740,Lv 3 Combat Equipment fragment,0,1,52,1,0,2,999,0,4,3,1
@@ -2466,22 +2469,28 @@ Immediately create a token task.",1,0,item-icon-737,737,Combat7-9,0,1,409,1,0,2,
 Unsellable and untransferable in close beta, remember to come back in TGE :-)",0,0,item-icon-765,765,LUAG Future(1),0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-766,766,Gather0-3,0,1,410,1,0,3,999,2,7,0,1
+Immediately create a token task.
+Gather0-3_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-766,766,Gather0-3,0,1,410,1,0,3,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-767,767,Gather4-6,0,1,411,1,0,3,999,2,7,0,1
+Immediately create a token task.
+Gather4-6_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-767,767,Gather4-6,0,1,411,1,0,3,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-768,768,Gather7-9,0,1,412,1,0,3,999,2,7,0,1
+Immediately create a token task.
+Gather7-9_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-768,768,Gather7-9,0,1,412,1,0,3,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-769,769,Farm0-3,0,1,404,1,0,1,999,2,7,0,1
+Immediately create a token task.
+Farm0-3_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-769,769,Farm0-3,0,1,404,1,0,1,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-770,770,Farm4-6,0,1,405,1,0,1,999,2,7,0,1
+Immediately create a token task.
+Farm4-6_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-770,770,Farm4-6,0,1,405,1,0,1,999,2,7,0,1
 -,"1,3,4",1,"Daily Ranking reward..
 -------
-Immediately create a token task.",1,0,item-icon-771,771,Farm7-9,0,1,406,1,0,1,999,2,7,0,1
+Immediately create a token task.
+Farm7-9_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-771,771,Farm7-9,0,1,406,1,0,1,999,2,7,0,1
 -,0,0,"In Game Currency
 1 LUAUSD = 1 USDT",0,0,item-icon-773,773,LUAUSD,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,0,0,"The more lucky point, higher chance of token task",0,0,item-icon-774,774,Lucky Point,0,1,,0,0,"1,2,3",999,0,4,0,1
@@ -2532,31 +2541,40 @@ Tickets required to enter the Advanced Farming Challenge",0,0,item-icon-780,780,
 -,0,0,Ronin Lumi In-Game Currency,0,0,item-icon-805,805,RON,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-806,806,Combat  Material 0-3,0,1,404,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Combat Material 0-3_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-806,806,Combat Material 0-3,0,1,404,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-807,807,Combat  Material 4-6,0,1,405,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Combat Material 4-6_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-807,807,Combat Material 4-6,0,1,405,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-808,808,Combat  Material 7-9,0,1,406,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Combat Material 7-9_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-808,808,Combat Material 7-9,0,1,406,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-809,809,Gather Material 0-3,0,1,407,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Gather Material 0-3_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-809,809,Gather Material 0-3,0,1,407,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-810,810,Gather Material 4-6,0,1,408,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Gather Material 4-6_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-810,810,Gather Material 4-6,0,1,408,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-811,811,Gather Material 7-9,0,1,409,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Gather Material 7-9_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-811,811,Gather Material 7-9,0,1,409,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-812,812,Farm Material 0-3,0,1,410,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Farm Material 0-3_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-812,812,Farm Material 0-3,0,1,410,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-813,813,Farm Material 4-6,0,1,411,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Farm Material 4-6_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-813,813,Farm Material 4-6,0,1,411,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Leaderboard.
 -------
-",1,0,item-icon-814,814,Farm Material 7-9,0,1,412,1,0,"1,2,3",999,0,7,0,1
+Immediately create a material task.
+Farm Material 7-9_yyyymmdd means it's usable until the day before dd/mm/yyyy.",1,0,item-icon-814,814,Farm Material 7-9,0,1,412,1,0,"1,2,3",999,0,7,0,1
 -,"1,3,4",1,"Reward of Dungeon/Challenge, Token Task's Reward.
 -------
 ",0,0,item-icon-815,815,Combat Material Lottery 1-3,0,1,482,1,0,"1,2,3",999,0,4,0,1
