@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d98ace8715c2a184ca85247b18eb0853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stepHeightRatio: 0.25
-  colliderHeight: 2.07
+  stepHeightRatio: 0
+  colliderHeight: 2
   colliderThickness: 1.4
-  colliderOffset: {x: 0, y: 1.26, z: 0}
+  colliderOffset: {x: 0, y: 0.5, z: 0}
   sensorType: 0
   isInDebugMode: 0
   sensorArrayRows: 1
@@ -57,8 +57,8 @@ MonoBehaviour:
   sensorArrayRowsAreOffset: 0
   raycastArrayPreviewPositions: []
   IsMove: 0
-  RealColliderHeight: 2.07
-  RealColliderMiddle: 1.29375
+  RealColliderHeight: 2
+  RealColliderMiddle: 1
 --- !u!136 &-6913126368140148181
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -70,9 +70,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.7
-  m_Height: 1.5525
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 2.8669498, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &-7275839608806576440
 Rigidbody:
   m_ObjectHideFlags: 0
