@@ -82,17 +82,18 @@ namespace CMF
             Setup();
         }
 
-        void OnValidate()
-        {
-            //Recalculate collider dimensions;
-            if (this.gameObject.activeInHierarchy)
-                RecalculateColliderDimensions();
+        //现在需要使用预览的碰撞盒参数来反向设置mover参数 不能在应用到预制件时又让mover来设置碰撞盒参数
+        // void OnValidate()
+        // {
+        //     //Recalculate collider dimensions;
+        //     if (this.gameObject.activeInHierarchy)
+        //         RecalculateColliderDimensions();
 
-            //Recalculate raycast array preview positions;
-            if (sensorType == Sensor.CastType.RaycastArray)
-                raycastArrayPreviewPositions =
-                    Sensor.GetRaycastStartPositions(sensorArrayRows, sensorArrayRayCount, sensorArrayRowsAreOffset, 1f);
-        }
+        //     //Recalculate raycast array preview positions;
+        //     if (sensorType == Sensor.CastType.RaycastArray)
+        //         raycastArrayPreviewPositions =
+        //             Sensor.GetRaycastStartPositions(sensorArrayRows, sensorArrayRayCount, sensorArrayRowsAreOffset, 1f);
+        // }
 
         //Setup references to components;
         void Setup()

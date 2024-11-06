@@ -9,6 +9,7 @@ using CMF;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityGameFramework.Runtime;
+using System;
 
 public abstract class EntityCollisionCore : EntityBaseComponent
 {
@@ -59,24 +60,22 @@ public abstract class EntityCollisionCore : EntityBaseComponent
         //因为现在移动主要都是依赖角色控制器 但是角色控制器控制的移动只能是控制器所在对象 所以只能将预制件中的碰撞器参数复制到实体根上来移动 这是暂时折中办法
         if (prefab.TryGetComponent(out Mover prefabMover))
         {
-            Collider prefabCollider = prefab.GetComponent<Collider>();
             RefEntity.EntityRoot.layer = prefab.layer;//暂时直接直接赋值成碰撞盒的层
 
             //先手动创建移动碰撞的依赖组件
             _ = RefEntity.AddComponent<Rigidbody>();
+
+            Collider prefabCollider = prefab.GetComponent<Collider>();
             CapsuleCollider collider = RefEntity.AddComponent<CapsuleCollider>();
             collider.isTrigger = prefabCollider.isTrigger;
 
             Mover mover = RefEntity.AddComponent<Mover>();
-            mover.SetColliderHeight(prefabMover.ColliderHeight);
-            mover.SetColliderThickness(prefabMover.ColliderThickness);
-            mover.SetColliderOffset(prefabMover.ColliderOffset);
-            mover.SetStepHeightRatio(MoveDefine.MOVE_STEP_HEIGHT_RATIO);
-            // characterMovement.center = prefabCharacterMovement.center;
-            // characterMovement.slopeLimit = MoveDefine.MOVE_SLOPE_LIMIT;
-            // characterMovement.stepOffset = MoveDefine.MOVE_STEP_HEIGHT;
-            // characterMovement.collisionLayers = MLayerMask.MASK_SCENE_OBSTRUCTION;
-            // characterMovement.skinWidth = MoveDefine.MOVE_SKIN_WIDTH;
+            //将预制件中预览的碰撞盒参数反向设置到新mover中 这样可以可视化调整collider而无需去手动设置mover参数
+            SetMoverDataFromCollider(mover, prefabCollider);
+            // mover.SetColliderHeight(prefabMover.ColliderHeight);
+            // mover.SetColliderThickness(prefabMover.ColliderThickness);
+            // mover.SetColliderOffset(prefabMover.ColliderOffset);
+            // mover.SetStepHeightRatio(MoveDefine.MOVE_STEP_HEIGHT_RATIO);
 
             CollisionObject = collider.gameObject;
             BodyCollision = collider;
@@ -103,6 +102,43 @@ public abstract class EntityCollisionCore : EntityBaseComponent
         }
         RefEntity.EntityEvent.ColliderLoadFinish?.Invoke(CollisionObject);
     }
+
+    /// <summary>
+    /// 将想要的碰撞盒的模样的参数反向设置回Mover中
+    /// </summary>
+    /// <param name="mover"></param>
+    /// <param name="collider"></param>
+    private void SetMoverDataFromCollider(Mover mover, Collider collider)
+    {
+        if (mover == null || collider == null)
+        {
+            return;
+        }
+
+        if (collider is CapsuleCollider capsuleCollider)
+        {
+            mover.SetColliderHeight(capsuleCollider.height);
+            mover.SetColliderThickness(capsuleCollider.radius * 2);
+            mover.SetColliderOffset(capsuleCollider.center / capsuleCollider.height);
+        }
+        else if (collider is SphereCollider sphereCollider)
+        {
+            float moverHeight = sphereCollider.radius * 2;
+            mover.SetColliderHeight(moverHeight);
+            mover.SetColliderThickness(moverHeight);
+            mover.SetColliderOffset(sphereCollider.center / moverHeight);
+        }
+        else
+        {
+            Log.Error("SetMoverDataFromCollider collider type not support");
+            mover.SetColliderHeight(collider.bounds.size.y);
+            mover.SetColliderThickness(collider.bounds.size.x);
+            mover.SetColliderOffset(collider.bounds.center / collider.bounds.size.y);
+        }
+
+        mover.SetStepHeightRatio(MoveDefine.MOVE_STEP_HEIGHT_RATIO);
+    }
+
     /// <summary>
     /// 添加实体触发器
     /// </summary>
