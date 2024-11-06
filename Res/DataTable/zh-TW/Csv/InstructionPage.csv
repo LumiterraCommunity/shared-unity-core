@@ -409,7 +409,8 @@ Assets/Res/Sprite/Instructions/Background/Common.png, 種植產品--熔煉果種
 Assets/Res/Sprite/Instructions/Background/Common.png, 種植產品--幻彩蔬菜種子,408,Assets/Res/Sprite/Icon/Item/item-icon-620.png
 Assets/Res/Sprite/Instructions/Background/Common.png," 種植產品--力量之花種子
 ```",409,Assets/Res/Sprite/Icon/Item/item-icon-621.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,410,Assets/Res/Sprite/Icon/Item/item-icon-622.png
+Assets/Res/Sprite/Instructions/Background/Common.png,"```zh-TW
+種植產品--力量之花種子",410,Assets/Res/Sprite/Icon/Item/item-icon-622.png
 Assets/Res/Sprite/Instructions/Background/FarmDungeon0-3.png,Reward of Challenge ,411,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/FarmDungeon4-6.png, 挑戰獎勵 ,412,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/FarmDungeon7-9.png, 挑戰獎勵 ,413,Assets/Res/Sprite/Instructions/Custom/.png
@@ -602,12 +603,23 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - 概率事件�
    - 種植大型作物
 - Boss/大型收集者/大型作物也提供高分數。
 - 普通怪物/普通收集者/普通作物已提供足夠分數通過關卡。",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, 空,582,###.png
-###.png, 空,583,###.png
-###.png, 空,584,###.png
-###.png, 空,585,###.png
-###.png, 空,586,###.png
-###.png, 空,587,###.png
-###.png, 空,588,###.png
-###.png," 空
-```",589,###.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," 啟動圖騰時，選擇紅色水晶。圖騰將在一段時間後生成一個紅色水晶。
+需要手動收集。",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," 啟動圖騰時，選擇藍色水晶。圖騰將在一段時間後生成一個藍色水晶。
+需要手動收集。",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," 啟動圖騰時，選擇綠色水晶。圖騰將在一段時間後生成一個綠色水晶。
+需要手動收集。",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png," 通過升級天賦樹解鎖配方。
+在主城左側找到圖騰經理安東尼，打開圖騰製作界面找到配方 - Lv 1強化石 - 戰鬥",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png," 通過升級天賦樹解鎖配方。
+在主城左側找到圖騰經理安東尼，打開圖騰製作界面找到配方 - Lv 1強化石 - 采集",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png,,587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png,,588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png,,589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png,,590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png,,591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png,,592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png,,593,###.png
+###.png,,594,###.png
+###.png,,595,###.png
+###.png,,596,###.png

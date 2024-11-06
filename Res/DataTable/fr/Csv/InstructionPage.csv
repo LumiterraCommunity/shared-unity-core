@@ -495,10 +495,10 @@ Assets/Res/Sprite/Instructions/Background/Common.png, Capture - Guerrier cactus,
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture - Chat de mine,504,Assets/Res/Sprite/Icon/Recipe/recipe-icon-926.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture - Compagnon bourdonnant,505,Assets/Res/Sprite/Icon/Head/monster-icon-6.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture - Rôdeur feuillu,506,Assets/Res/Sprite/Icon/Head/monster-icon-7.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
+Assets/Res/Sprite/Instructions/Background/Common.png,@@ Capture--Guerrier cactus,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Chat de mine,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Abeille bourdonnante,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Rôdeur de feuilles,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
 Assets/Res/Sprite/Instructions/Background/Common.png,@@ Capture--Spectre du chaos ,511,Assets/Res/Sprite/Icon/Head/monster-icon-12.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Cogneur cramoisi ,512,Assets/Res/Sprite/Icon/Head/monster-icon-13.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Minions de givre ,513,Assets/Res/Sprite/Icon/Head/monster-icon-14.png
@@ -588,11 +588,24 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png,"[21] - Événeme
    - Planter de grandes cultures
 - Les Boss/Grands récolteurs/Grandes cultures fournissent également des scores élevés.
 - Les monstres normaux/récolteurs normaux/cultures normales fournissent déjà suffisamment de points pour passer le niveau. ",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, Empty ,582,###.png
-###.png, Empty ,583,###.png
-###.png, Empty ,584,###.png
-###.png, Empty ,585,###.png
-###.png, Empty ,586,###.png
-###.png, Empty ,587,###.png
-###.png, Empty ,588,###.png
-###.png, Empty,589,###.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," Lors de l'activation du totem, sélectionnez le cristal rouge. Le totem générera un cristal rouge après un certain laps de temps.
+Collecte manuelle requise.",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," Lors de l'activation du totem, sélectionnez le cristal bleu. Le totem générera un cristal bleu après un certain laps de temps.
+Collecte manuelle requise.",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," Lors de l'activation du totem, sélectionnez le cristal vert. Le totem générera un cristal vert après un certain laps de temps.
+Collecte manuelle requise.",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Débloquez les recettes en améliorant l'arbre de talents.
+Trouvez le gestionnaire de totem, Anthony, sur le côté gauche de la ville principale et ouvrez l'interface de fabrication de totem pour trouver la recette.--Pierre d'amélioration de niveau 1 - Combat",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Débloquez les recettes en améliorant l'arbre de talents.
+Trouvez le gestionnaire de totem, Anthony, sur le côté gauche de la ville principale et ouvrez l'interface de fabrication de totem pour trouver la recette.--Pierre d'amélioration de niveau 1 - Collecte",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Débloquez les recettes en améliorant l'arbre de talents.
+Trouvez le gestionnaire de totem, Anthony, sur le côté gauche de la ville principale et ouvrez l'interface de fabrication de totem pour trouver la recette.--Pierre d'amélioration de niveau 1 - Agriculture",587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png,,588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png,,589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png,,590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png,,591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png,,592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png,,593,###.png
+###.png,,594,###.png
+###.png,,595,###.png
+###.png,,596,###.png

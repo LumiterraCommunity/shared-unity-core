@@ -495,10 +495,10 @@ Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Guerrero Cactus ,
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Mi Gato ,504,Assets/Res/Sprite/Icon/Recipe/recipe-icon-926.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Abeja Zumbando ,505,Assets/Res/Sprite/Icon/Head/monster-icon-6.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Acechador de Hojas,506,Assets/Res/Sprite/Icon/Head/monster-icon-7.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
+Assets/Res/Sprite/Instructions/Background/Common.png,Captura--Guerrero Cactus,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Gato Minero,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Compañero Zumbador,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Acechador de Hojas,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
 Assets/Res/Sprite/Instructions/Background/Common.png,Captura--Espectro del Caos,511,Assets/Res/Sprite/Icon/Head/monster-icon-12.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Bateador Carmesí,512,Assets/Res/Sprite/Icon/Head/monster-icon-13.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Pata Escarchada,513,Assets/Res/Sprite/Icon/Head/monster-icon-14.png
@@ -588,11 +588,51 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - Evento probab
    - Plantar Cultivos Grandes
 - Los Jefes/Recolectores Grandes/Cultivos Grandes también proporcionan altas puntuaciones.
 - Los monstruos normales/recolectores normales/cultivos normales ya proporcionan suficientes puntos para pasar el nivel.",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, Vacío,582,###.png
-###.png, Vacío,583,###.png
-###.png, Vacío,584,###.png
-###.png, Vacío,585,###.png
-###.png, Vacío,586,###.png
-###.png, Vacío,587,###.png
-###.png, Vacío,588,###.png
-###.png, Vacío,589,###.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," Al activar el tótem, selecciona el cristal rojo. El tótem generará un cristal rojo después de cierto período de tiempo.
+Se requiere recolección manual.",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," Al activar el tótem, selecciona el cristal azul. El tótem generará un cristal azul después de cierto período de tiempo.
+Se requiere recolección manual.",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," Al activar el tótem, selecciona el cristal verde. El tótem generará un cristal verde después de cierto período de tiempo.
+Se requiere recolección manual.",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Desbloquea recetas mejorando el árbol de talentos.
+Encuentra al Administrador del Tótem, Anthony, en el lado izquierdo de la ciudad principal y abre la interfaz de creación de tótems para encontrar la receta. - Piedra de Mejora de Nivel 1 - Combate",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Desbloquea recetas mejorando el árbol de talentos.
+Encuentra al Administrador del Tótem, Anthony, en el lado izquierdo de la ciudad principal y abre la interfaz de creación de tótems para encontrar la receta. - Piedra de Mejora de Nivel 1 - Recolecta",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Desbloquea recetas mejorando el árbol de talentos.
+Encuentra al Administrador del Tótem, Anthony, en el lado izquierdo de la ciudad principal y abre la interfaz de creación de tótems para encontrar la receta. - Piedra de Mejora de Nivel 1 - Agricultura",587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png," Desbloquea recetas de fabricación de equipos mejorando los nodos izquierdos del árbol de talentos.
+Encuentra la guía de profesión correspondiente y abre la interfaz de fabricación de equipos para encontrar la receta.
+Requiere esencia de otras profesiones como materiales.
+También puedes comprar los materiales directamente en la tienda.
+El nivel del equipo influye en gran medida en el nivel de habilidad.",588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png," Una vez que el nodo de talento de receta de fabricación de equipos alcanza el nivel máximo (nivel 2 o superior), se desbloqueará la receta de reforzamiento de equipos.
+Encuentra la guía de profesión, abre la interfaz de reforzamiento de equipos y localiza la receta.
+El reforzamiento de equipos puede producir equipo de mayor calidad, que tiene mejores estadísticas.
+El reforzamiento no conservará el nivel de mejora, ¡así que procede con precaución!",589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png," El reforzamiento de equipos requiere tótems como portadores.
+El reforzamiento de equipos puede aumentar tanto el nivel de mejora como las estadísticas base del equipo.
+Un reforzamiento de equipo de nivel 10 es equivalente a una mejora de equipo de nivel 1.
+Ejemplo: Equipo de nivel 1 +20 = Equipo de nivel 2 +10",590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png," Horario de apertura: 20:00 - 20:30
+Encuentra al NPC Slime para aceptar la misión de protección. Escolta al Slime hasta el destino para recibir una recompensa.
+Puedes encontrarte con monstruos y ataques de otros jugadores en el camino, así que protege al Slime de las amenazas.
+Otros jugadores solo pueden usar la habilidad ""Interceptar"" para infligir daño al Slime.",591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png," Encuentra al Administrador del Tótem, Anthony, en el lado izquierdo de la ciudad principal y abre la interfaz de creación de tótems para encontrar la receta. - Receta de Energía de Tótem Lv 0",592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png," Desbloquea recetas de fabricación de equipos mejorando los nodos izquierdos del árbol de talentos.
+Encuentra la guía de profesión correspondiente y abre la interfaz de fabricación de equipos para encontrar la receta.
+Requiere esencia de otras profesiones como materiales.
+También puedes comprar los materiales directamente en la tienda.
+El nivel del equipo influye en gran medida en el nivel de habilidad.",593,###.png
+###.png," Desbloquea recetas de fabricación de equipos mejorando los nodos izquierdos del árbol de talentos.
+Encuentra la guía de profesión correspondiente y abre la interfaz de fabricación de equipos para encontrar la receta.
+Requiere esencia de otras profesiones como materiales.
+También puedes comprar los materiales directamente en la tienda.
+El nivel del equipo influye en gran medida en el nivel de habilidad.",594,###.png
+###.png," Una vez que el nodo de talento de receta de fabricación de equipos alcanza el nivel máximo (nivel 2 o superior), se desbloqueará la receta de reforzamiento de equipos.
+Encuentra la guía de profesión, abre la interfaz de reforzamiento de equipos y localiza la receta.
+El reforzamiento de equipos puede producir equipo de mayor calidad, que tiene mejores estadísticas.
+El reforzamiento no conservará el nivel de mejora, ¡así que procede con precaución!",595,###.png
+###.png," Una vez que el nodo de talento de receta de fabricación de equipos alcanza el nivel máximo (nivel 2 o superior), se desbloqueará la receta de reforzamiento de equipos.
+Encuentra la guía de profesión, abre la interfaz de reforzamiento de equipos y localiza la receta.
+El reforzamiento de equipos puede producir equipo de mayor calidad, que tiene mejores estadísticas.
+El reforzamiento no conservará el nivel de mejora, ¡así que procede con precaución!",596,###.png

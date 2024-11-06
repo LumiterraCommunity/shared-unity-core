@@ -497,9 +497,9 @@ Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Chiến binh 
 Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Mèo mỏ ,505,Assets/Res/Sprite/Icon/Head/monster-icon-6.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Ong vo ve ,506,Assets/Res/Sprite/Icon/Head/monster-icon-7.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Người ẩn nấp lá,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
+Assets/Res/Sprite/Instructions/Background/Common.png,Bắt giữ--Mèo Mỏ Mỏ,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Bạn Bè Vo Ve,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Người ẩn nấp lá,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
 Assets/Res/Sprite/Instructions/Background/Common.png,Bắt giữ--Bóng Ma Hỗn Loạn,511,Assets/Res/Sprite/Icon/Head/monster-icon-12.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Slugger Đỏ Thẫm,512,Assets/Res/Sprite/Icon/Head/monster-icon-13.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Bắt giữ--Minion Băng Giá,513,Assets/Res/Sprite/Icon/Head/monster-icon-14.png
@@ -589,11 +589,41 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - Sự kiện x
    - Trồng Crops lớn
 - Boss/Gatherer lớn/Crops lớn cũng cung cấp điểm số cao.
 - Quái vật bình thường/Gatherer bình thường/Crops bình thường đã cung cấp đủ điểm để vượt qua cấp độ. ",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, Trống ,582,###.png
-###.png, Trống ,583,###.png
-###.png, Trống ,584,###.png
-###.png, Trống ,585,###.png
-###.png, Trống ,586,###.png
-###.png, Trống ,587,###.png
-###.png, Trống ,588,###.png
-###.png, Trống,589,###.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," Khi kích hoạt bàn thờ, chọn tinh thể đỏ. Bàn thờ sẽ tạo ra một tinh thể đỏ sau một khoảng thời gian nhất định.
+Yêu cầu thu thập thủ công.",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," Khi kích hoạt bàn thờ, chọn tinh thể xanh. Bàn thờ sẽ tạo ra một tinh thể xanh sau một khoảng thời gian nhất định.
+Yêu cầu thu thập thủ công.",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," Khi kích hoạt bàn thờ, chọn tinh thể xanh lá cây. Bàn thờ sẽ tạo ra một tinh thể xanh lá cây sau một khoảng thời gian nhất định.
+Yêu cầu thu thập thủ công.",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Mở khóa công thức bằng cách nâng cấp cây tài năng.
+Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Chiến đấu",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Mở khóa công thức bằng cách nâng cấp cây tài năng.
+Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Thu thập",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Mở khóa công thức bằng cách nâng cấp cây tài năng.
+Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Nông nghiệp",587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png," Mở khóa công thức chế tạo trang bị bằng cách nâng cấp các nút bên trái của cây tài năng.
+Tìm hướng dẫn nghề nghiệp tương ứng và mở giao diện chế tạo trang bị để tìm công thức.
+Yêu cầu tinh chất từ các nghề nghiệp khác nhau làm nguyên liệu.
+Bạn cũng có thể mua nguyên liệu trực tiếp từ cửa hàng.
+Cấp độ trang bị ảnh hưởng rất lớn đến cấp độ khả năng.",588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png," Khi nút tài năng công thức chế tạo trang bị đạt cấp độ đầy đủ (cấp độ 2 trở lên), công thức tái chế trang bị sẽ được mở khóa.
+Tìm hướng dẫn nghề nghiệp, mở giao diện tái chế trang bị và xác định công thức.
+Tái chế trang bị có thể tạo ra trang bị chất lượng cao hơn, có chỉ số tốt hơn.
+Tái chế sẽ không giữ lại cấp độ nâng cấp, vì vậy hãy cẩn thận!",589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png," Nâng cấp trang bị yêu cầu bàn thờ làm người mang.
+Nâng cấp trang bị có thể tăng cả cấp độ nâng cấp và chỉ số cơ bản của trang bị.
+Một cấp độ nâng cấp trang bị 10 tương đương với một cấp độ nâng cấp trang bị 1.
+Ví dụ: Trang bị cấp độ 1 +20 = Trang bị cấp độ 2 +10",590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png," Thời gian mở cửa: 20:00 - 20:30
+Tìm NPC Slime để chấp nhận nhiệm vụ bảo vệ. Hãy hộ tống Slime đến điểm đến để nhận phần thưởng.
+Bạn có thể gặp phải quái vật và tấn công từ người chơi khác trên đường đi, vì vậy hãy bảo vệ Slime khỏi nguy cơ.
+Người chơi khác chỉ có thể sử dụng kỹ năng ""Chặn đứng"" để gây sát thương cho Slime.",591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png," Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Lv 0-Công thức Năng lượng Bàn thờ",592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png," Mở khóa công thức chế tạo trang bị bằng cách nâng cấp các nút bên trái của cây tài năng.
+Tìm hướng dẫn nghề nghiệp tương ứng và mở giao diện chế tạo trang bị để tìm công thức.
+Yêu cầu tinh chất từ các nghề nghiệp khác nhau làm nguyên liệu.
+Bạn cũng có thể mua nguyên liệu trực tiếp từ cửa hàng.
+Cấp độ trang bị ảnh hưởng rất lớn đến cấp độ khả năng.",593,###.png
+###.png,,594,###.png
+###.png,,595,###.png
+###.png,,596,###.png

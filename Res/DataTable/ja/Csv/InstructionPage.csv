@@ -458,7 +458,7 @@ Assets/Res/Sprite/Instructions/Background/Common.png, 農業エネルギース�
 Assets/Res/Sprite/Instructions/Background/Common.png, 農業エネルギースライム製作--Lv 9 農業エネルギースライムレシピ,467,Assets/Res/Sprite/Icon/Recipe/recipe-icon-624.png
 Assets/Res/Sprite/Instructions/Background/Common.png, 戦闘エネルギースライム製作--Lv 1 戦闘エネルギースライムレシピ,468,Assets/Res/Sprite/Icon/Recipe/recipe-icon-625.png
 Assets/Res/Sprite/Instructions/Background/Common.png, 戦闘エネルギースライム製作--Lv 2 戦闘エネルギースライムレシピ,469,Assets/Res/Sprite/Icon/Recipe/recipe-icon-588.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,470,Assets/Res/Sprite/Icon/Recipe/recipe-icon-585.png
+Assets/Res/Sprite/Instructions/Background/Common.png,@@[1]持ち運びエナジースライムクラフト--Lv 2 戦闘エナジースライムレシピ ,470,Assets/Res/Sprite/Icon/Recipe/recipe-icon-585.png
 Assets/Res/Sprite/Instructions/Background/Common.png,Carrying Energy Slime Craft--Lv 3 戦闘エナジースライムレシピ,471,Assets/Res/Sprite/Icon/Recipe/recipe-icon-592.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Carrying Energy Slime Craft--Lv 4 戦闘エナジースライムレシピ,472,Assets/Res/Sprite/Icon/Recipe/recipe-icon-590.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Carrying Energy Slime Craft--Lv 5 戦闘エナジースライムレシピ,473,Assets/Res/Sprite/Icon/Recipe/recipe-icon-589.png
@@ -574,14 +574,45 @@ Assets/Res/Sprite/Instructions/Background/Common.png," 大型作物の栽培（�
    - 大型の作物の栽培
 - ボス/大型の収集者/大型の作物は高得点も提供します。
 - 通常のモンスター/通常の収集者/通常の作物はすでにレベルをクリアするのに十分なポイントを提供します。",578,Assets/Res/Sprite/Instructions/Custom/SeedBoss-9.png
-Assets/Res/Sprite/Instructions/Background/CombatExtraDrop.png,,579,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-Assets/Res/Sprite/Instructions/Background/GatheringExtraDrop.png,,580,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png,,581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png,,582,###.png
-###.png,,583,###.png
-###.png,,584,###.png
-###.png,,585,###.png
-###.png,,586,###.png
-###.png,,587,###.png
-###.png,,588,###.png
-###.png,,589,###.png
+Assets/Res/Sprite/Instructions/Background/CombatExtraDrop.png," - 確率イベント；全プレイヤーのトリガーの合計数にはデイリーキャップがあります。
+- 追加ドロップをトリガーした後、以下の行動が追加ドロップで報酬されます：
+   - ボスの討伐
+   - 大型の収集者の収集
+   - 大型の作物の植え付け
+- ボス/大型収集者/大型作物は高得点も提供します。
+- 通常のモンスター/通常の収集者/通常の作物はすでにレベルをクリアするのに十分なポイントを提供します。",579,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
+Assets/Res/Sprite/Instructions/Background/GatheringExtraDrop.png," - 確率イベント；全プレイヤーのトリガーの合計数にはデイリーキャップがあります。
+- 追加ドロップをトリガーした後、以下の行動が追加ドロップで報酬されます：
+   - ボスの討伐
+   - 大型の収集者の収集
+   - 大型の作物の植え付け
+- ボス/大型収集者/大型作物は高得点も提供します。
+- 通常のモンスター/通常の収集者/通常の作物はすでにレベルをクリアするのに十分なポイントを提供します。",580,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
+Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - 確率イベント；全プレイヤーのトリガーの合計数にはデイリーキャップがあります。
+- 追加ドロップをトリガーした後、以下の行動が追加ドロップで報酬されます：
+   - ボスの討伐
+   - 大型の収集者の収集
+   - 大型の作物の植え付け
+- ボス/大型収集者/大型作物は高得点も提供します。
+- 通常のモンスター/通常の収集者/通常の作物はすでにレベルをクリアするのに十分なポイントを提供します。",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," トーテムを起動する際に、赤い結晶を選択してください。トーテムは一定期間後に1つの赤い結晶を生成します。
+手動で収集が必要です。",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," トーテムを起動する際に、青い結晶を選択してください。トーテムは一定期間後に1つの青い結晶を生成します。
+手動で収集が必要です。",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," トーテムを起動する際に、緑の結晶を選択してください。トーテムは一定期間後に1つの緑の結晶を生成します。
+手動で収集が必要です。",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png,,585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png,,586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png,,587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png,,588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png,,589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png,,590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png," 開催時間：20:00 - 20:30
+スライムNPCを見つけて保護クエストを受け入れます。スライムを目的地まで護衛して報酬を受け取ります。
+途中でモンスターや他のプレイヤーの攻撃に遭うことがありますので、脅威からスライムを守ってください。
+他のプレイヤーはスライムにダメージを与えるために「インターセプト」スキルしか使用できません。",591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png,,592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png,,593,###.png
+###.png,,594,###.png
+###.png,,595,###.png
+###.png,,596,###.png

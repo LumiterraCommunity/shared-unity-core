@@ -495,10 +495,10 @@ Assets/Res/Sprite/Instructions/Background/Common.png, Captura - Guerreiro Cacto,
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura - Gato de Mineração,504,Assets/Res/Sprite/Icon/Recipe/recipe-icon-926.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura - Amigo Zumbido,505,Assets/Res/Sprite/Icon/Head/monster-icon-6.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura - Espreitador Folhoso,506,Assets/Res/Sprite/Icon/Head/monster-icon-7.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
+Assets/Res/Sprite/Instructions/Background/Common.png,@@ Captura--Guerreiro Cacto,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Gato de Mineração,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Amigo Zumbido,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Espreitador Folhoso,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
 Assets/Res/Sprite/Instructions/Background/Common.png,@@ Captura--Espectro do Caos,511,Assets/Res/Sprite/Icon/Head/monster-icon-12.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Esmagador Carmesim,512,Assets/Res/Sprite/Icon/Head/monster-icon-13.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Captura--Pata Gelada,513,Assets/Res/Sprite/Icon/Head/monster-icon-14.png
@@ -588,11 +588,35 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - Evento probab
    - Plantando Culturas Grandes
 - Chefes/Grandes Coletadores/Grandes Culturas também fornecem pontuações altas.
 - Monstros normais/coletadores normais/culturas normais já fornecem pontos suficientes para passar de nível. ",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, Vazio ,582,###.png
-###.png, Vazio ,583,###.png
-###.png, Vazio ,584,###.png
-###.png, Vazio ,585,###.png
-###.png, Vazio ,586,###.png
-###.png, Vazio ,587,###.png
-###.png, Vazio ,588,###.png
-###.png, Vazio,589,###.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png, Vazio ,582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png, Vazio ,583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png, Vazio ,584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png, Vazio ,588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png, Vazio,589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png," O aprimoramento de equipamentos requer totens como portadores.
+O aprimoramento de equipamentos pode aumentar tanto o nível de aprimoramento quanto as estatísticas base do equipamento.
+Um aprimoramento de equipamento de nível 10 é equivalente a um upgrade de equipamento de nível 1.
+Exemplo: Equipamento de nível 1 +20 = Equipamento de nível 2 +10",590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png," Horário de Abertura: 20:00 - 20:30
+Encontre o NPC Slime para aceitar a missão de proteção. Escolte o Slime até o destino para receber uma recompensa.
+Você pode encontrar monstros e ataques de outros jogadores pelo caminho, então proteja o Slime de ameaças.
+Outros jogadores só podem usar a habilidade ""Interceptar"" para causar dano ao Slime.",591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png," Encontre o Gerente do Totem, Anthony, no lado esquerdo da cidade principal e abra a interface de criação de totem para encontrar a receita. - Receita de Energia do Totem Lv 0",592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png," Desbloqueie receitas de criação de equipamentos ao atualizar os nós esquerdos da árvore de talentos.
+Encontre o guia de profissão correspondente e abra a interface de criação de equipamentos para encontrar a receita.
+Requer essência de outras profissões como materiais.
+Você também pode comprar os materiais diretamente na loja.
+O nível do equipamento influencia significativamente o nível de habilidade.",593,###.png
+###.png," Desbloqueie receitas de criação de equipamentos ao atualizar os nós esquerdos da árvore de talentos.
+Encontre o guia de profissão correspondente e abra a interface de criação de equipamentos para encontrar a receita.
+Requer essência de outras profissões como materiais.
+Você também pode comprar os materiais diretamente na loja.
+O nível do equipamento influencia significativamente o nível de habilidade.",594,###.png
+###.png," Quando o nó de talento de receita de criação de equipamentos atinge o nível máximo (nível 2 ou superior), a receita de reforgar equipamentos será desbloqueada.
+Encontre o guia de profissão, abra a interface de reforgar equipamentos e localize a receita.
+Reforgar equipamentos pode resultar em equipamentos de maior qualidade, com estatísticas melhores.
+A reforga não manterá o nível de aprimoramento, então proceda com cautela!",595,###.png
+###.png,,596,###.png
