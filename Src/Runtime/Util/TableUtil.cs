@@ -682,13 +682,6 @@ public static class TableUtil
                         battleData.ChangeHP(value);
                     }
                 }
-                else if (attributeType == eAttributeType.MaxHP)
-                {
-                    if (battleData != null)
-                    {
-                        battleData.SetHPMAX(value);
-                    }
-                }
                 else if (attributeType == eAttributeType.WhiteHP)
                 {
                     //白血量增加，同时修改最大白血量
@@ -697,13 +690,6 @@ public static class TableUtil
                     if (battleData != null)
                     {
                         battleData.SetWhiteHP(battleData.WhiteHP + value);
-                    }
-                }
-                else if (attributeType == eAttributeType.MaxWhiteHP)
-                {
-                    if (battleData != null)
-                    {
-                        battleData.SetWhiteHPMAX(value);
                     }
                 }
                 else
@@ -718,6 +704,8 @@ public static class TableUtil
                 continue;
             }
         }
+
+        battleData?.LimitBattleAttributeToMax();
 
         return list;
     }
