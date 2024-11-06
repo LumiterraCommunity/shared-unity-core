@@ -495,10 +495,10 @@ Assets/Res/Sprite/Instructions/Background/Common.png, Yakalama--Kaktüs Savaşç
 Assets/Res/Sprite/Instructions/Background/Common.png, Yakalama--Maden Kedisi ,504,Assets/Res/Sprite/Icon/Recipe/recipe-icon-926.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Yakalama--Vızıldayan Arkadaş ,505,Assets/Res/Sprite/Icon/Head/monster-icon-6.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Yakalama--Yapraklı Gizleyici,506,Assets/Res/Sprite/Icon/Head/monster-icon-7.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
+Assets/Res/Sprite/Instructions/Background/Common.png,@@ Capture--Kaktüs Savaşçısı ,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Maden Kedisi ,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Vızıldayan Arkadaş ,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Yapraklı Gizleyici ,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
 Assets/Res/Sprite/Instructions/Background/Common.png,Capture--Kaos Hayaleti ,511,Assets/Res/Sprite/Icon/Head/monster-icon-12.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Kızıl Diş ,512,Assets/Res/Sprite/Icon/Head/monster-icon-13.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Capture--Buzlu Pati ,513,Assets/Res/Sprite/Icon/Head/monster-icon-14.png
@@ -548,7 +548,7 @@ Assets/Res/Sprite/Instructions/Background/Common.png, Boss Öldürme (Ekstra Dü
 Assets/Res/Sprite/Instructions/Background/Common.png, Boss Öldürme (Ekstra Düşme Etkinliği olan Zindanda)--Perdition'ın Şeytani Efendisi ,557,Assets/Res/Sprite/Icon/Head/monster-icon-39.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Boss Öldürme (Ekstra Düşme Etkinliği olan Zindanda)--Yükselen Hükümdar ,558,Assets/Res/Sprite/Icon/Head/monster-icon-61.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Boss Öldürme (Ekstra Düşme Etkinliği olan Zindanda)--Yemyeşil Alev Savaş Efendisi,559,Assets/Res/Sprite/Icon/Head/monster-icon-66.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,560,Assets/Res/Sprite/Icon/Head/monster-icon-71.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Killing Boss (in Dungeon with Extra Drop Event)--Yemyeşil Alev Savaş Lordu ,560,Assets/Res/Sprite/Icon/Head/monster-icon-71.png
 Assets/Res/Sprite/Instructions/Background/Common.png,@@ Toplama Büyük Toplayıcı (Ekstra Düşme Etkinliği ile meydan okuma)--Boss toplama#104 ,561,Assets/Res/Sprite/Icon/HomeResource/homeresource-104.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Toplama Büyük Toplayıcı (Ekstra Düşme Etkinliği ile meydan okuma)--Boss toplama#105 ,562,Assets/Res/Sprite/Icon/HomeResource/homeresource-105.png
 Assets/Res/Sprite/Instructions/Background/Common.png, Toplama Büyük Toplayıcı (Ekstra Düşme Etkinliği ile meydan okuma)--Boss toplama#106 ,563,Assets/Res/Sprite/Icon/HomeResource/homeresource-106.png
@@ -588,11 +588,48 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - Olasılıksal
    - Büyük Mahsuller ekimi yapmak
 - Patronlar/Büyük Toplayıcılar/Büyük Mahsuller aynı zamanda yüksek puanlar sağlar.
 - Normal canavarlar/normal toplayıcılar/normal mahsuller zaten seviyeyi geçmek için yeterli puan sağlar. ",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, Boş ,582,###.png
-###.png, Boş ,583,###.png
-###.png, Boş ,584,###.png
-###.png, Boş ,585,###.png
-###.png, Boş ,586,###.png
-###.png, Boş ,587,###.png
-###.png, Boş ,588,###.png
-###.png, Boş,589,###.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," Totemi etkinleştirdiğinizde, kırmızı kristali seçin. Totem belirli bir süre sonra bir kırmızı kristal üretecektir.
+Manuel toplama gereklidir. ",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," Totemi etkinleştirdiğinizde, mavi kristali seçin. Totem belirli bir süre sonra bir mavi kristal üretecektir.
+Manuel toplama gereklidir. ",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," Totemi etkinleştirdiğinizde, yeşil kristali seçin. Totem belirli bir süre sonra bir yeşil kristal üretecektir.
+Manuel toplama gereklidir. ",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Reçeteleri yetenek ağacını yükselterek kilidini açın.
+Ana şehrin sol tarafında Totem Yöneticisi Anthony'yi bulun ve reçeteyi bulmak için totem yapım arayüzünü açın.--Lv 1 Güçlendirme Taşı - Savaş  ",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Reçeteleri yetenek ağacını yükselterek kilidini açın.
+Ana şehrin sol tarafında Totem Yöneticisi Anthony'yi bulun ve reçeteyi bulmak için totem yapım arayüzünü açın.--Lv 1 Güçlendirme Taşı - Toplama  ",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png," Reçeteleri yetenek ağacını yükselterek kilidini açın.
+Ana şehrin sol tarafında Totem Yöneticisi Anthony'yi bulun ve reçeteyi bulmak için totem yapım arayüzünü açın.--Lv 1 Güçlendirme Taşı - Tarım  ",587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png," Ekipman yapım reçetelerini yetenek ağacının sol düğümlerini yükselterek kilidini açın.
+İlgili meslek rehberini bulun ve reçeteyi bulmak için ekipman yapım arayüzünü açın.
+Diğer mesleklerden gelen özü malzeme olarak gerektirir.
+Malzemeleri doğrudan mağazadan da satın alabilirsiniz.
+Ekipman seviyesi yetenek seviyesini büyük ölçüde etkiler. ",588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png," Ekipman yapım reçeteleri yetenek ağacının sol düğümlerini yükselterek tam seviyeye ulaştığında (seviye 2 veya üstü), ekipman yeniden şekillendirme reçetesi kilidini açılacaktır.
+Meslek rehberini bulun, ekipman yeniden şekillendirme arayüzünü açın ve reçeteyi bulun.
+Ekipmanı yeniden şekillendirmek daha yüksek kaliteli ekipman elde etmenize neden olabilir, bu da daha iyi istatistiklere sahiptir.
+Yeniden şekillendirme, güçlendirme seviyesini korumayacak, bu nedenle dikkatli olun! ",589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png," Ekipman güçlendirme, totemleri taşıyıcı olarak gerektirir.
+Ekipman güçlendirmesi ekipmanın hem güçlendirme seviyesini hem de temel istatistiklerini artırabilir.
+Seviye 10 ekipman güçlendirmesi, seviye 1 ekipman yükseltmesine eşdeğerdir.
+Örnek: Seviye 1 ekipman +20 = Seviye 2 ekipman +10 ",590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png," Açılış Saati: 20:00 - 20:30
+Slime NPC'sini bulun ve koruma görevini kabul edin. Slime'ı hedefe götürmek için eşlik edin ve ödül alın.
+Yolda canavarlar ve diğer oyuncuların saldırılarıyla karşılaşabilirsiniz, bu nedenle Slime'ı tehditlerden koruyun.
+Diğer oyuncular yalnızca Slime'a zarar vermek için ""Engelleme"" becerisini kullanabilir. ",591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png, Ana şehrin sol tarafında Totem Yöneticisi Anthony'yi bulun ve reçeteyi bulmak için totem yapım arayüzünü açın.--Lv 0-Totem Enerji Reçetesi ,592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png," Ekipman yapım reçetelerini yetenek ağacının sol düğümlerini yükselterek kilidini açın.
+İlgili meslek rehberini bulun ve reçeteyi bulmak için ekipman yapım arayüzünü açın.
+Diğer mesleklerden gelen özü malzeme olarak gerektirir.
+Malzemeleri doğrudan mağazadan da satın alabilirsiniz.
+Ekipman seviyesi yetenek seviyesini büyük ölçüde etkiler. ",593,###.png
+###.png," Ekipman yapım reçetelerini yetenek ağacının sol düğümlerini yükselterek kilidini açın.
+İlgili meslek rehberini bulun ve reçeteyi bulmak için ekipman yapım arayüzünü açın.
+Diğer mesleklerden gelen özü malzeme olarak gerektirir.
+Malzemeleri doğrudan mağazadan da satın alabilirsiniz.
+Ekipman seviyesi yetenek seviyesini büyük ölçüde etkiler. ",594,###.png
+###.png," Ekipman yapım reçeteleri yetenek ağacının sol düğümlerini yükselterek tam seviyeye ulaştığında (seviye 2 veya üstü), ekipman yeniden şekillendirme reçetesi kilidini açılacaktır.
+Meslek rehberini bulun, ekipman yeniden şekillendirme arayüzünü açın ve reçeteyi bulun.
+Ekipmanı yeniden şekillendirmek daha yüksek kaliteli ekipman elde etmenize neden olabilir, bu da daha iyi istatistiklere sahiptir.
+Yeniden şekillendirme, güçlendirme seviyesini korumayacak, bu nedenle dikkatli olun!",595,###.png
+###.png,,596,###.png

@@ -495,10 +495,10 @@ Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 선인장 전사 
 Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 광산 고양이 ,504,Assets/Res/Sprite/Icon/Recipe/recipe-icon-926.png
 Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 버즈 친구 ,505,Assets/Res/Sprite/Icon/Head/monster-icon-6.png
 Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 잎사귀 잠복꾼,506,Assets/Res/Sprite/Icon/Head/monster-icon-7.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
-Assets/Res/Sprite/Instructions/Background/Common.png,,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
+Assets/Res/Sprite/Instructions/Background/Common.png,@@ 포획 - 선인장 전사,507,Assets/Res/Sprite/Icon/Head/monster-icon-8.png
+Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 광산 고양이,508,Assets/Res/Sprite/Icon/Head/monster-icon-9.png
+Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 버즈 친구,509,Assets/Res/Sprite/Icon/Head/monster-icon-11.png
+Assets/Res/Sprite/Instructions/Background/Common.png, 포획 - 잎사귀 잠복꾼,510,Assets/Res/Sprite/Icon/Head/monster-icon-10.png
 Assets/Res/Sprite/Instructions/Background/Common.png,캡처 - 혼돈의 망령,511,Assets/Res/Sprite/Icon/Head/monster-icon-12.png
 Assets/Res/Sprite/Instructions/Background/Common.png, 캡처 - 진홍색 이빨,512,Assets/Res/Sprite/Icon/Head/monster-icon-13.png
 Assets/Res/Sprite/Instructions/Background/Common.png, 캡처 - 서리 발,513,Assets/Res/Sprite/Icon/Head/monster-icon-14.png
@@ -581,12 +581,48 @@ Assets/Res/Sprite/Instructions/Background/GatheringExtraDrop.png," - 확률적 �
    - 대규모 작물 심기
 - 보스/대규모 수집자/대규모 작물은 높은 점수를 제공합니다.
 - 일반 몬스터/일반 수집자/일반 작물은 이미 레벨 통과에 충분한 점수를 제공합니다.",580,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png, Empty,581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
-###.png, Empty,582,###.png
-###.png, Empty,583,###.png
-###.png, Empty,584,###.png
-###.png, Empty,585,###.png
-###.png, Empty,586,###.png
-###.png, Empty,587,###.png
-###.png, Empty,588,###.png
-###.png,,589,###.png
+Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - 확률적 이벤트; 모든 플레이어의 총 트리거 횟수에는 일일 제한이 있습니다.
+- 추가 드롭을 트리거한 후, 다음 행동들이 추가 드롭으로 보상됩니다:
+   - 보스 처치
+   - 대규모 수집자 수집
+   - 대규모 작물 심기
+- 보스/대규모 수집자/대규모 작물은 높은 점수를 제공합니다.
+- 일반 몬스터/일반 수집자/일반 작물은 이미 레벨 통과에 충분한 점수를 제공합니다.",581,Assets/Res/Sprite/Instructions/Custom/ExDropReward.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png," 토템을 활성화할 때, 빨간 크리스탈을 선택하십시오. 일정 시간 후 토템은 하나의 빨간 크리스탈을 생성합니다.
+수동 수집이 필요합니다.",582,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png," 토템을 활성화할 때, 파란 크리스탈을 선택하십시오. 일정 시간 후 토템은 하나의 파란 크리스탈을 생성합니다.
+수동 수집이 필요합니다.",583,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," 토템을 활성화할 때, 녹색 크리스탈을 선택하십시오. 일정 시간 후 토템은 하나의 녹색 크리스탈을 생성합니다.
+수동 수집이 필요합니다.",584,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Common.png," 재능 트리를 업그레이드하여 레시피를 해제합니다.
+주요 도시의 왼쪽에 있는 토템 매니저 앤서니를 찾아 토템 제작 인터페이스를 열어 레시피를 찾으십시오. - Lv 1 강화석 - 전투",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Assets/Res/Sprite/Instructions/Background/Common.png," 재능 트리를 업그레이드하여 레시피를 해제합니다.
+주요 도시의 왼쪽에 있는 토템 매니저 앤서니를 찾아 토템 제작 인터페이스를 열어 레시피를 찾으십시오. - Lv 1 강화석 - 채집",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Assets/Res/Sprite/Instructions/Background/Common.png," 재능 트리를 업그레이드하여 레시피를 해제합니다.
+주요 도시의 왼쪽에 있는 토템 매니저 앤서니를 찾아 토템 제작 인터페이스를 열어 레시피를 찾으십시오. - Lv 1 강화석 - 농사",587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png," 왼쪽 노드를 업그레이드하여 장비 제작 레시피를 해제합니다.
+해당 직업 안내서를 찾아 장비 제작 인터페이스를 열어 레시피를 찾으십시오.
+다른 직업의 에센스가 필요한 재료입니다.
+상점에서 직접 재료를 구입할 수도 있습니다.
+장비 레벨은 능력 레벨에 큰 영향을 미칩니다.",588,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png," 장비 제작 레시피 재능 노드가 최대 레벨에 도달하면(레벨 2 이상), 장비 개조 레시피가 해제됩니다.
+직업 안내서를 찾아 장비 개조 인터페이스를 열고 레시피를 찾으십시오.
+장비 개조는 더 높은 품질의 장비를 얻을 수 있으며, 더 좋은 스탯을 제공합니다.
+개조하면 강화 레벨이 유지되지 않으므로 주의하십시오!",589,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png," 장비 강화에는 토템이 필요합니다.
+장비 강화는 장비의 강화 레벨과 기본 스탯을 모두 증가시킬 수 있습니다.
+레벨 10 장비 강화는 레벨 1 장비 업그레이드와 동일합니다.
+예: 레벨 1 장비 +20 = 레벨 2 장비 +10",590,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/EscortSlime.png," 오픈 시간: 20:00 - 20:30
+슬라임 NPC를 찾아 보호 퀘스트를 수락하십시오. 슬라임을 목적지로 호위하여 보상을 받으십시오.
+길을 따라 몬스터나 다른 플레이어의 공격을 만날 수 있으므로 위협으로부터 슬라임을 보호하십시오.
+다른 플레이어는 슬라임에 대한 피해를 입히기 위해 ""가로막기"" 기술만 사용할 수 있습니다.",591,Assets/Res/Sprite/Instructions/Custom/.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png, 주요 도시의 왼쪽에 있는 토템 매니저 앤서니를 찾아 토템 제작 인터페이스를 열어 레시피를 찾으십시오. - Lv 0-토템 에너지 레시피,592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+###.png," 왼쪽 노드를 업그레이드하여 장비 제작 레시피를 해제합니다.
+해당 직업 안내서를 찾아 장비 제작 인터페이스를 열어 레시피를 찾으십시오.
+다른 직업의 에센스가 필요한 재료입니다.
+상점에서 직접 재료를 구입할 수도 있습니다.
+장비 레벨은 능력 레벨에 큰 영향을 미칩니다.",593,###.png
+###.png,,594,###.png
+###.png,,595,###.png
+###.png,,596,###.png
