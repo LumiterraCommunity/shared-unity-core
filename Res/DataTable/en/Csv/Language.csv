@@ -414,6 +414,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320007,世界图腾,Totem energy is insufficient.
 ,20320008,世界图腾,The totem is not activated.
 ,20320009,世界图腾,Can't set enhance price within {0} minutes.
+,20320010,,Not enough energy recharge items
 ,20330000,装备强化,Insufficient protective stone.
 ,20330001,装备强化,"Equipment is being enhanced, please wait."
 ,20330002,装备强化,Please select the inheritance target first.
@@ -441,3 +442,9 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20350011,护送任务,Are you sure you want to give up the escort mission?
 ,20350012,护送任务,There are no slimes left to escort in the current world
 ,20360001,系统聊天,[color=#ooccff]{0}[/color] has obtained dropped items
+,20370002,,Start uploading log...
+,20370003,,{0} upload success.
+,20370004,,{0} upload failed.
+,20370005,,Current start
+,20370006,,Last start
+,20370007,,Before last start

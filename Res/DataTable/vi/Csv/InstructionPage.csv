@@ -596,11 +596,11 @@ Yêu cầu thu thập thủ công.",583,Assets/Res/Sprite/Instructions/Custom/.p
 Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png," Khi kích hoạt bàn thờ, chọn tinh thể xanh lá cây. Bàn thờ sẽ tạo ra một tinh thể xanh lá cây sau một khoảng thời gian nhất định.
 Yêu cầu thu thập thủ công.",584,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/Common.png," Mở khóa công thức bằng cách nâng cấp cây tài năng.
-Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Chiến đấu",585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
+Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Chiến đấu",585,Assets/Res/Sprite/Icon/Recipe/.png
 Assets/Res/Sprite/Instructions/Background/Common.png," Mở khóa công thức bằng cách nâng cấp cây tài năng.
-Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Thu thập",586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
+Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Thu thập",586,Assets/Res/Sprite/Icon/Recipe/.png
 Assets/Res/Sprite/Instructions/Background/Common.png," Mở khóa công thức bằng cách nâng cấp cây tài năng.
-Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Nông nghiệp",587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Đá Nâng cấp Lv 1 - Nông nghiệp",587,Assets/Res/Sprite/Icon/Recipe/.png
 Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png," Mở khóa công thức chế tạo trang bị bằng cách nâng cấp các nút bên trái của cây tài năng.
 Tìm hướng dẫn nghề nghiệp tương ứng và mở giao diện chế tạo trang bị để tìm công thức.
 Yêu cầu tinh chất từ các nghề nghiệp khác nhau làm nguyên liệu.
@@ -618,12 +618,22 @@ Assets/Res/Sprite/Instructions/Background/EscortSlime.png," Thời gian mở c�
 Tìm NPC Slime để chấp nhận nhiệm vụ bảo vệ. Hãy hộ tống Slime đến điểm đến để nhận phần thưởng.
 Bạn có thể gặp phải quái vật và tấn công từ người chơi khác trên đường đi, vì vậy hãy bảo vệ Slime khỏi nguy cơ.
 Người chơi khác chỉ có thể sử dụng kỹ năng ""Chặn đứng"" để gây sát thương cho Slime.",591,Assets/Res/Sprite/Instructions/Custom/.png
-Assets/Res/Sprite/Instructions/Background/Anthony.png," Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Lv 0-Công thức Năng lượng Bàn thờ",592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png," Tìm Người quản lý Bàn thờ, Anthony, ở phía trái của thành phố chính và mở giao diện chế tạo bàn thờ để tìm công thức.--Lv 0-Công thức Năng lượng Bàn thờ",592,Assets/Res/Sprite/Icon/Recipe/.png
 ###.png," Mở khóa công thức chế tạo trang bị bằng cách nâng cấp các nút bên trái của cây tài năng.
 Tìm hướng dẫn nghề nghiệp tương ứng và mở giao diện chế tạo trang bị để tìm công thức.
 Yêu cầu tinh chất từ các nghề nghiệp khác nhau làm nguyên liệu.
 Bạn cũng có thể mua nguyên liệu trực tiếp từ cửa hàng.
 Cấp độ trang bị ảnh hưởng rất lớn đến cấp độ khả năng.",593,###.png
-###.png,,594,###.png
-###.png,,595,###.png
-###.png,,596,###.png
+###.png,"Mở khóa công thức chế tạo trang bị bằng cách nâng cấp các nút bên trái của cây tài năng.
+Tìm hướng dẫn nghề nghiệp tương ứng và mở giao diện chế tạo trang bị để tìm công thức.
+Yêu cầu tinh chất từ các nghề nghiệp khác như vật liệu.
+Bạn cũng có thể mua trực tiếp các vật liệu từ cửa hàng.
+Cấp độ trang bị ảnh hưởng rất lớn đến cấp độ khả năng.",594,###.png
+###.png," Khi nút tài năng công thức chế tạo trang bị đạt cấp độ đầy đủ (cấp độ 2 trở lên), công thức tái tạo trang bị sẽ được mở khóa.
+Tìm hướng dẫn nghề nghiệp, mở giao diện tái tạo trang bị và xác định công thức.
+Tái tạo trang bị có thể tạo ra trang bị chất lượng cao hơn, có chỉ số tốt hơn.
+Tái tạo sẽ không giữ lại cấp độ tăng cường, vì vậy hãy cẩn thận khi thực hiện!",595,###.png
+###.png," Khi nút tài năng công thức chế tạo trang bị đạt cấp độ đầy đủ (cấp độ 2 trở lên), công thức tái tạo trang bị sẽ được mở khóa.
+Tìm hướng dẫn nghề nghiệp, mở giao diện tái tạo trang bị và xác định công thức.
+Tái tạo trang bị có thể tạo ra trang bị chất lượng cao hơn, có chỉ số tốt hơn.
+Tái tạo sẽ không giữ lại cấp độ tăng cường, vì vậy hãy cẩn thận khi thực hiện!",596,###.png
