@@ -14,6 +14,12 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
     /// </summary>
     private readonly ListMap<long, WorldTotemDataCore> _entityMap = new();
 
+    //TODO: totem bug测试日志
+    private void Awake()
+    {
+        Log.Info("WorldTotemEntityMgrCore Awake");
+    }
+
     /// <summary>
     /// 当前管理的所有图腾实体 客户端为视野内 key:实体id 无GC不要修改内部元素
     /// </summary>
@@ -25,6 +31,11 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
         {
             Log.Error($"WorldTotemEntityMgrCore.AddWorldTotem() is already exist id:{totemData.BaseData.Id}");
         }
+        else
+        {
+            //TODO: totem bug测试日志
+            Log.Info($"WorldTotemEntityMgrCore add totem success id:{totemData.BaseData.Id}");
+        }
     }
 
     internal void RemoveWorldTotem(WorldTotemDataCore totemData)
@@ -32,6 +43,11 @@ public class WorldTotemEntityMgrCore : SceneModuleBase
         if (!_entityMap.Remove(totemData.BaseData.Id))
         {
             Log.Error($"WorldTotemEntityMgrCore.RemoveWorldTotem() is not exist id:{totemData.BaseData.Id}");
+        }
+        else
+        {
+            //TODO: totem bug测试日志
+            Log.Info($"WorldTotemEntityMgrCore remove totem success id:{totemData.BaseData.Id}");
         }
     }
 

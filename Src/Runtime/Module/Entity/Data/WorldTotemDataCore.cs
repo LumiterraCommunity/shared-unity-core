@@ -1,4 +1,5 @@
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 
 /// <summary>
 /// 世界图腾数据
@@ -16,11 +17,15 @@ public class WorldTotemDataCore : EntityBaseComponent
 
     protected void Start()
     {
+        //TODO: totem bug测试日志
+        Log.Info($"WorldTotemDataCore Start id:{BaseData?.Id}");
         GFEntryCore.GetModule<WorldTotemEntityMgrCore>().AddWorldTotem(this);
     }
 
     protected void OnDestroy()
     {
+        //TODO: totem bug测试日志
+        Log.Info($"WorldTotemDataCore OnDestroy id:{BaseData?.Id}");
         GFEntryCore.GetModule<WorldTotemEntityMgrCore>().RemoveWorldTotem(this);
     }
 
