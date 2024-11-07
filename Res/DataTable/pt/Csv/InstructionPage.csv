@@ -591,9 +591,9 @@ Assets/Res/Sprite/Instructions/Background/FarmingExtraDrop.png," - Evento probab
 Assets/Res/Sprite/Instructions/Background/TotemMining_Combat.png, Vazio ,582,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/TotemMining_Gathering.png, Vazio ,583,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/TotemMining_Farming.png, Vazio ,584,Assets/Res/Sprite/Instructions/Custom/.png
-Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,585,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1259.png
-Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,586,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1268.png
-Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,587,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1277.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,585,Assets/Res/Sprite/Icon/Recipe/.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,586,Assets/Res/Sprite/Icon/Recipe/.png
+Assets/Res/Sprite/Instructions/Background/Common.png, Vazio ,587,Assets/Res/Sprite/Icon/Recipe/.png
 Assets/Res/Sprite/Instructions/Background/EquipmentCraft.png, Vazio ,588,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/EquipmentRecasting.png, Vazio,589,Assets/Res/Sprite/Instructions/Custom/.png
 Assets/Res/Sprite/Instructions/Background/EquipmentEnhanment.png," O aprimoramento de equipamentos requer totens como portadores.
@@ -604,7 +604,7 @@ Assets/Res/Sprite/Instructions/Background/EscortSlime.png," Horário de Abertura
 Encontre o NPC Slime para aceitar a missão de proteção. Escolte o Slime até o destino para receber uma recompensa.
 Você pode encontrar monstros e ataques de outros jogadores pelo caminho, então proteja o Slime de ameaças.
 Outros jogadores só podem usar a habilidade ""Interceptar"" para causar dano ao Slime.",591,Assets/Res/Sprite/Instructions/Custom/.png
-Assets/Res/Sprite/Instructions/Background/Anthony.png," Encontre o Gerente do Totem, Anthony, no lado esquerdo da cidade principal e abra a interface de criação de totem para encontrar a receita. - Receita de Energia do Totem Lv 0",592,Assets/Res/Sprite/Icon/Recipe/recipe-icon-1286.png
+Assets/Res/Sprite/Instructions/Background/Anthony.png," Encontre o Gerente do Totem, Anthony, no lado esquerdo da cidade principal e abra a interface de criação de totem para encontrar a receita. - Receita de Energia do Totem Lv 0",592,Assets/Res/Sprite/Icon/Recipe/.png
 ###.png," Desbloqueie receitas de criação de equipamentos ao atualizar os nós esquerdos da árvore de talentos.
 Encontre o guia de profissão correspondente e abra a interface de criação de equipamentos para encontrar a receita.
 Requer essência de outras profissões como materiais.
@@ -619,4 +619,7 @@ O nível do equipamento influencia significativamente o nível de habilidade.",5
 Encontre o guia de profissão, abra a interface de reforgar equipamentos e localize a receita.
 Reforgar equipamentos pode resultar em equipamentos de maior qualidade, com estatísticas melhores.
 A reforga não manterá o nível de aprimoramento, então proceda com cautela!",595,###.png
-###.png,,596,###.png
+###.png,"Uma vez que o nó de talento da receita de criação de equipamentos atinge o nível máximo (nível 2 ou superior), a receita de reforgar equipamentos será desbloqueada.
+Encontre o guia da profissão, abra a interface de reforgar equipamentos e localize a receita.
+Reforgar equipamentos pode resultar em equipamentos de maior qualidade, que possuem estatísticas melhores.
+A reforga não manterá o nível de aprimoramento, portanto, proceda com cautela!",596,###.png
