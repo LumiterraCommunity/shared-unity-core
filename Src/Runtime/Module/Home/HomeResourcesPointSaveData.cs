@@ -19,7 +19,7 @@ public class HomeResourcesPointSaveData
     /// </summary>
     public SerializableVector3 Pos;
     /// <summary>
-    /// 等级
+    /// 等级 包含副本难度
     /// </summary>
     public float Level;
 }
