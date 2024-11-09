@@ -8,6 +8,7 @@
 using System;
 using System.Collections.Generic;
 using GameMessageCore;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
 /// <summary>
@@ -374,11 +375,20 @@ public class EntityBattleDataCore : EntityBaseComponent
     }
 
     /// <summary>
-    /// 限制一些有max的战斗属性到最大值 比如hp 和whiteHp
+    /// hp和whiteHp自动适配最大值 会按照新的最大值变化比例设置血量 需要给出旧的最大值
+    /// 可以修复max变小hp超过上限 换装后max变小变大后hp回不来的问题
     /// </summary>
-    public virtual void LimitBattleAttributeToMax()
+    public virtual void HpAutoAdaptMax(int oldMaxHP, int oldMaxWhiteHP)
     {
-        HP = Math.Min(HP, HPMAX);
-        WhiteHP = Math.Min(WhiteHP, WhiteHPMAX);
+        if (oldMaxHP > 0 && oldMaxHP != HPMAX)
+        {
+            HP = Mathf.RoundToInt(HP * (float)HPMAX / oldMaxHP);
+            HP = Mathf.Min(HP, HPMAX);
+        }
+        if (oldMaxWhiteHP > 0 && oldMaxWhiteHP != WhiteHPMAX)
+        {
+            WhiteHP = Mathf.RoundToInt(WhiteHP * (float)WhiteHPMAX / oldMaxWhiteHP);
+            WhiteHP = Mathf.Min(WhiteHP, WhiteHPMAX);
+        }
     }
 }
