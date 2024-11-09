@@ -19,6 +19,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public ListMap<long, PlayerInstancingData> PlayerInstancingData = new(); //玩家副本数据
     public int CurLevelIndex { get; set; } = 0; //当前关卡
     public long CurLevelStartTime { get; set; } = 0; //当前关卡开始时间
+    public long CurLevelEndTime { get; set; } = 0; //当前关卡结束时间 在进度完成弹出奖励时刻
     public long InstancingStartTime = 0; //副本开始时间
     public bool IsMatchComplete = false; //是否匹配完成
     public InstancingTotemData TotemData = new(); //副本图腾数据
@@ -61,6 +62,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         }
         CurLevelIndex = index;
         CurLevelStartTime = TimeUtil.GetServerTimeStamp();
+        CurLevelEndTime = 0;
         LevelStatusChange(index);
         MessageCore.LevelStatusUpdate?.Invoke(index, LevelList[index].StatusType);
         return true;
@@ -83,6 +85,8 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         {
             return false;
         }
+
+        CurLevelEndTime = TimeUtil.GetServerTimeStamp();
         LevelStatusChange(index);
 
         Log.Info($"InstancingMgr CompleteLevel: index = {index}, isSuccess = {isSuccess}, isReward = {isReward}");
