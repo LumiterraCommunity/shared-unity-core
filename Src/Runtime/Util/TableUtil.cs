@@ -829,4 +829,36 @@ public static class TableUtil
         eSceneFunctionModuleType modules = ConvertToBitEnum<eSceneFunctionModuleType>(dRSceneArea.FunctionModule);
         return (modules & moduleType) != 0;
     }
+
+    /// <summary>
+    /// 获取某个装备属性强化lv级别的增益
+    /// </summary>
+    /// <param name="cid"></param>
+    /// <param name="type"></param>
+    /// <param name="enhanceLv"></param>
+    /// <returns></returns>
+    public static int GetEquipmentAttrEnhanceGain(int cid, eAttributeType type, int enhanceLv = 1)
+    {
+        try
+        {
+            DREquipment drEquipment = GetConfig<DREquipment>(cid);
+            enhanceLv = Mathf.Clamp(enhanceLv, 1, drEquipment.MaxEnhancementLevel);
+            for (int i = 0; i < drEquipment.EnhancementAttribute.Length; i++)
+            {
+                int[] attr = drEquipment.EnhancementAttribute[i];
+                if (attr[0] == (int)type)
+                {
+                    return attr[1] * enhanceLv;
+
+                }
+            }
+
+            return 0;
+        }
+        catch (Exception e)
+        {
+            Log.Error($"GetEquipmentAttrEnhanceGain error cid = {cid} type = {type} enhanceLv = {enhanceLv} e = {e}");
+            return 0;
+        }
+    }
 }
