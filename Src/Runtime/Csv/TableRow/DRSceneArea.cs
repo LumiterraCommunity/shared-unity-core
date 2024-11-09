@@ -339,18 +339,18 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取seedMaxLimit-int[]。*/
+  /**获取chapterIds-int[]。*/
     /// </summary>
-    public int[] SeedMaxLimit
+    public int[] ChapterIds
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取chapterIds-int[]。*/
+  /**获取seedMaxLimit-int[]。*/
     /// </summary>
-    public int[] ChapterIds
+    public int[] SeedMaxLimit
     {
         get;
         private set;
@@ -397,8 +397,8 @@ public class DRSceneArea : DataRowBase
         Tickets = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         CampLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossSeed = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
-        SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChapterIds = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        SeedMaxLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
 
         return true;
     }
@@ -446,8 +446,8 @@ public class DRSceneArea : DataRowBase
                 Tickets = binaryReader.ReadArrayList<Int32>();
                 CampLimit = binaryReader.ReadArray<Int32>();
                 BossSeed = binaryReader.ReadArray<String>();
-                SeedMaxLimit = binaryReader.ReadArray<Int32>();
                 ChapterIds = binaryReader.ReadArray<Int32>();
+                SeedMaxLimit = binaryReader.ReadArray<Int32>();
             }
         }
 

@@ -22,6 +22,7 @@ describe-string,id-int,module-string,value-string
 ,10001015,通用,Arbre des souhaits de combat
 ,10001016,通用, Rassemblez l'Arbre des souhaits.
 ,10001017,通用, Arbre des souhaits de la ferme
+,10001018,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -156,6 +157,14 @@ describe-string,id-int,module-string,value-string
 ,20070024,, Le nom doit comporter au moins {0} caractères.
 ,20070025,, Nom trop long.
 ,20070026,, Nom répété.
+,"20070027
+",,
+,20070028,,
+,20070029,,
+,20070030,,
+,20070031,,
+,20070032,,
+,20070033,,
 ,20080001,设置,"Pour appliquer le paramètre de langue, veuillez redémarrer l'application."
 ,20080002,设置,Arrêtez maintenant
 ,20080003,设置,Plus tard
@@ -293,6 +302,7 @@ NPC 不存在,20150018,副本,"PNJ introuvable, veuillez contacter l'administrat
 ,20160018,, Difficulté
 ,20160019,副本, Niveau {0}
 ,20160020,副本,
+,20160021,副本,
 ,20170000,合成,Entrer dans la file d'attente
 ,20170001,合成,La file d'artisanat est pleine.
 ,20170002,合成,La recette d'artisanat n'est pas déverrouillée.
@@ -402,7 +412,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320007,世界图腾, L'énergie du totem est insuffisante
 ,20320008,世界图腾, Le totem n'est pas activé
 ,20320009,世界图腾, Impossible de définir le prix d'amélioration dans les {0} minutes
-,20320010,,
+,20320010,世界图腾,
 ,20330000,装备强化, Pierre protectrice insuffisante
 ,20330001,装备强化," L'équipement est en cours d'amélioration, veuillez patienter"
 ,20330002,装备强化, Veuillez d'abord sélectionner la cible d'héritage
@@ -430,9 +440,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20350011,护送任务, Êtes-vous sûr de vouloir abandonner la mission d'escorte ?
 ,20350012,护送任务,
 ,20360001,系统聊天,[color=#ooccff]{0}[/color] a obtenu des objets abandonnés
-,20370002,,
-,20370003,,
-,20370004,,
-,20370005,,
-,20370006,,
-,20370007,,
+,20370002,日志,
+,20370003,日志,
+,20370004,日志,
+,20370005,日志,
+,20370006,日志,

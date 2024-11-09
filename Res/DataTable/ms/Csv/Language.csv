@@ -22,6 +22,7 @@ describe-string,id-int,module-string,value-string
 ,10001015,通用,Pohon Permintaan Pertempuran
 ,10001016,通用, Kumpulkan Pohon Permintaan.
 ,10001017,通用, Pohon Permintaan Ladang
+,10001018,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -156,6 +157,14 @@ describe-string,id-int,module-string,value-string
 ,20070024,, Nama mesti mengandungi sekurang-kurangnya {0} aksara.
 ,20070025,, Nama terlalu panjang.
 ,20070026,, Nama diulang.
+,"20070027
+",,
+,20070028,,
+,20070029,,
+,20070030,,
+,20070031,,
+,20070032,,
+,20070033,,
 ,20080001,设置,"Untuk menggunakan tetapan bahasa, sila mulakan semula apl."
 ,20080002,设置,Berhenti sekarang
 ,20080003,设置,Nanti
@@ -293,6 +302,7 @@ NPC 不存在,20150018,副本,"NPC tidak dijumpai, sila hubungi pentadbir"
 ,20160018,, Kesukaran
 ,20160019,副本, Tahap {0}
 ,20160020,副本,
+,20160021,副本,
 ,20170000,合成,Masuk dalam barisan antrian
 ,20170001,合成, Antrian kraf penuh.
 ,20170002,合成, Resipi kraf tidak terbuka.
@@ -402,7 +412,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320007,世界图腾, Tenaga totem tidak mencukupi
 ,20320008,世界图腾, Totem tidak diaktifkan
 ,20320009,世界图腾, Tidak boleh menetapkan harga peningkatan dalam masa {0} minit
-,20320010,,
+,20320010,世界图腾,
 ,20330000,装备强化, Batu perlindungan tidak mencukupi
 ,20330001,装备强化," Peralatan sedang dipertingkatkan, sila tunggu"
 ,20330002,装备强化, Sila pilih sasaran warisan terlebih dahulu
@@ -430,9 +440,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20350011,护送任务, Adakah anda pasti ingin menyerah misi pengiringan?
 ,20350012,护送任务,
 ,20360001,系统聊天,{0}[/color] telah mendapat barang yang terjatuh
-,20370002,,
-,20370003,,
-,20370004,,
-,20370005,,
-,20370006,,
-,20370007,,
+,20370002,日志,
+,20370003,日志,
+,20370004,日志,
+,20370005,日志,
+,20370006,日志,

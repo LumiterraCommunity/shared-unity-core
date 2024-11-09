@@ -22,6 +22,7 @@ describe-string,id-int,module-string,value-string
 ,10001015,通用,Combat Wish Tree
 ,10001016,通用,Gather Wish Tree
 ,10001017,通用,Farm Wish Tree
+,10001018,通用,Opening
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,HP Recovery
 ,10004023,装备属性-攻击点数,Attack Points
@@ -163,6 +164,14 @@ Sprite due to insufficient space"
 ,20070024,,Name must be at least {0} characters.
 ,20070025,,Name is too long.
 ,20070026,,Name repeated.
+,"20070027
+",,Asia
+,20070028,,Europe
+,20070029,,North America
+,20070030,,South America
+,20070031,,Africa
+,20070032,,Antarctica
+,20070033,,Grand Opening
 ,20080001,设置,"To apply the language setting, please restart the app."
 ,20080002,设置,Quit now
 ,20080003,设置,Later
@@ -303,6 +312,7 @@ There is a fixed global maximum limit on the total number of times this event ca
 ,20160018,,Difficulty
 ,20160019,副本,{0} Level
 ,20160020,副本,Challenge time remaining {0} seconds
+,20160021,副本,Leader choose within {0} seconds to proceed to the next level
 ,20170000,合成,Enter queue
 ,20170001,合成,Craft queue is full.
 ,20170002,合成,Craft recipe is not unlocked.
@@ -415,7 +425,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320007,世界图腾,Totem energy is insufficient.
 ,20320008,世界图腾,The totem is not activated.
 ,20320009,世界图腾,Can't set enhance price within {0} minutes.
-,20320010,,Not enough energy recharge items
+,20320010,世界图腾,Not enough energy recharge items
 ,20330000,装备强化,Insufficient protective stone.
 ,20330001,装备强化,"Equipment is being enhanced, please wait."
 ,20330002,装备强化,Please select the inheritance target first.
@@ -443,9 +453,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20350011,护送任务,Are you sure you want to give up the escort mission?
 ,20350012,护送任务,There are no slimes left to escort in the current world
 ,20360001,系统聊天,[color=#ooccff]{0}[/color] has obtained dropped items
-,20370002,,Start uploading log...
-,20370003,,{0} upload success.
-,20370004,,{0} upload failed.
-,20370005,,Current start
-,20370006,,Last start
-,20370007,,Before last start
+,20370002,日志,Start uploading log...
+,20370003,日志,{0} upload success.
+,20370004,日志,{0} upload failed.
+,20370005,日志,This startup
+,20370006,日志,Last startup
