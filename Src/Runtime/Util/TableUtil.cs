@@ -649,6 +649,9 @@ public static class TableUtil
     {
         List<IntAttributeModifier> list = new();
 
+        int oldHpMax = battleData?.HPMAX ?? 0;
+        int oldWhiteHpMax = battleData?.WhiteHPMAX ?? 0;
+
         for (int index = 0; index < parameters.Length; index++)
         {
             try
@@ -705,7 +708,7 @@ public static class TableUtil
             }
         }
 
-        battleData?.LimitBattleAttributeToMax();
+        battleData?.HpAutoAdaptMax(oldHpMax, oldWhiteHpMax);
 
         return list;
     }

@@ -148,6 +148,8 @@ public enum eGameValueID
     WagonCheckRadius = 136, //镖车检测范围
     WagonCheckEscortRadius = 139, //镖车检测护送范围
     TowerSaveLevelInterval = 146,
+    EscortWagonInstructionsId = 149, //押镖活动说明ID
+    InstancingSelectNextLevelTime = 152,//副本关卡通过后给予选择是否下一关的时间（秒）
 }
 
 // public static class GameValueID
