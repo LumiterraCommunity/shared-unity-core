@@ -147,6 +147,7 @@ public enum eGameValueID
     WagonCheckRadius = 136, //镖车检测范围
     WagonCheckEscortRadius = 139, //镖车检测护送范围
     TowerSaveLevelInterval = 146,
+    EscortWagonInstructionsId = 149, //押镖活动说明ID
 }
 
 // public static class GameValueID
