@@ -759,32 +759,6 @@ public static class TableUtil
     }
 
     /// <summary>
-    /// 获取图腾强化等级对应的命中率
-    /// </summary>
-    /// <param name="totemCid"></param>
-    /// <param name="lv"></param>
-    /// <returns></returns>
-    public static float GetTotemEnhanceHitRate(int totemCid, int lv)
-    {
-        DRTotem drTotem = GetConfig<DRTotem>(totemCid);
-        if (drTotem == null)
-        {
-            Log.Error($"GetTotemEnhanceHitRate drTotem is null totemCid = {totemCid}");
-            return 0;
-        }
-
-        int lv2hitRateIndex = EnhanceLv2EnhanceStage(lv);
-        if (lv < 0 || lv2hitRateIndex >= drTotem.EnhanceSucPro.Length)
-        {
-            Log.Error($"GetTotemEnhanceHitRate lv2hitRateIndex out of range lv2hitRateIndex = {lv2hitRateIndex}");
-            return 0;
-        }
-
-        float hitRate = drTotem.EnhanceSucPro[lv2hitRateIndex] * TableDefine.THOUSANDTH_2_FLOAT;
-        return hitRate;
-    }
-
-    /// <summary>
     /// 强化等级转强化阶段
     /// </summary>
     /// <param name="lv"></param>
@@ -854,5 +828,36 @@ public static class TableUtil
         }
         eSceneFunctionModuleType modules = ConvertToBitEnum<eSceneFunctionModuleType>(dRSceneArea.FunctionModule);
         return (modules & moduleType) != 0;
+    }
+
+    /// <summary>
+    /// 获取某个装备属性强化lv级别的增益
+    /// </summary>
+    /// <param name="cid"></param>
+    /// <param name="type"></param>
+    /// <param name="enhanceLv"></param>
+    /// <returns></returns>
+    public static int GetEquipmentAttrEnhanceGain(DREquipment cfg, eAttributeType type, int enhanceLv = 1)
+    {
+        try
+        {
+            enhanceLv = Mathf.Clamp(enhanceLv, 1, cfg.MaxEnhancementLevel);
+            for (int i = 0; i < cfg.EnhancementAttribute.Length; i++)
+            {
+                int[] attr = cfg.EnhancementAttribute[i];
+                if (attr[0] == (int)type)
+                {
+                    return attr[1] * enhanceLv;
+
+                }
+            }
+
+            return 0;
+        }
+        catch (Exception e)
+        {
+            Log.Error($"GetEquipmentAttrEnhanceGain error cid = {cfg.Id} type = {type} enhanceLv = {enhanceLv} e = {e}");
+            return 0;
+        }
     }
 }
