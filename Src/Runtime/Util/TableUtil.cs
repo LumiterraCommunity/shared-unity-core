@@ -625,7 +625,7 @@ public static class TableUtil
         float coefficient = GetAttributeCoefficient(type);
         if (cfg.ValueType == (int)eAttributeValueType.ThousandthPct)
         {
-            return (value * coefficient * MathUtilCore.PC).ToString("F2") + "%";
+            return (value * coefficient / MathUtilCore.PC).ToString("F2") + "%";
         }
         else if (cfg.ValueType == (int)eAttributeValueType.Thousandth)
         {

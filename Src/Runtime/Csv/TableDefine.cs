@@ -57,6 +57,7 @@ public static class TableDefine
     /// 代币作为道具时的品质 往往发生在显示在itemIcon上呈现品质
     /// </summary>
     public const int TOKEN_QUALITY = 3;
+    public const int INSTANCING_STRENGTHEN_INSTRUCTION_ID = 520; // 副本强化说明书ID
 
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
