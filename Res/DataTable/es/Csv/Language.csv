@@ -22,6 +22,7 @@ describe-string,id-int,module-string,value-string
 ,10001015,通用,Árbol de Deseos de Combate
 ,10001016,通用, Recolectar Árbol de Deseos.
 ,10001017,通用, Árbol de Deseos de Granja.
+,10001018,通用,
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Recuperación de HP
 ,10004023,装备属性-攻击点数,Puntos de Ataque
@@ -156,6 +157,14 @@ describe-string,id-int,module-string,value-string
 ,20070024,, El nombre debe tener al menos {0} caracteres.
 ,20070025,, El nombre es demasiado largo.
 ,20070026,, Nombre repetido.
+,"20070027
+",,
+,20070028,,
+,20070029,,
+,20070030,,
+,20070031,,
+,20070032,,
+,20070033,,
 ,20080001,设置,"Para aplicar la configuración de idioma, reinicie la aplicación."
 ,20080002,设置,Renuncia ahora
 ,20080003,设置,Más tarde
@@ -293,6 +302,7 @@ NPC 不存在,20150018,副本,"NPC no encontrado, por favor contacta al administ
 ,20160018,, Dificultad
 ,20160019,副本, Nivel {0}
 ,20160020,副本,
+,20160021,副本,
 ,20170000,合成,Entrar en la cola
 ,20170001,合成,La cola de fabricación está llena.
 ,20170002,合成,La receta de fabricación no está desbloqueada.
@@ -402,7 +412,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320007,世界图腾, La energía del tótem es insuficiente.
 ,20320008,世界图腾, El tótem no está activado.
 ,20320009,世界图腾, No se puede establecer el precio de mejora dentro de {0} minutos.
-,20320010,,
+,20320010,世界图腾,
 ,20330000,装备强化, Piedra protectora insuficiente.
 ,20330001,装备强化," El equipo se está mejorando, por favor espere."
 ,20330002,装备强化, Por favor seleccione primero el objetivo de herencia.
@@ -430,9 +440,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20350011,护送任务, ¿Estás seguro de que quieres abandonar la misión de escolta?
 ,20350012,护送任务,
 ,20360001,系统聊天,{0}[/color] ha obtenido objetos caídos
-,20370002,,
-,20370003,,
-,20370004,,
-,20370005,,
-,20370006,,
-,20370007,,
+,20370002,日志,
+,20370003,日志,
+,20370004,日志,
+,20370005,日志,
+,20370006,日志,

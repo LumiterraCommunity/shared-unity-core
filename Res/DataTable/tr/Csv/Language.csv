@@ -22,6 +22,7 @@ describe-string,id-int,module-string,value-string
 ,10001015,通用, Savaş Dileği Ağacı
 ,10001016,通用, Dilek Ağacı Topla
 ,10001017,通用, Çiftlik Dilek Ağacı
+,10001018,通用,
 ,10004021,装备属性-生命上限,MaxHP
 ,10004022,装备属性-生命恢复, HP İyileşmesi
 ,10004023,装备属性-攻击点数, Saldırı Puanları
@@ -156,6 +157,14 @@ describe-string,id-int,module-string,value-string
 ,20070024,, İsim en az {0} karakter olmalıdır.
 ,20070025,, İsim çok uzun.
 ,20070026,, İsim tekrarlandı.
+,"20070027
+",,
+,20070028,,
+,20070029,,
+,20070030,,
+,20070031,,
+,20070032,,
+,20070033,,
 ,20080001,设置, Dil ayarını uygulamak için lütfen uygulamayı yeniden başlatın
 ,20080002,设置, Şimdi çık
 ,20080003,设置, Sonra
@@ -293,6 +302,7 @@ NPC 不存在,20150018,副本," NPC bulunamadı, lütfen yöneticiyle iletişime
 ,20160018,, Zorluk
 ,20160019,副本, {0} Seviye
 ,20160020,副本,
+,20160021,副本,
 ,20170000,合成, Sıraya gir
 ,20170001,合成, Üretim sırası dolu.
 ,20170002,合成, Üretim tarifi kilidi açılmamış.
@@ -402,7 +412,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20320007,世界图腾, Totem enerjisi yetersiz.
 ,20320008,世界图腾, Totem etkin değil.
 ,20320009,世界图腾, {0} dakika içinde güçlendirme fiyatı belirlenemez.
-,20320010,,
+,20320010,世界图腾,
 ,20330000,装备强化, Yetersiz koruyucu taş.
 ,20330001,装备强化," Ekipman güçlendiriliyor, lütfen bekleyin."
 ,20330002,装备强化, Lütfen önce miras hedefini seçin.
@@ -430,9 +440,8 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20350011,护送任务, Eşlik görevini bırakmak istediğinizden emin misiniz?
 ,20350012,护送任务,
 ,20360001,系统聊天,[color=#ooccff]{0}[/color] düşen öğeleri elde etti
-,20370002,,
-,20370003,,
-,20370004,,
-,20370005,,
-,20370006,,
-,20370007,,
+,20370002,日志,
+,20370003,日志,
+,20370004,日志,
+,20370005,日志,
+,20370006,日志,
