@@ -837,15 +837,14 @@ public static class TableUtil
     /// <param name="type"></param>
     /// <param name="enhanceLv"></param>
     /// <returns></returns>
-    public static int GetEquipmentAttrEnhanceGain(int cid, eAttributeType type, int enhanceLv = 1)
+    public static int GetEquipmentAttrEnhanceGain(DREquipment cfg, eAttributeType type, int enhanceLv = 1)
     {
         try
         {
-            DREquipment drEquipment = GetConfig<DREquipment>(cid);
-            enhanceLv = Mathf.Clamp(enhanceLv, 1, drEquipment.MaxEnhancementLevel);
-            for (int i = 0; i < drEquipment.EnhancementAttribute.Length; i++)
+            enhanceLv = Mathf.Clamp(enhanceLv, 1, cfg.MaxEnhancementLevel);
+            for (int i = 0; i < cfg.EnhancementAttribute.Length; i++)
             {
-                int[] attr = drEquipment.EnhancementAttribute[i];
+                int[] attr = cfg.EnhancementAttribute[i];
                 if (attr[0] == (int)type)
                 {
                     return attr[1] * enhanceLv;
@@ -857,7 +856,7 @@ public static class TableUtil
         }
         catch (Exception e)
         {
-            Log.Error($"GetEquipmentAttrEnhanceGain error cid = {cid} type = {type} enhanceLv = {enhanceLv} e = {e}");
+            Log.Error($"GetEquipmentAttrEnhanceGain error cid = {cfg.Id} type = {type} enhanceLv = {enhanceLv} e = {e}");
             return 0;
         }
     }
