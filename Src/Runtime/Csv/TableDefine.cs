@@ -149,6 +149,7 @@ public enum eGameValueID
     WagonCheckEscortRadius = 139, //镖车检测护送范围
     TowerSaveLevelInterval = 146,
     EscortWagonInstructionsId = 149, //押镖活动说明ID
+    EnhanceAttrFactor = 151, //强化属性系数,千分位数组[高于正常属性的系数，低于正常属性的系数]
     InstancingSelectNextLevelTime = 152,//副本关卡通过后给予选择是否下一关的时间（秒）
 }
 
