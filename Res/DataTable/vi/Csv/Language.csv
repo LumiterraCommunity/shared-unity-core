@@ -22,7 +22,7 @@ describe-string,id-int,module-string,value-string
 ,10001015,通用,Cây Ước Chiến Đấu
 ,10001016,通用, Thu thập Cây Ước
 ,10001017,通用, Cây Ước Trang Trại
-,10001018,通用,
+,10001018,通用,Mở cửa
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -158,13 +158,13 @@ describe-string,id-int,module-string,value-string
 ,20070025,, Tên quá dài.
 ,20070026,, Tên bị lặp lại.
 ,"20070027
-",,
-,20070028,,
-,20070029,,
-,20070030,,
-,20070031,,
-,20070032,,
-,20070033,,
+",, Châu Á
+,20070028,, Châu Âu
+,20070029,, Bắc Mỹ
+,20070030,, Nam Mỹ
+,20070031,, Châu Phi
+,20070032,, Châu Nam Cực
+,20070033,, Khai mạc lớn
 ,20080001,设置,"Để áp dụng cài đặt ngôn ngữ, vui lòng khởi động lại ứng dụng."
 ,20080002,设置,Thoát ngay bây giờ
 ,20080003,设置,Sau đó
@@ -301,8 +301,8 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20160017,副本,"Khi vào một hang động, có khả năng kích hoạt sự kiện ""Phần thưởng thêm"":Giết quái vật cụ thể, thu thập vật phẩm hoặc thu hoạch cây trồng sẽ nhận được phần thưởng thêm.Có một giới hạn tối đa toàn cầu cố định về số lần sự kiện này có thể kích hoạt."
 ,20160018,, Độ khó
 ,20160019,副本, Cấp độ {0}
-,20160020,副本,
-,20160021,副本,
+,20160020,副本, Thời gian thách thức còn lại {0} giây
+,20160021,副本, Thủ lĩnh chọn trong vòng {0} giây để tiến tới cấp độ tiếp theo
 ,20170000,合成,Vào hàng chờ
 ,20170001,合成,Hàng chế tạo đã đầy.
 ,20170002,合成,Công thức chế tạo chưa được mở khóa.
@@ -392,7 +392,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20290011,背包, Thuê kho thành công.
 ,20290012,背包,Gia hạn[/color] kho thất bại.
 ,20290013,,{0}[/color] đã [color=#35F883]bị xóa[/color].
-,20290014,,
+,20290014,," Thuê không thành công, Vui lòng mở lại để cập nhật tỷ giá trao đổi."
 ,20300000,声望, Hoàn thành nhiệm vụ uy tín.
 ,20300001,声望, Đã lọt vào bảng xếp hạng một lần.
 ,20300002,声望, Thuê một kho hàng.
@@ -412,7 +412,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20320007,世界图腾, Năng lượng tượng không đủ.
 ,20320008,世界图腾, Tượng chưa được kích hoạt.
 ,20320009,世界图腾, Không thể đặt giá tăng cường trong vòng {0} phút.
-,20320010,世界图腾,
+,20320010,世界图腾, Không đủ vật phẩm nạp năng lượng
 ,20330000,装备强化, Thiếu đá bảo vệ.
 ,20330001,装备强化," Đang tăng cường trang bị, vui lòng đợi."
 ,20330002,装备强化, Vui lòng chọn mục tiêu thừa kế trước.
@@ -422,7 +422,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20330006,装备强化, Chúc mừng {0} đã tăng cường {1} lên {2}.
 ,20330007,装备强化, Kết quả của xổ số sẽ được thông báo sau.
 ,20330008,装备强化, Chúc mừng {0} đã tăng cường {1} lên {2}
-,20330009,,
+,20330009,, {0} đã trúng {1}{2} trong xổ số tăng cường trang bị.
 ,20340001,百层试炼, Số lượt rút còn lại không đủ
 ,20340002,百层试炼," Hôm nay không có điểm, không thể rút"
 ,20340003,百层试炼, Mất xổ số
@@ -438,10 +438,10 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20350009,护送任务, thành công
 ,20350010,护送任务, Không đủ lượt thưởng cướp
 ,20350011,护送任务, Bạn có chắc chắn muốn từ bỏ nhiệm vụ hộ tống không?
-,20350012,护送任务,
+,20350012,护送任务, Không còn chất nhờn nào để dẫn dắt trong thế giới hiện tại
 ,20360001,系统聊天,{0}[/color] đã nhận được các mục đã rơi
-,20370002,日志,
-,20370003,日志,
-,20370004,日志,
-,20370005,日志,
-,20370006,日志,
+,20370002,日志, Bắt đầu tải lên nhật ký...
+,20370003,日志, {0} tải lên thành công.
+,20370004,日志, {0} tải lên thất bại.
+,20370005,日志, Khởi động này
+,20370006,日志, Khởi động cuối cùng
