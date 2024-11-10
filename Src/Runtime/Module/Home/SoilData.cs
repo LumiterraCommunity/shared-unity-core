@@ -159,9 +159,7 @@ public class SoilData : MonoBehaviour
         SaveData.SeedData.SeedNftId = seedNftId;
         SaveData.SeedData.SeedEntityId = seedEntityId;
 
-        float integerLv = Mathf.Floor(seedLv);
-        SaveData.SeedData.Lv = TableUtil.AttributeRealValueConvertToTable(integerLv, eAttributeType.FarmingLv);
-        SaveData.SeedData.ExtThousLv = TableUtil.AttributeRealValueConvertToTable(seedLv - integerLv, eAttributeType.ExtThousLv);
+        HomeUtilCore.SetLvToSoilSaveData(SaveData, seedLv);
 
         SaveData.SeedData.Potentiality = TableUtil.AttributeRealValueConvertToTable(seedPotentiality, eAttributeType.FarmPotentiality);
 

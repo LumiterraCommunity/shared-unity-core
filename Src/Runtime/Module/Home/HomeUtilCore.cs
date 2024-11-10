@@ -210,4 +210,22 @@ public static class HomeUtilCore
         float probability = animalData.SaveData.Proficiency / requireProficiency;
         return Mathf.Clamp01(probability);
     }
+
+    /// <summary>
+    /// 给土地保存数据设置种子等级
+    /// </summary>
+    /// <param name="soilSaveData"></param>
+    /// <param name="seedLv">最终的浮点等级</param>
+    public static void SetLvToSoilSaveData(SoilSaveData soilSaveData, float seedLv)
+    {
+        if (soilSaveData == null || seedLv < 0)
+        {
+            Log.Error("SetLvToSoilSaveData error: soilSaveData is null or seedLv is invalid");
+            return;
+        }
+
+        float integerLv = Mathf.Floor(seedLv);
+        soilSaveData.SeedData.Lv = TableUtil.AttributeRealValueConvertToTable(integerLv, eAttributeType.FarmingLv);
+        soilSaveData.SeedData.ExtThousLv = TableUtil.AttributeRealValueConvertToTable(seedLv - integerLv, eAttributeType.ExtThousLv);
+    }
 }
