@@ -484,10 +484,14 @@ Esta semente possui o potencial para crescer uma planta espinhosa e resistente. 
 Usá-lo pode acionar efeitos especiais.
 -------
 Esta semente é adequada para plantio em ambientes quentes, cresce rapidamente e tem excelente qualidade. Seu sabor é extremamente picante, o que pode adicionar um sabor único aos alimentos, tornando-a a melhor",0,97,item-icon-152,152, Semente de Pimenta Explosiva,0,1,489,1,0,1,3,1,3,3,1
--,"1,3,4",1,,0,97,item-icon-153,153, Semente de Fruta de Casca Dura,0,1,490,1,0,1,3,1,3,3,1
--,"1,3,4",1,,0,97,item-icon-154,154, Semente de Cogumelo Azul,0,1,488,1,0,1,3,1,3,3,1
--,"1,3,4",1,,0,0,item-icon-171,171, Bilhete #1,0,1,,0,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,0,item-icon-172,172, Bilhete #2,0,1,,0,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1,"Recolher materiais do mesmo nível pode resultar em sementes adicionais, Matar monstros do mesmo nível pode resultar em obter este item. Usá-lo pode acionar efeitos especiais.
+-------
+Uma semente resistente e durável que possui uma casca externa forte, perfeita para proteção e longevidade. Sua natureza robusta garante que possa suportar condições adversas e prosperar em qualquer ambiente. Esta semente é um símbolo de resiliência e força.",0,97,item-icon-153,153, Semente de Fruta de Casca Dura,0,1,490,1,0,1,3,1,3,3,1
+-,"1,3,4",1," Recolher materiais do mesmo nível pode resultar em sementes adicionais, Matar monstros do mesmo nível pode resultar em obter este item. Usá-lo pode acionar efeitos especiais.
+-------
+Esta semente guarda a promessa de um vibrante cogumelo azul, pronto para trazer um toque de cor ao seu jardim. Plante-o e veja como ele se transforma em um fungo hipnotizante que cativará seus sentidos.",0,97,item-icon-154,154, Semente de Cogumelo Azul,0,1,488,1,0,1,3,1,3,3,1
+-,"1,3,4",1, Este bilhete concede acesso a um evento exclusivo cheio de aventuras emocionantes e experiências inesquecíveis. Prepare-se para embarcar em uma jornada como nenhuma outra e criar memórias que durarão a vida toda.,0,0,item-icon-171,171, Bilhete #1,0,1,,0,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1, Este bilhete concede acesso a um evento exclusivo cheio de aventuras emocionantes e experiências inesquecíveis. Prepare-se para embarcar em uma jornada como nenhuma outra e criar memórias que durarão a vida toda.,0,0,item-icon-172,172, Bilhete #2,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1,Este bilhete concede-lhe acesso a um evento exclusivo repleto de aventuras emocionantes e experiências inesquecíveis. Prepare-se para embarcar numa jornada como nenhuma outra e criar memórias que durarão toda a vida.,0,0,item-icon-173,173, Bilhete #3,0,1,,0,0,"1,2,3",999,0,4,0,1
 -,"1,3,4",1," Você pode obter este tipo de material através de reprodução.
 Pode ser usado para criar equipamentos ou itens.
@@ -652,12 +656,30 @@ Foice de Cristal, uma arma brilhante com brilho cristalino, a lâmina é feita d
 Quando equipado, pode aprimorar atributos. Aumente a probabilidade de coleta de recursos de nível superior
 -------
 Foice Dourada, br",0,0,item-icon-229,229, Foice de Ouro,1440,1,363,1,0,3,999,0,1,4,1
-"796,1",0,1,,0,0,item-icon-230,230, Foice de Diamante,1440,1,371,1,0,3,999,0,1,5,1
-"797,1",0,1,,0,0,item-icon-231,231, Foice de Estrela,1440,1,,1,0,3,999,0,1,6,1
-"792,1","1,3,4",1,,0,347,item-icon-232,232, Bomba,0,1,,1,0,3,999,0,3,0,1
-"792,1","1,3,4",1,,0,348,item-icon-233,233, Poção de Atordoamento,0,1,,1,0,3,999,0,3,0,1
-"792,1","1,3,4",1,,0,351,item-icon-234,234, Poção Viscosa,0,1,,1,0,3,999,0,3,0,1
-"792,1","1,3,4",1,,0,352,item-icon-235,235, Poção Ardente,0,1,,1,0,3,999,0,3,0,1
+"796,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode aprimorar atributos. Aumente a probabilidade de coleta de recursos de nível mais alto
+-------
+Foice de Diamante é uma arma requintada e magnífica, com sua lâmina feita de diamante puro, brilhando com uma luz cativante. A lâmina da foice é incrivelmente afiada, capaz de cortar sem esforço qualquer obstáculo. Seu cabo é intrincadamente projetado, proporcionando uma aderência confortável, permitindo maior agilidade e facilidade na batalha. A Foice de Diamante não só possui um poder de ataque formidável, mas também possui propriedades mágicas únicas, capazes de liberar ondas de energia mortais, deixando os inimigos sem saída. Seja em batalha ou exibição, a Foice de Diamante é um tesouro notável que chama a atenção.",0,0,item-icon-230,230, Foice de Diamante,1440,1,371,1,0,3,999,0,1,5,1
+"797,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode aprimorar atributos. Aumente a probabilidade de coleta de recursos de nível mais alto
+-------
+Foice Estelar, uma foice brilhando com luz estelar, com inúmeras estrelas brilhantes incrustadas em sua lâmina, emitindo um brilho misterioso. Sua lâmina é incrivelmente afiada, capaz de cortar sem esforço qualquer obstáculo. O cabo da foice é esculpido com padrões de constelação requintados, dando uma sensação de divindade e solenidade. Empunhar a Foice Estelar parece como se estivesse aproveitando o poder das estrelas, permitindo sentir uma força e glória infinitas. Seja em batalha ou cerimônia, é uma excelente escolha.",0,0,item-icon-231,231, Foice de Estrela,1440,1,,1,0,3,999,0,1,6,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Usá-lo pode desencadear efeitos especiais.
+-------
+Uma Bomba",0,347,item-icon-232,232, Bomba,0,1,,1,0,3,999,0,3,0,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Usá-lo pode desencadear efeitos especiais.
+-------
+Poção de Atordoamento",0,348,item-icon-233,233, Poção de Atordoamento,0,1,,1,0,3,999,0,3,0,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Usá-lo pode desencadear efeitos especiais.
+-------
+Poção Viscosa",0,351,item-icon-234,234, Poção Viscosa,0,1,,1,0,3,999,0,3,0,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Usá-lo pode desencadear efeitos especiais.
+-------
+Poção Ardente",0,352,item-icon-235,235, Poção Ardente,0,1,,1,0,3,999,0,3,0,1
 "792,1","1,3,4",1,"Você pode obter este item através de síntese.
 Usá-lo pode acionar efeitos especiais.
 -------
@@ -942,12 +964,30 @@ Esta peça superior é exclusivamente feita para coletores para oferecer a melho
 "796,1",4,1," Você pode obter este item através de síntese. Quando equipado, ele pode melhorar atributos. Aumente a probabilidade de coletar recursos de nível mais alto.
 
 Estas luvas brilham com a luz das estrelas, proporcionando habilidades incomparáveis para coletores. Usando-as, seus dedos se tornam ágeis e agudos, permitindo a fácil coleta de vários recursos preciosos. Seja colhendo",0,0,item-icon-327,327, Luva de Coleta de Diamante,1440,"1,2,3,4,5",366,1,0,3,999,0,1,5,1
-"796,1",4,1,,0,0,item-icon-328,328, Calça de Coleta de Diamante,1440,"1,2,3,4,5",368,1,0,3,999,0,1,5,1
-"796,1",4,1,,0,0,item-icon-329,329, Sapatos de Coleta de Diamante,1440,"1,2,3,4,5",369,1,0,3,999,0,1,5,1
-"797,1",4,1,,0,0,item-icon-330,330, Chapéu de Coleta Estelar,1440,"1,2,3,4,5",375,1,0,3,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-331,331, Casaco de Coleta Estelar,1440,"1,2,3,4,5",373,1,0,3,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-332,332, Luva de Coleta Estelar,1440,"1,2,3,4,5",374,1,0,3,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-333,333, Calça de Coleta Estelar,1440,"1,2,3,4,5",376,1,0,3,999,0,1,6,1
+"796,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Aumentar a probabilidade de coleta de recursos de nível mais alto
+-------
+Estas calças são conhecidas por melhorar a eficiência da coleta de diamantes, projetadas exclusivamente para coletores. Feitas de materiais avançados, são leves, confortáveis, duráveis e flexíveis. Equipadas com ferramentas especiais de coleta de diamantes, permitem que os coletores obtenham recursos preciosos de diamante de forma rápida e precisa. Seja em montanhas, cavernas ou veias de minério, estas calças são uma ferramenta indispensável para coletores. Usando-as, você se tornará verdadeiramente um colhedor de diamantes. ",0,0,item-icon-328,328, Calça de Coleta de Diamante,1440,"1,2,3,4,5",368,1,0,3,999,0,1,5,1
+"796,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Aumentar a probabilidade de coleta de recursos de nível mais alto
+-------
+Estes sapatos são projetados exclusivamente para coletores para oferecer a melhor experiência de coleta de diamantes. Feitos de materiais leves e duráveis, oferecem excelente tração e conforto, permitindo estabilidade em terrenos desafiadores. Equipados com um detector de diamantes especial, esses sapatos apontam com precisão veias de diamante próximas, permitindo que você descubra e colete facilmente recursos de diamante valiosos. Seja em montanhas, cavernas ou rios, esses sapatos são equipamentos essenciais para você se tornar um colecionador de diamantes de primeira linha. ",0,0,item-icon-329,329, Sapatos de Coleta de Diamante,1440,"1,2,3,4,5",369,1,0,3,999,0,1,5,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Aumentar a probabilidade de coleta de recursos de nível mais alto
+-------
+Uma foice delicada, cintilando com a radiância das estrelas. É projetada exclusivamente para coletores colherem vários produtos vegetais. A lâmina afiada corta facilmente o material vegetal enquanto os enfeites celestiais na cabeça lhe conferem uma aparência misteriosa e cativante. Seja coletando ervas, colhendo frutas ou reunindo fibras vegetais, a Foice de Colheita de Luz das Estrelas é sua companheira mais confiável. ",0,0,item-icon-330,330, Chapéu de Coleta Estelar,1440,"1,2,3,4,5",375,1,0,3,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Aumentar a probabilidade de coleta de recursos de nível mais alto
+-------
+Uma peça superior leve e durável infundida com o poder da luz das estrelas. Oferece proteção adicional e conveniência aos coletores, tornando-os mais confiantes e eficientes ao coletar recursos preciosos. Seja colhendo flores, reunindo ervas ou escavando minérios, a Blusa de Colheita de Luz das Estrelas oferece um ambiente de trabalho confortável, tornando sua jornada de aventuras mais agradável e bem-sucedida. ",0,0,item-icon-331,331, Casaco de Coleta Estelar,1440,"1,2,3,4,5",373,1,0,3,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Aumentar a probabilidade de coleta de recursos de nível mais alto
+-------
+Estas luvas cintilam com a luz das estrelas, proporcionando habilidades incomparáveis para coletores. Usando-as, seus dedos se tornam ágeis e agudos, permitindo a fácil coleta de vários recursos preciosos. Seja colhendo ervas, escavando minérios ou reunindo plantas raras, as Luvas de Colheita de Luz das Estrelas serão sua companheira mais fiel, ajudando você a acumular riquezas no vasto mundo. ",0,0,item-icon-332,332, Luva de Coleta Estelar,1440,"1,2,3,4,5",374,1,0,3,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Aumentar a probabilidade de coleta de recursos de nível mais alto
+-------
+Estas calças são projetadas exclusivamente para coletores, usando tecnologia de fibra avançada para criar um traje leve, confort",0,0,item-icon-333,333, Calça de Coleta Estelar,1440,"1,2,3,4,5",376,1,0,3,999,0,1,6,1
 "797,1",4,1,,0,0,item-icon-334,334, Sapatos de Coleta Estelares,1440,"1,2,3,4,5",377,1,0,3,999,0,1,6,1
 "795,1",4,1,,0,0,item-icon-335,335, Chapéu de Lutador Dourado,1440,"1,2,3,4",284,1,0,2,999,0,1,4,1
 "795,1",4,1,,0,0,item-icon-336,336, Casaco de Lutador Dourado,1440,"1,2,3,4",282,1,0,2,999,0,1,4,1
@@ -1010,45 +1050,162 @@ Especificamente projetados para agricultores e fabricados com materiais leves e 
 "795,1",4,1,,0,0,item-icon-353,353, Calça de Fazendeiro Dourada,1440,"1,2,3,4",210,1,0,1,999,0,1,4,1
 "795,1",4,1,,0,0,item-icon-354,354, Sapatos de Fazendeiro Dourados,1440,"1,2,3,4",211,1,0,1,999,0,1,4,1
 "796,1",4,1,,0,0,item-icon-355,355, Chapéu de Fazendeiro de Diamante,1440,"1,2,3,4,5",217,1,0,1,999,0,1,5,1
-"796,1",4,1,,0,0,item-icon-356,356, Casaco de Fazendeiro de Diamante,1440,"1,2,3,4,5",215,1,0,1,999,0,1,5,1
-"796,1",4,1,,0,0,item-icon-357,357, Luva de Fazendeiro de Diamante,1440,"1,2,3,4,5",216,1,0,1,999,0,1,5,1
-"796,1",4,1,,0,0,item-icon-358,358, Calça de Fazendeiro de Diamante,1440,"1,2,3,4,5",218,1,0,1,999,0,1,5,1
-"796,1",4,1,,0,0,item-icon-359,359, Sapatos de Fazendeiro de Diamante,1440,"1,2,3,4,5",219,1,0,1,999,0,1,5,1
-"797,1",4,1,,0,0,item-icon-360,360, Chapéu de Fazendeiro Estelar,1440,"1,2,3,4,5",224,1,0,1,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-361,361, Casaco de Fazendeiro Estelar,1440,"1,2,3,4,5",222,1,0,1,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-362,362, Luva de Fazendeiro Estelar,1440,"1,2,3,4,5",223,1,0,1,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-363,363, Calça de Fazendeiro Estelar,1440,"1,2,3,4,5",225,1,0,1,999,0,1,6,1
-"797,1",4,1,,0,0,item-icon-364,364, Sapatos de Fazendeiro Estelares,1440,"1,2,3,4,5",226,1,0,1,999,0,1,6,1
-"795,1","1,3,4",1,,0,0,item-icon-365,365, Osso Resistente,0,1,13,1,0,2,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-366,366,Ovo Cabeça,0,1,14,1,0,2,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-367,367, Madeira Exquisita,0,1,15,1,0,2,4,1,4,4,1
-"796,1","1,3,4",1,,0,0,item-icon-368,368, Esqueleto Brilhante,0,1,17,1,0,2,5,1,4,5,1
-"796,1","1,3,4",1,,0,0,item-icon-369,369, Olho Gigante,0,1,18,1,0,2,5,1,4,5,1
-"796,1","1,3,4",1,,0,0,item-icon-370,370, Asas Élficas,0,1,16,1,0,2,5,1,4,5,1
-"797,1","1,3,4",1,,0,0,item-icon-371,371, Casco de Tartaruga de Cristal,0,1,21,1,0,2,6,1,4,6,1
-"797,1","1,3,4",1,,0,0,item-icon-372,372, Fogo Fátuo,0,1,19,1,0,2,6,1,4,6,1
-"797,1","1,3,4",1,,0,0,item-icon-373,373, Varinha Pequena,0,1,20,1,0,2,6,1,4,6,1
-"795,1","1,3,4",1,,0,0,item-icon-374,374, Dente-de-leão Dourado,0,1,37,1,0,3,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-375,375, Flor de Cacto,0,1,57,1,0,3,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-376,376, Racso,0,1,75,1,0,3,4,1,4,4,1
-"796,1","1,3,4",1,,0,0,item-icon-377,377, Diamante de Fibra,0,1,39,1,0,3,5,1,4,5,1
-"796,1","1,3,4",1,,0,0,item-icon-378,378, Diamante em Forma de Nota,0,1,59,1,0,3,5,1,4,5,1
-"796,1","1,3,4",1,,0,0,item-icon-379,379, Diamante em Forma de Urso,0,1,77,1,0,3,5,1,4,5,1
-"797,1","1,3,4",1,,0,0,item-icon-380,380, Flor de Elfo,0,1,41,1,0,3,6,1,4,6,1
-"797,1","1,3,4",1,,0,0,item-icon-381,381, Estrela Enlatada,0,1,61,1,0,3,6,1,4,6,1
-"797,1","1,3,4",1,,0,0,item-icon-382,382, Meteorito,0,1,79,1,0,3,6,1,4,6,1
-"795,1","1,3,4",1,,0,0,item-icon-383,383, Trigo,0,1,96,1,0,1,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-384,384, Ervilhas,0,1,98,1,0,1,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-385,385, Alho,0,1,97,1,0,1,4,1,4,4,1
-"796,1","1,3,4",1,,0,0,item-icon-386,386, Girassol,0,1,99,1,0,1,5,1,4,5,1
-"796,1","1,3,4",1,,0,0,item-icon-387,387, Uva,0,1,100,1,0,1,5,1,4,5,1
-"796,1","1,3,4",1,,0,0,item-icon-388,388, Batata,0,1,101,1,0,1,5,1,4,5,1
-"797,1","1,3,4",1,,0,0,item-icon-389,389, Chomper,0,1,102,1,0,1,6,1,4,6,1
-"797,1","1,3,4",1,,0,0,item-icon-390,390, Flor de Ipoméia,0,1,103,1,0,1,6,1,4,6,1
-"797,1","1,3,4",1,,0,0,item-icon-391,391, Mandioca,0,1,104,1,0,1,6,1,4,6,1
-"795,1","1,3,4",1,,0,0,item-icon-392,392, Farinha de Osso,0,1,123,1,0,1,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-393,393, Videira Resiliente,0,1,125,1,0,1,4,1,4,4,1
-"795,1","1,3,4",1,,0,0,item-icon-394,394, Folha de Laranjeira,0,1,124,1,0,1,4,1,4,4,1
+"796,1",4,1,"Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Feito sob medida para agricultores que amam a vida no campo, é feito de material de fibra de diamante de alta qualidade, leve, confortável e extremamente durável. Esta camisa oferece um desempenho protetor excepcional e possui propriedades que absorvem a umidade, garantindo que você permaneça seco e confortável enquanto trabalha nos campos. Seja arando, plantando ou colhendo, a Camisa de Agricultor de Diamante é sua companheira mais confiável.",0,0,item-icon-356,356, Casaco de Fazendeiro de Diamante,1440,"1,2,3,4,5",215,1,0,1,999,0,1,5,1
+"796,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Especificamente projetadas para agricultores, adornadas com diamantes, mostrando uma combinação perfeita de luxo e praticidade. Feitas de materiais premium, essas luvas oferecem excelente proteção e conforto. Elas aumentam a agilidade e eficiência do agricultor durante o processo de cultivo, permitindo uma agricultura mais rápida e colheitas abundantes. Seja semeando ou colhendo as recompensas, essas luvas são a fiel ajudante do agricultor, tornando-os verdadeiros magnatas agrícolas.",0,0,item-icon-357,357, Luva de Fazendeiro de Diamante,1440,"1,2,3,4,5",216,1,0,1,999,0,1,5,1
+"796,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Feito sob medida para entusiastas da agricultura, feito de materiais de alta qualidade, confortável e durável. Adornada com diamantes cintilantes, mostrando o status e a riqueza do agricultor. Quando você os usa, experimentará alegria agrícola incomparável, tornando-se mais eficiente e confiante no trabalho agrícola. Seja no plantio, semeando ou colhendo, estas calças serão seu parceiro mais confiável.",0,0,item-icon-358,358, Calça de Fazendeiro de Diamante,1440,"1,2,3,4,5",218,1,0,1,999,0,1,5,1
+"796,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar
+-------
+Feitos para agricultores e fabricados com materiais premium, esses sapatos são duráveis, confortáveis, antiderrapantes, proporcionando facilidade aos agricultores durante longas horas nos campos. As solas dos sapatos são reforçadas para evitar que objetos pontiagudos perfurem, oferecendo excelente tração e garantindo estabilidade em terrenos molhados e escorregadios. Esses sapatos também vêm com alguns enfeites de diamante escondidos, refletindo o gosto único e o status de sucesso do agricultor. Seja arando, colhendo ou cuidando das colheitas, os Sapatos de Agricultor de Diamante são uma ferramenta indispensável.",0,0,item-icon-359,359, Sapatos de Fazendeiro de Diamante,1440,"1,2,3,4,5",219,1,0,1,999,0,1,5,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Um acessório de cabelo elegante perfeito para agricultores trabalhadores. Emitindo um brilho estelar, permite que você brilhe intensamente nos campos. Seja plantando, colhendo ou cuidando das colheitas, este cabelo traz sorte e o orgulho de um agricultor, tornando-o uma estrela na comunidade agrícola!",0,0,item-icon-360,360, Chapéu de Fazendeiro Estelar,1440,"1,2,3,4,5",224,1,0,1,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Feito sob medida para agricultores e inspirado na luz das estrelas, exalando uma atmosfera alegre. Feito de materiais leves, é confortável e durável, permitindo que os agricultores fiquem confortáveis e ágeis durante as atividades agrícolas movimentadas. Seja arando, colhendo ou alimentando animais, esta camisa oferece aos agricultores ampla proteção e conveniência, tornando seu dia a dia na fazenda animado e alegre!",0,0,item-icon-361,361, Casaco de Fazendeiro Estelar,1440,"1,2,3,4,5",222,1,0,1,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Infundidas com o poder da luz das estrelas e especificamente projetadas para agricultores, oferecendo excelente proteção e destreza, permitindo que os agricultores cultivem facilmente culturas nos campos. Os padrões delicados nas luvas aumentam as sensações táteis do agricultor, permitindo que operem enxadas e escovas com mais precisão, criando belas paisagens agrícolas. Seja arando, semeando ou colhendo, as Luvas de Agricultor da Luz das Estrelas são o companheiro mais confiável para os agricultores.",0,0,item-icon-362,362, Luva de Fazendeiro Estelar,1440,"1,2,3,4,5",223,1,0,1,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Feito sob medida para agricultores e feito de materiais macios e confortáveis, estas calças oferecem excelente durabilidade e respirabilidade, mantendo os agricultores confortáveis e flexíveis durante o trabalho de campo movimentado. O intrincado padrão de luz das estrelas nas calças simboliza o trabalho árduo e as esperanças do agricultor, trazendo-lhes sorte e colheitas abundantes. Seja plantando, semeando ou colhendo, estas calças são o parceiro mais confiável do agricultor.",0,0,item-icon-363,363, Calça de Fazendeiro Estelar,1440,"1,2,3,4,5",225,1,0,1,999,0,1,6,1
+"797,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, ele pode melhorar atributos. Faça suas colheitas menos propensas a murchar.
+-------
+Especificamente projetados para agricultores e fabricados com materiais leves e duráveis. Eles oferecem excelente resistência ao escorregamento, garantindo estabilidade para os agricultores ao caminhar nos campos. O intrincado padrão de luz das estrelas nos sapatos simboliza a sabedoria e a diligência do agricultor. Seja agricultura, plantio ou colheita, estes sapatos oferecem conforto e proteção, deixando as pegadas do agricultor nos campos.",0,0,item-icon-364,364, Sapatos de Fazendeiro Estelares,1440,"1,2,3,4,5",226,1,0,1,999,0,1,6,1
+"795,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Osso duro! Deve vir de algum tipo de organismo",0,0,item-icon-365,365, Osso Resistente,0,1,13,1,0,2,4,1,4,4,1
+"795,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Planta? Animal? Ou algo entre os dois?",0,0,item-icon-366,366,Ovo Cabeça,0,1,14,1,0,2,4,1,4,4,1
+"795,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Não parece ter sido cortado diretamente de uma árvore, mais parece o nariz de um boneco de neve",0,0,item-icon-367,367, Madeira Exquisita,0,1,15,1,0,2,4,1,4,4,1
+"796,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Esqueleto duro! Também brilha!",0,0,item-icon-368,368, Esqueleto Brilhante,0,1,17,1,0,2,5,1,4,5,1
+"796,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Parece um pouco assustador...",0,0,item-icon-369,369, Olho Gigante,0,1,18,1,0,2,5,1,4,5,1
+"796,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Um par de asas delicadas, irresistível",0,0,item-icon-370,370, Asas Élficas,0,1,16,1,0,2,5,1,4,5,1
+"797,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Parece uma bola, redonda",0,0,item-icon-371,371, Casco de Tartaruga de Cristal,0,1,21,1,0,2,6,1,4,6,1
+"797,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Não precisa de velas à noite",0,0,item-icon-372,372, Fogo Fátuo,0,1,19,1,0,2,6,1,4,6,1
+"797,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Bem pequeno, não pode ser usado diretamente, mas deve servir como material de criação",0,0,item-icon-373,373, Varinha Pequena,0,1,20,1,0,2,6,1,4,6,1
+"795,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Um dente-de-leão dourado, realmente raro",0,0,item-icon-374,374, Dente-de-leão Dourado,0,1,37,1,0,3,4,1,4,4,1
+"795,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma flor de cacto",0,0,item-icon-375,375, Flor de Cacto,0,1,57,1,0,3,4,1,4,4,1
+"795,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Esta pedra deve ser uma boa atriz",0,0,item-icon-376,376, Racso,0,1,75,1,0,3,4,1,4,4,1
+"796,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Parece afiado, cuidado para não se cortar",0,0,item-icon-377,377, Diamante de Fibra,0,1,39,1,0,3,5,1,4,5,1
+"796,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Ao tocar levemente, pode produzir um som agradável",0,0,item-icon-378,378, Diamante em Forma de Nota,0,1,59,1,0,3,5,1,4,5,1
+"796,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma pedra muito fofa",0,0,item-icon-379,379, Diamante em Forma de Urso,0,1,77,1,0,3,5,1,4,5,1
+"797,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Olha, esta pequena flor se parece muito com uma fada",0,0,item-icon-380,380, Flor de Elfo,0,1,41,1,0,3,6,1,4,6,1
+"797,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Quando eu era criança, costumava desejar pegar estrelas em um pote, então isso está realizando meu desejo?",0,0,item-icon-381,381, Estrela Enlatada,0,1,61,1,0,3,6,1,4,6,1
+"797,1","1,3,4",1," Coletar materiais do mesmo nível pode resultar em sementes adicionais.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma pedra tão bonita, como um cometa do espaço sideral",0,0,item-icon-382,382, Meteorito,0,1,79,1,0,3,6,1,4,6,1
+"795,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Um dos alimentos básicos mais comuns do mundo",0,0,item-icon-383,383, Trigo,0,1,96,1,0,1,4,1,4,4,1
+"795,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Lembro de um jogo onde essa coisa dispara balas",0,0,item-icon-384,384, Ervilhas,0,1,98,1,0,1,4,1,4,4,1
+"795,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Mesmo através da tela, consigo sentir o aroma",0,0,item-icon-385,385, Alho,0,1,97,1,0,1,4,1,4,4,1
+"796,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Algumas pessoas fritam o núcleo desta flor como um petisco, tem um bom gosto",0,0,item-icon-386,386, Girassol,0,1,99,1,0,1,5,1,4,5,1
+"796,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Esta coisa é mais adequada para um vinhedo",0,0,item-icon-387,387, Uva,0,1,100,1,0,1,5,1,4,5,1
+"796,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Outro dos alimentos básicos mais comuns do mundo",0,0,item-icon-388,388, Batata,0,1,101,1,0,1,5,1,4,5,1
+"797,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Fiquei assustado",0,0,item-icon-389,389, Chomper,0,1,102,1,0,1,6,1,4,6,1
+"797,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Parece uma trombeta",0,0,item-icon-390,390, Flor de Ipoméia,0,1,103,1,0,1,6,1,4,6,1
+"797,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma raiz de mandioca",0,0,item-icon-391,391, Mandioca,0,1,104,1,0,1,6,1,4,6,1
+"795,1","1,3,4",1," Você pode obter este tipo de material através da reprodução.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Em um certo jogo, essa coisa pode promover o crescimento de plantas, mas parece que não aqui",0,0,item-icon-392,392, Farinha de Osso,0,1,123,1,0,1,4,1,4,4,1
+"795,1","1,3,4",1," Você pode obter este tipo de material através da reprodução.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Muito flexível, pode ser amassado em uma corda ou fio",0,0,item-icon-393,393, Videira Resiliente,0,1,125,1,0,1,4,1,4,4,1
+"795,1","1,3,4",1," Você pode obter este tipo de material através da reprodução.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma folha enorme",0,0,item-icon-394,394, Folha de Laranjeira,0,1,124,1,0,1,4,1,4,4,1
 "796,1","1,3,4",1,"Você pode obter este tipo de material através de reprodução.
 Pode ser usado para criar equipamentos ou itens.
 -------
@@ -1221,13 +1378,34 @@ Martelo pode remover a armadura de certos monstros, pegue o martelo e os esmague
 Quando equipado, pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
 -------
 Martelo pode remover a armadura de certos monstros, pegue o martelo e os esmague",0,0,item-icon-438,438, Poção de Crítico Estelar ,0,1,66,1,0,2,6,0,3,6,1
-"797,1","1,3,4",1,,0,0,item-icon-439,439, Poção de Vida Estelar ,0,1,66,1,0,2,6,0,3,6,1
-"797,1","1,3,4",1,,0,0,item-icon-440,440, Poção de Defesa Estelar ,0,1,66,1,0,2,6,0,3,6,1
-"792,1",0,1,,0,0,item-icon-441,441, Martelo de Cobre ,1440,1,258,1,0,2,999,0,1,1,1
-"793,1",0,1,,0,0,item-icon-442,442, Martelo de Ferro ,1440,"1,2",270,1,0,2,999,0,1,2,1
-"794,1",0,1,,0,0,item-icon-443,443, Martelo de Cristal ,1440,"1,2,3",274,1,0,2,999,0,1,3,1
-"795,1",0,1,,0,0,item-icon-444,444, Martelo Dourado ,1440,"1,2,3,4",287,1,0,2,999,0,1,4,1
-"796,1",0,1,,0,0,item-icon-445,445, Martelo de Diamante ,1440,"1,2,3,4,5",295,1,0,2,999,0,1,5,1
+"797,1","1,3,4",1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Martelo pode remover a armadura de certos monstros, pegue o martelo e os esmague",0,0,item-icon-439,439, Poção de Vida Estelar ,0,1,66,1,0,2,6,0,3,6,1
+"797,1","1,3,4",1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Se você está preocupado em ser perseguido por monstros, este arco é perfeito para você, você pode matar monstros a uma distância segura",0,0,item-icon-440,440, Poção de Defesa Estelar ,0,1,66,1,0,2,6,0,3,6,1
+"792,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Se você está preocupado em ser perseguido por monstros, este arco é perfeito para você, você pode matar monstros a uma distância segura",0,0,item-icon-441,441, Martelo de Cobre ,1440,1,258,1,0,2,999,0,1,1,1
+"793,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Se você está preocupado em ser perseguido por monstros, este arco é perfeito para você, você pode matar monstros a uma distância segura",0,0,item-icon-442,442, Martelo de Ferro ,1440,"1,2",270,1,0,2,999,0,1,2,1
+"794,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Usado para acalmar seu animal de estimação, permitindo que ele produza em paz",0,0,item-icon-443,443, Martelo de Cristal ,1440,"1,2,3",274,1,0,2,999,0,1,3,1
+"795,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Faça suas plantações menos propensas a murchar
+-------
+Usado para acalmar seu animal de estimação, permitindo que ele produza em paz",0,0,item-icon-444,444, Martelo Dourado ,1440,"1,2,3,4",287,1,0,2,999,0,1,4,1
+"796,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Faça suas plantações menos propensas a murchar
+-------
+Usado para acalmar seu animal de estimação, permitindo que ele produza em paz",0,0,item-icon-445,445, Martelo de Diamante ,1440,"1,2,3,4,5",295,1,0,2,999,0,1,5,1
 "797,1",0,1,"Você pode obter este item através de síntese. Quando equipado, ele pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas.
 
 O martelo pode remover a armadura de certos monstros, pegue o martelo e esmague-os.
@@ -1273,9 +1451,18 @@ Combustível para calor e cozimento, essencial para sobrevivência na natureza.
 Você pode obter este tipo de material através do plantio. Uma flor vibrante que irradia calor e beleza, simbolizando paixão e vitalidade.
 
 A contagem de palavras para cada descrição está dentro do limite especificado de 20 palavras.",0,0,item-icon-446,446, Martelo Estelar ,1440,"1,2,3,4,5",304,1,0,2,999,0,1,6,1
-"795,1",0,1,,0,0,item-icon-450,450, Arco Dourado ,1440,"1,2,3,4",281,1,0,2,999,0,1,4,1
-"796,1",0,1,,0,0,item-icon-451,451, Arco de Diamante ,1440,"1,2,3,4,5",289,1,0,2,999,0,1,5,1
-"797,1",0,1,,0,0,item-icon-452,452, Arco Estelar ,1440,"1,2,3,4,5",303,1,0,2,999,0,1,6,1
+"795,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Faça suas plantações menos propensas a murchar
+-------
+Usado para acalmar seu animal de estimação, permitindo que ele produza em paz",0,0,item-icon-450,450, Arco Dourado ,1440,"1,2,3,4",281,1,0,2,999,0,1,4,1
+"796,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode melhorar atributos. Faça suas plantações menos propensas a murchar
+-------
+Usado para acalmar seu animal de estimação, permitindo que ele produza em paz",0,0,item-icon-451,451, Arco de Diamante ,1440,"1,2,3,4,5",289,1,0,2,999,0,1,5,1
+"797,1",0,1," Você pode obter este item através de síntese.
+Usá-lo pode acionar efeitos especiais.
+-------
+Restaura Energia +30",0,0,item-icon-452,452, Arco Estelar ,1440,"1,2,3,4,5",303,1,0,2,999,0,1,6,1
 "792,1",0,1,,0,0,item-icon-453,453, Escova de Cobre ,1440,1,182,1,0,1,999,0,1,1,1
 "793,1",0,1,,0,0,item-icon-454,454, Escova de Ferro ,1440,"1,2",196,1,0,1,999,0,1,2,1
 "794,1",0,1,,0,0,item-icon-455,455, Escova de Cristal ,1440,"1,2,3",200,1,0,1,999,0,1,3,1
@@ -1283,13 +1470,34 @@ A contagem de palavras para cada descrição está dentro do limite especificado
 "796,1",0,1,,0,0,item-icon-457,457, Escova de Diamante ,1440,"1,2,3,4,5",214,1,0,1,999,0,1,5,1
 "797,1",0,1,,0,0,item-icon-458,458, Escova Estelar ,1440,"1,2,3,4,5",229,1,0,1,999,0,1,6,1
 -,0,1,,0,0,item-icon-459,459, Poção de Restauração de Energia ,0,1,,0,0,3,999,0,3,4,1
--,0,1,,0,0,item-icon-460,460, Poção de Restauração de Energia ,0,1,,0,0,3,999,0,3,5,1
--,0,1,,0,0,item-icon-461,461, Poção de Restauração de Energia ,0,1,,0,0,3,999,0,3,6,1
-"793,1","1,3,4",1,,1,0,item-icon-462,462, Fragmentos de Bronze ,0,1,,1,0,2,999,1,4,2,1
-"794,1","1,3,4",1,,1,0,item-icon-463,463, Presa do Senhor ,0,1,,1,0,2,999,1,4,3,1
-"792,1","1,3,4",1,,0,0,item-icon-464,464, Bilhete de Loteria do Reino Flutuante #01 ,0,1,,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,0,item-icon-465,465, Bilhete de Loteria do Pico das Flores #01 ,0,1,,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,0,item-icon-466,466, Bilhete de Loteria do Mundo Aberto #01 ,0,1,,1,0,2,999,0,4,0,1
+-,0,1,"Você pode obter este item através de síntese.
+Usá-lo pode acionar efeitos especiais.
+-------
+Restaura Energia +37",0,0,item-icon-460,460, Poção de Restauração de Energia ,0,1,,0,0,3,999,0,3,5,1
+-,0,1," Você pode obter este item através de síntese.
+Usá-lo pode acionar efeitos especiais.
+-------
+Restaura Energia +45",0,0,item-icon-461,461, Poção de Restauração de Energia ,0,1,,0,0,3,999,0,3,6,1
+"793,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Apenas obtido no Pico da Flor",1,0,item-icon-462,462, Fragmentos de Bronze ,0,1,,1,0,2,999,1,4,2,1
+"794,1","1,3,4",1," Matar monstros do mesmo nível pode resultar na obtenção deste item.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Apenas obtido no Pico da Flor",1,0,item-icon-463,463, Presa do Senhor ,0,1,,1,0,2,999,1,4,3,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+#01 Bilhete de Loteria do Reino Flutuante",0,0,item-icon-464,464, Bilhete de Loteria do Reino Flutuante #01 ,0,1,,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+#01 Bilhete de Loteria do Pico da Flor",0,0,item-icon-465,465, Bilhete de Loteria do Pico das Flores #01 ,0,1,,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+#01 Bilhete de Loteria de Mundo Aberto",0,0,item-icon-466,466, Bilhete de Loteria do Mundo Aberto #01 ,0,1,,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1,"Você pode obter este item através de síntese.
 Pode ser usado para criar equipamentos ou itens.
 -------
@@ -1300,38 +1508,128 @@ Pode ser usado para criar equipamentos ou itens.
 Bilhete de Admissão para o Pico das Flores",0,0,item-icon-468,468, Bilhete de Admissão do Pico das Flores ,0,1,473,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1, O Bilhete de Admissão para o Reino Flutuante quebrado pode ser usado para trocar por um Bilhete de Admissão para o Reino Flutuante completo,0,0,item-icon-469,469, Bilhete de Admissão da Masmorra Quebrada,0,1,,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1, O Bilhete de Admissão para o Pico das Flores quebrado pode ser usado para trocar por um Bilhete de Admissão para o Pico das Flores completo,0,0,item-icon-470,470,Bilhete de Admissão para o Pico da Flor Quebrada,0,1,,1,0,2,999,0,4,0,1
-"795,1",4,1,,0,0,item-icon-471,471, Cabelo do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,0,item-icon-472,472, Topo do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,0,item-icon-473,473, Luvas do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,0,item-icon-474,474, Calças do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
-"795,1",4,1,,0,0,item-icon-475,475, Sapatos do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
-"795,1",0,1,,0,0,item-icon-478,478, LUAG Futuro(100),7200,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,0,item-icon-479,479, Garrafa Vazia,0,1,,1,0,"1,2,3",999,0,4,0,1
-"792,1","1,3,4",1,,0,0,item-icon-480,480, LUAG Futuro(N),0,1,,1,0,"1,2,3",999,0,4,0,1
-"792,1","1,3,4",1,,0,0,item-icon-481,481, Estrela LUAG,0,1,,1,0,"1,2,3",999,0,4,0,1
--,"1,3,4",1,,0,0,item-icon-482,482, Nível 1 Slime de Energia,0,1,416,1,0,3,"1,0",0,4,1,1
--,"1,3,4",1,,0,0,item-icon-483,483, Nível 2 Slime de Energia,0,1,417,1,0,3,2,0,4,2,1
--,"1,3,4",1,,0,0,item-icon-484,484, Nível 3 Slime de Energia,0,1,418,1,0,3,3,0,4,3,1
--,"1,3,4",1,,0,0,item-icon-485,485, Nível 4 Slime de Energia,0,1,419,1,0,3,4,0,4,4,1
--,"1,3,4",1,,0,0,item-icon-486,486, Nível 5 Slime de Energia,0,1,420,1,0,3,5,0,4,5,1
--,"1,3,4",1,,0,0,item-icon-487,487, Nível 6 Slime de Energia,0,1,421,1,0,3,6,0,4,6,1
--,"1,3,4",1,,0,0,item-icon-488,488, Nível 7 Slime de Energia,0,1,422,1,0,3,7,0,4,7,1
--,"1,3,4",1,,0,0,item-icon-489,489, Nível 8 Slime de Energia,0,1,423,1,0,3,8,0,4,8,1
--,"1,3,4",1,,0,0,item-icon-490,490, Nível 9 Slime de Energia,0,1,424,1,0,3,9,0,4,9,1
-"798,1","1,3,4",1,,0,0,item-icon-491,491, Escama de Rocha de Fogo,0,1,23,1,0,2,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-492,492, Garrafa Deslumbrante,0,1,22,1,0,2,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-493,493, Olho de Rocha Gigante,0,1,24,1,0,2,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-494,494, Flor de Lava,0,1,43,1,0,3,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-495,495, Lenha de Fogo,0,1,63,1,0,3,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-496,496, Lava,0,1,81,1,0,3,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-497,497, Crisântemo Vermelho Ardente,0,1,105,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-498,498, Rebanho de Fogo,0,1,106,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-499,499, Abóbora Quente,0,1,107,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-500,500, Pedra Gigante,0,1,134,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-501,501, Poeira Deslumbrante,0,1,132,1,0,1,7,1,4,7,1
-"798,1","1,3,4",1,,0,0,item-icon-502,502, Pedra de Fogo,0,1,133,1,0,1,7,1,4,7,1
-"799,1","1,3,4",1,,0,0,item-icon-503,503, Pés Listrados de Amarelo,0,1,25,1,0,2,8,1,4,8,1
-"799,1","1,3,4",1,,0,0,item-icon-504,504, Joia de Dragão,0,1,27,1,0,2,8,1,4,8,1
+"795,1",4,1," Há uma chance de obter ao sintetizar equipamentos.
+Aparência elegante sem atributos
+-------
+Sugere-se usar como moda",0,0,item-icon-471,471, Cabelo do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Há uma chance de obter ao sintetizar equipamentos.
+Aparência elegante sem atributos
+-------
+Sugere-se usar como moda",0,0,item-icon-472,472, Topo do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Há uma chance de obter ao sintetizar equipamentos.
+Aparência elegante sem atributos
+-------
+Sugere-se usar como moda",0,0,item-icon-473,473, Luvas do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Há uma chance de obter ao sintetizar equipamentos.
+Aparência elegante sem atributos
+-------
+Sugere-se usar como moda",0,0,item-icon-474,474, Calças do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
+"795,1",4,1," Há uma chance de obter ao sintetizar equipamentos.
+Aparência elegante sem atributos
+-------
+Sugere-se usar como moda",0,0,item-icon-475,475, Sapatos do Núcleo da Gangue,0,5,,1,0,2,999,0,1,4,1
+"795,1",0,1, LUAG Future(100) está vinculado a uma proporção de 1:100 ao Token LUAG,0,0,item-icon-478,478, LUAG Futuro(100),7200,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Aparecendo no Reino Flutuante, Aparecendo no Pico da Flor.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Pode ser usado para criar Poção de Energia.",0,0,item-icon-479,479, Garrafa Vazia,0,1,,1,0,"1,2,3",999,0,4,0,1
+"792,1","1,3,4",1," Aparecendo no Reino Flutuante, Aparecendo no Pico da Flor.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Pode ser usado para trocar LUAG Future(100).",0,0,item-icon-480,480, LUAG Futuro(N),0,1,,1,0,"1,2,3",999,0,4,0,1
+"792,1","1,3,4",1, Pode ser usado para trocar LUAG Future(100),0,0,item-icon-481,481, Estrela LUAG,0,1,,1,0,"1,2,3",999,0,4,0,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-482,482, Nível 1 Slime de Energia,0,1,416,1,0,3,"1,0",0,4,1,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-483,483, Nível 2 Slime de Energia,0,1,417,1,0,3,2,0,4,2,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-484,484, Nível 3 Slime de Energia,0,1,418,1,0,3,3,0,4,3,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-485,485, Nível 4 Slime de Energia,0,1,419,1,0,3,4,0,4,4,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-486,486, Nível 5 Slime de Energia,0,1,420,1,0,3,5,0,4,5,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-487,487, Nível 6 Slime de Energia,0,1,421,1,0,3,6,0,4,6,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-488,488, Nível 7 Slime de Energia,0,1,422,1,0,3,7,0,4,7,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-489,489, Nível 8 Slime de Energia,0,1,423,1,0,3,8,0,4,8,1
+-,"1,3,4",1," Você pode obter este item através de síntese.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Feito de vários materiais e contendo fortes flutuações de energia, pode ser reprocessado em vários adereços",0,0,item-icon-490,490, Nível 9 Slime de Energia,0,1,424,1,0,3,9,0,4,9,1
+"798,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Um material raro e resistente forjado no coração de erupções vulcânicas.",0,0,item-icon-491,491, Escama de Rocha de Fogo,0,1,23,1,0,2,7,1,4,7,1
+"798,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma poção cintilante que concede impulsos temporários de agilidade e velocidade.",0,0,item-icon-492,492, Garrafa Deslumbrante,0,1,22,1,0,2,7,1,4,7,1
+"798,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Um olho de pedra colossal que irradia poderes antigos, capaz de revelar segredos ocultos.",0,0,item-icon-493,493, Olho de Rocha Gigante,0,1,24,1,0,2,7,1,4,7,1
+"798,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma flor rara e vibrante, emanando um brilho ardente, encontrada em regiões vulcânicas.",0,0,item-icon-494,494, Flor de Lava,0,1,43,1,0,3,7,1,4,7,1
+"798,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Combustível para aquecimento e cozimento, essencial para sobreviver na natureza.",0,0,item-icon-495,495, Lenha de Fogo,0,1,63,1,0,3,7,1,4,7,1
+"798,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+A contagem de palavras para cada descrição está dentro do limite especificado de 20 palavras.",0,0,item-icon-496,496, Lava,0,1,81,1,0,3,7,1,4,7,1
+"798,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma flor vibrante que irradia calor e beleza, simbolizando paixão e vitalidade.",0,0,item-icon-497,497, Crisântemo Vermelho Ardente,0,1,105,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+A tradução fornecida acima é baseada na suposição de que ""Heard of Fire"" se refere ao nome do jogo ou a um conceito específico dentro do jogo. Se tiver um significado diferente, por favor, avise-me para que eu possa ajustar as traduções conforme necessário.",0,0,item-icon-498,498, Rebanho de Fogo,0,1,106,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Você pode obter este tipo de material através do plantio.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma abóbora ardente que libera chamas escaldantes sobre inimigos, causando danos generalizados.",0,0,item-icon-499,499, Abóbora Quente,0,1,107,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Você pode obter este tipo de material através da reprodução.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma pedra maciça imbuida de poderes antigos, capaz de moldar a própria terra.",0,0,item-icon-500,500, Pedra Gigante,0,1,134,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Você pode obter este tipo de material através da reprodução.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Partículas cintilantes que brilham e dançam, lançando um brilho hipnotizante por onde passam.",0,0,item-icon-501,501, Poeira Deslumbrante,0,1,132,1,0,1,7,1,4,7,1
+"798,1","1,3,4",1," Você pode obter este tipo de material através da reprodução.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Uma pedra poderosa que canaliza a essência ardente, capaz de liberar chamas devastadoras.",0,0,item-icon-502,502, Pedra de Fogo,0,1,133,1,0,1,7,1,4,7,1
+"799,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Este calçado vibrante aumenta a agilidade e velocidade de um fazendeiro, perfeito para cuidar das colheitas e navegar pelos campos.",0,0,item-icon-503,503, Pés Listrados de Amarelo,0,1,25,1,0,2,8,1,4,8,1
+"799,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+Acessórios requintados feitos das escamas de poderosos dragões, aumentando o poder do usuário.",0,0,item-icon-504,504, Joia de Dragão,0,1,27,1,0,2,8,1,4,8,1
 "799,1","1,3,4",1,"Aparecendo no Domínio Antigo.
 Pode ser usado para criar equipamentos ou itens.
 -------
@@ -1516,10 +1814,22 @@ Luvas resistentes ao calor para agricultores destemidos cuidando de colheitas fl
 Quando equipado, pode aprimorar atributos. Faça suas colheitas menos propensas a murchar
 -------
 Calçados resistentes ao calor para agricultores destemidos cuidando de colheitas flamejantes.",0,0,item-icon-550,550, Sapatos de Agricultura de Lava,1440,"1,2,3,4,5",235,1,0,1,999,0,1,7,1
-"799,1",0,1,,0,0,item-icon-551,551, Espada Oca,1440,"1,2,3,4,5",320,1,0,2,999,0,1,8,1
-"799,1",0,1,,0,0,item-icon-552,552, Martelo Oco,1440,"1,2,3,4,5",319,1,0,2,999,0,1,8,1
-"799,1",0,1,,0,0,item-icon-553,553, Arco Oco,1440,"1,2,3,4,5",313,1,0,2,999,0,1,8,1
-"799,1",4,1,,0,0,item-icon-554,554, Chapéu de Combate Oco,1440,"1,2,3,4,5",316,1,0,2,999,0,1,8,1
+"799,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode aprimorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Uma arma leve e ágil, perfeita para golpes rápidos e precisos.",0,0,item-icon-551,551, Espada Oca,1440,"1,2,3,4,5",320,1,0,2,999,0,1,8,1
+"799,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode aprimorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Um martelo poderoso forjado com tecnologia oca, capaz de desferir golpes devastadores.",0,0,item-icon-552,552, Martelo Oco,1440,"1,2,3,4,5",319,1,0,2,999,0,1,8,1
+"799,1",0,1," Você pode obter este item através de síntese.
+Quando equipado, pode aprimorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Um arco leve com design oco, perfeito para ataques rápidos e precisos.",0,0,item-icon-553,553, Arco Oco,1440,"1,2,3,4,5",313,1,0,2,999,0,1,8,1
+"799,1",4,1," Você pode obter este item através de síntese.
+Quando equipado, pode aprimorar atributos. Aumente sua probabilidade de sobrevivência em batalhas
+-------
+Um capacete leve e resistente que oferece excelente proteção em batalhas.",0,0,item-icon-554,554, Chapéu de Combate Oco,1440,"1,2,3,4,5",316,1,0,2,999,0,1,8,1
 "799,1",4,1,"Você pode obter este item através de síntese. Quando equipado, ele pode melhorar atributos. Aumente sua probabilidade de sobrevivência em batalhas.
 -------
 Um casaco leve e durável projetado para guerreiros ágeis, proporcionando mobilidade aprimorada e proteção em batalhas.",0,0,item-icon-555,555, Casaco de Combate Oco,1440,"1,2,3,4,5",314,1,0,2,999,0,1,8,1
@@ -1972,7 +2282,10 @@ A recompensa de queda obtida ao matar os Monstros do Reino Flutuante.",1,0,item-
 Pode ser usado para criar equipamentos ou itens.
 -------
 A recompensa de queda obtida ao matar os Monstros do Domínio Antigo.",0,0,item-icon-727,727, Medalha do Assassino,0,1,470,1,0,2,999,0,4,0,1
-"792,1","1,3,4",1,,0,0,item-icon-728,728, Medalha dos Pioneiros,0,1,40,1,0,2,999,0,4,0,1
+"792,1","1,3,4",1," Aparecendo no Domínio Antigo.
+Pode ser usado para criar equipamentos ou itens.
+-------
+A recompensa de queda obtida ao matar os Monstros do Domínio Antigo.",0,0,item-icon-728,728, Medalha dos Pioneiros,0,1,40,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1,,0,0,item-icon-729,729, Medalha do Conquistador,0,1,42,1,0,2,999,0,4,0,1
 "792,1","1,3,4",1,"Aparecendo na Masmorra da Arena.
 Pode ser usado para criar equipamentos ou itens.
@@ -2082,8 +2395,8 @@ Ingressos necessários para participar do Desafio de Agricultura Avançado",0,0,
 -,"1,3,4",1, Caixa de Embalagem de Nível 5,0,0,item-icon-785,785, Lv 3 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,3,1
 -,"1,3,4",1, Caixa de Embalagem de Nível 6,0,0,item-icon-786,786, Lv 4 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,4,1
 -,"1,3,4",1, Caixa de Embalagem de Nível 7,0,0,item-icon-787,787, Lv 5 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,5,1
--,"1,3,4",1,,0,0,item-icon-788,788, Lv 6 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,6,1
--,"1,3,4",1,,0,0,item-icon-789,789, Lv 7 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,7,1
+-,"1,3,4",1, Craft Lv 6 Caixa de embalagem,0,0,item-icon-788,788, Lv 6 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,6,1
+-,"1,3,4",1, Craft Lv 7 Caixa de embalagem,0,0,item-icon-789,789, Lv 7 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,7,1
 -,"1,3,4",1,Craft Lv 8 Caixa de Embalagem,0,0,item-icon-790,790, Lv 8 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,8,1
 -,"1,3,4",1, Craft Lv 9 Caixa de Embalagem,0,0,item-icon-791,791, Lv 9 Papel de Embalagem,0,1,,1,0,"1,2,3",999,0,4,9,1
 -,"1,3,4",1, Pacote Lv 1 item para vender,0,0,item-icon-792,792, Lv 1 Caixa de Embalagem,0,1,,1,0,"1,2,3",999,0,4,1,1
@@ -2231,11 +2544,11 @@ Um material para fazer equipamentos de nível 0 ",1,0,item-icon-844,844, Essênc
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-884,884, Sapatos · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-885,885, Casaco · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1, Sugere usar como moda,0,0,item-icon-886,886, Calças · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,0,item-icon-887,887, Luvas · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,0,item-icon-888,888, Sapatos · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,0,item-icon-889,889, Casaco · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,0,item-icon-890,890, Calças · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
-"792,1",0,1,,0,0,item-icon-891,891, Luvas · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Eca..Cheira mal...,0,0,item-icon-887,887, Luvas · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Crescendo,0,0,item-icon-888,888, Sapatos · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1," Por favor, traga o dinossauro de volta",0,0,item-icon-889,889, Casaco · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Eu gosto disso,0,0,item-icon-890,890, Calças · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
+"792,1",0,1, Ainda funciona,0,0,item-icon-891,891, Luvas · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
 "792,1",0,1,Sugerir usar como moda,0,0,item-icon-892,892, Sapatos · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1
 -,"1,3,4",1, Alguém engasgou,1,0,item-icon-893,893, Osso de Peixe,0,1,,0,0,,999,0,4,0,1
 -,"1,3,4",1, Eca..Cheira mal...,1,0,item-icon-894,894, Lata Aberta,0,1,,0,0,,999,0,4,0,1
@@ -2286,8 +2599,8 @@ Um material para fazer equipamentos de nível 0 ",1,0,item-icon-844,844, Essênc
 "792,1","1,3,4",1, Aprimorar equipamento de combate,1,0,item-icon-943,943,Cristal Totem Azul - Coleta ,0,1,523,1,0,,999,0,4,0,1
 "792,1","1,3,4",1, Aprimorar equipamento de coleta,1,0,item-icon-944,944,Cristal Totem Verde - Agricultura ,0,1,524,1,0,,999,0,4,0,1
 "792,1","1,3,4",1, Aprimorar equipamento de agricultura,1,0,item-icon-945,945, Pedra de Aprimoramento - Combate,0,1,517,1,0,,999,0,4,0,1
-"792,1","1,3,4",1,,1,0,item-icon-946,946, Pedra de Aprimoramento - Coleta,0,1,518,1,0,,999,0,4,0,1
-"792,1","1,3,4",1,,1,0,item-icon-947,947, Pedra de Aprimoramento - Agricultura,0,1,519,1,0,,999,0,4,0,1
+"792,1","1,3,4",1, Aprimorar equipamento de coleta.,1,0,item-icon-946,946, Pedra de Aprimoramento - Coleta,0,1,518,1,0,,999,0,4,0,1
+"792,1","1,3,4",1, Aprimorar equipamento de agricultura.,1,0,item-icon-947,947, Pedra de Aprimoramento - Agricultura,0,1,519,1,0,,999,0,4,0,1
 "792,1","1,3,4",1,@@ Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-948,948,Lv 1 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,1,1
 "793,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-949,949, Lv 2 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,2,1
 "794,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-950,950, Lv 3 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,3,1
@@ -2316,7 +2629,7 @@ Um material para fazer equipamentos de nível 0 ",1,0,item-icon-844,844, Essênc
 "792,1",0,1, Vazio,0,0,item-icon-973,973,Bilhete de Admissão para Desafio da Torre - Combate,0,1,,1,0,,999,0,4,1,1
 "792,1",0,1, Vazio,0,0,item-icon-974,974, Bilhete de Admissão para Desafio da Torre - Coleta,0,1,,1,0,,999,0,4,1,1
 "792,1",0,1, Vazio,0,0,item-icon-975,975, Bilhete de Admissão para Desafio da Torre - Agricultura,0,1,,1,0,,999,0,4,1,1
-"792,1","1,3,4",1,,1,0,item-icon-1003,1003,Vazio,0,1,,1,0,,999,0,4,0,1
+"792,1","1,3,4",1, A recompensa do desafio da torre,1,0,item-icon-1003,1003,Vazio,0,1,,1,0,,999,0,4,0,1
 -,0,1, Lumi até a lua.,0,0,item-icon-1004,1004,LUA ,0,1,,0,0,,999,0,4,0,1
 -,"1,3,4",1," Aparecendo no Pico das Flores.
 Pode ser usado para criar equipamentos ou itens.
