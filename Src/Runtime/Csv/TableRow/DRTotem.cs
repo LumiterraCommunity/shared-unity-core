@@ -42,6 +42,15 @@ public class DRTotem : DataRowBase
     }
 
     /// <summary>
+  /**获取icon-string。*/
+    /// </summary>
+    public string Icon
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取quality-int。*/
     /// </summary>
     public int Quality
@@ -66,6 +75,7 @@ public class DRTotem : DataRowBase
         int index = 0;
         DefaultEnhanceFee = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         EnhanceSucPro = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        Icon = DataTableParseUtil.ParseString(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         Quality = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TotemEntity = DataTableParseUtil.ParseString(columnStrings[index++]);
@@ -82,6 +92,7 @@ public class DRTotem : DataRowBase
             {
                 DefaultEnhanceFee = binaryReader.ReadArrayList<Int32>();
                 EnhanceSucPro = binaryReader.ReadArrayList<Int32>();
+                Icon = binaryReader.ReadString();
                 _id = binaryReader.Read7BitEncodedInt32();
                 Quality = binaryReader.Read7BitEncodedInt32();
                 TotemEntity = binaryReader.ReadString();
