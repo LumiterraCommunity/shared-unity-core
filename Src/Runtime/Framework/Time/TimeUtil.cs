@@ -105,6 +105,7 @@ public static class TimeUtil
         }
 
         s_syncSvrTimeLogic.SyncSvrTime(svrStamp, reqClientStamp);
+        Log.Info($"同步服务器时间成功 服务器UTC时间:{TimeStamp2DataTime(svrStamp):yyyy-MM-dd HH:mm:ss} 客户端UTC时间:{DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}");
     }
 
     /// <summary>
