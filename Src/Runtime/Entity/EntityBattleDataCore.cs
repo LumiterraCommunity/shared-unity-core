@@ -380,6 +380,8 @@ public class EntityBattleDataCore : EntityBaseComponent
     /// </summary>
     public virtual void HpAutoAdaptMax(int oldMaxHP, int oldMaxWhiteHP)
     {
+        return;
+
         if (oldMaxHP > 0 && oldMaxHP != HPMAX)
         {
             HP = Mathf.RoundToInt(HP * (float)HPMAX / oldMaxHP);
