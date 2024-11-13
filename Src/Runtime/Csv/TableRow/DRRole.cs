@@ -87,9 +87,9 @@ public class DRRole : DataRowBase
     }
 
     /// <summary>
-  /**获取randomAnim-string[]。*/
+  /**获取randomAnim-string[][]。*/
     /// </summary>
-    public string[] RandomAnim
+    public string[][] RandomAnim
     {
         get;
         private set;
@@ -180,7 +180,7 @@ public class DRRole : DataRowBase
         InitialSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         JumpRollSkill = DataTableParseUtil.ParseInt(columnStrings[index++]);
         PickUpSound = DataTableParseUtil.ParseString(columnStrings[index++]);
-        RandomAnim = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
+        RandomAnim = DataTableParseUtil.ParseArrayList<string>(columnStrings[index++]);
         RescueSkill = DataTableParseUtil.ParseInt(columnStrings[index++]);
         RoleActionSkill = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         RoleAssetID = DataTableParseUtil.ParseInt(columnStrings[index++]);
@@ -208,7 +208,7 @@ public class DRRole : DataRowBase
                 InitialSkill = binaryReader.ReadArray<Int32>();
                 JumpRollSkill = binaryReader.Read7BitEncodedInt32();
                 PickUpSound = binaryReader.ReadString();
-                RandomAnim = binaryReader.ReadArray<String>();
+                RandomAnim = binaryReader.ReadArrayList<String>();
                 RescueSkill = binaryReader.Read7BitEncodedInt32();
                 RoleActionSkill = binaryReader.ReadArray<Int32>();
                 RoleAssetID = binaryReader.Read7BitEncodedInt32();
