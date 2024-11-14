@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1747649225959007053
+--- !u!1 &472807243422513972
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1094884427097277955}
-  - component: {fileID: 8957556888763263432}
-  - component: {fileID: 8924547284014252190}
+  - component: {fileID: 285146809816615432}
+  - component: {fileID: 4106507805512701095}
+  - component: {fileID: 3312044487315150229}
   m_Layer: 0
-  m_Name: 144516_Boulder01
+  m_Name: 53566_Boulder01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &1094884427097277955
+--- !u!4 &285146809816615432
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747649225959007053}
+  m_GameObject: {fileID: 472807243422513972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
@@ -33,27 +33,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8957556888763263432
+--- !u!64 &4106507805512701095
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747649225959007053}
+  m_GameObject: {fileID: 472807243422513972}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1d618369eba92f543942accb17984d24, type: 2}
---- !u!136 &8924547284014252190
+  m_Mesh: {fileID: 4300000, guid: 8a70ed2a308534bf384cd247467594f9, type: 2}
+--- !u!136 &3312044487315150229
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747649225959007053}
+  m_GameObject: {fileID: 472807243422513972}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
