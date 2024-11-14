@@ -1,56 +1,56 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,id-int,lockBackpack-bool,name-string,type-int
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Ölüm Cezası Yok,1,0,Kasaba ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,2,0, Çevre Kasaba ,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),3,0, Kar Dağı ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),4,0, PvEP Savaş Alanı ,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,5,0, Ev ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,6,0, Plaj ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,7,0, Kırmızı Orman ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),8,0, Siyah Orman ,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,9,0, Fırtınalı Çöl ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,10,0, Kanyon ,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),11,0, Kahraman Balık Heykeli ,2
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),12,1, Mezarlık ,3
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),13,0, Ruhun Dinlenmesi ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),14,0, Göksel Göl Dağı ,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,15,0, Merkezi Sunak ,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),16,0, Çevre Sunak ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),17,0, Buz Ovası ,2
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),18,1, Buz Ovası Derinlikleri ,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,19,0, Vahşi Doğa ,1
-1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),20,1, Acemi Arena 1/3 ,3
-2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),21,1, Acemi Arena 2/3 ,3
-3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),22,1, Acemi Arena 3/3 ,3
-1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),23,1, Orta Seviye Arena 1/3 ,3
-2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),24,1, Orta Seviye Arena 2/3 ,3
-3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),25,1, Orta Seviye Arena 3/3 ,3
-1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),26,1, İleri Seviye Arena 1/3 ,3
-2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),27,1, İleri Seviye Arena 2/3 ,3
-3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ağır Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),28,1, İleri Seviye Arena 3/3 ,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,29,0, Eşleştirme Kampı ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,30,0, Yeniden Doğuş Sunağı ,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),31,0, Meydan Okuma ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),32,0, Antik Bölge - Yanardağ ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),33,0, Antik Bölge - Boşluk ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),34,0, Antik Bölge - Kalıntı ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5", Hafif Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),35,0, Vahşi ,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,36,0, Köprü ,1
-0,"50,3,1",0,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Derecede Ölüm Cezası (Sırt çantası öğelerinin yüzdesi),37,1, Kolezyum ,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,38,0, Günlük Meydan Okuma ,1
-1,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,39,1, Eğitim Alanı 1/3 ,3
-2,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,40,1, Eğitim Alanı 2/3 ,3
-3,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,41,1, Eğitim Alanı 3/3 ,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,42,0, Ayrılış Toprağı,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,43,0,Yüzyılın Denemeleri - Yemyeşil Oval ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,44,0, Yüzyılın Denemeleri - Çöl Kumulları ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,45,0, Yüzyılın Denemeleri - Karlı Zirveler ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,46,0, Yüzyılın Denemeleri - Rüzgarlı Vadi ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,47,0, Yüzyılın Denemeleri - Terkedilmiş Saat Kulesi ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,48,0, Yüzyılın Denemeleri - Harabe Kalesi ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,49,0, Yüzyılın Denemeleri - Lav Toprakları ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,50,0, Yüzyılın Denemeleri - Boşluk Adaları ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,51,0, Yüzyılın Denemeleri - Antik Harabeler ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,52,0, Yüzyılın Denemeleri - Buzul Genişliği ,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0", Ölüm Cezası Yok,53,0, Yüzyılın Denemeleri - Köken Vadisi ,1
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Orta Ölüm Cezası(Sırt Çantası Öğelerinin Yüzdesi),54,0, Yanardağ Vadisi ,3
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Orta Ölüm Cezası(Sırt Çantası Öğelerinin Yüzdesi),55,0, Rüzgar Değirmeni Köyü,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,1,0,Town,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,2,0,Surrounding Town,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),3,0,Snow Moutain,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),4,0,PvEP Fight Area,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,5,0,Home,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,6,0,Beach,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,7,0,Red Forest,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),8,0,Black Forest,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,9,0,Stormy Desert,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,10,0,Canyon,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),11,0,Hero Fish Statue,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),12,1,Cemetery,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),13,0,Soul's Rest,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),14,0,Celestial Lake Mountain,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,15,0,Central Altar,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),16,0,Surrounding Altar,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),17,0,Ice Plain,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),18,1,Depths of Ice Plain,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,19,0,Wilderness,1
+1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),20,1,Novice Arena 1/3,3
+2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),21,1,Novice Arena 2/3,3
+3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),22,1,Novice Arena 3/3,3
+1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),23,1,Intermediate Arena 1/3,3
+2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),24,1,Intermediate Arena 2/3,3
+3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),25,1,Intermediate Arena 3/3,3
+1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),26,1,Advanced Arena 1/3,3
+2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),27,1,Advanced Arena 2/3,3
+3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),28,1,Advanced Arena 3/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,29,0,Matchmaking Camp,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,30,0,Respawn Altar,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),31,0,Challenge,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),32,0,Ancient Domain - Volcano,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),33,0,Ancient Domain - Hollow,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),34,0,Ancient Domain - Relic,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),35,0,Wild,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,36,0,The Bridge,1
+0,"50,3,1",0,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),37,1,Colosseum,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,38,0,Daily Challenge,1
+1,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,39,1,Training Ground 1/3,3
+2,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,40,1,Training Ground 2/3,3
+3,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,41,1,Training Ground 3/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,42,0,Land of Departure,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,43,0,Tower Challenge - Verdant Plains,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,44,0,Tower Challenge - Desert Dunes,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,45,0,Tower Challenge - Snowy Peaks,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,46,0,Tower Challenge - Windy Valley,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,47,0,Tower Challenge - Abandoned Clocktower,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,48,0,Tower Challenge - Ruined Castle,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,49,0,Tower Challenge - Molten Lands,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,50,0,Tower Challenge - Void Isles,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,51,0,Tower Challenge - Ancient Ruins,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,52,0,Tower Challenge - Glacier Expanse,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,53,0,Tower Challenge - Origin Valley,1
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),54,0,Volcano Valley,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),55,0,Windmill Village,3

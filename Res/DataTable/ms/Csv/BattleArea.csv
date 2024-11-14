@@ -1,56 +1,56 @@
 areaSort-int,deathDrop-int[],deathEXPDrop-int,deathTaxation-int[][],desc-string,id-int,lockBackpack-bool,name-string,type-int
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,1,0,Bandar,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,2,0,Bandar Sekitar,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),3,0,Gunung Salji,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),4,0,Kawasan Pertempuran PvEP,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,5,0,Rumah,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,6,0,Pantai,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,7,0,Hutan Merah,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),8,0,Hutan Hitam,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,9,0,Padang Pasir Berangin,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,10,0,Lembah,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),11,0,Patung Ikan Pahlawan,2
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sederhana (Peratusan item dalam beg),12,1,Kubur,3
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),13,0,Rehat Jiwa,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),14,0,Gunung Tasik Surgawi,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,15,0,Altar Pusat,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),16,0,Altar Sekitar,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),17,0,Tanah Lapang Ais,2
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sederhana (Peratusan item dalam beg),18,1,Kedalaman Tanah Lapang Ais,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,19,0,Kawasan Liar,1
-1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),20,1,Arena Pemula 1/3,3
-2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),21,1,Arena Pemula 2/3,3
-3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),22,1,Arena Pemula 3/3,3
-1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),23,1,Arena Pertengahan 1/3,3
-2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),24,1,Arena Pertengahan 2/3,3
-3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),25,1,Arena Pertengahan 3/3,3
-1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),26,1, Arena Lanjutan 1/3,3
-2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),27,1, Arena Lanjutan 2/3,3
-3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Hukuman Mati Ringan (Peratusan item dalam beg),28,1, Arena Lanjutan 3/3,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,29,0, Kem Penjodohan,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,30,0,Altar Pemulihan ,1
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),31,0,Cabaran ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),32,0,Kawasan Purba - Gunung Berapi ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),33,0,Kawasan Purba - Lubang ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),34,0,Kawasan Purba - Pusaka ,2
-0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Hukuman Mati Ringan (Peratusan item dalam beg),35,0,Liar ,2
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,36,0,Jambatan ,1
-0,"50,3,1",0,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sederhana (Peratusan item dalam beg),37,1,Koloseum,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,38,0, Cabaran Harian,1
-1,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,39,1, Tapak Latihan 1/3,3
-2,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,40,1, Tapak Latihan 2/3,3
-3,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,41,1, Tapak Latihan 3/3,3
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,42,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,43,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,44,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,45,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,46,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,47,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,48,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,49,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,50,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,51,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,52,0,,1
-0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiada Hukuman Mati,53,0,,1
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Hukuman Mati Sederhana (Peratusan item beg) ,54,0, Lembah Gunung Berapi ,3
-0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10", Hukuman Mati Sederhana (Peratusan item beg),55,0, Kampung Kincir Angin,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,1,0,Town,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,2,0,Surrounding Town,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),3,0,Snow Moutain,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),4,0,PvEP Fight Area,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,5,0,Home,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,6,0,Beach,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,7,0,Red Forest,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),8,0,Black Forest,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,9,0,Stormy Desert,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,10,0,Canyon,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),11,0,Hero Fish Statue,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),12,1,Cemetery,3
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),13,0,Soul's Rest,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),14,0,Celestial Lake Mountain,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,15,0,Central Altar,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),16,0,Surrounding Altar,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),17,0,Ice Plain,2
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),18,1,Depths of Ice Plain,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,19,0,Wilderness,1
+1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),20,1,Novice Arena 1/3,3
+2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),21,1,Novice Arena 2/3,3
+3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),22,1,Novice Arena 3/3,3
+1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),23,1,Intermediate Arena 1/3,3
+2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),24,1,Intermediate Arena 2/3,3
+3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),25,1,Intermediate Arena 3/3,3
+1,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),26,1,Advanced Arena 1/3,3
+2,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),27,1,Advanced Arena 2/3,3
+3,"30,3,1",0,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",Tiny Death Penalty(Percentage of backpack items),28,1,Advanced Arena 3/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,29,0,Matchmaking Camp,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,30,0,Respawn Altar,1
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),31,0,Challenge,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),32,0,Ancient Domain - Volcano,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),33,0,Ancient Domain - Hollow,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),34,0,Ancient Domain - Relic,2
+0,"30,20,10",3,"100,20,10;100,15,5;80,15,5;80,15,5;30,15,5;30,15,5",Slight Death Penalty(Percentage of backpack items),35,0,Wild,2
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,36,0,The Bridge,1
+0,"50,3,1",0,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),37,1,Colosseum,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,38,0,Daily Challenge,1
+1,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,39,1,Training Ground 1/3,3
+2,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,40,1,Training Ground 2/3,3
+3,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,41,1,Training Ground 3/3,3
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,42,0,Land of Departure,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,43,0,Tower Challenge - Verdant Plains,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,44,0,Tower Challenge - Desert Dunes,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,45,0,Tower Challenge - Snowy Peaks,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,46,0,Tower Challenge - Windy Valley,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,47,0,Tower Challenge - Abandoned Clocktower,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,48,0,Tower Challenge - Ruined Castle,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,49,0,Tower Challenge - Molten Lands,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,50,0,Tower Challenge - Void Isles,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,51,0,Tower Challenge - Ancient Ruins,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,52,0,Tower Challenge - Glacier Expanse,1
+0,"0,0,0",2,"0,0,0;0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",No Death Penalty,53,0,Tower Challenge - Origin Valley,1
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),54,0,Volcano Valley,3
+0,"30,20,15",5,"100,20,15;100,15,10;80,15,10;80,15,10;30,15,10;30,15,10",Moderate Death Penalty(Percentage of backpack items),55,0,Windmill Village,3
