@@ -1,97 +1,97 @@
-col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,resetCost-int,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,preNode-int[],upgradeToken-int[]
+col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,preNode-int[],resetCost-int,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,upgradeToken-int[]
 0,"ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","51,588#1199#1259,10000","1,2,3",talentTree-1,1,1,1,1,Habilidade de Combate 1 ,0,2,450,0,,0
+Desbloquear Receitas de Energia","51,588#1199#1259,10000","1,2,3",talentTree-1,1,1,1,1,Combat Mastery 1,0,0,2,450,0,0
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","52,585#1194#1260,10000","1,2,3",talentTree-2,2,1,2,1, Habilidade de Combate 2 ,0,2,900,1,1,0
+Desbloquear Receitas de Energia","52,585#1194#1260,10000","1,2,3",talentTree-2,2,1,2,1,Combat Mastery 2,1,0,2,900,1,0
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","53,592#1192#1261,10000","1,2,3",talentTree-3,3,1,3,1, Habilidade de Combate 3 ,10000,2,1800,2,2,200
+Desbloquear Receitas de Energia","53,592#1192#1261,10000","1,2,3",talentTree-3,3,1,3,1,Combat Mastery 3,2,20000,2,1800,2,200
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","54,590#1197#1262,10000","1,2,3",talentTree-4,4,1,4,1, Habilidade de Combate 4 ,20000,2,3600,3,3,1000
+Desbloquear Receitas de Energia","54,590#1197#1262,10000","1,2,3",talentTree-4,4,1,4,1,Combat Mastery 4,3,40000,2,3600,3,1000
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","55,589#1196#1263,10000","1,2,3",talentTree-5,5,1,5,1, Habilidade de Combate 5 ,30000,2,7200,4,4,2000
+Desbloquear Receitas de Energia","55,589#1196#1263,10000","1,2,3",talentTree-5,5,1,5,1,Combat Mastery 5,4,60000,2,7200,4,2000
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","56,595#1195#1264,10000","1,2,3",talentTree-6,6,1,6,1, Habilidade de Combate 6 ,40000,2,14400,5,5,3200
+Desbloquear Receitas de Energia","56,595#1195#1264,10000","1,2,3",talentTree-6,6,1,6,1,Combat Mastery 6,5,80000,2,14400,5,3200
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","57,614#1200#1265,10000","1,2,3",talentTree-7,7,1,7,1, Habilidade de Combate 7 ,50000,2,28800,6,6,4600
+Desbloquear Receitas de Energia","57,614#1200#1265,10000","1,2,3",talentTree-7,7,1,7,1,Combat Mastery 7,6,100000,2,28800,6,4600
 0," ATK de Combate + 5
 DEF de Combate + 5
 MaxHP de Combate + 20
 MaxEnergy + 10
-Desbloquear Receitas de Energia","58,615#1193#1266,10000","1,2,3",talentTree-8,8,1,8,1, Habilidade de Combate 8 ,60000,2,57600,7,7,6200
-0, Reduzir a velocidade de movimento do inimigo.,"59,619#1198#1267,10000","1,2,3",talentTree-9,9,1,9,1, Habilidade de Combate 9 ,70000,2,115200,8,8,8000
--1, Atordoar inimigos ao seu redor.,332,1,talentTree-10,10,0,2,1, Atropelamento - Aprimoramento ,0,2,175,0,11,0
+Desbloquear Receitas de Energia","58,615#1193#1266,10000","1,2,3",talentTree-8,8,1,8,1,Combat Mastery 8,7,120000,2,57600,7,6200
+0, Reduzir a velocidade de movimento do inimigo.,"59,619#1198#1267,10000","1,2,3",talentTree-9,9,1,9,1,Combat Mastery 9,8,140000,2,115200,8,8000
+-1, Atordoar inimigos ao seu redor.,332,1,talentTree-10,10,0,2,1,Trampling - Enhance,11,0,2,175,0,0
 -1," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
 Fitness de Agricultura: Converte a proficiência em agricultura em defesa de combate e limites de saúde proporcionalmente a uma certa porcentagem, eficaz ao usar ferramentas de agricultura
-Desbloquear Receitas de Energia",63,0,talentTree-11,11,0,1,1, Atropelamento ,0,2,15,0,,0
+Desbloquear Receitas de Energia",63,0,talentTree-11,11,0,1,1,Trampling,0,0,2,15,0,0
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","66#531,591#597#1183#1277,10000","1,2,3",talentTree-13,13,1,1,1, Maestria em Agricultura 1 ,0,1,450,0,,0
+Desbloquear Receitas de Energia","66#531,591#597#1183#1277,10000","1,2,3",talentTree-13,13,1,1,1,Farming Mastery 1,0,0,1,450,0,0
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","67,593#598#1184#1278,10000","1,2,3",talentTree-14,14,1,2,1, Maestria em Agricultura 2 ,0,1,900,1,13,0
+Desbloquear Receitas de Energia","67,593#598#1184#1278,10000","1,2,3",talentTree-14,14,1,2,1,Farming Mastery 2,13,0,1,900,1,0
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","68,596#599#1188#1279,10000","1,2,3",talentTree-15,15,1,3,1, Maestria em Agricultura 3 ,10000,1,1800,2,14,200
+Desbloquear Receitas de Energia","68,596#599#1188#1279,10000","1,2,3",talentTree-15,15,1,3,1,Farming Mastery 3,14,20000,1,1800,2,200
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","69,594#600#1190#1280,10000","1,2,3",talentTree-16,16,1,4,1, Maestria em Agricultura 4 ,20000,1,3600,3,15,1000
+Desbloquear Receitas de Energia","69,594#600#1190#1280,10000","1,2,3",talentTree-16,16,1,4,1,Farming Mastery 4,15,40000,1,3600,3,1000
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","70,601#587#1185#1281,10000","1,2,3",talentTree-17,17,1,5,1, Maestria em Agricultura 5 ,30000,1,7200,4,16,2000
+Desbloquear Receitas de Energia","70,601#587#1185#1281,10000","1,2,3",talentTree-17,17,1,5,1,Farming Mastery 5,16,60000,1,7200,4,2000
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","71,602#586#1189#1282,10000","1,2,3",talentTree-18,18,1,6,1, Maestria em Agricultura 6 ,40000,1,14400,5,17,3200
+Desbloquear Receitas de Energia","71,602#586#1189#1282,10000","1,2,3",talentTree-18,18,1,6,1,Farming Mastery 6,17,80000,1,14400,5,3200
 0," Capacidade de Fertilidade + 1
 Proficiência em Plantio + 4
 Capacidade de Felicidade do Animal de Estimação + 1
 Proficiência em Reprodução + 4
 MaxEnergy + 10
-Desbloquear Receitas de Energia","72,620#617#1187#1283,10000","1,2,3",talentTree-19,19,1,7,1, Maestria em Agricultura 7 ,50000,1,28800,6,18,4600
-0, Capacidade de Fertilidade + 1,"73,624#621#1186#1284,10000","1,2,3",talentTree-20,20,1,8,1, Maestria em Agricultura 8 ,60000,1,57600,7,19,6200
-0, Regar pequenos campos ao seu redor.,"74,625#616#1191#1285,10000","1,2,3",talentTree-21,21,1,9,1, Maestria em Agricultura 9 ,70000,1,115200,8,20,8000
+Desbloquear Receitas de Energia","72,620#617#1187#1283,10000","1,2,3",talentTree-19,19,1,7,1,Farm Mastery 7,18,100000,1,28800,6,4600
+0, Capacidade de Fertilidade + 1,"73,624#621#1186#1284,10000","1,2,3",talentTree-20,20,1,8,1,Farming Mastery 8,19,120000,1,57600,7,6200
+0, Regar pequenos campos ao seu redor.,"74,625#616#1191#1285,10000","1,2,3",talentTree-21,21,1,9,1,Farming Mastery 9,20,140000,1,115200,8,8000
 1," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -100,7 +100,7 @@ Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
 Fitness de Coleta: Converte a proficiência em coleta em defesa de combate e saúde em uma certa proporção, eficaz ao usar ferramentas de coleta
-Desbloquear Receitas de Energia",228,1,talentTree-22,22,0,1,1, Fazenda - Capacidade de Fertilidade ,0,1,95,0,,0
+Desbloquear Receitas de Energia",228,1,talentTree-22,22,0,1,1,Farm - FertilityCapacity ,0,0,1,95,0,0
 -1," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -108,7 +108,7 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia",99,0,talentTree-23,23,0,2,1, Maestria em Regador ,0,1,210,0,77,0
+Desbloquear Receitas de Energia",99,0,talentTree-23,23,0,2,1,Watering Can Mastery,77,0,1,210,0,0
 0," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -116,7 +116,7 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia","81#530,267#605#1268,10000","1,2,3",talentTree-24,24,1,1,1, Maestria em Coleta 1 ,0,3,450,0,,0
+Desbloquear Receitas de Energia","81#530,267#605#1268,10000","1,2,3",talentTree-24,24,1,1,1,Gather Mastery 1,0,0,3,450,0,0
 0," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -124,7 +124,7 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia","82,268#606#1269,10000","1,2,3",talentTree-25,25,1,2,1, Maestria em Coleta 2 ,0,3,900,1,24,0
+Desbloquear Receitas de Energia","82,268#606#1269,10000","1,2,3",talentTree-25,25,1,2,1,Gather Mastery  2,24,0,3,900,1,0
 0," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -132,7 +132,7 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia","83,269#607#1270,10000","1,2,3",talentTree-26,26,1,3,1, Maestria em Coleta 3 ,10000,3,1800,2,25,200
+Desbloquear Receitas de Energia","83,269#607#1270,10000","1,2,3",talentTree-26,26,1,3,1,Gather Mastery  3,25,20000,3,1800,2,200
 0," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -140,7 +140,7 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia","84,382#608#1271,10000","1,2,3",talentTree-27,27,1,4,1, Maestria em Coleta 4 ,20000,3,3600,3,26,1000
+Desbloquear Receitas de Energia","84,382#608#1271,10000","1,2,3",talentTree-27,27,1,4,1,Gather Mastery  4,26,40000,3,3600,3,1000
 0," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -148,7 +148,7 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia","85,383#609#1272,10000","1,2,3",talentTree-28,28,1,5,1, Maestria em Coleta 5 ,30000,3,7200,4,27,2000
+Desbloquear Receitas de Energia","85,383#609#1272,10000","1,2,3",talentTree-28,28,1,5,1,Gather Mastery  5,27,60000,3,7200,4,2000
 0," Ataque de Grama + 5
 Ataque de Árvore + 5
 Ataque de Minério + 5
@@ -156,208 +156,208 @@ Proficiência em Grama + 5
 Proficiência em Árvore + 5
 Proficiência em Minério + 5
 MaxEnergy + 10
-Desbloquear Receitas de Energia","86,384#610#1273,10000","1,2,3",talentTree-29,29,1,6,1, Maestria em Coleta 6 ,40000,3,14400,5,28,3200
-0, Desbloquear Receitas de Conjunto de Equipamentos LV 1,"87,623#611#1274,10000","1,2,3",talentTree-30,30,1,7,1, Maestria em Coleta 7 ,50000,3,28800,6,29,4600
-0," Desbloquear Receitas de Conjunto de Equipamentos LV 2, desbloquear receitas de reciclagem e fragmentação ao atingir o nível máximo.","88,618#612#1275,10000","1,2,3",talentTree-31,31,1,8,1, Maestria em Coleta 8 ,60000,3,57600,7,30,6200
-0, Vazio,"89,622#613#1276,10000","1,2,3",talentTree-32,32,1,9,1, Maestria em Coleta 9 ,70000,3,115200,8,31,8000
--3, Habilidades de Eficiência - Enxada em Grupo,70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3, Receitas de Conjunto de Coleta ,0,3,"131,131,131",0,,"0,0,0"
--3, Proficiência em Plantio + 4,71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3, Receitas de Conjunto de Coleta ,0,3,"262,262,262",0,33,"0,0,0"
--1, Desbloquear Receitas de Essência de Criação de Gado LV 2,415,0,talentTree-45,45,0,3,1, Vazio ,0,1,420,0,23,0
--1, Proficiência em Plantio + 4,103,0,talentTree-46,46,0,4,1, Divisor de Terra ,0,1,840,0,45,600
-2, Aumentar a duração do atordoamento do inimigo.,246,1,talentTree-48,48,0,3,1, Fazenda - Proficiência em Plantio ,0,1,420,0,81,0
--2," Carregar, empurrar inimigos para trás, 50% de dano.",156,2,talentTree-49,49,0,2,1, Receitas de Essência de Criação de Gado ,0,1,210,0,72,0
-2, Reduzir a velocidade de movimento do inimigo.,249,1,talentTree-50,50,0,4,1, Fazenda - Proficiência em Plantio ,0,1,840,0,48,600
--1, Reduzir a velocidade de movimento do inimigo.,333,1,talentTree-52,52,0,3,1, Atropelamento - Aprimoramento ,0,2,323,0,10,0
--2, Repelir o inimigo em uma pequena área à sua frente e dar um salto para trás,122,0,talentTree-54,54,0,2,1, Investida de Touro ,0,2,175,0,,0
--2, Causar alto dano a 5 monstros ao redor,336,1,talentTree-55,55,0,3,1, Investida de Touro - Aprimoramento ,0,2,323,0,54,0
--2, Aumentar temporariamente a recuperação de HP da batalha com base na porcentagem de MaxHP,337,1,talentTree-56,56,0,4,1, Investida de Touro - Aprimoramento ,0,2,646,0,55,600
--2," Desbloquear Receitas de Conjunto de Equipamentos LV 3, desbloquear receitas de reciclagem e fragmentação ao atingir o nível máximo.",123,0,talentTree-57,57,0,5,1, Fuga ,0,2,1292,0,56,800
--3, Desbloquear Receita de Poção,137,0,talentTree-60,60,0,3,1, Rajada Leve ,0,2,323,0,,0
--1, Desbloquear Receita de Poção,485,0,talentTree-61,61,0,4,1, Onda de Cura ,0,2,646,0,52,600
--3, Desbloquear Receita de Poção,72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998#982#487,2,talentTree-62,62,0,3,3, Receitas de Conjunto de Coleta ,0,3,"525,525,525",0,34,"600,600,600"
--1, Desbloquear Receita de Poção,95#902,2,talentTree-65,65,0,1,1, Receitas de Acessórios Mágicos ,0,3,131,0,,0
--1,Desbloquear Receita de Poção.  ,96#903,2,talentTree-66,66,0,2,1, Receitas de Acessórios Mágicos ,0,3,262,0,65,0
--1, Desbloquear Receita de Poção.  ,132#904,2,talentTree-67,67,0,3,1, Receitas de Acessórios Mágicos ,0,3,525,0,66,600
--1, Desbloquear Receita de Poção.  ,346#905,2,talentTree-68,68,0,4,1, Receitas de Acessórios Mágicos,0,3,1050,0,67,600
--1,Desbloquear Receita de Poção.  ,347#906,2,talentTree-69,69,0,5,1,Receitas de Adereços Mágicos,0,3,2100,0,68,800
--3, Reduzir a velocidade de movimento do inimigo.  ,340,1,talentTree-70,70,0,4,1, Rajada Leve - Aprimoramento,0,2,646,0,60,600
--1, Aumentar a duração do atordoamento do inimigo.  ,334,1,talentTree-71,71,0,5,1, Pisoteio de Guerra - Aprimoramento,0,2,1292,0,61,800
--2, Desbloquear Receitas de Essência de Criação de Gado Nv 1  ,155,2,talentTree-72,72,0,1,1, Receitas de Essência de Criação de Gado,0,1,95,0,,0
-2, Proficiência em Plantio + 4  ,230,1,talentTree-73,73,0,1,1, Fazenda - Proficiência em Plantio,0,1,95,0,,0
-3, Capacidade de Felicidade do Animal de Estimação + 1  ,231,1,talentTree-74,74,0,1,1, Fazenda - Capacidade de Felicidade do Animal de Estimação,0,1,95,0,,0
-4, Proficiência em Reprodução + 4  ,233,1,talentTree-76,76,0,1,1, Fazenda - Proficiência em Reprodução,0,1,95,0,,0
--1, Habilidade de Eficiência - Enxada em Grupo  ,102,0,talentTree-77,77,0,1,1, Separador de Terra,0,1,95,0,,0
--4, Desbloquear Receitas de Conjunto de Equipamentos Nv 1  ,62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3, Receitas de Conjunto de Agricultura,0,1,"95,95,95",0,,"0,0,0"
--4," Desbloquear Receitas de Conjunto de Equipamentos Nv 2, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3, Receitas de Conjunto de Agricultura,0,1,"210,210,210",0,78,"0,0,0"
-1, Capacidade de Fertilidade + 1  ,229,1,talentTree-80,80,0,2,1, Fazenda - Produção de Fertilidade por unidade de terra,0,1,210,0,22,0
-2, Proficiência em Plantio + 4  ,245,1,talentTree-81,81,0,2,1, Fazenda - Proficiência em Plantio,0,1,210,0,73,0
-3, Capacidade de Felicidade do Animal de Estimação + 1  ,232,1,talentTree-82,82,0,2,1, Fazenda - Proficiência em Colheita,0,1,210,0,74,0
-4, Proficiência em Reprodução + 4  ,247,1,talentTree-83,83,0,2,1, Fazenda - Índice de Felicidade da Unidade de Animal de Estimação,0,1,210,0,76,0
-1, Capacidade de Fertilidade + 1  ,236,1,talentTree-84,84,0,4,1, Fazenda - Capacidade de Fertilidade,0,1,840,0,93,600
-4, Proficiência em Reprodução + 4  ,289,1,talentTree-85,85,0,5,1, Fazenda - Proficiência em Reprodução,0,1,1680,0,90,800
--4," Desbloquear Receitas de Conjunto de Equipamentos Nv 3, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",64#378#68#131#130#129#920;110#173;174#175#176#506#505#501#490#499#500#580#488#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3, Receitas de Conjunto de Agricultura,0,1,"420,420,420",0,79,"600,600,600"
-3, Capacidade de Felicidade do Animal de Estimação + 1  ,282,1,talentTree-89,89,0,4,1, Fazenda - Capacidade de Felicidade do Animal de Estimação,0,1,840,0,92,600
-4, Proficiência em Reprodução + 4  ,288,1,talentTree-90,90,0,4,1, Fazenda - Proficiência em Reprodução,0,1,840,0,91,600
-4, Proficiência em Reprodução + 4  ,248,1,talentTree-91,91,0,3,1, Fazenda - Proficiência em Reprodução,0,1,420,0,83,0
-3, Capacidade de Felicidade do Animal de Estimação + 1  ,244,1,talentTree-92,92,0,3,1, Fazenda - Capacidade de Felicidade do Animal de Estimação,0,1,420,0,82,0
-1, Capacidade de Fertilidade + 1  ,235,1,talentTree-93,93,0,3,1, Fazenda - Capacidade de Fertilidade,0,1,420,0,80,0
--2, Desbloquear Receitas de Essência de Criação de Gado Nv 3  ,157,2,talentTree-94,94,0,3,1, Receitas de Essência de Criação de Gado,0,1,420,0,49,300
--5, Desbloquear Receitas de Conjunto de Equipamentos Nv 1  ,44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3, Receitas de Conjunto de Combate,0,2,"95,95,95",0,,"0,0,0"
-4, MaxHP de Combate +20  ,264,1,talentTree-96,96,0,1,1, Combate - Pontos de Vida,0,2,95,0,,0
-3, DEF de Combate +5  ,258,1,talentTree-97,97,0,1,1, Combate - Defesa,0,2,95,0,,0
-2, ATK de Combate +5  ,252,1,talentTree-98,98,0,1,1, Combate - Poder de Ataque,0,2,95,0,,0
-1, Aumentar a velocidade em 10%/20%/30%.  ,116;117;118,1,talentTree-99,99,0,1,3, Especialista,0,2,"95,95,95",0,,"0,0,0"
-4, MaxHP de Combate +20  ,265,1,talentTree-100,100,0,2,1, Combate - Pontos de Vida,0,2,175,0,96,0
--5," Desbloquear Receitas de Conjunto de Equipamentos Nv 2, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3, Receitas de Conjunto de Combate,0,2,"175,175,175",0,95,"0,0,0"
-3, DEF de Combate +5  ,259,1,talentTree-102,102,0,2,1, Combate - Defesa,0,2,175,0,97,0
-2, ATK de Combate +5  ,253,1,talentTree-103,103,0,2,1, Combate - Poder de Ataque,0,2,175,0,98,0
-1, Precisão de Combate + 2/4/6%  ,134;135;136,1,talentTree-104,104,0,2,3, Especialista,0,2,"175,175,175",0,99,"0,0,0"
--5," Desbloquear Receitas de Conjunto de Equipamentos Nv 3, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3, Receitas de Conjunto de Combate,0,2,"323,323,323",0,101,"600,600,600"
-3, DEF de Combate +5  ,260,1,talentTree-106,106,0,3,1, Combate - Defesa,0,2,323,0,102,0
-2, ATK de Combate +5  ,254,1,talentTree-107,107,0,3,1, Combate - Poder de Ataque,0,2,323,0,103,0
-1, Ganhar uma taxa de esquiva de 2/4/6%  ,125;126;127,1,talentTree-108,108,0,3,3, Especialista,0,2,"323,323,323",0,104,"0,0,0"
-4, MaxHP de Combate +20  ,266,1,talentTree-109,109,0,3,1, Combate - Pontos de Vida,0,2,323,0,100,0
-3, DEF de Combate +5  ,261,1,talentTree-111,111,0,4,1, Combate - Defesa,0,2,646,0,106,600
-1," A cada 20/10/5 segundos, se você não sofrer nenhum dano, você ganha um aumento de dano de 10%.  ",119;120;121,1,talentTree-112,112,0,4,3, Especialista,0,2,"646,646,646",0,108,"600,600,600"
-2, ATK de Combate +5  ,255,1,talentTree-113,113,0,4,1, Combate - Poder de Ataque,0,2,646,0,107,600
-4, MaxHP de Combate +20  ,267,1,talentTree-114,114,0,4,1, Combate - Pontos de Vida,0,2,646,0,109,600
-3, DEF de Combate +5  ,262,1,talentTree-116,116,0,5,1, Combate - Defesa,0,2,1292,0,111,800
-2, ATK de Combate +5  ,256,1,talentTree-117,117,0,5,1, Combate - Poder de Ataque,0,2,1292,0,113,800
-1, Aumentar a Probabilidade de Acerto Crítico em 5/10/15%  ,60;61;62,1,talentTree-118,118,0,5,3, Especialista,0,2,"1292,1292,1292",0,112,"800,800,800"
--3, Reduzir a velocidade de movimento do inimigo.  ,341,1,talentTree-119,119,0,5,1, Rajada Leve - Aprimoramento,0,2,1292,0,70,800
-4, MaxHP de Combate +20  ,268,1,talentTree-120,120,0,5,1, Combate - Pontos de Vida,0,2,1292,0,114,800
--1, Reduzir a velocidade de movimento do inimigo.  ,335,1,talentTree-122,122,0,6,1, Pisoteio de Guerra - Aprimoramento,0,2,2584,0,71,1000
--2, Reduzir a velocidade de movimento do inimigo.  ,338,1,talentTree-123,123,0,6,1, Fuga - Aprimoramento,0,2,2584,0,57,1000
-1, Aumentar o dano crítico aos monstros em 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3, Especialista,0,2,"2584,2584,2584",0,118,"1000,1000,1000"
--3,Avanço à frente,487,0,talentTree-125,125,0,6,1,Linear impact ,0,2,2584,0,119,1000
--1, Derrote uma grande área de inimigos à sua frente e cause tontura temporária,459,0,talentTree-127,127,0,7,1, Varredura ,0,2,5169,0,122,1200
--2, Reduza a velocidade de movimento do inimigo.,339,1,talentTree-128,128,0,7,1, Fuga - Aprimorar ,0,2,5169,0,123,1200
--3, Reduza a velocidade de movimento do inimigo.,342,1,talentTree-129,129,0,7,1, Linear impact - Aprimorar ,0,2,5169,0,125,1200
-1, Aumento de 10/20/30% na velocidade de ataque.,131;132;133,1,talentTree-130,130,0,7,3, Especialista ,0,2,"5169,5169,5169",0,124,"1200,1200,1200"
-2, ATK de Combate +5,257,1,talentTree-131,131,0,6,1, Combate - Poder de Ataque ,0,2,2584,0,117,1000
-3, DEF de Combate +5,263,1,talentTree-132,132,0,6,1, Combate - Defesa ,0,2,2584,0,116,1000
-4, MaxHP de Combate +20,269,1,talentTree-133,133,0,6,1, Combate - HP ,0,2,2584,0,120,1000
-2, ATK de Combate +5,270,1,talentTree-134,134,0,7,1, Combate - Poder de Ataque ,0,2,5169,0,131,1200
-3, DEF de Combate +5,273,1,talentTree-135,135,0,7,1, Combate - Defesa ,0,2,5169,0,132,1200
-4, MaxHP de Combate +20,276,1,talentTree-136,136,0,7,1, Combate - HP ,0,2,5169,0,133,1200
--2, Causa dano múltiplo aos inimigos próximos,558,0,talentTree-139,139,0,8,1, Tempestade ,0,2,11200,0,128,1400
--3, Reduza a velocidade de movimento do inimigo.,343,1,talentTree-140,140,0,8,1, Linear impact - Aprimorar ,0,2,11200,0,129,1400
-1," Bônus de dano de 0,1/0,2/0,3% por 1% de vida perdida.",128;129;130,1,talentTree-141,141,0,8,3, Especialista ,0,2,"11200,11200,11200",0,130,"1400,1400,1400"
-2, ATK de Combate +5,271,1,talentTree-142,142,0,8,1, Combate - Poder de Ataque ,0,2,11200,0,134,1400
-3, DEF de Combate +5,274,1,talentTree-143,143,0,8,1, Combate - Defesa ,0,2,11200,0,135,1400
-4, MaxHP de Combate +20,277,1,talentTree-144,144,0,8,1, Combate - Saúde ,0,2,11200,0,136,1400
--3, Vazio,432,0,talentTree-149,149,0,9,1, Inspirar ,0,2,24436,0,140,1600
-2, ATK de Combate +5,272,1,talentTree-150,150,0,9,1, Combate - Poder de Ataque ,0,2,24436,0,142,1600
-1," O ataque da arma deixa feridas, causando 1%/2%/3% de dano de ataque a cada 0,5 segundos por 5 segundos.",172;173;174,1,talentTree-151,151,0,9,3, Especialista ,0,2,"24436,24436,24436",0,141,"1600,1600,1600"
-3, DEF de Combate +5,275,1,talentTree-152,152,0,9,1, Combate - Defesa ,0,2,24436,0,143,1600
-4, MaxHP de Combate +20,278,1,talentTree-153,153,0,9,1, Combate - HP ,0,2,24436,0,144,1600
--1, Rega pequenos campos ao seu redor.,100,0,talentTree-157,157,0,5,1, Maestria em Regador ,0,1,1680,0,46,800
-1, Capacidade de Fertilidade +1,237,1,talentTree-158,158,0,5,1, Fazenda - Capacidade de Fertilidade ,0,1,1680,0,84,800
-2, Proficiência em Plantio +4,250,1,talentTree-159,159,0,5,1, Fazenda - Proficiência em Plantio ,0,1,1680,0,50,800
-3, Capacidade de Felicidade do Animal de Estimação +1,283,1,talentTree-160,160,0,5,1, Fazenda - Capacidade de Felicidade do Animal de Estimação ,0,1,1680,0,89,800
-1, Capacidade de Fertilidade +1,238,1,talentTree-163,163,0,6,1, Fazenda - Capacidade de Fertilidade ,0,1,3360,0,158,1000
-3, Capacidade de Felicidade do Animal de Estimação +1,284,1,talentTree-164,164,0,6,1, Fazenda - Capacidade de Felicidade do Animal de Estimação ,0,1,3360,0,160,1000
-2, Proficiência em Plantio +4,251,1,talentTree-165,165,0,6,1, Fazenda - Proficiência em Plantio ,0,1,3360,0,159,1000
-4, Proficiência em Reprodução +4,290,1,talentTree-166,166,0,6,1, Fazenda - Proficiência em Reprodução ,0,1,3360,0,85,1000
--1, Habilidade de Eficiência - Grupo de Enxada,104,0,talentTree-169,169,0,6,1, Divisor de Terra ,0,1,3360,0,157,1000
-1, Capacidade de Fertilidade +1,239,1,talentTree-170,170,0,7,1, Fazenda - Capacidade de Fertilidade ,0,1,6720,0,163,1200
-2, Proficiência em Plantio +4,279,1,talentTree-171,171,0,7,1, Fazenda - Proficiência em Plantio ,0,1,6720,0,165,1200
-3, Capacidade de Felicidade do Animal de Estimação +1,285,1,talentTree-172,172,0,7,1, Fazenda - Capacidade de Felicidade do Animal de Estimação ,0,1,6720,0,164,1200
-4, Proficiência em Reprodução +4,291,1,talentTree-173,173,0,7,1, Fazenda - Proficiência em Reprodução ,0,1,6720,0,166,1200
--1, Rega pequenos campos ao seu redor.,101,0,talentTree-176,176,0,8,1, Maestria em Regador ,0,1,13440,0,298,1400
-2, Proficiência em Plantio +4,280,1,talentTree-177,177,0,8,1, Fazenda - Proficiência em Plantio ,0,1,13440,0,171,1400
-1, Capacidade de Fertilidade +1,240,1,talentTree-178,178,0,8,1, Fazenda - Capacidade de Fertilidade ,0,1,13440,0,170,1400
-3, Capacidade de Felicidade do Animal de Estimação +1,286,1,talentTree-179,179,0,8,1, Fazenda - Capacidade de Felicidade do Animal de Estimação ,0,1,13440,0,172,1400
-4, Proficiência em Reprodução +4,292,1,talentTree-180,180,0,8,1, Fazenda - Proficiência em Reprodução ,0,1,13440,0,173,1400
-1, Capacidade de Fertilidade +1,241,1,talentTree-184,184,0,9,1, Fazenda - Capacidade de Fertilidade ,0,1,26880,0,178,1600
-2, Proficiência em Plantio +4,281,1,talentTree-185,185,0,9,1, Fazenda - Proficiência em Plantio ,0,1,26880,0,177,1600
-3, Capacidade de Felicidade do Animal de Estimação +1,287,1,talentTree-186,186,0,9,1, Fazenda - Capacidade de Felicidade do Animal de Estimação ,0,1,26880,0,179,1600
-4, Proficiência em Reprodução +4,293,1,talentTree-187,187,0,9,1, Fazenda - Proficiência em Reprodução ,0,1,26880,0,180,1600
-1, Coleta de Ataque de Grama ++ Proficiência ++,294,1,talentTree-188,188,0,1,1, Coletar - Grama ,0,3,131,0,,0
-2, Coleta de Ataque de Árvore ++ Proficiência ++,303,1,talentTree-189,189,0,1,1, Valor de Coleta - Árvores ,0,3,131,0,,0
-3, Coleta de Ataque de Minério ++ Proficiência ++,312,1,talentTree-190,190,0,1,1, Valor de Coleta - Mineração ,0,3,131,0,,0
-1, Coleta de Ataque de Grama ++ Proficiência ++,295,1,talentTree-191,191,0,2,1, Coletar - Grama ,0,3,262,0,188,0
-2, Coleta de Ataque de Árvore ++ Proficiência ++,304,1,talentTree-192,192,0,2,1, Coletar - Árvores ,0,3,262,0,189,0
-3, Coleta de Ataque de Minério ++ Proficiência ++,313,1,talentTree-193,193,0,2,1, Valor de Coleta - Mineração,0,3,262,0,190,0
-1,Recolher Ataque de Grama ++ Proficiência ++ ,296,1,talentTree-194,194,0,3,1,Recolher - Grama,0,3,525,0,191,0
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,305,1,talentTree-195,195,0,3,1, Recolher - Árvores,0,3,525,0,192,0
-3, Recolher Ataque de Minério ++ Proficiência ++ ,314,1,talentTree-196,196,0,3,1, Recolher - Mineração,0,3,525,0,193,0
-1, Recolher Ataque de Grama ++ Proficiência ++ ,297,1,talentTree-197,197,0,4,1, Recolher - Grama,0,3,1050,0,194,600
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,306,1,talentTree-198,198,0,4,1, Recolher - Árvores,0,3,1050,0,195,600
-3, Recolher Ataque de Minério ++ Proficiência ++ ,315,1,talentTree-199,199,0,4,1, Valor de Recolha - Mineração,0,3,1050,0,196,600
-1, Recolher Ataque de Grama ++ Proficiência ++ ,298,1,talentTree-200,200,0,5,1, Recolher - Grama,0,3,2100,0,197,800
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,307,1,talentTree-201,201,0,5,1, Valor de Recolha - Árvores,0,3,2100,0,198,800
-3, Recolher Ataque de Minério ++ Proficiência ++ ,316,1,talentTree-202,202,0,5,1, Recolher - Mineração,0,3,2100,0,199,800
--1, Desbloquear Receita de Poção.  ,348#907,2,talentTree-204,204,0,6,1, Receitas de Adereços Mágicos,0,3,4200,0,69,1000
-1, Recolher Ataque de Grama ++ Proficiência ++ ,299,1,talentTree-205,205,0,6,1, Valor de Recolha - Grama,0,3,4200,0,200,1000
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,308,1,talentTree-206,206,0,6,1, Recolher - Árvores,0,3,4200,0,201,1000
-3, Recolher Ataque de Minério ++ Proficiência ++ ,317,1,talentTree-207,207,0,6,1, Valor de Recolha - Mineração,0,3,4200,0,202,1000
--1, Desbloquear Receita de Poção.  ,895#908,2,talentTree-209,209,0,7,1, Ainda não aberto,0,3,8400,0,204,1200
-1, Recolher Ataque de Grama ++ Proficiência ++ ,300,1,talentTree-210,210,0,7,1, Recolher - Grama,0,3,8400,0,205,1200
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,309,1,talentTree-211,211,0,7,1, Recolher - Árvores,0,3,8400,0,206,1200
-3, Recolher Ataque de Minério ++ Proficiência ++ ,318,1,talentTree-212,212,0,7,1, Recolher - Mineração,0,3,8400,0,207,1200
--1, Desbloquear Receita de Poção.  ,896#909,2,talentTree-214,214,0,8,1, Ainda não aberto,0,3,16800,0,209,1400
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,310,1,talentTree-215,215,0,8,1, Recolher - Árvores,0,3,16800,0,211,1400
-1, Recolher Ataque de Grama ++ Proficiência ++ ,301,1,talentTree-216,216,0,8,1, Recolher - Grama,0,3,16800,0,210,1400
-3, Recolher Ataque de Minério ++ Proficiência ++ ,319,1,talentTree-217,217,0,8,1, Recolher - Mineração,0,3,16800,0,212,1400
--1, Desbloquear Receita de Poção.  ,897#910,2,talentTree-219,219,0,9,1, Ainda não aberto,0,3,33600,0,214,1600
-1, Recolher Ataque de Grama ++ Proficiência ++ ,302,1,talentTree-220,220,0,9,1, Recolher - Grama,0,3,33600,0,216,1600
-2, Recolher Ataque de Árvore ++ Proficiência ++ ,311,1,talentTree-221,221,0,9,1, Recolher - Árvores,0,3,33600,0,215,1600
-3, Recolher Ataque de Minério ++ Proficiência ++ ,320,1,talentTree-222,222,0,9,1, Recolher - Mineração,0,3,33600,0,217,1600
--3, Desbloquear Receitas de Essência de Plantio Nv 1 ,152,2,talentTree-227,227,0,1,1, Receitas de Essência de Plantio,0,1,95,0,,0
--3, Desbloquear Receitas de Essência de Plantio Nv 2 ,153,2,talentTree-228,228,0,2,1, Receitas de Essência de Plantio,0,1,210,0,227,0
--3, Desbloquear Receitas de Essência de Plantio Nv 3 ,154,2,talentTree-229,229,0,3,1, Receitas de Essência de Plantio,0,1,420,0,228,300
--4, Desbloquear Receitas de Essência Nv 1 ,149,2,talentTree-236,236,0,1,1, Receitas de Essência de Combate,0,2,95,0,,0
--4, Desbloquear Receitas de Essência Nv 2 ,150,2,talentTree-237,237,0,2,1, Receitas de Essência de Combate,0,2,175,0,236,0
--4, Desbloquear Receitas de Essência Nv 3 ,151,2,talentTree-238,238,0,3,1, Receitas de Essência de Combate,0,2,323,0,237,600
--2, Desbloquear Receitas de Essência Nv 1 ,158,2,talentTree-245,245,0,1,1, Receitas de Essência de Recolha,0,3,131,0,,0
--2, Desbloquear Receitas de Essência Nv 2 ,159,2,talentTree-246,246,0,2,1, Receitas de Essência de Recolha,0,3,262,0,245,0
--2, Desbloquear Receitas de Essência Nv 3 ,160,2,talentTree-247,247,0,3,1, Receitas de Essência de Recolha,0,3,525,0,246,600
-5, Capturar animais como seus animais de estimação ,166,0,talentTree-254,254,0,1,1, Captura,0,1,95,0,,0
--5," Desbloquear Receitas de Conjunto de Equipamentos Nv 4, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3, Receitas de Conjunto de Combate,0,2,"646,646,646",0,105,"2000,2000,2000"
--4, Desbloquear Receitas de Essência Nv 4 ,340,2,talentTree-257,257,0,4,1, Receitas de Essência de Combate,0,2,646,0,238,2000
--5," Desbloquear Receitas de Conjunto de Equipamentos Nv 5, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3, Receitas de Conjunto de Combate,0,2,"1292,1292,1292",0,256,"3000,3000,3000"
--4, Desbloquear Receitas de Essência Nv 5 ,341,2,talentTree-259,259,0,5,1, Receitas de Essência de Combate,0,2,1292,0,257,3000
--5," Desbloquear Receitas de Conjunto de Equipamentos Nv 6, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3, Receitas de Conjunto de Combate,0,2,"2584,2584,2584",0,258,"4000,4000,4000"
--4, Desbloquear Receitas de Essência Nv 6 ,342,2,talentTree-261,261,0,6,1, Receitas de Essência de Recolha,0,2,2584,0,259,4000
--3," Desbloquear Receitas de Conjunto de Equipamentos Nv 4, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3, Receitas de Essência de Recolha,0,3,"1050,1050,1050",0,62,"2000,2000,2000"
--2, Desbloquear Receitas de Essência Nv 4 ,343,2,talentTree-263,263,0,4,1, Receitas de Conjunto de Recolha,0,3,1050,0,247,2000
--3," Desbloquear Receitas de Conjunto de Equipamentos Nv 5, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3, Receitas de Essência de Recolha,0,3,"2100,2100,2100",0,262,"3000,3000,3000"
--2, Desbloquear Receitas de Essência Nv 5 ,344,2,talentTree-265,265,0,5,1, Receitas de Conjunto de Recolha,0,3,2100,0,263,3000
--3," Desbloquear Receitas de Conjunto de Equipamentos Nv 6, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3, Receitas de Essência de Recolha,0,3,"4200,4200,4200",0,264,"4000,4000,4000"
--2, Desbloquear Receitas de Essência Nv 6 ,345,2,talentTree-267,267,0,6,1, Receitas de Conjunto de Agricultura,0,3,4200,0,265,4000
--4," Desbloquear Receitas de Conjunto de Equipamentos Nv 4, desbloquear Receitas de Essência de Plantio Nv 4 ",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3, Receitas de Essência de Plantio,0,1,"840,840,840",0,88,"2000,2000,2000"
--3, Desbloquear Receitas de Essência de Criação de Gado Nv 4,334,2,talentTree-269,269,0,4,1, Receitas de Essência de Criação de Gado,0,1,840,0,229,1000
--2, Desbloquear Receitas de Essência de Criação de Gado Lv 4,337,2,talentTree-270,270,0,4,1,Essências de Criação de Gado,0,1,840,0,94,1000
--4," Desbloqueie Receitas de Conjunto de Equipamentos LV 5, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3,Receitas do Conjunto de Agricultura,0,1,"1680,1680,1680",0,268,"3000,3000,3000"
--3, Desbloquear Receitas de Essência de Plantio Lv 5,335,2,talentTree-272,272,0,5,1, Receitas de Essência de Plantio,0,1,1680,0,269,1500
--2, Desbloquear Receitas de Essência de Criação de Gado Lv 5,338,2,talentTree-273,273,0,5,1, Receitas de Essência de Criação de Gado,0,1,1680,0,270,1500
--4," Desbloqueie Receitas de Conjunto de Equipamentos LV 6, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3, Receitas do Conjunto de Agricultura,0,1,"3360,3360,3360",0,271,"4000,4000,4000"
--3, Desbloquear Receitas de Essência de Plantio Lv 6,336,2,talentTree-275,275,0,6,1, Receitas de Essência de Plantio,0,1,3360,0,272,2000
--2, Desbloquear Receitas de Essência de Criação de Gado Lv 6,339,2,talentTree-276,276,0,6,1, Receitas de Essência de Criação de Gado,0,1,3360,0,273,2000
--4," Desbloqueie Receitas de Conjunto de Equipamentos LV 7, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",654#655#656#886#887#888#924;657#658;659#660#661#829#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098,2,talentTree-277,277,0,7,3, Receitas do Conjunto de Agricultura,0,1,"6720,6720,6720",0,274,"5000,5000,5000"
--3, Desbloquear Receitas de Essência de Plantio Lv 7,632,2,talentTree-278,278,0,7,1, Receitas de Essência de Plantio,0,1,6720,0,275,2500
--2, Desbloquear Receitas de Essência de Criação de Gado Lv 7,635,2,talentTree-279,279,0,7,1, Receitas de Essência de Criação de Gado,0,1,6720,0,276,2500
--4," Desbloqueie Receitas de Conjunto de Equipamentos LV 8, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",678#679#680;681#682;683#684#685#846#847#848#849#850#851#852#853#1115#1116#1117#1118#1119#1120#1121#1122,2,talentTree-280,280,0,8,3, Receitas do Conjunto de Agricultura,0,1,"13440,13440,13440",0,277,"6000,6000,6000"
--3, Desbloquear Receitas de Essência de Plantio Lv 8,636,2,talentTree-281,281,0,8,1, Receitas de Essência de Plantio,0,1,13440,0,278,3000
--2, Desbloquear Receitas de Essência de Criação de Gado Lv 8,633,2,talentTree-282,282,0,8,1, Receitas de Essência de Criação de Gado,0,1,13440,0,279,3000
--4," Desbloqueie Receitas de Conjunto de Equipamentos LV 9, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",702#703#704;705#706;707#708#709#870#871#872#873#874#875#876#877#1139#1140#1141#1142#1143#1144#1145#1146,2,talentTree-283,283,0,9,3, Receitas do Conjunto de Agricultura,0,1,"26880,26880,26880",0,280,"7000,7000,7000"
--3, Desbloquear Receitas de Essência de Plantio Lv 9,637,2,talentTree-284,284,0,9,1, Receitas de Essência de Plantio,0,1,26880,0,281,3500
--2, Desbloquear Receitas de Essência de Criação de Gado Lv 9,634,2,talentTree-285,285,0,9,1, Receitas de Essência de Criação de Gado,0,1,26880,0,282,3500
--5," Desbloqueie Receitas de Conjunto de Equipamentos LV 7, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#837#1075#1076#1077#1078#1079#1080#1081#1082,2,talentTree-286,286,0,7,3, Receitas do Conjunto de Combate,0,2,"5169,5169,5169",0,260,"5000,5000,5000"
--4, Desbloquear Receitas de Essência Lv 7,626,2,talentTree-287,287,0,7,1, Receitas de Essência de Combate,0,2,5169,0,261,5000
--5," Desbloqueie Receitas de Conjunto de Equipamentos LV 8, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",662#663#664#889#891#890#925;665#666;667#668#669#854#855#856#857#858#859#860#861#1099#1100#1101#1102#1103#1104#1105#1106,2,talentTree-288,288,0,8,3, Receitas do Conjunto de Combate,0,2,"11200,11200,11200",0,286,"6000,6000,6000"
--4, Desbloquear Receitas de Essência Lv 8,627,2,talentTree-289,289,0,8,1, Receitas de Essência de Combate,0,2,11200,0,287,6000
--5," Desbloqueie Receitas de Conjunto de Equipamentos LV 9, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",686#687#688#894#892#893#926;689#690;691#692#693#878#879#880#881#882#883#884#885#1124#1125#1126#1127#1128#1129#1130#1123,2,talentTree-290,290,0,9,3, Receitas do Conjunto de Combate,0,2,"24436,24436,24436",0,288,"7000,7000,7000"
--4, Desbloquear Receitas de Essência Lv 9,628,2,talentTree-291,291,0,9,1, Receitas de Essência de Combate,0,2,24436,0,289,7000
--3, Aumente a velocidade de movimento para si e aliados por 10 segundos,646#647#648;649#650;651#652#653#821#822#823#824#825#826#827#828#1083#1084#1085#1086#1087#1088#1089#1090,2,talentTree-292,292,0,7,3, Receitas do Conjunto de Coleta,0,3,"8400,8400,8400",0,266,"5000,5000,5000"
--2, Aumente sua velocidade de movimento em 20% por 30 segundos,629,2,talentTree-293,293,0,7,1, Receitas de Essência de Coleta,0,3,8400,0,267,5000
--3, Cause um poderoso efeito repelente no inimigo à sua frente,670#671#672;675#676#677#838#839#840#841#842#843#844#845#1107#1108#1109#1110#1111#1112#1113#1114;673#674,2,talentTree-294,294,0,8,3, Receitas do Conjunto de Coleta,0,3,"16800,16800,16800",0,292,"6000,6000,6000"
--2, Use esta habilidade para causar dano ao slime,630,2,talentTree-295,295,0,8,1, Receitas de Essência de Coleta,0,3,16800,0,293,6000
--3, Converte seus HP em seu escudo,694#695#696;699#700#701#862#863#864#865#866#867#868#869#1131#1132#1133#1134#1135#1136#1137#1138;697#698,2,talentTree-296,296,0,9,3, Receitas do Conjunto de Coleta,0,3,"33600,33600,33600",0,294,"7000,7000,7000"
--2,,631,2,talentTree-297,297,0,9,1, Receitas de Essência de Coleta,0,3,33600,0,295,7000
--1,,460,0,talentTree-298,298,0,7,1, Encerrar,0,1,6720,0,169,1200
-4,,541,0,talentTree-299,299,0,3,1, Método de Refluxo,0,3,525,0,,0
-4,,540,0,talentTree-300,300,0,6,1, Repelir,0,3,4200,0,299,1000
-5,,616,0,talentTree-301,301,0,1,1, Interceptar,0,2,95,0,,0
-5,,555,0,talentTree-302,302,0,3,1, Proteção de Sangue,0,1,420,0,,400
+Desbloquear Receitas de Energia","86,384#610#1273,10000","1,2,3",talentTree-29,29,1,6,1,Gather Mastery  6,28,80000,3,14400,5,3200
+0, Desbloquear Receitas de Conjunto de Equipamentos LV 1,"87,623#611#1274,10000","1,2,3",talentTree-30,30,1,7,1,Gather Mastery  7,29,100000,3,28800,6,4600
+0," Desbloquear Receitas de Conjunto de Equipamentos LV 2, desbloquear receitas de reciclagem e fragmentação ao atingir o nível máximo.","88,618#612#1275,10000","1,2,3",talentTree-31,31,1,8,1,Gather Mastery  8,30,120000,3,57600,7,6200
+0, Vazio,"89,622#613#1276,10000","1,2,3",talentTree-32,32,1,9,1,Gather Mastery  9,31,140000,3,115200,8,8000
+-3, Habilidades de Eficiência - Enxada em Grupo,70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,0,3,"131,131,131",0,"0,0,0"
+-3, Proficiência em Plantio + 4,71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Gather Set Recipes,33,0,3,"262,262,262",0,"0,0,0"
+-1, Desbloquear Receitas de Essência de Criação de Gado LV 2,415,0,talentTree-45,45,0,3,1,,23,0,1,420,0,0
+-1, Proficiência em Plantio + 4,103,0,talentTree-46,46,0,4,1,Earth Splitter,45,0,1,840,0,600
+2, Aumentar a duração do atordoamento do inimigo.,246,1,talentTree-48,48,0,3,1,Farm - PlantingProficiency ,81,0,1,420,0,0
+-2," Carregar, empurrar inimigos para trás, 50% de dano.",156,2,talentTree-49,49,0,2,1,Livestock Essence Recipes,72,0,1,210,0,0
+2, Reduzir a velocidade de movimento do inimigo.,249,1,talentTree-50,50,0,4,1,Farm - PlantingProficiency ,48,0,1,840,0,600
+-1, Reduzir a velocidade de movimento do inimigo.,333,1,talentTree-52,52,0,3,1,Trampling - Enhance,10,0,2,323,0,0
+-2, Repelir o inimigo em uma pequena área à sua frente e dar um salto para trás,122,0,talentTree-54,54,0,2,1,Bull Rush,0,0,2,175,0,0
+-2, Causar alto dano a 5 monstros ao redor,336,1,talentTree-55,55,0,3,1,Bull Rush - Enhance,54,0,2,323,0,0
+-2, Aumentar temporariamente a recuperação de HP da batalha com base na porcentagem de MaxHP,337,1,talentTree-56,56,0,4,1,Bull Rush - Enhance,55,0,2,646,0,600
+-2," Desbloquear Receitas de Conjunto de Equipamentos LV 3, desbloquear receitas de reciclagem e fragmentação ao atingir o nível máximo.",123,0,talentTree-57,57,0,5,1,Escape,56,0,2,1292,0,800
+-3, Desbloquear Receita de Poção,137,0,talentTree-60,60,0,3,1,Slight Flurry,0,0,2,323,0,0
+-1, Desbloquear Receita de Poção,485,0,talentTree-61,61,0,4,1,Healing Wave,52,0,2,646,0,600
+-3, Desbloquear Receita de Poção,72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998#982#487,2,talentTree-62,62,0,3,3,Gather Set Recipes,34,0,3,"525,525,525",0,"600,600,600"
+-1, Desbloquear Receita de Poção,95#902,2,talentTree-65,65,0,1,1,Magic Props Recipes,0,0,3,131,0,0
+-1,Desbloquear Receita de Poção.  ,96#903,2,talentTree-66,66,0,2,1,Magic Props Recipes,65,0,3,262,0,0
+-1, Desbloquear Receita de Poção.  ,132#904,2,talentTree-67,67,0,3,1,Magic Props Recipes,66,0,3,525,0,600
+-1, Desbloquear Receita de Poção.  ,346#905,2,talentTree-68,68,0,4,1,Magic Props Recipes,67,0,3,1050,0,600
+-1,Desbloquear Receita de Poção.  ,347#906,2,talentTree-69,69,0,5,1,Magic Props Recipes,68,0,3,2100,0,800
+-3, Reduzir a velocidade de movimento do inimigo.  ,340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,60,0,2,646,0,600
+-1, Aumentar a duração do atordoamento do inimigo.  ,334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,61,0,2,1292,0,800
+-2, Desbloquear Receitas de Essência de Criação de Gado Nv 1  ,155,2,talentTree-72,72,0,1,1,Livestock Essence Recipes,0,0,1,95,0,0
+2, Proficiência em Plantio + 4  ,230,1,talentTree-73,73,0,1,1,Farm - PlantingProficiency ,0,0,1,95,0,0
+3, Capacidade de Felicidade do Animal de Estimação + 1  ,231,1,talentTree-74,74,0,1,1,Farm - PetHappinessCapacity ,0,0,1,95,0,0
+4, Proficiência em Reprodução + 4  ,233,1,talentTree-76,76,0,1,1,Farm - BreedingProficiency,0,0,1,95,0,0
+-1, Habilidade de Eficiência - Enxada em Grupo  ,102,0,talentTree-77,77,0,1,1,Earth Splitter,0,0,1,95,0,0
+-4, Desbloquear Receitas de Conjunto de Equipamentos Nv 1  ,62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,0,1,"95,95,95",0,"0,0,0"
+-4," Desbloquear Receitas de Conjunto de Equipamentos Nv 2, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Farming Set Recipes,78,0,1,"210,210,210",0,"0,0,0"
+1, Capacidade de Fertilidade + 1  ,229,1,talentTree-80,80,0,2,1,Farm - Fertility output per unit of land,22,0,1,210,0,0
+2, Proficiência em Plantio + 4  ,245,1,talentTree-81,81,0,2,1,Farm - PlantingProficiency ,73,0,1,210,0,0
+3, Capacidade de Felicidade do Animal de Estimação + 1  ,232,1,talentTree-82,82,0,2,1,Farm - Harvest proficiency,74,0,1,210,0,0
+4, Proficiência em Reprodução + 4  ,247,1,talentTree-83,83,0,2,1,Farm - Pet Unit Output Happiness Index,76,0,1,210,0,0
+1, Capacidade de Fertilidade + 1  ,236,1,talentTree-84,84,0,4,1,Farm - FertilityCapacity ,93,0,1,840,0,600
+4, Proficiência em Reprodução + 4  ,289,1,talentTree-85,85,0,5,1,Farm - BreedingProficiency,90,0,1,1680,0,800
+-4," Desbloquear Receitas de Conjunto de Equipamentos Nv 3, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",64#378#68#131#130#129#920;110#173;174#175#176#506#505#501#490#499#500#580#488#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Farming Set Recipes,79,0,1,"420,420,420",0,"600,600,600"
+3, Capacidade de Felicidade do Animal de Estimação + 1  ,282,1,talentTree-89,89,0,4,1,Farm - PetHappinessCapacity ,92,0,1,840,0,600
+4, Proficiência em Reprodução + 4  ,288,1,talentTree-90,90,0,4,1,Farm - BreedingProficiency,91,0,1,840,0,600
+4, Proficiência em Reprodução + 4  ,248,1,talentTree-91,91,0,3,1,Farm - BreedingProficiency,83,0,1,420,0,0
+3, Capacidade de Felicidade do Animal de Estimação + 1  ,244,1,talentTree-92,92,0,3,1,Farm - PetHappinessCapacity ,82,0,1,420,0,0
+1, Capacidade de Fertilidade + 1  ,235,1,talentTree-93,93,0,3,1,Farm - FertilityCapacity ,80,0,1,420,0,0
+-2, Desbloquear Receitas de Essência de Criação de Gado Nv 3  ,157,2,talentTree-94,94,0,3,1,Livestock Essence Recipes,49,0,1,420,0,300
+-5, Desbloquear Receitas de Conjunto de Equipamentos Nv 1  ,44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,0,2,"95,95,95",0,"0,0,0"
+4, MaxHP de Combate +20  ,264,1,talentTree-96,96,0,1,1,Combat - HP,0,0,2,95,0,0
+3, DEF de Combate +5  ,258,1,talentTree-97,97,0,1,1,Combat - Defense,0,0,2,95,0,0
+2, ATK de Combate +5  ,252,1,talentTree-98,98,0,1,1,Combat - Attack Power,0,0,2,95,0,0
+1, Aumentar a velocidade em 10%/20%/30%.  ,116;117;118,1,talentTree-99,99,0,1,3,Expert,0,0,2,"95,95,95",0,"0,0,0"
+4, MaxHP de Combate +20  ,265,1,talentTree-100,100,0,2,1,Combat - HP,96,0,2,175,0,0
+-5," Desbloquear Receitas de Conjunto de Equipamentos Nv 2, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Combat Set Recipes,95,0,2,"175,175,175",0,"0,0,0"
+3, DEF de Combate +5  ,259,1,talentTree-102,102,0,2,1,Combat - Defense,97,0,2,175,0,0
+2, ATK de Combate +5  ,253,1,talentTree-103,103,0,2,1,Combat - Attack Power,98,0,2,175,0,0
+1, Precisão de Combate + 2/4/6%  ,134;135;136,1,talentTree-104,104,0,2,3,Expert,99,0,2,"175,175,175",0,"0,0,0"
+-5," Desbloquear Receitas de Conjunto de Equipamentos Nv 3, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo.  ",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Combat Set Recipes,101,0,2,"323,323,323",0,"600,600,600"
+3, DEF de Combate +5  ,260,1,talentTree-106,106,0,3,1,Combat - Defense,102,0,2,323,0,0
+2, ATK de Combate +5  ,254,1,talentTree-107,107,0,3,1,Combat - Attack Power,103,0,2,323,0,0
+1, Ganhar uma taxa de esquiva de 2/4/6%  ,125;126;127,1,talentTree-108,108,0,3,3,Expert,104,0,2,"323,323,323",0,"0,0,0"
+4, MaxHP de Combate +20  ,266,1,talentTree-109,109,0,3,1,Combat - HP,100,0,2,323,0,0
+3, DEF de Combate +5  ,261,1,talentTree-111,111,0,4,1,Combat - Defense,106,0,2,646,0,600
+1," A cada 20/10/5 segundos, se você não sofrer nenhum dano, você ganha um aumento de dano de 10%.  ",119;120;121,1,talentTree-112,112,0,4,3,Expert,108,0,2,"646,646,646",0,"600,600,600"
+2, ATK de Combate +5  ,255,1,talentTree-113,113,0,4,1,Combat - Attack Power,107,0,2,646,0,600
+4, MaxHP de Combate +20  ,267,1,talentTree-114,114,0,4,1,Combat - HP,109,0,2,646,0,600
+3, DEF de Combate +5  ,262,1,talentTree-116,116,0,5,1,Combat - Defense,111,0,2,1292,0,800
+2, ATK de Combate +5  ,256,1,talentTree-117,117,0,5,1,Combat - Attack Power,113,0,2,1292,0,800
+1, Aumentar a Probabilidade de Acerto Crítico em 5/10/15%  ,60;61;62,1,talentTree-118,118,0,5,3,Expert,112,0,2,"1292,1292,1292",0,"800,800,800"
+-3, Reduzir a velocidade de movimento do inimigo.  ,341,1,talentTree-119,119,0,5,1,Slight Flurry - Enhance,70,0,2,1292,0,800
+4, MaxHP de Combate +20  ,268,1,talentTree-120,120,0,5,1,Combat - HP,114,0,2,1292,0,800
+-1, Reduzir a velocidade de movimento do inimigo.  ,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,71,0,2,2584,0,1000
+-2, Reduzir a velocidade de movimento do inimigo.  ,338,1,talentTree-123,123,0,6,1,Escape - Enhance,57,0,2,2584,0,1000
+1, Aumentar o dano crítico aos monstros em 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3,Expert,118,0,2,"2584,2584,2584",0,"1000,1000,1000"
+-3,Avanço à frente,487,0,talentTree-125,125,0,6,1,Linear impact,119,0,2,2584,0,1000
+-1, Derrote uma grande área de inimigos à sua frente e cause tontura temporária,459,0,talentTree-127,127,0,7,1,Sweeping,122,0,2,5169,0,1200
+-2, Reduza a velocidade de movimento do inimigo.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,123,0,2,5169,0,1200
+-3, Reduza a velocidade de movimento do inimigo.,342,1,talentTree-129,129,0,7,1,Linear impact - Enhance,125,0,2,5169,0,1200
+1, Aumento de 10/20/30% na velocidade de ataque.,131;132;133,1,talentTree-130,130,0,7,3,Expert,124,0,2,"5169,5169,5169",0,"1200,1200,1200"
+2, ATK de Combate +5,257,1,talentTree-131,131,0,6,1,Combat - Attack Power,117,0,2,2584,0,1000
+3, DEF de Combate +5,263,1,talentTree-132,132,0,6,1,Combat - Defense,116,0,2,2584,0,1000
+4, MaxHP de Combate +20,269,1,talentTree-133,133,0,6,1,Combat - HP,120,0,2,2584,0,1000
+2, ATK de Combate +5,270,1,talentTree-134,134,0,7,1,Combat - Attack Power,131,0,2,5169,0,1200
+3, DEF de Combate +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,132,0,2,5169,0,1200
+4, MaxHP de Combate +20,276,1,talentTree-136,136,0,7,1,Combat - HP,133,0,2,5169,0,1200
+-2, Causa dano múltiplo aos inimigos próximos,558,0,talentTree-139,139,0,8,1,Thunderstorm,128,0,2,11200,0,1400
+-3, Reduza a velocidade de movimento do inimigo.,343,1,talentTree-140,140,0,8,1,Linear impact - Enhance,129,0,2,11200,0,1400
+1," Bônus de dano de 0,1/0,2/0,3% por 1% de vida perdida.",128;129;130,1,talentTree-141,141,0,8,3,Expert,130,0,2,"11200,11200,11200",0,"1400,1400,1400"
+2, ATK de Combate +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,134,0,2,11200,0,1400
+3, DEF de Combate +5,274,1,talentTree-143,143,0,8,1,Combat - Defense,135,0,2,11200,0,1400
+4, MaxHP de Combate +20,277,1,talentTree-144,144,0,8,1,Combat - Health,136,0,2,11200,0,1400
+-3, Vazio,432,0,talentTree-149,149,0,9,1,Inspire,140,0,2,24436,0,1600
+2, ATK de Combate +5,272,1,talentTree-150,150,0,9,1,Combat - Attack Power,142,0,2,24436,0,1600
+1," O ataque da arma deixa feridas, causando 1%/2%/3% de dano de ataque a cada 0,5 segundos por 5 segundos.",172;173;174,1,talentTree-151,151,0,9,3,Expert,141,0,2,"24436,24436,24436",0,"1600,1600,1600"
+3, DEF de Combate +5,275,1,talentTree-152,152,0,9,1,Combat - Defense,143,0,2,24436,0,1600
+4, MaxHP de Combate +20,278,1,talentTree-153,153,0,9,1,Combat - HP,144,0,2,24436,0,1600
+-1, Rega pequenos campos ao seu redor.,100,0,talentTree-157,157,0,5,1,Watering Can Mastery,46,0,1,1680,0,800
+1, Capacidade de Fertilidade +1,237,1,talentTree-158,158,0,5,1,Farm - FertilityCapacity ,84,0,1,1680,0,800
+2, Proficiência em Plantio +4,250,1,talentTree-159,159,0,5,1,Farm - PlantingProficiency ,50,0,1,1680,0,800
+3, Capacidade de Felicidade do Animal de Estimação +1,283,1,talentTree-160,160,0,5,1,Farm - PetHappinessCapacity ,89,0,1,1680,0,800
+1, Capacidade de Fertilidade +1,238,1,talentTree-163,163,0,6,1,Farm - FertilityCapacity ,158,0,1,3360,0,1000
+3, Capacidade de Felicidade do Animal de Estimação +1,284,1,talentTree-164,164,0,6,1,Farm - PetHappinessCapacity ,160,0,1,3360,0,1000
+2, Proficiência em Plantio +4,251,1,talentTree-165,165,0,6,1,Farm - PlantingProficiency ,159,0,1,3360,0,1000
+4, Proficiência em Reprodução +4,290,1,talentTree-166,166,0,6,1,Farm - BreedingProficiency,85,0,1,3360,0,1000
+-1, Habilidade de Eficiência - Grupo de Enxada,104,0,talentTree-169,169,0,6,1,Earth Splitter,157,0,1,3360,0,1000
+1, Capacidade de Fertilidade +1,239,1,talentTree-170,170,0,7,1,Farm - FertilityCapacity ,163,0,1,6720,0,1200
+2, Proficiência em Plantio +4,279,1,talentTree-171,171,0,7,1,Farm - PlantingProficiency ,165,0,1,6720,0,1200
+3, Capacidade de Felicidade do Animal de Estimação +1,285,1,talentTree-172,172,0,7,1,Farm - PetHappinessCapacity ,164,0,1,6720,0,1200
+4, Proficiência em Reprodução +4,291,1,talentTree-173,173,0,7,1,Farm - BreedingProficiency,166,0,1,6720,0,1200
+-1, Rega pequenos campos ao seu redor.,101,0,talentTree-176,176,0,8,1,Watering Can Mastery,298,0,1,13440,0,1400
+2, Proficiência em Plantio +4,280,1,talentTree-177,177,0,8,1,Farm - PlantingProficiency ,171,0,1,13440,0,1400
+1, Capacidade de Fertilidade +1,240,1,talentTree-178,178,0,8,1,Farm - FertilityCapacity ,170,0,1,13440,0,1400
+3, Capacidade de Felicidade do Animal de Estimação +1,286,1,talentTree-179,179,0,8,1,Farm - PetHappinessCapacity ,172,0,1,13440,0,1400
+4, Proficiência em Reprodução +4,292,1,talentTree-180,180,0,8,1,Farm - BreedingProficiency,173,0,1,13440,0,1400
+1, Capacidade de Fertilidade +1,241,1,talentTree-184,184,0,9,1,Farm - FertilityCapacity ,178,0,1,26880,0,1600
+2, Proficiência em Plantio +4,281,1,talentTree-185,185,0,9,1,Farm - PlantingProficiency ,177,0,1,26880,0,1600
+3, Capacidade de Felicidade do Animal de Estimação +1,287,1,talentTree-186,186,0,9,1,Farm - PetHappinessCapacity ,179,0,1,26880,0,1600
+4, Proficiência em Reprodução +4,293,1,talentTree-187,187,0,9,1,Farm - BreedingProficiency,180,0,1,26880,0,1600
+1, Coleta de Ataque de Grama ++ Proficiência ++,294,1,talentTree-188,188,0,1,1,Gather - Grass,0,0,3,131,0,0
+2, Coleta de Ataque de Árvore ++ Proficiência ++,303,1,talentTree-189,189,0,1,1,Gather value - Trees,0,0,3,131,0,0
+3, Coleta de Ataque de Minério ++ Proficiência ++,312,1,talentTree-190,190,0,1,1,Gather value - Mining,0,0,3,131,0,0
+1, Coleta de Ataque de Grama ++ Proficiência ++,295,1,talentTree-191,191,0,2,1,Gather - Grass,188,0,3,262,0,0
+2, Coleta de Ataque de Árvore ++ Proficiência ++,304,1,talentTree-192,192,0,2,1,Gather - Trees,189,0,3,262,0,0
+3, Coleta de Ataque de Minério ++ Proficiência ++,313,1,talentTree-193,193,0,2,1,Gather value - Mining,190,0,3,262,0,0
+1,Recolher Ataque de Grama ++ Proficiência ++ ,296,1,talentTree-194,194,0,3,1,Gather - Grass,191,0,3,525,0,0
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,305,1,talentTree-195,195,0,3,1,Gather - Trees,192,0,3,525,0,0
+3, Recolher Ataque de Minério ++ Proficiência ++ ,314,1,talentTree-196,196,0,3,1,Gather - Mining,193,0,3,525,0,0
+1, Recolher Ataque de Grama ++ Proficiência ++ ,297,1,talentTree-197,197,0,4,1,Gather - Grass,194,0,3,1050,0,600
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,306,1,talentTree-198,198,0,4,1,Gather - Trees,195,0,3,1050,0,600
+3, Recolher Ataque de Minério ++ Proficiência ++ ,315,1,talentTree-199,199,0,4,1,Gather value - Mining,196,0,3,1050,0,600
+1, Recolher Ataque de Grama ++ Proficiência ++ ,298,1,talentTree-200,200,0,5,1,Gather - Grass,197,0,3,2100,0,800
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,307,1,talentTree-201,201,0,5,1,Gather value - Trees,198,0,3,2100,0,800
+3, Recolher Ataque de Minério ++ Proficiência ++ ,316,1,talentTree-202,202,0,5,1,Gather - Mining,199,0,3,2100,0,800
+-1, Desbloquear Receita de Poção.  ,348#907,2,talentTree-204,204,0,6,1,Magic Props Recipes,69,0,3,4200,0,1000
+1, Recolher Ataque de Grama ++ Proficiência ++ ,299,1,talentTree-205,205,0,6,1,Gather - Grass value,200,0,3,4200,0,1000
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,308,1,talentTree-206,206,0,6,1,Gather - Trees,201,0,3,4200,0,1000
+3, Recolher Ataque de Minério ++ Proficiência ++ ,317,1,talentTree-207,207,0,6,1,Gather value - Mining,202,0,3,4200,0,1000
+-1, Desbloquear Receita de Poção.  ,895#908,2,talentTree-209,209,0,7,1,Not yet open,204,0,3,8400,0,1200
+1, Recolher Ataque de Grama ++ Proficiência ++ ,300,1,talentTree-210,210,0,7,1,Gather - Grass,205,0,3,8400,0,1200
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,309,1,talentTree-211,211,0,7,1,Gather - Trees,206,0,3,8400,0,1200
+3, Recolher Ataque de Minério ++ Proficiência ++ ,318,1,talentTree-212,212,0,7,1,Gather - Mining,207,0,3,8400,0,1200
+-1, Desbloquear Receita de Poção.  ,896#909,2,talentTree-214,214,0,8,1,Not yet open,209,0,3,16800,0,1400
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,310,1,talentTree-215,215,0,8,1,Gather - Trees,211,0,3,16800,0,1400
+1, Recolher Ataque de Grama ++ Proficiência ++ ,301,1,talentTree-216,216,0,8,1,Gather - Grass,210,0,3,16800,0,1400
+3, Recolher Ataque de Minério ++ Proficiência ++ ,319,1,talentTree-217,217,0,8,1,Gather - Mining,212,0,3,16800,0,1400
+-1, Desbloquear Receita de Poção.  ,897#910,2,talentTree-219,219,0,9,1,Not yet open,214,0,3,33600,0,1600
+1, Recolher Ataque de Grama ++ Proficiência ++ ,302,1,talentTree-220,220,0,9,1,Gather - Grass,216,0,3,33600,0,1600
+2, Recolher Ataque de Árvore ++ Proficiência ++ ,311,1,talentTree-221,221,0,9,1,Gather - Trees,215,0,3,33600,0,1600
+3, Recolher Ataque de Minério ++ Proficiência ++ ,320,1,talentTree-222,222,0,9,1,Gather - Mining,217,0,3,33600,0,1600
+-3, Desbloquear Receitas de Essência de Plantio Nv 1 ,152,2,talentTree-227,227,0,1,1,Planting Essence Recipes,0,0,1,95,0,0
+-3, Desbloquear Receitas de Essência de Plantio Nv 2 ,153,2,talentTree-228,228,0,2,1,Planting Essence Recipes,227,0,1,210,0,0
+-3, Desbloquear Receitas de Essência de Plantio Nv 3 ,154,2,talentTree-229,229,0,3,1,Planting Essence Recipes,228,0,1,420,0,300
+-4, Desbloquear Receitas de Essência Nv 1 ,149,2,talentTree-236,236,0,1,1,Combat Essence Recipes,0,0,2,95,0,0
+-4, Desbloquear Receitas de Essência Nv 2 ,150,2,talentTree-237,237,0,2,1,Combat Essence Recipes,236,0,2,175,0,0
+-4, Desbloquear Receitas de Essência Nv 3 ,151,2,talentTree-238,238,0,3,1,Combat Essence Recipes,237,0,2,323,0,600
+-2, Desbloquear Receitas de Essência Nv 1 ,158,2,talentTree-245,245,0,1,1,Gather Essence Recipes,0,0,3,131,0,0
+-2, Desbloquear Receitas de Essência Nv 2 ,159,2,talentTree-246,246,0,2,1,Gather Essence Recipes,245,0,3,262,0,0
+-2, Desbloquear Receitas de Essência Nv 3 ,160,2,talentTree-247,247,0,3,1,Gather Essence Recipes,246,0,3,525,0,600
+5, Capturar animais como seus animais de estimação ,166,0,talentTree-254,254,0,1,1,Capture,0,0,1,95,0,0
+-5," Desbloquear Receitas de Conjunto de Equipamentos Nv 4, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3,Combat Set Recipes,105,0,2,"646,646,646",0,"2000,2000,2000"
+-4, Desbloquear Receitas de Essência Nv 4 ,340,2,talentTree-257,257,0,4,1,Combat Essence Recipes,238,0,2,646,0,2000
+-5," Desbloquear Receitas de Conjunto de Equipamentos Nv 5, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3,Combat Set Recipes,256,0,2,"1292,1292,1292",0,"3000,3000,3000"
+-4, Desbloquear Receitas de Essência Nv 5 ,341,2,talentTree-259,259,0,5,1,Combat Essence Recipes,257,0,2,1292,0,3000
+-5," Desbloquear Receitas de Conjunto de Equipamentos Nv 6, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3,Combat Set Recipes,258,0,2,"2584,2584,2584",0,"4000,4000,4000"
+-4, Desbloquear Receitas de Essência Nv 6 ,342,2,talentTree-261,261,0,6,1,Combat Essence Recipes,259,0,2,2584,0,4000
+-3," Desbloquear Receitas de Conjunto de Equipamentos Nv 4, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3,Gather Set Recipes,62,0,3,"1050,1050,1050",0,"2000,2000,2000"
+-2, Desbloquear Receitas de Essência Nv 4 ,343,2,talentTree-263,263,0,4,1,Gather Essence Recipes,247,0,3,1050,0,2000
+-3," Desbloquear Receitas de Conjunto de Equipamentos Nv 5, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3,Gather Set Recipes,262,0,3,"2100,2100,2100",0,"3000,3000,3000"
+-2, Desbloquear Receitas de Essência Nv 5 ,344,2,talentTree-265,265,0,5,1,Gather Essence Recipes,263,0,3,2100,0,3000
+-3," Desbloquear Receitas de Conjunto de Equipamentos Nv 6, desbloquear receitas de Recasting e fragmentos ao atingir o nível máximo. ",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3,Gather Set Recipes,264,0,3,"4200,4200,4200",0,"4000,4000,4000"
+-2, Desbloquear Receitas de Essência Nv 6 ,345,2,talentTree-267,267,0,6,1,Gather Essence Recipes,265,0,3,4200,0,4000
+-4," Desbloquear Receitas de Conjunto de Equipamentos Nv 4, desbloquear Receitas de Essência de Plantio Nv 4 ",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3,Farming Set Recipes,88,0,1,"840,840,840",0,"2000,2000,2000"
+-3, Desbloquear Receitas de Essência de Criação de Gado Nv 4,334,2,talentTree-269,269,0,4,1,Planting Essence Recipes,229,0,1,840,0,1000
+-2, Desbloquear Receitas de Essência de Criação de Gado Lv 4,337,2,talentTree-270,270,0,4,1,Livestock Essence Recipes,94,0,1,840,0,1000
+-4," Desbloqueie Receitas de Conjunto de Equipamentos LV 5, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3,Farming Set Recipes,268,0,1,"1680,1680,1680",0,"3000,3000,3000"
+-3, Desbloquear Receitas de Essência de Plantio Lv 5,335,2,talentTree-272,272,0,5,1,Planting Essence Recipes,269,0,1,1680,0,1500
+-2, Desbloquear Receitas de Essência de Criação de Gado Lv 5,338,2,talentTree-273,273,0,5,1,Livestock Essence Recipes,270,0,1,1680,0,1500
+-4," Desbloqueie Receitas de Conjunto de Equipamentos LV 6, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Farming Set Recipes,271,0,1,"3360,3360,3360",0,"4000,4000,4000"
+-3, Desbloquear Receitas de Essência de Plantio Lv 6,336,2,talentTree-275,275,0,6,1,Planting Essence Recipes,272,0,1,3360,0,2000
+-2, Desbloquear Receitas de Essência de Criação de Gado Lv 6,339,2,talentTree-276,276,0,6,1,Livestock Essence Recipes,273,0,1,3360,0,2000
+-4," Desbloqueie Receitas de Conjunto de Equipamentos LV 7, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",654#655#656#886#887#888#924;657#658;659#660#661#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098#837,2,talentTree-277,277,0,7,3,Farming Set Recipes,274,0,1,"6720,6720,6720",0,"5000,5000,5000"
+-3, Desbloquear Receitas de Essência de Plantio Lv 7,632,2,talentTree-278,278,0,7,1,Planting Essence Recipes,275,0,1,6720,0,2500
+-2, Desbloquear Receitas de Essência de Criação de Gado Lv 7,635,2,talentTree-279,279,0,7,1,Livestock Essence Recipes,276,0,1,6720,0,2500
+-4," Desbloqueie Receitas de Conjunto de Equipamentos LV 8, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",678#679#680;681#682;683#684#685#1115#1116#1117#1118#1119#1120#1121#1122#854#855#856#857#858#859#860#861,2,talentTree-280,280,0,8,3,Farming Set Recipes,277,0,1,"13440,13440,13440",0,"6000,6000,6000"
+-3, Desbloquear Receitas de Essência de Plantio Lv 8,636,2,talentTree-281,281,0,8,1,Planting Essence Recipes,278,0,1,13440,0,3000
+-2, Desbloquear Receitas de Essência de Criação de Gado Lv 8,633,2,talentTree-282,282,0,8,1,Livestock Essence Recipes,279,0,1,13440,0,3000
+-4," Desbloqueie Receitas de Conjunto de Equipamentos LV 9, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",702#703#704;705#706;707#708#709#1139#1140#1141#1142#1143#1144#1145#1146#878#879#880#881#882#883#884#885,2,talentTree-283,283,0,9,3,Farming Set Recipes,280,0,1,"26880,26880,26880",0,"7000,7000,7000"
+-3, Desbloquear Receitas de Essência de Plantio Lv 9,637,2,talentTree-284,284,0,9,1,Planting Essence Recipes,281,0,1,26880,0,3500
+-2, Desbloquear Receitas de Essência de Criação de Gado Lv 9,634,2,talentTree-285,285,0,9,1,Livestock Essence Recipes,282,0,1,26880,0,3500
+-5," Desbloqueie Receitas de Conjunto de Equipamentos LV 7, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#1075#1076#1077#1078#1079#1080#1081#1082#821,2,talentTree-286,286,0,7,3,Combat Set Recipes,260,0,2,"5169,5169,5169",0,"5000,5000,5000"
+-4, Desbloquear Receitas de Essência Lv 7,626,2,talentTree-287,287,0,7,1,Combat Essence Recipes,261,0,2,5169,0,5000
+-5," Desbloqueie Receitas de Conjunto de Equipamentos LV 8, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",662#663#664#889#891#890#925;665#666;667#668#669#1099#1100#1101#1102#1103#1104#1105#1106#838#839#840#841#842#843#844#845,2,talentTree-288,288,0,8,3,Combat Set Recipes,286,0,2,"11200,11200,11200",0,"6000,6000,6000"
+-4, Desbloquear Receitas de Essência Lv 8,627,2,talentTree-289,289,0,8,1,Combat Essence Recipes,287,0,2,11200,0,6000
+-5," Desbloqueie Receitas de Conjunto de Equipamentos LV 9, desbloqueie receitas de Recasting e receitas de fragmentos ao atingir o nível máximo.",686#687#688#894#892#893#926;689#690;691#692#693#1124#1125#1126#1127#1128#1129#1130#1123#862#863#864#865#866#867#868#869,2,talentTree-290,290,0,9,3,Combat Set Recipes,288,0,2,"24436,24436,24436",0,"7000,7000,7000"
+-4, Desbloquear Receitas de Essência Lv 9,628,2,talentTree-291,291,0,9,1,Combat Essence Recipes,289,0,2,24436,0,7000
+-3, Aumente a velocidade de movimento para si e aliados por 10 segundos,646#647#648;649#650;651#652#653#822#823#824#825#826#827#828#1083#1084#1085#1086#1087#1088#1089#1090#829,2,talentTree-292,292,0,7,3,Gather Set Recipes,266,0,3,"8400,8400,8400",0,"5000,5000,5000"
+-2, Aumente sua velocidade de movimento em 20% por 30 segundos,629,2,talentTree-293,293,0,7,1,Gather Essence Recipes,267,0,3,8400,0,5000
+-3, Cause um poderoso efeito repelente no inimigo à sua frente,670#671#672;675#676#677#1107#1108#1109#1110#1111#1112#1113#1114;673#674#846#847#848#849#850#851#852#853,2,talentTree-294,294,0,8,3,Gather Set Recipes,292,0,3,"16800,16800,16800",0,"6000,6000,6000"
+-2, Use esta habilidade para causar dano ao slime,630,2,talentTree-295,295,0,8,1,Gather Essence Recipes,293,0,3,16800,0,6000
+-3, Converte seus HP em seu escudo,694#695#696;699#700#701#1131#1132#1133#1134#1135#1136#1137#1138;697#698#870#871#872#873#874#875#876#877,2,talentTree-296,296,0,9,3,Gather Set Recipes,294,0,3,"33600,33600,33600",0,"7000,7000,7000"
+-2,Desbloquear Receitas de Essência Nv 9,631,2,talentTree-297,297,0,9,1,Gather Essence Recipes,295,0,3,33600,0,7000
+-1, Aumenta a velocidade de movimento para si mesmo e aliados por 10 segundos,460,0,talentTree-298,298,0,7,1,Wind up,169,0,1,6720,0,1200
+4, Aumenta sua velocidade de movimento em 20% por 30 segundos,541,0,talentTree-299,299,0,3,1,Reflow method,0,0,3,525,0,0
+4, Causa um poderoso efeito repelente no inimigo à sua frente,540,0,talentTree-300,300,0,6,1,Beat back,299,0,3,4200,0,1000
+5, Use essa habilidade para causar dano ao slime,616,0,talentTree-301,301,0,1,1,intercept,0,0,2,95,0,0
+5, Converte seu HP em seu escudo,555,0,talentTree-302,302,0,3,1,Bloodward,0,0,1,420,0,400
