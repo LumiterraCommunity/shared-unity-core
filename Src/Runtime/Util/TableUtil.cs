@@ -877,14 +877,14 @@ public static class TableUtil
                 int minReputationRequire = info[0];
                 if (reputation < minReputationRequire)
                 {
-                    continue;
+                    continue;//声望不够，跳过当前配置
                 }
 
                 for (int i = 1; i < info.Length; i++)
                 {
                     if (info[i] == cid)
                     {
-                        return true;
+                        return true;//声望足够，且道具在白名单中
                     }
                 }
             }
@@ -894,6 +894,6 @@ public static class TableUtil
             Log.Error($"IsOnChainNoLimitItem error e = {e}");
         }
 
-        return false;
+        return false;//没有检索到配置，或者声望不够，或者道具不在白名单中
     }
 }
