@@ -152,6 +152,7 @@ public enum eGameValueID
     EscortWagonInstructionsId = 149, //押镖活动说明ID
     EnhanceAttrFactor = 151, //强化属性系数,千分位数组[高于正常属性的系数，低于正常属性的系数]
     InstancingSelectNextLevelTime = 152,//副本关卡通过后给予选择是否下一关的时间（秒）
+    ItemOnChainWhiteList = 153, //链上道具白名单
 }
 
 // public static class GameValueID

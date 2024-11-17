@@ -860,4 +860,40 @@ public static class TableUtil
             return 0;
         }
     }
+
+    /// <summary>
+    /// 某个声望值下的某个道具是否可以无限制上链
+    /// </summary>
+    /// <param name="reputation"></param>
+    /// <param name="cid"></param>
+    /// <returns></returns>
+    public static bool IsOnChainNoLimitItem(int reputation, int cid)
+    {
+        try
+        {
+            DRGameValue cfg = GetGameValue(eGameValueID.ItemOnChainWhiteList);
+            foreach (int[] info in cfg.ValueArray2)
+            {
+                int minReputationRequire = info[0];
+                if (reputation < minReputationRequire)
+                {
+                    continue;
+                }
+
+                for (int i = 1; i < info.Length; i++)
+                {
+                    if (info[i] == cid)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Log.Error($"IsOnChainNoLimitItem error e = {e}");
+        }
+
+        return false;
+    }
 }
