@@ -33,6 +33,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取desc-string。*/
+    /// </summary>
+    public string Desc
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取extraDropPool-int。*/
     /// </summary>
     public int ExtraDropPool
@@ -267,18 +276,18 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取desc-string。*/
+  /**获取dropRewardShow-int[]。*/
     /// </summary>
-    public string Desc
+    public int[] DropRewardShow
     {
         get;
         private set;
     }
 
     /// <summary>
-  /**获取dropRewardShow-int[]。*/
+  /**获取entityLevelRange-int[]。*/
     /// </summary>
-    public int[] DropRewardShow
+    public int[] EntityLevelRange
     {
         get;
         private set;
@@ -362,6 +371,7 @@ public class DRSceneArea : DataRowBase
 
         int index = 0;
         CanInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
+        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         ExtraDropPool = DataTableParseUtil.ParseInt(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         IsRanking = DataTableParseUtil.ParseBool(columnStrings[index++]);
@@ -389,8 +399,8 @@ public class DRSceneArea : DataRowBase
         ChapterPunish = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
         ChapterTimeLimit = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         Chapters = DataTableParseUtil.ParseArray<string>(columnStrings[index++]);
-        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
         DropRewardShow = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        EntityLevelRange = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
         RandomSeeds = DataTableParseUtil.ParseArrayList<string>(columnStrings[index++]);
         ReleaseTime = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
@@ -411,6 +421,7 @@ public class DRSceneArea : DataRowBase
             using (BinaryReader binaryReader = new(memoryStream, Encoding.UTF8))
             {
                 CanInvest = binaryReader.ReadBoolean();
+                Desc = binaryReader.ReadString();
                 ExtraDropPool = binaryReader.Read7BitEncodedInt32();
                 _id = binaryReader.Read7BitEncodedInt32();
                 IsRanking = binaryReader.ReadBoolean();
@@ -438,8 +449,8 @@ public class DRSceneArea : DataRowBase
                 ChapterPunish = binaryReader.ReadArrayList<Int32>();
                 ChapterTimeLimit = binaryReader.ReadArray<Int32>();
                 Chapters = binaryReader.ReadArray<String>();
-                Desc = binaryReader.ReadString();
                 DropRewardShow = binaryReader.ReadArray<Int32>();
+                EntityLevelRange = binaryReader.ReadArray<Int32>();
                 PunishDesc = binaryReader.ReadString();
                 RandomSeeds = binaryReader.ReadArrayList<String>();
                 ReleaseTime = binaryReader.ReadArrayList<Int32>();
