@@ -59,10 +59,19 @@ public static class TableDefine
     public const int TOKEN_QUALITY = 3;
     public const int INSTANCING_STRENGTHEN_INSTRUCTION_ID = 520; // 副本强化说明书ID
 
+    public const int RANKING_INSTRUCTIONS_ID = 526; // 排行榜激活说明书ID
+
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
         {TalentType.Battle, ITEMID_EXP_COMBAT},
         {TalentType.Gather, ITEMID_EXP_GATHER},
+    };
+
+    public static Dictionary<TalentType, int[]> RankingLvTitleDic = new() //排行榜对应副本配置
+    {
+        {TalentType.Battle, new[] { 20000, 20001, 20002 } },
+        {TalentType.Farming, new[] { 50001, 50002, 50003 } },
+        {TalentType.Gather, new[] { 40001, 40002, 40003 } },
     };
 }
 
@@ -153,6 +162,7 @@ public enum eGameValueID
     EnhanceAttrFactor = 151, //强化属性系数,千分位数组[高于正常属性的系数，低于正常属性的系数]
     InstancingSelectNextLevelTime = 152,//副本关卡通过后给予选择是否下一关的时间（秒）
     ItemOnChainWhiteList = 153, //上链道具白名单
+    RankingInstructionsId = 156, //押镖活动说明ID
 }
 
 // public static class GameValueID

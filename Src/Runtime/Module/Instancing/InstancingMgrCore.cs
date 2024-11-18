@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本管理
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
  * 
  */
 using System;
@@ -212,6 +212,15 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
         {
             return playerData.LifeCount;
+        }
+        return 0;
+    }
+
+    public int GetPlayerScore(long playerId)
+    {
+        if (PlayerInstancingData.TryGetValueFromKey(playerId, out PlayerInstancingData playerData))
+        {
+            return (int)playerData.Score;
         }
         return 0;
     }
