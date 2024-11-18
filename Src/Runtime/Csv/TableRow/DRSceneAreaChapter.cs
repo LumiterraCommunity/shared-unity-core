@@ -86,6 +86,24 @@ public class DRSceneAreaChapter : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取desc-string。*/
+    /// </summary>
+    public string Desc
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
+  /**获取punishDesc-string。*/
+    /// </summary>
+    public string PunishDesc
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -99,6 +117,8 @@ public class DRSceneAreaChapter : DataRowBase
         Name = DataTableParseUtil.ParseString(columnStrings[index++]);
         SceneAreaId = DataTableParseUtil.ParseInt(columnStrings[index++]);
         TrapEntityList = DataTableParseUtil.ParseArrayList<int>(columnStrings[index++]);
+        Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        PunishDesc = DataTableParseUtil.ParseString(columnStrings[index++]);
 
         return true;
     }
@@ -118,6 +138,8 @@ public class DRSceneAreaChapter : DataRowBase
                 Name = binaryReader.ReadString();
                 SceneAreaId = binaryReader.Read7BitEncodedInt32();
                 TrapEntityList = binaryReader.ReadArrayList<Int32>();
+                Desc = binaryReader.ReadString();
+                PunishDesc = binaryReader.ReadString();
             }
         }
 
