@@ -59,6 +59,8 @@ public static class TableDefine
     public const int TOKEN_QUALITY = 3;
     public const int INSTANCING_STRENGTHEN_INSTRUCTION_ID = 520; // 副本强化说明书ID
 
+    public const int RANKING_INSTRUCTIONS_ID = 526; // 排行榜激活说明书ID
+
     public static Dictionary<TalentType, int> TalentType2ItemIdDic = new(){
         {TalentType.Farming, ITEMID_EXP_FARMING},
         {TalentType.Battle, ITEMID_EXP_COMBAT},
