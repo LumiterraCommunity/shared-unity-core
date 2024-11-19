@@ -39,7 +39,7 @@ designateOptions-string,details-string,difficulty-int,expReward-int[][],id-int,i
 ",0,"3,84",19,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
 ,"For love and peace, please give me these.
 ",0,"3,84",20,1,24,Collecting,0,,,,"{""options"":[{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0},{""optionType"":1,""value"":""58,3,200"",""guiderPoint"":0},{""optionType"":1,""value"":""30,1,100"",""guiderPoint"":0}]}",
-"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}",Help Gunner to kill a Pumpkin Bat.,0,"2,465",21,0,0,Fresh Start,0,1,,,,30001
+"{""options"":[{""optionType"":4,""value"":""111,3"",""guiderPoint"":30107}]}",Help Gunner to kill a Pumpkin Bat.,0,"2,465",21,0,0,Fresh Start,0,1,,,,"24001,44001,54001,20000,20001,20002,40001,40002,40003,50001,50002,50003,30001"
 "{""options"":[{""optionType"":13,""value"":""878,84,586,5"",""guiderPoint"":30109}]}",Find Nash and bring the intelligence to him.,0,,22,0,158,Intelligence,0,2,,,,
 "{""options"":[{""optionType"":15,""value"":""1,1"",""guiderPoint"":0},{""optionType"":15,""value"":""11,1"",""guiderPoint"":0}]}","- Press [Esc] to open your talent tree interface 
 - Select upgrade main branch 
@@ -252,7 +252,7 @@ Go take a look at the edge of the region, get familiar with it.",0,"2,50;3,50;1,
 "{""options"":[{""optionType"":3,""value"":""840,1"",""guiderPoint"":0}]}",Try to craft an Energy Slime.,0,"2,50;3,50;1,50",212,0,0,Craft an Energy Slime,0,1,,229,,
 "{""options"":[{""optionType"":3,""value"":""841,1"",""guiderPoint"":0}]}",Try to craft an Energy Restoration Potion.,0,"2,50;3,50;1,50",213,0,217,Craft an Energy Potion,100,1,,212,,
 "{""options"":[{""optionType"":5,""value"":""64,1"",""guiderPoint"":0}]}",Something to do every day,0,"2,50;3,50;1,50",214,0,199,Something to do every day,0,1,,26,,
-"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":0}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,158,Complete a daily dungeon,100,1,,214,,"24001,44001,54001,20000,20001,20002,40001,40002,40003,50001,50002,50003"
+"{""options"":[{""optionType"":6,""value"":""30001,1,1"",""guiderPoint"":0}]}",Complete a daily dungeon,0,"2,50;3,50;1,50",215,0,158,Complete a daily dungeon,100,1,,214,,
 "{""options"":[{""optionType"":5,""value"":""45,1"",""guiderPoint"":0}]}",Token Task are one of the main sources of income. Completing these Tasks will earn you token rewards. Talk to Haski for more informations.,0,"2,50;3,50;1,50",216,0,158,About the Token Task,0,1,,228,,
 "{""options"":[{""optionType"":5,""value"":""58,1"",""guiderPoint"":0}]}","Pets are great companions for everyone, try to catch them and use them well
 Pets can help you fight, collect, farm, and get along well with your pets",0,"2,50;3,50;1,50",217,0,0,Proper use of pets,100,2,,162,,
