@@ -14,7 +14,6 @@ public static class InstancingDefine
     public const int RESOURCES_ADD_LIFE_ID = 103; //增加生命道具ID
     public const int MAX_ADD_LIFE_COUNT = 2;   //最大增加生命数量
     public const float PLAYER_AUTO_REVIVE_TIME = 30 * 1000; //玩家自动复活时间
-    public const int ENABLE_TEAM_DROP_VALUE = 1; //组队掉落开启阈值
 }
 
 
