@@ -27,6 +27,7 @@ public class PlayerInstancingData
         Score = score;
         TotemScore = totemScore;
         LifeCount = lifeCount;
+        LastLevelScore = Score;
     }
 
 
