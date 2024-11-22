@@ -186,6 +186,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取worldDroprateBase-int[]。*/
+    /// </summary>
+    public int[] WorldDroprateBase
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取baseScore-int[]。*/
     /// </summary>
     public int[] BaseScore
@@ -389,6 +398,7 @@ public class DRSceneArea : DataRowBase
         TalentType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         WorldDropProbability = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FunctionModule = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        WorldDroprateBase = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BaseScore = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChallengeMode = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -439,6 +449,7 @@ public class DRSceneArea : DataRowBase
                 TalentType = binaryReader.Read7BitEncodedInt32();
                 WorldDropProbability = binaryReader.Read7BitEncodedInt32();
                 FunctionModule = binaryReader.ReadArray<Int32>();
+                WorldDroprateBase = binaryReader.ReadArray<Int32>();
                 BaseScore = binaryReader.ReadArray<Int32>();
                 BossCovers = binaryReader.ReadArray<Int32>();
                 ChallengeMode = binaryReader.ReadArray<Int32>();
