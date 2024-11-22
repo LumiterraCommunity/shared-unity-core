@@ -53,28 +53,11 @@ public static class AvatarDefineCore
     /// <summary>
     /// 装备强化效果配置
     /// </summary>
-    public static readonly List<EquipmentEnhanceEffect> EquipmentEnhanceEffects = new()
+    public static Dictionary<TalentType, Color> EquipmentEnhanceEffects = new()
     {
-        new EquipmentEnhanceEffect
-        {
-            MinLevel = 0,
-            MaxLevel = 1,
-            Color = new Color(0.5f, 0.5f, 0.5f),
-            Intensity = 100f,
-        },
-        new EquipmentEnhanceEffect
-        {
-            MinLevel = 2,
-            MaxLevel = 10,
-            Color = new Color(0.5f, 0.5f, 0.5f),
-            Intensity = 100f,
-        },
-        new EquipmentEnhanceEffect
-        {
-            MinLevel = 11,
-            MaxLevel = 30,
-            Color = new Color(0.5f, 0.5f, 0.5f),
-            Intensity = 100f,
-        },
+        {TalentType.Battle, new Color( 0.776f, 0.208f, 0.051f) },
+        {TalentType.Farming, new Color(0.314f, 0.6f, 0.8f)},
+        {TalentType.Gather, new Color(0.196f, 0.835f, 0.196f)},
     };
+    public const float EQUIPMENT_ENHANCE_INTENSITY = 1.0f; //装备强化效果亮度
 }
