@@ -186,9 +186,9 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
-  /**获取worldDroprateBase-int[]。*/
+  /**获取teamDropRateBase-int。*/
     /// </summary>
-    public int[] WorldDroprateBase
+    public int TeamDropRateBase
     {
         get;
         private set;
@@ -398,7 +398,7 @@ public class DRSceneArea : DataRowBase
         TalentType = DataTableParseUtil.ParseInt(columnStrings[index++]);
         WorldDropProbability = DataTableParseUtil.ParseInt(columnStrings[index++]);
         FunctionModule = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
-        WorldDroprateBase = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
+        TeamDropRateBase = DataTableParseUtil.ParseInt(columnStrings[index++]);
         BaseScore = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         BossCovers = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ChallengeMode = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
@@ -449,7 +449,7 @@ public class DRSceneArea : DataRowBase
                 TalentType = binaryReader.Read7BitEncodedInt32();
                 WorldDropProbability = binaryReader.Read7BitEncodedInt32();
                 FunctionModule = binaryReader.ReadArray<Int32>();
-                WorldDroprateBase = binaryReader.ReadArray<Int32>();
+                TeamDropRateBase = binaryReader.Read7BitEncodedInt32();
                 BaseScore = binaryReader.ReadArray<Int32>();
                 BossCovers = binaryReader.ReadArray<Int32>();
                 ChallengeMode = binaryReader.ReadArray<Int32>();
