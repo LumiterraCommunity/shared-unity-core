@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本管理
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
  * 
  */
 using System;
@@ -228,5 +228,21 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     public DRSceneAreaChapter GetCurInstancingChapter()
     {
         return TableUtil.GetInstancingChapter(GFEntryCore.SceneAreaMgr.DefaultDRSceneArea, CurLevelIndex);
+    }
+
+    /// <summary>
+    /// 获取副本队伍额外分数倍率
+    /// </summary> 
+    public float GetInstancingTeamExtraScoreRate()
+    {
+        if (TableUtil.TryGetGameValue(eGameValueID.InstancingTeamExtraScoreRate, out DRGameValue drGameValue))
+        {
+            int playerCount = PlayerInstancingData.Count;
+            if (drGameValue.ValueArray.Length > 0 && drGameValue.ValueArray.Length <= playerCount)
+            {
+                return drGameValue.ValueArray[playerCount - 1] * TableDefine.THOUSANDTH_2_FLOAT;
+            }
+        }
+        return 1f;
     }
 }

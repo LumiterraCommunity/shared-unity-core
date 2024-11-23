@@ -5,7 +5,7 @@ using GameMessageCore;
  * @LastEditors: Please set LastEditors
 * @Description: 表定义
 * @Date: 2022-06-23 20:28:37
- * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
+ * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Csv/TableDefine.cs
 */
 public static class TableDefine
 {
@@ -163,6 +163,7 @@ public enum eGameValueID
     InstancingSelectNextLevelTime = 152,//副本关卡通过后给予选择是否下一关的时间（秒）
     ItemOnChainWhiteList = 153, //上链道具白名单
     RankingInstructionsId = 156, //押镖活动说明ID
+    InstancingTeamExtraScoreRate = 157, //副本组队额外分数加成
 }
 
 // public static class GameValueID
