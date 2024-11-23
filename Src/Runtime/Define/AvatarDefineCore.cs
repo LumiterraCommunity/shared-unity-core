@@ -41,7 +41,7 @@ public static class AvatarDefineCore
     /// <returns></returns>
     public static readonly List<AvatarPosition> AllPartList = EquipmentPartList.Concat(AppearancePartList).ToList();
 
-    public const float EQUIPMENT_COLOR_ALPHA = 0.9f;
+    public const float EQUIPMENT_COLOR_ALPHA = 0.9019f;
     public class EquipmentEnhanceEffect
     {
         public int MinLevel;
