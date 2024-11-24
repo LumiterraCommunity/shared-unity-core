@@ -238,7 +238,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
         if (TableUtil.TryGetGameValue(eGameValueID.InstancingTeamExtraScoreRate, out DRGameValue drGameValue))
         {
             int playerCount = PlayerInstancingData.Count;
-            if (drGameValue.ValueArray.Length > 0 && drGameValue.ValueArray.Length <= playerCount)
+            if (drGameValue.ValueArray.Length >= playerCount)
             {
                 return drGameValue.ValueArray[playerCount - 1] * TableDefine.THOUSANDTH_2_FLOAT;
             }
