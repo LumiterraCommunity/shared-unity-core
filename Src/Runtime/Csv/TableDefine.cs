@@ -164,6 +164,7 @@ public enum eGameValueID
     ItemOnChainWhiteList = 153, //上链道具白名单
     RankingInstructionsId = 156, //押镖活动说明ID
     InstancingTeamExtraScoreRate = 157, //副本组队额外分数加成
+    InstancingLvRewardLimitation = 159, //副本等级奖励限制
 }
 
 // public static class GameValueID
