@@ -335,10 +335,15 @@ There is a fixed global maximum limit on the total number of times this event ca
 ,20190001,天赋树,Total level of talent tree needs reach to {0}.
 ,20190002,天赋树,The trunk node of the same layer must be unlocked first.
 ,20190003,天赋树,Not enough talent tree level
-,20190004,,"""Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> to deactivate this level?
- - Enabled skills will be reset.
- - Recipes will be reset.
- - Experience will be gone."""
+,20190004,,"Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> to deactivate this level?
+ • Enabled skills will be reset.
+ • Recipes will be reset.
+ • Experience will be gone."
+,20190005,,• Unlock dungeon rewards for [color=#ffab23]{0}[/color] and disable dungeon rewards for [color=#ffab23]{1}[/color].
+,20190006,,• Disable dungeon rewards for [color=#ffab23]{0}[/color].
+,20190007,,• Unlock dungeon rewards for [color=#ffab23]{0}[/color].
+,20190008,,• The [color=#ffab23]difficulty[/color] of token task will switch to [color=#ffab23]Lv{0}[/color].
+,20190009,,Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> to upgrade this level?
 ,20200000,活动,claim prize success
 ,20200001,活动,claim prize failed
 ,20200002,活动,mint ticket success
@@ -426,6 +431,8 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20320008,世界图腾,The totem is not activated.
 ,20320009,世界图腾,Can't set enhance price within {0} minutes.
 ,20320010,世界图腾,Not enough energy recharge items
+,20320011,,"Teleport interrupted, no charge for this attempt."
+,20320012,,"Teleport failed, no charge for this attempt, please try again later."
 ,20330000,装备强化,Insufficient protective stone.
 ,20330001,装备强化,"Equipment is being enhanced, please wait."
 ,20330002,装备强化,Please select the inheritance target first.
@@ -458,3 +465,4 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20370004,日志,{0} upload failed.
 ,20370005,日志,This startup
 ,20370006,日志,Last startup
+,20370007,,Leaderboard switch successful

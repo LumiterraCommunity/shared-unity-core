@@ -1,447 +1,468 @@
 describe-string,id-int,module-string,value-string
-资源不存在,5001,家园错误码,資源不存在
-操作不支持,5002,家园错误码,不支持的操作
-家园道具扣除异常,5003,家园错误码,家園物品扣除異常
-捕捉动物请求异常,6001,畜牧错误码,捕捉動物請求異常
-捕捉动物无效,6002,畜牧错误码,捕捉動物無效
-,2010000,,空的
-,10001001,通用,確定
-,10001002,通用,取消
-,10001003,通用,確認
-,10001004,通用,關閉
-,10001005,通用,連接中
-,10001006,通用,服務繁忙，請耐心等待
-,10001007,通用,錢包斷開連接，請重新啟動應用程序。
-,10001008,通用,系統提示
-,10001009,通用,應用程式版本已更新。請重新啟動應用程式。
-,10001010,通用,遊戲開始
-,10001011,通用,獲得{0}
-,10001012,通用,物品不足。
-,10001013,通用,您的资产将无法在PVP区域出售。
-,10001014,通用,願望池
-,10001015,通用,戰鬥許願樹
-,10001016,通用, 採集許願樹
-,10001017,通用, 農場許願樹
-,10001018,通用,```zh-TW開場
-,10004021,装备属性-生命上限,最大生命值
-,10004022,装备属性-生命恢复,生命值恢復
-,10004023,装备属性-攻击点数,攻擊點數
-,10004024,装备属性-攻击速度,攻擊速度
-,10004025,装备属性-防御点数,防禦點數
-,10004026,装备属性-暴击点数,暴擊點數
-,10004027,装备属性-暴击伤害,暴擊傷害
-,10004028,装备属性-命中点数,命中點數
-,10004029,装备属性-闪避点数,閃避點數
-,10004030,装备属性-移动速度,移動速度
+资源不存在,5001,家园错误码,Resource does not exist
+操作不支持,5002,家园错误码,Operation not supported
+家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
+捕捉动物请求异常,6001,畜牧错误码,Capture animals request exception
+捕捉动物无效,6002,畜牧错误码,Capture animals is invalid
+,2010000,,
+,10001001,通用,OK
+,10001002,通用,Cancel
+,10001003,通用,Confirm
+,10001004,通用,Close
+,10001005,通用,Connecting
+,10001006,通用,"Service is busy, please wait patiently"
+,10001007,通用,"Wallet disconnected, please restart the application."
+,10001008,通用,System prompt
+,10001009,通用,The application version has been updated. Please restart the application.
+,10001010,通用,Game starting
+,10001011,通用,Obtained{0}
+,10001012,通用,Lack of Items.
+,10001013,通用,Your assets will not be able to be sold in pvp area.
+,10001014,通用,Wish Pool
+,10001015,通用,Combat Wish Tree
+,10001016,通用,Gather Wish Tree
+,10001017,通用,Farm Wish Tree
+,10001018,通用,Opening
+,10004021,装备属性-生命上限,Max HP
+,10004022,装备属性-生命恢复,HP Recovery
+,10004023,装备属性-攻击点数,Attack Points
+,10004024,装备属性-攻击速度,Attack Speed
+,10004025,装备属性-防御点数,Defence Points
+,10004026,装备属性-暴击点数,Crit Point
+,10004027,装备属性-暴击伤害,Crit Damage
+,10004028,装备属性-命中点数,Hit Points
+,10004029,装备属性-闪避点数,Dodge Points
+,10004030,装备属性-移动速度,Move Speed
 ,10022007,画板,Lumiterra
 ,10027010,机器人,LV.{0}
-,10060001,UI tips EXP,獲得經驗的方式包括擊殺怪物、完成任務等。
-,10060002,UI tips token,每次完成一輪賞金任務都可以獲得大量經驗。你可以通過曲線或加密貨幣交易所購買LNCO。你也可以通過在市場上出售遊戲物品獲得LNCO。
-,10060003,UI tips Proficiency,製作武器能力、裝備能力和藥劑都會增加相應製作技能的熟練度。
-,10070001,通用提示文案-外观穿戴1,必須先穿裝備，才能穿外觀。
-,10070002,通用提示文案-外观穿戴2,只能穿戴與當前裝備同類型的外觀。
-,10080013,大世界钱包地址复制提示,錢包地址已複製
-,10080014,大世界NFT物件拆除确认提示,請確認移除
-,10080015,大世界NFT物件拆除不返还提示,不會返回Ditamin
-,10080016,聊天窗文本复制提示,文本已複製
-,10080017,大世界放弃领地弹窗,確定要放棄這塊領地（{0}，{1}）嗎？
-,10080018,大世界24小时预计奖励tips,預計24小時收益：{0}Ditamin
-,10080019,大世界超出占地限制tips,獎勵限制：{0}佔領領地
-,10080020,聊天禁言提示,你已被禁言，直到解禁為止無法聊天
-,10080021,创建地图达到上限提示,最大地圖創建限制為{0}。
-,10080022,销毁道具提示,你想要摧毀{0} * {1}嗎？摧毀後無法恢復！
-,10080023,销毁道具成功提示,摧毀成功！
-,10081001,实体地图操作界面,地圖已在運行，這是正在運行的地圖的最後一個傳送門。更改當前傳送門設置將干擾玩家在即時地圖上的遊戲體驗。請確認。
-,10081002,实体地图操作界面,地圖正在雲伺服器上運行，當前服務費率為：0Ditamin/小時。
-,10081003,实体地图操作界面,地圖已在運行，這是正在運行的地圖的最後一個傳送門。更改當前傳送門設置將干擾玩家在即時地圖上的遊戲體驗。請確認。
-,10081004,实体地图操作界面,地圖已在運行。更新地圖數據將干擾玩家在即時地圖上的遊戲體驗。請確認。
-,10081005,实体地图操作界面,地圖已在運行。關閉地圖將干擾玩家在即時地圖上的遊戲體驗。請確認。
-,10082001,功能提示,文本轉換為聲音的功能暫時不可用
-,10089001,打地鼠,打地鼠
-,10089002,记数字和符号,角色記憶
-,10089003,打气球,打氣球
-,10089004,裁剪艺术,缺失的碎片
-,10089005,旋转剪影,旋轉輪廓
-,10089006,数方块,方塊計算
-,10089007,调整时钟,時鐘調整
-,10089008,鸟笼洗牌,鳥籠洗牌
-,10089009,敲积木求和,方塊破解
-,10089010,卡片记忆,卡片記憶
-,10089011,逆转记忆,逆向記憶
-,10089012,PVP邀请链接复制提示,邀請鏈接已複製
-,10089013,PVP PK房间准备超时提示,PK房間超時
-,10089014,PVP主动认输,放棄遊戲？
-,10089015,装备插槽升级提示,裝備槽位升級！
-,10089016,装备插槽等级不足提示,槽位等級不足
-,10090001,打地鼠小游戏提示1,點擊相同的圖片！
-,10090002,快闪记忆提示1,記住數字和符號！
-,10090003,快闪记忆提示2,{0}位數
-,10090004,顺序气球提示,按照從小到大的順序銷毀氣球！
-,10090005,积木计算提示,方塊的數量是多少？
-,10090006,旋转剪影提示,哪個與輪廓相同？
-,10090007,剪裁艺术提示,哪張圖片最合適？
-,10090008,调整时钟quiz提示,調整時鐘！
-,10090009,拾取非归属于自己的道具提醒,無法拾取，它不屬於你
-,10090010,回复%血量,恢復{0}%的生命值
-,10090011,重复使用配方提醒,你已經學會了這個配方。
-,10090012,鸟笼洗牌提示,雞在哪里？
-,10090013,,打掉不必要的磚塊！
-,10090014,逆向记忆提示,倒序重複！
-,10090015,获得BUFF提示,獲得BUFF：{0}
-,10090016,卡牌记忆提示,記住卡片！
-,10090017,点击技能熟练度问号弹窗,提高你的製作熟練度
-,10090018,奖励预览,獎勵預覽
-,10090019,恭喜获得,恭喜獲得：
-,10090020,放弃任务确认提示,確定要放棄這個任務嗎？
-,10090021,放弃每日任务提示,在{0}分钟内不能放弃。
-,20010001,断网标题,斷開連接
-,20010002,断网提示,網路已斷開
-,20010003,被T提示,您的帳戶在其他地方登錄
-,20010004,被T提示,系統檢測到作弊
-,20010005,被T提示,伺服器離線
-,20010006,被T提示,系統錯誤
-,20010007,被T提示,因不活动而自动离线
-,20010008,,沒有權限
-道具不足,20020001,家园相关,物品不足
-,20020002,家园相关,儲物箱裡沒有任何物品！
-,20020003,家园相关,網絡波動，異常數據已恢復。
-,20020004,,您今天的聲望農場時間已用儘
-,20020005,, 農場服務將在{0}秒後關閉。
-,20020006,,維護中，請稍候。
-,20030001,保存技能配置,保存成功
-超过上限提示,20040001,畜牧,{0}個精靈[/color]請選擇放棄這個精靈或者用其他精靈替換它，因為空間不足
-超过上限提示标题,20040002,畜牧,寵物已滿
-放弃按钮,20040003,畜牧,放棄
-替换按钮,20040004,畜牧,替換
-,20040005,畜牧,獲取家園數據錯誤
-,20040006,畜牧,獲取家園數據超時
-,20040007,畜牧,獲取家園數據不完整
-,20040008,畜牧,其中一個飯碗已經空了
-,20040009,畜牧,其中一個飯碗已經裝滿食物
-,20040010,畜牧,你與寵物的紐帶增加了
-,20040011,畜牧,暫時不能撫摸
-,20040012,畜牧,土壤肥力不足
-,20040013,畜牧,動物幸福度不足
-,20040014,畜牧,當前土壤肥力不足
-,20040015,畜牧,熟練度不足[/color]
-,20050001,捕获取消操作,取消捕捉
-,20050002,捕获距离太远,距離太遠
-,20050003,捕获绳子断开,繩子斷了
-,20050004,捕获超时,捕捉超時
-,20050005,捕获过程道具不足,道具不足
-,20050006,,抱歉，我無法完成這個請求。
-释放技能正在CD中,20060001,技能,技能冷卻中
-,20070001,登录,系統
-,20070002,登录,登錄中
-,20070003,登录,登錄失敗
-,20070004,登录,登錄失敗，請重試。
-,20070005,登录,重試
-,20070006,登录,加載場景
-,20070007,登录,名稱不能包含非法字元
-,20070008,登录,名稱不能為空
-,20070009,登录,名稱不能超過{0}個字元
-,20070010,登录,加載資源{0}
-,20070011,登录,連接錢包
-,20070012,登录,連接遊戲
-,20070013,登录,連接遊戲失敗
-,20070014,登录,連接遊戲失敗，請重試。
-,20070015,登录,排隊中：{0}
-,20070016,登录,請輸入有效的代碼
-,20070017,登录,無法登錄到目標場景
-,20070018,登录,激活码（可选）
+,10060001,UI tips EXP,"The ways to get EXP include killing monsters, completing tasks, etc.
+You can get a lot of EXP every time you complete a round of bounty missions."
+,10060002,UI tips token,"You can buy LNCO through curve or crypto exchanges.
+You can also get LNCO by selling game items in the marketplace."
+,10060003,UI tips Proficiency,"Crafting weapon power, equipment power, and potions all increase the proficiency of the corresponding crafting skill.
+The higher the level of crafting the item, the more the increased proficiency."
+,10070001,通用提示文案-外观穿戴1,You must wear the equipment before you can wear the appearance.
+,10070002,通用提示文案-外观穿戴2,Only appearances of the same type as the current equipment can be worn.
+,10080013,大世界钱包地址复制提示,Wallet address has been copied
+,10080014,大世界NFT物件拆除确认提示,Please confirm removement
+,10080015,大世界NFT物件拆除不返还提示,Will not return Ditamin
+,10080016,聊天窗文本复制提示,Text copied
+,10080017,大世界放弃领地弹窗,"Are you sure to abandon this land ({0}, {1})?"
+,10080018,大世界24小时预计奖励tips,Estimated 24h earnings: {0} Ditamin
+,10080019,大世界超出占地限制tips,Reward limit: {0} Occupied Land
+,10080020,聊天禁言提示,You have been banned and will not be able to chat until it is lifted
+,10080021,创建地图达到上限提示,The maximum map creation limit is {0}.
+,10080022,销毁道具提示,Do you want to destroy {0} * {1}? Can't be restored after being destroyed!
+,10080023,销毁道具成功提示,Destroyed successfully!
+,10081001,实体地图操作界面,The map is already running and this is the last portal of the running map. Changing the current portal settings will disrupt the gameplay experience for players on live maps. Please confirm.
+,10081002,实体地图操作界面,"The map is running on a cloud server, and the current service rate is: 
+0Ditamin/hour."
+,10081003,实体地图操作界面,The map is already running and this is the last portal of the running map. Changing the current portal settings will disrupt the gameplay experience for players on live maps. Please confirm.
+,10081004,实体地图操作界面,The map is already running. Updating the map data will disrupt the gameplay experience for players on live maps. Please confirm.
+,10081005,实体地图操作界面,The map is already running. Closing the map will disrupt the gameplay experience for players on live maps. Please confirm.
+,10082001,功能提示,The text convert to sound function is temporarily unavailable
+,10089001,打地鼠,Moles Whacking
+,10089002,记数字和符号,Character Memory
+,10089003,打气球,Balloon busting
+,10089004,裁剪艺术,Missing Piece
+,10089005,旋转剪影,Rotating silhouette
+,10089006,数方块,Blocks Calculation
+,10089007,调整时钟,Clock Adjustment
+,10089008,鸟笼洗牌,Birdcage Shuffle
+,10089009,敲积木求和,Blocks Crack
+,10089010,卡片记忆,Card Memory
+,10089011,逆转记忆,Reverse Memory
+,10089012,PVP邀请链接复制提示,Invitation link copied
+,10089013,PVP PK房间准备超时提示,PK room timeout
+,10089014,PVP主动认输,Give up the game?
+,10089015,装备插槽升级提示,Equipment slot level up!
+,10089016,装备插槽等级不足提示,Slot level not enough
+,10090001,打地鼠小游戏提示1,Click on the same picture!
+,10090002,快闪记忆提示1,Remember numbers and signs!
+,10090003,快闪记忆提示2,{0}digits
+,10090004,顺序气球提示,Destroy balloons by numbers from small to large!
+,10090005,积木计算提示,What is the number of blocks?
+,10090006,旋转剪影提示,Which one is the same as the silhouette?
+,10090007,剪裁艺术提示,Which picture fits best?
+,10090008,调整时钟quiz提示,Adjust the clock!
+,10090009,拾取非归属于自己的道具提醒,"Can't be picked up, it doesn't belong to you"
+,10090010,回复%血量,Recover {0}% hp
+,10090011,重复使用配方提醒,You have already learned this recipe.
+,10090012,鸟笼洗牌提示,Where are the chickens?
+,10090013,,Hit the unnecessary bricks!
+,10090014,逆向记忆提示,Repeat in reverse!
+,10090015,获得BUFF提示,Get BUFF: {0}
+,10090016,卡牌记忆提示,Remember the cards!
+,10090017,点击技能熟练度问号弹窗,Improve your proficiency with Craft
+,10090018,奖励预览,Reward Preview
+,10090019,恭喜获得,Congratulations on getting:
+,10090020,放弃任务确认提示,Are you sure you want to abandon this task?
+,10090021,放弃每日任务提示,Can't give up within {0} minutes.
+,20010001,断网标题,Disconnected
+,20010002,断网提示,The network is disconnected
+,20010003,被T提示,Your account is logined in elsewhere
+,20010004,被T提示,Cheating detected by the system
+,20010005,被T提示,The server is offline
+,20010006,被T提示,System error
+,20010007,被T提示,Automatic offline due to Inactivity
+,20010008,,No permission.
+道具不足,20020001,家园相关,Lack of item
+,20020002,家园相关,There was nothing in the storage box!
+,20020003,家园相关,"Network fluctuation, anomaly data restored"
+,20020004,,You've run out of farming hours for your reputation today.
+,20020005,,Farm service will be closed in {0} seconds.
+,20020006,,"Under maintenance, please wait."
+,20030001,保存技能配置,Save successfully
+超过上限提示,20040001,畜牧,"You can have up to [color=#e08638]{0} sprites[/color]
+
+Please choose to abandon this Sprite or replace it with another
+Sprite due to insufficient space"
+超过上限提示标题,20040002,畜牧,PETS ARE FULL
+放弃按钮,20040003,畜牧,ABANDON
+替换按钮,20040004,畜牧,DISPLACE
+,20040005,畜牧,Get home data error
+,20040006,畜牧,Get home data time out
+,20040007,畜牧,Get home data incomplete
+,20040008,畜牧,One of the food bowls has become empty
+,20040009,畜牧,One of the food bowls has been filled with food
+,20040010,畜牧,Your bond with your pet goes up
+,20040011,畜牧,No petting for the time being
+,20040012,畜牧,Soil fertility is insufficient
+,20040013,畜牧,Animal happiness is insufficient
+,20040014,畜牧,The current fertility of the soil is insufficient
+,20040015,畜牧,[color=#F86A1A]lack of proficiency[/color]
+,20050001,捕获取消操作,Capture Cancel
+,20050002,捕获距离太远,It's too far away
+,20050003,捕获绳子断开,The rope is broken
+,20050004,捕获超时,Capture timed out
+,20050005,捕获过程道具不足,Lack of props
+,20050006,,The number of pets reaches the upper limit {0}.
+释放技能正在CD中,20060001,技能,Skill In CD
+,20070001,登录,System
+,20070002,登录,Logging in
+,20070003,登录,Login failed
+,20070004,登录,"Login failed, please try again."
+,20070005,登录,Retry
+,20070006,登录,Loading scene
+,20070007,登录,Name cannot contain illegal characters
+,20070008,登录,Name cannot be empty
+,20070009,登录,Name cannot exceed {0} characters
+,20070010,登录,Loading resources {0}
+,20070011,登录,Connecting wallet
+,20070012,登录,Connecting game
+,20070013,登录,Connecting game failed
+,20070014,登录,"Connecting game failed, please try again."
+,20070015,登录,In queue : {0}
+,20070016,登录,Please enter a valid code
+,20070017,登录,Failed to login to the target scene.
+,20070018,登录,Activation code(optional)
 ,20070019,登录,LINE #{0}
-,20070020,登录,请先选择服务器
-,20070021,登录,無效的名稱。
-,20070022,,正在載入服務
-,20070023,,名字包含敏感詞彙。
-,20070024,,
-,20070025,,
-,20070026,,
+,20070020,登录,Please select the server first
+,20070021,登录,Invalid name.
+,20070022,,Loading services
+,20070023,,Names contain sensitive words.
+,20070024,,Name must be at least {0} characters.
+,20070025,,Name is too long.
+,20070026,,Name repeated.
 ,"20070027
-",,
-,20070028,,
-,20070029,,
-,20070030,,
-,20070031,,
-,20070032,,
-,20070033,,
-,20080001,设置,要應用語言設置，請重新啟動應用程式。
-,20080002,设置,立即退出
-,20080003,设置,之後
-,20080004,设置,警告！在不安全的區域登出後，玩家將能夠在一段時間後正常離開遊戲。
-,20080005,设置,在不安全的區域登出，重新連接以進入遊戲。
-,20090001,任务,領取{0}任務寶箱獎勵
-,20090002,任务,完成{0}任務
-,20090003,任务,在製作頁面製作任何物品
-,20090004,任务,在製作頁面製作{0}
-,20090005,任务,使用{0}
-,20090006,任务,上交{0}
-,20090007,任务,擊殺{0}
-,20090008,任务,"查看地圖座標({0}, {1})"
-,20090009,任务,升級你的角色
-,20090010,任务,獲得{0}
-,20090011,任务,升級{0}槽位
-,20090012,任务,將{0}節點升級到{1}級
-,20090013,任务,已選擇 {0} 個物品
-,20090014,任务,已選擇 {0} 個物品
-,20090015,任务,未知
-,20090016,任务,每日
-,20090017,任务,賞金
-,20090018,任务,收穫{0}
-,20090019,任务,任務未完成
-,20090020,任务,收集 {0}
-,20090021,任务,有一個進行中的任務
-,20090022,任务,手動刷新次數已達上限
-,20090023,,與 {0} 對話
-,20090024,,捕捉 {0}
-,20090025,,完成 {1} 中的章节 {0}
-,20090026,,您收到了一个令牌任务
-,20090027,,能力等级不足
-,20090028,,任務已過期
-,20090029,, 令牌任務
-,20090030,, 初始化
-,20090031,, 已收到
-,20090032,, 接受
-,20090033,, 放棄
-,20090034,, 完成
-,20090035,,{0}已達成。
-,20090036,, 任務完成
+",,Asia
+,20070028,,Europe
+,20070029,,North America
+,20070030,,South America
+,20070031,,Africa
+,20070032,,Antarctica
+,20070033,,Grand Opening
+,20080001,设置,"To apply the language setting, please restart the app."
+,20080002,设置,Quit now
+,20080003,设置,Later
+,20080004,设置,"Warning! Logging out in an unsafe area, players will be able to leave the game normally after being idle for a period of time."
+,20080005,设置,"Logging out in an unsafe area, reconnect to enter the game."
+,20090001,任务,Receive {0} quest chest rewards 
+,20090002,任务,Complete {0} quest 
+,20090003,任务,Craft any item on the crafting page 
+,20090004,任务,Craft {0} on the crafting page 
+,20090005,任务,Use {0} 
+,20090006,任务,Turn in {0} 
+,20090007,任务,Kill {0} 
+,20090008,任务,"Look around the map coordinates ({0}, {1}) "
+,20090009,任务,Upgrade your character 
+,20090010,任务,Obtain {0} 
+,20090011,任务,Upgrade slot {0}
+,20090012,任务,Upgrade the node {0} to level {1}
+,20090013,任务,{0} Items selected
+,20090014,任务,{0} Item selected
+,20090015,任务,Unknown
+,20090016,任务,Daily
+,20090017,任务,Bounty
+,20090018,任务,Harvest {0}
+,20090019,任务,Task not completed
+,20090020,任务,Gather {0}
+,20090021,任务,There's an ongoing task
+,20090022,任务,The number of manual refreshes has reached the upper limit
+,20090023,,Talk to {0}
+,20090024,,Capture {0} 
+,20090025,,Complete the chapter {0} in {1}       
+,20090026,,You receive a token task
+,20090027,,Ability Level Not Enough
+,20090028,,Task Expired
+,20090029,,Token Task
+,20090030,,init
+,20090031,,received
+,20090032,,accept
+,20090033,,abandon
+,20090034,,completed
+,20090035,,{0} has been achived.
+,20090036,,Task completed
 ,"20100000
-",专精,通用
-,20100001,专精,農牧
-,20100002,专精,戰鬥
-,20100003,专精,採集
-,20100004,专精,寵物
-,20100005,专精,等級已滿
-,20100006,专精,缺少{0}經驗
-,20100007,专精,缺少代幣
-,20100008,专精,重置成功！
-,20100009,,在副本戰鬥期間無法升級天賦。
-,20110000,nft 关键字,恢復生命值
-,20110001,nft 关键字,添加增益效果
-,20110002,nft 关键字,學習配方
-,20110003,nft 关键字,頭部護甲
-,20110004,nft 关键字,胸部護甲
-,20110005,nft 关键字,腿部護甲
-,20110006,nft 关键字,腳部護甲
-,20110007,nft 关键字,手部護甲
-,20110008,nft 关键字,劍
-,20110009,nft 关键字,弓
-,20110010,nft 关键字,匕首
-,20110011,nft 关键字,長矛
-,20110012,nft 关键字,消耗品
-,20110013,nft 关键字,材料
-,20110014,nft 关键字,可放置物品
-,20110015,nft 关键字,可穿戴物品
-,20110016,nft 关键字,神秘盒子
-,20110017,nft 关键字 在配置中的类型,裝備
-,20110018,nft 关键字 在配置中的类型,消耗品
-,20110019,nft 关键字 在配置中的类型,材料
-,20110020,nft 关键字 在配置中的类型,建築物
-,20110021,nft 关键字 在配置中的类型,寵物蛋
-,20110022,,圖騰
-,20120005,登录,連接錢包已開始
-,20120006,登录,連接錢包已更新
-,20120007,登录,連接錢包已完成
-,20120008,登录,連接錢包失敗
-,20120009,登录,連接錢包已準備就緒
-,20120010,登录,開始登錄錢包
-,20120011,登录,打開登錄錢包頁面
-,20120012,登录,錢包登錄成功
-,20120013,登录,錢包登錄失敗
-,20120014,登录,初始化钱包
-,20120015,登录,初始化錢包超時
-,20120016,登录,錢包斷開連接
-,20130000,组队,{0}的隊伍
-,20130001,组队,請求已發送
-,20130002,组队,您已加入隊伍，請先離開隊伍
-,20130003,组队,請求已過期
-,20130004,组队,無效的名稱格式
-,20130005,组队,描述格式無效
-,20130006,组队,您已經在這裏了
-,20130007,组队,{0}邀請您加入團隊
-,20140001,网络,網路異常，請重試
-弱网提示标题,20140002,网络,網路
-,20150001,副本,逃跑將接受失敗懲罰，確定退出嗎？
-,20150002,副本,如果失敗將有幾率損壞你身上穿戴中的{0}件裝備，確定繼續挑戰嗎？
-场景服务启动失败,20150003,副本,啟動副本失敗，請稍後重試
-切换场景超时,20150004,副本,進入副本超時，請稍後重試
-门票不足,20150005,副本,票券不足
-门票扣除失败,20150006,副本,扣除票券失败
-副本未解锁,20150007,副本,副本尚未解锁
-已在当前场景,20150008,副本,你已經在這裏了
-重复申请,20150009,副本,重複的申請
-没有权限进入场景,20150010,副本,你沒有許可權進入
-无效地图类型 参数错误(地图id or subtype信息错误),20150011,副本,進入地圖失敗，請聯繫管理員
-地图不支持当前的挑战类型(单人多人挑战类型),20150012,副本,無法單人進入
-玩家在队伍中(单人挑战不能有队伍),20150013,副本,請退出當前隊伍
-玩家队伍不存在(非单人挑战类型必须有队伍),20150014,副本,請加入一個隊伍
-成员不在附近  （成员不在npc附近） （成员不在队长附近）已经离线(member entity 离开当前服务器),20150015,副本,距离太远
-地图需要XX级才能进入,20150016,副本,角色等级不足，需要等级
-角色数据错误,20150017,副本,角色數據錯誤，請聯繫管理員
-NPC 不存在,20150018,副本,無法找到NPC，請聯繫管理員
-,20150019,副本,拒绝进入地下城
-,20160000,副本,門票不足
-,20160001,副本,請退出當前隊伍
-,20160002,副本,需要一個隊伍來挑戰
-,20160003,副本,只有队长可以开始团队挑战
-,20160004,副本,尚未解锁
-,20160005,副本,系统错误
-,20160006,副本,开放世界
-,20160007,副本,的家园
-,20160008,副本,副本
-,20160009,副本,未知区域
-,20160010,副本,只有隊長可以操作
-,20160011,副本,等级不匹配。
-,20160012,副本,尚未开放。
-,20160013,副本,匹配失败。
-,20160014,副本,请稍后再试或挑战其他副本。
-,20160015,副本,等級不匹配。
-,20160016,副本,額外掉落
-,20160017,副本,進入地下城時，有機會觸發「額外掉落」事件：殺死指定的怪物、收集物品或收穫作物將獲得額外的掉落獎勵。此事件的觸發次數有一個固定的全局最大限制。
-,20160018,,
-,20160019,副本,
-,20160020,副本,
-,20160021,副本,
-,20170000,合成,進入隊列
-,20170001,合成,製作隊列已滿。
-,20170002,合成,製作配方尚未解鎖。
-,20170003,合成,材料不足。
-,20170004,合成,代幣不足。
-,20170005,合成,請選擇足夠的材料
-,20170006,合成,此配方今天已达到每日合成限制。
-,20170007,合成,LUAG的每日供应限制已达到。
-,20180001,设置,25帧
-,20180002,设置,30帧
-,20180003,设置,45帧
-,20180004,设置,60帧
-,20180005,设置,無限制
-,20180006,设置,非常低
-,20180007,设置,低
-,20180008,设置,中等
-,20180009,设置,高
-,20180010,设置,战斗中无法解除。
-,20190000,天赋树,必须先解锁前置节点。
-,20190001,天赋树,天赋树的总等级需要达到{0}。
-,20190002,天赋树,同一层的主干节点必须先解锁。
-,20190003,天赋树,天賦樹等級不足
-,20190004,,"{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> 來停用此等級？- 啟用的技能將被重置。- 配方將被重置。- 經驗將會消失。"""
-,20200000,活动,領取獎品成功
-,20200001,活动,領取獎品失敗
-,20200002,活动,製造票券成功
-,20200003,活动,製造票券失敗
-,20200004,活动,出售票券成功
-,20200005,活动,出售票券失敗
-,20210000,钱包相关,代幣余额请求失败！
-地形杀,20220001,战报名称,[color=#FF9F2F]地形[/color]
-单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color]
-xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]的[color=#F7CE3D]{1}[/color]
-家园饥饿杀,20220004,战报名称,[color=#FF9F2F]飢餓[/color]
-离开副本,20220005,战报名称,[color=#FF9F2F]退出副本[/color]
-,20220006,战报概要,你被{att=unknown}殺死
-,20220007,战报概要,你的{def=unknown}被{att=unknown}殺死
-,20220008,战报概要,你的單位參與了對{def=unknown}的擊殺
-,20220009,战报概要,你殺死了{def=unknown}
-,20220010,战报概要,你的{att=unknown}殺死了{def=unknown}
-,20220011,战报详情,[color=#F24F4F]失去[/color]物品
-,20220012,战报详情,{att=unknown}參與了擊殺
-,20220013,战报详情,[color=#35F883]獲得[/color]物品
-,20220014,战报详情,{att=unknown}[color=#35F883]獲得[/color]物品
-,20220015,战报详情,{att=unknown}殺死了{def=unknown}
-,20220016,战报概要,成功挑戰[color=#FF9F2F]{name=深淵峽谷}[/color]
-,20220017,战报概要,挑戰[color=#FF9F2F]{name=深淵峽谷}[/color]失敗
-,20220018,战报详情,[color=#F7CE3D]你[/color]通過清除關卡獲得了獎勵
-,20220019,战报详情,"{num=8,000}[/color] 圖騰獎勵"
-,20220020,战报详情,[color=#35F883]獲得[/color] 物品
-,20230000,宠物,寵物跟隨著你
-,20230001,宠物,寵物停止跟隨
-,20230002,宠物,寵物骨髓洗練成功
-,20230003,宠物,確定要將 {0} 轉換為寵物蛋嗎？轉換為寵物蛋後可以重新孵化
-,20230004,宠物,製作寵物蛋
-,20230005,宠物,確定要釋放 {0} 嗎？釋放後將失去該寵物
-,20230006,宠物,你已經釋放了你的寵物
-,20230007,宠物,寵物改名完成
-,20230008,宠物,{0}的寵物
-,20230009,宠物,宠物召回
-,20230010,宠物,宠物已死亡
-,20230011,,寵物等級不足 
-,20240001,图腾,達成成功
+",专精,General
+,20100001,专精,Farming
+,20100002,专精,Battle
+,20100003,专精,Gather
+,20100004,专精,Pet
+,20100005,专精,Level is Max
+,20100006,专精,Lack of {0} EXP
+,20100007,专精,Lack of Token
+,20100008,专精,Reset successfully!
+,20100009,,Talents cannot be upgraded during dungeon combat.
+,20110000,nft 关键字,Restore HP
+,20110001,nft 关键字,Add Buff
+,20110002,nft 关键字,Learn Recipe
+,20110003,nft 关键字,Head Armor
+,20110004,nft 关键字,Chest Armor
+,20110005,nft 关键字,Legs Armor
+,20110006,nft 关键字,Feet Armor
+,20110007,nft 关键字,Hands Armor
+,20110008,nft 关键字,Sword
+,20110009,nft 关键字,Bow
+,20110010,nft 关键字,Dagger
+,20110011,nft 关键字,Spear
+,20110012,nft 关键字,Consumable
+,20110013,nft 关键字,Material
+,20110014,nft 关键字,Placeable
+,20110015,nft 关键字,Wearable
+,20110016,nft 关键字,MysteryBox
+,20110017,nft 关键字 在配置中的类型,Equipment
+,20110018,nft 关键字 在配置中的类型,Consumable
+,20110019,nft 关键字 在配置中的类型,Material
+,20110020,nft 关键字 在配置中的类型,Building
+,20110021,nft 关键字 在配置中的类型,Pet egg
+,20110022,,Totem
+,20120005,登录,Connect wallet started
+,20120006,登录,Connect wallet Updated
+,20120007,登录,Connect wallet finished
+,20120008,登录,Connect wallet failed
+,20120009,登录,Connect wallet ready
+,20120010,登录,Start login wallet
+,20120011,登录,Open login wallet page
+,20120012,登录,Login wallet successful
+,20120013,登录,Login wallet failed
+,20120014,登录,Init wallet
+,20120015,登录,Init wallet timeout
+,20120016,登录,Wallet disconnection.
+,20130000,组队,{0}'s team
+,20130001,组队,Request sent
+,20130002,组队,"You have joined the team, please leave the team first"
+,20130003,组队,Request expired
+,20130004,组队,Invalid name format
+,20130005,组队,Description format invalid
+,20130006,组队,You are already here
+,20130007,组队,{0} invites you to join the team
+,20140001,网络,"Network exception, please try again"
+弱网提示标题,20140002,网络,Network
+,20150001,副本,Running away will incur penalties for failure. Are you sure you want to quit?
+,20150002,副本,There's a chance that {0} pieces of the equipment you're wearing might get damaged if you fail. Are you sure you want to continue the challenge?
+场景服务启动失败,20150003,副本,"Failed to start instance, please try again later"
+切换场景超时,20150004,副本,"Timeout entering instance, please try again later"
+门票不足,20150005,副本,Insufficient tickets
+门票扣除失败,20150006,副本,Failed to deduct tickets
+副本未解锁,20150007,副本,Instance not unlocked yet
+已在当前场景,20150008,副本,You are already here
+重复申请,20150009,副本,Duplicate application
+没有权限进入场景,20150010,副本,You do not have permission to enter
+无效地图类型 参数错误(地图id or subtype信息错误),20150011,副本,"Failed to enter the map, please contact the administrator"
+地图不支持当前的挑战类型(单人多人挑战类型),20150012,副本,Unable to enter solo
+玩家在队伍中(单人挑战不能有队伍),20150013,副本,Please exit the current team
+玩家队伍不存在(非单人挑战类型必须有队伍),20150014,副本,Please join a team
+成员不在附近  （成员不在npc附近） （成员不在队长附近）已经离线(member entity 离开当前服务器),20150015,副本,Too far away
+地图需要XX级才能进入,20150016,副本,"Insufficient character level, requires level"
+角色数据错误,20150017,副本,"Character data error, please contact the administrator"
+NPC 不存在,20150018,副本,"NPC not found, please contact the administrator"
+,20150019,副本,refuses to enter the dungeon
+,20160000,副本,Ticket shortage
+,20160001,副本,Please exit the current team
+,20160002,副本,Need a team to challenge
+,20160003,副本,Only the team leader can start a team challenge
+,20160004,副本,Not yet unlocked
+,20160005,副本,System error
+,20160006,副本,Open world
+,20160007,副本,'s Home
+,20160008,副本,Dungeon
+,20160009,副本,Unknown area
+,20160010,副本,Only the team leader can operate.
+,20160011,副本,Level mismatch.
+,20160012,副本,Not yet open.
+,20160013,副本,Match Failed
+,20160014,副本,Please try again later or challenge other dungeons
+,20160015,副本,Level mismatch.
+,20160016,副本,Extra Drop
+,20160017,副本,"When entering a dungeon, there is a chance to trigger an ""Extra Drop"" event:
+
+Killing specified monsters, collecting items, or harvesting crops will grant extra drop rewards.
+There is a fixed global maximum limit on the total number of times this event can be triggered."
+,20160018,,Difficulty
+,20160019,副本,{0} Level
+,20160020,副本,Challenge time remaining {0} seconds
+,20160021,副本,Leader choose within {0} seconds to proceed to the next level
+,20170000,合成,Enter queue
+,20170001,合成,Craft queue is full.
+,20170002,合成,Craft recipe is not unlocked.
+,20170003,合成,Material is not enough.
+,20170004,合成,Token is not enough.
+,20170005,合成,Please select sufficient materials
+,20170006,合成,This recipe has reached its maximum synthesis frequency today
+,20170007,合成,The daily supply limit for LUAG has been reached.
+,20180001,设置,25 Frame
+,20180002,设置,30 Frame
+,20180003,设置,45 Frame
+,20180004,设置,60 Frame
+,20180005,设置,No Limit
+,20180006,设置,VeryLow
+,20180007,设置,Low
+,20180008,设置,Medium
+,20180009,设置,High
+,20180010,设置,Cannot disengage while in combat. 
+,20190000,天赋树,The pre-node must be unlocked first.
+,20190001,天赋树,Total level of talent tree needs reach to {0}.
+,20190002,天赋树,The trunk node of the same layer must be unlocked first.
+,20190003,天赋树,Not enough talent tree level
+,20190004,,"Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> to deactivate this level?
+ • Enabled skills will be reset.
+ • Recipes will be reset.
+ • Experience will be gone."
+,20190005,,• Unlock dungeon rewards for [color=#ffab23]{0}[/color] and disable dungeon rewards for [color=#ffab23]{1}[/color].
+,20190006,,• Disable dungeon rewards for [color=#ffab23]{0}[/color].
+,20190007,,• Unlock dungeon rewards for [color=#ffab23]{0}[/color].
+,20190008,,• The [color=#ffab23]difficulty[/color] of token task will switch to [color=#ffab23]Lv{0}[/color].
+,20190009,,Continue to spend [color=#F0A81C]{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> to upgrade this level?
+,20200000,活动,claim prize success
+,20200001,活动,claim prize failed
+,20200002,活动,mint ticket success
+,20200003,活动,mint ticket failed
+,20200004,活动,sell ticket success
+,20200005,活动,sell ticket failed
+,20210000,钱包相关,Token balance request failed!
+地形杀,20220001,战报名称,[color=#FF9F2F]Terrain[/color] 
+单一目标,20220002,战报名称,[color=#F7CE3D]{0}[/color] 
+xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/color] 
+家园饥饿杀,20220004,战报名称,[color=#FF9F2F]Hunger[/color] 
+离开副本,20220005,战报名称,[color=#FF9F2F]ExitDungeon[/color]
+,20220006,战报概要,You were killed by {att=unknown}
+,20220007,战报概要,Your {def=unknown} were killed by {att=unknown}
+,20220008,战报概要,Your unit participated in the kill of {def=unknown}
+,20220009,战报概要,You killed {def=unknown}
+,20220010,战报概要,Your {att=unknown} killed {def=unknown}
+,20220011,战报详情,[color=#F24F4F]Lost[/color] items
+,20220012,战报详情,{att=unknown} participated in the kill
+,20220013,战报详情,[color=#35F883]win[/color] items
+,20220014,战报详情,{att=unknown} [color=#35F883]win[/color] items
+,20220015,战报详情,{att=unknown} killed {def=unknown}
+,20220016,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] successfully
+,20220017,战报概要,Challenge the [color=#FF9F2F]{name=Abyss canyon}[/color] failed
+,20220018,战报详情,[color=#F7CE3D]You[/color] was rewarded for clearing the level
+,20220019,战报详情,"[color=#F7CE3D]You[/color] got a <img src='{icon=ui://sulwtp4jo1ifwcm}' width='30' height='30'> [color=#fead2a]{num=8,000}[/color] Totem Bonus"
+,20220020,战报详情,[color=#35F883]Obtained[/color] items
+,20230000,宠物,Pet  followed.
+,20230001,宠物,Pet un-followed.
+,20230002,宠物,Pet marrow washing success.
+,20230003,宠物,Are you sure to convert {0} into a pet egg? It can be re-hatched after being converted into a pet egg.
+,20230004,宠物,Make pet eggs
+,20230005,宠物,Are you sure to release {0}? You will lose the pet after release.
+,20230006,宠物,You've released your pet.
+,20230007,宠物,Pet rename completed.
+,20230008,宠物,{0}'s Pet
+,20230009,宠物,Pet recalled.
+,20230010,宠物,Pet has died!
+,20230011,,Insufficient pet level
+,20240001,图腾,Achieve success
 ,"20240002
-",,投資成功
-,20240003,,提款成功
-,20240004,,計算中，請稍候
-,20240005,图腾, {0}/{1} 分鐘
-,20250000,仓库,請在存儲之前更新存儲租約
-,20250001,仓库,請在取出之前更新存儲租約
-,20250002,,存儲空間已滿
-,20250003,,數據正在提取中，請稍候。
-,20260001,精力,能量不足
-,20260002,精力,[color=#F7CE3D]{0}[/color]的能量不足
-,20270001,排行榜,未排名
-,20280001,装备拆解,拆解后无法恢复装备，请确认。
-,20290001,背包,物品已移除。
-,20290002,背包,物品无法转换。
-,20290003,背包,全部转换完成。
-,20290004,背包,该物品无法转换。
-,20290005,背包,物品已排序。
-,20290006,背包,原始物品名稱已複製！
-,20290007,背包, 移除物品？
-,20290008,背包, 確定要移除物品 [color=#ff0000]{0} 嗎？
-,20290009,背包, 每日轉換配額已用完。
-,20290010,背包, 每日轉換配額不足。
-,20290011,背包, 倉庫租賃成功。
-,20290012,背包, 倉庫租約失敗。
-,20290013,,{0}[/color] 已移除。
-,20290014,, 租賃失敗，請重新打開視圖以刷新匯率。
-,20300000,声望, 完成聲望任務。
-,20300001,声望, 曾一次進入排行榜。
-,20300002,声望, 租借倉庫。
-,20300003,声望, 通過指定分數通過地下城。
-,20300004,声望, 在遊戲中持有LUAG(100)。
-,20300005,声望, 帳戶持續時間。
-,20300006,声望, 額外積分。
-,20300007,声望, 每日減少{0}分。
-,20310000,技能, 無法釋放當前武器的此技能。
-,20320000,世界图腾,抱歉，我無法完成這項要求。
-,20320001,世界图腾,抱歉，我無法完成這項要求。
-,20320002,世界图腾, {0}的圖騰
-,20320003,世界图腾, 圖騰已放置，請繼續充電
-,20320004,世界图腾, 請先領取礦業收入
-,20320005,世界图腾, 本區域無法放置圖騰
-,20320006,世界图腾, 本場景無法放置圖騰
-,20320007,世界图腾, 圖騰能量不足。
-,20320008,世界图腾, 圖騰未啟動。
-,20320009,世界图腾, {0}分內無法設定增強價格。
-,20320010,世界图腾, 能量充電物品不足
-,20330000,装备强化, 保護石不足。
-,20330001,装备强化, 裝備正在強化中，請稍候。
-,20330002,装备强化, 請先選擇繼承目標。
-,20330003,装备强化, 沒有可繼承的裝備。
-,20330004,装备强化, 未選擇可繼承的裝備。
-,20330005,装备强化, 此裝備無法被繼承。
-,20330006,装备强化, 恭喜{0}將{1}強化至{2}。
-,20330007,装备强化, 抽獎結果將稍後通知您。
-,20330008,装备强化, 恭喜{0}將{1}強化至{2}
-,20330009,, {0}在強化裝備的抽獎中獲得{1}{2}。
-,20340001,百层试炼, 剩餘抽獎次數不足
-,20340002,百层试炼, 今日無分數，無法抽獎```
-,20340003,百层试炼,抱歉，我無法進行翻譯。
-,20340004,百层试炼,
-,20350001,护送任务错误,
-,20350002,护送任务错误,
-,20350003,护送任务错误,
-,20350004,护送任务错误,
-,20350005,护送任务,
-,20350006,护送任务,
-,20350007,护送任务,
-,20350008,护送任务,
-,20350009,护送任务,
-,20350010,护送任务,
-,20350011,护送任务,
-,20350012,护送任务,
-,20360001,系统聊天,
-,20370002,日志,
-,20370003,日志,
-,20370004,日志,
-,20370005,日志,
-,20370006,日志,
+",,Investment Successful
+,20240003,,Withdrawal Successful
+,20240004,,"Calculating, please wait"
+,20240005,图腾,{0}/{1} min
+,20250000,仓库,Please renew the storage lease before storing.
+,20250001,仓库,Please renew the lease of the storage before taking it out.
+,20250002,,The storage is full.
+,20250003,,"Data is being pulled, please wait."
+,20260001,精力,Energy not enough
+,20260002,精力,[color=#F7CE3D]{0}[/color]'s Energy not enough
+,20270001,排行榜,Not Ranked
+,20280001,装备拆解,"Equipment cannot be restored after being disassembled, please confirm."
+,20290001,背包,Item has been removed.
+,20290002,背包,Item can't be converted.
+,20290003,背包,All converted.
+,20290004,背包,This item can not be converted.
+,20290005,背包,Items sorted.
+,20290006,背包,Raw item name copied!
+,20290007,背包,Remove item?
+,20290008,背包,Are you sure to remove the item [color=#ff0000]{0}?
+,20290009,背包,Daily convert quota is used up.
+,20290010,背包,Daily convert quota is not enough.
+,20290011,背包,Warehouse lease success.
+,20290012,背包,Warehouse lease failed.
+,20290013,,Item:[color=#ff0000]{0}[/color] removed.
+,20290014,,"Failed to lease, Please reopen the view to refresh the exchange rate."
+,20300000,声望,Complete the reputation task.
+,20300001,声望,Made it to the leaderboard once.
+,20300002,声望,Rent a warehouse.
+,20300003,声望,Pass the dungeon with the specified score.
+,20300004,声望,Hold LUAG(100) in the game.
+,20300005,声望,Account duration.
+,20300006,声望,Additional points.
+,20300007,声望,Daily decay of {0} points.
+,20310000,技能,Can't release this skill for current weapon.
+,20320000,世界图腾,Too close to other totems
+,20320001,世界图腾,The current terrain cannot place totems
+,20320002,世界图腾,{0}'s totem
+,20320003,世界图腾,"Totem is placed, please proceed to charge"
+,20320004,世界图腾,Please claim the mining income first
+,20320005,世界图腾,Cannot place totems in this area
+,20320006,世界图腾,Cannot place totems in this scene
+,20320007,世界图腾,Totem energy is insufficient.
+,20320008,世界图腾,The totem is not activated.
+,20320009,世界图腾,Can't set enhance price within {0} minutes.
+,20320010,世界图腾,Not enough energy recharge items
+,20320011,,"Teleport interrupted, no charge for this attempt."
+,20320012,,"Teleport failed, no charge for this attempt, please try again later."
+,20330000,装备强化,Insufficient protective stone.
+,20330001,装备强化,"Equipment is being enhanced, please wait."
+,20330002,装备强化,Please select the inheritance target first.
+,20330003,装备强化,No equipment to inherit.
+,20330004,装备强化,No inheritable equipment selected.
+,20330005,装备强化,This equipment cannot be inherited.
+,20330006,装备强化,congratulations {0} for enhancing {1} to {2}.
+,20330007,装备强化,The results of the lottery will be notified to you later.
+,20330008,装备强化,congratulations {0} for enhancing {1} to {2}
+,20330009,,{0} won {1}{2} in the lottery of enhancing equipment.
+,20340001,百层试炼,The remaining number of draws is insufficient
+,20340002,百层试炼,"No score today, can not draw"
+,20340003,百层试炼,Losing lottery
+,20340004,百层试炼,"No challenge record, please start at the first level."
+,20350001,护送任务错误,Not enough escort times
+,20350002,护送任务错误,Escort slime mission system error :
+,20350003,护送任务错误,Multiple mission requests
+,20350004,护送任务错误,Only the team leader can start the mission
+,20350005,护送任务,[color=#ooccff]{0}[/color] refused the mission
+,20350006,护送任务,The mission needs to be completed in {0} minutes
+,20350007,护送任务,Escort slime [color=#ffffff] mission successfully
+,20350008,护送任务,Escort slime mission failed
+,20350009,护送任务,Robbery slime [color=#ffffff]successfully
+,20350010,护送任务,Not enough robbery reward times
+,20350011,护送任务,Are you sure you want to give up the escort mission?
+,20350012,护送任务,There are no slimes left to escort in the current world
+,20360001,系统聊天,[color=#ooccff]{0}[/color] has obtained dropped items
+,20370002,日志,Start uploading log...
+,20370003,日志,{0} upload success.
+,20370004,日志,{0} upload failed.
+,20370005,日志,This startup
+,20370006,日志,Last startup
+,20370007,,Leaderboard switch successful
