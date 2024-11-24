@@ -229,4 +229,20 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     {
         return TableUtil.GetInstancingChapter(GFEntryCore.SceneAreaMgr.DefaultDRSceneArea, CurLevelIndex);
     }
+
+    /// <summary>
+    /// 获取副本队伍额外分数倍率, 注意，这里没有用真正的队伍人数，还是用的副本里的总人数，如果需求是根据队伍人数去那倍率，不要使用这个接口！
+    /// </summary> 
+    public float GetInstancingTeamExtraScoreRate()
+    {
+        if (TableUtil.TryGetGameValue(eGameValueID.InstancingTeamExtraScoreRate, out DRGameValue drGameValue))
+        {
+            int playerCount = PlayerInstancingData.Count;
+            if (drGameValue.ValueArray.Length >= playerCount)
+            {
+                return drGameValue.ValueArray[playerCount - 1] * TableDefine.THOUSANDTH_2_FLOAT;
+            }
+        }
+        return 1f;
+    }
 }
