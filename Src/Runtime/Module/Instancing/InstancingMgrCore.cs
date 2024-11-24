@@ -2,7 +2,7 @@
  * @Author: xiang huan
  * @Date: 2023-09-26 17:06:34
  * @Description: 副本管理
- * @FilePath: /lumiterra-scene-server/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
+ * @FilePath: /lumiterra-unity/Assets/Plugins/SharedCore/Src/Runtime/Module/Instancing/InstancingMgrCore.cs
  * 
  */
 using System;
@@ -231,7 +231,7 @@ public class InstancingMgrCore<TLevel> : MonoBehaviour, IInstancingMgr where TLe
     }
 
     /// <summary>
-    /// 获取副本队伍额外分数倍率
+    /// 获取副本队伍额外分数倍率, 注意，这里没有用真正的队伍人数，还是用的副本里的总人数，如果需求是根据队伍人数去那倍率，不要使用这个接口！
     /// </summary> 
     public float GetInstancingTeamExtraScoreRate()
     {
