@@ -1,340 +1,379 @@
-col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,preNode-int[],resetCost-int,type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,upgradeToken-int[]
-0," 전투 ATK + 5
-전투 방어 + 5
-전투 최대 체력 + 20
-최대 에너지 + 10
-에너지 레시피 해제","51,588#1199#1259,10000","1,2,3",talentTree-1,1,1,1,1,Combat Mastery 1,0,0,2,450,0,0
-0," 전투 ATK + 5
-전투 방어 + 5
-전투 최대 체력 + 20
-최대 에너지 + 10
-에너지 레시피 해제","52,585#1194#1260,10000","1,2,3",talentTree-2,2,1,2,1,Combat Mastery 2,1,0,2,900,1,0
-0,"전투 ATK + 5
-전투 DEF + 5
-전투 MaxHP + 20
-최대 에너지 + 10
-에너지 레시피 잠금","53,592#1192#1261,10000","1,2,3",talentTree-3,3,1,3,1,Combat Mastery 3,2,20000,2,1800,2,200
-0," 전투 ATK + 5
-전투 DEF + 5
-전투 MaxHP + 20
-최대 에너지 + 10
-에너지 레시피 잠금","54,590#1197#1262,10000","1,2,3",talentTree-4,4,1,4,1,Combat Mastery 4,3,40000,2,3600,3,1000
-0," 전투 ATK + 5
-전투 DEF + 5
-전투 MaxHP + 20
-최대 에너지 + 10
-에너지 레시피 잠금","55,589#1196#1263,10000","1,2,3",talentTree-5,5,1,5,1,Combat Mastery 5,4,60000,2,7200,4,2000
-0," 전투 ATK + 5
-전투 DEF + 5
-전투 MaxHP + 20
-최대 에너지 + 10
-에너지 레시피 잠금","56,595#1195#1264,10000","1,2,3",talentTree-6,6,1,6,1,Combat Mastery 6,5,80000,2,14400,5,3200
-0," 전투 ATK + 5
-전투 DEF + 5
-전투 MaxHP + 20
-최대 에너지 + 10
-에너지 레시피 잠금","57,614#1200#1265,10000","1,2,3",talentTree-7,7,1,7,1,Combat Mastery 7,6,100000,2,28800,6,4600
-0," 전투 ATK + 5
-전투 DEF + 5
-전투 MaxHP + 20
-최대 에너지 + 10
-에너지 레시피 잠금","58,615#1193#1266,10000","1,2,3",talentTree-8,8,1,8,1,Combat Mastery 8,7,120000,2,57600,7,6200
-0, 적의 이동 속도 감소,"59,619#1198#1267,10000","1,2,3",talentTree-9,9,1,9,1,Combat Mastery 9,8,140000,2,115200,8,8000
--1, 적의 이동 속도를 감소시킵니다.,332,1,talentTree-10,10,0,2,1,Trampling - Enhance,11,0,2,175,0,0
--1, 주변의 적을 기절시킵니다.,63,0,talentTree-11,11,0,1,1,Trampling,0,0,2,15,0,0
-0,"비옥도용량 + 1
-심기숙련도 + 4
-애완동물 행복도용량 + 1
-번식숙련도 + 4
-최대 에너지 + 10
-농사 피트니스: 일정 비율에 따라 농사 숙련도를 전투 방어 및 체력 상한선으로 전환, 농사 도구를 착용할 때 효과적
-에너지 레시피 해제","66#531,591#597#1183#1277,10000","1,2,3",talentTree-13,13,1,1,1,Farming Mastery 1,0,0,1,450,0,0
-0," 비옥도용량 + 1
-심기숙련도 + 4
-애완동물 행복도용량 + 1
-번식숙련도 + 4
-최대 에너지 + 10
-에너지 레시피 해제","67,593#598#1184#1278,10000","1,2,3",talentTree-14,14,1,2,1,Farming Mastery 2,13,0,1,900,1,0
-0," 비옥도 용량 + 1
-심기 숙련도 + 4
-애완동물 행복도 용량 + 1
-번식 숙련도 + 4
-최대 에너지 + 10
-에너지 레시피 잠금","68,596#599#1188#1279,10000","1,2,3",talentTree-15,15,1,3,1,Farming Mastery 3,14,20000,1,1800,2,200
-0," 비옥도 용량 + 1
-심기 숙련도 + 4
-애완동물 행복도 용량 + 1
-번식 숙련도 + 4
-최대 에너지 + 10
-에너지 레시피 잠금","69,594#600#1190#1280,10000","1,2,3",talentTree-16,16,1,4,1,Farming Mastery 4,15,40000,1,3600,3,1000
-0," 비옥도 용량 + 1
-심기 숙련도 + 4
-애완동물 행복도 용량 + 1
-번식 숙련도 + 4
-최대 에너지 + 10
-에너지 레시피 잠금","70,601#587#1185#1281,10000","1,2,3",talentTree-17,17,1,5,1,Farming Mastery 5,16,60000,1,7200,4,2000
-0," 비옥도 용량 + 1
-심기 숙련도 + 4
-애완동물 행복도 용량 + 1
-번식 숙련도 + 4
-최대 에너지 + 10
-에너지 레시피 잠금","71,602#586#1189#1282,10000","1,2,3",talentTree-18,18,1,6,1,Farming Mastery 6,17,80000,1,14400,5,3200
-0, 비옥도 용량 + 1,"72,620#617#1187#1283,10000","1,2,3",talentTree-19,19,1,7,1,Farm Mastery 7,18,100000,1,28800,6,4600
-0, 주변 작은 밭에 물을 줍니다,"73,624#621#1186#1284,10000","1,2,3",talentTree-20,20,1,8,1,Farming Mastery 8,19,120000,1,57600,7,6200
-0," 풀 공격력 + 5
-나무 공격력 + 5
-광물 공격력 + 5
-풀 숙련도 + 5
-나무 숙련도 + 5
-광물 숙련도 + 5
-최대 에너지 + 10
-수집 피트니스: 일정 비율로 수집 숙련도를 전투 방어 및 체력으로 전환, 수집 도구를 착용할 때 효과적
-에너지 레시피 잠금","74,625#616#1191#1285,10000","1,2,3",talentTree-21,21,1,9,1,Farming Mastery 9,20,140000,1,115200,8,8000
-1, 비옥도용량 + 1,228,1,talentTree-22,22,0,1,1,Farm - FertilityCapacity ,0,0,1,95,0,0
--1, 주변 작은 필드에 물을 주십니다.,99,0,talentTree-23,23,0,2,1,Watering Can Mastery,77,0,1,210,0,0
-0," 풀 공격력 + 5
-나무 공격력 + 5
-광물 공격력 + 5
-풀 숙련도 + 5
-나무 숙련도 + 5
-광물 숙련도 + 5
-최대 에너지 + 10
-채집 피트니스: 일정 비율에 따라 채집 숙련도를 전투 방어 및 체력으로 전환, 채집 도구를 착용할 때 효과적
-에너지 레시피 해제","81#530,267#605#1268,10000","1,2,3",talentTree-24,24,1,1,1,Gather Mastery 1,0,0,3,450,0,0
-0," 풀 공격력 + 5
-나무 공격력 + 5
-광물 공격력 + 5
-풀 숙련도 + 5
-나무 숙련도 + 5
-광물 숙련도 + 5
-최대 에너지 + 10
-에너지 레시피 해제","82,268#606#1269,10000","1,2,3",talentTree-25,25,1,2,1,Gather Mastery  2,24,0,3,900,1,0
-0," 풀 공격력 + 5
-나무 공격력 + 5
-광물 공격력 + 5
-풀 숙련도 + 5
-나무 숙련도 + 5
-광물 숙련도 + 5
-최대 에너지 + 10
-에너지 레시피 잠금","83,269#607#1270,10000","1,2,3",talentTree-26,26,1,3,1,Gather Mastery  3,25,20000,3,1800,2,200
-0," 풀 공격력 + 5
-나무 공격력 + 5
-광물 공격력 + 5
-풀 숙련도 + 5
-나무 숙련도 + 5
-광물 숙련도 + 5
-최대 에너지 + 10
-에너지 레시피 잠금","84,382#608#1271,10000","1,2,3",talentTree-27,27,1,4,1,Gather Mastery  4,26,40000,3,3600,3,1000
-0," 풀 공격력 + 5
-나무 공격력 + 5
-광물 공격력 + 5
-풀 숙련도 + 5
-나무 숙련도 + 5
-광물 숙련도 + 5
-최대 에너지 + 10
-에너지 레시피 잠금","85,383#609#1272,10000","1,2,3",talentTree-28,28,1,5,1,Gather Mastery  5,27,60000,3,7200,4,2000
-0, LV 1 장비 세트 레시피 잠금,"86,384#610#1273,10000","1,2,3",talentTree-29,29,1,6,1,Gather Mastery  6,28,80000,3,14400,5,3200
-0," LV 2 장비 세트 레시피 잠금, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 잠금","87,623#611#1274,10000","1,2,3",talentTree-30,30,1,7,1,Gather Mastery  7,29,100000,3,28800,6,4600
-0, 빈 공간,"88,618#612#1275,10000","1,2,3",talentTree-31,31,1,8,1,Gather Mastery  8,30,120000,3,57600,7,6200
-0, 효율성 스킬 - 그룹 괭이,"89,622#613#1276,10000","1,2,3",talentTree-32,32,1,9,1,Gather Mastery  9,31,140000,3,115200,8,8000
--3, LV 1 장비 세트 레시피 해제,70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,0,3,"131,131,131",0,"0,0,0"
--3," LV 2 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 및 조각 제작 레시피를 해제합니다.",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Gather Set Recipes,33,0,3,"262,262,262",0,"0,0,0"
--1, 심기 숙련도 + 4,415,0,talentTree-45,45,0,3,1,,23,0,1,420,0,0
--1, 적의 기절 지속 시간 증가,103,0,talentTree-46,46,0,4,1,Earth Splitter,45,0,1,840,0,600
-2," 돌진하여 적을 밀어냅니다, 피해 50%",246,1,talentTree-48,48,0,3,1,Farm - PlantingProficiency ,81,0,1,420,0,0
--2, 가축 에센스 레시피 Lv 2 해제,156,2,talentTree-49,49,0,2,1,Livestock Essence Recipes,72,0,1,210,0,0
-2, 적의 이동 속도 감소,249,1,talentTree-50,50,0,4,1,Farm - PlantingProficiency ,48,0,1,840,0,600
--1, 앞쪽 작은 영역에서 적을 밀어내고 뒤로 뒤집습니다,333,1,talentTree-52,52,0,3,1,Trampling - Enhance,10,0,2,323,0,0
--2," 충전, 적을 밀어냅니다, 50% 피해.",122,0,talentTree-54,54,0,2,1,Bull Rush,0,0,2,175,0,0
--2, 최대 체력의 백분율에 따라 전투 철수의 체력 회복을 일시적으로 증가시킵니다,336,1,talentTree-55,55,0,3,1,Bull Rush - Enhance,54,0,2,323,0,0
--2," LV 3 장비 세트 레시피 잠금, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 잠금",337,1,talentTree-56,56,0,4,1,Bull Rush - Enhance,55,0,2,646,0,600
--2, 물약 레시피 잠금,123,0,talentTree-57,57,0,5,1,Escape,56,0,2,1292,0,800
--3, 물약 레시피 잠금,137,0,talentTree-60,60,0,3,1,Slight Flurry,0,0,2,323,0,0
--1, 물약 레시피 잠금,485,0,talentTree-61,61,0,4,1,Healing Wave,52,0,2,646,0,600
--3, 물약 레시피 잠금,72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998#982#487,2,talentTree-62,62,0,3,3,Gather Set Recipes,34,0,3,"525,525,525",0,"600,600,600"
--1, 물약 레시피 해제,95#902,2,talentTree-65,65,0,1,1,Magic Props Recipes,0,0,3,131,0,0
--1, 물약 레시피 해제,96#903,2,talentTree-66,66,0,2,1,Magic Props Recipes,65,0,3,262,0,0
--1,포션 제조법 해제.  ,132#904,2,talentTree-67,67,0,3,1,Magic Props Recipes,66,0,3,525,0,600
--1, 포션 제조법 해제.  ,346#905,2,talentTree-68,68,0,4,1,Magic Props Recipes,67,0,3,1050,0,600
--1, 포션 제조법 해제.  ,347#906,2,talentTree-69,69,0,5,1,Magic Props Recipes,68,0,3,2100,0,800
--3, 적의 이동 속도 감소.  ,340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,60,0,2,646,0,600
--1,적의 기절 지속 시간을 증가시킵니다.,334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,61,0,2,1292,0,800
--2, 가축 에센스 레시피 Lv 1 해제,155,2,talentTree-72,72,0,1,1,Livestock Essence Recipes,0,0,1,95,0,0
-2, 심기숙련도 + 4,230,1,talentTree-73,73,0,1,1,Farm - PlantingProficiency ,0,0,1,95,0,0
-3, 애완동물 행복도용량 + 1,231,1,talentTree-74,74,0,1,1,Farm - PetHappinessCapacity ,0,0,1,95,0,0
-4, 번식숙련도 + 4,233,1,talentTree-76,76,0,1,1,Farm - BreedingProficiency,0,0,1,95,0,0
--1, 효율적인 기술 - 그룹 괭이,102,0,talentTree-77,77,0,1,1,Earth Splitter,0,0,1,95,0,0
--4, LV 1 장비 세트 레시피 해제,62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,0,1,"95,95,95",0,"0,0,0"
--4," LV 2 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 및 조각 제작 레시피를 해제합니다.",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Farming Set Recipes,78,0,1,"210,210,210",0,"0,0,0"
-1, 비옥도용량 + 1,229,1,talentTree-80,80,0,2,1,Farm - Fertility output per unit of land,22,0,1,210,0,0
-2, 심기숙련도 + 4,245,1,talentTree-81,81,0,2,1,Farm - PlantingProficiency ,73,0,1,210,0,0
-3, 애완동물 행복도용량 + 1,232,1,talentTree-82,82,0,2,1,Farm - Harvest proficiency,74,0,1,210,0,0
-4, 번식숙련도 + 4,247,1,talentTree-83,83,0,2,1,Farm - Pet Unit Output Happiness Index,76,0,1,210,0,0
-1, 비옥도 용량 + 1,236,1,talentTree-84,84,0,4,1,Farm - FertilityCapacity ,93,0,1,840,0,600
-4, 번식 숙련도 + 4,289,1,talentTree-85,85,0,5,1,Farm - BreedingProficiency,90,0,1,1680,0,800
--4," LV 3 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피를 해제합니다.",64#378#68#131#130#129#920;110#173;174#175#176#506#505#501#490#499#500#580#488#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Farming Set Recipes,79,0,1,"420,420,420",0,"600,600,600"
-3, 애완동물 행복도 + 1,282,1,talentTree-89,89,0,4,1,Farm - PetHappinessCapacity ,92,0,1,840,0,600
-4, 번식 숙련도 + 4,288,1,talentTree-90,90,0,4,1,Farm - BreedingProficiency,91,0,1,840,0,600
-4, 번식 숙련도 + 4,248,1,talentTree-91,91,0,3,1,Farm - BreedingProficiency,83,0,1,420,0,0
-3, 애완동물 행복도 + 1,244,1,talentTree-92,92,0,3,1,Farm - PetHappinessCapacity ,82,0,1,420,0,0
-1, 비옥도 용량 + 1,235,1,talentTree-93,93,0,3,1,Farm - FertilityCapacity ,80,0,1,420,0,0
--2, 가축 에센스 레시피 Lv 3 해제,157,2,talentTree-94,94,0,3,1,Livestock Essence Recipes,49,0,1,420,0,300
--5, LV 1 장비 세트 레시피 해제,44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,0,2,"95,95,95",0,"0,0,0"
-4, 전투 최대 체력 + 20,264,1,talentTree-96,96,0,1,1,Combat - HP,0,0,2,95,0,0
-3, 전투 방어 + 5,258,1,talentTree-97,97,0,1,1,Combat - Defense,0,0,2,95,0,0
-2, 전투 ATK + 5,252,1,talentTree-98,98,0,1,1,Combat - Attack Power,0,0,2,95,0,0
-1, 속도를 10%/20%/30% 증가시킵니다.,116;117;118,1,talentTree-99,99,0,1,3,Expert,0,0,2,"95,95,95",0,"0,0,0"
-4, 전투 최대 체력 + 20,265,1,talentTree-100,100,0,2,1,Combat - HP,96,0,2,175,0,0
--5," LV 2 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 및 조각 제작 레시피를 해제합니다.",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Combat Set Recipes,95,0,2,"175,175,175",0,"0,0,0"
-3, 전투 방어 + 5,259,1,talentTree-102,102,0,2,1,Combat - Defense,97,0,2,175,0,0
-2, 전투 ATK + 5,253,1,talentTree-103,103,0,2,1,Combat - Attack Power,98,0,2,175,0,0
-1, 전투 명중 + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3,Expert,99,0,2,"175,175,175",0,"0,0,0"
--5," LV 3 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피를 해제합니다.",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Combat Set Recipes,101,0,2,"323,323,323",0,"600,600,600"
-3, 전투 방어력 +5,260,1,talentTree-106,106,0,3,1,Combat - Defense,102,0,2,323,0,0
-2, 전투 공격력 +5,254,1,talentTree-107,107,0,3,1,Combat - Attack Power,103,0,2,323,0,0
-1, 2/4/6%의 회피율 획득,125;126;127,1,talentTree-108,108,0,3,3,Expert,104,0,2,"323,323,323",0,"0,0,0"
-4, 전투 최대 체력 +20,266,1,talentTree-109,109,0,3,1,Combat - HP,100,0,2,323,0,0
-3, 전투 방어력 +5,261,1,talentTree-111,111,0,4,1,Combat - Defense,106,0,2,646,0,600
-1, 20/10/5초마다 피해를 입지 않았다면 10%의 추가 피해를 획득합니다.,119;120;121,1,talentTree-112,112,0,4,3,Expert,108,0,2,"646,646,646",0,"600,600,600"
-2, 전투 공격력 +5,255,1,talentTree-113,113,0,4,1,Combat - Attack Power,107,0,2,646,0,600
-4, 전투 최대 체력 +20,267,1,talentTree-114,114,0,4,1,Combat - HP,109,0,2,646,0,600
-3, 전투 방어력 +5,262,1,talentTree-116,116,0,5,1,Combat - Defense,111,0,2,1292,0,800
-2, 전투 공격력 +5,256,1,talentTree-117,117,0,5,1,Combat - Attack Power,113,0,2,1292,0,800
-1, 치명타 확률을 5/10/15% 증가시킵니다,60;61;62,1,talentTree-118,118,0,5,3,Expert,112,0,2,"1292,1292,1292",0,"800,800,800"
--3, 적의 이동 속도를 감소시킵니다.,341,1,talentTree-119,119,0,5,1,Slight Flurry - Enhance,70,0,2,1292,0,800
-4, 전투 최대 체력 +20,268,1,talentTree-120,120,0,5,1,Combat - HP,114,0,2,1292,0,800
--1, 적의 이동 속도를 감소시킵니다.,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,71,0,2,2584,0,1000
--2, 적의 이동 속도를 감소시킵니다.,338,1,talentTree-123,123,0,6,1,Escape - Enhance,57,0,2,2584,0,1000
-1, 몬스터에 대한 치명타 피해를 10/20/30% 증가시킵니다.,113;114;115,1,talentTree-124,124,0,6,3,Expert,118,0,2,"2584,2584,2584",0,"1000,1000,1000"
--3, 전방 돌진,487,0,talentTree-125,125,0,6,1,Linear impact,119,0,2,2584,0,1000
--1, 당신 앞의 넓은 영역의 적을 물리치고 일시적으로 혼란을 일으킵니다.,459,0,talentTree-127,127,0,7,1,Sweeping,122,0,2,5169,0,1200
--2,적의 이동 속도를 감소시킵니다.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,123,0,2,5169,0,1200
--3, 적의 이동 속도를 감소시킵니다.,342,1,talentTree-129,129,0,7,1,Linear impact - Enhance,125,0,2,5169,0,1200
-1, 공격 속도가 10/20/30% 증가합니다.,131;132;133,1,talentTree-130,130,0,7,3,Expert,124,0,2,"5169,5169,5169",0,"1200,1200,1200"
-2, 전투 공격력 +5,257,1,talentTree-131,131,0,6,1,Combat - Attack Power,117,0,2,2584,0,1000
-3, 전투 방어력 +5,263,1,talentTree-132,132,0,6,1,Combat - Defense,116,0,2,2584,0,1000
-4, 전투 최대 체력 +20,269,1,talentTree-133,133,0,6,1,Combat - HP,120,0,2,2584,0,1000
-2, 전투 공격력 +5,270,1,talentTree-134,134,0,7,1,Combat - Attack Power,131,0,2,5169,0,1200
-3, 전투 방어력 +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,132,0,2,5169,0,1200
-4, 전투 최대 체력 +20,276,1,talentTree-136,136,0,7,1,Combat - HP,133,0,2,5169,0,1200
--2, 주변 적에게 다중 피해를 입힙니다.,558,0,talentTree-139,139,0,8,1,Thunderstorm,128,0,2,11200,0,1400
--3, 적의 이동 속도를 감소시킵니다.,343,1,talentTree-140,140,0,8,1,Linear impact - Enhance,129,0,2,11200,0,1400
-1, 1% 체력 감소당 0.1/0.2/0.3% 추가 피해.,128;129;130,1,talentTree-141,141,0,8,3,Expert,130,0,2,"11200,11200,11200",0,"1400,1400,1400"
-2, 전투 공격력 +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,134,0,2,11200,0,1400
-3, 전투 방어력 +5,274,1,talentTree-143,143,0,8,1,Combat - Defense,135,0,2,11200,0,1400
-4, 전투 최대 체력 +20,277,1,talentTree-144,144,0,8,1,Combat - Health,136,0,2,11200,0,1400
--3, 빈 칸,432,0,talentTree-149,149,0,9,1,Inspire,140,0,2,24436,0,1600
-2, 전투 공격력 +5,272,1,talentTree-150,150,0,9,1,Combat - Attack Power,142,0,2,24436,0,1600
-1," 무기의 공격이 상처를 남기며, 0.5초마다 5초 동안 1%/2%/3%의 공격 피해를 입힙니다.",172;173;174,1,talentTree-151,151,0,9,3,Expert,141,0,2,"24436,24436,24436",0,"1600,1600,1600"
-3, 전투 방어력 +5,275,1,talentTree-152,152,0,9,1,Combat - Defense,143,0,2,24436,0,1600
-4, 전투 최대 체력 +20,278,1,talentTree-153,153,0,9,1,Combat - HP,144,0,2,24436,0,1600
--1, 주변 작은 필지에 물을 줍니다.,100,0,talentTree-157,157,0,5,1,Watering Can Mastery,46,0,1,1680,0,800
-1, 비옥도 용량 +1,237,1,talentTree-158,158,0,5,1,Farm - FertilityCapacity ,84,0,1,1680,0,800
-2, 심기 숙련도 +4,250,1,talentTree-159,159,0,5,1,Farm - PlantingProficiency ,50,0,1,1680,0,800
-3, 애완동물 행복도 용량 +1,283,1,talentTree-160,160,0,5,1,Farm - PetHappinessCapacity ,89,0,1,1680,0,800
-1, 비옥도 용량 +1,238,1,talentTree-163,163,0,6,1,Farm - FertilityCapacity ,158,0,1,3360,0,1000
-3, 애완동물 행복도 용량 +1,284,1,talentTree-164,164,0,6,1,Farm - PetHappinessCapacity ,160,0,1,3360,0,1000
-2, 심기 숙련도 +4,251,1,talentTree-165,165,0,6,1,Farm - PlantingProficiency ,159,0,1,3360,0,1000
-4, 번식 숙련도 +4,290,1,talentTree-166,166,0,6,1,Farm - BreedingProficiency,85,0,1,3360,0,1000
--1, 효율적인 기술 - 그룹 괭이,104,0,talentTree-169,169,0,6,1,Earth Splitter,157,0,1,3360,0,1000
-1, 비옥도 용량 +1,239,1,talentTree-170,170,0,7,1,Farm - FertilityCapacity ,163,0,1,6720,0,1200
-2, 심기 숙련도 +4,279,1,talentTree-171,171,0,7,1,Farm - PlantingProficiency ,165,0,1,6720,0,1200
-3, 애완동물 행복도 용량 +1,285,1,talentTree-172,172,0,7,1,Farm - PetHappinessCapacity ,164,0,1,6720,0,1200
-4, 번식 숙련도 +4,291,1,talentTree-173,173,0,7,1,Farm - BreedingProficiency,166,0,1,6720,0,1200
--1, 주변 작은 필지에 물을 줍니다.,101,0,talentTree-176,176,0,8,1,Watering Can Mastery,298,0,1,13440,0,1400
-2, 심기 숙련도 +4,280,1,talentTree-177,177,0,8,1,Farm - PlantingProficiency ,171,0,1,13440,0,1400
-1, 비옥도 용량 +1,240,1,talentTree-178,178,0,8,1,Farm - FertilityCapacity ,170,0,1,13440,0,1400
-3, 애완동물 행복도 용량 +1,286,1,talentTree-179,179,0,8,1,Farm - PetHappinessCapacity ,172,0,1,13440,0,1400
-4, 번식 숙련도 +4,292,1,talentTree-180,180,0,8,1,Farm - BreedingProficiency,173,0,1,13440,0,1400
-1, 비옥도 용량 +1,241,1,talentTree-184,184,0,9,1,Farm - FertilityCapacity ,178,0,1,26880,0,1600
-2, 심기 숙련도 +4,281,1,talentTree-185,185,0,9,1,Farm - PlantingProficiency ,177,0,1,26880,0,1600
-3, 애완동물 행복도 용량 +1,287,1,talentTree-186,186,0,9,1,Farm - PetHappinessCapacity ,179,0,1,26880,0,1600
-4, 번식 숙련도 +4,293,1,talentTree-187,187,0,9,1,Farm - BreedingProficiency,180,0,1,26880,0,1600
-1, 풀 공격력 ++  숙련도 ++,294,1,talentTree-188,188,0,1,1,Gather - Grass,0,0,3,131,0,0
-2, 나무 공격력 ++  숙련도 ++,303,1,talentTree-189,189,0,1,1,Gather value - Trees,0,0,3,131,0,0
-3, 광물 공격력 ++  숙련도 ++,312,1,talentTree-190,190,0,1,1,Gather value - Mining,0,0,3,131,0,0
-1, 풀 공격력 ++  숙련도 ++,295,1,talentTree-191,191,0,2,1,Gather - Grass,188,0,3,262,0,0
-2, 나무 공격력 ++  숙련도 ++,304,1,talentTree-192,192,0,2,1,Gather - Trees,189,0,3,262,0,0
-3, 광물 공격력 ++  숙련도 ++,313,1,talentTree-193,193,0,2,1,Gather value - Mining,190,0,3,262,0,0
-1, 풀 공격력 ++  숙련도 ++,296,1,talentTree-194,194,0,3,1,Gather - Grass,191,0,3,525,0,0
-2, 나무 공격력 ++  숙련도 ++,305,1,talentTree-195,195,0,3,1,Gather - Trees,192,0,3,525,0,0
-3,@@ 광물 수집 공격력 ++ 숙련도 ++,314,1,talentTree-196,196,0,3,1,Gather - Mining,193,0,3,525,0,0
-1, 풀 수집 공격력 ++ 숙련도 ++,297,1,talentTree-197,197,0,4,1,Gather - Grass,194,0,3,1050,0,600
-2, 나무 수집 공격력 ++ 숙련도 ++,306,1,talentTree-198,198,0,4,1,Gather - Trees,195,0,3,1050,0,600
-3, 광물 수집 공격력 ++ 숙련도 ++,315,1,talentTree-199,199,0,4,1,Gather value - Mining,196,0,3,1050,0,600
-1, 풀 수집 공격력 ++ 숙련도 ++,298,1,talentTree-200,200,0,5,1,Gather - Grass,197,0,3,2100,0,800
-2, 나무 수집 공격력 ++ 숙련도 ++,307,1,talentTree-201,201,0,5,1,Gather value - Trees,198,0,3,2100,0,800
-3, 광물 수집 공격력 ++ 숙련도 ++,316,1,talentTree-202,202,0,5,1,Gather - Mining,199,0,3,2100,0,800
--1, 물약 레시피 해제,348#907,2,talentTree-204,204,0,6,1,Magic Props Recipes,69,0,3,4200,0,1000
-1, 풀 수집 공격력 ++ 숙련도 ++,299,1,talentTree-205,205,0,6,1,Gather - Grass value,200,0,3,4200,0,1000
-2, 나무 수집 공격력 ++ 숙련도 ++,308,1,talentTree-206,206,0,6,1,Gather - Trees,201,0,3,4200,0,1000
-3, 광물 수집 공격력 ++ 숙련도 ++,317,1,talentTree-207,207,0,6,1,Gather value - Mining,202,0,3,4200,0,1000
--1, 물약 레시피 해제,895#908,2,talentTree-209,209,0,7,1,Not yet open,204,0,3,8400,0,1200
-1, 풀 수집 공격력 ++ 숙련도 ++,300,1,talentTree-210,210,0,7,1,Gather - Grass,205,0,3,8400,0,1200
-2, 나무 수집 공격력 ++ 숙련도 ++,309,1,talentTree-211,211,0,7,1,Gather - Trees,206,0,3,8400,0,1200
-3, 광물 수집 공격력 ++ 숙련도 ++,318,1,talentTree-212,212,0,7,1,Gather - Mining,207,0,3,8400,0,1200
--1, 물약 레시피 해제,896#909,2,talentTree-214,214,0,8,1,Not yet open,209,0,3,16800,0,1400
-2, 나무 수집 공격력 ++ 숙련도 ++,310,1,talentTree-215,215,0,8,1,Gather - Trees,211,0,3,16800,0,1400
-1, 풀 수집 공격력 ++ 숙련도 ++,301,1,talentTree-216,216,0,8,1,Gather - Grass,210,0,3,16800,0,1400
-3, 광물 수집 공격력 ++ 숙련도 ++,319,1,talentTree-217,217,0,8,1,Gather - Mining,212,0,3,16800,0,1400
--1, 물약 레시피 해제,897#910,2,talentTree-219,219,0,9,1,Not yet open,214,0,3,33600,0,1600
-1, 풀 수집 공격력 ++ 숙련도 ++,302,1,talentTree-220,220,0,9,1,Gather - Grass,216,0,3,33600,0,1600
-2, 나무 수집 공격력 ++ 숙련도 ++,311,1,talentTree-221,221,0,9,1,Gather - Trees,215,0,3,33600,0,1600
-3, 광물 수집 공격력 ++ 숙련도 ++,320,1,talentTree-222,222,0,9,1,Gather - Mining,217,0,3,33600,0,1600
--3, 심기 에센스 레시피 Lv 1 해제,152,2,talentTree-227,227,0,1,1,Planting Essence Recipes,0,0,1,95,0,0
--3, 심기 에센스 레시피 Lv 2 해제,153,2,talentTree-228,228,0,2,1,Planting Essence Recipes,227,0,1,210,0,0
--3, 심기 에센스 레시피 해제 레벨 3,154,2,talentTree-229,229,0,3,1,Planting Essence Recipes,228,0,1,420,0,300
--4, 에센스 레시피 Lv 1 해제,149,2,talentTree-236,236,0,1,1,Combat Essence Recipes,0,0,2,95,0,0
--4, 에센스 레시피 Lv 2 해제,150,2,talentTree-237,237,0,2,1,Combat Essence Recipes,236,0,2,175,0,0
--4, 에센스 레시피 해제 레벨 3,151,2,talentTree-238,238,0,3,1,Combat Essence Recipes,237,0,2,323,0,600
--2, 에센스 레시피 Lv 1 해제,158,2,talentTree-245,245,0,1,1,Gather Essence Recipes,0,0,3,131,0,0
--2, 에센스 레시피 Lv 2 해제,159,2,talentTree-246,246,0,2,1,Gather Essence Recipes,245,0,3,262,0,0
--2, 에센스 레시피 해제 레벨 3,160,2,talentTree-247,247,0,3,1,Gather Essence Recipes,246,0,3,525,0,600
-5, 동물을 애완동물로 포획합니다,166,0,talentTree-254,254,0,1,1,Capture,0,0,1,95,0,0
--5," LV 4 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3,Combat Set Recipes,105,0,2,"646,646,646",0,"2000,2000,2000"
--4, 에센스 레시피 해제 레벨 4,340,2,talentTree-257,257,0,4,1,Combat Essence Recipes,238,0,2,646,0,2000
--5," LV 5 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3,Combat Set Recipes,256,0,2,"1292,1292,1292",0,"3000,3000,3000"
--4, 에센스 레시피 해제 레벨 5,341,2,talentTree-259,259,0,5,1,Combat Essence Recipes,257,0,2,1292,0,3000
--5," LV 6 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3,Combat Set Recipes,258,0,2,"2584,2584,2584",0,"4000,4000,4000"
--4, 에센스 레시피 해제 레벨 6,342,2,talentTree-261,261,0,6,1,Combat Essence Recipes,259,0,2,2584,0,4000
--3," LV 4 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3,Gather Set Recipes,62,0,3,"1050,1050,1050",0,"2000,2000,2000"
--2, 에센스 레시피 해제 레벨 4,343,2,talentTree-263,263,0,4,1,Gather Essence Recipes,247,0,3,1050,0,2000
--3," LV 5 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3,Gather Set Recipes,262,0,3,"2100,2100,2100",0,"3000,3000,3000"
--2, 에센스 레시피 해제 레벨 5,344,2,talentTree-265,265,0,5,1,Gather Essence Recipes,263,0,3,2100,0,3000
--3," LV 6 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3,Gather Set Recipes,264,0,3,"4200,4200,4200",0,"4000,4000,4000"
--2, 에센스 레시피 해제 레벨 6,345,2,talentTree-267,267,0,6,1,Gather Essence Recipes,265,0,3,4200,0,4000
--4," LV 4 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3,Farming Set Recipes,88,0,1,"840,840,840",0,"2000,2000,2000"
--3, 심기 에센스 레시피 해제 레벨 4,334,2,talentTree-269,269,0,4,1,Planting Essence Recipes,229,0,1,840,0,1000
--2, 가축 에센스 레시피 해제 레벨 4,337,2,talentTree-270,270,0,4,1,Livestock Essence Recipes,94,0,1,840,0,1000
--4," LV 5 장비 세트 레시피 해제, 최대 레벨에 도달하면 재주조 레시피와 조각 제작 레시피 해제",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3,Farming Set Recipes,268,0,1,"1680,1680,1680",0,"3000,3000,3000"
--3, 심기 에센스 레시피 해제 레벨 5,335,2,talentTree-272,272,0,5,1,Planting Essence Recipes,269,0,1,1680,0,1500
--2, 가축 에센스 제작 레벨 5 잠금 해제,338,2,talentTree-273,273,0,5,1,Livestock Essence Recipes,270,0,1,1680,0,1500
--4," 장비 세트 레시피 레벨 6 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Farming Set Recipes,271,0,1,"3360,3360,3360",0,"4000,4000,4000"
--3, 식물 에센스 제작 레벨 6 잠금 해제,336,2,talentTree-275,275,0,6,1,Planting Essence Recipes,272,0,1,3360,0,2000
--2, 가축 에센스 제작 레벨 6 잠금 해제,339,2,talentTree-276,276,0,6,1,Livestock Essence Recipes,273,0,1,3360,0,2000
--4," 장비 세트 레시피 레벨 7 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",654#655#656#886#887#888#924;657#658;659#660#661#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098#837,2,talentTree-277,277,0,7,3,Farming Set Recipes,274,0,1,"6720,6720,6720",0,"5000,5000,5000"
--3, 식물 에센스 제작 레벨 7 잠금 해제,632,2,talentTree-278,278,0,7,1,Planting Essence Recipes,275,0,1,6720,0,2500
--2, 가축 에센스 제작 레벨 7 잠금 해제,635,2,talentTree-279,279,0,7,1,Livestock Essence Recipes,276,0,1,6720,0,2500
--4," 장비 세트 레시피 레벨 8 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",678#679#680;681#682;683#684#685#1115#1116#1117#1118#1119#1120#1121#1122#854#855#856#857#858#859#860#861,2,talentTree-280,280,0,8,3,Farming Set Recipes,277,0,1,"13440,13440,13440",0,"6000,6000,6000"
--3, 식물 에센스 제작 레벨 8 잠금 해제,636,2,talentTree-281,281,0,8,1,Planting Essence Recipes,278,0,1,13440,0,3000
--2, 가축 에센스 제작 레벨 8 잠금 해제,633,2,talentTree-282,282,0,8,1,Livestock Essence Recipes,279,0,1,13440,0,3000
--4," 장비 세트 레시피 레벨 9 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",702#703#704;705#706;707#708#709#1139#1140#1141#1142#1143#1144#1145#1146#878#879#880#881#882#883#884#885,2,talentTree-283,283,0,9,3,Farming Set Recipes,280,0,1,"26880,26880,26880",0,"7000,7000,7000"
--3, 식물 에센스 제작 레벨 9 잠금 해제,637,2,talentTree-284,284,0,9,1,Planting Essence Recipes,281,0,1,26880,0,3500
--2, 가축 에센스 제작 레벨 9 잠금 해제,634,2,talentTree-285,285,0,9,1,Livestock Essence Recipes,282,0,1,26880,0,3500
--5," 장비 세트 레시피 레벨 7 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#1075#1076#1077#1078#1079#1080#1081#1082#821,2,talentTree-286,286,0,7,3,Combat Set Recipes,260,0,2,"5169,5169,5169",0,"5000,5000,5000"
--4, 에센스 레시피 레벨 7 잠금 해제,626,2,talentTree-287,287,0,7,1,Combat Essence Recipes,261,0,2,5169,0,5000
--5," 장비 세트 레시피 레벨 8 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",662#663#664#889#891#890#925;665#666;667#668#669#1099#1100#1101#1102#1103#1104#1105#1106#838#839#840#841#842#843#844#845,2,talentTree-288,288,0,8,3,Combat Set Recipes,286,0,2,"11200,11200,11200",0,"6000,6000,6000"
--4, 에센스 레시피 레벨 8 잠금 해제,627,2,talentTree-289,289,0,8,1,Combat Essence Recipes,287,0,2,11200,0,6000
--5," 장비 세트 레시피 레벨 9 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",686#687#688#894#892#893#926;689#690;691#692#693#1124#1125#1126#1127#1128#1129#1130#1123#862#863#864#865#866#867#868#869,2,talentTree-290,290,0,9,3,Combat Set Recipes,288,0,2,"24436,24436,24436",0,"7000,7000,7000"
--4, 에센스 레시피 레벨 9 잠금 해제,628,2,talentTree-291,291,0,9,1,Combat Essence Recipes,289,0,2,24436,0,7000
--3," 장비 세트 레시피 레벨 7 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",646#647#648;649#650;651#652#653#822#823#824#825#826#827#828#1083#1084#1085#1086#1087#1088#1089#1090#829,2,talentTree-292,292,0,7,3,Gather Set Recipes,266,0,3,"8400,8400,8400",0,"5000,5000,5000"
--2, 에센스 레시피 레벨 7 잠금 해제,629,2,talentTree-293,293,0,7,1,Gather Essence Recipes,267,0,3,8400,0,5000
--3," 장비 세트 레시피 레벨 8 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",670#671#672;675#676#677#1107#1108#1109#1110#1111#1112#1113#1114;673#674#846#847#848#849#850#851#852#853,2,talentTree-294,294,0,8,3,Gather Set Recipes,292,0,3,"16800,16800,16800",0,"6000,6000,6000"
--2, 에센스 레시피 레벨 8 잠금 해제,630,2,talentTree-295,295,0,8,1,Gather Essence Recipes,293,0,3,16800,0,6000
--3," 장비 세트 레시피 레벨 9 잠금 해제, 최대 레벨에 도달하면 재련 레시피와 조각 제작 레시피가 잠금 해제됩니다.",694#695#696;699#700#701#1131#1132#1133#1134#1135#1136#1137#1138;697#698#870#871#872#873#874#875#876#877,2,talentTree-296,296,0,9,3,Gather Set Recipes,294,0,3,"33600,33600,33600",0,"7000,7000,7000"
--2, 에센스 레시피 레벨 9 잠금 해제,631,2,talentTree-297,297,0,9,1,Gather Essence Recipes,295,0,3,33600,0,7000
--1, 10초 동안 자신과 동료의 이동 속도 증가,460,0,talentTree-298,298,0,7,1,Wind up,169,0,1,6720,0,1200
-4, 30초 동안 이동 속도 20% 증가,541,0,talentTree-299,299,0,3,1,Reflow method,0,0,3,525,0,0
-4, 앞에 있는 적에게 강력한 밀어내기 효과 부여,540,0,talentTree-300,300,0,6,1,Beat back,299,0,3,4200,0,1000
-5, 이 스킬을 사용하여 슬라임에게 피해를 입힙니다,616,0,talentTree-301,301,0,1,1,intercept,0,0,2,95,0,0
-5, HP를 보호막으로 변환합니다,555,0,talentTree-302,302,0,3,1,Bloodward,0,0,1,420,0,400
+col-int,desc-string,gainsArgs-string,gainsType-int[],icon-string,id-int,isTrunk-bool,layer-int,lvLimit-int,name-string,preNode-int[],type-int,upgradeEXP-int[],upgradeRequireTreeLv-int,resetCost-int,upgradeToken-int[]
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","51,588#1199#1259,10000","1,2,3",talentTree-1,1,1,1,1,Combat Mastery 1,0,2,450,0,0,0
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","52,585#1194#1260,10000","1,2,3",talentTree-2,2,1,2,1,Combat Mastery 2,1,2,900,1,0,0
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","53,592#1192#1261,10000","1,2,3",talentTree-3,3,1,3,1,Combat Mastery 3,2,2,1800,2,0,200
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","54,590#1197#1262,10000","1,2,3",talentTree-4,4,1,4,1,Combat Mastery 4,3,2,3600,3,0,1000
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","55,589#1196#1263,10000","1,2,3",talentTree-5,5,1,5,1,Combat Mastery 5,4,2,7200,4,0,2000
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","56,595#1195#1264,10000","1,2,3",talentTree-6,6,1,6,1,Combat Mastery 6,5,2,14400,5,0,3200
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","57,614#1200#1265,10000","1,2,3",talentTree-7,7,1,7,1,Combat Mastery 7,6,2,28800,6,0,4600
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","58,615#1193#1266,10000","1,2,3",talentTree-8,8,1,8,1,Combat Mastery 8,7,2,57600,7,0,6200
+0,"Combat ATK + 5
+Combat DEF + 5
+Combat MaxHP + 20
+MaxEnergy + 10
+Unlock Energy Recipes","59,619#1198#1267,10000","1,2,3",talentTree-9,9,1,9,1,Combat Mastery 9,8,2,115200,8,0,8000
+-1,Reduce the enemy's movement speed.,332,1,talentTree-10,10,0,2,1,Trampling - Enhance,11,2,175,0,0,0
+-1,Stun enemies around you.,63,0,talentTree-11,11,0,1,1,Trampling,0,2,15,0,0,0
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Farming Fitness: Converts farming proficiency to combat defense and health caps in proportion to a certain percentage, effective when wearing farming tools
+Unlock Energy Recipes","66#531,591#597#1183#1277,10000","1,2,3",talentTree-13,13,1,1,1,Farming Mastery 1,0,1,450,0,0,0
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","67,593#598#1184#1278,10000","1,2,3",talentTree-14,14,1,2,1,Farming Mastery 2,13,1,900,1,0,0
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","68,596#599#1188#1279,10000","1,2,3",talentTree-15,15,1,3,1,Farming Mastery 3,13,1,1800,2,0,200
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","69,594#600#1190#1280,10000","1,2,3",talentTree-16,16,1,4,1,Farming Mastery 4,15,1,3600,3,0,1000
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","70,601#587#1185#1281,10000","1,2,3",talentTree-17,17,1,5,1,Farming Mastery 5,16,1,7200,4,0,2000
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","71,602#586#1189#1282,10000","1,2,3",talentTree-18,18,1,6,1,Farming Mastery 6,17,1,14400,5,0,3200
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","72,620#617#1187#1283,10000","1,2,3",talentTree-19,19,1,7,1,Farm Mastery 7,18,1,28800,6,0,4600
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","73,624#621#1186#1284,10000","1,2,3",talentTree-20,20,1,8,1,Farming Mastery 8,19,1,57600,7,0,6200
+0,"FertilityCapacity + 1
+PlantingProficiency + 4
+PetHappinessCapacity + 1
+BreedingProficiency + 4
+MaxEnergy + 10
+Unlock Energy Recipes","74,625#616#1191#1285,10000","1,2,3",talentTree-21,21,1,9,1,Farming Mastery 9,20,1,115200,8,0,8000
+1,FertilityCapacity + 1,228,1,talentTree-22,22,0,1,1,Farm - FertilityCapacity ,0,1,95,0,0,0
+-1,Waters small fields around you.,99,0,talentTree-23,23,0,2,1,Watering Can Mastery,77,1,210,0,0,0
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Gather Fitness: Converts gather proficiency to combat defense and health in a certain proportion, effective when wearing the gather tools
+Unlock Energy Recipes","81#530,267#605#1268,10000","1,2,3",talentTree-24,24,1,1,1,Gather Mastery 1,0,3,450,0,0,0
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","82,268#606#1269,10000","1,2,3",talentTree-25,25,1,2,1,Gather Mastery  2,24,3,900,1,0,0
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","83,269#607#1270,10000","1,2,3",talentTree-26,26,1,3,1,Gather Mastery  3,25,3,1800,2,0,200
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","84,382#608#1271,10000","1,2,3",talentTree-27,27,1,4,1,Gather Mastery  4,26,3,3600,3,0,1000
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","85,383#609#1272,10000","1,2,3",talentTree-28,28,1,5,1,Gather Mastery  5,27,3,7200,4,0,2000
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","86,384#610#1273,10000","1,2,3",talentTree-29,29,1,6,1,Gather Mastery  6,28,3,14400,5,0,3200
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","87,623#611#1274,10000","1,2,3",talentTree-30,30,1,7,1,Gather Mastery  7,29,3,28800,6,0,4600
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","88,618#612#1275,10000","1,2,3",talentTree-31,31,1,8,1,Gather Mastery  8,30,3,57600,7,0,6200
+0,"GrassAtt + 5
+TreeAtt + 5
+OreAtt + 5
+GrassProficiency + 5
+TreeProficiency + 5
+OreProficiency + 5
+MaxEnergy + 10
+Unlock Energy Recipes","89,622#613#1276,10000","1,2,3",talentTree-32,32,1,9,1,Gather Mastery  9,31,3,115200,8,0,8000
+-3,Unlock LV 1 Equipment Set Recipes,70#74#201;111#178;177#179#180,2,talentTree-33,33,0,1,3,Gather Set Recipes,0,3,"131,131,131",0,0,"0,0,0"
+-3,"Unlock LV 2 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",71#75#203;112#182;181#183#184#480#468#477#461#478#465#476#474#956#960#963#969#971#972#973#975,2,talentTree-34,34,0,2,3,Gather Set Recipes,33,3,"262,262,262",0,0,"0,0,0"
+-1,,415,0,talentTree-45,45,0,3,1,,23,1,420,0,0,0
+-1,Efficiency Skills - Group Hoe,103,0,talentTree-46,46,0,4,1,Earth Splitter,45,1,840,0,0,600
+2,PlantingProficiency + 4,246,1,talentTree-48,48,0,3,1,Farm - PlantingProficiency ,81,1,420,0,0,0
+-2,Unlock Livestock Essence Recipes Lv 2,156,2,talentTree-49,49,0,2,1,Livestock Essence Recipes,72,1,210,0,0,0
+2,PlantingProficiency + 4,249,1,talentTree-50,50,0,4,1,Farm - PlantingProficiency ,48,1,840,0,0,600
+-1,Increase the enemy's stun duration.,333,1,talentTree-52,52,0,3,1,Trampling - Enhance,10,2,323,0,0,0
+-2,"Charge, push enemies back, 50% damage.",122,0,talentTree-54,54,0,2,1,Bull Rush,0,2,175,0,0,0
+-2,Reduce the enemy's movement speed.,336,1,talentTree-55,55,0,3,1,Bull Rush - Enhance,54,2,323,0,0,0
+-2,Reduce the enemy's movement speed.,337,1,talentTree-56,56,0,4,1,Bull Rush - Enhance,55,2,646,0,0,600
+-2,Repel the enemy in a small area in front of you and flip backwards,123,0,talentTree-57,57,0,5,1,Escape,56,2,1292,0,0,800
+-3,Deal high damage to 5 surrounding monsters,137,0,talentTree-60,60,0,3,1,Slight Flurry,0,2,323,0,0,0
+-1,Temporarily increase HP Recovery of battle withdrawal based on the percentage of MaxHP,485,0,talentTree-61,61,0,4,1,Healing Wave,52,2,646,0,0,600
+-3,"Unlock LV 3 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",72#76#204;113#186;185#187#188#483#485#491#486#503#484#504#978#979#980#981#986#997#998#982#487,2,talentTree-62,62,0,3,3,Gather Set Recipes,34,3,"525,525,525",0,0,"600,600,600"
+-1,Unlock Potion Recipe. ,95#902,2,talentTree-65,65,0,1,1,Magic Props Recipes,0,3,131,0,0,0
+-1,Unlock Potion Recipe. ,96#903,2,talentTree-66,66,0,2,1,Magic Props Recipes,65,3,262,0,0,0
+-1,Unlock Potion Recipe. ,132#904,2,talentTree-67,67,0,3,1,Magic Props Recipes,66,3,525,0,0,600
+-1,Unlock Potion Recipe. ,346#905,2,talentTree-68,68,0,4,1,Magic Props Recipes,67,3,1050,0,0,600
+-1,Unlock Potion Recipe. ,347#906,2,talentTree-69,69,0,5,1,Magic Props Recipes,68,3,2100,0,0,800
+-3,Reduce the enemy's movement speed.,340,1,talentTree-70,70,0,4,1,Slight Flurry - Enhance,60,2,646,0,0,600
+-1,Increase the enemy's stun duration.,334,1,talentTree-71,71,0,5,1,War Trampling - Enhance,61,2,1292,0,0,800
+-2,Unlock Livestock Essence Recipes Lv 1,155,2,talentTree-72,72,0,1,1,Livestock Essence Recipes,0,1,95,0,0,0
+2,PlantingProficiency + 4,230,1,talentTree-73,73,0,1,1,Farm - PlantingProficiency ,0,1,95,0,0,0
+3,PetHappinessCapacity + 1,231,1,talentTree-74,74,0,1,1,Farm - PetHappinessCapacity ,0,1,95,0,0,0
+4,BreedingProficiency + 4,233,1,talentTree-76,76,0,1,1,Farm - BreedingProficiency,0,1,95,0,0,0
+-1,Efficiency Skills - Group Hoe,102,0,talentTree-77,77,0,1,1,Earth Splitter,0,1,95,0,0,0
+-4,Unlock LV 1 Equipment Set Recipes,62#376#66#123#125#124#205;108#165;166#167#168,2,talentTree-78,78,0,1,3,Farming Set Recipes,0,1,"95,95,95",0,0,"0,0,0"
+-4,"Unlock LV 2 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",63#377#67#127#128#126#206;109#169;170#171#172#462#460#463#472#466#481#475#473#955#957#958#961#967#968#970#976,2,talentTree-79,79,0,2,3,Farming Set Recipes,78,1,"210,210,210",0,0,"0,0,0"
+1,FertilityCapacity + 1,229,1,talentTree-80,80,0,2,1,Farm - Fertility output per unit of land,22,1,210,0,0,0
+2,PlantingProficiency + 4,245,1,talentTree-81,81,0,2,1,Farm - PlantingProficiency ,73,1,210,0,0,0
+3,PetHappinessCapacity + 1,232,1,talentTree-82,82,0,2,1,Farm - Harvest proficiency,74,1,210,0,0,0
+4,BreedingProficiency + 4,247,1,talentTree-83,83,0,2,1,Farm - Pet Unit Output Happiness Index,76,1,210,0,0,0
+1,FertilityCapacity + 1,236,1,talentTree-84,84,0,4,1,Farm - FertilityCapacity ,93,1,840,0,0,600
+4,BreedingProficiency + 4,289,1,talentTree-85,85,0,5,1,Farm - BreedingProficiency,90,1,1680,0,0,800
+-4,"Unlock LV 3 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",64#378#68#131#130#129#920;110#173;174#175#176#506#505#501#490#499#500#580#488#983#985#994#995#996#999#1000#1071,2,talentTree-88,88,0,3,3,Farming Set Recipes,79,1,"420,420,420",0,0,"600,600,600"
+3,PetHappinessCapacity + 1,282,1,talentTree-89,89,0,4,1,Farm - PetHappinessCapacity ,92,1,840,0,0,600
+4,BreedingProficiency + 4,288,1,talentTree-90,90,0,4,1,Farm - BreedingProficiency,91,1,840,0,0,600
+4,BreedingProficiency + 4,248,1,talentTree-91,91,0,3,1,Farm - BreedingProficiency,83,1,420,0,0,0
+3,PetHappinessCapacity + 1,244,1,talentTree-92,92,0,3,1,Farm - PetHappinessCapacity ,82,1,420,0,0,0
+1,FertilityCapacity + 1,235,1,talentTree-93,93,0,3,1,Farm - FertilityCapacity ,80,1,420,0,0,0
+-2,Unlock Livestock Essence Recipes Lv 3,157,2,talentTree-94,94,0,3,1,Livestock Essence Recipes,49,1,420,0,0,300
+-5,Unlock LV 1 Equipment Set Recipes,44#364#370;133#136;139#142#145,2,talentTree-95,95,0,1,3,Combat Set Recipes,0,2,"95,95,95",0,0,"0,0,0"
+4,Combat MaxHP +20,264,1,talentTree-96,96,0,1,1,Combat - HP,0,2,95,0,0,0
+3,Combat DEF +5,258,1,talentTree-97,97,0,1,1,Combat - Defense,0,2,95,0,0,0
+2,Combat ATK +5,252,1,talentTree-98,98,0,1,1,Combat - Attack Power,0,2,95,0,0,0
+1,Increase speed by 10%/20%/30%.,116;117;118,1,talentTree-99,99,0,1,3,Expert,0,2,"95,95,95",0,0,"0,0,0"
+4,Combat MaxHP +20,265,1,talentTree-100,100,0,2,1,Combat - HP,96,2,175,0,0,0
+-5,"Unlock LV 2 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",45#365#371;134#137;140#143#146#479#469#470#464#471#482#467#579#959#962#964#965#966#974#977#1070,2,talentTree-101,101,0,2,3,Combat Set Recipes,95,2,"175,175,175",0,0,"0,0,0"
+3,Combat DEF +5,259,1,talentTree-102,102,0,2,1,Combat - Defense,97,2,175,0,0,0
+2,Combat ATK +5,253,1,talentTree-103,103,0,2,1,Combat - Attack Power,98,2,175,0,0,0
+1,CombatHit + 2/4/6%,134;135;136,1,talentTree-104,104,0,2,3,Expert,99,2,"175,175,175",0,0,"0,0,0"
+-5,"Unlock LV 3 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",46#366#372;135#138;141#144#147#497#495#494#498#489#496#492#493#984#987#988#989#990#991#992#993,2,talentTree-105,105,0,3,3,Combat Set Recipes,101,2,"323,323,323",0,0,"600,600,600"
+3,Combat DEF +5,260,1,talentTree-106,106,0,3,1,Combat - Defense,102,2,323,0,0,0
+2,Combat ATK +5,254,1,talentTree-107,107,0,3,1,Combat - Attack Power,103,2,323,0,0,0
+1,Gain a 2/4/6% dodge rate,125;126;127,1,talentTree-108,108,0,3,3,Expert,104,2,"323,323,323",0,0,"0,0,0"
+4,Combat MaxHP +20,266,1,talentTree-109,109,0,3,1,Combat - HP,100,2,323,0,0,0
+3,Combat DEF +5,261,1,talentTree-111,111,0,4,1,Combat - Defense,106,2,646,0,0,600
+1,"Every 20/10/5 seconds, if you haven't taken any damage, you gain a 10% damage boost.",119;120;121,1,talentTree-112,112,0,4,3,Expert,108,2,"646,646,646",0,0,"600,600,600"
+2,Combat ATK +5,255,1,talentTree-113,113,0,4,1,Combat - Attack Power,107,2,646,0,0,600
+4,Combat MaxHP +20,267,1,talentTree-114,114,0,4,1,Combat - HP,109,2,646,0,0,600
+3,Combat DEF +5,262,1,talentTree-116,116,0,5,1,Combat - Defense,111,2,1292,0,0,800
+2,Combat ATK +5,256,1,talentTree-117,117,0,5,1,Combat - Attack Power,113,2,1292,0,0,800
+1,Increase Critical Hit Probability by 5/10/15%,60;61;62,1,talentTree-118,118,0,5,3,Expert,112,2,"1292,1292,1292",0,0,"800,800,800"
+-3,Reduce the enemy's movement speed.,341,1,talentTree-119,119,0,5,1,Slight Flurry - Enhance,70,2,1292,0,0,800
+4,Combat MaxHP +20,268,1,talentTree-120,120,0,5,1,Combat - HP,114,2,1292,0,0,800
+-1,Reduce the enemy's movement speed.,335,1,talentTree-122,122,0,6,1,War Trampling - Enhance,71,2,2584,0,0,1000
+-2,Reduce the enemy's movement speed.,338,1,talentTree-123,123,0,6,1,Escape - Enhance,57,2,2584,0,0,1000
+1,Increase crit damage to monsters by 10/20/30%.,113;114;115,1,talentTree-124,124,0,6,3,Expert,118,2,"2584,2584,2584",0,0,"1000,1000,1000"
+-3,Forward thrust,487,0,talentTree-125,125,0,6,1,Linear impact,119,2,2584,0,0,1000
+-1,Defeat a large area of enemies in front of you and cause temporary dizziness,459,0,talentTree-127,127,0,7,1,Sweeping,122,2,5169,0,0,1200
+-2,Reduce the enemy's movement speed.,339,1,talentTree-128,128,0,7,1,Escape - Enhance,123,2,5169,0,0,1200
+-3,Reduce the enemy's movement speed.,342,1,talentTree-129,129,0,7,1,Linear impact - Enhance,125,2,5169,0,0,1200
+1,Attack speed increased by 10/20/30%.,131;132;133,1,talentTree-130,130,0,7,3,Expert,124,2,"5169,5169,5169",0,0,"1200,1200,1200"
+2,Combat ATK +5,257,1,talentTree-131,131,0,6,1,Combat - Attack Power,117,2,2584,0,0,1000
+3,Combat DEF +5,263,1,talentTree-132,132,0,6,1,Combat - Defense,116,2,2584,0,0,1000
+4,Combat MaxHP +20,269,1,talentTree-133,133,0,6,1,Combat - HP,120,2,2584,0,0,1000
+2,Combat ATK +5,270,1,talentTree-134,134,0,7,1,Combat - Attack Power,131,2,5169,0,0,1200
+3,Combat DEF +5,273,1,talentTree-135,135,0,7,1,Combat - Defense,132,2,5169,0,0,1200
+4,Combat MaxHP +20,276,1,talentTree-136,136,0,7,1,Combat - HP,133,2,5169,0,0,1200
+-2,Deals multiple damage to nearby enemies,558,0,talentTree-139,139,0,8,1,Thunderstorm,128,2,11200,0,0,1400
+-3,Reduce the enemy's movement speed.,343,1,talentTree-140,140,0,8,1,Linear impact - Enhance,129,2,11200,0,0,1400
+1,0.1/0.2/0.3% damage bonus per 1% health lost.,128;129;130,1,talentTree-141,141,0,8,3,Expert,130,2,"11200,11200,11200",0,0,"1400,1400,1400"
+2,Combat ATK +5,271,1,talentTree-142,142,0,8,1,Combat - Attack Power,134,2,11200,0,0,1400
+3,Combat DEF +5,274,1,talentTree-143,143,0,8,1,Combat - Defense,135,2,11200,0,0,1400
+4,Combat MaxHP +20,277,1,talentTree-144,144,0,8,1,Combat - Health,136,2,11200,0,0,1400
+-3,,432,0,talentTree-149,149,0,9,1,Inspire,140,2,24436,0,0,1600
+2,Combat ATK +5,272,1,talentTree-150,150,0,9,1,Combat - Attack Power,142,2,24436,0,0,1600
+1,"The weapon's attack leaves wounds, dealing 1%/2%/3% attack damage every 0.5 seconds for 5 seconds.",172;173;174,1,talentTree-151,151,0,9,3,Expert,141,2,"24436,24436,24436",0,0,"1600,1600,1600"
+3,Combat DEF +5,275,1,talentTree-152,152,0,9,1,Combat - Defense,143,2,24436,0,0,1600
+4,Combat MaxHP +20,278,1,talentTree-153,153,0,9,1,Combat - HP,144,2,24436,0,0,1600
+-1,Waters small fields around you.,100,0,talentTree-157,157,0,5,1,Watering Can Mastery,46,1,1680,0,0,800
+1,FertilityCapacity + 1,237,1,talentTree-158,158,0,5,1,Farm - FertilityCapacity ,84,1,1680,0,0,800
+2,PlantingProficiency + 4,250,1,talentTree-159,159,0,5,1,Farm - PlantingProficiency ,50,1,1680,0,0,800
+3,PetHappinessCapacity + 1,283,1,talentTree-160,160,0,5,1,Farm - PetHappinessCapacity ,89,1,1680,0,0,800
+1,FertilityCapacity + 1,238,1,talentTree-163,163,0,6,1,Farm - FertilityCapacity ,158,1,3360,0,0,1000
+3,PetHappinessCapacity + 1,284,1,talentTree-164,164,0,6,1,Farm - PetHappinessCapacity ,160,1,3360,0,0,1000
+2,PlantingProficiency + 4,251,1,talentTree-165,165,0,6,1,Farm - PlantingProficiency ,159,1,3360,0,0,1000
+4,BreedingProficiency + 4,290,1,talentTree-166,166,0,6,1,Farm - BreedingProficiency,85,1,3360,0,0,1000
+-1,Efficiency Skills - Group Hoe,104,0,talentTree-169,169,0,6,1,Earth Splitter,157,1,3360,0,0,1000
+1,FertilityCapacity + 1,239,1,talentTree-170,170,0,7,1,Farm - FertilityCapacity ,163,1,6720,0,0,1200
+2,PlantingProficiency + 4,279,1,talentTree-171,171,0,7,1,Farm - PlantingProficiency ,165,1,6720,0,0,1200
+3,PetHappinessCapacity + 1,285,1,talentTree-172,172,0,7,1,Farm - PetHappinessCapacity ,164,1,6720,0,0,1200
+4,BreedingProficiency + 4,291,1,talentTree-173,173,0,7,1,Farm - BreedingProficiency,166,1,6720,0,0,1200
+-1,Waters small fields around you.,101,0,talentTree-176,176,0,8,1,Watering Can Mastery,298,1,13440,0,0,1400
+2,PlantingProficiency + 4,280,1,talentTree-177,177,0,8,1,Farm - PlantingProficiency ,171,1,13440,0,0,1400
+1,FertilityCapacity + 1,240,1,talentTree-178,178,0,8,1,Farm - FertilityCapacity ,170,1,13440,0,0,1400
+3,PetHappinessCapacity + 1,286,1,talentTree-179,179,0,8,1,Farm - PetHappinessCapacity ,172,1,13440,0,0,1400
+4,BreedingProficiency + 4,292,1,talentTree-180,180,0,8,1,Farm - BreedingProficiency,173,1,13440,0,0,1400
+1,FertilityCapacity + 1,241,1,talentTree-184,184,0,9,1,Farm - FertilityCapacity ,178,1,26880,0,0,1600
+2,PlantingProficiency + 4,281,1,talentTree-185,185,0,9,1,Farm - PlantingProficiency ,177,1,26880,0,0,1600
+3,PetHappinessCapacity + 1,287,1,talentTree-186,186,0,9,1,Farm - PetHappinessCapacity ,179,1,26880,0,0,1600
+4,BreedingProficiency + 4,293,1,talentTree-187,187,0,9,1,Farm - BreedingProficiency,180,1,26880,0,0,1600
+1,Gather Grass Atk ++  Proficiency ++,294,1,talentTree-188,188,0,1,1,Gather - Grass,0,3,131,0,0,0
+2,Gather Tree Atk ++  Proficiency ++,303,1,talentTree-189,189,0,1,1,Gather value - Trees,0,3,131,0,0,0
+3,Gather Ore Atk ++  Proficiency ++,312,1,talentTree-190,190,0,1,1,Gather value - Mining,0,3,131,0,0,0
+1,Gather Grass Atk ++  Proficiency ++,295,1,talentTree-191,191,0,2,1,Gather - Grass,188,3,262,0,0,0
+2,Gather Tree Atk ++  Proficiency ++,304,1,talentTree-192,192,0,2,1,Gather - Trees,189,3,262,0,0,0
+3,Gather Ore Atk ++  Proficiency ++,313,1,talentTree-193,193,0,2,1,Gather value - Mining,190,3,262,0,0,0
+1,Gather Grass Atk ++  Proficiency ++,296,1,talentTree-194,194,0,3,1,Gather - Grass,191,3,525,0,0,0
+2,Gather Tree Atk ++  Proficiency ++,305,1,talentTree-195,195,0,3,1,Gather - Trees,192,3,525,0,0,0
+3,Gather Ore Atk ++  Proficiency ++,314,1,talentTree-196,196,0,3,1,Gather - Mining,193,3,525,0,0,0
+1,Gather Grass Atk ++  Proficiency ++,297,1,talentTree-197,197,0,4,1,Gather - Grass,194,3,1050,0,0,600
+2,Gather Tree Atk ++  Proficiency ++,306,1,talentTree-198,198,0,4,1,Gather - Trees,195,3,1050,0,0,600
+3,Gather Ore Atk ++  Proficiency ++,315,1,talentTree-199,199,0,4,1,Gather value - Mining,196,3,1050,0,0,600
+1,Gather Grass Atk ++  Proficiency ++,298,1,talentTree-200,200,0,5,1,Gather - Grass,197,3,2100,0,0,800
+2,Gather Tree Atk ++  Proficiency ++,307,1,talentTree-201,201,0,5,1,Gather value - Trees,198,3,2100,0,0,800
+3,Gather Ore Atk ++  Proficiency ++,316,1,talentTree-202,202,0,5,1,Gather - Mining,199,3,2100,0,0,800
+-1,Unlock Potion Recipe. ,348#907,2,talentTree-204,204,0,6,1,Magic Props Recipes,69,3,4200,0,0,1000
+1,Gather Grass Atk ++  Proficiency ++,299,1,talentTree-205,205,0,6,1,Gather - Grass value,200,3,4200,0,0,1000
+2,Gather Tree Atk ++  Proficiency ++,308,1,talentTree-206,206,0,6,1,Gather - Trees,201,3,4200,0,0,1000
+3,Gather Ore Atk ++  Proficiency ++,317,1,talentTree-207,207,0,6,1,Gather value - Mining,202,3,4200,0,0,1000
+-1,Unlock Potion Recipe. ,895#908,2,talentTree-209,209,0,7,1,Not yet open,204,3,8400,0,0,1200
+1,Gather Grass Atk ++  Proficiency ++,300,1,talentTree-210,210,0,7,1,Gather - Grass,205,3,8400,0,0,1200
+2,Gather Tree Atk ++  Proficiency ++,309,1,talentTree-211,211,0,7,1,Gather - Trees,206,3,8400,0,0,1200
+3,Gather Ore Atk ++  Proficiency ++,318,1,talentTree-212,212,0,7,1,Gather - Mining,207,3,8400,0,0,1200
+-1,Unlock Potion Recipe. ,896#909,2,talentTree-214,214,0,8,1,Not yet open,209,3,16800,0,0,1400
+2,Gather Tree Atk ++  Proficiency ++,310,1,talentTree-215,215,0,8,1,Gather - Trees,211,3,16800,0,0,1400
+1,Gather Grass Atk ++  Proficiency ++,301,1,talentTree-216,216,0,8,1,Gather - Grass,210,3,16800,0,0,1400
+3,Gather Ore Atk ++  Proficiency ++,319,1,talentTree-217,217,0,8,1,Gather - Mining,212,3,16800,0,0,1400
+-1,Unlock Potion Recipe. ,897#910,2,talentTree-219,219,0,9,1,Not yet open,214,3,33600,0,0,1600
+1,Gather Grass Atk ++  Proficiency ++,302,1,talentTree-220,220,0,9,1,Gather - Grass,216,3,33600,0,0,1600
+2,Gather Tree Atk ++  Proficiency ++,311,1,talentTree-221,221,0,9,1,Gather - Trees,215,3,33600,0,0,1600
+3,Gather Ore Atk ++  Proficiency ++,320,1,talentTree-222,222,0,9,1,Gather - Mining,217,3,33600,0,0,1600
+-3,Unlock Planting Essence Recipes Lv 1,152,2,talentTree-227,227,0,1,1,Planting Essence Recipes,0,1,95,0,0,0
+-3,Unlock Planting Essence Recipes Lv 2,153,2,talentTree-228,228,0,2,1,Planting Essence Recipes,227,1,210,0,0,0
+-3,Unlock Planting Essence Recipes Lv 3,154,2,talentTree-229,229,0,3,1,Planting Essence Recipes,228,1,420,0,0,300
+-4,Unlock Essence Recipes Lv 1,149,2,talentTree-236,236,0,1,1,Combat Essence Recipes,0,2,95,0,0,0
+-4,Unlock Essence Recipes Lv 2,150,2,talentTree-237,237,0,2,1,Combat Essence Recipes,236,2,175,0,0,0
+-4,Unlock Essence Recipes Lv 3,151,2,talentTree-238,238,0,3,1,Combat Essence Recipes,237,2,323,0,0,600
+-2,Unlock Essence Recipes Lv 1,158,2,talentTree-245,245,0,1,1,Gather Essence Recipes,0,3,131,0,0,0
+-2,Unlock Essence Recipes Lv 2,159,2,talentTree-246,246,0,2,1,Gather Essence Recipes,245,3,262,0,0,0
+-2,Unlock Essence Recipes Lv 3,160,2,talentTree-247,247,0,3,1,Gather Essence Recipes,246,3,525,0,0,600
+5,Capture animals as your pets,166,0,talentTree-254,254,0,1,1,Capture,0,1,95,0,0,0
+-5,"Unlock LV 4 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",270#367#373;271#272;273#274#275#511#517#512#518#513#508#521#581#1002#1005#1006#1007#1011#1012#1015#1072,2,talentTree-256,256,0,4,3,Combat Set Recipes,105,2,"646,646,646",0,0,"2000,2000,2000"
+-4,Unlock Essence Recipes Lv 4,340,2,talentTree-257,257,0,4,1,Combat Essence Recipes,238,2,646,0,0,2000
+-5,"Unlock LV 5 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",292#368#374;293#294;295#296#297#540#535#536#546#541#531#534#582#1024#1027#1028#1029#1033#1034#1039#1073,2,talentTree-258,258,0,5,3,Combat Set Recipes,256,2,"1292,1292,1292",0,0,"3000,3000,3000"
+-4,Unlock Essence Recipes Lv 5,341,2,talentTree-259,259,0,5,1,Combat Essence Recipes,257,2,1292,0,0,3000
+-5,"Unlock LV 6 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",313#369#375;314#315;316#317#318#561#570#555#559#569#572#571#583#1047#1051#1053#1060#1061#1062#1063#1074,2,talentTree-260,260,0,6,3,Combat Set Recipes,258,2,"2584,2584,2584",0,0,"4000,4000,4000"
+-4,Unlock Essence Recipes Lv 6,342,2,talentTree-261,261,0,6,1,Combat Essence Recipes,259,2,2584,0,0,4000
+-3,"Unlock LV 4 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",276#277#278;279#280;281#288#289#515#516#525#524#576#514#519#529#1008#1009#1010#1013#1018#1019#1022#1067,2,talentTree-262,262,0,4,3,Gather Set Recipes,62,3,"1050,1050,1050",0,0,"2000,2000,2000"
+-2,Unlock Essence Recipes Lv 4,343,2,talentTree-263,263,0,4,1,Gather Essence Recipes,247,3,1050,0,0,2000
+-3,"Unlock LV 5 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",298#299#300;301#302;303#304#305#537#539#538#577#544#543#542#552#1030#1031#1032#1035#1036#1037#1044#1068,2,talentTree-264,264,0,5,3,Gather Set Recipes,262,3,"2100,2100,2100",0,0,"3000,3000,3000"
+-2,Unlock Essence Recipes Lv 5,344,2,talentTree-265,265,0,5,1,Gather Essence Recipes,263,3,2100,0,0,3000
+-3,"Unlock LV 6 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",319#320#321;322#323;324#325#326#557#554#565#556#578#566#562#558#1046#1048#1049#1050#1054#1057#1058#1069,2,talentTree-266,266,0,6,3,Gather Set Recipes,264,3,"4200,4200,4200",0,0,"4000,4000,4000"
+-2,Unlock Essence Recipes Lv 6,345,2,talentTree-267,267,0,6,1,Gather Essence Recipes,265,3,4200,0,0,4000
+-4,"Unlock LV 4 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",282#379#416#405#406#407#921;284#285;286#287#291#526#520#528#510#507#522#509#523#1001#1003#1004#1014#1016#1017#1020#1021,2,talentTree-268,268,0,4,3,Farming Set Recipes,88,1,"840,840,840",0,0,"2000,2000,2000"
+-3,Unlock Planting Essence Recipes Lv 4,334,2,talentTree-269,269,0,4,1,Planting Essence Recipes,229,1,840,0,0,1000
+-2,Unlock Livestock Essence Recipes Lv 4,337,2,talentTree-270,270,0,4,1,Livestock Essence Recipes,94,1,840,0,0,1000
+-4,"Unlock LV 5 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",306#380#417#410#411#412#922;308#309;310#311#312#548#533#545#549#551#530#547#532#1023#1025#1026#1038#1040#1041#1042#1043,2,talentTree-271,271,0,5,3,Farming Set Recipes,268,1,"1680,1680,1680",0,0,"3000,3000,3000"
+-3,Unlock Planting Essence Recipes Lv 5,335,2,talentTree-272,272,0,5,1,Planting Essence Recipes,269,1,1680,0,0,1500
+-2,Unlock Livestock Essence Recipes Lv 5,338,2,talentTree-273,273,0,5,1,Livestock Essence Recipes,270,1,1680,0,0,1500
+-4,"Unlock LV 6 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",327#381#418#413#414#415#923;329#330;331#332#333#568#573#560#563#564#553#575#574#1045#1052#1055#1056#1059#1064#1065#1066,2,talentTree-274,274,0,6,3,Farming Set Recipes,271,1,"3360,3360,3360",0,0,"4000,4000,4000"
+-3,Unlock Planting Essence Recipes Lv 6,336,2,talentTree-275,275,0,6,1,Planting Essence Recipes,272,1,3360,0,0,2000
+-2,Unlock Livestock Essence Recipes Lv 6,339,2,talentTree-276,276,0,6,1,Livestock Essence Recipes,273,1,3360,0,0,2000
+-4,"Unlock LV 7 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",654#655#656#886#887#888#924;657#658;659#660#661#830#831#832#833#834#835#836#1091#1092#1093#1094#1095#1096#1097#1098#837,2,talentTree-277,277,0,7,3,Farming Set Recipes,274,1,"6720,6720,6720",0,0,"5000,5000,5000"
+-3,Unlock Planting Essence Recipes Lv 7,632,2,talentTree-278,278,0,7,1,Planting Essence Recipes,275,1,6720,0,0,2500
+-2,Unlock Livestock Essence Recipes Lv 7,635,2,talentTree-279,279,0,7,1,Livestock Essence Recipes,276,1,6720,0,0,2500
+-4,"Unlock LV 8 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",678#679#680;681#682;683#684#685#1115#1116#1117#1118#1119#1120#1121#1122#854#855#856#857#858#859#860#861,2,talentTree-280,280,0,8,3,Farming Set Recipes,277,1,"13440,13440,13440",0,0,"6000,6000,6000"
+-3,Unlock Planting Essence Recipes Lv 8,636,2,talentTree-281,281,0,8,1,Planting Essence Recipes,278,1,13440,0,0,3000
+-2,Unlock Livestock Essence Recipes Lv 8,633,2,talentTree-282,282,0,8,1,Livestock Essence Recipes,279,1,13440,0,0,3000
+-4,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",702#703#704;705#706;707#708#709#1139#1140#1141#1142#1143#1144#1145#1146#878#879#880#881#882#883#884#885,2,talentTree-283,283,0,9,3,Farming Set Recipes,280,1,"26880,26880,26880",0,0,"7000,7000,7000"
+-3,Unlock Planting Essence Recipes Lv 9,637,2,talentTree-284,284,0,9,1,Planting Essence Recipes,281,1,26880,0,0,3500
+-2,Unlock Livestock Essence Recipes Lv 9,634,2,talentTree-285,285,0,9,1,Livestock Essence Recipes,282,1,26880,0,0,3500
+-5,"Unlock LV 7 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",638#639#640;641#642;643#644#645#710#815#816#817#818#819#820#1075#1076#1077#1078#1079#1080#1081#1082#821,2,talentTree-286,286,0,7,3,Combat Set Recipes,260,2,"5169,5169,5169",0,0,"5000,5000,5000"
+-4,Unlock Essence Recipes Lv 7,626,2,talentTree-287,287,0,7,1,Combat Essence Recipes,261,2,5169,0,0,5000
+-5,"Unlock LV 8 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",662#663#664#889#891#890#925;665#666;667#668#669#1099#1100#1101#1102#1103#1104#1105#1106#838#839#840#841#842#843#844#845,2,talentTree-288,288,0,8,3,Combat Set Recipes,286,2,"11200,11200,11200",0,0,"6000,6000,6000"
+-4,Unlock Essence Recipes Lv 8,627,2,talentTree-289,289,0,8,1,Combat Essence Recipes,287,2,11200,0,0,6000
+-5,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",686#687#688#894#892#893#926;689#690;691#692#693#1124#1125#1126#1127#1128#1129#1130#1123#862#863#864#865#866#867#868#869,2,talentTree-290,290,0,9,3,Combat Set Recipes,288,2,"24436,24436,24436",0,0,"7000,7000,7000"
+-4,Unlock Essence Recipes Lv 9,628,2,talentTree-291,291,0,9,1,Combat Essence Recipes,289,2,24436,0,0,7000
+-3,"Unlock LV 7 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",646#647#648;649#650;651#652#653#822#823#824#825#826#827#828#1083#1084#1085#1086#1087#1088#1089#1090#829,2,talentTree-292,292,0,7,3,Gather Set Recipes,266,3,"8400,8400,8400",0,0,"5000,5000,5000"
+-2,Unlock Essence Recipes Lv 7,629,2,talentTree-293,293,0,7,1,Gather Essence Recipes,267,3,8400,0,0,5000
+-3,"Unlock LV 8 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",670#671#672;675#676#677#1107#1108#1109#1110#1111#1112#1113#1114;673#674#846#847#848#849#850#851#852#853,2,talentTree-294,294,0,8,3,Gather Set Recipes,292,3,"16800,16800,16800",0,0,"6000,6000,6000"
+-2,Unlock Essence Recipes Lv 8,630,2,talentTree-295,295,0,8,1,Gather Essence Recipes,293,3,16800,0,0,6000
+-3,"Unlock LV 9 Equipment Set Recipes, unlock Recasting recipes and fragment craft recipes when reach max level.",694#695#696;699#700#701#1131#1132#1133#1134#1135#1136#1137#1138;697#698#870#871#872#873#874#875#876#877,2,talentTree-296,296,0,9,3,Gather Set Recipes,294,3,"33600,33600,33600",0,0,"7000,7000,7000"
+-2,Unlock Essence Recipes Lv 9,631,2,talentTree-297,297,0,9,1,Gather Essence Recipes,295,3,33600,0,0,7000
+-1,Increase movement speed for oneself and allies for 10 seconds,460,0,talentTree-298,298,0,7,1,Wind up,169,1,6720,0,0,1200
+4,Increase your movement speed by 20% for 30 seconds,541,0,talentTree-299,299,0,3,1,Reflow method,0,3,525,0,0,0
+4,Deal a powerful repelling effect on the enemy in front of you,540,0,talentTree-300,300,0,6,1,Beat back,299,3,4200,0,0,1000
+5,Use this skill to deal damage to slime,616,0,talentTree-301,301,0,1,1,intercept,0,2,95,0,0,0
+5,Converts your HP to your shield,555,0,talentTree-302,302,0,3,1,Bloodward,0,1,420,0,0,400
