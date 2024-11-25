@@ -837,11 +837,11 @@ public static class TableUtil
     /// <param name="type"></param>
     /// <param name="enhanceLv"></param>
     /// <returns></returns>
-    public static int GetEquipmentAttrEnhanceGain(DREquipment cfg, eAttributeType type, int enhanceLv = 1)
+    public static int GetEquipmentAttrEnhanceGain(DREquipment cfg, eAttributeType type, int enhanceLv = 0)
     {
         try
         {
-            enhanceLv = Mathf.Clamp(enhanceLv, 1, cfg.MaxEnhancementLevel);
+            enhanceLv = Mathf.Clamp(enhanceLv, 0, cfg.MaxEnhancementLevel);
             for (int i = 0; i < cfg.EnhancementAttribute.Length; i++)
             {
                 int[] attr = cfg.EnhancementAttribute[i];
