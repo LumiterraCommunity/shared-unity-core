@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using GameMessageCore;
+using UnityEngine;
 /// <summary>
 /// Avatar related define
 /// </summary>
@@ -39,4 +40,16 @@ public static class AvatarDefineCore
     /// </summary>
     /// <returns></returns>
     public static readonly List<AvatarPosition> AllPartList = EquipmentPartList.Concat(AppearancePartList).ToList();
+
+    public const float EQUIPMENT_COLOR_ALPHA = 0.9019f; //颜色值230
+
+    /// <summary>
+    /// 装备强化效果配置
+    /// </summary>
+    public static Dictionary<TalentType, Color> EquipmentEnhanceEffects = new()
+    {
+        {TalentType.Battle, new Color( 0.776f, 0.208f, 0.051f) },
+        {TalentType.Farming, new Color(0.314f, 0.6f, 0.8f)},
+        {TalentType.Gather, new Color(0.196f, 0.835f, 0.196f)},
+    };
 }
