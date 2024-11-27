@@ -42,13 +42,6 @@ public static class AvatarDefineCore
     public static readonly List<AvatarPosition> AllPartList = EquipmentPartList.Concat(AppearancePartList).ToList();
 
     public const float EQUIPMENT_COLOR_ALPHA = 0.9019f; //颜色值230
-    public class EquipmentEnhanceEffect
-    {
-        public int MinLevel;
-        public int MaxLevel;
-        public Color Color;    //颜色
-        public float Intensity; //亮度
-    }
 
     /// <summary>
     /// 装备强化效果配置
@@ -59,5 +52,4 @@ public static class AvatarDefineCore
         {TalentType.Farming, new Color(0.314f, 0.6f, 0.8f)},
         {TalentType.Gather, new Color(0.196f, 0.835f, 0.196f)},
     };
-    public const float EQUIPMENT_ENHANCE_MAX_INTENSITY = 30; //装备最大强化亮度
 }
