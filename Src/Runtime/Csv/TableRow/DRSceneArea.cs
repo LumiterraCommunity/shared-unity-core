@@ -42,6 +42,15 @@ public class DRSceneArea : DataRowBase
     }
 
     /// <summary>
+  /**获取energyIEBA-int[]。*/
+    /// </summary>
+    public int[] EnergyIEBA
+    {
+        get;
+        private set;
+    }
+
+    /// <summary>
   /**获取extraDropPool-int。*/
     /// </summary>
     public int ExtraDropPool
@@ -381,6 +390,7 @@ public class DRSceneArea : DataRowBase
         int index = 0;
         CanInvest = DataTableParseUtil.ParseBool(columnStrings[index++]);
         Desc = DataTableParseUtil.ParseString(columnStrings[index++]);
+        EnergyIEBA = DataTableParseUtil.ParseArray<int>(columnStrings[index++]);
         ExtraDropPool = DataTableParseUtil.ParseInt(columnStrings[index++]);
         _id = int.Parse(columnStrings[index++]);
         IsRanking = DataTableParseUtil.ParseBool(columnStrings[index++]);
@@ -432,6 +442,7 @@ public class DRSceneArea : DataRowBase
             {
                 CanInvest = binaryReader.ReadBoolean();
                 Desc = binaryReader.ReadString();
+                EnergyIEBA = binaryReader.ReadArray<Int32>();
                 ExtraDropPool = binaryReader.Read7BitEncodedInt32();
                 _id = binaryReader.Read7BitEncodedInt32();
                 IsRanking = binaryReader.ReadBoolean();
