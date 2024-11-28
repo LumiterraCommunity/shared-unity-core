@@ -896,4 +896,17 @@ public static class TableUtil
 
         return false;//没有检索到配置，或者声望不够，或者道具不在白名单中
     }
+
+    public static eTalentType GetItemTalentType(DRItem item)
+    {
+        try
+        {
+            return (eTalentType)item.TalentId[0];
+        }
+        catch (Exception e)
+        {
+            Log.Error($"GetItemTalentType error e = {e}");
+            return eTalentType.battle;//默认走战斗吧
+        }
+    }
 }
