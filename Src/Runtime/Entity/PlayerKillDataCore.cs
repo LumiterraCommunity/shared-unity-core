@@ -23,7 +23,7 @@ public class PlayerKillDataCore : EntityBaseComponent
     /// 从网络重设所有的击杀数量
     /// </summary>
     /// <param name="killCount"></param>
-    public void SetAllFromNet(UserMapKillCount killCount)
+    public virtual void SetAllFromNet(UserMapKillCount killCount)
     {
         _killEntityNum.Clear();
 
