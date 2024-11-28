@@ -56,4 +56,17 @@ public static class AttributeUtilCore
 
         return attributeDataCpt.GetRealValue(lvType) + attributeDataCpt.GetRealValue(eAttributeType.ExtThousLv);
     }
+
+    /// <summary>
+    /// 计算精力消耗
+    /// </summary>
+    /// <param name="killedEntityType">击杀的实体类型</param>
+    /// <param name="killNum">当日该实体种类已击杀数量</param>
+    /// <param name="dRSceneArea"></param>
+    /// <param name="worldDropRate">世界掉落率 副本也要传</param>
+    /// <returns></returns>
+    public static float CalculateEnergyCost(EntityType killedEntityType, int killNum, DRSceneArea dRSceneArea, float worldDropRate)
+    {
+        return -1;
+    }
 }
