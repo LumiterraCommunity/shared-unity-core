@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using GameMessageCore;
+using UnityGameFramework.Runtime;
 
 
 /// <summary>
@@ -58,7 +59,7 @@ public static class AttributeUtilCore
     }
 
     /// <summary>
-    /// 计算精力消耗
+    /// 计算精力消耗 异常时返回-1
     /// </summary>
     /// <param name="killedEntityType">击杀的实体类型</param>
     /// <param name="killNum">当日该实体种类已击杀数量</param>
@@ -67,6 +68,56 @@ public static class AttributeUtilCore
     /// <returns></returns>
     public static float CalculateEnergyCost(EntityType killedEntityType, int killNum, DRSceneArea dRSceneArea, float worldDropRate)
     {
-        return -1;
+        if (dRSceneArea == null || killedEntityType == EntityType.All || worldDropRate < 0)
+        {
+            Log.Error($"CalculateEnergyCost Error: killedEntityType = {killedEntityType} sceneId = {dRSceneArea?.Id} worldDropRate = {worldDropRate}");
+            return -1;
+        }
+
+        //非怪物和资源其他按照原来世界掉落率计算
+        if (killedEntityType is not EntityType.Monster and not EntityType.Resource)
+        {
+            return worldDropRate;
+        }
+
+        int numThreshold;
+        try
+        {
+            if (killedEntityType == EntityType.Monster)
+            {
+                numThreshold = dRSceneArea.EnergyIEBA[0];
+            }
+            else if (killedEntityType == EntityType.Resource)
+            {
+                numThreshold = dRSceneArea.EnergyIEBA[1];
+            }
+            else
+            {
+                Log.Error($"CalculateEnergyCost Error: killedEntityType = {killedEntityType}");
+                numThreshold = -1;
+            }
+        }
+        catch (System.Exception e)
+        {
+            Log.Error($"CalculateEnergyCost Error,killedEntityType:{killedEntityType} killNum:{killNum} sceneId:{dRSceneArea.Id} worldDropRate:{worldDropRate}:e:\n {e}");
+            return -1;
+        }
+
+        //阈值配置的数量小于等于0时直接使用世界掉落率
+        if (numThreshold <= 0)
+        {
+            return worldDropRate;
+        }
+
+        //没到阈值时直接使用世界掉落率
+        if (killNum <= numThreshold)
+        {
+            return worldDropRate;
+        }
+
+        float rate = (float)(killNum - numThreshold) / (numThreshold * 4);
+        rate = (float)System.Math.Round(rate, 1, System.MidpointRounding.AwayFromZero);//  - （击杀数-阈值）/ (阈值 * 4 )  的计算结果通过四舍五入保留1位小数
+        //  - 扣除值 = 0.185 * (1+（击杀数-阈值）/ (阈值 * 4 ))
+        return worldDropRate * (1 + rate);
     }
 }

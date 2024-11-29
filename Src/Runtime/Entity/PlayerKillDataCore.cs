@@ -66,7 +66,7 @@ public class PlayerKillDataCore : EntityBaseComponent
         }
     }
 
-    public void ClearAll()
+    public virtual void ClearAll()
     {
         _killEntityNum.Clear();
     }
