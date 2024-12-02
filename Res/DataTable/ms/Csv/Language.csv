@@ -23,11 +23,6 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Kumpulkan Pohon Permintaan.
 ,10001017,通用, Pohon Permintaan Ladang
 ,10001018,通用,Bukaan
-,10001019,,Tiada keperluan
-,10001020,, Tahap Keupayaan
-,10001021,, Memerlukan
-,10001022,, Sertai
-,10001023,, Tahap keupayaan tidak mencukupi.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -435,7 +430,6 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化, Keputusan loteri akan dimaklumkan kepada anda kemudian
 ,20330008,装备强化, Tahniah {0} kerana mempertingkatkan {1} kepada {2}
 ,20330009,, {0} memenangi {1}{2} dalam loteri peningkatan peralatan.
-,20330010,, {0} memenangi {1}{2} dalam loteri cabaran menara
 ,20340001,百层试炼, Bilangan sisa tarikan tidak mencukupi
 ,20340002,百层试炼," Tiada mata hari ini, tidak boleh menarik"
 ,20340003,百层试炼, Kehilangan loteri
