@@ -23,6 +23,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Kumpulkan Pohon Permintaan.
 ,10001017,通用, Pohon Permintaan Pertanian
 ,10001018,通用,Pembukaan
+,10001019,,Tidak ada persyaratan
+,10001020,, Tingkat Kemampuan
+,10001021,, Memerlukan
+,10001022,, Bergabung
+,10001023,, Tingkat kemampuan tidak mencukupi.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -430,6 +435,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化, Hasil undian akan diinformasikan kepada Anda nanti.
 ,20330008,装备强化, Selamat kepada {0} karena meningkatkan {1} menjadi {2}
 ,20330009,, {0} memenangkan {1}{2} dalam undian peningkatan peralatan.
+,20330010,, {0} memenangkan {1}{2} dalam undian tantangan menara.
 ,20340001,百层试炼, Jumlah sisa undian tidak mencukupi
 ,20340002,百层试炼," Tidak ada poin hari ini, tidak dapat melakukan undian"
 ,20340003,百层试炼, Kehilangan undian

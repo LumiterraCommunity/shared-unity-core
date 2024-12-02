@@ -23,6 +23,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Dilek Ağacı Topla
 ,10001017,通用, Çiftlik Dilek Ağacı
 ,10001018,通用,Açılış
+,10001019,,No requirements 
+,10001020,, Yetenek Seviyesi 
+,10001021,, Gerekli 
+,10001022,, Katıl 
+,10001023,, Yetenek seviyesi yeterli değil.
 ,10004021,装备属性-生命上限,MaxHP
 ,10004022,装备属性-生命恢复, HP İyileşmesi
 ,10004023,装备属性-攻击点数, Saldırı Puanları
@@ -430,6 +435,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20330007,装备强化, Çekiliş sonuçları daha sonra size bildirilecektir.
 ,20330008,装备强化," {0} tebrikler, {1}'i {2}'ye yükselttiniz"
 ,20330009,, {0} {1} {2} kazandı.
+,20330010,, {0} kule meydan okuması lotosunda {1}{2} kazandı.
 ,20340001,百层试炼, Kalan çekiliş hakkı yetersiz
 ,20340002,百层试炼," Bugün puan yok, çekim yapılamaz"
 ,20340003,百层试炼, Kaybedilen çekiliş
