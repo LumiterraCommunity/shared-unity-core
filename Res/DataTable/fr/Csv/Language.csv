@@ -23,6 +23,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Rassemblez l'Arbre des souhaits.
 ,10001017,通用, Arbre des souhaits de la ferme
 ,10001018,通用,Ouverture
+,10001019,,Pas de conditions
+,10001020,, Niveau de compétence
+,10001021,, Exiger
+,10001022,, Rejoindre
+,10001023,, Le niveau de compétence n'est pas suffisant.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Récupération des HP
 ,10004023,装备属性-攻击点数,Points d'attaque
@@ -430,6 +435,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化, Les résultats de la loterie vous seront communiqués ultérieurement
 ,20330008,装备强化, Félicitations à {0} pour avoir amélioré {1} à {2}
 ,20330009,, {0} a remporté {1}{2} à la loterie d'amélioration d'équipement.
+,20330010,, {0} a remporté {1}{2} à la loterie du défi de la tour
 ,20340001,百层试炼, Le nombre restant de tirages est insuffisant
 ,20340002,百层试炼," Aucun point aujourd'hui, impossible de tirer"
 ,20340003,百层试炼, Perte à la loterie

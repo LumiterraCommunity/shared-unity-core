@@ -23,6 +23,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Coletar Árvore de Desejos
 ,10001017,通用, Árvore dos Desejos da Fazenda
 ,10001018,通用,Abertura
+,10001019,,Sem requisitos
+,10001020,, Nível de Habilidade
+,10001021,, Requerer
+,10001022,, Juntar
+,10001023,, Nível de habilidade não é suficiente.
 ,10004021,装备属性-生命上限,Máximo de Pontos de Vida
 ,10004022,装备属性-生命恢复, Recuperação de Pontos de Vida
 ,10004023,装备属性-攻击点数, Pontos de Ataque
@@ -430,6 +435,7 @@ xx的yy,20220003,战报名称,{0}[/color]'s [color=#F7CE3D]{1}[/color]
 ,20330007,装备强化, Os resultados da loteria serão notificados a você posteriormente.
 ,20330008,装备强化, Parabéns {0} por aprimorar {1} para {2}.
 ,20330009,, {0} ganhou {1}{2} na loteria de aprimoramento de equipamentos.
+,20330010,, {0} ganhou {1}{2} na loteria do desafio da torre
 ,20340001,百层试炼, O número restante de sorteios é insuficiente
 ,20340002,百层试炼," Sem pontuação hoje, não é possível sortear"
 ,20340003,百层试炼, Perdendo na loteria
