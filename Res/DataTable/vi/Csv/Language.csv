@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Lỗi trừ điểm vật phẩm nhà
 捕捉动物请求异常,6001,畜牧错误码,Yêu cầu bắt động vật bị lỗi
 捕捉动物无效,6002,畜牧错误码,Yêu cầu bắt động vật không hợp lệ
-,2010000,,Trống
 ,10001001,通用, Đồng ý
 ,10001002,通用, Hủy bỏ
 ,10001003,通用, Xác nhận
@@ -23,6 +22,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Thu thập Cây Ước
 ,10001017,通用, Cây Ước Trang Trại
 ,10001018,通用,Mở cửa
+,10001019,,Không có yêu cầu
+,10001020,, Cấp độ Năng lực
+,10001021,, Yêu cầu
+,10001022,, Tham gia
+,10001023,, Cấp độ Năng lực không đủ.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Hồi máu
 ,10004023,装备属性-攻击点数,Điểm tấn công
@@ -129,7 +133,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Dây đã bị đứt
 ,20050004,捕获超时,Hết thời gian bắt
 ,20050005,捕获过程道具不足,Thiếu đạo cụ
-,20050006,,Số lượng thú cưng đạt đến giới hạn cao nhất {0}.
+,20050006,, Số lượng thú cưng đạt đến giới hạn tối đa {0}.
 释放技能正在CD中,20060001,技能,Kỹ năng đang trong thời gian chờ
 ,20070001,登录,Hệ thống
 ,20070002,登录,Đang đăng nhập
@@ -330,7 +334,7 @@ NPC 不存在,20150018,副本,"Không tìm thấy NPC, vui lòng liên hệ qu�
 ,20190006,,{0}[/color].
 ,20190007,,{0}[/color].
 ,20190008,,Độ khó[/color] của nhiệm vụ token sẽ chuyển sang [color=#ffab23]Lv{0}[/color].
-,20190009,,{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> để nâng cấp cấp độ này?
+,20190009,,{0}[/color] <img src='ui://sulwtp4jo1ifwcm' width='36' height='36'> để nâng cấp cấp độ này chứ?
 ,20200000,活动,Nhận giải thưởng thành công
 ,20200001,活动,Nhận giải thưởng không thành công
 ,20200002,活动,Tạo vé thành công
@@ -430,6 +434,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color] của [color=#F7CE3D]{1
 ,20330007,装备强化, Kết quả của xổ số sẽ được thông báo sau.
 ,20330008,装备强化, Chúc mừng {0} đã tăng cường {1} lên {2}
 ,20330009,, {0} đã trúng {1}{2} trong xổ số tăng cường trang bị.
+,20330010,,{1}{2}[/color] trong cuộc thi tháp xổ số.
 ,20340001,百层试炼, Số lượt rút còn lại không đủ
 ,20340002,百层试炼," Hôm nay không có điểm, không thể rút"
 ,20340003,百层试炼, Mất xổ số
