@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
 捕捉动物请求异常,6001,畜牧错误码,Permintaan menangkap hewan exception
 捕捉动物无效,6002,畜牧错误码,Menangkap hewan tidak valid
-,2010000,,Kosong
 ,10001001,通用,OK
 ,10001002,通用,Batal
 ,10001003,通用,Konfirmasi
@@ -23,6 +22,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Kumpulkan Pohon Permintaan.
 ,10001017,通用, Pohon Permintaan Pertanian
 ,10001018,通用,Pembukaan
+,10001019,,Tidak ada persyaratan
+,10001020,, Tingkat Kemampuan
+,10001021,, Memerlukan
+,10001022,, Bergabung
+,10001023,, Tingkat kemampuan tidak mencukupi.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Poin Serangan
@@ -129,7 +133,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Tali putus
 ,20050004,捕获超时,Waktu menangkap habis
 ,20050005,捕获过程道具不足,Kekurangan perlengkapan
-,20050006,,Jumlah hewan peliharaan mencapai batas atas {0}.
+,20050006,, Jumlah hewan peliharaan mencapai batas atas {0}.
 释放技能正在CD中,20060001,技能,Keterampilan dalam CD
 ,20070001,登录,Sistem
 ,20070002,登录,Masuk
@@ -430,6 +434,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化, Hasil undian akan diinformasikan kepada Anda nanti.
 ,20330008,装备强化, Selamat kepada {0} karena meningkatkan {1} menjadi {2}
 ,20330009,, {0} memenangkan {1}{2} dalam undian peningkatan peralatan.
+,20330010,, {0} memenangkan {1}{2} dalam undian tantangan menara.
 ,20340001,百层试炼, Jumlah sisa undian tidak mencukupi
 ,20340002,百层试炼," Tidak ada poin hari ini, tidak dapat melakukan undian"
 ,20340003,百层试炼, Kehilangan undian

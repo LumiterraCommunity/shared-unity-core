@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码, Ev eşyası kesintisi anormal
 捕捉动物请求异常,6001,畜牧错误码, Hayvanları yakalama istisnası
 捕捉动物无效,6002,畜牧错误码, Hayvanları yakalama geçersiz
-,2010000,, Boş
 ,10001001,通用, Tamam
 ,10001002,通用, İptal
 ,10001003,通用, Onayla
@@ -23,6 +22,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Dilek Ağacı Topla
 ,10001017,通用, Çiftlik Dilek Ağacı
 ,10001018,通用,Açılış
+,10001019,,No requirements 
+,10001020,, Yetenek Seviyesi 
+,10001021,, Gerekli 
+,10001022,, Katıl 
+,10001023,, Yetenek seviyesi yeterli değil.
 ,10004021,装备属性-生命上限,MaxHP
 ,10004022,装备属性-生命恢复, HP İyileşmesi
 ,10004023,装备属性-攻击点数, Saldırı Puanları
@@ -129,7 +133,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开, Halat koptu
 ,20050004,捕获超时, Yakalama zaman aşımına uğradı
 ,20050005,捕获过程道具不足, Eksik ekipman
-,20050006,,Evcil hayvan sayısı üst sınırına ulaştı {0}.
+,20050006,,The number of pets reaches the upper limit {0}.
 释放技能正在CD中,20060001,技能, Yetenek CD'de
 ,20070001,登录, Sistem
 ,20070002,登录, Giriş yapılıyor
@@ -430,6 +434,7 @@ xx的yy,20220003,战报名称,{0}[/color]'nin [color=#F7CE3D]{1}[/color]
 ,20330007,装备强化, Çekiliş sonuçları daha sonra size bildirilecektir.
 ,20330008,装备强化," {0} tebrikler, {1}'i {2}'ye yükselttiniz"
 ,20330009,, {0} {1} {2} kazandı.
+,20330010,, {0} kule meydan okuması lotosunda {1}{2} kazandı.
 ,20340001,百层试炼, Kalan çekiliş hakkı yetersiz
 ,20340002,百层试炼," Bugün puan yok, çekim yapılamaz"
 ,20340003,百层试炼, Kaybedilen çekiliş

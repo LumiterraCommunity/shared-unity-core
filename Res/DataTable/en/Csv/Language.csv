@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Home item deduction abnormal
 捕捉动物请求异常,6001,畜牧错误码,Capture animals request exception
 捕捉动物无效,6002,畜牧错误码,Capture animals is invalid
-,2010000,,
 ,10001001,通用,OK
 ,10001002,通用,Cancel
 ,10001003,通用,Confirm
@@ -23,6 +22,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用,Gather Wish Tree
 ,10001017,通用,Farm Wish Tree
 ,10001018,通用,Opening
+,10001019,,No requirements
+,10001020,,Ability Level
+,10001021,,Require
+,10001022,,Join
+,10001023,,Ability level is not enough.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,HP Recovery
 ,10004023,装备属性-攻击点数,Attack Points
@@ -443,6 +447,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化,The results of the lottery will be notified to you later.
 ,20330008,装备强化,congratulations {0} for enhancing {1} to {2}
 ,20330009,,{0} won {1}{2} in the lottery of enhancing equipment.
+,20330010,,{0} won {1}{2} in the lottery of the tower challenge.
 ,20340001,百层试炼,The remaining number of draws is insufficient
 ,20340002,百层试炼,"No score today, can not draw"
 ,20340003,百层试炼,Losing lottery

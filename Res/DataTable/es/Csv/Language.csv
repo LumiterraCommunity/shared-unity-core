@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Anomalía en la deducción del objeto de inicio
 捕捉动物请求异常,6001,畜牧错误码,Excepción en la solicitud de captura de animales
 捕捉动物无效,6002,畜牧错误码,La captura de animales no es válida
-,2010000,,Vacío
 ,10001001,通用, OK
 ,10001002,通用, Cancelar
 ,10001003,通用, Confirmar
@@ -23,6 +22,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Recolectar Árbol de Deseos.
 ,10001017,通用, Árbol de Deseos de Granja.
 ,10001018,通用,Apertura
+,10001019,,No hay requisitos
+,10001020,, Nivel de habilidad
+,10001021,, Requerir
+,10001022,, Unirse
+,10001023,, El nivel de habilidad no es suficiente.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Recuperación de HP
 ,10004023,装备属性-攻击点数,Puntos de Ataque
@@ -129,7 +133,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,La cuerda está rota
 ,20050004,捕获超时,Tiempo de espera de captura agotado
 ,20050005,捕获过程道具不足,Falta de accesorios
-,20050006,,El número de mascotas alcanza el límite superior {0}.
+,20050006,, El número de mascotas alcanza el límite superior {0}.
 释放技能正在CD中,20060001,技能,Habilidad en enfriamiento
 ,20070001,登录,Sistema
 ,20070002,登录,Iniciando sesión
@@ -430,6 +434,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化, Los resultados de la lotería se le notificarán más tarde.
 ,20330008,装备强化, Felicidades {0} por mejorar {1} a {2}.
 ,20330009,, {0} ganó {1}{2} en la lotería de mejora de equipos.
+,20330010,, {0} ganó {1}{2} en la lotería del desafío de la torre
 ,20340001,百层试炼, El número restante de sorteos es insuficiente.
 ,20340002,百层试炼," Hoy no hay puntos, no se puede hacer un sorteo."
 ,20340003,百层试炼, Perdiendo en la lotería.

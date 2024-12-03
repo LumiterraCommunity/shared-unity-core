@@ -4,7 +4,6 @@ describe-string,id-int,module-string,value-string
 家园道具扣除异常,5003,家园错误码,Pengurangan item rumah tidak normal
 捕捉动物请求异常,6001,畜牧错误码,Permintaan menangkap haiwan terganggu
 捕捉动物无效,6002,畜牧错误码,Menangkap haiwan tidak sah
-,2010000,,Kosong
 ,10001001,通用,OK 
 ,10001002,通用,Batal 
 ,10001003,通用,Sahkan 
@@ -23,6 +22,11 @@ describe-string,id-int,module-string,value-string
 ,10001016,通用, Kumpulkan Pohon Permintaan.
 ,10001017,通用, Pohon Permintaan Ladang
 ,10001018,通用,Bukaan
+,10001019,,Tiada keperluan
+,10001020,, Tahap Keupayaan
+,10001021,, Memerlukan
+,10001022,, Sertai
+,10001023,, Tahap keupayaan tidak mencukupi.
 ,10004021,装备属性-生命上限,Max HP
 ,10004022,装备属性-生命恢复,Pemulihan HP
 ,10004023,装备属性-攻击点数,Mata Serangan
@@ -129,7 +133,7 @@ describe-string,id-int,module-string,value-string
 ,20050003,捕获绳子断开,Tali pancing patah
 ,20050004,捕获超时,Masa menangkap habis
 ,20050005,捕获过程道具不足,Kekurangan alat bantu
-,20050006,,Jumlah haiwan peliharaan mencapai had atas {0}.
+,20050006,, Bilangan haiwan kesayangan mencapai had atas {0}.
 释放技能正在CD中,20060001,技能,Kemahiran dalam CD
 ,20070001,登录,Sistem
 ,20070002,登录,Sedang log masuk
@@ -430,6 +434,7 @@ xx的yy,20220003,战报名称,[color=#F7CE3D]{0}[/color]'s [color=#F7CE3D]{1}[/c
 ,20330007,装备强化, Keputusan loteri akan dimaklumkan kepada anda kemudian
 ,20330008,装备强化, Tahniah {0} kerana mempertingkatkan {1} kepada {2}
 ,20330009,, {0} memenangi {1}{2} dalam loteri peningkatan peralatan.
+,20330010,, {0} memenangi {1}{2} dalam loteri cabaran menara
 ,20340001,百层试炼, Bilangan sisa tarikan tidak mencukupi
 ,20340002,百层试炼," Tiada mata hari ini, tidak boleh menarik"
 ,20340003,百层试炼, Kehilangan loteri
