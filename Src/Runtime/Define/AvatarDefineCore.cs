@@ -52,4 +52,12 @@ public static class AvatarDefineCore
         {TalentType.Farming, new Color(0.314f, 0.6f, 0.8f)},
         {TalentType.Gather, new Color(0.196f, 0.835f, 0.196f)},
     };
+
+    /// <summary>
+    /// 特殊装备无强化效果
+    /// </summary>
+    public static HashSet<int> EquipmentNotEnhanceEffect = new()
+    {
+        282,
+    };
 }
