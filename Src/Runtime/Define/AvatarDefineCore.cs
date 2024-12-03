@@ -59,5 +59,9 @@ public static class AvatarDefineCore
     public static HashSet<int> EquipmentNotEnhanceEffect = new()
     {
         282,
+        283,
+        284,
+        285,
+        286
     };
 }
