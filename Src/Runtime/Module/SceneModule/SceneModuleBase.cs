@@ -29,9 +29,27 @@ public class SceneModuleBase : MonoBehaviour
     }
 
     /// <summary>
+    /// 外部时序控制
+    /// </summary>
+    public void ReconnectionScene()
+    {
+        OnReconnectionScene();
+    }
+
+
+    /// <summary>
     /// 进入场景，这个时序已经可以和服务器通讯
     /// </summary>
     protected virtual void OnEnterScene()
+    {
+        //
+    }
+
+
+    /// <summary>
+    /// 重连进入场景
+    /// </summary>
+    protected virtual void OnReconnectionScene()
     {
         //
     }
