@@ -1,6 +1,6 @@
 [submodule "Thirdparty/GameFramework"]
 	path = Thirdparty/GameFramework
-	url = https://github.com/TheLandGame/GameFramework.git
+	url = git@github.com:TheLandGame/GameFramework.git
 [submodule "game-message-core"]
 	path = game-message-core
 	url = git@github.com:TheLandGame/game-message-core.git
