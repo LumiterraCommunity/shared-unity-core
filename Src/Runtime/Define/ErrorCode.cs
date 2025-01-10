@@ -30,6 +30,7 @@ public enum eErrorCode : int
     entityCDDataCoreNull = 0004003, //玩家角色数据为空
     playerRevivePointNull = 0004004, //玩家附近复活点为空
     playerReviveInBattle = 0004005,  //玩家在战斗中
+    playerReviveTeleportSystem = 0004006,  //玩家在传送系统错误
 
     homeCollectResourceNotExist = 0005001, //家园采集资源不存在
     homeActionNotSupport = 0005002, //家园操作不支持

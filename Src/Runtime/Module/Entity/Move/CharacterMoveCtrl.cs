@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using CMF;
 using UnityEngine;
+using UnityEngine.Networking;
 
 /// <summary>
 /// 用来控制角色控制器基础移动的基础移动组件 需要外部给出移动速度 自身有重力控制 业务层一般不直接使用 由CharacterDirectionMove和CharacterDistanceMove来控制移动速度
@@ -173,7 +174,7 @@ public class CharacterMoveCtrl : EntityBaseComponent
         Vector3 velocity = CurSpeed;
 
         //加重力
-        if (EnableGravity)
+        if (EnableGravity && GlobalConfigCore.EnableGravity)
         {
             velocity += Physics.gravity * Time.deltaTime;
         }
