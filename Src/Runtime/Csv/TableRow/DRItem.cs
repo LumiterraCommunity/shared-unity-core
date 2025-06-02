@@ -194,6 +194,15 @@ public class DRItem : DataRowBase
         private set;
     }
 
+    /// <summary>
+  /**获取wealthValue-int。*/
+    /// </summary>
+    public int WealthValue
+    {
+        get;
+        private set;
+    }
+
     public override bool ParseDataRow(string dataRowString, object userData)
     {
         string[] columnStrings = CSVSerializer.ParseCSVCol(dataRowString);
@@ -219,6 +228,7 @@ public class DRItem : DataRowBase
         Type = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UseLv = DataTableParseUtil.ParseInt(columnStrings[index++]);
         UserType = DataTableParseUtil.ParseInt(columnStrings[index++]);
+        WealthValue = DataTableParseUtil.ParseInt(columnStrings[index++]);
 
         return true;
     }
@@ -250,6 +260,7 @@ public class DRItem : DataRowBase
                 Type = binaryReader.Read7BitEncodedInt32();
                 UseLv = binaryReader.Read7BitEncodedInt32();
                 UserType = binaryReader.Read7BitEncodedInt32();
+                WealthValue = binaryReader.Read7BitEncodedInt32();
             }
         }
 
