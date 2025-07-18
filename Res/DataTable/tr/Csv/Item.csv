@@ -2727,7 +2727,7 @@ Gelişmiş Tarım Meydanı Mücadelesi için gereken biletler",0,0,item-icon-780
 -,"1,3,4",1, Paket Lv 8 satılık eşya,0,0,item-icon-799,799, Lv 8 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,8,1,72
 -,"1,3,4",1, Paket Lv 9 satılık eşya,0,0,item-icon-800,800, Lv 9 Ambalaj kutusu,0,1,,1,0,"1,2,3",999,0,4,9,1,81
 -,"1,3,4",1, Sonsuz parçalar ya Sonsuz Garantili Beyaz Liste ya da Şanslı Beyaz Liste oluşturabilir,0,0,item-icon-801,801, Sonsuz Parça,0,1,,1,0,"1,2,3",999,0,4,2,1,9
--,0,1, Lumi Resmi tarafından tanınma,0,0,item-icon-803,803, Lumi Madalyası,0,1,,1,0,"1,2,3",999,0,4,9,1,99999
+-,0,1, Lumi Resmi tarafından tanınma,0,0,item-icon-803,803, Lumi Madalyası,0,1,,1,0,"1,2,3",999,0,4,9,1,255555
 -,0,0, Ronin Lumi Oyun İçi Para Birimi,0,0,item-icon-805,805, RON,0,1,,0,0,"1,2,3",999,0,4,0,1,9
 -,"1,3,4",1," Liderlik Tablosu Ödülü.
 -------",1,0,item-icon-806,806, Savaş Malzemesi 0-3,0,1,407,1,0,"1,2,3",999,0,7,0,1,9
@@ -2806,9 +2806,9 @@ Seviye 0 ekipman yapımı için malzeme",1,0,item-icon-845,845, Lv 0 Tarımsal H
 "800,1","1,3,4",1, Acemi görevlerin tamamlanma kanıtı,0,0,item-icon-846,846,Yeni başlayanın madalyası - Savaş,0,1,,0,0,,999,0,4,0,1,9
 "800,1","1,3,4",1, Acemi görevlerin tamamlanma kanıtı,0,0,item-icon-847,847, Yeni başlayanın madalyası - Toplama,0,1,,0,0,,999,0,4,0,1,9
 "800,1","1,3,4",1, Acemi görevlerin tamamlanma kanıtı,0,0,item-icon-848,848, Yeni başlayanın madalyası - Tarım,0,1,,0,0,,999,0,4,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-849,849, Saç Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-850,850, Saç Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-851,851, Saç Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,9
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-849,849, Saç Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-850,850, Saç Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-851,851, Saç Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,25466
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-852,852, Saç Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-853,853, Saç Kostümü · Buz Savaşçısı,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-854,854, Kostüm · Tavuk başı,0,5,,1,0,,999,0,1,0,1,9
@@ -2831,18 +2831,18 @@ Seviye 0 ekipman yapımı için malzeme",1,0,item-icon-845,845, Lv 0 Tarımsal H
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-870,870, Kostüm · Köpekbalığı,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-871,871, Kostüm · Emzik,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-872,872, Kostüm · Saç Kurutma Makinesi,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-873,873, Ceket Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-874,874, Pantolon Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-875,875, Eldiven Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-876,876, Ayakkabı Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-877,877, Ceket Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-878,878, Pantolon Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-879,879, Eldiven Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-880,880, Ayakkabı Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-881,881, Ceket Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-882,882, Pantolon Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-883,883, Eldiven Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-884,884, Ayakkabı Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,9
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-873,873, Ceket Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-874,874, Pantolon Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-875,875, Eldiven Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-876,876, Ayakkabı Kostümü · Lava Fethedici,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-877,877, Ceket Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-878,878, Pantolon Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-879,879, Eldiven Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-880,880, Ayakkabı Kostümü · Hollow Fethedici,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-881,881, Ceket Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-882,882, Pantolon Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-883,883, Eldiven Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-884,884, Ayakkabı Kostümü · Antik Fethedici,0,5,,1,0,,999,0,1,0,1,25466
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-885,885, Ceket Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-886,886, Pantolon Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Moda olarak giymeyi öner,0,0,item-icon-887,887, Eldiven Kostümü · Işıltılı Şövalye,0,5,,1,0,,999,0,1,0,1,9
@@ -2903,14 +2903,14 @@ Seviye 0 ekipman yapımı için malzeme",1,0,item-icon-845,845, Lv 0 Tarımsal H
 -,"1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-946,946, Güçlendirme Taşı - Toplama,0,1,518,1,0,,999,0,4,0,1,3
 -,"1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-947,947, Güçlendirme Taşı - Tarım,0,1,519,1,0,,999,0,4,0,1,3
 "792,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-948,948, Seviye 1 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,1,1,3
-"793,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-949,949, Seviye 2 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,2,1,14
-"794,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-950,950, Seviye 3 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,3,1,36
-"795,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-951,951, Seviye 4 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,4,1,82
-"796,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-952,952, Seviye 5 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,5,1,176
-"797,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-953,953, Seviye 6 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,6,1,367
-"798,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-954,954, Seviye 7 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,7,1,758
-"799,1","1,3,4",1, Boş,1,0,item-icon-955,955, Seviye 8 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,8,1,1555
-"800,1","1,3,4",1, Boş,1,0,item-icon-956,956, Seviye 9 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,9,1,3183
+"793,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-949,949, Seviye 2 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,2,1,6
+"794,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-950,950, Seviye 3 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,3,1,9
+"795,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-951,951, Seviye 4 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,4,1,12
+"796,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-952,952, Seviye 5 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,5,1,15
+"797,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-953,953, Seviye 6 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,6,1,18
+"798,1","1,3,4",1, Güçlendirme başarısızlığı nedeniyle ekipmanınızın seviyesinin düşmesini önleyin.,1,0,item-icon-954,954, Seviye 7 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,7,1,21
+"799,1","1,3,4",1, Boş,1,0,item-icon-955,955, Seviye 8 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,8,1,24
+"800,1","1,3,4",1, Boş,1,0,item-icon-956,956, Seviye 9 Güçlendirme Koruyucu Taşı,0,1,,1,0,,999,0,4,9,1,27
 "794,1",0,1, Boş,0,584,item-icon-957,957, Totem A,0,1,,1,0,,999,0,8,0,1,3600
 "794,1",0,1, Boş,0,584,item-icon-958,958, Totem B,0,1,,1,0,,999,0,8,0,1,4200
 "794,1",0,1, Boş,0,584,item-icon-959,959, Totem C,0,1,,1,0,,999,0,8,0,1,5400

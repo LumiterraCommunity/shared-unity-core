@@ -2500,7 +2500,7 @@ Ingressos necessários para participar do Desafio de Agricultura Avançado",0,0,
 -,"1,3,4",1, Pacote Lv 8 item para vender,0,0,item-icon-799,799, Lv 8 Caixa de Embalagem,0,1,,1,0,"1,2,3",999,0,4,8,1,72
 -,"1,3,4",1, Pacote Lv 9 item para vender,0,0,item-icon-800,800, Lv 9 Caixa de Embalagem,0,1,,1,0,"1,2,3",999,0,4,9,1,81
 -,"1,3,4",1, Fragmentos eternos podem formar uma Lista Branca Garantida Eterna ou a Lista Branca da Sorte,0,0,item-icon-801,801, Fragmento Eterno,0,1,,1,0,"1,2,3",999,0,4,2,1,9
--,0,1, Reconhecimento da Lumi Oficial,0,0,item-icon-803,803, Medalha de Lumi,0,1,,1,0,"1,2,3",999,0,4,9,1,99999
+-,0,1, Reconhecimento da Lumi Oficial,0,0,item-icon-803,803, Medalha de Lumi,0,1,,1,0,"1,2,3",999,0,4,9,1,255555
 -,0,0, Moeda do jogo Ronin Lumi,0,0,item-icon-805,805, RON,0,1,,0,0,"1,2,3",999,0,4,0,1,9
 -,"1,3,4",1," Recompensa do Quadro de Líderes.
 -------
@@ -2596,9 +2596,9 @@ Um material para fazer equipamentos de nível 0 ",1,0,item-icon-844,844, Essênc
 "800,1","1,3,4",1, Prova de conclusão de tarefas de novato ,0,0,item-icon-846,846, Medalha de Novato - Combate,0,1,,0,0,,999,0,4,0,1,9
 "800,1","1,3,4",1, Prova de conclusão de tarefas de novato ,0,0,item-icon-847,847, Medalha de Novato - Coleta,0,1,,0,0,,999,0,4,0,1,9
 "800,1","1,3,4",1, Sugere usar como moda ,0,0,item-icon-848,848, Medalha de Novato - Agricultura,0,1,,0,0,,999,0,4,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-849,849, Fantasia de Cabelo · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-850,850, Fantasia de Cabelo · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-851,851, Fantasia de Cabelo · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,9
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-849,849, Fantasia de Cabelo · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-850,850, Fantasia de Cabelo · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-851,851, Fantasia de Cabelo · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,25466
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-852,852, Fantasia de Cabelo · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-853,853, Fantasia de Cabelo · Guerreiro da Geada,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-854,854, Fantasia · Cabeça de Galinha,0,5,,1,0,,999,0,1,0,1,9
@@ -2621,18 +2621,18 @@ Um material para fazer equipamentos de nível 0 ",1,0,item-icon-844,844, Essênc
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-870,870, Fantasia · Tubarão,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-871,871, Fantasia · Desentupidor,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-872,872, Fantasia · Secador de Cabelo,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-873,873, Casaco · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-874,874, Calças · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-875,875, Luvas · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-876,876, Sapatos · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-877,877, Casaco · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-878,878, Calças · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-879,879, Luvas · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-880,880, Sapatos · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-881,881, Casaco · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-882,882, Calças · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-883,883, Luvas · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Sugere usar como moda ,0,0,item-icon-884,884, Sapatos · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,9
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-873,873, Casaco · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-874,874, Calças · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-875,875, Luvas · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-876,876, Sapatos · Conquistador de Lava,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-877,877, Casaco · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-878,878, Calças · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-879,879, Luvas · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-880,880, Sapatos · Conquistador Oco,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-881,881, Casaco · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-882,882, Calças · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-883,883, Luvas · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Sugere usar como moda ,0,0,item-icon-884,884, Sapatos · Conquistador Antigo,0,5,,1,0,,999,0,1,0,1,25466
 "792,1",0,1, Sugere usar como moda ,0,0,item-icon-885,885, Casaco · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Sugere usar como moda,0,0,item-icon-886,886, Calças · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Eca..Cheira mal...,0,0,item-icon-887,887, Luvas · Cavaleiro Radiante,0,5,,1,0,,999,0,1,0,1,9
@@ -2693,14 +2693,14 @@ Um material para fazer equipamentos de nível 0 ",1,0,item-icon-844,844, Essênc
 -,"1,3,4",1, Aprimorar equipamento de coleta.,1,0,item-icon-946,946, Pedra de Aprimoramento - Coleta,0,1,518,1,0,,999,0,4,0,1,3
 -,"1,3,4",1, Aprimorar equipamento de agricultura.,1,0,item-icon-947,947, Pedra de Aprimoramento - Agricultura,0,1,519,1,0,,999,0,4,0,1,3
 "792,1","1,3,4",1,@@ Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-948,948,Lv 1 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,1,1,3
-"793,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-949,949, Lv 2 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,2,1,14
-"794,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-950,950, Lv 3 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,3,1,36
-"795,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-951,951, Lv 4 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,4,1,82
-"796,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-952,952, Lv 5 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,5,1,176
-"797,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-953,953, Lv 6 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,6,1,367
-"798,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-954,954, Lv 7 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,7,1,758
-"799,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-955,955, Lv 8 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,8,1,1555
-"800,1","1,3,4",1, Vazio,1,0,item-icon-956,956, Lv 9 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,9,1,3183
+"793,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-949,949, Lv 2 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,2,1,6
+"794,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-950,950, Lv 3 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,3,1,9
+"795,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-951,951, Lv 4 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,4,1,12
+"796,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-952,952, Lv 5 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,5,1,15
+"797,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-953,953, Lv 6 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,6,1,18
+"798,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-954,954, Lv 7 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,7,1,21
+"799,1","1,3,4",1, Proteja seu equipamento contra degradação devido a falha na melhoria,1,0,item-icon-955,955, Lv 8 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,8,1,24
+"800,1","1,3,4",1, Vazio,1,0,item-icon-956,956, Lv 9 Pedra Protetora de Aprimoramento,0,1,,1,0,,999,0,4,9,1,27
 "794,1",0,1, Vazio,0,584,item-icon-957,957, Totem A,0,1,,1,0,,999,0,8,0,1,3600
 "794,1",0,1, Vazio,0,584,item-icon-958,958, Totem B,0,1,,1,0,,999,0,8,0,1,4200
 "794,1",0,1, Vazio,0,584,item-icon-959,959, Totem C,0,1,,1,0,,999,0,8,0,1,5400
