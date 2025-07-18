@@ -3239,7 +3239,7 @@ Billets requis pour participer au défi de culture avancé
 -,"1,3,4",1,"Niveau 9 du paquet d'articles à vendre
 ",0,0,item-icon-800,800,Niveau 9 Boîte d'emballage,0,1,,1,0,"1,2,3",999,0,4,9,1,81
 -,"1,3,4",1,"Les fragments éternels peuvent former soit une liste blanche garantie éternelle, soit une liste blanche chanceuse.",0,0,item-icon-801,801,Fragment éternel,0,1,,1,0,"1,2,3",999,0,4,2,1,9
--,0,1,Reconnaissance de la part de Lumi Officiel,0,0,item-icon-803,803,Médaille de Lumi,0,1,,1,0,"1,2,3",999,0,4,9,1,99999
+-,0,1,Reconnaissance de la part de Lumi Officiel,0,0,item-icon-803,803,Médaille de Lumi,0,1,,1,0,"1,2,3",999,0,4,9,1,255555
 -,0,0,Ronin Lumi Monnaie en jeu,0,0,item-icon-805,805,RON,0,1,,0,0,"1,2,3",999,0,4,0,1,9
 -,"1,3,4",1," Récompense du classement.
 -------
@@ -3340,9 +3340,9 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
  ",0,0,item-icon-846,846, Médaille de débutant - Combat,0,1,,0,0,,999,0,4,0,1,9
 "800,1","1,3,4",1, Preuve de l'achèvement des tâches de novice,0,0,item-icon-847,847, Médaille de débutant - Collecte,0,1,,0,0,,999,0,4,0,1,9
 "800,1","1,3,4",1, Preuve de l'achèvement des tâches de novice,0,0,item-icon-848,848, Médaille de débutant - Agriculture,0,1,,0,0,,999,0,4,0,1,9
-"792,1",0,1, Preuve de l'achèvement des tâches de novice,0,0,item-icon-849,849,Costume de cheveux · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-850,850, Costume de cheveux · Conquérant creux,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-851,851, Costume de cheveux · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,9
+"792,1",0,1, Preuve de l'achèvement des tâches de novice,0,0,item-icon-849,849,Costume de cheveux · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-850,850, Costume de cheveux · Conquérant creux,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-851,851, Costume de cheveux · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,25466
 "792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-852,852, Costume de cheveux · Chevalier radieux,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-853,853, Costume de cheveux · Guerrier du gel,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Suggérer de le porter comme mode,0,0,item-icon-854,854, Costume · Tête de poulet,0,5,,1,0,,999,0,1,0,1,9
@@ -3365,18 +3365,18 @@ Il peut être utilisé pour fabriquer des équipements ou des objets.
 "792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-870,870, Costume · Requin,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-871,871, Costume · Ventouse,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-872,872, Costume · Sèche-cheveux,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-873,873, Costume de manteau · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-874,874, Costume de pantalon · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-875,875, Costume de gants · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-876,876, Costume de chaussures · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-877,877, Costume de manteau · Conquérant creux,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-878,878, Costume de pantalon · Conquérant creux,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-879,879, Costume de gants · Conquérant creux,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-880,880, Costume de chaussures · Conquérant creux,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-881,881, Costume de manteau · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-882,882, Costume de pantalon · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-883,883, Costume de gants · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,9
-"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-884,884, Costume de chaussures · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,9
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-873,873, Costume de manteau · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-874,874, Costume de pantalon · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-875,875, Costume de gants · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-876,876, Costume de chaussures · Conquérant de la lave,0,5,,1,0,,999,0,1,0,1,6069
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-877,877, Costume de manteau · Conquérant creux,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-878,878, Costume de pantalon · Conquérant creux,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-879,879, Costume de gants · Conquérant creux,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-880,880, Costume de chaussures · Conquérant creux,0,5,,1,0,,999,0,1,0,1,12448
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-881,881, Costume de manteau · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-882,882, Costume de pantalon · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-883,883, Costume de gants · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,25466
+"792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-884,884, Costume de chaussures · Conquérant ancien,0,5,,1,0,,999,0,1,0,1,25466
 "792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-885,885, Costume de manteau · Chevalier radieux,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-886,886, Costume de pantalon · Chevalier radieux,0,5,,1,0,,999,0,1,0,1,9
 "792,1",0,1, Suggérer de porter comme mode,0,0,item-icon-887,887, Costume de gants · Chevalier radieux,0,5,,1,0,,999,0,1,0,1,9
@@ -3438,14 +3438,14 @@ Boîte malodorante",1,0,item-icon-894,894, Boîte ouverte,0,1,,0,0,,999,0,4,0,1,
 -,"1,3,4",1, Vide ,1,0,item-icon-946,946, Pierre d'amélioration - Collecte,0,1,518,1,0,,999,0,4,0,1,3
 -,"1,3,4",1, Vide ,1,0,item-icon-947,947, Pierre d'amélioration - Agriculture,0,1,519,1,0,,999,0,4,0,1,3
 "792,1","1,3,4",1, Vide ,1,0,item-icon-948,948, Pierre protectrice d'amélioration de niveau 1,0,1,,1,0,,999,0,4,1,1,3
-"793,1","1,3,4",1, Vide ,1,0,item-icon-949,949, Pierre protectrice d'amélioration de niveau 2,0,1,,1,0,,999,0,4,2,1,14
-"794,1","1,3,4",1, Vide ,1,0,item-icon-950,950, Pierre protectrice d'amélioration de niveau 3,0,1,,1,0,,999,0,4,3,1,36
-"795,1","1,3,4",1, Vide ,1,0,item-icon-951,951, Pierre protectrice d'amélioration de niveau 4,0,1,,1,0,,999,0,4,4,1,82
-"796,1","1,3,4",1, Vide ,1,0,item-icon-952,952, Pierre protectrice d'amélioration de niveau 5,0,1,,1,0,,999,0,4,5,1,176
-"797,1","1,3,4",1, Vide ,1,0,item-icon-953,953, Pierre protectrice d'amélioration de niveau 6,0,1,,1,0,,999,0,4,6,1,367
-"798,1","1,3,4",1, Vide ,1,0,item-icon-954,954, Pierre protectrice d'amélioration de niveau 7,0,1,,1,0,,999,0,4,7,1,758
-"799,1","1,3,4",1, Vide ,1,0,item-icon-955,955, Pierre protectrice d'amélioration de niveau 8,0,1,,1,0,,999,0,4,8,1,1555
-"800,1","1,3,4",1, Vide ,1,0,item-icon-956,956, Pierre protectrice d'amélioration de niveau 9,0,1,,1,0,,999,0,4,9,1,3183
+"793,1","1,3,4",1, Vide ,1,0,item-icon-949,949, Pierre protectrice d'amélioration de niveau 2,0,1,,1,0,,999,0,4,2,1,6
+"794,1","1,3,4",1, Vide ,1,0,item-icon-950,950, Pierre protectrice d'amélioration de niveau 3,0,1,,1,0,,999,0,4,3,1,9
+"795,1","1,3,4",1, Vide ,1,0,item-icon-951,951, Pierre protectrice d'amélioration de niveau 4,0,1,,1,0,,999,0,4,4,1,12
+"796,1","1,3,4",1, Vide ,1,0,item-icon-952,952, Pierre protectrice d'amélioration de niveau 5,0,1,,1,0,,999,0,4,5,1,15
+"797,1","1,3,4",1, Vide ,1,0,item-icon-953,953, Pierre protectrice d'amélioration de niveau 6,0,1,,1,0,,999,0,4,6,1,18
+"798,1","1,3,4",1, Vide ,1,0,item-icon-954,954, Pierre protectrice d'amélioration de niveau 7,0,1,,1,0,,999,0,4,7,1,21
+"799,1","1,3,4",1, Vide ,1,0,item-icon-955,955, Pierre protectrice d'amélioration de niveau 8,0,1,,1,0,,999,0,4,8,1,24
+"800,1","1,3,4",1, Vide ,1,0,item-icon-956,956, Pierre protectrice d'amélioration de niveau 9,0,1,,1,0,,999,0,4,9,1,27
 "794,1",0,1, Vide ,0,584,item-icon-957,957, Totem A,0,1,,1,0,,999,0,8,0,1,3600
 "794,1",0,1, Vide ,0,584,item-icon-958,958, Totem B,0,1,,1,0,,999,0,8,0,1,4200
 "794,1",0,1, Vide ,0,584,item-icon-959,959, Totem C,0,1,,1,0,,999,0,8,0,1,5400
