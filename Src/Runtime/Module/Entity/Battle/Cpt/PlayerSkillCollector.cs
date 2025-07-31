@@ -27,12 +27,22 @@ public class PlayerSkillCollector : EntitySkillCollector
         //天赋树
         RefEntity.EntityEvent.TalentSkillUpdated += OnTalentSkillUpdated;
         RefEntity.EntityEvent.TalentSkillInited += OnTalentSkillInited;
+        RefEntity.EntityEvent.EntityDataInitFinish += CheckSkillCollector;
 
         //宠物跟随技能
         if (RefEntity.TryGetComponent(out PlayerPetMgrCore playerPetData))
         {
             playerPetData.PetFollow += OnPetFollow;
             playerPetData.PetUnFollow += OnPetUnFollow;
+
+        }
+        CheckSkillCollector();
+    }
+    public void CheckSkillCollector()
+    {
+        //宠物跟随技能
+        if (RefEntity.TryGetComponent(out PlayerPetMgrCore playerPetData))
+        {
             CheckPetSkill();
         }
 
@@ -46,13 +56,13 @@ public class PlayerSkillCollector : EntitySkillCollector
 
         InitCustomSkill();
     }
-
     protected override void OnDestroy()
     {
         if (RefEntity != null)
         {
             RefEntity.EntityEvent.TalentSkillUpdated -= OnTalentSkillUpdated;
             RefEntity.EntityEvent.TalentSkillInited -= OnTalentSkillInited;
+            RefEntity.EntityEvent.EntityDataInitFinish -= CheckSkillCollector;
 
             if (RefEntity.TryGetComponent(out PlayerPetMgrCore playerPetData))
             {
@@ -261,4 +271,6 @@ public class PlayerSkillCollector : EntitySkillCollector
     {
         EntitySkillDataCore.AddSkillGroupID(eSkillGroupType.General, (int)eSkillId.TotemTp);
     }
+
+
 }
